@@ -1,0 +1,14 @@
+[ {
+  "bookDepreciationSetting" : {
+    "depreciationCalculationMethod" : "STRING",
+    "depreciableObjectId" : null,
+    "identifier" : "STRING",
+    "depreciationMethod" : "STRING"
+  },
+  "v_taxDepreciationSettings" : "ARRAY",
+  "assetTypeName" : "STRING",
+  "locks" : "INT",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "uuid" : "STRING",
+  "recordId" : "STRING"
+} ]

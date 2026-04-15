@@ -1,0 +1,15 @@
+{
+  "averageStarRating" : "INT",
+  "identifier" : "STRING",
+  "numberOfUserReviews" : "INT",
+  "v_starRatingDistribution" : {
+    "2" : "INT",
+    "4" : "INT",
+    "cache_hit" : true,
+    "3" : "INT",
+    "5" : "INT",
+    "v_1" : "INT"
+  },
+  "numberOfUserRecommendations_data" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT"
+}

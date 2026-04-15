@@ -1,0 +1,18 @@
+{
+  "v_content" : [ {
+    "customerCountry_data" : "PII_LOCATION_COUNTRY",
+    "primaryKey" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "articleId" : "",
+    "description" : "STRING",
+    "recommend" : "BOOLEAN",
+    "reviewId" : "STRING",
+    "helpfulCount" : "INT",
+    "unhelpfulCount" : "INT",
+    "articleSizeRatings" : {
+      "SHOE_WIDTH" : "INT",
+      "OVERALL" : "INT"
+    },
+    "customerCity" : "PII_LOCATION_CITY"
+  } ]
+}

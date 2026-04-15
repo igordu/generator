@@ -1,0 +1,82 @@
+{
+  "total" : "INT",
+  "v_offset" : "INT",
+  "href" : "STRING",
+  "next" : "STRING",
+  "prev" : "STRING",
+  "limit" : "INT",
+  "transactions" : [ {
+    "totalFeeAmount" : {
+      "value" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "transactionMemo" : "STRING",
+    "identifier" : "STRING",
+    "page_index" : 771,
+    "v_amount" : {
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency_data" : "STRING",
+      "exchangeRate_data" : "STRING",
+      "value" : "STRING",
+      "currency" : "STRING"
+    },
+    "buyer_data" : {
+      "discount_rate" : 642.89,
+      "username" : "PII_USERNAME"
+    },
+    "feeJurisdiction" : {
+      "system_ping_ms" : 1527,
+      "regionType" : "STRING",
+      "regionName" : "STRING"
+    },
+    "transactionType" : "STRING",
+    "transactionId" : "STRING",
+    "paymentsEntity" : "STRING",
+    "v_salesRecordReference" : "STRING",
+    "orderLineItems" : [ {
+      "v_feeBasisAmount" : {
+        "v_convertedFromCurrency" : "STRING",
+        "exchangeRate" : "STRING",
+        "currency" : "STRING",
+        "conversion_rate" : 271.92,
+        "v_convertedFromValue" : "STRING",
+        "value_data" : "STRING"
+      },
+      "lineItemId" : "STRING",
+      "marketplaceFees" : [ {
+        "v_feeType" : "STRING",
+        "amount" : {
+          "has_discount" : false,
+          "v_convertedFromValue" : "STRING",
+          "currency" : "STRING",
+          "v_convertedFromCurrency" : "STRING"
+        }
+      } ]
+    } ],
+    "v_transactionDate" : "DATETIME",
+    "v_feeType" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "exchangeRate" : "NULL",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "convertedFromValue" : "NULL",
+      "value_data" : "STRING"
+    },
+    "payoutId" : "",
+    "references" : [ {
+      "referenceId" : "STRING"
+    } ],
+    "totalFeeBasisAmount" : {
+      "convertedFromValue" : "NULL",
+      "v_value" : "STRING",
+      "exchangeRate" : "STRING",
+      "page_index" : 1070,
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "bookingEntry" : "STRING",
+    "transactionStatus" : "STRING"
+  } ]
+}

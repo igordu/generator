@@ -1,0 +1,63 @@
+{
+  "v_description" : "STRING",
+  "v_metadataCatalogConfig" : {
+    "glueDataCatalog" : {
+      "roleArn_data" : "STRING",
+      "auto_renew" : false,
+      "databaseName" : "",
+      "tablePrefix" : "STRING"
+    },
+    "is_deleted" : false
+  },
+  "triggerConfig_data" : {
+    "triggerType" : "STRING",
+    "triggerProperties" : {
+      "is_active" : true,
+      "Scheduled" : {
+        "scheduleOffset" : "INT",
+        "scheduleExpression" : "STRING",
+        "scheduleEndTime" : "DATETIME",
+        "dataPullMode" : "STRING",
+        "timezone" : "STRING",
+        "flowErrorDeactivationThreshold" : "INT",
+        "scheduleStartTime" : "DATETIME",
+        "v_firstExecutionFrom" : "DATETIME"
+      }
+    },
+    "conversion_rate" : 328.95
+  },
+  "v_kmsArn" : "STRING",
+  "item_count" : 2277,
+  "tags" : {
+    "property1" : "STRING",
+    "price" : 962.7
+  },
+  "tasks" : [ {
+    "taskType" : "STRING",
+    "v_taskProperties" : {
+      "property1" : "STRING",
+      "requires_update" : false
+    },
+    "sourceFields" : "ARRAY",
+    "destinationField" : "STRING",
+    "v_connectorOperator" : {
+      "InforNexus" : "STRING",
+      "v_Zendesk" : "STRING",
+      "CustomConnector" : "STRING",
+      "Amplitude" : "STRING",
+      "Dynatrace_data" : "STRING",
+      "Trendmicro_data" : "STRING",
+      "Marketo" : "NULL",
+      "ServiceNow" : "STRING",
+      "v_S3" : "STRING",
+      "Salesforce_data" : null,
+      "GoogleAnalytics" : "STRING",
+      "Veeva" : "STRING",
+      "Pardot" : "STRING",
+      "v_Singular" : "NULL",
+      "v_Slack" : "STRING"
+    }
+  } ],
+  "clientToken" : "STRING",
+  "name_val" : "STRING"
+}

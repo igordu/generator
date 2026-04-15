@@ -1,0 +1,16 @@
+{
+  "numberOfUserRecommendations_data" : "INT",
+  "averageStarRating" : "INT",
+  "starRatingDistribution" : {
+    "1_data" : "INT",
+    "5" : "INT",
+    "2" : "INT",
+    "3_data" : "NULL",
+    "is_active" : false,
+    "4" : "INT"
+  },
+  "cpu_usage_percent" : 349.15,
+  "v_numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserReviews" : "INT",
+  "primaryKey" : "STRING"
+}

@@ -1,0 +1,60 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "limit" : "INT",
+    "offset" : "INT",
+    "transactions_data" : [ {
+      "salesRecordReference" : "STRING",
+      "totalFeeBasisAmount" : {
+        "currency" : "STRING",
+        "exchangeRate" : "STRING",
+        "value_data" : "STRING",
+        "price" : 826.4,
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      },
+      "transactionDate" : "DATETIME",
+      "paymentsEntity" : "STRING",
+      "buyer" : {
+        "price" : 217.72,
+        "clientName" : "PII_USERNAME"
+      },
+      "transactionType" : "STRING",
+      "orderId" : "STRING",
+      "references" : [ {
+        "referenceType" : ""
+      } ],
+      "eBayCollectedTaxAmount" : {
+        "convertedFromCurrency" : "STRING",
+        "currency" : "STRING",
+        "value" : "STRING",
+        "price" : 363.72
+      },
+      "transactionId" : null,
+      "v_totalFeeAmount" : {
+        "v_currency" : "STRING",
+        "convertedFromCurrency_data" : "STRING",
+        "exchangeRate" : "STRING",
+        "value" : "STRING",
+        "retry_attempts" : 657,
+        "convertedFromValue" : "STRING"
+      },
+      "amount" : {
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate_data" : "STRING",
+        "v_convertedFromValue" : "STRING"
+      },
+      "transactionMemo" : null,
+      "payoutId" : "STRING",
+      "v_feeType" : null
+    } ],
+    "next" : "STRING",
+    "v_total" : "INT",
+    "prev" : "STRING",
+    "href" : "STRING"
+  }
+}

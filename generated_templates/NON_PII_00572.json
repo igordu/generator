@@ -1,0 +1,35 @@
+[ {
+  "insight" : {
+    "discount_rate" : 482.05,
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "v_self" : "URL",
+  "style" : "STRING",
+  "id" : "STRING",
+  "name" : "STRING",
+  "key" : "STRING",
+  "simplified" : "BOOLEAN"
+}, {
+  "v_style" : "STRING",
+  "v_insight" : {
+    "lastIssueUpdateTime" : ""
+  },
+  "fullName" : "STRING",
+  "id" : "STRING",
+  "has_discount" : true,
+  "avatarUrls" : {
+    "32x32" : "URL",
+    "48x48" : "URL",
+    "24x24" : null,
+    "16x16_data" : "URL",
+    "system_ping_ms" : 3898
+  },
+  "projectCategory" : {
+    "self" : "URL",
+    "description" : "STRING",
+    "id" : "STRING",
+    "name_val" : "STRING"
+  },
+  "simplified" : "BOOLEAN",
+  "self" : "URL"
+} ]

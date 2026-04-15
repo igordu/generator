@@ -1,0 +1,14 @@
+{
+  "status_data" : "STRING",
+  "id" : "STRING",
+  "customer" : "STRING",
+  "fullName" : "",
+  "name_val" : "PII_PERSON_NAME",
+  "routing_number" : "STRING",
+  "account_holder_type_data" : "STRING",
+  "account_type" : "",
+  "currency" : "STRING",
+  "object" : "STRING",
+  "country" : "STRING",
+  "metadata" : "OBJECT"
+}

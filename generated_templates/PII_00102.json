@@ -1,0 +1,62 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "userId" : "STRING",
+    "v_accountType" : "STRING",
+    "is_active" : true,
+    "businessAccount" : {
+      "retry_attempts" : 1163,
+      "website_data" : "URL",
+      "mobile" : {
+        "requires_update" : false,
+        "v_countryCode" : "NULL",
+        "phoneType" : "STRING",
+        "number" : "PII_PHONE_NUMBER"
+      },
+      "secondaryPhone" : {
+        "countryCode" : "STRING",
+        "phoneType" : "STRING",
+        "number" : "PII_PHONE_NUMBER"
+      },
+      "name" : "PII_ORGANIZATION_NAME",
+      "primaryContact" : {
+        "lastName" : "PII_PERSON_NAME",
+        "retry_attempts" : 3276,
+        "clientName" : "PII_PERSON_NAME"
+      },
+      "email" : "PII_EMAIL",
+      "doingBusinessAs" : "NULL",
+      "address_data" : {
+        "addressLine2" : "STRING",
+        "v_stateOrProvince" : "STRING",
+        "item_count" : 3388,
+        "addressLine1" : "STRING",
+        "postalCode" : "STRING",
+        "county" : "STRING",
+        "country" : "STRING"
+      }
+    },
+    "identifier" : "STRING",
+    "individualAccount" : {
+      "contactEmail" : "PII_EMAIL",
+      "lastName" : "PII_PERSON_NAME",
+      "contactNumber" : {
+        "cell" : "STRING",
+        "v_number" : "PII_PHONE_NUMBER"
+      },
+      "registrationAddress" : {
+        "v_addressLine1" : "STRING",
+        "city_data" : "STRING",
+        "postalCode" : "STRING",
+        "country" : "STRING",
+        "county" : "STRING",
+        "v_stateOrProvince" : "",
+        "addressLine2_data" : "STRING"
+      },
+      "auto_renew" : true,
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "clientName" : "PII_USERNAME"
+  }
+}

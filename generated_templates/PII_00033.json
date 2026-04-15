@@ -1,0 +1,22 @@
+{
+  "v_content" : [ {
+    "description" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "v_recommend" : "BOOLEAN",
+    "price" : 968.05,
+    "reviewId" : "STRING",
+    "language" : "STRING",
+    "helpfulCount_data" : "INT",
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "articleSizeRatings" : {
+      "temperature_c" : 591.54,
+      "OVERALL" : "INT"
+    },
+    "created" : "DATETIME",
+    "rating" : "INT",
+    "articleModelId" : "STRING",
+    "uuid" : "STRING",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_unhelpfulCount" : "INT"
+  } ]
+}

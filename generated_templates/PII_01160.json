@@ -1,0 +1,48 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "public_gists" : "INT",
+    "twitter_username" : "STRING",
+    "events_url" : "URL",
+    "owned_private_repos" : "NULL",
+    "v_company" : "PII_ORGANIZATION_NAME",
+    "disk_usage" : "INT",
+    "node_id" : "NULL",
+    "two_factor_authentication" : "BOOLEAN",
+    "following_url" : "URL",
+    "subscriptions_url" : "URL",
+    "v_created_at" : "DATETIME",
+    "public_repos" : "INT",
+    "received_events_url" : "URL",
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "starred_url_data" : "URL",
+    "recordId" : "INT",
+    "repos_url" : "URL",
+    "private_gists" : "NULL",
+    "updated_at" : "DATETIME",
+    "collaborators" : "INT",
+    "total_private_repos_data" : "INT",
+    "location_data" : "PII_LOCATION_CITY",
+    "followers" : "INT",
+    "hireable" : "BOOLEAN",
+    "gists_url" : "URL",
+    "site_admin_data" : "BOOLEAN",
+    "followers_url" : "URL",
+    "following_data" : "INT",
+    "url" : "URL",
+    "organizations_url" : "URL",
+    "plan" : {
+      "item_count" : 3502,
+      "space" : "INT",
+      "private_repos_data" : "INT",
+      "collaborators" : ""
+    },
+    "bio_data" : "PII_ORGANIZATION_NAME",
+    "type" : "STRING",
+    "blog" : "URL"
+  }
+}

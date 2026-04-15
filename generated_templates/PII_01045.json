@@ -1,0 +1,16 @@
+{
+  "account_holder_name" : "PII_PERSON_NAME",
+  "v_fingerprint" : "STRING",
+  "bank_name" : "STRING",
+  "account_holder_type" : "STRING",
+  "is_deleted" : true,
+  "id" : "STRING",
+  "routing_number_data" : "STRING",
+  "status" : "STRING",
+  "v_country" : "STRING",
+  "v_currency" : null,
+  "customer_data" : "STRING",
+  "last4" : "STRING",
+  "account_type" : "STRING",
+  "metadata_data" : "OBJECT"
+}

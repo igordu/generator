@@ -1,0 +1,5 @@
+{
+  "retry_attempts" : 4376,
+  "emailAddressStatus" : [ "STRING" ],
+  "contactEmail" : "PII_EMAIL"
+}

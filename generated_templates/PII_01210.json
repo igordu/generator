@@ -1,0 +1,77 @@
+[ {
+  "comments_url" : "URL",
+  "v_sha" : "STRING",
+  "node_id" : "STRING",
+  "author" : {
+    "received_events_url" : "URL",
+    "v_organizations_url" : "URL",
+    "starred_url" : "URL",
+    "url" : "URL",
+    "repos_url" : "URL",
+    "avatar_url" : "URL",
+    "id" : "INT",
+    "following_url" : "URL",
+    "login" : "STRING",
+    "events_url" : "URL",
+    "v_followers_url" : "URL",
+    "gravatar_id" : "STRING",
+    "site_admin_data" : "BOOLEAN",
+    "gists_url" : "URL",
+    "uuid" : "STRING",
+    "type" : "STRING",
+    "response_time_sec" : 319.69,
+    "v_html_url" : "URL",
+    "subscriptions_url" : "URL"
+  },
+  "html_url_data" : "URL",
+  "url" : "URL",
+  "commit" : {
+    "verification" : {
+      "verified_at" : "NULL",
+      "v_payload" : "STRING",
+      "signature" : "STRING",
+      "verified_data" : "BOOLEAN",
+      "price" : 812.97,
+      "reason_data" : "STRING"
+    },
+    "committer" : {
+      "contactEmail" : "PII_EMAIL",
+      "date" : "DATETIME",
+      "name_val" : "PII_PERSON_NAME"
+    },
+    "url" : "URL",
+    "author" : {
+      "name" : "PII_PERSON_NAME",
+      "date" : "DATETIME",
+      "email" : "PII_EMAIL",
+      "response_time_sec" : 870.7
+    },
+    "comment_count" : "INT",
+    "has_discount" : true,
+    "message" : "PII_COMPANY_NAME"
+  },
+  "committer" : {
+    "v_starred_url" : "URL",
+    "v_organizations_url" : "URL",
+    "following_url" : "URL",
+    "id" : "INT",
+    "events_url_data" : "URL",
+    "received_events_url_data" : "URL",
+    "repos_url" : "URL",
+    "is_deleted" : true,
+    "type" : "STRING",
+    "followers_url_data" : "URL",
+    "v_login" : "STRING",
+    "site_admin" : "BOOLEAN",
+    "recordId" : "STRING",
+    "gists_url" : "URL",
+    "v_url" : "URL",
+    "gravatar_id" : "STRING",
+    "v_avatar_url" : "URL"
+  },
+  "parents" : [ {
+    "url" : "URL",
+    "sha" : "STRING",
+    "auto_renew" : false
+  } ]
+} ]

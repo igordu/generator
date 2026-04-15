@@ -1,0 +1,39 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "ProviderName" : "STRING",
+      "primaryKey" : "STRING",
+      "price" : 270.24,
+      "DateTimeUTC" : "DATETIME",
+      "Employees" : [ {
+        "LastName" : "PII_PERSON_LAST_NAME",
+        "Status" : "STRING",
+        "UpdatedDateUTC" : "DATETIME",
+        "ExternalLink" : {
+          "temperature_c" : 579.92,
+          "Description" : "STRING",
+          "Url" : "URL"
+        },
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "EmployeeID" : "STRING"
+      }, {
+        "Status_data" : "STRING",
+        "conversion_rate" : 467.09,
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "LastName" : "PII_PERSON_LAST_NAME",
+        "ExternalLink" : {
+          "Url" : "URL",
+          "v_Description" : "STRING"
+        },
+        "EmployeeID" : "STRING"
+      }, {
+        "EmployeeID" : "STRING",
+        "LastName" : "PII_PERSON_LAST_NAME",
+        "Status" : "STRING",
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "v_UpdatedDateUTC" : "DATETIME"
+      } ],
+      "Status" : "STRING"
+    }
+  }
+}

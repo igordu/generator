@@ -1,0 +1,9 @@
+{
+  "modelId" : null,
+  "id" : "STRING",
+  "shopUrl" : "URL",
+  "media" : {
+    "cpu_usage_percent" : 439.78
+  },
+  "name" : "STRING"
+}

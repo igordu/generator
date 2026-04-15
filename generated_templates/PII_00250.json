@@ -1,0 +1,46 @@
+{
+  "next" : "STRING",
+  "total" : "INT",
+  "v_offset" : "INT",
+  "prev_data" : "STRING",
+  "transactions" : [ {
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "payoutId" : "STRING",
+    "transactionId" : "STRING",
+    "orderId" : "STRING",
+    "salesRecordReference_data" : "STRING",
+    "transactionMemo" : "STRING",
+    "feeJurisdiction" : {
+      "clientName" : ""
+    },
+    "totalFeeBasisAmount" : {
+      "currency_data" : "STRING",
+      "auto_renew" : false,
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate_data" : "STRING",
+      "v_convertedFromValue" : "STRING",
+      "value" : "STRING"
+    },
+    "transactionType" : "STRING",
+    "paymentsEntity" : "STRING",
+    "v_transactionDate" : "DATETIME",
+    "feeType" : "STRING",
+    "transactionStatus" : "STRING",
+    "references_data" : [ {
+      "uuid" : "STRING",
+      "referenceType" : "STRING"
+    } ],
+    "bookingEntry_data" : "STRING",
+    "v_totalFeeAmount" : {
+      "value_data" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "exchangeRate_data" : "STRING",
+      "convertedFromValue" : "STRING"
+    }
+  } ],
+  "limit" : null,
+  "href" : "STRING"
+}

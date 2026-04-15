@@ -1,0 +1,5 @@
+{
+  "emailAddressStatus" : [ "STRING" ],
+  "emailAddress" : "PII_EMAIL",
+  "response_time_sec" : 793.92
+}

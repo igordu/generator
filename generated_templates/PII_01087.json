@@ -1,0 +1,14 @@
+{
+  "object_data" : "STRING",
+  "country_data" : "STRING",
+  "account_holder_type" : "NULL",
+  "v_currency" : "STRING",
+  "v_account_type" : "",
+  "customer" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "routing_number_data" : "STRING",
+  "clientName" : "STRING",
+  "metadata" : "OBJECT",
+  "v_last4" : "STRING",
+  "status" : "STRING"
+}

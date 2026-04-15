@@ -1,0 +1,30 @@
+{
+  "system_state" : {
+    "event_data" : {
+      "debug_payload" : {
+        "v_content" : [ {
+          "language" : "STRING",
+          "articleSizeRatings" : {
+            "OVERALL" : "INT",
+            "SHOE_WIDTH" : "INT",
+            "has_discount" : true
+          },
+          "unhelpfulCount" : "INT",
+          "customerCity" : "PII_LOCATION_CITY",
+          "articleModelId" : "STRING",
+          "primaryKey" : "STRING",
+          "articleId" : "STRING",
+          "v_helpfulCount" : "INT",
+          "recommend" : "BOOLEAN",
+          "v_customerCountry" : "PII_LOCATION_COUNTRY",
+          "description" : "NULL",
+          "v_created" : "DATETIME",
+          "page_index" : 1161,
+          "title" : "PII_COMPANY_NAME",
+          "v_rating" : "INT"
+        } ],
+        "conversion_rate" : 733.67
+      }
+    }
+  }
+}

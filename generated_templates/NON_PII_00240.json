@@ -1,0 +1,46 @@
+[ {
+  "v_facets" : [ {
+    "count_data" : "INT",
+    "key" : "STRING",
+    "price" : 409.01,
+    "displayName" : "STRING"
+  }, {
+    "v_count" : "INT",
+    "temperature_c" : 649.23,
+    "displayName" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "retry_attempts" : 2198,
+    "name_val" : "NULL",
+    "key" : null,
+    "count" : "INT"
+  }, {
+    "page_index" : 2050,
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count_data" : "INT"
+  }, {
+    "count" : "INT",
+    "key" : "STRING"
+  } ]
+}, {
+  "discount_rate" : 604.87,
+  "filter" : "STRING",
+  "facets" : [ {
+    "count" : "INT",
+    "response_time_sec" : 553.59,
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "userName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "system_ping_ms" : 2883,
+    "key" : "STRING",
+    "count" : "INT"
+  } ]
+} ]

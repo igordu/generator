@@ -1,0 +1,21 @@
+{
+  "shopUrl" : "URL",
+  "identifier" : "STRING",
+  "name" : "STRING",
+  "modelId" : "STRING",
+  "response_time_sec" : 675.75,
+  "media" : {
+    "item_count" : 1765,
+    "images" : [ {
+      "smallUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "orderNumber" : "INT",
+      "page_index" : 155,
+      "largeUrl" : "URL",
+      "mediumUrl_data" : "URL",
+      "v_type" : "STRING"
+    } ]
+  }
+}

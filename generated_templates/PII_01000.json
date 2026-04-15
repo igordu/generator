@@ -1,0 +1,17 @@
+{
+  "system_ping_ms" : 2352,
+  "currency" : "STRING",
+  "country" : "NULL",
+  "v_customer" : "STRING",
+  "fingerprint_data" : "STRING",
+  "account_type" : "STRING",
+  "last4" : "STRING",
+  "object" : "STRING",
+  "status_data" : "",
+  "metadata" : "OBJECT",
+  "account_holder_type" : "STRING",
+  "recordId" : "STRING",
+  "routing_number" : "STRING",
+  "bank_name" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME"
+}

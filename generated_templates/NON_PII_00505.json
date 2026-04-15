@@ -1,0 +1,26 @@
+[ {
+  "id" : "STRING",
+  "projectCategory" : {
+    "id" : "STRING",
+    "description_data" : "STRING",
+    "fullName" : "STRING",
+    "discount_rate" : 600.24,
+    "self" : "URL"
+  },
+  "name" : "STRING",
+  "http_status" : 4447,
+  "style" : "NULL",
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME",
+    "cpu_usage_percent" : 473.4
+  },
+  "avatarUrls_data" : {
+    "32x32" : "URL",
+    "16x16" : "URL",
+    "v_24x24" : "",
+    "48x48" : "URL"
+  },
+  "key" : "STRING",
+  "simplified" : "BOOLEAN"
+} ]

@@ -1,0 +1,19 @@
+{
+  "uuid" : null,
+  "shopUrl" : "NULL",
+  "media" : {
+    "images" : [ {
+      "orderNumber_data" : "INT",
+      "largeHdUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "type" : "STRING",
+      "smallUrl" : "URL",
+      "response_time_sec" : 90.25,
+      "mediumHdUrl" : "URL"
+    } ],
+    "item_count" : 584
+  },
+  "name" : "STRING",
+  "modelId" : "STRING"
+}

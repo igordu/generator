@@ -1,0 +1,46 @@
+[ {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "key_data" : "STRING",
+    "temperature_c" : 937.5
+  }, {
+    "displayName" : "STRING",
+    "discount_rate" : 737.37,
+    "key" : "STRING",
+    "count" : null
+  } ],
+  "filter" : "NULL"
+}, {
+  "filter" : "STRING",
+  "item_count" : 3977,
+  "facets" : [ {
+    "auto_renew" : false,
+    "count_data" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "has_discount" : false,
+    "count" : "INT"
+  } ]
+}, {
+  "facets" : [ {
+    "priority_level" : 3385,
+    "key" : ""
+  }, {
+    "key" : "STRING",
+    "item_count" : 3321,
+    "count" : "INT",
+    "name_val" : "STRING"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  } ],
+  "filter" : "STRING"
+} ]

@@ -1,0 +1,13 @@
+{
+  "v_metadata" : "OBJECT",
+  "routing_number" : "STRING",
+  "currency" : "STRING",
+  "last4" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "account_holder_type" : "STRING",
+  "customer" : "STRING",
+  "object" : "STRING",
+  "status" : "STRING",
+  "account_type" : "STRING",
+  "clientName" : "STRING"
+}

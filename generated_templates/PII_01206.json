@@ -1,0 +1,77 @@
+[ {
+  "commit" : {
+    "is_deleted" : true,
+    "committer_data" : {
+      "email" : "PII_EMAIL",
+      "date" : "DATETIME",
+      "name" : "PII_PERSON_NAME"
+    },
+    "v_url" : null,
+    "verification" : {
+      "signature" : "STRING",
+      "reason" : "STRING",
+      "verified_at" : "DATETIME",
+      "payload" : "STRING"
+    },
+    "message" : "PII_COMPANY_NAME",
+    "v_author" : {
+      "email" : "PII_EMAIL",
+      "date" : "DATETIME",
+      "fullName" : "PII_PERSON_NAME",
+      "auto_renew" : true
+    },
+    "comment_count" : "INT",
+    "tree_data" : {
+      "v_url" : "URL",
+      "sha" : "NULL"
+    }
+  },
+  "parents" : [ {
+    "sha" : "STRING",
+    "v_url" : "URL"
+  } ],
+  "html_url" : "URL",
+  "node_id" : "STRING",
+  "author" : {
+    "v_html_url" : "",
+    "followers_url" : "",
+    "received_events_url" : "URL",
+    "events_url" : "URL",
+    "has_discount" : true,
+    "starred_url" : "URL",
+    "login" : "STRING",
+    "organizations_url" : "URL",
+    "primaryKey" : "INT",
+    "avatar_url" : "URL",
+    "gravatar_id" : null,
+    "following_url" : "URL",
+    "url" : "URL",
+    "v_site_admin" : "BOOLEAN",
+    "repos_url" : "URL",
+    "node_id" : "",
+    "gists_url_data" : "URL",
+    "v_type" : "STRING"
+  },
+  "system_ping_ms" : 4051,
+  "sha_data" : "STRING",
+  "committer" : {
+    "v_following_url" : "URL",
+    "node_id" : "STRING",
+    "gists_url" : null,
+    "organizations_url" : "URL",
+    "gravatar_id" : "STRING",
+    "v_received_events_url" : "URL",
+    "type" : "STRING",
+    "avatar_url" : "URL",
+    "uuid" : "INT",
+    "v_starred_url" : "URL",
+    "events_url" : "URL",
+    "followers_url" : "",
+    "url" : "URL",
+    "html_url_data" : "URL",
+    "login" : "STRING",
+    "subscriptions_url" : "URL"
+  },
+  "comments_url" : "URL",
+  "url" : null
+} ]

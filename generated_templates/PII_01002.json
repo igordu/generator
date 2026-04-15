@@ -1,0 +1,15 @@
+{
+  "status" : "STRING",
+  "last4" : "STRING",
+  "object" : "STRING",
+  "name_val" : "STRING",
+  "id" : "STRING",
+  "customer" : "STRING",
+  "metadata" : "OBJECT",
+  "currency" : "STRING",
+  "country" : "STRING",
+  "fingerprint" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "v_account_holder_type" : "STRING",
+  "account_type_data" : "STRING"
+}

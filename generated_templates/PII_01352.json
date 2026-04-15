@@ -1,0 +1,12 @@
+{
+  "v_user_info" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "clientName" : "PII_LAST_NAME_MALE",
+    "name_val" : "PII_COMPANY_NAME"
+  },
+  "v_tree" : {
+    "sha" : "STRING",
+    "url" : "URL"
+  },
+  "active" : "BOOLEAN"
+}

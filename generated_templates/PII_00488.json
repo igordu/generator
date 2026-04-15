@@ -1,0 +1,38 @@
+{
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "uuid" : "STRING",
+  "name" : [ {
+    "v_given" : [ "PII_PERSON_FIRST_NAME" ],
+    "priority_level" : 4703,
+    "use_data" : "STRING",
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "address" : [ {
+    "city_data" : "PII_LOCATION_CITY",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "page_index" : 1701
+  } ],
+  "meta" : {
+    "versionId" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "resourceType" : "STRING",
+  "gender" : "STRING",
+  "telecom" : [ {
+    "value" : "PII_EMAIL"
+  }, {
+    "value" : "PII_PHONE_NUMBER",
+    "use_data" : "STRING",
+    "v_system" : "STRING"
+  } ],
+  "identifier" : [ {
+    "v_type" : {
+      "is_deleted" : false,
+      "text" : "STRING"
+    },
+    "value" : "PII_NATIONAL_ID",
+    "system" : "URL",
+    "discount_rate" : 233.56
+  } ]
+}

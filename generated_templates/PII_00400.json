@@ -1,0 +1,42 @@
+{
+  "v_resourceType" : "STRING",
+  "telecom_data" : [ {
+    "price" : 831.84,
+    "value" : "PII_EMAIL",
+    "system" : "STRING"
+  }, {
+    "value" : "PII_PHONE_NUMBER",
+    "use" : "STRING",
+    "priority_level" : 3037,
+    "system" : "STRING"
+  } ],
+  "identifier" : [ {
+    "value_data" : "PII_NATIONAL_ID",
+    "v_system" : "URL",
+    "type" : {
+      "text" : "STRING"
+    },
+    "use_data" : "STRING"
+  } ],
+  "meta" : {
+    "lastUpdated" : "DATETIME",
+    "cache_hit" : true,
+    "versionId" : "INT"
+  },
+  "price" : 713.48,
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "gender" : "STRING",
+  "clientName" : [ {
+    "v_use" : "STRING",
+    "family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "page_index" : 457
+  } ],
+  "id" : "STRING",
+  "address" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_city" : "PII_LOCATION_CITY",
+    "use" : "STRING"
+  } ]
+}

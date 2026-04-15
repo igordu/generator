@@ -1,0 +1,11 @@
+{
+  "user_info" : {
+    "fullName" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "system_ping_ms" : 3875
+  },
+  "tree" : {
+    "sha" : "STRING"
+  },
+  "v_active" : "BOOLEAN"
+}

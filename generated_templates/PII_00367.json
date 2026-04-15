@@ -1,0 +1,5 @@
+{
+  "temperature_c" : 216.47,
+  "emailAddressStatus" : [ "STRING" ],
+  "emailAddress" : "PII_EMAIL"
+}

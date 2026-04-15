@@ -1,0 +1,19 @@
+[ {
+  "filter" : "NULL"
+}, {
+  "is_active" : false,
+  "v_facets" : [ {
+    "key_data" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "priority_level" : 3624,
+    "v_key" : "STRING",
+    "count" : "INT"
+  }, {
+    "displayName" : "STRING",
+    "v_count" : "INT",
+    "v_key" : "STRING",
+    "retry_attempts" : 2741
+  } ],
+  "filter" : "STRING"
+} ]

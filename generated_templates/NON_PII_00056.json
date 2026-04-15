@@ -1,0 +1,13 @@
+{
+  "numberOfUserReviews" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "averageStarRating" : "INT",
+  "numberOfUserPositiveRecommendations" : "",
+  "starRatingDistribution_data" : {
+    "2" : "INT",
+    "4" : "",
+    "1_data" : "INT",
+    "5" : "INT",
+    "3" : "INT"
+  }
+}

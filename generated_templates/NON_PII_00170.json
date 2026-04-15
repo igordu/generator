@@ -1,0 +1,14 @@
+{
+  "system_state" : {
+    "transaction_trace" : {
+      "debug_payload" : {
+        "name" : "STRING",
+        "modelId" : "STRING",
+        "v_media" : { },
+        "shopUrl" : "URL",
+        "is_active" : true,
+        "id" : "STRING"
+      }
+    }
+  }
+}

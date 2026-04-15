@@ -1,0 +1,50 @@
+{
+  "resourceType": "STRING",
+  "id": "STRING",
+  "meta": {
+    "versionId": "INT",
+    "lastUpdated": "DATETIME"
+  },
+  "identifier": [
+    {
+      "use": "STRING",
+      "type": {
+        "text": "STRING"
+      },
+      "system": "URL",
+      "value": "PII_NATIONAL_ID"
+    }
+  ],
+  "name": [
+    {
+      "use": "STRING",
+      "family": "PII_PERSON_LAST_NAME",
+      "given": [
+        "PII_PERSON_FIRST_NAME"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "STRING",
+      "value": "PII_PHONE_NUMBER",
+      "use": "STRING"
+    },
+    {
+      "system": "STRING",
+      "value": "PII_EMAIL"
+    }
+  ],
+  "gender": "STRING",
+  "birthDate": "PII_DATE_OF_BIRTH",
+  "address": [
+    {
+      "use": "STRING",
+      "line": [
+        "PII_ADDRESS_LINE"
+      ],
+      "city": "PII_LOCATION_CITY",
+      "country": "PII_LOCATION_COUNTRY"
+    }
+  ]
+}

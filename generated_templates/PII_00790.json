@@ -1,0 +1,39 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "page_count" : "INT",
+      "discount_rate" : 613.87,
+      "v_page_size" : "INT",
+      "total_records" : "INT",
+      "v_registrants" : [ {
+        "status" : "STRING",
+        "country_data" : "PII_LOCATION_COUNTRY",
+        "zip" : "STRING",
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "city_data" : "PII_LOCATION_CITY",
+        "primaryKey" : "STRING",
+        "address" : "PII_ADDRESS_LINE",
+        "role_in_purchase_process_data" : "STRING",
+        "comments" : "STRING",
+        "join_url" : "URL",
+        "industry_data" : "STRING",
+        "mobile" : "PII_PHONE_NUMBER",
+        "v_state" : "PII_LOCATION_STATE",
+        "email" : "PII_EMAIL",
+        "userName" : "PII_PERSON_LAST_NAME",
+        "purchasing_time_frame" : "STRING",
+        "custom_questions" : [ {
+          "value" : "STRING",
+          "title" : "STRING"
+        }, {
+          "v_title" : "STRING",
+          "value" : "STRING"
+        } ],
+        "org" : "PII_ORGANIZATION_NAME",
+        "create_time" : "DATETIME",
+        "job_title" : "STRING"
+      } ],
+      "page_number_data" : "INT"
+    }
+  }
+}

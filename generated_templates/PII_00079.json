@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "created" : "DATETIME",
+    "articleSizeRatings_data" : {
+      "OVERALL" : "INT",
+      "uuid" : "INT",
+      "requires_update" : true
+    },
+    "v_rating" : "INT",
+    "primaryKey" : "STRING",
+    "recommend" : "NULL",
+    "v_helpfulCount" : "INT",
+    "description" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "articleId" : "STRING",
+    "articleModelId" : "STRING",
+    "language" : "STRING",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "unhelpfulCount" : "INT"
+  } ]
+}

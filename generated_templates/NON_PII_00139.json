@@ -1,0 +1,11 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "id" : "STRING",
+    "shopUrl" : "URL",
+    "discount_rate" : 535.97,
+    "modelId" : "STRING",
+    "fullName" : "STRING"
+  }
+}

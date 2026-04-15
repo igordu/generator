@@ -1,0 +1,37 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "data" : [ {
+      "v_default_source" : "STRING",
+      "delinquent" : "BOOLEAN",
+      "preferred_locales" : "ARRAY",
+      "name" : "PII_PERSON_NAME",
+      "invoice_settings_data" : {
+        "priority_level" : 1015,
+        "footer" : "STRING",
+        "rendering_options_data" : "NULL",
+        "custom_fields" : "NULL",
+        "default_payment_method" : "STRING"
+      },
+      "phone" : "PII_PHONE_NUMBER",
+      "primaryKey" : "STRING",
+      "email" : "PII_EMAIL",
+      "v_tax_exempt" : "STRING",
+      "object_data" : "STRING",
+      "next_invoice_sequence" : "INT",
+      "created_data" : "DATETIME_EPOCH",
+      "address_data" : "NULL",
+      "test_clock" : "NULL",
+      "v_description" : "STRING",
+      "balance" : "INT",
+      "temperature_c" : 862.43,
+      "currency" : "NULL",
+      "livemode" : "BOOLEAN"
+    } ],
+    "object" : "STRING",
+    "auto_renew" : false,
+    "v_has_more" : "BOOLEAN",
+    "v_url" : "NULL"
+  }
+}

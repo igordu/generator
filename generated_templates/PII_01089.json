@@ -1,0 +1,13 @@
+{
+  "account_holder_type" : "STRING",
+  "id" : "STRING",
+  "v_routing_number" : "STRING",
+  "customer" : "STRING",
+  "fingerprint" : "STRING",
+  "account_type" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "last4" : "STRING",
+  "currency" : "STRING",
+  "status" : "STRING",
+  "v_object" : ""
+}

@@ -1,0 +1,78 @@
+{
+  "telephony" : {
+    "audio_conference_info" : "STRING",
+    "third_party_audio" : "BOOLEAN"
+  },
+  "mail" : {
+    "v_cancel_meeting_reminder" : "BOOLEAN",
+    "jbh_reminder" : "BOOLEAN",
+    "schedule_for_reminder" : "BOOLEAN"
+  },
+  "in_meeting" : {
+    "far_end_camera_control" : "BOOLEAN",
+    "co_host" : "BOOLEAN",
+    "remote_support" : "BOOLEAN",
+    "breakout_room_data" : "BOOLEAN",
+    "entry_exit_chime" : "",
+    "v_attendee_on_hold" : "BOOLEAN",
+    "group_hd" : "BOOLEAN",
+    "non_verbal_feedback" : "BOOLEAN",
+    "polling" : "BOOLEAN",
+    "custom_data_center_regions" : "BOOLEAN",
+    "data_center_regions_data" : "ARRAY",
+    "show_meeting_control_toolbar" : "BOOLEAN",
+    "record_play_voice" : "BOOLEAN",
+    "remote_control" : "BOOLEAN",
+    "e2e_encryption" : "BOOLEAN",
+    "closed_caption" : "BOOLEAN",
+    "annotation" : "BOOLEAN",
+    "waiting_room_data" : "BOOLEAN",
+    "chat" : "BOOLEAN",
+    "feedback" : "NULL",
+    "temperature_c" : 959.88,
+    "virtual_background_data" : "BOOLEAN"
+  },
+  "recording" : {
+    "v_record_audio_file" : "BOOLEAN",
+    "auto_recording" : "STRING",
+    "local_recording" : "BOOLEAN",
+    "cloud_recording" : "NULL",
+    "v_auto_delete_cmr" : "BOOLEAN",
+    "v_save_chat_text" : "BOOLEAN",
+    "show_timestamp" : "NULL",
+    "recording_password_requirement" : {
+      "length" : "NULL",
+      "v_have_special_character" : "BOOLEAN",
+      "have_letter" : "BOOLEAN"
+    },
+    "record_speaker_view_data" : "BOOLEAN"
+  },
+  "v_schedule_meeting" : {
+    "require_password_for_pmi_meetings_data" : "STRING",
+    "not_store_meeting_topic" : "BOOLEAN",
+    "require_password_for_scheduling_new_meetings_data" : "",
+    "force_pmi_jbh_password" : "BOOLEAN",
+    "join_before_host" : "BOOLEAN",
+    "embed_password_in_join_link" : "BOOLEAN",
+    "use_pmi_for_scheduled_meetings" : "BOOLEAN",
+    "v_meeting_password_requirement" : {
+      "have_letter" : "BOOLEAN",
+      "only_allow_numeric" : "BOOLEAN",
+      "v_have_number" : "BOOLEAN",
+      "length" : "INT",
+      "have_special_character" : "BOOLEAN"
+    },
+    "pstn_password_protected" : "BOOLEAN",
+    "pmi_password" : "PII_PASSWORD",
+    "http_status" : 1459,
+    "use_pmi_for_instant_meetings_data" : "BOOLEAN",
+    "participants_video" : "BOOLEAN",
+    "audio_type" : "STRING",
+    "host_video" : "BOOLEAN"
+  },
+  "tsp_data" : {
+    "call_out" : "BOOLEAN",
+    "call_out_countries" : "NULL",
+    "is_active" : false
+  }
+}

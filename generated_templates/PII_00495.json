@@ -1,0 +1,40 @@
+{
+  "server_logs" : {
+    "transaction_trace" : {
+      "extracted_info" : {
+        "resourceType" : "STRING",
+        "birthDate" : "PII_DATE_OF_BIRTH",
+        "name" : [ {
+          "given" : [ "PII_PERSON_FIRST_NAME" ],
+          "family" : "PII_PERSON_LAST_NAME",
+          "use" : "STRING"
+        } ],
+        "gender" : "STRING",
+        "v_address" : [ {
+          "use" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "line" : [ "PII_ADDRESS_LINE" ],
+          "country" : "PII_LOCATION_COUNTRY"
+        } ],
+        "primaryKey" : [ {
+          "value_data" : "PII_NATIONAL_ID",
+          "v_type" : {
+            "text" : "STRING",
+            "retry_attempts" : 2066
+          },
+          "use" : "STRING"
+        } ],
+        "uuid" : "STRING",
+        "telecom" : [ {
+          "use" : "STRING",
+          "system" : "STRING",
+          "value" : "PII_PHONE_NUMBER"
+        }, {
+          "system" : "STRING",
+          "value_data" : "PII_EMAIL",
+          "is_active" : false
+        } ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "numberOfUserPositiveRecommendations" : "INT",
+  "v_averageStarRating" : "INT",
+  "numberOfUserReviews" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "articleModelId" : "STRING"
+}

@@ -1,0 +1,31 @@
+[ {
+  "v_facets" : [ {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "is_deleted" : true
+  }, {
+    "key" : "STRING",
+    "page_index" : 2147,
+    "displayName" : null,
+    "count" : "INT"
+  }, {
+    "v_count" : "INT"
+  } ],
+  "cpu_usage_percent" : 743.2,
+  "filter" : "STRING"
+}, {
+  "facets" : [ {
+    "displayName" : "",
+    "count" : "INT"
+  }, {
+    "fullName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "price" : 251.85
+  } ],
+  "v_filter" : "STRING"
+} ]

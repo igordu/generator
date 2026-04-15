@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "last4" : "STRING",
+    "recordId" : "STRING",
+    "metadata" : "OBJECT",
+    "account_holder_name" : "PII_PERSON_NAME",
+    "userName" : "",
+    "currency" : "STRING",
+    "status" : "STRING",
+    "response_time_sec" : 7.04,
+    "account_type" : "STRING",
+    "fingerprint" : "STRING",
+    "customer" : "STRING",
+    "v_routing_number" : "STRING"
+  }
+}

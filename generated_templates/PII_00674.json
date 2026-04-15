@@ -1,0 +1,38 @@
+{
+  "Status" : "",
+  "ProviderName" : "NULL",
+  "Employees" : [ {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "EmployeeID" : "STRING",
+    "UpdatedDateUTC" : null,
+    "Status_data" : "STRING",
+    "ExternalLink" : {
+      "v_Url" : "URL",
+      "temperature_c" : 110.0
+    }
+  }, {
+    "EmployeeID" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "stock_quantity" : 2563,
+    "UpdatedDateUTC" : "DATETIME",
+    "Status" : "STRING",
+    "ExternalLink_data" : {
+      "Url_data" : "URL",
+      "Description" : "STRING",
+      "price" : 817.96
+    }
+  }, {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "cpu_usage_percent" : 819.37
+    },
+    "priority_level" : 4454,
+    "UpdatedDateUTC_data" : "DATETIME",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  } ],
+  "uuid" : "STRING",
+  "discount_rate" : 952.05
+}

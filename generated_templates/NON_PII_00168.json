@@ -1,0 +1,22 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "name" : "STRING",
+      "shopUrl" : "URL",
+      "media" : {
+        "response_time_sec" : 749.0,
+        "images" : [ {
+          "largeHdUrl" : "URL",
+          "smallHdUrl" : "URL",
+          "type" : "STRING",
+          "largeUrl" : "URL",
+          "v_mediumHdUrl" : "URL",
+          "orderNumber_data" : "INT",
+          "smallUrl" : "URL",
+          "thumbnailHdUrl" : "URL",
+          "v_mediumUrl" : "URL"
+        } ]
+      }
+    }
+  }
+}

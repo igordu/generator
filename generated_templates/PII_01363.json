@@ -1,0 +1,14 @@
+{
+  "tree_data" : {
+    "conversion_rate" : 502.61,
+    "url" : "URL",
+    "sha" : "STRING"
+  },
+  "user_info" : {
+    "userName" : "PII_COMPANY_NAME",
+    "system_ping_ms" : 1701,
+    "clientName" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  },
+  "active_data" : "BOOLEAN"
+}

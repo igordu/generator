@@ -1,0 +1,24 @@
+[ {
+  "self" : "URL",
+  "key" : "STRING",
+  "avatarUrls" : {
+    "24x24" : "URL",
+    "v_48x48" : "URL",
+    "32x32" : "URL",
+    "16x16" : "URL"
+  },
+  "name" : "STRING",
+  "style" : "STRING",
+  "id" : "STRING",
+  "projectCategory" : {
+    "self" : "URL",
+    "description_data" : "",
+    "name" : "STRING",
+    "id" : "STRING"
+  },
+  "v_insight" : {
+    "totalIssueCount" : "INT",
+    "item_count" : 1617,
+    "lastIssueUpdateTime" : "DATETIME"
+  }
+} ]

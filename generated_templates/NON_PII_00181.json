@@ -1,0 +1,19 @@
+{
+  "uuid" : "STRING",
+  "media" : {
+    "images" : [ {
+      "orderNumber" : "INT",
+      "mediumHdUrl" : "URL",
+      "type_data" : "STRING",
+      "largeUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "mediumUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "smallUrl_data" : "URL"
+    } ],
+    "http_status" : 4189
+  },
+  "id" : "STRING",
+  "name" : "STRING"
+}

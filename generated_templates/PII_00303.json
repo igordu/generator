@@ -1,0 +1,5 @@
+{
+  "emailAddressStatus" : [ "STRING" ],
+  "primary_email" : "PII_EMAIL",
+  "discount_rate" : 971.84
+}

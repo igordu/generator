@@ -1,0 +1,40 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "public_gists" : "INT",
+    "v_gists_url" : "URL",
+    "location" : "PII_LOCATION_CITY",
+    "hireable_data" : "BOOLEAN",
+    "site_admin" : "BOOLEAN",
+    "owned_private_repos" : "INT",
+    "following" : "INT",
+    "public_repos" : "INT",
+    "avatar_url_data" : "URL",
+    "gravatar_id" : "STRING",
+    "collaborators" : "INT",
+    "uuid" : "INT",
+    "events_url_data" : "URL",
+    "v_two_factor_authentication" : "BOOLEAN",
+    "private_gists" : "INT",
+    "type_data" : "",
+    "html_url" : "URL",
+    "login" : "",
+    "organizations_url" : "URL",
+    "repos_url" : "URL",
+    "node_id" : "STRING",
+    "received_events_url" : "URL",
+    "following_url" : null,
+    "followers" : "INT",
+    "name" : "PII_PERSON_NAME",
+    "company_data" : "PII_ORGANIZATION_NAME",
+    "starred_url" : "URL",
+    "mail" : "PII_EMAIL",
+    "updated_at" : "DATETIME",
+    "bio" : "PII_ORGANIZATION_NAME",
+    "created_at_data" : "DATETIME",
+    "url_data" : "URL"
+  }
+}

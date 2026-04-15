@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "articleSizeRatings" : {
+      "OVERALL" : "INT",
+      "discount_rate" : 746.55,
+      "SHOE_WIDTH" : "INT"
+    },
+    "language" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "articleModelId" : "STRING",
+    "rating" : "INT",
+    "created" : "DATETIME",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_unhelpfulCount" : "INT",
+    "recommend" : "BOOLEAN",
+    "reviewId" : "STRING",
+    "recordId" : "STRING",
+    "helpfulCount" : "INT",
+    "description" : "STRING",
+    "v_title" : "PII_COMPANY_NAME"
+  } ]
+}

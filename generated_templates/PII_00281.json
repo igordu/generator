@@ -1,0 +1,83 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "prev" : "STRING",
+    "v_next" : "STRING",
+    "limit" : "INT",
+    "total" : "INT",
+    "offset" : "INT",
+    "transactions" : [ {
+      "uuid" : "STRING",
+      "eBayCollectedTaxAmount" : {
+        "response_time_sec" : 665.14,
+        "v_currency" : "STRING",
+        "value_data" : "STRING",
+        "exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING"
+      },
+      "references_data" : [ {
+        "is_deleted" : false,
+        "referenceType" : "STRING",
+        "referenceId" : "STRING"
+      } ],
+      "totalFeeBasisAmount_data" : {
+        "convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "auto_renew" : false,
+        "currency" : "STRING"
+      },
+      "payoutId" : "STRING",
+      "amount" : {
+        "exchangeRate" : "NULL",
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "currency_data" : "STRING"
+      },
+      "transactionMemo" : "NULL",
+      "recordId" : "STRING",
+      "bookingEntry_data" : "STRING",
+      "totalFeeAmount" : {
+        "v_convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate" : "STRING",
+        "currency" : "STRING",
+        "is_active" : false,
+        "value" : "STRING"
+      },
+      "feeJurisdiction" : {
+        "regionName" : "STRING",
+        "v_regionType" : "STRING"
+      },
+      "paymentsEntity" : "STRING",
+      "feeType_data" : "STRING",
+      "v_transactionType" : "STRING",
+      "orderLineItems" : [ {
+        "feeBasisAmount" : {
+          "v_convertedFromCurrency" : "STRING",
+          "v_exchangeRate" : "STRING",
+          "currency" : "STRING",
+          "convertedFromValue" : "STRING"
+        },
+        "lineItemId" : "STRING",
+        "marketplaceFees_data" : [ {
+          "feeType" : "STRING",
+          "v_feeMemo" : "STRING",
+          "has_discount" : false,
+          "feeJurisdiction" : {
+            "regionName" : "STRING",
+            "requires_update" : false
+          }
+        } ]
+      } ],
+      "transactionDate" : "DATETIME",
+      "buyer_data" : {
+        "username" : "PII_USERNAME"
+      },
+      "v_transactionStatus" : "STRING"
+    } ],
+    "href" : "STRING"
+  }
+}

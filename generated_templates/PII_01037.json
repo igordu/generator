@@ -1,0 +1,17 @@
+{
+  "v_customer" : "STRING",
+  "account_holder_type_data" : "STRING",
+  "metadata" : "OBJECT",
+  "response_time_sec" : 73.46,
+  "name_val" : "PII_PERSON_NAME",
+  "recordId" : "STRING",
+  "bank_name" : "STRING",
+  "currency" : "STRING",
+  "routing_number" : "STRING",
+  "last4_data" : "STRING",
+  "account_type_data" : "STRING",
+  "status" : "STRING",
+  "v_object" : "STRING",
+  "v_country" : null,
+  "fingerprint" : "STRING"
+}

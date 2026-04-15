@@ -1,0 +1,5 @@
+{
+  "cache_hit" : true,
+  "emailAddress" : "PII_EMAIL",
+  "emailAddressStatus" : [ "STRING" ]
+}

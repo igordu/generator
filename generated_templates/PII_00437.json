@@ -1,0 +1,39 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "meta" : {
+      "versionId" : "INT",
+      "temperature_c" : 887.27,
+      "lastUpdated" : "DATETIME"
+    },
+    "gender" : "STRING",
+    "name_val" : [ {
+      "use" : "STRING",
+      "item_count" : 4713,
+      "family" : "PII_PERSON_LAST_NAME",
+      "given" : [ "PII_PERSON_FIRST_NAME" ]
+    } ],
+    "resourceType" : "STRING",
+    "recordId" : [ {
+      "system" : "URL",
+      "value" : "PII_NATIONAL_ID"
+    } ],
+    "id" : "STRING",
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "telecom" : [ {
+      "system" : "STRING",
+      "value" : "PII_PHONE_NUMBER",
+      "use" : "STRING"
+    }, {
+      "v_value" : "PII_EMAIL",
+      "v_system" : "STRING"
+    } ],
+    "address_data" : [ {
+      "v_line" : [ "PII_ADDRESS_LINE" ],
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "use_data" : "STRING",
+      "city" : "PII_LOCATION_CITY"
+    } ]
+  }
+}

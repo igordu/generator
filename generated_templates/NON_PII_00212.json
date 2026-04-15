@@ -1,0 +1,31 @@
+[ {
+  "system_ping_ms" : 776,
+  "facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "http_status" : 2934,
+    "displayName" : "STRING",
+    "count_data" : "INT",
+    "key" : "STRING"
+  }, {
+    "key" : "STRING",
+    "count_data" : "INT",
+    "discount_rate" : 299.01,
+    "displayName" : "STRING"
+  } ],
+  "filter_data" : "STRING"
+}, {
+  "stock_quantity" : 2042,
+  "v_facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "conversion_rate" : 365.38,
+    "count" : "INT"
+  }, {
+    "price" : 261.01,
+    "count" : "INT",
+    "key" : "STRING"
+  } ]
+} ]

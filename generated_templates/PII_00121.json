@@ -1,0 +1,70 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "status" : "STRING",
+    "primaryKey" : {
+      "secondaryPhone" : {
+        "number" : "PII_PHONE_NUMBER",
+        "v_countryCode" : "STRING",
+        "phoneType" : "STRING",
+        "has_discount" : false
+      },
+      "firstName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "v_registrationAddress" : {
+        "county" : "STRING",
+        "country" : "STRING",
+        "postalCode" : "STRING",
+        "addressLine1" : "STRING",
+        "stateOrProvince" : "STRING",
+        "city" : "STRING",
+        "has_discount" : false
+      },
+      "lastName" : "PII_PERSON_NAME",
+      "cpu_usage_percent" : 338.69,
+      "primaryPhone" : {
+        "countryCode" : "STRING",
+        "v_number" : "PII_PHONE_NUMBER",
+        "mobile" : "STRING"
+      }
+    },
+    "username" : "PII_USERNAME",
+    "price" : 596.29,
+    "businessAccount" : {
+      "address" : {
+        "postalCode" : "",
+        "v_addressLine1" : "STRING",
+        "city" : "STRING",
+        "stateOrProvince" : "STRING",
+        "country_data" : "STRING",
+        "v_addressLine2" : "STRING"
+      },
+      "primaryContact" : {
+        "firstName" : "PII_PERSON_NAME",
+        "fullName" : "PII_PERSON_NAME",
+        "priority_level" : 912
+      },
+      "cell" : {
+        "phoneType" : "STRING",
+        "v_countryCode" : "STRING",
+        "number_data" : "PII_PHONE_NUMBER",
+        "stock_quantity" : 1757
+      },
+      "emailAddress" : "PII_EMAIL",
+      "telephone" : {
+        "phoneType" : "STRING",
+        "price" : 604.74,
+        "countryCode" : "STRING",
+        "number" : "PII_PHONE_NUMBER"
+      },
+      "doingBusinessAs" : "STRING",
+      "temperature_c" : 84.88,
+      "website" : "URL",
+      "fullName" : "PII_ORGANIZATION_NAME"
+    },
+    "registrationMarketplaceId" : "STRING"
+  }
+}

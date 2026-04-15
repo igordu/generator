@@ -1,0 +1,21 @@
+{
+  "cache_hit" : true,
+  "content" : [ {
+    "description" : "NULL",
+    "rating" : "INT",
+    "item_count" : 972,
+    "articleModelId" : "STRING",
+    "articleSizeRatings" : {
+      "recordId" : "INT",
+      "OVERALL" : "INT"
+    },
+    "reviewId" : "STRING",
+    "helpfulCount" : "INT",
+    "title" : "PII_COMPANY_NAME",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "identifier" : "STRING",
+    "unhelpfulCount_data" : "INT",
+    "recommend" : "BOOLEAN"
+  } ]
+}

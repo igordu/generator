@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "country" : "STRING",
+    "customer" : "STRING",
+    "last4" : null,
+    "fingerprint_data" : "STRING",
+    "account_holder_name" : "PII_PERSON_NAME",
+    "object" : "STRING",
+    "priority_level" : 3129,
+    "status" : "STRING",
+    "account_type" : "STRING",
+    "currency" : "STRING",
+    "bank_name" : "STRING",
+    "metadata" : "OBJECT"
+  }
+}

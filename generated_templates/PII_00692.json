@@ -1,0 +1,40 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "Employees" : [ {
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "Status" : "STRING",
+        "EmployeeID" : "STRING",
+        "UpdatedDateUTC" : "DATETIME",
+        "LastName" : "PII_PERSON_LAST_NAME"
+      }, {
+        "UpdatedDateUTC" : "NULL",
+        "ExternalLink" : {
+          "Url" : "URL",
+          "Description_data" : null
+        },
+        "Status" : "STRING",
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "LastName" : "PII_PERSON_LAST_NAME",
+        "temperature_c" : 901.02,
+        "EmployeeID" : "STRING"
+      }, {
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "system_ping_ms" : 567,
+        "v_UpdatedDateUTC" : "DATETIME",
+        "clientName" : "PII_PERSON_LAST_NAME",
+        "ExternalLink_data" : {
+          "is_active" : false,
+          "Description" : "STRING",
+          "Url" : "URL"
+        },
+        "primaryKey" : "STRING",
+        "Status_data" : "STRING"
+      } ],
+      "Id" : "STRING",
+      "is_active" : false,
+      "Status" : "STRING",
+      "DateTimeUTC_data" : "DATETIME"
+    }
+  }
+}

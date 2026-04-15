@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "reviewId" : "STRING",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_articleSizeRatings" : {
+      "v_OVERALL" : "INT",
+      "SHOE_WIDTH" : "INT"
+    },
+    "unhelpfulCount" : "INT",
+    "v_language" : "",
+    "helpfulCount" : "INT",
+    "rating" : "INT",
+    "customerCity" : "PII_LOCATION_CITY",
+    "title" : "PII_COMPANY_NAME",
+    "articleId" : "STRING",
+    "created" : "DATETIME",
+    "recommend" : "BOOLEAN",
+    "articleModelId" : "",
+    "description" : "STRING"
+  } ],
+  "stock_quantity" : 760
+}

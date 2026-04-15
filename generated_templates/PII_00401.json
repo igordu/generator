@@ -1,0 +1,37 @@
+{
+  "v_resourceType" : "STRING",
+  "address" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "use" : "STRING"
+  } ],
+  "id" : "STRING",
+  "identifier" : [ {
+    "system" : "URL",
+    "type" : {
+      "text_data" : "STRING",
+      "is_active" : false
+    },
+    "use" : "STRING",
+    "value" : "PII_NATIONAL_ID"
+  } ],
+  "name" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "page_index" : 1120,
+    "use" : "STRING",
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "telecom" : [ {
+    "system_data" : "STRING",
+    "value" : "PII_EMAIL",
+    "requires_update" : false
+  }, {
+    "system" : "STRING",
+    "v_value" : "PII_PHONE_NUMBER",
+    "use" : "STRING",
+    "stock_quantity" : 1288
+  } ],
+  "gender" : null,
+  "birthDate" : "PII_DATE_OF_BIRTH"
+}

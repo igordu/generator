@@ -1,0 +1,16 @@
+{
+  "numberOfUserPositiveRecommendations" : "INT",
+  "averageStarRating" : "INT",
+  "starRatingDistribution" : {
+    "2" : "INT",
+    "4" : "INT",
+    "is_active" : false,
+    "v_5" : "INT",
+    "1" : "INT",
+    "3_data" : "INT"
+  },
+  "numberOfUserRecommendations" : "INT",
+  "price" : 417.93,
+  "recordId" : "STRING",
+  "numberOfUserReviews" : "INT"
+}

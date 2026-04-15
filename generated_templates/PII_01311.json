@@ -1,0 +1,13 @@
+{
+  "v_tree" : {
+    "temperature_c" : 874.87,
+    "sha" : "STRING",
+    "v_url" : "URL"
+  },
+  "active_data" : "BOOLEAN",
+  "user_info" : {
+    "fullName" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  }
+}

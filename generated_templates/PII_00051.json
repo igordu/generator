@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "content" : [ {
+      "customerCity" : "PII_LOCATION_CITY",
+      "primaryKey" : "STRING",
+      "articleId" : "STRING",
+      "rating_data" : "INT",
+      "title" : "PII_COMPANY_NAME",
+      "language" : "STRING",
+      "description_data" : "STRING",
+      "customerCountry_data" : "PII_LOCATION_COUNTRY",
+      "priority_level" : 3135,
+      "recommend" : "BOOLEAN",
+      "unhelpfulCount" : "INT",
+      "helpfulCount" : "INT"
+    } ]
+  }
+}

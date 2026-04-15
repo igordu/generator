@@ -1,0 +1,41 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "ProviderName" : "STRING",
+    "Employees" : [ {
+      "primaryKey" : "STRING",
+      "FirstName" : "PII_PERSON_FIRST_NAME",
+      "ExternalLink" : {
+        "Url" : "URL",
+        "v_Description" : "STRING"
+      },
+      "auto_renew" : false,
+      "UpdatedDateUTC" : "DATETIME",
+      "LastName" : "PII_PERSON_LAST_NAME"
+    }, {
+      "EmployeeID" : "STRING",
+      "Status" : "STRING",
+      "ExternalLink" : {
+        "Description" : "STRING",
+        "Url" : "URL"
+      },
+      "UpdatedDateUTC" : "DATETIME",
+      "fullName" : "PII_PERSON_LAST_NAME",
+      "userName" : "PII_PERSON_FIRST_NAME"
+    }, {
+      "EmployeeID" : "STRING",
+      "UpdatedDateUTC" : "DATETIME",
+      "Status" : "",
+      "discount_rate" : 830.45,
+      "FirstName" : "PII_PERSON_FIRST_NAME",
+      "ExternalLink" : {
+        "Url_data" : "URL",
+        "Description" : "STRING"
+      },
+      "LastName" : "PII_PERSON_LAST_NAME"
+    } ],
+    "Id" : "STRING",
+    "DateTimeUTC_data" : "DATETIME"
+  }
+}

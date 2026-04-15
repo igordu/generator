@@ -1,0 +1,12 @@
+{
+  "user_info_data" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "cache_hit" : true,
+    "clientName" : "PII_COMPANY_NAME"
+  },
+  "active_data" : "",
+  "tree_data" : {
+    "sha" : "STRING"
+  }
+}

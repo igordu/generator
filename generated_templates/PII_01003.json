@@ -1,0 +1,14 @@
+{
+  "routing_number_data" : "STRING",
+  "country" : "STRING",
+  "account_holder_type" : "STRING",
+  "object" : "STRING",
+  "customer" : "STRING",
+  "currency_data" : "STRING",
+  "bank_name" : "STRING",
+  "status" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "discount_rate" : 893.1,
+  "account_type" : "STRING",
+  "v_fingerprint" : "STRING"
+}

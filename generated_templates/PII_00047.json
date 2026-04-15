@@ -1,0 +1,25 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "content" : [ {
+      "articleSizeRatings" : {
+        "v_OVERALL" : "INT",
+        "recordId" : "INT",
+        "has_discount" : true
+      },
+      "unhelpfulCount" : "INT",
+      "description" : "STRING",
+      "recommend" : "BOOLEAN",
+      "recordId" : "STRING",
+      "articleId" : null,
+      "customerCountry_data" : "PII_LOCATION_COUNTRY",
+      "helpfulCount" : "INT",
+      "created" : "DATETIME",
+      "v_customerCity" : "PII_LOCATION_CITY",
+      "reviewId" : "STRING",
+      "price" : 415.13,
+      "v_title" : "PII_COMPANY_NAME"
+    } ]
+  }
+}

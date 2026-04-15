@@ -1,0 +1,27 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "debtorName" : "STRING",
+      "bankTransactionCode" : {
+        "family" : "STRING",
+        "subFamily" : "STRING",
+        "domain" : "STRING"
+      },
+      "transactionId" : "STRING",
+      "amount" : {
+        "currency" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "requires_update" : true,
+      "bookingDate" : "DATE",
+      "v_valueDate" : "",
+      "creditorAccount" : {
+        "requires_update" : true,
+        "iban" : "PII_IBAN"
+      },
+      "creditorName" : "PII_PERSON_NAME"
+    } ],
+    "requires_update" : false
+  }
+}

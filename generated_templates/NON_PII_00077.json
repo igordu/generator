@@ -1,0 +1,15 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "numberOfUserPositiveRecommendations" : "INT",
+    "numberOfUserReviews" : "",
+    "averageStarRating" : "INT",
+    "starRatingDistribution" : {
+      "v_2" : "",
+      "3" : "INT",
+      "4_data" : "INT",
+      "5" : "INT"
+    }
+  }
+}

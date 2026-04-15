@@ -1,0 +1,74 @@
+{
+  "clientToken" : "STRING",
+  "triggerConfig_data" : {
+    "triggerProperties" : {
+      "page_index" : 2424,
+      "Scheduled_data" : {
+        "is_deleted" : true,
+        "v_flowErrorDeactivationThreshold" : "INT",
+        "scheduleExpression" : "STRING",
+        "scheduleOffset" : "INT",
+        "scheduleStartTime" : "DATETIME",
+        "v_timezone" : "STRING",
+        "dataPullMode_data" : "STRING",
+        "scheduleEndTime" : "DATETIME",
+        "firstExecutionFrom" : "DATETIME"
+      }
+    },
+    "system_ping_ms" : 154,
+    "v_triggerType" : "STRING"
+  },
+  "flowName" : "STRING",
+  "is_active" : true,
+  "description" : "STRING",
+  "v_kmsArn" : "STRING",
+  "destinationFlowConfigList" : [ {
+    "apiVersion" : "STRING",
+    "connectorType" : "STRING",
+    "destinationConnectorProperties" : {
+      "Snowflake" : {
+        "bucketPrefix_data" : "STRING",
+        "cpu_usage_percent" : 735.51,
+        "object" : "STRING",
+        "fullName" : "STRING"
+      },
+      "Salesforce_data" : {
+        "http_status" : 2386,
+        "idFieldNames" : "ARRAY",
+        "object" : "STRING",
+        "writeOperationType" : "STRING",
+        "dataTransferApi" : "STRING",
+        "errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "stock_quantity" : 2018,
+          "bucketPrefix" : "STRING",
+          "fullName" : "STRING"
+        }
+      },
+      "auto_renew" : true,
+      "S3" : {
+        "s3OutputFormatConfig" : {
+          "aggregationConfig" : {
+            "stock_quantity" : 1391,
+            "aggregationType" : "STRING",
+            "targetFileSize_data" : "INT"
+          },
+          "preserveSourceDataTyping" : "BOOLEAN",
+          "stock_quantity" : 4427,
+          "v_fileType" : "STRING",
+          "v_prefixConfig" : {
+            "pathPrefixHierarchy" : "ARRAY",
+            "prefixFormat" : "STRING",
+            "prefixType" : "STRING"
+          }
+        },
+        "bucketPrefix" : "STRING",
+        "bucketName" : "STRING"
+      }
+    }
+  } ],
+  "tags" : {
+    "has_discount" : true,
+    "v_property2" : "STRING"
+  }
+}

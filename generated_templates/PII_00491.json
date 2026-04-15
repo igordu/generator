@@ -1,0 +1,46 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "gender" : "",
+    "cpu_usage_percent" : 796.46,
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "id" : "STRING",
+    "meta" : {
+      "is_active" : true,
+      "versionId" : "INT"
+    },
+    "telecom" : [ {
+      "is_active" : false,
+      "system" : "STRING",
+      "value" : "PII_EMAIL"
+    }, {
+      "use_data" : "STRING",
+      "value" : "PII_PHONE_NUMBER"
+    } ],
+    "recordId" : [ {
+      "value" : "PII_NATIONAL_ID",
+      "type_data" : {
+        "text" : "STRING"
+      },
+      "requires_update" : false,
+      "system" : "URL",
+      "use" : "STRING"
+    } ],
+    "resourceType" : "STRING",
+    "address" : [ {
+      "city" : "PII_LOCATION_CITY",
+      "line" : [ "PII_ADDRESS_LINE" ],
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "use" : "STRING"
+    } ],
+    "userName" : [ {
+      "family" : "PII_PERSON_LAST_NAME",
+      "v_use" : "STRING",
+      "given" : [ "PII_PERSON_FIRST_NAME" ],
+      "is_active" : false
+    } ]
+  }
+}

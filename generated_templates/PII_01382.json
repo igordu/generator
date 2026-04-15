@@ -1,0 +1,13 @@
+{
+  "tree" : {
+    "url" : "URL",
+    "sha" : "STRING"
+  },
+  "price" : 40.16,
+  "user_info" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  },
+  "active" : "BOOLEAN"
+}

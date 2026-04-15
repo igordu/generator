@@ -1,0 +1,28 @@
+{
+  "telecom" : [ {
+    "system" : "STRING",
+    "value_data" : "PII_PHONE_NUMBER"
+  }, {
+    "system" : "STRING",
+    "value" : "PII_EMAIL",
+    "auto_renew" : false
+  } ],
+  "birthDate_data" : "PII_DATE_OF_BIRTH",
+  "identifier" : "STRING",
+  "meta" : {
+    "versionId" : "INT"
+  },
+  "userName" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "v_family" : "PII_PERSON_LAST_NAME",
+    "use" : "STRING"
+  } ],
+  "resourceType" : "STRING",
+  "address" : [ {
+    "city" : "PII_LOCATION_CITY",
+    "use" : "STRING",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country" : "PII_LOCATION_COUNTRY"
+  } ],
+  "gender" : "STRING"
+}

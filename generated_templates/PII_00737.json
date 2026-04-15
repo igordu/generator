@@ -1,0 +1,35 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "page_number" : "INT",
+    "page_count" : "INT",
+    "page_size_data" : "INT",
+    "registrants" : [ {
+      "zip_data" : "STRING",
+      "contactEmail" : "PII_EMAIL",
+      "country" : "PII_LOCATION_COUNTRY",
+      "phone" : "PII_PHONE_NUMBER",
+      "comments" : "STRING",
+      "address" : "PII_ADDRESS_LINE",
+      "state" : "PII_LOCATION_STATE",
+      "create_time" : "DATETIME",
+      "status" : "STRING",
+      "industry" : "STRING",
+      "purchasing_time_frame" : "STRING",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "city" : "PII_LOCATION_CITY",
+      "org" : "PII_ORGANIZATION_NAME",
+      "job_title" : "STRING",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "id" : "STRING",
+      "custom_questions" : [ {
+        "value" : "STRING",
+        "title" : "STRING"
+      } ]
+    } ],
+    "total_records_data" : "INT"
+  }
+}

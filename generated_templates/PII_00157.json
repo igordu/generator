@@ -1,0 +1,29 @@
+{
+  "primaryKey" : "STRING",
+  "v_status" : "STRING",
+  "userName" : "PII_USERNAME",
+  "v_businessAccount" : {
+    "v_primaryContact" : {
+      "name_val" : "PII_PERSON_NAME",
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "doingBusinessAs" : "STRING",
+    "address" : {
+      "county" : "STRING",
+      "city" : "STRING",
+      "country_data" : "STRING",
+      "addressLine1_data" : "STRING",
+      "v_postalCode" : "NULL",
+      "stateOrProvince_data" : "STRING"
+    },
+    "cell" : {
+      "retry_attempts" : 727,
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
+    },
+    "name" : "PII_ORGANIZATION_NAME",
+    "email" : "PII_EMAIL",
+    "website" : "URL"
+  },
+  "accountType" : "STRING"
+}

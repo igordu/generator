@@ -1,0 +1,12 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "v_averageStarRating" : "INT",
+    "v_numberOfUserPositiveRecommendations" : "INT",
+    "numberOfUserRecommendations" : "INT",
+    "numberOfUserReviews" : "INT",
+    "cache_hit" : true,
+    "articleModelId" : "STRING"
+  }
+}

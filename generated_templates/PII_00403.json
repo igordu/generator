@@ -1,0 +1,40 @@
+{
+  "resourceType" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "meta" : {
+    "versionId" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "name" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "identifier" : [ {
+    "system" : "URL",
+    "type" : {
+      "text" : "STRING",
+      "retry_attempts" : 3718
+    },
+    "item_count" : 367,
+    "v_value" : "PII_NATIONAL_ID",
+    "use" : "STRING"
+  } ],
+  "id" : "STRING",
+  "gender" : "STRING",
+  "telecom_data" : [ {
+    "cache_hit" : false,
+    "system" : "STRING",
+    "value" : "PII_EMAIL"
+  }, {
+    "value" : "PII_PHONE_NUMBER",
+    "system" : "STRING",
+    "has_discount" : false,
+    "use" : "STRING"
+  } ],
+  "address" : [ {
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_use" : "STRING",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "city" : "PII_LOCATION_CITY"
+  } ]
+}

@@ -1,0 +1,17 @@
+{
+  "account_type" : "STRING",
+  "customer" : "STRING",
+  "object" : "STRING",
+  "account_holder_type" : "STRING",
+  "bank_name" : "STRING",
+  "routing_number_data" : "STRING",
+  "country" : "STRING",
+  "fingerprint" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "v_currency" : "STRING",
+  "metadata" : "OBJECT",
+  "last4" : "STRING",
+  "id" : "STRING",
+  "status" : "STRING",
+  "conversion_rate" : 319.45
+}

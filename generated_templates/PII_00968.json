@@ -1,0 +1,40 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "object" : "STRING",
+    "url" : "",
+    "has_more" : "BOOLEAN",
+    "data" : [ {
+      "invoice_settings_data" : {
+        "v_custom_fields" : null,
+        "footer_data" : "STRING",
+        "v_default_payment_method" : "STRING",
+        "is_deleted" : true,
+        "v_rendering_options" : "NULL"
+      },
+      "address" : "NULL",
+      "currency" : "STRING",
+      "id" : "STRING",
+      "default_source" : "STRING",
+      "description" : "STRING",
+      "email" : "PII_EMAIL",
+      "delinquent_data" : "BOOLEAN",
+      "v_test_clock" : "NULL",
+      "shipping" : "NULL",
+      "phone" : "PII_PHONE_NUMBER",
+      "next_invoice_sequence" : "INT",
+      "preferred_locales" : "ARRAY",
+      "v_tax_exempt" : "STRING",
+      "object" : "STRING",
+      "v_created" : "NULL",
+      "name" : "PII_PERSON_NAME",
+      "v_balance" : "INT",
+      "livemode" : "BOOLEAN",
+      "metadata" : "OBJECT"
+    } ],
+    "stock_quantity" : 2231
+  }
+}

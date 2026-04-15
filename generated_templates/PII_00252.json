@@ -1,0 +1,67 @@
+{
+  "prev_data" : "STRING",
+  "total_data" : "INT",
+  "limit" : "INT",
+  "conversion_rate" : 287.29,
+  "offset" : "INT",
+  "href_data" : "STRING",
+  "v_next" : "STRING",
+  "transactions" : [ {
+    "transactionMemo" : "STRING",
+    "salesRecordReference" : "STRING",
+    "payoutId" : "STRING",
+    "feeJurisdiction" : {
+      "retry_attempts" : 2703,
+      "fullName" : "STRING",
+      "regionType_data" : "STRING"
+    },
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "transactionStatus" : "STRING",
+    "identifier" : "STRING",
+    "bookingEntry" : "STRING",
+    "feeType" : "STRING",
+    "references" : [ {
+      "referenceId" : "STRING",
+      "response_time_sec" : 931.22,
+      "referenceType" : "NULL"
+    } ],
+    "amount_data" : {
+      "is_deleted" : false,
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING"
+    },
+    "totalFeeBasisAmount_data" : {
+      "v_value" : "STRING",
+      "exchangeRate" : "STRING",
+      "v_currency" : "STRING",
+      "convertedFromValue_data" : "STRING"
+    },
+    "orderLineItems" : [ {
+      "lineItemId" : "STRING",
+      "marketplaceFees" : [ {
+        "v_feeJurisdiction" : {
+          "regionName" : "STRING",
+          "priority_level" : 2810,
+          "regionType" : null
+        },
+        "v_feeMemo" : "STRING",
+        "feeType_data" : "STRING"
+      } ],
+      "feeBasisAmount" : {
+        "convertedFromValue" : "STRING",
+        "currency_data" : "STRING",
+        "v_value" : "STRING",
+        "exchangeRate" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      }
+    } ],
+    "v_transactionDate" : "DATETIME",
+    "recordId" : "STRING",
+    "transactionType" : "STRING",
+    "v_paymentsEntity" : "STRING"
+  } ]
+}

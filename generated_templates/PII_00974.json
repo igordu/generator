@@ -1,0 +1,32 @@
+{
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "raw_data" : {
+        "object" : "STRING",
+        "is_deleted" : true,
+        "has_more" : "BOOLEAN",
+        "url" : null,
+        "data" : [ {
+          "v_preferred_locales" : "ARRAY",
+          "created" : "NULL",
+          "test_clock" : "NULL",
+          "name" : "PII_PERSON_NAME",
+          "delinquent" : "BOOLEAN",
+          "currency_data" : "STRING",
+          "livemode" : "BOOLEAN",
+          "shipping" : "NULL",
+          "v_next_invoice_sequence" : "INT",
+          "metadata" : "OBJECT",
+          "object" : "STRING",
+          "description" : "STRING",
+          "v_address" : "NULL",
+          "id" : "STRING",
+          "emailAddress" : "PII_EMAIL",
+          "invoice_prefix" : "STRING",
+          "phone" : "PII_PHONE_NUMBER",
+          "balance" : "INT"
+        } ]
+      }
+    }
+  }
+}

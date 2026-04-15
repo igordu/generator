@@ -1,0 +1,18 @@
+{
+  "auto_renew" : false,
+  "v_content" : [ {
+    "rating" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "articleModelId" : "STRING",
+    "recommend_data" : "BOOLEAN",
+    "v_created" : "DATETIME",
+    "primaryKey" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "reviewId" : "STRING",
+    "conversion_rate" : 221.24,
+    "language_data" : "STRING",
+    "description" : "STRING",
+    "unhelpfulCount" : "INT",
+    "customerCity" : "PII_LOCATION_CITY"
+  } ]
+}

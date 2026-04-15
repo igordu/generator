@@ -1,0 +1,13 @@
+{
+  "active_data" : "BOOLEAN",
+  "v_tree" : {
+    "v_url" : "URL",
+    "is_deleted" : true,
+    "sha" : "STRING"
+  },
+  "user_info" : {
+    "fullName" : "PII_FIRST_NAME_FEMALE",
+    "name_val" : "PII_LAST_NAME_MALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  }
+}

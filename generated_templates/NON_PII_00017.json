@@ -1,0 +1,13 @@
+{
+  "numberOfUserReviews" : "INT",
+  "uuid" : "STRING",
+  "averageStarRating" : "INT",
+  "v_numberOfUserRecommendations" : "INT",
+  "v_starRatingDistribution" : {
+    "1" : "INT",
+    "4" : "INT",
+    "5" : "INT",
+    "v_2" : "INT"
+  },
+  "item_count" : 4756
+}

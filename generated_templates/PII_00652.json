@@ -1,0 +1,33 @@
+{
+  "DateTimeUTC" : "DATETIME",
+  "v_Employees" : [ {
+    "UpdatedDateUTC" : "DATETIME",
+    "EmployeeID" : "STRING",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "ExternalLink" : {
+      "requires_update" : true,
+      "Url" : "URL"
+    }
+  }, {
+    "UpdatedDateUTC" : "DATETIME",
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "Url" : "URL"
+    },
+    "Status_data" : "STRING",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "name_val" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "EmployeeID" : "STRING",
+    "v_ExternalLink" : {
+      "Description" : "STRING",
+      "Url" : "URL"
+    }
+  } ],
+  "Status" : "STRING",
+  "Id" : "STRING",
+  "ProviderName" : "STRING"
+}

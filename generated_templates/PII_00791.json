@@ -1,0 +1,34 @@
+{
+  "v_page_size" : "INT",
+  "cpu_usage_percent" : 807.6,
+  "page_count" : "INT",
+  "registrants" : [ {
+    "id" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "purchasing_time_frame_data" : "STRING",
+    "v_comments" : "STRING",
+    "join_url" : "",
+    "email" : "PII_EMAIL",
+    "zip" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "v_status" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "job_title" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "role_in_purchase_process" : "STRING",
+    "custom_questions" : [ {
+      "title" : "STRING",
+      "requires_update" : true,
+      "value" : "STRING"
+    }, {
+      "title" : "STRING",
+      "value" : "STRING",
+      "requires_update" : true
+    } ],
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "org" : "PII_ORGANIZATION_NAME",
+    "state" : "PII_LOCATION_STATE",
+    "first_name" : "PII_PERSON_FIRST_NAME"
+  } ],
+  "total_records" : "INT"
+}

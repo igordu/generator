@@ -1,0 +1,14 @@
+{
+  "numberOfUserPositiveRecommendations" : "INT",
+  "cache_hit" : false,
+  "averageStarRating" : "INT",
+  "articleModelId" : "STRING",
+  "numberOfUserRecommendations" : "NULL",
+  "numberOfUserReviews" : "NULL",
+  "starRatingDistribution" : {
+    "v_5" : "INT",
+    "1" : "INT",
+    "4" : "",
+    "3" : "INT"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "account_holder_type" : "STRING",
+  "bank_name" : "STRING",
+  "v_routing_number" : "STRING",
+  "status" : "STRING",
+  "v_fingerprint" : "STRING",
+  "metadata" : "OBJECT",
+  "id" : "STRING",
+  "country" : "STRING",
+  "customer_data" : "STRING",
+  "object" : "STRING",
+  "account_type" : "STRING",
+  "price" : 239.02,
+  "currency" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "last4" : "STRING"
+}

@@ -1,0 +1,74 @@
+{
+  "email_notification" : {
+    "jbh_reminder_data" : "BOOLEAN",
+    "schedule_for_reminder" : "BOOLEAN",
+    "cancel_meeting_reminder" : "BOOLEAN",
+    "alternative_host_reminder" : "BOOLEAN"
+  },
+  "tsp_data" : {
+    "show_international_numbers_link" : "BOOLEAN",
+    "call_out_countries" : "ARRAY",
+    "call_out_data" : "BOOLEAN",
+    "discount_rate" : 877.18
+  },
+  "schedule_meeting" : {
+    "meeting_password_requirement" : {
+      "have_special_character" : "BOOLEAN",
+      "have_number" : "BOOLEAN",
+      "v_only_allow_numeric" : "BOOLEAN",
+      "v_length" : "INT",
+      "have_letter" : "BOOLEAN"
+    },
+    "require_password_for_scheduling_new_meetings" : "NULL",
+    "participants_video" : "BOOLEAN",
+    "use_pmi_for_instant_meetings" : "BOOLEAN",
+    "item_count" : 2978,
+    "pmi_password" : "PII_PASSWORD",
+    "use_pmi_for_scheduled_meetings" : "NULL",
+    "join_before_host" : "BOOLEAN",
+    "audio_type" : "STRING",
+    "pstn_password_protected_data" : "BOOLEAN",
+    "force_pmi_jbh_password" : "BOOLEAN",
+    "embed_password_in_join_link" : "BOOLEAN",
+    "not_store_meeting_topic" : "BOOLEAN",
+    "require_password_for_pmi_meetings" : "STRING",
+    "host_video" : "BOOLEAN"
+  },
+  "telephony_data" : {
+    "show_international_numbers_link" : "BOOLEAN",
+    "requires_update" : false,
+    "audio_conference_info" : "STRING",
+    "third_party_audio_data" : "BOOLEAN"
+  },
+  "cache_hit" : false,
+  "in_meeting" : {
+    "attendee_on_hold" : "BOOLEAN",
+    "v_co_host" : "BOOLEAN",
+    "remote_control" : "BOOLEAN",
+    "auto_saving_chat" : "BOOLEAN",
+    "group_hd" : "BOOLEAN",
+    "v_polling" : "BOOLEAN",
+    "private_chat" : "BOOLEAN",
+    "show_meeting_control_toolbar" : "BOOLEAN",
+    "v_remote_support" : "BOOLEAN",
+    "non_verbal_feedback" : "BOOLEAN",
+    "chat" : "BOOLEAN",
+    "custom_data_center_regions_data" : "BOOLEAN",
+    "waiting_room_data" : "BOOLEAN",
+    "far_end_camera_control" : "BOOLEAN",
+    "allow_live_streaming" : "BOOLEAN",
+    "closed_caption" : "BOOLEAN",
+    "data_center_regions" : "ARRAY",
+    "e2e_encryption" : "BOOLEAN",
+    "annotation_data" : "",
+    "v_virtual_background" : "BOOLEAN"
+  },
+  "feature" : {
+    "large_meeting" : "BOOLEAN",
+    "in_meeting" : "BOOLEAN",
+    "webinar" : "BOOLEAN",
+    "zoom_phone" : "BOOLEAN",
+    "is_deleted" : false,
+    "v_meeting_capacity" : "INT"
+  }
+}

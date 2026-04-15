@@ -1,0 +1,28 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "debtorAccount" : {
+        "is_deleted" : true,
+        "v_iban" : "STRING"
+      },
+      "auto_renew" : true,
+      "v_bankTransactionCode" : {
+        "subFamily_data" : "NULL",
+        "domain_data" : "STRING",
+        "family" : "STRING"
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "amount" : {
+        "v_amount" : "DECIMAL",
+        "item_count" : 4891,
+        "v_currency" : "STRING"
+      },
+      "name_val" : "STRING",
+      "bookingDate" : "DATE",
+      "v_creditorAccount" : {
+        "iban" : "PII_IBAN"
+      }
+    } ]
+  }
+}

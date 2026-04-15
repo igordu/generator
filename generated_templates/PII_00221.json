@@ -1,0 +1,82 @@
+{
+  "next" : "STRING",
+  "transactions" : [ {
+    "totalFeeAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "system_ping_ms" : 2677,
+      "convertedFromValue" : "STRING"
+    },
+    "transactionId" : "STRING",
+    "payoutId" : "STRING",
+    "salesRecordReference" : "STRING",
+    "priority_level" : 4089,
+    "orderLineItems_data" : [ {
+      "lineItemId" : "STRING",
+      "discount_rate" : 486.16,
+      "v_marketplaceFees" : [ {
+        "feeType" : "STRING",
+        "amount" : {
+          "v_convertedFromValue" : "STRING",
+          "requires_update" : false,
+          "exchangeRate_data" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "value" : "STRING"
+        },
+        "feeMemo" : "STRING"
+      } ],
+      "feeBasisAmount" : {
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate" : null,
+        "convertedFromValue_data" : "STRING",
+        "currency" : "STRING",
+        "value" : "STRING"
+      }
+    } ],
+    "feeType" : "STRING",
+    "bookingEntry" : "NULL",
+    "v_references" : [ {
+      "referenceType" : "STRING"
+    } ],
+    "transactionMemo" : "STRING",
+    "transactionDate" : "DATETIME",
+    "buyer" : {
+      "retry_attempts" : 789,
+      "username" : "PII_USERNAME"
+    },
+    "paymentsEntity_data" : "STRING",
+    "v_amount" : {
+      "has_discount" : true,
+      "convertedFromCurrency_data" : "STRING",
+      "currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "feeJurisdiction" : {
+      "regionType" : "STRING",
+      "fullName" : "STRING"
+    },
+    "transactionStatus_data" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value_data" : "STRING",
+      "price" : 565.57,
+      "currency" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "totalFeeBasisAmount" : {
+      "v_value" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "v_exchangeRate" : "STRING"
+    }
+  } ],
+  "prev_data" : "STRING",
+  "http_status" : 724,
+  "total" : "NULL",
+  "limit" : "INT",
+  "offset" : "INT",
+  "href" : "STRING"
+}

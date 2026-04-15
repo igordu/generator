@@ -1,0 +1,45 @@
+{
+  "server_logs" : {
+    "transaction_trace" : {
+      "extracted_info" : {
+        "resourceType" : "STRING",
+        "address_data" : [ {
+          "use" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "country" : "PII_LOCATION_COUNTRY",
+          "line_data" : [ "PII_ADDRESS_LINE" ]
+        } ],
+        "telecom" : [ {
+          "value" : "PII_PHONE_NUMBER",
+          "use" : "STRING",
+          "system" : "STRING"
+        }, {
+          "system" : "STRING",
+          "system_ping_ms" : 1681,
+          "value_data" : "PII_EMAIL"
+        } ],
+        "name" : [ {
+          "family" : "PII_PERSON_LAST_NAME",
+          "use" : "STRING",
+          "given" : [ "PII_PERSON_FIRST_NAME" ],
+          "cache_hit" : true
+        } ],
+        "meta" : {
+          "recordId" : null
+        },
+        "identifier" : [ {
+          "v_type" : {
+            "text" : "STRING",
+            "retry_attempts" : 3821
+          },
+          "use" : "STRING",
+          "value" : "PII_NATIONAL_ID",
+          "system" : "URL"
+        } ],
+        "birthDate" : "PII_DATE_OF_BIRTH",
+        "id" : "STRING",
+        "gender" : "STRING"
+      }
+    }
+  }
+}

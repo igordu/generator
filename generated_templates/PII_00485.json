@@ -1,0 +1,36 @@
+{
+  "birthDate_data" : "PII_DATE_OF_BIRTH",
+  "resourceType" : "STRING",
+  "telecom" : [ {
+    "system" : "STRING",
+    "value" : "PII_EMAIL"
+  }, {
+    "use_data" : "STRING",
+    "system" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  } ],
+  "gender_data" : "NULL",
+  "id" : "STRING",
+  "v_address" : [ {
+    "temperature_c" : 179.85,
+    "line_data" : [ "PII_ADDRESS_LINE" ],
+    "use" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY"
+  } ],
+  "name" : [ {
+    "use" : "STRING",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "identifier" : [ {
+    "system" : "URL",
+    "value" : "PII_NATIONAL_ID",
+    "type" : {
+      "v_text" : "STRING"
+    },
+    "use_data" : "STRING",
+    "item_count" : 623
+  } ],
+  "temperature_c" : 280.45
+}

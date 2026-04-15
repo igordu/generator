@@ -1,0 +1,37 @@
+{
+  "v_total_records" : "INT",
+  "page_count" : "NULL",
+  "v_registrants" : [ {
+    "state" : "PII_LOCATION_STATE",
+    "join_url_data" : "URL",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "no_of_employees_data" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "zip" : "STRING",
+    "email" : "PII_EMAIL",
+    "country" : "PII_LOCATION_COUNTRY",
+    "job_title" : "STRING",
+    "mobile" : "PII_PHONE_NUMBER",
+    "industry" : "NULL",
+    "custom_questions" : [ {
+      "value" : null,
+      "title_data" : "STRING"
+    }, {
+      "title" : "STRING",
+      "value" : "STRING",
+      "http_status" : 481
+    } ],
+    "status" : "STRING",
+    "org" : "PII_ORGANIZATION_NAME",
+    "http_status" : 2886,
+    "create_time" : "DATETIME",
+    "v_purchasing_time_frame" : null,
+    "role_in_purchase_process" : "STRING",
+    "v_comments" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "v_city" : "PII_LOCATION_CITY",
+    "recordId" : "STRING"
+  } ],
+  "page_size_data" : "INT",
+  "v_page_number" : "INT"
+}

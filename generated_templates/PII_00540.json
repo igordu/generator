@@ -1,0 +1,23 @@
+{
+  "transactions_data" : {
+    "booked" : [ {
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "transactionId" : "STRING",
+      "bookingDate" : "DATE",
+      "debtorName" : null,
+      "valueDate" : "DATE",
+      "creditorName" : "PII_PERSON_NAME",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN",
+        "system_ping_ms" : 2707
+      },
+      "debtorAccount" : {
+        "stock_quantity" : 4175
+      },
+      "amount" : {
+        "currency_data" : "STRING"
+      }
+    } ],
+    "priority_level" : 2633
+  }
+}

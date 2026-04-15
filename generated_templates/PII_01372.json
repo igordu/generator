@@ -1,0 +1,14 @@
+{
+  "has_discount" : false,
+  "tree" : {
+    "sha_data" : "",
+    "url_data" : "URL"
+  },
+  "v_user_info" : {
+    "system_ping_ms" : 1058,
+    "fullName" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  },
+  "active" : "BOOLEAN"
+}

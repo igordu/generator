@@ -1,0 +1,15 @@
+{
+  "discount_rate" : 424.39,
+  "articleModelId" : "STRING",
+  "starRatingDistribution" : {
+    "3_data" : "INT",
+    "1" : "INT",
+    "5" : "INT",
+    "2_data" : "INT",
+    "v_4" : "INT"
+  },
+  "numberOfUserRecommendations" : "NULL",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserReviews" : "INT",
+  "averageStarRating" : "INT"
+}

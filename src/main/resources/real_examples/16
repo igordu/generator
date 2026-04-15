@@ -1,0 +1,103 @@
+{
+  "email_notification": {
+    "alternative_host_reminder": false,
+    "cancel_meeting_reminder": false,
+    "jbh_reminder": false,
+    "schedule_for_reminder": false
+  },
+  "feature": {
+    "cn_meeting": true,
+    "in_meeting": false,
+    "large_meeting": false,
+    "meeting_capacity": 100,
+    "webinar": false,
+    "zoom_phone": false
+  },
+  "in_meeting": {
+    "allow_live_streaming": false,
+    "annotation": true,
+    "attendee_on_hold": false,
+    "auto_saving_chat": false,
+    "breakout_room": false,
+    "chat": true,
+    "closed_caption": true,
+    "co_host": false,
+    "custom_data_center_regions": true,
+    "data_center_regions": [
+      "AU",
+      "CN",
+      "EU",
+      "HK",
+      "LA",
+      "TY",
+      "US"
+    ],
+    "e2e_encryption": false,
+    "entry_exit_chime": "all",
+    "far_end_camera_control": false,
+    "feedback": true,
+    "group_hd": false,
+    "non_verbal_feedback": false,
+    "polling": true,
+    "private_chat": true,
+    "record_play_voice": false,
+    "remote_control": true,
+    "remote_support": false,
+    "show_meeting_control_toolbar": false,
+    "virtual_background": true,
+    "waiting_room": false
+  },
+  "recording": {
+    "auto_delete_cmr": false,
+    "auto_recording": "none",
+    "cloud_recording": true,
+    "local_recording": true,
+    "record_audio_file": true,
+    "record_gallery_view": false,
+    "record_speaker_view": true,
+    "recording_audio_transcript": true,
+    "recording_password_requirement": {
+      "have_letter": true,
+      "have_number": true,
+      "have_special_character": true,
+      "length": 8,
+      "only_allow_numeric": false
+    },
+    "save_chat_text": true,
+    "show_timestamp": false
+  },
+  "schedule_meeting": {
+    "audio_type": "both",
+    "embed_password_in_join_link": false,
+    "force_pmi_jbh_password": true,
+    "host_video": true,
+    "join_before_host": false,
+    "meeting_password_requirement": {
+      "have_letter": true,
+      "have_number": false,
+      "have_special_character": false,
+      "length": 6,
+      "only_allow_numeric": false
+    },
+    "not_store_meeting_topic": false,
+    "participants_video": false,
+    "pmi_password": "98654",
+    "pstn_password_protected": false,
+    "require_password_for_pmi_meetings": "all",
+    "require_password_for_scheduling_new_meetings": false,
+    "use_pmi_for_instant_meetings": true,
+    "use_pmi_for_scheduled_meetings": false
+  },
+  "telephony": {
+    "audio_conference_info": "",
+    "show_international_numbers_link": false,
+    "third_party_audio": false
+  },
+  "tsp": {
+    "call_out": true,
+    "call_out_countries": [
+      "USA"
+    ],
+    "show_international_numbers_link": false
+  }
+}

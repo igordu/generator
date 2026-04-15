@@ -1,0 +1,29 @@
+{
+  "temperature_c" : 222.95,
+  "v_transactions" : {
+    "booked_data" : [ {
+      "valueDate" : "DATE",
+      "bookingDate" : "DATE",
+      "bankTransactionCode_data" : {
+        "cpu_usage_percent" : 378.26,
+        "family_data" : "STRING",
+        "domain" : "STRING"
+      },
+      "creditorAccount" : {
+        "stock_quantity" : 4455,
+        "iban" : "PII_IBAN"
+      },
+      "amount_data" : {
+        "currency_data" : "STRING",
+        "amount" : "DECIMAL",
+        "is_active" : true
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "transactionId" : null,
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
+    } ]
+  }
+}

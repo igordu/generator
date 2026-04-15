@@ -1,0 +1,46 @@
+[ {
+  "facets" : [ {
+    "count" : "INT",
+    "conversion_rate" : 129.28,
+    "fullName" : "",
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count_data" : "INT"
+  } ],
+  "filter" : "STRING"
+}, {
+  "facets_data" : [ {
+    "displayName" : "STRING",
+    "auto_renew" : false,
+    "count" : "INT",
+    "key_data" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "v_count" : "INT",
+    "key" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "facets" : [ {
+    "page_index" : 3939,
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "v_key" : "STRING",
+    "has_discount" : true
+  }, {
+    "is_deleted" : false,
+    "clientName" : "STRING",
+    "count_data" : "INT",
+    "key" : "STRING"
+  } ],
+  "filter" : "STRING"
+} ]

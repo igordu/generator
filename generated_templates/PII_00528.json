@@ -1,0 +1,30 @@
+{
+  "has_discount" : true,
+  "transactions" : {
+    "temperature_c" : 292.41,
+    "booked" : [ {
+      "name_val" : "STRING",
+      "bookingDate" : "DATE",
+      "debtorAccount" : {
+        "iban_data" : "STRING"
+      },
+      "fullName" : "PII_PERSON_NAME",
+      "creditorAccount" : {
+        "stock_quantity" : 1973,
+        "iban" : "PII_IBAN"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "amount_data" : {
+        "currency_data" : "STRING",
+        "amount_data" : "DECIMAL"
+      },
+      "valueDate_data" : "DATE",
+      "bankTransactionCode" : {
+        "v_domain" : "STRING",
+        "stock_quantity" : 1186,
+        "family" : "STRING",
+        "v_subFamily" : "STRING"
+      }
+    } ]
+  }
+}

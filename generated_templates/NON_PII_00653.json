@@ -1,0 +1,41 @@
+{
+  "audit_trail" : {
+    "transaction_trace" : {
+      "raw_data" : [ {
+        "depreciationExpenseAccountId" : "STRING",
+        "auto_renew" : true,
+        "accumulatedDepreciationAccountId" : "STRING",
+        "lockPrivateUseAccount" : "BOOLEAN",
+        "locks_data" : "INT",
+        "bookDepreciationSetting_data" : {
+          "depreciableObjectId" : "STRING",
+          "depreciationCalculationMethod" : "STRING",
+          "depreciationRate" : "DECIMAL",
+          "averagingMethod" : "STRING",
+          "depreciableObjectType" : "STRING",
+          "depreciationMethod" : "STRING",
+          "recordId" : "STRING"
+        },
+        "recordId" : "",
+        "v_taxDepreciationSettings" : "ARRAY"
+      }, {
+        "locks" : "INT",
+        "accumulatedDepreciationAccountId" : "STRING",
+        "assetTypeId" : "STRING",
+        "assetTypeName" : "STRING",
+        "recordId" : "STRING",
+        "taxDepreciationSettings" : "ARRAY",
+        "bookDepreciationSetting_data" : {
+          "bookEffectiveDateOfChangeId" : "STRING",
+          "depreciationCalculationMethod" : "STRING",
+          "v_depreciableObjectType" : "STRING",
+          "v_depreciationRate" : "DECIMAL",
+          "depreciationMethod_data" : "STRING",
+          "averagingMethod" : "STRING",
+          "depreciableObjectId" : "STRING"
+        },
+        "fixedAssetAccountId" : "STRING"
+      } ]
+    }
+  }
+}

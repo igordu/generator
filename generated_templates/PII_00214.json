@@ -1,0 +1,72 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "v_next" : "NULL",
+    "conversion_rate" : 151.72,
+    "limit" : "INT",
+    "transactions" : [ {
+      "discount_rate" : 802.73,
+      "transactionMemo" : "STRING",
+      "feeJurisdiction_data" : {
+        "regionName" : "STRING",
+        "regionType" : "STRING"
+      },
+      "v_salesRecordReference" : "STRING",
+      "uuid" : "STRING",
+      "v_references" : [ {
+        "referenceType" : "STRING",
+        "referenceId" : "STRING"
+      } ],
+      "bookingEntry" : null,
+      "amount" : {
+        "value" : "STRING",
+        "v_exchangeRate" : "STRING",
+        "priority_level" : 4773,
+        "convertedFromValue" : "",
+        "currency" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      },
+      "eBayCollectedTaxAmount" : {
+        "exchangeRate" : "STRING",
+        "value" : "NULL",
+        "convertedFromCurrency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "currency" : "STRING"
+      },
+      "transactionType" : "STRING",
+      "buyer" : {
+        "price" : 16.11,
+        "name_val" : "PII_USERNAME"
+      },
+      "orderLineItems" : [ {
+        "lineItemId" : null,
+        "marketplaceFees" : [ {
+          "feeType" : "STRING",
+          "v_feeMemo" : "STRING",
+          "feeJurisdiction" : {
+            "response_time_sec" : 435.89,
+            "regionName" : "STRING"
+          }
+        } ],
+        "v_feeBasisAmount" : {
+          "currency_data" : "NULL",
+          "convertedFromCurrency_data" : "STRING",
+          "v_value" : "STRING",
+          "convertedFromValue_data" : "STRING"
+        }
+      } ],
+      "totalFeeBasisAmount_data" : {
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate" : "STRING"
+      },
+      "transactionStatus_data" : "",
+      "paymentsEntity" : "STRING",
+      "transactionDate" : "DATETIME"
+    } ],
+    "v_total" : "INT",
+    "href" : "STRING",
+    "prev" : "STRING"
+  }
+}

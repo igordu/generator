@@ -1,0 +1,10 @@
+{
+  "audit_trail" : {
+    "transaction_trace" : {
+      "body" : {
+        "emailAddressStatus" : [ "STRING" ],
+        "emailAddress" : "PII_EMAIL"
+      }
+    }
+  }
+}

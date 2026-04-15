@@ -1,0 +1,69 @@
+{
+  "offset" : "INT",
+  "href" : "STRING",
+  "total" : "INT",
+  "v_transactions" : [ {
+    "references" : [ {
+      "referenceType" : "STRING",
+      "recordId" : "STRING",
+      "temperature_c" : 79.55
+    } ],
+    "is_active" : false,
+    "v_amount" : {
+      "temperature_c" : 319.93,
+      "v_value" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "v_exchangeRate" : "STRING"
+    },
+    "feeType" : "STRING",
+    "totalFeeBasisAmount" : {
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "currency" : "STRING",
+      "exchangeRate_data" : "STRING"
+    },
+    "v_paymentsEntity" : "STRING",
+    "transactionType" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "v_exchangeRate" : "STRING",
+      "page_index" : 4724,
+      "v_value" : "STRING",
+      "convertedFromValue_data" : "NULL",
+      "convertedFromCurrency_data" : "STRING"
+    },
+    "buyer_data" : {
+      "username" : "PII_USERNAME"
+    },
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "amount" : {
+          "v_value" : "STRING",
+          "convertedFromCurrency_data" : "STRING",
+          "currency" : "STRING",
+          "v_exchangeRate" : "STRING",
+          "v_convertedFromValue" : "STRING"
+        },
+        "feeType" : "STRING",
+        "feeJurisdiction" : {
+          "regionName" : "STRING"
+        }
+      } ],
+      "is_active" : true,
+      "lineItemId" : "STRING"
+    } ],
+    "v_bookingEntry" : "STRING",
+    "transactionStatus" : "STRING",
+    "salesRecordReference" : "STRING",
+    "transactionDate" : "DATETIME",
+    "identifier" : "STRING",
+    "orderId" : "STRING",
+    "transactionMemo" : "STRING",
+    "transactionId" : ""
+  } ],
+  "prev" : "STRING",
+  "page_index" : 3976,
+  "next" : "STRING",
+  "limit_data" : "INT"
+}

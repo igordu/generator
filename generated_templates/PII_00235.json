@@ -1,0 +1,78 @@
+{
+  "item_count" : 1489,
+  "transactions" : [ {
+    "references" : [ {
+      "referenceType" : "STRING",
+      "uuid" : "STRING"
+    } ],
+    "bookingEntry_data" : "STRING",
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "amount" : {
+          "convertedFromValue_data" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "v_value" : "STRING",
+          "exchangeRate" : "STRING"
+        },
+        "v_feeMemo" : "STRING",
+        "feeJurisdiction" : {
+          "cache_hit" : true,
+          "regionName" : "STRING",
+          "regionType" : "STRING"
+        },
+        "feeType" : "STRING"
+      } ],
+      "feeBasisAmount_data" : {
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "v_exchangeRate" : "STRING",
+        "value" : "STRING"
+      },
+      "lineItemId" : "STRING"
+    } ],
+    "requires_update" : true,
+    "eBayCollectedTaxAmount" : {
+      "currency" : "STRING",
+      "exchangeRate" : null,
+      "convertedFromValue_data" : "STRING",
+      "value" : "STRING"
+    },
+    "transactionId" : "STRING",
+    "transactionType" : "STRING",
+    "orderId" : "STRING",
+    "v_buyer" : {
+      "fullName" : "PII_USERNAME",
+      "has_discount" : false
+    },
+    "totalFeeAmount" : {
+      "auto_renew" : true,
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "v_value" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "feeType_data" : "STRING",
+    "paymentsEntity" : "STRING",
+    "transactionMemo" : "STRING",
+    "feeJurisdiction" : {
+      "discount_rate" : 272.61,
+      "regionType" : "STRING",
+      "fullName" : "STRING"
+    },
+    "transactionStatus" : "STRING",
+    "totalFeeBasisAmount" : {
+      "convertedFromCurrency_data" : "STRING",
+      "value" : "STRING",
+      "currency_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "exchangeRate_data" : "STRING"
+    },
+    "salesRecordReference" : "STRING",
+    "transactionDate" : "DATETIME"
+  } ],
+  "href" : "",
+  "next" : "STRING",
+  "offset" : "INT",
+  "prev" : "STRING",
+  "total" : "INT"
+}

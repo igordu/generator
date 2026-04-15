@@ -1,0 +1,60 @@
+{
+  "accountType": "string",
+  "businessAccount": {
+    "address": {
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "city": "string",
+      "country": "string",
+      "county": "string",
+      "postalCode": "string",
+      "stateOrProvince": "string"
+    },
+    "doingBusinessAs": "string",
+    "email": "string",
+    "name": "string",
+    "primaryContact": {
+      "firstName": "string",
+      "lastName": "string"
+    },
+    "primaryPhone": {
+      "countryCode": "string",
+      "number": "string",
+      "phoneType": "string"
+    },
+    "secondaryPhone": {
+      "countryCode": "string",
+      "number": "string",
+      "phoneType": "string"
+    },
+    "website": "string"
+  },
+  "individualAccount": {
+    "email": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "primaryPhone": {
+      "countryCode": "string",
+      "number": "string",
+      "phoneType": "string"
+    },
+    "registrationAddress": {
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "city": "string",
+      "country": "string",
+      "county": "string",
+      "postalCode": "string",
+      "stateOrProvince": "string"
+    },
+    "secondaryPhone": {
+      "countryCode": "string",
+      "number": "string",
+      "phoneType": "string"
+    }
+  },
+  "registrationMarketplaceId": "string",
+  "status": "string",
+  "userId": "string",
+  "username": "string"
+}

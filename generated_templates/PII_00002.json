@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "v_articleSizeRatings" : {
+      "OVERALL" : "INT",
+      "SHOE_WIDTH" : "INT",
+      "item_count" : 724
+    },
+    "created" : "DATETIME",
+    "articleModelId" : "STRING",
+    "unhelpfulCount" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "title" : "PII_COMPANY_NAME",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "recommend_data" : "BOOLEAN",
+    "articleId" : "STRING",
+    "description" : "STRING",
+    "helpfulCount" : "INT",
+    "rating" : "INT",
+    "reviewId" : "STRING",
+    "cache_hit" : false
+  } ]
+}

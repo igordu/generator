@@ -1,0 +1,24 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "shopUrl_data" : "URL",
+      "clientName" : "STRING",
+      "modelId" : "STRING",
+      "media" : {
+        "images" : [ {
+          "smallUrl" : "URL",
+          "largeUrl" : "URL",
+          "type" : "STRING",
+          "v_mediumHdUrl" : "URL",
+          "cpu_usage_percent" : 460.41,
+          "mediumUrl" : "URL",
+          "v_orderNumber" : "INT",
+          "thumbnailHdUrl" : "URL",
+          "smallHdUrl" : "URL",
+          "largeHdUrl" : "URL"
+        } ]
+      },
+      "id" : "STRING"
+    }
+  }
+}

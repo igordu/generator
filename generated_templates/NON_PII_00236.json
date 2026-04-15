@@ -1,0 +1,6 @@
+[ {
+  "is_active" : false,
+  "filter" : "STRING"
+}, {
+  "v_filter" : "STRING"
+} ]

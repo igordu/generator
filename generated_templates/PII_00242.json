@@ -1,0 +1,82 @@
+{
+  "transactions" : [ {
+    "v_orderLineItems" : [ {
+      "lineItemId" : "STRING",
+      "marketplaceFees_data" : [ {
+        "amount" : {
+          "value_data" : "STRING",
+          "v_currency" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "exchangeRate" : "NULL",
+          "convertedFromValue_data" : "STRING"
+        },
+        "feeJurisdiction" : {
+          "regionType" : "STRING",
+          "regionName" : "STRING",
+          "has_discount" : false
+        },
+        "feeMemo" : "STRING",
+        "feeType" : "STRING"
+      } ]
+    } ],
+    "feeJurisdiction" : {
+      "regionType_data" : "STRING",
+      "fullName" : "STRING"
+    },
+    "amount" : {
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate" : null,
+      "currency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "value_data" : "NULL",
+      "cache_hit" : false
+    },
+    "salesRecordReference" : "STRING",
+    "identifier" : "NULL",
+    "eBayCollectedTaxAmount" : {
+      "exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING",
+      "value" : "NULL"
+    },
+    "totalFeeBasisAmount" : {
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "v_convertedFromCurrency" : null
+    },
+    "v_transactionMemo" : "STRING",
+    "v_buyer" : {
+      "http_status" : 3226,
+      "username" : "PII_USERNAME"
+    },
+    "transactionId" : "NULL",
+    "transactionStatus_data" : "STRING",
+    "uuid" : "STRING",
+    "paymentsEntity" : "STRING",
+    "bookingEntry" : "STRING",
+    "v_transactionDate" : "DATETIME",
+    "totalFeeAmount" : {
+      "has_discount" : false,
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "v_value" : "STRING",
+      "exchangeRate_data" : "STRING"
+    },
+    "feeType_data" : "STRING",
+    "transactionType_data" : "STRING",
+    "v_references" : [ {
+      "priority_level" : 4349,
+      "referenceType" : "STRING"
+    } ],
+    "is_deleted" : true
+  } ],
+  "total" : "INT",
+  "prev" : "STRING",
+  "next" : "STRING",
+  "offset" : "INT",
+  "v_limit" : "",
+  "has_discount" : true
+}

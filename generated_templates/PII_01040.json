@@ -1,0 +1,16 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "v_country" : "STRING",
+      "last4" : "STRING",
+      "name_val" : "PII_PERSON_NAME",
+      "v_currency" : "STRING",
+      "account_type" : "STRING",
+      "v_account_holder_type" : "STRING",
+      "routing_number" : "STRING",
+      "customer" : "STRING",
+      "fullName" : "STRING",
+      "metadata" : "OBJECT"
+    }
+  }
+}

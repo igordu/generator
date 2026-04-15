@@ -1,0 +1,14 @@
+{
+  "v_tree" : {
+    "priority_level" : 3851,
+    "url" : "URL",
+    "sha" : ""
+  },
+  "active" : "BOOLEAN",
+  "user_info" : {
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "system_ping_ms" : 1601
+  }
+}

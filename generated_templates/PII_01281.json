@@ -1,0 +1,81 @@
+{
+  "server_logs" : {
+    "transaction_trace" : {
+      "extracted_info" : [ {
+        "sha" : "STRING",
+        "author" : {
+          "uuid" : "STRING",
+          "v_starred_url" : "URL",
+          "avatar_url" : "URL",
+          "received_events_url" : "URL",
+          "gists_url" : "URL",
+          "v_repos_url" : "URL",
+          "v_url" : "URL",
+          "following_url" : "URL",
+          "type" : "STRING",
+          "organizations_url" : "URL",
+          "site_admin" : "BOOLEAN",
+          "subscriptions_url_data" : "URL",
+          "html_url" : "URL",
+          "events_url_data" : "URL",
+          "login" : "STRING"
+        },
+        "v_parents" : [ {
+          "sha" : "STRING",
+          "url" : "URL"
+        } ],
+        "comments_url" : "URL",
+        "html_url_data" : "URL",
+        "commit_data" : {
+          "comment_count" : "INT",
+          "verification_data" : {
+            "payload" : "STRING",
+            "v_verified" : "BOOLEAN",
+            "signature" : "STRING",
+            "reason" : "NULL",
+            "v_verified_at" : "DATETIME"
+          },
+          "url" : "URL",
+          "v_message" : "PII_COMPANY_NAME",
+          "author" : {
+            "date" : "DATETIME",
+            "name" : "PII_PERSON_NAME",
+            "email" : "PII_EMAIL"
+          },
+          "tree" : {
+            "url" : "URL",
+            "sha" : "STRING"
+          },
+          "committer" : {
+            "name" : "PII_PERSON_NAME",
+            "requires_update" : false,
+            "email" : "PII_EMAIL"
+          }
+        },
+        "node_id" : "STRING",
+        "cache_hit" : true,
+        "v_committer" : {
+          "repos_url_data" : "URL",
+          "url" : "URL",
+          "html_url" : "URL",
+          "gravatar_id" : "STRING",
+          "avatar_url_data" : "URL",
+          "subscriptions_url_data" : "URL",
+          "type" : "STRING",
+          "priority_level" : 3185,
+          "v_organizations_url" : "URL",
+          "events_url" : "URL",
+          "starred_url_data" : "URL",
+          "gists_url" : "URL",
+          "followers_url" : "URL",
+          "following_url" : "URL",
+          "site_admin_data" : "BOOLEAN",
+          "identifier" : "STRING",
+          "id" : "INT",
+          "login" : "NULL",
+          "v_received_events_url" : "URL"
+        }
+      } ]
+    }
+  }
+}

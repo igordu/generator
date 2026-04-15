@@ -1,0 +1,24 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "recordId" : "STRING",
+    "media" : {
+      "auto_renew" : false,
+      "images_data" : [ {
+        "mediumHdUrl_data" : "URL",
+        "largeUrl" : "URL",
+        "v_smallHdUrl" : "URL",
+        "type" : "STRING",
+        "largeHdUrl_data" : null,
+        "smallUrl" : "URL",
+        "v_thumbnailHdUrl" : "URL",
+        "orderNumber" : ""
+      } ]
+    },
+    "id" : "",
+    "shopUrl" : "URL",
+    "userName" : "STRING",
+    "conversion_rate" : 106.32
+  }
+}

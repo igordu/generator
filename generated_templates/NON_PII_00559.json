@@ -1,0 +1,40 @@
+[ {
+  "avatarUrls" : {
+    "16x16" : "URL",
+    "32x32" : "URL",
+    "48x48" : "URL",
+    "v_24x24" : "",
+    "response_time_sec" : 770.53
+  },
+  "v_projectCategory" : {
+    "description" : "STRING",
+    "self" : "URL",
+    "id" : "STRING",
+    "auto_renew" : true,
+    "name" : "STRING"
+  },
+  "name" : "STRING",
+  "key_data" : "STRING",
+  "id" : "STRING",
+  "insight" : {
+    "v_lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "self" : "URL"
+}, {
+  "id" : "STRING",
+  "self_data" : "URL",
+  "key_data" : "STRING",
+  "avatarUrls_data" : {
+    "16x16" : "URL",
+    "is_deleted" : false,
+    "48x48" : "URL",
+    "24x24" : "URL"
+  },
+  "projectCategory" : {
+    "self" : "URL",
+    "name" : "STRING",
+    "recordId" : "STRING"
+  },
+  "style" : "STRING"
+} ]

@@ -1,0 +1,16 @@
+{
+  "currency" : "STRING",
+  "object" : "STRING",
+  "last4_data" : "STRING",
+  "status" : null,
+  "clientName" : "PII_PERSON_NAME",
+  "v_account_type" : "STRING",
+  "v_country" : "STRING",
+  "id" : "STRING",
+  "page_index" : 3279,
+  "bank_name" : "STRING",
+  "fingerprint_data" : "STRING",
+  "customer" : "STRING",
+  "account_holder_type" : "STRING",
+  "routing_number" : "STRING"
+}

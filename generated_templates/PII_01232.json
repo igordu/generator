@@ -1,0 +1,77 @@
+[ {
+  "sha" : "STRING",
+  "committer" : {
+    "starred_url_data" : "URL",
+    "login" : "STRING",
+    "id" : "INT",
+    "received_events_url_data" : "URL",
+    "repos_url" : "URL",
+    "gravatar_id" : "STRING",
+    "avatar_url" : "URL",
+    "html_url" : "URL",
+    "type" : "STRING",
+    "gists_url" : "URL",
+    "v_site_admin" : "BOOLEAN",
+    "organizations_url_data" : "URL",
+    "url" : "URL",
+    "primaryKey" : "",
+    "events_url" : "URL",
+    "subscriptions_url" : "URL"
+  },
+  "commit" : {
+    "priority_level" : 4450,
+    "v_tree" : {
+      "sha" : "STRING",
+      "url_data" : "URL"
+    },
+    "author_data" : {
+      "email" : "PII_EMAIL",
+      "conversion_rate" : 537.11,
+      "date" : "DATETIME",
+      "name" : "PII_PERSON_NAME"
+    },
+    "message" : "PII_COMPANY_NAME",
+    "verification" : {
+      "signature_data" : "STRING",
+      "verified_at" : "DATETIME",
+      "reason" : "STRING",
+      "v_payload" : "STRING",
+      "verified" : "BOOLEAN"
+    },
+    "v_committer" : {
+      "discount_rate" : 648.25,
+      "email" : "PII_EMAIL",
+      "date" : "DATETIME",
+      "name" : "PII_PERSON_NAME"
+    }
+  },
+  "html_url" : "URL",
+  "node_id" : "STRING",
+  "url" : "URL",
+  "comments_url" : "URL",
+  "auto_renew" : true,
+  "v_author" : {
+    "html_url" : "URL",
+    "received_events_url" : "URL",
+    "url" : "URL",
+    "following_url" : "URL",
+    "type_data" : "STRING",
+    "subscriptions_url_data" : "URL",
+    "http_status" : 1289,
+    "avatar_url" : "URL",
+    "events_url_data" : "URL",
+    "v_starred_url" : "URL",
+    "node_id" : "STRING",
+    "v_login" : "STRING",
+    "followers_url_data" : "URL",
+    "repos_url" : "URL",
+    "gravatar_id" : "STRING",
+    "primaryKey" : "INT",
+    "site_admin" : "BOOLEAN",
+    "gists_url_data" : "URL"
+  },
+  "parents" : [ {
+    "item_count" : 4521,
+    "sha_data" : "STRING"
+  } ]
+} ]

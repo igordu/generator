@@ -1,0 +1,14 @@
+{
+  "primaryKey" : "STRING",
+  "v_numberOfUserRecommendations" : "INT",
+  "numberOfUserReviews" : null,
+  "averageStarRating" : "INT",
+  "discount_rate" : 807.84,
+  "starRatingDistribution" : {
+    "3" : "INT",
+    "5" : "INT",
+    "2_data" : "INT",
+    "4_data" : "INT",
+    "auto_renew" : true
+  }
+}

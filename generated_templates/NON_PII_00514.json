@@ -1,0 +1,47 @@
+[ {
+  "style" : "STRING",
+  "key" : "NULL",
+  "v_projectCategory" : {
+    "primaryKey" : "NULL",
+    "stock_quantity" : 55,
+    "name" : "STRING",
+    "description" : "NULL",
+    "self" : "URL"
+  },
+  "id" : "",
+  "simplified" : "BOOLEAN",
+  "self" : "URL",
+  "has_discount" : true,
+  "v_insight" : {
+    "lastIssueUpdateTime_data" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "avatarUrls" : {
+    "32x32" : "URL",
+    "requires_update" : false,
+    "24x24" : "URL",
+    "16x16_data" : "URL",
+    "v_48x48" : "URL"
+  }
+}, {
+  "projectCategory" : {
+    "id" : "STRING",
+    "fullName" : "STRING",
+    "v_description" : "STRING"
+  },
+  "style" : "NULL",
+  "self" : "URL",
+  "v_insight" : {
+    "cache_hit" : false,
+    "v_lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "id" : "STRING",
+  "avatarUrls" : {
+    "24x24" : "URL",
+    "48x48_data" : "URL",
+    "32x32" : "URL",
+    "16x16" : "URL"
+  },
+  "simplified" : "BOOLEAN"
+} ]

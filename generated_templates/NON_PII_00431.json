@@ -1,0 +1,11 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "fullName" : "STRING",
+    "auto_renew" : false,
+    "v_clientToken" : "STRING"
+  }
+}

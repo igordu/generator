@@ -1,0 +1,30 @@
+{
+  "transactions" : {
+    "booked_data" : [ {
+      "bookingDate_data" : "DATE",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "debtorAccount_data" : {
+        "iban" : "STRING",
+        "system_ping_ms" : 4240
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "retry_attempts" : 2800,
+      "v_valueDate" : "DATE",
+      "bankTransactionCode" : {
+        "page_index" : 745,
+        "family" : "NULL",
+        "domain" : "STRING",
+        "subFamily_data" : "STRING"
+      },
+      "amount" : {
+        "is_deleted" : false,
+        "currency_data" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "debtorName" : "STRING"
+    } ]
+  }
+}

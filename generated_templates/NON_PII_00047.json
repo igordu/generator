@@ -1,0 +1,12 @@
+{
+  "articleModelId" : "STRING",
+  "v_averageStarRating" : "",
+  "v_starRatingDistribution" : {
+    "1" : "INT",
+    "is_active" : false,
+    "v_2" : "INT",
+    "5" : "INT",
+    "3" : "INT"
+  },
+  "v_numberOfUserRecommendations" : "INT"
+}

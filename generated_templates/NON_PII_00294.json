@@ -1,0 +1,18 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "key" : "STRING",
+    "name_val" : "STRING",
+    "count" : "INT",
+    "discount_rate" : 790.0
+  }, {
+    "key" : "STRING",
+    "count" : "INT",
+    "displayName" : "STRING"
+  } ]
+}, {
+  "filter" : "STRING"
+}, {
+  "response_time_sec" : 251.9,
+  "filter" : "STRING"
+} ]

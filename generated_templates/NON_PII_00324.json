@@ -1,0 +1,149 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "stock_quantity" : 2219,
+      "tasks" : [ {
+        "taskType" : "STRING",
+        "destinationField" : "STRING",
+        "sourceFields" : "ARRAY",
+        "taskProperties" : {
+          "property1" : "STRING",
+          "stock_quantity" : 569
+        },
+        "is_active" : false,
+        "connectorOperator" : {
+          "SAPOData" : "STRING",
+          "v_Amplitude" : "STRING",
+          "Marketo" : "STRING",
+          "CustomConnector" : "STRING",
+          "ServiceNow" : "STRING",
+          "Singular_data" : "STRING",
+          "Trendmicro" : "STRING",
+          "Zendesk_data" : "STRING",
+          "Slack_data" : "STRING",
+          "GoogleAnalytics" : "STRING",
+          "S3" : "STRING",
+          "Dynatrace" : "STRING",
+          "Salesforce" : "STRING",
+          "InforNexus_data" : "STRING",
+          "Datadog" : "STRING"
+        }
+      } ],
+      "metadataCatalogConfig_data" : {
+        "has_discount" : true,
+        "glueDataCatalog" : {
+          "roleArn" : "STRING",
+          "databaseName" : "STRING"
+        }
+      },
+      "description" : "STRING",
+      "kmsArn" : "STRING",
+      "destinationFlowConfigList" : [ {
+        "connectorProfileName" : "STRING",
+        "connectorType" : "STRING"
+      } ],
+      "tags" : {
+        "cache_hit" : false,
+        "property1" : "STRING",
+        "property2" : "STRING"
+      },
+      "triggerConfig" : {
+        "triggerType" : "STRING",
+        "triggerProperties" : {
+          "Scheduled" : {
+            "scheduleOffset" : "INT",
+            "scheduleEndTime" : "DATETIME",
+            "firstExecutionFrom" : "DATETIME",
+            "flowErrorDeactivationThreshold_data" : "INT",
+            "scheduleExpression" : "STRING",
+            "scheduleStartTime" : "DATETIME",
+            "timezone" : "STRING",
+            "v_dataPullMode" : "STRING"
+          }
+        }
+      },
+      "userName" : "STRING",
+      "clientToken" : "STRING",
+      "sourceFlowConfig" : {
+        "connectorProfileName" : "STRING",
+        "sourceConnectorProperties" : {
+          "Marketo" : {
+            "auto_renew" : true,
+            "object" : "NULL"
+          },
+          "Amplitude" : {
+            "priority_level" : 1300,
+            "object" : "STRING"
+          },
+          "S3" : {
+            "bucketName" : "STRING"
+          },
+          "GoogleAnalytics" : {
+            "item_count" : 628,
+            "object" : "STRING"
+          },
+          "Slack" : {
+            "price" : 682.21,
+            "object" : "STRING"
+          },
+          "Trendmicro" : {
+            "object" : "STRING"
+          },
+          "Veeva" : {
+            "documentType" : "",
+            "includeRenditions" : "BOOLEAN",
+            "object_data" : "STRING",
+            "includeSourceFiles_data" : "BOOLEAN"
+          },
+          "v_Singular" : {
+            "object" : "STRING"
+          },
+          "Dynatrace" : {
+            "object" : "STRING",
+            "system_ping_ms" : 2074
+          },
+          "Zendesk" : {
+            "object" : "STRING"
+          },
+          "price" : 835.14,
+          "v_Pardot" : {
+            "cpu_usage_percent" : 740.81,
+            "object" : "STRING"
+          },
+          "InforNexus_data" : {
+            "object_data" : "STRING"
+          },
+          "ServiceNow" : {
+            "object" : "STRING",
+            "conversion_rate" : 997.28
+          },
+          "Datadog_data" : {
+            "object" : "STRING"
+          },
+          "CustomConnector" : {
+            "customProperties_data" : {
+              "property2" : "STRING",
+              "property1_data" : "STRING"
+            },
+            "entityName" : "STRING"
+          },
+          "Salesforce" : {
+            "dataTransferApi" : "STRING",
+            "object" : "STRING",
+            "price" : 469.11,
+            "enableDynamicFieldUpdate" : "BOOLEAN",
+            "includeDeletedRecords" : "BOOLEAN"
+          },
+          "SAPOData_data" : {
+            "v_objectPath" : "STRING"
+          }
+        },
+        "apiVersion_data" : "NULL",
+        "connectorType" : "STRING",
+        "incrementalPullConfig" : {
+          "datetimeTypeFieldName" : "STRING"
+        }
+      }
+    }
+  }
+}

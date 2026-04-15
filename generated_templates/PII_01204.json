@@ -1,0 +1,72 @@
+[ {
+  "node_id" : "STRING",
+  "comments_url" : "URL",
+  "url" : "URL",
+  "sha" : "STRING",
+  "author" : {
+    "following_url" : "NULL",
+    "v_avatar_url" : "URL",
+    "events_url_data" : "URL",
+    "subscriptions_url" : "URL",
+    "organizations_url" : "URL",
+    "site_admin" : "BOOLEAN",
+    "recordId" : "STRING",
+    "type" : "STRING",
+    "followers_url" : "NULL",
+    "url_data" : "URL",
+    "received_events_url" : "URL",
+    "gists_url" : "URL",
+    "repos_url" : "URL",
+    "html_url" : "URL"
+  },
+  "stock_quantity" : 1064,
+  "parents" : [ {
+    "stock_quantity" : 2411,
+    "url" : "URL",
+    "sha" : "STRING"
+  } ],
+  "commit_data" : {
+    "verification" : {
+      "signature" : "STRING",
+      "cache_hit" : true,
+      "verified_at" : "DATETIME",
+      "reason" : "STRING",
+      "verified" : "BOOLEAN",
+      "payload" : "STRING"
+    },
+    "price" : 655.36,
+    "url" : "URL",
+    "message" : "PII_COMPANY_NAME",
+    "author" : {
+      "name" : "PII_PERSON_NAME",
+      "emailAddress" : "PII_EMAIL",
+      "is_deleted" : true
+    },
+    "comment_count" : "INT",
+    "committer_data" : {
+      "date_data" : "NULL",
+      "name" : "PII_PERSON_NAME",
+      "mail" : "PII_EMAIL"
+    }
+  },
+  "committer" : {
+    "gists_url" : "URL",
+    "login_data" : "STRING",
+    "v_organizations_url" : "URL",
+    "primaryKey" : "STRING",
+    "events_url" : "URL",
+    "following_url" : "URL",
+    "id" : "INT",
+    "html_url_data" : "URL",
+    "v_repos_url" : "URL",
+    "type" : "STRING",
+    "url" : "URL",
+    "v_received_events_url" : "URL",
+    "gravatar_id" : "NULL",
+    "followers_url" : "URL",
+    "starred_url" : "URL",
+    "subscriptions_url_data" : "URL",
+    "avatar_url_data" : "URL",
+    "v_site_admin" : "BOOLEAN"
+  }
+} ]

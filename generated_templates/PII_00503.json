@@ -1,0 +1,30 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "amount" : {
+        "price" : 323.17,
+        "currency" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "creditorAccount" : {
+        "iban_data" : "PII_IBAN"
+      },
+      "name_val" : "STRING",
+      "primaryKey" : "STRING",
+      "creditorName" : "PII_PERSON_NAME",
+      "bankTransactionCode_data" : {
+        "temperature_c" : 818.83,
+        "domain" : "STRING",
+        "subFamily" : "STRING",
+        "family" : "STRING"
+      },
+      "valueDate" : "DATE",
+      "debtorAccount" : {
+        "iban" : "STRING",
+        "item_count" : 4884
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "bookingDate" : "DATE"
+    } ]
+  }
+}

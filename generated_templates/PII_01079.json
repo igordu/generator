@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "bank_name" : "",
+    "v_fingerprint" : "STRING",
+    "country" : "STRING",
+    "status" : "STRING",
+    "fullName" : "PII_PERSON_NAME",
+    "v_account_holder_type" : "NULL",
+    "customer" : "STRING",
+    "v_object" : "STRING",
+    "metadata" : "OBJECT",
+    "primaryKey" : "STRING",
+    "item_count" : 1996,
+    "last4" : "STRING",
+    "currency" : "STRING"
+  }
+}

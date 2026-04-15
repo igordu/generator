@@ -1,0 +1,172 @@
+{
+  "kmsArn" : "STRING",
+  "tags" : {
+    "property2_data" : "STRING"
+  },
+  "description_data" : "STRING",
+  "clientToken" : "STRING",
+  "system_ping_ms" : 2915,
+  "sourceFlowConfig_data" : {
+    "apiVersion_data" : "STRING",
+    "connectorType" : "STRING",
+    "incrementalPullConfig" : {
+      "priority_level" : 3303,
+      "datetimeTypeFieldName" : "STRING"
+    },
+    "sourceConnectorProperties" : {
+      "ServiceNow" : {
+        "v_object" : "STRING"
+      },
+      "GoogleAnalytics" : {
+        "v_object" : "STRING"
+      },
+      "Dynatrace" : {
+        "object" : "STRING"
+      },
+      "Marketo" : {
+        "page_index" : 941
+      },
+      "Veeva" : {
+        "conversion_rate" : 638.44,
+        "documentType" : "STRING",
+        "object" : "",
+        "includeRenditions_data" : "BOOLEAN",
+        "includeAllVersions_data" : "BOOLEAN"
+      },
+      "Pardot" : {
+        "conversion_rate" : 156.07,
+        "object" : "STRING"
+      },
+      "Salesforce" : {
+        "object_data" : "STRING",
+        "enableDynamicFieldUpdate" : "BOOLEAN",
+        "page_index" : 2534,
+        "dataTransferApi" : "STRING",
+        "includeDeletedRecords_data" : "BOOLEAN"
+      },
+      "Amplitude" : {
+        "object_data" : "STRING"
+      },
+      "CustomConnector" : {
+        "entityName" : "STRING",
+        "customProperties" : {
+          "property2_data" : "STRING",
+          "v_property1" : "STRING",
+          "is_active" : true
+        }
+      },
+      "v_Singular" : {
+        "v_object" : "STRING",
+        "has_discount" : false
+      },
+      "Trendmicro_data" : {
+        "object" : "STRING"
+      },
+      "Slack" : {
+        "auto_renew" : false,
+        "object" : "STRING"
+      },
+      "SAPOData" : {
+        "v_objectPath" : "STRING",
+        "is_active" : true
+      },
+      "S3_data" : {
+        "v_s3InputFormatConfig" : {
+          "s3InputFileType" : "STRING"
+        },
+        "auto_renew" : false,
+        "bucketName" : "STRING"
+      },
+      "Datadog" : {
+        "object" : "STRING",
+        "price" : 877.08
+      }
+    },
+    "connectorProfileName" : "STRING",
+    "price" : 394.58
+  },
+  "triggerConfig_data" : {
+    "triggerProperties_data" : {
+      "Scheduled" : {
+        "firstExecutionFrom_data" : "DATETIME",
+        "is_deleted" : true,
+        "scheduleStartTime" : "DATETIME",
+        "scheduleOffset" : "INT",
+        "flowErrorDeactivationThreshold" : "INT",
+        "scheduleExpression" : "STRING",
+        "v_timezone" : "STRING",
+        "dataPullMode" : "STRING"
+      },
+      "price" : 363.67
+    },
+    "triggerType" : "STRING"
+  },
+  "flowName" : "STRING",
+  "destinationFlowConfigList" : [ {
+    "destinationConnectorProperties" : {
+      "Salesforce" : {
+        "v_writeOperationType" : "STRING",
+        "errorHandlingConfig_data" : {
+          "bucketPrefix" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "cpu_usage_percent" : 101.2,
+          "userName" : "STRING"
+        },
+        "idFieldNames" : "ARRAY",
+        "object" : "STRING",
+        "system_ping_ms" : 3494
+      },
+      "LookoutMetrics_data" : {
+        "item_count" : 775
+      },
+      "Redshift_data" : {
+        "bucketPrefix" : "STRING",
+        "userName" : "STRING",
+        "object" : "STRING",
+        "errorHandlingConfig" : {
+          "bucketPrefix" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN"
+        }
+      },
+      "Snowflake" : {
+        "errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "BOOLEAN"
+        },
+        "priority_level" : 88,
+        "bucketPrefix" : "STRING",
+        "object" : "STRING",
+        "intermediateBucketName" : "STRING"
+      },
+      "EventBridge" : {
+        "v_errorHandlingConfig" : {
+          "bucketPrefix" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "clientName" : "STRING"
+        },
+        "object" : "STRING"
+      },
+      "v_S3" : {
+        "bucketPrefix" : "STRING",
+        "retry_attempts" : 4916,
+        "s3OutputFormatConfig" : {
+          "prefixConfig" : {
+            "prefixType" : "STRING",
+            "prefixFormat" : "STRING",
+            "pathPrefixHierarchy" : "ARRAY"
+          },
+          "aggregationConfig" : {
+            "targetFileSize" : "INT"
+          },
+          "fileType" : "STRING",
+          "v_preserveSourceDataTyping" : "BOOLEAN",
+          "has_discount" : true
+        },
+        "bucketName" : "STRING"
+      }
+    },
+    "connectorProfileName" : "STRING",
+    "apiVersion" : null,
+    "connectorType" : "STRING",
+    "stock_quantity" : 2918
+  } ]
+}

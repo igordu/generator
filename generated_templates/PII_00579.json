@@ -1,0 +1,34 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "transactions" : {
+        "booked" : [ {
+          "amount" : {
+            "amount" : "DECIMAL",
+            "is_active" : false
+          },
+          "creditorAccount_data" : {
+            "iban" : "PII_IBAN"
+          },
+          "creditorName" : "PII_PERSON_NAME",
+          "debtorName" : "STRING",
+          "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+          "recordId" : null,
+          "bookingDate" : "DATE",
+          "v_bankTransactionCode" : {
+            "subFamily_data" : "STRING",
+            "family" : "STRING",
+            "stock_quantity" : 1063,
+            "domain" : null
+          },
+          "system_ping_ms" : 1331,
+          "debtorAccount" : {
+            "auto_renew" : true,
+            "iban" : "STRING"
+          },
+          "valueDate_data" : "DATE"
+        } ]
+      }
+    }
+  }
+}

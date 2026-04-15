@@ -1,0 +1,84 @@
+{
+  "server_logs" : {
+    "event_data" : {
+      "debug_payload" : [ {
+        "item_count" : 3403,
+        "sha_data" : "STRING",
+        "v_url" : "URL",
+        "committer" : {
+          "following_url" : "URL",
+          "site_admin" : "BOOLEAN",
+          "gists_url_data" : "URL",
+          "uuid" : "STRING",
+          "type" : "STRING",
+          "avatar_url" : null,
+          "repos_url_data" : "URL",
+          "events_url" : "URL",
+          "subscriptions_url" : "URL",
+          "id" : "INT",
+          "received_events_url" : "URL",
+          "organizations_url_data" : "URL",
+          "v_html_url" : "URL",
+          "followers_url" : "URL",
+          "login" : "STRING"
+        },
+        "commit" : {
+          "committer" : {
+            "date" : "DATETIME",
+            "name" : "PII_PERSON_NAME",
+            "email" : "PII_EMAIL"
+          },
+          "url" : "URL",
+          "v_comment_count" : "INT",
+          "message" : "PII_COMPANY_NAME",
+          "has_discount" : false,
+          "tree" : {
+            "sha" : "STRING",
+            "url" : "URL"
+          },
+          "v_verification" : {
+            "reason_data" : "STRING",
+            "v_verified_at" : "DATETIME",
+            "verified" : "BOOLEAN",
+            "has_discount" : true,
+            "payload_data" : "STRING",
+            "signature" : "STRING"
+          },
+          "author" : {
+            "contactEmail" : "PII_EMAIL",
+            "name" : "PII_PERSON_NAME",
+            "date_data" : "DATETIME"
+          }
+        },
+        "html_url" : "URL",
+        "node_id" : "STRING",
+        "author_data" : {
+          "url" : "URL",
+          "node_id" : "STRING",
+          "v_html_url" : "URL",
+          "gists_url_data" : "URL",
+          "repos_url" : "NULL",
+          "login_data" : "NULL",
+          "following_url" : "URL",
+          "gravatar_id" : "STRING",
+          "organizations_url_data" : "URL",
+          "received_events_url" : "URL",
+          "starred_url" : "URL",
+          "v_events_url" : "URL",
+          "type" : "STRING",
+          "avatar_url" : "URL",
+          "site_admin" : "BOOLEAN",
+          "followers_url" : "URL",
+          "auto_renew" : true,
+          "id" : "INT",
+          "v_subscriptions_url" : "URL"
+        },
+        "parents_data" : [ {
+          "has_discount" : true,
+          "sha_data" : "STRING",
+          "v_url" : "URL"
+        } ]
+      } ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "auto_renew" : false,
+  "tree_data" : {
+    "url" : "URL",
+    "v_sha" : "STRING"
+  },
+  "user_info" : {
+    "userName" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  },
+  "active" : "BOOLEAN"
+}

@@ -1,0 +1,13 @@
+{
+  "numberOfUserRecommendations" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "starRatingDistribution" : {
+    "v_5" : "INT",
+    "1" : "INT",
+    "v_3" : "INT",
+    "4" : "INT",
+    "2" : "INT"
+  },
+  "articleModelId" : "STRING",
+  "v_averageStarRating" : "INT"
+}

@@ -1,0 +1,78 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "item_count" : 2543,
+      "html_url" : "URL",
+      "committer" : {
+        "starred_url" : "URL",
+        "node_id" : "STRING",
+        "html_url_data" : "URL",
+        "followers_url" : "URL",
+        "gravatar_id" : "STRING",
+        "received_events_url" : null,
+        "url" : "URL",
+        "site_admin_data" : "BOOLEAN",
+        "v_gists_url" : "",
+        "id" : "INT",
+        "type" : "STRING",
+        "following_url" : "URL",
+        "events_url" : "URL",
+        "subscriptions_url" : "URL",
+        "avatar_url" : "URL",
+        "organizations_url" : "URL"
+      },
+      "sha" : "STRING",
+      "url" : "URL",
+      "commit" : {
+        "message" : "PII_COMPANY_NAME",
+        "verification" : {
+          "reason" : "STRING",
+          "verified" : "BOOLEAN",
+          "conversion_rate" : 349.07,
+          "payload" : null,
+          "verified_at" : "DATETIME"
+        },
+        "committer" : {
+          "http_status" : 2610,
+          "email" : "PII_EMAIL",
+          "date" : "DATETIME",
+          "name_val" : "PII_PERSON_NAME"
+        },
+        "url" : "URL",
+        "comment_count" : "INT",
+        "tree" : {
+          "v_sha" : "STRING",
+          "url" : "URL"
+        },
+        "author_data" : {
+          "name" : "PII_PERSON_NAME",
+          "date" : "DATETIME",
+          "email" : "PII_EMAIL"
+        },
+        "requires_update" : false
+      },
+      "author_data" : {
+        "v_html_url" : "URL",
+        "gists_url_data" : "URL",
+        "v_url" : "URL",
+        "site_admin" : "",
+        "login" : "",
+        "starred_url" : "URL",
+        "id" : "INT",
+        "events_url" : "URL",
+        "subscriptions_url" : "URL",
+        "followers_url_data" : "",
+        "received_events_url" : "URL",
+        "following_url" : "URL",
+        "stock_quantity" : 1451,
+        "organizations_url" : "URL",
+        "recordId" : "STRING",
+        "avatar_url" : "URL"
+      },
+      "v_parents" : [ {
+        "url" : "URL",
+        "sha" : "STRING"
+      } ]
+    } ]
+  }
+}

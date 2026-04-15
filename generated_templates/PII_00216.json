@@ -1,0 +1,88 @@
+{
+  "offset_data" : "INT",
+  "v_limit" : "INT",
+  "total" : "INT",
+  "prev" : "STRING",
+  "transactions" : [ {
+    "transactionMemo" : "STRING",
+    "feeType" : "STRING",
+    "amount_data" : {
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING",
+      "cpu_usage_percent" : 326.25,
+      "v_convertedFromCurrency" : "STRING",
+      "currency_data" : "NULL",
+      "value" : "STRING"
+    },
+    "totalFeeBasisAmount" : {
+      "conversion_rate" : 797.63,
+      "value" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "convertedFromCurrency" : "NULL"
+    },
+    "transactionDate" : "DATETIME",
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "feeType" : "STRING",
+        "amount" : {
+          "convertedFromValue" : "STRING",
+          "value" : "STRING",
+          "v_convertedFromCurrency" : "STRING",
+          "exchangeRate" : "STRING",
+          "response_time_sec" : 675.1
+        },
+        "feeJurisdiction" : {
+          "discount_rate" : 680.74,
+          "fullName" : "STRING",
+          "regionType" : "STRING"
+        },
+        "feeMemo" : "STRING"
+      } ],
+      "lineItemId" : "STRING",
+      "feeBasisAmount" : {
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate" : "STRING",
+        "convertedFromValue_data" : "STRING",
+        "currency" : "STRING"
+      }
+    } ],
+    "v_feeJurisdiction" : {
+      "regionType_data" : "STRING",
+      "regionName" : "STRING"
+    },
+    "transactionId" : "STRING",
+    "bookingEntry" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "conversion_rate" : 116.16,
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency_data" : "STRING"
+    },
+    "uuid" : "STRING",
+    "transactionStatus" : "STRING",
+    "references" : [ {
+      "referenceType" : "STRING",
+      "referenceId" : "STRING",
+      "retry_attempts" : 1775
+    } ],
+    "salesRecordReference" : "STRING",
+    "transactionType" : "STRING",
+    "stock_quantity" : 3962,
+    "totalFeeAmount" : {
+      "convertedFromValue" : "STRING",
+      "price" : 251.67,
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING"
+    },
+    "buyer" : {
+      "page_index" : 4857,
+      "username" : "PII_USERNAME"
+    }
+  } ],
+  "next" : "STRING",
+  "requires_update" : false
+}

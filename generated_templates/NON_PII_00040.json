@@ -1,0 +1,13 @@
+{
+  "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserRecommendations" : null,
+  "primaryKey" : null,
+  "averageStarRating" : "INT",
+  "numberOfUserReviews" : "INT",
+  "starRatingDistribution" : {
+    "temperature_c" : 55.37,
+    "2" : "INT",
+    "4" : "INT",
+    "5" : "INT"
+  }
+}

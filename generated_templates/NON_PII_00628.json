@@ -1,0 +1,18 @@
+[ {
+  "fixedAssetAccountId" : "STRING",
+  "locks" : "INT",
+  "recordId" : "",
+  "taxDepreciationSettings" : "ARRAY",
+  "bookDepreciationSetting" : {
+    "depreciableObjectId" : "STRING",
+    "recordId" : "STRING",
+    "response_time_sec" : 765.9,
+    "depreciableObjectType" : "STRING",
+    "depreciationMethod" : "STRING",
+    "averagingMethod" : "STRING",
+    "depreciationCalculationMethod" : null
+  },
+  "lockPrivateUseAccount_data" : "BOOLEAN",
+  "clientName" : "STRING",
+  "primaryKey" : "STRING"
+} ]

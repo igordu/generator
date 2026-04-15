@@ -1,0 +1,38 @@
+{
+  "address" : [ {
+    "v_city" : "PII_LOCATION_CITY",
+    "use" : "STRING",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country" : "PII_LOCATION_COUNTRY"
+  } ],
+  "resourceType" : "STRING",
+  "gender" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "name" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "",
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "recordId" : "STRING",
+  "identifier" : [ {
+    "type" : {
+      "text" : "STRING",
+      "is_active" : false
+    },
+    "use" : "STRING",
+    "has_discount" : true,
+    "system" : "URL",
+    "value" : "PII_NATIONAL_ID"
+  } ],
+  "v_meta" : {
+    "versionId" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "telecom" : [ {
+    "use_data" : "STRING",
+    "value_data" : "PII_PHONE_NUMBER"
+  }, {
+    "system" : "STRING",
+    "value" : "PII_EMAIL"
+  } ]
+}

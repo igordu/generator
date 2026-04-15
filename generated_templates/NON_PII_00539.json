@@ -1,0 +1,42 @@
+[ {
+  "style" : "STRING",
+  "v_self" : "URL",
+  "simplified_data" : "BOOLEAN",
+  "name" : "STRING",
+  "v_key" : "STRING",
+  "cache_hit" : true,
+  "avatarUrls" : {
+    "v_24x24" : "URL",
+    "48x48" : "URL",
+    "32x32" : "URL",
+    "16x16" : "URL"
+  },
+  "projectCategory" : {
+    "description" : "STRING",
+    "name" : "STRING",
+    "self" : "URL",
+    "id" : "STRING",
+    "cpu_usage_percent" : 447.78
+  }
+}, {
+  "projectCategory" : {
+    "http_status" : 3108,
+    "description" : "STRING",
+    "id" : "",
+    "name" : "STRING"
+  },
+  "simplified" : "BOOLEAN",
+  "name" : "STRING",
+  "key" : "STRING",
+  "insight" : {
+    "v_totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "system_ping_ms" : 2398,
+  "avatarUrls_data" : {
+    "32x32" : "URL",
+    "16x16" : "URL",
+    "48x48_data" : "URL"
+  },
+  "id" : ""
+} ]

@@ -1,0 +1,14 @@
+{
+  "numberOfUserReviews" : "INT",
+  "http_status" : 4696,
+  "starRatingDistribution" : {
+    "5" : "INT",
+    "2" : "INT",
+    "3" : "INT",
+    "1" : "INT",
+    "4" : "INT"
+  },
+  "numberOfUserPositiveRecommendations" : "INT",
+  "averageStarRating" : "INT",
+  "numberOfUserRecommendations" : "INT"
+}

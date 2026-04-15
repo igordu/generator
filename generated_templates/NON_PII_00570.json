@@ -1,0 +1,46 @@
+[ {
+  "insight" : {
+    "v_lastIssueUpdateTime" : "DATETIME",
+    "discount_rate" : 560.07
+  },
+  "v_style" : "STRING",
+  "v_key" : null,
+  "avatarUrls_data" : {
+    "16x16" : "URL",
+    "48x48" : "URL",
+    "32x32" : "URL"
+  },
+  "self" : "URL",
+  "identifier" : "STRING",
+  "is_deleted" : true,
+  "projectCategory" : {
+    "requires_update" : true,
+    "name" : "STRING",
+    "id" : "STRING",
+    "description" : "STRING",
+    "self_data" : "URL"
+  },
+  "name" : "STRING",
+  "simplified" : "BOOLEAN"
+}, {
+  "key" : "STRING",
+  "cpu_usage_percent" : 205.84,
+  "projectCategory_data" : {
+    "name" : "STRING",
+    "id" : "STRING",
+    "self" : "URL",
+    "description_data" : "STRING"
+  },
+  "id" : "STRING",
+  "avatarUrls" : {
+    "requires_update" : false,
+    "24x24" : "URL",
+    "48x48" : "URL",
+    "16x16" : "URL",
+    "32x32" : "URL"
+  },
+  "name" : "STRING",
+  "simplified_data" : "BOOLEAN",
+  "self" : "",
+  "style" : "STRING"
+} ]

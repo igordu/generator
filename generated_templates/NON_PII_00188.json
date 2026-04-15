@@ -1,0 +1,21 @@
+{
+  "name" : "STRING",
+  "modelId" : "",
+  "cache_hit" : false,
+  "v_media" : {
+    "retry_attempts" : 3010,
+    "images" : [ {
+      "type_data" : "STRING",
+      "requires_update" : true,
+      "mediumHdUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "v_mediumUrl" : "URL",
+      "largeUrl" : "URL",
+      "orderNumber_data" : "INT",
+      "smallUrl" : "URL"
+    } ]
+  },
+  "id" : "STRING",
+  "v_shopUrl" : "URL"
+}

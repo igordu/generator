@@ -1,0 +1,21 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : [ {
+    "item_count" : 4517,
+    "facets_data" : [ {
+      "v_count" : "INT",
+      "key" : "",
+      "displayName" : "STRING"
+    }, {
+      "count" : "INT",
+      "displayName" : "STRING",
+      "key" : "STRING"
+    }, {
+      "key" : "STRING",
+      "count" : "INT",
+      "displayName" : "STRING",
+      "cpu_usage_percent" : 428.6
+    } ]
+  } ]
+}

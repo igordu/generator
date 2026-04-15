@@ -1,0 +1,34 @@
+{
+  "registrants_data" : [ {
+    "custom_questions" : [ {
+      "title" : "STRING",
+      "cpu_usage_percent" : 883.04
+    }, {
+      "v_title" : "STRING",
+      "value_data" : "STRING"
+    } ],
+    "http_status" : 1243,
+    "job_title" : "",
+    "industry" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "status" : "STRING",
+    "org" : "PII_ORGANIZATION_NAME",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "create_time" : "DATETIME",
+    "join_url_data" : null,
+    "state_data" : "PII_LOCATION_STATE",
+    "role_in_purchase_process_data" : "STRING",
+    "zip" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "contactEmail" : "PII_EMAIL",
+    "address" : "PII_ADDRESS_LINE",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "id" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "no_of_employees_data" : "STRING"
+  } ],
+  "total_records_data" : "NULL",
+  "page_count" : "INT",
+  "page_size" : "INT",
+  "page_number" : "INT"
+}

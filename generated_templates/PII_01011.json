@@ -1,0 +1,16 @@
+{
+  "routing_number_data" : "STRING",
+  "customer" : "NULL",
+  "stock_quantity" : 1632,
+  "object" : "STRING",
+  "account_type" : "STRING",
+  "status" : "STRING",
+  "last4" : "STRING",
+  "metadata" : "",
+  "bank_name" : "STRING",
+  "account_holder_type" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "fingerprint" : "STRING",
+  "id" : "STRING",
+  "country" : "STRING"
+}

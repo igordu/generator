@@ -1,0 +1,39 @@
+{
+  "v_resourceType" : "STRING",
+  "gender" : "STRING",
+  "telecom" : [ {
+    "system" : "STRING",
+    "value" : "PII_EMAIL"
+  }, {
+    "v_system" : "STRING",
+    "use" : "STRING",
+    "value_data" : "PII_PHONE_NUMBER",
+    "temperature_c" : 944.61
+  } ],
+  "v_address" : [ {
+    "use_data" : "STRING",
+    "line_data" : [ "PII_ADDRESS_LINE" ],
+    "country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "cpu_usage_percent" : 92.24
+  } ],
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "identifier" : [ {
+    "value_data" : "PII_NATIONAL_ID",
+    "type" : {
+      "requires_update" : true
+    },
+    "system" : "URL"
+  } ],
+  "name" : [ {
+    "use" : "STRING",
+    "v_given" : [ "PII_PERSON_FIRST_NAME" ],
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "id" : "STRING",
+  "meta" : {
+    "lastUpdated_data" : "DATETIME",
+    "uuid" : "INT",
+    "cpu_usage_percent" : 387.04
+  }
+}

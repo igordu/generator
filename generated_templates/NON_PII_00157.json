@@ -1,0 +1,10 @@
+{
+  "identifier" : "STRING",
+  "cpu_usage_percent" : 860.15,
+  "uuid" : "STRING",
+  "media" : {
+    "system_ping_ms" : 1410
+  },
+  "name" : "STRING",
+  "shopUrl" : "URL"
+}

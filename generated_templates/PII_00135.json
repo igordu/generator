@@ -1,0 +1,62 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "businessAccount_data" : {
+      "doingBusinessAs" : "STRING",
+      "website_data" : "URL",
+      "secondaryPhone" : {
+        "countryCode_data" : "STRING",
+        "number" : "PII_PHONE_NUMBER",
+        "phoneType" : "STRING",
+        "requires_update" : true
+      },
+      "discount_rate" : 373.77,
+      "contactNumber" : {
+        "countryCode" : "STRING",
+        "number" : "PII_PHONE_NUMBER",
+        "phoneType" : "STRING"
+      },
+      "primaryContact" : {
+        "name_val" : "PII_PERSON_NAME",
+        "firstName" : "PII_PERSON_NAME"
+      },
+      "email" : "PII_EMAIL",
+      "name_val" : "PII_ORGANIZATION_NAME"
+    },
+    "registrationMarketplaceId" : "STRING",
+    "accountType" : "STRING",
+    "individualAccount" : {
+      "secondaryPhone" : {
+        "stock_quantity" : 101,
+        "v_countryCode" : "STRING",
+        "phoneType" : "STRING",
+        "number" : "PII_PHONE_NUMBER"
+      },
+      "telephone" : {
+        "countryCode_data" : "STRING",
+        "retry_attempts" : 4142,
+        "number_data" : "PII_PHONE_NUMBER",
+        "phoneType" : "STRING"
+      },
+      "email" : "PII_EMAIL",
+      "firstName" : "PII_PERSON_NAME",
+      "userName" : "PII_PERSON_NAME",
+      "registrationAddress" : {
+        "county" : "STRING",
+        "country" : "STRING",
+        "v_postalCode" : "STRING",
+        "addressLine2" : "STRING",
+        "cpu_usage_percent" : 326.73,
+        "addressLine1" : "STRING",
+        "stateOrProvince" : "STRING"
+      }
+    },
+    "conversion_rate" : 280.81,
+    "status_data" : "STRING",
+    "fullName" : "PII_USERNAME",
+    "uuid" : "STRING"
+  }
+}

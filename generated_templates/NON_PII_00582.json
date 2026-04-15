@@ -1,0 +1,24 @@
+[ {
+  "style" : "STRING",
+  "v_simplified" : "BOOLEAN",
+  "projectCategory" : {
+    "description" : "STRING",
+    "name" : "STRING",
+    "self" : "URL",
+    "id" : "STRING"
+  },
+  "self_data" : "URL",
+  "name" : "STRING",
+  "id" : "STRING",
+  "key" : "STRING",
+  "insight_data" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "avatarUrls" : {
+    "16x16" : "URL",
+    "24x24" : "URL",
+    "32x32" : "URL",
+    "48x48" : "URL"
+  }
+} ]

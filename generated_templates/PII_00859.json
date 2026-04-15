@@ -1,0 +1,81 @@
+{
+  "tsp" : {
+    "show_international_numbers_link" : "BOOLEAN",
+    "conversion_rate" : 356.34,
+    "call_out_countries" : "ARRAY",
+    "call_out" : "BOOLEAN"
+  },
+  "feature" : {
+    "webinar" : "BOOLEAN",
+    "large_meeting" : "BOOLEAN",
+    "in_meeting_data" : "BOOLEAN",
+    "cn_meeting" : "NULL",
+    "zoom_phone" : "BOOLEAN"
+  },
+  "schedule_meeting_data" : {
+    "join_before_host" : "BOOLEAN",
+    "meeting_password_requirement" : {
+      "length_data" : "INT",
+      "have_special_character" : "BOOLEAN",
+      "have_letter_data" : "BOOLEAN",
+      "priority_level" : 784,
+      "only_allow_numeric" : "BOOLEAN",
+      "have_number" : "BOOLEAN"
+    },
+    "audio_type" : "STRING",
+    "v_pmi_password" : "PII_PASSWORD",
+    "require_password_for_pmi_meetings" : "STRING",
+    "force_pmi_jbh_password" : "BOOLEAN",
+    "embed_password_in_join_link" : "BOOLEAN",
+    "host_video" : "BOOLEAN",
+    "participants_video" : "BOOLEAN",
+    "pstn_password_protected_data" : "BOOLEAN",
+    "use_pmi_for_instant_meetings_data" : "NULL",
+    "not_store_meeting_topic" : "BOOLEAN"
+  },
+  "telephony" : {
+    "audio_conference_info" : "STRING",
+    "third_party_audio" : "BOOLEAN",
+    "show_international_numbers_link" : "BOOLEAN"
+  },
+  "is_active" : true,
+  "recording" : {
+    "v_cloud_recording" : "BOOLEAN",
+    "recording_audio_transcript_data" : "BOOLEAN",
+    "auto_recording" : "STRING",
+    "auto_delete_cmr" : "BOOLEAN",
+    "v_recording_password_requirement" : {
+      "have_special_character_data" : "BOOLEAN",
+      "stock_quantity" : 880,
+      "have_number" : "BOOLEAN",
+      "only_allow_numeric" : "BOOLEAN",
+      "have_letter" : "BOOLEAN"
+    },
+    "v_local_recording" : "BOOLEAN",
+    "record_audio_file" : "",
+    "save_chat_text" : "BOOLEAN",
+    "v_show_timestamp" : "BOOLEAN"
+  },
+  "in_meeting" : {
+    "chat" : "BOOLEAN",
+    "far_end_camera_control" : "",
+    "polling" : "NULL",
+    "v_virtual_background" : "BOOLEAN",
+    "feedback_data" : "BOOLEAN",
+    "annotation" : "BOOLEAN",
+    "non_verbal_feedback" : "BOOLEAN",
+    "e2e_encryption_data" : "BOOLEAN",
+    "attendee_on_hold_data" : "BOOLEAN",
+    "remote_control" : "BOOLEAN",
+    "remote_support" : "BOOLEAN",
+    "auto_saving_chat" : "BOOLEAN",
+    "group_hd" : "",
+    "private_chat" : "BOOLEAN",
+    "data_center_regions" : "ARRAY",
+    "breakout_room" : "BOOLEAN",
+    "v_record_play_voice" : "BOOLEAN",
+    "waiting_room_data" : "BOOLEAN",
+    "co_host" : "BOOLEAN",
+    "entry_exit_chime" : "STRING"
+  }
+}

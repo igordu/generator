@@ -1,0 +1,40 @@
+[ {
+  "facets_data" : [ {
+    "key_data" : "STRING",
+    "is_active" : true,
+    "count" : "NULL"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "facets" : [ {
+    "key" : "STRING",
+    "clientName" : "NULL",
+    "count" : "INT"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING",
+    "item_count" : 137
+  }, {
+    "key" : "STRING",
+    "count" : "INT",
+    "name_val" : "STRING",
+    "cache_hit" : false
+  } ]
+}, {
+  "v_filter" : "STRING",
+  "facets" : [ {
+    "count" : "INT",
+    "v_key" : "STRING",
+    "displayName" : ""
+  }, {
+    "displayName" : "STRING",
+    "key_data" : "STRING",
+    "count" : "INT",
+    "auto_renew" : true
+  } ]
+} ]

@@ -1,0 +1,17 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "v_active" : "BOOLEAN",
+      "tree" : {
+        "url" : "URL",
+        "sha" : "STRING"
+      },
+      "user_info" : {
+        "fullName" : "PII_COMPANY_NAME",
+        "family-name-male" : "PII_LAST_NAME_MALE",
+        "discount_rate" : 21.4,
+        "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "discount_rate" : 515.89,
+  "transactions" : {
+    "booked_data" : [ {
+      "bookingDate_data" : "DATE",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "page_index" : 2311,
+      "bankTransactionCode" : {
+        "subFamily" : "STRING",
+        "domain" : "STRING"
+      },
+      "amount" : {
+        "amount_data" : "DECIMAL",
+        "page_index" : 4442,
+        "currency" : "STRING"
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "has_more_data" : "BOOLEAN",
+  "url" : "URL",
+  "data" : [ {
+    "livemode" : "BOOLEAN",
+    "default_source" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "description" : "STRING",
+    "currency_data" : "STRING",
+    "v_metadata" : "OBJECT",
+    "invoice_settings" : {
+      "footer" : "STRING",
+      "default_payment_method" : "STRING",
+      "custom_fields" : "NULL",
+      "v_rendering_options" : "NULL",
+      "discount_rate" : 342.09
+    },
+    "v_address" : "NULL",
+    "test_clock" : "NULL",
+    "next_invoice_sequence_data" : "INT",
+    "response_time_sec" : 270.28,
+    "preferred_locales" : "ARRAY",
+    "name" : "PII_PERSON_NAME",
+    "shipping" : "NULL",
+    "email" : "PII_EMAIL",
+    "tax_exempt" : "STRING",
+    "object" : "STRING",
+    "invoice_prefix" : "STRING",
+    "balance_data" : "INT",
+    "delinquent_data" : "BOOLEAN",
+    "v_created" : "DATETIME_EPOCH"
+  } ],
+  "conversion_rate" : 18.35,
+  "object" : "STRING"
+}

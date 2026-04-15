@@ -1,0 +1,28 @@
+{
+  "telemetry_data" : {
+    "request_context" : {
+      "extracted_info" : {
+        "content" : [ {
+          "uuid" : "STRING",
+          "recordId" : "STRING",
+          "unhelpfulCount" : "INT",
+          "identifier" : "STRING",
+          "customerCity" : "PII_LOCATION_CITY",
+          "customerCountry_data" : "PII_LOCATION_COUNTRY",
+          "title" : "PII_COMPANY_NAME",
+          "recommend" : "BOOLEAN",
+          "articleSizeRatings" : {
+            "SHOE_WIDTH" : "INT",
+            "OVERALL" : "INT"
+          },
+          "v_language" : "STRING",
+          "created" : "DATETIME",
+          "description" : "STRING",
+          "rating" : "INT",
+          "helpfulCount" : "INT"
+        } ],
+        "requires_update" : true
+      }
+    }
+  }
+}

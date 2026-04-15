@@ -1,0 +1,29 @@
+[ {
+  "priority_level" : 4075,
+  "v_facets" : [ {
+    "key" : "STRING",
+    "displayName" : "NULL",
+    "count" : ""
+  }, {
+    "v_count" : "INT",
+    "key_data" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "retry_attempts" : 1316,
+    "count" : "INT"
+  } ],
+  "filter" : "STRING"
+}, {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "price" : 42.49,
+    "displayName" : "STRING",
+    "v_key" : "STRING",
+    "v_count" : "INT"
+  } ],
+  "filter" : "STRING"
+} ]

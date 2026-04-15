@@ -1,0 +1,25 @@
+{
+  "transactions" : {
+    "booked_data" : [ {
+      "debtorName" : "STRING",
+      "debtorAccount" : { },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN",
+        "cpu_usage_percent" : 184.19
+      },
+      "bankTransactionCode_data" : {
+        "v_subFamily" : "STRING",
+        "domain" : "STRING"
+      },
+      "response_time_sec" : 404.78,
+      "primaryKey" : "STRING",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "creditorName" : "PII_PERSON_NAME",
+      "amount" : {
+        "amount" : "DECIMAL",
+        "priority_level" : 2661
+      },
+      "bookingDate" : "DATE"
+    } ]
+  }
+}

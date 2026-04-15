@@ -1,0 +1,26 @@
+{
+  "priority_level" : 3667,
+  "v_url" : "URL",
+  "object" : "STRING",
+  "data" : [ {
+    "id" : "STRING",
+    "v_livemode" : "BOOLEAN",
+    "default_source" : "STRING",
+    "created" : "DATETIME_EPOCH",
+    "description_data" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "currency" : "STRING",
+    "delinquent" : "BOOLEAN",
+    "emailAddress" : "PII_EMAIL",
+    "v_test_clock" : "NULL",
+    "tax_exempt" : "STRING",
+    "metadata" : "OBJECT",
+    "shipping" : "NULL",
+    "balance" : "INT",
+    "name" : "PII_PERSON_NAME",
+    "next_invoice_sequence" : "INT",
+    "preferred_locales" : "ARRAY",
+    "object" : "STRING"
+  } ],
+  "has_more_data" : "BOOLEAN"
+}

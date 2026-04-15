@@ -1,0 +1,81 @@
+[
+  {
+    "url": "URL",
+    "sha": "STRING",
+    "node_id": "STRING",
+    "html_url": "URL",
+    "comments_url": "URL",
+    "commit": {
+      "url": "URL",
+      "author": {
+        "name": "PII_PERSON_NAME",
+        "email": "PII_EMAIL",
+        "date": "DATETIME"
+      },
+      "committer": {
+        "name": "PII_PERSON_NAME",
+        "email": "PII_EMAIL",
+        "date": "DATETIME"
+      },
+      "message": "PII_COMPANY_NAME",
+      "tree": {
+        "url": "URL",
+        "sha": "STRING"
+      },
+      "comment_count": "INT",
+      "verification": {
+        "verified": "BOOLEAN",
+        "reason": "STRING",
+        "signature": "STRING",
+        "payload": "STRING",
+        "verified_at": "DATETIME"
+      }
+    },
+    "author": {
+      "login": "STRING",
+      "id": "INT",
+      "node_id": "STRING",
+      "avatar_url": "URL",
+      "gravatar_id": "STRING",
+      "url": "URL",
+      "html_url": "URL",
+      "followers_url": "URL",
+      "following_url": "URL",
+      "gists_url": "URL",
+      "starred_url": "URL",
+      "subscriptions_url": "URL",
+      "organizations_url": "URL",
+      "repos_url": "URL",
+      "events_url": "URL",
+      "received_events_url": "URL",
+      "type": "STRING",
+      "site_admin": "BOOLEAN"
+    },
+    "committer": {
+      "login": "STRING",
+      "id": "INT",
+      "node_id": "STRING",
+      "avatar_url": "URL",
+      "gravatar_id": "STRING",
+      "url": "URL",
+      "html_url": "URL",
+      "followers_url": "URL",
+      "following_url": "URL",
+      "gists_url": "URL",
+      "starred_url": "URL",
+      "subscriptions_url": "URL",
+      "organizations_url": "URL",
+      "repos_url": "URL",
+      "events_url": "URL",
+      "received_events_url": "URL",
+      "type": "STRING",
+      "site_admin": "BOOLEAN"
+    },
+    "parents": [
+      {
+        "url": "URL",
+        "sha": "STRING"
+      }
+    ]
+  }
+]

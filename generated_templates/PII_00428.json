@@ -1,0 +1,38 @@
+{
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "resourceType_data" : "STRING",
+  "meta" : {
+    "requires_update" : false,
+    "uuid" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "address" : [ {
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "use_data" : "STRING",
+    "line" : [ "PII_ADDRESS_LINE" ]
+  } ],
+  "telecom" : [ {
+    "v_value" : "PII_PHONE_NUMBER",
+    "system" : "STRING"
+  }, {
+    "auto_renew" : true,
+    "value" : "PII_EMAIL",
+    "system" : "STRING"
+  } ],
+  "id" : "STRING",
+  "auto_renew" : true,
+  "uuid" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "type" : {
+      "text" : "STRING",
+      "priority_level" : 2095
+    },
+    "use_data" : "STRING"
+  } ],
+  "clientName" : [ {
+    "use" : "STRING",
+    "family" : "PII_PERSON_LAST_NAME",
+    "v_given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ]
+}

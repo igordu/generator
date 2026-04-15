@@ -1,0 +1,33 @@
+{
+  "registrants" : [ {
+    "address" : "PII_ADDRESS_LINE",
+    "org" : "PII_ORGANIZATION_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "id" : "STRING",
+    "status" : "STRING",
+    "no_of_employees" : null,
+    "job_title" : "STRING",
+    "state" : "PII_LOCATION_STATE",
+    "custom_questions" : [ {
+      "title" : "STRING"
+    }, {
+      "value" : "STRING",
+      "title_data" : "STRING",
+      "temperature_c" : 130.76
+    } ],
+    "comments" : "",
+    "stock_quantity" : 3305,
+    "industry" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "primary_email" : "PII_EMAIL",
+    "create_time" : "DATETIME",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "city" : "PII_LOCATION_CITY",
+    "v_role_in_purchase_process" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "last_name" : "PII_PERSON_LAST_NAME"
+  } ],
+  "total_records" : "INT",
+  "page_size" : "NULL",
+  "page_number" : "INT"
+}

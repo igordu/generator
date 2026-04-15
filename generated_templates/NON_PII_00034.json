@@ -1,0 +1,13 @@
+{
+  "starRatingDistribution" : {
+    "5" : "INT",
+    "2" : "INT",
+    "1" : "INT",
+    "4" : "INT"
+  },
+  "numberOfUserReviews" : "INT",
+  "uuid" : "STRING",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "averageStarRating" : "INT",
+  "retry_attempts" : 134
+}

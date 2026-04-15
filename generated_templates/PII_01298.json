@@ -1,0 +1,18 @@
+{
+  "server_logs" : {
+    "event_data" : {
+      "extracted_info" : {
+        "tree_data" : {
+          "url_data" : "URL"
+        },
+        "active" : "BOOLEAN",
+        "http_status" : 3172,
+        "user_info" : {
+          "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+          "arline__name" : "PII_COMPANY_NAME",
+          "family-name-male" : "PII_LAST_NAME_MALE"
+        }
+      }
+    }
+  }
+}

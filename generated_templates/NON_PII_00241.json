@@ -1,0 +1,17 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : [ {
+    "discount_rate" : 949.15,
+    "facets" : [ {
+      "displayName" : "STRING",
+      "count" : "INT",
+      "key" : "STRING"
+    }, {
+      "key" : "STRING",
+      "displayName" : "STRING",
+      "count" : "INT"
+    } ],
+    "filter" : "STRING"
+  } ]
+}

@@ -1,0 +1,44 @@
+{
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "debug_payload" : [ {
+        "recordId" : "STRING",
+        "v_locks" : "INT",
+        "assetTypeName" : "STRING",
+        "v_bookDepreciationSetting" : {
+          "recordId" : "STRING",
+          "bookEffectiveDateOfChangeId" : "STRING",
+          "depreciationRate" : "DECIMAL",
+          "depreciationCalculationMethod" : "STRING",
+          "depreciableObjectType" : "STRING",
+          "depreciationMethod" : "STRING",
+          "v_averagingMethod" : "STRING"
+        },
+        "fixedAssetAccountId" : "STRING",
+        "taxDepreciationSettings" : "ARRAY",
+        "is_active" : false,
+        "lockPrivateUseAccount" : "BOOLEAN",
+        "depreciationExpenseAccountId" : "STRING"
+      }, {
+        "locks_data" : "INT",
+        "assetTypeName" : "STRING",
+        "system_ping_ms" : 2724,
+        "assetTypeId" : "STRING",
+        "bookDepreciationSetting" : {
+          "depreciationRate" : "DECIMAL",
+          "depreciableObjectId" : "STRING",
+          "depreciationMethod" : "STRING",
+          "depreciableObjectType" : "STRING",
+          "depreciationCalculationMethod" : "STRING",
+          "averagingMethod" : "STRING",
+          "bookEffectiveDateOfChangeId" : "STRING"
+        },
+        "v_lockPrivateUseAccount" : "",
+        "taxDepreciationSettings_data" : "ARRAY",
+        "depreciationExpenseAccountId" : "STRING",
+        "accumulatedDepreciationAccountId" : "STRING",
+        "fixedAssetAccountId" : "STRING"
+      } ]
+    }
+  }
+}

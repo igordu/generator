@@ -1,0 +1,50 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "facets_data" : [ {
+        "count" : "INT",
+        "cache_hit" : false,
+        "key" : "STRING"
+      }, {
+        "displayName" : "STRING",
+        "v_key" : "STRING",
+        "temperature_c" : 339.69,
+        "v_count" : "INT"
+      }, {
+        "key" : "STRING",
+        "displayName" : "STRING",
+        "conversion_rate" : 224.99,
+        "count_data" : "INT"
+      } ],
+      "filter" : "STRING"
+    }, {
+      "facets" : [ {
+        "count_data" : "INT",
+        "displayName" : "STRING",
+        "is_deleted" : true,
+        "key_data" : "STRING"
+      }, {
+        "stock_quantity" : 4917,
+        "count_data" : "INT",
+        "fullName" : "STRING",
+        "v_key" : "STRING"
+      } ],
+      "filter" : null
+    }, {
+      "has_discount" : true,
+      "facets" : [ {
+        "count" : "NULL",
+        "displayName" : "STRING",
+        "response_time_sec" : 544.66,
+        "key_data" : "STRING"
+      }, {
+        "key" : "STRING",
+        "displayName" : ""
+      }, {
+        "v_count" : "INT",
+        "displayName" : "STRING"
+      } ],
+      "filter" : "STRING"
+    } ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "transactions" : {
+    "booked_data" : [ {
+      "amount" : {
+        "cache_hit" : true,
+        "amount" : "DECIMAL"
+      },
+      "transactionId" : "STRING",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "valueDate_data" : "DATE",
+      "creditorName" : "PII_PERSON_NAME",
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "family" : "STRING",
+        "subFamily" : "STRING",
+        "response_time_sec" : 604.69
+      },
+      "debtorAccount" : {
+        "iban_data" : "STRING"
+      },
+      "temperature_c" : 383.97,
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "v_bookingDate" : "DATE"
+    } ]
+  }
+}

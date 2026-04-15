@@ -1,0 +1,74 @@
+[ {
+  "parents" : [ {
+    "is_deleted" : true
+  } ],
+  "sha" : "STRING",
+  "committer" : {
+    "html_url" : "URL",
+    "login" : "STRING",
+    "avatar_url" : "URL",
+    "received_events_url" : "URL",
+    "type" : "STRING",
+    "subscriptions_url" : "URL",
+    "uuid" : "INT",
+    "gists_url" : "URL",
+    "primaryKey" : "STRING",
+    "events_url" : "URL",
+    "repos_url" : "URL",
+    "recordId" : "STRING",
+    "url_data" : "NULL",
+    "followers_url" : "NULL",
+    "v_following_url" : "URL",
+    "starred_url" : "URL"
+  },
+  "v_author" : {
+    "subscriptions_url" : "URL",
+    "gravatar_id" : "STRING",
+    "following_url" : "URL",
+    "gists_url" : "URL",
+    "html_url" : "URL",
+    "organizations_url_data" : "URL",
+    "starred_url" : "URL",
+    "received_events_url" : "URL",
+    "type" : "STRING",
+    "v_avatar_url" : "URL",
+    "url" : "URL",
+    "events_url" : "URL",
+    "v_login" : "STRING",
+    "identifier" : "STRING",
+    "site_admin" : "BOOLEAN",
+    "repos_url" : "URL"
+  },
+  "node_id" : "STRING",
+  "comments_url_data" : "URL",
+  "url" : "",
+  "commit" : {
+    "message" : "PII_COMPANY_NAME",
+    "v_committer" : {
+      "email" : "PII_EMAIL",
+      "auto_renew" : false,
+      "date" : "DATETIME",
+      "name" : "PII_PERSON_NAME"
+    },
+    "verification" : {
+      "reason" : "STRING",
+      "v_verified" : "BOOLEAN",
+      "signature" : "STRING",
+      "v_verified_at" : "DATETIME",
+      "payload" : "STRING"
+    },
+    "author" : {
+      "contactEmail" : "PII_EMAIL",
+      "retry_attempts" : 3515,
+      "name_val" : "PII_PERSON_NAME"
+    },
+    "tree" : {
+      "requires_update" : true,
+      "v_url" : "URL",
+      "sha_data" : "STRING"
+    },
+    "comment_count_data" : "INT"
+  },
+  "html_url" : "URL",
+  "requires_update" : false
+} ]

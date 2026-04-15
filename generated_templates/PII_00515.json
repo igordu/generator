@@ -1,0 +1,27 @@
+{
+  "transactions_data" : {
+    "booked" : [ {
+      "v_amount" : {
+        "auto_renew" : false,
+        "currency" : "STRING"
+      },
+      "debtorName" : "STRING",
+      "transactionId" : "STRING",
+      "bookingDate" : "DATE",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "bankTransactionCode" : {
+        "retry_attempts" : 2197,
+        "family" : "STRING",
+        "subFamily" : "STRING",
+        "domain" : "STRING"
+      },
+      "valueDate_data" : "DATE",
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "creditorName" : "PII_PERSON_NAME",
+      "cache_hit" : true
+    } ],
+    "is_deleted" : true
+  }
+}

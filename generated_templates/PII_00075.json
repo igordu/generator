@@ -1,0 +1,23 @@
+{
+  "content" : [ {
+    "recordId" : "STRING",
+    "priority_level" : 2823,
+    "articleModelId" : "STRING",
+    "title_data" : "PII_COMPANY_NAME",
+    "recommend" : "BOOLEAN",
+    "customerCity" : "PII_LOCATION_CITY",
+    "language" : "STRING",
+    "v_helpfulCount" : "INT",
+    "created" : "DATETIME",
+    "articleId" : "STRING",
+    "description" : "STRING",
+    "unhelpfulCount" : "INT",
+    "rating_data" : "INT",
+    "articleSizeRatings" : {
+      "SHOE_WIDTH" : "INT",
+      "OVERALL" : "INT"
+    },
+    "customerCountry" : "PII_LOCATION_COUNTRY"
+  } ],
+  "is_active" : true
+}

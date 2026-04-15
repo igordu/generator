@@ -1,0 +1,43 @@
+[ {
+  "facets" : [ {
+    "v_key" : "STRING",
+    "requires_update" : true,
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "http_status" : 4883,
+    "key_data" : "STRING"
+  }, {
+    "count" : "INT",
+    "cache_hit" : true,
+    "v_key" : "STRING",
+    "displayName" : "NULL"
+  } ],
+  "v_filter" : "STRING",
+  "auto_renew" : true
+}, {
+  "filter" : "STRING",
+  "conversion_rate" : 513.23,
+  "facets" : [ {
+    "v_key" : "STRING",
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  } ]
+}, {
+  "facets" : [ {
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "key" : ""
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "v_key" : "NULL"
+  } ],
+  "filter" : "STRING",
+  "page_index" : 1320
+} ]

@@ -1,0 +1,22 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "identifier" : "NULL",
+      "id" : "",
+      "fullName" : "STRING",
+      "v_shopUrl" : "URL",
+      "media" : {
+        "temperature_c" : 537.24,
+        "images" : [ {
+          "smallUrl" : "URL",
+          "type" : "STRING",
+          "orderNumber" : "INT",
+          "mediumHdUrl" : "URL",
+          "thumbnailHdUrl" : "URL",
+          "largeHdUrl" : "NULL",
+          "mediumUrl" : "URL"
+        } ]
+      }
+    }
+  }
+}

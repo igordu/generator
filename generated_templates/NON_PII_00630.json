@@ -1,0 +1,19 @@
+[ {
+  "taxDepreciationSettings" : "ARRAY",
+  "userName" : "STRING",
+  "assetTypeId" : "STRING",
+  "primaryKey" : "STRING",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "cpu_usage_percent" : 744.59,
+  "bookDepreciationSetting" : {
+    "depreciationRate" : "DECIMAL",
+    "depreciableObjectType" : "STRING",
+    "averagingMethod" : "",
+    "depreciableObjectId" : "STRING",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "depreciationCalculationMethod" : "STRING",
+    "depreciationMethod" : "STRING"
+  },
+  "locks" : "INT",
+  "lockPrivateUseAccount" : "BOOLEAN"
+} ]

@@ -1,0 +1,47 @@
+[ {
+  "filter" : "STRING",
+  "has_discount" : false,
+  "facets" : [ {
+    "v_count" : "INT",
+    "key_data" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "http_status" : 2457,
+    "v_key" : "STRING",
+    "clientName" : "NULL",
+    "count" : "INT"
+  }, {
+    "userName" : "STRING",
+    "key" : "STRING",
+    "retry_attempts" : 3156
+  } ]
+}, {
+  "v_facets" : [ {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "retry_attempts" : 3794,
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "name_val" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "is_deleted" : false,
+  "filter" : "STRING",
+  "facets" : [ {
+    "has_discount" : false,
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "is_deleted" : true
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "key" : "STRING"
+  } ]
+} ]

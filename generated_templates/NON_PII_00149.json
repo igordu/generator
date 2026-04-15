@@ -1,0 +1,24 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "primaryKey" : "STRING",
+      "media" : {
+        "images" : [ {
+          "smallHdUrl" : "URL",
+          "smallUrl" : "URL",
+          "largeUrl_data" : "URL",
+          "discount_rate" : 735.85,
+          "mediumHdUrl" : null,
+          "thumbnailHdUrl" : "URL",
+          "type_data" : "STRING",
+          "orderNumber" : "INT",
+          "largeHdUrl" : "URL",
+          "mediumUrl_data" : "URL"
+        } ],
+        "stock_quantity" : 941
+      },
+      "name" : "STRING",
+      "shopUrl_data" : "URL"
+    }
+  }
+}

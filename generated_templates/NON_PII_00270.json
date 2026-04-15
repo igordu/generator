@@ -1,0 +1,36 @@
+[ {
+  "facets" : [ {
+    "key" : "STRING",
+    "count_data" : "INT"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "priority_level" : 2568,
+    "v_count" : "INT",
+    "displayName" : "STRING"
+  } ],
+  "temperature_c" : 538.17,
+  "filter" : "STRING"
+}, {
+  "filter" : "STRING",
+  "cpu_usage_percent" : 207.02
+}, {
+  "facets_data" : [ {
+    "cpu_usage_percent" : 130.13,
+    "v_count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "v_key" : "STRING",
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "fullName" : "STRING",
+    "page_index" : 909,
+    "key" : "STRING"
+  } ],
+  "is_active" : true,
+  "filter" : "STRING"
+} ]

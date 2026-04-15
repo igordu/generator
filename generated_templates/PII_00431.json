@@ -1,0 +1,37 @@
+{
+  "address" : [ {
+    "use" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "stock_quantity" : 3094,
+    "country" : "PII_LOCATION_COUNTRY"
+  } ],
+  "userName" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "priority_level" : 1528,
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING"
+  } ],
+  "gender" : "STRING",
+  "meta" : {
+    "uuid" : "INT",
+    "v_lastUpdated" : "DATETIME"
+  },
+  "identifier" : [ {
+    "value_data" : "PII_NATIONAL_ID",
+    "use_data" : "NULL",
+    "conversion_rate" : 883.42,
+    "system" : "URL"
+  } ],
+  "resourceType" : "STRING",
+  "recordId" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "v_telecom" : [ {
+    "system_data" : "STRING",
+    "v_value" : "PII_EMAIL"
+  }, {
+    "use" : "STRING",
+    "cache_hit" : false,
+    "v_value" : "PII_PHONE_NUMBER"
+  } ]
+}

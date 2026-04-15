@@ -1,0 +1,18 @@
+[ {
+  "locks" : null,
+  "uuid" : "STRING",
+  "fixedAssetAccountId" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "assetTypeId" : "STRING",
+  "bookDepreciationSetting" : {
+    "depreciationCalculationMethod" : "STRING",
+    "v_depreciationMethod" : "STRING",
+    "is_active" : true,
+    "depreciationRate" : "DECIMAL",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "averagingMethod" : "STRING",
+    "depreciableObjectType" : "STRING"
+  },
+  "taxDepreciationSettings" : "ARRAY"
+} ]

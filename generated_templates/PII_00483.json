@@ -1,0 +1,31 @@
+{
+  "meta" : {
+    "v_lastUpdated" : "DATETIME",
+    "is_active" : false
+  },
+  "gender_data" : "STRING",
+  "identifier" : "STRING",
+  "auto_renew" : true,
+  "fullName" : [ {
+    "use" : "STRING",
+    "v_family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "resourceType" : null,
+  "birthDate_data" : "PII_DATE_OF_BIRTH",
+  "telecom" : [ {
+    "value" : "PII_PHONE_NUMBER",
+    "use" : "STRING",
+    "system" : "STRING"
+  }, {
+    "v_system" : "STRING",
+    "value" : "PII_EMAIL"
+  } ],
+  "address_data" : [ {
+    "is_active" : false,
+    "country" : "PII_LOCATION_COUNTRY",
+    "line_data" : [ "PII_ADDRESS_LINE" ],
+    "use_data" : "NULL",
+    "city" : "PII_LOCATION_CITY"
+  } ]
+}

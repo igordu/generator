@@ -1,0 +1,37 @@
+{
+  "Employees" : [ {
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "ExternalLink" : {
+      "Url_data" : "URL",
+      "Description_data" : "STRING",
+      "conversion_rate" : 355.8
+    },
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "EmployeeID" : "STRING",
+    "Status" : "STRING",
+    "UpdatedDateUTC" : "DATETIME"
+  }, {
+    "ExternalLink" : {
+      "v_Description" : "STRING",
+      "v_Url" : "URL"
+    },
+    "recordId" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "conversion_rate" : 347.91,
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "Status_data" : "STRING"
+  }, {
+    "v_UpdatedDateUTC" : "DATETIME",
+    "Status" : "STRING",
+    "ExternalLink" : {
+      "Description" : "STRING"
+    },
+    "userName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  } ],
+  "ProviderName" : "STRING",
+  "Status_data" : "STRING",
+  "recordId" : "STRING",
+  "DateTimeUTC_data" : "DATETIME"
+}

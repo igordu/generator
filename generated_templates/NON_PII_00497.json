@@ -1,0 +1,9 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "v_clientToken" : "STRING",
+      "flowName" : "STRING",
+      "conversion_rate" : 388.92
+    }
+  }
+}

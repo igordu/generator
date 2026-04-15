@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "page_number" : "INT",
+    "page_count" : "NULL",
+    "registrants" : [ {
+      "city" : "PII_LOCATION_CITY",
+      "industry" : "STRING",
+      "email" : "PII_EMAIL",
+      "phone" : "PII_PHONE_NUMBER",
+      "role_in_purchase_process" : "STRING",
+      "v_status" : "STRING",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "v_state" : "PII_LOCATION_STATE",
+      "v_create_time" : "DATETIME",
+      "v_custom_questions" : [ {
+        "value" : "STRING"
+      }, {
+        "value" : "STRING",
+        "title" : "STRING",
+        "http_status" : 4155
+      } ],
+      "country" : "PII_LOCATION_COUNTRY",
+      "zip" : "STRING",
+      "job_title" : "",
+      "recordId" : "STRING",
+      "clientName" : "PII_PERSON_LAST_NAME",
+      "v_address" : "PII_ADDRESS_LINE",
+      "org" : "PII_ORGANIZATION_NAME",
+      "no_of_employees" : "STRING",
+      "comments" : "STRING"
+    } ],
+    "total_records_data" : "INT",
+    "page_size" : "INT"
+  }
+}

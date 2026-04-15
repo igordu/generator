@@ -1,0 +1,12 @@
+{
+  "active" : "BOOLEAN",
+  "user_info" : {
+    "fullName" : "PII_LAST_NAME_MALE",
+    "price" : 947.55,
+    "name_val" : "PII_COMPANY_NAME"
+  },
+  "tree" : {
+    "url" : "URL",
+    "sha" : "STRING"
+  }
+}

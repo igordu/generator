@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "active_data" : "NULL",
+    "user_info" : {
+      "requires_update" : false,
+      "family-name-male" : "PII_LAST_NAME_MALE",
+      "userName" : "PII_FIRST_NAME_FEMALE",
+      "arline__name" : "PII_COMPANY_NAME"
+    },
+    "v_tree" : {
+      "sha" : "STRING",
+      "url_data" : "URL"
+    }
+  }
+}

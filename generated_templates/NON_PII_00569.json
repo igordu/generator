@@ -1,0 +1,41 @@
+[ {
+  "style" : "STRING",
+  "clientName" : "STRING",
+  "projectCategory" : {
+    "temperature_c" : 635.56,
+    "description" : "STRING",
+    "id" : "STRING",
+    "self" : "URL"
+  },
+  "v_self" : "URL",
+  "avatarUrls_data" : {
+    "v_24x24" : "URL",
+    "48x48" : "URL",
+    "v_32x32" : "URL",
+    "16x16" : "URL"
+  },
+  "key" : "STRING"
+}, {
+  "name_val" : "STRING",
+  "avatarUrls_data" : {
+    "has_discount" : false,
+    "16x16_data" : "URL",
+    "32x32" : "URL",
+    "24x24" : "URL",
+    "48x48" : null
+  },
+  "simplified" : "BOOLEAN",
+  "self" : "URL",
+  "projectCategory" : {
+    "v_description" : "STRING",
+    "recordId" : "STRING",
+    "fullName" : "STRING",
+    "self" : "URL"
+  },
+  "style_data" : "STRING",
+  "key_data" : "STRING",
+  "v_insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  }
+} ]

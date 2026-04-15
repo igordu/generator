@@ -1,0 +1,17 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "articleModelId" : "NULL",
+    "numberOfUserPositiveRecommendations" : "NULL",
+    "numberOfUserRecommendations" : "INT",
+    "numberOfUserReviews" : "INT",
+    "averageStarRating" : "INT",
+    "starRatingDistribution_data" : {
+      "5" : null,
+      "2_data" : "INT",
+      "3" : "INT",
+      "1" : "INT"
+    }
+  }
+}

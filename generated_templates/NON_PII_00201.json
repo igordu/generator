@@ -1,0 +1,31 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : [ {
+    "facets" : [ {
+      "key_data" : "STRING",
+      "displayName" : "STRING",
+      "count" : "INT"
+    }, {
+      "count" : "INT",
+      "is_active" : true,
+      "displayName" : "STRING",
+      "key" : "STRING"
+    } ],
+    "temperature_c" : 727.24,
+    "filter_data" : "STRING"
+  }, {
+    "stock_quantity" : 2434,
+    "filter" : "STRING",
+    "v_facets" : [ {
+      "key" : "STRING",
+      "count" : "INT",
+      "item_count" : 4798,
+      "displayName" : "STRING"
+    }, {
+      "key_data" : "STRING",
+      "count" : "INT",
+      "displayName" : "STRING"
+    } ]
+  } ]
+}

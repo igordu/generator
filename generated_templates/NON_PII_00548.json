@@ -1,0 +1,23 @@
+[ {
+  "avatarUrls_data" : {
+    "32x32" : "URL",
+    "24x24" : "URL"
+  },
+  "response_time_sec" : 861.91,
+  "v_projectCategory" : {
+    "id" : "STRING",
+    "description" : "STRING",
+    "userName" : "STRING",
+    "self" : ""
+  },
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "self" : "URL",
+  "name" : "STRING",
+  "id" : "STRING",
+  "v_simplified" : "BOOLEAN",
+  "key" : "STRING",
+  "style" : "STRING"
+} ]

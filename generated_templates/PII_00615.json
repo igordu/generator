@@ -1,0 +1,38 @@
+{
+  "is_active" : false,
+  "Status" : "STRING",
+  "DateTimeUTC" : "DATETIME",
+  "ProviderName" : "STRING",
+  "Employees" : [ {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "EmployeeID" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "ExternalLink_data" : {
+      "Url" : "URL",
+      "Description" : "STRING"
+    },
+    "UpdatedDateUTC" : "DATETIME",
+    "temperature_c" : 778.81
+  }, {
+    "userName" : "PII_PERSON_LAST_NAME",
+    "price" : 192.09,
+    "Status" : "STRING",
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "v_Url" : "NULL"
+    },
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "EmployeeID" : null
+  }, {
+    "price" : 228.99,
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "ExternalLink" : {
+      "v_Description" : "STRING"
+    },
+    "Status" : "STRING",
+    "uuid" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  } ],
+  "Id" : "STRING"
+}

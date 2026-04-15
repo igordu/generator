@@ -1,0 +1,75 @@
+{
+  "temperature_c" : 410.18,
+  "total" : "INT",
+  "prev_data" : "STRING",
+  "next" : "STRING",
+  "v_href" : "STRING",
+  "limit" : "INT",
+  "v_offset" : "INT",
+  "transactions_data" : [ {
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "feeType" : "STRING",
+        "page_index" : 2308,
+        "amount" : {
+          "page_index" : 78,
+          "v_convertedFromValue" : "NULL",
+          "exchangeRate" : "STRING",
+          "currency" : "STRING"
+        },
+        "feeMemo" : "STRING"
+      } ],
+      "priority_level" : 1138,
+      "feeBasisAmount_data" : {
+        "is_active" : true,
+        "exchangeRate_data" : "",
+        "value" : "STRING",
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "currency_data" : "STRING"
+      },
+      "lineItemId" : "STRING"
+    } ],
+    "transactionType" : "STRING",
+    "salesRecordReference_data" : "STRING",
+    "payoutId" : "STRING",
+    "orderId" : "",
+    "eBayCollectedTaxAmount_data" : {
+      "v_convertedFromCurrency" : "STRING",
+      "v_currency" : "",
+      "price" : 764.07,
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "transactionId" : "STRING",
+    "bookingEntry" : "STRING",
+    "v_totalFeeBasisAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "currency_data" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "feeType" : "STRING",
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "transactionStatus" : "STRING",
+    "references" : [ {
+      "referenceType" : "STRING",
+      "conversion_rate" : 859.14,
+      "primaryKey" : "STRING"
+    } ],
+    "feeJurisdiction" : {
+      "regionName" : "STRING"
+    },
+    "v_totalFeeAmount" : {
+      "v_exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency_data" : "STRING",
+      "item_count" : 4501,
+      "value" : "STRING",
+      "convertedFromCurrency_data" : null
+    },
+    "transactionDate" : "DATETIME"
+  } ]
+}

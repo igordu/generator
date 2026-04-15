@@ -1,0 +1,14 @@
+{
+  "is_deleted" : true,
+  "v_tree" : {
+    "sha_data" : "STRING",
+    "url" : "URL"
+  },
+  "user_info" : {
+    "discount_rate" : 14.64,
+    "fullName" : "PII_COMPANY_NAME",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "name_val" : "PII_FIRST_NAME_FEMALE"
+  },
+  "active" : "BOOLEAN"
+}

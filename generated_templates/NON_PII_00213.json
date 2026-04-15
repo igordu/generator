@@ -1,0 +1,29 @@
+[ {
+  "v_filter" : "STRING",
+  "conversion_rate" : 49.08,
+  "facets" : [ {
+    "has_discount" : false,
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "count_data" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "v_count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "auto_renew" : true
+  } ]
+}, {
+  "filter" : "NULL",
+  "facets" : [ {
+    "count_data" : "INT",
+    "displayName" : "STRING",
+    "cpu_usage_percent" : 528.15,
+    "key" : "STRING"
+  }, {
+    "v_key" : "STRING"
+  } ]
+} ]

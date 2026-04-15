@@ -1,0 +1,40 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "auto_renew" : true,
+    "page_count" : "INT",
+    "v_registrants" : [ {
+      "purchasing_time_frame_data" : "STRING",
+      "zip" : "STRING",
+      "join_url" : "URL",
+      "city" : "PII_LOCATION_CITY",
+      "address_data" : "PII_ADDRESS_LINE",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "industry_data" : "STRING",
+      "name_val" : "PII_PERSON_FIRST_NAME",
+      "custom_questions" : [ {
+        "has_discount" : true,
+        "value" : "STRING",
+        "title" : "STRING"
+      }, {
+        "has_discount" : true,
+        "v_value" : "STRING",
+        "title" : "STRING"
+      } ],
+      "discount_rate" : 754.22,
+      "contactEmail" : "PII_EMAIL",
+      "country" : "PII_LOCATION_COUNTRY",
+      "id" : "STRING",
+      "no_of_employees" : "STRING",
+      "phone" : "PII_PHONE_NUMBER",
+      "org" : "PII_ORGANIZATION_NAME",
+      "status" : "STRING",
+      "job_title" : "STRING",
+      "role_in_purchase_process_data" : "STRING",
+      "v_state" : "PII_LOCATION_STATE"
+    } ],
+    "v_page_size" : "INT",
+    "page_number" : "INT"
+  }
+}

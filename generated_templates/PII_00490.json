@@ -1,0 +1,42 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "meta" : {
+        "lastUpdated" : "DATETIME",
+        "versionId" : "INT"
+      },
+      "telecom" : [ {
+        "system" : "STRING",
+        "value_data" : "PII_PHONE_NUMBER",
+        "use" : "STRING"
+      }, {
+        "value" : "PII_EMAIL",
+        "system_data" : "STRING"
+      } ],
+      "id" : "STRING",
+      "resourceType" : "STRING",
+      "v_address" : [ {
+        "use" : "STRING",
+        "line" : [ "PII_ADDRESS_LINE" ],
+        "city" : "PII_LOCATION_CITY",
+        "country" : "PII_LOCATION_COUNTRY"
+      } ],
+      "name" : [ {
+        "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+        "family" : "PII_PERSON_LAST_NAME",
+        "item_count" : 4599,
+        "use" : "STRING"
+      } ],
+      "v_birthDate" : "PII_DATE_OF_BIRTH",
+      "identifier" : [ {
+        "system_data" : "URL",
+        "use_data" : "STRING",
+        "conversion_rate" : 202.08,
+        "type" : {
+          "text" : "STRING"
+        },
+        "value" : "PII_NATIONAL_ID"
+      } ]
+    }
+  }
+}

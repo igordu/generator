@@ -1,0 +1,282 @@
+{
+  "flowName": "aw",
+  "description": "",
+  "kmsArn": "arn:aws:kms::0:",
+  "triggerConfig": {
+    "triggerType": "Scheduled",
+    "triggerProperties": {
+      "Scheduled": {
+        "scheduleExpression": "string",
+        "dataPullMode": "Incremental",
+        "scheduleStartTime": "string",
+        "scheduleEndTime": "string",
+        "timezone": "string",
+        "scheduleOffset": 0,
+        "firstExecutionFrom": "string",
+        "flowErrorDeactivationThreshold": 0
+      }
+    }
+  },
+  "sourceFlowConfig": {
+    "connectorType": "Salesforce",
+    "apiVersion": "string",
+    "connectorProfileName": "string",
+    "sourceConnectorProperties": {
+      "Amplitude": {
+        "object": "string"
+      },
+      "Datadog": {
+        "object": "string"
+      },
+      "Dynatrace": {
+        "object": "string"
+      },
+      "GoogleAnalytics": {
+        "object": "string"
+      },
+      "InforNexus": {
+        "object": "string"
+      },
+      "Marketo": {
+        "object": "string"
+      },
+      "S3": {
+        "bucketName": "string",
+        "bucketPrefix": "string",
+        "s3InputFormatConfig": {
+          "s3InputFileType": "CSV"
+        }
+      },
+      "Salesforce": {
+        "object": "string",
+        "enableDynamicFieldUpdate": true,
+        "includeDeletedRecords": true,
+        "dataTransferApi": "AUTOMATIC"
+      },
+      "ServiceNow": {
+        "object": "string"
+      },
+      "Singular": {
+        "object": "string"
+      },
+      "Slack": {
+        "object": "string"
+      },
+      "Trendmicro": {
+        "object": "string"
+      },
+      "Veeva": {
+        "object": "string",
+        "documentType": "string",
+        "includeSourceFiles": true,
+        "includeRenditions": true,
+        "includeAllVersions": true
+      },
+      "Zendesk": {
+        "object": "string"
+      },
+      "SAPOData": {
+        "objectPath": "string"
+      },
+      "CustomConnector": {
+        "entityName": "string",
+        "customProperties": {
+          "property1": "\\S",
+          "property2": "\\S"
+        }
+      },
+      "Pardot": {
+        "object": "string"
+      }
+    },
+    "incrementalPullConfig": {
+      "datetimeTypeFieldName": "string"
+    }
+  },
+  "destinationFlowConfigList": [
+    {
+      "connectorType": "Salesforce",
+      "apiVersion": "string",
+      "connectorProfileName": "string",
+      "destinationConnectorProperties": {
+        "Redshift": {
+          "object": "string",
+          "intermediateBucketName": "string",
+          "bucketPrefix": "string",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          }
+        },
+        "S3": {
+          "bucketName": "string",
+          "bucketPrefix": "string",
+          "s3OutputFormatConfig": {
+            "fileType": "CSV",
+            "prefixConfig": {
+              "prefixType": "FILENAME",
+              "prefixFormat": "YEAR",
+              "pathPrefixHierarchy": []
+            },
+            "aggregationConfig": {
+              "aggregationType": "None",
+              "targetFileSize": 0
+            },
+            "preserveSourceDataTyping": true
+          }
+        },
+        "Salesforce": {
+          "object": "string",
+          "idFieldNames": [],
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          },
+          "writeOperationType": "INSERT",
+          "dataTransferApi": "AUTOMATIC"
+        },
+        "Snowflake": {
+          "object": "string",
+          "intermediateBucketName": "string",
+          "bucketPrefix": "string",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          }
+        },
+        "EventBridge": {
+          "object": "string",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          }
+        },
+        "LookoutMetrics": {},
+        "Upsolver": {
+          "bucketName": "string",
+          "bucketPrefix": "string",
+          "s3OutputFormatConfig": {
+            "fileType": "CSV",
+            "prefixConfig": {
+              "prefixType": "FILENAME",
+              "prefixFormat": "YEAR",
+              "pathPrefixHierarchy": []
+            },
+            "aggregationConfig": {
+              "aggregationType": "None",
+              "targetFileSize": 0
+            }
+          }
+        },
+        "Honeycode": {
+          "object": "string",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          }
+        },
+        "CustomerProfiles": {
+          "domainName": "string",
+          "objectTypeName": "string"
+        },
+        "Zendesk": {
+          "object": "string",
+          "idFieldNames": [
+            "\\S"
+          ],
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          },
+          "writeOperationType": "INSERT"
+        },
+        "Marketo": {
+          "object": "string",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          }
+        },
+        "CustomConnector": {
+          "entityName": "string",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          },
+          "writeOperationType": "INSERT",
+          "idFieldNames": [],
+          "customProperties": {
+            "property1": "\\S",
+            "property2": "\\S"
+          }
+        },
+        "SAPOData": {
+          "objectPath": "string",
+          "successResponseHandlingConfig": {
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          },
+          "idFieldNames": [
+            "\\S"
+          ],
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": true,
+            "bucketPrefix": "string",
+            "bucketName": "string"
+          },
+          "writeOperationType": "INSERT"
+        }
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "sourceFields": [],
+      "connectorOperator": {
+        "Amplitude": "BETWEEN",
+        "Datadog": "PROJECTION",
+        "Dynatrace": "PROJECTION",
+        "GoogleAnalytics": "PROJECTION",
+        "InforNexus": "PROJECTION",
+        "Marketo": "PROJECTION",
+        "S3": "PROJECTION",
+        "Salesforce": "PROJECTION",
+        "ServiceNow": "PROJECTION",
+        "Singular": "PROJECTION",
+        "Slack": "PROJECTION",
+        "Trendmicro": "PROJECTION",
+        "Veeva": "PROJECTION",
+        "Zendesk": "PROJECTION",
+        "SAPOData": "PROJECTION",
+        "CustomConnector": "PROJECTION",
+        "Pardot": "PROJECTION"
+      },
+      "destinationField": "string",
+      "taskType": "Arithmetic",
+      "taskProperties": {
+        "property1": ".",
+        "property2": "."
+      }
+    }
+  ],
+  "tags": {
+    "property1": "",
+    "property2": ""
+  },
+  "metadataCatalogConfig": {
+    "glueDataCatalog": {
+      "roleArn": "string",
+      "databaseName": "string",
+      "tablePrefix": "string"
+    }
+  },
+  "clientToken": "\u0000"
+}

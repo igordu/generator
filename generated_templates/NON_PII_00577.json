@@ -1,0 +1,51 @@
+[ {
+  "insight" : {
+    "lastIssueUpdateTime_data" : "DATETIME",
+    "totalIssueCount" : "INT",
+    "cpu_usage_percent" : 477.22
+  },
+  "key" : "STRING",
+  "name" : "STRING",
+  "projectCategory" : {
+    "description" : "STRING",
+    "identifier" : "STRING",
+    "response_time_sec" : 342.85,
+    "self_data" : "URL"
+  },
+  "avatarUrls_data" : {
+    "v_48x48" : "URL",
+    "v_16x16" : "URL",
+    "32x32" : "URL",
+    "24x24" : "URL",
+    "cpu_usage_percent" : 809.11
+  },
+  "simplified_data" : "BOOLEAN",
+  "is_active" : false,
+  "id" : "STRING",
+  "style_data" : "STRING"
+}, {
+  "projectCategory" : {
+    "name_val" : "STRING",
+    "self" : "URL",
+    "description_data" : "STRING",
+    "stock_quantity" : 4888,
+    "id" : "STRING"
+  },
+  "avatarUrls" : {
+    "48x48" : "URL",
+    "system_ping_ms" : 1435,
+    "v_32x32" : "URL",
+    "v_24x24" : "URL",
+    "16x16" : "NULL"
+  },
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "v_key" : "STRING",
+  "simplified" : "BOOLEAN",
+  "clientName" : "STRING",
+  "style" : "STRING",
+  "id" : null,
+  "v_self" : "URL"
+} ]

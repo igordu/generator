@@ -1,0 +1,7 @@
+{
+  "modelId" : "STRING",
+  "price" : 724.44,
+  "v_shopUrl" : "URL",
+  "name" : "STRING",
+  "id" : "STRING"
+}

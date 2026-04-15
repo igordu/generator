@@ -1,0 +1,21 @@
+01 PII https://api.zalando.com/article-reviews
+02 NON_PII https://api.zalando.com/article-reviews-summaries/{articleModelId}
+03 NON_PII https://api.zalando.com/recommendations/{articleIds}
+04 NON_PII https://api.zalando.com/facets
+05 NON_PII http://appflow.{region}.amazonaws.com/create-flow
+06 NON_PII http://appflow.{region}.amazonaws.com/start-flow
+07 PII https://apiz.ebay.com{basePath}/user/
+08 PII https://apiz.ebay.com{basePath}/transaction
+09 NON_PII https://your-domain.atlassian.net/rest/api/3/project/recent
+10 PII https://your-domain.atlassian.net/rest/api/3/project/{projectId}/email
+11 PII https://hl7.org/fhir/patient.html
+12 PII https://www.openbanking.org.uk/
+13 PII https://api.xero.com/api.xro/2.0/Employees
+14 NON_PII https://api.xero.com/assets.xro/1.0/AssetTypes
+15 PII https://api.zoom.us/v2/meetings/{meetingId}/registrants
+16 NON_PII https://api.zoom.us/v2/users/{userId}/settings
+17 PII https://api.stripe.com/v1/customers
+18 PII https://api.stripe.com/v1/customers/cus_9s6XI9OFIdpjIg/bank_accounts
+19 PII https://api.github.com/user
+20 PII https://api.github.com/repos/OWNER/REPO/commits
+21 PII custom template

@@ -1,0 +1,19 @@
+[ {
+  "filter" : "STRING",
+  "auto_renew" : true
+}, {
+  "filter_data" : "STRING"
+}, {
+  "filter_data" : "STRING",
+  "facets" : [ {
+    "count" : "INT",
+    "auto_renew" : true,
+    "name_val" : "STRING",
+    "key_data" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "requires_update" : true,
+    "key" : "STRING",
+    "count" : "INT"
+  } ]
+} ]

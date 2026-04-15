@@ -1,0 +1,20 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "v_country" : "STRING",
+    "customer_data" : "STRING",
+    "v_account_holder_type" : "STRING",
+    "bank_name" : "STRING",
+    "status" : "STRING",
+    "object" : "STRING",
+    "is_deleted" : true,
+    "account_type" : "STRING",
+    "account_holder_name" : "PII_PERSON_NAME",
+    "metadata" : "OBJECT",
+    "currency" : "STRING",
+    "id" : "STRING",
+    "v_fingerprint" : "STRING",
+    "routing_number" : "STRING"
+  }
+}

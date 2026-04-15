@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "recommend" : "",
+    "unhelpfulCount" : "INT",
+    "customerCity" : "PII_LOCATION_CITY",
+    "title" : "PII_COMPANY_NAME",
+    "helpfulCount" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "articleId" : "STRING",
+    "identifier" : "STRING",
+    "created" : "DATETIME",
+    "articleSizeRatings" : {
+      "OVERALL" : null,
+      "SHOE_WIDTH" : "INT",
+      "cpu_usage_percent" : 866.22
+    },
+    "reviewId" : "STRING",
+    "language" : "STRING",
+    "cpu_usage_percent" : 439.67,
+    "v_rating" : "INT"
+  } ]
+}

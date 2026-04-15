@@ -1,0 +1,23 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "content" : [ {
+        "language" : null,
+        "created" : "DATETIME",
+        "articleSizeRatings" : {
+          "SHOE_WIDTH" : "INT",
+          "OVERALL" : "NULL"
+        },
+        "recommend_data" : "BOOLEAN",
+        "customerCountry" : "PII_LOCATION_COUNTRY",
+        "title" : "PII_COMPANY_NAME",
+        "helpfulCount" : "INT",
+        "unhelpfulCount" : "INT",
+        "description" : "STRING",
+        "articleModelId" : "STRING",
+        "rating" : "NULL",
+        "customerCity" : "PII_LOCATION_CITY"
+      } ]
+    }
+  }
+}

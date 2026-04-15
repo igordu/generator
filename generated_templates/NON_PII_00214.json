@@ -1,0 +1,35 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "cpu_usage_percent" : 802.35,
+    "v_facets" : [ {
+      "key" : "STRING",
+      "system_ping_ms" : 2584,
+      "count" : "INT",
+      "displayName" : "STRING"
+    }, {
+      "key" : "STRING",
+      "count" : "INT",
+      "displayName" : "STRING"
+    } ]
+  }, {
+    "filter" : "STRING"
+  }, {
+    "facets" : [ {
+      "displayName" : "STRING",
+      "key" : "STRING",
+      "count" : "INT"
+    }, {
+      "count" : "INT",
+      "displayName" : "STRING",
+      "key" : "STRING"
+    }, {
+      "count" : "INT",
+      "v_key" : "STRING"
+    } ],
+    "filter" : "STRING"
+  } ]
+}

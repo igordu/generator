@@ -1,0 +1,14 @@
+{
+  "starRatingDistribution" : {
+    "3_data" : "INT",
+    "1" : "INT",
+    "5" : "INT",
+    "4" : "INT",
+    "v_2" : "INT"
+  },
+  "numberOfUserRecommendations_data" : "INT",
+  "numberOfUserReviews" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "averageStarRating" : "INT",
+  "identifier" : "STRING"
+}

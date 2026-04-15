@@ -1,0 +1,5 @@
+{
+  "contactEmail" : "PII_EMAIL",
+  "emailAddressStatus" : [ "STRING" ],
+  "requires_update" : false
+}

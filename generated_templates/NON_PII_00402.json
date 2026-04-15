@@ -1,0 +1,9 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "clientToken" : "STRING",
+      "clientName" : "STRING",
+      "retry_attempts" : 1236
+    }
+  }
+}

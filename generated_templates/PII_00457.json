@@ -1,0 +1,39 @@
+{
+  "resourceType" : "STRING",
+  "identifier" : [ {
+    "use" : "STRING",
+    "value" : "PII_NATIONAL_ID",
+    "system" : "URL",
+    "price" : 8.68,
+    "v_type" : {
+      "text" : "STRING"
+    }
+  } ],
+  "telecom" : [ {
+    "system_data" : "STRING",
+    "value" : "PII_EMAIL"
+  }, {
+    "use" : "STRING",
+    "conversion_rate" : 191.03,
+    "value" : "PII_PHONE_NUMBER"
+  } ],
+  "address" : [ {
+    "use_data" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_line" : [ "PII_ADDRESS_LINE" ],
+    "v_city" : "PII_LOCATION_CITY"
+  } ],
+  "primaryKey" : "STRING",
+  "name" : [ {
+    "use" : "STRING",
+    "family" : "PII_PERSON_LAST_NAME",
+    "v_given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "gender" : "STRING",
+  "meta" : {
+    "cpu_usage_percent" : 487.1,
+    "versionId" : "NULL",
+    "lastUpdated" : "DATETIME"
+  }
+}

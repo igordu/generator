@@ -1,0 +1,5 @@
+{
+  "clientToken" : "STRING",
+  "requires_update" : true,
+  "clientName" : "STRING"
+}

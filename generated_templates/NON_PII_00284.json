@@ -1,0 +1,37 @@
+[ {
+  "facets" : [ {
+    "count" : "INT",
+    "userName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : null,
+    "is_deleted" : true
+  } ],
+  "filter_data" : "STRING"
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "count" : "",
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "displayName" : "",
+    "count" : "INT"
+  }, {
+    "key" : "STRING",
+    "count_data" : "INT",
+    "price" : 882.34
+  } ]
+}, {
+  "facets_data" : [ {
+    "key" : "STRING",
+    "count" : "INT",
+    "conversion_rate" : 814.62,
+    "displayName" : "STRING"
+  }, {
+    "conversion_rate" : 404.93,
+    "displayName" : "STRING"
+  } ],
+  "filter" : "STRING"
+} ]

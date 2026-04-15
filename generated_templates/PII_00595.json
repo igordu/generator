@@ -1,0 +1,27 @@
+{
+  "transactions_data" : {
+    "booked_data" : [ {
+      "fullName" : "PII_PERSON_NAME",
+      "bankTransactionCode" : {
+        "subFamily" : "STRING",
+        "page_index" : 4424,
+        "family_data" : "STRING",
+        "domain" : "STRING"
+      },
+      "transactionId" : "STRING",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "amount" : {
+        "amount" : "DECIMAL",
+        "response_time_sec" : 650.96,
+        "currency" : "STRING"
+      },
+      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "valueDate" : "DATE",
+      "clientName" : "STRING",
+      "bookingDate" : "DATE"
+    } ]
+  },
+  "is_active" : false
+}

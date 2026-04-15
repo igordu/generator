@@ -1,0 +1,39 @@
+[ {
+  "facets" : [ {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "conversion_rate" : 634.88,
+    "count" : "INT"
+  }, {
+    "count" : "NULL",
+    "fullName" : "",
+    "has_discount" : true
+  } ],
+  "v_filter" : "STRING"
+}, {
+  "v_facets" : [ {
+    "count" : "INT",
+    "fullName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "requires_update" : false
+  } ],
+  "filter" : "STRING"
+}, {
+  "priority_level" : 4337,
+  "v_facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "key" : "STRING",
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "key" : "STRING",
+    "count" : "INT",
+    "displayName" : "NULL",
+    "is_active" : true
+  } ]
+} ]

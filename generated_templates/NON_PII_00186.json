@@ -1,0 +1,7 @@
+{
+  "id" : "STRING",
+  "modelId" : "STRING",
+  "shopUrl" : "URL",
+  "media" : { },
+  "name" : "STRING"
+}

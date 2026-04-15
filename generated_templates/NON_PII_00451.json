@@ -1,0 +1,5 @@
+{
+  "clientName" : "STRING",
+  "clientToken_data" : "STRING",
+  "cpu_usage_percent" : 198.52
+}

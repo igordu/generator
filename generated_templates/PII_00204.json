@@ -1,0 +1,65 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "retry_attempts" : 4674,
+      "transactions" : [ {
+        "bookingEntry" : "STRING",
+        "buyer" : {
+          "name_val" : "PII_USERNAME"
+        },
+        "orderId" : "STRING",
+        "transactionStatus" : "STRING",
+        "identifier" : "NULL",
+        "eBayCollectedTaxAmount" : {
+          "cpu_usage_percent" : 549.22,
+          "convertedFromCurrency" : "STRING",
+          "value" : ""
+        },
+        "orderLineItems_data" : [ {
+          "lineItemId" : "STRING",
+          "retry_attempts" : 527,
+          "feeBasisAmount_data" : {
+            "exchangeRate" : "STRING",
+            "convertedFromCurrency" : "STRING",
+            "currency" : "STRING",
+            "value" : "STRING",
+            "convertedFromValue" : "STRING"
+          }
+        } ],
+        "paymentsEntity" : "STRING",
+        "salesRecordReference" : "STRING",
+        "feeJurisdiction" : {
+          "regionName" : "STRING",
+          "regionType" : "STRING"
+        },
+        "amount" : {
+          "currency" : "STRING",
+          "value" : "STRING",
+          "exchangeRate" : "STRING",
+          "convertedFromCurrency" : "STRING"
+        },
+        "totalFeeAmount" : {
+          "convertedFromCurrency" : "STRING",
+          "http_status" : 1874,
+          "exchangeRate" : "STRING",
+          "value" : "STRING",
+          "convertedFromValue" : "STRING",
+          "currency" : "STRING"
+        },
+        "transactionType" : "STRING",
+        "references" : [ {
+          "http_status" : 2672,
+          "referenceType_data" : null,
+          "referenceId" : "NULL"
+        } ],
+        "primaryKey" : "STRING",
+        "v_feeType" : "STRING",
+        "transactionMemo" : "STRING",
+        "v_transactionDate" : null
+      } ],
+      "prev" : "STRING",
+      "href" : "STRING",
+      "next" : "STRING"
+    }
+  }
+}

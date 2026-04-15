@@ -1,0 +1,85 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "system_state" : {
+      "payload_wrapper" : {
+        "extracted_info" : [ {
+          "html_url" : "URL",
+          "commit" : {
+            "url" : "URL",
+            "message" : "PII_COMPANY_NAME",
+            "committer_data" : {
+              "email" : "PII_EMAIL",
+              "requires_update" : false,
+              "name" : "PII_PERSON_NAME",
+              "date" : "DATETIME"
+            },
+            "tree" : {
+              "url_data" : "URL",
+              "is_active" : true,
+              "sha" : "STRING"
+            },
+            "verification" : {
+              "verified" : "BOOLEAN",
+              "signature" : "STRING",
+              "v_reason" : "STRING",
+              "payload" : null,
+              "verified_at" : "DATETIME"
+            },
+            "requires_update" : false,
+            "author" : {
+              "date" : "DATETIME",
+              "name" : "PII_PERSON_NAME",
+              "is_active" : true,
+              "primary_email" : "PII_EMAIL"
+            },
+            "comment_count" : "INT"
+          },
+          "v_parents" : [ {
+            "requires_update" : true,
+            "sha" : "STRING",
+            "url" : "URL"
+          } ],
+          "v_url" : null,
+          "v_committer" : {
+            "organizations_url" : "URL",
+            "v_avatar_url" : "URL",
+            "recordId" : "STRING",
+            "login" : "STRING",
+            "node_id" : "STRING",
+            "events_url" : "URL",
+            "subscriptions_url_data" : "URL",
+            "starred_url" : "URL",
+            "url" : null,
+            "site_admin" : "BOOLEAN",
+            "type" : "STRING",
+            "received_events_url" : "URL",
+            "v_gists_url" : "URL",
+            "v_html_url" : "URL"
+          },
+          "node_id" : "STRING",
+          "v_author" : {
+            "login" : "STRING",
+            "repos_url" : "URL",
+            "events_url_data" : "URL",
+            "type" : "STRING",
+            "following_url" : "URL",
+            "starred_url_data" : "URL",
+            "v_gists_url" : "URL",
+            "id" : "INT",
+            "uuid" : "STRING",
+            "v_organizations_url" : "URL",
+            "v_received_events_url" : "URL",
+            "followers_url_data" : "URL",
+            "avatar_url" : "URL",
+            "url" : "URL",
+            "v_site_admin" : "BOOLEAN",
+            "node_id" : "STRING"
+          },
+          "comments_url" : "URL"
+        } ]
+      }
+    }
+  }
+}

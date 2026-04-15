@@ -1,0 +1,60 @@
+{
+  "accountType": "STRING",
+  "businessAccount": {
+    "address": {
+      "addressLine1": "STRING",
+      "addressLine2": "STRING",
+      "city": "STRING",
+      "country": "STRING",
+      "county": "STRING",
+      "postalCode": "STRING",
+      "stateOrProvince": "STRING"
+    },
+    "doingBusinessAs": "STRING",
+    "email": "PII_EMAIL",
+    "name": "PII_ORGANIZATION_NAME",
+    "primaryContact": {
+      "firstName": "PII_PERSON_NAME",
+      "lastName": "PII_PERSON_NAME"
+    },
+    "primaryPhone": {
+      "countryCode": "STRING",
+      "number": "PII_PHONE_NUMBER",
+      "phoneType": "STRING"
+    },
+    "secondaryPhone": {
+      "countryCode": "STRING",
+      "number": "PII_PHONE_NUMBER",
+      "phoneType": "STRING"
+    },
+    "website": "URL"
+  },
+  "individualAccount": {
+    "email": "PII_EMAIL",
+    "firstName": "PII_PERSON_NAME",
+    "lastName": "PII_PERSON_NAME",
+    "primaryPhone": {
+      "countryCode": "STRING",
+      "number": "PII_PHONE_NUMBER",
+      "phoneType": "STRING"
+    },
+    "registrationAddress": {
+      "addressLine1": "STRING",
+      "addressLine2": "STRING",
+      "city": "STRING",
+      "country": "STRING",
+      "county": "STRING",
+      "postalCode": "STRING",
+      "stateOrProvince": "STRING"
+    },
+    "secondaryPhone": {
+      "countryCode": "STRING",
+      "number": "PII_PHONE_NUMBER",
+      "phoneType": "STRING"
+    }
+  },
+  "registrationMarketplaceId": "STRING",
+  "status": "STRING",
+  "userId": "STRING",
+  "username": "PII_USERNAME"
+}

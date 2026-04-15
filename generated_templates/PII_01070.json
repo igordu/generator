@@ -1,0 +1,16 @@
+{
+  "country_data" : "STRING",
+  "is_deleted" : false,
+  "last4" : "STRING",
+  "customer" : "STRING",
+  "uuid" : "STRING",
+  "currency" : "STRING",
+  "account_type" : "STRING",
+  "metadata" : "OBJECT",
+  "fingerprint" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "status" : "STRING",
+  "fullName" : "STRING",
+  "account_holder_type" : "STRING",
+  "object_data" : "STRING"
+}

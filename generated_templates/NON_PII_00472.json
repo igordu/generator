@@ -1,0 +1,17 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "audit_trail" : {
+      "transaction_trace" : {
+        "body" : {
+          "temperature_c" : 61.75,
+          "clientToken" : "STRING",
+          "flowName" : "STRING"
+        }
+      }
+    }
+  }
+}

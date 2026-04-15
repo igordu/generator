@@ -1,0 +1,20 @@
+{
+  "modelId" : "STRING",
+  "id" : "STRING",
+  "shopUrl_data" : "URL",
+  "name" : "STRING",
+  "media_data" : {
+    "images" : [ {
+      "largeHdUrl" : "URL",
+      "priority_level" : 2396,
+      "mediumHdUrl_data" : "URL",
+      "mediumUrl" : "NULL",
+      "orderNumber_data" : "INT",
+      "smallHdUrl" : "URL",
+      "largeUrl" : "URL",
+      "smallUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "type" : "STRING"
+    } ]
+  }
+}

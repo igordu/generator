@@ -1,0 +1,31 @@
+{
+  "transactions" : {
+    "cpu_usage_percent" : 110.37,
+    "booked" : [ {
+      "valueDate" : "DATE",
+      "bookingDate" : "DATE",
+      "userName" : "PII_PERSON_NAME",
+      "v_amount" : {
+        "currency_data" : "STRING",
+        "amount" : "DECIMAL",
+        "temperature_c" : 129.08
+      },
+      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "debtorAccount" : {
+        "temperature_c" : 733.6,
+        "iban" : "STRING"
+      },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "bankTransactionCode" : {
+        "conversion_rate" : 475.89,
+        "domain" : "STRING",
+        "v_subFamily" : "STRING"
+      },
+      "transactionId" : "STRING",
+      "debtorName" : "STRING"
+    } ]
+  },
+  "response_time_sec" : 682.19
+}

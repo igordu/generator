@@ -1,0 +1,15 @@
+{
+  "requires_update" : false,
+  "tree" : {
+    "cpu_usage_percent" : 768.26,
+    "sha" : "STRING",
+    "url" : "URL"
+  },
+  "active" : "BOOLEAN",
+  "user_info" : {
+    "arline__name" : "PII_COMPANY_NAME",
+    "cpu_usage_percent" : 425.12,
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  }
+}

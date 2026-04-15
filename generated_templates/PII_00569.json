@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "discount_rate" : 86.91,
+    "transactions" : {
+      "v_booked" : [ {
+        "v_debtorAccount" : {
+          "has_discount" : true,
+          "iban" : "NULL"
+        },
+        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+        "bookingDate" : "DATE",
+        "bankTransactionCode_data" : {
+          "family" : "STRING",
+          "v_domain" : null,
+          "subFamily" : "STRING"
+        },
+        "debtorName" : "STRING",
+        "recordId" : "STRING",
+        "v_valueDate" : "DATE",
+        "creditorName" : "PII_PERSON_NAME",
+        "creditorAccount" : {
+          "is_active" : true,
+          "iban" : "PII_IBAN"
+        }
+      } ]
+    }
+  }
+}

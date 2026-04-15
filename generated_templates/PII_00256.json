@@ -1,0 +1,82 @@
+{
+  "next" : "STRING",
+  "href" : "STRING",
+  "offset" : "INT",
+  "prev" : "STRING",
+  "limit" : "INT",
+  "total" : "INT",
+  "transactions" : [ {
+    "salesRecordReference" : "STRING",
+    "totalFeeAmount" : {
+      "convertedFromCurrency_data" : "STRING",
+      "value" : "STRING",
+      "currency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "transactionType" : "STRING",
+    "amount" : {
+      "convertedFromCurrency" : "STRING",
+      "currency" : null,
+      "exchangeRate_data" : "STRING",
+      "v_convertedFromValue" : null,
+      "v_value" : "STRING"
+    },
+    "bookingEntry" : "STRING",
+    "payoutId" : "STRING",
+    "priority_level" : 1992,
+    "references" : [ {
+      "referenceType_data" : "STRING",
+      "referenceId" : "STRING"
+    } ],
+    "transactionId" : "STRING",
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "v_feeType" : "STRING",
+    "orderId" : "STRING",
+    "v_totalFeeBasisAmount" : {
+      "convertedFromValue" : "STRING",
+      "stock_quantity" : 3592,
+      "v_currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING"
+    },
+    "eBayCollectedTaxAmount_data" : {
+      "exchangeRate" : "STRING",
+      "v_value" : "NULL",
+      "retry_attempts" : 3493,
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING"
+    },
+    "transactionDate" : "DATETIME",
+    "feeJurisdiction" : {
+      "regionType" : "STRING",
+      "userName" : "STRING"
+    },
+    "transactionStatus" : "STRING",
+    "orderLineItems" : [ {
+      "feeBasisAmount" : {
+        "currency" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "exchangeRate" : "STRING",
+        "retry_attempts" : 112
+      },
+      "marketplaceFees" : [ {
+        "feeJurisdiction" : {
+          "regionName" : "STRING",
+          "regionType_data" : "NULL"
+        },
+        "response_time_sec" : 675.18,
+        "feeType" : "STRING",
+        "v_feeMemo" : "STRING"
+      } ]
+    } ],
+    "v_transactionMemo" : "STRING",
+    "v_paymentsEntity" : ""
+  } ]
+}

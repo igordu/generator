@@ -1,0 +1,17 @@
+{
+  "last4" : "STRING",
+  "status" : "STRING",
+  "currency" : null,
+  "routing_number_data" : "STRING",
+  "account_holder_type" : null,
+  "customer_data" : "STRING",
+  "object" : "STRING",
+  "country" : "STRING",
+  "id" : "STRING",
+  "fingerprint" : "STRING",
+  "stock_quantity" : 1867,
+  "fullName" : "STRING",
+  "account_type" : "STRING",
+  "metadata_data" : "OBJECT",
+  "account_holder_name" : "PII_PERSON_NAME"
+}

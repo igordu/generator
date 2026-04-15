@@ -1,0 +1,40 @@
+{
+  "page_count": 1,
+  "page_number": 1,
+  "page_size": 1,
+  "registrants": [
+    {
+      "address": "11111 Awesome St",
+      "city": "Paris",
+      "comments": "Love using Zoom APIs",
+      "country": "France",
+      "create_time": "2012-04-14T16:55:30.231Z",
+      "custom_questions": [
+        {
+          "title": "Did you enjoy the registration process?",
+          "value": "Yes, alot."
+        },
+        {
+          "title": "Would you like to register for our next meeting?",
+          "value": "Absolutely."
+        }
+      ],
+      "email": "somemeail@emailprovider.com",
+      "first_name": "Tim",
+      "id": "zjkfsdfjdfhg",
+      "industry": "Tech",
+      "job_title": "Developer",
+      "join_url": "https://success.zoom.us/j/0000000000000",
+      "last_name": "S.",
+      "no_of_employees": "1-20",
+      "org": "Growth",
+      "phone": "00000",
+      "purchasing_time_frame": "Within a month",
+      "role_in_purchase_process": "Not involved",
+      "state": "Ile-de-France",
+      "status": "approved",
+      "zip": "11000"
+    }
+  ],
+  "total_records": 1
+}

@@ -1,0 +1,8 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "name_val" : "STRING",
+    "clientToken" : null
+  }
+}

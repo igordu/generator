@@ -1,0 +1,21 @@
+{
+  "content" : [ {
+    "recommend_data" : "BOOLEAN",
+    "articleModelId" : "STRING",
+    "v_articleSizeRatings" : {
+      "uuid" : "INT"
+    },
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "created" : "DATETIME",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "title" : "PII_COMPANY_NAME",
+    "helpfulCount" : "INT",
+    "price" : 906.45,
+    "description" : "STRING",
+    "identifier" : "STRING",
+    "articleId" : "STRING",
+    "unhelpfulCount" : "INT",
+    "v_language" : "STRING",
+    "rating" : "NULL"
+  } ]
+}

@@ -1,0 +1,31 @@
+{
+  "ProviderName" : "STRING",
+  "Id" : "STRING",
+  "Status" : "STRING",
+  "Employees" : [ {
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "identifier" : "STRING",
+    "ExternalLink" : {
+      "Url" : "URL",
+      "Description" : "STRING"
+    },
+    "Status" : "NULL",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "EmployeeID" : "STRING",
+    "Status" : "STRING"
+  }, {
+    "Status" : "STRING",
+    "UpdatedDateUTC" : "DATETIME",
+    "EmployeeID" : "STRING",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "ExternalLink" : { },
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  } ],
+  "response_time_sec" : 722.19,
+  "DateTimeUTC" : "DATETIME"
+}

@@ -1,0 +1,7 @@
+{
+  "id" : "STRING",
+  "shopUrl" : "URL",
+  "is_deleted" : false,
+  "modelId" : "STRING",
+  "name" : "STRING"
+}

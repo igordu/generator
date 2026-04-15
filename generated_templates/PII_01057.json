@@ -1,0 +1,17 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "status" : "STRING",
+    "bank_name" : "STRING",
+    "metadata" : "OBJECT",
+    "account_holder_type" : "STRING",
+    "v_account_type" : "NULL",
+    "last4" : "STRING",
+    "account_holder_name" : "PII_PERSON_NAME",
+    "customer" : "STRING",
+    "price" : 721.06,
+    "currency" : "STRING",
+    "country" : "STRING"
+  }
+}

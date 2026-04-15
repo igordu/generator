@@ -1,0 +1,18 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "is_active" : true,
+    "active_data" : "BOOLEAN",
+    "user_info" : {
+      "name_val" : "PII_FIRST_NAME_FEMALE",
+      "userName" : "PII_COMPANY_NAME",
+      "family-name-male" : "PII_LAST_NAME_MALE"
+    },
+    "tree" : {
+      "url_data" : "URL",
+      "item_count" : 1571,
+      "sha" : "STRING"
+    }
+  }
+}

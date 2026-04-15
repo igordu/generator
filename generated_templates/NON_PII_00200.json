@@ -1,0 +1,24 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "recordId" : "STRING",
+      "shopUrl" : "URL",
+      "id" : "STRING",
+      "media" : {
+        "images_data" : [ {
+          "v_orderNumber" : "INT",
+          "smallUrl" : "URL",
+          "type" : "STRING",
+          "conversion_rate" : 544.33,
+          "mediumUrl" : "URL",
+          "largeHdUrl_data" : "URL",
+          "thumbnailHdUrl" : "URL",
+          "smallHdUrl" : "URL",
+          "largeUrl" : "URL",
+          "v_mediumHdUrl" : "NULL"
+        } ]
+      },
+      "name" : "STRING"
+    }
+  }
+}

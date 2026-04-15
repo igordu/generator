@@ -1,0 +1,7 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "primary_email" : "PII_EMAIL"
+    }
+  }
+}

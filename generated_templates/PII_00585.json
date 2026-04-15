@@ -1,0 +1,31 @@
+{
+  "transactions" : {
+    "temperature_c" : 335.26,
+    "booked" : [ {
+      "valueDate" : "DATE",
+      "amount" : {
+        "currency" : "STRING",
+        "amount" : "DECIMAL",
+        "cache_hit" : true
+      },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN",
+        "item_count" : 156
+      },
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "bankTransactionCode" : {
+        "family" : "STRING",
+        "subFamily" : "STRING",
+        "v_domain" : "STRING",
+        "page_index" : 263
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "creditorName" : "PII_PERSON_NAME",
+      "debtorName" : "STRING",
+      "transactionId" : "STRING",
+      "bookingDate_data" : "DATE"
+    } ]
+  }
+}

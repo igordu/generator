@@ -1,0 +1,80 @@
+{
+  "http_status" : 3123,
+  "offset" : "INT",
+  "v_limit" : "INT",
+  "transactions" : [ {
+    "totalFeeBasisAmount" : {
+      "v_convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "value" : "",
+      "currency" : "STRING"
+    },
+    "bookingEntry" : "STRING",
+    "transactionId" : "STRING",
+    "orderId" : "STRING",
+    "v_transactionStatus" : "NULL",
+    "feeJurisdiction_data" : {
+      "system_ping_ms" : 1120,
+      "regionName" : "STRING",
+      "v_regionType" : "NULL"
+    },
+    "feeType_data" : "STRING",
+    "amount" : {
+      "v_value" : "STRING",
+      "v_exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "eBayCollectedTaxAmount" : {
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "v_currency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency_data" : "STRING"
+    },
+    "paymentsEntity" : "STRING",
+    "buyer_data" : {
+      "username" : "PII_USERNAME",
+      "is_deleted" : false
+    },
+    "totalFeeAmount_data" : {
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING"
+    },
+    "v_orderLineItems" : [ {
+      "feeBasisAmount_data" : {
+        "v_exchangeRate" : "STRING",
+        "v_value" : "NULL",
+        "has_discount" : true,
+        "currency" : "NULL",
+        "convertedFromCurrency" : "STRING",
+        "convertedFromValue" : "STRING"
+      },
+      "marketplaceFees" : [ {
+        "has_discount" : false,
+        "feeType_data" : "STRING",
+        "feeJurisdiction" : {
+          "regionName" : "STRING",
+          "price" : 977.94,
+          "v_regionType" : null
+        },
+        "v_feeMemo" : "STRING"
+      } ],
+      "temperature_c" : 577.07,
+      "identifier" : "STRING"
+    } ],
+    "transactionMemo" : "STRING",
+    "payoutId" : "STRING",
+    "transactionDate" : "DATETIME",
+    "transactionType_data" : "STRING",
+    "v_references" : [ {
+      "v_referenceType" : "STRING",
+      "recordId" : "STRING"
+    } ]
+  } ],
+  "href" : "STRING",
+  "prev" : "STRING",
+  "next" : "STRING"
+}

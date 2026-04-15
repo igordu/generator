@@ -1,0 +1,12 @@
+{
+  "v_user_info" : {
+    "userName" : "PII_LAST_NAME_MALE",
+    "name_val" : "PII_FIRST_NAME_FEMALE",
+    "fullName" : "PII_COMPANY_NAME"
+  },
+  "active_data" : "BOOLEAN",
+  "tree" : {
+    "cpu_usage_percent" : 110.46,
+    "sha" : null
+  }
+}

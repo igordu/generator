@@ -1,0 +1,17 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "facets" : [ {
+        "v_key" : "STRING",
+        "count" : "INT",
+        "displayName" : "STRING"
+      }, {
+        "displayName" : "NULL",
+        "count" : "INT",
+        "key" : "STRING"
+      } ],
+      "auto_renew" : true,
+      "v_filter" : "STRING"
+    } ]
+  }
+}

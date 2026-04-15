@@ -1,0 +1,13 @@
+{
+  "user_info_data" : {
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "fullName" : "PII_COMPANY_NAME",
+    "is_active" : false,
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  },
+  "v_active" : "BOOLEAN",
+  "tree" : {
+    "url" : "URL",
+    "v_sha" : null
+  }
+}

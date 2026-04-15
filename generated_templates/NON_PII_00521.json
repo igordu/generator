@@ -1,0 +1,50 @@
+[ {
+  "insight" : {
+    "totalIssueCount" : "",
+    "priority_level" : 4903,
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "style_data" : "STRING",
+  "id" : "STRING",
+  "projectCategory" : {
+    "self" : "URL",
+    "id" : "STRING",
+    "description_data" : "STRING"
+  },
+  "clientName" : "STRING",
+  "v_simplified" : "BOOLEAN",
+  "avatarUrls" : {
+    "cache_hit" : false,
+    "24x24" : "URL",
+    "48x48" : "URL",
+    "32x32" : "URL",
+    "16x16" : "URL"
+  },
+  "temperature_c" : 66.49,
+  "self" : "URL",
+  "key" : "NULL"
+}, {
+  "projectCategory" : {
+    "self" : "URL",
+    "recordId" : "STRING",
+    "name" : "STRING",
+    "description" : "STRING"
+  },
+  "name" : "STRING",
+  "self" : "URL",
+  "retry_attempts" : 1315,
+  "simplified" : "BOOLEAN",
+  "avatarUrls_data" : {
+    "16x16" : "URL",
+    "24x24" : "URL",
+    "32x32_data" : "URL",
+    "v_48x48" : "URL"
+  },
+  "key" : "STRING",
+  "style" : "STRING",
+  "insight_data" : {
+    "v_lastIssueUpdateTime" : "DATETIME",
+    "v_totalIssueCount" : "INT"
+  },
+  "identifier" : "STRING"
+} ]

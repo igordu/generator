@@ -1,0 +1,48 @@
+[ {
+  "self" : "URL",
+  "retry_attempts" : 4641,
+  "projectCategory" : {
+    "self" : "URL",
+    "description" : "STRING",
+    "response_time_sec" : 374.65,
+    "id" : "STRING"
+  },
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "name" : "STRING",
+  "style" : "STRING",
+  "id" : "STRING",
+  "key" : "STRING",
+  "simplified" : "BOOLEAN",
+  "avatarUrls_data" : {
+    "has_discount" : true,
+    "48x48" : "URL",
+    "32x32_data" : "URL"
+  }
+}, {
+  "simplified" : "BOOLEAN",
+  "avatarUrls_data" : {
+    "32x32" : "URL",
+    "requires_update" : true,
+    "24x24" : "URL",
+    "16x16" : "URL",
+    "48x48" : "URL"
+  },
+  "v_style" : "STRING",
+  "key" : "STRING",
+  "projectCategory" : {
+    "name" : "STRING",
+    "id" : "STRING",
+    "v_self" : "URL",
+    "item_count" : 2894,
+    "description_data" : null
+  },
+  "self" : "URL",
+  "insight" : {
+    "totalIssueCount" : "INT"
+  },
+  "fullName" : "STRING",
+  "id" : "STRING"
+} ]

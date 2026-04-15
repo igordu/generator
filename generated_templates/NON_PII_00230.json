@@ -1,0 +1,34 @@
+[ {
+  "system_ping_ms" : 2289,
+  "filter_data" : "STRING"
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "is_active" : false,
+    "v_count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key_data" : "STRING",
+    "count" : "INT"
+  } ]
+}, {
+  "facets_data" : [ {
+    "v_key" : "STRING",
+    "price" : 922.99,
+    "displayName" : null,
+    "v_count" : "INT"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "requires_update" : false
+  }, {
+    "key_data" : "STRING",
+    "displayName" : "STRING"
+  } ],
+  "v_filter" : "STRING"
+} ]

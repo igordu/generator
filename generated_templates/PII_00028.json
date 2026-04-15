@@ -1,0 +1,18 @@
+{
+  "content" : [ {
+    "articleSizeRatings" : {
+      "SHOE_WIDTH" : "INT",
+      "OVERALL" : "NULL"
+    },
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "uuid" : "STRING",
+    "helpfulCount" : "INT",
+    "description" : "STRING",
+    "identifier" : "STRING",
+    "title_data" : "PII_COMPANY_NAME",
+    "language" : "STRING",
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "created" : "DATETIME"
+  } ],
+  "requires_update" : false
+}

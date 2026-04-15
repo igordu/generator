@@ -1,0 +1,25 @@
+{
+  "server_logs" : {
+    "event_data" : {
+      "extracted_info" : {
+        "primaryKey" : null,
+        "media" : {
+          "images" : [ {
+            "largeHdUrl" : "URL",
+            "largeUrl_data" : "URL",
+            "type" : "STRING",
+            "thumbnailHdUrl" : "URL",
+            "orderNumber_data" : "INT",
+            "mediumUrl" : "URL",
+            "smallHdUrl" : "URL",
+            "mediumHdUrl" : "URL"
+          } ],
+          "is_deleted" : false
+        },
+        "name" : "STRING",
+        "shopUrl" : "URL",
+        "recordId" : "STRING"
+      }
+    }
+  }
+}

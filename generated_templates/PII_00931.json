@@ -1,0 +1,32 @@
+{
+  "v_url" : "URL",
+  "v_has_more" : "BOOLEAN",
+  "object" : "STRING",
+  "data" : [ {
+    "default_source" : "STRING",
+    "primaryKey" : "STRING",
+    "v_balance" : "INT",
+    "livemode" : "BOOLEAN",
+    "telephone" : "PII_PHONE_NUMBER",
+    "currency" : "STRING",
+    "invoice_settings" : {
+      "rendering_options" : "NULL",
+      "footer_data" : "STRING",
+      "custom_fields" : "NULL",
+      "default_payment_method" : "STRING"
+    },
+    "description" : "STRING",
+    "v_delinquent" : "BOOLEAN",
+    "created" : "DATETIME_EPOCH",
+    "object" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "invoice_prefix" : "STRING",
+    "address" : null,
+    "shipping" : "NULL",
+    "price" : 622.6,
+    "v_metadata" : "OBJECT",
+    "email" : "PII_EMAIL",
+    "test_clock" : "NULL"
+  } ],
+  "system_ping_ms" : 674
+}

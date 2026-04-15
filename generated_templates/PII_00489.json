@@ -1,0 +1,48 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "id" : "STRING",
+    "userName" : [ {
+      "family" : "PII_PERSON_LAST_NAME",
+      "given" : [ "PII_PERSON_FIRST_NAME" ],
+      "use_data" : "STRING",
+      "priority_level" : 2674
+    } ],
+    "gender" : "STRING",
+    "telecom" : [ {
+      "system" : "STRING",
+      "value" : "PII_EMAIL"
+    }, {
+      "value" : "PII_PHONE_NUMBER",
+      "cache_hit" : false,
+      "use" : null
+    } ],
+    "address" : [ {
+      "has_discount" : false,
+      "city" : "PII_LOCATION_CITY",
+      "v_line" : [ "PII_ADDRESS_LINE" ],
+      "use" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY"
+    } ],
+    "identifier" : [ {
+      "type" : {
+        "text" : "STRING",
+        "has_discount" : false
+      },
+      "value" : "PII_NATIONAL_ID",
+      "response_time_sec" : 486.37,
+      "system" : null,
+      "use" : "STRING"
+    } ],
+    "resourceType" : "STRING",
+    "meta_data" : {
+      "conversion_rate" : 735.04,
+      "lastUpdated" : "DATETIME",
+      "versionId" : "INT"
+    },
+    "birthDate" : "PII_DATE_OF_BIRTH"
+  }
+}

@@ -1,0 +1,38 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "name_val" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "key" : "STRING",
+    "displayName" : "NULL",
+    "count" : "INT"
+  } ]
+}, {
+  "facets" : [ {
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "key_data" : "STRING",
+    "name_val" : "STRING",
+    "count" : "INT"
+  } ],
+  "filter" : "STRING",
+  "discount_rate" : 166.35
+}, {
+  "facets" : [ {
+    "count_data" : "INT",
+    "http_status" : 4393,
+    "key" : "STRING",
+    "clientName" : "STRING"
+  }, {
+    "v_count" : "INT",
+    "clientName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "key" : "STRING",
+    "count" : "INT"
+  } ],
+  "filter" : "STRING"
+} ]

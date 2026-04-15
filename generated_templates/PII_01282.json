@@ -1,0 +1,60 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "url" : "URL",
+      "commit" : {
+        "v_tree" : {
+          "url" : "URL"
+        },
+        "url" : "URL",
+        "comment_count" : "INT",
+        "v_verification" : {
+          "payload" : "STRING",
+          "verified" : "",
+          "verified_at" : "DATETIME",
+          "signature" : "STRING"
+        },
+        "message" : "PII_COMPANY_NAME",
+        "author_data" : {
+          "priority_level" : 811,
+          "date" : "DATETIME",
+          "name" : "PII_PERSON_NAME",
+          "email" : "PII_EMAIL"
+        },
+        "retry_attempts" : 1707,
+        "committer_data" : {
+          "mail" : "PII_EMAIL",
+          "name_val" : "PII_PERSON_NAME",
+          "conversion_rate" : 537.86
+        }
+      },
+      "has_discount" : false,
+      "comments_url" : "URL",
+      "node_id" : "STRING",
+      "html_url" : "URL",
+      "parents" : [ {
+        "sha" : "STRING",
+        "cache_hit" : false,
+        "url" : "NULL"
+      } ],
+      "v_author" : {
+        "url" : "URL",
+        "v_site_admin" : "BOOLEAN",
+        "following_url" : "URL",
+        "repos_url" : "URL",
+        "recordId" : "STRING",
+        "v_html_url" : "URL",
+        "avatar_url" : "URL",
+        "received_events_url" : "URL",
+        "type" : "STRING",
+        "login" : "STRING",
+        "starred_url" : "URL",
+        "gists_url" : "URL",
+        "v_followers_url" : "URL",
+        "events_url_data" : "URL",
+        "id" : "INT"
+      },
+      "sha" : "STRING"
+    } ]
+  }
+}

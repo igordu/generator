@@ -1,0 +1,31 @@
+{
+  "transactions" : {
+    "page_index" : 4400,
+    "v_booked" : [ {
+      "amount" : {
+        "amount" : "DECIMAL",
+        "currency" : null
+      },
+      "bookingDate_data" : "DATE",
+      "bankTransactionCode_data" : {
+        "has_discount" : false,
+        "family" : "STRING",
+        "domain" : "STRING",
+        "subFamily" : "STRING"
+      },
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "valueDate" : "DATE",
+      "transactionId" : "STRING",
+      "debtorAccount" : {
+        "iban_data" : "STRING"
+      },
+      "creditorAccount_data" : {
+        "discount_rate" : 372.37,
+        "iban_data" : "PII_IBAN"
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "debtorName" : "STRING"
+    } ]
+  },
+  "stock_quantity" : 2770
+}

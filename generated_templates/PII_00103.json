@@ -1,0 +1,47 @@
+{
+  "v_status" : "STRING",
+  "individualAccount" : {
+    "primaryPhone" : {
+      "phoneType" : "STRING",
+      "countryCode_data" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "name_val" : "PII_PERSON_NAME",
+    "item_count" : 1295,
+    "lastName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "secondaryPhone" : {
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    }
+  },
+  "businessAccount" : {
+    "doingBusinessAs" : "STRING",
+    "contactNumber" : {
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING"
+    },
+    "auto_renew" : true,
+    "address" : {
+      "addressLine1" : "STRING",
+      "requires_update" : true,
+      "county" : "STRING",
+      "postalCode" : "STRING",
+      "stateOrProvince" : "STRING"
+    },
+    "email" : "PII_EMAIL",
+    "v_primaryContact" : {
+      "priority_level" : 992,
+      "lastName" : "PII_PERSON_NAME",
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "name" : "PII_ORGANIZATION_NAME",
+    "website" : "URL"
+  },
+  "accountType" : "STRING",
+  "username" : "PII_USERNAME",
+  "userId" : "STRING",
+  "price" : 765.41,
+  "registrationMarketplaceId" : "STRING"
+}

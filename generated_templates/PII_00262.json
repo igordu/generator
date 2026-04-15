@@ -1,0 +1,86 @@
+{
+  "href" : "STRING",
+  "transactions" : [ {
+    "eBayCollectedTaxAmount" : {
+      "v_currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "http_status" : 2105,
+      "value" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "exchangeRate_data" : null
+    },
+    "payoutId" : "STRING",
+    "transactionMemo_data" : "STRING",
+    "transactionStatus" : "STRING",
+    "v_buyer" : {
+      "username" : "PII_USERNAME",
+      "cache_hit" : false
+    },
+    "v_totalFeeAmount" : {
+      "v_currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "value" : "STRING"
+    },
+    "paymentsEntity" : "STRING",
+    "references" : [ {
+      "referenceId" : "STRING",
+      "referenceType" : "STRING"
+    } ],
+    "orderId" : "STRING",
+    "orderLineItems_data" : [ {
+      "uuid" : "STRING",
+      "marketplaceFees" : [ {
+        "feeMemo" : "STRING",
+        "amount" : {
+          "value" : "STRING",
+          "currency" : "STRING",
+          "convertedFromValue" : "STRING",
+          "http_status" : 2704,
+          "exchangeRate_data" : "STRING"
+        },
+        "feeJurisdiction" : {
+          "userName" : "STRING",
+          "regionType" : "STRING"
+        },
+        "feeType" : "STRING"
+      } ],
+      "feeBasisAmount" : {
+        "exchangeRate" : "NULL",
+        "currency_data" : "STRING",
+        "convertedFromValue" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      }
+    } ],
+    "amount" : {
+      "v_convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "v_value" : "STRING",
+      "currency" : "STRING"
+    },
+    "feeType" : "STRING",
+    "v_transactionType" : "STRING",
+    "temperature_c" : 403.95,
+    "totalFeeBasisAmount" : {
+      "temperature_c" : 921.16,
+      "currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "value" : "STRING"
+    },
+    "v_feeJurisdiction" : {
+      "clientName" : "STRING",
+      "is_active" : false
+    },
+    "identifier" : "STRING",
+    "salesRecordReference" : null,
+    "transactionDate" : "DATETIME"
+  } ],
+  "next" : "STRING",
+  "total" : "INT",
+  "offset" : "INT",
+  "limit" : "INT",
+  "v_prev" : "STRING"
+}

@@ -1,0 +1,192 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "tasks" : [ {
+        "taskProperties" : { },
+        "connectorOperator" : {
+          "Veeva" : "STRING",
+          "Singular" : "STRING",
+          "Slack" : "STRING",
+          "Trendmicro" : "STRING",
+          "v_ServiceNow" : "STRING",
+          "GoogleAnalytics" : "STRING",
+          "v_CustomConnector" : "STRING",
+          "Salesforce" : "STRING",
+          "temperature_c" : 273.69,
+          "Datadog" : "STRING",
+          "SAPOData" : "STRING",
+          "InforNexus" : "STRING",
+          "Pardot_data" : "STRING",
+          "Dynatrace" : "STRING",
+          "Zendesk" : "STRING"
+        },
+        "taskType" : "STRING",
+        "sourceFields" : "ARRAY",
+        "destinationField" : "STRING"
+      } ],
+      "v_tags" : {
+        "v_property2" : "STRING",
+        "property1_data" : "STRING"
+      },
+      "destinationFlowConfigList" : [ {
+        "connectorProfileName" : "STRING",
+        "apiVersion" : "",
+        "retry_attempts" : 3112,
+        "destinationConnectorProperties" : {
+          "Salesforce" : {
+            "object" : "STRING",
+            "writeOperationType" : "STRING",
+            "idFieldNames" : "ARRAY",
+            "dataTransferApi" : "STRING",
+            "v_errorHandlingConfig" : {
+              "bucketPrefix_data" : "STRING",
+              "temperature_c" : 16.28,
+              "failOnFirstDestinationError" : "BOOLEAN",
+              "userName" : "STRING"
+            },
+            "response_time_sec" : 813.72
+          },
+          "Redshift" : {
+            "bucketPrefix_data" : "STRING",
+            "intermediateBucketName" : "STRING",
+            "errorHandlingConfig" : {
+              "price" : 619.66,
+              "failOnFirstDestinationError" : "BOOLEAN",
+              "bucketPrefix_data" : "STRING",
+              "bucketName" : "STRING"
+            },
+            "object" : "STRING"
+          },
+          "v_LookoutMetrics" : {
+            "discount_rate" : 312.9
+          },
+          "S3" : {
+            "requires_update" : true,
+            "bucketPrefix" : "STRING",
+            "fullName" : null,
+            "s3OutputFormatConfig" : {
+              "aggregationConfig" : {
+                "aggregationType" : "STRING",
+                "targetFileSize" : "INT"
+              },
+              "prefixConfig" : {
+                "prefixFormat" : "STRING",
+                "prefixType_data" : "",
+                "page_index" : 2930,
+                "pathPrefixHierarchy_data" : "ARRAY"
+              },
+              "fileType" : "STRING"
+            }
+          },
+          "Snowflake" : {
+            "http_status" : 4913,
+            "errorHandlingConfig" : {
+              "v_bucketPrefix" : "STRING",
+              "failOnFirstDestinationError_data" : "BOOLEAN",
+              "bucketName" : "STRING"
+            },
+            "object" : "STRING"
+          },
+          "EventBridge" : {
+            "errorHandlingConfig" : {
+              "bucketName" : "STRING",
+              "bucketPrefix_data" : "STRING",
+              "failOnFirstDestinationError" : "BOOLEAN",
+              "item_count" : 2196
+            },
+            "v_object" : "STRING"
+          }
+        }
+      } ],
+      "kmsArn" : "STRING",
+      "triggerConfig" : {
+        "system_ping_ms" : 84,
+        "v_triggerType" : "NULL",
+        "v_triggerProperties" : {
+          "Scheduled_data" : {
+            "scheduleEndTime" : "DATETIME",
+            "scheduleStartTime" : "DATETIME",
+            "v_scheduleOffset" : null,
+            "scheduleExpression_data" : "STRING",
+            "timezone" : "STRING",
+            "dataPullMode" : "STRING",
+            "firstExecutionFrom" : "DATETIME",
+            "flowErrorDeactivationThreshold_data" : "INT"
+          }
+        }
+      },
+      "description" : "STRING",
+      "clientToken" : "STRING",
+      "sourceFlowConfig" : {
+        "connectorType_data" : "STRING",
+        "apiVersion_data" : "STRING",
+        "incrementalPullConfig_data" : {
+          "datetimeTypeFieldName" : "STRING",
+          "priority_level" : 1942
+        },
+        "sourceConnectorProperties" : {
+          "v_Datadog" : {
+            "object" : "STRING",
+            "cache_hit" : true
+          },
+          "Salesforce" : {
+            "dataTransferApi" : "STRING",
+            "includeDeletedRecords" : "BOOLEAN",
+            "enableDynamicFieldUpdate" : "BOOLEAN",
+            "object" : "STRING",
+            "has_discount" : false
+          },
+          "GoogleAnalytics_data" : {
+            "object" : "STRING",
+            "is_active" : true
+          },
+          "S3" : {
+            "bucketPrefix_data" : "STRING",
+            "v_s3InputFormatConfig" : {
+              "s3InputFileType" : "STRING"
+            },
+            "bucketName" : "STRING",
+            "system_ping_ms" : 3228
+          },
+          "Pardot_data" : {
+            "object" : "STRING",
+            "auto_renew" : false
+          },
+          "Amplitude" : { },
+          "v_Singular" : {
+            "object" : "STRING"
+          },
+          "Trendmicro_data" : {
+            "v_object" : "STRING"
+          },
+          "Veeva" : {
+            "documentType" : "STRING",
+            "includeAllVersions" : "BOOLEAN",
+            "object" : "STRING",
+            "includeSourceFiles" : "BOOLEAN"
+          },
+          "CustomConnector_data" : {
+            "customProperties" : {
+              "property2" : "STRING",
+              "conversion_rate" : 525.56,
+              "v_property1" : "STRING"
+            },
+            "entityName" : "STRING"
+          },
+          "Slack" : { },
+          "v_SAPOData" : {
+            "objectPath" : "STRING"
+          },
+          "Zendesk" : {
+            "object_data" : "STRING",
+            "priority_level" : 158
+          },
+          "Marketo" : {
+            "object" : "STRING"
+          }
+        },
+        "conversion_rate" : 0.58
+      }
+    }
+  }
+}

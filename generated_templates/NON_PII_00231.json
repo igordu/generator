@@ -1,0 +1,35 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "http_status" : 710,
+    "key" : "STRING",
+    "count" : "INT"
+  } ]
+}, {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "count" : "INT"
+  }, {
+    "key" : "STRING",
+    "count_data" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "v_count" : "INT",
+    "key" : "",
+    "displayName" : "STRING"
+  } ],
+  "filter" : "STRING",
+  "response_time_sec" : 289.95
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "STRING",
+    "has_discount" : false,
+    "v_count" : "INT",
+    "key" : "NULL"
+  }, {
+    "displayName" : "STRING",
+    "key_data" : "STRING",
+    "count_data" : ""
+  } ]
+} ]

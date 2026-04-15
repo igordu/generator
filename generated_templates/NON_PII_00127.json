@@ -1,0 +1,19 @@
+{
+  "price" : 33.89,
+  "v_shopUrl" : "URL",
+  "media" : {
+    "images" : [ {
+      "largeHdUrl_data" : "URL",
+      "v_orderNumber" : "INT",
+      "mediumHdUrl" : "URL",
+      "type_data" : "STRING",
+      "smallHdUrl" : "URL",
+      "auto_renew" : false,
+      "smallUrl" : "URL",
+      "thumbnailHdUrl" : "URL"
+    } ],
+    "auto_renew" : true
+  },
+  "modelId" : "STRING",
+  "id" : "STRING"
+}

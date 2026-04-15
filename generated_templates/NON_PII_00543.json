@@ -1,0 +1,51 @@
+[ {
+  "simplified" : "BOOLEAN",
+  "recordId" : "STRING",
+  "v_avatarUrls" : {
+    "price" : 384.29,
+    "v_32x32" : "URL",
+    "24x24" : "",
+    "48x48" : "URL",
+    "16x16" : "URL"
+  },
+  "style_data" : "STRING",
+  "name" : "STRING",
+  "stock_quantity" : 4217,
+  "insight" : {
+    "stock_quantity" : 2984,
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount_data" : "INT"
+  },
+  "v_key" : "STRING",
+  "projectCategory" : {
+    "self" : "URL",
+    "id" : "STRING",
+    "description" : "STRING",
+    "name" : "STRING"
+  },
+  "self_data" : "URL"
+}, {
+  "simplified" : "BOOLEAN",
+  "self" : "URL",
+  "avatarUrls" : {
+    "32x32" : "URL",
+    "item_count" : 2319,
+    "16x16_data" : "URL",
+    "24x24" : "URL",
+    "48x48" : "URL"
+  },
+  "id" : "STRING",
+  "style" : "STRING",
+  "name" : "STRING",
+  "v_insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "projectCategory" : {
+    "description" : "STRING",
+    "uuid" : "STRING",
+    "fullName" : "STRING",
+    "v_self" : "URL",
+    "stock_quantity" : 4584
+  }
+} ]

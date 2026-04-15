@@ -1,0 +1,33 @@
+{
+  "auto_renew" : true,
+  "transactions" : {
+    "booked" : [ {
+      "creditorName" : "PII_PERSON_NAME",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "bookingDate" : "DATE",
+      "debtorName" : "STRING",
+      "temperature_c" : 769.42,
+      "v_debtorAccount" : {
+        "iban" : "STRING",
+        "cpu_usage_percent" : 770.86
+      },
+      "amount" : {
+        "currency" : "STRING",
+        "amount" : "",
+        "discount_rate" : 894.09
+      },
+      "creditorAccount" : {
+        "system_ping_ms" : 4567,
+        "iban" : "PII_IBAN"
+      },
+      "transactionId" : "STRING",
+      "bankTransactionCode" : {
+        "subFamily" : "STRING",
+        "family" : "STRING",
+        "is_active" : false,
+        "domain_data" : "STRING"
+      }
+    } ],
+    "page_index" : 1654
+  }
+}

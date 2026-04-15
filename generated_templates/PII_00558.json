@@ -1,0 +1,30 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "v_creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "bankTransactionCode" : {
+        "subFamily" : "STRING",
+        "family" : "STRING",
+        "cache_hit" : false
+      },
+      "debtorAccount" : {
+        "item_count" : 3028
+      },
+      "amount_data" : {
+        "currency" : "STRING",
+        "v_amount" : "DECIMAL",
+        "requires_update" : true
+      },
+      "requires_update" : true,
+      "valueDate" : "DATE",
+      "bookingDate" : "NULL",
+      "creditorName" : "PII_PERSON_NAME",
+      "userName" : "STRING",
+      "primaryKey" : "STRING",
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME"
+    } ],
+    "page_index" : 4566
+  }
+}

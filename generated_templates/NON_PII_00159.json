@@ -1,0 +1,20 @@
+{
+  "media" : {
+    "system_ping_ms" : 488,
+    "images" : [ {
+      "is_active" : false,
+      "mediumHdUrl_data" : "URL",
+      "orderNumber" : "INT",
+      "thumbnailHdUrl" : "URL",
+      "largeUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "v_smallUrl" : "URL",
+      "mediumUrl" : "URL",
+      "v_smallHdUrl" : "URL",
+      "type" : "STRING"
+    } ]
+  },
+  "userName" : "STRING",
+  "uuid" : "STRING",
+  "recordId" : "NULL"
+}

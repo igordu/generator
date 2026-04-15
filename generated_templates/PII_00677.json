@@ -1,0 +1,38 @@
+{
+  "fullName" : "STRING",
+  "DateTimeUTC_data" : "DATETIME",
+  "Id" : "STRING",
+  "cpu_usage_percent" : 256.76,
+  "Status" : "STRING",
+  "v_Employees" : [ {
+    "ExternalLink" : {
+      "Description" : "STRING"
+    },
+    "EmployeeID" : "STRING",
+    "UpdatedDateUTC" : "DATETIME",
+    "is_active" : false,
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "Status_data" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  }, {
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "Status" : "STRING",
+    "recordId" : "STRING",
+    "ExternalLink_data" : {
+      "Description_data" : "STRING",
+      "Url" : "URL"
+    }
+  }, {
+    "v_Status" : "STRING",
+    "UpdatedDateUTC" : "DATETIME",
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "Url" : "URL"
+    },
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "identifier" : "STRING"
+  } ]
+}

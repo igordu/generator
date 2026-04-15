@@ -1,0 +1,13 @@
+{
+  "active" : "BOOLEAN",
+  "v_user_info" : {
+    "clientName" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "fullName" : "PII_LAST_NAME_MALE",
+    "temperature_c" : 448.75
+  },
+  "tree" : {
+    "url_data" : "URL",
+    "sha" : "STRING"
+  }
+}

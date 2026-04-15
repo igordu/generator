@@ -1,0 +1,37 @@
+{
+  "total_records" : "INT",
+  "page_number" : "INT",
+  "page_count" : "INT",
+  "discount_rate" : 264.86,
+  "registrants" : [ {
+    "v_zip" : "STRING",
+    "v_no_of_employees" : "STRING",
+    "role_in_purchase_process_data" : "STRING",
+    "join_url" : "URL",
+    "org_data" : "PII_ORGANIZATION_NAME",
+    "country" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "create_time" : "DATETIME",
+    "cpu_usage_percent" : 687.64,
+    "v_comments" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "address_data" : "PII_ADDRESS_LINE",
+    "phone" : "PII_PHONE_NUMBER",
+    "status" : "STRING",
+    "v_city" : "PII_LOCATION_CITY",
+    "state" : "PII_LOCATION_STATE",
+    "v_custom_questions" : [ {
+      "v_title" : null,
+      "auto_renew" : true,
+      "value" : "NULL"
+    }, {
+      "value" : "STRING",
+      "title" : "STRING"
+    } ],
+    "purchasing_time_frame" : "STRING",
+    "job_title" : "STRING",
+    "id" : "STRING"
+  } ],
+  "v_page_size" : "INT"
+}

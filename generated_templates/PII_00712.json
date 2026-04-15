@@ -1,0 +1,41 @@
+{
+  "audit_trail" : {
+    "request_context" : {
+      "debug_payload" : {
+        "page_size" : "INT",
+        "v_total_records" : "INT",
+        "registrants" : [ {
+          "purchasing_time_frame" : "STRING",
+          "join_url" : "URL",
+          "comments" : "STRING",
+          "org" : "PII_ORGANIZATION_NAME",
+          "last_name" : "PII_PERSON_LAST_NAME",
+          "industry_data" : "STRING",
+          "create_time" : "DATETIME",
+          "v_custom_questions" : [ {
+            "value" : "STRING"
+          }, {
+            "is_active" : false,
+            "title" : "STRING"
+          } ],
+          "country_data" : "PII_LOCATION_COUNTRY",
+          "city" : "PII_LOCATION_CITY",
+          "no_of_employees_data" : "STRING",
+          "status" : "STRING",
+          "id" : "STRING",
+          "first_name" : "PII_PERSON_FIRST_NAME",
+          "address" : "PII_ADDRESS_LINE",
+          "role_in_purchase_process" : "STRING",
+          "mail" : "PII_EMAIL",
+          "cell" : "PII_PHONE_NUMBER",
+          "state" : "PII_LOCATION_STATE",
+          "priority_level" : 687,
+          "zip" : "STRING"
+        } ],
+        "page_count_data" : "INT",
+        "cache_hit" : false,
+        "v_page_number" : "INT"
+      }
+    }
+  }
+}

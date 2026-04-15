@@ -1,0 +1,23 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "recordId" : "NULL",
+    "shopUrl_data" : "URL",
+    "media_data" : {
+      "has_discount" : true,
+      "images" : [ {
+        "smallHdUrl" : "URL",
+        "type" : "STRING",
+        "mediumUrl" : "URL",
+        "smallUrl_data" : "URL",
+        "orderNumber" : "INT",
+        "largeUrl_data" : null,
+        "mediumHdUrl" : "",
+        "thumbnailHdUrl" : "URL",
+        "largeHdUrl_data" : "URL"
+      } ]
+    },
+    "primaryKey" : "STRING"
+  }
+}

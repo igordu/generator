@@ -1,0 +1,18 @@
+{
+  "content" : [ {
+    "requires_update" : false,
+    "title" : "PII_COMPANY_NAME",
+    "identifier" : "STRING",
+    "v_unhelpfulCount" : "INT",
+    "created" : "DATETIME",
+    "rating" : "INT",
+    "reviewId" : "STRING",
+    "articleId" : "STRING",
+    "language_data" : "STRING",
+    "recommend" : "BOOLEAN",
+    "description" : "STRING",
+    "helpfulCount" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_customerCity" : "PII_LOCATION_CITY"
+  } ]
+}

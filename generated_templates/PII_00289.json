@@ -1,0 +1,83 @@
+{
+  "prev_data" : "STRING",
+  "v_transactions" : [ {
+    "eBayCollectedTaxAmount" : {
+      "value_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING"
+    },
+    "references" : [ {
+      "referenceType" : "",
+      "referenceId" : "STRING"
+    } ],
+    "totalFeeBasisAmount" : {
+      "v_value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency_data" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING"
+    },
+    "amount" : {
+      "value" : "STRING",
+      "priority_level" : 13,
+      "exchangeRate" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "v_currency" : "STRING"
+    },
+    "buyer" : {
+      "fullName" : "PII_USERNAME",
+      "stock_quantity" : 4881
+    },
+    "page_index" : 1597,
+    "paymentsEntity" : "STRING",
+    "salesRecordReference" : "STRING",
+    "uuid" : "STRING",
+    "transactionStatus" : "STRING",
+    "orderId" : "STRING",
+    "identifier" : "STRING",
+    "totalFeeAmount" : {
+      "convertedFromValue" : "STRING",
+      "value" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING"
+    },
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "feeJurisdiction" : {
+          "regionType" : "STRING",
+          "userName" : "STRING",
+          "conversion_rate" : 70.66
+        },
+        "feeType" : "STRING",
+        "amount" : {
+          "currency_data" : "STRING",
+          "exchangeRate_data" : "STRING",
+          "convertedFromValue" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "value" : "STRING",
+          "auto_renew" : true
+        },
+        "requires_update" : true
+      } ],
+      "lineItemId" : "STRING",
+      "feeBasisAmount" : {
+        "convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "exchangeRate" : "STRING",
+        "response_time_sec" : 639.92
+      }
+    } ],
+    "v_bookingEntry" : "STRING",
+    "transactionDate" : "DATETIME",
+    "feeJurisdiction" : {
+      "has_discount" : true,
+      "regionType_data" : "STRING"
+    }
+  } ],
+  "limit" : "INT",
+  "offset" : "INT",
+  "href" : "STRING",
+  "next" : "STRING"
+}

@@ -1,0 +1,13 @@
+{
+  "active" : "BOOLEAN",
+  "user_info" : {
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "system_ping_ms" : 1062,
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  },
+  "tree_data" : {
+    "v_sha" : "STRING",
+    "url" : "NULL"
+  }
+}

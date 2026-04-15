@@ -1,0 +1,23 @@
+[ {
+  "v_facets" : [ {
+    "displayName" : "STRING",
+    "item_count" : 3469,
+    "count" : "INT",
+    "key_data" : "STRING"
+  }, {
+    "system_ping_ms" : 1192,
+    "count" : "INT",
+    "name_val" : "STRING",
+    "v_key" : "STRING"
+  }, {
+    "key_data" : "STRING",
+    "cache_hit" : true,
+    "displayName" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "filter" : "STRING"
+}, {
+  "http_status" : 1337,
+  "filter" : "STRING"
+} ]

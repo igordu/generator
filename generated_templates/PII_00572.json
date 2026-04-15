@@ -1,0 +1,35 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "transactions" : {
+        "booked" : [ {
+          "debtorAccount" : {
+            "system_ping_ms" : 3710,
+            "v_iban" : "STRING"
+          },
+          "clientName" : "STRING",
+          "valueDate" : "DATE",
+          "v_amount" : {
+            "cpu_usage_percent" : 711.93,
+            "currency" : "STRING"
+          },
+          "creditorAccount" : {
+            "cache_hit" : true,
+            "iban_data" : "PII_IBAN"
+          },
+          "creditorName" : "PII_PERSON_NAME",
+          "bankTransactionCode_data" : {
+            "family" : "NULL",
+            "v_subFamily" : "STRING",
+            "temperature_c" : 512.48,
+            "v_domain" : "NULL"
+          },
+          "transactionId" : "STRING",
+          "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+          "v_bookingDate" : "DATE"
+        } ],
+        "conversion_rate" : 837.15
+      }
+    }
+  }
+}

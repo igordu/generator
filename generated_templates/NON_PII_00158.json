@@ -1,0 +1,18 @@
+{
+  "name" : "STRING",
+  "media" : {
+    "discount_rate" : 716.68,
+    "v_images" : [ {
+      "orderNumber" : "INT",
+      "v_largeUrl" : "URL",
+      "mediumUrl_data" : "URL",
+      "conversion_rate" : 806.67,
+      "largeHdUrl" : "URL",
+      "v_mediumHdUrl" : "URL",
+      "thumbnailHdUrl_data" : "URL",
+      "smallUrl" : "NULL"
+    } ]
+  },
+  "shopUrl_data" : "URL",
+  "recordId" : "STRING"
+}

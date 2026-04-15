@@ -1,0 +1,84 @@
+{
+  "system_state" : {
+    "request_context" : {
+      "extracted_info" : [ {
+        "comments_url_data" : "URL",
+        "sha" : "STRING",
+        "parents" : [ {
+          "is_deleted" : false,
+          "sha" : "STRING",
+          "url" : "URL"
+        } ],
+        "v_author" : {
+          "login" : "STRING",
+          "gists_url" : "URL",
+          "uuid" : "INT",
+          "following_url" : "URL",
+          "organizations_url" : "URL",
+          "type" : "STRING",
+          "received_events_url" : "URL",
+          "node_id" : "STRING",
+          "followers_url" : "URL",
+          "html_url" : "URL",
+          "gravatar_id" : "STRING",
+          "v_avatar_url" : "URL",
+          "url" : "URL",
+          "subscriptions_url_data" : "URL",
+          "site_admin" : "BOOLEAN",
+          "events_url" : "URL"
+        },
+        "committer" : {
+          "login" : "STRING",
+          "gravatar_id" : "STRING",
+          "events_url" : "URL",
+          "repos_url" : "URL",
+          "site_admin" : "BOOLEAN",
+          "starred_url" : "URL",
+          "following_url" : "URL",
+          "received_events_url" : "URL",
+          "html_url_data" : "URL",
+          "avatar_url" : "URL",
+          "url_data" : "URL",
+          "node_id" : "STRING",
+          "type" : "STRING",
+          "followers_url" : "URL",
+          "id" : "INT",
+          "organizations_url" : "URL",
+          "gists_url" : "URL"
+        },
+        "system_ping_ms" : 3008,
+        "html_url" : "URL",
+        "commit" : {
+          "verification" : {
+            "signature" : "STRING",
+            "reason" : "STRING",
+            "stock_quantity" : 3426,
+            "payload" : "STRING",
+            "verified_at" : "DATETIME",
+            "v_verified" : "BOOLEAN"
+          },
+          "committer" : {
+            "email" : "PII_EMAIL",
+            "name" : "PII_PERSON_NAME",
+            "date" : "DATETIME"
+          },
+          "url" : "URL",
+          "tree" : {
+            "sha_data" : "STRING",
+            "v_url" : "URL"
+          },
+          "comment_count" : "INT",
+          "message" : "PII_COMPANY_NAME",
+          "author" : {
+            "email" : "PII_EMAIL",
+            "page_index" : 2971,
+            "date" : "DATETIME",
+            "fullName" : "PII_PERSON_NAME"
+          }
+        },
+        "url" : "URL",
+        "node_id" : "STRING"
+      } ]
+    }
+  }
+}

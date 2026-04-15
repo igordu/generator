@@ -1,0 +1,46 @@
+[ {
+  "v_filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "STRING",
+    "is_active" : false,
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "userName" : "STRING",
+    "v_key" : "STRING",
+    "count" : "INT"
+  } ]
+}, {
+  "filter" : "STRING",
+  "v_facets" : [ {
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "displayName" : "NULL",
+    "conversion_rate" : 198.52,
+    "key" : "STRING"
+  }, {
+    "key_data" : "STRING",
+    "displayName" : "STRING",
+    "count_data" : "INT"
+  } ]
+}, {
+  "filter" : "STRING",
+  "stock_quantity" : 4075,
+  "facets_data" : [ {
+    "key" : "STRING",
+    "count" : "INT",
+    "temperature_c" : 552.56,
+    "displayName" : "STRING"
+  }, {
+    "key" : "",
+    "fullName" : "STRING",
+    "v_count" : "INT",
+    "discount_rate" : 615.91
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  } ]
+} ]

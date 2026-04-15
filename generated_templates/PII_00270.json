@@ -1,0 +1,91 @@
+{
+  "offset" : "INT",
+  "v_href" : "STRING",
+  "total" : "INT",
+  "next" : "STRING",
+  "transactions" : [ {
+    "v_buyer" : {
+      "fullName" : "PII_USERNAME"
+    },
+    "payoutId" : "STRING",
+    "bookingEntry" : "NULL",
+    "totalFeeAmount" : {
+      "exchangeRate_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "response_time_sec" : 707.53,
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "paymentsEntity" : "STRING",
+    "totalFeeBasisAmount_data" : {
+      "v_value" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "discount_rate" : 816.9,
+      "exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency" : "NULL"
+    },
+    "amount" : {
+      "v_convertedFromCurrency" : "STRING",
+      "exchangeRate" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "value_data" : "STRING",
+      "currency" : "STRING"
+    },
+    "transactionDate" : "DATETIME",
+    "v_feeType" : "STRING",
+    "eBayCollectedTaxAmount_data" : {
+      "exchangeRate" : "STRING",
+      "currency" : "",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING"
+    },
+    "transactionId" : "STRING",
+    "transactionType" : "STRING",
+    "temperature_c" : 939.27,
+    "orderLineItems" : [ {
+      "marketplaceFees_data" : [ {
+        "amount" : {
+          "price" : 958.98,
+          "currency" : "STRING",
+          "value" : "STRING",
+          "convertedFromValue" : "NULL",
+          "convertedFromCurrency" : "STRING",
+          "exchangeRate" : "STRING"
+        },
+        "feeMemo" : "",
+        "feeType" : "STRING",
+        "feeJurisdiction" : {
+          "cpu_usage_percent" : 59.67,
+          "v_regionType" : "NULL",
+          "fullName" : "STRING"
+        },
+        "page_index" : 3259
+      } ],
+      "lineItemId" : "STRING",
+      "feeBasisAmount" : {
+        "value" : "STRING",
+        "exchangeRate" : "STRING",
+        "currency" : "STRING",
+        "cpu_usage_percent" : 745.99,
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      },
+      "conversion_rate" : 702.5
+    } ],
+    "feeJurisdiction_data" : {
+      "system_ping_ms" : 3429,
+      "regionName" : "STRING",
+      "regionType" : "STRING"
+    },
+    "transactionMemo" : "STRING",
+    "transactionStatus" : "STRING",
+    "references" : [ {
+      "referenceId" : "STRING",
+      "discount_rate" : 230.65,
+      "referenceType" : "STRING"
+    } ]
+  } ],
+  "prev" : "STRING"
+}

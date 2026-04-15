@@ -1,0 +1,29 @@
+{
+  "temperature_c" : 294.62,
+  "transactions" : {
+    "booked" : [ {
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "creditorAccount" : {
+        "cache_hit" : true,
+        "iban" : "PII_IBAN"
+      },
+      "bookingDate" : "DATE",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "amount" : {
+        "amount" : "DECIMAL"
+      },
+      "userName" : "PII_PERSON_NAME",
+      "bankTransactionCode" : {
+        "family_data" : "STRING",
+        "subFamily" : "STRING",
+        "priority_level" : 931,
+        "v_domain" : null
+      },
+      "transactionId" : "STRING",
+      "fullName" : "STRING",
+      "valueDate" : "DATE"
+    } ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "has_more" : "BOOLEAN",
+  "url" : "URL",
+  "object" : "STRING",
+  "data" : [ {
+    "created" : "DATETIME_EPOCH",
+    "v_address" : "NULL",
+    "default_source" : "STRING",
+    "preferred_locales" : "ARRAY",
+    "email" : "PII_EMAIL",
+    "livemode" : "BOOLEAN",
+    "balance" : "INT",
+    "tax_exempt_data" : "STRING",
+    "shipping" : "NULL",
+    "uuid" : "STRING",
+    "currency" : "STRING",
+    "next_invoice_sequence" : "INT",
+    "v_description" : "STRING",
+    "object" : "STRING",
+    "has_discount" : false,
+    "delinquent_data" : "BOOLEAN",
+    "test_clock" : "NULL",
+    "phone" : "PII_PHONE_NUMBER",
+    "name" : "PII_PERSON_NAME",
+    "invoice_prefix" : "STRING"
+  } ]
+}

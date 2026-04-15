@@ -1,0 +1,34 @@
+{
+  "price" : 515.09,
+  "Employees" : [ {
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "ExternalLink" : {
+      "Url" : "URL"
+    },
+    "UpdatedDateUTC_data" : null,
+    "recordId" : "STRING",
+    "Status_data" : "STRING"
+  }, {
+    "EmployeeID" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "ExternalLink_data" : {
+      "Description" : "STRING",
+      "auto_renew" : false
+    },
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "UpdatedDateUTC" : "DATETIME"
+  }, {
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "primaryKey" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "http_status" : 644,
+    "ExternalLink" : {
+      "Url" : "URL",
+      "Description" : "STRING"
+    }
+  } ],
+  "v_DateTimeUTC" : "DATETIME",
+  "Id" : "NULL",
+  "Status_data" : "STRING",
+  "ProviderName" : "STRING"
+}

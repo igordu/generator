@@ -1,0 +1,16 @@
+{
+  "routing_number" : "STRING",
+  "object" : "STRING",
+  "id" : "STRING",
+  "status_data" : "STRING",
+  "userName" : "STRING",
+  "name_val" : "PII_PERSON_NAME",
+  "country" : "STRING",
+  "currency" : "STRING",
+  "metadata" : "OBJECT",
+  "last4" : "STRING",
+  "fingerprint" : "STRING",
+  "account_holder_type_data" : "STRING",
+  "account_type_data" : "STRING",
+  "customer" : "STRING"
+}

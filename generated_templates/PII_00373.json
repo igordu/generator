@@ -1,0 +1,10 @@
+{
+  "audit_trail" : {
+    "request_context" : {
+      "debug_payload" : {
+        "emailAddress" : "PII_EMAIL",
+        "emailAddressStatus" : [ "STRING" ]
+      }
+    }
+  }
+}

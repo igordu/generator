@@ -1,0 +1,36 @@
+{
+  "telecom" : [ {
+    "system" : "STRING",
+    "value_data" : "PII_PHONE_NUMBER",
+    "use" : "STRING"
+  }, {
+    "value" : "PII_EMAIL",
+    "discount_rate" : 705.52,
+    "v_system" : "STRING"
+  } ],
+  "gender" : "STRING",
+  "address" : [ {
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_city" : "PII_LOCATION_CITY",
+    "use_data" : "STRING",
+    "line" : [ "PII_ADDRESS_LINE" ]
+  } ],
+  "identifier" : [ {
+    "system" : "URL",
+    "use" : "STRING",
+    "auto_renew" : false,
+    "value" : "PII_NATIONAL_ID",
+    "type" : {
+      "text" : "STRING"
+    }
+  } ],
+  "uuid" : "STRING",
+  "resourceType" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "name" : [ {
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+    "has_discount" : false,
+    "family_data" : "PII_PERSON_LAST_NAME",
+    "use" : "STRING"
+  } ]
+}

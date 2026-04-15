@@ -1,0 +1,16 @@
+{
+  "shopUrl" : "URL",
+  "name" : "NULL",
+  "uuid" : "STRING",
+  "id" : "STRING",
+  "v_media" : {
+    "images" : [ {
+      "largeUrl" : "URL",
+      "type" : "STRING",
+      "orderNumber" : "INT",
+      "largeHdUrl" : "URL",
+      "mediumUrl" : "URL",
+      "mediumHdUrl" : "URL"
+    } ]
+  }
+}

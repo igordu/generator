@@ -1,0 +1,46 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "price" : 239.69,
+    "Id" : "STRING",
+    "clientName" : "STRING",
+    "v_Employees" : [ {
+      "UpdatedDateUTC" : "DATETIME",
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "ExternalLink" : {
+        "cpu_usage_percent" : 908.78,
+        "Description" : ""
+      },
+      "discount_rate" : 569.92,
+      "FirstName" : "PII_PERSON_FIRST_NAME",
+      "Status" : "STRING",
+      "EmployeeID" : "STRING"
+    }, {
+      "identifier" : "STRING",
+      "UpdatedDateUTC_data" : "DATETIME",
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "cpu_usage_percent" : 214.5,
+      "ExternalLink" : {
+        "Description" : "",
+        "Url_data" : null
+      },
+      "Status" : "STRING",
+      "FirstName" : "PII_PERSON_FIRST_NAME"
+    }, {
+      "v_Status" : "STRING",
+      "ExternalLink_data" : {
+        "cache_hit" : true,
+        "Url" : "URL"
+      },
+      "identifier" : "STRING",
+      "FirstName" : "PII_PERSON_FIRST_NAME",
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "UpdatedDateUTC" : "DATETIME",
+      "discount_rate" : 177.13
+    } ],
+    "Status" : "STRING"
+  }
+}

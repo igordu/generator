@@ -1,0 +1,14 @@
+{
+  "user_info" : {
+    "response_time_sec" : 188.17,
+    "arline__name" : "PII_COMPANY_NAME",
+    "name_val" : "PII_FIRST_NAME_FEMALE",
+    "clientName" : "PII_LAST_NAME_MALE"
+  },
+  "active_data" : "BOOLEAN",
+  "tree_data" : {
+    "cache_hit" : true,
+    "v_url" : "NULL",
+    "sha" : "STRING"
+  }
+}

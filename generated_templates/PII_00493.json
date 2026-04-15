@@ -1,0 +1,37 @@
+{
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "telecom_data" : [ {
+    "system" : "STRING",
+    "value" : "PII_PHONE_NUMBER",
+    "requires_update" : true,
+    "use" : "STRING"
+  }, {
+    "system" : "STRING",
+    "value" : "PII_EMAIL",
+    "priority_level" : 3211
+  } ],
+  "primaryKey" : "STRING",
+  "item_count" : 3790,
+  "name" : [ {
+    "use" : "STRING",
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "address_data" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "use_data" : "STRING",
+    "discount_rate" : 146.37,
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY"
+  } ],
+  "resourceType" : "STRING",
+  "identifier" : [ {
+    "system" : "URL",
+    "use" : "STRING",
+    "type" : {
+      "text_data" : "STRING",
+      "is_active" : true
+    },
+    "value" : "PII_NATIONAL_ID"
+  } ]
+}

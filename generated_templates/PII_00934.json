@@ -1,0 +1,30 @@
+{
+  "object" : "STRING",
+  "has_more" : "BOOLEAN",
+  "data" : [ {
+    "cell" : "PII_PHONE_NUMBER",
+    "balance" : "INT",
+    "email" : "PII_EMAIL",
+    "object" : "STRING",
+    "next_invoice_sequence" : null,
+    "fullName" : "PII_PERSON_NAME",
+    "id" : "STRING",
+    "default_source" : "STRING",
+    "address" : "NULL",
+    "delinquent" : "BOOLEAN",
+    "preferred_locales" : "ARRAY",
+    "shipping" : "NULL",
+    "currency" : "STRING",
+    "metadata" : "OBJECT",
+    "conversion_rate" : 150.33,
+    "test_clock" : "NULL",
+    "created" : "DATETIME_EPOCH",
+    "v_tax_exempt" : "STRING",
+    "invoice_settings" : {
+      "default_payment_method" : "STRING",
+      "price" : 751.86,
+      "custom_fields" : "NULL",
+      "v_rendering_options" : "NULL"
+    }
+  } ]
+}

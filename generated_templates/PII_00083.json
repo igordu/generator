@@ -1,0 +1,26 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "content_data" : [ {
+      "created_data" : "DATETIME",
+      "cache_hit" : true,
+      "primaryKey" : "STRING",
+      "title" : "PII_COMPANY_NAME",
+      "recommend" : "BOOLEAN",
+      "articleId" : "STRING",
+      "customerCity_data" : "PII_LOCATION_CITY",
+      "reviewId" : "STRING",
+      "v_unhelpfulCount" : "INT",
+      "rating" : "INT",
+      "description" : "STRING",
+      "articleSizeRatings" : {
+        "OVERALL" : "INT",
+        "system_ping_ms" : 249,
+        "SHOE_WIDTH" : "NULL"
+      },
+      "customerCountry" : "PII_LOCATION_COUNTRY",
+      "helpfulCount" : "INT"
+    } ]
+  }
+}

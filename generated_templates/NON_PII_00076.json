@@ -1,0 +1,20 @@
+{
+  "telemetry_data" : {
+    "transaction_trace" : {
+      "debug_payload" : {
+        "numberOfUserRecommendations" : "INT",
+        "primaryKey" : "STRING",
+        "numberOfUserPositiveRecommendations" : "INT",
+        "starRatingDistribution" : {
+          "3" : "INT",
+          "1" : "INT",
+          "4" : "INT",
+          "2" : "INT",
+          "cache_hit" : true
+        },
+        "numberOfUserReviews" : "INT",
+        "averageStarRating" : "INT"
+      }
+    }
+  }
+}

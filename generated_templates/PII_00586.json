@@ -1,0 +1,30 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "requires_update" : false,
+      "v_amount" : {
+        "currency" : "STRING",
+        "discount_rate" : 871.16,
+        "amount_data" : "DECIMAL"
+      },
+      "clientName" : "PII_PERSON_NAME",
+      "bankTransactionCode" : {
+        "v_domain" : "STRING",
+        "family_data" : "STRING"
+      },
+      "bookingDate" : null,
+      "debtorAccount" : {
+        "iban" : "STRING",
+        "auto_renew" : true
+      },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "debtorName" : "STRING",
+      "transactionId" : "STRING"
+    } ],
+    "conversion_rate" : 862.1
+  },
+  "discount_rate" : 827.73
+}

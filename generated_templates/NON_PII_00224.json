@@ -1,0 +1,24 @@
+[ {
+  "filter" : "STRING",
+  "facets_data" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT",
+    "has_discount" : false
+  } ]
+}, {
+  "price" : 833.29,
+  "v_facets" : [ {
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "userName" : "STRING",
+    "v_count" : "INT",
+    "key" : "STRING"
+  }, {
+    "cpu_usage_percent" : 371.02,
+    "count" : "INT",
+    "displayName" : "STRING",
+    "key" : "STRING"
+  } ]
+} ]

@@ -1,0 +1,9 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "userName" : "NULL",
+    "clientToken" : "STRING",
+    "requires_update" : false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "content_data" : [ {
+    "v_articleSizeRatings" : {
+      "identifier" : "INT",
+      "OVERALL" : "INT",
+      "stock_quantity" : 3595
+    },
+    "v_title" : "PII_COMPANY_NAME",
+    "v_recommend" : "BOOLEAN",
+    "helpfulCount" : "INT",
+    "articleId" : "STRING",
+    "v_unhelpfulCount" : "NULL",
+    "rating" : "INT",
+    "reviewId" : "STRING",
+    "articleModelId" : "STRING",
+    "language" : "STRING",
+    "requires_update" : false,
+    "created_data" : "DATETIME",
+    "customerCountry_data" : "PII_LOCATION_COUNTRY",
+    "description_data" : "STRING",
+    "v_customerCity" : "PII_LOCATION_CITY"
+  } ]
+}

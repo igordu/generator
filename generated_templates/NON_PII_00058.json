@@ -1,0 +1,14 @@
+{
+  "item_count" : 1628,
+  "starRatingDistribution" : {
+    "3" : "INT",
+    "4" : "INT",
+    "1" : "INT",
+    "2_data" : "INT",
+    "v_5" : "INT"
+  },
+  "v_numberOfUserRecommendations" : "INT",
+  "v_numberOfUserPositiveRecommendations" : "INT",
+  "recordId" : "STRING",
+  "averageStarRating" : "INT"
+}

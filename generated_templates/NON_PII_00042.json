@@ -1,0 +1,15 @@
+{
+  "articleModelId" : "STRING",
+  "numberOfUserRecommendations" : "INT",
+  "averageStarRating" : "NULL",
+  "starRatingDistribution" : {
+    "2" : "INT",
+    "3" : "INT",
+    "4" : "INT",
+    "5" : "INT",
+    "1" : "INT",
+    "has_discount" : false
+  },
+  "has_discount" : false,
+  "v_numberOfUserPositiveRecommendations" : "INT"
+}

@@ -1,0 +1,20 @@
+{
+  "content" : [ {
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "primaryKey" : "STRING",
+    "articleSizeRatings" : {
+      "price" : 414.11,
+      "v_OVERALL" : "INT",
+      "SHOE_WIDTH" : "INT"
+    },
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "auto_renew" : false,
+    "rating" : "INT",
+    "created" : "DATETIME",
+    "description_data" : "STRING",
+    "v_language" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "unhelpfulCount" : "INT",
+    "articleId" : "STRING"
+  } ]
+}

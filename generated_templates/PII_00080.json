@@ -1,0 +1,24 @@
+{
+  "content" : [ {
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "primaryKey" : "STRING",
+    "helpfulCount" : "INT",
+    "title" : "PII_COMPANY_NAME",
+    "created_data" : "DATETIME",
+    "rating" : "INT",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "v_unhelpfulCount" : "INT",
+    "page_index" : 2211,
+    "recommend" : "BOOLEAN",
+    "uuid" : "STRING",
+    "language" : "STRING",
+    "articleSizeRatings" : {
+      "OVERALL_data" : "INT",
+      "SHOE_WIDTH" : "INT",
+      "cache_hit" : true
+    },
+    "reviewId" : "STRING",
+    "description" : "STRING"
+  } ],
+  "page_index" : 4485
+}

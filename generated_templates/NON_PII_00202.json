@@ -1,0 +1,42 @@
+[ {
+  "facets" : [ {
+    "page_index" : 4635,
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count_data" : "INT"
+  } ],
+  "filter" : "STRING"
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "count_data" : "INT",
+    "v_key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "count" : "INT",
+    "cache_hit" : true,
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "auto_renew" : false
+  } ]
+}, {
+  "v_facets" : [ {
+    "key" : "STRING",
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "count" : "INT",
+    "v_key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "name_val" : "STRING",
+    "count" : "INT"
+  } ]
+} ]

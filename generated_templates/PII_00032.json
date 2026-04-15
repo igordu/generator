@@ -1,0 +1,19 @@
+{
+  "v_content" : [ {
+    "articleId" : "STRING",
+    "articleModelId" : "STRING",
+    "reviewId" : "STRING",
+    "unhelpfulCount" : "INT",
+    "recommend_data" : "BOOLEAN",
+    "helpfulCount" : "INT",
+    "title" : "PII_COMPANY_NAME",
+    "customerCity" : "PII_LOCATION_CITY",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "language" : "STRING",
+    "created_data" : "DATETIME",
+    "articleSizeRatings" : {
+      "recordId" : "INT"
+    },
+    "rating" : "INT"
+  } ]
+}

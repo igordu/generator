@@ -1,0 +1,70 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "v_offset" : "INT",
+      "href" : "STRING",
+      "limit_data" : "INT",
+      "total" : "INT",
+      "v_transactions" : [ {
+        "uuid" : "STRING",
+        "amount" : {
+          "convertedFromCurrency_data" : "NULL",
+          "v_exchangeRate" : "STRING",
+          "currency" : "STRING",
+          "value_data" : "STRING",
+          "is_deleted" : true,
+          "convertedFromValue_data" : "STRING"
+        },
+        "v_transactionDate" : "DATETIME",
+        "feeJurisdiction" : {
+          "v_regionType" : "STRING",
+          "has_discount" : true
+        },
+        "v_bookingEntry" : "STRING",
+        "eBayCollectedTaxAmount_data" : {
+          "convertedFromValue_data" : "STRING",
+          "currency_data" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "value" : "STRING",
+          "exchangeRate" : "STRING"
+        },
+        "recordId" : "STRING",
+        "feeType" : "NULL",
+        "totalFeeAmount" : {
+          "convertedFromValue_data" : "STRING",
+          "exchangeRate" : "STRING",
+          "currency_data" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "value" : "STRING"
+        },
+        "is_deleted" : false,
+        "v_transactionStatus" : "STRING",
+        "orderLineItems" : [ {
+          "lineItemId" : "STRING",
+          "feeBasisAmount" : {
+            "convertedFromCurrency" : "STRING",
+            "convertedFromValue" : "STRING",
+            "currency" : "STRING",
+            "value" : "STRING",
+            "has_discount" : false,
+            "exchangeRate" : "STRING"
+          }
+        } ],
+        "totalFeeBasisAmount_data" : {
+          "convertedFromCurrency" : "STRING",
+          "currency" : "STRING",
+          "convertedFromValue" : "STRING",
+          "value" : "STRING"
+        },
+        "paymentsEntity" : "STRING",
+        "v_salesRecordReference" : "STRING",
+        "buyer" : {
+          "price" : 679.68,
+          "username" : "PII_USERNAME"
+        },
+        "transactionType" : "STRING",
+        "payoutId" : "STRING"
+      } ]
+    }
+  }
+}

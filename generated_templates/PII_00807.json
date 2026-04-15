@@ -1,0 +1,64 @@
+{
+  "telephony" : {
+    "third_party_audio" : "BOOLEAN",
+    "show_international_numbers_link" : "BOOLEAN",
+    "audio_conference_info" : "STRING"
+  },
+  "v_recording" : {
+    "auto_delete_cmr" : "BOOLEAN",
+    "record_audio_file" : "BOOLEAN",
+    "recording_password_requirement" : {
+      "length_data" : "INT",
+      "have_number" : "BOOLEAN"
+    },
+    "auto_recording" : "STRING",
+    "record_gallery_view" : "BOOLEAN",
+    "show_timestamp_data" : "BOOLEAN",
+    "record_speaker_view" : "NULL",
+    "cloud_recording" : "BOOLEAN",
+    "recording_audio_transcript" : "BOOLEAN",
+    "v_local_recording" : "BOOLEAN"
+  },
+  "feature" : {
+    "large_meeting" : "NULL",
+    "cn_meeting" : "BOOLEAN",
+    "is_deleted" : true,
+    "v_meeting_capacity" : "INT",
+    "in_meeting" : "BOOLEAN",
+    "contactNumber" : "BOOLEAN",
+    "webinar" : "BOOLEAN"
+  },
+  "email_notification" : {
+    "schedule_for_reminder" : "BOOLEAN",
+    "v_alternative_host_reminder" : "BOOLEAN",
+    "cancel_meeting_reminder" : "BOOLEAN",
+    "v_jbh_reminder" : "BOOLEAN"
+  },
+  "tsp" : {
+    "show_international_numbers_link" : "NULL",
+    "call_out_countries" : "ARRAY",
+    "discount_rate" : 823.07
+  },
+  "schedule_meeting" : {
+    "v_not_store_meeting_topic" : "BOOLEAN",
+    "primaryKey" : "BOOLEAN",
+    "join_before_host_data" : "BOOLEAN",
+    "use_pmi_for_scheduled_meetings" : "BOOLEAN",
+    "pstn_password_protected_data" : "BOOLEAN",
+    "participants_video" : "BOOLEAN",
+    "pmi_password" : "PII_PASSWORD",
+    "require_password_for_scheduling_new_meetings" : "BOOLEAN",
+    "v_embed_password_in_join_link" : "",
+    "stock_quantity" : 2361,
+    "require_password_for_pmi_meetings" : "STRING",
+    "meeting_password_requirement_data" : {
+      "only_allow_numeric_data" : "BOOLEAN",
+      "v_length" : "INT",
+      "cpu_usage_percent" : 25.78,
+      "have_letter" : "BOOLEAN",
+      "have_special_character" : "",
+      "v_have_number" : "BOOLEAN"
+    },
+    "use_pmi_for_instant_meetings" : "BOOLEAN"
+  }
+}

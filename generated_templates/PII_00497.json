@@ -1,0 +1,32 @@
+{
+  "transactions" : {
+    "is_deleted" : true,
+    "booked" : [ {
+      "identifier" : null,
+      "v_creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "v_debtorAccount" : {
+        "is_active" : true,
+        "v_iban" : "STRING"
+      },
+      "temperature_c" : 135.34,
+      "debtorName" : "STRING",
+      "v_bankTransactionCode" : {
+        "family" : "STRING",
+        "domain_data" : "STRING",
+        "subFamily" : "STRING",
+        "auto_renew" : false
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "amount_data" : {
+        "currency" : "STRING",
+        "v_amount" : "DECIMAL"
+      },
+      "v_bookingDate" : "DATE",
+      "creditorName" : "PII_PERSON_NAME",
+      "valueDate" : "DATE"
+    } ]
+  },
+  "is_deleted" : true
+}

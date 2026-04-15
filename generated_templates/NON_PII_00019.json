@@ -1,0 +1,13 @@
+{
+  "auto_renew" : true,
+  "numberOfUserRecommendations" : "NULL",
+  "v_averageStarRating" : "INT",
+  "numberOfUserReviews" : "INT",
+  "starRatingDistribution" : {
+    "v_4" : "INT",
+    "v_5" : "INT",
+    "price" : 384.93,
+    "1" : "INT"
+  },
+  "identifier" : "STRING"
+}

@@ -1,0 +1,17 @@
+[ {
+  "simplified_data" : "BOOLEAN",
+  "clientName" : "STRING",
+  "avatarUrls" : {
+    "16x16" : "URL",
+    "48x48_data" : "URL",
+    "32x32" : "",
+    "v_24x24" : "URL"
+  },
+  "v_key" : "STRING",
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "style" : "STRING",
+  "self" : "URL"
+} ]

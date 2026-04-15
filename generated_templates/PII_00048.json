@@ -1,0 +1,20 @@
+{
+  "v_content" : [ {
+    "language" : "STRING",
+    "articleId" : "STRING",
+    "recordId" : "STRING",
+    "rating_data" : "INT",
+    "helpfulCount" : "INT",
+    "recommend" : "BOOLEAN",
+    "title" : "PII_COMPANY_NAME",
+    "unhelpfulCount" : "INT",
+    "customerCity" : "PII_LOCATION_CITY",
+    "description" : "STRING",
+    "articleModelId" : "STRING",
+    "v_articleSizeRatings" : {
+      "priority_level" : 2787,
+      "OVERALL" : "INT"
+    },
+    "customerCountry_data" : "PII_LOCATION_COUNTRY"
+  } ]
+}

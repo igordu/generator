@@ -1,0 +1,30 @@
+{
+  "transactions" : {
+    "booked_data" : [ {
+      "transactionId" : "STRING",
+      "creditorName" : "PII_PERSON_NAME",
+      "amount" : {
+        "amount_data" : "DECIMAL"
+      },
+      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "debtorAccount" : {
+        "page_index" : 741,
+        "iban" : "STRING"
+      },
+      "creditorAccount_data" : {
+        "cpu_usage_percent" : 953.51,
+        "iban" : "PII_IBAN"
+      },
+      "discount_rate" : 168.13,
+      "valueDate" : "DATE",
+      "debtorName" : "STRING",
+      "bankTransactionCode" : {
+        "price" : 507.17,
+        "subFamily" : "STRING",
+        "family" : "STRING"
+      },
+      "bookingDate" : "DATE"
+    } ]
+  },
+  "is_deleted" : false
+}

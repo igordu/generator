@@ -1,0 +1,22 @@
+{
+  "system_state" : {
+    "request_context" : {
+      "body" : {
+        "customer_data" : "STRING",
+        "object_data" : "",
+        "v_fingerprint" : "STRING",
+        "v_last4" : "STRING",
+        "routing_number" : "STRING",
+        "status" : "STRING",
+        "country_data" : "STRING",
+        "id" : "STRING",
+        "name_val" : "STRING",
+        "account_type_data" : "STRING",
+        "metadata" : "OBJECT",
+        "currency" : "STRING",
+        "account_holder_type" : "STRING",
+        "account_holder_name" : "PII_PERSON_NAME"
+      }
+    }
+  }
+}

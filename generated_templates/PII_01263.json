@@ -1,0 +1,80 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "comments_url" : "URL",
+      "author" : {
+        "gists_url" : "URL",
+        "avatar_url" : "URL",
+        "site_admin" : "BOOLEAN",
+        "node_id" : "STRING",
+        "following_url" : "URL",
+        "type" : "STRING",
+        "login" : "STRING",
+        "repos_url" : "URL",
+        "html_url" : "URL",
+        "organizations_url_data" : "URL",
+        "starred_url" : "URL",
+        "followers_url" : "URL",
+        "v_url" : "",
+        "subscriptions_url" : "NULL",
+        "id" : "INT"
+      },
+      "node_id" : "STRING",
+      "url" : "URL",
+      "priority_level" : 1749,
+      "sha" : "STRING",
+      "html_url_data" : "URL",
+      "parents" : [ {
+        "url" : "URL",
+        "sha" : "STRING",
+        "conversion_rate" : 355.52
+      } ],
+      "commit" : {
+        "author" : {
+          "date" : "DATETIME",
+          "email" : "PII_EMAIL",
+          "name" : "PII_PERSON_NAME",
+          "is_deleted" : true
+        },
+        "comment_count" : "NULL",
+        "verification" : {
+          "verified" : "BOOLEAN",
+          "signature" : "STRING",
+          "payload_data" : "STRING",
+          "temperature_c" : 683.13,
+          "verified_at_data" : "DATETIME"
+        },
+        "url_data" : "URL",
+        "committer_data" : {
+          "date" : "DATETIME",
+          "contactEmail" : "PII_EMAIL",
+          "name" : "PII_PERSON_NAME"
+        },
+        "cache_hit" : false,
+        "message" : "PII_COMPANY_NAME",
+        "tree" : {
+          "sha" : "STRING"
+        }
+      },
+      "committer" : {
+        "price" : 47.13,
+        "gists_url" : "URL",
+        "site_admin" : "BOOLEAN",
+        "starred_url" : "URL",
+        "events_url" : "URL",
+        "followers_url" : "URL",
+        "recordId" : "STRING",
+        "login" : "STRING",
+        "repos_url" : "URL",
+        "type_data" : "STRING",
+        "following_url" : "URL",
+        "url" : "URL",
+        "html_url" : "URL",
+        "gravatar_id" : "STRING",
+        "id" : "",
+        "subscriptions_url" : "URL",
+        "avatar_url" : "URL"
+      }
+    } ]
+  }
+}

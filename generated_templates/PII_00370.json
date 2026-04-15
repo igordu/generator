@@ -1,0 +1,5 @@
+{
+  "emailAddressStatus" : [ "STRING" ],
+  "auto_renew" : true,
+  "emailAddress" : "PII_EMAIL"
+}

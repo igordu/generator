@@ -1,0 +1,49 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "facets" : [ {
+        "price" : 299.34,
+        "displayName" : "STRING",
+        "v_key" : "STRING",
+        "count" : "INT"
+      }, {
+        "displayName" : "STRING",
+        "requires_update" : false,
+        "key" : "STRING",
+        "count_data" : "INT"
+      } ],
+      "filter" : "STRING"
+    }, {
+      "facets" : [ {
+        "stock_quantity" : 3897,
+        "count" : "INT",
+        "key" : "STRING",
+        "name_val" : "STRING"
+      }, {
+        "key" : "STRING",
+        "name_val" : "STRING"
+      }, {
+        "v_key" : "STRING",
+        "displayName" : "STRING",
+        "count_data" : "INT"
+      } ],
+      "filter" : "STRING"
+    }, {
+      "facets" : [ {
+        "page_index" : 1832,
+        "v_key" : "",
+        "displayName" : "STRING",
+        "count" : "INT"
+      }, {
+        "v_key" : "STRING",
+        "system_ping_ms" : 4658,
+        "count_data" : "NULL"
+      }, {
+        "count_data" : "INT",
+        "response_time_sec" : 308.62,
+        "displayName" : "STRING"
+      } ],
+      "v_filter" : "STRING"
+    } ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "tasks" : [ {
+    "taskType_data" : "STRING",
+    "connectorOperator_data" : {
+      "v_InforNexus" : "STRING",
+      "SAPOData" : "STRING",
+      "Marketo" : "STRING",
+      "Pardot_data" : "STRING",
+      "Slack_data" : "STRING",
+      "Salesforce" : "STRING",
+      "Datadog" : "",
+      "ServiceNow" : "STRING",
+      "Veeva" : "STRING",
+      "has_discount" : false,
+      "Singular" : "STRING",
+      "Zendesk" : "STRING",
+      "CustomConnector" : "STRING",
+      "S3" : "",
+      "Dynatrace_data" : "STRING",
+      "Trendmicro" : "STRING",
+      "GoogleAnalytics" : "STRING"
+    },
+    "sourceFields" : "ARRAY",
+    "requires_update" : true,
+    "taskProperties" : {
+      "property2" : "STRING",
+      "is_deleted" : true,
+      "property1" : "STRING"
+    },
+    "destinationField" : "STRING"
+  } ],
+  "clientToken_data" : "STRING",
+  "metadataCatalogConfig" : {
+    "is_active" : true,
+    "glueDataCatalog_data" : {
+      "tablePrefix" : "STRING",
+      "roleArn" : "STRING",
+      "system_ping_ms" : 4882,
+      "databaseName" : "STRING"
+    }
+  },
+  "flowName" : "STRING",
+  "v_sourceFlowConfig" : {
+    "incrementalPullConfig" : {
+      "datetimeTypeFieldName" : "STRING"
+    },
+    "v_apiVersion" : "STRING",
+    "connectorProfileName" : "STRING",
+    "connectorType_data" : "STRING"
+  },
+  "v_description" : "STRING",
+  "triggerConfig" : {
+    "triggerProperties" : {
+      "Scheduled_data" : {
+        "scheduleStartTime" : "DATETIME",
+        "scheduleOffset" : "INT",
+        "scheduleEndTime" : "DATETIME",
+        "dataPullMode" : "STRING",
+        "firstExecutionFrom" : "DATETIME",
+        "scheduleExpression" : "STRING",
+        "flowErrorDeactivationThreshold" : "INT"
+      }
+    },
+    "triggerType" : "STRING"
+  },
+  "kmsArn" : "NULL",
+  "tags_data" : {
+    "stock_quantity" : 1435,
+    "property2" : "STRING",
+    "property1" : null
+  },
+  "v_destinationFlowConfigList" : [ {
+    "destinationConnectorProperties" : {
+      "v_Salesforce" : {
+        "writeOperationType_data" : "STRING",
+        "dataTransferApi_data" : "STRING",
+        "cache_hit" : true,
+        "object" : "STRING",
+        "userName" : "ARRAY",
+        "errorHandlingConfig" : {
+          "v_bucketPrefix" : "STRING",
+          "bucketName" : "STRING",
+          "is_deleted" : true,
+          "failOnFirstDestinationError" : "BOOLEAN"
+        }
+      },
+      "Snowflake" : {
+        "errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "bucketName" : "STRING",
+          "bucketPrefix" : "STRING"
+        },
+        "intermediateBucketName" : "STRING",
+        "object_data" : "STRING",
+        "bucketPrefix" : "STRING",
+        "discount_rate" : 922.26
+      },
+      "S3" : {
+        "bucketPrefix" : "STRING",
+        "s3OutputFormatConfig" : {
+          "preserveSourceDataTyping" : "BOOLEAN",
+          "aggregationConfig_data" : {
+            "targetFileSize" : "INT",
+            "is_deleted" : true,
+            "aggregationType" : "STRING"
+          },
+          "fileType" : "STRING",
+          "prefixConfig_data" : {
+            "prefixType" : "STRING",
+            "pathPrefixHierarchy" : "ARRAY",
+            "prefixFormat" : "STRING"
+          },
+          "price" : 252.58
+        },
+        "bucketName" : "STRING"
+      },
+      "recordId" : {
+        "object" : "STRING",
+        "temperature_c" : 897.93,
+        "errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "bucketName" : "STRING",
+          "bucketPrefix_data" : "STRING"
+        }
+      },
+      "priority_level" : 1832,
+      "Redshift" : {
+        "intermediateBucketName" : "STRING",
+        "cpu_usage_percent" : 689.83,
+        "v_errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "",
+          "retry_attempts" : 1456,
+          "bucketPrefix" : "STRING",
+          "bucketName" : "STRING"
+        },
+        "bucketPrefix" : "STRING",
+        "v_object" : null
+      }
+    },
+    "v_connectorType" : "STRING",
+    "apiVersion" : "STRING",
+    "connectorProfileName" : "STRING"
+  } ],
+  "has_discount" : false
+}

@@ -1,0 +1,24 @@
+[ {
+  "key" : "STRING",
+  "avatarUrls_data" : {
+    "24x24" : "",
+    "48x48" : "URL",
+    "16x16_data" : "URL",
+    "32x32" : null
+  },
+  "style" : "STRING",
+  "simplified" : "BOOLEAN",
+  "projectCategory" : {
+    "description_data" : "STRING",
+    "name" : "STRING",
+    "self" : "",
+    "id" : "STRING"
+  },
+  "insight" : {
+    "totalIssueCount_data" : "INT",
+    "http_status" : 1748,
+    "lastIssueUpdateTime" : ""
+  },
+  "name" : "STRING",
+  "id" : "STRING"
+} ]

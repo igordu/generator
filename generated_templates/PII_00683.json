@@ -1,0 +1,39 @@
+{
+  "v_Status" : "STRING",
+  "Employees" : [ {
+    "UpdatedDateUTC" : "DATETIME",
+    "EmployeeID" : "STRING",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "retry_attempts" : 4909,
+    "ExternalLink" : {
+      "Url" : "URL",
+      "Description" : "STRING"
+    },
+    "Status" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  }, {
+    "EmployeeID" : "",
+    "requires_update" : true,
+    "Status" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "ExternalLink" : {
+      "Description_data" : "STRING",
+      "Url" : "URL"
+    }
+  }, {
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "Url_data" : "URL",
+      "stock_quantity" : 296
+    },
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "EmployeeID" : "STRING",
+    "UpdatedDateUTC_data" : "DATETIME",
+    "Status" : "STRING",
+    "has_discount" : false
+  } ],
+  "ProviderName" : "STRING"
+}

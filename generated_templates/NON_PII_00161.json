@@ -1,0 +1,22 @@
+{
+  "userName" : "STRING",
+  "shopUrl" : "URL",
+  "id" : "STRING",
+  "modelId" : "STRING",
+  "stock_quantity" : 3722,
+  "media" : {
+    "images_data" : [ {
+      "largeHdUrl" : "URL",
+      "thumbnailHdUrl" : "NULL",
+      "has_discount" : true,
+      "smallUrl" : "URL",
+      "v_mediumUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "orderNumber_data" : "INT",
+      "mediumHdUrl" : "URL",
+      "type" : "STRING",
+      "v_largeUrl" : "URL"
+    } ],
+    "requires_update" : false
+  }
+}

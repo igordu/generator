@@ -1,0 +1,69 @@
+{
+  "transactions" : [ {
+    "transactionDate" : "DATETIME",
+    "amount_data" : {
+      "convertedFromValue" : "STRING",
+      "value" : "STRING",
+      "auto_renew" : true,
+      "v_convertedFromCurrency" : "STRING"
+    },
+    "v_salesRecordReference" : "STRING",
+    "transactionType" : null,
+    "bookingEntry_data" : "STRING",
+    "primaryKey" : "STRING",
+    "feeJurisdiction" : {
+      "item_count" : 2308,
+      "v_regionType" : "NULL",
+      "userName" : "STRING"
+    },
+    "eBayCollectedTaxAmount" : {
+      "exchangeRate" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "currency_data" : "STRING",
+      "value" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "orderId" : null,
+    "buyer" : {
+      "fullName" : "PII_USERNAME",
+      "priority_level" : 3892
+    },
+    "totalFeeAmount_data" : {
+      "convertedFromValue_data" : "STRING",
+      "value_data" : "STRING",
+      "v_currency" : "NULL",
+      "exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "v_orderLineItems" : [ {
+      "identifier" : "STRING",
+      "feeBasisAmount" : {
+        "v_value" : "STRING",
+        "has_discount" : true,
+        "convertedFromValue" : "STRING",
+        "currency" : "STRING",
+        "exchangeRate" : null,
+        "convertedFromCurrency" : "STRING"
+      }
+    } ],
+    "feeType" : "STRING",
+    "paymentsEntity" : "",
+    "totalFeeBasisAmount" : {
+      "exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "system_ping_ms" : 107,
+      "currency_data" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value_data" : "STRING"
+    },
+    "payoutId" : "STRING",
+    "transactionMemo" : "NULL"
+  } ],
+  "offset" : "INT",
+  "is_deleted" : true,
+  "href" : "STRING",
+  "v_limit" : "INT",
+  "total" : "INT",
+  "next" : "STRING",
+  "v_prev" : "STRING"
+}

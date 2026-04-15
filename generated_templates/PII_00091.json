@@ -1,0 +1,20 @@
+{
+  "content" : [ {
+    "uuid" : "STRING",
+    "unhelpfulCount" : "INT",
+    "title_data" : "PII_COMPANY_NAME",
+    "customerCity" : "PII_LOCATION_CITY",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "helpfulCount" : "INT",
+    "language" : "STRING",
+    "rating" : "INT",
+    "recommend" : "BOOLEAN",
+    "v_description" : "STRING",
+    "articleSizeRatings_data" : {
+      "has_discount" : true,
+      "OVERALL" : "INT"
+    },
+    "articleId" : "STRING",
+    "v_created" : null
+  } ]
+}

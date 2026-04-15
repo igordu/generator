@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "depreciationExpenseAccountId" : "STRING",
+    "lockPrivateUseAccount_data" : "BOOLEAN",
+    "v_taxDepreciationSettings" : "ARRAY",
+    "locks" : "INT",
+    "clientName" : "STRING",
+    "accumulatedDepreciationAccountId" : "STRING",
+    "assetTypeId" : "STRING",
+    "fixedAssetAccountId" : "STRING"
+  }, {
+    "bookDepreciationSetting" : {
+      "depreciationMethod" : "STRING",
+      "depreciableObjectId" : "STRING",
+      "depreciableObjectType" : "STRING",
+      "identifier" : "STRING",
+      "averagingMethod" : "STRING",
+      "depreciationRate_data" : "DECIMAL"
+    },
+    "name_val" : "STRING",
+    "fixedAssetAccountId" : "",
+    "lockPrivateUseAccount" : "BOOLEAN",
+    "accumulatedDepreciationAccountId" : "STRING",
+    "locks" : "INT",
+    "taxDepreciationSettings" : "ARRAY",
+    "assetTypeId" : "STRING"
+  } ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "numberOfUserPositiveRecommendations" : "",
+    "v_averageStarRating" : "INT",
+    "numberOfUserReviews_data" : "INT",
+    "starRatingDistribution" : {
+      "2" : null,
+      "4" : "INT",
+      "is_deleted" : false,
+      "v_1" : "INT",
+      "5" : null,
+      "3" : "INT"
+    },
+    "primaryKey" : "STRING",
+    "numberOfUserRecommendations" : "NULL"
+  }
+}

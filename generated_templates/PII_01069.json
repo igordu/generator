@@ -1,0 +1,15 @@
+{
+  "cache_hit" : false,
+  "country" : "STRING",
+  "primaryKey" : "STRING",
+  "status" : "STRING",
+  "v_account_type" : "STRING",
+  "currency_data" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "routing_number" : "STRING",
+  "customer" : "STRING",
+  "fingerprint" : "STRING",
+  "object" : "STRING",
+  "account_holder_type" : "STRING",
+  "userName" : "STRING"
+}

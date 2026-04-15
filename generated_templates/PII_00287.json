@@ -1,0 +1,79 @@
+{
+  "v_limit" : "INT",
+  "transactions" : [ {
+    "v_paymentsEntity" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "v_value" : "STRING",
+      "temperature_c" : 906.0,
+      "convertedFromCurrency_data" : "STRING"
+    },
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "amount" : {
+          "value" : "STRING",
+          "currency" : "STRING",
+          "exchangeRate" : "STRING",
+          "convertedFromValue" : "STRING"
+        },
+        "v_feeMemo" : "STRING",
+        "feeJurisdiction" : {
+          "regionName" : "STRING"
+        },
+        "feeType" : "STRING"
+      } ],
+      "cache_hit" : false,
+      "identifier" : "STRING",
+      "v_feeBasisAmount" : {
+        "currency" : "STRING",
+        "exchangeRate" : "STRING",
+        "value" : "STRING",
+        "cache_hit" : true,
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      }
+    } ],
+    "transactionStatus_data" : "STRING",
+    "bookingEntry" : "STRING",
+    "transactionMemo" : "STRING",
+    "feeJurisdiction_data" : {
+      "userName" : "STRING",
+      "price" : 6.03,
+      "v_regionType" : "NULL"
+    },
+    "transactionType" : "STRING",
+    "feeType" : "STRING",
+    "totalFeeBasisAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "currency_data" : "STRING",
+      "exchangeRate" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "response_time_sec" : 379.88,
+      "value_data" : "STRING"
+    },
+    "transactionId" : "NULL",
+    "stock_quantity" : 1972,
+    "v_amount" : {
+      "exchangeRate" : "STRING",
+      "currency_data" : "NULL",
+      "page_index" : 1780,
+      "value" : "NULL",
+      "convertedFromCurrency_data" : "STRING"
+    },
+    "v_references" : [ {
+      "referenceId" : "STRING"
+    } ],
+    "v_transactionDate" : "DATETIME",
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "uuid" : "STRING",
+    "salesRecordReference" : "STRING"
+  } ],
+  "v_total" : "INT",
+  "v_prev" : "STRING",
+  "href" : "STRING",
+  "next" : "STRING",
+  "offset" : "INT"
+}

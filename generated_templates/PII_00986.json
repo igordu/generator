@@ -1,0 +1,25 @@
+{
+  "object" : "NULL",
+  "data_data" : [ {
+    "id" : "STRING",
+    "preferred_locales" : "ARRAY",
+    "cell" : "PII_PHONE_NUMBER",
+    "primary_email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME",
+    "description" : "STRING",
+    "balance" : "INT",
+    "tax_exempt" : "STRING",
+    "livemode_data" : "BOOLEAN",
+    "object" : "STRING",
+    "address" : "NULL",
+    "test_clock" : "NULL",
+    "invoice_prefix" : "STRING",
+    "v_next_invoice_sequence" : "NULL",
+    "metadata" : "OBJECT",
+    "shipping" : "",
+    "currency" : "STRING",
+    "delinquent" : null
+  } ],
+  "url" : "URL",
+  "has_more" : "BOOLEAN"
+}

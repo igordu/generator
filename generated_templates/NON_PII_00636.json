@@ -1,0 +1,25 @@
+[ {
+  "system_ping_ms" : 1107,
+  "taxDepreciationSettings" : null,
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "primaryKey" : "STRING",
+  "bookDepreciationSetting" : {
+    "depreciableObjectId" : "STRING",
+    "depreciableObjectType" : "STRING",
+    "averagingMethod" : "STRING",
+    "bookEffectiveDateOfChangeId" : "",
+    "depreciationMethod" : "STRING",
+    "depreciationCalculationMethod" : "STRING"
+  },
+  "assetTypeId" : "STRING",
+  "assetTypeName" : "STRING",
+  "fixedAssetAccountId" : "STRING"
+}, {
+  "assetTypeName" : "STRING",
+  "uuid" : "STRING",
+  "depreciationExpenseAccountId" : "STRING",
+  "taxDepreciationSettings" : "ARRAY",
+  "primaryKey" : "STRING",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "lockPrivateUseAccount" : "NULL"
+} ]

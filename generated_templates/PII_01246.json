@@ -1,0 +1,77 @@
+[ {
+  "parents" : [ {
+    "v_sha" : "STRING",
+    "url" : "URL"
+  } ],
+  "comments_url" : "URL",
+  "has_discount" : false,
+  "author" : {
+    "gravatar_id" : "STRING",
+    "gists_url" : "URL",
+    "login" : "STRING",
+    "following_url" : "URL",
+    "recordId" : "INT",
+    "type_data" : "STRING",
+    "received_events_url" : "URL",
+    "site_admin" : "BOOLEAN",
+    "node_id" : "STRING",
+    "html_url" : "URL",
+    "avatar_url" : "URL",
+    "organizations_url_data" : "URL",
+    "v_url" : "URL",
+    "starred_url_data" : "URL",
+    "followers_url" : "URL",
+    "repos_url" : "URL",
+    "subscriptions_url_data" : "URL"
+  },
+  "commit" : {
+    "verification" : {
+      "v_verified" : "BOOLEAN",
+      "payload" : "STRING",
+      "verified_at" : "DATETIME",
+      "reason" : "STRING",
+      "signature" : "STRING"
+    },
+    "committer" : {
+      "email" : "PII_EMAIL",
+      "date_data" : "DATETIME",
+      "name" : "PII_PERSON_NAME"
+    },
+    "comment_count" : "INT",
+    "tree" : {
+      "url_data" : "URL",
+      "sha" : "STRING"
+    },
+    "author" : {
+      "email" : "PII_EMAIL",
+      "price" : 312.33,
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "message" : "PII_COMPANY_NAME",
+    "url" : "URL",
+    "item_count" : 2718
+  },
+  "committer" : {
+    "organizations_url" : "URL",
+    "v_events_url" : "URL",
+    "received_events_url" : "URL",
+    "html_url" : "URL",
+    "gists_url" : "URL",
+    "subscriptions_url" : "URL",
+    "v_login" : "STRING",
+    "avatar_url" : "URL",
+    "followers_url" : "URL",
+    "starred_url_data" : "URL",
+    "gravatar_id" : "STRING",
+    "id" : "INT",
+    "repos_url" : "URL",
+    "v_following_url" : "URL",
+    "primaryKey" : "STRING",
+    "type_data" : "STRING",
+    "v_site_admin" : "BOOLEAN"
+  },
+  "html_url" : "URL",
+  "node_id" : "STRING",
+  "v_sha" : "STRING",
+  "v_url" : "URL"
+} ]

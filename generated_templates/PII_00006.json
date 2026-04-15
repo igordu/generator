@@ -1,0 +1,23 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "content_data" : [ {
+      "articleSizeRatings_data" : {
+        "OVERALL" : "INT"
+      },
+      "v_created" : "DATETIME",
+      "description_data" : "STRING",
+      "recommend" : "BOOLEAN",
+      "v_language" : "STRING",
+      "rating" : "INT",
+      "customerCity" : "PII_LOCATION_CITY",
+      "helpfulCount" : "NULL",
+      "v_customerCountry" : "PII_LOCATION_COUNTRY",
+      "uuid" : "STRING",
+      "title" : "PII_COMPANY_NAME",
+      "unhelpfulCount" : "INT"
+    } ],
+    "response_time_sec" : 94.52
+  }
+}

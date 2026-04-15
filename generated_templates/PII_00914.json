@@ -1,0 +1,25 @@
+{
+  "object_data" : "STRING",
+  "v_data" : [ {
+    "metadata" : null,
+    "currency" : "STRING",
+    "test_clock" : "NULL",
+    "recordId" : "STRING",
+    "next_invoice_sequence" : "INT",
+    "address" : "NULL",
+    "name" : "PII_PERSON_NAME",
+    "shipping" : "NULL",
+    "v_object" : "STRING",
+    "v_preferred_locales" : "ARRAY",
+    "description" : "STRING",
+    "default_source" : "STRING",
+    "invoice_prefix" : "STRING",
+    "mobile" : "PII_PHONE_NUMBER",
+    "is_deleted" : false,
+    "tax_exempt" : "STRING",
+    "v_delinquent" : "NULL",
+    "email" : "PII_EMAIL",
+    "balance" : "INT",
+    "created" : "DATETIME_EPOCH"
+  } ]
+}

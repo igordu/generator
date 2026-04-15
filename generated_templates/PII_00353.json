@@ -1,0 +1,9 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "emailAddress" : [ "STRING" ],
+      "mail" : "PII_EMAIL",
+      "response_time_sec" : 341.66
+    }
+  }
+}

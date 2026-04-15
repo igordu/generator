@@ -1,0 +1,21 @@
+{
+  "shopUrl" : "URL",
+  "name" : "STRING",
+  "id" : null,
+  "identifier" : "STRING",
+  "media" : {
+    "images_data" : [ {
+      "orderNumber" : "INT",
+      "v_largeUrl" : "URL",
+      "thumbnailHdUrl" : "NULL",
+      "largeHdUrl" : "URL",
+      "system_ping_ms" : 3556,
+      "mediumHdUrl" : "URL",
+      "smallHdUrl_data" : "URL",
+      "type" : "STRING",
+      "smallUrl" : "URL",
+      "mediumUrl" : "URL"
+    } ],
+    "is_deleted" : false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "stock_quantity" : 2789,
+  "transactions" : {
+    "booked" : [ {
+      "valueDate" : "DATE",
+      "creditorName" : "PII_PERSON_NAME",
+      "debtorName" : "STRING",
+      "bookingDate" : "",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "debtorAccount" : {
+        "iban_data" : "STRING"
+      },
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "family" : "STRING"
+      },
+      "v_creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "transactionId" : null,
+      "amount" : {
+        "currency" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "temperature_c" : 89.39
+    } ]
+  }
+}

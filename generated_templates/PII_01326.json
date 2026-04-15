@@ -1,0 +1,14 @@
+{
+  "active_data" : "BOOLEAN",
+  "user_info" : {
+    "name_val" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "temperature_c" : 578.2,
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  },
+  "tree_data" : {
+    "url" : "URL",
+    "temperature_c" : 335.55,
+    "sha" : "STRING"
+  }
+}

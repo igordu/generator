@@ -1,0 +1,49 @@
+[ {
+  "temperature_c" : 343.52,
+  "projectCategory" : {
+    "primaryKey" : null,
+    "name" : "STRING",
+    "v_description" : "STRING",
+    "self" : "URL"
+  },
+  "avatarUrls" : {
+    "has_discount" : false,
+    "48x48" : "URL",
+    "16x16" : "URL",
+    "24x24_data" : "URL",
+    "v_32x32" : "URL"
+  },
+  "v_insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime_data" : "DATETIME",
+    "is_active" : false
+  },
+  "name" : "STRING",
+  "self_data" : "",
+  "key" : "STRING",
+  "simplified" : "BOOLEAN",
+  "primaryKey" : "STRING",
+  "style" : "STRING"
+}, {
+  "id" : "",
+  "projectCategory" : {
+    "self" : "NULL",
+    "name" : "STRING",
+    "id" : "STRING",
+    "stock_quantity" : 1451,
+    "description" : "STRING"
+  },
+  "key_data" : "STRING",
+  "avatarUrls_data" : {
+    "48x48" : "URL",
+    "32x32_data" : "URL",
+    "24x24" : "URL"
+  },
+  "self_data" : "URL",
+  "name" : "STRING",
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "v_totalIssueCount" : "INT"
+  },
+  "priority_level" : 4265
+} ]

@@ -1,0 +1,79 @@
+{
+  "limit_data" : "INT",
+  "href" : "STRING",
+  "next" : "STRING",
+  "prev" : "STRING",
+  "total" : "INT",
+  "transactions_data" : [ {
+    "transactionType" : "STRING",
+    "buyer" : {
+      "cache_hit" : true,
+      "username" : "PII_USERNAME"
+    },
+    "amount" : {
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "v_value" : "STRING"
+    },
+    "references" : [ {
+      "referenceType_data" : "STRING",
+      "primaryKey" : "STRING"
+    } ],
+    "v_salesRecordReference" : "STRING",
+    "paymentsEntity" : "STRING",
+    "system_ping_ms" : 1184,
+    "transactionId" : "STRING",
+    "totalFeeBasisAmount" : {
+      "conversion_rate" : 322.68,
+      "exchangeRate" : "STRING",
+      "v_convertedFromValue" : "STRING",
+      "currency" : "STRING",
+      "v_value" : "STRING"
+    },
+    "v_orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "v_amount" : {
+          "currency_data" : "NULL",
+          "convertedFromValue" : "STRING",
+          "cache_hit" : false,
+          "exchangeRate" : "STRING",
+          "convertedFromCurrency" : null,
+          "v_value" : "STRING"
+        },
+        "feeType" : "STRING",
+        "feeMemo" : "STRING",
+        "feeJurisdiction" : {
+          "regionName" : "STRING",
+          "regionType" : "STRING"
+        }
+      } ],
+      "v_feeBasisAmount" : {
+        "value" : "STRING",
+        "exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "currency" : "STRING"
+      },
+      "identifier" : "STRING"
+    } ],
+    "payoutId" : "STRING",
+    "feeJurisdiction" : {
+      "regionType" : "NULL",
+      "userName" : "STRING"
+    },
+    "transactionStatus" : null,
+    "totalFeeAmount" : {
+      "exchangeRate_data" : "STRING",
+      "requires_update" : false,
+      "v_convertedFromValue" : "STRING",
+      "v_value" : "STRING",
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "orderId" : null,
+    "transactionDate" : "DATETIME",
+    "feeType_data" : "STRING"
+  } ]
+}

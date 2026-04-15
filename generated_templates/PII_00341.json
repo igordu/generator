@@ -1,0 +1,5 @@
+{
+  "emailAddressStatus" : [ "STRING" ],
+  "stock_quantity" : 806,
+  "emailAddress" : "PII_EMAIL"
+}

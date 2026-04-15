@@ -1,0 +1,61 @@
+{
+  "identifier" : "STRING",
+  "status" : "STRING",
+  "individualAccount" : {
+    "email" : "PII_EMAIL",
+    "registrationAddress" : {
+      "postalCode" : "STRING",
+      "system_ping_ms" : 3236,
+      "city_data" : "STRING",
+      "country" : "STRING",
+      "county" : "STRING",
+      "stateOrProvince_data" : "STRING"
+    },
+    "lastName" : "PII_PERSON_NAME",
+    "is_deleted" : false,
+    "secondaryPhone" : {
+      "phoneType" : "STRING",
+      "countryCode" : "STRING",
+      "v_number" : "PII_PHONE_NUMBER"
+    },
+    "firstName" : "PII_PERSON_NAME",
+    "primaryPhone" : {
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING"
+    }
+  },
+  "username" : "PII_USERNAME",
+  "uuid" : "STRING",
+  "temperature_c" : 740.93,
+  "accountType" : "NULL",
+  "businessAccount" : {
+    "mobile" : {
+      "countryCode" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
+    },
+    "v_primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "retry_attempts" : 1940,
+      "lastName" : "PII_PERSON_NAME"
+    },
+    "emailAddress" : "PII_EMAIL",
+    "name" : "PII_ORGANIZATION_NAME",
+    "address" : {
+      "v_city" : "STRING",
+      "country_data" : "STRING",
+      "stateOrProvince_data" : "STRING",
+      "county" : "STRING",
+      "addressLine2" : "STRING",
+      "postalCode" : "STRING"
+    },
+    "website" : "URL",
+    "secondaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode_data" : "STRING",
+      "contactNumber" : "STRING",
+      "discount_rate" : 510.12
+    }
+  }
+}

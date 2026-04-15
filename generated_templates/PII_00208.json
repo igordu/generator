@@ -1,0 +1,80 @@
+{
+  "transactions" : [ {
+    "eBayCollectedTaxAmount" : {
+      "exchangeRate_data" : "STRING",
+      "v_currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "v_convertedFromValue" : "STRING",
+      "page_index" : 999
+    },
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "bookingEntry" : "",
+    "transactionDate" : "DATETIME",
+    "v_salesRecordReference" : "STRING",
+    "amount" : {
+      "value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "NULL",
+      "exchangeRate" : "STRING",
+      "v_currency" : "STRING"
+    },
+    "totalFeeAmount" : {
+      "exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING"
+    },
+    "v_totalFeeBasisAmount" : {
+      "value_data" : "STRING",
+      "convertedFromValue" : "NULL",
+      "currency_data" : "STRING",
+      "v_exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "references" : [ {
+      "referenceType" : "STRING",
+      "response_time_sec" : 235.84
+    } ],
+    "primaryKey" : "STRING",
+    "v_transactionMemo" : "STRING",
+    "feeJurisdiction" : {
+      "regionType" : "NULL",
+      "regionName" : "STRING"
+    },
+    "feeType" : "STRING",
+    "orderLineItems" : [ {
+      "feeBasisAmount_data" : {
+        "price" : 905.34,
+        "v_convertedFromCurrency" : null,
+        "convertedFromValue" : "STRING",
+        "value" : "STRING",
+        "currency" : "STRING"
+      },
+      "lineItemId" : "STRING",
+      "marketplaceFees" : [ {
+        "page_index" : 3693,
+        "feeType" : "STRING",
+        "amount" : {
+          "v_convertedFromCurrency" : "STRING",
+          "currency" : "STRING",
+          "cpu_usage_percent" : 969.74,
+          "v_convertedFromValue" : "STRING",
+          "value" : "STRING"
+        },
+        "v_feeMemo" : "STRING",
+        "feeJurisdiction" : {
+          "regionName" : "STRING"
+        }
+      } ]
+    } ],
+    "v_transactionType" : "STRING"
+  } ],
+  "next" : "STRING",
+  "v_total" : "INT",
+  "prev" : "STRING",
+  "v_limit" : "INT",
+  "v_href" : "STRING"
+}

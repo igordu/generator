@@ -1,0 +1,9 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "emailAddressStatus" : [ null ],
+      "requires_update" : true,
+      "emailAddress" : "PII_EMAIL"
+    }
+  }
+}

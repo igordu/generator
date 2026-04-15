@@ -1,0 +1,43 @@
+[ {
+  "v_filter" : "STRING",
+  "v_facets" : [ {
+    "count" : "INT",
+    "requires_update" : false,
+    "clientName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count_data" : "INT"
+  }, {
+    "v_count" : "INT",
+    "displayName" : "STRING",
+    "temperature_c" : 629.43,
+    "key_data" : "STRING"
+  } ]
+}, {
+  "filter" : "STRING",
+  "facets_data" : [ {
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "name_val" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "displayName" : null,
+    "count" : "INT",
+    "key_data" : "STRING"
+  } ],
+  "response_time_sec" : 396.28
+}, {
+  "filter" : "STRING",
+  "v_facets" : [ {
+    "v_key" : "STRING",
+    "count" : "NULL",
+    "discount_rate" : 797.34
+  }, {
+    "key" : "STRING",
+    "count" : "INT",
+    "displayName" : "STRING"
+  } ]
+} ]

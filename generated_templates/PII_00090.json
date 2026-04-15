@@ -1,0 +1,21 @@
+{
+  "auto_renew" : true,
+  "content" : [ {
+    "title" : "PII_COMPANY_NAME",
+    "created" : "DATETIME",
+    "articleSizeRatings" : {
+      "uuid" : "",
+      "OVERALL" : "INT"
+    },
+    "v_rating" : "",
+    "helpfulCount" : "INT",
+    "uuid" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "unhelpfulCount" : "INT",
+    "reviewId" : "STRING",
+    "description" : null,
+    "articleModelId" : "STRING",
+    "language" : "STRING"
+  } ]
+}

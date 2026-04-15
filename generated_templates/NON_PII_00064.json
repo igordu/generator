@@ -1,0 +1,14 @@
+{
+  "numberOfUserReviews" : "INT",
+  "starRatingDistribution_data" : {
+    "retry_attempts" : 2150,
+    "v_4" : "INT",
+    "v_1" : "INT",
+    "2" : "INT",
+    "3" : "",
+    "v_5" : "INT"
+  },
+  "averageStarRating" : "INT",
+  "uuid" : "STRING",
+  "numberOfUserPositiveRecommendations" : "INT"
+}

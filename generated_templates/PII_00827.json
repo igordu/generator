@@ -1,0 +1,65 @@
+{
+  "recording" : {
+    "record_audio_file" : "BOOLEAN",
+    "save_chat_text" : "BOOLEAN",
+    "auto_recording_data" : "STRING",
+    "v_auto_delete_cmr" : "BOOLEAN",
+    "recording_audio_transcript" : "BOOLEAN",
+    "record_speaker_view" : "BOOLEAN",
+    "cloud_recording" : "BOOLEAN",
+    "v_record_gallery_view" : null,
+    "v_local_recording" : "BOOLEAN",
+    "page_index" : 430,
+    "show_timestamp" : "BOOLEAN"
+  },
+  "tsp" : {
+    "call_out_countries" : "ARRAY",
+    "show_international_numbers_link_data" : "BOOLEAN",
+    "http_status" : 598,
+    "call_out" : "BOOLEAN"
+  },
+  "email_notification" : {
+    "cancel_meeting_reminder" : "BOOLEAN",
+    "jbh_reminder_data" : "BOOLEAN",
+    "schedule_for_reminder" : "BOOLEAN",
+    "alternative_host_reminder" : "BOOLEAN"
+  },
+  "v_telephony" : {
+    "audio_conference_info" : "STRING",
+    "third_party_audio" : "BOOLEAN",
+    "cpu_usage_percent" : 623.31,
+    "show_international_numbers_link_data" : "BOOLEAN"
+  },
+  "has_discount" : false,
+  "feature" : {
+    "meeting_capacity_data" : "INT",
+    "zoom_phone" : "BOOLEAN",
+    "in_meeting" : "BOOLEAN",
+    "large_meeting" : "BOOLEAN",
+    "priority_level" : 3196,
+    "cn_meeting" : "BOOLEAN",
+    "webinar" : null
+  },
+  "schedule_meeting" : {
+    "pstn_password_protected" : "BOOLEAN",
+    "use_pmi_for_instant_meetings_data" : "BOOLEAN",
+    "v_meeting_password_requirement" : {
+      "have_number" : "BOOLEAN",
+      "only_allow_numeric" : "BOOLEAN",
+      "temperature_c" : 804.97,
+      "v_have_special_character" : "BOOLEAN",
+      "length" : "INT"
+    },
+    "v_pmi_password" : "PII_PASSWORD",
+    "identifier" : "BOOLEAN",
+    "is_deleted" : true,
+    "audio_type" : "STRING",
+    "participants_video" : "BOOLEAN",
+    "use_pmi_for_scheduled_meetings" : "BOOLEAN",
+    "embed_password_in_join_link" : "BOOLEAN",
+    "not_store_meeting_topic" : "BOOLEAN",
+    "require_password_for_pmi_meetings_data" : "STRING",
+    "join_before_host" : "BOOLEAN",
+    "force_pmi_jbh_password_data" : "BOOLEAN"
+  }
+}

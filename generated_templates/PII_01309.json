@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "active" : "BOOLEAN",
+    "tree" : {
+      "has_discount" : false,
+      "url" : "URL",
+      "sha" : "STRING"
+    },
+    "user_info_data" : {
+      "arline__name" : "PII_COMPANY_NAME",
+      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+      "family-name-male" : "PII_LAST_NAME_MALE",
+      "cache_hit" : false
+    }
+  }
+}

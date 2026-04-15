@@ -1,0 +1,16 @@
+{
+  "starRatingDistribution_data" : {
+    "auto_renew" : true,
+    "v_3" : "INT",
+    "4" : "INT",
+    "1" : "INT",
+    "5" : "INT",
+    "2_data" : "INT"
+  },
+  "conversion_rate" : 430.53,
+  "numberOfUserReviews" : "INT",
+  "identifier" : "STRING",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "averageStarRating_data" : "INT"
+}

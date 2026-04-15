@@ -1,0 +1,40 @@
+{
+  "address" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "use" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY"
+  } ],
+  "meta" : {
+    "lastUpdated" : "DATETIME",
+    "versionId" : "INT"
+  },
+  "name" : [ {
+    "price" : 172.11,
+    "family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "birthDate_data" : "PII_DATE_OF_BIRTH",
+  "resourceType" : "STRING",
+  "v_gender" : "NULL",
+  "id" : "STRING",
+  "telecom" : [ {
+    "system_data" : "STRING",
+    "cache_hit" : true,
+    "value_data" : "PII_EMAIL"
+  }, {
+    "v_value" : "PII_PHONE_NUMBER",
+    "response_time_sec" : 214.21,
+    "use" : "STRING",
+    "system" : "STRING"
+  } ],
+  "identifier" : [ {
+    "value_data" : "PII_NATIONAL_ID",
+    "is_active" : true,
+    "use" : "STRING",
+    "type" : {
+      "cache_hit" : true,
+      "text_data" : null
+    }
+  } ]
+}

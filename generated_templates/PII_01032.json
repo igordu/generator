@@ -1,0 +1,13 @@
+{
+  "identifier" : "STRING",
+  "v_fingerprint" : "STRING",
+  "country" : "STRING",
+  "v_metadata" : "OBJECT",
+  "routing_number" : "STRING",
+  "customer" : "STRING",
+  "fullName" : "STRING",
+  "status" : "STRING",
+  "account_holder_type" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "v_last4" : "NULL"
+}

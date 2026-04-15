@@ -1,0 +1,14 @@
+{
+  "active" : "BOOLEAN",
+  "tree" : {
+    "is_active" : true,
+    "url" : "URL",
+    "sha_data" : "STRING"
+  },
+  "user_info_data" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "response_time_sec" : 645.7,
+    "clientName" : "PII_LAST_NAME_MALE"
+  }
+}

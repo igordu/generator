@@ -1,0 +1,17 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "system_state" : {
+      "event_data" : {
+        "debug_payload" : {
+          "clientToken" : "STRING",
+          "has_discount" : false,
+          "flowName" : "STRING"
+        }
+      }
+    }
+  }
+}

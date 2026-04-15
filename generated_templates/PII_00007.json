@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "content" : [ {
+      "v_unhelpfulCount" : "NULL",
+      "customerCity" : "PII_LOCATION_CITY",
+      "reviewId" : "STRING",
+      "customerCountry" : "PII_LOCATION_COUNTRY",
+      "v_language" : "NULL",
+      "articleModelId" : "STRING",
+      "v_articleSizeRatings" : {
+        "OVERALL" : "INT",
+        "SHOE_WIDTH" : "INT"
+      },
+      "title" : "PII_COMPANY_NAME",
+      "description" : "STRING",
+      "recommend" : "BOOLEAN",
+      "v_rating" : "NULL",
+      "created" : "DATETIME",
+      "articleId" : "STRING"
+    } ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "total_records_data" : "INT",
+      "page_number" : "INT",
+      "registrants" : [ {
+        "country" : "PII_LOCATION_COUNTRY",
+        "job_title" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "temperature_c" : 352.37,
+        "create_time" : "DATETIME",
+        "phone" : "PII_PHONE_NUMBER",
+        "state" : "PII_LOCATION_STATE",
+        "address" : "PII_ADDRESS_LINE",
+        "comments" : "STRING",
+        "name_val" : "PII_PERSON_FIRST_NAME",
+        "id" : "STRING",
+        "org" : "PII_ORGANIZATION_NAME",
+        "status" : "STRING",
+        "primary_email" : "PII_EMAIL",
+        "role_in_purchase_process" : "STRING",
+        "join_url" : "URL",
+        "purchasing_time_frame" : "STRING",
+        "no_of_employees" : "STRING",
+        "userName" : "PII_PERSON_LAST_NAME",
+        "v_industry" : "STRING"
+      } ],
+      "priority_level" : 1820,
+      "page_count" : "",
+      "page_size" : "INT"
+    }
+  }
+}

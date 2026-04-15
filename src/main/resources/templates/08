@@ -1,0 +1,93 @@
+{
+  "href": "STRING",
+  "limit": "INT",
+  "next": "STRING",
+  "offset": "INT",
+  "prev": "STRING",
+  "total": "INT",
+  "transactions": [
+    {
+      "amount": {
+        "convertedFromCurrency": "STRING",
+        "convertedFromValue": "STRING",
+        "currency": "STRING",
+        "exchangeRate": "STRING",
+        "value": "STRING"
+      },
+      "bookingEntry": "STRING",
+      "buyer": {
+        "username": "PII_USERNAME"
+      },
+      "eBayCollectedTaxAmount": {
+        "convertedFromCurrency": "STRING",
+        "convertedFromValue": "STRING",
+        "currency": "STRING",
+        "exchangeRate": "STRING",
+        "value": "STRING"
+      },
+      "feeJurisdiction": {
+        "regionName": "STRING",
+        "regionType": "STRING"
+      },
+      "feeType": "STRING",
+      "orderId": "STRING",
+      "orderLineItems": [
+        {
+          "feeBasisAmount": {
+            "convertedFromCurrency": "STRING",
+            "convertedFromValue": "STRING",
+            "currency": "STRING",
+            "exchangeRate": "STRING",
+            "value": "STRING"
+          },
+          "lineItemId": "STRING",
+          "marketplaceFees": [
+            {
+              "amount": {
+                "convertedFromCurrency": "STRING",
+                "convertedFromValue": "STRING",
+                "currency": "STRING",
+                "exchangeRate": "STRING",
+                "value": "STRING"
+              },
+              "feeJurisdiction": {
+                "regionName": "STRING",
+                "regionType": "STRING"
+              },
+              "feeMemo": "STRING",
+              "feeType": "STRING"
+            }
+          ]
+        }
+      ],
+      "paymentsEntity": "STRING",
+      "payoutId": "STRING",
+      "references": [
+        {
+          "referenceId": "STRING",
+          "referenceType": "STRING"
+        }
+      ],
+      "salesRecordReference": "STRING",
+      "totalFeeAmount": {
+        "convertedFromCurrency": "STRING",
+        "convertedFromValue": "STRING",
+        "currency": "STRING",
+        "exchangeRate": "STRING",
+        "value": "STRING"
+      },
+      "totalFeeBasisAmount": {
+        "convertedFromCurrency": "STRING",
+        "convertedFromValue": "STRING",
+        "currency": "STRING",
+        "exchangeRate": "STRING",
+        "value": "STRING"
+      },
+      "transactionDate": "DATETIME",
+      "transactionId": "STRING",
+      "transactionMemo": "STRING",
+      "transactionStatus": "STRING",
+      "transactionType": "STRING"
+    }
+  ]
+}

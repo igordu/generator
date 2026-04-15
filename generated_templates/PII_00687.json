@@ -1,0 +1,39 @@
+{
+  "price" : 775.27,
+  "Employees" : [ {
+    "v_UpdatedDateUTC" : "DATETIME",
+    "ExternalLink" : {
+      "Description" : null,
+      "Url_data" : "URL",
+      "item_count" : 2139
+    },
+    "is_deleted" : false,
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "EmployeeID" : "STRING"
+  }, {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "ExternalLink_data" : {
+      "Url_data" : "NULL",
+      "Description" : "STRING"
+    },
+    "Status" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  }, {
+    "Status" : "STRING",
+    "response_time_sec" : 695.88,
+    "UpdatedDateUTC_data" : "DATETIME",
+    "primaryKey" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "Url" : "URL"
+    },
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  } ],
+  "DateTimeUTC" : "DATETIME",
+  "Id" : "STRING",
+  "clientName" : "STRING",
+  "Status" : "STRING"
+}

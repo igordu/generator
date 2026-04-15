@@ -1,0 +1,16 @@
+{
+  "bank_name" : "STRING",
+  "account_type_data" : "STRING",
+  "metadata" : "OBJECT",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "routing_number" : "STRING",
+  "identifier" : "STRING",
+  "account_holder_type" : "STRING",
+  "customer" : "STRING",
+  "currency" : "STRING",
+  "object" : "NULL",
+  "v_country" : "STRING",
+  "v_last4" : "STRING",
+  "temperature_c" : 279.89,
+  "fingerprint" : "STRING"
+}

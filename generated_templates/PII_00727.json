@@ -1,0 +1,35 @@
+{
+  "registrants" : [ {
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "address_data" : "PII_ADDRESS_LINE",
+    "no_of_employees" : "STRING",
+    "comments" : "NULL",
+    "custom_questions_data" : [ {
+      "value" : "STRING",
+      "title" : "STRING",
+      "cpu_usage_percent" : 840.02
+    }, {
+      "title_data" : "STRING",
+      "value_data" : "STRING",
+      "item_count" : 3077
+    } ],
+    "v_status" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_job_title" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "zip" : "STRING",
+    "org_data" : "PII_ORGANIZATION_NAME",
+    "identifier" : "STRING",
+    "v_purchasing_time_frame" : "STRING",
+    "v_create_time" : "DATETIME",
+    "email" : "PII_EMAIL",
+    "industry_data" : "STRING",
+    "mobile" : "PII_PHONE_NUMBER",
+    "state" : "PII_LOCATION_STATE",
+    "last_name" : "PII_PERSON_LAST_NAME"
+  } ],
+  "page_number_data" : "INT",
+  "total_records_data" : "INT",
+  "page_size_data" : "INT",
+  "page_count" : "INT"
+}

@@ -1,0 +1,32 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "STRING",
+    "v_key" : "STRING",
+    "is_active" : true,
+    "count" : "INT"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT"
+  }, {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "priority_level" : 4023,
+    "count" : "INT"
+  } ]
+}, {
+  "facets" : [ {
+    "count_data" : "INT",
+    "displayName" : "NULL",
+    "key" : "STRING"
+  }, {
+    "v_count" : "INT",
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "v_key" : "STRING",
+    "is_active" : true,
+    "clientName" : "STRING"
+  } ]
+} ]

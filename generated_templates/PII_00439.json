@@ -1,0 +1,39 @@
+{
+  "name" : [ {
+    "v_use" : "STRING",
+    "v_family" : "PII_PERSON_LAST_NAME",
+    "temperature_c" : 902.76,
+    "v_given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "gender" : "STRING",
+  "uuid" : null,
+  "resourceType" : "STRING",
+  "primaryKey" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "use" : "NULL",
+    "system" : "URL",
+    "auto_renew" : true,
+    "type_data" : {
+      "text" : "STRING"
+    }
+  } ],
+  "telecom" : [ {
+    "value" : "PII_PHONE_NUMBER",
+    "system" : "STRING",
+    "page_index" : 4737,
+    "use" : "STRING"
+  }, {
+    "value" : "PII_EMAIL",
+    "page_index" : 2678,
+    "v_system" : "NULL"
+  } ],
+  "meta" : {
+    "versionId" : "INT"
+  },
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "address" : [ {
+    "city" : "PII_LOCATION_CITY",
+    "line_data" : [ "PII_ADDRESS_LINE" ],
+    "v_country" : "PII_LOCATION_COUNTRY"
+  } ]
+}

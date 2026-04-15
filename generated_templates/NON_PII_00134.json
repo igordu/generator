@@ -1,0 +1,19 @@
+{
+  "uuid" : "STRING",
+  "v_media" : {
+    "is_active" : true,
+    "images" : [ {
+      "largeUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "type" : "STRING",
+      "largeHdUrl_data" : "URL",
+      "smallUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "v_orderNumber" : "INT"
+    } ]
+  },
+  "id" : "STRING",
+  "clientName" : "STRING",
+  "v_shopUrl" : "NULL"
+}

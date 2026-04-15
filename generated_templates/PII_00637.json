@@ -1,0 +1,45 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "Employees" : [ {
+      "EmployeeID" : "STRING",
+      "UpdatedDateUTC_data" : "DATETIME",
+      "Status" : "STRING",
+      "FirstName" : "PII_PERSON_FIRST_NAME",
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "v_ExternalLink" : {
+        "Description" : "STRING",
+        "stock_quantity" : 3680
+      }
+    }, {
+      "Status" : "",
+      "userName" : "PII_PERSON_FIRST_NAME",
+      "ExternalLink" : {
+        "Description" : "STRING",
+        "v_Url" : "URL"
+      },
+      "identifier" : "STRING",
+      "v_UpdatedDateUTC" : "DATETIME",
+      "retry_attempts" : 1792
+    }, {
+      "EmployeeID" : "STRING",
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "UpdatedDateUTC" : "DATETIME",
+      "ExternalLink" : {
+        "Description" : "STRING",
+        "Url" : "URL",
+        "system_ping_ms" : 2451
+      },
+      "FirstName" : "PII_PERSON_FIRST_NAME",
+      "temperature_c" : 375.24,
+      "Status" : "STRING"
+    } ],
+    "Status" : "STRING",
+    "ProviderName" : "STRING",
+    "DateTimeUTC" : "DATETIME",
+    "uuid" : "STRING"
+  }
+}

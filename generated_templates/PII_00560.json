@@ -1,0 +1,38 @@
+{
+  "system_state" : {
+    "request_context" : {
+      "raw_data" : {
+        "transactions" : {
+          "booked" : [ {
+            "bookingDate" : "DATE",
+            "primaryKey" : "STRING",
+            "valueDate" : "DATE",
+            "conversion_rate" : 239.21,
+            "debtorAccount" : {
+              "iban_data" : "STRING"
+            },
+            "creditorAccount_data" : {
+              "iban" : "PII_IBAN",
+              "response_time_sec" : 799.36
+            },
+            "debtorName" : "STRING",
+            "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+            "creditorName" : "PII_PERSON_NAME",
+            "amount" : {
+              "currency_data" : "NULL",
+              "requires_update" : true
+            },
+            "bankTransactionCode" : {
+              "subFamily" : "NULL",
+              "auto_renew" : false,
+              "family" : "STRING",
+              "domain_data" : "STRING"
+            }
+          } ],
+          "stock_quantity" : 285
+        },
+        "cache_hit" : true
+      }
+    }
+  }
+}

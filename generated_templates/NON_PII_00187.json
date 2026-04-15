@@ -1,0 +1,20 @@
+{
+  "media" : {
+    "images" : [ {
+      "smallHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "type" : "STRING",
+      "orderNumber" : "INT",
+      "v_largeHdUrl" : "URL",
+      "largeUrl_data" : "URL",
+      "mediumUrl" : "URL",
+      "smallUrl" : "URL",
+      "mediumHdUrl" : "URL"
+    } ]
+  },
+  "stock_quantity" : 2712,
+  "shopUrl_data" : "URL",
+  "id" : "STRING",
+  "modelId" : "STRING",
+  "name" : "STRING"
+}

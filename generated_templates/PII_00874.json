@@ -1,0 +1,73 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "schedule_meeting" : {
+      "meeting_password_requirement" : {
+        "conversion_rate" : 286.31,
+        "only_allow_numeric" : "BOOLEAN",
+        "v_have_special_character" : "BOOLEAN",
+        "have_number" : "BOOLEAN",
+        "have_letter" : "BOOLEAN"
+      },
+      "participants_video" : "BOOLEAN",
+      "force_pmi_jbh_password" : "BOOLEAN",
+      "primaryKey" : "BOOLEAN",
+      "pmi_password" : "PII_PASSWORD",
+      "audio_type" : "STRING",
+      "use_pmi_for_instant_meetings" : "BOOLEAN",
+      "embed_password_in_join_link" : "BOOLEAN",
+      "require_password_for_scheduling_new_meetings" : "BOOLEAN",
+      "require_password_for_pmi_meetings_data" : "STRING",
+      "join_before_host" : "BOOLEAN"
+    },
+    "item_count" : 3215,
+    "telephony" : {
+      "audio_conference_info" : "STRING",
+      "show_international_numbers_link" : "BOOLEAN",
+      "third_party_audio" : "BOOLEAN",
+      "page_index" : 2933
+    },
+    "tsp" : {
+      "auto_renew" : true,
+      "call_out_countries" : "ARRAY",
+      "show_international_numbers_link" : "BOOLEAN",
+      "call_out" : "BOOLEAN"
+    },
+    "email_notification" : {
+      "item_count" : 1137,
+      "alternative_host_reminder_data" : "BOOLEAN",
+      "schedule_for_reminder" : "BOOLEAN",
+      "jbh_reminder" : "BOOLEAN"
+    },
+    "feature" : {
+      "meeting_capacity" : "INT",
+      "large_meeting" : "BOOLEAN",
+      "cn_meeting" : "BOOLEAN",
+      "webinar_data" : "NULL",
+      "zoom_phone" : "BOOLEAN",
+      "in_meeting" : "BOOLEAN"
+    },
+    "recording" : {
+      "record_gallery_view" : "BOOLEAN",
+      "auto_recording" : "STRING",
+      "auto_delete_cmr" : "BOOLEAN",
+      "record_audio_file" : "BOOLEAN",
+      "local_recording" : "BOOLEAN",
+      "v_save_chat_text" : "BOOLEAN",
+      "http_status" : 1067,
+      "cloud_recording" : "BOOLEAN",
+      "recording_password_requirement_data" : {
+        "page_index" : 1895,
+        "only_allow_numeric" : "BOOLEAN",
+        "have_letter" : "BOOLEAN",
+        "have_special_character" : "BOOLEAN",
+        "length" : "INT",
+        "v_have_number" : "BOOLEAN"
+      },
+      "recording_audio_transcript" : "BOOLEAN",
+      "show_timestamp_data" : "BOOLEAN",
+      "record_speaker_view" : "BOOLEAN"
+    }
+  }
+}

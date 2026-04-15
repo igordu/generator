@@ -1,0 +1,42 @@
+{
+  "identifier" : [ {
+    "system" : "URL",
+    "value" : "PII_NATIONAL_ID",
+    "is_active" : false,
+    "v_type" : {
+      "auto_renew" : false,
+      "text_data" : "STRING"
+    },
+    "use" : "STRING"
+  } ],
+  "resourceType" : "STRING",
+  "meta" : {
+    "lastUpdated_data" : "DATETIME",
+    "versionId" : "INT"
+  },
+  "telecom_data" : [ {
+    "use" : "STRING",
+    "system" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  }, {
+    "page_index" : 4917,
+    "system" : "STRING",
+    "v_value" : "PII_EMAIL"
+  } ],
+  "gender" : "STRING",
+  "address" : [ {
+    "city" : "PII_LOCATION_CITY",
+    "response_time_sec" : 996.63,
+    "use" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "line_data" : [ "PII_ADDRESS_LINE" ]
+  } ],
+  "name" : [ {
+    "conversion_rate" : 28.63,
+    "family" : "PII_PERSON_LAST_NAME",
+    "use" : "STRING",
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "has_discount" : true,
+  "birthDate" : "PII_DATE_OF_BIRTH"
+}

@@ -1,0 +1,15 @@
+[ {
+  "filter" : "STRING",
+  "is_active" : false
+}, {
+  "cache_hit" : false,
+  "facets_data" : [ {
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "key_data" : "STRING",
+    "displayName" : "STRING",
+    "count" : "INT"
+  } ],
+  "filter" : "STRING"
+} ]

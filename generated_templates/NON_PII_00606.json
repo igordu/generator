@@ -1,0 +1,22 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "taxDepreciationSettings" : "ARRAY",
+      "recordId" : null,
+      "assetTypeId" : "STRING",
+      "lockPrivateUseAccount" : "BOOLEAN",
+      "page_index" : 3228,
+      "bookDepreciationSetting" : {
+        "averagingMethod" : "NULL",
+        "depreciationCalculationMethod" : "STRING",
+        "cache_hit" : false,
+        "depreciableObjectId" : "STRING",
+        "bookEffectiveDateOfChangeId" : null,
+        "v_depreciationRate" : "DECIMAL",
+        "depreciableObjectType" : "STRING"
+      },
+      "assetTypeName" : "STRING",
+      "locks" : "INT"
+    } ]
+  }
+}

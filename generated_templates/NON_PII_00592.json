@@ -1,0 +1,44 @@
+[ {
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount_data" : "INT"
+  },
+  "name" : "STRING",
+  "style" : "STRING",
+  "simplified" : "BOOLEAN",
+  "id" : "STRING",
+  "self" : "URL",
+  "v_key" : "STRING",
+  "avatarUrls" : {
+    "16x16_data" : "URL",
+    "item_count" : 1609,
+    "48x48" : "URL"
+  },
+  "v_projectCategory" : {
+    "description" : "STRING",
+    "recordId" : "STRING",
+    "name" : "STRING",
+    "self" : "URL",
+    "requires_update" : true
+  }
+}, {
+  "projectCategory" : {
+    "userName" : "STRING",
+    "description_data" : "STRING",
+    "item_count" : 627,
+    "id" : null
+  },
+  "primaryKey" : "STRING",
+  "userName" : "STRING",
+  "avatarUrls" : {
+    "v_16x16" : "URL",
+    "32x32" : "URL",
+    "24x24" : "URL",
+    "48x48" : "URL"
+  },
+  "simplified" : "BOOLEAN",
+  "self" : "URL",
+  "style" : "STRING",
+  "key" : "STRING",
+  "is_active" : true
+} ]

@@ -1,0 +1,19 @@
+{
+  "id" : "STRING",
+  "media" : {
+    "images" : [ {
+      "type" : "STRING",
+      "orderNumber" : "INT",
+      "mediumHdUrl" : "URL",
+      "v_smallUrl" : "URL",
+      "mediumUrl" : null,
+      "system_ping_ms" : 2842,
+      "thumbnailHdUrl" : null,
+      "largeUrl" : "URL"
+    } ],
+    "discount_rate" : 767.31
+  },
+  "cache_hit" : false,
+  "modelId" : "STRING",
+  "shopUrl_data" : "URL"
+}

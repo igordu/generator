@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "object" : "STRING",
+    "url" : "URL",
+    "v_has_more" : "BOOLEAN",
+    "data" : [ {
+      "invoice_settings" : {
+        "rendering_options" : "NULL",
+        "v_custom_fields" : "NULL",
+        "footer" : "STRING",
+        "default_payment_method" : "STRING"
+      },
+      "invoice_prefix" : "STRING",
+      "object" : "STRING",
+      "created_data" : "DATETIME_EPOCH",
+      "balance" : "INT",
+      "address_data" : "NULL",
+      "metadata" : "OBJECT",
+      "livemode" : "BOOLEAN",
+      "v_description" : "STRING",
+      "contactEmail" : "PII_EMAIL",
+      "default_source" : "STRING",
+      "primaryKey" : "STRING",
+      "v_currency" : "STRING",
+      "v_next_invoice_sequence" : "INT",
+      "shipping" : "NULL",
+      "delinquent" : "BOOLEAN",
+      "tax_exempt" : "STRING",
+      "preferred_locales_data" : "ARRAY",
+      "test_clock" : "NULL",
+      "cell" : "PII_PHONE_NUMBER",
+      "fullName" : "PII_PERSON_NAME"
+    } ]
+  }
+}

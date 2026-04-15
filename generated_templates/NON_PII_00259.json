@@ -1,0 +1,26 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "key" : "STRING",
+    "is_deleted" : true,
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "cpu_usage_percent" : 700.59,
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "response_time_sec" : 934.76,
+    "key" : "",
+    "displayName" : "STRING"
+  } ]
+}, {
+  "requires_update" : true,
+  "filter" : "STRING",
+  "v_facets" : [ {
+    "count_data" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "discount_rate" : 304.86
+  } ]
+} ]

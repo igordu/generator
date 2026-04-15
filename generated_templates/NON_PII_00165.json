@@ -1,0 +1,23 @@
+{
+  "audit_trail" : {
+    "request_context" : {
+      "raw_data" : {
+        "modelId" : "STRING",
+        "shopUrl" : "URL",
+        "id" : "STRING",
+        "media" : {
+          "images_data" : [ {
+            "smallHdUrl_data" : "URL",
+            "thumbnailHdUrl" : "URL",
+            "largeUrl" : "URL",
+            "v_mediumUrl" : "URL",
+            "mediumHdUrl" : "URL",
+            "v_type" : "STRING"
+          } ],
+          "is_deleted" : true
+        },
+        "name" : "STRING"
+      }
+    }
+  }
+}

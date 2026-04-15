@@ -1,0 +1,21 @@
+{
+  "content_data" : [ {
+    "description" : "STRING",
+    "v_articleSizeRatings" : {
+      "item_count" : 2761,
+      "OVERALL" : "INT"
+    },
+    "requires_update" : false,
+    "title" : "PII_COMPANY_NAME",
+    "rating" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "created" : "DATETIME",
+    "primaryKey" : "STRING",
+    "articleModelId" : "STRING",
+    "unhelpfulCount" : "INT",
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "language_data" : "STRING",
+    "recommend_data" : "BOOLEAN",
+    "articleId" : null
+  } ]
+}

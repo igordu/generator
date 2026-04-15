@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "account_holder_name" : "PII_PERSON_NAME",
+    "object" : "STRING",
+    "id" : "STRING",
+    "currency" : "STRING",
+    "fingerprint_data" : "STRING",
+    "status" : "STRING",
+    "country" : "STRING",
+    "customer" : "STRING",
+    "bank_name" : "STRING",
+    "priority_level" : 2811,
+    "last4" : "STRING",
+    "metadata" : "OBJECT",
+    "routing_number" : "STRING",
+    "v_account_holder_type" : null,
+    "account_type" : "STRING"
+  }
+}

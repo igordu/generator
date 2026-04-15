@@ -1,0 +1,13 @@
+{
+  "tree" : {
+    "url" : "URL",
+    "sha" : "STRING"
+  },
+  "v_user_info" : {
+    "fullName" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "name_val" : "PII_LAST_NAME_MALE",
+    "discount_rate" : 921.51
+  },
+  "active" : "BOOLEAN"
+}

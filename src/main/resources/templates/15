@@ -1,0 +1,40 @@
+{
+  "page_count": "INT",
+  "page_number": "INT",
+  "page_size": "INT",
+  "registrants": [
+    {
+      "address": "PII_ADDRESS_LINE",
+      "city": "PII_LOCATION_CITY",
+      "comments": "STRING",
+      "country": "PII_LOCATION_COUNTRY",
+      "create_time": "DATETIME",
+      "custom_questions": [
+        {
+          "title": "STRING",
+          "value": "STRING"
+        },
+        {
+          "title": "STRING",
+          "value": "STRING"
+        }
+      ],
+      "email": "PII_EMAIL",
+      "first_name": "PII_PERSON_FIRST_NAME",
+      "id": "STRING",
+      "industry": "STRING",
+      "job_title": "STRING",
+      "join_url": "URL",
+      "last_name": "PII_PERSON_LAST_NAME",
+      "no_of_employees": "STRING",
+      "org": "PII_ORGANIZATION_NAME",
+      "phone": "PII_PHONE_NUMBER",
+      "purchasing_time_frame": "STRING",
+      "role_in_purchase_process": "STRING",
+      "state": "PII_LOCATION_STATE",
+      "status": "STRING",
+      "zip": "STRING"
+    }
+  ],
+  "total_records": "INT"
+}

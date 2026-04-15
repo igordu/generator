@@ -1,0 +1,9 @@
+{
+  "user_info" : {
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "auto_renew" : false,
+    "arline__name" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  },
+  "active" : "BOOLEAN"
+}

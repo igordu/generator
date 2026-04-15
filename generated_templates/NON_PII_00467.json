@@ -1,0 +1,5 @@
+{
+  "v_clientToken" : "STRING",
+  "clientName" : "STRING",
+  "cpu_usage_percent" : 125.15
+}

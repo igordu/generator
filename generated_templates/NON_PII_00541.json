@@ -1,0 +1,45 @@
+[ {
+  "simplified" : "BOOLEAN",
+  "key" : "STRING",
+  "avatarUrls" : {
+    "48x48" : "URL",
+    "v_24x24" : "URL",
+    "16x16" : "URL",
+    "v_32x32" : "URL"
+  },
+  "id" : "STRING",
+  "style_data" : "STRING",
+  "name_val" : "STRING",
+  "projectCategory" : {
+    "name" : "STRING",
+    "temperature_c" : 754.76,
+    "self" : "URL",
+    "id" : "STRING",
+    "description_data" : "STRING"
+  }
+}, {
+  "id" : "STRING",
+  "style" : "STRING",
+  "simplified" : "BOOLEAN",
+  "key_data" : "STRING",
+  "self" : "URL",
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "page_index" : 1146,
+    "totalIssueCount" : "INT"
+  },
+  "projectCategory_data" : {
+    "self_data" : "URL",
+    "name" : "STRING",
+    "page_index" : 4464,
+    "description_data" : "STRING"
+  },
+  "name_val" : "STRING",
+  "avatarUrls" : {
+    "item_count" : 4074,
+    "24x24" : "URL",
+    "32x32" : "URL",
+    "16x16" : "URL",
+    "48x48_data" : "URL"
+  }
+} ]

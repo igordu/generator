@@ -1,0 +1,34 @@
+[ {
+  "filter" : "STRING",
+  "http_status" : 4500
+}, {
+  "retry_attempts" : 616,
+  "facets" : [ {
+    "count" : "INT",
+    "key_data" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "temperature_c" : 381.16
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "fullName" : "STRING",
+    "retry_attempts" : 3782
+  } ]
+}, {
+  "facets" : [ {
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key_data" : "STRING",
+    "count_data" : "INT"
+  } ],
+  "filter_data" : "STRING"
+} ]

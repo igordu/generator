@@ -1,0 +1,21 @@
+{
+  "cpu_usage_percent" : 444.71,
+  "content" : [ {
+    "created" : "DATETIME",
+    "helpfulCount" : "INT",
+    "articleSizeRatings_data" : {
+      "primaryKey" : "INT",
+      "OVERALL" : "INT"
+    },
+    "language" : "",
+    "unhelpfulCount" : "INT",
+    "title_data" : "PII_COMPANY_NAME",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "recordId" : "STRING",
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "primaryKey" : "STRING",
+    "rating" : "NULL",
+    "recommend_data" : "BOOLEAN",
+    "reviewId" : "STRING"
+  } ]
+}

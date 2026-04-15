@@ -1,0 +1,29 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "telemetry_data" : {
+        "event_data" : {
+          "body" : [ {
+            "assetTypeName" : "STRING",
+            "v_taxDepreciationSettings" : "ARRAY",
+            "accumulatedDepreciationAccountId" : "STRING",
+            "lockPrivateUseAccount" : "BOOLEAN",
+            "locks" : "INT",
+            "assetTypeId" : "STRING",
+            "response_time_sec" : 219.81,
+            "bookDepreciationSetting_data" : {
+              "depreciableObjectType" : "STRING",
+              "depreciationCalculationMethod_data" : "STRING",
+              "depreciableObjectId" : "STRING",
+              "averagingMethod" : "STRING",
+              "v_depreciationMethod" : "STRING",
+              "depreciationRate" : "NULL",
+              "recordId" : ""
+            },
+            "fixedAssetAccountId" : "STRING"
+          } ]
+        }
+      }
+    }
+  }
+}

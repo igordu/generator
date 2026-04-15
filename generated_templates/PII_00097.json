@@ -1,0 +1,21 @@
+{
+  "content" : [ {
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "reviewId" : "STRING",
+    "articleSizeRatings" : {
+      "system_ping_ms" : 3992,
+      "SHOE_WIDTH" : "INT",
+      "OVERALL_data" : "INT"
+    },
+    "articleModelId" : "STRING",
+    "unhelpfulCount" : "INT",
+    "title" : "PII_COMPANY_NAME",
+    "v_language" : "STRING",
+    "description" : "STRING",
+    "rating" : "INT",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "helpfulCount" : "INT",
+    "created" : "DATETIME"
+  } ],
+  "requires_update" : true
+}

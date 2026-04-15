@@ -1,0 +1,19 @@
+{
+  "cpu_usage_percent" : 222.34,
+  "content" : [ {
+    "title_data" : "PII_COMPANY_NAME",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "primaryKey" : "STRING",
+    "description" : "STRING",
+    "language" : "STRING",
+    "v_rating" : "",
+    "reviewId" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "articleId" : "STRING",
+    "has_discount" : false,
+    "v_created" : "DATETIME",
+    "recommend" : "NULL",
+    "v_unhelpfulCount" : "INT",
+    "helpfulCount" : "INT"
+  } ]
+}

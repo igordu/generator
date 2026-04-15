@@ -1,0 +1,14 @@
+{
+  "numberOfUserReviews_data" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "averageStarRating" : "INT",
+  "auto_renew" : false,
+  "v_starRatingDistribution" : {
+    "2" : "INT",
+    "4" : "INT",
+    "1" : "INT",
+    "3" : "",
+    "v_5" : "INT",
+    "is_active" : true
+  }
+}

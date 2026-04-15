@@ -1,0 +1,77 @@
+[ {
+  "sha" : "STRING",
+  "comments_url" : "URL",
+  "author" : {
+    "events_url" : "URL",
+    "avatar_url" : "URL",
+    "v_followers_url" : "URL",
+    "id" : "INT",
+    "starred_url_data" : "URL",
+    "received_events_url" : "URL",
+    "subscriptions_url" : "URL",
+    "gists_url" : "URL",
+    "login" : "STRING",
+    "url" : "URL",
+    "node_id" : "STRING",
+    "html_url" : "URL",
+    "organizations_url" : "URL",
+    "site_admin" : "BOOLEAN",
+    "v_repos_url" : "URL"
+  },
+  "v_url" : "URL",
+  "price" : 699.5,
+  "html_url" : "URL",
+  "committer" : {
+    "login" : "",
+    "repos_url" : "URL",
+    "url" : "NULL",
+    "gists_url" : "URL",
+    "stock_quantity" : 3931,
+    "primaryKey" : "STRING",
+    "html_url_data" : "URL",
+    "events_url_data" : "URL",
+    "id" : "INT",
+    "following_url" : "URL",
+    "uuid" : "STRING",
+    "v_type" : "STRING",
+    "site_admin" : "BOOLEAN",
+    "organizations_url" : "URL",
+    "starred_url" : "URL",
+    "received_events_url" : null,
+    "followers_url" : "URL",
+    "avatar_url" : "URL"
+  },
+  "node_id" : "STRING",
+  "commit" : {
+    "message" : "PII_COMPANY_NAME",
+    "comment_count_data" : "INT",
+    "committer" : {
+      "email" : "PII_EMAIL",
+      "has_discount" : true,
+      "date" : "DATETIME",
+      "userName" : "PII_PERSON_NAME"
+    },
+    "author" : {
+      "date_data" : "DATETIME",
+      "email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "url_data" : "URL",
+    "v_tree" : {
+      "url" : "URL",
+      "sha" : "STRING"
+    },
+    "verification_data" : {
+      "v_reason" : "STRING",
+      "verified_at" : "DATETIME",
+      "payload" : "STRING",
+      "verified" : "BOOLEAN",
+      "signature_data" : "STRING"
+    }
+  },
+  "parents_data" : [ {
+    "auto_renew" : true,
+    "url" : "URL",
+    "sha" : "STRING"
+  } ]
+} ]

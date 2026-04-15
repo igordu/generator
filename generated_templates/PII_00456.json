@@ -1,0 +1,37 @@
+{
+  "name" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "use" : "STRING",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "v_meta" : {
+    "primaryKey" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "gender_data" : "STRING",
+  "address" : [ {
+    "use" : "STRING",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "line" : [ "PII_ADDRESS_LINE" ]
+  } ],
+  "identifier" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "v_use" : "STRING",
+    "system_data" : "URL",
+    "type" : {
+      "text" : "STRING"
+    }
+  } ],
+  "telecom" : [ {
+    "value" : "PII_EMAIL"
+  }, {
+    "value_data" : "PII_PHONE_NUMBER",
+    "system" : "STRING",
+    "cache_hit" : true,
+    "use" : "STRING"
+  } ],
+  "resourceType" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "uuid" : "STRING"
+}

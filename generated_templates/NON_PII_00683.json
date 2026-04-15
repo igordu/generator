@@ -1,0 +1,38 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "bookDepreciationSetting" : {
+      "averagingMethod" : "STRING",
+      "depreciableObjectType" : "STRING",
+      "bookEffectiveDateOfChangeId" : "STRING",
+      "depreciationMethod" : "STRING",
+      "v_depreciationRate" : "DECIMAL"
+    },
+    "locks" : "INT",
+    "depreciationExpenseAccountId" : "STRING",
+    "accumulatedDepreciationAccountId" : "STRING",
+    "assetTypeId" : "STRING",
+    "cpu_usage_percent" : 274.69,
+    "fixedAssetAccountId" : "",
+    "assetTypeName" : "STRING",
+    "taxDepreciationSettings" : "ARRAY"
+  }, {
+    "bookDepreciationSetting_data" : {
+      "uuid" : "STRING",
+      "depreciationCalculationMethod_data" : "STRING",
+      "recordId" : "STRING",
+      "depreciableObjectType" : "STRING",
+      "depreciationMethod" : "STRING"
+    },
+    "v_locks" : "INT",
+    "priority_level" : 2677,
+    "assetTypeName" : "STRING",
+    "taxDepreciationSettings" : "ARRAY",
+    "uuid" : "NULL",
+    "depreciationExpenseAccountId" : "STRING",
+    "accumulatedDepreciationAccountId" : "STRING"
+  } ]
+}

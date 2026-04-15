@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "filter" : "STRING",
+    "requires_update" : false,
+    "facets" : [ {
+      "displayName" : "STRING",
+      "item_count" : 3258,
+      "key" : "STRING",
+      "count" : "INT"
+    }, {
+      "count" : "INT",
+      "v_key" : "STRING"
+    }, {
+      "key" : "STRING",
+      "count_data" : "INT",
+      "displayName" : "STRING"
+    } ]
+  }, {
+    "facets" : [ {
+      "displayName" : "STRING",
+      "v_key" : "STRING",
+      "count" : "INT"
+    }, {
+      "key" : "STRING",
+      "priority_level" : 1117,
+      "count" : "INT"
+    }, {
+      "key" : "STRING",
+      "userName" : "STRING",
+      "count" : "INT"
+    } ],
+    "auto_renew" : true,
+    "filter" : "STRING"
+  } ]
+}

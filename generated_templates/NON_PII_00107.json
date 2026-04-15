@@ -1,0 +1,20 @@
+{
+  "name" : "STRING",
+  "shopUrl" : null,
+  "modelId" : "STRING",
+  "media" : {
+    "images" : [ {
+      "mediumHdUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "orderNumber" : "",
+      "v_smallUrl" : "URL",
+      "v_mediumUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "thumbnailHdUrl_data" : "URL",
+      "largeUrl" : "URL",
+      "v_type" : "STRING"
+    } ],
+    "auto_renew" : false
+  },
+  "id" : "STRING"
+}

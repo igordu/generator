@@ -1,0 +1,34 @@
+{
+  "telemetry_data" : {
+    "request_context" : {
+      "debug_payload" : {
+        "v_transactions" : {
+          "booked_data" : [ {
+            "creditorAccount" : {
+              "iban" : "PII_IBAN",
+              "response_time_sec" : 988.29
+            },
+            "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+            "v_bookingDate" : "DATE",
+            "bankTransactionCode" : {
+              "family" : "STRING",
+              "domain_data" : "STRING",
+              "subFamily" : "STRING",
+              "page_index" : 2869
+            },
+            "identifier" : "STRING",
+            "creditorName" : "PII_PERSON_NAME",
+            "amount" : {
+              "currency" : "STRING",
+              "amount" : "DECIMAL"
+            },
+            "valueDate" : "DATE",
+            "page_index" : 2013
+          } ],
+          "discount_rate" : 872.0
+        },
+        "temperature_c" : 631.19
+      }
+    }
+  }
+}

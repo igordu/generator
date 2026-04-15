@@ -1,0 +1,29 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "item_count" : 4533,
+        "family" : "STRING",
+        "subFamily" : "STRING"
+      },
+      "clientName" : "PII_PERSON_NAME",
+      "transactionId" : "STRING",
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "userName" : "STRING",
+      "bookingDate" : "DATE",
+      "amount" : {
+        "v_currency" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "valueDate" : "DATE",
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "conversion_rate" : 267.73,
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "price" : 940.55,
+  "content" : [ {
+    "reviewId" : "STRING",
+    "recommend_data" : "BOOLEAN",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "helpfulCount" : "INT",
+    "v_unhelpfulCount" : "INT",
+    "articleSizeRatings_data" : {
+      "SHOE_WIDTH" : "",
+      "OVERALL" : "INT"
+    },
+    "created" : "DATETIME",
+    "v_title" : "PII_COMPANY_NAME",
+    "v_rating" : "INT",
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "description" : "STRING",
+    "articleModelId" : "STRING",
+    "articleId" : "STRING",
+    "is_active" : false,
+    "language" : "STRING"
+  } ]
+}

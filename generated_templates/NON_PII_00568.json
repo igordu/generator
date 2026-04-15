@@ -1,0 +1,52 @@
+{
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "raw_data" : [ {
+        "key" : "STRING",
+        "simplified" : "BOOLEAN",
+        "projectCategory" : {
+          "self" : null,
+          "name" : "STRING",
+          "id" : "STRING"
+        },
+        "v_self" : "URL",
+        "auto_renew" : true,
+        "userName" : "STRING",
+        "style" : "STRING",
+        "insight" : {
+          "totalIssueCount" : "INT",
+          "lastIssueUpdateTime" : "DATETIME"
+        },
+        "avatarUrls_data" : {
+          "discount_rate" : 998.91,
+          "48x48_data" : "URL",
+          "v_24x24" : "NULL",
+          "16x16" : "URL"
+        }
+      }, {
+        "projectCategory" : {
+          "userName" : "STRING",
+          "description" : "STRING",
+          "self" : "URL",
+          "conversion_rate" : 380.47,
+          "id" : "STRING"
+        },
+        "id" : "STRING",
+        "style" : "STRING",
+        "v_key" : "STRING",
+        "insight" : {
+          "totalIssueCount" : "INT",
+          "lastIssueUpdateTime" : "NULL"
+        },
+        "self" : "URL",
+        "name_val" : "STRING",
+        "v_avatarUrls" : {
+          "v_16x16" : "URL",
+          "48x48" : "URL",
+          "v_32x32" : "URL",
+          "24x24" : "URL"
+        }
+      } ]
+    }
+  }
+}

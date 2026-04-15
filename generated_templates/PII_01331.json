@@ -1,0 +1,13 @@
+{
+  "tree" : {
+    "sha" : "STRING",
+    "url" : "URL"
+  },
+  "user_info" : {
+    "temperature_c" : 988.33,
+    "arline__name" : "PII_COMPANY_NAME",
+    "fullName" : "PII_LAST_NAME_MALE",
+    "clientName" : "PII_FIRST_NAME_FEMALE"
+  },
+  "v_active" : "BOOLEAN"
+}

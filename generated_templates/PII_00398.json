@@ -1,0 +1,39 @@
+{
+  "v_telecom" : [ {
+    "value" : "PII_EMAIL",
+    "conversion_rate" : 25.32,
+    "system" : "STRING"
+  }, {
+    "auto_renew" : true,
+    "value" : "PII_PHONE_NUMBER",
+    "system" : "STRING"
+  } ],
+  "gender_data" : "STRING",
+  "meta" : {
+    "versionId" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "fullName" : [ {
+    "v_family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING"
+  } ],
+  "address" : [ {
+    "use" : "STRING",
+    "line_data" : [ "PII_ADDRESS_LINE" ],
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY"
+  } ],
+  "response_time_sec" : 319.81,
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "resourceType" : "STRING",
+  "identifier" : [ {
+    "value_data" : "PII_NATIONAL_ID",
+    "type" : {
+      "item_count" : 1455,
+      "text" : "STRING"
+    },
+    "use" : "STRING",
+    "system" : "URL"
+  } ]
+}

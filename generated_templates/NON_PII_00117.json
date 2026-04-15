@@ -1,0 +1,8 @@
+{
+  "clientName" : "STRING",
+  "media" : {
+    "auto_renew" : true
+  },
+  "shopUrl" : "URL",
+  "uuid" : "STRING"
+}

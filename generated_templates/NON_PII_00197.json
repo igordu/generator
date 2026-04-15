@@ -1,0 +1,17 @@
+{
+  "name" : "STRING",
+  "primaryKey" : "STRING",
+  "shopUrl" : "URL",
+  "media" : {
+    "v_images" : [ {
+      "mediumUrl_data" : "URL",
+      "largeHdUrl_data" : "URL",
+      "mediumHdUrl_data" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "smallUrl" : "URL",
+      "smallHdUrl" : "NULL",
+      "orderNumber" : "INT",
+      "type" : "STRING"
+    } ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "active" : "",
+    "v_user_info" : {
+      "has_discount" : true,
+      "arline__name" : "PII_COMPANY_NAME",
+      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+      "family-name-male" : "PII_LAST_NAME_MALE"
+    },
+    "v_tree" : {
+      "url" : "URL",
+      "sha" : "STRING"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "discount_rate" : 503.03,
+  "userName" : "STRING",
+  "Id" : "STRING",
+  "Status_data" : "NULL",
+  "Employees" : [ {
+    "EmployeeID" : "STRING",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "Status" : "STRING",
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "Url" : "URL"
+    },
+    "UpdatedDateUTC_data" : "DATETIME"
+  }, {
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "identifier" : "STRING",
+    "v_ExternalLink" : {
+      "Description" : "STRING",
+      "Url" : "URL"
+    }
+  }, {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "ExternalLink" : {
+      "Url" : "URL",
+      "Description" : "STRING",
+      "price" : 526.09
+    },
+    "Status" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "recordId" : "STRING"
+  } ]
+}

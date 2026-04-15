@@ -1,0 +1,6 @@
+{
+  "modelId" : "STRING",
+  "name" : "STRING",
+  "id" : "NULL",
+  "shopUrl" : "URL"
+}

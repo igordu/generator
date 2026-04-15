@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "system_state" : {
+      "payload_wrapper" : {
+        "extracted_info" : {
+          "customer" : "STRING",
+          "is_deleted" : true,
+          "last4" : "STRING",
+          "id" : "NULL",
+          "fingerprint" : "STRING",
+          "routing_number_data" : "STRING",
+          "country" : "STRING",
+          "object" : "STRING",
+          "bank_name" : "STRING",
+          "name_val" : "PII_PERSON_NAME",
+          "v_metadata" : "OBJECT",
+          "status_data" : "STRING",
+          "v_account_type" : "STRING",
+          "currency" : "STRING"
+        }
+      }
+    }
+  }
+}

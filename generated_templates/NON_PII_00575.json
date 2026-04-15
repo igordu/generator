@@ -1,0 +1,43 @@
+[ {
+  "key" : "STRING",
+  "style" : "STRING",
+  "projectCategory" : {
+    "description" : "STRING",
+    "v_self" : "URL",
+    "name" : "STRING",
+    "id" : "STRING"
+  },
+  "v_simplified" : "BOOLEAN",
+  "priority_level" : 2597,
+  "name" : "STRING",
+  "v_insight" : {
+    "totalIssueCount" : "INT",
+    "v_lastIssueUpdateTime" : "DATETIME",
+    "price" : 718.92
+  },
+  "avatarUrls" : {
+    "16x16" : "NULL",
+    "48x48_data" : "URL",
+    "24x24_data" : "URL",
+    "32x32" : "URL"
+  },
+  "id" : "STRING",
+  "self" : "URL"
+}, {
+  "key" : "STRING",
+  "name" : "STRING",
+  "avatarUrls" : {
+    "48x48" : "URL",
+    "16x16" : "NULL",
+    "cpu_usage_percent" : 9.92,
+    "24x24" : "URL",
+    "32x32" : "URL"
+  },
+  "self" : "NULL",
+  "style" : "STRING",
+  "insight" : {
+    "lastIssueUpdateTime_data" : "",
+    "totalIssueCount" : "INT"
+  },
+  "id" : "STRING"
+} ]

@@ -1,0 +1,17 @@
+{
+  "media_data" : {
+    "images" : [ {
+      "v_type" : "STRING",
+      "largeUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "smallHdUrl_data" : "URL",
+      "mediumUrl" : "URL",
+      "thumbnailHdUrl" : "URL"
+    } ],
+    "system_ping_ms" : 4121
+  },
+  "modelId" : "STRING",
+  "v_shopUrl" : "URL",
+  "name" : "STRING",
+  "id" : "STRING"
+}

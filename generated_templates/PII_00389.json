@@ -1,0 +1,11 @@
+{
+  "system_state" : {
+    "event_data" : {
+      "extracted_info" : {
+        "emailAddress" : "PII_EMAIL",
+        "page_index" : 2722,
+        "primary_email" : [ "STRING" ]
+      }
+    }
+  }
+}

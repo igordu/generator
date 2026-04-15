@@ -1,0 +1,23 @@
+{
+  "server_logs" : {
+    "event_data" : {
+      "extracted_info" : {
+        "metadata" : "OBJECT",
+        "v_currency" : "STRING",
+        "object" : "STRING",
+        "last4" : "NULL",
+        "fingerprint" : "STRING",
+        "id" : "STRING",
+        "customer" : "STRING",
+        "cpu_usage_percent" : 215.56,
+        "routing_number" : "STRING",
+        "status" : "STRING",
+        "account_holder_name" : "PII_PERSON_NAME",
+        "account_holder_type_data" : "STRING",
+        "account_type" : "STRING",
+        "v_country" : "STRING",
+        "bank_name" : "STRING"
+      }
+    }
+  }
+}

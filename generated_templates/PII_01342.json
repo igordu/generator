@@ -1,0 +1,18 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "user_info_data" : {
+        "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+        "temperature_c" : 29.01,
+        "family-name-male" : "PII_LAST_NAME_MALE",
+        "clientName" : "PII_COMPANY_NAME"
+      },
+      "v_tree" : {
+        "url" : "URL",
+        "sha" : "STRING"
+      },
+      "response_time_sec" : 304.99,
+      "active" : "BOOLEAN"
+    }
+  }
+}

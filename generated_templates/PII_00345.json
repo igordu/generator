@@ -1,0 +1,11 @@
+{
+  "telemetry_data" : {
+    "event_data" : {
+      "debug_payload" : {
+        "emailAddress" : "PII_EMAIL",
+        "page_index" : 4214,
+        "emailAddressStatus" : [ "STRING" ]
+      }
+    }
+  }
+}

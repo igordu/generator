@@ -1,0 +1,78 @@
+{
+  "total" : "INT",
+  "transactions_data" : [ {
+    "salesRecordReference_data" : "STRING",
+    "references" : [ {
+      "primaryKey" : "STRING",
+      "conversion_rate" : 638.66,
+      "referenceType" : "STRING"
+    } ],
+    "bookingEntry" : "STRING",
+    "v_transactionMemo" : "NULL",
+    "amount" : {
+      "convertedFromCurrency" : "STRING",
+      "v_exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_value" : "STRING",
+      "currency" : "STRING"
+    },
+    "feeJurisdiction" : {
+      "regionName" : "STRING"
+    },
+    "feeType" : "STRING",
+    "orderId" : "STRING",
+    "transactionStatus_data" : "STRING",
+    "totalFeeBasisAmount" : {
+      "exchangeRate" : "STRING",
+      "value" : "NULL",
+      "convertedFromValue" : "STRING",
+      "cache_hit" : true,
+      "convertedFromCurrency" : "STRING"
+    },
+    "transactionType" : "STRING",
+    "transactionDate_data" : "DATETIME",
+    "orderLineItems_data" : [ {
+      "lineItemId" : "STRING",
+      "feeBasisAmount_data" : {
+        "currency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "exchangeRate" : "STRING"
+      },
+      "marketplaceFees" : [ {
+        "feeType" : "STRING",
+        "feeJurisdiction" : {
+          "fullName" : "STRING",
+          "regionType" : "STRING",
+          "cache_hit" : true
+        },
+        "feeMemo" : "NULL",
+        "amount" : {
+          "v_currency" : "STRING",
+          "convertedFromValue" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "value_data" : "STRING",
+          "v_exchangeRate" : ""
+        }
+      } ]
+    } ],
+    "v_buyer" : {
+      "system_ping_ms" : 441,
+      "username" : "PII_USERNAME"
+    },
+    "paymentsEntity" : "STRING",
+    "totalFeeAmount_data" : {
+      "system_ping_ms" : 2681,
+      "exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "primaryKey" : "STRING",
+    "payoutId" : "STRING"
+  } ],
+  "prev" : "STRING",
+  "href" : "STRING"
+}

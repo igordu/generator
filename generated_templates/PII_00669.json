@@ -1,0 +1,41 @@
+{
+  "http_status" : 2490,
+  "Status_data" : "STRING",
+  "Id" : "STRING",
+  "Employees" : [ {
+    "priority_level" : 2050,
+    "ExternalLink" : {
+      "Url_data" : "URL",
+      "Description" : "STRING"
+    },
+    "Status" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC_data" : "DATETIME"
+  }, {
+    "ExternalLink" : {
+      "auto_renew" : false,
+      "Description" : "STRING",
+      "Url" : "URL"
+    },
+    "system_ping_ms" : 4341,
+    "Status" : "STRING",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "identifier" : "STRING",
+    "UpdatedDateUTC" : "DATETIME"
+  }, {
+    "EmployeeID" : "STRING",
+    "Status" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "system_ping_ms" : 931,
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "v_ExternalLink" : {
+      "Url_data" : "URL",
+      "requires_update" : false
+    }
+  } ],
+  "DateTimeUTC" : "DATETIME",
+  "ProviderName" : "STRING"
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "STRING",
+  "uuid" : "NULL",
+  "discount_rate" : 667.31,
+  "shopUrl" : "URL",
+  "media" : {
+    "images" : [ {
+      "largeUrl" : "URL",
+      "smallUrl_data" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "v_mediumHdUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "orderNumber" : "NULL",
+      "mediumUrl_data" : "URL",
+      "largeHdUrl_data" : "URL",
+      "type_data" : "STRING"
+    } ],
+    "price" : 305.57
+  }
+}

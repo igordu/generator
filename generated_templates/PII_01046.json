@@ -1,0 +1,17 @@
+{
+  "account_holder_name" : "PII_PERSON_NAME",
+  "id" : "STRING",
+  "status" : "STRING",
+  "fingerprint" : "STRING",
+  "last4_data" : "STRING",
+  "v_account_holder_type" : "STRING",
+  "country" : "NULL",
+  "customer_data" : "STRING",
+  "bank_name" : "STRING",
+  "object" : "STRING",
+  "metadata_data" : "OBJECT",
+  "account_type" : "STRING",
+  "currency_data" : "STRING",
+  "routing_number" : "STRING",
+  "requires_update" : true
+}

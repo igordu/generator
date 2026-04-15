@@ -1,0 +1,78 @@
+{
+  "next" : "STRING",
+  "offset" : "INT",
+  "limit" : "INT",
+  "prev" : "STRING",
+  "total" : "INT",
+  "transactions" : [ {
+    "is_active" : true,
+    "primaryKey" : "STRING",
+    "amount" : {
+      "exchangeRate_data" : "STRING",
+      "v_convertedFromValue" : "STRING",
+      "response_time_sec" : 499.15,
+      "currency" : "STRING",
+      "value" : null
+    },
+    "v_paymentsEntity" : "STRING",
+    "bookingEntry" : "STRING",
+    "transactionDate" : "DATETIME",
+    "transactionType" : "STRING",
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "feeJurisdiction" : {
+          "userName" : "STRING",
+          "regionType" : "STRING",
+          "response_time_sec" : 916.07
+        },
+        "feeMemo" : "STRING",
+        "feeType" : "STRING",
+        "amount" : {
+          "exchangeRate" : "STRING",
+          "value" : "STRING",
+          "currency" : "STRING",
+          "v_convertedFromCurrency" : "STRING",
+          "convertedFromValue" : "STRING"
+        }
+      } ],
+      "v_feeBasisAmount" : {
+        "convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "requires_update" : false,
+        "currency_data" : "STRING",
+        "exchangeRate" : "STRING"
+      }
+    } ],
+    "eBayCollectedTaxAmount" : {
+      "exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_currency" : "",
+      "cpu_usage_percent" : 550.76,
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING"
+    },
+    "transactionId" : "STRING",
+    "salesRecordReference_data" : "STRING",
+    "feeType" : "STRING",
+    "totalFeeAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "value" : "STRING",
+      "discount_rate" : 794.89,
+      "exchangeRate" : ""
+    },
+    "transactionStatus" : null,
+    "v_totalFeeBasisAmount" : {
+      "value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "v_exchangeRate" : "STRING"
+    },
+    "payoutId" : "STRING",
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    }
+  } ],
+  "has_discount" : true
+}

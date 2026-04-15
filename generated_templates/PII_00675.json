@@ -1,0 +1,44 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "DateTimeUTC" : "DATETIME",
+    "Employees_data" : [ {
+      "has_discount" : false,
+      "v_Status" : "STRING",
+      "UpdatedDateUTC_data" : "DATETIME",
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "userName" : "PII_PERSON_FIRST_NAME",
+      "uuid" : "STRING",
+      "ExternalLink" : {
+        "system_ping_ms" : 1820,
+        "Description" : "STRING",
+        "Url_data" : "URL"
+      }
+    }, {
+      "ExternalLink" : {
+        "auto_renew" : false,
+        "v_Description" : "STRING",
+        "Url" : "URL"
+      },
+      "UpdatedDateUTC" : "DATETIME",
+      "EmployeeID" : "STRING",
+      "v_Status" : "STRING",
+      "name_val" : "PII_PERSON_LAST_NAME",
+      "clientName" : "PII_PERSON_FIRST_NAME"
+    }, {
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "v_UpdatedDateUTC" : "DATETIME",
+      "response_time_sec" : 149.38,
+      "ExternalLink" : {
+        "Description" : "STRING"
+      },
+      "EmployeeID" : "STRING",
+      "Status" : "STRING",
+      "clientName" : "PII_PERSON_FIRST_NAME"
+    } ],
+    "Id" : "STRING",
+    "Status" : "STRING",
+    "ProviderName" : "STRING"
+  }
+}

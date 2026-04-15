@@ -1,0 +1,58 @@
+{
+  "transactions" : [ {
+    "transactionType" : "STRING",
+    "transactionDate" : "DATETIME",
+    "v_transactionMemo" : "STRING",
+    "v_totalFeeBasisAmount" : {
+      "v_convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency_data" : "STRING",
+      "value_data" : ""
+    },
+    "payoutId" : "STRING",
+    "feeJurisdiction" : {
+      "regionName" : "STRING",
+      "regionType_data" : ""
+    },
+    "totalFeeAmount" : {
+      "convertedFromValue_data" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "v_paymentsEntity" : "STRING",
+    "bookingEntry" : "STRING",
+    "identifier" : "STRING",
+    "v_transactionStatus" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "v_exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "auto_renew" : false,
+      "value" : "STRING",
+      "convertedFromValue" : "NULL"
+    },
+    "stock_quantity" : 4854,
+    "salesRecordReference" : "STRING",
+    "v_amount" : {
+      "v_convertedFromCurrency" : null,
+      "exchangeRate" : "STRING",
+      "stock_quantity" : 937,
+      "currency" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "references" : [ {
+      "referenceId" : "STRING",
+      "referenceType_data" : "STRING"
+    } ]
+  } ],
+  "limit" : "INT",
+  "href" : "STRING",
+  "auto_renew" : true,
+  "next" : "STRING",
+  "prev" : "STRING",
+  "total" : "INT"
+}

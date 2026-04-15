@@ -1,0 +1,11 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "price" : 527.55,
+    "mail" : "PII_EMAIL",
+    "emailAddressStatus" : [ "STRING" ]
+  }
+}

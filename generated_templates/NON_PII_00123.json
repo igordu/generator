@@ -1,0 +1,10 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "shopUrl" : "URL",
+      "name" : "STRING",
+      "primaryKey" : "",
+      "modelId" : "STRING"
+    }
+  }
+}

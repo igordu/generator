@@ -1,0 +1,15 @@
+{
+  "recordId" : "STRING",
+  "starRatingDistribution" : {
+    "v_5" : "INT",
+    "3" : "INT",
+    "4" : "INT",
+    "2" : "INT",
+    "1" : "INT"
+  },
+  "page_index" : 2438,
+  "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserRecommendations_data" : "INT",
+  "numberOfUserReviews_data" : "INT",
+  "v_averageStarRating" : "INT"
+}

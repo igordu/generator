@@ -1,0 +1,31 @@
+{
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "debug_payload" : {
+        "transactions_data" : {
+          "booked_data" : [ {
+            "amount_data" : {
+              "currency" : "STRING",
+              "v_amount" : "DECIMAL",
+              "cache_hit" : true
+            },
+            "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+            "creditorName" : "PII_PERSON_NAME",
+            "debtorAccount_data" : {
+              "iban" : "STRING",
+              "is_active" : false
+            },
+            "transactionId" : "STRING",
+            "creditorAccount" : {
+              "v_iban" : "PII_IBAN",
+              "is_deleted" : true
+            },
+            "name_val" : "STRING",
+            "valueDate" : "DATE",
+            "v_bookingDate" : "DATE"
+          } ]
+        }
+      }
+    }
+  }
+}

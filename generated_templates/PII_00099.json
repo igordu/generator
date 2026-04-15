@@ -1,0 +1,21 @@
+{
+  "content" : [ {
+    "identifier" : "STRING",
+    "unhelpfulCount" : "INT",
+    "articleSizeRatings" : {
+      "price" : 0.53,
+      "SHOE_WIDTH" : "INT"
+    },
+    "articleModelId" : "STRING",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "articleId" : "STRING",
+    "rating" : "",
+    "title" : "PII_COMPANY_NAME",
+    "description" : "STRING",
+    "v_recommend" : "BOOLEAN",
+    "helpfulCount" : "INT",
+    "language" : "STRING",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_created" : "DATETIME"
+  } ]
+}

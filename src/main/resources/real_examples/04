@@ -1,0 +1,57 @@
+[
+  {
+    "facets": [
+      {
+        "count": 2080,
+        "displayName": "Sports Shoes",
+        "key": "childrens-sports-shoes"
+      },
+      {
+        "count": 273,
+        "displayName": "Outdoor Shoes",
+        "key": "childrens-outdoor-shoes"
+      },
+      {
+        "count": 1365,
+        "displayName": "Sandals & Flip Flops",
+        "key": "kids-shoes-sandals-flip-flops"
+      }
+    ],
+    "filter": "category"
+  },
+  {
+    "facets": [
+      {
+        "count": 190247,
+        "displayName": "female",
+        "key": "female"
+      },
+      {
+        "count": 117211,
+        "displayName": "male",
+        "key": "male"
+      }
+    ],
+    "filter": "gender"
+  },
+  {
+    "facets": [
+      {
+        "count": 17844,
+        "displayName": "allSeason",
+        "key": "allSeason"
+      },
+      {
+        "count": 155667,
+        "displayName": "summer",
+        "key": "summer"
+      },
+      {
+        "count": 116763,
+        "displayName": "winter",
+        "key": "winter"
+      }
+    ],
+    "filter": "season"
+  }
+]

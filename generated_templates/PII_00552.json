@@ -1,0 +1,30 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "fullName" : "PII_PERSON_NAME",
+      "amount" : {
+        "currency" : "STRING",
+        "v_amount" : "NULL"
+      },
+      "debtorAccount" : {
+        "auto_renew" : true,
+        "iban" : "STRING"
+      },
+      "transactionId" : "STRING",
+      "is_active" : false,
+      "debtorName" : "STRING",
+      "bankTransactionCode" : {
+        "subFamily" : "STRING",
+        "domain" : "STRING",
+        "family" : "STRING"
+      },
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN",
+        "price" : 785.49
+      },
+      "valueDate" : null,
+      "bookingDate" : "NULL"
+    } ]
+  }
+}

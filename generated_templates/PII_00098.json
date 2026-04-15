@@ -1,0 +1,22 @@
+{
+  "v_content" : [ {
+    "rating" : "INT",
+    "language" : "STRING",
+    "recommend_data" : "BOOLEAN",
+    "v_created" : "DATETIME",
+    "articleModelId" : "STRING",
+    "customerCountry_data" : "PII_LOCATION_COUNTRY",
+    "articleId" : "STRING",
+    "helpfulCount" : "INT",
+    "reviewId" : "STRING",
+    "title_data" : "PII_COMPANY_NAME",
+    "unhelpfulCount" : "NULL",
+    "customerCity" : "PII_LOCATION_CITY",
+    "articleSizeRatings" : {
+      "SHOE_WIDTH" : "INT",
+      "is_deleted" : false,
+      "OVERALL" : "INT"
+    }
+  } ],
+  "response_time_sec" : 779.47
+}

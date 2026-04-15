@@ -1,0 +1,131 @@
+{
+  "v_kmsArn" : "STRING",
+  "description" : "STRING",
+  "tags" : {
+    "cpu_usage_percent" : 113.2,
+    "property1" : "STRING"
+  },
+  "sourceFlowConfig" : {
+    "apiVersion" : "STRING",
+    "requires_update" : false,
+    "connectorProfileName" : "STRING",
+    "v_connectorType" : "STRING",
+    "sourceConnectorProperties_data" : {
+      "Trendmicro" : {
+        "object" : "STRING",
+        "price" : 346.93
+      },
+      "Datadog_data" : {
+        "object" : "STRING"
+      },
+      "Veeva" : {
+        "priority_level" : 322,
+        "includeSourceFiles" : "BOOLEAN",
+        "documentType" : "STRING",
+        "includeAllVersions" : "BOOLEAN",
+        "includeRenditions" : "BOOLEAN",
+        "object" : "STRING"
+      },
+      "Slack" : {
+        "object" : "STRING"
+      },
+      "v_Salesforce" : {
+        "is_deleted" : true,
+        "includeDeletedRecords" : "BOOLEAN",
+        "object" : "STRING",
+        "dataTransferApi" : "STRING"
+      },
+      "Marketo" : {
+        "object" : "STRING",
+        "stock_quantity" : 4086
+      },
+      "GoogleAnalytics_data" : {
+        "response_time_sec" : 510.49,
+        "object_data" : "NULL"
+      },
+      "InforNexus_data" : {
+        "object" : "STRING"
+      },
+      "CustomConnector" : {
+        "has_discount" : false,
+        "userName" : "STRING"
+      },
+      "S3" : {
+        "bucketName" : "STRING",
+        "s3InputFormatConfig" : {
+          "temperature_c" : 254.44,
+          "s3InputFileType" : "STRING"
+        },
+        "bucketPrefix" : "STRING"
+      },
+      "Pardot" : {
+        "object" : "STRING"
+      },
+      "Singular" : {
+        "object" : "STRING"
+      },
+      "Zendesk" : {
+        "retry_attempts" : 862,
+        "v_object" : "STRING"
+      },
+      "Amplitude_data" : {
+        "object" : "STRING"
+      },
+      "Dynatrace_data" : {
+        "object" : "STRING",
+        "cpu_usage_percent" : 531.94
+      },
+      "SAPOData" : {
+        "objectPath" : "STRING"
+      }
+    }
+  },
+  "metadataCatalogConfig" : {
+    "cpu_usage_percent" : 341.82,
+    "glueDataCatalog_data" : {
+      "roleArn" : "STRING"
+    }
+  },
+  "tasks" : [ {
+    "connectorOperator" : {
+      "Amplitude" : "STRING",
+      "GoogleAnalytics" : "STRING",
+      "InforNexus" : "STRING",
+      "S3_data" : "STRING",
+      "SAPOData" : "STRING",
+      "CustomConnector" : "STRING",
+      "Dynatrace_data" : "STRING",
+      "Slack" : "STRING",
+      "Zendesk" : "STRING",
+      "Salesforce" : "STRING",
+      "Datadog" : "",
+      "v_Marketo" : "STRING"
+    },
+    "destinationField" : "STRING",
+    "v_sourceFields" : "ARRAY",
+    "taskType" : "STRING",
+    "taskProperties" : {
+      "temperature_c" : 376.67,
+      "property2" : ""
+    }
+  } ],
+  "clientToken" : "STRING",
+  "flowName" : "STRING",
+  "v_triggerConfig" : {
+    "is_active" : true,
+    "triggerType" : "STRING",
+    "triggerProperties" : {
+      "Scheduled" : {
+        "scheduleExpression" : "STRING",
+        "priority_level" : 4547,
+        "timezone" : "STRING",
+        "scheduleEndTime_data" : "DATETIME",
+        "scheduleOffset" : null,
+        "v_dataPullMode" : "STRING",
+        "scheduleStartTime" : "DATETIME",
+        "firstExecutionFrom" : "DATETIME"
+      },
+      "stock_quantity" : 4609
+    }
+  }
+}

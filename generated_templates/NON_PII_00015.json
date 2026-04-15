@@ -1,0 +1,16 @@
+{
+  "articleModelId" : "STRING",
+  "retry_attempts" : 2839,
+  "starRatingDistribution" : {
+    "4" : "INT",
+    "2" : "INT",
+    "5_data" : "INT",
+    "conversion_rate" : 259.58,
+    "1" : "INT",
+    "3_data" : "INT"
+  },
+  "numberOfUserPositiveRecommendations" : "INT",
+  "v_numberOfUserReviews" : "INT",
+  "numberOfUserRecommendations_data" : "INT",
+  "averageStarRating" : "INT"
+}

@@ -1,0 +1,148 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "destinationFlowConfigList" : [ {
+        "fullName" : "STRING",
+        "connectorType" : "STRING",
+        "temperature_c" : 101.82,
+        "apiVersion_data" : "STRING"
+      } ],
+      "kmsArn" : "STRING",
+      "metadataCatalogConfig" : {
+        "temperature_c" : 387.02,
+        "glueDataCatalog" : {
+          "tablePrefix" : "STRING",
+          "databaseName" : "STRING",
+          "roleArn" : "STRING"
+        }
+      },
+      "v_clientToken" : "STRING",
+      "tasks" : [ {
+        "response_time_sec" : 949.62,
+        "taskProperties" : {
+          "page_index" : 4590,
+          "v_property1" : "STRING",
+          "property2" : "STRING"
+        },
+        "destinationField" : "STRING",
+        "connectorOperator" : {
+          "Marketo" : "STRING",
+          "Amplitude" : "STRING",
+          "InforNexus" : "STRING",
+          "CustomConnector_data" : "STRING",
+          "Zendesk_data" : "STRING",
+          "GoogleAnalytics_data" : "STRING",
+          "Singular_data" : "STRING",
+          "Salesforce" : "STRING",
+          "Datadog" : "STRING",
+          "v_Trendmicro" : "STRING",
+          "Dynatrace" : "STRING",
+          "Slack" : "STRING",
+          "Veeva" : "STRING",
+          "S3" : "STRING"
+        },
+        "sourceFields" : "ARRAY",
+        "taskType" : "STRING"
+      } ],
+      "userName" : "STRING",
+      "v_sourceFlowConfig" : {
+        "sourceConnectorProperties_data" : {
+          "Dynatrace" : {
+            "cpu_usage_percent" : 543.82,
+            "object_data" : "STRING"
+          },
+          "v_InforNexus" : {
+            "priority_level" : 4849
+          },
+          "Marketo" : {
+            "object" : "STRING"
+          },
+          "ServiceNow" : {
+            "v_object" : "STRING"
+          },
+          "SAPOData" : {
+            "objectPath" : "STRING"
+          },
+          "Amplitude" : {
+            "object" : "STRING",
+            "conversion_rate" : 717.8
+          },
+          "Zendesk" : {
+            "stock_quantity" : 4657
+          },
+          "v_Salesforce" : {
+            "item_count" : 381,
+            "v_dataTransferApi" : "STRING",
+            "includeDeletedRecords" : "BOOLEAN",
+            "object" : "STRING",
+            "enableDynamicFieldUpdate" : "BOOLEAN"
+          },
+          "v_Trendmicro" : {
+            "object" : "STRING"
+          },
+          "S3" : {
+            "fullName" : "STRING",
+            "bucketPrefix" : "STRING",
+            "s3InputFormatConfig_data" : {
+              "page_index" : 1281,
+              "s3InputFileType" : "STRING"
+            }
+          },
+          "Datadog" : {
+            "object" : "STRING",
+            "conversion_rate" : 874.62
+          },
+          "v_Slack" : {
+            "object" : "STRING"
+          },
+          "price" : 698.6,
+          "Veeva_data" : {
+            "includeRenditions" : "BOOLEAN",
+            "requires_update" : true,
+            "includeAllVersions_data" : "BOOLEAN",
+            "includeSourceFiles_data" : "BOOLEAN",
+            "documentType" : "NULL",
+            "object" : "STRING"
+          },
+          "CustomConnector" : {
+            "customProperties" : {
+              "has_discount" : true,
+              "property1" : "STRING",
+              "property2" : "STRING"
+            }
+          },
+          "v_Singular" : {
+            "object" : "STRING"
+          },
+          "GoogleAnalytics" : {
+            "object_data" : "STRING",
+            "priority_level" : 1112
+          },
+          "Pardot" : {
+            "temperature_c" : 169.58,
+            "object" : "STRING"
+          }
+        },
+        "apiVersion" : "STRING",
+        "connectorType" : "STRING"
+      },
+      "description_data" : null,
+      "v_triggerConfig" : {
+        "triggerProperties" : {
+          "Scheduled" : {
+            "scheduleStartTime" : "DATETIME",
+            "scheduleOffset" : "INT",
+            "firstExecutionFrom" : "DATETIME",
+            "flowErrorDeactivationThreshold" : "INT",
+            "scheduleEndTime" : "DATETIME",
+            "scheduleExpression_data" : "STRING",
+            "v_timezone" : "STRING"
+          },
+          "stock_quantity" : 2902
+        },
+        "triggerType" : "STRING"
+      },
+      "retry_attempts" : 1997
+    }
+  }
+}

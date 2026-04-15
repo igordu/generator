@@ -1,0 +1,12 @@
+{
+  "numberOfUserRecommendations" : "INT",
+  "numberOfUserReviews" : "INT",
+  "cpu_usage_percent" : 478.25,
+  "starRatingDistribution" : {
+    "5_data" : "INT",
+    "1_data" : "INT",
+    "2_data" : "INT"
+  },
+  "numberOfUserPositiveRecommendations" : "INT",
+  "articleModelId" : "STRING"
+}

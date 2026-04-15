@@ -1,0 +1,40 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "response_time_sec" : 377.62,
+    "facets_data" : [ {
+      "key" : "STRING",
+      "displayName" : "STRING",
+      "count" : "INT"
+    }, {
+      "count" : "INT",
+      "displayName" : "NULL",
+      "key_data" : "STRING"
+    }, {
+      "cpu_usage_percent" : 45.99,
+      "displayName" : "STRING",
+      "count" : "INT",
+      "key" : "STRING"
+    } ],
+    "filter" : "STRING"
+  }, {
+    "facets" : [ {
+      "count" : "INT",
+      "key" : "STRING",
+      "stock_quantity" : 3770,
+      "displayName" : "STRING"
+    }, {
+      "count" : "INT",
+      "displayName" : "STRING",
+      "key_data" : "STRING"
+    }, {
+      "displayName" : "STRING",
+      "key" : "STRING",
+      "count_data" : "INT"
+    } ],
+    "filter" : ""
+  }, { } ]
+}

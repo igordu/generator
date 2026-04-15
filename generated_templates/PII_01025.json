@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "last4" : "STRING",
+    "status_data" : "STRING",
+    "id" : "NULL",
+    "customer" : "STRING",
+    "conversion_rate" : 346.84,
+    "name_val" : "PII_PERSON_NAME",
+    "routing_number" : "STRING",
+    "fingerprint_data" : "STRING",
+    "currency" : "STRING",
+    "metadata" : "OBJECT",
+    "account_holder_type" : "STRING",
+    "v_object" : "STRING",
+    "bank_name" : "STRING"
+  }
+}

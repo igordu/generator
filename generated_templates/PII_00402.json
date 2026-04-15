@@ -1,0 +1,47 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "uuid" : [ {
+      "value" : "PII_NATIONAL_ID",
+      "system_data" : null,
+      "type" : {
+        "item_count" : 2405
+      }
+    } ],
+    "resourceType_data" : "STRING",
+    "name" : [ {
+      "cache_hit" : false,
+      "family_data" : "PII_PERSON_LAST_NAME",
+      "given" : [ "PII_PERSON_FIRST_NAME" ],
+      "use" : "STRING"
+    } ],
+    "gender" : "STRING",
+    "address" : [ {
+      "line_data" : [ "PII_ADDRESS_LINE" ],
+      "country" : "PII_LOCATION_COUNTRY",
+      "is_deleted" : true,
+      "city" : "PII_LOCATION_CITY",
+      "use" : "STRING"
+    } ],
+    "is_active" : false,
+    "telecom" : [ {
+      "discount_rate" : 469.16,
+      "value" : "PII_EMAIL",
+      "v_system" : "STRING"
+    }, {
+      "value" : "PII_PHONE_NUMBER",
+      "system" : "STRING",
+      "use" : "STRING",
+      "has_discount" : false
+    } ],
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "meta" : {
+      "conversion_rate" : 996.22,
+      "versionId" : "INT",
+      "lastUpdated" : ""
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Id" : "STRING",
+  "Employees" : [ {
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "Url" : "URL"
+    },
+    "EmployeeID" : "STRING",
+    "Status" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME"
+  }, {
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "ExternalLink" : {
+      "Url" : "URL",
+      "Description" : null
+    },
+    "Status_data" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  }, {
+    "userName" : "PII_PERSON_LAST_NAME",
+    "ExternalLink" : {
+      "Url" : "URL",
+      "Description" : "STRING"
+    },
+    "v_Status" : "STRING",
+    "UpdatedDateUTC" : "DATETIME",
+    "EmployeeID" : "STRING"
+  } ],
+  "Status" : "STRING",
+  "fullName" : "STRING",
+  "DateTimeUTC" : "DATETIME"
+}

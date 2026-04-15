@@ -1,0 +1,21 @@
+{
+  "id" : null,
+  "modelId" : "STRING",
+  "is_active" : false,
+  "shopUrl" : "URL",
+  "name" : "STRING",
+  "media_data" : {
+    "images" : [ {
+      "temperature_c" : 730.19,
+      "orderNumber" : "NULL",
+      "type" : null,
+      "smallUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "mediumUrl" : "URL",
+      "largeUrl" : "URL",
+      "mediumHdUrl_data" : "URL"
+    } ],
+    "temperature_c" : 903.46
+  }
+}

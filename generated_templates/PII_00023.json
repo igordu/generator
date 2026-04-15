@@ -1,0 +1,21 @@
+{
+  "content" : [ {
+    "customerCity" : "PII_LOCATION_CITY",
+    "rating" : "NULL",
+    "recommend" : "BOOLEAN",
+    "articleModelId" : "STRING",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "language" : "STRING",
+    "reviewId" : "STRING",
+    "price" : 625.56,
+    "created" : "DATETIME",
+    "v_description" : "STRING",
+    "v_articleSizeRatings" : {
+      "system_ping_ms" : 315,
+      "OVERALL" : "INT",
+      "uuid" : "INT"
+    },
+    "v_title" : "PII_COMPANY_NAME"
+  } ],
+  "temperature_c" : 833.72
+}

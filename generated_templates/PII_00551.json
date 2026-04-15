@@ -1,0 +1,36 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "transactions" : {
+      "http_status" : 4213,
+      "booked" : [ {
+        "fullName" : "PII_PERSON_NAME",
+        "transactionId" : "STRING",
+        "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+        "valueDate" : "DATE",
+        "v_amount" : {
+          "amount" : "DECIMAL",
+          "currency" : "STRING"
+        },
+        "debtorAccount" : {
+          "is_deleted" : true,
+          "iban" : "STRING"
+        },
+        "debtorName" : "STRING",
+        "bookingDate" : "DATE",
+        "creditorAccount" : {
+          "has_discount" : false,
+          "iban" : "PII_IBAN"
+        },
+        "bankTransactionCode" : {
+          "v_family" : "STRING",
+          "cache_hit" : true,
+          "subFamily" : "NULL"
+        }
+      } ]
+    }
+  }
+}

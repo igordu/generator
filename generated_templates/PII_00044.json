@@ -1,0 +1,23 @@
+{
+  "http_status" : 4700,
+  "v_content" : [ {
+    "reviewId" : "STRING",
+    "v_created" : "DATETIME",
+    "articleId" : "STRING",
+    "v_unhelpfulCount" : "NULL",
+    "customerCity" : "PII_LOCATION_CITY",
+    "stock_quantity" : 491,
+    "title" : "PII_COMPANY_NAME",
+    "articleSizeRatings" : {
+      "recordId" : "INT",
+      "OVERALL" : "INT"
+    },
+    "recommend" : "BOOLEAN",
+    "description_data" : "STRING",
+    "helpfulCount" : "NULL",
+    "rating" : "INT",
+    "primaryKey" : "STRING",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_language" : "NULL"
+  } ]
+}

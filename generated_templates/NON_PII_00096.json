@@ -1,0 +1,5 @@
+{
+  "articleModelId" : "STRING",
+  "numberOfUserRecommendations" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT"
+}

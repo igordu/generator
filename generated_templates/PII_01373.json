@@ -1,0 +1,15 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "user_info" : {
+      "response_time_sec" : 68.11,
+      "userName" : "PII_COMPANY_NAME",
+      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+      "family-name-male" : "PII_LAST_NAME_MALE"
+    },
+    "active_data" : "BOOLEAN"
+  }
+}

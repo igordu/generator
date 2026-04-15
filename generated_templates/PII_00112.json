@@ -1,0 +1,52 @@
+{
+  "individualAccount" : {
+    "registrationAddress" : {
+      "addressLine1" : "STRING",
+      "country" : "STRING",
+      "county" : "STRING",
+      "city_data" : "STRING",
+      "postalCode" : "STRING",
+      "stateOrProvince" : "STRING",
+      "v_addressLine2" : "NULL"
+    },
+    "lastName" : "PII_PERSON_NAME",
+    "secondaryPhone" : {
+      "number_data" : "PII_PHONE_NUMBER"
+    },
+    "email" : "PII_EMAIL",
+    "primaryPhone" : {
+      "countryCode_data" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "cell" : "STRING"
+    },
+    "firstName" : "PII_PERSON_NAME",
+    "auto_renew" : false
+  },
+  "username" : "PII_USERNAME",
+  "retry_attempts" : 4855,
+  "businessAccount" : {
+    "telephone" : {
+      "v_countryCode" : "STRING",
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "is_active" : false,
+      "lastName" : "PII_PERSON_NAME"
+    },
+    "name" : "PII_ORGANIZATION_NAME",
+    "address" : {
+      "country" : "STRING",
+      "postalCode" : "STRING",
+      "addressLine1" : "STRING",
+      "addressLine2" : "STRING"
+    },
+    "v_website" : "URL",
+    "email" : "PII_EMAIL",
+    "v_doingBusinessAs" : null
+  },
+  "status" : "STRING",
+  "accountType" : "STRING",
+  "identifier" : "STRING"
+}

@@ -1,0 +1,24 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "shopUrl_data" : "URL",
+      "system_ping_ms" : 4703,
+      "media" : {
+        "images" : [ {
+          "v_smallHdUrl" : "NULL",
+          "smallUrl" : "URL",
+          "mediumHdUrl" : "NULL",
+          "type" : "STRING",
+          "thumbnailHdUrl" : "URL",
+          "largeUrl" : "URL",
+          "mediumUrl" : "URL",
+          "orderNumber" : "INT",
+          "largeHdUrl" : "NULL"
+        } ],
+        "stock_quantity" : 3862
+      },
+      "id" : "STRING",
+      "name" : "STRING"
+    }
+  }
+}

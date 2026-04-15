@@ -1,0 +1,56 @@
+[ {
+  "commit" : {
+    "tree" : {
+      "sha" : "STRING",
+      "url" : "URL"
+    },
+    "priority_level" : 1478,
+    "v_verification" : {
+      "verified_data" : "",
+      "signature_data" : "",
+      "verified_at" : "DATETIME",
+      "reason" : "STRING"
+    },
+    "message" : "PII_COMPANY_NAME",
+    "comment_count" : "INT",
+    "author" : {
+      "email" : "PII_EMAIL",
+      "date" : "DATETIME",
+      "name" : "PII_PERSON_NAME"
+    },
+    "committer" : {
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "v_date" : "DATETIME"
+    },
+    "url" : "URL"
+  },
+  "committer" : {
+    "type" : "STRING",
+    "followers_url" : "URL",
+    "identifier" : "STRING",
+    "v_gists_url" : "URL",
+    "conversion_rate" : 253.62,
+    "repos_url" : "URL",
+    "id" : "INT",
+    "organizations_url" : "URL",
+    "gravatar_id" : "STRING",
+    "starred_url_data" : "URL",
+    "site_admin" : "",
+    "received_events_url" : "URL",
+    "avatar_url" : "URL",
+    "url_data" : "URL",
+    "html_url" : "URL",
+    "subscriptions_url" : "URL",
+    "following_url" : "URL"
+  },
+  "url_data" : "URL",
+  "v_comments_url" : "URL",
+  "html_url" : "URL",
+  "node_id" : "STRING",
+  "sha" : "STRING",
+  "parents" : [ {
+    "is_deleted" : false,
+    "url" : "URL"
+  } ]
+} ]

@@ -1,0 +1,11 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "stock_quantity" : 4758,
+    "clientToken" : "STRING",
+    "clientName" : "STRING"
+  }
+}

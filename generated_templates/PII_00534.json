@@ -1,0 +1,30 @@
+{
+  "transactions_data" : {
+    "booked" : [ {
+      "creditorName" : "PII_PERSON_NAME",
+      "creditorAccount" : {
+        "v_iban" : "PII_IBAN",
+        "response_time_sec" : 969.89
+      },
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "v_amount" : {
+        "retry_attempts" : 2618,
+        "currency" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "valueDate" : "NULL",
+      "primaryKey" : "STRING",
+      "bookingDate" : "DATE",
+      "debtorName" : "STRING",
+      "bankTransactionCode_data" : {
+        "v_subFamily" : "STRING",
+        "family" : "STRING"
+      }
+    } ],
+    "auto_renew" : true
+  },
+  "discount_rate" : 662.1
+}

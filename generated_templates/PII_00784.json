@@ -1,0 +1,36 @@
+{
+  "registrants" : [ {
+    "comments" : "STRING",
+    "v_no_of_employees" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "zip" : "STRING",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "primary_email" : "PII_EMAIL",
+    "purchasing_time_frame_data" : "STRING",
+    "v_state" : "PII_LOCATION_STATE",
+    "create_time" : "DATETIME",
+    "status" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "industry" : "STRING",
+    "join_url" : "URL",
+    "org" : "PII_ORGANIZATION_NAME",
+    "address_data" : "PII_ADDRESS_LINE",
+    "custom_questions" : [ {
+      "title" : "STRING",
+      "system_ping_ms" : 225,
+      "value" : null
+    }, {
+      "priority_level" : 909,
+      "value" : "STRING",
+      "title_data" : "STRING"
+    } ],
+    "role_in_purchase_process" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "id" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY"
+  } ],
+  "temperature_c" : 223.78,
+  "total_records" : "INT",
+  "page_number" : "INT",
+  "page_count" : "INT"
+}

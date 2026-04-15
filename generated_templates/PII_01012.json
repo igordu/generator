@@ -1,0 +1,17 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "v_account_type" : null,
+    "account_holder_type" : "STRING",
+    "v_currency" : "STRING",
+    "object" : "STRING",
+    "v_routing_number" : "STRING",
+    "customer" : "STRING",
+    "metadata_data" : "OBJECT",
+    "country" : "STRING",
+    "clientName" : "PII_PERSON_NAME",
+    "last4_data" : "STRING",
+    "id" : "STRING"
+  }
+}

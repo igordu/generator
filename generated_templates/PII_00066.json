@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "item_count" : 3374,
+    "content" : [ {
+      "helpfulCount_data" : "INT",
+      "recommend" : "BOOLEAN",
+      "articleId" : "STRING",
+      "created" : "DATETIME",
+      "title" : "PII_COMPANY_NAME",
+      "customerCity_data" : "PII_LOCATION_CITY",
+      "articleModelId" : "STRING",
+      "unhelpfulCount" : "INT",
+      "v_customerCountry" : "PII_LOCATION_COUNTRY",
+      "articleSizeRatings_data" : {
+        "SHOE_WIDTH" : "INT",
+        "conversion_rate" : 322.71
+      },
+      "auto_renew" : true,
+      "reviewId" : "STRING",
+      "rating" : "INT",
+      "language" : "STRING",
+      "v_description" : "STRING"
+    } ]
+  }
+}

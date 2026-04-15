@@ -1,0 +1,6 @@
+{
+  "emailAddress": "jira@example.customdomain.com",
+  "emailAddressStatus": [
+    "Email address or domain not verified."
+  ]
+}

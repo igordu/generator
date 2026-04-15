@@ -1,0 +1,15 @@
+{
+  "audit_trail" : {
+    "payload_wrapper" : {
+      "extracted_info" : {
+        "page_index" : 1573,
+        "active" : "BOOLEAN",
+        "user_info_data" : {
+          "userName" : "PII_COMPANY_NAME",
+          "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+          "family-name-male" : "PII_LAST_NAME_MALE"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "primaryKey" : "STRING",
+  "media" : {
+    "images" : [ {
+      "largeHdUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "largeUrl_data" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "has_discount" : true,
+      "mediumHdUrl_data" : "",
+      "mediumUrl" : "URL",
+      "smallUrl" : "URL"
+    } ],
+    "discount_rate" : 386.21
+  },
+  "shopUrl" : "URL",
+  "cpu_usage_percent" : 657.76,
+  "id" : "NULL"
+}

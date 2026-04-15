@@ -1,0 +1,34 @@
+{
+  "ProviderName" : "STRING",
+  "auto_renew" : false,
+  "Id" : "STRING",
+  "Employees" : [ {
+    "v_UpdatedDateUTC" : "DATETIME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "Status" : "NULL",
+    "discount_rate" : 788.16,
+    "recordId" : null,
+    "ExternalLink_data" : {
+      "discount_rate" : 598.65,
+      "v_Url" : "URL"
+    }
+  }, {
+    "primaryKey" : "STRING",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "Status" : "STRING",
+    "UpdatedDateUTC" : "DATETIME"
+  }, {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "ExternalLink" : {
+      "Url" : "URL",
+      "Description" : "STRING",
+      "retry_attempts" : 172
+    },
+    "v_UpdatedDateUTC" : "DATETIME",
+    "Status" : "STRING",
+    "recordId" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  } ],
+  "DateTimeUTC" : "DATETIME"
+}

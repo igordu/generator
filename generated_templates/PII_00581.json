@@ -1,0 +1,28 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "bankTransactionCode" : {
+        "family" : "STRING",
+        "subFamily" : "STRING",
+        "domain" : "STRING",
+        "stock_quantity" : 1661
+      },
+      "debtorAccount" : {
+        "response_time_sec" : 548.06,
+        "v_iban" : "STRING"
+      },
+      "debtorName" : "STRING",
+      "bookingDate" : "DATE",
+      "amount" : {
+        "amount" : "DECIMAL"
+      },
+      "transactionId" : "STRING",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN",
+        "response_time_sec" : 386.41
+      },
+      "clientName" : "PII_PERSON_NAME"
+    } ]
+  }
+}

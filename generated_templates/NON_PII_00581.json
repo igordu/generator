@@ -1,0 +1,43 @@
+[ {
+  "style" : "STRING",
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime_data" : "DATETIME"
+  },
+  "clientName" : "STRING",
+  "key_data" : "STRING",
+  "id" : "STRING",
+  "self" : "URL",
+  "avatarUrls_data" : {
+    "v_24x24" : "URL",
+    "48x48" : "URL",
+    "has_discount" : false,
+    "v_32x32" : "URL"
+  },
+  "simplified" : "BOOLEAN",
+  "v_projectCategory" : {
+    "name" : "STRING",
+    "recordId" : "STRING",
+    "self" : "URL",
+    "is_deleted" : true,
+    "description" : "STRING"
+  }
+}, {
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "cache_hit" : false,
+  "name" : "STRING",
+  "projectCategory" : {
+    "discount_rate" : 868.7,
+    "name_val" : "STRING",
+    "description" : "STRING",
+    "uuid" : "STRING"
+  },
+  "style" : "STRING",
+  "self" : "URL",
+  "key" : "STRING",
+  "primaryKey" : "STRING",
+  "simplified" : "BOOLEAN"
+} ]

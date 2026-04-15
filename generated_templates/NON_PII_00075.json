@@ -1,0 +1,12 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "averageStarRating" : "INT",
+      "uuid" : "STRING",
+      "is_deleted" : false,
+      "numberOfUserRecommendations" : "NULL",
+      "numberOfUserReviews" : "INT",
+      "numberOfUserPositiveRecommendations" : "INT"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "v_page_count" : "INT",
+  "registrants" : [ {
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "v_role_in_purchase_process" : "STRING",
+    "org" : "PII_ORGANIZATION_NAME",
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "address" : "PII_ADDRESS_LINE",
+    "no_of_employees_data" : "NULL",
+    "v_status" : "STRING",
+    "state" : "PII_LOCATION_STATE",
+    "comments" : "STRING",
+    "zip_data" : "STRING",
+    "custom_questions_data" : [ {
+      "v_value" : "STRING",
+      "title" : "STRING"
+    } ],
+    "job_title" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "purchasing_time_frame" : "STRING",
+    "join_url" : "URL",
+    "industry" : "STRING",
+    "create_time" : "DATETIME",
+    "mobile" : "PII_PHONE_NUMBER",
+    "contactEmail" : "PII_EMAIL",
+    "first_name" : "PII_PERSON_FIRST_NAME"
+  } ],
+  "v_page_number" : "NULL",
+  "total_records" : "INT"
+}

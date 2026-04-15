@@ -1,0 +1,49 @@
+{
+  "telemetry_data" : {
+    "event_data" : {
+      "extracted_info" : {
+        "primaryKey" : "STRING",
+        "bio" : "PII_ORGANIZATION_NAME",
+        "avatar_url" : "URL",
+        "starred_url" : "URL",
+        "public_gists" : "INT",
+        "gists_url" : "URL",
+        "created_at" : "",
+        "node_id" : "STRING",
+        "location" : "PII_LOCATION_CITY",
+        "repos_url_data" : "URL",
+        "login" : "STRING",
+        "received_events_url" : "URL",
+        "plan" : {
+          "space" : "INT",
+          "priority_level" : 3184,
+          "collaborators" : "INT",
+          "name_val" : "STRING"
+        },
+        "url_data" : null,
+        "email" : "PII_EMAIL",
+        "type_data" : "STRING",
+        "html_url" : "URL",
+        "organizations_url" : "URL",
+        "v_blog" : "URL",
+        "events_url" : "URL",
+        "followers_data" : "INT",
+        "twitter_username" : "STRING",
+        "site_admin" : "BOOLEAN",
+        "following_url" : "URL",
+        "disk_usage" : "INT",
+        "hireable" : "BOOLEAN",
+        "two_factor_authentication" : "BOOLEAN",
+        "public_repos" : "INT",
+        "v_updated_at" : "DATETIME",
+        "v_total_private_repos" : "INT",
+        "clientName" : "PII_PERSON_NAME",
+        "owned_private_repos" : "INT",
+        "following" : "INT",
+        "company" : "PII_ORGANIZATION_NAME",
+        "subscriptions_url" : "URL",
+        "system_ping_ms" : 2718
+      }
+    }
+  }
+}

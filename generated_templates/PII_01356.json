@@ -1,0 +1,13 @@
+{
+  "active_data" : "BOOLEAN",
+  "tree" : {
+    "url" : "URL",
+    "sha_data" : "STRING",
+    "has_discount" : true
+  },
+  "user_info" : {
+    "userName" : "PII_COMPANY_NAME",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  }
+}

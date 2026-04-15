@@ -1,0 +1,18 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "active" : "BOOLEAN",
+    "v_user_info" : {
+      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+      "has_discount" : false,
+      "arline__name" : "PII_COMPANY_NAME",
+      "fullName" : "PII_LAST_NAME_MALE"
+    },
+    "auto_renew" : true,
+    "tree" : {
+      "system_ping_ms" : 1049,
+      "sha" : "STRING"
+    }
+  }
+}

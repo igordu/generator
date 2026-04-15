@@ -1,0 +1,9 @@
+{
+  "system_state" : {
+    "event_data" : {
+      "extracted_info" : {
+        "clientToken_data" : "STRING"
+      }
+    }
+  }
+}

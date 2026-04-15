@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "content" : [ {
+      "uuid" : "STRING",
+      "created" : "DATETIME",
+      "reviewId" : "STRING",
+      "v_articleSizeRatings" : {
+        "OVERALL" : "INT",
+        "price" : 959.76
+      },
+      "description" : "STRING",
+      "v_customerCountry" : "PII_LOCATION_COUNTRY",
+      "title" : "PII_COMPANY_NAME",
+      "customerCity" : "PII_LOCATION_CITY",
+      "helpfulCount" : "INT",
+      "articleModelId" : "STRING",
+      "language" : "STRING",
+      "rating" : "INT",
+      "unhelpfulCount" : "INT"
+    } ]
+  }
+}

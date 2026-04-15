@@ -1,0 +1,14 @@
+{
+  "starRatingDistribution_data" : {
+    "v_5" : "INT",
+    "2" : "INT",
+    "3" : "INT",
+    "4_data" : "INT",
+    "1" : "INT"
+  },
+  "numberOfUserPositiveRecommendations" : "INT",
+  "recordId" : "STRING",
+  "system_ping_ms" : 4229,
+  "numberOfUserReviews" : "INT",
+  "averageStarRating" : "INT"
+}

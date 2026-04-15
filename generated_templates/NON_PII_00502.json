@@ -1,0 +1,47 @@
+[ {
+  "clientName" : "STRING",
+  "key" : "STRING",
+  "v_self" : "URL",
+  "style" : "STRING",
+  "id" : "NULL",
+  "discount_rate" : 403.34,
+  "simplified" : "BOOLEAN",
+  "insight_data" : {
+    "totalIssueCount" : "INT",
+    "cache_hit" : false,
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "avatarUrls_data" : {
+    "16x16" : "URL",
+    "48x48" : "URL",
+    "v_32x32" : "URL",
+    "v_24x24" : "URL"
+  },
+  "projectCategory_data" : {
+    "name" : "STRING",
+    "description" : "STRING",
+    "id" : "STRING",
+    "self" : "URL",
+    "is_active" : true
+  }
+}, {
+  "style" : "STRING",
+  "name_val" : "STRING",
+  "self" : "URL",
+  "simplified_data" : "BOOLEAN",
+  "id" : "STRING",
+  "projectCategory" : {
+    "userName" : "STRING",
+    "self" : "URL",
+    "id" : "STRING",
+    "description" : "STRING",
+    "system_ping_ms" : 3115
+  },
+  "v_avatarUrls" : {
+    "16x16" : "URL",
+    "24x24" : "URL",
+    "48x48" : "NULL",
+    "is_deleted" : false
+  },
+  "key" : "STRING"
+} ]

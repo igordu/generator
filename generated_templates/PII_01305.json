@@ -1,0 +1,13 @@
+{
+  "user_info" : {
+    "arline__name" : "PII_COMPANY_NAME",
+    "userName" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  },
+  "system_ping_ms" : 664,
+  "tree" : {
+    "sha" : "STRING",
+    "http_status" : 2670
+  },
+  "active" : "BOOLEAN"
+}

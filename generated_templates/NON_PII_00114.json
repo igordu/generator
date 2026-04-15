@@ -1,0 +1,23 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "media" : {
+        "images" : [ {
+          "smallUrl" : "URL",
+          "v_orderNumber" : "INT",
+          "type_data" : "STRING",
+          "mediumUrl" : "URL",
+          "smallHdUrl_data" : "URL",
+          "largeHdUrl" : "URL",
+          "largeUrl" : "URL",
+          "requires_update" : false,
+          "thumbnailHdUrl" : "URL",
+          "mediumHdUrl_data" : "URL"
+        } ]
+      },
+      "primaryKey" : "STRING",
+      "modelId" : "STRING",
+      "shopUrl" : "NULL"
+    }
+  }
+}

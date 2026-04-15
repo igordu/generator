@@ -1,0 +1,37 @@
+{
+  "name" : [ {
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+    "family" : "PII_PERSON_LAST_NAME",
+    "use" : "STRING"
+  } ],
+  "resourceType" : "STRING",
+  "v_telecom" : [ {
+    "v_value" : "PII_EMAIL",
+    "stock_quantity" : 4371,
+    "v_system" : "STRING"
+  }, {
+    "value_data" : "PII_PHONE_NUMBER"
+  } ],
+  "id" : "STRING",
+  "gender" : "STRING",
+  "address" : [ {
+    "price" : 154.07,
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "use" : "STRING"
+  } ],
+  "identifier" : [ {
+    "v_system" : "URL",
+    "use" : "STRING",
+    "type" : {
+      "text" : "STRING"
+    },
+    "value_data" : "PII_NATIONAL_ID"
+  } ],
+  "meta" : {
+    "v_lastUpdated" : "",
+    "versionId" : "INT"
+  },
+  "v_birthDate" : "PII_DATE_OF_BIRTH"
+}

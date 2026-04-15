@@ -1,0 +1,47 @@
+[ {
+  "cpu_usage_percent" : 151.63,
+  "id" : "STRING",
+  "self" : "URL",
+  "v_insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "v_style" : "STRING",
+  "v_projectCategory" : {
+    "description" : "STRING",
+    "self" : "URL",
+    "id" : "STRING",
+    "name" : "STRING"
+  },
+  "avatarUrls" : {
+    "32x32_data" : "URL",
+    "16x16_data" : "URL",
+    "24x24_data" : "URL",
+    "v_48x48" : "URL"
+  },
+  "name" : "STRING",
+  "key_data" : "STRING",
+  "simplified_data" : "BOOLEAN"
+}, {
+  "simplified" : "BOOLEAN",
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "fullName" : "",
+  "self" : "URL",
+  "style_data" : "STRING",
+  "key" : "STRING",
+  "projectCategory" : {
+    "self" : "URL",
+    "description" : "STRING",
+    "fullName" : "STRING"
+  },
+  "avatarUrls" : {
+    "system_ping_ms" : 4899,
+    "48x48_data" : "URL",
+    "24x24" : "URL",
+    "32x32" : "URL",
+    "16x16_data" : "URL"
+  },
+  "id" : "STRING"
+} ]

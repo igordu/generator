@@ -1,0 +1,53 @@
+{
+  "fullName" : "PII_USERNAME",
+  "userId" : "STRING",
+  "registrationMarketplaceId" : "STRING",
+  "status" : "STRING",
+  "cache_hit" : false,
+  "businessAccount" : {
+    "name" : "PII_ORGANIZATION_NAME",
+    "is_active" : false,
+    "emailAddress" : "PII_EMAIL",
+    "doingBusinessAs_data" : "STRING",
+    "secondaryPhone" : {
+      "phoneType" : "STRING",
+      "countryCode" : "STRING",
+      "has_discount" : true,
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "name_val" : "PII_PERSON_NAME",
+      "conversion_rate" : 216.54
+    },
+    "primaryPhone" : {
+      "contactNumber" : "STRING",
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "website" : "URL"
+  },
+  "identifier" : {
+    "primaryPhone" : {
+      "conversion_rate" : 730.89,
+      "telephone" : "STRING",
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "lastName" : "PII_PERSON_NAME",
+    "registrationAddress_data" : {
+      "city" : "STRING",
+      "county" : "STRING",
+      "addressLine1" : "STRING",
+      "has_discount" : false,
+      "postalCode" : "STRING",
+      "stateOrProvince" : "STRING"
+    },
+    "mobile" : {
+      "mobile" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "email" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_NAME"
+  }
+}

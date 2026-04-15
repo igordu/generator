@@ -1,0 +1,14 @@
+{
+  "v_active" : "BOOLEAN",
+  "user_info" : {
+    "clientName" : "PII_LAST_NAME_MALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "auto_renew" : true
+  },
+  "discount_rate" : 878.95,
+  "tree" : {
+    "url" : "URL",
+    "sha" : "STRING"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "data" : [ {
+    "v_shipping" : "NULL",
+    "object" : "STRING",
+    "metadata" : "OBJECT",
+    "test_clock" : "NULL",
+    "default_source" : "STRING",
+    "temperature_c" : 897.18,
+    "balance" : "INT",
+    "email" : "PII_EMAIL",
+    "v_currency" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "id" : "STRING",
+    "created" : "DATETIME_EPOCH",
+    "phone" : "PII_PHONE_NUMBER",
+    "next_invoice_sequence" : null,
+    "address" : "NULL",
+    "v_preferred_locales" : "ARRAY"
+  } ],
+  "v_has_more" : "BOOLEAN",
+  "object" : "STRING",
+  "url_data" : "URL"
+}

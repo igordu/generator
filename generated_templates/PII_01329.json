@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "active" : "BOOLEAN",
+    "tree" : {
+      "url" : "URL",
+      "sha" : "STRING"
+    },
+    "response_time_sec" : 51.7,
+    "user_info_data" : {
+      "name_val" : "PII_COMPANY_NAME",
+      "family-name-male" : "PII_LAST_NAME_MALE",
+      "cpu_usage_percent" : 866.82,
+      "userName" : "PII_FIRST_NAME_FEMALE"
+    }
+  }
+}

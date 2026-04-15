@@ -1,0 +1,14 @@
+{
+  "starRatingDistribution" : {
+    "1_data" : "INT",
+    "4" : "",
+    "has_discount" : true,
+    "3" : "INT",
+    "v_5" : "INT"
+  },
+  "numberOfUserRecommendations_data" : "INT",
+  "averageStarRating" : "INT",
+  "identifier" : "",
+  "is_active" : true,
+  "numberOfUserReviews" : "INT"
+}

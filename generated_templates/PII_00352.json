@@ -1,0 +1,9 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "priority_level" : 1715,
+      "emailAddressStatus" : [ "STRING" ],
+      "emailAddress" : "PII_EMAIL"
+    }
+  }
+}

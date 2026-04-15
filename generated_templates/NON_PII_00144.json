@@ -1,0 +1,18 @@
+{
+  "modelId" : "STRING",
+  "name" : "STRING",
+  "recordId" : "STRING",
+  "v_media" : {
+    "images" : [ {
+      "mediumHdUrl" : "URL",
+      "v_largeUrl" : "",
+      "stock_quantity" : 1887,
+      "smallUrl" : "URL",
+      "orderNumber" : "INT",
+      "smallHdUrl" : "NULL",
+      "mediumUrl" : "URL",
+      "type_data" : "STRING",
+      "thumbnailHdUrl" : "NULL"
+    } ]
+  }
+}

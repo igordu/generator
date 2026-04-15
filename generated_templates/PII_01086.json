@@ -1,0 +1,23 @@
+{
+  "system_state" : {
+    "request_context" : {
+      "debug_payload" : {
+        "country" : "STRING",
+        "last4" : "STRING",
+        "customer" : "STRING",
+        "bank_name" : "STRING",
+        "metadata" : "OBJECT",
+        "status" : "STRING",
+        "account_holder_type" : "STRING",
+        "routing_number_data" : "STRING",
+        "temperature_c" : 949.59,
+        "account_type" : "STRING",
+        "fingerprint" : "STRING",
+        "v_currency" : "STRING",
+        "account_holder_name" : "PII_PERSON_NAME",
+        "object_data" : "STRING",
+        "id" : "STRING"
+      }
+    }
+  }
+}

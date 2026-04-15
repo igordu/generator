@@ -1,0 +1,53 @@
+{
+  "accountType" : "STRING",
+  "status" : "STRING",
+  "uuid" : {
+    "email" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_NAME",
+    "registrationAddress" : {
+      "postalCode_data" : "STRING",
+      "addressLine1_data" : "STRING",
+      "city" : "STRING",
+      "country" : "STRING",
+      "stateOrProvince" : "STRING",
+      "county_data" : "STRING",
+      "addressLine2" : "STRING"
+    },
+    "telephone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
+    },
+    "userName" : "PII_PERSON_NAME",
+    "secondaryPhone" : {
+      "telephone" : "STRING",
+      "retry_attempts" : 1933,
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING"
+    }
+  },
+  "userId" : "STRING",
+  "clientName" : "PII_USERNAME",
+  "businessAccount" : {
+    "primaryContact_data" : {
+      "lastName" : "PII_PERSON_NAME",
+      "conversion_rate" : 159.57,
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "auto_renew" : true,
+    "v_doingBusinessAs" : "STRING",
+    "website_data" : "URL",
+    "mail" : "PII_EMAIL",
+    "primaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "telephone" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "secondaryPhone" : {
+      "phoneType" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "countryCode_data" : "STRING"
+    },
+    "name" : "PII_ORGANIZATION_NAME"
+  },
+  "primaryKey" : "STRING"
+}

@@ -1,0 +1,56 @@
+{
+  "individualAccount" : {
+    "emailAddress" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_NAME",
+    "temperature_c" : 186.51,
+    "secondaryPhone" : {
+      "is_deleted" : false,
+      "countryCode" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
+    },
+    "firstName" : "PII_PERSON_NAME",
+    "primaryPhone" : {
+      "phoneType" : "STRING",
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    }
+  },
+  "status" : "STRING",
+  "registrationMarketplaceId" : "STRING",
+  "businessAccount_data" : {
+    "secondaryPhone" : {
+      "countryCode" : "STRING",
+      "page_index" : 3895,
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME",
+      "http_status" : 3440
+    },
+    "name" : "PII_ORGANIZATION_NAME",
+    "address_data" : {
+      "city" : "STRING",
+      "requires_update" : false,
+      "country" : "STRING",
+      "stateOrProvince" : "STRING",
+      "addressLine1" : "STRING",
+      "postalCode_data" : "STRING"
+    },
+    "primaryPhone" : {
+      "phoneType" : "STRING",
+      "v_number" : "PII_PHONE_NUMBER",
+      "v_countryCode" : "STRING"
+    },
+    "v_website" : "URL",
+    "doingBusinessAs" : "STRING",
+    "conversion_rate" : 263.45,
+    "email" : "PII_EMAIL"
+  },
+  "v_accountType" : "STRING",
+  "stock_quantity" : 66,
+  "userId" : "NULL",
+  "username" : "PII_USERNAME"
+}

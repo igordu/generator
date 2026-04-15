@@ -1,0 +1,68 @@
+[ {
+  "html_url" : "URL",
+  "author" : {
+    "starred_url" : "URL",
+    "site_admin_data" : "BOOLEAN",
+    "id" : "INT",
+    "repos_url" : "URL",
+    "received_events_url_data" : "URL",
+    "organizations_url_data" : "URL",
+    "url_data" : "URL",
+    "login" : "STRING",
+    "recordId" : "STRING",
+    "avatar_url" : "URL",
+    "followers_url_data" : "URL",
+    "events_url_data" : "URL",
+    "type_data" : "STRING"
+  },
+  "parents_data" : [ {
+    "sha" : "STRING",
+    "url" : "URL"
+  } ],
+  "uuid" : "STRING",
+  "committer" : {
+    "login" : "STRING",
+    "subscriptions_url_data" : "URL",
+    "repos_url" : "URL",
+    "html_url" : "URL",
+    "received_events_url" : "URL",
+    "gravatar_id" : "",
+    "starred_url" : "URL",
+    "following_url_data" : "URL",
+    "id" : "INT",
+    "type_data" : "STRING",
+    "organizations_url" : "URL",
+    "node_id" : "STRING",
+    "followers_url" : "URL",
+    "url" : ""
+  },
+  "sha" : "STRING",
+  "commit_data" : {
+    "comment_count" : "INT",
+    "v_committer" : {
+      "name" : "PII_PERSON_NAME",
+      "cpu_usage_percent" : 327.07,
+      "emailAddress" : "PII_EMAIL",
+      "date" : "DATETIME"
+    },
+    "message" : "PII_COMPANY_NAME",
+    "tree" : {
+      "url" : "URL"
+    },
+    "v_verification" : {
+      "payload" : "STRING",
+      "temperature_c" : 184.96,
+      "reason" : "STRING",
+      "v_signature" : "STRING"
+    },
+    "url" : "URL",
+    "v_author" : {
+      "email" : "PII_EMAIL",
+      "fullName" : "PII_PERSON_NAME",
+      "page_index" : 1055,
+      "date" : "DATETIME"
+    }
+  },
+  "comments_url" : "URL",
+  "url" : "URL"
+} ]

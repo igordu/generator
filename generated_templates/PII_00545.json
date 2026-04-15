@@ -1,0 +1,25 @@
+{
+  "transactions" : {
+    "conversion_rate" : 478.17,
+    "booked" : [ {
+      "valueDate" : "DATE",
+      "amount" : {
+        "currency" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "debtorName" : "STRING",
+      "v_debtorAccount" : {
+        "iban" : "STRING",
+        "conversion_rate" : 998.84
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "creditorAccount_data" : {
+        "iban" : "PII_IBAN",
+        "is_deleted" : false
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "transactionId" : "STRING",
+      "v_bookingDate" : "DATE"
+    } ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "page_number" : "INT",
+  "is_deleted" : true,
+  "page_size" : "INT",
+  "v_registrants" : [ {
+    "email" : "PII_EMAIL",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "v_state" : "PII_LOCATION_STATE",
+    "country" : "PII_LOCATION_COUNTRY",
+    "address" : "PII_ADDRESS_LINE",
+    "org" : "PII_ORGANIZATION_NAME",
+    "uuid" : "STRING",
+    "v_zip" : "STRING",
+    "join_url_data" : "URL",
+    "job_title" : "NULL",
+    "custom_questions" : [ {
+      "v_value" : "STRING",
+      "title" : "STRING"
+    }, {
+      "title" : "STRING"
+    } ],
+    "industry" : "STRING",
+    "create_time" : "DATETIME",
+    "comments_data" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "city" : "PII_LOCATION_CITY",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "no_of_employees" : "STRING",
+    "status_data" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "role_in_purchase_process" : "NULL"
+  } ]
+}

@@ -1,0 +1,8 @@
+{
+  "user_info" : {
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "clientName" : "PII_COMPANY_NAME"
+  },
+  "auto_renew" : false,
+  "active" : "BOOLEAN"
+}

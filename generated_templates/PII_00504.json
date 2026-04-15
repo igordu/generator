@@ -1,0 +1,30 @@
+{
+  "has_discount" : false,
+  "transactions" : {
+    "auto_renew" : false,
+    "booked_data" : [ {
+      "creditorName" : "PII_PERSON_NAME",
+      "amount" : {
+        "amount" : "DECIMAL",
+        "v_currency" : "STRING"
+      },
+      "valueDate" : "DATE",
+      "fullName" : "STRING",
+      "bankTransactionCode" : {
+        "auto_renew" : true,
+        "subFamily" : "STRING",
+        "domain_data" : "STRING",
+        "family" : "STRING"
+      },
+      "v_bookingDate" : "DATE",
+      "creditorAccount" : {
+        "iban_data" : "PII_IBAN"
+      },
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "transactionId" : "STRING",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
+    } ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "shopUrl" : "URL",
+  "media" : {
+    "images" : [ {
+      "smallUrl" : "URL",
+      "price" : 535.28,
+      "v_mediumHdUrl" : "URL",
+      "type" : "STRING",
+      "v_largeUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "orderNumber" : "INT",
+      "v_smallHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "mediumUrl" : "URL"
+    } ]
+  },
+  "uuid" : "STRING",
+  "id" : "STRING"
+}

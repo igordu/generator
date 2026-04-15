@@ -1,0 +1,19 @@
+{
+  "v_content" : [ {
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "language" : "STRING",
+    "helpfulCount" : "INT",
+    "title" : "PII_COMPANY_NAME",
+    "articleId" : null,
+    "rating" : "INT",
+    "created" : "DATETIME",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "articleSizeRatings" : {
+      "OVERALL" : "INT",
+      "SHOE_WIDTH" : "INT"
+    },
+    "unhelpfulCount" : "INT",
+    "articleModelId" : "STRING",
+    "reviewId" : "STRING"
+  } ]
+}

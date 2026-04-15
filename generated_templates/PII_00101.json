@@ -1,0 +1,38 @@
+{
+  "userId" : "STRING",
+  "primaryKey" : "STRING",
+  "item_count" : 1420,
+  "businessAccount" : {
+    "email" : "PII_EMAIL",
+    "primaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "name" : "PII_ORGANIZATION_NAME",
+    "doingBusinessAs" : "STRING",
+    "is_active" : false,
+    "address" : {
+      "county" : "STRING",
+      "addressLine1" : "STRING",
+      "addressLine2" : "STRING",
+      "postalCode" : "STRING",
+      "city" : "NULL",
+      "country" : "STRING"
+    },
+    "website" : "URL",
+    "secondaryPhone" : {
+      "countryCode_data" : "STRING",
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "is_active" : true
+    },
+    "v_primaryContact" : {
+      "fullName" : "PII_PERSON_NAME",
+      "firstName" : "PII_PERSON_NAME"
+    }
+  },
+  "accountType" : "STRING",
+  "username" : "PII_USERNAME",
+  "status" : "STRING"
+}

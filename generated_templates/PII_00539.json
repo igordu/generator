@@ -1,0 +1,26 @@
+{
+  "transactions" : {
+    "booked" : [ {
+      "creditorAccount" : {
+        "item_count" : 4386,
+        "v_iban" : "PII_IBAN"
+      },
+      "v_bankTransactionCode" : {
+        "subFamily" : "STRING",
+        "domain" : "STRING",
+        "family" : "NULL"
+      },
+      "amount" : {
+        "amount" : "",
+        "priority_level" : 3589,
+        "currency" : "STRING"
+      },
+      "bookingDate" : "DATE",
+      "debtorName" : "STRING",
+      "uuid" : "STRING",
+      "creditorName" : "PII_PERSON_NAME",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "v_valueDate" : "DATE"
+    } ]
+  }
+}

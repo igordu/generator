@@ -1,0 +1,17 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "active" : "BOOLEAN",
+    "user_info" : {
+      "family-name-male" : "PII_LAST_NAME_MALE",
+      "stock_quantity" : 3292,
+      "arline__name" : "PII_COMPANY_NAME",
+      "clientName" : "PII_FIRST_NAME_FEMALE"
+    },
+    "tree" : {
+      "sha" : "STRING",
+      "v_url" : "URL"
+    }
+  }
+}

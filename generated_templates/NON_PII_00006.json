@@ -1,0 +1,8 @@
+{
+  "articleModelId" : "STRING",
+  "numberOfUserPositiveRecommendations" : null,
+  "averageStarRating_data" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "price" : 688.99,
+  "numberOfUserReviews_data" : "INT"
+}

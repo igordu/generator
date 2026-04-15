@@ -1,0 +1,38 @@
+{
+  "server_logs" : {
+    "transaction_trace" : {
+      "debug_payload" : {
+        "v_page_count" : "INT",
+        "cpu_usage_percent" : 0.65,
+        "page_size" : "INT",
+        "registrants" : [ {
+          "purchasing_time_frame" : "STRING",
+          "email" : "PII_EMAIL",
+          "country" : "PII_LOCATION_COUNTRY",
+          "status_data" : "STRING",
+          "zip" : "STRING",
+          "last_name" : "PII_PERSON_LAST_NAME",
+          "first_name" : "PII_PERSON_FIRST_NAME",
+          "create_time" : "DATETIME",
+          "phone" : "PII_PHONE_NUMBER",
+          "role_in_purchase_process" : "STRING",
+          "state_data" : "PII_LOCATION_STATE",
+          "id" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "job_title" : "STRING",
+          "industry" : "STRING",
+          "join_url_data" : "URL",
+          "custom_questions_data" : [ {
+            "title" : "STRING",
+            "has_discount" : true,
+            "value" : "STRING"
+          } ],
+          "org" : "PII_ORGANIZATION_NAME",
+          "address" : "PII_ADDRESS_LINE"
+        } ],
+        "total_records" : "INT",
+        "page_number" : "INT"
+      }
+    }
+  }
+}

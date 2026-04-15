@@ -1,0 +1,14 @@
+{
+  "user_info" : {
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "userName" : "PII_FIRST_NAME_FEMALE",
+    "fullName" : "PII_COMPANY_NAME"
+  },
+  "active" : "BOOLEAN",
+  "priority_level" : 3976,
+  "v_tree" : {
+    "sha" : "STRING",
+    "url" : "URL",
+    "temperature_c" : 210.35
+  }
+}

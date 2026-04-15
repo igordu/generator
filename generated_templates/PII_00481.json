@@ -1,0 +1,39 @@
+{
+  "v_address" : [ {
+    "conversion_rate" : 610.59,
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "city_data" : "PII_LOCATION_CITY",
+    "use" : "STRING"
+  } ],
+  "v_telecom" : [ {
+    "v_value" : "PII_PHONE_NUMBER",
+    "cache_hit" : true,
+    "use" : "STRING"
+  }, {
+    "value" : "PII_EMAIL"
+  } ],
+  "identifier" : [ {
+    "v_system" : "URL",
+    "value" : "PII_NATIONAL_ID",
+    "use" : "STRING",
+    "type" : {
+      "text" : "STRING"
+    }
+  } ],
+  "has_discount" : false,
+  "id" : "STRING",
+  "v_meta" : {
+    "lastUpdated" : "DATETIME",
+    "primaryKey" : null,
+    "priority_level" : 4378
+  },
+  "v_gender" : "STRING",
+  "clientName" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "use" : "STRING",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "v_resourceType" : "STRING"
+}

@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "response_time_sec" : 566.17,
+    "facets" : [ {
+      "displayName" : "STRING",
+      "key" : "STRING",
+      "count" : "INT",
+      "temperature_c" : 180.08
+    }, {
+      "displayName" : "STRING",
+      "count_data" : "INT",
+      "key" : "STRING"
+    } ]
+  }, {
+    "auto_renew" : true,
+    "filter" : "STRING",
+    "facets" : [ {
+      "v_key" : "STRING",
+      "userName" : "STRING",
+      "count" : "INT"
+    }, {
+      "key" : "STRING",
+      "count" : "INT",
+      "displayName" : "STRING"
+    } ]
+  }, {
+    "filter" : "STRING"
+  } ]
+}

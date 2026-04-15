@@ -1,0 +1,41 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "NULL",
+    "item_count" : 3593,
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "key" : "STRING",
+    "userName" : "STRING",
+    "is_active" : true,
+    "count" : "INT"
+  }, {
+    "displayName" : "STRING",
+    "conversion_rate" : 225.82,
+    "key" : "STRING",
+    "count_data" : "INT"
+  } ]
+}, {
+  "filter" : "STRING",
+  "facets_data" : [ {
+    "fullName" : "STRING"
+  }, {
+    "key" : "STRING",
+    "count_data" : "INT",
+    "clientName" : "STRING"
+  } ],
+  "price" : 181.18
+}, {
+  "temperature_c" : 572.92,
+  "facets_data" : [ {
+    "key" : "STRING",
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "key" : "STRING",
+    "page_index" : 4687,
+    "count" : "INT"
+  } ],
+  "filter" : "STRING"
+} ]

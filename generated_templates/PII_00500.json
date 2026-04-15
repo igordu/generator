@@ -1,0 +1,29 @@
+{
+  "transactions" : {
+    "is_active" : false,
+    "v_booked" : [ {
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "family" : "STRING",
+        "discount_rate" : 263.92,
+        "subFamily" : "STRING"
+      },
+      "debtorAccount" : {
+        "v_iban" : "STRING"
+      },
+      "recordId" : "STRING",
+      "creditorName" : "PII_PERSON_NAME",
+      "creditorAccount_data" : {
+        "temperature_c" : 336.73,
+        "v_iban" : "PII_IBAN"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "valueDate" : "DATE",
+      "userName" : "STRING",
+      "amount" : {
+        "amount" : "DECIMAL",
+        "currency" : "STRING"
+      }
+    } ]
+  }
+}

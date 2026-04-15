@@ -1,0 +1,5 @@
+{
+  "has_discount" : true,
+  "flowName" : "STRING",
+  "v_clientToken" : "STRING"
+}

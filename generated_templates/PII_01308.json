@@ -1,0 +1,12 @@
+{
+  "tree" : {
+    "v_url" : "URL",
+    "sha" : "STRING"
+  },
+  "active_data" : "BOOLEAN",
+  "user_info" : {
+    "name_val" : "PII_COMPANY_NAME",
+    "fullName" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  }
+}

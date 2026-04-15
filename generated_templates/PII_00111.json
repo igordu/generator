@@ -1,0 +1,40 @@
+{
+  "registrationMarketplaceId" : "STRING",
+  "uuid" : "STRING",
+  "accountType" : "STRING",
+  "username" : "PII_USERNAME",
+  "v_status" : "STRING",
+  "businessAccount_data" : {
+    "telephone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "system_ping_ms" : 4691,
+    "email" : "PII_EMAIL",
+    "v_website" : "URL",
+    "v_address" : {
+      "county" : "STRING",
+      "addressLine2" : "STRING",
+      "postalCode" : "STRING",
+      "country" : "STRING",
+      "stateOrProvince" : "STRING",
+      "conversion_rate" : 906.97,
+      "city" : "STRING",
+      "addressLine1_data" : "STRING"
+    },
+    "primaryPhone" : {
+      "number_data" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "system_ping_ms" : 2655,
+      "countryCode" : "STRING"
+    },
+    "fullName" : "PII_ORGANIZATION_NAME",
+    "primaryContact" : {
+      "discount_rate" : 410.18,
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME"
+    },
+    "doingBusinessAs" : "NULL"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "v_numberOfUserPositiveRecommendations" : "INT",
+    "uuid" : "STRING",
+    "numberOfUserReviews" : "INT",
+    "v_averageStarRating" : "INT",
+    "starRatingDistribution" : {
+      "3" : "INT",
+      "2_data" : "INT",
+      "4" : "INT",
+      "5" : "INT"
+    },
+    "numberOfUserRecommendations" : "INT"
+  }
+}

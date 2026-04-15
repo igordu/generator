@@ -1,0 +1,204 @@
+{
+  "flowName": "STRING",
+  "description": "STRING",
+  "kmsArn": "STRING",
+  "triggerConfig": {
+    "triggerType": "STRING",
+    "triggerProperties": {
+      "Scheduled": {
+        "scheduleExpression": "STRING",
+        "dataPullMode": "STRING",
+        "scheduleStartTime": "DATETIME",
+        "scheduleEndTime": "DATETIME",
+        "timezone": "STRING",
+        "scheduleOffset": "INT",
+        "firstExecutionFrom": "DATETIME",
+        "flowErrorDeactivationThreshold": "INT"
+      }
+    }
+  },
+  "sourceFlowConfig": {
+    "connectorType": "STRING",
+    "apiVersion": "STRING",
+    "connectorProfileName": "STRING",
+    "sourceConnectorProperties": {
+      "Amplitude": {
+        "object": "STRING"
+      },
+      "Datadog": {
+        "object": "STRING"
+      },
+      "Dynatrace": {
+        "object": "STRING"
+      },
+      "GoogleAnalytics": {
+        "object": "STRING"
+      },
+      "InforNexus": {
+        "object": "STRING"
+      },
+      "Marketo": {
+        "object": "STRING"
+      },
+      "S3": {
+        "bucketName": "STRING",
+        "bucketPrefix": "STRING",
+        "s3InputFormatConfig": {
+          "s3InputFileType": "STRING"
+        }
+      },
+      "Salesforce": {
+        "object": "STRING",
+        "enableDynamicFieldUpdate": "BOOLEAN",
+        "includeDeletedRecords": "BOOLEAN",
+        "dataTransferApi": "STRING"
+      },
+      "ServiceNow": {
+        "object": "STRING"
+      },
+      "Singular": {
+        "object": "STRING"
+      },
+      "Slack": {
+        "object": "STRING"
+      },
+      "Trendmicro": {
+        "object": "STRING"
+      },
+      "Veeva": {
+        "object": "STRING",
+        "documentType": "STRING",
+        "includeSourceFiles": "BOOLEAN",
+        "includeRenditions": "BOOLEAN",
+        "includeAllVersions": "BOOLEAN"
+      },
+      "Zendesk": {
+        "object": "STRING"
+      },
+      "SAPOData": {
+        "objectPath": "STRING"
+      },
+      "CustomConnector": {
+        "entityName": "STRING",
+        "customProperties": {
+          "property1": "STRING",
+          "property2": "STRING"
+        }
+      },
+      "Pardot": {
+        "object": "STRING"
+      }
+    },
+    "incrementalPullConfig": {
+      "datetimeTypeFieldName": "STRING"
+    }
+  },
+  "destinationFlowConfigList": [
+    {
+      "connectorType": "STRING",
+      "apiVersion": "STRING",
+      "connectorProfileName": "STRING",
+      "destinationConnectorProperties": {
+        "Redshift": {
+          "object": "STRING",
+          "intermediateBucketName": "STRING",
+          "bucketPrefix": "STRING",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": "BOOLEAN",
+            "bucketPrefix": "STRING",
+            "bucketName": "STRING"
+          }
+        },
+        "S3": {
+          "bucketName": "STRING",
+          "bucketPrefix": "STRING",
+          "s3OutputFormatConfig": {
+            "fileType": "STRING",
+            "prefixConfig": {
+              "prefixType": "STRING",
+              "prefixFormat": "STRING",
+              "pathPrefixHierarchy": "ARRAY"
+            },
+            "aggregationConfig": {
+              "aggregationType": "STRING",
+              "targetFileSize": "INT"
+            },
+            "preserveSourceDataTyping": "BOOLEAN"
+          }
+        },
+        "Salesforce": {
+          "object": "STRING",
+          "idFieldNames": "ARRAY",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": "BOOLEAN",
+            "bucketPrefix": "STRING",
+            "bucketName": "STRING"
+          },
+          "writeOperationType": "STRING",
+          "dataTransferApi": "STRING"
+        },
+        "Snowflake": {
+          "object": "STRING",
+          "intermediateBucketName": "STRING",
+          "bucketPrefix": "STRING",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": "BOOLEAN",
+            "bucketPrefix": "STRING",
+            "bucketName": "STRING"
+          }
+        },
+        "EventBridge": {
+          "object": "STRING",
+          "errorHandlingConfig": {
+            "failOnFirstDestinationError": "BOOLEAN",
+            "bucketPrefix": "STRING",
+            "bucketName": "STRING"
+          }
+        },
+        "LookoutMetrics": {}
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "sourceFields": "ARRAY",
+      "connectorOperator": {
+        "Amplitude": "STRING",
+        "Datadog": "STRING",
+        "Dynatrace": "STRING",
+        "GoogleAnalytics": "STRING",
+        "InforNexus": "STRING",
+        "Marketo": "STRING",
+        "S3": "STRING",
+        "Salesforce": "STRING",
+        "ServiceNow": "STRING",
+        "Singular": "STRING",
+        "Slack": "STRING",
+        "Trendmicro": "STRING",
+        "Veeva": "STRING",
+        "Zendesk": "STRING",
+        "SAPOData": "STRING",
+        "CustomConnector": "STRING",
+        "Pardot": "STRING"
+      },
+      "destinationField": "STRING",
+      "taskType": "STRING",
+      "taskProperties": {
+        "property1": "STRING",
+        "property2": "STRING"
+      }
+    }
+  ],
+  "tags": {
+    "property1": "STRING",
+    "property2": "STRING"
+  },
+  "metadataCatalogConfig": {
+    "glueDataCatalog": {
+      "roleArn": "STRING",
+      "databaseName": "STRING",
+      "tablePrefix": "STRING"
+    }
+  },
+  "clientToken": "STRING"
+}

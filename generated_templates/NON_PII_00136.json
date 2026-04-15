@@ -1,0 +1,20 @@
+{
+  "id" : "STRING",
+  "v_shopUrl" : "URL",
+  "primaryKey" : "STRING",
+  "name" : "STRING",
+  "v_media" : {
+    "images" : [ {
+      "type_data" : "STRING",
+      "mediumUrl" : "URL",
+      "smallUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "v_mediumHdUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "largeUrl" : "URL",
+      "priority_level" : 4589
+    } ],
+    "retry_attempts" : 1062
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "clientToken" : "STRING",
+    "cpu_usage_percent" : 288.17
+  }
+}

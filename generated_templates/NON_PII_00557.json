@@ -1,0 +1,27 @@
+{
+  "audit_trail" : {
+    "request_context" : {
+      "raw_data" : [ {
+        "requires_update" : false,
+        "v_projectCategory" : {
+          "self" : "URL",
+          "id" : "STRING",
+          "cpu_usage_percent" : 508.97,
+          "description" : "STRING",
+          "name" : "STRING"
+        },
+        "v_key" : "STRING",
+        "self" : "URL",
+        "avatarUrls" : {
+          "48x48" : "URL",
+          "24x24" : "URL",
+          "16x16" : "URL"
+        },
+        "style_data" : "",
+        "name" : "STRING",
+        "simplified" : "BOOLEAN",
+        "primaryKey" : "STRING"
+      } ]
+    }
+  }
+}

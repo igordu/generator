@@ -1,0 +1,40 @@
+{
+  "system_state" : {
+    "transaction_trace" : {
+      "extracted_info" : {
+        "data" : [ {
+          "preferred_locales_data" : "ARRAY",
+          "phone" : "PII_PHONE_NUMBER",
+          "test_clock" : "NULL",
+          "invoice_settings" : {
+            "rendering_options" : null,
+            "custom_fields_data" : "NULL",
+            "footer" : "STRING",
+            "default_payment_method" : "STRING"
+          },
+          "object" : "STRING",
+          "balance" : "INT",
+          "description" : "STRING",
+          "v_shipping" : "NULL",
+          "priority_level" : 4647,
+          "livemode" : "BOOLEAN",
+          "id" : "STRING",
+          "invoice_prefix_data" : "STRING",
+          "name_val" : "PII_PERSON_NAME",
+          "created" : "DATETIME_EPOCH",
+          "currency" : "STRING",
+          "email" : "PII_EMAIL",
+          "tax_exempt" : "STRING",
+          "address" : "NULL",
+          "next_invoice_sequence" : "INT",
+          "metadata_data" : "OBJECT",
+          "delinquent" : "BOOLEAN"
+        } ],
+        "v_object" : "STRING",
+        "has_more" : "BOOLEAN",
+        "url" : "URL",
+        "response_time_sec" : 67.78
+      }
+    }
+  }
+}

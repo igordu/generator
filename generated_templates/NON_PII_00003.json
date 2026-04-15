@@ -1,0 +1,15 @@
+{
+  "starRatingDistribution" : {
+    "4_data" : "NULL",
+    "2_data" : "INT",
+    "v_1" : "INT",
+    "auto_renew" : true,
+    "3" : "INT"
+  },
+  "articleModelId" : "STRING",
+  "discount_rate" : 562.81,
+  "numberOfUserReviews_data" : "INT",
+  "v_numberOfUserPositiveRecommendations" : "INT",
+  "averageStarRating" : "INT",
+  "v_numberOfUserRecommendations" : "INT"
+}

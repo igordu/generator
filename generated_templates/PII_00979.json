@@ -1,0 +1,32 @@
+{
+  "data" : [ {
+    "invoice_prefix_data" : "STRING",
+    "shipping" : "NULL",
+    "email" : "PII_EMAIL",
+    "currency" : "STRING",
+    "next_invoice_sequence" : "INT",
+    "preferred_locales" : "ARRAY",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "balance" : "INT",
+    "id" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "metadata" : "OBJECT",
+    "object" : "STRING",
+    "description" : "STRING",
+    "v_address" : "NULL",
+    "test_clock_data" : "NULL",
+    "created" : "DATETIME_EPOCH",
+    "invoice_settings" : {
+      "rendering_options" : "NULL",
+      "temperature_c" : 469.95,
+      "v_default_payment_method" : "STRING",
+      "footer" : "STRING"
+    },
+    "tax_exempt" : "STRING",
+    "delinquent" : "BOOLEAN"
+  } ],
+  "object" : "STRING",
+  "has_more_data" : "BOOLEAN",
+  "url" : "URL",
+  "auto_renew" : true
+}

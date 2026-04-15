@@ -1,0 +1,42 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : [ {
+    "name" : "STRING",
+    "key" : "STRING",
+    "uuid" : "STRING",
+    "style" : "STRING",
+    "insight" : {
+      "temperature_c" : 322.97,
+      "lastIssueUpdateTime" : "DATETIME",
+      "totalIssueCount" : "INT"
+    },
+    "avatarUrls" : {
+      "24x24" : "URL",
+      "v_16x16" : "URL",
+      "48x48" : "NULL",
+      "32x32" : "URL"
+    },
+    "self" : null
+  }, {
+    "insight" : { },
+    "userName" : "STRING",
+    "requires_update" : false,
+    "style" : "STRING",
+    "self" : "URL",
+    "id" : "STRING",
+    "projectCategory" : {
+      "self_data" : "NULL",
+      "stock_quantity" : 2213,
+      "identifier" : "STRING",
+      "name" : "STRING"
+    },
+    "simplified" : "BOOLEAN",
+    "avatarUrls_data" : {
+      "16x16" : "URL",
+      "24x24" : "URL",
+      "48x48" : "URL",
+      "price" : 338.0
+    }
+  } ]
+}

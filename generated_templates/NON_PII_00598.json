@@ -1,0 +1,25 @@
+[ {
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "cpu_usage_percent" : 975.13,
+    "totalIssueCount_data" : "INT"
+  },
+  "id" : "STRING",
+  "key" : "STRING",
+  "v_self" : "URL",
+  "v_style" : "STRING",
+  "avatarUrls" : {
+    "16x16_data" : "URL",
+    "v_48x48" : "URL",
+    "24x24" : "URL",
+    "32x32" : "URL"
+  },
+  "projectCategory" : {
+    "fullName" : "STRING",
+    "conversion_rate" : 785.79,
+    "id" : "STRING",
+    "self" : "URL",
+    "description" : "STRING"
+  },
+  "name" : "STRING"
+} ]

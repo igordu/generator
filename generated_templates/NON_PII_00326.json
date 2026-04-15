@@ -1,0 +1,111 @@
+{
+  "clientToken_data" : "STRING",
+  "v_kmsArn" : "STRING",
+  "destinationFlowConfigList" : [ {
+    "connectorProfileName" : "STRING",
+    "destinationConnectorProperties" : {
+      "EventBridge" : {
+        "priority_level" : 4997,
+        "v_object" : "STRING",
+        "errorHandlingConfig" : {
+          "bucketName" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "bucketPrefix" : "STRING",
+          "retry_attempts" : 1550
+        }
+      },
+      "Salesforce" : {
+        "v_dataTransferApi" : "STRING",
+        "system_ping_ms" : 1614,
+        "object" : "STRING",
+        "writeOperationType" : "STRING",
+        "errorHandlingConfig" : {
+          "bucketPrefix" : "STRING",
+          "cpu_usage_percent" : 587.4,
+          "failOnFirstDestinationError" : "NULL",
+          "userName" : "STRING"
+        }
+      },
+      "Snowflake" : {
+        "object_data" : "STRING",
+        "errorHandlingConfig" : {
+          "cache_hit" : true,
+          "bucketName" : "STRING",
+          "bucketPrefix" : "STRING"
+        }
+      },
+      "response_time_sec" : 940.46,
+      "LookoutMetrics" : { },
+      "Redshift" : {
+        "object_data" : "STRING",
+        "bucketPrefix" : "STRING",
+        "intermediateBucketName" : "STRING",
+        "v_errorHandlingConfig" : {
+          "discount_rate" : 861.89,
+          "failOnFirstDestinationError_data" : "BOOLEAN",
+          "bucketName" : "STRING"
+        }
+      }
+    },
+    "connectorType" : ""
+  } ],
+  "flowName" : "STRING",
+  "metadataCatalogConfig" : {
+    "discount_rate" : 452.16,
+    "glueDataCatalog" : {
+      "v_roleArn" : "STRING",
+      "databaseName" : "STRING",
+      "tablePrefix" : "NULL"
+    }
+  },
+  "tasks_data" : [ {
+    "taskProperties" : {
+      "property2_data" : "STRING",
+      "property1" : "STRING"
+    },
+    "taskType" : "STRING",
+    "destinationField" : "STRING",
+    "connectorOperator" : {
+      "v_Marketo" : "STRING",
+      "v_Zendesk" : "STRING",
+      "ServiceNow" : "STRING",
+      "Slack_data" : "STRING",
+      "InforNexus" : "STRING",
+      "Salesforce_data" : "STRING",
+      "Trendmicro" : "STRING",
+      "Pardot" : "STRING",
+      "v_SAPOData" : "STRING",
+      "CustomConnector" : "STRING",
+      "Amplitude" : "STRING",
+      "S3" : "STRING",
+      "v_GoogleAnalytics" : "STRING",
+      "Singular" : "STRING",
+      "Dynatrace" : "STRING",
+      "Datadog" : "STRING"
+    },
+    "sourceFields" : "ARRAY"
+  } ],
+  "description" : null,
+  "v_triggerConfig" : {
+    "triggerType_data" : "STRING",
+    "triggerProperties" : {
+      "temperature_c" : 429.07,
+      "Scheduled" : {
+        "cache_hit" : true,
+        "firstExecutionFrom" : "DATETIME",
+        "timezone" : "STRING",
+        "scheduleExpression" : "STRING",
+        "flowErrorDeactivationThreshold" : "INT",
+        "scheduleOffset" : "INT",
+        "scheduleEndTime_data" : "DATETIME",
+        "dataPullMode" : "STRING"
+      }
+    },
+    "price" : 322.91
+  },
+  "tags" : {
+    "property2_data" : "NULL",
+    "cache_hit" : false,
+    "property1" : "STRING"
+  }
+}

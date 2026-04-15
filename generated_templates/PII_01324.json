@@ -1,0 +1,17 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "tree" : {
+      "sha" : "STRING",
+      "url" : "URL"
+    },
+    "user_info" : {
+      "family-name-male" : "PII_LAST_NAME_MALE",
+      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+      "arline__name" : "PII_COMPANY_NAME"
+    },
+    "v_active" : "BOOLEAN",
+    "conversion_rate" : 420.19
+  }
+}

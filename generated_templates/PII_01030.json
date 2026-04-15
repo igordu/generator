@@ -1,0 +1,20 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "bank_name" : "STRING",
+      "routing_number" : "STRING",
+      "currency" : "STRING",
+      "country" : "STRING",
+      "customer" : "STRING",
+      "recordId" : "STRING",
+      "last4" : "STRING",
+      "status" : "STRING",
+      "object" : "STRING",
+      "v_fingerprint" : "STRING",
+      "account_holder_name" : "PII_PERSON_NAME",
+      "v_account_type" : "STRING",
+      "metadata" : "OBJECT",
+      "account_holder_type" : "STRING"
+    }
+  }
+}

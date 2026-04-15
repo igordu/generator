@@ -1,0 +1,14 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "shopUrl" : "URL",
+    "id" : "STRING",
+    "media" : {
+      "auto_renew" : false
+    },
+    "item_count" : 2214,
+    "name" : "STRING",
+    "modelId" : "STRING"
+  }
+}

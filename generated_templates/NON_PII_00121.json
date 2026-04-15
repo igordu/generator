@@ -1,0 +1,8 @@
+{
+  "shopUrl" : "URL",
+  "media" : { },
+  "auto_renew" : false,
+  "id" : "STRING",
+  "name" : "STRING",
+  "modelId" : "STRING"
+}

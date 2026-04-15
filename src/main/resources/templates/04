@@ -1,0 +1,57 @@
+[
+  {
+    "facets": [
+      {
+        "count": "INT",
+        "displayName": "STRING",
+        "key": "STRING"
+      },
+      {
+        "count": "INT",
+        "displayName": "STRING",
+        "key": "STRING"
+      },
+      {
+        "count": "INT",
+        "displayName": "STRING",
+        "key": "STRING"
+      }
+    ],
+    "filter": "STRING"
+  },
+  {
+    "facets": [
+      {
+        "count": "INT",
+        "displayName": "STRING",
+        "key": "STRING"
+      },
+      {
+        "count": "INT",
+        "displayName": "STRING",
+        "key": "STRING"
+      }
+    ],
+    "filter": "STRING"
+  },
+  {
+    "facets": [
+      {
+        "count": "INT",
+        "displayName": "STRING",
+        "key": "STRING"
+      },
+      {
+        "count": "INT",
+        "displayName": "STRING",
+        "key": "STRING"
+      },
+      {
+        "count": "INT",
+        "displayName": "STRING",
+        "key": "STRING"
+      }
+    ],
+    "filter": "STRING"
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "system_state" : {
+    "request_context" : {
+      "extracted_info" : {
+        "total" : "INT",
+        "prev" : "STRING",
+        "transactions" : [ {
+          "transactionDate" : "DATETIME",
+          "eBayCollectedTaxAmount" : {
+            "currency" : "STRING",
+            "convertedFromCurrency" : "STRING",
+            "value" : "STRING",
+            "convertedFromValue" : "STRING",
+            "exchangeRate" : "STRING"
+          },
+          "feeJurisdiction" : {
+            "conversion_rate" : 553.03,
+            "regionName" : "STRING",
+            "regionType_data" : "STRING"
+          },
+          "response_time_sec" : 108.79,
+          "transactionMemo" : "STRING",
+          "references_data" : [ {
+            "response_time_sec" : 77.58,
+            "referenceId" : "STRING",
+            "referenceType" : "STRING"
+          } ],
+          "feeType_data" : "STRING",
+          "totalFeeBasisAmount" : {
+            "value" : "STRING",
+            "currency" : "STRING",
+            "convertedFromCurrency" : "STRING",
+            "exchangeRate" : "STRING"
+          },
+          "amount_data" : {
+            "currency_data" : "STRING",
+            "convertedFromValue" : "NULL",
+            "cache_hit" : true,
+            "value" : "STRING",
+            "exchangeRate" : "STRING",
+            "convertedFromCurrency" : "STRING"
+          },
+          "paymentsEntity" : "STRING",
+          "orderId" : "STRING",
+          "v_orderLineItems" : [ {
+            "feeBasisAmount" : {
+              "v_convertedFromValue" : "STRING",
+              "v_value" : "STRING",
+              "currency" : "STRING",
+              "convertedFromCurrency" : "STRING",
+              "exchangeRate" : "STRING",
+              "temperature_c" : 419.75
+            },
+            "marketplaceFees" : [ {
+              "system_ping_ms" : 205,
+              "amount" : {
+                "convertedFromValue" : "STRING",
+                "value" : "STRING",
+                "convertedFromCurrency" : "STRING",
+                "requires_update" : true,
+                "currency_data" : "STRING"
+              },
+              "v_feeMemo" : "STRING",
+              "feeType" : "STRING"
+            } ],
+            "identifier" : "STRING"
+          } ],
+          "buyer" : {
+            "username" : "PII_USERNAME",
+            "auto_renew" : false
+          },
+          "totalFeeAmount" : {
+            "value" : "STRING",
+            "exchangeRate" : "",
+            "convertedFromCurrency" : "STRING",
+            "currency" : "STRING"
+          },
+          "transactionType" : "STRING",
+          "bookingEntry" : "STRING",
+          "identifier" : "STRING",
+          "salesRecordReference" : "STRING",
+          "transactionStatus" : "STRING"
+        } ],
+        "next" : "STRING",
+        "cache_hit" : false,
+        "limit" : "INT",
+        "href_data" : "STRING",
+        "offset" : "INT"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "articleModelId" : "STRING",
+    "numberOfUserRecommendations" : "INT",
+    "starRatingDistribution" : {
+      "1" : "INT",
+      "2" : "INT",
+      "5" : "INT",
+      "conversion_rate" : 575.29
+    },
+    "averageStarRating" : "INT",
+    "numberOfUserPositiveRecommendations" : "INT",
+    "numberOfUserReviews" : "INT"
+  }
+}

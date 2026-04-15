@@ -1,0 +1,31 @@
+{
+  "system_ping_ms" : 3219,
+  "transactions" : {
+    "response_time_sec" : 847.82,
+    "booked_data" : [ {
+      "debtorAccount" : {
+        "iban_data" : "STRING"
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "primaryKey" : "STRING",
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "system_ping_ms" : 4754,
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "family_data" : "STRING",
+        "v_subFamily" : "STRING",
+        "has_discount" : true
+      },
+      "bookingDate" : "DATE",
+      "fullName" : "STRING",
+      "creditorAccount" : {
+        "discount_rate" : 65.99,
+        "iban" : "PII_IBAN"
+      },
+      "amount" : {
+        "v_amount" : "DECIMAL",
+        "currency_data" : "STRING"
+      }
+    } ]
+  }
+}

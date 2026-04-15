@@ -1,0 +1,21 @@
+{
+  "v_content" : [ {
+    "created_data" : "DATETIME",
+    "primaryKey" : "STRING",
+    "v_unhelpfulCount" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "language" : "STRING",
+    "description" : "",
+    "recommend" : "BOOLEAN",
+    "articleId" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "title_data" : "PII_COMPANY_NAME",
+    "reviewId" : "STRING",
+    "articleSizeRatings" : {
+      "OVERALL" : "INT",
+      "response_time_sec" : 927.63,
+      "SHOE_WIDTH" : "INT"
+    },
+    "rating_data" : "INT"
+  } ]
+}

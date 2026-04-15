@@ -1,0 +1,95 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "total" : "INT",
+    "v_next" : "STRING",
+    "page_index" : 2724,
+    "limit" : "INT",
+    "href" : "STRING",
+    "offset" : "INT",
+    "v_prev" : "STRING",
+    "transactions" : [ {
+      "payoutId" : "STRING",
+      "transactionId" : "STRING",
+      "references" : [ {
+        "response_time_sec" : 607.57,
+        "referenceType" : "STRING",
+        "referenceId" : "STRING"
+      } ],
+      "price" : 558.93,
+      "feeType" : "STRING",
+      "eBayCollectedTaxAmount" : {
+        "exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING",
+        "value" : "STRING",
+        "v_convertedFromCurrency" : "STRING",
+        "currency" : "STRING"
+      },
+      "paymentsEntity" : "STRING",
+      "orderLineItems" : [ {
+        "feeBasisAmount_data" : {
+          "value" : "STRING",
+          "convertedFromValue" : "STRING",
+          "currency" : "STRING",
+          "convertedFromCurrency" : "STRING"
+        },
+        "marketplaceFees" : [ {
+          "feeJurisdiction" : {
+            "regionName" : "STRING",
+            "priority_level" : 884,
+            "regionType" : "STRING"
+          },
+          "feeMemo_data" : "STRING",
+          "amount" : {
+            "exchangeRate_data" : "STRING",
+            "has_discount" : true,
+            "v_convertedFromCurrency" : "STRING",
+            "value_data" : "STRING",
+            "v_convertedFromValue" : "STRING",
+            "currency" : "STRING"
+          },
+          "feeType" : "STRING"
+        } ],
+        "primaryKey" : ""
+      } ],
+      "transactionType" : "STRING",
+      "salesRecordReference" : "STRING",
+      "totalFeeBasisAmount" : {
+        "page_index" : 4394,
+        "v_currency" : "NULL",
+        "value" : "STRING",
+        "v_convertedFromCurrency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "exchangeRate" : "STRING"
+      },
+      "buyer" : {
+        "fullName" : "PII_USERNAME",
+        "requires_update" : false
+      },
+      "v_feeJurisdiction" : {
+        "userName" : "STRING",
+        "priority_level" : 2912
+      },
+      "totalFeeAmount_data" : {
+        "currency" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING",
+        "value" : "STRING"
+      },
+      "v_bookingEntry" : "STRING",
+      "transactionDate" : "DATETIME",
+      "transactionMemo_data" : "STRING",
+      "amount" : {
+        "exchangeRate" : "STRING",
+        "convertedFromValue_data" : "STRING",
+        "value" : "STRING",
+        "currency" : "STRING",
+        "requires_update" : false,
+        "convertedFromCurrency" : "NULL"
+      },
+      "v_transactionStatus" : "STRING"
+    } ]
+  }
+}

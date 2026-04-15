@@ -1,0 +1,17 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "system_state" : {
+      "payload_wrapper" : {
+        "extracted_info" : {
+          "emailAddressStatus" : [ "STRING" ],
+          "item_count" : 3446,
+          "emailAddress" : "PII_EMAIL"
+        }
+      }
+    }
+  }
+}

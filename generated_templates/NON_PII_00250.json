@@ -1,0 +1,18 @@
+[ {
+  "filter_data" : "STRING",
+  "requires_update" : false
+}, {
+  "filter" : "STRING",
+  "conversion_rate" : 669.73,
+  "v_facets" : [ {
+    "cache_hit" : true,
+    "key" : "STRING",
+    "v_count" : "INT"
+  }, {
+    "v_key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT"
+  } ]
+} ]

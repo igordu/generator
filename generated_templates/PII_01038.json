@@ -1,0 +1,15 @@
+{
+  "fingerprint" : "STRING",
+  "v_status" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "is_deleted" : true,
+  "routing_number" : "STRING",
+  "bank_name" : "STRING",
+  "country" : "STRING",
+  "uuid" : "STRING",
+  "metadata" : "OBJECT",
+  "last4" : "STRING",
+  "account_holder_type" : "STRING",
+  "account_type" : "STRING",
+  "customer" : "STRING"
+}

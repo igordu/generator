@@ -1,0 +1,42 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "userName" : "STRING",
+      "page_index" : 1702,
+      "lockPrivateUseAccount_data" : "BOOLEAN",
+      "fixedAssetAccountId" : "STRING",
+      "accumulatedDepreciationAccountId" : "STRING",
+      "bookDepreciationSetting" : {
+        "depreciationRate" : "DECIMAL",
+        "averagingMethod" : "STRING",
+        "bookEffectiveDateOfChangeId" : "STRING",
+        "v_depreciableObjectType" : "STRING",
+        "auto_renew" : false,
+        "depreciationCalculationMethod" : "STRING",
+        "v_depreciationMethod" : "STRING"
+      },
+      "locks" : "INT",
+      "depreciationExpenseAccountId" : "",
+      "taxDepreciationSettings" : ""
+    }, {
+      "lockPrivateUseAccount" : "BOOLEAN",
+      "conversion_rate" : 858.22,
+      "locks" : "INT",
+      "assetTypeName" : "STRING",
+      "primaryKey" : null,
+      "taxDepreciationSettings" : "ARRAY",
+      "depreciationExpenseAccountId" : "STRING",
+      "fixedAssetAccountId" : "STRING",
+      "accumulatedDepreciationAccountId" : "STRING",
+      "bookDepreciationSetting" : {
+        "bookEffectiveDateOfChangeId" : "STRING",
+        "v_depreciableObjectType" : "STRING",
+        "v_averagingMethod" : "STRING",
+        "depreciationMethod" : "STRING",
+        "depreciationRate" : "DECIMAL",
+        "v_depreciationCalculationMethod" : "STRING",
+        "depreciableObjectId" : "STRING"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "is_active" : true,
+      "emailAddress" : "PII_EMAIL",
+      "emailAddressStatus" : [ "STRING" ]
+    }
+  }
+}

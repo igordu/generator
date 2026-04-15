@@ -1,0 +1,9 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "v_clientToken" : "STRING",
+    "flowName" : "STRING",
+    "page_index" : 235
+  }
+}

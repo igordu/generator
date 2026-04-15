@@ -1,0 +1,70 @@
+{
+  "next_data" : "STRING",
+  "prev" : "STRING",
+  "transactions" : [ {
+    "references_data" : [ {
+      "referenceId" : "STRING",
+      "v_referenceType" : "STRING",
+      "cpu_usage_percent" : 938.6
+    } ],
+    "totalFeeBasisAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_exchangeRate" : "STRING",
+      "currency" : "STRING"
+    },
+    "buyer" : {
+      "stock_quantity" : 2390,
+      "username" : "PII_USERNAME"
+    },
+    "orderId" : "STRING",
+    "feeJurisdiction_data" : {
+      "regionType" : "STRING",
+      "requires_update" : true,
+      "userName" : "NULL"
+    },
+    "primaryKey" : "STRING",
+    "bookingEntry" : "STRING",
+    "transactionType" : "STRING",
+    "recordId" : "STRING",
+    "paymentsEntity" : "STRING",
+    "orderLineItems" : [ {
+      "price" : 768.36,
+      "recordId" : "STRING",
+      "v_feeBasisAmount" : {
+        "value_data" : "STRING",
+        "currency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "NULL",
+        "exchangeRate" : "STRING"
+      }
+    } ],
+    "amount" : {
+      "v_exchangeRate" : "STRING",
+      "conversion_rate" : 940.39,
+      "value_data" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "NULL"
+    },
+    "feeType" : "STRING",
+    "totalFeeAmount_data" : {
+      "v_value" : "STRING",
+      "currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "price" : 265.41,
+      "convertedFromCurrency_data" : "STRING"
+    },
+    "eBayCollectedTaxAmount" : {
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "v_currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "priority_level" : 295
+    },
+    "transactionDate" : "DATETIME",
+    "v_transactionStatus" : "STRING"
+  } ],
+  "total" : "INT",
+  "href" : "STRING",
+  "offset" : "INT"
+}

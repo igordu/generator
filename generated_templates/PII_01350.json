@@ -1,0 +1,14 @@
+{
+  "price" : 79.78,
+  "active" : "BOOLEAN",
+  "tree" : {
+    "url" : "URL",
+    "sha" : null,
+    "discount_rate" : 668.15
+  },
+  "user_info" : {
+    "arline__name" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  }
+}

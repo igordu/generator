@@ -1,0 +1,14 @@
+{
+  "v_metadata" : "OBJECT",
+  "currency" : "STRING",
+  "fingerprint" : "STRING",
+  "bank_name" : "STRING",
+  "account_type_data" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "last4" : "STRING",
+  "country_data" : "STRING",
+  "routing_number" : "STRING",
+  "object" : "STRING",
+  "id" : "STRING",
+  "customer" : "STRING"
+}

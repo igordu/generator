@@ -1,0 +1,30 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "v_url" : "NULL",
+    "v_data" : [ {
+      "shipping" : "NULL",
+      "delinquent" : "BOOLEAN",
+      "next_invoice_sequence_data" : "INT",
+      "name" : "PII_PERSON_NAME",
+      "balance" : "INT",
+      "object" : "STRING",
+      "preferred_locales_data" : "ARRAY",
+      "v_invoice_prefix" : "STRING",
+      "test_clock" : "NULL",
+      "tax_exempt" : "STRING",
+      "created" : "DATETIME_EPOCH",
+      "telephone" : "PII_PHONE_NUMBER",
+      "livemode" : "NULL",
+      "response_time_sec" : 12.51,
+      "description" : "STRING",
+      "metadata" : "OBJECT",
+      "currency" : "STRING",
+      "mail" : "PII_EMAIL",
+      "id" : "STRING"
+    } ]
+  }
+}

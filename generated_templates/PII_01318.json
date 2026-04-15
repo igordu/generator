@@ -1,0 +1,12 @@
+{
+  "tree_data" : {
+    "url" : "URL",
+    "sha" : "STRING"
+  },
+  "user_info" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "cpu_usage_percent" : 872.24,
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  }
+}

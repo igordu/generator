@@ -1,0 +1,43 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "key" : "STRING",
+    "has_discount" : true,
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING"
+  } ]
+}, {
+  "facets_data" : [ {
+    "v_count" : "INT",
+    "key_data" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "conversion_rate" : 837.68,
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "item_count" : 731
+  } ],
+  "filter" : "STRING",
+  "item_count" : 3301
+}, {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "v_count" : "INT",
+    "key" : "STRING"
+  }, {
+    "key_data" : "STRING",
+    "displayName" : "STRING",
+    "item_count" : 1145,
+    "count" : "INT"
+  } ],
+  "filter" : "STRING",
+  "requires_update" : true
+} ]

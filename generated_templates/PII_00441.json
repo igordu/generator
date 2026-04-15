@@ -1,0 +1,40 @@
+{
+  "userName" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING"
+  } ],
+  "id" : "STRING",
+  "address" : [ {
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "response_time_sec" : 26.61,
+    "line_data" : [ "PII_ADDRESS_LINE" ]
+  } ],
+  "telecom" : [ {
+    "auto_renew" : true,
+    "use" : "STRING",
+    "system" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  }, {
+    "value" : "PII_EMAIL",
+    "is_deleted" : true,
+    "system" : "STRING"
+  } ],
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "meta_data" : {
+    "versionId" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "gender" : "STRING",
+  "resourceType" : "STRING",
+  "identifier" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "v_system" : "URL",
+    "v_type" : {
+      "text" : "STRING"
+    },
+    "use_data" : "STRING",
+    "http_status" : 3397
+  } ]
+}

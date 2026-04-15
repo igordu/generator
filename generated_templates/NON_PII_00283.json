@@ -1,0 +1,28 @@
+[ {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "count_data" : "INT",
+    "key" : "STRING",
+    "cpu_usage_percent" : 264.08
+  }, {
+    "count" : "INT",
+    "userName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  } ]
+}, {
+  "facets" : [ {
+    "key" : "STRING"
+  }, {
+    "userName" : "STRING",
+    "auto_renew" : false,
+    "key" : "STRING",
+    "count" : "INT"
+  } ],
+  "filter" : "STRING",
+  "requires_update" : true
+}, {
+  "filter" : "STRING"
+} ]

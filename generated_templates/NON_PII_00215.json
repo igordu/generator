@@ -1,0 +1,25 @@
+[ {
+  "facets_data" : [ {
+    "v_count" : "INT",
+    "displayName" : "",
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "item_count" : 3133,
+    "key" : "STRING"
+  }, {
+    "key" : "STRING",
+    "temperature_c" : 713.65,
+    "count" : "INT",
+    "displayName" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "v_facets" : [ {
+    "count" : "INT",
+    "key_data" : "STRING",
+    "displayName" : "STRING"
+  } ],
+  "requires_update" : false,
+  "filter" : "STRING"
+} ]

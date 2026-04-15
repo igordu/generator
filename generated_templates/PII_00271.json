@@ -1,0 +1,82 @@
+{
+  "offset" : "INT",
+  "transactions" : [ {
+    "references_data" : [ {
+      "referenceType_data" : "STRING",
+      "referenceId" : "STRING"
+    } ],
+    "orderLineItems" : [ {
+      "marketplaceFees_data" : [ {
+        "is_active" : true,
+        "feeJurisdiction" : {
+          "regionType" : "STRING",
+          "discount_rate" : 253.95,
+          "regionName" : "STRING"
+        },
+        "feeType" : "STRING",
+        "amount" : {
+          "currency" : "STRING",
+          "convertedFromValue" : null,
+          "value" : "STRING",
+          "exchangeRate" : "STRING",
+          "v_convertedFromCurrency" : "STRING"
+        },
+        "feeMemo" : "STRING"
+      } ],
+      "requires_update" : false,
+      "uuid" : "STRING",
+      "feeBasisAmount" : {
+        "convertedFromValue" : "STRING",
+        "currency" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency" : "NULL",
+        "v_exchangeRate" : "STRING"
+      }
+    } ],
+    "transactionId" : "STRING",
+    "transactionType_data" : "STRING",
+    "eBayCollectedTaxAmount_data" : {
+      "value_data" : "STRING",
+      "convertedFromCurrency_data" : null,
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING"
+    },
+    "bookingEntry" : "STRING",
+    "v_feeType" : "",
+    "amount" : {
+      "v_value" : "STRING",
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "paymentsEntity" : "STRING",
+    "feeJurisdiction" : {
+      "regionType" : "",
+      "http_status" : 72,
+      "regionName" : "STRING"
+    },
+    "transactionStatus" : "STRING",
+    "salesRecordReference" : "STRING",
+    "orderId" : "STRING",
+    "totalFeeAmount" : {
+      "value" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "v_convertedFromValue" : "STRING"
+    },
+    "v_transactionMemo" : "STRING",
+    "v_buyer" : {
+      "clientName" : "PII_USERNAME"
+    },
+    "payoutId" : "STRING",
+    "transactionDate" : "DATETIME"
+  } ],
+  "href" : "STRING",
+  "limit" : "INT",
+  "prev" : "STRING",
+  "next" : "STRING",
+  "v_total" : "INT"
+}

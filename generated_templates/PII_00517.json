@@ -1,0 +1,24 @@
+{
+  "transactions" : {
+    "cpu_usage_percent" : 813.15,
+    "booked_data" : [ {
+      "creditorName" : "PII_PERSON_NAME",
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "valueDate" : "DATE",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "debtorName" : "STRING",
+      "transactionId" : "STRING",
+      "amount" : {
+        "cache_hit" : false,
+        "currency" : "STRING",
+        "amount_data" : "DECIMAL"
+      },
+      "bookingDate" : "DATE",
+      "v_debtorAccount" : {
+        "iban" : "STRING"
+      }
+    } ]
+  }
+}

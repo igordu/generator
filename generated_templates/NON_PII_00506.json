@@ -1,0 +1,17 @@
+[ {
+  "name" : "STRING",
+  "key" : "STRING",
+  "style_data" : "NULL",
+  "is_active" : true,
+  "id" : "STRING",
+  "self_data" : "",
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "avatarUrls" : {
+    "24x24_data" : "URL",
+    "32x32" : "URL",
+    "48x48" : "URL"
+  }
+} ]

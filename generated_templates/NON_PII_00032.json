@@ -1,0 +1,21 @@
+{
+  "system_state" : {
+    "event_data" : {
+      "body" : {
+        "v_averageStarRating" : "INT",
+        "numberOfUserRecommendations" : "INT",
+        "v_numberOfUserReviews" : "INT",
+        "starRatingDistribution" : {
+          "v_1" : "INT",
+          "retry_attempts" : 3600,
+          "3" : "INT",
+          "5" : "INT",
+          "2" : "INT",
+          "4" : "INT"
+        },
+        "articleModelId" : "STRING",
+        "numberOfUserPositiveRecommendations" : "INT"
+      }
+    }
+  }
+}

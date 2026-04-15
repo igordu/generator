@@ -1,0 +1,17 @@
+{
+  "media" : {
+    "images_data" : [ {
+      "largeUrl" : "URL",
+      "price" : 606.35,
+      "v_mediumHdUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "v_mediumUrl" : "URL",
+      "type" : "STRING",
+      "largeHdUrl" : "URL",
+      "orderNumber" : "INT"
+    } ]
+  },
+  "clientName" : "STRING",
+  "recordId" : "STRING",
+  "shopUrl" : "URL"
+}

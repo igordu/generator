@@ -1,0 +1,14 @@
+{
+  "item_count" : 2232,
+  "tree" : {
+    "url" : "URL",
+    "sha" : "STRING"
+  },
+  "active_data" : "BOOLEAN",
+  "user_info" : {
+    "has_discount" : true,
+    "arline__name" : "PII_COMPANY_NAME",
+    "name_val" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  }
+}

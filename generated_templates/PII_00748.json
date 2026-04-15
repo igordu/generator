@@ -1,0 +1,32 @@
+{
+  "page_number_data" : "INT",
+  "registrants" : [ {
+    "comments_data" : "STRING",
+    "industry_data" : "STRING",
+    "status" : null,
+    "id" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "state" : "PII_LOCATION_STATE",
+    "join_url" : "URL",
+    "org_data" : "PII_ORGANIZATION_NAME",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "role_in_purchase_process" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "job_title" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "custom_questions" : [ {
+      "auto_renew" : true,
+      "value" : "STRING"
+    } ],
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL",
+    "create_time" : "DATETIME",
+    "no_of_employees" : null
+  } ],
+  "auto_renew" : false,
+  "page_count" : "INT",
+  "v_page_size" : "INT",
+  "total_records" : "INT"
+}

@@ -1,0 +1,64 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "prev" : "STRING",
+      "limit" : "INT",
+      "offset_data" : "INT",
+      "v_total" : "INT",
+      "v_href" : "STRING",
+      "transactions" : [ {
+        "v_bookingEntry" : "STRING",
+        "transactionDate" : "DATETIME",
+        "transactionType" : "STRING",
+        "buyer" : {
+          "price" : 155.27,
+          "username" : "PII_USERNAME"
+        },
+        "payoutId" : "STRING",
+        "v_orderLineItems" : [ {
+          "primaryKey" : "STRING",
+          "feeBasisAmount" : {
+            "convertedFromCurrency" : "STRING",
+            "convertedFromValue" : "NULL",
+            "currency_data" : "STRING",
+            "value" : "STRING"
+          }
+        } ],
+        "eBayCollectedTaxAmount" : {
+          "convertedFromValue" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "exchangeRate" : "STRING",
+          "value" : "STRING",
+          "currency" : "STRING"
+        },
+        "transactionMemo" : "STRING",
+        "references" : [ {
+          "referenceType" : "STRING",
+          "primaryKey" : "STRING"
+        } ],
+        "totalFeeAmount" : {
+          "currency" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "exchangeRate" : "NULL",
+          "convertedFromValue" : "NULL",
+          "value_data" : "STRING"
+        },
+        "totalFeeBasisAmount_data" : {
+          "convertedFromValue" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "value_data" : "STRING",
+          "temperature_c" : 913.17,
+          "exchangeRate" : "STRING"
+        },
+        "paymentsEntity" : "STRING",
+        "transactionStatus" : "STRING",
+        "transactionId" : "STRING",
+        "feeJurisdiction" : {
+          "regionType" : "STRING",
+          "regionName" : "NULL"
+        },
+        "primaryKey" : "STRING"
+      } ]
+    }
+  }
+}

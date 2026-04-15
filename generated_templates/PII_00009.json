@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "articleModelId" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "identifier" : "STRING",
+    "has_discount" : true,
+    "recommend" : "BOOLEAN",
+    "reviewId" : "STRING",
+    "helpfulCount" : "INT",
+    "language" : "STRING",
+    "customerCountry_data" : "PII_LOCATION_COUNTRY",
+    "unhelpfulCount" : "INT",
+    "articleSizeRatings" : {
+      "recordId" : "INT",
+      "cache_hit" : true,
+      "OVERALL" : "INT"
+    },
+    "customerCity" : "PII_LOCATION_CITY",
+    "rating" : "INT"
+  } ],
+  "response_time_sec" : 713.63
+}

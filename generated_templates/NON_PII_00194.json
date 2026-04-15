@@ -1,0 +1,17 @@
+{
+  "shopUrl" : "URL",
+  "id" : "STRING",
+  "userName" : "STRING",
+  "media" : {
+    "images_data" : [ {
+      "thumbnailHdUrl" : "URL",
+      "v_smallUrl" : "URL",
+      "orderNumber_data" : "INT",
+      "type" : "STRING",
+      "largeHdUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "v_smallHdUrl" : "URL",
+      "largeUrl" : "URL"
+    } ]
+  }
+}

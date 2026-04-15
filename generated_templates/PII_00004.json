@@ -1,0 +1,16 @@
+{
+  "item_count" : 170,
+  "content" : [ {
+    "reviewId" : "STRING",
+    "unhelpfulCount" : "INT",
+    "rating" : "INT",
+    "description_data" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "recommend" : "BOOLEAN",
+    "identifier" : "STRING",
+    "articleModelId" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "created" : "DATETIME"
+  } ]
+}

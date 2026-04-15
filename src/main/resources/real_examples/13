@@ -1,0 +1,41 @@
+{
+  "Id": "593cbccc-5cd2-4cd2-be5e-150f0843709e",
+  "Status": "OK",
+  "ProviderName": "Provider Name Example",
+  "DateTimeUTC": "2019-03-11T13:11:22.775Z",
+  "Employees": [
+    {
+      "EmployeeID": "972615c5-ad3d-47a0-b579-20370d374578",
+      "Status": "ACTIVE",
+      "FirstName": "Tony",
+      "LastName": "Stark",
+      "ExternalLink": {
+        "Url": "http://twitter.com/#!/search/Stark+Industries",
+        "Description": "Go to external link"
+      },
+      "UpdatedDateUTC": "2019-03-11T13:04:41.593Z"
+    },
+    {
+      "EmployeeID": "ad3db144-6362-459c-8c36-5d31d196e629",
+      "Status": "ACTIVE",
+      "FirstName": "Bruce",
+      "LastName": "Banner",
+      "ExternalLink": {
+        "Url": "http://twitter.com/#!/search/Nick+Fury",
+        "Description": "Go to external link"
+      },
+      "UpdatedDateUTC": "2019-03-11T13:11:21.303Z"
+    },
+    {
+      "EmployeeID": "e1ada26b-a10e-4065-a941-af34b53740e3",
+      "Status": "ACTIVE",
+      "FirstName": "Nick",
+      "LastName": "Fury",
+      "ExternalLink": {
+        "Url": "http://twitter.com/#!/search/Nick+Fury",
+        "Description": "Go to external link"
+      },
+      "UpdatedDateUTC": "2019-03-11T13:05:37.990Z"
+    }
+  ]
+}

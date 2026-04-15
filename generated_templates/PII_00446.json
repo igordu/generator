@@ -1,0 +1,42 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "birthDate" : "PII_DATE_OF_BIRTH",
+      "recordId" : [ {
+        "value" : "PII_NATIONAL_ID",
+        "type" : {
+          "text" : "STRING"
+        },
+        "system" : "URL"
+      } ],
+      "id" : "STRING",
+      "v_gender" : "STRING",
+      "discount_rate" : 784.9,
+      "v_address" : [ {
+        "line" : [ "PII_ADDRESS_LINE" ],
+        "city" : "PII_LOCATION_CITY",
+        "use" : "STRING",
+        "country_data" : "PII_LOCATION_COUNTRY"
+      } ],
+      "resourceType" : "STRING",
+      "telecom_data" : [ {
+        "system" : "STRING",
+        "value" : "PII_PHONE_NUMBER",
+        "v_use" : "STRING"
+      }, {
+        "system" : "",
+        "value" : "PII_EMAIL"
+      } ],
+      "name" : [ {
+        "v_given" : [ "PII_PERSON_FIRST_NAME" ],
+        "family" : "PII_PERSON_LAST_NAME",
+        "temperature_c" : 741.22
+      } ],
+      "meta" : {
+        "lastUpdated_data" : "DATETIME",
+        "cpu_usage_percent" : 418.16,
+        "primaryKey" : "INT"
+      }
+    }
+  }
+}

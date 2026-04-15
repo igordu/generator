@@ -1,0 +1,81 @@
+{
+  "total" : "NULL",
+  "offset" : "INT",
+  "href_data" : "STRING",
+  "limit" : null,
+  "transactions" : [ {
+    "orderLineItems" : [ {
+      "identifier" : "STRING",
+      "v_feeBasisAmount" : {
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING",
+        "currency" : "STRING",
+        "price" : 397.73,
+        "value" : "STRING"
+      },
+      "marketplaceFees" : [ {
+        "amount" : {
+          "exchangeRate" : "STRING",
+          "currency" : "STRING",
+          "v_convertedFromValue" : "STRING",
+          "auto_renew" : true,
+          "convertedFromCurrency" : "STRING"
+        },
+        "feeMemo" : "STRING",
+        "feeType" : "STRING",
+        "http_status" : 3057
+      } ],
+      "has_discount" : false
+    } ],
+    "orderId" : "STRING",
+    "transactionMemo" : "STRING",
+    "buyer_data" : {
+      "username" : "PII_USERNAME"
+    },
+    "amount" : {
+      "has_discount" : false,
+      "currency" : "STRING",
+      "value" : "STRING"
+    },
+    "feeJurisdiction" : {
+      "name_val" : "STRING",
+      "regionType" : "STRING"
+    },
+    "transactionStatus" : "STRING",
+    "v_paymentsEntity" : "STRING",
+    "transactionId" : "STRING",
+    "feeType" : "STRING",
+    "bookingEntry" : "STRING",
+    "recordId" : "STRING",
+    "v_totalFeeBasisAmount" : {
+      "convertedFromValue_data" : "STRING",
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "discount_rate" : 132.84
+    },
+    "v_transactionDate" : "DATETIME",
+    "totalFeeAmount" : {
+      "value" : "STRING",
+      "cache_hit" : false,
+      "exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_convertedFromCurrency" : "",
+      "currency" : "STRING"
+    },
+    "v_transactionType" : "STRING",
+    "eBayCollectedTaxAmount_data" : {
+      "exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "currency" : "STRING",
+      "convertedFromValue_data" : "STRING"
+    },
+    "salesRecordReference" : "STRING"
+  } ],
+  "is_active" : false,
+  "prev_data" : "STRING",
+  "next_data" : ""
+}

@@ -1,0 +1,38 @@
+{
+  "telemetry_data" : {
+    "event_data" : {
+      "raw_data" : {
+        "page_count" : "INT",
+        "registrants" : [ {
+          "email" : "PII_EMAIL",
+          "org" : "PII_ORGANIZATION_NAME",
+          "job_title" : "STRING",
+          "state" : "PII_LOCATION_STATE",
+          "phone" : "PII_PHONE_NUMBER",
+          "id" : null,
+          "industry" : "STRING",
+          "v_custom_questions" : [ {
+            "title" : "STRING",
+            "is_deleted" : false
+          } ],
+          "country" : "PII_LOCATION_COUNTRY",
+          "last_name" : "PII_PERSON_LAST_NAME",
+          "no_of_employees" : "STRING",
+          "first_name" : "PII_PERSON_FIRST_NAME",
+          "purchasing_time_frame_data" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "status" : "STRING",
+          "address" : "PII_ADDRESS_LINE",
+          "zip_data" : "STRING",
+          "comments" : "NULL",
+          "role_in_purchase_process" : "STRING",
+          "create_time_data" : "NULL",
+          "join_url" : "URL"
+        } ],
+        "priority_level" : 4550,
+        "v_page_size" : "INT",
+        "total_records_data" : "INT"
+      }
+    }
+  }
+}

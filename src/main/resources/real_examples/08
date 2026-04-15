@@ -1,0 +1,93 @@
+{
+  "href": "string",
+  "limit": 0,
+  "next": "string",
+  "offset": 0,
+  "prev": "string",
+  "total": 0,
+  "transactions": [
+    {
+      "amount": {
+        "convertedFromCurrency": "string",
+        "convertedFromValue": "string",
+        "currency": "string",
+        "exchangeRate": "string",
+        "value": "string"
+      },
+      "bookingEntry": "string",
+      "buyer": {
+        "username": "string"
+      },
+      "eBayCollectedTaxAmount": {
+        "convertedFromCurrency": "string",
+        "convertedFromValue": "string",
+        "currency": "string",
+        "exchangeRate": "string",
+        "value": "string"
+      },
+      "feeJurisdiction": {
+        "regionName": "string",
+        "regionType": "string"
+      },
+      "feeType": "string",
+      "orderId": "string",
+      "orderLineItems": [
+        {
+          "feeBasisAmount": {
+            "convertedFromCurrency": "string",
+            "convertedFromValue": "string",
+            "currency": "string",
+            "exchangeRate": "string",
+            "value": "string"
+          },
+          "lineItemId": "string",
+          "marketplaceFees": [
+            {
+              "amount": {
+                "convertedFromCurrency": "string",
+                "convertedFromValue": "string",
+                "currency": "string",
+                "exchangeRate": "string",
+                "value": "string"
+              },
+              "feeJurisdiction": {
+                "regionName": "string",
+                "regionType": "string"
+              },
+              "feeMemo": "string",
+              "feeType": "string"
+            }
+          ]
+        }
+      ],
+      "paymentsEntity": "string",
+      "payoutId": "string",
+      "references": [
+        {
+          "referenceId": "string",
+          "referenceType": "string"
+        }
+      ],
+      "salesRecordReference": "string",
+      "totalFeeAmount": {
+        "convertedFromCurrency": "string",
+        "convertedFromValue": "string",
+        "currency": "string",
+        "exchangeRate": "string",
+        "value": "string"
+      },
+      "totalFeeBasisAmount": {
+        "convertedFromCurrency": "string",
+        "convertedFromValue": "string",
+        "currency": "string",
+        "exchangeRate": "string",
+        "value": "string"
+      },
+      "transactionDate": "string",
+      "transactionId": "string",
+      "transactionMemo": "string",
+      "transactionStatus": "string",
+      "transactionType": "string"
+    }
+  ]
+}

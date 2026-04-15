@@ -1,0 +1,13 @@
+{
+  "active" : "BOOLEAN",
+  "v_user_info" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "response_time_sec" : 38.77,
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "fullName" : "PII_COMPANY_NAME"
+  },
+  "tree" : {
+    "url" : "URL",
+    "sha_data" : "STRING"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "modelId" : "STRING",
+  "id" : "STRING",
+  "auto_renew" : false,
+  "shopUrl" : "URL",
+  "name" : "STRING"
+}

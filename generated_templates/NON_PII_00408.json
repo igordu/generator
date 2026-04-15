@@ -1,0 +1,9 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "clientToken" : "STRING",
+    "retry_attempts" : 4764,
+    "flowName" : "STRING"
+  }
+}

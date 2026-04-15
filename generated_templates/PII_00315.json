@@ -1,0 +1,9 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "emailAddressStatus" : [ "STRING" ],
+      "temperature_c" : 588.91,
+      "emailAddress" : "PII_EMAIL"
+    }
+  }
+}

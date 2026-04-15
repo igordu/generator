@@ -1,0 +1,53 @@
+{
+  "identifier" : {
+    "secondaryPhone" : {
+      "mobile" : "STRING",
+      "countryCode" : "STRING",
+      "v_number" : "PII_PHONE_NUMBER"
+    },
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
+    },
+    "firstName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "clientName" : "PII_PERSON_NAME"
+  },
+  "primaryKey" : "STRING",
+  "username" : "PII_USERNAME",
+  "businessAccount" : {
+    "email" : "PII_EMAIL",
+    "v_primaryContact" : {
+      "clientName" : "PII_PERSON_NAME",
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "doingBusinessAs" : "STRING",
+    "name" : "PII_ORGANIZATION_NAME",
+    "secondaryPhone" : {
+      "price" : 45.43,
+      "countryCode" : "STRING",
+      "cell" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "priority_level" : 4197,
+    "primaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "phoneType" : "STRING"
+    },
+    "website" : "URL",
+    "address" : {
+      "postalCode" : "STRING",
+      "addressLine1" : "STRING",
+      "stateOrProvince" : "STRING",
+      "country" : "STRING",
+      "county" : "STRING",
+      "city" : "STRING",
+      "addressLine2" : "STRING"
+    }
+  },
+  "requires_update" : false,
+  "status" : "STRING",
+  "accountType" : "STRING"
+}

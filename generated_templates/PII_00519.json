@@ -1,0 +1,30 @@
+{
+  "transactions" : {
+    "cache_hit" : true,
+    "booked_data" : [ {
+      "amount" : {
+        "discount_rate" : 60.44,
+        "currency" : "STRING"
+      },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "cache_hit" : true,
+      "bookingDate" : "DATE",
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "transactionId" : "STRING",
+      "name_val" : "STRING",
+      "creditorName" : "PII_PERSON_NAME",
+      "bankTransactionCode" : {
+        "family" : "STRING",
+        "subFamily" : "STRING",
+        "v_domain" : "STRING"
+      },
+      "v_valueDate" : "DATE"
+    } ]
+  },
+  "retry_attempts" : 2787
+}

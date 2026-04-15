@@ -1,0 +1,14 @@
+{
+  "v_tree" : {
+    "sha" : "STRING",
+    "url" : "URL",
+    "cache_hit" : false
+  },
+  "active_data" : "BOOLEAN",
+  "user_info" : {
+    "item_count" : 4085,
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "name_val" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  }
+}

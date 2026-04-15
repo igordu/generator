@@ -1,0 +1,30 @@
+{
+  "conversion_rate" : 263.07,
+  "transactions" : {
+    "booked" : [ {
+      "creditorName" : "PII_PERSON_NAME",
+      "discount_rate" : 642.39,
+      "v_creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "bankTransactionCode" : {
+        "page_index" : 1456,
+        "family" : "STRING",
+        "domain_data" : "STRING",
+        "subFamily" : "STRING"
+      },
+      "bookingDate" : "DATE",
+      "transactionId" : "STRING",
+      "amount" : {
+        "amount" : "DECIMAL",
+        "v_currency" : "STRING"
+      },
+      "v_valueDate" : "DATE",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "v_debtorAccount" : {
+        "v_iban" : "STRING"
+      }
+    } ],
+    "http_status" : 3980
+  }
+}

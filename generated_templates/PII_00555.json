@@ -1,0 +1,30 @@
+{
+  "transactions" : {
+    "priority_level" : 349,
+    "booked" : [ {
+      "amount" : {
+        "currency" : "STRING",
+        "v_amount" : "DECIMAL"
+      },
+      "debtorName" : "STRING",
+      "v_creditorAccount" : {
+        "v_iban" : "PII_IBAN",
+        "conversion_rate" : 661.06
+      },
+      "http_status" : 584,
+      "bookingDate" : "DATE",
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "valueDate" : "DATE",
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "subFamily_data" : "STRING",
+        "family_data" : "STRING"
+      },
+      "transactionId" : "STRING",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
+    } ]
+  }
+}

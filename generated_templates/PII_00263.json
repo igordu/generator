@@ -1,0 +1,66 @@
+{
+  "offset" : "INT",
+  "total" : "INT",
+  "prev" : "STRING",
+  "transactions" : [ {
+    "totalFeeAmount" : {
+      "v_convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "transactionMemo" : "NULL",
+    "paymentsEntity_data" : "STRING",
+    "bookingEntry" : "STRING",
+    "recordId" : "STRING",
+    "feeJurisdiction" : {
+      "regionName" : "STRING"
+    },
+    "eBayCollectedTaxAmount" : {
+      "v_exchangeRate" : "STRING",
+      "value" : "STRING",
+      "currency" : "STRING",
+      "v_convertedFromValue" : "STRING",
+      "convertedFromCurrency_data" : "STRING"
+    },
+    "references" : [ {
+      "referenceType" : "STRING",
+      "referenceId" : "STRING"
+    } ],
+    "totalFeeBasisAmount" : {
+      "v_currency" : "STRING",
+      "is_deleted" : true,
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "transactionId" : "STRING",
+    "amount_data" : {
+      "value" : "STRING",
+      "exchangeRate_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "transactionStatus" : "STRING",
+    "transactionType" : "STRING",
+    "v_orderLineItems" : [ {
+      "recordId" : "STRING",
+      "feeBasisAmount" : {
+        "currency" : "STRING",
+        "v_convertedFromValue" : "STRING",
+        "exchangeRate" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      }
+    } ],
+    "transactionDate_data" : "DATETIME",
+    "payoutId" : "STRING"
+  } ],
+  "next" : "STRING",
+  "response_time_sec" : 839.54,
+  "v_limit" : "INT"
+}

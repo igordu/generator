@@ -1,0 +1,83 @@
+{
+  "prev" : "STRING",
+  "v_offset" : "INT",
+  "next" : "STRING",
+  "limit" : "INT",
+  "total_data" : "INT",
+  "transactions" : [ {
+    "transactionId" : "STRING",
+    "totalFeeBasisAmount" : {
+      "currency" : "NULL",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING",
+      "has_discount" : false
+    },
+    "bookingEntry" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING",
+      "exchangeRate_data" : "STRING",
+      "retry_attempts" : 3168
+    },
+    "orderLineItems" : [ {
+      "lineItemId" : "STRING",
+      "marketplaceFees" : [ {
+        "amount" : {
+          "value" : "",
+          "convertedFromCurrency" : "STRING",
+          "v_currency" : "STRING",
+          "convertedFromValue" : "STRING",
+          "exchangeRate" : "NULL"
+        },
+        "feeJurisdiction" : {
+          "stock_quantity" : 2539,
+          "regionName" : "STRING",
+          "regionType" : "STRING"
+        },
+        "feeType_data" : "STRING",
+        "feeMemo" : "STRING",
+        "price" : 690.57
+      } ],
+      "feeBasisAmount" : {
+        "currency" : "STRING",
+        "auto_renew" : false,
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "exchangeRate" : "STRING"
+      }
+    } ],
+    "v_transactionMemo" : "NULL",
+    "feeJurisdiction" : {
+      "name_val" : "STRING",
+      "regionType" : "STRING",
+      "is_deleted" : false
+    },
+    "amount_data" : {
+      "v_exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "cpu_usage_percent" : 871.42,
+      "convertedFromValue_data" : "STRING",
+      "value" : "STRING"
+    },
+    "feeType" : "STRING",
+    "totalFeeAmount" : {
+      "currency_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "requires_update" : true,
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate_data" : "STRING"
+    },
+    "buyer" : {
+      "username" : "PII_USERNAME",
+      "conversion_rate" : 798.1
+    },
+    "transactionStatus" : "STRING",
+    "paymentsEntity" : "STRING",
+    "payoutId" : "STRING",
+    "transactionDate_data" : "DATETIME",
+    "primaryKey" : "STRING"
+  } ]
+}

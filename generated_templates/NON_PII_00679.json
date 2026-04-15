@@ -1,0 +1,14 @@
+[ {
+  "primaryKey" : "STRING",
+  "v_locks" : "INT",
+  "bookDepreciationSetting_data" : {
+    "depreciationMethod" : "STRING",
+    "depreciationRate" : "DECIMAL",
+    "depreciableObjectId" : "STRING",
+    "averagingMethod" : "STRING",
+    "identifier" : "STRING",
+    "depreciableObjectType_data" : "STRING"
+  },
+  "assetTypeId" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN"
+} ]

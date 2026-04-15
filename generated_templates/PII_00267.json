@@ -1,0 +1,80 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "total" : "INT",
+    "prev" : "STRING",
+    "v_limit" : "INT",
+    "stock_quantity" : 1634,
+    "href_data" : "STRING",
+    "transactions" : [ {
+      "totalFeeBasisAmount" : {
+        "exchangeRate" : "STRING",
+        "v_convertedFromCurrency" : "STRING",
+        "value_data" : "STRING",
+        "v_convertedFromValue" : "STRING",
+        "currency_data" : "STRING"
+      },
+      "bookingEntry_data" : "STRING",
+      "references" : [ {
+        "referenceType" : "STRING",
+        "referenceId" : "STRING"
+      } ],
+      "is_deleted" : false,
+      "salesRecordReference" : "STRING",
+      "feeJurisdiction" : {
+        "regionType" : "STRING",
+        "regionName" : "STRING"
+      },
+      "orderLineItems" : [ {
+        "marketplaceFees" : [ {
+          "feeType" : "STRING",
+          "amount_data" : {
+            "v_currency" : "STRING",
+            "convertedFromValue" : "STRING",
+            "value" : "STRING",
+            "exchangeRate_data" : "STRING",
+            "convertedFromCurrency" : "STRING"
+          },
+          "feeMemo_data" : "STRING",
+          "system_ping_ms" : 4098
+        } ],
+        "http_status" : 1804,
+        "primaryKey" : "STRING",
+        "feeBasisAmount" : {
+          "v_convertedFromValue" : "STRING",
+          "exchangeRate" : "STRING",
+          "currency" : "STRING",
+          "convertedFromCurrency" : "STRING"
+        }
+      } ],
+      "transactionId" : "STRING",
+      "eBayCollectedTaxAmount_data" : {
+        "v_exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "v_value" : "STRING",
+        "currency" : "STRING"
+      },
+      "transactionDate" : "DATETIME",
+      "buyer" : {
+        "username" : "PII_USERNAME",
+        "is_active" : false
+      },
+      "v_feeType" : "STRING",
+      "transactionStatus" : "STRING",
+      "orderId" : "STRING",
+      "amount" : {
+        "currency" : "STRING",
+        "temperature_c" : 786.08,
+        "convertedFromCurrency_data" : "STRING",
+        "value" : "STRING",
+        "exchangeRate" : "STRING",
+        "v_convertedFromValue" : "STRING"
+      },
+      "recordId" : "STRING",
+      "v_transactionMemo" : "STRING"
+    } ],
+    "next" : "STRING"
+  }
+}

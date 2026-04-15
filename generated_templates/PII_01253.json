@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "parents" : [ {
+      "v_url" : "URL"
+    } ],
+    "url_data" : "URL",
+    "sha" : "STRING",
+    "comments_url" : "URL",
+    "commit" : {
+      "comment_count" : "INT",
+      "committer" : {
+        "clientName" : "PII_PERSON_NAME",
+        "date" : "DATETIME",
+        "email" : "PII_EMAIL"
+      },
+      "url" : "URL",
+      "author" : {
+        "userName" : "PII_PERSON_NAME",
+        "email" : "PII_EMAIL",
+        "date" : "DATETIME"
+      },
+      "message" : "PII_COMPANY_NAME",
+      "verification" : {
+        "payload" : "STRING",
+        "is_active" : true,
+        "verified" : "BOOLEAN",
+        "v_signature" : "STRING",
+        "verified_at" : "DATETIME",
+        "v_reason" : "STRING"
+      }
+    },
+    "primaryKey" : "STRING",
+    "html_url" : "URL"
+  } ]
+}

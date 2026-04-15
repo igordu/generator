@@ -1,0 +1,15 @@
+{
+  "numberOfUserReviews" : "INT",
+  "articleModelId" : "NULL",
+  "averageStarRating" : "INT",
+  "starRatingDistribution" : {
+    "auto_renew" : false,
+    "3" : "INT",
+    "4" : "INT",
+    "1" : "INT",
+    "5_data" : "INT"
+  },
+  "numberOfUserPositiveRecommendations" : "INT",
+  "price" : 436.78,
+  "numberOfUserRecommendations" : "INT"
+}

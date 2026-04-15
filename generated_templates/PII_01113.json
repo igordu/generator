@@ -1,0 +1,47 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "following" : "INT",
+      "html_url" : "URL",
+      "avatar_url_data" : "URL",
+      "v_two_factor_authentication" : "BOOLEAN",
+      "v_public_gists" : "NULL",
+      "followers" : "INT",
+      "received_events_url" : "URL",
+      "plan" : {
+        "collaborators" : "INT",
+        "http_status" : 2298,
+        "space" : "INT",
+        "name" : "STRING",
+        "private_repos" : "INT"
+      },
+      "location" : "PII_LOCATION_CITY",
+      "name" : "PII_PERSON_NAME",
+      "subscriptions_url_data" : "URL",
+      "organizations_url" : "URL",
+      "starred_url" : "URL",
+      "v_total_private_repos" : "INT",
+      "id" : "INT",
+      "v_bio" : "PII_ORGANIZATION_NAME",
+      "email" : "PII_EMAIL",
+      "events_url" : "URL",
+      "v_url" : "URL",
+      "private_gists" : "INT",
+      "following_url" : "URL",
+      "login" : "STRING",
+      "owned_private_repos" : "INT",
+      "updated_at" : "DATETIME",
+      "created_at" : "DATETIME",
+      "v_hireable" : "BOOLEAN",
+      "identifier" : "STRING",
+      "company" : "PII_ORGANIZATION_NAME",
+      "v_type" : "STRING",
+      "followers_url" : "URL",
+      "repos_url" : "URL",
+      "collaborators" : "INT",
+      "twitter_username" : "STRING",
+      "gists_url" : "URL",
+      "gravatar_id" : "STRING"
+    }
+  }
+}

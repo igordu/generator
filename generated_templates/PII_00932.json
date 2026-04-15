@@ -1,0 +1,35 @@
+{
+  "telemetry_data" : {
+    "transaction_trace" : {
+      "debug_payload" : {
+        "object" : "STRING",
+        "data" : [ {
+          "name_val" : "PII_PERSON_NAME",
+          "identifier" : "STRING",
+          "metadata" : "OBJECT",
+          "default_source_data" : "STRING",
+          "address" : "",
+          "currency" : "STRING",
+          "phone" : "PII_PHONE_NUMBER",
+          "invoice_settings" : {
+            "footer" : "STRING",
+            "default_payment_method" : "STRING",
+            "rendering_options" : "NULL"
+          },
+          "cache_hit" : true,
+          "test_clock" : "NULL",
+          "object" : "STRING",
+          "invoice_prefix_data" : "STRING",
+          "v_next_invoice_sequence" : "INT",
+          "balance" : "INT",
+          "created" : "DATETIME_EPOCH",
+          "v_preferred_locales" : "ARRAY",
+          "delinquent" : "BOOLEAN",
+          "description" : "STRING",
+          "email" : "PII_EMAIL"
+        } ],
+        "url" : "URL"
+      }
+    }
+  }
+}

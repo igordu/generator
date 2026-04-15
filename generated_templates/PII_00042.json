@@ -1,0 +1,21 @@
+{
+  "content" : [ {
+    "rating" : "INT",
+    "unhelpfulCount_data" : "INT",
+    "reviewId" : "STRING",
+    "created" : "DATETIME",
+    "temperature_c" : 524.76,
+    "language" : "NULL",
+    "title" : "PII_COMPANY_NAME",
+    "articleModelId" : "STRING",
+    "recommend" : "BOOLEAN",
+    "articleSizeRatings" : {
+      "identifier" : ""
+    },
+    "customerCountry_data" : "PII_LOCATION_COUNTRY",
+    "helpfulCount" : "",
+    "customerCity" : "PII_LOCATION_CITY",
+    "articleId" : "STRING"
+  } ],
+  "is_active" : true
+}

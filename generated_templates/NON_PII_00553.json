@@ -1,0 +1,36 @@
+[ {
+  "id" : "STRING",
+  "insight_data" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "style_data" : "STRING",
+  "fullName" : "STRING",
+  "self" : "URL",
+  "v_key" : "STRING",
+  "projectCategory" : {
+    "id" : "",
+    "self_data" : "URL",
+    "description" : "STRING",
+    "name" : "STRING"
+  }
+}, {
+  "has_discount" : true,
+  "name" : "STRING",
+  "key" : "STRING",
+  "self_data" : "URL",
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "v_lastIssueUpdateTime" : "DATETIME"
+  },
+  "style" : "STRING",
+  "projectCategory" : {
+    "description" : "STRING",
+    "discount_rate" : 444.52,
+    "clientName" : "STRING",
+    "v_self" : "URL",
+    "id" : "STRING"
+  },
+  "simplified_data" : "BOOLEAN",
+  "id" : "STRING"
+} ]

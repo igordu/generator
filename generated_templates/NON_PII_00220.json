@@ -1,0 +1,51 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "facets_data" : [ {
+      "userName" : "STRING",
+      "count" : "",
+      "key" : "STRING"
+    }, {
+      "displayName" : "STRING",
+      "key" : "STRING",
+      "v_count" : "INT"
+    }, {
+      "count" : "INT",
+      "displayName" : "STRING",
+      "key" : "STRING"
+    } ],
+    "filter" : "STRING"
+  }, {
+    "price" : 260.08,
+    "facets" : [ {
+      "count" : "INT",
+      "displayName" : "STRING",
+      "key" : "STRING"
+    }, {
+      "priority_level" : 4747,
+      "key" : "STRING",
+      "count" : "INT",
+      "displayName" : "STRING"
+    } ],
+    "filter_data" : "STRING"
+  }, {
+    "cpu_usage_percent" : 78.56,
+    "v_filter" : "STRING",
+    "facets" : [ {
+      "key" : "STRING",
+      "count" : "INT"
+    }, {
+      "count" : "INT",
+      "displayName" : "STRING",
+      "key" : "STRING"
+    }, {
+      "key" : "STRING",
+      "count" : "INT",
+      "displayName" : "STRING",
+      "item_count" : 1408
+    } ]
+  } ]
+}

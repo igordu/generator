@@ -1,0 +1,24 @@
+{
+  "content" : [ {
+    "customerCountry_data" : "PII_LOCATION_COUNTRY",
+    "v_recommend" : "BOOLEAN",
+    "language" : "STRING",
+    "articleModelId" : "STRING",
+    "articleId" : "STRING",
+    "rating_data" : null,
+    "articleSizeRatings" : {
+      "OVERALL" : "INT",
+      "SHOE_WIDTH" : "INT",
+      "temperature_c" : 153.59
+    },
+    "unhelpfulCount" : "INT",
+    "page_index" : 4220,
+    "reviewId" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "created_data" : "DATETIME",
+    "title" : "PII_COMPANY_NAME",
+    "description" : "STRING",
+    "helpfulCount" : "INT"
+  } ],
+  "item_count" : 1730
+}

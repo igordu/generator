@@ -1,0 +1,21 @@
+[ {
+  "assetTypeName" : "STRING",
+  "assetTypeId" : "STRING",
+  "locks" : "INT",
+  "identifier" : "STRING",
+  "primaryKey" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "system_ping_ms" : 4008,
+  "taxDepreciationSettings" : "ARRAY",
+  "depreciationExpenseAccountId" : "STRING"
+}, {
+  "assetTypeId" : "STRING",
+  "fullName" : "STRING",
+  "is_deleted" : true,
+  "taxDepreciationSettings" : "ARRAY",
+  "fixedAssetAccountId" : "NULL",
+  "locks" : "INT",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "depreciationExpenseAccountId" : "STRING"
+} ]

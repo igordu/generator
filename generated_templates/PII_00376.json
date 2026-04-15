@@ -1,0 +1,14 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "system_state" : {
+        "request_context" : {
+          "debug_payload" : {
+            "emailAddressStatus" : [ "STRING" ],
+            "emailAddress" : "PII_EMAIL"
+          }
+        }
+      }
+    }
+  }
+}

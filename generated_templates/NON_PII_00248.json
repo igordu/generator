@@ -1,0 +1,27 @@
+{
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "extracted_info" : [ {
+        "filter" : "STRING",
+        "stock_quantity" : 4240
+      }, {
+        "filter" : "STRING",
+        "facets" : [ {
+          "count_data" : "INT",
+          "displayName" : "STRING",
+          "key_data" : "STRING",
+          "price" : 461.1
+        }, {
+          "displayName" : "NULL",
+          "count" : "INT",
+          "key" : "STRING"
+        }, {
+          "displayName" : "STRING",
+          "count" : "INT",
+          "key" : "STRING"
+        } ],
+        "conversion_rate" : 634.31
+      } ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "conversion_rate" : 476.65,
+  "content" : [ {
+    "v_title" : "PII_COMPANY_NAME",
+    "helpfulCount" : "INT",
+    "v_unhelpfulCount" : "INT",
+    "customerCity" : "PII_LOCATION_CITY",
+    "v_created" : "DATETIME",
+    "recommend" : "BOOLEAN",
+    "description" : "STRING",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "language" : "STRING",
+    "recordId" : "STRING",
+    "rating" : "INT",
+    "articleId" : "STRING",
+    "articleSizeRatings" : {
+      "item_count" : 3113,
+      "SHOE_WIDTH" : "INT"
+    },
+    "identifier" : "STRING"
+  } ]
+}

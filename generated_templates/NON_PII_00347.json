@@ -1,0 +1,104 @@
+{
+  "tags_data" : {
+    "v_property2" : "STRING",
+    "property1" : "STRING"
+  },
+  "metadataCatalogConfig" : {
+    "glueDataCatalog" : {
+      "databaseName" : "STRING",
+      "roleArn_data" : "NULL",
+      "tablePrefix" : "STRING"
+    },
+    "has_discount" : false
+  },
+  "description" : "STRING",
+  "tasks" : [ {
+    "taskType" : "STRING",
+    "connectorOperator" : {
+      "Dynatrace" : "STRING",
+      "v_Zendesk" : "STRING",
+      "v_Pardot" : "STRING",
+      "Datadog" : "STRING",
+      "Amplitude" : "STRING",
+      "SAPOData" : "STRING",
+      "v_Salesforce" : "STRING",
+      "ServiceNow" : "STRING",
+      "InforNexus" : "STRING",
+      "S3" : "STRING",
+      "CustomConnector" : "STRING",
+      "Veeva" : "STRING",
+      "Slack" : "STRING",
+      "requires_update" : true,
+      "Singular" : "STRING",
+      "Marketo" : "STRING"
+    },
+    "taskProperties" : {
+      "property1" : "STRING",
+      "property2" : "STRING"
+    },
+    "sourceFields" : "ARRAY",
+    "temperature_c" : 559.33,
+    "destinationField" : "STRING"
+  } ],
+  "kmsArn" : "STRING",
+  "flowName" : "STRING",
+  "destinationFlowConfigList_data" : [ {
+    "connectorType" : "STRING",
+    "connectorProfileName" : "STRING",
+    "v_apiVersion" : "STRING",
+    "destinationConnectorProperties" : {
+      "EventBridge" : {
+        "errorHandlingConfig" : {
+          "bucketName" : "STRING",
+          "v_failOnFirstDestinationError" : "BOOLEAN",
+          "bucketPrefix" : "STRING"
+        },
+        "object" : "STRING"
+      },
+      "Salesforce_data" : {
+        "errorHandlingConfig" : {
+          "name_val" : "STRING"
+        },
+        "fullName" : "ARRAY",
+        "writeOperationType" : "STRING",
+        "object" : "STRING",
+        "dataTransferApi" : "STRING",
+        "cache_hit" : true
+      },
+      "S3" : {
+        "s3OutputFormatConfig" : {
+          "fileType_data" : "STRING",
+          "cache_hit" : true,
+          "preserveSourceDataTyping" : "BOOLEAN",
+          "aggregationConfig_data" : {
+            "aggregationType" : "STRING",
+            "targetFileSize" : "INT"
+          },
+          "prefixConfig_data" : {
+            "prefixFormat" : "STRING",
+            "pathPrefixHierarchy" : "ARRAY",
+            "system_ping_ms" : 4167,
+            "prefixType_data" : "STRING"
+          }
+        },
+        "bucketName" : "STRING",
+        "bucketPrefix" : "STRING"
+      },
+      "v_Redshift" : {
+        "item_count" : 841,
+        "intermediateBucketName" : "STRING",
+        "v_object" : "STRING"
+      },
+      "LookoutMetrics_data" : {
+        "retry_attempts" : 1986
+      }
+    },
+    "is_deleted" : false
+  } ],
+  "triggerConfig" : {
+    "v_triggerProperties" : { },
+    "triggerType" : "STRING",
+    "cache_hit" : false
+  },
+  "clientToken" : "STRING"
+}

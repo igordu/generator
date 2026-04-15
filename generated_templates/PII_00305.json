@@ -1,0 +1,5 @@
+{
+  "emailAddressStatus" : [ "STRING" ],
+  "mail" : "PII_EMAIL",
+  "system_ping_ms" : 1153
+}

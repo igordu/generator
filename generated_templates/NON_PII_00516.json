@@ -1,0 +1,47 @@
+[ {
+  "style" : "STRING",
+  "projectCategory" : {
+    "temperature_c" : 232.42,
+    "userName" : "STRING",
+    "identifier" : "STRING",
+    "v_self" : "URL",
+    "description" : "STRING"
+  },
+  "key" : null,
+  "self" : "URL",
+  "simplified" : "BOOLEAN",
+  "http_status" : 1600,
+  "avatarUrls" : {
+    "16x16_data" : "URL",
+    "48x48_data" : null,
+    "24x24" : "URL",
+    "32x32" : "URL"
+  },
+  "insight" : {
+    "page_index" : 2426,
+    "totalIssueCount_data" : "INT"
+  },
+  "id" : "STRING"
+}, {
+  "key_data" : "STRING",
+  "simplified" : "NULL",
+  "insight_data" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "self" : "URL",
+  "style" : "STRING",
+  "avatarUrls_data" : {
+    "24x24" : "URL",
+    "48x48" : "URL",
+    "32x32" : "URL"
+  },
+  "id" : "STRING",
+  "projectCategory" : {
+    "identifier" : "STRING",
+    "description_data" : "STRING",
+    "item_count" : 727,
+    "self" : "URL",
+    "fullName" : "STRING"
+  }
+} ]

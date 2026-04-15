@@ -1,0 +1,20 @@
+{
+  "telemetry_data" : {
+    "event_data" : {
+      "raw_data" : {
+        "fingerprint_data" : "STRING",
+        "last4" : "STRING",
+        "object" : "STRING",
+        "country" : "STRING",
+        "customer_data" : "STRING",
+        "account_holder_name" : "PII_PERSON_NAME",
+        "account_holder_type" : "STRING",
+        "userName" : "STRING",
+        "currency" : "",
+        "account_type_data" : null,
+        "status" : "STRING",
+        "routing_number" : "STRING"
+      }
+    }
+  }
+}

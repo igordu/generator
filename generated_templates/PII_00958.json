@@ -1,0 +1,24 @@
+{
+  "url" : "NULL",
+  "data" : [ {
+    "requires_update" : false,
+    "v_invoice_prefix" : "STRING",
+    "default_source" : null,
+    "v_description" : "STRING",
+    "metadata" : "OBJECT",
+    "currency" : "STRING",
+    "id" : "STRING",
+    "test_clock_data" : "NULL",
+    "created" : "DATETIME_EPOCH",
+    "next_invoice_sequence" : "INT",
+    "object_data" : "STRING",
+    "livemode" : "BOOLEAN",
+    "shipping" : "NULL",
+    "preferred_locales_data" : "ARRAY",
+    "emailAddress" : "PII_EMAIL",
+    "address" : "NULL",
+    "phone" : "PII_PHONE_NUMBER",
+    "name" : "PII_PERSON_NAME"
+  } ],
+  "object" : "STRING"
+}

@@ -1,0 +1,13 @@
+[ {
+  "facets" : [ {
+    "v_count" : "INT",
+    "key" : "STRING",
+    "requires_update" : false
+  }, {
+    "name_val" : "NULL",
+    "v_key" : "STRING",
+    "count" : "INT"
+  } ],
+  "filter" : "STRING",
+  "auto_renew" : true
+} ]

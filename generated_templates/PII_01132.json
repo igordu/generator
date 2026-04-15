@@ -1,0 +1,52 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "followers" : "INT",
+    "v_total_private_repos" : "INT",
+    "public_repos" : "INT",
+    "received_events_url_data" : "URL",
+    "private_gists_data" : "INT",
+    "type_data" : "STRING",
+    "following" : "INT",
+    "url" : "URL",
+    "company" : "PII_ORGANIZATION_NAME",
+    "login" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "gravatar_id" : "STRING",
+    "location" : "PII_LOCATION_CITY",
+    "two_factor_authentication" : "BOOLEAN",
+    "disk_usage" : "INT",
+    "id" : "INT",
+    "owned_private_repos" : "INT",
+    "collaborators_data" : "INT",
+    "updated_at" : "DATETIME",
+    "v_avatar_url" : "URL",
+    "gists_url" : "URL",
+    "starred_url" : "URL",
+    "email" : "PII_EMAIL",
+    "followers_url" : "URL",
+    "created_at" : "DATETIME",
+    "hireable" : "BOOLEAN",
+    "bio" : "PII_ORGANIZATION_NAME",
+    "v_html_url" : "URL",
+    "organizations_url" : "URL",
+    "subscriptions_url" : "URL",
+    "following_url_data" : "URL",
+    "blog" : "URL",
+    "plan" : {
+      "space_data" : "INT",
+      "discount_rate" : 250.6,
+      "private_repos" : "INT",
+      "collaborators_data" : "INT",
+      "clientName" : "STRING"
+    },
+    "public_gists" : "INT",
+    "v_events_url" : "URL",
+    "site_admin_data" : "BOOLEAN",
+    "twitter_username" : "STRING",
+    "repos_url" : "URL"
+  }
+}

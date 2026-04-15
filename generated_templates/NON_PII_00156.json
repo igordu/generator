@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "media" : {
+      "requires_update" : false,
+      "v_images" : [ {
+        "type" : "NULL",
+        "mediumUrl" : "URL",
+        "orderNumber" : "INT",
+        "smallUrl" : "",
+        "v_thumbnailHdUrl" : "NULL",
+        "v_mediumHdUrl" : "URL",
+        "largeUrl" : "URL"
+      } ]
+    },
+    "cache_hit" : false,
+    "modelId" : "STRING",
+    "name" : "STRING",
+    "shopUrl" : "URL"
+  }
+}

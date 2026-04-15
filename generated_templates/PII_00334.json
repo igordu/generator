@@ -1,0 +1,5 @@
+{
+  "emailAddress" : "PII_EMAIL",
+  "primary_email" : [ "STRING" ],
+  "stock_quantity" : 679
+}

@@ -1,0 +1,26 @@
+[ {
+  "filter" : "STRING",
+  "v_facets" : [ {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "count" : "INT"
+  }, {
+    "count_data" : "INT",
+    "key_data" : "STRING",
+    "name_val" : "STRING",
+    "is_active" : true
+  } ]
+}, {
+  "stock_quantity" : 3277,
+  "v_facets" : [ {
+    "key" : "STRING",
+    "has_discount" : true,
+    "displayName" : "STRING"
+  }, {
+    "price" : 400.29,
+    "count" : "INT",
+    "key" : "STRING",
+    "name_val" : "STRING"
+  } ],
+  "filter_data" : "STRING"
+} ]

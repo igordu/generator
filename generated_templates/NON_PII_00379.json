@@ -1,0 +1,150 @@
+{
+  "clientToken" : "STRING",
+  "sourceFlowConfig" : {
+    "sourceConnectorProperties_data" : {
+      "Singular" : {
+        "object_data" : "STRING"
+      },
+      "CustomConnector" : {
+        "entityName" : "STRING",
+        "customProperties" : {
+          "auto_renew" : false,
+          "v_property1" : "STRING",
+          "property2_data" : "STRING"
+        },
+        "requires_update" : true
+      },
+      "Trendmicro_data" : {
+        "object" : "STRING"
+      },
+      "Veeva" : {
+        "object_data" : "STRING",
+        "includeRenditions" : "BOOLEAN",
+        "includeSourceFiles" : null,
+        "v_includeAllVersions" : "BOOLEAN"
+      },
+      "Dynatrace" : {
+        "object" : "STRING"
+      },
+      "Slack" : {
+        "object_data" : "STRING"
+      },
+      "Salesforce" : {
+        "includeDeletedRecords" : "BOOLEAN",
+        "object_data" : "STRING",
+        "enableDynamicFieldUpdate" : "BOOLEAN",
+        "dataTransferApi" : "STRING"
+      },
+      "InforNexus" : {
+        "object" : "STRING"
+      },
+      "cpu_usage_percent" : 940.42,
+      "SAPOData" : {
+        "objectPath" : "STRING"
+      },
+      "S3" : {
+        "s3InputFormatConfig_data" : {
+          "s3InputFileType" : "STRING",
+          "priority_level" : 608
+        },
+        "bucketPrefix_data" : "STRING",
+        "clientName" : "STRING"
+      },
+      "Amplitude" : {
+        "object" : "STRING"
+      },
+      "Marketo" : {
+        "v_object" : null
+      },
+      "ServiceNow" : {
+        "is_active" : false,
+        "object" : "STRING"
+      },
+      "v_Datadog" : {
+        "price" : 127.92,
+        "object_data" : "STRING"
+      },
+      "v_Zendesk" : {
+        "object" : "STRING"
+      }
+    },
+    "incrementalPullConfig" : {
+      "datetimeTypeFieldName" : "STRING"
+    },
+    "connectorProfileName" : "STRING"
+  },
+  "v_destinationFlowConfigList" : [ {
+    "apiVersion" : "STRING",
+    "destinationConnectorProperties" : {
+      "Salesforce" : {
+        "idFieldNames" : "ARRAY",
+        "writeOperationType" : "STRING",
+        "v_object" : "STRING",
+        "dataTransferApi" : "STRING"
+      },
+      "Redshift" : {
+        "v_object" : null,
+        "intermediateBucketName" : "STRING",
+        "v_bucketPrefix" : "STRING",
+        "v_errorHandlingConfig" : {
+          "bucketPrefix" : "STRING",
+          "auto_renew" : true,
+          "bucketName" : "STRING",
+          "failOnFirstDestinationError_data" : "BOOLEAN"
+        }
+      },
+      "EventBridge" : {
+        "object" : "STRING",
+        "errorHandlingConfig_data" : {
+          "bucketPrefix_data" : "STRING",
+          "bucketName" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN"
+        }
+      },
+      "v_Snowflake" : {
+        "object_data" : "STRING",
+        "bucketPrefix" : "STRING",
+        "errorHandlingConfig" : {
+          "bucketName" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "bucketPrefix" : "STRING",
+          "price" : 24.48
+        }
+      },
+      "LookoutMetrics" : {
+        "cache_hit" : true
+      },
+      "cpu_usage_percent" : 646.41,
+      "S3" : {
+        "bucketName" : "STRING",
+        "s3OutputFormatConfig" : {
+          "preserveSourceDataTyping" : "BOOLEAN",
+          "fileType" : "STRING",
+          "prefixConfig" : {
+            "pathPrefixHierarchy" : "ARRAY",
+            "prefixType" : "STRING",
+            "prefixFormat" : "STRING"
+          },
+          "aggregationConfig" : {
+            "requires_update" : true,
+            "targetFileSize" : "INT",
+            "aggregationType" : "STRING"
+          }
+        }
+      }
+    },
+    "connectorType" : "STRING",
+    "connectorProfileName" : "STRING",
+    "http_status" : 562
+  } ],
+  "metadataCatalogConfig" : { },
+  "userName" : "STRING",
+  "triggerConfig" : {
+    "triggerType_data" : "STRING"
+  },
+  "kmsArn_data" : "STRING",
+  "tags" : {
+    "priority_level" : 4851,
+    "property1" : "STRING"
+  }
+}

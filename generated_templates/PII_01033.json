@@ -1,0 +1,13 @@
+{
+  "country" : "STRING",
+  "object" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "account_type" : "STRING",
+  "account_holder_type_data" : "STRING",
+  "v_last4" : "STRING",
+  "fingerprint" : "STRING",
+  "bank_name" : "NULL",
+  "v_metadata" : "NULL",
+  "customer" : "STRING",
+  "status" : "STRING"
+}

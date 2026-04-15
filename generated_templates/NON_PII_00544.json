@@ -1,0 +1,46 @@
+[ {
+  "style_data" : "STRING",
+  "primaryKey" : "STRING",
+  "v_projectCategory" : {
+    "name" : "STRING",
+    "self_data" : "URL",
+    "description_data" : "STRING"
+  },
+  "simplified" : "BOOLEAN",
+  "is_active" : false,
+  "avatarUrls" : {
+    "stock_quantity" : 1641,
+    "v_16x16" : "URL",
+    "24x24" : "URL",
+    "48x48" : "URL"
+  },
+  "key" : "STRING",
+  "name" : "STRING",
+  "v_insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME",
+    "is_active" : false
+  }
+}, {
+  "price" : 397.53,
+  "self" : "URL",
+  "style" : "NULL",
+  "simplified" : "BOOLEAN",
+  "id" : "STRING",
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "v_projectCategory" : {
+    "self" : "URL",
+    "name" : "STRING",
+    "v_description" : "NULL",
+    "identifier" : "STRING"
+  },
+  "avatarUrls" : {
+    "16x16" : "URL",
+    "32x32" : "URL",
+    "48x48" : "URL"
+  },
+  "key" : "STRING"
+} ]

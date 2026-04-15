@@ -1,0 +1,20 @@
+{
+  "v_content" : [ {
+    "description" : "STRING",
+    "rating" : "INT",
+    "articleId" : "STRING",
+    "unhelpfulCount" : "INT",
+    "helpfulCount" : "INT",
+    "created" : "NULL",
+    "title" : "PII_COMPANY_NAME",
+    "reviewId" : "STRING",
+    "articleSizeRatings" : {
+      "cpu_usage_percent" : 306.07,
+      "SHOE_WIDTH" : "INT"
+    },
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "recommend_data" : "BOOLEAN",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "language" : "STRING"
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+  "v_registrants" : [ {
+    "state_data" : "PII_LOCATION_STATE",
+    "role_in_purchase_process" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "create_time" : "",
+    "email" : "PII_EMAIL",
+    "job_title" : "STRING",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "v_zip" : "STRING",
+    "v_org" : "PII_ORGANIZATION_NAME",
+    "comments" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "address" : "PII_ADDRESS_LINE",
+    "auto_renew" : false,
+    "custom_questions" : [ {
+      "value" : "STRING",
+      "response_time_sec" : 511.69,
+      "title" : "STRING"
+    }, {
+      "title" : "STRING",
+      "price" : 218.15,
+      "value" : "STRING"
+    } ],
+    "phone" : "PII_PHONE_NUMBER",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "join_url_data" : null,
+    "id" : "STRING",
+    "no_of_employees" : "STRING"
+  } ],
+  "page_size" : "INT",
+  "v_page_number" : "INT",
+  "total_records" : "INT"
+}

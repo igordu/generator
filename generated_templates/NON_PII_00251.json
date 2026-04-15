@@ -1,0 +1,36 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "audit_trail" : {
+      "payload_wrapper" : {
+        "raw_data" : [ {
+          "facets" : [ {
+            "key" : "STRING",
+            "count" : "INT",
+            "displayName" : "STRING"
+          } ],
+          "v_filter" : "STRING",
+          "http_status" : 899
+        }, {
+          "facets" : [ {
+            "count" : "INT",
+            "key" : "STRING",
+            "displayName" : "STRING"
+          }, {
+            "displayName" : "STRING",
+            "count" : "INT",
+            "key" : "STRING"
+          }, {
+            "v_key" : "STRING",
+            "count" : "INT",
+            "displayName" : ""
+          } ],
+          "filter" : "STRING"
+        } ]
+      }
+    }
+  }
+}

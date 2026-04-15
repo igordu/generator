@@ -1,0 +1,10 @@
+{
+  "userName" : "STRING",
+  "shopUrl" : "URL",
+  "modelId" : "STRING",
+  "identifier" : "STRING",
+  "priority_level" : 3841,
+  "media_data" : {
+    "discount_rate" : 552.83
+  }
+}

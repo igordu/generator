@@ -1,0 +1,77 @@
+{
+  "total" : "INT",
+  "v_offset" : "INT",
+  "transactions" : [ {
+    "totalFeeAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "is_deleted" : true,
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "feeJurisdiction" : {
+      "regionType" : "STRING",
+      "fullName" : "STRING",
+      "has_discount" : false
+    },
+    "transactionMemo" : "STRING",
+    "salesRecordReference" : "",
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "transactionDate" : "DATETIME",
+    "orderLineItems" : [ {
+      "temperature_c" : 199.43,
+      "feeBasisAmount" : {
+        "convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "currency" : "STRING",
+        "is_deleted" : true,
+        "convertedFromValue" : "STRING",
+        "exchangeRate_data" : "STRING"
+      },
+      "v_marketplaceFees" : [ {
+        "feeType" : "STRING",
+        "v_feeJurisdiction" : {
+          "regionName" : "STRING"
+        },
+        "feeMemo_data" : "STRING"
+      } ]
+    } ],
+    "eBayCollectedTaxAmount" : {
+      "v_exchangeRate" : "STRING",
+      "value" : "STRING",
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "NULL"
+    },
+    "payoutId" : "STRING",
+    "feeType" : "STRING",
+    "paymentsEntity" : "STRING",
+    "v_transactionStatus" : "STRING",
+    "v_totalFeeBasisAmount" : {
+      "v_value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_currency" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "amount" : {
+      "convertedFromCurrency" : "NULL",
+      "convertedFromValue" : "STRING",
+      "is_deleted" : false,
+      "currency" : "STRING",
+      "value" : "STRING"
+    },
+    "orderId" : "STRING",
+    "references_data" : [ {
+      "referenceId" : "STRING",
+      "referenceType" : "STRING",
+      "requires_update" : true
+    } ]
+  } ],
+  "limit_data" : "INT",
+  "href_data" : "STRING",
+  "next" : "STRING",
+  "prev" : "STRING"
+}

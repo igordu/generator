@@ -1,0 +1,18 @@
+{
+  "content" : [ {
+    "recommend" : "BOOLEAN",
+    "v_helpfulCount" : "INT",
+    "v_unhelpfulCount" : "INT",
+    "language" : "STRING",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_title" : "PII_COMPANY_NAME",
+    "created_data" : "DATETIME",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "v_description" : "STRING",
+    "articleModelId" : "STRING",
+    "reviewId" : null,
+    "priority_level" : 1604,
+    "rating" : "INT",
+    "articleId" : "STRING"
+  } ]
+}

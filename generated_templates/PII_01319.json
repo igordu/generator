@@ -1,0 +1,14 @@
+{
+  "active" : "BOOLEAN",
+  "price" : 766.82,
+  "tree" : {
+    "url_data" : "URL",
+    "response_time_sec" : 741.92,
+    "sha" : "STRING"
+  },
+  "user_info" : {
+    "userName" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  }
+}

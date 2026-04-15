@@ -1,0 +1,15 @@
+{
+  "country" : "STRING",
+  "uuid" : "STRING",
+  "fingerprint" : "STRING",
+  "bank_name" : "STRING",
+  "customer_data" : "STRING",
+  "last4" : "STRING",
+  "metadata" : "OBJECT",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "stock_quantity" : 923,
+  "account_type_data" : "STRING",
+  "routing_number" : "STRING",
+  "status" : "STRING",
+  "currency" : "STRING"
+}

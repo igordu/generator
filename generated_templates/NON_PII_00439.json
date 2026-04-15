@@ -1,0 +1,11 @@
+{
+  "system_state" : {
+    "transaction_trace" : {
+      "debug_payload" : {
+        "userName" : "STRING",
+        "v_clientToken" : "STRING",
+        "system_ping_ms" : 554
+      }
+    }
+  }
+}

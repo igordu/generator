@@ -1,0 +1,34 @@
+{
+  "total_records" : "INT",
+  "page_size_data" : "INT",
+  "page_number" : "INT",
+  "page_count" : "INT",
+  "registrants" : [ {
+    "custom_questions" : [ {
+      "item_count" : 1925,
+      "value" : "STRING"
+    }, {
+      "value" : "STRING",
+      "title" : "STRING"
+    } ],
+    "job_title_data" : "STRING",
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "role_in_purchase_process_data" : null,
+    "create_time" : "DATETIME",
+    "v_join_url" : "URL",
+    "v_city" : "PII_LOCATION_CITY",
+    "status" : "STRING",
+    "email" : "PII_EMAIL",
+    "id" : "STRING",
+    "org_data" : "PII_ORGANIZATION_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "industry" : "STRING",
+    "zip" : "STRING",
+    "comments" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "state" : "PII_LOCATION_STATE",
+    "address_data" : "PII_ADDRESS_LINE"
+  } ]
+}

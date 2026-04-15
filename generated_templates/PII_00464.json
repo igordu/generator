@@ -1,0 +1,34 @@
+{
+  "telecom" : [ {
+    "system" : "",
+    "use_data" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  }, {
+    "system" : "STRING",
+    "value" : "PII_EMAIL"
+  } ],
+  "meta" : {
+    "v_lastUpdated" : "DATETIME"
+  },
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "fullName" : [ {
+    "v_family" : "PII_PERSON_LAST_NAME",
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING"
+  } ],
+  "identifier" : [ {
+    "system" : "URL",
+    "temperature_c" : 346.85,
+    "use" : "STRING",
+    "value" : "PII_NATIONAL_ID"
+  } ],
+  "resourceType" : "STRING",
+  "address" : [ {
+    "has_discount" : false,
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "use" : "STRING"
+  } ],
+  "gender" : "STRING"
+}

@@ -1,0 +1,4 @@
+{
+  "mail" : [ "STRING" ],
+  "emailAddress" : "PII_EMAIL"
+}

@@ -1,0 +1,37 @@
+{
+  "page_number" : "INT",
+  "total_records" : "INT",
+  "page_size" : "INT",
+  "is_deleted" : true,
+  "page_count" : "INT",
+  "v_registrants" : [ {
+    "v_industry" : "STRING",
+    "no_of_employees" : "STRING",
+    "org" : "PII_ORGANIZATION_NAME",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "purchasing_time_frame_data" : "STRING",
+    "job_title" : "STRING",
+    "email" : "PII_EMAIL",
+    "id" : "STRING",
+    "state" : "PII_LOCATION_STATE",
+    "v_address" : "PII_ADDRESS_LINE",
+    "join_url_data" : "NULL",
+    "requires_update" : true,
+    "country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "status" : "STRING",
+    "comments" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "v_custom_questions" : [ {
+      "v_title" : "STRING",
+      "v_value" : "STRING"
+    }, {
+      "title" : "STRING",
+      "value" : "STRING",
+      "price" : 274.61
+    } ],
+    "create_time" : "DATETIME",
+    "role_in_purchase_process" : "STRING"
+  } ]
+}

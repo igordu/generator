@@ -1,0 +1,14 @@
+{
+  "articleModelId" : "STRING",
+  "v_numberOfUserReviews" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "starRatingDistribution" : {
+    "4" : "INT",
+    "5" : "INT",
+    "3" : "INT",
+    "1" : "INT",
+    "2_data" : "INT"
+  },
+  "numberOfUserRecommendations" : "INT",
+  "item_count" : 3981
+}

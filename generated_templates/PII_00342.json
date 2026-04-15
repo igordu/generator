@@ -1,0 +1,10 @@
+{
+  "audit_trail" : {
+    "event_data" : {
+      "raw_data" : {
+        "emailAddress" : "PII_EMAIL",
+        "emailAddressStatus" : [ "STRING" ]
+      }
+    }
+  }
+}

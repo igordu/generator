@@ -1,0 +1,15 @@
+[ {
+  "facets" : [ {
+    "v_key" : "STRING",
+    "displayName" : "STRING",
+    "v_count" : "INT"
+  }, {
+    "fullName" : "STRING",
+    "is_deleted" : false
+  }, {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "count" : "INT"
+  } ],
+  "filter_data" : "STRING"
+} ]

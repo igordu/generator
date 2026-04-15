@@ -1,0 +1,22 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "modelId" : "STRING",
+      "media" : {
+        "images" : [ {
+          "auto_renew" : false,
+          "thumbnailHdUrl" : "URL",
+          "smallHdUrl" : "URL",
+          "v_largeHdUrl" : "URL",
+          "mediumHdUrl" : "URL",
+          "mediumUrl" : "URL",
+          "smallUrl" : "URL",
+          "orderNumber" : "INT"
+        } ]
+      },
+      "id" : "STRING",
+      "name" : "STRING",
+      "v_shopUrl" : "URL"
+    }
+  }
+}

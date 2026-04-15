@@ -1,0 +1,81 @@
+{
+  "data" : {
+    "fetchResource" : [ {
+      "html_url_data" : "URL",
+      "sha" : "STRING",
+      "author" : {
+        "cpu_usage_percent" : 664.29,
+        "v_avatar_url" : "URL",
+        "v_html_url" : "URL",
+        "received_events_url" : "URL",
+        "node_id" : "STRING",
+        "gists_url" : "URL",
+        "recordId" : null,
+        "v_repos_url" : "URL",
+        "starred_url_data" : "URL",
+        "login" : "STRING",
+        "type" : "STRING",
+        "events_url" : "URL",
+        "url" : "URL",
+        "site_admin" : "BOOLEAN",
+        "organizations_url" : "URL",
+        "subscriptions_url" : "",
+        "v_following_url" : "URL",
+        "uuid" : "INT"
+      },
+      "http_status" : 4147,
+      "comments_url" : "URL",
+      "committer" : {
+        "site_admin" : "",
+        "gravatar_id" : "STRING",
+        "starred_url" : "URL",
+        "received_events_url" : "URL",
+        "login" : "STRING",
+        "id" : "INT",
+        "following_url" : "URL",
+        "node_id" : "STRING",
+        "organizations_url" : "URL",
+        "url_data" : "URL",
+        "avatar_url" : "URL",
+        "gists_url" : "URL",
+        "repos_url" : "URL",
+        "type_data" : "STRING",
+        "followers_url_data" : "URL",
+        "events_url" : null,
+        "v_subscriptions_url" : "URL",
+        "v_html_url" : "URL"
+      },
+      "url" : "URL",
+      "node_id" : "STRING",
+      "commit" : {
+        "message" : "PII_COMPANY_NAME",
+        "author" : {
+          "email" : "PII_EMAIL",
+          "name" : "PII_PERSON_NAME",
+          "date_data" : ""
+        },
+        "url" : "URL",
+        "v_committer" : {
+          "name_val" : "PII_PERSON_NAME",
+          "date" : "DATETIME",
+          "discount_rate" : 115.54,
+          "email" : "PII_EMAIL"
+        },
+        "verification" : {
+          "verified_at" : "DATETIME",
+          "verified" : "BOOLEAN",
+          "signature" : "STRING"
+        },
+        "comment_count" : "INT",
+        "tree" : {
+          "url" : "URL",
+          "sha" : "STRING"
+        }
+      },
+      "v_parents" : [ {
+        "url" : "URL",
+        "sha" : "STRING"
+      } ]
+    } ]
+  }
+}

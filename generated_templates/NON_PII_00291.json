@@ -1,0 +1,23 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "count" : "INT",
+    "response_time_sec" : 947.58
+  }, {
+    "userName" : "STRING",
+    "key_data" : "STRING",
+    "count_data" : "INT"
+  } ],
+  "system_ping_ms" : 779
+}, {
+  "facets" : [ {
+    "key" : "STRING",
+    "v_count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "key" : "STRING",
+    "retry_attempts" : 3022,
+    "userName" : "STRING",
+    "v_count" : "INT"
+  } ]
+} ]

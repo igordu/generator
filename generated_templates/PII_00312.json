@@ -1,0 +1,8 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "emailAddress" : "PII_EMAIL",
+    "emailAddressStatus" : [ "STRING" ]
+  }
+}

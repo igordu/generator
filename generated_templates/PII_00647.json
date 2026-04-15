@@ -1,0 +1,38 @@
+{
+  "Employees" : [ {
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "ExternalLink_data" : {
+      "Url" : "URL",
+      "v_Description" : "STRING"
+    },
+    "recordId" : "STRING",
+    "v_Status" : "STRING",
+    "UpdatedDateUTC" : "DATETIME",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "v_Status" : "STRING",
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "stock_quantity" : 2960,
+      "Url" : "URL"
+    },
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "UpdatedDateUTC" : null,
+    "EmployeeID" : "STRING"
+  }, {
+    "Status" : "STRING",
+    "ExternalLink_data" : {
+      "discount_rate" : 177.07,
+      "Url" : "URL"
+    },
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "recordId" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  } ],
+  "DateTimeUTC_data" : "DATETIME",
+  "primaryKey" : "STRING",
+  "v_Status" : "STRING",
+  "price" : 922.7,
+  "clientName" : "STRING"
+}

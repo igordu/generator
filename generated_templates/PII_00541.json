@@ -1,0 +1,29 @@
+{
+  "v_transactions" : {
+    "booked" : [ {
+      "debtorAccount" : {
+        "iban_data" : "STRING"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "v_amount" : {
+        "amount_data" : "DECIMAL"
+      },
+      "clientName" : "PII_PERSON_NAME",
+      "creditorAccount" : {
+        "price" : 726.29,
+        "iban" : "PII_IBAN"
+      },
+      "debtorName" : "STRING",
+      "v_bookingDate" : "DATE",
+      "transactionId" : "STRING",
+      "valueDate" : "",
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "family" : "STRING",
+        "subFamily" : "STRING",
+        "has_discount" : false
+      }
+    } ]
+  },
+  "response_time_sec" : 710.89
+}

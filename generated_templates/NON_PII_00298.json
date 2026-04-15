@@ -1,0 +1,28 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : [ {
+    "filter" : "STRING",
+    "facets" : [ {
+      "response_time_sec" : 612.2,
+      "userName" : "STRING",
+      "count" : "INT",
+      "v_key" : "STRING"
+    }, {
+      "count" : "INT",
+      "key" : "STRING"
+    } ]
+  }, {
+    "retry_attempts" : 4931,
+    "facets" : [ {
+      "key" : "STRING",
+      "displayName" : "STRING",
+      "is_deleted" : false,
+      "count" : "INT"
+    }, {
+      "displayName" : "STRING",
+      "key" : "STRING",
+      "count" : "INT"
+    } ]
+  } ]
+}

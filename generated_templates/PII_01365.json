@@ -1,0 +1,12 @@
+{
+  "user_info" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "clientName" : "PII_COMPANY_NAME",
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  },
+  "active" : "BOOLEAN",
+  "tree_data" : {
+    "sha" : "STRING",
+    "url" : "URL"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "discount_rate" : 686.93,
+  "articleModelId" : "NULL",
+  "numberOfUserReviews_data" : "INT",
+  "starRatingDistribution" : {
+    "cache_hit" : true,
+    "5" : "INT",
+    "1_data" : "INT",
+    "3" : "INT",
+    "4_data" : "INT"
+  }
+}

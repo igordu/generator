@@ -1,0 +1,10 @@
+{
+  "user_info" : {
+    "requires_update" : true,
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "userName" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  },
+  "price" : 3.86,
+  "active" : "BOOLEAN"
+}

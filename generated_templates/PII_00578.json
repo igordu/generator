@@ -1,0 +1,32 @@
+{
+  "retry_attempts" : 3555,
+  "transactions_data" : {
+    "booked" : [ {
+      "http_status" : 4541,
+      "bookingDate" : "NULL",
+      "name_val" : "STRING",
+      "debtorAccount" : {
+        "response_time_sec" : 981.72,
+        "iban" : "STRING"
+      },
+      "amount" : {
+        "currency" : "STRING",
+        "amount" : "NULL",
+        "has_discount" : true
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "valueDate" : "DATE",
+      "userName" : "PII_PERSON_NAME",
+      "bankTransactionCode_data" : {
+        "family" : "STRING",
+        "domain_data" : "STRING",
+        "subFamily" : "STRING",
+        "response_time_sec" : 747.56
+      },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "transactionId" : "STRING"
+    } ]
+  }
+}

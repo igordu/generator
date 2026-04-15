@@ -1,0 +1,19 @@
+{
+  "media_data" : {
+    "v_images" : [ {
+      "type" : "NULL",
+      "smallUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "v_orderNumber" : "INT",
+      "mediumUrl" : null,
+      "largeHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "largeUrl" : "URL"
+    } ]
+  },
+  "primaryKey" : "STRING",
+  "shopUrl" : "URL",
+  "userName" : "STRING",
+  "recordId" : "STRING"
+}

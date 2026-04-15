@@ -1,0 +1,40 @@
+{
+  "id" : "STRING",
+  "v_birthDate" : "PII_DATE_OF_BIRTH",
+  "identifier" : [ {
+    "system_data" : "URL",
+    "value" : "PII_NATIONAL_ID",
+    "use" : "STRING",
+    "type" : {
+      "text_data" : "STRING"
+    }
+  } ],
+  "gender" : "STRING",
+  "address" : [ {
+    "city" : "PII_LOCATION_CITY",
+    "use" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "line" : [ "PII_ADDRESS_LINE" ]
+  } ],
+  "is_deleted" : true,
+  "v_meta" : {
+    "cache_hit" : false,
+    "lastUpdated" : "DATETIME",
+    "versionId" : ""
+  },
+  "v_resourceType" : "STRING",
+  "telecom_data" : [ {
+    "system" : "STRING",
+    "value" : "PII_PHONE_NUMBER",
+    "v_use" : "STRING",
+    "is_deleted" : false
+  }, {
+    "system" : "STRING",
+    "value" : "PII_EMAIL",
+    "requires_update" : false
+  } ],
+  "clientName" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ]
+}

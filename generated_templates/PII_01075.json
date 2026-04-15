@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "has_discount" : true,
+    "routing_number" : "STRING",
+    "v_account_type" : "NULL",
+    "id" : "STRING",
+    "status" : "STRING",
+    "bank_name" : "STRING",
+    "metadata" : "OBJECT",
+    "account_holder_name" : "PII_PERSON_NAME",
+    "customer" : "NULL",
+    "object_data" : "STRING",
+    "account_holder_type" : "STRING",
+    "fingerprint" : "STRING",
+    "country" : "STRING",
+    "currency" : "STRING",
+    "last4" : "STRING"
+  }
+}

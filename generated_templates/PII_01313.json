@@ -1,0 +1,15 @@
+{
+  "active" : "BOOLEAN",
+  "price" : 644.57,
+  "v_tree" : {
+    "system_ping_ms" : 1687,
+    "sha" : "STRING",
+    "url" : "URL"
+  },
+  "user_info" : {
+    "stock_quantity" : 2596,
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "fullName" : "PII_FIRST_NAME_FEMALE"
+  }
+}

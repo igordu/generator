@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "numberOfUserReviews" : "INT",
+    "starRatingDistribution" : {
+      "4" : "INT",
+      "2" : null,
+      "1" : "INT",
+      "3" : "INT",
+      "5" : "INT"
+    },
+    "numberOfUserPositiveRecommendations" : "INT",
+    "articleModelId" : "STRING",
+    "numberOfUserRecommendations" : "NULL"
+  }
+}

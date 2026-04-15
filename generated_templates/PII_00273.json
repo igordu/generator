@@ -1,0 +1,84 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "total" : "INT",
+      "href" : "STRING",
+      "v_prev" : "STRING",
+      "transactions" : [ {
+        "transactionType_data" : "STRING",
+        "transactionMemo_data" : "STRING",
+        "v_feeType" : "STRING",
+        "transactionStatus" : "",
+        "amount" : {
+          "exchangeRate" : "STRING",
+          "value" : "STRING",
+          "currency_data" : "STRING",
+          "v_convertedFromCurrency" : "STRING",
+          "v_convertedFromValue" : "STRING"
+        },
+        "recordId" : "STRING",
+        "references" : [ {
+          "v_referenceType" : "STRING",
+          "referenceId" : "STRING"
+        } ],
+        "buyer" : {
+          "username" : "PII_USERNAME"
+        },
+        "orderLineItems" : [ {
+          "feeBasisAmount_data" : {
+            "exchangeRate" : "STRING",
+            "currency" : "STRING",
+            "convertedFromCurrency" : "",
+            "is_deleted" : false,
+            "value" : "STRING"
+          },
+          "v_marketplaceFees" : [ {
+            "amount" : {
+              "v_exchangeRate" : "NULL",
+              "convertedFromValue_data" : "STRING",
+              "convertedFromCurrency_data" : "STRING",
+              "value" : "STRING",
+              "requires_update" : true,
+              "currency" : "NULL"
+            },
+            "requires_update" : false,
+            "feeType" : "STRING",
+            "feeMemo" : "STRING",
+            "feeJurisdiction_data" : {
+              "regionName" : "STRING"
+            }
+          } ],
+          "lineItemId" : "STRING"
+        } ],
+        "paymentsEntity" : "STRING",
+        "salesRecordReference" : "STRING",
+        "totalFeeBasisAmount" : {
+          "convertedFromCurrency" : "STRING",
+          "value" : "STRING",
+          "exchangeRate" : "STRING",
+          "currency" : "STRING",
+          "convertedFromValue" : "STRING"
+        },
+        "payoutId" : "STRING",
+        "v_bookingEntry" : "STRING",
+        "transactionId" : "STRING",
+        "eBayCollectedTaxAmount" : {
+          "value" : "",
+          "exchangeRate" : "STRING",
+          "convertedFromCurrency_data" : "",
+          "v_currency" : "STRING",
+          "convertedFromValue" : "STRING"
+        },
+        "transactionDate_data" : "DATETIME",
+        "totalFeeAmount" : {
+          "exchangeRate" : "STRING",
+          "value" : "STRING",
+          "v_convertedFromCurrency" : "STRING",
+          "currency" : "STRING",
+          "v_convertedFromValue" : "STRING",
+          "response_time_sec" : 309.24
+        }
+      } ]
+    }
+  }
+}

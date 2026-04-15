@@ -1,0 +1,14 @@
+{
+  "auto_renew" : true,
+  "v_numberOfUserReviews" : "INT",
+  "starRatingDistribution" : {
+    "2" : "INT",
+    "is_active" : false,
+    "1" : "INT",
+    "5" : "INT",
+    "v_3" : "INT"
+  },
+  "identifier" : "STRING",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "averageStarRating" : "INT"
+}

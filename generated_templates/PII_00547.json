@@ -1,0 +1,31 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "price" : 962.27,
+    "transactions_data" : {
+      "booked_data" : [ {
+        "bankTransactionCode_data" : {
+          "subFamily" : "STRING",
+          "family_data" : "STRING",
+          "domain" : "STRING"
+        },
+        "bookingDate" : "DATE",
+        "transactionId" : "STRING",
+        "v_debtorAccount" : {
+          "iban" : "STRING"
+        },
+        "creditorName" : "PII_PERSON_NAME",
+        "creditorAccount" : {
+          "iban_data" : "PII_IBAN"
+        },
+        "amount" : {
+          "currency" : "STRING",
+          "auto_renew" : false,
+          "amount" : "DECIMAL"
+        },
+        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
+      } ]
+    }
+  }
+}

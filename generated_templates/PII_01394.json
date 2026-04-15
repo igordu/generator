@@ -1,0 +1,13 @@
+{
+  "v_tree" : {
+    "sha" : "STRING",
+    "url" : "URL"
+  },
+  "user_info" : {
+    "clientName" : "PII_LAST_NAME_MALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "retry_attempts" : 3947
+  },
+  "active_data" : "BOOLEAN"
+}

@@ -1,0 +1,15 @@
+{
+  "numberOfUserPositiveRecommendations" : "INT",
+  "v_numberOfUserReviews" : "INT",
+  "identifier" : "STRING",
+  "averageStarRating" : "INT",
+  "starRatingDistribution" : {
+    "5" : "INT",
+    "4" : "INT",
+    "3_data" : "INT",
+    "2" : "INT",
+    "v_1" : "INT"
+  },
+  "numberOfUserRecommendations" : "INT",
+  "is_deleted" : true
+}

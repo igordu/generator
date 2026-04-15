@@ -1,0 +1,10 @@
+{
+  "server_logs" : {
+    "event_data" : {
+      "raw_data" : {
+        "contactEmail" : "PII_EMAIL",
+        "emailAddressStatus" : [ "STRING" ]
+      }
+    }
+  }
+}

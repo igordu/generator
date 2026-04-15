@@ -1,0 +1,81 @@
+{
+  "v_limit" : "INT",
+  "prev" : "STRING",
+  "total" : "INT",
+  "v_href" : "STRING",
+  "v_transactions" : [ {
+    "transactionDate" : "",
+    "amount" : {
+      "convertedFromCurrency" : null,
+      "currency" : "STRING",
+      "v_value" : "STRING",
+      "v_exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "cache_hit" : false
+    },
+    "salesRecordReference_data" : "STRING",
+    "totalFeeBasisAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate_data" : "STRING",
+      "value" : "STRING",
+      "currency_data" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "payoutId" : "STRING",
+    "orderLineItems" : [ {
+      "v_marketplaceFees" : [ {
+        "feeMemo" : "STRING",
+        "amount" : {
+          "v_currency" : "STRING",
+          "convertedFromValue" : null,
+          "convertedFromCurrency_data" : "STRING",
+          "exchangeRate" : "STRING"
+        },
+        "feeType" : "STRING",
+        "feeJurisdiction" : {
+          "fullName" : "STRING"
+        }
+      } ],
+      "auto_renew" : false,
+      "feeBasisAmount" : {
+        "v_exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING",
+        "value_data" : "STRING",
+        "currency" : "STRING"
+      },
+      "lineItemId" : "STRING"
+    } ],
+    "eBayCollectedTaxAmount" : {
+      "exchangeRate_data" : "STRING",
+      "currency_data" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "conversion_rate" : 925.24
+    },
+    "feeType" : "STRING",
+    "bookingEntry" : "STRING",
+    "recordId" : "STRING",
+    "transactionStatus_data" : "STRING",
+    "totalFeeAmount" : {
+      "exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "is_deleted" : false,
+      "value_data" : "STRING",
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "buyer" : {
+      "name_val" : "PII_USERNAME"
+    },
+    "temperature_c" : 381.93,
+    "feeJurisdiction" : {
+      "http_status" : 235,
+      "regionType_data" : "STRING"
+    },
+    "v_references" : [ {
+      "identifier" : "STRING",
+      "referenceType" : "STRING"
+    } ]
+  } ],
+  "offset_data" : "INT"
+}

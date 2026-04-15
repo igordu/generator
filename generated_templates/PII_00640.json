@@ -1,0 +1,42 @@
+{
+  "Employees" : [ {
+    "v_ExternalLink" : {
+      "has_discount" : false,
+      "Url" : "URL",
+      "Description" : "STRING"
+    },
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "EmployeeID" : "STRING",
+    "UpdatedDateUTC" : "DATETIME",
+    "Status_data" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "discount_rate" : 816.8,
+      "Url_data" : "URL"
+    },
+    "discount_rate" : 349.85,
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "EmployeeID" : "STRING",
+    "UpdatedDateUTC" : "DATETIME",
+    "Status" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "recordId" : "STRING",
+    "Status" : "STRING",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "v_ExternalLink" : {
+      "Url" : "URL",
+      "Description" : "STRING",
+      "price" : 712.42
+    }
+  } ],
+  "Status" : "STRING",
+  "fullName" : "STRING",
+  "primaryKey" : "STRING",
+  "price" : 338.53,
+  "DateTimeUTC" : "DATETIME"
+}

@@ -1,0 +1,14 @@
+{
+  "numberOfUserReviews" : "NULL",
+  "v_averageStarRating" : "INT",
+  "response_time_sec" : 40.99,
+  "starRatingDistribution" : {
+    "v_2" : "INT",
+    "4" : "INT",
+    "cache_hit" : false,
+    "5" : "",
+    "3" : "INT",
+    "1" : "INT"
+  },
+  "numberOfUserRecommendations" : "INT"
+}

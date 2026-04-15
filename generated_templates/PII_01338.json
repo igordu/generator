@@ -1,0 +1,17 @@
+{
+  "audit_trail" : {
+    "event_data" : {
+      "debug_payload" : {
+        "active" : "BOOLEAN",
+        "user_info_data" : {
+          "clientName" : "PII_COMPANY_NAME",
+          "name_val" : "PII_LAST_NAME_MALE"
+        },
+        "tree" : {
+          "sha_data" : "STRING",
+          "url" : "URL"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "gender" : "STRING",
+    "recordId" : [ {
+      "system" : "URL",
+      "use" : "STRING",
+      "retry_attempts" : 3927,
+      "v_type" : {
+        "discount_rate" : 891.86,
+        "text" : "STRING"
+      },
+      "value" : "PII_NATIONAL_ID"
+    } ],
+    "resourceType" : "STRING",
+    "id" : "STRING",
+    "name" : [ {
+      "use" : "STRING",
+      "item_count" : 3425,
+      "given" : [ "PII_PERSON_FIRST_NAME" ],
+      "family" : "PII_PERSON_LAST_NAME"
+    } ],
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "telecom" : [ {
+      "system" : "STRING",
+      "http_status" : 250,
+      "v_value" : "PII_EMAIL"
+    }, {
+      "use" : "STRING",
+      "value" : "PII_PHONE_NUMBER",
+      "price" : 473.2,
+      "system" : "STRING"
+    } ],
+    "meta" : {
+      "versionId" : "INT",
+      "lastUpdated" : "DATETIME"
+    },
+    "address" : [ {
+      "city" : "PII_LOCATION_CITY",
+      "line" : [ "PII_ADDRESS_LINE" ],
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "v_use" : "STRING"
+    } ]
+  }
+}

@@ -1,0 +1,45 @@
+[ {
+  "auto_renew" : true,
+  "facets_data" : [ {
+    "count" : "INT",
+    "key" : "STRING",
+    "name_val" : "STRING"
+  }, {
+    "count" : "INT",
+    "key_data" : "STRING",
+    "price" : 125.56,
+    "clientName" : "STRING"
+  }, {
+    "name_val" : "STRING",
+    "count" : "INT",
+    "v_key" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "is_deleted" : true,
+  "v_filter" : "STRING",
+  "v_facets" : [ {
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  } ]
+}, {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "discount_rate" : 676.26,
+    "key" : "STRING",
+    "count" : ""
+  }, {
+    "count_data" : "INT",
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  } ],
+  "filter_data" : "NULL"
+} ]

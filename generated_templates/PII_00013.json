@@ -1,0 +1,21 @@
+{
+  "price" : 443.81,
+  "content" : [ {
+    "title_data" : "PII_COMPANY_NAME",
+    "created" : "DATETIME",
+    "customerCity" : "PII_LOCATION_CITY",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "description" : "STRING",
+    "articleModelId" : "STRING",
+    "rating" : "INT",
+    "v_language" : "STRING",
+    "recommend" : "BOOLEAN",
+    "articleId" : "STRING",
+    "item_count" : 344,
+    "articleSizeRatings" : {
+      "OVERALL" : "INT"
+    },
+    "helpfulCount" : "INT",
+    "reviewId" : "STRING"
+  } ]
+}

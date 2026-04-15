@@ -1,0 +1,27 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "transactions" : {
+      "booked" : [ {
+        "name_val" : "STRING",
+        "bookingDate" : "NULL",
+        "uuid" : "STRING",
+        "bankTransactionCode" : {
+          "family" : "STRING"
+        },
+        "creditorAccount" : {
+          "system_ping_ms" : 1861,
+          "iban" : "PII_IBAN"
+        },
+        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+        "v_debtorAccount" : {
+          "iban" : "STRING",
+          "is_deleted" : true
+        },
+        "creditorName" : "PII_PERSON_NAME",
+        "valueDate" : "DATE"
+      } ]
+    }
+  }
+}

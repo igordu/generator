@@ -1,0 +1,11 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "emailAddress" : "PII_EMAIL",
+    "retry_attempts" : 3731,
+    "emailAddressStatus" : [ "STRING" ]
+  }
+}

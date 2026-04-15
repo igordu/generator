@@ -1,0 +1,15 @@
+{
+  "temperature_c" : 265.4,
+  "country" : null,
+  "v_metadata" : "OBJECT",
+  "account_holder_type" : "STRING",
+  "last4" : "STRING",
+  "fingerprint" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "account_type" : "STRING",
+  "id" : "STRING",
+  "currency" : "STRING",
+  "v_customer" : "STRING",
+  "routing_number" : "STRING",
+  "v_status" : "STRING"
+}

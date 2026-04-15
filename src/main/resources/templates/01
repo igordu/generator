@@ -1,0 +1,23 @@
+{
+  "content": [
+    {
+      "articleId": "STRING",
+      "articleModelId": "STRING",
+      "articleSizeRatings": {
+        "OVERALL": "INT",
+        "SHOE_WIDTH": "INT"
+      },
+      "created": "DATETIME",
+      "customerCity": "PII_LOCATION_CITY",
+      "customerCountry": "PII_LOCATION_COUNTRY",
+      "description": "STRING",
+      "helpfulCount": "INT",
+      "language": "STRING",
+      "rating": "INT",
+      "recommend": "BOOLEAN",
+      "reviewId": "STRING",
+      "title": "PII_COMPANY_NAME",
+      "unhelpfulCount": "INT"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "system_ping_ms" : 3789,
+  "userName" : "STRING",
+  "primaryKey" : "STRING",
+  "Employees_data" : [ {
+    "ExternalLink" : {
+      "Url" : "URL"
+    },
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "http_status" : 563,
+    "Status" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "v_UpdatedDateUTC" : ""
+  }, {
+    "ExternalLink" : {
+      "Description" : "NULL",
+      "Url" : "URL"
+    },
+    "stock_quantity" : 4404,
+    "EmployeeID" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "Status" : "STRING",
+    "UpdatedDateUTC" : "DATETIME"
+  }, {
+    "ExternalLink_data" : {
+      "Url" : "URL",
+      "Description" : "STRING"
+    },
+    "Status" : "STRING",
+    "EmployeeID" : "STRING",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "v_UpdatedDateUTC" : "DATETIME"
+  } ],
+  "DateTimeUTC_data" : "DATETIME",
+  "Status_data" : "STRING"
+}

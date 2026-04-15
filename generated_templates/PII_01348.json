@@ -1,0 +1,13 @@
+{
+  "active" : "BOOLEAN",
+  "tree" : {
+    "discount_rate" : 472.79,
+    "sha" : "STRING"
+  },
+  "requires_update" : true,
+  "user_info" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "name_val" : "PII_LAST_NAME_MALE"
+  }
+}

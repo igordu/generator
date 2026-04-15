@@ -1,0 +1,14 @@
+{
+  "user_info" : {
+    "clientName" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "auto_renew" : true
+  },
+  "tree" : {
+    "sha" : "STRING",
+    "v_url" : "URL",
+    "system_ping_ms" : 865
+  },
+  "active" : "BOOLEAN"
+}

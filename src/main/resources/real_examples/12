@@ -1,0 +1,29 @@
+{
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "TX-99827-XYZ",
+        "bookingDate": "2023-11-20",
+        "valueDate": "2023-11-21",
+        "amount": {
+          "currency": "EUR",
+          "amount": "1450.00"
+        },
+        "creditorName": "IME_VLASNIKA_PLACEHOLDER",
+        "creditorAccount": {
+          "iban": "IBAN_PLACEHOLDER"
+        },
+        "debtorName": "Amazon EU",
+        "debtorAccount": {
+          "iban": "DE12345678901234567890"
+        },
+        "remittanceInformationUnstructured": "Uplata po racunu za korisnika IME_VLASNIKA_PLACEHOLDER, hvala!",
+        "bankTransactionCode": {
+          "domain": "PMNT",
+          "family": "RCDT",
+          "subFamily": "ESCT"
+        }
+      }
+    ]
+  }
+}

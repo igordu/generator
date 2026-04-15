@@ -1,0 +1,24 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "userName" : "STRING",
+    "media" : {
+      "cpu_usage_percent" : 503.51,
+      "images" : [ {
+        "smallHdUrl_data" : "URL",
+        "largeHdUrl" : "URL",
+        "v_smallUrl" : "URL",
+        "thumbnailHdUrl" : "URL",
+        "type" : "STRING",
+        "orderNumber" : "INT",
+        "largeUrl_data" : "URL",
+        "mediumHdUrl" : "NULL",
+        "v_mediumUrl" : "URL"
+      } ]
+    },
+    "id" : "STRING",
+    "shopUrl" : "URL",
+    "modelId" : "STRING"
+  }
+}

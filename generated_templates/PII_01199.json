@@ -1,0 +1,67 @@
+[ {
+  "conversion_rate" : 638.94,
+  "commit" : {
+    "url" : "NULL",
+    "committer" : {
+      "name" : "PII_PERSON_NAME",
+      "contactEmail" : "PII_EMAIL"
+    },
+    "v_author" : {
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "date" : "DATETIME"
+    },
+    "tree" : {
+      "v_url" : "URL",
+      "sha" : "STRING",
+      "price" : 565.77
+    },
+    "message" : "PII_COMPANY_NAME",
+    "cache_hit" : false
+  },
+  "node_id" : "STRING",
+  "v_comments_url" : "URL",
+  "committer" : {
+    "starred_url" : "",
+    "v_following_url" : "URL",
+    "url" : "URL",
+    "recordId" : "INT",
+    "login" : "STRING",
+    "avatar_url_data" : "URL",
+    "v_html_url" : "URL",
+    "requires_update" : false,
+    "gists_url" : "URL",
+    "events_url" : "URL",
+    "v_subscriptions_url" : "URL",
+    "repos_url" : "URL",
+    "site_admin" : "BOOLEAN",
+    "followers_url" : "URL",
+    "organizations_url" : "URL",
+    "received_events_url_data" : "URL",
+    "node_id" : "STRING"
+  },
+  "sha_data" : "STRING",
+  "author" : {
+    "node_id" : "STRING",
+    "v_repos_url" : "URL",
+    "url" : "URL",
+    "gravatar_id" : "NULL",
+    "login" : "STRING",
+    "subscriptions_url" : "URL",
+    "events_url" : "URL",
+    "starred_url" : "URL",
+    "id" : "INT",
+    "organizations_url" : "URL",
+    "type" : "STRING",
+    "v_following_url" : "URL",
+    "site_admin" : "BOOLEAN",
+    "html_url" : "NULL",
+    "v_avatar_url" : "URL"
+  },
+  "parents" : [ {
+    "priority_level" : 2406,
+    "url" : "URL",
+    "sha" : "STRING"
+  } ],
+  "v_html_url" : "URL"
+} ]

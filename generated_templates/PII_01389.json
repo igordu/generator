@@ -1,0 +1,10 @@
+{
+  "user_info" : {
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "cache_hit" : true,
+    "fullName" : "PII_COMPANY_NAME",
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  },
+  "requires_update" : true,
+  "active" : "BOOLEAN"
+}

@@ -1,0 +1,88 @@
+{
+  "transactions" : [ {
+    "paymentsEntity" : "STRING",
+    "references" : [ {
+      "page_index" : 1596,
+      "referenceType" : "STRING"
+    } ],
+    "buyer_data" : {
+      "price" : 15.96,
+      "username" : "PII_USERNAME"
+    },
+    "transactionType" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "currency_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "retry_attempts" : 3274
+    },
+    "feeType" : "STRING",
+    "transactionId" : "STRING",
+    "totalFeeAmount" : {
+      "exchangeRate_data" : "",
+      "value_data" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING"
+    },
+    "v_salesRecordReference" : "STRING",
+    "v_amount" : {
+      "convertedFromCurrency" : "STRING",
+      "v_currency" : "STRING",
+      "value" : "NULL",
+      "exchangeRate" : "STRING"
+    },
+    "feeJurisdiction" : {
+      "regionType_data" : "STRING"
+    },
+    "payoutId" : "STRING",
+    "transactionMemo" : "STRING",
+    "totalFeeBasisAmount" : {
+      "currency" : "STRING",
+      "value" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate_data" : "STRING",
+      "convertedFromValue_data" : "STRING"
+    },
+    "transactionDate" : "DATETIME",
+    "transactionStatus" : "STRING",
+    "bookingEntry_data" : "STRING",
+    "orderLineItems" : [ {
+      "marketplaceFees_data" : [ {
+        "feeMemo" : "STRING",
+        "feeType" : "STRING",
+        "feeJurisdiction" : {
+          "has_discount" : false,
+          "fullName" : "STRING",
+          "regionType" : "STRING"
+        },
+        "is_deleted" : false,
+        "amount" : {
+          "value" : "STRING",
+          "convertedFromValue" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "currency" : "STRING",
+          "exchangeRate" : null
+        }
+      } ],
+      "retry_attempts" : 3470,
+      "feeBasisAmount" : {
+        "convertedFromCurrency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "v_value" : "STRING",
+        "currency" : "STRING"
+      },
+      "lineItemId" : "STRING"
+    } ],
+    "orderId" : "STRING"
+  } ],
+  "has_discount" : true,
+  "v_offset" : "INT",
+  "prev" : "STRING",
+  "total" : "INT",
+  "href" : "STRING",
+  "next" : "STRING",
+  "limit" : "INT"
+}

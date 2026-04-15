@@ -1,0 +1,27 @@
+{
+  "v_transactions" : {
+    "cpu_usage_percent" : 972.66,
+    "booked_data" : [ {
+      "creditorAccount" : {
+        "iban_data" : "PII_IBAN"
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "page_index" : 4139,
+      "amount" : {
+        "v_currency" : "STRING"
+      },
+      "uuid" : "STRING",
+      "clientName" : "STRING",
+      "debtorAccount" : { },
+      "v_bankTransactionCode" : {
+        "cache_hit" : false,
+        "domain_data" : "NULL",
+        "v_family" : "STRING",
+        "subFamily" : "STRING"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "v_valueDate" : "DATE",
+      "bookingDate" : "DATE"
+    } ]
+  }
+}

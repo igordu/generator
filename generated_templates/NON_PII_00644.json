@@ -1,0 +1,32 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : [ {
+    "assetTypeId" : "STRING",
+    "uuid" : "STRING",
+    "fixedAssetAccountId" : "STRING",
+    "item_count" : 1558,
+    "primaryKey" : "STRING",
+    "locks_data" : "INT",
+    "taxDepreciationSettings" : "ARRAY",
+    "fullName" : "STRING",
+    "bookDepreciationSetting" : {
+      "depreciationRate" : "DECIMAL",
+      "v_depreciationMethod" : "STRING",
+      "depreciationCalculationMethod" : "STRING",
+      "identifier" : "STRING",
+      "averagingMethod" : "STRING",
+      "uuid" : "STRING"
+    },
+    "lockPrivateUseAccount" : "BOOLEAN"
+  }, {
+    "depreciationExpenseAccountId" : "STRING",
+    "assetTypeName" : "STRING",
+    "taxDepreciationSettings" : "NULL",
+    "lockPrivateUseAccount" : "BOOLEAN",
+    "assetTypeId" : "STRING",
+    "response_time_sec" : 188.6,
+    "uuid" : "",
+    "locks" : "INT"
+  } ]
+}

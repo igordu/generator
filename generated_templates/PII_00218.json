@@ -1,0 +1,82 @@
+{
+  "offset" : "INT",
+  "href" : "STRING",
+  "v_next" : "STRING",
+  "total" : "INT",
+  "transactions" : [ {
+    "bookingEntry" : "STRING",
+    "feeType" : "STRING",
+    "v_amount" : {
+      "value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "http_status" : 3256,
+      "currency" : "STRING",
+      "v_exchangeRate" : "STRING"
+    },
+    "paymentsEntity" : "STRING",
+    "v_transactionMemo" : "STRING",
+    "transactionId" : "STRING",
+    "references_data" : [ {
+      "referenceId" : "STRING",
+      "system_ping_ms" : 210
+    } ],
+    "payoutId" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "currency" : "STRING",
+      "is_active" : true,
+      "value_data" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "orderLineItems" : [ {
+      "marketplaceFees_data" : [ {
+        "feeMemo" : "STRING",
+        "amount" : {
+          "convertedFromValue" : "STRING",
+          "currency" : "STRING",
+          "v_exchangeRate" : "STRING",
+          "value" : "STRING",
+          "convertedFromCurrency" : "STRING"
+        },
+        "feeJurisdiction_data" : {
+          "regionType" : "STRING",
+          "regionName" : "STRING"
+        },
+        "feeType" : "STRING"
+      } ],
+      "feeBasisAmount" : {
+        "exchangeRate" : "NULL",
+        "item_count" : 837,
+        "v_currency" : "STRING",
+        "v_value" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      }
+    } ],
+    "totalFeeAmount" : {
+      "value" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "transactionStatus_data" : "",
+    "feeJurisdiction" : {
+      "regionType" : "STRING",
+      "regionName" : "STRING"
+    },
+    "transactionType" : "STRING",
+    "orderId" : "STRING",
+    "totalFeeBasisAmount" : {
+      "convertedFromCurrency_data" : "STRING",
+      "currency" : "STRING",
+      "v_convertedFromValue" : "STRING",
+      "value" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "buyer_data" : {
+      "username" : "PII_USERNAME"
+    }
+  } ],
+  "v_limit" : "INT",
+  "prev" : "STRING"
+}

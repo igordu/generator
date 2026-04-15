@@ -1,0 +1,23 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "identifier" : "STRING",
+      "requires_update" : false,
+      "shopUrl_data" : "URL",
+      "modelId" : "STRING",
+      "media" : {
+        "stock_quantity" : 1619,
+        "v_images" : [ {
+          "largeHdUrl_data" : null,
+          "type_data" : null,
+          "mediumUrl" : "URL",
+          "thumbnailHdUrl" : "URL",
+          "mediumHdUrl" : "URL",
+          "largeUrl" : "URL",
+          "orderNumber" : "INT",
+          "item_count" : 853
+        } ]
+      }
+    }
+  }
+}

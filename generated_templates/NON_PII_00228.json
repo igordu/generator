@@ -1,0 +1,17 @@
+[ {
+  "facets" : [ {
+    "v_count" : "INT",
+    "key" : "STRING",
+    "name_val" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "key_data" : "STRING"
+  } ],
+  "filter" : "STRING",
+  "priority_level" : 3719
+}, {
+  "filter" : "STRING"
+} ]

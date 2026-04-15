@@ -1,0 +1,27 @@
+{
+  "system_state" : {
+    "event_data" : {
+      "body" : {
+        "content" : [ {
+          "title" : "PII_COMPANY_NAME",
+          "helpfulCount" : "",
+          "unhelpfulCount" : "INT",
+          "v_description" : "STRING",
+          "customerCountry" : "PII_LOCATION_COUNTRY",
+          "recordId" : "STRING",
+          "created_data" : "DATETIME",
+          "articleSizeRatings" : {
+            "OVERALL" : "INT",
+            "SHOE_WIDTH" : "INT"
+          },
+          "v_customerCity" : "PII_LOCATION_CITY",
+          "articleModelId" : "STRING",
+          "articleId" : "STRING",
+          "v_recommend" : null,
+          "rating" : "INT",
+          "discount_rate" : 729.57
+        } ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "page_number" : "INT",
+  "registrants" : [ {
+    "job_title" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "status" : "STRING",
+    "email" : "PII_EMAIL",
+    "custom_questions" : [ {
+      "page_index" : 4351,
+      "value" : "NULL",
+      "title" : "STRING"
+    } ],
+    "role_in_purchase_process" : "STRING",
+    "conversion_rate" : 30.94,
+    "no_of_employees" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "org_data" : "PII_ORGANIZATION_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "join_url" : "",
+    "state" : "PII_LOCATION_STATE",
+    "purchasing_time_frame" : "",
+    "city" : "PII_LOCATION_CITY",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "industry" : "STRING",
+    "id" : "STRING",
+    "create_time" : "DATETIME",
+    "zip" : "STRING"
+  } ],
+  "total_records" : "",
+  "page_size" : "INT"
+}

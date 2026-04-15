@@ -1,0 +1,20 @@
+{
+  "content" : [ {
+    "articleSizeRatings" : {
+      "OVERALL" : "INT"
+    },
+    "v_recommend" : "BOOLEAN",
+    "title" : "PII_COMPANY_NAME",
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "v_language" : "STRING",
+    "v_helpfulCount" : "INT",
+    "created_data" : "DATETIME",
+    "articleId" : "STRING",
+    "unhelpfulCount" : "INT",
+    "reviewId" : "STRING",
+    "rating" : "INT",
+    "description" : "STRING",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "recordId" : "STRING"
+  } ]
+}

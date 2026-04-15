@@ -1,0 +1,36 @@
+{
+  "telecom_data" : [ {
+    "value" : "PII_EMAIL",
+    "system" : "STRING",
+    "is_active" : false
+  }, {
+    "http_status" : 4018,
+    "v_value" : "PII_PHONE_NUMBER",
+    "system" : "STRING"
+  } ],
+  "address" : [ {
+    "v_use" : "STRING",
+    "priority_level" : 2273,
+    "country" : "PII_LOCATION_COUNTRY",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "city_data" : "PII_LOCATION_CITY"
+  } ],
+  "identifier" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "use" : "STRING",
+    "system_data" : null,
+    "type" : {
+      "text" : "STRING",
+      "requires_update" : false
+    }
+  } ],
+  "resourceType" : "STRING",
+  "gender_data" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "clientName" : [ {
+    "stock_quantity" : 4635,
+    "family" : "PII_PERSON_LAST_NAME",
+    "use_data" : "STRING",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ]
+}

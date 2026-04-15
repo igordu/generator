@@ -1,0 +1,18 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "account_type" : "STRING",
+    "routing_number_data" : "STRING",
+    "status" : "STRING",
+    "bank_name" : "STRING",
+    "id" : "STRING",
+    "fingerprint" : "STRING",
+    "v_last4" : "STRING",
+    "object" : "STRING",
+    "name_val" : "PII_PERSON_NAME",
+    "priority_level" : 3198,
+    "country" : "STRING",
+    "metadata" : "OBJECT"
+  }
+}

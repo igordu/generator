@@ -1,0 +1,15 @@
+{
+  "last4" : "STRING",
+  "v_routing_number" : "STRING",
+  "account_holder_type" : "STRING",
+  "id" : "STRING",
+  "v_fingerprint" : null,
+  "userName" : "STRING",
+  "has_discount" : false,
+  "account_holder_name" : "PII_PERSON_NAME",
+  "metadata" : "OBJECT",
+  "object" : "STRING",
+  "customer" : "STRING",
+  "account_type" : "STRING",
+  "v_country" : "STRING"
+}

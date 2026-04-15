@@ -1,0 +1,40 @@
+[
+  {
+    "assetTypeId": "710255c6-d2ed-4463-b992-06c8685add5e",
+    "assetTypeName": "Computer Equipment",
+    "fixedAssetAccountId": "37c35de7-8df0-44bf-8e7c-f1f67cf6a278",
+    "depreciationExpenseAccountId": "0fbd1820-9dd0-454a-9515-6ec076a84cf7",
+    "accumulatedDepreciationAccountId": "512eac06-6894-47cd-b421-673b4ca2693a",
+    "bookDepreciationSetting": {
+      "depreciableObjectId": "710255c6-d2ed-4463-b992-06c8685add5e",
+      "depreciableObjectType": "AssetType",
+      "bookEffectiveDateOfChangeId": "39b9c2e9-62b1-4efc-ab75-fa9152ffaa5f",
+      "depreciationMethod": "StraightLine",
+      "averagingMethod": "FullMonth",
+      "depreciationRate": 25.0,
+      "depreciationCalculationMethod": "None"
+    },
+    "taxDepreciationSettings": [],
+    "locks": 0,
+    "lockPrivateUseAccount": false
+  },
+  {
+    "assetTypeId": "1a398a67-9d9d-4783-8689-14a8efce89d9",
+    "assetTypeName": "Machinery97704",
+    "fixedAssetAccountId": "5c93f577-c48f-44cd-8593-01489e319c2b",
+    "depreciationExpenseAccountId": "adc14376-c960-43f0-b7f3-4063e5098039",
+    "accumulatedDepreciationAccountId": "9195cadd-8645-41e6-9f67-7bcd421defe8",
+    "bookDepreciationSetting": {
+      "depreciableObjectId": "1a398a67-9d9d-4783-8689-14a8efce89d9",
+      "depreciableObjectType": "AssetType",
+      "bookEffectiveDateOfChangeId": "6d09a96d-7768-4f28-95e8-c9ac870fe36e",
+      "depreciationMethod": "DiminishingValue100",
+      "averagingMethod": "ActualDays",
+      "depreciationRate": 40.0,
+      "depreciationCalculationMethod": "None"
+    },
+    "taxDepreciationSettings": [],
+    "locks": 0,
+    "lockPrivateUseAccount": false
+  }
+]

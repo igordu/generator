@@ -1,0 +1,39 @@
+{
+  "id" : "STRING",
+  "identifier" : [ {
+    "type" : {
+      "text" : "STRING"
+    },
+    "auto_renew" : false,
+    "system" : "URL",
+    "value" : "PII_NATIONAL_ID"
+  } ],
+  "gender" : "STRING",
+  "telecom" : [ {
+    "stock_quantity" : 4218,
+    "value" : "PII_PHONE_NUMBER",
+    "use" : "STRING"
+  }, {
+    "value" : "PII_EMAIL",
+    "system" : "STRING"
+  } ],
+  "v_birthDate" : "PII_DATE_OF_BIRTH",
+  "requires_update" : true,
+  "name" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "http_status" : 1683,
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "resourceType" : "STRING",
+  "meta" : {
+    "lastUpdated" : "DATETIME",
+    "http_status" : 2475,
+    "recordId" : "INT"
+  },
+  "address" : [ {
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "line_data" : [ "PII_ADDRESS_LINE" ],
+    "use" : "STRING",
+    "v_city" : "PII_LOCATION_CITY"
+  } ]
+}

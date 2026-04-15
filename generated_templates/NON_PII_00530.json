@@ -1,0 +1,36 @@
+[ {
+  "insight_data" : {
+    "lastIssueUpdateTime_data" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "name" : "STRING",
+  "avatarUrls_data" : {
+    "24x24" : "URL",
+    "response_time_sec" : 830.65,
+    "v_16x16" : "URL",
+    "48x48_data" : "URL"
+  },
+  "v_key" : "STRING",
+  "style" : "STRING",
+  "self" : "URL",
+  "uuid" : "STRING",
+  "simplified" : "BOOLEAN"
+}, {
+  "id" : "STRING",
+  "insight" : {
+    "v_totalIssueCount" : "INT",
+    "lastIssueUpdateTime_data" : null,
+    "cache_hit" : false
+  },
+  "key" : "STRING",
+  "projectCategory_data" : {
+    "name" : "STRING",
+    "description_data" : "STRING",
+    "identifier" : "STRING",
+    "self_data" : "URL"
+  },
+  "name" : "STRING",
+  "style_data" : "STRING",
+  "v_simplified" : "BOOLEAN",
+  "self" : "URL"
+} ]

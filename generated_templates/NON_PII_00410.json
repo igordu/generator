@@ -1,0 +1,10 @@
+{
+  "system_state" : {
+    "payload_wrapper" : {
+      "debug_payload" : {
+        "fullName" : "STRING",
+        "clientToken" : "STRING"
+      }
+    }
+  }
+}

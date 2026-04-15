@@ -1,0 +1,26 @@
+{
+  "audit_trail" : {
+    "request_context" : {
+      "raw_data" : [ {
+        "simplified_data" : "BOOLEAN",
+        "key" : "STRING",
+        "name_val" : "STRING",
+        "primaryKey" : "STRING",
+        "projectCategory" : {
+          "discount_rate" : 912.61,
+          "name" : "STRING",
+          "description_data" : "STRING",
+          "id" : "STRING"
+        },
+        "self_data" : "URL",
+        "retry_attempts" : 1235,
+        "style_data" : "STRING",
+        "v_insight" : {
+          "http_status" : 781,
+          "totalIssueCount" : "INT",
+          "lastIssueUpdateTime" : "DATETIME"
+        }
+      } ]
+    }
+  }
+}

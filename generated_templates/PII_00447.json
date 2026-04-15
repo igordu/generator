@@ -1,0 +1,40 @@
+{
+  "priority_level" : 1633,
+  "gender" : "STRING",
+  "name" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING"
+  } ],
+  "identifier" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "type" : {
+      "text" : "STRING",
+      "priority_level" : 3783
+    },
+    "system" : "URL",
+    "use" : "STRING",
+    "requires_update" : false
+  } ],
+  "meta" : {
+    "lastUpdated_data" : "DATETIME",
+    "uuid" : "INT"
+  },
+  "v_address" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "use" : "STRING"
+  } ],
+  "id" : "STRING",
+  "telecom_data" : [ {
+    "system" : "STRING",
+    "value" : "PII_EMAIL",
+    "item_count" : 3992
+  }, {
+    "use_data" : "STRING",
+    "value" : "PII_PHONE_NUMBER",
+    "system" : "STRING"
+  } ],
+  "birthDate_data" : "PII_DATE_OF_BIRTH"
+}

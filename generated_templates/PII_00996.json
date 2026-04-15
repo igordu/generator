@@ -1,0 +1,25 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "server_logs" : {
+      "request_context" : {
+        "body" : {
+          "currency_data" : "STRING",
+          "account_type_data" : "STRING",
+          "customer" : "STRING",
+          "id" : "STRING",
+          "account_holder_type" : "STRING",
+          "bank_name" : "STRING",
+          "account_holder_name" : "PII_PERSON_NAME",
+          "last4" : "STRING",
+          "v_routing_number" : "STRING",
+          "fingerprint" : "STRING",
+          "status" : "STRING",
+          "country" : "STRING",
+          "metadata" : "NULL"
+        }
+      }
+    }
+  }
+}

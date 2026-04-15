@@ -1,0 +1,22 @@
+{
+  "v_content" : [ {
+    "articleSizeRatings" : {
+      "SHOE_WIDTH" : "INT",
+      "OVERALL" : "INT"
+    },
+    "helpfulCount" : "INT",
+    "rating" : "INT",
+    "reviewId" : "NULL",
+    "articleModelId" : "STRING",
+    "v_unhelpfulCount" : "INT",
+    "language_data" : "STRING",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "recommend_data" : "BOOLEAN",
+    "v_description" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "discount_rate" : 215.15,
+    "title" : "PII_COMPANY_NAME",
+    "created" : "DATETIME"
+  } ],
+  "item_count" : 2296
+}

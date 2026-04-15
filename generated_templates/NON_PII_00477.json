@@ -1,0 +1,8 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "userName" : "STRING",
+      "clientToken" : "NULL"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "articleModelId" : "STRING",
+  "v_starRatingDistribution" : {
+    "cpu_usage_percent" : 87.39,
+    "3" : "INT",
+    "v_5" : "INT",
+    "2" : "INT",
+    "1" : "INT"
+  },
+  "conversion_rate" : 804.98,
+  "numberOfUserPositiveRecommendations" : "INT",
+  "v_numberOfUserReviews" : "INT",
+  "numberOfUserRecommendations" : "INT"
+}

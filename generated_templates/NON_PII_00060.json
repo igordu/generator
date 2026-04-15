@@ -1,0 +1,15 @@
+{
+  "articleModelId" : null,
+  "averageStarRating_data" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "has_discount" : true,
+  "numberOfUserReviews" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "starRatingDistribution" : {
+    "4_data" : "INT",
+    "2_data" : "INT",
+    "conversion_rate" : 647.24,
+    "1" : "INT",
+    "3" : "INT"
+  }
+}

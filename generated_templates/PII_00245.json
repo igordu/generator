@@ -1,0 +1,80 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "href" : "STRING",
+    "offset" : "INT",
+    "prev" : "STRING",
+    "transactions" : [ {
+      "eBayCollectedTaxAmount" : {
+        "convertedFromValue" : "STRING",
+        "currency" : "STRING",
+        "v_convertedFromCurrency" : "STRING",
+        "exchangeRate_data" : "STRING",
+        "value" : "STRING"
+      },
+      "transactionStatus" : "STRING",
+      "paymentsEntity" : "STRING",
+      "v_feeType" : "NULL",
+      "v_bookingEntry" : "STRING",
+      "buyer" : {
+        "discount_rate" : 192.48,
+        "username" : "PII_USERNAME"
+      },
+      "v_orderLineItems" : [ {
+        "marketplaceFees" : [ {
+          "feeType" : "STRING",
+          "conversion_rate" : 111.76,
+          "feeMemo" : "STRING",
+          "amount" : {
+            "value" : "STRING",
+            "cpu_usage_percent" : 255.08,
+            "convertedFromCurrency" : "STRING",
+            "exchangeRate" : "",
+            "currency" : "STRING"
+          },
+          "feeJurisdiction" : {
+            "regionName" : "STRING",
+            "regionType" : "STRING"
+          }
+        } ],
+        "lineItemId" : "STRING",
+        "v_feeBasisAmount" : {
+          "value" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "convertedFromValue" : "STRING",
+          "currency" : "STRING",
+          "exchangeRate" : "STRING"
+        }
+      } ],
+      "transactionMemo" : "STRING",
+      "totalFeeAmount" : {
+        "exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING",
+        "currency" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      },
+      "orderId" : "STRING",
+      "payoutId" : "STRING",
+      "transactionType" : "STRING",
+      "amount" : {
+        "exchangeRate" : "STRING",
+        "item_count" : 4136,
+        "v_currency" : "STRING",
+        "value" : "STRING"
+      },
+      "references" : [ {
+        "v_referenceType" : "STRING",
+        "referenceId" : "NULL"
+      } ],
+      "transactionDate_data" : "DATETIME",
+      "transactionId" : "NULL",
+      "salesRecordReference" : "STRING",
+      "item_count" : 3021
+    } ],
+    "next" : "STRING",
+    "total" : "INT",
+    "v_limit" : "INT"
+  }
+}

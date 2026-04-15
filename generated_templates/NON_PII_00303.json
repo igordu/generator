@@ -1,0 +1,160 @@
+{
+  "destinationFlowConfigList" : [ {
+    "v_apiVersion" : "STRING",
+    "connectorType" : "STRING",
+    "connectorProfileName" : "STRING",
+    "destinationConnectorProperties_data" : {
+      "Salesforce" : {
+        "v_dataTransferApi" : "STRING",
+        "idFieldNames" : "ARRAY",
+        "v_errorHandlingConfig" : {
+          "v_bucketPrefix" : "STRING",
+          "bucketName" : "STRING",
+          "v_failOnFirstDestinationError" : null
+        },
+        "v_writeOperationType" : "STRING",
+        "object" : "STRING"
+      },
+      "S3" : {
+        "cache_hit" : false,
+        "userName" : "STRING"
+      },
+      "v_Snowflake" : {
+        "object" : "STRING",
+        "clientName" : "STRING",
+        "errorHandlingConfig" : {
+          "bucketName" : "STRING",
+          "temperature_c" : 202.77,
+          "bucketPrefix" : null,
+          "failOnFirstDestinationError" : "BOOLEAN"
+        }
+      },
+      "Redshift" : {
+        "v_errorHandlingConfig" : {
+          "bucketName" : "STRING",
+          "bucketPrefix" : "STRING",
+          "has_discount" : false,
+          "failOnFirstDestinationError" : "BOOLEAN"
+        },
+        "object_data" : "STRING",
+        "name_val" : "STRING",
+        "bucketPrefix_data" : "STRING"
+      }
+    }
+  } ],
+  "clientToken" : "STRING",
+  "sourceFlowConfig_data" : {
+    "incrementalPullConfig_data" : {
+      "price" : 868.93
+    },
+    "v_sourceConnectorProperties" : {
+      "S3" : {
+        "bucketPrefix" : "STRING",
+        "bucketName" : "STRING",
+        "s3InputFormatConfig" : {
+          "s3InputFileType" : "STRING"
+        }
+      },
+      "CustomConnector" : {
+        "entityName" : "STRING",
+        "response_time_sec" : 803.04,
+        "customProperties" : {
+          "v_property1" : "STRING",
+          "conversion_rate" : 263.38,
+          "property2" : "STRING"
+        }
+      },
+      "Salesforce" : {
+        "enableDynamicFieldUpdate" : "BOOLEAN",
+        "dataTransferApi" : "STRING",
+        "object" : "STRING",
+        "includeDeletedRecords" : "BOOLEAN"
+      },
+      "Zendesk_data" : {
+        "object_data" : "STRING"
+      },
+      "Amplitude_data" : {
+        "object" : "NULL"
+      },
+      "Datadog" : {
+        "object" : "STRING"
+      },
+      "v_Veeva" : {
+        "includeRenditions" : "BOOLEAN",
+        "object" : "STRING",
+        "includeSourceFiles" : "BOOLEAN",
+        "documentType_data" : "STRING"
+      },
+      "Singular" : { },
+      "InforNexus" : {
+        "v_object" : "STRING"
+      },
+      "SAPOData" : {
+        "objectPath" : "STRING",
+        "is_deleted" : true
+      },
+      "ServiceNow" : {
+        "cache_hit" : true,
+        "object" : "STRING"
+      },
+      "Marketo" : {
+        "conversion_rate" : 968.38,
+        "object_data" : "STRING"
+      },
+      "conversion_rate" : 361.77,
+      "v_Pardot" : {
+        "object" : "STRING",
+        "retry_attempts" : 1369
+      },
+      "GoogleAnalytics" : {
+        "object" : null,
+        "page_index" : 2773
+      },
+      "Dynatrace" : {
+        "object" : "STRING"
+      },
+      "Trendmicro" : {
+        "object" : "STRING",
+        "cache_hit" : false
+      }
+    },
+    "connectorType_data" : "STRING",
+    "apiVersion" : "STRING"
+  },
+  "v_description" : "STRING",
+  "triggerConfig_data" : {
+    "triggerType_data" : "STRING",
+    "temperature_c" : 829.52,
+    "triggerProperties" : {
+      "Scheduled" : {
+        "firstExecutionFrom" : "DATETIME",
+        "timezone" : "STRING",
+        "scheduleExpression" : "",
+        "dataPullMode" : "STRING",
+        "scheduleOffset" : "INT",
+        "priority_level" : 4175,
+        "flowErrorDeactivationThreshold" : "INT",
+        "scheduleStartTime" : "DATETIME",
+        "scheduleEndTime_data" : "DATETIME"
+      },
+      "has_discount" : true
+    }
+  },
+  "flowName" : "STRING",
+  "has_discount" : false,
+  "tags" : {
+    "property2" : "STRING",
+    "cache_hit" : true,
+    "property1" : "STRING"
+  },
+  "v_kmsArn" : "STRING",
+  "metadataCatalogConfig_data" : {
+    "glueDataCatalog" : {
+      "roleArn" : "STRING",
+      "databaseName" : "STRING",
+      "tablePrefix" : "STRING",
+      "price" : 416.53
+    },
+    "has_discount" : false
+  }
+}

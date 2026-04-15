@@ -1,0 +1,15 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "numberOfUserReviews" : "INT",
+    "v_starRatingDistribution" : {
+      "3" : "INT",
+      "1" : "INT",
+      "4_data" : "INT",
+      "2" : "INT"
+    },
+    "numberOfUserRecommendations" : "INT",
+    "priority_level" : 1945
+  }
+}

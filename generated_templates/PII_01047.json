@@ -1,0 +1,17 @@
+{
+  "id" : "STRING",
+  "v_fingerprint" : "STRING",
+  "last4_data" : "STRING",
+  "v_country" : "STRING",
+  "bank_name" : "STRING",
+  "account_type" : "STRING",
+  "metadata_data" : "OBJECT",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "object_data" : "STRING",
+  "currency" : "STRING",
+  "routing_number" : "STRING",
+  "discount_rate" : 855.85,
+  "account_holder_type" : "STRING",
+  "status" : "STRING",
+  "customer" : "STRING"
+}

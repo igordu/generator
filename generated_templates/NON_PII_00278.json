@@ -1,0 +1,28 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "auto_renew" : false,
+    "count" : "INT"
+  }, {
+    "key_data" : null,
+    "userName" : "STRING",
+    "count" : "INT",
+    "is_active" : false
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  } ]
+}, {
+  "facets" : [ {
+    "conversion_rate" : 135.92,
+    "key" : "STRING",
+    "displayName" : "STRING"
+  } ],
+  "filter" : "STRING"
+}, {
+  "filter" : "STRING",
+  "price" : 496.03
+} ]

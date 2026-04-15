@@ -1,0 +1,5 @@
+{
+  "flowName" : "STRING",
+  "clientToken" : "STRING",
+  "is_active" : false
+}

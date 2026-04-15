@@ -1,0 +1,28 @@
+[ {
+  "http_status" : 2661,
+  "v_facets" : [ {
+    "clientName" : "STRING",
+    "count" : "INT",
+    "v_key" : "STRING"
+  }, {
+    "key" : null,
+    "name_val" : "STRING",
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "requires_update" : false
+  } ],
+  "filter" : "STRING"
+}, {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "v_key" : "STRING",
+    "response_time_sec" : 373.23
+  } ],
+  "filter" : "STRING"
+}, {
+  "v_filter" : "STRING",
+  "is_deleted" : true
+} ]

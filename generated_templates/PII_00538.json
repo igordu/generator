@@ -1,0 +1,26 @@
+{
+  "transactions" : {
+    "page_index" : 2301,
+    "booked" : [ {
+      "debtorAccount" : {
+        "iban" : null,
+        "conversion_rate" : 829.57
+      },
+      "bookingDate_data" : "DATE",
+      "v_valueDate" : "",
+      "debtorName" : "STRING",
+      "creditorName" : "PII_PERSON_NAME",
+      "requires_update" : true,
+      "amount_data" : {
+        "currency" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "v_creditorAccount" : {
+        "has_discount" : false,
+        "iban" : "PII_IBAN"
+      },
+      "primaryKey" : "STRING",
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME"
+    } ]
+  }
+}

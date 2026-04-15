@@ -1,0 +1,21 @@
+{
+  "has_discount" : true,
+  "content_data" : [ {
+    "helpfulCount" : "INT",
+    "articleSizeRatings" : {
+      "is_active" : false,
+      "SHOE_WIDTH" : "INT",
+      "OVERALL" : "INT"
+    },
+    "primaryKey" : "STRING",
+    "reviewId" : "STRING",
+    "v_unhelpfulCount" : "INT",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "description" : "STRING",
+    "v_recommend" : "BOOLEAN",
+    "title" : "PII_COMPANY_NAME",
+    "customerCity" : "PII_LOCATION_CITY",
+    "language_data" : "STRING",
+    "created" : "DATETIME"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "averageStarRating_data" : "INT",
+  "starRatingDistribution_data" : {
+    "v_3" : "INT",
+    "v_5" : "INT",
+    "1" : "INT",
+    "item_count" : 4538,
+    "4" : "INT",
+    "2" : "INT"
+  },
+  "page_index" : 2913,
+  "numberOfUserReviews" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "articleModelId" : "STRING",
+  "numberOfUserRecommendations" : "INT"
+}

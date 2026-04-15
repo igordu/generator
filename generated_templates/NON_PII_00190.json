@@ -1,0 +1,20 @@
+{
+  "modelId" : "STRING",
+  "id" : "STRING",
+  "media_data" : {
+    "item_count" : 559,
+    "images_data" : [ {
+      "largeHdUrl" : "URL",
+      "is_active" : false,
+      "v_smallUrl" : "URL",
+      "type" : "STRING",
+      "smallHdUrl_data" : "URL",
+      "orderNumber_data" : "INT",
+      "thumbnailHdUrl" : "URL",
+      "v_largeUrl" : "URL",
+      "mediumUrl" : "URL"
+    } ]
+  },
+  "shopUrl" : "URL",
+  "name_val" : "STRING"
+}

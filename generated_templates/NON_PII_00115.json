@@ -1,0 +1,5 @@
+{
+  "id" : "STRING",
+  "v_shopUrl" : "URL",
+  "name" : "STRING"
+}

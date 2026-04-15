@@ -1,0 +1,26 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "cpu_usage_percent" : 878.86,
+    "content" : [ {
+      "language" : "STRING",
+      "title" : "PII_COMPANY_NAME",
+      "uuid" : "STRING",
+      "created" : "DATETIME",
+      "description" : "STRING",
+      "helpfulCount" : "NULL",
+      "articleId" : "STRING",
+      "customerCity" : "PII_LOCATION_CITY",
+      "articleSizeRatings" : {
+        "OVERALL" : "INT",
+        "SHOE_WIDTH" : "INT"
+      },
+      "reviewId" : "STRING",
+      "recommend" : "BOOLEAN",
+      "unhelpfulCount" : "INT",
+      "rating_data" : null,
+      "customerCountry_data" : "PII_LOCATION_COUNTRY"
+    } ]
+  }
+}

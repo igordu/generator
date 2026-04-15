@@ -1,0 +1,25 @@
+{
+  "v_transactions" : {
+    "booked_data" : [ {
+      "v_valueDate" : "DATE",
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "bankTransactionCode" : {
+        "is_deleted" : true,
+        "domain" : "STRING",
+        "family" : "STRING",
+        "subFamily" : "STRING"
+      },
+      "bookingDate_data" : "DATE",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "debtorName" : "STRING",
+      "is_deleted" : false,
+      "creditorName" : "PII_PERSON_NAME"
+    } ],
+    "item_count" : 1178
+  }
+}

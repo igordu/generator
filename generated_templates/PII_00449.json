@@ -1,0 +1,39 @@
+{
+  "name" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING",
+    "family_data" : "PII_PERSON_LAST_NAME"
+  } ],
+  "address" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "city" : "PII_LOCATION_CITY",
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "v_use" : "STRING"
+  } ],
+  "gender" : "STRING",
+  "telecom" : [ {
+    "system" : "STRING",
+    "cache_hit" : true,
+    "use" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  }, {
+    "item_count" : 874,
+    "v_system" : "STRING",
+    "v_value" : "PII_EMAIL"
+  } ],
+  "meta" : {
+    "uuid" : "",
+    "lastUpdated" : "DATETIME"
+  },
+  "resourceType" : "STRING",
+  "identifier" : [ {
+    "has_discount" : false,
+    "v_value" : "PII_NATIONAL_ID",
+    "type" : {
+      "text" : "STRING"
+    },
+    "system" : "URL",
+    "use" : "STRING"
+  } ],
+  "birthDate" : "PII_DATE_OF_BIRTH"
+}

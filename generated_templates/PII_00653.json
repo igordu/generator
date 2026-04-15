@@ -1,0 +1,46 @@
+{
+  "server_logs" : {
+    "event_data" : {
+      "extracted_info" : {
+        "DateTimeUTC" : "DATETIME",
+        "Status" : "STRING",
+        "Id" : "STRING",
+        "ProviderName" : "STRING",
+        "Employees_data" : [ {
+          "EmployeeID" : "STRING",
+          "UpdatedDateUTC" : "DATETIME",
+          "LastName" : "PII_PERSON_LAST_NAME",
+          "ExternalLink_data" : {
+            "Description" : "STRING",
+            "Url" : "URL"
+          },
+          "FirstName" : "PII_PERSON_FIRST_NAME",
+          "requires_update" : false,
+          "Status" : "STRING"
+        }, {
+          "Status" : null,
+          "UpdatedDateUTC" : "DATETIME",
+          "ExternalLink" : {
+            "system_ping_ms" : 2336,
+            "Url" : "URL",
+            "Description" : "STRING"
+          },
+          "EmployeeID" : "STRING",
+          "LastName" : "PII_PERSON_LAST_NAME",
+          "FirstName" : "PII_PERSON_FIRST_NAME"
+        }, {
+          "ExternalLink" : {
+            "Description" : "STRING",
+            "Url" : "URL",
+            "is_active" : false
+          },
+          "Status" : "NULL",
+          "FirstName" : "PII_PERSON_FIRST_NAME",
+          "LastName" : "PII_PERSON_LAST_NAME",
+          "UpdatedDateUTC" : "DATETIME",
+          "EmployeeID" : "STRING"
+        } ]
+      }
+    }
+  }
+}

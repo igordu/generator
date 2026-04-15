@@ -1,0 +1,21 @@
+{
+  "priority_level" : 2609,
+  "media" : {
+    "temperature_c" : 208.75,
+    "images" : [ {
+      "largeHdUrl" : "URL",
+      "thumbnailHdUrl_data" : "URL",
+      "type" : "STRING",
+      "orderNumber" : "INT",
+      "largeUrl_data" : "URL",
+      "smallHdUrl" : "NULL",
+      "mediumUrl" : "URL",
+      "smallUrl" : "URL",
+      "mediumHdUrl_data" : "URL"
+    } ]
+  },
+  "id" : "STRING",
+  "modelId" : "STRING",
+  "shopUrl" : "URL",
+  "name" : "STRING"
+}

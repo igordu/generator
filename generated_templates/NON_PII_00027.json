@@ -1,0 +1,14 @@
+{
+  "numberOfUserRecommendations" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "averageStarRating" : "INT",
+  "articleModelId" : "STRING",
+  "starRatingDistribution_data" : {
+    "2_data" : "INT",
+    "5" : "INT",
+    "response_time_sec" : 595.98,
+    "1" : "",
+    "4" : "INT",
+    "3" : "INT"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "active" : "BOOLEAN",
+  "http_status" : 3745,
+  "v_tree" : {
+    "sha" : "STRING",
+    "url" : "URL"
+  },
+  "v_user_info" : {
+    "fullName" : "PII_LAST_NAME_MALE",
+    "is_deleted" : true,
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  }
+}

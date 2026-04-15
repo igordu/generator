@@ -1,0 +1,92 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "prev" : "STRING",
+      "next" : "STRING",
+      "href_data" : "STRING",
+      "limit" : "INT",
+      "transactions" : [ {
+        "orderLineItems" : [ {
+          "marketplaceFees" : [ {
+            "feeJurisdiction" : {
+              "userName" : null,
+              "regionType" : "STRING",
+              "cpu_usage_percent" : 215.07
+            },
+            "feeType" : "STRING",
+            "feeMemo" : "STRING",
+            "amount" : {
+              "currency" : "STRING",
+              "v_convertedFromCurrency" : "STRING",
+              "price" : 49.79,
+              "v_value" : "STRING",
+              "convertedFromValue_data" : "STRING",
+              "exchangeRate" : "NULL"
+            }
+          } ],
+          "feeBasisAmount" : {
+            "v_value" : "STRING",
+            "convertedFromCurrency_data" : "STRING",
+            "convertedFromValue" : "STRING",
+            "auto_renew" : false,
+            "currency" : "STRING",
+            "exchangeRate" : "STRING"
+          },
+          "lineItemId" : "STRING"
+        } ],
+        "references" : [ {
+          "referenceId" : "STRING",
+          "system_ping_ms" : 1357,
+          "referenceType" : "STRING"
+        } ],
+        "v_salesRecordReference" : "STRING",
+        "v_eBayCollectedTaxAmount" : {
+          "value" : "STRING",
+          "exchangeRate" : "STRING",
+          "priority_level" : 3105,
+          "v_currency" : "STRING",
+          "convertedFromValue" : "STRING"
+        },
+        "payoutId" : "STRING",
+        "transactionType" : "STRING",
+        "orderId" : "STRING",
+        "transactionDate" : "DATETIME",
+        "totalFeeBasisAmount" : {
+          "exchangeRate_data" : "STRING",
+          "v_value" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "convertedFromValue" : "STRING",
+          "currency" : "STRING",
+          "is_active" : false
+        },
+        "bookingEntry" : "STRING",
+        "totalFeeAmount_data" : {
+          "convertedFromCurrency" : "STRING",
+          "convertedFromValue" : "STRING",
+          "http_status" : 996,
+          "currency" : "STRING",
+          "exchangeRate" : "STRING"
+        },
+        "amount" : {
+          "convertedFromCurrency_data" : "STRING",
+          "value" : null,
+          "v_exchangeRate" : "STRING",
+          "v_currency" : "STRING"
+        },
+        "transactionStatus" : "",
+        "transactionMemo" : "STRING",
+        "feeType" : "STRING",
+        "recordId" : "STRING",
+        "response_time_sec" : 982.55,
+        "feeJurisdiction" : {
+          "regionType" : "STRING",
+          "regionName" : "STRING"
+        },
+        "buyer" : {
+          "username" : "PII_USERNAME"
+        }
+      } ],
+      "total" : "INT"
+    }
+  }
+}

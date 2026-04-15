@@ -1,0 +1,21 @@
+{
+  "modelId" : "NULL",
+  "name" : "STRING",
+  "shopUrl" : "URL",
+  "retry_attempts" : 4972,
+  "media" : {
+    "conversion_rate" : 686.95,
+    "images" : [ {
+      "type" : "STRING",
+      "conversion_rate" : 838.24,
+      "v_largeUrl" : "URL",
+      "smallUrl" : "URL",
+      "mediumUrl_data" : "URL",
+      "v_largeHdUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "orderNumber" : "INT",
+      "thumbnailHdUrl" : "URL"
+    } ]
+  },
+  "id" : "STRING"
+}

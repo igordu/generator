@@ -1,0 +1,5 @@
+{
+  "emailAddressStatus" : [ "STRING" ],
+  "primary_email" : "PII_EMAIL",
+  "is_active" : true
+}

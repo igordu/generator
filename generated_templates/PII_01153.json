@@ -1,0 +1,49 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "gists_url" : "URL",
+    "starred_url" : "URL",
+    "twitter_username" : "STRING",
+    "avatar_url" : "URL",
+    "name" : "PII_PERSON_NAME",
+    "disk_usage" : "INT",
+    "events_url" : "URL",
+    "two_factor_authentication_data" : "BOOLEAN",
+    "company" : "PII_ORGANIZATION_NAME",
+    "repos_url" : "URL",
+    "organizations_url" : "URL",
+    "public_gists_data" : "INT",
+    "email" : "PII_EMAIL",
+    "following_data" : null,
+    "followers_url" : "URL",
+    "priority_level" : 3027,
+    "total_private_repos" : "INT",
+    "login" : "STRING",
+    "v_url" : "URL",
+    "html_url" : "URL",
+    "public_repos" : "INT",
+    "followers_data" : "INT",
+    "bio" : "PII_ORGANIZATION_NAME",
+    "identifier" : "STRING",
+    "v_location" : "PII_LOCATION_CITY",
+    "plan" : {
+      "name" : "STRING",
+      "space" : "INT",
+      "v_private_repos" : "INT",
+      "v_collaborators" : "INT"
+    },
+    "private_gists" : "INT",
+    "site_admin_data" : "BOOLEAN",
+    "node_id" : "",
+    "received_events_url_data" : "URL",
+    "blog" : "URL",
+    "hireable" : "BOOLEAN",
+    "owned_private_repos_data" : "INT",
+    "created_at_data" : "DATETIME",
+    "collaborators" : "INT",
+    "updated_at" : "DATETIME"
+  }
+}

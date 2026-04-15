@@ -1,0 +1,23 @@
+{
+  "cpu_usage_percent" : 87.12,
+  "content" : [ {
+    "articleSizeRatings" : {
+      "SHOE_WIDTH" : "NULL",
+      "OVERALL" : "INT"
+    },
+    "articleId" : "STRING",
+    "is_deleted" : false,
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "reviewId" : "STRING",
+    "helpfulCount_data" : "INT",
+    "v_language" : "STRING",
+    "articleModelId" : "STRING",
+    "recommend" : "BOOLEAN",
+    "created" : "DATETIME",
+    "unhelpfulCount" : null,
+    "v_title" : "PII_COMPANY_NAME",
+    "rating_data" : "INT",
+    "customerCity" : "PII_LOCATION_CITY",
+    "v_description" : "STRING"
+  } ]
+}

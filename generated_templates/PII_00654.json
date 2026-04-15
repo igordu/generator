@@ -1,0 +1,37 @@
+{
+  "v_DateTimeUTC" : "DATETIME",
+  "Employees_data" : [ {
+    "v_Status" : "STRING",
+    "uuid" : "STRING",
+    "ExternalLink" : {
+      "Description_data" : "STRING",
+      "Url" : "URL"
+    },
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC_data" : "DATETIME",
+    "clientName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "Status" : "STRING",
+    "UpdatedDateUTC" : "NULL",
+    "ExternalLink" : {
+      "stock_quantity" : 4352
+    },
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "is_active" : true,
+    "identifier" : "STRING",
+    "fullName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "EmployeeID" : "STRING",
+    "v_ExternalLink" : {
+      "discount_rate" : 820.15,
+      "Description" : "STRING"
+    },
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "Status" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  } ],
+  "fullName" : "STRING",
+  "Status" : "STRING",
+  "Id" : "STRING"
+}

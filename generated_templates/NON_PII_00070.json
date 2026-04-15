@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "numberOfUserPositiveRecommendations_data" : "INT",
+    "starRatingDistribution" : {
+      "1" : "INT",
+      "temperature_c" : 25.47,
+      "5" : "INT",
+      "4" : "INT",
+      "3" : "INT",
+      "2_data" : "INT"
+    },
+    "retry_attempts" : 2854,
+    "articleModelId" : "STRING",
+    "v_numberOfUserReviews" : "INT",
+    "averageStarRating_data" : "INT"
+  }
+}

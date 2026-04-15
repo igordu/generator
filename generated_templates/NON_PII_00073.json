@@ -1,0 +1,21 @@
+{
+  "audit_trail" : {
+    "payload_wrapper" : {
+      "extracted_info" : {
+        "numberOfUserPositiveRecommendations" : "INT",
+        "conversion_rate" : 952.74,
+        "numberOfUserRecommendations" : "NULL",
+        "numberOfUserReviews" : "INT",
+        "articleModelId" : "STRING",
+        "starRatingDistribution_data" : {
+          "3" : "INT",
+          "2" : "INT",
+          "5" : "INT",
+          "4_data" : "INT",
+          "1" : "INT"
+        },
+        "averageStarRating" : "NULL"
+      }
+    }
+  }
+}

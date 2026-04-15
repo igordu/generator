@@ -1,0 +1,35 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "v_transactions" : {
+        "booked" : [ {
+          "amount" : {
+            "currency" : "STRING",
+            "http_status" : 2885,
+            "amount" : "DECIMAL"
+          },
+          "creditorAccount" : {
+            "priority_level" : 1911,
+            "iban" : "PII_IBAN"
+          },
+          "valueDate" : "DATE",
+          "debtorName" : "STRING",
+          "creditorName" : "PII_PERSON_NAME",
+          "bookingDate" : "DATE",
+          "bankTransactionCode" : {
+            "domain" : "STRING",
+            "v_subFamily" : "NULL",
+            "discount_rate" : 168.81,
+            "family" : null
+          },
+          "transactionId" : "STRING",
+          "debtorAccount" : {
+            "temperature_c" : 663.47
+          },
+          "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
+        } ]
+      },
+      "item_count" : 1928
+    }
+  }
+}

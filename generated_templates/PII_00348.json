@@ -1,0 +1,11 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "contactEmail" : "PII_EMAIL",
+    "primary_email" : [ "STRING" ],
+    "discount_rate" : 411.87
+  }
+}

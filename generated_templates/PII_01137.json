@@ -1,0 +1,56 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "telemetry_data" : {
+      "request_context" : {
+        "raw_data" : {
+          "v_two_factor_authentication" : "BOOLEAN",
+          "organizations_url" : "URL",
+          "company" : "PII_ORGANIZATION_NAME",
+          "avatar_url" : "URL",
+          "following_data" : "INT",
+          "disk_usage" : "INT",
+          "name" : "PII_PERSON_NAME",
+          "following_url" : "URL",
+          "private_gists" : "INT",
+          "v_site_admin" : "BOOLEAN",
+          "public_repos" : "INT",
+          "fullName" : "STRING",
+          "v_created_at" : "DATETIME",
+          "updated_at" : "DATETIME",
+          "v_starred_url" : "URL",
+          "html_url" : "URL",
+          "url" : "URL",
+          "v_type" : "STRING",
+          "collaborators_data" : "INT",
+          "hireable" : "BOOLEAN",
+          "events_url" : "URL",
+          "has_discount" : true,
+          "subscriptions_url" : "URL",
+          "bio" : "PII_ORGANIZATION_NAME",
+          "v_received_events_url" : "URL",
+          "v_public_gists" : "INT",
+          "email" : "PII_EMAIL",
+          "location" : "PII_LOCATION_CITY",
+          "blog" : "URL",
+          "owned_private_repos" : "INT",
+          "gists_url" : "URL",
+          "node_id" : "STRING",
+          "total_private_repos" : "INT",
+          "repos_url" : "URL",
+          "plan" : {
+            "collaborators_data" : "INT",
+            "space" : "INT",
+            "fullName" : null
+          },
+          "followers_data" : "INT",
+          "id" : "INT",
+          "followers_url" : "URL"
+        }
+      }
+    }
+  }
+}

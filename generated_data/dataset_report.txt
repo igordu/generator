@@ -1,0 +1,28 @@
+==================================================
+DATASET DISTRIBUTION REPORT
+==================================================
+Total JSONL records   : 5000
+PII records count     : 3500 (70%)
+Non-PII records count : 1500 (30%)
+Total PII entities    : 29793 (individual fields)
+--------------------------------------------------
+Detailed breakdown of PII classes (frequency & %):
+ - PII_PERSON_NAME           : 4173  (14.01%)
+ - PII_EMAIL                 : 3890  (13.06%)
+ - PII_PERSON_FIRST_NAME     : 3035  (10.19%)
+ - PII_PHONE_NUMBER          : 2581  (8.66%)
+ - PII_ADDRESS_LINE          : 2395  (8.04%)
+ - PII_LOCATION_CITY         : 2259  (7.58%)
+ - PII_ORGANIZATION_NAME     : 2107  (7.07%)
+ - PII_PERSON_LAST_NAME      : 2023  (6.79%)
+ - PII_LOCATION_COUNTRY      : 2011  (6.75%)
+ - PII_COMPANY_NAME          : 1551  (5.21%)
+ - PII_USERNAME              : 859   (2.88%)
+ - PII_IBAN                  : 692   (2.32%)
+ - PII_LOCATION_STATE        : 668   (2.24%)
+ - PII_NATIONAL_ID           : 580   (1.95%)
+ - PII_DATE_OF_BIRTH         : 262   (0.88%)
+ - PII_PASSWORD              : 256   (0.86%)
+ - PII_LAST_NAME_MALE        : 228   (0.77%)
+ - PII_FIRST_NAME_FEMALE     : 223   (0.75%)
+==================================================

@@ -1,0 +1,14 @@
+{
+  "id" : "",
+  "customer_data" : "STRING",
+  "country_data" : "STRING",
+  "currency_data" : "STRING",
+  "last4" : "STRING",
+  "fingerprint" : "NULL",
+  "account_type" : "STRING",
+  "name_val" : "PII_PERSON_NAME",
+  "account_holder_type" : "STRING",
+  "status" : "STRING",
+  "object" : "STRING",
+  "routing_number" : "NULL"
+}

@@ -1,0 +1,77 @@
+{
+  "offset" : "INT",
+  "limit" : "INT",
+  "next" : "STRING",
+  "transactions" : [ {
+    "bookingEntry" : "STRING",
+    "amount" : {
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "eBayCollectedTaxAmount_data" : {
+      "conversion_rate" : 332.7,
+      "exchangeRate" : null,
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "v_currency" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "transactionStatus" : "STRING",
+    "paymentsEntity" : "STRING",
+    "transactionMemo" : "STRING",
+    "totalFeeAmount" : {
+      "value" : "STRING",
+      "v_exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "discount_rate" : 709.44,
+      "convertedFromValue" : "STRING",
+      "currency_data" : "STRING"
+    },
+    "totalFeeBasisAmount" : {
+      "convertedFromCurrency_data" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "price" : 160.06,
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "payoutId" : "",
+    "orderLineItems" : [ {
+      "feeBasisAmount" : {
+        "value" : "STRING",
+        "currency" : "STRING",
+        "convertedFromValue_data" : null,
+        "v_exchangeRate" : "STRING"
+      },
+      "priority_level" : 2571,
+      "lineItemId" : "STRING",
+      "marketplaceFees_data" : [ {
+        "feeJurisdiction" : {
+          "regionName" : "NULL",
+          "regionType" : "STRING",
+          "system_ping_ms" : 2419
+        },
+        "v_feeType" : "STRING"
+      } ]
+    } ],
+    "feeType" : "STRING",
+    "transactionDate" : "DATETIME",
+    "feeJurisdiction_data" : {
+      "regionType" : "STRING",
+      "regionName" : "STRING"
+    },
+    "references" : [ {
+      "referenceType" : "STRING",
+      "referenceId" : "STRING",
+      "has_discount" : false
+    } ],
+    "recordId" : "STRING",
+    "uuid" : "STRING",
+    "transactionType" : "NULL"
+  } ],
+  "prev" : "STRING",
+  "total" : "INT"
+}

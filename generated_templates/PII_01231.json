@@ -1,0 +1,57 @@
+[ {
+  "author" : {
+    "followers_url" : "URL",
+    "node_id" : "STRING",
+    "gravatar_id" : "STRING",
+    "html_url" : "URL",
+    "id" : "INT",
+    "organizations_url" : "URL",
+    "type" : "STRING",
+    "url" : "URL",
+    "following_url" : "URL",
+    "v_events_url" : "URL",
+    "v_gists_url" : null,
+    "is_deleted" : true,
+    "repos_url" : "URL",
+    "v_site_admin" : "BOOLEAN",
+    "starred_url" : "URL",
+    "subscriptions_url" : "URL",
+    "login_data" : "STRING"
+  },
+  "parents_data" : [ {
+    "url" : "URL",
+    "item_count" : 4843
+  } ],
+  "commit" : {
+    "tree" : {
+      "url" : "URL",
+      "sha" : "STRING"
+    },
+    "author" : {
+      "date" : "DATETIME",
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "has_discount" : true
+    },
+    "comment_count_data" : null,
+    "url" : "URL",
+    "committer_data" : {
+      "email" : "PII_EMAIL",
+      "v_date" : "DATETIME",
+      "name" : "PII_PERSON_NAME"
+    },
+    "v_message" : "PII_COMPANY_NAME",
+    "verification" : {
+      "v_verified" : "BOOLEAN",
+      "payload_data" : "STRING",
+      "reason_data" : "STRING",
+      "v_verified_at" : "DATETIME",
+      "signature" : "STRING"
+    }
+  },
+  "recordId" : "STRING",
+  "html_url" : "URL",
+  "url" : "NULL",
+  "comments_url" : "URL",
+  "sha" : "STRING"
+} ]

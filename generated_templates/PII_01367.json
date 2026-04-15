@@ -1,0 +1,12 @@
+{
+  "tree" : {
+    "sha" : "STRING"
+  },
+  "v_user_info" : {
+    "arline__name" : "PII_COMPANY_NAME",
+    "temperature_c" : 180.44,
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  },
+  "active" : "BOOLEAN"
+}

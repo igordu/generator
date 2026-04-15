@@ -1,0 +1,34 @@
+[ {
+  "locks" : "INT",
+  "v_taxDepreciationSettings" : "ARRAY",
+  "depreciationExpenseAccountId" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "accumulatedDepreciationAccountId" : "",
+  "assetTypeName" : "STRING",
+  "bookDepreciationSetting" : {
+    "depreciableObjectType" : "STRING",
+    "averagingMethod_data" : "NULL",
+    "depreciationRate" : "DECIMAL",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "depreciationCalculationMethod" : "NULL"
+  },
+  "assetTypeId" : "STRING"
+}, {
+  "fixedAssetAccountId" : "STRING",
+  "assetTypeId" : "STRING",
+  "v_lockPrivateUseAccount" : "BOOLEAN",
+  "taxDepreciationSettings_data" : "ARRAY",
+  "uuid" : "STRING",
+  "assetTypeName" : "STRING",
+  "bookDepreciationSetting" : {
+    "depreciableObjectType" : "STRING",
+    "depreciationMethod" : "STRING",
+    "depreciationRate" : "DECIMAL",
+    "auto_renew" : false,
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "averagingMethod" : "STRING",
+    "v_depreciationCalculationMethod" : "STRING"
+  },
+  "accumulatedDepreciationAccountId" : "STRING"
+} ]

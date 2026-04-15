@@ -1,0 +1,31 @@
+{
+  "registrants_data" : [ {
+    "v_industry" : "STRING",
+    "v_comments" : "STRING",
+    "v_zip" : "STRING",
+    "purchasing_time_frame_data" : "STRING",
+    "status" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "v_org" : "PII_ORGANIZATION_NAME",
+    "country" : "PII_LOCATION_COUNTRY",
+    "create_time" : "DATETIME",
+    "no_of_employees" : "STRING",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "join_url" : "URL",
+    "city" : "PII_LOCATION_CITY",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "email" : "PII_EMAIL",
+    "id" : "STRING",
+    "role_in_purchase_process_data" : "STRING",
+    "v_state" : "PII_LOCATION_STATE",
+    "custom_questions" : [ {
+      "title" : "STRING",
+      "priority_level" : 2933
+    } ]
+  } ],
+  "retry_attempts" : 3830,
+  "total_records" : "INT",
+  "v_page_size" : "INT",
+  "page_count" : "INT"
+}

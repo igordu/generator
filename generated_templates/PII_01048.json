@@ -1,0 +1,16 @@
+{
+  "primaryKey" : "STRING",
+  "last4" : "STRING",
+  "object" : "STRING",
+  "v_customer" : "STRING",
+  "v_currency" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "status_data" : "STRING",
+  "metadata_data" : "OBJECT",
+  "retry_attempts" : 2400,
+  "country" : "STRING",
+  "account_holder_type" : "STRING",
+  "routing_number" : "STRING",
+  "fingerprint" : "STRING",
+  "bank_name" : "STRING"
+}

@@ -1,0 +1,96 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "prev" : "STRING",
+    "href_data" : "STRING",
+    "total" : "INT",
+    "transactions" : [ {
+      "salesRecordReference_data" : "NULL",
+      "feeType_data" : "STRING",
+      "transactionMemo_data" : "STRING",
+      "payoutId" : "STRING",
+      "uuid" : "STRING",
+      "v_amount" : {
+        "exchangeRate" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "currency" : "STRING",
+        "value_data" : "STRING",
+        "v_convertedFromValue" : "NULL"
+      },
+      "buyer" : {
+        "username" : "PII_USERNAME"
+      },
+      "references_data" : [ {
+        "referenceId" : "STRING",
+        "referenceType" : "STRING",
+        "stock_quantity" : 3614
+      } ],
+      "orderId" : "STRING",
+      "feeJurisdiction" : {
+        "regionType" : "STRING",
+        "discount_rate" : 996.15,
+        "regionName" : "STRING"
+      },
+      "transactionStatus" : "STRING",
+      "v_paymentsEntity" : "STRING",
+      "bookingEntry" : "STRING",
+      "v_totalFeeBasisAmount" : {
+        "priority_level" : 1760,
+        "convertedFromCurrency" : "NULL",
+        "value" : "STRING",
+        "v_currency" : "STRING",
+        "exchangeRate" : "STRING",
+        "convertedFromValue_data" : "STRING"
+      },
+      "orderLineItems" : [ {
+        "marketplaceFees" : [ {
+          "feeType" : "",
+          "amount" : {
+            "convertedFromValue" : "STRING",
+            "value" : "STRING",
+            "currency" : "STRING",
+            "convertedFromCurrency_data" : "STRING"
+          },
+          "feeJurisdiction_data" : {
+            "regionType" : "STRING",
+            "regionName" : "STRING"
+          },
+          "feeMemo" : "STRING"
+        } ],
+        "is_deleted" : false,
+        "feeBasisAmount" : {
+          "v_currency" : "STRING",
+          "exchangeRate_data" : "STRING",
+          "value" : "STRING",
+          "convertedFromValue" : "STRING",
+          "cpu_usage_percent" : 354.76,
+          "convertedFromCurrency" : "STRING"
+        },
+        "lineItemId" : "STRING"
+      } ],
+      "eBayCollectedTaxAmount_data" : {
+        "value_data" : "STRING",
+        "exchangeRate" : null,
+        "convertedFromValue" : "STRING",
+        "cpu_usage_percent" : 341.21,
+        "currency" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      },
+      "transactionDate" : "DATETIME",
+      "totalFeeAmount" : {
+        "v_convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "exchangeRate" : "STRING",
+        "price" : 160.8,
+        "currency" : "STRING"
+      },
+      "transactionType" : "STRING"
+    } ],
+    "v_next" : "STRING",
+    "v_limit" : "INT",
+    "v_offset" : "INT"
+  }
+}

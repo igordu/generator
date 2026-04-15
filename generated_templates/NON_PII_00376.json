@@ -1,0 +1,164 @@
+{
+  "kmsArn" : "STRING",
+  "tags" : {
+    "property1" : "STRING",
+    "property2" : "STRING"
+  },
+  "triggerConfig" : {
+    "triggerType" : "STRING"
+  },
+  "clientToken" : "NULL",
+  "metadataCatalogConfig" : {
+    "glueDataCatalog" : {
+      "databaseName" : "STRING",
+      "tablePrefix" : "STRING",
+      "roleArn" : "NULL"
+    },
+    "cpu_usage_percent" : 868.59
+  },
+  "tasks" : [ {
+    "connectorOperator" : {
+      "GoogleAnalytics_data" : "STRING",
+      "requires_update" : false,
+      "Veeva" : "STRING",
+      "Zendesk" : "STRING",
+      "ServiceNow" : "STRING",
+      "SAPOData" : "STRING",
+      "Salesforce" : "STRING",
+      "Slack" : "STRING",
+      "v_Amplitude" : "STRING",
+      "S3" : "STRING",
+      "Datadog_data" : "STRING",
+      "CustomConnector_data" : "STRING",
+      "Pardot" : "STRING",
+      "v_Dynatrace" : "STRING",
+      "Singular" : null,
+      "v_Marketo" : "STRING",
+      "Trendmicro" : "STRING",
+      "InforNexus_data" : "STRING"
+    },
+    "destinationField_data" : "STRING",
+    "cache_hit" : true,
+    "taskProperties" : {
+      "discount_rate" : 90.26,
+      "property1" : "STRING",
+      "property2" : "STRING"
+    },
+    "v_taskType" : "STRING",
+    "sourceFields" : "ARRAY"
+  } ],
+  "flowName" : "STRING",
+  "sourceFlowConfig" : {
+    "priority_level" : 4786,
+    "sourceConnectorProperties" : {
+      "CustomConnector" : {
+        "entityName" : "STRING",
+        "customProperties_data" : {
+          "discount_rate" : 607.98,
+          "property1" : "STRING"
+        }
+      },
+      "Singular" : {
+        "object_data" : "STRING"
+      },
+      "Salesforce" : {
+        "dataTransferApi" : "STRING",
+        "enableDynamicFieldUpdate" : "BOOLEAN",
+        "includeDeletedRecords" : "BOOLEAN"
+      },
+      "S3_data" : {
+        "retry_attempts" : 3915,
+        "bucketName" : "STRING",
+        "bucketPrefix_data" : null
+      },
+      "has_discount" : false,
+      "SAPOData_data" : {
+        "objectPath_data" : "STRING"
+      },
+      "Pardot" : {
+        "conversion_rate" : 163.34,
+        "object_data" : "STRING"
+      },
+      "InforNexus" : {
+        "object" : "STRING"
+      },
+      "v_Slack" : {
+        "object" : "STRING"
+      },
+      "v_Trendmicro" : {
+        "object_data" : "STRING",
+        "requires_update" : false
+      },
+      "Marketo_data" : {
+        "object" : "STRING",
+        "temperature_c" : 290.77
+      },
+      "ServiceNow" : {
+        "object" : "STRING"
+      },
+      "GoogleAnalytics" : {
+        "object" : "STRING"
+      }
+    },
+    "connectorProfileName" : "NULL",
+    "apiVersion" : "STRING",
+    "connectorType_data" : "STRING",
+    "incrementalPullConfig" : {
+      "datetimeTypeFieldName" : "STRING",
+      "conversion_rate" : 407.35
+    }
+  },
+  "destinationFlowConfigList_data" : [ {
+    "connectorType_data" : "STRING",
+    "destinationConnectorProperties" : {
+      "Snowflake" : {
+        "clientName" : "STRING",
+        "errorHandlingConfig" : {
+          "bucketPrefix" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "bucketName" : "STRING"
+        },
+        "bucketPrefix" : "STRING",
+        "system_ping_ms" : 4415,
+        "object" : "STRING"
+      },
+      "Redshift" : {
+        "priority_level" : 1995,
+        "bucketPrefix" : "STRING",
+        "errorHandlingConfig_data" : {
+          "bucketPrefix_data" : "STRING",
+          "response_time_sec" : 61.61,
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "fullName" : "STRING"
+        }
+      },
+      "Salesforce" : {
+        "object" : "STRING",
+        "name_val" : "ARRAY",
+        "conversion_rate" : 724.17,
+        "writeOperationType" : "STRING",
+        "errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "clientName" : "STRING"
+        }
+      },
+      "S3_data" : {
+        "has_discount" : false,
+        "bucketPrefix" : "STRING",
+        "bucketName" : "STRING"
+      },
+      "EventBridge" : {
+        "errorHandlingConfig" : {
+          "clientName" : "STRING",
+          "v_bucketPrefix" : "STRING",
+          "failOnFirstDestinationError" : ""
+        },
+        "v_object" : "STRING"
+      },
+      "conversion_rate" : 116.01
+    },
+    "system_ping_ms" : 94
+  } ],
+  "description" : "",
+  "auto_renew" : false
+}

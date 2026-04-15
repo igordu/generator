@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "account_type" : "STRING",
+    "conversion_rate" : 469.95,
+    "status" : null,
+    "userName" : "NULL",
+    "routing_number" : "STRING",
+    "fingerprint_data" : "STRING",
+    "object" : "STRING",
+    "id" : "STRING",
+    "metadata" : "OBJECT",
+    "account_holder_type" : "",
+    "customer" : "STRING",
+    "last4" : "STRING",
+    "country_data" : "STRING",
+    "fullName" : "PII_PERSON_NAME"
+  }
+}

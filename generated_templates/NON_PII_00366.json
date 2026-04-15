@@ -1,0 +1,75 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "tags_data" : {
+      "auto_renew" : true,
+      "property2" : "STRING",
+      "property1" : "STRING"
+    },
+    "destinationFlowConfigList_data" : [ {
+      "connectorType_data" : "STRING",
+      "connectorProfileName" : "STRING",
+      "apiVersion_data" : "STRING"
+    } ],
+    "flowName" : "STRING",
+    "tasks" : [ {
+      "v_taskProperties" : {
+        "is_deleted" : false,
+        "property1" : "STRING",
+        "property2" : "STRING"
+      },
+      "destinationField" : "",
+      "connectorOperator" : {
+        "Pardot" : "STRING",
+        "Dynatrace" : "STRING",
+        "Singular" : "STRING",
+        "Zendesk" : "STRING",
+        "v_SAPOData" : "STRING",
+        "retry_attempts" : 3026,
+        "S3" : "STRING",
+        "Trendmicro" : "STRING",
+        "CustomConnector" : null,
+        "Marketo" : "STRING",
+        "GoogleAnalytics" : "STRING",
+        "Veeva" : "STRING",
+        "Amplitude_data" : "STRING",
+        "Salesforce_data" : "STRING",
+        "InforNexus" : "STRING",
+        "Slack" : "STRING",
+        "Datadog" : "STRING"
+      },
+      "sourceFields" : "ARRAY",
+      "taskType" : "STRING"
+    } ],
+    "clientToken_data" : "STRING",
+    "triggerConfig" : {
+      "price" : 431.27,
+      "triggerProperties" : {
+        "v_Scheduled" : {
+          "timezone" : "STRING",
+          "flowErrorDeactivationThreshold_data" : "INT",
+          "scheduleOffset" : "INT",
+          "scheduleStartTime" : "DATETIME",
+          "scheduleExpression_data" : "STRING",
+          "v_dataPullMode" : "STRING",
+          "scheduleEndTime" : "DATETIME"
+        },
+        "cache_hit" : true
+      },
+      "triggerType_data" : "STRING"
+    },
+    "sourceFlowConfig" : {
+      "userName" : "STRING",
+      "incrementalPullConfig" : {
+        "datetimeTypeFieldName" : "STRING"
+      },
+      "connectorType" : "STRING",
+      "apiVersion" : "STRING"
+    },
+    "kmsArn" : "STRING",
+    "v_description" : "STRING"
+  }
+}

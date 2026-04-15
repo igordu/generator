@@ -1,0 +1,94 @@
+{
+  "tasks" : [ {
+    "taskProperties_data" : {
+      "property1_data" : "STRING",
+      "property2" : "STRING"
+    },
+    "v_sourceFields" : "ARRAY",
+    "v_destinationField" : "STRING",
+    "v_taskType" : "STRING"
+  } ],
+  "flowName" : "STRING",
+  "v_metadataCatalogConfig" : {
+    "glueDataCatalog_data" : {
+      "retry_attempts" : 139,
+      "tablePrefix" : "NULL",
+      "v_roleArn" : "STRING",
+      "userName" : "STRING"
+    },
+    "cpu_usage_percent" : 266.3
+  },
+  "triggerConfig" : {
+    "triggerType" : "STRING",
+    "triggerProperties_data" : {
+      "Scheduled" : {
+        "scheduleEndTime_data" : "DATETIME",
+        "scheduleOffset" : "INT",
+        "v_dataPullMode" : "STRING",
+        "scheduleExpression" : "STRING",
+        "firstExecutionFrom" : "DATETIME",
+        "scheduleStartTime" : "DATETIME",
+        "v_timezone" : "STRING"
+      }
+    }
+  },
+  "destinationFlowConfigList" : [ {
+    "apiVersion" : "STRING",
+    "price" : 675.59,
+    "v_destinationConnectorProperties" : {
+      "v_Redshift" : {
+        "intermediateBucketName" : "STRING",
+        "object" : "STRING",
+        "bucketPrefix" : "STRING",
+        "errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "temperature_c" : 845.34,
+          "bucketName" : "NULL",
+          "bucketPrefix" : "STRING"
+        }
+      },
+      "v_Snowflake" : {
+        "object" : "STRING",
+        "errorHandlingConfig" : {
+          "bucketPrefix" : "STRING",
+          "temperature_c" : 443.03,
+          "bucketName" : "STRING"
+        },
+        "v_bucketPrefix" : "STRING",
+        "price" : 152.51,
+        "intermediateBucketName" : "STRING"
+      },
+      "uuid" : {
+        "errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "bucketPrefix_data" : "STRING",
+          "fullName" : "STRING"
+        }
+      },
+      "S3" : {
+        "retry_attempts" : 4440,
+        "s3OutputFormatConfig" : {
+          "preserveSourceDataTyping" : "BOOLEAN",
+          "aggregationConfig" : {
+            "targetFileSize" : "INT",
+            "aggregationType" : "STRING"
+          },
+          "fileType_data" : "STRING",
+          "v_prefixConfig" : {
+            "pathPrefixHierarchy" : "ARRAY",
+            "response_time_sec" : 628.2,
+            "v_prefixType" : "STRING"
+          }
+        },
+        "bucketPrefix" : "STRING"
+      },
+      "price" : 248.32,
+      "LookoutMetrics" : {
+        "requires_update" : true
+      }
+    },
+    "connectorType" : "STRING"
+  } ],
+  "description" : "STRING",
+  "kmsArn" : "STRING"
+}

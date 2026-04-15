@@ -1,0 +1,27 @@
+{
+  "v_transactions" : {
+    "booked" : [ {
+      "creditorAccount" : {
+        "auto_renew" : false,
+        "iban" : "PII_IBAN"
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "debtorName" : "STRING",
+      "v_amount" : {
+        "currency" : "STRING",
+        "response_time_sec" : 565.4,
+        "amount" : "DECIMAL"
+      },
+      "v_bookingDate" : "DATE",
+      "v_debtorAccount" : { },
+      "valueDate" : "DATE",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "bankTransactionCode" : {
+        "family" : "STRING",
+        "domain" : "STRING",
+        "subFamily" : "STRING"
+      }
+    } ],
+    "cpu_usage_percent" : 350.6
+  }
+}

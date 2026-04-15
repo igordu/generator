@@ -1,0 +1,63 @@
+{
+  "v_businessAccount" : {
+    "primaryContact" : {
+      "discount_rate" : 666.08,
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME"
+    },
+    "website" : "URL",
+    "cell" : {
+      "countryCode" : "STRING",
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "address_data" : {
+      "country" : "STRING",
+      "city" : "STRING",
+      "stateOrProvince" : "STRING",
+      "addressLine2" : "STRING",
+      "v_postalCode" : "STRING",
+      "is_deleted" : false,
+      "county" : "STRING"
+    },
+    "doingBusinessAs" : "STRING",
+    "email" : "PII_EMAIL",
+    "userName" : "PII_ORGANIZATION_NAME",
+    "secondaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "phoneType" : "STRING"
+    }
+  },
+  "username" : "PII_USERNAME",
+  "accountType_data" : null,
+  "individualAccount" : {
+    "fullName" : "PII_PERSON_NAME",
+    "cell" : {
+      "contactNumber" : "STRING",
+      "conversion_rate" : 461.91,
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "http_status" : 4995,
+    "email" : "PII_EMAIL",
+    "registrationAddress" : {
+      "city" : "STRING",
+      "addressLine1" : "STRING",
+      "addressLine2_data" : "STRING",
+      "county" : "STRING",
+      "country" : "STRING",
+      "stateOrProvince" : "STRING"
+    },
+    "primaryPhone" : {
+      "price" : 626.3,
+      "contactNumber" : "STRING",
+      "v_countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "firstName" : "PII_PERSON_NAME"
+  },
+  "page_index" : 3002,
+  "status" : "STRING",
+  "recordId" : ""
+}

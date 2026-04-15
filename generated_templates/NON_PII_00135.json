@@ -1,0 +1,18 @@
+{
+  "name" : "STRING",
+  "identifier" : "STRING",
+  "media" : {
+    "images_data" : [ {
+      "v_orderNumber" : "INT",
+      "price" : 219.4,
+      "mediumUrl_data" : "URL",
+      "smallHdUrl" : "URL",
+      "smallUrl" : "URL",
+      "type" : "STRING",
+      "largeHdUrl_data" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "mediumHdUrl" : "URL"
+    } ]
+  },
+  "v_shopUrl" : "URL"
+}

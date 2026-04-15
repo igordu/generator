@@ -1,0 +1,34 @@
+{
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "gender" : "STRING",
+  "auto_renew" : true,
+  "meta" : {
+    "response_time_sec" : 903.24,
+    "uuid" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "name" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING",
+    "cpu_usage_percent" : 264.61
+  } ],
+  "telecom" : [ {
+    "value" : "PII_PHONE_NUMBER",
+    "system" : "STRING",
+    "v_use" : null
+  }, {
+    "conversion_rate" : 854.42,
+    "v_system" : "STRING",
+    "value" : "PII_EMAIL"
+  } ],
+  "identifier" : "STRING",
+  "address" : [ {
+    "use" : "STRING",
+    "priority_level" : 4996,
+    "city_data" : "PII_LOCATION_CITY",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "line" : [ "PII_ADDRESS_LINE" ]
+  } ],
+  "resourceType" : "STRING"
+}

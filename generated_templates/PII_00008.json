@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "priority_level" : 4376,
+    "recommend_data" : "BOOLEAN",
+    "v_description" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "created" : "NULL",
+    "helpfulCount" : "INT",
+    "articleId" : "STRING",
+    "language" : "STRING",
+    "uuid" : "STRING",
+    "reviewId" : "STRING",
+    "rating_data" : "INT",
+    "customerCity" : "PII_LOCATION_CITY",
+    "articleSizeRatings" : {
+      "OVERALL" : "INT",
+      "uuid" : "INT"
+    },
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "unhelpfulCount" : "INT"
+  } ]
+}

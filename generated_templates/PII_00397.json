@@ -1,0 +1,42 @@
+{
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "extracted_info" : {
+        "recordId" : "STRING",
+        "resourceType_data" : "STRING",
+        "name" : [ {
+          "family" : "PII_PERSON_LAST_NAME",
+          "has_discount" : false,
+          "given" : [ "PII_PERSON_FIRST_NAME" ]
+        } ],
+        "telecom" : [ {
+          "use" : "STRING",
+          "system" : "STRING",
+          "value_data" : "PII_PHONE_NUMBER",
+          "retry_attempts" : 1924
+        }, {
+          "system" : "STRING",
+          "value" : "PII_EMAIL"
+        } ],
+        "address_data" : [ {
+          "country" : "PII_LOCATION_COUNTRY",
+          "v_use" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "line" : [ "PII_ADDRESS_LINE" ]
+        } ],
+        "meta" : {
+          "lastUpdated" : "DATETIME",
+          "uuid" : "INT"
+        },
+        "identifier" : [ {
+          "type" : { },
+          "use" : "STRING",
+          "conversion_rate" : 549.02,
+          "value" : "PII_NATIONAL_ID"
+        } ],
+        "conversion_rate" : 472.76,
+        "birthDate_data" : "PII_DATE_OF_BIRTH"
+      }
+    }
+  }
+}

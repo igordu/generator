@@ -1,0 +1,42 @@
+{
+  "http_status" : 909,
+  "identifier" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "v_system" : "URL",
+    "use" : "STRING",
+    "requires_update" : false,
+    "type" : {
+      "text" : "STRING",
+      "price" : 958.74
+    }
+  } ],
+  "gender_data" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "id" : "STRING",
+  "meta" : {
+    "cache_hit" : false,
+    "identifier" : "INT"
+  },
+  "name" : [ {
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING",
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "resourceType" : "STRING",
+  "address" : [ {
+    "is_deleted" : false,
+    "city" : "PII_LOCATION_CITY",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country" : "PII_LOCATION_COUNTRY"
+  } ],
+  "telecom_data" : [ {
+    "value_data" : "PII_PHONE_NUMBER",
+    "system" : "STRING",
+    "conversion_rate" : 629.25,
+    "use" : "STRING"
+  }, {
+    "retry_attempts" : 410,
+    "system" : "STRING",
+    "value" : "PII_EMAIL"
+  } ]
+}

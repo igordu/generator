@@ -1,0 +1,40 @@
+[ {
+  "id" : "STRING",
+  "userName" : "STRING",
+  "key" : "STRING",
+  "retry_attempts" : 1823,
+  "style" : "STRING",
+  "v_self" : "URL",
+  "insight_data" : {
+    "cache_hit" : true,
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : ""
+  },
+  "avatarUrls" : {
+    "48x48" : null,
+    "24x24" : "URL",
+    "32x32" : "URL",
+    "16x16" : "URL"
+  },
+  "simplified_data" : "BOOLEAN"
+}, {
+  "style" : "STRING",
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "item_count" : 3139
+  },
+  "projectCategory" : {
+    "description_data" : "STRING",
+    "id" : "STRING",
+    "self_data" : "URL",
+    "name" : "STRING"
+  },
+  "self" : "URL",
+  "id" : "STRING",
+  "avatarUrls" : {
+    "32x32" : "URL",
+    "16x16" : "URL",
+    "v_24x24" : "URL"
+  },
+  "simplified" : ""
+} ]

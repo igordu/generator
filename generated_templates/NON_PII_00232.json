@@ -1,0 +1,24 @@
+[ {
+  "facets" : [ {
+    "count_data" : null,
+    "displayName" : "STRING",
+    "key_data" : "STRING"
+  }, {
+    "key_data" : "STRING",
+    "count" : "INT",
+    "displayName" : "NULL"
+  } ],
+  "filter" : "STRING"
+}, {
+  "facets" : [ {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "count_data" : "INT"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "http_status" : 3021,
+    "displayName" : ""
+  } ],
+  "v_filter" : "STRING"
+} ]

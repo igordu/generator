@@ -1,0 +1,18 @@
+[ {
+  "assetTypeName" : "STRING",
+  "bookDepreciationSetting" : {
+    "temperature_c" : 928.83,
+    "depreciationMethod_data" : "STRING",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "depreciationCalculationMethod" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "depreciationRate" : "DECIMAL",
+    "depreciableObjectType" : "STRING"
+  },
+  "fixedAssetAccountId" : "STRING",
+  "accumulatedDepreciationAccountId" : "",
+  "depreciationExpenseAccountId" : "STRING",
+  "taxDepreciationSettings_data" : "ARRAY",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "identifier" : "STRING"
+} ]

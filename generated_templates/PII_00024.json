@@ -1,0 +1,25 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "content" : [ {
+        "v_rating" : "",
+        "helpfulCount" : "INT",
+        "articleId" : "STRING",
+        "v_language" : "STRING",
+        "v_recommend" : "BOOLEAN",
+        "reviewId" : "STRING",
+        "customerCity_data" : "PII_LOCATION_CITY",
+        "unhelpfulCount_data" : "INT",
+        "v_title" : "PII_COMPANY_NAME",
+        "created" : "DATETIME",
+        "articleSizeRatings" : {
+          "OVERALL_data" : "INT",
+          "SHOE_WIDTH" : "INT"
+        },
+        "uuid" : "STRING",
+        "description" : "STRING",
+        "customerCountry" : "PII_LOCATION_COUNTRY"
+      } ]
+    }
+  }
+}

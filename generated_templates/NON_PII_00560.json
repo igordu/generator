@@ -1,0 +1,47 @@
+[ {
+  "v_avatarUrls" : {
+    "32x32" : "URL",
+    "48x48_data" : "NULL",
+    "24x24" : "URL",
+    "16x16" : "URL"
+  },
+  "id" : "STRING",
+  "self" : "URL",
+  "simplified" : "BOOLEAN",
+  "key" : "STRING",
+  "style" : "STRING",
+  "userName" : "STRING",
+  "projectCategory" : {
+    "self" : "URL",
+    "v_description" : "STRING",
+    "name" : "STRING",
+    "uuid" : "STRING"
+  },
+  "v_insight" : {
+    "conversion_rate" : 386.72,
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  }
+}, {
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "projectCategory" : {
+    "id" : "STRING",
+    "self" : "URL",
+    "description" : "NULL",
+    "name" : "STRING"
+  },
+  "simplified" : "BOOLEAN",
+  "id" : "STRING",
+  "key" : "STRING",
+  "self_data" : "URL",
+  "avatarUrls_data" : {
+    "24x24" : "URL",
+    "32x32" : "URL",
+    "16x16_data" : "URL",
+    "48x48" : "URL"
+  },
+  "style_data" : "STRING"
+} ]

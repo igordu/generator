@@ -1,0 +1,62 @@
+{
+  "username" : "PII_USERNAME",
+  "stock_quantity" : 1715,
+  "status" : null,
+  "businessAccount" : {
+    "doingBusinessAs" : "STRING",
+    "secondaryPhone" : {
+      "v_countryCode" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "item_count" : 3879,
+      "phoneType" : "STRING"
+    },
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "price" : 615.84
+    },
+    "address" : {
+      "addressLine2" : "STRING",
+      "v_county" : "STRING",
+      "postalCode" : "STRING",
+      "country_data" : "STRING",
+      "addressLine1" : "STRING"
+    },
+    "mail" : "PII_EMAIL",
+    "name" : "PII_ORGANIZATION_NAME",
+    "website" : "URL",
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME"
+    }
+  },
+  "registrationMarketplaceId" : "STRING",
+  "individualAccount" : {
+    "email" : "PII_EMAIL",
+    "registrationAddress" : {
+      "stateOrProvince" : "STRING",
+      "conversion_rate" : 993.25,
+      "addressLine2" : "STRING",
+      "city" : "STRING",
+      "postalCode_data" : "STRING",
+      "country" : "NULL",
+      "addressLine1" : "STRING"
+    },
+    "secondaryPhone" : {
+      "countryCode_data" : "STRING",
+      "v_number" : "PII_PHONE_NUMBER",
+      "cell" : "STRING"
+    },
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "telephone" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "page_index" : 1874
+    },
+    "cache_hit" : true,
+    "firstName" : "PII_PERSON_NAME",
+    "lastName" : "PII_PERSON_NAME"
+  },
+  "userId" : "STRING"
+}

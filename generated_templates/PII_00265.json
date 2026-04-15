@@ -1,0 +1,84 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "next_data" : "STRING",
+      "href_data" : "STRING",
+      "v_transactions" : [ {
+        "transactionMemo" : "STRING",
+        "feeType_data" : "STRING",
+        "salesRecordReference" : "STRING",
+        "eBayCollectedTaxAmount_data" : {
+          "v_convertedFromCurrency" : "STRING",
+          "system_ping_ms" : 4351,
+          "currency" : "STRING",
+          "v_value" : "STRING",
+          "exchangeRate" : "STRING",
+          "convertedFromValue" : "STRING"
+        },
+        "amount" : {
+          "exchangeRate_data" : "STRING",
+          "currency" : "STRING",
+          "convertedFromValue" : "STRING",
+          "requires_update" : true
+        },
+        "paymentsEntity" : "STRING",
+        "uuid" : "STRING",
+        "totalFeeBasisAmount" : {
+          "convertedFromValue" : "STRING",
+          "v_currency" : "STRING",
+          "system_ping_ms" : 3141,
+          "v_value" : "STRING",
+          "convertedFromCurrency" : "STRING"
+        },
+        "payoutId" : "STRING",
+        "v_buyer" : {
+          "username" : "PII_USERNAME"
+        },
+        "orderLineItems" : [ {
+          "feeBasisAmount" : {
+            "exchangeRate" : "STRING",
+            "temperature_c" : 245.13,
+            "convertedFromValue" : "STRING",
+            "value" : "STRING",
+            "currency" : "STRING",
+            "v_convertedFromCurrency" : "STRING"
+          },
+          "identifier" : "STRING",
+          "v_marketplaceFees" : [ {
+            "amount_data" : {
+              "value" : "STRING",
+              "exchangeRate" : "STRING",
+              "convertedFromCurrency" : "STRING",
+              "item_count" : 4453
+            },
+            "feeMemo" : "STRING",
+            "feeType_data" : "STRING",
+            "system_ping_ms" : 3124,
+            "v_feeJurisdiction" : {
+              "fullName" : "STRING",
+              "regionType" : "STRING",
+              "is_deleted" : true
+            }
+          } ]
+        } ],
+        "v_transactionDate" : "DATETIME",
+        "references" : [ {
+          "referenceId" : "STRING",
+          "referenceType" : "STRING"
+        } ],
+        "v_transactionStatus" : "STRING",
+        "feeJurisdiction" : {
+          "regionName" : "STRING",
+          "regionType" : "STRING",
+          "conversion_rate" : 757.34
+        },
+        "orderId" : "STRING",
+        "bookingEntry" : "STRING"
+      } ],
+      "total" : "INT",
+      "offset" : "INT",
+      "prev" : "STRING",
+      "v_limit" : "INT"
+    }
+  }
+}

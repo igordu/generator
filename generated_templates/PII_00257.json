@@ -1,0 +1,75 @@
+{
+  "offset_data" : "INT",
+  "next_data" : "STRING",
+  "retry_attempts" : 3764,
+  "v_href" : "NULL",
+  "prev_data" : "STRING",
+  "transactions" : [ {
+    "feeJurisdiction" : {
+      "regionName" : "STRING",
+      "regionType" : "STRING"
+    },
+    "eBayCollectedTaxAmount" : {
+      "v_currency" : "STRING",
+      "v_value" : "STRING",
+      "exchangeRate" : "STRING",
+      "item_count" : 1958,
+      "convertedFromCurrency_data" : "STRING",
+      "v_convertedFromValue" : "STRING"
+    },
+    "bookingEntry" : "STRING",
+    "uuid" : "STRING",
+    "amount" : {
+      "currency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "exchangeRate" : "STRING",
+      "value" : "STRING"
+    },
+    "v_totalFeeBasisAmount" : {
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING",
+      "cache_hit" : false,
+      "value" : "STRING",
+      "currency" : "STRING"
+    },
+    "orderLineItems" : [ {
+      "lineItemId" : "STRING",
+      "marketplaceFees" : [ {
+        "v_feeType" : "STRING",
+        "feeMemo" : "NULL",
+        "priority_level" : 1480,
+        "amount" : {
+          "stock_quantity" : 3840,
+          "convertedFromValue_data" : "STRING",
+          "exchangeRate" : "STRING",
+          "convertedFromCurrency" : "STRING"
+        },
+        "feeJurisdiction" : {
+          "regionType" : "STRING",
+          "regionName" : "STRING"
+        }
+      } ]
+    } ],
+    "salesRecordReference" : "STRING",
+    "paymentsEntity" : "STRING",
+    "references" : [ {
+      "item_count" : 460,
+      "referenceId" : "STRING",
+      "referenceType" : "STRING"
+    } ],
+    "transactionType" : "STRING",
+    "orderId" : "STRING",
+    "transactionMemo" : "STRING",
+    "feeType" : "STRING",
+    "buyer" : {
+      "temperature_c" : 211.66,
+      "userName" : "PII_USERNAME"
+    },
+    "transactionStatus_data" : "STRING",
+    "primaryKey" : "STRING",
+    "transactionDate" : "DATETIME"
+  } ],
+  "limit" : "INT",
+  "total" : "INT"
+}

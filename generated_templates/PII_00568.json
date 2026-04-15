@@ -1,0 +1,26 @@
+{
+  "transactions" : {
+    "is_active" : true,
+    "booked_data" : [ {
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "debtorName" : "STRING",
+      "amount" : {
+        "amount" : "DECIMAL",
+        "currency" : "STRING"
+      },
+      "bankTransactionCode" : {
+        "family" : "STRING",
+        "domain_data" : "STRING",
+        "subFamily" : "STRING"
+      },
+      "transactionId" : "STRING",
+      "bookingDate" : "DATE",
+      "creditorName" : "PII_PERSON_NAME",
+      "valueDate_data" : "DATE",
+      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
+    } ]
+  },
+  "item_count" : 4750
+}

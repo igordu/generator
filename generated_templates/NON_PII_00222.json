@@ -1,0 +1,41 @@
+[ {
+  "filter" : "STRING",
+  "facets" : [ {
+    "cpu_usage_percent" : 850.38,
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "count" : "INT",
+    "cache_hit" : false
+  }, {
+    "key" : "STRING",
+    "count" : "INT"
+  } ],
+  "cpu_usage_percent" : 520.83
+}, {
+  "v_facets" : [ {
+    "key" : "STRING",
+    "count" : "INT",
+    "priority_level" : 226,
+    "displayName" : "STRING"
+  }, {
+    "fullName" : "STRING",
+    "count" : ""
+  }, {
+    "key" : "STRING",
+    "count" : "INT"
+  } ],
+  "v_filter" : "STRING"
+}, {
+  "has_discount" : true,
+  "facets" : [ {
+    "conversion_rate" : 500.79,
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count_data" : "INT"
+  } ],
+  "filter" : "STRING"
+} ]

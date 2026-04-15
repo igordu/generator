@@ -1,0 +1,13 @@
+{
+  "price" : 722.41,
+  "v_tree" : {
+    "v_url" : "URL",
+    "v_sha" : "STRING"
+  },
+  "user_info" : {
+    "arline__name" : "PII_COMPANY_NAME",
+    "fullName" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE"
+  },
+  "active" : "BOOLEAN"
+}

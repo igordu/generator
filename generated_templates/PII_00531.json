@@ -1,0 +1,26 @@
+{
+  "transactions_data" : {
+    "discount_rate" : 677.09,
+    "v_booked" : [ {
+      "debtorAccount" : {
+        "iban_data" : "STRING"
+      },
+      "cpu_usage_percent" : 360.42,
+      "creditorName" : "PII_PERSON_NAME",
+      "bookingDate" : "DATE",
+      "uuid" : "STRING",
+      "v_creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "valueDate" : "DATE",
+      "debtorName" : "STRING",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "bankTransactionCode" : {
+        "family" : "STRING",
+        "response_time_sec" : 821.71,
+        "domain_data" : "STRING",
+        "subFamily" : "STRING"
+      }
+    } ]
+  }
+}

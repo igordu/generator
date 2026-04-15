@@ -1,0 +1,88 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "is_active" : false,
+    "limit_data" : "INT",
+    "href" : "STRING",
+    "next" : "STRING",
+    "transactions" : [ {
+      "v_orderLineItems" : [ {
+        "lineItemId" : "STRING",
+        "marketplaceFees" : [ {
+          "feeMemo" : "STRING",
+          "amount" : {
+            "v_value" : "STRING",
+            "exchangeRate" : "STRING",
+            "convertedFromCurrency" : "STRING",
+            "convertedFromValue" : "STRING",
+            "currency_data" : ""
+          },
+          "temperature_c" : 904.41,
+          "feeType" : "STRING",
+          "feeJurisdiction_data" : {
+            "regionType" : "STRING",
+            "regionName" : "",
+            "stock_quantity" : 3090
+          }
+        } ]
+      } ],
+      "transactionType" : "STRING",
+      "transactionMemo" : "STRING",
+      "payoutId" : "STRING",
+      "feeJurisdiction" : {
+        "regionType" : "STRING",
+        "regionName" : "STRING",
+        "conversion_rate" : 742.26
+      },
+      "feeType" : null,
+      "transactionDate" : "DATETIME",
+      "transactionStatus_data" : "",
+      "eBayCollectedTaxAmount" : {
+        "v_convertedFromCurrency" : "STRING",
+        "exchangeRate" : "STRING",
+        "value" : "STRING",
+        "v_convertedFromValue" : "STRING",
+        "currency" : "STRING"
+      },
+      "salesRecordReference_data" : "STRING",
+      "totalFeeAmount" : {
+        "has_discount" : true,
+        "v_convertedFromValue" : "STRING",
+        "exchangeRate" : "STRING",
+        "v_currency" : "STRING",
+        "v_convertedFromCurrency" : "STRING",
+        "value" : "STRING"
+      },
+      "paymentsEntity_data" : "STRING",
+      "buyer" : {
+        "username" : "PII_USERNAME"
+      },
+      "references" : [ {
+        "referenceType" : "STRING",
+        "referenceId" : "STRING",
+        "is_deleted" : false
+      } ],
+      "item_count" : 4565,
+      "uuid" : "NULL",
+      "bookingEntry" : "STRING",
+      "amount_data" : {
+        "v_exchangeRate" : "",
+        "v_convertedFromCurrency" : "STRING",
+        "currency" : "NULL",
+        "convertedFromValue" : "STRING",
+        "value" : "STRING"
+      },
+      "totalFeeBasisAmount_data" : {
+        "v_value" : "STRING",
+        "currency" : "STRING",
+        "convertedFromValue" : "NULL",
+        "v_convertedFromCurrency" : "STRING",
+        "exchangeRate_data" : "STRING"
+      }
+    } ],
+    "v_prev" : "STRING",
+    "offset_data" : "INT",
+    "v_total" : "INT"
+  }
+}

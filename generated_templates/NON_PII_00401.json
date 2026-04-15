@@ -1,0 +1,9 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "userName" : "STRING",
+    "clientToken" : "STRING",
+    "price" : 650.65
+  }
+}

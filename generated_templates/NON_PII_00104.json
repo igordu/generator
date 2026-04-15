@@ -1,0 +1,19 @@
+{
+  "media" : {
+    "retry_attempts" : 4093,
+    "images" : [ {
+      "v_mediumHdUrl" : "URL",
+      "orderNumber" : "INT",
+      "smallUrl" : "",
+      "thumbnailHdUrl" : "URL",
+      "largeUrl" : "URL",
+      "mediumUrl" : "URL",
+      "type" : "STRING",
+      "smallHdUrl" : "URL"
+    } ]
+  },
+  "recordId" : "STRING",
+  "shopUrl_data" : "URL",
+  "name" : "STRING",
+  "cpu_usage_percent" : 820.21
+}

@@ -1,0 +1,16 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "bank_name" : "STRING",
+    "metadata_data" : "OBJECT",
+    "account_holder_type" : "STRING",
+    "last4" : "STRING",
+    "v_routing_number" : "STRING",
+    "account_type" : "STRING",
+    "v_customer" : "STRING",
+    "account_holder_name" : "PII_PERSON_NAME",
+    "country" : "STRING",
+    "status" : "STRING"
+  }
+}

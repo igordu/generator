@@ -1,0 +1,43 @@
+[ {
+  "response_time_sec" : 463.26,
+  "v_filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT",
+    "has_discount" : false
+  }, {
+    "count_data" : "INT",
+    "key" : null,
+    "displayName" : "STRING"
+  } ]
+}, {
+  "facets" : [ {
+    "cpu_usage_percent" : 246.71,
+    "count_data" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT"
+  }, {
+    "key" : "STRING",
+    "fullName" : "STRING",
+    "count" : "INT"
+  } ],
+  "filter" : "STRING"
+}, {
+  "v_facets" : [ {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "v_key" : "STRING",
+    "count_data" : "INT"
+  } ],
+  "filter" : "STRING"
+} ]

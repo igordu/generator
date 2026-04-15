@@ -1,0 +1,26 @@
+{
+  "url" : "URL",
+  "data" : [ {
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "balance" : "INT",
+    "created_data" : "DATETIME_EPOCH",
+    "clientName" : "PII_PERSON_NAME",
+    "id" : "NULL",
+    "v_preferred_locales" : "ARRAY",
+    "next_invoice_sequence" : "INT",
+    "tax_exempt_data" : "NULL",
+    "v_currency" : "STRING",
+    "test_clock" : "NULL",
+    "mail" : "PII_EMAIL",
+    "temperature_c" : 155.29,
+    "default_source" : "STRING",
+    "address" : "NULL",
+    "v_object" : "STRING",
+    "shipping_data" : "NULL",
+    "livemode" : "BOOLEAN",
+    "invoice_prefix" : "STRING",
+    "description" : "STRING"
+  } ],
+  "item_count" : 1236,
+  "object" : "STRING"
+}

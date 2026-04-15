@@ -1,0 +1,28 @@
+{
+  "registrants" : [ {
+    "email" : "PII_EMAIL",
+    "create_time" : "DATETIME",
+    "no_of_employees" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "city" : "PII_LOCATION_CITY",
+    "industry" : "STRING",
+    "state" : "PII_LOCATION_STATE",
+    "purchasing_time_frame" : "STRING",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "zip" : "STRING",
+    "comments" : "STRING",
+    "role_in_purchase_process_data" : "STRING",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "id" : "STRING",
+    "job_title" : "STRING",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "status" : "STRING",
+    "join_url" : "URL",
+    "org_data" : "PII_ORGANIZATION_NAME"
+  } ],
+  "v_page_count" : "",
+  "page_size" : "INT",
+  "page_number" : "INT",
+  "total_records_data" : "INT"
+}

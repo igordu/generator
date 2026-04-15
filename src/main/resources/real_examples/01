@@ -1,0 +1,23 @@
+{
+  "content": [
+    {
+      "articleId": "EW012B00C-C11",
+      "articleModelId": "EW012B00C",
+      "articleSizeRatings": {
+        "OVERALL": 3,
+        "SHOE_WIDTH": 3
+      },
+      "created": "2015-07-23T17:52:14+02:00",
+      "customerCity": "Brixton",
+      "customerCountry": "GB",
+      "description": "Very nice trainers, with an extremely prompt arrival... ",
+      "helpfulCount": 0,
+      "language": "en",
+      "rating": 5,
+      "recommend": false,
+      "reviewId": "4405383-EW012B00C-C11",
+      "title": "Dream turned to reality in the blink of an eye!",
+      "unhelpfulCount": 0
+    }
+  ]
+}

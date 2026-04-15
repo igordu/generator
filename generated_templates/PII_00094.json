@@ -1,0 +1,17 @@
+{
+  "content" : [ {
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "description_data" : "STRING",
+    "customerCity_data" : "PII_LOCATION_CITY",
+    "title" : "PII_COMPANY_NAME",
+    "articleId" : "STRING",
+    "v_rating" : "INT",
+    "reviewId" : "STRING",
+    "created" : "DATETIME",
+    "v_helpfulCount" : "INT",
+    "articleModelId" : "STRING",
+    "language" : "STRING",
+    "recommend" : "BOOLEAN"
+  } ],
+  "cache_hit" : false
+}

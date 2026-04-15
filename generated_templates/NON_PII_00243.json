@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : [ {
+    "http_status" : 3911,
+    "filter" : "STRING"
+  }, {
+    "price" : 131.99,
+    "facets" : [ {
+      "auto_renew" : false,
+      "count" : "INT",
+      "key_data" : "STRING",
+      "displayName" : ""
+    }, {
+      "fullName" : "STRING",
+      "key" : "STRING",
+      "v_count" : "INT"
+    }, {
+      "count" : "INT",
+      "key" : "STRING",
+      "displayName" : "STRING"
+    } ],
+    "filter" : "STRING"
+  }, {
+    "filter" : "STRING",
+    "v_facets" : [ {
+      "cpu_usage_percent" : 98.72,
+      "count" : "INT",
+      "displayName" : "STRING",
+      "key" : "STRING"
+    }, {
+      "key" : "STRING",
+      "displayName" : "STRING"
+    } ],
+    "discount_rate" : 190.5
+  } ]
+}

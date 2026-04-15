@@ -1,0 +1,11 @@
+{
+  "telemetry_data" : {
+    "event_data" : {
+      "raw_data" : {
+        "emailAddressStatus" : [ "STRING" ],
+        "system_ping_ms" : 876,
+        "emailAddress" : "PII_EMAIL"
+      }
+    }
+  }
+}

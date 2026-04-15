@@ -1,0 +1,14 @@
+{
+  "user_info_data" : {
+    "auto_renew" : false,
+    "clientName" : "PII_FIRST_NAME_FEMALE",
+    "arline__name" : "PII_COMPANY_NAME"
+  },
+  "price" : 184.65,
+  "tree" : {
+    "sha" : "STRING",
+    "url" : "URL",
+    "cpu_usage_percent" : 233.87
+  },
+  "active" : "BOOLEAN"
+}

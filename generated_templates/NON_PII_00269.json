@@ -1,0 +1,28 @@
+[ {
+  "cpu_usage_percent" : 163.21,
+  "filter" : "STRING",
+  "facets" : [ {
+    "count_data" : "INT",
+    "key" : "STRING",
+    "name_val" : ""
+  }, {
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "key" : "STRING",
+    "v_count" : "INT",
+    "displayName" : "STRING"
+  } ]
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT",
+    "system_ping_ms" : 804
+  }, {
+    "key" : "",
+    "displayName" : "STRING",
+    "count_data" : "INT"
+  } ]
+} ]

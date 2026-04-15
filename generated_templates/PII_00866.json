@@ -1,0 +1,67 @@
+{
+  "tsp_data" : {
+    "call_out_countries" : "ARRAY",
+    "call_out" : "BOOLEAN",
+    "show_international_numbers_link" : "BOOLEAN"
+  },
+  "schedule_meeting" : {
+    "pmi_password" : "PII_PASSWORD",
+    "join_before_host" : "NULL",
+    "recordId" : "BOOLEAN",
+    "meeting_password_requirement" : {
+      "length" : "INT",
+      "have_number" : "BOOLEAN",
+      "have_letter" : "BOOLEAN",
+      "have_special_character" : "BOOLEAN"
+    },
+    "priority_level" : 252,
+    "use_pmi_for_instant_meetings_data" : null,
+    "require_password_for_scheduling_new_meetings" : "BOOLEAN",
+    "identifier" : "",
+    "require_password_for_pmi_meetings" : "STRING",
+    "use_pmi_for_scheduled_meetings" : "BOOLEAN",
+    "not_store_meeting_topic_data" : "BOOLEAN",
+    "force_pmi_jbh_password_data" : "BOOLEAN",
+    "audio_type" : "STRING"
+  },
+  "recording_data" : {
+    "v_recording_audio_transcript" : "BOOLEAN",
+    "record_speaker_view" : "BOOLEAN",
+    "local_recording" : "BOOLEAN",
+    "v_record_gallery_view" : "BOOLEAN",
+    "v_save_chat_text" : "BOOLEAN",
+    "v_show_timestamp" : "BOOLEAN",
+    "record_audio_file" : "BOOLEAN",
+    "auto_delete_cmr" : "BOOLEAN",
+    "cloud_recording" : "BOOLEAN",
+    "auto_recording_data" : "STRING"
+  },
+  "in_meeting" : {
+    "far_end_camera_control_data" : "BOOLEAN",
+    "show_meeting_control_toolbar" : "BOOLEAN",
+    "allow_live_streaming" : "BOOLEAN",
+    "v_co_host" : "BOOLEAN",
+    "closed_caption" : "BOOLEAN",
+    "private_chat_data" : "BOOLEAN",
+    "entry_exit_chime" : "STRING",
+    "custom_data_center_regions" : null,
+    "non_verbal_feedback" : "BOOLEAN",
+    "virtual_background" : "BOOLEAN",
+    "feedback" : "BOOLEAN",
+    "attendee_on_hold" : "BOOLEAN",
+    "waiting_room" : "BOOLEAN",
+    "v_breakout_room" : "BOOLEAN",
+    "record_play_voice" : "BOOLEAN",
+    "e2e_encryption" : "BOOLEAN",
+    "v_chat" : "BOOLEAN",
+    "group_hd" : "BOOLEAN",
+    "v_annotation" : "BOOLEAN",
+    "data_center_regions" : "ARRAY"
+  },
+  "telephony_data" : {
+    "audio_conference_info" : "STRING",
+    "third_party_audio" : "BOOLEAN",
+    "v_show_international_numbers_link" : "BOOLEAN",
+    "temperature_c" : 154.95
+  }
+}

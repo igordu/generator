@@ -1,0 +1,47 @@
+{
+  "recording" : {
+    "show_timestamp" : "BOOLEAN",
+    "v_recording_password_requirement" : {
+      "have_special_character" : "BOOLEAN",
+      "have_letter" : "BOOLEAN",
+      "length" : "INT",
+      "have_number" : "BOOLEAN",
+      "price" : 193.54,
+      "only_allow_numeric" : "BOOLEAN"
+    },
+    "record_audio_file" : "BOOLEAN",
+    "local_recording_data" : "BOOLEAN",
+    "recording_audio_transcript" : null,
+    "record_speaker_view" : "BOOLEAN",
+    "v_save_chat_text" : "BOOLEAN",
+    "record_gallery_view" : "BOOLEAN",
+    "v_auto_delete_cmr" : "BOOLEAN"
+  },
+  "v_schedule_meeting" : {
+    "use_pmi_for_instant_meetings" : "BOOLEAN",
+    "not_store_meeting_topic" : "BOOLEAN",
+    "use_pmi_for_scheduled_meetings" : "BOOLEAN",
+    "force_pmi_jbh_password" : "BOOLEAN",
+    "require_password_for_scheduling_new_meetings" : "BOOLEAN",
+    "embed_password_in_join_link" : "BOOLEAN",
+    "pstn_password_protected" : "BOOLEAN",
+    "join_before_host" : "BOOLEAN",
+    "audio_type_data" : "STRING",
+    "identifier" : "BOOLEAN",
+    "pmi_password" : "PII_PASSWORD",
+    "require_password_for_pmi_meetings" : "STRING"
+  },
+  "telephony" : {
+    "third_party_audio" : "BOOLEAN",
+    "show_international_numbers_link" : "BOOLEAN",
+    "v_audio_conference_info" : "STRING",
+    "auto_renew" : true
+  },
+  "tsp" : {
+    "call_out" : "BOOLEAN",
+    "call_out_countries" : "ARRAY",
+    "is_deleted" : false,
+    "show_international_numbers_link" : "BOOLEAN"
+  },
+  "has_discount" : false
+}

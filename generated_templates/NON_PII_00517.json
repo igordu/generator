@@ -1,0 +1,32 @@
+[ {
+  "fullName" : "STRING",
+  "is_active" : true,
+  "style_data" : "STRING",
+  "self" : "URL",
+  "key_data" : "STRING",
+  "primaryKey" : "STRING"
+}, {
+  "style" : "STRING",
+  "simplified_data" : "BOOLEAN",
+  "projectCategory" : {
+    "self" : "URL",
+    "id" : "STRING",
+    "name" : "STRING"
+  },
+  "self_data" : "URL",
+  "key" : "STRING",
+  "avatarUrls" : {
+    "32x32" : "URL",
+    "price" : 263.02,
+    "24x24" : "URL",
+    "16x16" : "URL",
+    "48x48" : "URL"
+  },
+  "id" : "STRING",
+  "name" : "STRING",
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "auto_renew" : true,
+    "lastIssueUpdateTime" : "DATETIME"
+  }
+} ]

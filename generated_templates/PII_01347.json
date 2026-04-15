@@ -1,0 +1,13 @@
+{
+  "is_active" : false,
+  "user_info_data" : {
+    "temperature_c" : 851.63,
+    "clientName" : "PII_FIRST_NAME_FEMALE",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "name_val" : "PII_COMPANY_NAME"
+  },
+  "tree" : {
+    "has_discount" : true,
+    "url" : "URL"
+  }
+}

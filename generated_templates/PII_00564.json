@@ -1,0 +1,32 @@
+{
+  "transactions_data" : {
+    "v_booked" : [ {
+      "valueDate" : "NULL",
+      "userName" : "STRING",
+      "creditorName" : "PII_PERSON_NAME",
+      "bookingDate_data" : "DATE",
+      "amount_data" : {
+        "currency" : null,
+        "amount" : "DECIMAL"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "transactionId" : "STRING",
+      "v_bankTransactionCode" : {
+        "subFamily_data" : "STRING",
+        "http_status" : 3836,
+        "family_data" : "STRING",
+        "domain_data" : "STRING"
+      },
+      "cpu_usage_percent" : 560.1,
+      "debtorAccount" : {
+        "auto_renew" : false,
+        "iban" : "STRING"
+      },
+      "v_creditorAccount" : {
+        "iban" : "PII_IBAN",
+        "price" : 202.93
+      }
+    } ]
+  },
+  "discount_rate" : 668.2
+}

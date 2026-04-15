@@ -1,0 +1,14 @@
+{
+  "user_info" : {
+    "arline__name" : "PII_COMPANY_NAME",
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  },
+  "tree" : {
+    "sha" : "STRING",
+    "url" : "URL",
+    "cache_hit" : true
+  },
+  "active_data" : "BOOLEAN",
+  "has_discount" : true
+}

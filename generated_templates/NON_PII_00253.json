@@ -1,0 +1,43 @@
+[ {
+  "v_facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "v_key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : null
+  } ],
+  "v_filter" : "STRING"
+}, {
+  "page_index" : 3218,
+  "facets" : [ {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key_data" : "STRING",
+    "response_time_sec" : 434.99
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  } ]
+}, {
+  "facets_data" : [ {
+    "retry_attempts" : 2234,
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key_data" : "STRING"
+  } ],
+  "v_filter" : "STRING",
+  "price" : 895.0
+} ]

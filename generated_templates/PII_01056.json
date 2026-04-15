@@ -1,0 +1,26 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "server_logs" : {
+      "event_data" : {
+        "extracted_info" : {
+          "country" : "STRING",
+          "v_fingerprint" : "STRING",
+          "v_status" : "STRING",
+          "v_customer" : "STRING",
+          "id" : "STRING",
+          "object" : "STRING",
+          "last4" : "STRING",
+          "account_type" : "STRING",
+          "userName" : "STRING",
+          "account_holder_type" : null,
+          "auto_renew" : false,
+          "account_holder_name" : "PII_PERSON_NAME",
+          "routing_number" : "STRING",
+          "currency" : "STRING"
+        }
+      }
+    }
+  }
+}

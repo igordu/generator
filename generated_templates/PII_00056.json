@@ -1,0 +1,25 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "content" : [ {
+      "articleSizeRatings" : {
+        "uuid" : "INT",
+        "OVERALL" : "INT"
+      },
+      "requires_update" : false,
+      "unhelpfulCount_data" : "INT",
+      "customerCountry" : "PII_LOCATION_COUNTRY",
+      "v_title" : "PII_COMPANY_NAME",
+      "helpfulCount_data" : null,
+      "primaryKey" : "STRING",
+      "recordId" : "STRING",
+      "language" : "",
+      "customerCity" : "PII_LOCATION_CITY",
+      "created_data" : "DATETIME",
+      "description_data" : "STRING",
+      "articleModelId" : "STRING",
+      "recommend" : "BOOLEAN"
+    } ]
+  }
+}

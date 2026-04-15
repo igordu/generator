@@ -1,0 +1,92 @@
+{
+  "feature" : {
+    "telephone" : "BOOLEAN",
+    "large_meeting" : "BOOLEAN",
+    "meeting_capacity_data" : "INT",
+    "webinar_data" : "BOOLEAN",
+    "cn_meeting" : "BOOLEAN"
+  },
+  "telephony" : {
+    "audio_conference_info" : "STRING",
+    "v_show_international_numbers_link" : "BOOLEAN",
+    "third_party_audio" : "BOOLEAN"
+  },
+  "schedule_meeting" : {
+    "pmi_password_data" : "PII_PASSWORD",
+    "v_use_pmi_for_instant_meetings" : null,
+    "v_not_store_meeting_topic" : "BOOLEAN",
+    "force_pmi_jbh_password" : "BOOLEAN",
+    "host_video" : "BOOLEAN",
+    "require_password_for_scheduling_new_meetings" : "BOOLEAN",
+    "pstn_password_protected" : "BOOLEAN",
+    "require_password_for_pmi_meetings" : "STRING",
+    "audio_type" : "STRING",
+    "participants_video" : "BOOLEAN",
+    "meeting_password_requirement" : {
+      "have_special_character" : "BOOLEAN",
+      "length" : "INT",
+      "have_letter" : "BOOLEAN",
+      "system_ping_ms" : 1629,
+      "only_allow_numeric" : "BOOLEAN"
+    },
+    "embed_password_in_join_link" : "BOOLEAN",
+    "requires_update" : true
+  },
+  "in_meeting" : {
+    "custom_data_center_regions" : "BOOLEAN",
+    "e2e_encryption" : "BOOLEAN",
+    "non_verbal_feedback" : "BOOLEAN",
+    "auto_saving_chat" : "BOOLEAN",
+    "attendee_on_hold" : "BOOLEAN",
+    "breakout_room" : "BOOLEAN",
+    "chat" : "BOOLEAN",
+    "entry_exit_chime" : "STRING",
+    "v_remote_control" : "BOOLEAN",
+    "virtual_background" : "BOOLEAN",
+    "annotation_data" : "BOOLEAN",
+    "feedback_data" : "BOOLEAN",
+    "far_end_camera_control" : "BOOLEAN",
+    "polling_data" : "BOOLEAN",
+    "remote_support" : "BOOLEAN",
+    "allow_live_streaming_data" : "BOOLEAN",
+    "closed_caption" : "BOOLEAN",
+    "waiting_room" : "BOOLEAN",
+    "show_meeting_control_toolbar" : "BOOLEAN",
+    "co_host" : "BOOLEAN",
+    "group_hd" : "BOOLEAN",
+    "private_chat" : "BOOLEAN",
+    "data_center_regions" : "ARRAY"
+  },
+  "recording_data" : {
+    "v_show_timestamp" : "NULL",
+    "record_audio_file" : "BOOLEAN",
+    "v_recording_audio_transcript" : "BOOLEAN",
+    "v_local_recording" : "BOOLEAN",
+    "v_save_chat_text" : "BOOLEAN",
+    "auto_delete_cmr_data" : "BOOLEAN",
+    "cloud_recording" : "BOOLEAN",
+    "auto_recording" : "STRING",
+    "temperature_c" : 862.04,
+    "record_speaker_view" : "BOOLEAN",
+    "recording_password_requirement" : {
+      "conversion_rate" : 867.63,
+      "length" : "INT",
+      "have_special_character" : "BOOLEAN",
+      "have_letter" : "",
+      "have_number_data" : "BOOLEAN",
+      "only_allow_numeric" : "BOOLEAN"
+    }
+  },
+  "email_notification" : {
+    "jbh_reminder" : "",
+    "system_ping_ms" : 4136,
+    "v_alternative_host_reminder" : "BOOLEAN",
+    "schedule_for_reminder" : "BOOLEAN",
+    "cancel_meeting_reminder" : "BOOLEAN"
+  },
+  "tsp" : {
+    "call_out_countries_data" : "ARRAY",
+    "call_out" : "BOOLEAN",
+    "show_international_numbers_link_data" : "BOOLEAN"
+  }
+}

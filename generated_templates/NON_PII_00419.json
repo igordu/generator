@@ -1,0 +1,10 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "clientToken" : "STRING",
+    "system_ping_ms" : 3034
+  }
+}

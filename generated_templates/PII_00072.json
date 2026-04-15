@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "articleId" : "STRING",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_articleSizeRatings" : {
+      "SHOE_WIDTH" : "INT",
+      "OVERALL" : "INT",
+      "cpu_usage_percent" : 696.87
+    },
+    "description_data" : "STRING",
+    "language" : "STRING",
+    "rating_data" : "INT",
+    "recommend" : "BOOLEAN",
+    "v_created" : "DATETIME",
+    "reviewId" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "helpfulCount" : "INT",
+    "title" : "PII_COMPANY_NAME",
+    "unhelpfulCount" : "INT"
+  } ],
+  "item_count" : 2770
+}

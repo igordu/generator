@@ -1,0 +1,24 @@
+{
+  "cache_hit" : false,
+  "transactions" : {
+    "booked_data" : [ {
+      "userName" : "PII_PERSON_NAME",
+      "recordId" : "STRING",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "valueDate" : "DATE",
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "v_creditorAccount" : {
+        "iban_data" : "PII_IBAN",
+        "requires_update" : true
+      },
+      "debtorName" : "STRING",
+      "amount" : {
+        "currency" : "STRING"
+      },
+      "bookingDate" : "DATE"
+    } ],
+    "cache_hit" : false
+  }
+}

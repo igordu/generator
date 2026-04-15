@@ -1,0 +1,40 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "DateTimeUTC" : "DATETIME",
+    "primaryKey" : "STRING",
+    "priority_level" : 1399,
+    "ProviderName" : "STRING",
+    "Employees_data" : [ {
+      "EmployeeID" : "STRING",
+      "cache_hit" : true,
+      "UpdatedDateUTC" : "DATETIME",
+      "FirstName" : "PII_PERSON_FIRST_NAME",
+      "ExternalLink" : {
+        "Description_data" : "STRING",
+        "system_ping_ms" : 2342,
+        "Url" : "URL"
+      },
+      "LastName" : "PII_PERSON_LAST_NAME"
+    }, {
+      "is_deleted" : false,
+      "ExternalLink" : {
+        "Url" : "URL"
+      },
+      "v_Status" : "STRING",
+      "fullName" : "PII_PERSON_FIRST_NAME",
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "recordId" : "STRING"
+    }, {
+      "clientName" : "PII_PERSON_FIRST_NAME",
+      "UpdatedDateUTC" : "DATETIME",
+      "Status" : "STRING",
+      "EmployeeID" : "STRING",
+      "LastName" : "PII_PERSON_LAST_NAME"
+    } ],
+    "Status" : "STRING"
+  }
+}

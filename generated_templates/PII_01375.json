@@ -1,0 +1,13 @@
+{
+  "tree" : {
+    "response_time_sec" : 865.82,
+    "url" : "URL",
+    "sha" : "STRING"
+  },
+  "active" : "BOOLEAN",
+  "user_info" : {
+    "family-name-male" : "PII_LAST_NAME_MALE",
+    "arline__name" : "PII_COMPANY_NAME",
+    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  }
+}

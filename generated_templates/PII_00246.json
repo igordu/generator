@@ -1,0 +1,75 @@
+{
+  "offset" : "INT",
+  "prev_data" : "STRING",
+  "transactions" : [ {
+    "v_references" : [ {
+      "referenceId" : "STRING",
+      "referenceType" : "STRING"
+    } ],
+    "feeType" : null,
+    "bookingEntry" : "STRING",
+    "payoutId" : "STRING",
+    "orderLineItems" : [ {
+      "v_marketplaceFees" : [ {
+        "feeMemo" : "STRING",
+        "feeType_data" : "STRING",
+        "amount" : {
+          "value" : "STRING",
+          "exchangeRate" : "STRING",
+          "is_active" : false,
+          "currency" : "STRING",
+          "v_convertedFromValue" : "STRING",
+          "convertedFromCurrency_data" : "STRING"
+        },
+        "feeJurisdiction" : {
+          "regionType" : "STRING",
+          "userName" : "STRING",
+          "discount_rate" : 813.44
+        },
+        "auto_renew" : false
+      } ],
+      "v_feeBasisAmount" : {
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "auto_renew" : false,
+        "convertedFromValue" : "STRING",
+        "currency" : "STRING"
+      }
+    } ],
+    "v_transactionStatus" : "STRING",
+    "amount_data" : {
+      "convertedFromCurrency_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "v_currency" : "STRING",
+      "value" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "v_transactionType" : "STRING",
+    "paymentsEntity" : "STRING",
+    "salesRecordReference" : "STRING",
+    "transactionId" : "STRING",
+    "transactionDate" : "DATETIME",
+    "orderId" : "STRING",
+    "eBayCollectedTaxAmount_data" : {
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "v_exchangeRate" : "STRING",
+      "http_status" : 158,
+      "convertedFromValue" : "STRING"
+    },
+    "buyer" : {
+      "username" : "PII_USERNAME",
+      "conversion_rate" : 281.44
+    },
+    "v_feeJurisdiction" : {
+      "regionName" : null,
+      "has_discount" : false,
+      "regionType" : "STRING"
+    },
+    "transactionMemo" : "STRING"
+  } ],
+  "limit" : "INT",
+  "total_data" : "INT",
+  "next" : "STRING"
+}

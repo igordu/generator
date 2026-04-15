@@ -1,0 +1,32 @@
+{
+  "cpu_usage_percent" : 114.25,
+  "transactions" : {
+    "http_status" : 2803,
+    "v_booked" : [ {
+      "item_count" : 971,
+      "identifier" : "STRING",
+      "creditorAccount_data" : {
+        "price" : 687.85,
+        "iban" : "PII_IBAN"
+      },
+      "valueDate" : "DATE",
+      "debtorAccount" : {
+        "iban" : "STRING",
+        "conversion_rate" : 780.02
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "subFamily" : "STRING",
+        "family" : "STRING"
+      },
+      "debtorName" : "STRING",
+      "amount" : {
+        "amount" : "",
+        "currency" : "STRING"
+      },
+      "bookingDate" : "DATE",
+      "fullName" : "PII_PERSON_NAME"
+    } ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "tree" : {
+      "discount_rate" : 242.44,
+      "url" : "URL",
+      "sha_data" : "STRING"
+    },
+    "active" : "BOOLEAN",
+    "user_info_data" : {
+      "family-name-male" : "PII_LAST_NAME_MALE",
+      "system_ping_ms" : 1005,
+      "arline__name" : "PII_COMPANY_NAME",
+      "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+    },
+    "price" : 436.18
+  }
+}

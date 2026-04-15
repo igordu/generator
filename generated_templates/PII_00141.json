@@ -1,0 +1,54 @@
+{
+  "businessAccount_data" : {
+    "name" : "PII_ORGANIZATION_NAME",
+    "v_website" : "URL",
+    "secondaryPhone" : {
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "v_countryCode" : "STRING"
+    },
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME"
+    },
+    "primaryPhone" : {
+      "phoneType" : "STRING",
+      "v_countryCode" : "STRING",
+      "is_active" : false,
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "contactEmail" : "PII_EMAIL",
+    "doingBusinessAs" : "STRING",
+    "auto_renew" : false
+  },
+  "primaryKey" : "STRING",
+  "userId" : "STRING",
+  "status_data" : "STRING",
+  "accountType" : "STRING",
+  "individualAccount" : {
+    "email" : "PII_EMAIL",
+    "registrationAddress" : {
+      "county" : "STRING",
+      "addressLine1" : "STRING",
+      "postalCode" : "STRING",
+      "v_stateOrProvince" : "NULL",
+      "http_status" : 3860,
+      "city" : "STRING",
+      "country" : "STRING",
+      "addressLine2" : "STRING"
+    },
+    "firstName" : "PII_PERSON_NAME",
+    "secondaryPhone" : {
+      "countryCode_data" : "STRING",
+      "temperature_c" : 367.11,
+      "phoneType" : "STRING",
+      "v_number" : "PII_PHONE_NUMBER"
+    },
+    "lastName" : "PII_PERSON_NAME",
+    "telephone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "mobile" : "STRING"
+    }
+  },
+  "username" : "PII_USERNAME"
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "STRING",
+  "modelId" : "STRING",
+  "media_data" : {
+    "images_data" : [ {
+      "v_smallHdUrl" : "URL",
+      "v_largeHdUrl" : "URL",
+      "type" : "STRING",
+      "is_deleted" : false,
+      "mediumHdUrl_data" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "orderNumber" : "INT",
+      "mediumUrl" : "URL",
+      "largeUrl_data" : "URL"
+    } ]
+  },
+  "id" : "STRING",
+  "shopUrl" : "URL",
+  "temperature_c" : 129.75
+}

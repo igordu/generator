@@ -1,0 +1,35 @@
+{
+  "object_data" : "STRING",
+  "data" : [ {
+    "shipping" : "NULL",
+    "created" : "DATETIME_EPOCH",
+    "preferred_locales" : "ARRAY",
+    "phone" : "PII_PHONE_NUMBER",
+    "is_active" : false,
+    "currency_data" : "STRING",
+    "v_next_invoice_sequence" : "INT",
+    "metadata" : "OBJECT",
+    "invoice_prefix_data" : "STRING",
+    "balance" : "INT",
+    "object" : "STRING",
+    "description" : "STRING",
+    "test_clock" : "NULL",
+    "id" : "STRING",
+    "v_delinquent" : "BOOLEAN",
+    "name" : "PII_PERSON_NAME",
+    "tax_exempt" : "STRING",
+    "default_source" : "STRING",
+    "address" : "NULL",
+    "v_livemode" : "BOOLEAN",
+    "invoice_settings_data" : {
+      "rendering_options_data" : "NULL",
+      "footer" : "STRING",
+      "custom_fields_data" : "NULL",
+      "default_payment_method" : "STRING"
+    },
+    "email" : "PII_EMAIL"
+  } ],
+  "cpu_usage_percent" : 145.96,
+  "url" : "URL",
+  "has_more" : "BOOLEAN"
+}

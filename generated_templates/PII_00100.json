@@ -1,0 +1,22 @@
+{
+  "content" : [ {
+    "v_helpfulCount" : "INT",
+    "rating" : "NULL",
+    "reviewId" : "STRING",
+    "articleSizeRatings" : {
+      "identifier" : "INT",
+      "is_deleted" : true,
+      "OVERALL" : "INT"
+    },
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "articleId" : "STRING",
+    "created" : "DATETIME",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "language" : "STRING",
+    "articleModelId" : "STRING",
+    "recommend_data" : "BOOLEAN",
+    "v_description" : "STRING",
+    "title" : "PII_COMPANY_NAME",
+    "unhelpfulCount" : ""
+  } ]
+}
