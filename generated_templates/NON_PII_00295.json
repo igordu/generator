@@ -1,31 +1,22 @@
-[ {
-  "cpu_usage_percent" : 453.94,
-  "v_facets" : [ {
-    "response_time_sec" : 39.35,
-    "key" : "STRING",
-    "name_val" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key_data" : "STRING"
-  } ],
-  "filter" : "STRING"
-}, {
-  "v_filter" : "STRING",
-  "item_count" : 4225
-}, {
-  "filter" : "STRING",
-  "facets_data" : [ {
-    "is_active" : true,
-    "displayName" : "STRING",
-    "count" : "INT",
-    "v_key" : "STRING"
-  }, {
-    "key_data" : "STRING",
-    "userName" : "STRING"
-  }, {
-    "clientName" : "",
-    "count" : "INT",
-    "key" : "STRING"
-  } ]
-} ]
+{
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "body" : {
+        "type" : "STRING",
+        "model" : "STRING",
+        "id" : "STRING",
+        "content" : [ {
+          "text_data" : "STRING",
+          "cpu_usage_percent" : 95.71,
+          "type" : "STRING"
+        } ],
+        "role" : "STRING",
+        "usage" : {
+          "is_deleted" : true,
+          "v_input_tokens" : "INT",
+          "output_tokens" : "INT"
+        }
+      }
+    }
+  }
+}

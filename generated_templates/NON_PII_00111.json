@@ -1,24 +1,48 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "shopUrl_data" : "URL",
-      "system_ping_ms" : 4703,
-      "media" : {
-        "images" : [ {
-          "v_smallHdUrl" : "NULL",
-          "smallUrl" : "URL",
-          "mediumHdUrl" : "NULL",
-          "type" : "STRING",
-          "thumbnailHdUrl" : "URL",
-          "largeUrl" : "URL",
-          "mediumUrl" : "URL",
-          "orderNumber" : "INT",
-          "largeHdUrl" : "NULL"
-        } ],
-        "stock_quantity" : 3862
-      },
+  "status" : "success",
+  "code" : 200,
+  "data" : [ {
+    "self" : "URL",
+    "id" : "STRING",
+    "v_projectCategory" : {
+      "price" : 3171.39,
+      "self_data" : "URL",
       "id" : "STRING",
-      "name" : "STRING"
+      "name" : "STRING",
+      "description" : "STRING"
+    },
+    "style" : "STRING",
+    "simplified" : "NULL",
+    "insight" : {
+      "price" : 5978.27,
+      "totalIssueCount" : "NULL"
+    },
+    "key" : "STRING",
+    "priority_level" : 3286,
+    "avatarUrls_data" : {
+      "priority_level" : 3323,
+      "48x48" : "URL",
+      "32x32" : "URL",
+      "24x24_data" : "URL",
+      "16x16" : "URL"
     }
-  }
+  }, {
+    "cache_hit" : true,
+    "id" : "STRING",
+    "avatarUrls" : {
+      "cpu_usage_percent" : 65.89,
+      "16x16" : "URL",
+      "24x24" : "URL",
+      "48x48" : "NULL"
+    },
+    "style" : "STRING",
+    "self" : "URL",
+    "key_data" : "STRING",
+    "v_simplified" : "BOOLEAN",
+    "insight" : {
+      "lastIssueUpdateTime" : "DATETIME",
+      "totalIssueCount" : "INT"
+    },
+    "name" : "STRING"
+  } ]
 }

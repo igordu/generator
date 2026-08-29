@@ -1,0 +1,9 @@
+{
+  "startedAt_data" : "DATETIME",
+  "repository" : "STRING",
+  "triggeredBy" : "PII_EMAIL",
+  "commit" : "STRING",
+  "branch" : "STRING",
+  "pipelineId" : "STRING",
+  "finishedAt_data" : "DATETIME"
+}

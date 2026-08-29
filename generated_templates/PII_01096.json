@@ -1,41 +1,50 @@
 {
-  "plan" : {
-    "discount_rate" : 881.63,
-    "private_repos_data" : "INT",
-    "space" : "INT",
-    "collaborators" : "INT",
-    "name" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "total_private_repos_data" : "INT",
-  "v_collaborators" : "INT",
-  "following_data" : "INT",
-  "created_at_data" : "DATETIME",
-  "following_url" : "URL",
-  "bio_data" : "PII_ORGANIZATION_NAME",
-  "starred_url" : "URL",
-  "organizations_url" : "URL",
-  "followers_url_data" : "URL",
-  "disk_usage" : "INT",
-  "name" : "PII_PERSON_NAME",
-  "repos_url" : "URL",
-  "gravatar_id" : "STRING",
-  "login" : "STRING",
-  "twitter_username" : "STRING",
-  "owned_private_repos_data" : "INT",
-  "company" : "PII_ORGANIZATION_NAME",
-  "hireable" : "BOOLEAN",
-  "node_id" : "STRING",
-  "updated_at" : "DATETIME",
-  "email" : "PII_EMAIL",
-  "gists_url" : "URL",
-  "location" : "PII_LOCATION_CITY",
-  "site_admin_data" : "BOOLEAN",
-  "public_gists" : "INT",
-  "v_html_url" : "URL",
-  "v_subscriptions_url" : "URL",
-  "v_two_factor_authentication" : "NULL",
-  "primaryKey" : "INT",
-  "url" : "URL",
-  "followers" : "INT",
-  "avatar_url" : "URL"
+  "results" : {
+    "v_trackingNumber" : "STRING",
+    "events" : [ {
+      "status" : "STRING",
+      "location" : "PII_LOCATION_CITY",
+      "temperature_c" : -10.1,
+      "timestamp" : "DATETIME"
+    } ],
+    "estimatedDelivery" : "DATE",
+    "recipient" : {
+      "address" : {
+        "city_data" : "PII_LOCATION_CITY",
+        "postalCode" : "STRING",
+        "conversion_rate" : 6.33,
+        "v_country" : "PII_LOCATION_COUNTRY",
+        "street" : "PII_ADDRESS_LINE"
+      },
+      "name" : "PII_PERSON_NAME",
+      "requires_update" : true,
+      "deliveryInstructions_data" : "STRING",
+      "emailAddress" : "PII_EMAIL",
+      "phone" : "PII_PHONE_NUMBER"
+    },
+    "carrier" : "STRING",
+    "v_sender" : {
+      "mail" : "PII_EMAIL",
+      "temperature_c" : 13.78,
+      "v_address" : "PII_ADDRESS_LINE",
+      "name" : "PII_COMPANY_NAME"
+    },
+    "v_parcels" : [ {
+      "v_dimensions" : {
+        "length" : "INT",
+        "height" : "INT",
+        "width" : "",
+        "unit" : "STRING"
+      },
+      "requires_update" : true,
+      "weight" : {
+        "value" : "DECIMAL",
+        "unit_data" : "STRING"
+      }
+    } ]
+  }
 }

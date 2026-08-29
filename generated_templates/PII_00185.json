@@ -1,54 +1,34 @@
 {
-  "v_accountType" : "STRING",
-  "clientName" : "PII_USERNAME",
-  "status_data" : "STRING",
-  "businessAccount" : {
-    "primaryPhone" : {
-      "telephone" : "STRING",
-      "item_count" : 358,
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING"
-    },
-    "emailAddress" : "PII_EMAIL",
-    "primaryContact_data" : {
-      "fullName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "is_deleted" : true
-    },
-    "http_status" : 403,
-    "name_val" : "PII_ORGANIZATION_NAME"
-  },
-  "registrationMarketplaceId" : "STRING",
-  "uuid" : {
-    "firstName" : "PII_PERSON_NAME",
-    "lastName" : "PII_PERSON_NAME",
-    "primary_email" : "PII_EMAIL",
-    "temperature_c" : 96.73,
-    "registrationAddress" : {
-      "temperature_c" : 390.94,
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "STRING",
-      "postalCode" : "STRING",
-      "county" : "STRING",
-      "addressLine2" : "STRING",
-      "country" : "STRING",
-      "v_city" : "STRING"
-    },
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "cpu_usage_percent" : 96.12
-    },
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING"
-    }
+  "identifier" : [ {
+    "use" : "NULL",
+    "is_deleted" : true,
+    "type" : { },
+    "value_data" : "PII_NATIONAL_ID"
+  } ],
+  "name" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "use_data" : "STRING",
+    "v_given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "address_data" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "v_city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "use" : "STRING"
+  } ],
+  "gender" : "STRING",
+  "telecom" : [ {
+    "v_value" : "PII_EMAIL",
+    "system" : "STRING"
+  }, {
+    "system" : "STRING",
+    "item_count" : 865,
+    "v_value" : "PII_PHONE_NUMBER",
+    "use" : "STRING"
+  } ],
+  "v_meta" : {
+    "versionId" : null,
+    "lastUpdated" : "DATETIME"
   }
 }

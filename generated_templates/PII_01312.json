@@ -1,13 +1,27 @@
 {
-  "active" : "BOOLEAN",
-  "v_user_info" : {
-    "clientName" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "fullName" : "PII_LAST_NAME_MALE",
-    "temperature_c" : 448.75
+  "status_data" : "STRING",
+  "sender" : {
+    "name_val" : "PII_COMPANY_NAME",
+    "name" : "PII_PERSON_NAME",
+    "iban" : "PII_IBAN",
+    "bic" : "STRING",
+    "accountId" : "STRING",
+    "price" : 8614.99
   },
-  "tree" : {
-    "url_data" : "URL",
-    "sha" : "STRING"
-  }
+  "recipient_data" : {
+    "bic" : "STRING",
+    "iban" : "PII_IBAN",
+    "clientName" : "PII_PERSON_NAME",
+    "accountId" : "STRING",
+    "bankName" : "PII_COMPANY_NAME"
+  },
+  "reference" : "STRING",
+  "amount" : {
+    "currency" : "STRING",
+    "value" : "DECIMAL"
+  },
+  "chargesBearer" : "STRING",
+  "completedAt_data" : "DATETIME",
+  "initiatedAt" : "NULL",
+  "primaryKey" : "STRING"
 }

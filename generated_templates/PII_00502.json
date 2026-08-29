@@ -1,26 +1,35 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "creditorName" : "PII_PERSON_NAME",
-      "v_bookingDate" : "DATE",
-      "creditorAccount" : {
-        "item_count" : 394,
-        "iban" : "PII_IBAN"
-      },
-      "debtorAccount_data" : {
-        "iban" : "STRING"
-      },
-      "stock_quantity" : 2164,
-      "clientName" : "STRING",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "v_bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "domain" : "STRING",
-        "family" : "STRING"
-      },
-      "transactionId" : "STRING"
-    } ],
-    "priority_level" : 4345
+  "tracking_settings" : {
+    "open_tracking" : {
+      "enable" : "BOOLEAN"
+    }
   },
-  "system_ping_ms" : 2270
+  "cache_hit" : true,
+  "send_at" : "DATETIME_EPOCH",
+  "categories" : [ "STRING" ],
+  "id" : "INT",
+  "from" : {
+    "name" : "PII_COMPANY_NAME",
+    "discount_rate" : 24.83,
+    "emailAddress" : "PII_EMAIL"
+  },
+  "ip_pool_name" : "STRING",
+  "reply_to" : {
+    "name" : "STRING",
+    "emailAddress" : "PII_EMAIL",
+    "has_discount" : true
+  },
+  "v_subject" : "STRING",
+  "personalizations" : [ {
+    "cc" : [ {
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    } ],
+    "to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "is_active" : false,
+    "subject" : "STRING"
+  } ]
 }

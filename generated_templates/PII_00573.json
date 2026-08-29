@@ -1,30 +1,56 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "debtorAccount" : {
-        "iban" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "v_payer" : {
+      "payment_method" : "STRING",
+      "status_data" : "STRING",
+      "payer_info" : {
+        "page_index" : 4627,
+        "country_code" : "STRING",
+        "shipping_address" : {
+          "state" : "STRING",
+          "recipient_name" : "PII_PERSON_NAME",
+          "line2" : "STRING",
+          "postal_code" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "phone" : "PII_PHONE_NUMBER",
+          "country_code_data" : "PII_LOCATION_COUNTRY",
+          "requires_update" : true,
+          "line1" : "PII_ADDRESS_LINE"
+        },
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "email" : "PII_EMAIL",
+        "recordId" : null,
+        "last_name" : "PII_PERSON_LAST_NAME",
+        "billing_address" : {
+          "line1" : "PII_ADDRESS_LINE",
+          "postal_code" : "STRING",
+          "is_deleted" : true,
+          "city" : "PII_LOCATION_CITY",
+          "state" : "STRING",
+          "v_country_code" : "PII_LOCATION_COUNTRY"
+        },
+        "telephone" : "PII_PHONE_NUMBER",
+        "birth_date" : "PII_DATE_OF_BIRTH"
+      }
+    },
+    "conversion_rate" : 2.5,
+    "transactions" : [ {
+      "amount" : {
+        "currency" : "STRING",
+        "temperature_c" : 19.96,
+        "total" : "DECIMAL"
       },
-      "bookingDate" : "DATE",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "creditorName" : "PII_PERSON_NAME",
-      "creditorAccount" : {
-        "item_count" : 4796,
-        "iban" : "PII_IBAN"
-      },
-      "bankTransactionCode_data" : {
-        "family" : "STRING",
-        "subFamily_data" : "STRING",
-        "domain_data" : "STRING"
-      },
-      "name_val" : "NULL",
-      "temperature_c" : 429.6,
-      "amount_data" : {
-        "amount" : "DECIMAL",
-        "priority_level" : 3097,
-        "currency" : ""
-      },
-      "valueDate" : "DATE",
-      "transactionId" : "STRING"
-    } ]
+      "temperature_c" : -2.8
+    } ],
+    "intent" : "STRING",
+    "create_time" : "DATETIME",
+    "cart" : "STRING",
+    "state" : "STRING",
+    "update_time" : "DATETIME",
+    "id" : "STRING"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "chatId": "chat-20240410-00821",
+  "model": "claude-sonnet-4-6",
+  "createdAt": "2024-04-10T10:00:00Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Please update the shipping address for order ORD-2024-00821 to 45 Park Lane, London W1K 1PN for customer Robert Johnson (robert.j@email.co.uk).",
+      "timestamp": "2024-04-10T10:00:00Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I've updated the shipping address for order ORD-2024-00821.",
+      "timestamp": "2024-04-10T10:00:01Z"
+    }
+  ],
+  "usage": {
+    "inputTokens": 48,
+    "outputTokens": 22
+  },
+  "metadata": {
+    "agentId": "customer-support-bot",
+    "sessionId": "sess_20240410_xk9pq"
+  }
+}

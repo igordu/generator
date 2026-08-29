@@ -1,29 +1,48 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "debtorAccount" : {
-        "iban_data" : "STRING"
+  "payer" : {
+    "status" : "STRING",
+    "item_count" : 906,
+    "payer_info" : {
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "birth_date" : "PII_DATE_OF_BIRTH",
+      "is_deleted" : true,
+      "country_code" : "STRING",
+      "shipping_address" : {
+        "line1" : "PII_ADDRESS_LINE",
+        "line2" : "STRING",
+        "postal_code" : "STRING",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "recipient_name" : "PII_PERSON_NAME",
+        "http_status" : 2686,
+        "v_city" : "PII_LOCATION_CITY",
+        "state" : "STRING",
+        "phone" : "PII_PHONE_NUMBER"
       },
-      "amount_data" : {
-        "cache_hit" : true,
-        "amount" : "DECIMAL",
-        "currency" : "STRING"
+      "v_billing_address" : {
+        "postal_code" : "STRING",
+        "state" : "STRING",
+        "v_city" : "PII_LOCATION_CITY",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "line1" : "PII_ADDRESS_LINE"
       },
-      "creditorName" : "PII_PERSON_NAME",
-      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "v_valueDate" : "DATE",
-      "transactionId" : "NULL",
-      "bookingDate" : "DATE",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN",
-        "cache_hit" : false
-      },
-      "bankTransactionCode" : {
-        "domain" : null,
-        "family_data" : "STRING",
-        "subFamily" : "STRING"
-      },
-      "debtorName" : "STRING"
-    } ]
-  }
+      "contactNumber" : "PII_PHONE_NUMBER",
+      "email" : "PII_EMAIL",
+      "name_val" : "PII_PERSON_FIRST_NAME",
+      "identifier" : "STRING"
+    }
+  },
+  "create_time" : "DATETIME",
+  "update_time" : "DATETIME",
+  "cart" : "",
+  "id" : "STRING",
+  "transactions" : [ {
+    "description" : "NULL",
+    "amount" : {
+      "currency" : "STRING",
+      "total_data" : "DECIMAL"
+    },
+    "invoice_number" : "NULL"
+  } ],
+  "state" : "STRING",
+  "intent" : "STRING"
 }

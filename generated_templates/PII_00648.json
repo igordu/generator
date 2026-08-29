@@ -1,38 +1,47 @@
 {
-  "ProviderName" : "STRING",
-  "Employees" : [ {
-    "v_UpdatedDateUTC" : "DATETIME",
-    "Status" : "STRING",
-    "v_ExternalLink" : {
-      "Url" : "URL",
-      "requires_update" : true,
-      "v_Description" : "STRING"
+  "v_status" : {
+    "hostIP" : "STRING",
+    "v_startTime" : "DATETIME",
+    "phase" : "STRING",
+    "podIP" : "STRING"
+  },
+  "apiVersion" : "STRING",
+  "kind" : "STRING",
+  "v_spec" : {
+    "clientName" : "STRING",
+    "containers" : [ {
+      "image_data" : "STRING",
+      "env_data" : [ {
+        "name_val" : "STRING",
+        "value_data" : "PII_EMAIL"
+      } ],
+      "v_ports" : [ {
+        "containerPort_data" : "INT",
+        "protocol" : "STRING"
+      } ],
+      "name" : "STRING",
+      "resources" : {
+        "limits" : {
+          "cpu" : "STRING",
+          "memory" : "STRING"
+        }
+      }
+    } ]
+  },
+  "metadata" : {
+    "cache_hit" : true,
+    "labels" : {
+      "version" : "STRING",
+      "environment" : "STRING",
+      "app" : "STRING"
     },
-    "EmployeeID" : "STRING",
-    "conversion_rate" : 938.13,
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "ExternalLink_data" : {
-      "Description" : "STRING",
-      "Url" : "URL"
+    "resourceVersion" : "STRING",
+    "identifier" : "STRING",
+    "annotations" : {
+      "owner" : "STRING",
+      "contact" : "PII_EMAIL"
     },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "discount_rate" : 430.18,
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
-    }
-  } ],
-  "DateTimeUTC" : "DATETIME",
-  "Id" : "NULL"
+    "name" : "STRING",
+    "namespace" : "STRING"
+  }
 }

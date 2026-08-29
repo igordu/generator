@@ -1,18 +1,62 @@
 {
-  "content" : [ {
-    "recommend" : "BOOLEAN",
-    "v_helpfulCount" : "INT",
-    "v_unhelpfulCount" : "INT",
-    "language" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_title" : "PII_COMPANY_NAME",
-    "created_data" : "DATETIME",
-    "v_customerCity" : "PII_LOCATION_CITY",
-    "v_description" : "STRING",
-    "articleModelId" : "STRING",
-    "reviewId" : null,
-    "priority_level" : 1604,
-    "rating" : "INT",
-    "articleId" : "STRING"
-  } ]
+  "total" : "INT",
+  "href" : null,
+  "transactions" : [ {
+    "salesRecordReference" : "STRING",
+    "orderId" : "STRING",
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "v_transactionMemo" : "STRING",
+    "bookingEntry" : "STRING",
+    "transactionStatus" : "STRING",
+    "paymentsEntity_data" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "v_exchangeRate" : "STRING"
+    },
+    "amount" : {
+      "exchangeRate" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "feeType" : "STRING",
+    "v_totalFeeBasisAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "convertedFromValue" : null,
+      "currency" : "STRING"
+    },
+    "transactionDate" : "DATETIME",
+    "cpu_usage_percent" : 25.15,
+    "uuid" : "NULL",
+    "feeJurisdiction" : {
+      "userName" : "STRING",
+      "regionType" : "STRING",
+      "has_discount" : false
+    },
+    "references_data" : [ {
+      "referenceType" : "STRING",
+      "requires_update" : false,
+      "referenceId" : "STRING"
+    } ],
+    "totalFeeAmount" : {
+      "currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "v_transactionType" : "STRING",
+    "payoutId" : "STRING"
+  } ],
+  "offset" : "INT",
+  "http_status" : 1241,
+  "v_prev" : "STRING",
+  "next" : "STRING",
+  "limit_data" : "INT"
 }

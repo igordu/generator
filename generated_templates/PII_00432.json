@@ -1,41 +1,48 @@
 {
-  "identifier" : [ {
-    "item_count" : 3708,
-    "use" : "STRING",
-    "type_data" : {
-      "price" : 126.03,
-      "text" : "STRING"
-    },
-    "system" : "NULL",
-    "value" : "PII_NATIONAL_ID"
-  } ],
-  "telecom" : [ {
-    "system" : "STRING",
-    "priority_level" : 402,
-    "value_data" : "PII_PHONE_NUMBER",
-    "use_data" : "STRING"
-  }, {
-    "v_value" : "PII_EMAIL",
-    "system" : "NULL"
-  } ],
-  "address" : [ {
-    "use" : "NULL",
-    "stock_quantity" : 1150,
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "country" : "PII_LOCATION_COUNTRY",
-    "city" : "PII_LOCATION_CITY"
-  } ],
-  "resourceType" : "STRING",
-  "gender" : "STRING",
-  "retry_attempts" : 1217,
-  "userName" : [ {
-    "use_data" : "STRING",
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "family" : "PII_PERSON_LAST_NAME"
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "v_meta" : {
-    "uuid" : "INT",
-    "lastUpdated_data" : "DATETIME"
+  "data" : {
+    "fetchResource" : {
+      "lastName" : {
+        "localized" : {
+          "en_US" : "PII_PERSON_LAST_NAME",
+          "priority_level" : 985
+        }
+      },
+      "birthDate" : {
+        "day" : "INT",
+        "month" : "NULL"
+      },
+      "location" : {
+        "is_deleted" : true,
+        "v_country" : {
+          "code_data" : "PII_LOCATION_COUNTRY"
+        }
+      },
+      "price" : 497.79,
+      "headline" : {
+        "localized" : {
+          "en_US" : "STRING"
+        }
+      },
+      "userName" : "PII_USERNAME",
+      "emailAddress" : "PII_EMAIL",
+      "uuid" : "STRING",
+      "phoneNumbers" : [ {
+        "v_type" : "STRING",
+        "number" : "PII_PHONE_NUMBER",
+        "price" : 7685.79
+      } ],
+      "firstName" : {
+        "localized" : {
+          "en_US" : "PII_PERSON_FIRST_NAME",
+          "priority_level" : 4814
+        },
+        "v_preferredLocale" : {
+          "language" : "STRING",
+          "v_country" : "STRING",
+          "retry_attempts" : 1997
+        },
+        "cpu_usage_percent" : 20.46
+      }
+    }
   }
 }

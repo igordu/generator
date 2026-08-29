@@ -1,43 +1,17 @@
 {
-  "gists_url" : "URL",
-  "updated_at" : "DATETIME",
-  "subscriptions_url_data" : "URL",
-  "two_factor_authentication" : "",
-  "organizations_url" : "URL",
-  "company" : "PII_ORGANIZATION_NAME",
-  "received_events_url" : "",
-  "events_url" : "URL",
-  "url_data" : "URL",
-  "v_public_repos" : "INT",
-  "repos_url" : "URL",
-  "v_private_gists" : "INT",
-  "recordId" : "STRING",
-  "public_gists" : "INT",
-  "html_url" : "URL",
-  "site_admin" : "BOOLEAN",
-  "following_url_data" : "URL",
-  "starred_url_data" : "NULL",
-  "owned_private_repos" : "INT",
-  "price" : 992.57,
-  "email" : "PII_EMAIL",
-  "blog" : "URL",
-  "v_created_at" : "DATETIME",
-  "avatar_url_data" : "URL",
-  "hireable" : "BOOLEAN",
-  "fullName" : "STRING",
-  "total_private_repos_data" : "INT",
-  "v_followers_url" : "URL",
-  "disk_usage" : "NULL",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "type" : "STRING",
-  "plan" : {
-    "private_repos" : "INT",
-    "space_data" : "INT",
-    "collaborators_data" : "INT",
-    "fullName" : "STRING"
+  "temperature_c" : 2.52,
+  "prefix" : "STRING",
+  "userName" : "STRING",
+  "ipWhitelist_data" : [ "STRING" ],
+  "rateLimit" : {
+    "requestsPerDay" : "INT",
+    "requestsPerMinute_data" : "INT"
   },
-  "userName" : "PII_PERSON_NAME",
-  "followers" : "INT",
-  "collaborators" : "INT",
-  "v_location" : "PII_LOCATION_CITY"
+  "scopes" : [ null ],
+  "lastUsed" : "DATETIME",
+  "createdBy" : {
+    "stock_quantity" : 560,
+    "emailAddress" : "PII_EMAIL"
+  },
+  "expiresAt" : "DATETIME"
 }

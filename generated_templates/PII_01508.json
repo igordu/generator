@@ -1,0 +1,15 @@
+{
+  "v_description" : "STRING",
+  "name_val" : "STRING",
+  "inheritedFrom" : [ "STRING" ],
+  "roleId" : "STRING",
+  "createdBy" : "PII_EMAIL",
+  "assignedTo_data" : [ {
+    "assignedAt" : "DATETIME",
+    "userName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "userId" : "STRING"
+  } ],
+  "v_updatedAt" : "DATETIME",
+  "v_permissions" : [ "STRING" ]
+}

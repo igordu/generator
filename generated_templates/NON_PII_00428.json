@@ -1,5 +1,26 @@
 {
-  "flowName" : "STRING",
-  "clientToken" : "STRING",
-  "is_active" : false
+  "attempts" : "INT",
+  "event_data" : "STRING",
+  "endpoint_data" : {
+    "url" : "URL",
+    "id" : "STRING",
+    "is_active" : false,
+    "v_status" : "STRING"
+  },
+  "is_active" : true,
+  "webhookId" : "STRING",
+  "signature" : "STRING",
+  "deliveredAt" : "DATETIME",
+  "response" : {
+    "v_body" : "STRING",
+    "v_statusCode" : "INT",
+    "latencyMs" : "INT"
+  },
+  "payload" : {
+    "v_currency" : "STRING",
+    "orderId" : "STRING",
+    "totalAmount" : "DECIMAL",
+    "completedAt" : "DATETIME",
+    "primaryKey" : "STRING"
+  }
 }

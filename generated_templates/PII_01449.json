@@ -1,0 +1,32 @@
+{
+  "audit_trail" : {
+    "event_data" : {
+      "raw_data" : {
+        "correlationId" : "STRING",
+        "occurredAt" : "DATETIME",
+        "payload" : {
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "cache_hit" : false,
+          "phone" : "PII_PHONE_NUMBER",
+          "country" : "PII_LOCATION_COUNTRY",
+          "dateOfBirth" : "PII_DATE_OF_BIRTH",
+          "userId" : "STRING",
+          "email" : "PII_EMAIL",
+          "lastName" : "PII_PERSON_LAST_NAME",
+          "v_ipAddress" : "PII_IP_ADDRESS",
+          "registrationSource" : "STRING"
+        },
+        "producer_data" : "STRING",
+        "version" : "STRING",
+        "eventType" : "STRING",
+        "v_metadata" : {
+          "offset" : "INT",
+          "is_active" : false,
+          "partition" : "INT",
+          "v_schemaVersion" : "STRING"
+        },
+        "retry_attempts" : 4499
+      }
+    }
+  }
+}

@@ -1,43 +1,37 @@
 {
-  "plan" : {
-    "collaborators" : "INT",
-    "fullName" : "STRING",
-    "temperature_c" : 142.58
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "followers" : "NULL",
-  "two_factor_authentication" : "BOOLEAN",
-  "site_admin" : "BOOLEAN",
-  "identifier" : "STRING",
-  "v_followers_url" : "URL",
-  "private_gists" : "INT",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "created_at" : "DATETIME",
-  "uuid" : "INT",
-  "url" : "URL",
-  "public_gists" : "INT",
-  "updated_at" : "DATETIME",
-  "subscriptions_url" : "URL",
-  "disk_usage" : "INT",
-  "name_val" : "STRING",
-  "html_url" : "URL",
-  "public_repos" : "INT",
-  "total_private_repos" : "INT",
-  "hireable" : "BOOLEAN",
-  "v_repos_url" : "URL",
-  "events_url" : "URL",
-  "userName" : "PII_PERSON_NAME",
-  "blog" : "URL",
-  "received_events_url" : "URL",
-  "avatar_url" : "URL",
-  "login" : "STRING",
-  "email" : "PII_EMAIL",
-  "v_collaborators" : "INT",
-  "v_starred_url" : "URL",
-  "company" : "PII_ORGANIZATION_NAME",
-  "auto_renew" : true,
-  "following" : "INT",
-  "type" : "STRING",
-  "organizations_url" : "URL",
-  "owned_private_repos" : "INT",
-  "v_location" : "PII_LOCATION_CITY"
+  "results" : {
+    "featureFlagKey" : "STRING",
+    "targeting" : {
+      "v_rules" : [ {
+        "recordId" : "STRING",
+        "page_index" : 598,
+        "description" : "STRING",
+        "variation" : "STRING",
+        "clauses_data" : [ {
+          "op" : "STRING",
+          "values" : [ "STRING" ],
+          "is_active" : false
+        } ]
+      } ],
+      "fallthrough_data" : {
+        "v_variation" : "NULL",
+        "is_deleted" : true
+      }
+    },
+    "variations" : [ {
+      "id" : "STRING",
+      "is_deleted" : true
+    } ],
+    "projectKey" : "STRING",
+    "environment" : "STRING",
+    "v_tags" : [ "STRING" ],
+    "v_createdAt" : "DATETIME",
+    "v_rolloutPercentage" : "INT",
+    "createdBy" : "PII_EMAIL",
+    "enabled" : "BOOLEAN"
+  }
 }

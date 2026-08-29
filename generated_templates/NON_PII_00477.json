@@ -1,8 +1,16 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "userName" : "STRING",
-      "clientToken" : "NULL"
-    }
+  "queueName" : "STRING",
+  "messageId" : "STRING",
+  "lastReceivedAt" : "DATETIME",
+  "movedToDlqAt" : "DATETIME",
+  "firstReceivedAt" : "DATETIME",
+  "v_originalQueue" : "STRING",
+  "receiveCount" : "INT",
+  "has_discount" : true,
+  "attributes" : { },
+  "body_data" : {
+    "errorCode" : "STRING",
+    "orderId" : "STRING",
+    "errorMessage" : "NULL"
   }
 }

@@ -1,20 +1,48 @@
 {
-  "name" : "STRING",
-  "uuid" : "NULL",
-  "discount_rate" : 667.31,
-  "shopUrl" : "URL",
-  "media" : {
-    "images" : [ {
-      "largeUrl" : "URL",
-      "smallUrl_data" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "v_mediumHdUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "orderNumber" : "NULL",
-      "mediumUrl_data" : "URL",
-      "largeHdUrl_data" : "URL",
-      "type_data" : "STRING"
-    } ],
-    "price" : 305.57
+  "telemetry_data" : {
+    "event_data" : {
+      "raw_data" : [ {
+        "simplified" : "BOOLEAN",
+        "id" : "STRING",
+        "style" : "STRING",
+        "v_key" : "STRING",
+        "name" : "STRING",
+        "v_projectCategory" : {
+          "description" : "NULL",
+          "v_self" : "URL",
+          "name_val" : "STRING",
+          "id" : "STRING",
+          "system_ping_ms" : 1046
+        },
+        "insight" : {
+          "lastIssueUpdateTime_data" : "DATETIME",
+          "totalIssueCount" : "INT"
+        },
+        "v_self" : "URL"
+      }, {
+        "id" : "STRING",
+        "system_ping_ms" : 1644,
+        "simplified" : "BOOLEAN",
+        "name" : "STRING",
+        "avatarUrls" : {
+          "24x24" : "URL",
+          "48x48" : "URL",
+          "requires_update" : false,
+          "v_32x32" : "URL"
+        },
+        "insight" : {
+          "price" : 9639.0,
+          "v_totalIssueCount" : "INT",
+          "lastIssueUpdateTime" : "DATETIME"
+        },
+        "v_self" : "URL",
+        "v_style" : "STRING",
+        "projectCategory" : {
+          "identifier" : "STRING",
+          "name" : "STRING",
+          "description" : "STRING"
+        }
+      } ]
+    }
   }
 }

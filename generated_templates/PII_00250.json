@@ -1,46 +1,34 @@
 {
-  "next" : "STRING",
-  "total" : "INT",
-  "v_offset" : "INT",
-  "prev_data" : "STRING",
-  "transactions" : [ {
-    "buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "payoutId" : "STRING",
-    "transactionId" : "STRING",
-    "orderId" : "STRING",
-    "salesRecordReference_data" : "STRING",
-    "transactionMemo" : "STRING",
-    "feeJurisdiction" : {
-      "clientName" : ""
-    },
-    "totalFeeBasisAmount" : {
-      "currency_data" : "STRING",
-      "auto_renew" : false,
-      "convertedFromCurrency" : "STRING",
-      "exchangeRate_data" : "STRING",
-      "v_convertedFromValue" : "STRING",
+  "page_number" : "INT",
+  "retry_attempts" : 4940,
+  "page_size" : "INT",
+  "total_records_data" : "INT",
+  "v_registrants" : [ {
+    "address" : "PII_ADDRESS_LINE",
+    "contactEmail" : "PII_EMAIL",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "role_in_purchase_process_data" : "STRING",
+    "org" : "PII_ORGANIZATION_NAME",
+    "country" : "PII_LOCATION_COUNTRY",
+    "id" : "STRING",
+    "job_title_data" : "STRING",
+    "industry" : "NULL",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "zip" : "STRING",
+    "price" : 6538.67,
+    "city" : "PII_LOCATION_CITY",
+    "state" : "PII_LOCATION_STATE",
+    "join_url" : "URL",
+    "v_status" : "STRING",
+    "no_of_employees" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "custom_questions_data" : [ {
+      "discount_rate" : 23.77,
+      "value" : "STRING",
+      "title" : "STRING"
+    }, {
+      "title" : null,
       "value" : "STRING"
-    },
-    "transactionType" : "STRING",
-    "paymentsEntity" : "STRING",
-    "v_transactionDate" : "DATETIME",
-    "feeType" : "STRING",
-    "transactionStatus" : "STRING",
-    "references_data" : [ {
-      "uuid" : "STRING",
-      "referenceType" : "STRING"
-    } ],
-    "bookingEntry_data" : "STRING",
-    "v_totalFeeAmount" : {
-      "value_data" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "currency" : "STRING",
-      "exchangeRate_data" : "STRING",
-      "convertedFromValue" : "STRING"
-    }
-  } ],
-  "limit" : null,
-  "href" : "STRING"
+    } ]
+  } ]
 }

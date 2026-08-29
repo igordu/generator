@@ -1,46 +1,34 @@
-[ {
-  "response_time_sec" : 581.09,
-  "projectCategory" : {
-    "name" : "STRING",
-    "is_active" : false,
-    "description" : "STRING",
-    "self" : "URL",
-    "id" : "STRING"
+{
+  "retry_attempts" : 1680,
+  "v_endpoint" : "STRING",
+  "serviceId" : "STRING",
+  "period" : "STRING",
+  "statusCodes_data" : {
+    "price" : 163.32,
+    "500" : "INT",
+    "404" : "INT",
+    "429_data" : "INT",
+    "200" : "INT"
   },
-  "v_self" : "URL",
-  "style" : "STRING",
-  "avatarUrls" : {
-    "24x24_data" : "URL",
-    "requires_update" : true,
-    "32x32_data" : "URL",
-    "48x48" : "URL",
-    "16x16_data" : "URL"
+  "sloCompliance" : {
+    "availabilityActual" : "DECIMAL",
+    "withinSlo" : "BOOLEAN",
+    "availabilityTarget" : "DECIMAL",
+    "latencyActualP99" : "INT",
+    "latencyTarget" : "INT"
   },
-  "id" : "STRING",
-  "key" : "STRING",
-  "name" : "STRING",
-  "v_simplified" : "BOOLEAN",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "price" : 825.48,
-    "lastIssueUpdateTime_data" : "DATETIME"
+  "topErrors" : [ {
+    "code" : "STRING",
+    "count" : "NULL"
+  } ],
+  "metrics" : {
+    "errorRate" : "DECIMAL",
+    "p999LatencyMs_data" : "INT",
+    "requestCount" : "INT",
+    "errorCount" : "INT",
+    "p95LatencyMs" : "INT",
+    "throughputRps" : "DECIMAL",
+    "p99LatencyMs" : "INT",
+    "p50LatencyMs" : "INT"
   }
-}, {
-  "style" : "STRING",
-  "projectCategory" : {
-    "v_self" : "URL",
-    "identifier" : "STRING",
-    "v_description" : "STRING"
-  },
-  "avatarUrls_data" : {
-    "v_16x16" : "URL",
-    "32x32" : "URL",
-    "24x24" : "URL",
-    "48x48" : "URL"
-  },
-  "simplified" : "BOOLEAN",
-  "v_key" : "STRING",
-  "v_self" : "NULL",
-  "clientName" : "STRING",
-  "id" : "STRING"
-} ]
+}

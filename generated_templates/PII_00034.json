@@ -1,22 +1,65 @@
 {
-  "conversion_rate" : 476.65,
-  "content" : [ {
-    "v_title" : "PII_COMPANY_NAME",
-    "helpfulCount" : "INT",
-    "v_unhelpfulCount" : "INT",
-    "customerCity" : "PII_LOCATION_CITY",
-    "v_created" : "DATETIME",
-    "recommend" : "BOOLEAN",
-    "description" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "language" : "STRING",
-    "recordId" : "STRING",
-    "rating" : "INT",
-    "articleId" : "STRING",
-    "articleSizeRatings" : {
-      "item_count" : 3113,
-      "SHOE_WIDTH" : "INT"
+  "response_time_sec" : 15.76,
+  "registrationMarketplaceId" : "NULL",
+  "username" : "PII_USERNAME",
+  "businessAccount" : {
+    "website" : "URL",
+    "address_data" : {
+      "addressLine1" : "STRING",
+      "county" : "STRING",
+      "postalCode_data" : "STRING",
+      "country" : "STRING",
+      "addressLine2" : "STRING",
+      "response_time_sec" : 21.4,
+      "stateOrProvince" : "STRING",
+      "city" : "STRING"
     },
-    "identifier" : "STRING"
-  } ]
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME"
+    },
+    "doingBusinessAs" : "STRING",
+    "email" : "PII_EMAIL",
+    "secondaryPhone" : {
+      "v_countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "cell" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "name" : "PII_ORGANIZATION_NAME"
+  },
+  "accountType_data" : "STRING",
+  "individualAccount" : {
+    "email" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_NAME",
+    "lastName" : "PII_PERSON_NAME",
+    "registrationAddress" : {
+      "stateOrProvince" : "STRING",
+      "postalCode" : "STRING",
+      "city" : "STRING",
+      "v_county" : "STRING",
+      "addressLine2" : "STRING",
+      "country_data" : "STRING",
+      "system_ping_ms" : 4060,
+      "v_addressLine1" : "STRING"
+    },
+    "secondaryPhone" : {
+      "phoneType" : "STRING",
+      "cache_hit" : false,
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING"
+    },
+    "primaryPhone" : {
+      "v_countryCode" : "STRING",
+      "phoneType" : "STRING",
+      "is_deleted" : false,
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "cpu_usage_percent" : 60.4
+  },
+  "status" : "STRING",
+  "userId" : "STRING"
 }

@@ -1,25 +1,34 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "is_deleted" : true,
-    "v_simplified" : "BOOLEAN",
-    "projectCategory_data" : {
-      "id" : "STRING",
-      "description" : "STRING",
-      "name" : "STRING",
-      "item_count" : 3318,
-      "self_data" : "URL"
-    },
-    "primaryKey" : "NULL",
-    "key_data" : "STRING",
-    "clientName" : "STRING",
-    "self" : "URL",
-    "v_insight" : {
-      "priority_level" : 2758,
-      "totalIssueCount" : "INT",
-      "lastIssueUpdateTime" : "DATETIME"
-    },
-    "style" : "STRING"
-  } ]
+  "data" : {
+    "fetchResource" : {
+      "type" : "STRING",
+      "triggeredBy" : "STRING",
+      "status" : "STRING",
+      "has_discount" : true,
+      "nextRunAt" : "DATETIME",
+      "scheduledAt" : "DATETIME",
+      "v_completedAt" : "DATETIME",
+      "durationSeconds_data" : "",
+      "source" : {
+        "table" : "STRING",
+        "database_data" : "STRING",
+        "type" : "STRING",
+        "host" : "STRING"
+      },
+      "startedAt" : "DATETIME",
+      "destination" : {
+        "type" : "STRING",
+        "project" : "STRING",
+        "table" : "STRING",
+        "cpu_usage_percent" : 84.11,
+        "dataset" : "STRING"
+      },
+      "v_stats" : {
+        "v_recordsRead" : "INT",
+        "bytesTransferred" : "INT",
+        "v_recordsWritten" : "INT",
+        "v_recordsSkipped" : "INT"
+      }
+    }
+  }
 }

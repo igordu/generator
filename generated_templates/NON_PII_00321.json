@@ -1,105 +1,31 @@
 {
-  "tasks" : [ {
-    "taskType" : "STRING",
-    "v_taskProperties" : {
-      "property1_data" : "STRING",
-      "property2_data" : "STRING"
-    },
-    "connectorOperator_data" : {
-      "priority_level" : 4248,
-      "Trendmicro" : "STRING",
-      "Dynatrace" : "STRING",
-      "GoogleAnalytics" : "STRING",
-      "Slack" : "STRING",
-      "SAPOData" : "STRING",
-      "Pardot" : "STRING",
-      "S3" : "STRING",
-      "Marketo" : "STRING",
-      "CustomConnector" : "STRING",
-      "InforNexus" : "STRING",
-      "Amplitude" : "STRING",
-      "Salesforce" : "STRING"
-    },
-    "sourceFields" : "ARRAY"
-  } ],
-  "clientToken" : "STRING",
-  "destinationFlowConfigList" : [ {
-    "response_time_sec" : 909.12,
-    "connectorType" : "STRING",
-    "destinationConnectorProperties" : {
-      "temperature_c" : 500.6,
-      "Salesforce" : {
-        "v_dataTransferApi" : "STRING",
-        "idFieldNames" : "ARRAY",
-        "writeOperationType" : "STRING",
-        "v_errorHandlingConfig" : {
-          "is_active" : true,
-          "failOnFirstDestinationError" : "NULL",
-          "bucketPrefix" : "STRING",
-          "userName" : "STRING"
-        },
-        "object" : "STRING"
-      },
-      "Snowflake" : {
-        "intermediateBucketName" : "NULL",
-        "object_data" : "STRING",
-        "errorHandlingConfig" : {
-          "item_count" : 4698,
-          "failOnFirstDestinationError" : "BOOLEAN",
-          "userName" : "STRING"
-        },
-        "bucketPrefix_data" : "STRING"
-      },
-      "EventBridge" : {
-        "errorHandlingConfig" : {
-          "bucketPrefix" : "STRING",
-          "bucketName" : "STRING",
-          "v_failOnFirstDestinationError" : "BOOLEAN"
-        },
-        "object" : "STRING"
-      },
-      "Redshift" : {
-        "is_active" : false,
-        "v_bucketPrefix" : "STRING",
-        "object" : "STRING",
-        "intermediateBucketName" : "STRING"
-      },
-      "S3" : {
-        "bucketPrefix_data" : "STRING",
-        "stock_quantity" : 4907,
-        "s3OutputFormatConfig" : {
-          "fileType" : "STRING",
-          "prefixConfig" : {
-            "pathPrefixHierarchy" : "ARRAY",
-            "stock_quantity" : 4653,
-            "prefixType" : "STRING"
-          },
-          "preserveSourceDataTyping" : "BOOLEAN"
-        }
-      },
-      "LookoutMetrics" : { }
-    },
-    "apiVersion" : "STRING"
-  } ],
-  "description" : "STRING",
-  "tags" : {
-    "property1_data" : ""
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "metadataCatalogConfig" : { },
-  "kmsArn" : "STRING",
-  "flowName" : "STRING",
-  "triggerConfig_data" : {
-    "triggerProperties" : {
-      "Scheduled" : {
-        "timezone" : "STRING",
-        "scheduleEndTime_data" : "DATETIME",
-        "dataPullMode" : "STRING",
-        "scheduleOffset_data" : "INT",
-        "scheduleExpression" : "STRING",
-        "v_firstExecutionFrom" : "DATETIME"
-      }
-    },
-    "page_index" : 4236,
-    "triggerType" : "STRING"
+  "results" : {
+    "has_more_data" : "BOOLEAN",
+    "data" : [ {
+      "training_file" : "STRING",
+      "organization_id" : "STRING",
+      "validation_file" : "NULL",
+      "v_hyperparameters" : {
+        "learning_rate_multiplier" : "DECIMAL",
+        "batch_size" : "INT",
+        "v_n_epochs" : "INT"
+      },
+      "finished_at" : "DATETIME_EPOCH",
+      "recordId" : "STRING",
+      "model" : "STRING",
+      "auto_renew" : false,
+      "v_result_files" : [ "STRING" ],
+      "error" : "NULL",
+      "object" : "STRING",
+      "v_trained_tokens" : "INT",
+      "v_status" : "STRING",
+      "fine_tuned_model" : "STRING",
+      "created_at_data" : "DATETIME_EPOCH"
+    } ],
+    "v_object" : "STRING"
   }
 }

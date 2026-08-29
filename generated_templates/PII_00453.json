@@ -1,37 +1,40 @@
 {
-  "telecom_data" : [ {
-    "value" : "PII_PHONE_NUMBER",
-    "system_data" : "",
-    "v_use" : "STRING"
-  }, {
-    "value_data" : "PII_EMAIL",
-    "is_active" : true,
-    "system" : "STRING"
+  "lastLoginTime" : "DATETIME",
+  "archived" : "",
+  "emails" : [ {
+    "v_address" : "PII_EMAIL",
+    "cpu_usage_percent" : 32.81,
+    "primary" : "BOOLEAN"
   } ],
-  "gender_data" : "STRING",
-  "v_birthDate" : "PII_DATE_OF_BIRTH",
-  "address" : [ {
-    "city" : "PII_LOCATION_CITY",
-    "use_data" : "STRING",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "system_ping_ms" : 3527,
-    "country" : "PII_LOCATION_COUNTRY"
+  "recoveryEmail" : "PII_EMAIL",
+  "suspended" : "",
+  "recordId" : "STRING",
+  "phones" : [ {
+    "type" : "STRING",
+    "response_time_sec" : 4.65,
+    "v_value" : "PII_PHONE_NUMBER"
   } ],
-  "identifier" : [ {
-    "type" : {
-      "priority_level" : 1431,
-      "text" : "STRING"
-    },
-    "v_value" : "PII_NATIONAL_ID",
-    "system_data" : "URL",
-    "auto_renew" : true,
-    "use" : "STRING"
+  "isMailboxSetup" : "BOOLEAN",
+  "isDelegatedAdmin_data" : "BOOLEAN",
+  "changePasswordAtNextLogin" : "BOOLEAN",
+  "v_creationTime" : "DATETIME",
+  "recoveryPhone" : "PII_PHONE_NUMBER",
+  "requires_update" : true,
+  "isAdmin" : "BOOLEAN",
+  "addresses" : [ {
+    "locality" : "PII_LOCATION_CITY",
+    "region" : "STRING",
+    "v_postalCode" : "STRING",
+    "type" : "STRING",
+    "page_index" : 3609,
+    "country" : "PII_LOCATION_COUNTRY",
+    "streetAddress_data" : "PII_ADDRESS_LINE"
   } ],
-  "resourceType" : "STRING",
-  "id" : "STRING",
-  "name" : [ {
-    "use" : "STRING",
-    "family" : "PII_PERSON_LAST_NAME",
-    "given_data" : [ "PII_PERSON_FIRST_NAME" ]
-  } ]
+  "primaryEmail" : "PII_EMAIL",
+  "userName" : {
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "priority_level" : 1719
+  },
+  "agreedToTerms" : "BOOLEAN",
+  "orgUnitPath" : "NULL"
 }

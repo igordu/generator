@@ -1,0 +1,31 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "payload" : {
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "userId" : "STRING",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "email" : "PII_EMAIL",
+      "phone" : "PII_PHONE_NUMBER",
+      "ipAddress" : "PII_IP_ADDRESS",
+      "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "v_country" : "PII_LOCATION_COUNTRY"
+    },
+    "identifier" : "STRING",
+    "metadata" : {
+      "schemaVersion_data" : "STRING",
+      "offset" : "INT",
+      "v_partition" : "INT",
+      "response_time_sec" : 7.37
+    },
+    "uuid" : "STRING",
+    "occurredAt_data" : "DATETIME",
+    "version" : "STRING",
+    "auto_renew" : false,
+    "eventType" : "STRING",
+    "producer" : "STRING"
+  }
+}

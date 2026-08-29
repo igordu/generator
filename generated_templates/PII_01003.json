@@ -1,14 +1,36 @@
 {
-  "routing_number_data" : "STRING",
-  "country" : "STRING",
-  "account_holder_type" : "STRING",
-  "object" : "STRING",
-  "customer" : "STRING",
-  "currency_data" : "STRING",
-  "bank_name" : "STRING",
+  "appliedAt" : "DATETIME",
+  "source" : "STRING",
   "status" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "discount_rate" : 893.1,
-  "account_type" : "STRING",
-  "v_fingerprint" : "STRING"
+  "updatedAt" : "DATETIME",
+  "candidateId" : "STRING",
+  "interviews" : [ {
+    "round_data" : "INT",
+    "interviewer_data" : {
+      "userName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    },
+    "type" : "STRING"
+  } ],
+  "position" : {
+    "identifier" : "STRING",
+    "title" : "STRING",
+    "location" : "PII_LOCATION_CITY",
+    "department_data" : "STRING"
+  },
+  "candidate" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "v_postalCode" : "STRING",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "city" : "PII_LOCATION_CITY"
+    },
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "linkedIn" : "",
+    "email" : "PII_EMAIL",
+    "resumeUrl" : "URL",
+    "phone" : "PII_PHONE_NUMBER"
+  }
 }

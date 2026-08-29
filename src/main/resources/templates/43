@@ -1,0 +1,19 @@
+{
+  "warehouse_id": "STRING",
+  "location_code": "STRING",
+  "sku": "STRING",
+  "product_name": "STRING",
+  "quantity_on_hand": "INT",
+  "quantity_reserved": "INT",
+  "quantity_available": "INT",
+  "reorder_point": "INT",
+  "reorder_quantity": "INT",
+  "last_received_at": "DATETIME",
+  "last_counted_at": "DATETIME",
+  "unit_cost": "INT",
+  "currency": "STRING",
+  "batch_number": "STRING",
+  "expiry_date": "NULL",
+  "is_hazardous": "BOOLEAN",
+  "tags": ["STRING"]
+}

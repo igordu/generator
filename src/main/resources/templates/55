@@ -1,0 +1,23 @@
+{
+  "service": "STRING",
+  "instance": "STRING",
+  "version": "STRING",
+  "timestamp": "DATETIME",
+  "level": "STRING",
+  "trace_id": "STRING",
+  "span_id": "STRING",
+  "message": "STRING",
+  "error": {
+    "type": "STRING",
+    "message": "STRING",
+    "stack_trace": "STRING"
+  },
+  "http": {
+    "method": "STRING",
+    "url": "URL",
+    "status_code": "INT",
+    "latency_ms": "INT"
+  },
+  "retry_attempt": "INT",
+  "max_retries": "INT"
+}

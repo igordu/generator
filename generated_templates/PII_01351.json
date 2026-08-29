@@ -1,15 +1,39 @@
 {
-  "response_time_sec" : 967.0,
-  "v_active" : "BOOLEAN",
-  "v_tree" : {
-    "sha" : "STRING",
-    "url" : "URL",
-    "conversion_rate" : 99.02
-  },
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "discount_rate" : 79.86,
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "csm" : {
+      "uuid" : "STRING",
+      "is_deleted" : true,
+      "email" : "PII_EMAIL",
+      "fullName" : "PII_PERSON_NAME"
+    },
+    "type" : "STRING",
+    "v_billingAddress" : {
+      "street" : "PII_ADDRESS_LINE",
+      "country" : "PII_LOCATION_COUNTRY",
+      "city" : "PII_LOCATION_CITY",
+      "postalCode" : "STRING"
+    },
+    "name" : "PII_COMPANY_NAME",
+    "contracts" : [ {
+      "value" : "DECIMAL",
+      "v_product" : "STRING",
+      "status" : "NULL",
+      "currency" : "STRING",
+      "endDate" : "DATE",
+      "contractId" : "STRING",
+      "startDate" : "DATE"
+    } ],
+    "employees" : "INT",
+    "industry" : "STRING",
+    "accountId" : "STRING",
+    "primaryContact" : {
+      "clientName" : "PII_PERSON_NAME",
+      "phone" : "PII_PHONE_NUMBER",
+      "emailAddress" : "PII_EMAIL",
+      "title" : "STRING"
+    },
+    "annualRevenue" : "INT"
   }
 }

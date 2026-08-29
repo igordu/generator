@@ -1,16 +1,23 @@
 {
-  "averageStarRating" : "",
-  "articleModelId" : "STRING",
-  "numberOfUserReviews" : "INT",
-  "http_status" : 884,
-  "numberOfUserRecommendations" : "INT",
-  "v_starRatingDistribution" : {
-    "3" : "INT",
-    "5" : null,
-    "1" : "INT",
-    "2" : "NULL",
-    "4" : null,
-    "is_active" : false
-  },
-  "numberOfUserPositiveRecommendations_data" : "INT"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "conversion_rate" : 3.02,
+    "id" : "STRING",
+    "shopUrl_data" : "URL",
+    "clientName" : "STRING",
+    "modelId" : "STRING",
+    "v_media" : {
+      "images" : [ {
+        "smallUrl_data" : "URL",
+        "largeHdUrl" : "URL",
+        "thumbnailHdUrl" : "URL",
+        "smallHdUrl_data" : "URL",
+        "type" : "NULL",
+        "largeUrl" : "URL",
+        "orderNumber" : "INT",
+        "mediumHdUrl" : "URL"
+      } ]
+    }
+  }
 }

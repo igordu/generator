@@ -1,33 +1,22 @@
 {
-  "data" : [ {
-    "mail" : "PII_EMAIL",
-    "invoice_settings_data" : {
-      "default_payment_method" : "STRING",
-      "footer" : "STRING",
-      "custom_fields" : "NULL",
-      "rendering_options" : "NULL"
-    },
-    "delinquent_data" : "BOOLEAN",
-    "default_source" : "STRING",
-    "livemode" : "BOOLEAN",
-    "object_data" : "STRING",
-    "tax_exempt" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "id" : "STRING",
-    "description_data" : "",
-    "next_invoice_sequence" : "INT",
-    "preferred_locales" : "ARRAY",
-    "created" : "DATETIME_EPOCH",
-    "balance" : "INT",
+  "channel" : "STRING",
+  "v_direction" : "STRING",
+  "v_intent" : "STRING",
+  "timestamp" : "DATETIME",
+  "sender" : {
     "name" : "PII_PERSON_NAME",
-    "shipping" : "NULL",
-    "address_data" : "",
-    "metadata" : "OBJECT",
-    "invoice_prefix_data" : "STRING",
-    "test_clock" : "NULL"
-  } ],
-  "is_deleted" : true,
-  "v_url" : "URL",
-  "has_more" : "BOOLEAN",
-  "object" : "STRING"
+    "is_active" : true,
+    "primary_email" : "PII_EMAIL",
+    "id" : "STRING",
+    "type" : "STRING"
+  },
+  "messageId" : "STRING",
+  "retry_attempts" : 3791,
+  "recipient_data" : {
+    "type_data" : "STRING",
+    "userName" : "STRING",
+    "id" : "STRING",
+    "retry_attempts" : 448
+  },
+  "conversationId" : "STRING"
 }

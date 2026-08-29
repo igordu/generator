@@ -1,27 +1,25 @@
 {
-  "audit_trail" : {
-    "payload_wrapper" : {
-      "debug_payload" : {
-        "uuid" : "STRING",
-        "name" : "STRING",
-        "media" : {
-          "v_images" : [ {
-            "smallUrl" : "URL",
-            "mediumUrl" : "URL",
-            "largeHdUrl" : "URL",
-            "mediumHdUrl" : "NULL",
-            "system_ping_ms" : 2852,
-            "thumbnailHdUrl" : "URL",
-            "smallHdUrl" : "URL",
-            "type_data" : "STRING",
-            "largeUrl" : "URL"
-          } ],
-          "has_discount" : true
-        },
-        "modelId" : "STRING",
-        "shopUrl" : "URL",
-        "auto_renew" : false
-      }
-    }
-  }
+  "export_id" : "STRING",
+  "ticket" : {
+    "status" : "STRING",
+    "satisfaction_rating" : {
+      "v_comment" : "TEXT",
+      "score" : "STRING",
+      "requires_update" : true
+    },
+    "subject" : "STRING",
+    "id" : "INT",
+    "v_requester" : {
+      "fullName" : "REDACTED",
+      "emailAddress" : "[MASKED]",
+      "is_active" : true,
+      "phone" : "***-***-****"
+    },
+    "created_at" : "DATETIME"
+  },
+  "gdpr_erasure_applied_data" : "BOOLEAN",
+  "retention_policy" : "STRING",
+  "anonymized" : "BOOLEAN",
+  "http_status" : 2568,
+  "exported_at" : "DATETIME"
 }

@@ -1,36 +1,23 @@
 {
-  "registrants" : [ {
-    "join_url" : "URL",
-    "v_job_title" : null,
-    "industry" : "STRING",
-    "no_of_employees" : "STRING",
-    "role_in_purchase_process" : "STRING",
-    "purchasing_time_frame" : "STRING",
-    "state" : "PII_LOCATION_STATE",
-    "identifier" : "STRING",
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "auto_renew" : true,
-    "org" : "PII_ORGANIZATION_NAME",
-    "create_time" : "DATETIME",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "country" : "PII_LOCATION_COUNTRY",
-    "comments" : "STRING",
-    "address" : "PII_ADDRESS_LINE",
-    "email" : "PII_EMAIL",
-    "city" : "PII_LOCATION_CITY",
-    "custom_questions" : [ {
-      "title" : "STRING",
-      "value" : "STRING"
-    }, {
-      "v_value" : "STRING",
-      "is_active" : false
-    } ],
-    "zip" : "STRING",
-    "phone" : "PII_PHONE_NUMBER"
-  } ],
-  "temperature_c" : 207.53,
-  "page_size" : "INT",
-  "page_number" : "NULL",
-  "v_total_records" : "INT",
-  "v_page_count" : "INT"
+  "customer_data" : "STRING",
+  "current_period_start" : "DATETIME_EPOCH",
+  "v_current_period_end" : "DATETIME_EPOCH",
+  "livemode" : "BOOLEAN",
+  "cancel_at_period_end" : "BOOLEAN",
+  "http_status" : 4221,
+  "status" : "STRING",
+  "v_metadata" : {
+    "account_manager" : "PII_EMAIL",
+    "uuid" : "STRING"
+  },
+  "v_object" : "STRING",
+  "v_plan" : {
+    "primaryKey" : "NULL",
+    "v_currency" : "STRING",
+    "product" : "STRING",
+    "object_data" : "STRING",
+    "interval" : "STRING",
+    "amount" : "INT"
+  },
+  "trial_end" : "NULL"
 }

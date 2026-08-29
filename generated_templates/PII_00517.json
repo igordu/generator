@@ -1,24 +1,40 @@
 {
-  "transactions" : {
-    "cpu_usage_percent" : 813.15,
-    "booked_data" : [ {
-      "creditorName" : "PII_PERSON_NAME",
-      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
-      "valueDate" : "DATE",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "debtorName" : "STRING",
-      "transactionId" : "STRING",
-      "amount" : {
-        "cache_hit" : false,
-        "currency" : "STRING",
-        "amount_data" : "DECIMAL"
-      },
-      "bookingDate" : "DATE",
-      "v_debtorAccount" : {
-        "iban" : "STRING"
-      }
+  "v_categories" : [ "STRING" ],
+  "id" : "INT",
+  "from_data" : {
+    "name" : "PII_COMPANY_NAME",
+    "temperature_c" : -18.79,
+    "email" : "PII_EMAIL"
+  },
+  "tracking_settings" : {
+    "click_tracking" : {
+      "enable_data" : "BOOLEAN"
+    },
+    "open_tracking" : {
+      "enable" : "BOOLEAN"
+    },
+    "temperature_c" : 24.21
+  },
+  "status" : "STRING",
+  "personalizations" : [ {
+    "to_data" : [ {
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    } ],
+    "system_ping_ms" : 1279,
+    "v_cc" : [ {
+      "name" : "PII_PERSON_NAME",
+      "temperature_c" : 42.42,
+      "emailAddress" : "PII_EMAIL"
     } ]
-  }
+  } ],
+  "ip_pool_name" : "STRING",
+  "auto_renew" : true,
+  "template_id" : "STRING",
+  "reply_to" : {
+    "name" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "send_at" : "DATETIME_EPOCH",
+  "subject" : "STRING"
 }

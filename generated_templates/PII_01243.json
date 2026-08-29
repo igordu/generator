@@ -1,74 +1,41 @@
-[ {
-  "parents" : [ {
-    "sha" : "STRING",
-    "item_count" : 108,
-    "url" : "URL"
+{
+  "encounterId" : "STRING",
+  "diagnosis_data" : [ {
+    "requires_update" : true,
+    "system" : "STRING",
+    "description" : "STRING",
+    "type" : "STRING"
   } ],
-  "author" : {
-    "site_admin" : "BOOLEAN",
-    "gravatar_id" : "STRING",
-    "subscriptions_url" : null,
-    "repos_url" : "URL",
-    "uuid" : "STRING",
-    "recordId" : "INT",
-    "v_gists_url" : "URL",
-    "following_url" : "URL",
-    "v_received_events_url" : "URL",
-    "login_data" : "STRING",
-    "avatar_url" : "URL",
-    "events_url" : "URL",
-    "organizations_url" : "URL",
-    "followers_url" : "URL",
-    "type" : "STRING",
-    "starred_url" : "URL",
-    "url" : "URL"
-  },
-  "html_url" : "URL",
-  "committer" : {
-    "received_events_url" : "URL",
-    "repos_url" : "NULL",
-    "starred_url_data" : "URL",
-    "gravatar_id" : "STRING",
-    "subscriptions_url" : "URL",
-    "http_status" : 4504,
-    "following_url" : "URL",
-    "followers_url" : "URL",
-    "html_url" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "url" : "URL",
-    "primaryKey" : "STRING",
-    "v_events_url" : "URL",
-    "avatar_url" : "URL",
-    "gists_url_data" : "URL",
-    "v_type" : "STRING"
-  },
-  "has_discount" : false,
-  "url" : "URL",
-  "v_comments_url" : "URL",
-  "sha" : "STRING",
-  "commit" : {
-    "v_message" : "PII_COMPANY_NAME",
-    "v_committer" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL"
+  "retry_attempts" : 2196,
+  "date_data" : "DATE",
+  "v_patient" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "phone" : "PII_PHONE_NUMBER",
+    "v_gender" : "STRING",
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "v_city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "postalCode" : "STRING",
+      "retry_attempts" : 2673
     },
-    "comment_count" : "INT",
-    "url" : "URL",
-    "author" : {
-      "email" : "PII_EMAIL",
-      "page_index" : 634,
-      "date_data" : "DATETIME",
-      "name_val" : "PII_PERSON_NAME"
-    },
-    "verification_data" : {
-      "signature" : "STRING",
-      "verified_at" : "DATETIME",
-      "reason" : "STRING",
-      "has_discount" : false,
-      "verified" : "BOOLEAN",
-      "payload" : "STRING"
-    }
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "taxCode" : "PII_NATIONAL_ID",
+    "is_deleted" : false
   },
-  "identifier" : "STRING"
-} ]
+  "primaryKey" : "STRING",
+  "referral" : {
+    "specialist" : "STRING",
+    "urgency" : "STRING"
+  },
+  "v_prescriptions" : [ {
+    "drugName" : "STRING",
+    "v_frequency" : "STRING",
+    "dose" : "STRING",
+    "durationDays" : "INT",
+    "conversion_rate" : 3.79
+  } ],
+  "encounterType" : "STRING"
+}

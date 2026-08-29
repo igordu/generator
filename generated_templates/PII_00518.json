@@ -1,31 +1,39 @@
 {
-  "telemetry_data" : {
-    "payload_wrapper" : {
-      "debug_payload" : {
-        "transactions_data" : {
-          "booked_data" : [ {
-            "amount_data" : {
-              "currency" : "STRING",
-              "v_amount" : "DECIMAL",
-              "cache_hit" : true
-            },
-            "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-            "creditorName" : "PII_PERSON_NAME",
-            "debtorAccount_data" : {
-              "iban" : "STRING",
-              "is_active" : false
-            },
-            "transactionId" : "STRING",
-            "creditorAccount" : {
-              "v_iban" : "PII_IBAN",
-              "is_deleted" : true
-            },
-            "name_val" : "STRING",
-            "valueDate" : "DATE",
-            "v_bookingDate" : "DATE"
-          } ]
-        }
-      }
-    }
-  }
+  "template_id" : "STRING",
+  "categories_data" : [ "STRING" ],
+  "status" : "NULL",
+  "v_reply_to" : {
+    "name" : null,
+    "email" : "PII_EMAIL"
+  },
+  "from" : {
+    "email" : "PII_EMAIL",
+    "name" : "PII_COMPANY_NAME"
+  },
+  "id" : "INT",
+  "personalizations" : [ {
+    "conversion_rate" : 1.41,
+    "to" : [ {
+      "mail" : "PII_EMAIL",
+      "is_active" : false,
+      "name" : "PII_PERSON_NAME"
+    } ],
+    "cc" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "subject" : "STRING"
+  } ],
+  "send_at" : "",
+  "tracking_settings" : {
+    "open_tracking" : {
+      "enable" : "BOOLEAN"
+    },
+    "click_tracking" : {
+      "enable_data" : "BOOLEAN"
+    },
+    "conversion_rate" : 8.2
+  },
+  "subject_data" : "STRING",
+  "ip_pool_name" : "STRING"
 }

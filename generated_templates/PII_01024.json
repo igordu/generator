@@ -1,15 +1,33 @@
 {
-  "account_holder_name" : "PII_PERSON_NAME",
+  "checkIn" : "DATE",
   "status" : "STRING",
-  "metadata_data" : "OBJECT",
-  "currency_data" : "STRING",
-  "account_type_data" : "STRING",
-  "account_holder_type" : "STRING",
-  "last4" : "STRING",
-  "customer" : "STRING",
-  "id" : "STRING",
-  "country" : "STRING",
-  "bank_name" : "STRING",
-  "routing_number" : "NULL",
-  "object" : "STRING"
+  "specialRequests" : "STRING",
+  "priority_level" : 365,
+  "hotel" : {
+    "name" : "PII_COMPANY_NAME",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "id" : "STRING",
+    "address" : "PII_ADDRESS_LINE"
+  },
+  "pricing" : {
+    "tax" : "DECIMAL",
+    "totalBeforeTax" : "DECIMAL",
+    "temperature_c" : -11.95,
+    "ratePerNight" : "DECIMAL",
+    "total" : "DECIMAL",
+    "v_currency" : "STRING"
+  },
+  "checkOut" : "DATE",
+  "reservationId" : "STRING",
+  "guest" : {
+    "passportNumber" : "PII_NATIONAL_ID",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER",
+    "v_nationality" : "PII_LOCATION_COUNTRY",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "loyaltyNumber" : "STRING",
+  "createdAt" : "DATETIME"
 }

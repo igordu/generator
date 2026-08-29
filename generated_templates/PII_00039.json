@@ -1,22 +1,62 @@
 {
-  "content" : [ {
-    "recommend" : "",
-    "unhelpfulCount" : "INT",
-    "customerCity" : "PII_LOCATION_CITY",
-    "title" : "PII_COMPANY_NAME",
-    "helpfulCount" : "INT",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "articleId" : "STRING",
-    "identifier" : "STRING",
-    "created" : "DATETIME",
-    "articleSizeRatings" : {
-      "OVERALL" : null,
-      "SHOE_WIDTH" : "INT",
-      "cpu_usage_percent" : 866.22
+  "status" : "STRING",
+  "primaryKey" : {
+    "email" : "PII_EMAIL",
+    "secondaryPhone" : {
+      "cpu_usage_percent" : 81.47,
+      "phoneType" : "STRING",
+      "v_countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
     },
-    "reviewId" : "STRING",
-    "language" : "STRING",
-    "cpu_usage_percent" : 439.67,
-    "v_rating" : "INT"
-  } ]
+    "lastName" : "PII_PERSON_NAME",
+    "registrationAddress_data" : {
+      "addressLine2" : "STRING",
+      "county" : "STRING",
+      "city_data" : "STRING",
+      "stateOrProvince" : "STRING",
+      "postalCode" : "STRING",
+      "country_data" : "STRING"
+    },
+    "mobile" : {
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "cell" : "STRING"
+    },
+    "firstName" : "PII_PERSON_NAME"
+  },
+  "businessAccount" : {
+    "doingBusinessAs" : "",
+    "primaryContact" : {
+      "lastName" : "PII_PERSON_NAME",
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "primaryPhone" : {
+      "number_data" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "is_deleted" : true,
+    "name" : "PII_ORGANIZATION_NAME",
+    "email" : "PII_EMAIL",
+    "secondaryPhone" : {
+      "number_data" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "phoneType" : "STRING",
+      "has_discount" : false
+    },
+    "website_data" : "URL",
+    "v_address" : {
+      "stateOrProvince" : "STRING",
+      "addressLine1" : "NULL",
+      "response_time_sec" : 15.14,
+      "postalCode" : "STRING",
+      "city" : "STRING",
+      "addressLine2" : "NULL",
+      "v_county" : "STRING"
+    }
+  },
+  "accountType" : "STRING",
+  "userId" : "STRING",
+  "fullName" : "PII_USERNAME",
+  "registrationMarketplaceId" : "STRING"
 }

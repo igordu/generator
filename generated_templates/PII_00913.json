@@ -1,33 +1,32 @@
 {
-  "v_has_more" : "BOOLEAN",
-  "is_active" : true,
-  "url" : "URL",
-  "data_data" : [ {
-    "tax_exempt" : "STRING",
-    "address" : "NULL",
-    "preferred_locales" : "ARRAY",
-    "test_clock" : "NULL",
-    "shipping" : "NULL",
-    "currency" : "",
-    "v_object" : "STRING",
-    "balance" : "INT",
-    "delinquent" : "BOOLEAN",
-    "v_next_invoice_sequence" : "INT",
-    "phone" : "PII_PHONE_NUMBER",
-    "created" : "DATETIME_EPOCH",
-    "is_active" : true,
-    "v_default_source" : "STRING",
-    "invoice_settings" : {
-      "rendering_options_data" : "NULL",
-      "default_payment_method" : "STRING",
-      "custom_fields" : "NULL",
-      "v_footer" : "NULL"
-    },
+  "description" : "STRING",
+  "estimatedLoss_data" : "DECIMAL",
+  "adjuster_data" : {
+    "has_discount" : false,
+    "identifier" : "STRING",
     "email" : "PII_EMAIL",
-    "id" : "STRING",
-    "description" : "STRING",
-    "userName" : "PII_PERSON_NAME",
-    "metadata_data" : "OBJECT"
-  } ],
-  "v_object" : "STRING"
+    "name" : "PII_PERSON_NAME"
+  },
+  "policyHolder" : {
+    "is_deleted" : false,
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "v_address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "v_city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "response_time_sec" : 1.63,
+      "zip" : "STRING",
+      "state" : "STRING"
+    }
+  },
+  "claimId" : "STRING",
+  "v_policyNumber" : "STRING",
+  "incidentDate" : "NULL",
+  "status" : "STRING",
+  "currency" : "STRING",
+  "reportedDate" : "DATE"
 }

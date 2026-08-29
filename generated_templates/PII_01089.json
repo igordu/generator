@@ -1,13 +1,45 @@
 {
-  "account_holder_type" : "STRING",
-  "id" : "STRING",
-  "v_routing_number" : "STRING",
-  "customer" : "STRING",
-  "fingerprint" : "STRING",
-  "account_type" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "last4" : "STRING",
-  "currency" : "STRING",
-  "status" : "STRING",
-  "v_object" : ""
+  "data" : {
+    "fetchResource" : {
+      "v_trackingNumber" : "STRING",
+      "recipient" : {
+        "cpu_usage_percent" : 83.13,
+        "email" : "PII_EMAIL",
+        "phone" : "PII_PHONE_NUMBER",
+        "fullName" : "PII_PERSON_NAME",
+        "address" : {
+          "street" : "PII_ADDRESS_LINE",
+          "postalCode" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "country" : "PII_LOCATION_COUNTRY"
+        }
+      },
+      "cpu_usage_percent" : 37.11,
+      "estimatedDelivery" : "DATE",
+      "events" : [ {
+        "location" : "PII_LOCATION_CITY",
+        "status" : "STRING",
+        "timestamp" : "DATETIME"
+      } ],
+      "sender" : {
+        "page_index" : 624,
+        "contactEmail" : "PII_EMAIL",
+        "name" : "PII_COMPANY_NAME",
+        "address" : "PII_ADDRESS_LINE"
+      },
+      "parcels_data" : [ {
+        "dimensions" : {
+          "length" : "INT",
+          "unit" : "STRING"
+        },
+        "cpu_usage_percent" : 41.45,
+        "uuid" : "STRING",
+        "weight" : {
+          "value" : "DECIMAL"
+        }
+      } ],
+      "deliveryId" : "STRING",
+      "carrier" : "STRING"
+    }
+  }
 }

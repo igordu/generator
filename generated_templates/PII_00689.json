@@ -1,38 +1,14 @@
 {
-  "Employees" : [ {
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING",
-      "cache_hit" : true
-    },
-    "EmployeeID" : "STRING",
-    "temperature_c" : 10.24,
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "Status" : "NULL"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "cache_hit" : false,
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "v_Description" : "STRING",
-      "cache_hit" : true
-    },
-    "UpdatedDateUTC_data" : "DATETIME",
-    "Status_data" : "STRING"
-  }, {
-    "UpdatedDateUTC_data" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "v_Description" : "STRING",
-      "Url" : "URL"
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING"
+  "url" : "NULL",
+  "primaryKey" : "PII_USERNAME",
+  "date_updated" : "DATETIME",
+  "v_factors" : [ {
+    "fullName" : "",
+    "status" : "STRING",
+    "factor_type" : "STRING",
+    "date_created" : "DATETIME"
   } ],
-  "Status" : "STRING",
-  "ProviderName" : "STRING",
-  "is_active" : false,
-  "DateTimeUTC" : "DATETIME"
+  "service_sid" : "STRING",
+  "uuid" : "STRING",
+  "date_created_data" : "DATETIME"
 }

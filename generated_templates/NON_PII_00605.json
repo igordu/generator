@@ -1,4 +1,18 @@
 {
-  "emailAddress" : [ "NULL" ],
-  "response_time_sec" : 517.05
+  "database" : "STRING",
+  "region" : "STRING",
+  "snapshotId" : "STRING",
+  "requires_update" : false,
+  "tags" : {
+    "environment" : "STRING",
+    "discount_rate" : 62.84,
+    "team" : "STRING"
+  },
+  "sizeGb" : "DECIMAL",
+  "type" : "STRING",
+  "cluster" : null,
+  "startedAt" : "DATETIME",
+  "v_completedAt" : "DATETIME",
+  "retentionDays" : "INT",
+  "v_status" : "STRING"
 }

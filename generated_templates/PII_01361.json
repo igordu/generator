@@ -1,14 +1,34 @@
 {
-  "page_index" : 2711,
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "price" : 273.97,
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE"
+  "pullRequest" : {
+    "additions_data" : "INT",
+    "author_data" : {
+      "name" : "PII_PERSON_NAME",
+      "login_data" : "PII_USERNAME",
+      "email" : "PII_EMAIL",
+      "priority_level" : 4451
+    },
+    "state" : "STRING",
+    "reviewers" : [ {
+      "page_index" : 148,
+      "state" : "STRING",
+      "login" : "PII_USERNAME",
+      "email" : "PII_EMAIL",
+      "fullName" : "PII_PERSON_NAME"
+    } ],
+    "cache_hit" : true,
+    "id" : "INT",
+    "changedFiles" : "INT",
+    "createdAt" : "DATETIME",
+    "updatedAt" : "DATETIME",
+    "title" : "STRING",
+    "deletions" : "INT",
+    "baseBranch" : "STRING",
+    "headBranch" : "STRING"
   },
-  "v_tree" : {
-    "sha_data" : "STRING",
-    "v_url" : "URL",
-    "stock_quantity" : 867
-  }
+  "name" : "STRING",
+  "private" : "BOOLEAN",
+  "fullName" : "STRING",
+  "language" : "STRING",
+  "has_discount" : false,
+  "recordId" : "STRING"
 }

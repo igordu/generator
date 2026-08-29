@@ -1,25 +1,33 @@
 {
-  "v_has_more" : "BOOLEAN",
-  "data" : [ {
-    "phone" : "PII_PHONE_NUMBER",
-    "v_created" : "DATETIME_EPOCH",
-    "v_metadata" : "OBJECT",
-    "invoice_prefix" : "STRING",
-    "next_invoice_sequence_data" : "INT",
-    "object" : "STRING",
-    "tax_exempt" : "STRING",
-    "livemode" : "BOOLEAN",
-    "delinquent" : "BOOLEAN",
-    "name" : "PII_PERSON_NAME",
-    "shipping" : "NULL",
-    "test_clock" : "NULL",
-    "v_default_source" : "STRING",
-    "preferred_locales" : "ARRAY",
-    "email" : "PII_EMAIL",
-    "v_address" : "NULL",
-    "currency" : "STRING",
-    "v_balance" : "INT"
-  } ],
-  "object" : "STRING",
-  "url" : "URL"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "card" : {
+      "cardholderName" : "PII_PERSON_NAME",
+      "expiryMonth_data" : "STRING",
+      "issuingCountry" : "PII_LOCATION_COUNTRY",
+      "issuingBank" : "PII_COMPANY_NAME",
+      "cache_hit" : false,
+      "scheme" : "STRING",
+      "expiryYear" : "STRING",
+      "pan" : "PII_CREDIT_CARD"
+    },
+    "status" : "STRING",
+    "timestamp" : "DATETIME",
+    "transactionId" : "STRING",
+    "type_data" : "STRING",
+    "fraudScore" : "INT",
+    "merchant" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "name" : "PII_COMPANY_NAME",
+      "discount_rate" : 28.89
+    },
+    "billing" : {
+      "conversion_rate" : 8.09,
+      "address" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING",
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY"
+    }
+  }
 }

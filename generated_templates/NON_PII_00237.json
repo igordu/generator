@@ -1,35 +1,22 @@
-[ {
-  "v_filter" : "STRING",
-  "facets" : [ {
-    "count" : "INT",
-    "key" : "STRING",
-    "clientName" : "STRING"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "v_key" : null
-  }, {
-    "v_count" : "INT",
-    "displayName" : "STRING",
-    "is_deleted" : true,
-    "key" : "STRING"
-  } ]
-}, {
-  "facets" : [ {
-    "has_discount" : true,
-    "key_data" : "STRING",
-    "userName" : null
-  }, {
-    "key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "key" : "STRING",
-    "auto_renew" : true,
-    "userName" : "STRING",
-    "count" : "INT"
-  } ],
-  "filter" : "STRING"
-}, {
-  "filter" : "STRING"
-} ]
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "service_data" : "STRING",
+    "auth" : {
+      "token_expires_data" : "DATETIME",
+      "client_secret" : "[MASKED]",
+      "api_key_data" : "[REDACTED]",
+      "password" : "********"
+    },
+    "connection" : {
+      "retries" : "INT",
+      "timeout_ms" : "INT"
+    },
+    "environment" : "STRING",
+    "log_line" : "TEXT",
+    "last_run" : "DATETIME"
+  }
+}

@@ -1,81 +1,52 @@
 {
-  "discount_rate" : 441.34,
-  "schedule_meeting_data" : {
-    "meeting_password_requirement" : {
-      "length" : "INT",
-      "have_number" : "BOOLEAN",
-      "only_allow_numeric" : "BOOLEAN",
-      "response_time_sec" : 137.14,
-      "have_letter_data" : "BOOLEAN"
-    },
-    "v_pmi_password" : "PII_PASSWORD",
-    "v_not_store_meeting_topic" : "BOOLEAN",
-    "participants_video" : "BOOLEAN",
-    "require_password_for_pmi_meetings" : "STRING",
-    "v_require_password_for_scheduling_new_meetings" : "BOOLEAN",
-    "embed_password_in_join_link" : "BOOLEAN",
-    "join_before_host" : "BOOLEAN",
-    "primaryKey" : "BOOLEAN",
-    "v_use_pmi_for_scheduled_meetings" : "BOOLEAN",
-    "audio_type" : "STRING",
-    "use_pmi_for_instant_meetings" : "NULL",
-    "force_pmi_jbh_password" : "BOOLEAN",
-    "pstn_password_protected" : "BOOLEAN"
-  },
-  "telephony" : {
-    "audio_conference_info" : "STRING",
-    "is_deleted" : true,
-    "third_party_audio" : null,
-    "show_international_numbers_link" : "BOOLEAN"
-  },
-  "in_meeting_data" : {
-    "remote_support" : "BOOLEAN",
-    "v_closed_caption" : "BOOLEAN",
-    "breakout_room" : "BOOLEAN",
-    "v_waiting_room" : "BOOLEAN",
-    "chat" : "BOOLEAN",
-    "auto_saving_chat_data" : "BOOLEAN",
-    "attendee_on_hold" : null,
-    "private_chat" : "BOOLEAN",
-    "entry_exit_chime" : "STRING",
-    "annotation" : "BOOLEAN",
-    "virtual_background" : null,
-    "record_play_voice_data" : "BOOLEAN",
-    "far_end_camera_control" : "BOOLEAN",
-    "show_meeting_control_toolbar" : "BOOLEAN",
-    "group_hd" : "BOOLEAN",
-    "custom_data_center_regions" : "BOOLEAN",
-    "polling" : "BOOLEAN",
-    "feedback" : "BOOLEAN",
-    "item_count" : 1140,
-    "co_host" : "BOOLEAN",
-    "allow_live_streaming_data" : "BOOLEAN",
-    "v_e2e_encryption" : "BOOLEAN",
-    "remote_control" : "BOOLEAN"
-  },
-  "email_notification" : {
-    "schedule_for_reminder" : "BOOLEAN",
-    "jbh_reminder" : "BOOLEAN",
-    "alternative_host_reminder" : "BOOLEAN",
-    "cancel_meeting_reminder" : "BOOLEAN"
-  },
-  "recording" : {
-    "v_auto_recording" : "STRING",
-    "record_gallery_view" : "BOOLEAN",
-    "auto_delete_cmr" : "BOOLEAN",
-    "cloud_recording" : "",
-    "local_recording" : "BOOLEAN",
-    "cache_hit" : true,
-    "save_chat_text_data" : "BOOLEAN",
-    "show_timestamp" : "BOOLEAN",
-    "record_speaker_view_data" : "BOOLEAN"
-  },
-  "feature_data" : {
-    "large_meeting" : null,
-    "in_meeting" : "BOOLEAN",
-    "webinar" : "BOOLEAN",
-    "v_cn_meeting" : "BOOLEAN",
-    "meeting_capacity" : "INT",
-    "cache_hit" : true
+  "audit_trail" : {
+    "transaction_trace" : {
+      "body" : {
+        "v_owners" : [ {
+          "is_active" : false,
+          "addresses" : [ {
+            "primary_data" : "BOOLEAN",
+            "data" : {
+              "v_region" : "PII_LOCATION_STATE",
+              "city" : "PII_LOCATION_CITY",
+              "street" : "PII_ADDRESS_LINE",
+              "country" : "PII_LOCATION_COUNTRY",
+              "discount_rate" : 6.68,
+              "postal_code" : "STRING"
+            }
+          } ],
+          "names" : [ "PII_PERSON_NAME" ],
+          "phone_numbers" : [ {
+            "data" : "PII_PHONE_NUMBER",
+            "type" : "STRING",
+            "primary" : "BOOLEAN"
+          } ],
+          "contactEmail" : [ {
+            "primary" : "BOOLEAN",
+            "data" : "PII_EMAIL",
+            "type" : "STRING"
+          } ]
+        } ],
+        "cpu_usage_percent" : 98.03,
+        "item" : {
+          "discount_rate" : 23.82,
+          "fullName" : "PII_COMPANY_NAME"
+        },
+        "accounts" : [ {
+          "subtype_data" : "STRING",
+          "name" : "STRING",
+          "type" : "STRING",
+          "official_name" : "STRING",
+          "mask" : null,
+          "is_deleted" : true,
+          "account_id" : "STRING",
+          "balances" : {
+            "limit" : "NULL",
+            "retry_attempts" : 557,
+            "iso_currency_code" : "STRING"
+          }
+        } ]
+      }
+    }
   }
 }

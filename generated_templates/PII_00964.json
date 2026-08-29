@@ -1,23 +1,22 @@
 {
-  "data" : [ {
-    "v_shipping" : "NULL",
-    "object" : "STRING",
-    "metadata" : "OBJECT",
-    "test_clock" : "NULL",
-    "default_source" : "STRING",
-    "temperature_c" : 897.18,
-    "balance" : "INT",
-    "email" : "PII_EMAIL",
-    "v_currency" : "STRING",
-    "name" : "PII_PERSON_NAME",
+  "v_resource" : {
+    "v_type" : "STRING",
     "id" : "STRING",
-    "created" : "DATETIME_EPOCH",
-    "phone" : "PII_PHONE_NUMBER",
-    "next_invoice_sequence" : null,
-    "address" : "NULL",
-    "v_preferred_locales" : "ARRAY"
-  } ],
-  "v_has_more" : "BOOLEAN",
-  "object" : "STRING",
-  "url_data" : "URL"
+    "name" : "STRING"
+  },
+  "version" : "STRING",
+  "uuid" : "STRING",
+  "timestamp" : "DATETIME",
+  "outcome" : "",
+  "v_actor" : {
+    "email" : "PII_EMAIL",
+    "fullName" : "PII_USERNAME",
+    "user_agent" : "STRING",
+    "user_id" : "STRING",
+    "ip_address" : "PII_IP_ADDRESS"
+  },
+  "event_type_data" : "STRING",
+  "mfa_used" : "BOOLEAN",
+  "audit_id" : "STRING",
+  "severity" : "STRING"
 }

@@ -1,20 +1,33 @@
-[ {
-  "key" : "STRING",
-  "v_projectCategory" : {
-    "clientName" : "STRING",
-    "identifier" : "STRING",
-    "price" : 903.73,
-    "v_description" : "STRING",
-    "self_data" : "URL"
+{
+  "period" : "STRING",
+  "metrics" : {
+    "p99LatencyMs_data" : null,
+    "throughputRps" : "DECIMAL",
+    "requestCount" : "INT",
+    "page_index" : 1977,
+    "p50LatencyMs" : "INT",
+    "errorRate" : "DECIMAL",
+    "p999LatencyMs_data" : "INT",
+    "p95LatencyMs_data" : "",
+    "errorCount" : "INT"
   },
-  "name" : "",
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "24x24_data" : null,
-    "32x32" : "URL"
+  "has_discount" : true,
+  "topErrors_data" : [ {
+    "code" : "STRING"
+  } ],
+  "statusCodes" : {
+    "200" : "INT",
+    "404" : "INT",
+    "429" : "INT",
+    "500" : "INT"
   },
-  "id" : "STRING",
-  "simplified" : "BOOLEAN",
-  "v_self" : "URL",
-  "style" : "STRING"
-} ]
+  "endpoint" : "STRING",
+  "v_sloCompliance" : {
+    "latencyActualP99" : "INT",
+    "latencyTarget" : "INT",
+    "withinSlo" : "BOOLEAN",
+    "availabilityTarget" : "DECIMAL",
+    "is_active" : false
+  },
+  "serviceId" : "STRING"
+}

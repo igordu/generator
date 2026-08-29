@@ -1,21 +1,24 @@
 {
-  "cache_hit" : true,
-  "content" : [ {
-    "description" : "NULL",
-    "rating" : "INT",
-    "item_count" : 972,
-    "articleModelId" : "STRING",
-    "articleSizeRatings" : {
-      "recordId" : "INT",
-      "OVERALL" : "INT"
+  "ticket_data" : {
+    "priority" : "NULL",
+    "tags" : [ "STRING" ],
+    "created_at" : "DATETIME",
+    "description" : "PII_FREE_TEXT",
+    "assignee_id" : "INT",
+    "status" : "STRING",
+    "subject" : "STRING",
+    "v_requester" : {
+      "name" : "PII_PERSON_NAME",
+      "mail" : "PII_EMAIL"
     },
-    "reviewId" : "STRING",
-    "helpfulCount" : "INT",
-    "title" : "PII_COMPANY_NAME",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_customerCity" : "PII_LOCATION_CITY",
-    "identifier" : "STRING",
-    "unhelpfulCount_data" : "INT",
-    "recommend" : "BOOLEAN"
-  } ]
+    "id" : "INT",
+    "comments" : [ {
+      "created_at_data" : "DATETIME",
+      "id" : "INT",
+      "public" : "BOOLEAN",
+      "body_data" : "PII_FREE_TEXT",
+      "author_id" : "INT"
+    } ]
+  },
+  "temperature_c" : 23.16
 }

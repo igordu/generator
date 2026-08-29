@@ -1,65 +1,41 @@
 {
-  "individualAccount" : {
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "cache_hit" : false,
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "secondaryPhone" : {
-      "discount_rate" : 324.63,
-      "phoneType" : "STRING",
-      "countryCode_data" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "requires_update" : true,
-    "email" : "PII_EMAIL",
-    "registrationAddress" : {
-      "stateOrProvince_data" : "STRING",
-      "postalCode" : "STRING",
-      "city" : "STRING",
-      "addressLine1" : "NULL",
-      "county" : "STRING",
-      "addressLine2_data" : null,
-      "requires_update" : false,
-      "country" : "STRING"
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "fullName" : "PII_PERSON_NAME"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "businessAccount" : {
-    "v_primaryContact" : {
-      "is_active" : true,
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
+  "results" : {
+    "telecom" : [ {
+      "priority_level" : 4586,
+      "value" : "PII_PHONE_NUMBER",
+      "system" : "STRING",
+      "v_use" : "STRING"
+    }, {
+      "value_data" : "PII_EMAIL",
+      "system_data" : "STRING"
+    } ],
+    "resourceType" : "STRING",
+    "identifier" : [ {
+      "use" : "STRING",
+      "value" : "PII_NATIONAL_ID"
+    } ],
+    "meta" : {
+      "versionId" : "INT"
     },
-    "website" : "URL",
-    "doingBusinessAs" : "STRING",
-    "email" : "PII_EMAIL",
-    "mobile" : {
-      "phoneType" : "STRING",
-      "temperature_c" : 367.79,
-      "countryCode" : null,
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "address" : {
-      "city" : "STRING",
-      "addressLine1" : "STRING",
-      "postalCode" : "STRING",
-      "addressLine2_data" : "NULL",
-      "stateOrProvince_data" : null,
-      "v_country" : "STRING",
-      "county" : "STRING",
-      "page_index" : 2387
-    },
-    "name" : "PII_ORGANIZATION_NAME"
-  },
-  "v_accountType" : "STRING",
-  "registrationMarketplaceId" : "STRING",
-  "status_data" : "STRING",
-  "fullName" : "PII_USERNAME"
+    "address" : [ {
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "line" : [ "PII_ADDRESS_LINE" ],
+      "retry_attempts" : 4829,
+      "city" : "PII_LOCATION_CITY",
+      "use" : "STRING"
+    } ],
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "id" : "STRING",
+    "v_gender" : "STRING",
+    "name_val" : [ {
+      "v_use" : "STRING",
+      "retry_attempts" : 3590,
+      "family" : "PII_PERSON_LAST_NAME",
+      "v_given" : [ "PII_PERSON_FIRST_NAME" ]
+    } ]
+  }
 }

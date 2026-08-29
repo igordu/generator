@@ -1,13 +1,16 @@
 {
-  "auto_renew" : true,
-  "numberOfUserRecommendations" : "NULL",
-  "v_averageStarRating" : "INT",
-  "numberOfUserReviews" : "INT",
-  "starRatingDistribution" : {
-    "v_4" : "INT",
-    "v_5" : "INT",
-    "price" : 384.93,
-    "1" : "INT"
-  },
-  "identifier" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "numberOfUserPositiveRecommendations" : "INT",
+      "numberOfUserRecommendations" : "INT",
+      "numberOfUserReviews" : "INT",
+      "uuid" : "STRING",
+      "averageStarRating" : "INT",
+      "v_starRatingDistribution" : {
+        "5_data" : "INT",
+        "3" : "INT",
+        "v_4" : "INT"
+      }
+    }
+  }
 }

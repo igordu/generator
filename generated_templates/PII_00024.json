@@ -1,25 +1,63 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "content" : [ {
-        "v_rating" : "",
-        "helpfulCount" : "INT",
-        "articleId" : "STRING",
-        "v_language" : "STRING",
-        "v_recommend" : "BOOLEAN",
-        "reviewId" : "STRING",
-        "customerCity_data" : "PII_LOCATION_CITY",
-        "unhelpfulCount_data" : "INT",
-        "v_title" : "PII_COMPANY_NAME",
-        "created" : "DATETIME",
-        "articleSizeRatings" : {
-          "OVERALL_data" : "INT",
-          "SHOE_WIDTH" : "INT"
-        },
-        "uuid" : "STRING",
-        "description" : "STRING",
-        "customerCountry" : "PII_LOCATION_COUNTRY"
-      } ]
-    }
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "businessAccount" : {
+      "secondaryPhone" : {
+        "number" : "PII_PHONE_NUMBER",
+        "countryCode" : "STRING"
+      },
+      "address" : {
+        "v_postalCode" : "STRING",
+        "county" : "STRING",
+        "v_addressLine2" : "STRING",
+        "stateOrProvince" : null,
+        "addressLine1" : "STRING",
+        "temperature_c" : -6.47,
+        "country_data" : "STRING",
+        "city" : "STRING"
+      },
+      "contactNumber" : {
+        "telephone" : "STRING",
+        "countryCode" : "STRING",
+        "v_number" : "PII_PHONE_NUMBER",
+        "item_count" : 2808
+      },
+      "email" : "PII_EMAIL",
+      "name" : "PII_ORGANIZATION_NAME",
+      "website" : "URL",
+      "primaryContact" : {
+        "conversion_rate" : 1.74,
+        "name_val" : "PII_PERSON_NAME",
+        "lastName" : "PII_PERSON_NAME"
+      },
+      "v_doingBusinessAs" : "STRING",
+      "is_active" : true
+    },
+    "recordId" : {
+      "primaryPhone" : {
+        "stock_quantity" : 2394,
+        "number" : "PII_PHONE_NUMBER",
+        "contactNumber" : "STRING",
+        "countryCode" : "STRING"
+      },
+      "clientName" : "PII_PERSON_NAME",
+      "contactNumber" : {
+        "phoneType" : "STRING",
+        "countryCode_data" : "STRING",
+        "number" : "PII_PHONE_NUMBER"
+      },
+      "primary_email" : "PII_EMAIL",
+      "firstName" : "PII_PERSON_NAME",
+      "requires_update" : false
+    },
+    "registrationMarketplaceId" : null,
+    "v_status" : "STRING",
+    "userId" : "STRING",
+    "has_discount" : false,
+    "username" : "PII_USERNAME",
+    "accountType_data" : "STRING"
   }
 }

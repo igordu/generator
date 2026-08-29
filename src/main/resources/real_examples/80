@@ -1,0 +1,27 @@
+{
+  "transferId": "TRF-2024-00182",
+  "status": "completed",
+  "initiatedAt": "2024-04-10T09:30:00Z",
+  "completedAt": "2024-04-10T09:30:45Z",
+  "sender": {
+    "accountId": "ACC-DE-00821",
+    "iban": "DE89 3704 0044 0532 0130 00",
+    "name": "Markus Bauer",
+    "bankName": "Deutsche Bank",
+    "bic": "DEUTDEDB"
+  },
+  "recipient": {
+    "accountId": "ACC-FR-00492",
+    "iban": "FR76 3000 6000 0112 3456 7890 189",
+    "name": "Sophie Martin",
+    "bankName": "BNP Paribas",
+    "bic": "BNPAFRPP"
+  },
+  "amount": {
+    "value": 2500.00,
+    "currency": "EUR"
+  },
+  "reference": "Invoice INV-2024-00488",
+  "chargesBearer": "SHAR",
+  "endToEndId": "E2E-20240410-00182"
+}

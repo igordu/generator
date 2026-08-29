@@ -1,20 +1,26 @@
 {
-  "content" : [ {
-    "description_data" : "STRING",
-    "created_data" : "DATETIME",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "language" : "STRING",
-    "articleModelId" : "STRING",
-    "articleId" : "STRING",
-    "articleSizeRatings" : {
-      "OVERALL" : "INT",
-      "SHOE_WIDTH" : "INT"
+  "ticket" : {
+    "priority" : "STRING",
+    "id" : "INT",
+    "updated_at" : "DATETIME",
+    "tags" : [ "STRING" ],
+    "subject" : "STRING",
+    "status" : "STRING",
+    "identifier" : "INT",
+    "comments" : [ {
+      "stock_quantity" : 1716,
+      "created_at" : "DATETIME",
+      "public" : "BOOLEAN",
+      "body" : "PII_FREE_TEXT",
+      "id" : "INT"
+    } ],
+    "requester" : {
+      "name" : "PII_PERSON_NAME",
+      "system_ping_ms" : 740,
+      "mail" : "PII_EMAIL"
     },
-    "rating" : "INT",
-    "customerCity" : "PII_LOCATION_CITY",
-    "recommend" : "BOOLEAN",
-    "v_title" : "PII_COMPANY_NAME",
-    "unhelpfulCount" : "INT",
-    "helpfulCount" : "INT"
-  } ]
+    "created_at" : "DATETIME",
+    "description" : "PII_FREE_TEXT"
+  },
+  "cache_hit" : true
 }

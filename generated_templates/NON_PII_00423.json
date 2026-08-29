@@ -1,5 +1,28 @@
 {
-  "clientToken" : "STRING",
-  "requires_update" : true,
-  "clientName" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "deliveredAt" : "DATETIME",
+      "signature" : "STRING",
+      "has_discount" : true,
+      "response" : {
+        "latencyMs" : "INT",
+        "body_data" : "STRING",
+        "statusCode" : "INT"
+      },
+      "webhookId" : "STRING",
+      "event" : "STRING",
+      "v_endpoint" : {
+        "item_count" : 4723,
+        "id" : "STRING",
+        "url_data" : "NULL",
+        "status" : "STRING"
+      },
+      "payload" : {
+        "totalAmount" : "DECIMAL",
+        "orderId" : "STRING",
+        "completedAt" : "DATETIME"
+      },
+      "attempts" : "INT"
+    }
+  }
 }

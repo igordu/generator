@@ -1,28 +1,17 @@
-[ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "auto_renew" : false,
-    "count" : "INT"
-  }, {
-    "key_data" : null,
-    "userName" : "STRING",
-    "count" : "INT",
-    "is_active" : false
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key" : "STRING"
-  } ]
-}, {
-  "facets" : [ {
-    "conversion_rate" : 135.92,
-    "key" : "STRING",
-    "displayName" : "STRING"
-  } ],
-  "filter" : "STRING"
-}, {
-  "filter" : "STRING",
-  "price" : 496.03
-} ]
+{
+  "quantity_reserved" : "INT",
+  "clientName" : "STRING",
+  "quantity_available_data" : "INT",
+  "tags" : [ "STRING" ],
+  "stock_quantity" : 2878,
+  "last_received_at" : "DATETIME",
+  "v_location_code" : "STRING",
+  "reorder_quantity" : "INT",
+  "last_counted_at" : "DATETIME",
+  "sku" : "STRING",
+  "quantity_on_hand" : "INT",
+  "warehouse_id" : "STRING",
+  "currency" : "STRING",
+  "v_unit_cost" : "INT",
+  "v_is_hazardous" : "BOOLEAN"
+}

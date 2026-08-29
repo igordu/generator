@@ -1,20 +1,38 @@
 {
-  "telemetry_data" : {
-    "event_data" : {
-      "raw_data" : {
-        "fingerprint_data" : "STRING",
-        "last4" : "STRING",
-        "object" : "STRING",
-        "country" : "STRING",
-        "customer_data" : "STRING",
-        "account_holder_name" : "PII_PERSON_NAME",
-        "account_holder_type" : "STRING",
-        "userName" : "STRING",
-        "currency" : "",
-        "account_type_data" : null,
-        "status" : "STRING",
-        "routing_number" : "STRING"
-      }
-    }
+  "is_active" : false,
+  "identifier" : "STRING",
+  "creditScore" : "INT",
+  "applicant" : {
+    "primary_email" : "PII_EMAIL",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "employmentStatus_data" : "STRING",
+    "address" : {
+      "v_state" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street_data" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "http_status" : 1021
+    },
+    "primaryKey" : "PII_NATIONAL_ID",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "monthlyIncome" : "DECIMAL",
+    "employer" : "PII_COMPANY_NAME"
+  },
+  "status" : "NULL",
+  "v_loanDetails" : {
+    "termMonths" : "INT",
+    "currency" : "STRING",
+    "requestedAt" : "DATETIME",
+    "type" : "STRING",
+    "v_purpose" : "STRING",
+    "item_count" : 663,
+    "requestedAmount" : "DECIMAL"
+  },
+  "bankAccount" : {
+    "iban_data" : "PII_IBAN",
+    "branchCode" : "STRING",
+    "bankName" : "PII_COMPANY_NAME"
   }
 }

@@ -1,41 +1,41 @@
 {
-  "v_site_admin" : "BOOLEAN",
-  "company" : "PII_ORGANIZATION_NAME",
-  "type_data" : "STRING",
-  "public_repos" : "INT",
-  "v_disk_usage" : "INT",
-  "hireable" : "BOOLEAN",
-  "private_gists" : "INT",
-  "avatar_url_data" : "URL",
-  "created_at" : "DATETIME",
-  "node_id" : "STRING",
-  "location" : "PII_LOCATION_CITY",
-  "identifier" : "INT",
-  "total_private_repos" : "INT",
-  "following_url_data" : "URL",
-  "updated_at" : "DATETIME",
-  "subscriptions_url" : "URL",
-  "organizations_url" : "URL",
-  "bio_data" : "PII_ORGANIZATION_NAME",
-  "plan" : {
-    "space" : "INT",
-    "name" : "STRING",
-    "collaborators" : "INT",
-    "private_repos_data" : null
+  "status" : "STRING",
+  "parcels_data" : [ {
+    "v_dimensions" : {
+      "v_unit" : "STRING",
+      "uuid" : "INT",
+      "length" : "INT",
+      "height" : "INT"
+    },
+    "uuid" : "STRING"
+  } ],
+  "events" : [ {
+    "status" : null,
+    "price" : 1934.88,
+    "timestamp_data" : "DATETIME",
+    "location" : "PII_LOCATION_CITY"
+  } ],
+  "recipient" : {
+    "v_deliveryInstructions" : "STRING",
+    "v_address" : {
+      "postalCode" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "item_count" : 1364,
+      "city" : "PII_LOCATION_CITY"
+    },
+    "email" : "PII_EMAIL",
+    "mobile" : "PII_PHONE_NUMBER",
+    "name" : "PII_PERSON_NAME"
   },
-  "v_login" : "STRING",
-  "twitter_username" : "STRING",
-  "following" : "INT",
-  "collaborators_data" : "INT",
-  "gists_url" : "URL",
-  "followers_url" : "URL",
-  "followers" : "INT",
-  "events_url" : "URL",
-  "url" : "URL",
-  "html_url" : "",
-  "name" : "PII_PERSON_NAME",
-  "email" : "PII_EMAIL",
-  "two_factor_authentication" : "BOOLEAN",
-  "public_gists" : "INT",
-  "owned_private_repos" : "NULL"
+  "trackingNumber" : "STRING",
+  "sender" : {
+    "userName" : "PII_COMPANY_NAME",
+    "contactEmail" : "PII_EMAIL",
+    "address" : "PII_ADDRESS_LINE"
+  },
+  "estimatedDelivery" : "DATE",
+  "has_discount" : false,
+  "carrier" : "STRING",
+  "recordId" : "STRING"
 }

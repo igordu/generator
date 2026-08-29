@@ -1,56 +1,48 @@
 {
-  "in_meeting" : {
-    "v_private_chat" : "BOOLEAN",
-    "v_waiting_room" : "BOOLEAN",
-    "record_play_voice" : "BOOLEAN",
-    "v_custom_data_center_regions" : "BOOLEAN",
-    "chat" : "BOOLEAN",
-    "far_end_camera_control" : "BOOLEAN",
-    "allow_live_streaming_data" : null,
-    "feedback" : "BOOLEAN",
-    "auto_saving_chat" : "BOOLEAN",
-    "group_hd_data" : "BOOLEAN",
-    "remote_control" : "BOOLEAN",
-    "virtual_background" : "BOOLEAN",
-    "co_host" : "BOOLEAN",
-    "non_verbal_feedback_data" : "BOOLEAN",
-    "attendee_on_hold_data" : "BOOLEAN",
-    "annotation" : "BOOLEAN",
-    "show_meeting_control_toolbar" : "BOOLEAN",
-    "v_polling" : "BOOLEAN",
-    "remote_support" : "BOOLEAN",
-    "v_entry_exit_chime" : "STRING",
-    "v_data_center_regions" : "ARRAY",
-    "e2e_encryption" : "BOOLEAN",
-    "closed_caption_data" : "BOOLEAN"
-  },
-  "v_feature" : {
-    "meeting_capacity_data" : "INT",
-    "webinar" : "BOOLEAN",
-    "large_meeting" : "BOOLEAN",
-    "zoom_phone" : "BOOLEAN"
-  },
-  "telephony" : {
-    "third_party_audio" : "",
-    "audio_conference_info" : "STRING",
-    "show_international_numbers_link_data" : "BOOLEAN"
-  },
-  "schedule_meeting" : {
-    "require_password_for_pmi_meetings" : "STRING",
-    "not_store_meeting_topic" : "BOOLEAN",
-    "embed_password_in_join_link" : "BOOLEAN",
-    "use_pmi_for_instant_meetings" : "BOOLEAN",
-    "host_video" : "NULL",
-    "require_password_for_scheduling_new_meetings" : "BOOLEAN",
-    "pstn_password_protected" : "BOOLEAN",
-    "use_pmi_for_scheduled_meetings_data" : "BOOLEAN",
-    "join_before_host" : "BOOLEAN",
-    "audio_type" : "STRING",
-    "participants_video" : "BOOLEAN",
-    "pmi_password" : "PII_PASSWORD"
-  },
-  "tsp" : {
-    "v_show_international_numbers_link" : "BOOLEAN",
-    "v_call_out" : "BOOLEAN"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "accounts" : [ {
+      "name" : "STRING",
+      "subtype" : "STRING",
+      "fullName" : "STRING",
+      "mask" : "STRING",
+      "type" : "STRING",
+      "balances" : {
+        "available_data" : "DECIMAL",
+        "current" : "DECIMAL",
+        "http_status" : 2782
+      }
+    } ],
+    "item_data" : {
+      "institution_name" : "PII_COMPANY_NAME"
+    },
+    "request_id" : "STRING",
+    "v_owners" : [ {
+      "names" : [ "PII_PERSON_NAME" ],
+      "addresses_data" : [ {
+        "data" : {
+          "region" : "PII_LOCATION_STATE",
+          "country" : "PII_LOCATION_COUNTRY",
+          "postal_code" : "STRING",
+          "street" : "PII_ADDRESS_LINE",
+          "city_data" : "PII_LOCATION_CITY"
+        },
+        "primary" : "BOOLEAN"
+      } ],
+      "cpu_usage_percent" : 52.71,
+      "mobile" : [ {
+        "data" : "PII_PHONE_NUMBER",
+        "type" : "STRING",
+        "system_ping_ms" : 3421,
+        "primary" : "BOOLEAN"
+      } ],
+      "primary_email" : [ {
+        "type" : "STRING",
+        "data" : "PII_EMAIL",
+        "primary" : "BOOLEAN",
+        "stock_quantity" : 3305
+      } ]
+    } ]
   }
 }

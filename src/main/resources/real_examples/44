@@ -1,0 +1,33 @@
+{
+  "account": {
+    "id": "acc_01abc",
+    "object": "account",
+    "business_profile": {
+      "name": "Acme Payments Ltd",
+      "support_email": "support@acmepayments.com",
+      "support_phone": "+44 20 7946 0958",
+      "url": "https://acmepayments.example.com",
+      "mcc": "7372"
+    },
+    "capabilities": {
+      "card_payments": "active",
+      "transfers": "active"
+    },
+    "charges_enabled": true,
+    "country": "GB",
+    "created": 1609459200,
+    "default_currency": "gbp",
+    "details_submitted": true,
+    "email": "admin@acmepayments.com",
+    "payouts_enabled": true,
+    "settings": {
+      "branding": {
+        "primary_color": "#1a73e8"
+      },
+      "payments": {
+        "statement_descriptor": "ACME PAYMENTS"
+      }
+    },
+    "type": "custom"
+  }
+}

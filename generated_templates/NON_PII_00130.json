@@ -1,6 +1,35 @@
 {
-  "modelId" : "STRING",
+  "v_pricing" : {
+    "taxClass" : "NULL",
+    "auto_renew" : false,
+    "v_currency" : "STRING",
+    "salePrice" : "DECIMAL"
+  },
+  "sku_data" : "STRING",
   "name" : "STRING",
-  "id" : "NULL",
-  "shopUrl" : "URL"
+  "category_data" : "STRING",
+  "images" : [ {
+    "url" : "URL",
+    "isPrimary" : "BOOLEAN",
+    "price" : 8906.88
+  } ],
+  "attributes" : {
+    "batteryLifeHours" : "INT",
+    "connectivity" : "STRING",
+    "weight_g" : "INT",
+    "foldable" : "BOOLEAN",
+    "noiseCancel" : "BOOLEAN",
+    "color" : "STRING"
+  },
+  "updatedAt" : "DATETIME",
+  "is_active" : true,
+  "inventory" : {
+    "backorderAllowed" : "",
+    "lowStockThreshold" : "INT",
+    "reservedStock_data" : "INT",
+    "is_active" : true,
+    "availableStock" : "INT",
+    "totalStock" : "INT"
+  },
+  "status" : "STRING"
 }

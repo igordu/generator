@@ -1,0 +1,29 @@
+{
+  "messageId": "STRING",
+  "conversationId": "STRING",
+  "channel": "STRING",
+  "timestamp": "DATETIME",
+  "direction": "STRING",
+  "sender": {
+    "type": "STRING",
+    "id": "STRING",
+    "name": "PII_PERSON_NAME",
+    "email": "PII_EMAIL"
+  },
+  "recipient": {
+    "type": "STRING",
+    "id": "STRING",
+    "name": "STRING"
+  },
+  "content": {
+    "type": "STRING",
+    "text": "STRING"
+  },
+  "metadata": {
+    "sessionId": "STRING",
+    "userAgent": "STRING",
+    "language": "STRING"
+  },
+  "sentiment": "STRING",
+  "intent": "STRING"
+}

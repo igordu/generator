@@ -1,15 +1,15 @@
 {
-  "starRatingDistribution" : {
-    "4_data" : "NULL",
-    "2_data" : "INT",
-    "v_1" : "INT",
-    "auto_renew" : true,
-    "3" : "INT"
-  },
-  "articleModelId" : "STRING",
-  "discount_rate" : 562.81,
-  "numberOfUserReviews_data" : "INT",
-  "v_numberOfUserPositiveRecommendations" : "INT",
+  "articleModelId" : "",
+  "numberOfUserPositiveRecommendations" : "INT",
   "averageStarRating" : "INT",
-  "v_numberOfUserRecommendations" : "INT"
+  "starRatingDistribution" : {
+    "5" : "NULL",
+    "4" : "INT",
+    "1" : "NULL",
+    "2" : "INT",
+    "3_data" : "INT"
+  },
+  "numberOfUserReviews" : "INT",
+  "conversion_rate" : 2.46,
+  "numberOfUserRecommendations_data" : "INT"
 }

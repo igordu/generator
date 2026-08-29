@@ -1,0 +1,33 @@
+{
+  "teamId": "team-platform-engineering",
+  "name": "Platform Engineering",
+  "description": "Owns infrastructure, CI/CD, and internal developer tooling",
+  "createdAt": "2021-06-01T00:00:00Z",
+  "updatedAt": "2024-04-01T00:00:00Z",
+  "members": [
+    {
+      "userId": "usr-00182",
+      "name": "Alex Rivera",
+      "email": "a.rivera@company.com",
+      "role": "lead",
+      "joinedAt": "2021-06-01T00:00:00Z"
+    },
+    {
+      "userId": "usr-00291",
+      "name": "Chris Walker",
+      "email": "c.walker@company.com",
+      "role": "senior_engineer",
+      "joinedAt": "2022-01-15T00:00:00Z"
+    },
+    {
+      "userId": "usr-00394",
+      "name": "Dana Okonkwo",
+      "email": "d.okonkwo@company.com",
+      "role": "engineer",
+      "joinedAt": "2023-03-01T00:00:00Z"
+    }
+  ],
+  "slackChannel": "#platform-engineering",
+  "oncallScheduleId": "sched-platform-oncall",
+  "ownedServices": ["api-gateway", "auth-service", "payment-gateway", "kafka-cluster-prod-eu"]
+}

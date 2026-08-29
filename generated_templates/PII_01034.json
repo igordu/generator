@@ -1,20 +1,45 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "last4" : "STRING",
-    "recordId" : "STRING",
-    "metadata" : "OBJECT",
-    "account_holder_name" : "PII_PERSON_NAME",
-    "userName" : "",
-    "currency" : "STRING",
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "v_pricing" : {
+      "tax" : "DECIMAL",
+      "ratePerNight" : "DECIMAL",
+      "is_active" : false,
+      "v_totalBeforeTax" : "DECIMAL",
+      "total" : "DECIMAL",
+      "v_nights" : "INT",
+      "currency" : "STRING"
+    },
+    "checkOut" : "DATE",
     "status" : "STRING",
-    "response_time_sec" : 7.04,
-    "account_type" : "STRING",
-    "fingerprint" : "STRING",
-    "customer" : "STRING",
-    "v_routing_number" : "STRING"
+    "checkIn" : "DATE",
+    "http_status" : 3566,
+    "v_specialRequests" : "NULL",
+    "room" : {
+      "v_smoking" : "",
+      "type" : "STRING",
+      "bedType_data" : "STRING",
+      "floor" : "INT"
+    },
+    "guest" : {
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "mobile" : "PII_PHONE_NUMBER",
+      "stock_quantity" : 3137,
+      "primary_email" : "PII_EMAIL",
+      "passportNumber" : "PII_NATIONAL_ID",
+      "nationality" : "PII_LOCATION_COUNTRY"
+    },
+    "loyaltyNumber" : "STRING",
+    "v_hotel" : {
+      "address" : "PII_ADDRESS_LINE",
+      "name" : "PII_COMPANY_NAME",
+      "phone" : "PII_PHONE_NUMBER",
+      "auto_renew" : false,
+      "id" : "STRING"
+    },
+    "identifier" : "STRING"
   }
 }

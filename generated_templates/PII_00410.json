@@ -1,37 +1,25 @@
 {
-  "address" : [ {
-    "use" : "STRING",
-    "v_city" : "PII_LOCATION_CITY",
-    "is_active" : true,
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "v_country" : "PII_LOCATION_COUNTRY"
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "telecom" : [ {
-    "use" : "STRING",
-    "system" : "STRING",
-    "value" : "PII_PHONE_NUMBER"
-  }, {
-    "value" : "PII_EMAIL"
-  } ],
-  "id" : "NULL",
-  "resourceType" : null,
-  "meta_data" : {
-    "uuid" : "INT",
-    "has_discount" : false
-  },
-  "gender" : "STRING",
-  "name" : [ {
-    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-    "use" : "STRING",
-    "family" : "PII_PERSON_LAST_NAME"
-  } ],
-  "identifier" : [ {
-    "use" : "NULL",
-    "type" : {
-      "stock_quantity" : 815,
-      "text" : "STRING"
-    },
-    "value" : "PII_NATIONAL_ID"
-  } ]
+  "CreatedDate" : "DATETIME",
+  "v_Description" : "STRING",
+  "clientName" : "PII_PERSON_LAST_NAME",
+  "conversion_rate" : 7.6,
+  "AccountName" : "PII_COMPANY_NAME",
+  "LastModifiedDate_data" : "DATETIME",
+  "MailingCountry" : "PII_LOCATION_COUNTRY",
+  "v_MailingStreet" : "PII_ADDRESS_LINE",
+  "MailingCity" : "PII_LOCATION_CITY",
+  "MailingState" : "STRING",
+  "Name" : "PII_PERSON_NAME",
+  "Department" : "STRING",
+  "Email" : "PII_EMAIL",
+  "Title" : "STRING",
+  "Phone" : "PII_PHONE_NUMBER",
+  "v_MailingPostalCode" : "STRING",
+  "Birthdate" : "PII_DATE_OF_BIRTH",
+  "v_IsDeleted" : "BOOLEAN",
+  "AccountId" : "STRING",
+  "MobilePhone" : "PII_PHONE_NUMBER",
+  "FirstName" : "PII_PERSON_FIRST_NAME",
+  "uuid" : "STRING",
+  "OwnerId" : "STRING"
 }

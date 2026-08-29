@@ -1,53 +1,37 @@
 {
-  "v_limit" : "INT",
-  "transactions" : [ {
-    "transactionMemo" : "STRING",
-    "amount_data" : {
-      "currency" : "STRING",
-      "exchangeRate" : null,
-      "discount_rate" : 965.03,
-      "convertedFromCurrency" : "STRING",
-      "value_data" : "STRING",
-      "convertedFromValue" : "STRING"
+  "Id" : "STRING",
+  "DateTimeUTC_data" : "DATETIME",
+  "ProviderName" : "STRING",
+  "Employees_data" : [ {
+    "UpdatedDateUTC" : "DATETIME",
+    "Status_data" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "discount_rate" : 57.36,
+    "EmployeeID" : "STRING"
+  }, {
+    "discount_rate" : 27.42,
+    "v_UpdatedDateUTC" : "DATETIME",
+    "ExternalLink" : {
+      "Description" : null,
+      "Url_data" : "URL"
     },
-    "bookingEntry" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "convertedFromCurrency" : "STRING",
-      "discount_rate" : 463.06,
-      "value" : "STRING",
-      "exchangeRate" : "STRING"
+    "Status_data" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "UpdatedDateUTC" : "DATETIME",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "Status" : "STRING",
+    "ExternalLink" : {
+      "price" : 8922.95,
+      "Description" : "STRING",
+      "Url" : "URL"
     },
-    "salesRecordReference_data" : "STRING",
-    "transactionId" : "STRING",
-    "transactionDate" : "DATETIME",
-    "payoutId" : "STRING",
-    "v_totalFeeBasisAmount" : {
-      "convertedFromValue" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "currency" : "STRING",
-      "auto_renew" : false,
-      "v_exchangeRate" : "STRING",
-      "value_data" : "STRING"
-    },
-    "orderId" : "STRING",
-    "v_transactionType" : "STRING",
-    "buyer" : {
-      "auto_renew" : false,
-      "username" : "PII_USERNAME"
-    },
-    "totalFeeAmount_data" : {
-      "convertedFromValue_data" : "STRING",
-      "discount_rate" : 389.23,
-      "currency" : "STRING"
-    },
-    "transactionStatus" : "STRING",
-    "references" : [ {
-      "referenceId" : "STRING",
-      "referenceType" : "STRING"
-    } ]
+    "EmployeeID" : null,
+    "discount_rate" : 76.64
   } ],
-  "offset_data" : null,
-  "href" : "STRING",
-  "total" : "INT",
-  "next" : "STRING"
+  "Status" : "STRING",
+  "priority_level" : 2988
 }

@@ -1,45 +1,51 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "Employees" : [ {
-      "EmployeeID" : "STRING",
-      "UpdatedDateUTC_data" : "DATETIME",
-      "Status" : "STRING",
-      "FirstName" : "PII_PERSON_FIRST_NAME",
-      "LastName" : "PII_PERSON_LAST_NAME",
-      "v_ExternalLink" : {
-        "Description" : "STRING",
-        "stock_quantity" : 3680
-      }
-    }, {
-      "Status" : "",
-      "userName" : "PII_PERSON_FIRST_NAME",
-      "ExternalLink" : {
-        "Description" : "STRING",
-        "v_Url" : "URL"
-      },
+  "fields" : {
+    "priority" : {
+      "name" : "STRING",
+      "id" : "",
+      "stock_quantity" : 2664
+    },
+    "comment" : {
+      "total" : "INT",
+      "comments" : [ {
+        "v_author" : {
+          "system_ping_ms" : 673,
+          "emailAddress" : "PII_EMAIL",
+          "accountId" : "STRING",
+          "displayName" : "PII_PERSON_NAME"
+        },
+        "updated" : "DATETIME",
+        "has_discount" : false,
+        "id" : "STRING",
+        "v_body" : "STRING"
+      } ]
+    },
+    "updated" : "DATETIME",
+    "summary_data" : null,
+    "assignee" : {
+      "emailAddress" : "PII_EMAIL",
+      "timeZone" : "STRING",
+      "displayName" : "PII_PERSON_NAME",
       "identifier" : "STRING",
-      "v_UpdatedDateUTC" : "DATETIME",
-      "retry_attempts" : 1792
-    }, {
-      "EmployeeID" : "STRING",
-      "LastName" : "PII_PERSON_LAST_NAME",
-      "UpdatedDateUTC" : "DATETIME",
-      "ExternalLink" : {
-        "Description" : "STRING",
-        "Url" : "URL",
-        "system_ping_ms" : 2451
-      },
-      "FirstName" : "PII_PERSON_FIRST_NAME",
-      "temperature_c" : 375.24,
-      "Status" : "STRING"
-    } ],
-    "Status" : "STRING",
-    "ProviderName" : "STRING",
-    "DateTimeUTC" : "DATETIME",
-    "uuid" : "STRING"
-  }
+      "v_active" : "BOOLEAN"
+    },
+    "duedate" : null,
+    "reporter_data" : {
+      "timeZone" : "STRING",
+      "clientName" : "PII_PERSON_NAME",
+      "v_active" : "NULL",
+      "accountId" : "STRING",
+      "contactEmail" : "PII_EMAIL",
+      "discount_rate" : 38.86
+    },
+    "status" : {
+      "name" : "STRING",
+      "primaryKey" : "STRING"
+    },
+    "created" : "DATETIME",
+    "cpu_usage_percent" : 4.56
+  },
+  "price" : 3071.01,
+  "key" : "STRING",
+  "id" : "STRING"
 }

@@ -1,8 +1,23 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "name_val" : "STRING",
-    "clientToken" : null
+  "response" : {
+    "latencyMs" : "INT",
+    "v_statusCode" : "INT",
+    "body" : "STRING"
+  },
+  "v_deliveredAt" : "",
+  "endpoint" : {
+    "status" : "STRING",
+    "uuid" : "STRING",
+    "url" : "NULL"
+  },
+  "attempts" : "NULL",
+  "signature_data" : "STRING",
+  "event" : "STRING",
+  "payload" : {
+    "currency" : "STRING",
+    "totalAmount" : "DECIMAL",
+    "orderId" : "STRING",
+    "primaryKey" : "STRING",
+    "conversion_rate" : 4.29
   }
 }

@@ -4,8 +4,18 @@
     "total_pages" : 5
   },
   "results" : {
-    "clientToken" : "STRING",
-    "is_deleted" : true,
-    "flowName" : "STRING"
+    "v_value" : {
+      "expiresAt" : "DATETIME",
+      "conversion_rate" : 3.34,
+      "primaryKey" : "STRING",
+      "v_roles" : [ "STRING" ]
+    },
+    "cacheKey" : "STRING",
+    "ttl" : "INT",
+    "region_data" : "STRING",
+    "lastAccessedAt" : "DATETIME",
+    "v_createdAt" : "DATETIME",
+    "hits" : "INT",
+    "namespace" : "STRING"
   }
 }

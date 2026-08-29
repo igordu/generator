@@ -1,0 +1,25 @@
+{
+  "reportId": "STRING",
+  "type": "STRING",
+  "status": "STRING",
+  "requestedAt": "DATETIME",
+  "completedAt": "DATETIME",
+  "dataSubject": {
+    "id": "STRING",
+    "email": "PII_EMAIL",
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "country": "PII_LOCATION_COUNTRY"
+  },
+  "requestedBy": "PII_EMAIL",
+  "legalBasis": "STRING",
+  "dataCategories": ["STRING"],
+  "deliveredVia": "STRING",
+  "downloadUrl": "URL",
+  "expiresAt": "DATETIME",
+  "handledBy": {
+    "agentId": "STRING",
+    "email": "PII_EMAIL"
+  }
+}

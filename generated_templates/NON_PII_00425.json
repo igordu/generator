@@ -1,8 +1,20 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "clientToken" : "STRING",
-    "name_val" : "STRING"
-  }
+  "response" : {
+    "discount_rate" : 81.93,
+    "body_data" : null,
+    "latencyMs_data" : "INT",
+    "statusCode" : "INT"
+  },
+  "signature" : "STRING",
+  "event" : "STRING",
+  "payload" : {
+    "customerId" : "STRING",
+    "completedAt" : "DATETIME",
+    "orderId" : "STRING",
+    "http_status" : 1210,
+    "currency" : "STRING",
+    "totalAmount" : "DECIMAL"
+  },
+  "attempts" : "INT",
+  "deliveredAt" : "DATETIME"
 }

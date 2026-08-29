@@ -1,36 +1,51 @@
 {
-  "page_count" : "INT",
-  "page_number" : "INT",
-  "page_size_data" : "INT",
-  "total_records" : "INT",
-  "registrants_data" : [ {
-    "purchasing_time_frame" : "STRING",
-    "create_time" : "DATETIME",
-    "zip" : "STRING",
-    "v_no_of_employees" : "STRING",
-    "role_in_purchase_process" : "STRING",
-    "email" : "PII_EMAIL",
-    "phone" : "PII_PHONE_NUMBER",
-    "custom_questions" : [ {
-      "title" : "STRING",
-      "value" : "STRING"
-    }, {
-      "value" : "STRING",
-      "title" : "STRING"
-    } ],
-    "v_status" : "STRING",
-    "address_data" : "PII_ADDRESS_LINE",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "id" : "STRING",
-    "city_data" : "PII_LOCATION_CITY",
-    "comments" : "STRING",
-    "job_title" : "STRING",
-    "state_data" : "PII_LOCATION_STATE",
-    "country_data" : "PII_LOCATION_COUNTRY",
-    "org" : "PII_ORGANIZATION_NAME",
-    "discount_rate" : 396.19,
-    "fullName" : "PII_PERSON_LAST_NAME",
-    "v_industry" : "STRING"
-  } ],
-  "system_ping_ms" : 1995
+  "server_logs" : {
+    "event_data" : {
+      "debug_payload" : {
+        "fullName" : [ {
+          "family" : "PII_PERSON_LAST_NAME",
+          "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+          "use_data" : "STRING"
+        } ],
+        "identifier" : [ {
+          "is_active" : false,
+          "system" : "URL",
+          "value" : "PII_NATIONAL_ID"
+        } ],
+        "cache_hit" : true,
+        "address" : [ {
+          "postalCode" : "STRING",
+          "use" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "state_data" : "STRING",
+          "country_data" : "PII_LOCATION_COUNTRY",
+          "line" : [ "PII_ADDRESS_LINE" ]
+        } ],
+        "resourceType_data" : "NULL",
+        "id" : "STRING",
+        "meta" : { },
+        "telecom_data" : [ {
+          "auto_renew" : true,
+          "value_data" : "PII_EMAIL"
+        }, {
+          "v_value" : "PII_PHONE_NUMBER",
+          "priority_level" : 4992,
+          "use" : "STRING"
+        } ],
+        "qualification" : [ {
+          "code" : {
+            "auto_renew" : false,
+            "coding" : [ {
+              "code" : "STRING",
+              "system" : "URL"
+            } ]
+          },
+          "retry_attempts" : 4225
+        } ],
+        "gender" : "STRING",
+        "birthDate" : "PII_DATE_OF_BIRTH",
+        "active" : "BOOLEAN"
+      }
+    }
+  }
 }

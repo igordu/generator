@@ -1,0 +1,32 @@
+{
+  "id": "STRING",
+  "name": "STRING",
+  "trigger": "STRING",
+  "status": "STRING",
+  "startedAt": "DATETIME",
+  "initiatedBy": {
+    "userId": "STRING",
+    "email": "PII_EMAIL",
+    "name": "PII_PERSON_NAME"
+  },
+  "context": {
+    "employeeId": "STRING",
+    "employeeName": "PII_PERSON_NAME",
+    "employeeEmail": "PII_EMAIL",
+    "startDate": "DATE",
+    "department": "STRING",
+    "manager": {
+      "id": "STRING",
+      "name": "PII_PERSON_NAME",
+      "email": "PII_EMAIL"
+    }
+  },
+  "steps": [
+    {
+      "id": "STRING",
+      "name": "STRING",
+      "status": "STRING",
+      "completedAt": "DATETIME"
+    }
+  ]
+}

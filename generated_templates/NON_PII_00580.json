@@ -1,26 +1,33 @@
-[ {
-  "fullName" : "STRING",
-  "id" : "STRING",
-  "page_index" : 1286,
-  "style" : "STRING",
-  "simplified" : "BOOLEAN",
-  "key" : "STRING",
-  "v_insight" : {
-    "totalIssueCount" : "INT",
-    "v_lastIssueUpdateTime" : "DATETIME"
+{
+  "serviceId" : "STRING",
+  "sloCompliance_data" : {
+    "withinSlo" : "BOOLEAN",
+    "availabilityActual" : "DECIMAL",
+    "availabilityTarget_data" : "DECIMAL",
+    "latencyActualP99" : "INT",
+    "latencyTarget" : "INT"
   },
-  "self" : "URL",
-  "projectCategory" : {
-    "id" : "STRING",
-    "description" : "STRING",
-    "conversion_rate" : 902.89,
-    "self" : "URL",
-    "name" : "STRING"
+  "metrics" : {
+    "temperature_c" : 17.91,
+    "p999LatencyMs" : "INT",
+    "p50LatencyMs" : "INT",
+    "errorRate" : "DECIMAL",
+    "errorCount" : "INT",
+    "requestCount" : "INT",
+    "throughputRps" : "DECIMAL",
+    "p95LatencyMs" : "INT",
+    "p99LatencyMs" : "INT"
   },
-  "avatarUrls" : {
-    "16x16_data" : "URL",
-    "24x24" : "URL",
-    "32x32" : "NULL",
-    "48x48" : "URL"
-  }
-} ]
+  "endpoint_data" : "STRING",
+  "retry_attempts" : 4166,
+  "statusCodes" : {
+    "200" : "INT",
+    "404" : "INT",
+    "500" : "INT"
+  },
+  "topErrors_data" : [ {
+    "code" : "STRING",
+    "v_count" : "INT"
+  } ],
+  "period_data" : "STRING"
+}

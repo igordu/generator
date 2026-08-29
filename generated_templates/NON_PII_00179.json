@@ -1,21 +1,23 @@
 {
-  "modelId" : "NULL",
-  "name" : "STRING",
-  "shopUrl" : "URL",
-  "retry_attempts" : 4972,
-  "media" : {
-    "conversion_rate" : 686.95,
-    "images" : [ {
-      "type" : "STRING",
-      "conversion_rate" : 838.24,
-      "v_largeUrl" : "URL",
-      "smallUrl" : "URL",
-      "mediumUrl_data" : "URL",
-      "v_largeHdUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "thumbnailHdUrl" : "URL"
-    } ]
-  },
-  "id" : "STRING"
+  "v_published_at" : "DATETIME",
+  "tag_name" : "STRING",
+  "stock_quantity" : 377,
+  "changelog_data" : [ {
+    "message" : "TEXT",
+    "system_ping_ms" : 4402,
+    "commit_sha" : "STRING"
+  } ],
+  "id" : "INT",
+  "draft" : "BOOLEAN",
+  "assets" : [ {
+    "browser_download_url" : "URL",
+    "content_type" : "STRING",
+    "download_count" : "INT",
+    "name" : "NULL",
+    "size" : "INT"
+  } ],
+  "created_at" : "DATETIME",
+  "body" : "TEXT",
+  "v_prerelease" : "BOOLEAN",
+  "target_commitish" : null
 }

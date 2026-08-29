@@ -1,20 +1,5 @@
 {
-  "content" : [ {
-    "customerCity" : "PII_LOCATION_CITY",
-    "description" : "STRING",
-    "language" : "STRING",
-    "recordId" : "STRING",
-    "helpfulCount" : "INT",
-    "v_unhelpfulCount" : "INT",
-    "rating" : null,
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "articleSizeRatings_data" : {
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "INT",
-      "conversion_rate" : 677.1
-    },
-    "retry_attempts" : 2342,
-    "title" : "PII_COMPANY_NAME"
-  } ],
-  "response_time_sec" : 943.69
+  "emailAddressStatus" : [ "STRING" ],
+  "emailAddress" : "PII_EMAIL",
+  "page_index" : 615
 }

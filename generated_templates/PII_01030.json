@@ -1,20 +1,41 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "bank_name" : "STRING",
-      "routing_number" : "STRING",
-      "currency" : "STRING",
-      "country" : "STRING",
-      "customer" : "STRING",
-      "recordId" : "STRING",
-      "last4" : "STRING",
-      "status" : "STRING",
-      "object" : "STRING",
-      "v_fingerprint" : "STRING",
-      "account_holder_name" : "PII_PERSON_NAME",
-      "v_account_type" : "STRING",
-      "metadata" : "OBJECT",
-      "account_holder_type" : "STRING"
-    }
-  }
+  "v_checkIn" : "DATE",
+  "room" : {
+    "roomNumber_data" : "STRING",
+    "type" : "STRING",
+    "cache_hit" : false,
+    "bedType" : "STRING",
+    "v_floor" : "INT",
+    "smoking" : "BOOLEAN"
+  },
+  "guest" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "phone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "requires_update" : true
+  },
+  "checkOut" : "DATE",
+  "specialRequests" : "STRING",
+  "createdAt" : "DATETIME",
+  "pricing" : {
+    "total" : "NULL",
+    "nights" : "INT",
+    "currency" : "STRING",
+    "tax" : "DECIMAL",
+    "ratePerNight" : "DECIMAL",
+    "totalBeforeTax_data" : "DECIMAL"
+  },
+  "discount_rate" : 96.05,
+  "loyaltyNumber" : "NULL",
+  "hotel" : {
+    "cpu_usage_percent" : 27.9,
+    "address" : "PII_ADDRESS_LINE",
+    "name" : "PII_COMPANY_NAME",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "reservationId" : "NULL"
 }

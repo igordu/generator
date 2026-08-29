@@ -1,42 +1,32 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "name" : "STRING",
-    "key" : "STRING",
-    "uuid" : "STRING",
-    "style" : "STRING",
-    "insight" : {
-      "temperature_c" : 322.97,
-      "lastIssueUpdateTime" : "DATETIME",
-      "totalIssueCount" : "INT"
-    },
-    "avatarUrls" : {
-      "24x24" : "URL",
-      "v_16x16" : "URL",
-      "48x48" : "NULL",
-      "32x32" : "URL"
-    },
-    "self" : null
-  }, {
-    "insight" : { },
-    "userName" : "STRING",
-    "requires_update" : false,
-    "style" : "STRING",
-    "self" : "URL",
-    "id" : "STRING",
-    "projectCategory" : {
-      "self_data" : "NULL",
-      "stock_quantity" : 2213,
-      "identifier" : "STRING",
-      "name" : "STRING"
-    },
-    "simplified" : "BOOLEAN",
-    "avatarUrls_data" : {
-      "16x16" : "URL",
-      "24x24" : "URL",
-      "48x48" : "URL",
-      "price" : 338.0
-    }
-  } ]
+  "sloCompliance" : {
+    "availabilityActual" : "DECIMAL",
+    "cpu_usage_percent" : 82.42,
+    "availabilityTarget" : "DECIMAL",
+    "latencyTarget" : "INT",
+    "v_withinSlo" : "BOOLEAN"
+  },
+  "period" : "STRING",
+  "topErrors" : [ {
+    "code" : "STRING",
+    "v_count" : "INT"
+  } ],
+  "endpoint" : "STRING",
+  "v_statusCodes" : {
+    "discount_rate" : 68.01,
+    "429" : "INT",
+    "200" : "INT",
+    "v_404" : "INT"
+  },
+  "serviceId" : "STRING",
+  "metrics" : {
+    "p50LatencyMs" : null,
+    "throughputRps_data" : "DECIMAL",
+    "p99LatencyMs" : "INT",
+    "errorRate" : "DECIMAL",
+    "p95LatencyMs" : "INT",
+    "v_errorCount" : "INT",
+    "requestCount" : "INT",
+    "v_p999LatencyMs" : "INT"
+  }
 }

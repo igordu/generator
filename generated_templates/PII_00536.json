@@ -1,29 +1,30 @@
 {
-  "transactions" : {
-    "is_active" : true,
-    "booked" : [ {
-      "debtorName" : "",
-      "transactionId" : "STRING",
-      "creditorName" : "PII_PERSON_NAME",
-      "v_amount" : {
-        "system_ping_ms" : 2383,
-        "currency_data" : "STRING"
-      },
-      "debtorAccount" : {
-        "iban" : "STRING",
-        "priority_level" : 1810
-      },
-      "valueDate" : "DATE",
-      "creditorAccount" : {
-        "iban_data" : "PII_IBAN"
-      },
-      "bookingDate_data" : "DATE",
-      "bankTransactionCode_data" : {
-        "domain" : "STRING",
-        "subFamily" : "STRING",
-        "v_family" : "STRING"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
-    } ]
+  "telemetry_data" : {
+    "request_context" : {
+      "body" : {
+        "department" : "STRING",
+        "hs_object_id" : "STRING",
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "associatedcompanyid" : "STRING",
+        "zip" : "STRING",
+        "phone" : "PII_PHONE_NUMBER",
+        "v_website" : "URL",
+        "telephone" : "PII_PHONE_NUMBER",
+        "address" : "PII_ADDRESS_LINE",
+        "country" : "PII_LOCATION_COUNTRY",
+        "num_associated_deals" : "INT",
+        "city" : "PII_LOCATION_CITY",
+        "lastName" : "PII_PERSON_LAST_NAME",
+        "hs_email_optout" : "NULL",
+        "notes_last_contacted" : "DATETIME",
+        "lastmodifieddate" : "DATETIME",
+        "company_data" : "PII_COMPANY_NAME",
+        "hs_lead_status" : "STRING",
+        "email" : "PII_EMAIL",
+        "id" : "STRING",
+        "createdate" : "NULL",
+        "lifecyclestage_data" : "STRING"
+      }
+    }
   }
 }

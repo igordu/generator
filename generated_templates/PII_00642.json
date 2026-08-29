@@ -1,37 +1,43 @@
 {
-  "Employees" : [ {
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "v_ExternalLink" : {
-      "requires_update" : false,
-      "Url" : null
+  "v_metadata" : {
+    "fullName" : "STRING",
+    "is_active" : true,
+    "resourceVersion" : "STRING",
+    "identifier" : "STRING",
+    "v_labels" : {
+      "version" : "STRING",
+      "app" : "STRING"
     },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING"
-  }, {
-    "UpdatedDateUTC_data" : "DATETIME",
-    "is_deleted" : true,
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "v_ExternalLink" : {
-      "Url_data" : "URL"
+    "creationTimestamp" : "DATETIME",
+    "annotations_data" : {
+      "cache_hit" : true,
+      "owner_data" : "STRING",
+      "v_contact" : "PII_EMAIL"
     },
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "v_Description" : "STRING"
-    },
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "discount_rate" : 837.84,
-    "EmployeeID" : "STRING",
-    "UpdatedDateUTC_data" : "DATETIME"
-  } ],
-  "identifier" : "STRING",
-  "Status" : "STRING",
-  "priority_level" : 1336,
-  "ProviderName" : "STRING",
-  "DateTimeUTC" : "DATETIME"
+    "clientName" : "STRING"
+  },
+  "spec" : {
+    "nodeName" : "STRING",
+    "containers" : [ {
+      "name" : "STRING",
+      "ports" : [ {
+        "cpu_usage_percent" : 16.16,
+        "containerPort" : "INT"
+      } ],
+      "env" : [ {
+        "v_value" : "PII_EMAIL",
+        "name" : "STRING"
+      } ],
+      "system_ping_ms" : 2951
+    } ],
+    "serviceAccountName" : "STRING"
+  },
+  "kind_data" : "STRING",
+  "apiVersion" : "STRING",
+  "status" : {
+    "price" : 3036.85,
+    "hostIP" : "STRING",
+    "podIP" : "STRING",
+    "startTime" : "DATETIME"
+  }
 }

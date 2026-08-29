@@ -1,36 +1,34 @@
-{
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+[ {
+  "taxDepreciationSettings" : "ARRAY",
+  "depreciationExpenseAccountId" : "STRING",
+  "bookDepreciationSetting" : {
+    "depreciableObjectType" : "STRING",
+    "averagingMethod" : "STRING",
+    "depreciationMethod" : "STRING",
+    "depreciationRate_data" : "DECIMAL",
+    "depreciableObjectId" : "STRING",
+    "system_ping_ms" : 296,
+    "bookEffectiveDateOfChangeId" : "STRING"
   },
-  "results" : {
-    "audit_trail" : {
-      "payload_wrapper" : {
-        "raw_data" : [ {
-          "facets" : [ {
-            "key" : "STRING",
-            "count" : "INT",
-            "displayName" : "STRING"
-          } ],
-          "v_filter" : "STRING",
-          "http_status" : 899
-        }, {
-          "facets" : [ {
-            "count" : "INT",
-            "key" : "STRING",
-            "displayName" : "STRING"
-          }, {
-            "displayName" : "STRING",
-            "count" : "INT",
-            "key" : "STRING"
-          }, {
-            "v_key" : "STRING",
-            "count" : "INT",
-            "displayName" : ""
-          } ],
-          "filter" : "STRING"
-        } ]
-      }
-    }
-  }
-}
+  "assetTypeId" : "STRING",
+  "assetTypeName" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "identifier" : "STRING"
+}, {
+  "assetTypeId" : "STRING",
+  "bookDepreciationSetting" : {
+    "depreciableObjectType" : "STRING",
+    "v_depreciationRate" : "DECIMAL",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "averagingMethod" : "STRING",
+    "depreciationCalculationMethod_data" : "STRING",
+    "recordId" : "STRING",
+    "depreciationMethod" : "STRING"
+  },
+  "fixedAssetAccountId" : "STRING",
+  "assetTypeName" : "STRING",
+  "locks" : "INT",
+  "depreciationExpenseAccountId" : "NULL",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "taxDepreciationSettings" : "ARRAY"
+} ]

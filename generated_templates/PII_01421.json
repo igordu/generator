@@ -1,0 +1,38 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "accessToken" : {
+      "type" : "STRING",
+      "jti" : "STRING",
+      "discount_rate" : 85.39
+    },
+    "v_scopes" : [ "STRING" ],
+    "uuid" : {
+      "address" : {
+        "region" : "STRING",
+        "item_count" : 1198,
+        "country" : "PII_LOCATION_COUNTRY",
+        "street_address" : "PII_ADDRESS_LINE",
+        "locality" : "PII_LOCATION_CITY",
+        "postal_code_data" : "STRING"
+      },
+      "phone_number" : "PII_PHONE_NUMBER",
+      "v_birthdate" : "PII_DATE_OF_BIRTH",
+      "email" : "PII_EMAIL",
+      "sub" : "STRING",
+      "name" : "PII_PERSON_NAME"
+    },
+    "mail" : "PII_EMAIL",
+    "issuedAt" : "DATETIME",
+    "clientId" : "NULL",
+    "v_grantType" : "STRING",
+    "refreshToken_data" : {
+      "expiresAt" : "DATETIME",
+      "v_rotated" : "BOOLEAN",
+      "v_jti" : "STRING"
+    },
+    "recordId" : "STRING",
+    "identifier" : "STRING"
+  }
+}

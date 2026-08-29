@@ -1,0 +1,33 @@
+{
+  "repositoryId": "STRING",
+  "name": "STRING",
+  "fullName": "STRING",
+  "private": "BOOLEAN",
+  "language": "STRING",
+  "defaultBranch": "STRING",
+  "pullRequest": {
+    "id": "INT",
+    "title": "STRING",
+    "state": "STRING",
+    "author": {
+      "login": "PII_USERNAME",
+      "email": "PII_EMAIL",
+      "name": "PII_PERSON_NAME"
+    },
+    "reviewers": [
+      {
+        "login": "PII_USERNAME",
+        "email": "PII_EMAIL",
+        "name": "PII_PERSON_NAME",
+        "state": "STRING"
+      }
+    ],
+    "headBranch": "STRING",
+    "baseBranch": "STRING",
+    "createdAt": "DATETIME",
+    "updatedAt": "DATETIME",
+    "additions": "INT",
+    "deletions": "INT",
+    "changedFiles": "INT"
+  }
+}

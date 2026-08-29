@@ -1,18 +1,20 @@
 {
-  "v_media" : {
-    "images" : [ {
-      "orderNumber" : "INT",
-      "type_data" : "STRING",
-      "thumbnailHdUrl_data" : "URL",
-      "largeUrl" : "URL",
-      "mediumUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "smallHdUrl_data" : "URL",
-      "smallUrl_data" : "URL"
-    } ]
-  },
-  "v_shopUrl" : "URL",
-  "item_count" : 4080,
-  "recordId" : "STRING",
-  "name" : "STRING"
+  "retention_policy" : "STRING",
+  "identifier" : "STRING",
+  "exported_at" : "DATETIME",
+  "requires_update" : false,
+  "v_anonymized" : "BOOLEAN",
+  "gdpr_erasure_applied" : "BOOLEAN",
+  "ticket" : {
+    "system_ping_ms" : 4023,
+    "requester" : {
+      "email" : "[MASKED]",
+      "name" : "REDACTED",
+      "contactNumber" : "***-***-****"
+    },
+    "description_data" : "TEXT",
+    "v_status" : "STRING",
+    "subject" : "STRING",
+    "created_at" : "DATETIME"
+  }
 }

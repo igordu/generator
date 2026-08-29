@@ -1,33 +1,36 @@
 {
-  "data" : [ {
-    "created" : "DATETIME_EPOCH",
-    "v_livemode" : "BOOLEAN",
-    "v_preferred_locales" : "ARRAY",
-    "balance" : "INT",
-    "metadata" : "OBJECT",
-    "phone" : "PII_PHONE_NUMBER",
-    "next_invoice_sequence_data" : "INT",
-    "tax_exempt" : "STRING",
-    "description" : "STRING",
-    "object" : "STRING",
-    "test_clock" : "NULL",
-    "id" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "invoice_settings" : {
-      "rendering_options" : "NULL",
-      "default_payment_method" : "STRING",
-      "custom_fields" : "NULL",
-      "footer" : "STRING"
-    },
-    "currency" : "STRING",
-    "shipping" : "NULL",
-    "address" : "NULL",
-    "invoice_prefix" : "STRING",
-    "delinquent" : "BOOLEAN",
-    "email" : "PII_EMAIL",
-    "priority_level" : 1527
-  } ],
-  "object" : "",
-  "v_url" : "URL",
-  "v_has_more" : null
+  "data" : {
+    "fetchResource" : {
+      "stock_quantity" : 1141,
+      "v_direction" : "STRING",
+      "channel" : "STRING",
+      "metadata" : {
+        "sessionId" : "STRING",
+        "v_userAgent" : "STRING",
+        "item_count" : 952,
+        "language" : "STRING"
+      },
+      "intent" : "STRING",
+      "conversationId" : "STRING",
+      "content" : {
+        "v_type" : "STRING",
+        "text" : "STRING"
+      },
+      "timestamp" : "DATETIME",
+      "recipient" : {
+        "fullName" : "STRING",
+        "type_data" : "STRING",
+        "id" : "STRING",
+        "page_index" : 3830
+      },
+      "sender" : {
+        "email" : "PII_EMAIL",
+        "retry_attempts" : 3548,
+        "id" : "STRING",
+        "name" : "PII_PERSON_NAME",
+        "type" : "STRING"
+      },
+      "sentiment_data" : "STRING"
+    }
+  }
 }

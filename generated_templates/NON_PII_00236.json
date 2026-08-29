@@ -1,6 +1,14 @@
-[ {
-  "is_active" : false,
-  "filter" : "STRING"
-}, {
-  "v_filter" : "STRING"
-} ]
+{
+  "page_index" : 566,
+  "v_environment" : "STRING",
+  "service" : "STRING",
+  "last_status" : "STRING",
+  "connection" : {
+    "timeout_ms" : "INT",
+    "retries" : "INT",
+    "v_pool_size" : "INT"
+  },
+  "endpoint_data" : "URL",
+  "last_run" : "DATETIME",
+  "log_line" : "TEXT"
+}

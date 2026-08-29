@@ -1,10 +1,33 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "shopUrl" : "URL",
-      "name" : "STRING",
-      "primaryKey" : "",
-      "modelId" : "STRING"
-    }
-  }
+  "name" : null,
+  "sku" : "STRING",
+  "inventory" : {
+    "reservedStock_data" : "INT",
+    "backorderAllowed" : "BOOLEAN",
+    "lowStockThreshold_data" : "INT",
+    "availableStock" : "INT"
+  },
+  "productId" : "STRING",
+  "attributes_data" : {
+    "batteryLifeHours" : "INT",
+    "color" : "NULL",
+    "system_ping_ms" : 3744,
+    "weight_g" : "INT",
+    "foldable" : "BOOLEAN"
+  },
+  "images" : [ {
+    "isPrimary" : "BOOLEAN",
+    "auto_renew" : false
+  } ],
+  "createdAt" : "DATETIME",
+  "category_data" : "STRING",
+  "retry_attempts" : 330,
+  "brand" : "STRING",
+  "pricing" : {
+    "salePrice" : "DECIMAL",
+    "taxClass" : "STRING",
+    "basePrice" : "DECIMAL",
+    "currency" : "STRING"
+  },
+  "v_updatedAt" : "DATETIME"
 }

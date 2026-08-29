@@ -1,46 +1,27 @@
-[ {
-  "facets" : [ {
-    "count" : "INT",
-    "conversion_rate" : 129.28,
-    "fullName" : "",
-    "key" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count_data" : "INT"
+{
+  "primaryKey" : "STRING",
+  "region" : "STRING",
+  "details_data" : [ {
+    "log_line" : "TEXT",
+    "outcome" : "STRING",
+    "step" : "STRING",
+    "discount_rate" : 10.7
   } ],
-  "filter" : "STRING"
-}, {
-  "facets_data" : [ {
-    "displayName" : "STRING",
-    "auto_renew" : false,
-    "count" : "INT",
-    "key_data" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "v_count" : "INT",
-    "key" : "STRING"
-  } ],
-  "filter" : "STRING"
-}, {
-  "facets" : [ {
-    "page_index" : 3939,
-    "count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "v_key" : "STRING",
-    "has_discount" : true
-  }, {
-    "is_deleted" : false,
-    "clientName" : "STRING",
-    "count_data" : "INT",
-    "key" : "STRING"
-  } ],
-  "filter" : "STRING"
-} ]
+  "hostname" : "NULL",
+  "v_timestamp" : "DATETIME",
+  "target_service" : "STRING",
+  "v_severity" : "STRING",
+  "event_id" : "STRING",
+  "v_source_service" : "STRING",
+  "message" : "TEXT",
+  "v_kubernetes" : {
+    "node_data" : "STRING",
+    "pod_name" : "STRING"
+  },
+  "v_http" : {
+    "cpu_usage_percent" : 13.95,
+    "path" : "URL",
+    "v_method" : "STRING",
+    "latency_ms" : "INT"
+  }
+}

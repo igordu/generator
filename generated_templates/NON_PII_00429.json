@@ -1,5 +1,26 @@
 {
-  "stock_quantity" : 2025,
-  "flowName" : "STRING",
-  "clientToken" : "STRING"
+  "response" : {
+    "statusCode" : "INT",
+    "body" : "STRING",
+    "v_latencyMs" : "INT"
+  },
+  "payload" : {
+    "totalAmount" : "DECIMAL",
+    "completedAt" : "DATETIME",
+    "currency" : "STRING",
+    "customerId" : "STRING",
+    "has_discount" : false,
+    "orderId" : "STRING"
+  },
+  "signature" : "STRING",
+  "endpoint" : {
+    "url" : "URL",
+    "id" : "STRING",
+    "status" : "STRING"
+  },
+  "response_time_sec" : 27.5,
+  "webhookId" : "STRING",
+  "deliveredAt" : "DATETIME",
+  "attempts" : "INT",
+  "event" : ""
 }

@@ -1,4 +1,24 @@
 {
-  "response_time_sec" : 636.49,
-  "flowName" : "STRING"
+  "notification_data" : {
+    "body" : "STRING",
+    "title" : "STRING",
+    "temperature_c" : -2.11,
+    "data" : {
+      "deepLink" : "URL",
+      "orderId" : "STRING"
+    }
+  },
+  "type" : "STRING",
+  "sentAt" : "DATETIME",
+  "retry_attempts" : 3503,
+  "status" : "STRING",
+  "notificationId" : "STRING",
+  "retryCount_data" : "INT",
+  "deliveredAt" : "DATETIME",
+  "recipient" : {
+    "identifier" : "STRING",
+    "http_status" : 1427,
+    "platform" : "STRING",
+    "appVersion" : "STRING"
+  }
 }

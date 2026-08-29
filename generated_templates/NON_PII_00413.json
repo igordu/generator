@@ -1,5 +1,23 @@
 {
-  "requires_update" : true,
-  "flowName" : "STRING",
-  "clientToken" : "STRING"
+  "type" : "STRING",
+  "notificationId" : "STRING",
+  "campaign" : "NULL",
+  "cache_hit" : true,
+  "sentAt" : "DATETIME",
+  "v_notification" : {
+    "v_data" : {
+      "deepLink" : "URL",
+      "orderId" : "STRING",
+      "auto_renew" : true
+    },
+    "temperature_c" : -15.94,
+    "body" : "STRING",
+    "title" : "STRING"
+  },
+  "v_recipient" : {
+    "identifier" : "STRING",
+    "platform" : "STRING",
+    "appVersion" : "STRING"
+  },
+  "deliveredAt" : "DATETIME"
 }

@@ -1,163 +1,23 @@
 {
-  "metadataCatalogConfig" : {
-    "glueDataCatalog" : {
-      "fullName" : "STRING",
-      "tablePrefix" : "STRING",
-      "item_count" : 1082,
-      "v_roleArn" : ""
-    }
-  },
-  "kmsArn" : "STRING",
-  "triggerConfig" : {
-    "v_triggerProperties" : {
-      "retry_attempts" : 3135,
-      "Scheduled" : {
-        "v_scheduleEndTime" : "DATETIME",
-        "scheduleExpression" : "STRING",
-        "timezone_data" : "STRING",
-        "scheduleOffset_data" : "INT",
-        "dataPullMode" : "STRING",
-        "flowErrorDeactivationThreshold" : "INT",
-        "discount_rate" : 22.17,
-        "scheduleStartTime" : "DATETIME"
-      }
+  "data_data" : [ {
+    "error_data" : "NULL",
+    "result_files" : [ "NULL" ],
+    "model" : "STRING",
+    "v_finished_at" : "DATETIME_EPOCH",
+    "v_hyperparameters" : {
+      "n_epochs" : "INT",
+      "batch_size" : "INT",
+      "learning_rate_multiplier" : "DECIMAL",
+      "response_time_sec" : 9.6
     },
-    "triggerType_data" : "STRING"
-  },
-  "flowName" : "STRING",
-  "description" : "STRING",
-  "tasks" : [ {
-    "taskProperties" : {
-      "temperature_c" : 29.51,
-      "property1" : "STRING",
-      "property2" : "STRING"
-    },
-    "sourceFields" : "NULL",
-    "taskType" : "STRING",
-    "destinationField" : "STRING",
-    "connectorOperator" : {
-      "Dynatrace" : "STRING",
-      "SAPOData" : "NULL",
-      "Singular" : "STRING",
-      "v_Pardot" : "STRING",
-      "Veeva" : "STRING",
-      "response_time_sec" : 198.73,
-      "GoogleAnalytics" : "STRING",
-      "S3_data" : "STRING",
-      "Marketo" : "STRING",
-      "Zendesk" : "STRING",
-      "InforNexus" : "STRING",
-      "Amplitude" : "STRING",
-      "v_Datadog" : "STRING",
-      "Slack" : "STRING",
-      "ServiceNow" : "STRING"
-    }
+    "id" : "STRING",
+    "primaryKey" : "STRING",
+    "v_trained_tokens" : "INT",
+    "object_data" : "STRING",
+    "price" : 2349.66,
+    "status" : "STRING",
+    "created_at_data" : "DATETIME_EPOCH",
+    "training_file" : "STRING"
   } ],
-  "tags" : {
-    "property2" : "STRING"
-  },
-  "clientToken_data" : "STRING",
-  "response_time_sec" : 595.74,
-  "destinationFlowConfigList" : [ {
-    "destinationConnectorProperties_data" : {
-      "Snowflake" : {
-        "v_bucketPrefix" : "STRING",
-        "system_ping_ms" : 2073,
-        "object" : "STRING",
-        "fullName" : "STRING",
-        "errorHandlingConfig" : {
-          "v_bucketPrefix" : "STRING",
-          "name_val" : "STRING"
-        }
-      },
-      "v_Redshift" : {
-        "object" : "STRING",
-        "has_discount" : false,
-        "errorHandlingConfig" : {
-          "bucketPrefix" : "STRING",
-          "response_time_sec" : 461.43
-        },
-        "intermediateBucketName" : "NULL"
-      },
-      "has_discount" : true,
-      "EventBridge" : {
-        "errorHandlingConfig" : {
-          "retry_attempts" : 4859,
-          "failOnFirstDestinationError" : "BOOLEAN",
-          "bucketPrefix_data" : "STRING",
-          "bucketName" : ""
-        },
-        "object" : "STRING"
-      },
-      "Salesforce" : {
-        "writeOperationType" : "STRING",
-        "object" : "STRING",
-        "dataTransferApi" : "STRING",
-        "errorHandlingConfig" : {
-          "bucketName" : "STRING",
-          "failOnFirstDestinationError_data" : "NULL",
-          "bucketPrefix" : "STRING"
-        },
-        "clientName" : "ARRAY"
-      },
-      "LookoutMetrics" : { }
-    },
-    "apiVersion" : "STRING",
-    "connectorProfileName" : "STRING"
-  } ],
-  "sourceFlowConfig" : {
-    "v_incrementalPullConfig" : {
-      "page_index" : 739,
-      "datetimeTypeFieldName" : "STRING"
-    },
-    "apiVersion" : "STRING",
-    "sourceConnectorProperties_data" : {
-      "Dynatrace_data" : {
-        "object" : "STRING"
-      },
-      "Trendmicro" : {
-        "object" : "STRING"
-      },
-      "is_active" : true,
-      "Zendesk" : { },
-      "S3_data" : {
-        "bucketPrefix" : "STRING",
-        "s3InputFormatConfig" : {
-          "system_ping_ms" : 77,
-          "s3InputFileType" : "STRING"
-        },
-        "bucketName" : "STRING"
-      },
-      "Pardot" : {
-        "object" : "STRING",
-        "requires_update" : true
-      },
-      "GoogleAnalytics" : {
-        "object" : "STRING"
-      },
-      "Slack_data" : {
-        "object" : "STRING"
-      },
-      "InforNexus" : { },
-      "Singular" : { },
-      "ServiceNow" : {
-        "system_ping_ms" : 3541,
-        "object" : "STRING"
-      },
-      "v_Salesforce" : {
-        "v_dataTransferApi" : "STRING",
-        "includeDeletedRecords" : "",
-        "enableDynamicFieldUpdate" : "BOOLEAN",
-        "object" : "STRING"
-      },
-      "Amplitude" : {
-        "object_data" : "STRING"
-      },
-      "v_Datadog" : {
-        "object" : "STRING"
-      }
-    },
-    "connectorType" : "STRING",
-    "connectorProfileName" : "STRING"
-  }
+  "has_more" : "BOOLEAN"
 }

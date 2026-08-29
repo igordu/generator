@@ -1,38 +1,64 @@
 {
-  "Employees" : [ {
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "discount_rate" : 115.91,
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "page_index" : 1436,
-      "Description" : "STRING"
+  "Personal_Data" : {
+    "uuid" : {
+      "auto_renew" : true,
+      "Birth_Date" : "PII_DATE_OF_BIRTH",
+      "National_ID_Data" : [ {
+        "National_ID" : "PII_NATIONAL_ID",
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        },
+        "uuid" : {
+          "WID" : "STRING"
+        }
+      } ]
     },
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
+    "Contact_Data" : {
+      "Phone_Data" : [ {
+        "cpu_usage_percent" : 71.99,
+        "contactNumber" : "PII_PHONE_NUMBER",
+        "Phone_Device_Type_Reference" : {
+          "WID" : "STRING"
+        }
+      } ],
+      "cache_hit" : true,
+      "Email_Address_Data" : [ {
+        "Email_Address" : "PII_EMAIL"
+      } ],
+      "Address_Data" : [ {
+        "Municipality" : "PII_LOCATION_CITY",
+        "v_Postal_Code" : "STRING",
+        "retry_attempts" : 2855,
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        },
+        "Address_Line_Data" : [ {
+          "content_data" : "PII_ADDRESS_LINE",
+          "v_Type" : "STRING"
+        } ]
+      } ]
     },
-    "EmployeeID" : "STRING",
-    "cache_hit" : false,
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "price" : 749.59,
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "EmployeeID" : "STRING"
-  } ],
-  "DateTimeUTC_data" : "DATETIME",
-  "item_count" : 3860,
-  "Status" : "STRING",
-  "uuid" : "STRING",
-  "ProviderName" : "STRING"
+    "Name_Data" : {
+      "fullName" : {
+        "name_val" : {
+          "fullName" : "PII_PERSON_FIRST_NAME",
+          "Last_Name" : "PII_PERSON_LAST_NAME",
+          "Middle_Name" : "PII_PERSON_FIRST_NAME"
+        },
+        "item_count" : 506
+      }
+    }
+  },
+  "Employment_Data" : {
+    "Worker_Job_Data" : {
+      "Position_Data" : {
+        "Business_Title" : "STRING",
+        "uuid" : "STRING",
+        "v_Job_Title" : "STRING",
+        "Start_Date_data" : "DATE"
+      }
+    }
+  },
+  "Worker_ID" : "STRING",
+  "conversion_rate" : 8.42
 }

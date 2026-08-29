@@ -1,99 +1,37 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "prev" : "STRING",
-      "v_limit" : "INT",
-      "v_next" : "STRING",
-      "transactions" : [ {
-        "paymentsEntity" : "STRING",
-        "totalFeeAmount_data" : {
-          "convertedFromCurrency_data" : "STRING",
-          "stock_quantity" : 255,
-          "v_exchangeRate" : "STRING",
-          "convertedFromValue" : "STRING",
-          "value" : "STRING",
-          "currency" : "STRING"
-        },
-        "transactionType_data" : "STRING",
-        "transactionDate" : "DATETIME",
-        "feeJurisdiction" : {
-          "page_index" : 3288,
-          "userName" : "STRING",
-          "regionType" : "STRING"
-        },
-        "totalFeeBasisAmount" : {
-          "convertedFromCurrency" : "STRING",
-          "currency" : "STRING",
-          "is_active" : true,
-          "value" : "STRING",
-          "v_convertedFromValue" : "STRING",
-          "exchangeRate" : "STRING"
-        },
-        "buyer" : {
-          "username" : "PII_USERNAME"
-        },
-        "v_references" : [ {
-          "page_index" : 62,
-          "referenceId" : "NULL",
-          "referenceType" : "STRING"
-        } ],
-        "v_transactionMemo" : "STRING",
-        "payoutId" : "STRING",
-        "orderId" : "STRING",
-        "uuid" : "STRING",
-        "amount" : {
-          "value" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "currency" : "STRING",
-          "retry_attempts" : 4505,
-          "convertedFromValue" : "STRING",
-          "exchangeRate" : "STRING"
-        },
-        "orderLineItems" : [ {
-          "feeBasisAmount" : {
-            "v_value" : "STRING",
-            "currency" : "STRING",
-            "convertedFromValue" : "STRING",
-            "convertedFromCurrency_data" : null
-          },
-          "cache_hit" : false,
-          "marketplaceFees" : [ {
-            "response_time_sec" : 96.27,
-            "feeJurisdiction" : {
-              "temperature_c" : 134.28,
-              "fullName" : "STRING",
-              "regionType" : "STRING"
-            },
-            "feeType" : "STRING",
-            "feeMemo_data" : "STRING",
-            "amount" : {
-              "convertedFromCurrency" : "STRING",
-              "value" : "STRING",
-              "exchangeRate" : "STRING",
-              "priority_level" : 326,
-              "currency" : "STRING",
-              "convertedFromValue" : "NULL"
-            }
-          } ],
-          "uuid" : "STRING"
-        } ],
-        "auto_renew" : false,
-        "transactionStatus" : "STRING",
-        "salesRecordReference" : "STRING",
-        "v_eBayCollectedTaxAmount" : {
-          "v_value" : "STRING",
-          "v_currency" : "STRING",
-          "exchangeRate" : "STRING",
-          "convertedFromValue" : "STRING",
-          "convertedFromCurrency" : "NULL"
-        },
-        "v_bookingEntry" : "STRING",
-        "feeType" : "STRING"
-      } ],
-      "href_data" : "STRING",
-      "v_total" : "INT",
-      "offset" : "INT",
-      "http_status" : 3905
-    }
-  }
+  "v_page_number" : "INT",
+  "total_records" : "INT",
+  "page_size_data" : "INT",
+  "page_count_data" : "INT",
+  "auto_renew" : false,
+  "v_registrants" : [ {
+    "v_org" : "PII_ORGANIZATION_NAME",
+    "custom_questions" : [ {
+      "v_title" : "STRING",
+      "has_discount" : true,
+      "v_value" : "STRING"
+    }, {
+      "value" : "STRING",
+      "title" : "STRING"
+    } ],
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "cell" : "PII_PHONE_NUMBER",
+    "create_time" : "DATETIME",
+    "industry" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "status" : "STRING",
+    "zip" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "job_title" : "STRING",
+    "city_data" : "PII_LOCATION_CITY",
+    "address" : "PII_ADDRESS_LINE",
+    "join_url" : "URL",
+    "id" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "retry_attempts" : 1325,
+    "primary_email" : "PII_EMAIL",
+    "comments" : "STRING",
+    "state_data" : "PII_LOCATION_STATE",
+    "role_in_purchase_process" : "STRING"
+  } ]
 }

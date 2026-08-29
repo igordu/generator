@@ -1,30 +1,39 @@
 {
-  "has_more_data" : "BOOLEAN",
-  "data" : [ {
-    "v_created" : "DATETIME_EPOCH",
-    "next_invoice_sequence" : "INT",
-    "default_source_data" : "STRING",
-    "currency" : "STRING",
-    "test_clock" : "NULL",
-    "delinquent_data" : "BOOLEAN",
-    "livemode" : "BOOLEAN",
-    "v_address" : "NULL",
-    "clientName" : "PII_PERSON_NAME",
-    "preferred_locales_data" : "ARRAY",
-    "invoice_settings" : {
-      "v_custom_fields" : "NULL",
-      "rendering_options" : "NULL",
-      "default_payment_method" : "STRING",
-      "footer" : "STRING"
-    },
-    "invoice_prefix" : "STRING",
-    "v_shipping" : "NULL",
-    "metadata" : null,
-    "v_tax_exempt" : "STRING",
+  "address" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_city" : "PII_LOCATION_CITY",
+    "street" : "PII_ADDRESS_LINE",
+    "price" : 4017.18
+  },
+  "financialAid" : {
+    "disbursedAt" : "DATE",
+    "v_currency" : "STRING",
+    "uuid" : "STRING",
+    "amount_data" : "DECIMAL"
+  },
+  "academicRecord" : {
+    "gpa" : "DECIMAL",
+    "v_creditsCompleted" : "INT",
+    "price" : 6834.33,
+    "advisor" : {
+      "page_index" : 3763,
+      "contactEmail" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    }
+  },
+  "program_data" : "STRING",
+  "requires_update" : false,
+  "recordId" : "STRING",
+  "personalInfo" : {
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "passportNumber" : "PII_NATIONAL_ID",
     "phone" : "PII_PHONE_NUMBER",
-    "primaryKey" : "STRING",
+    "emailAddress" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "gender_data" : "STRING",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
     "email" : "PII_EMAIL"
-  } ],
-  "url" : "URL",
-  "object" : "STRING"
+  },
+  "academicYear" : "STRING"
 }

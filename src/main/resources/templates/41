@@ -1,0 +1,17 @@
+{
+  "resourceType": "STRING",
+  "id": "STRING",
+  "status": "STRING",
+  "start": "DATETIME",
+  "end": "DATETIME",
+  "participant": [
+    {
+      "actor": {
+        "reference": "STRING",
+        "display": "PII_PERSON_NAME"
+      },
+      "status": "STRING"
+    }
+  ],
+  "comment": "STRING"
+}

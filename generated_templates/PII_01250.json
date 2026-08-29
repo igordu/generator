@@ -1,77 +1,42 @@
-[ {
-  "node_id" : null,
-  "url" : "URL",
-  "sha" : "STRING",
-  "response_time_sec" : 526.92,
-  "comments_url_data" : "URL",
-  "html_url" : "URL",
-  "commit" : {
-    "v_author" : {
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    },
-    "v_committer" : {
-      "email" : "PII_EMAIL",
-      "stock_quantity" : 4802,
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "v_comment_count" : "INT",
-    "url" : "URL",
-    "v_verification" : {
-      "verified_at" : "DATETIME",
-      "verified" : "BOOLEAN",
-      "reason" : "STRING",
-      "v_payload" : "STRING",
-      "signature" : "NULL"
-    },
-    "v_tree" : {
-      "v_sha" : "STRING",
-      "conversion_rate" : 613.22,
-      "url" : "URL"
-    },
-    "message_data" : "PII_COMPANY_NAME"
-  },
-  "v_parents" : [ {
-    "url" : "URL",
-    "sha" : "STRING",
-    "system_ping_ms" : 410
-  } ],
-  "committer" : {
-    "avatar_url" : "URL",
-    "type" : "STRING",
-    "html_url_data" : "URL",
-    "id" : "INT",
-    "subscriptions_url" : "URL",
-    "url_data" : "URL",
-    "events_url" : "URL",
-    "login" : "STRING",
-    "node_id" : "STRING",
-    "v_site_admin" : "BOOLEAN",
-    "starred_url" : "URL",
-    "organizations_url_data" : "URL",
-    "following_url" : "URL",
-    "v_followers_url" : "URL"
-  },
-  "author_data" : {
-    "v_login" : "STRING",
-    "followers_url_data" : null,
-    "v_following_url" : "URL",
-    "gists_url" : "URL",
-    "events_url" : "URL",
-    "received_events_url" : "URL",
-    "gravatar_id" : "STRING",
-    "recordId" : "INT",
-    "v_avatar_url" : "URL",
-    "url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "organizations_url_data" : "URL",
-    "type" : "STRING",
-    "subscriptions_url" : "URL",
-    "v_repos_url" : "URL",
-    "starred_url" : "URL",
-    "node_id" : "STRING",
-    "v_html_url" : "URL"
+{
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "body" : {
+        "encounterId" : "STRING",
+        "date" : "DATE",
+        "prescriptions_data" : [ {
+          "fullName" : "STRING",
+          "frequency" : "STRING",
+          "dose" : "STRING",
+          "durationDays" : "INT"
+        } ],
+        "patient_data" : {
+          "email" : "PII_EMAIL",
+          "gender" : "NULL",
+          "name_val" : "PII_PERSON_FIRST_NAME",
+          "contactNumber" : "PII_PHONE_NUMBER",
+          "lastName" : "PII_PERSON_LAST_NAME",
+          "taxCode" : "PII_NATIONAL_ID",
+          "dateOfBirth" : "PII_DATE_OF_BIRTH",
+          "address" : {
+            "priority_level" : 4403,
+            "city" : "PII_LOCATION_CITY",
+            "v_country" : "PII_LOCATION_COUNTRY",
+            "street" : "PII_ADDRESS_LINE"
+          },
+          "price" : 5488.37
+        },
+        "diagnosis" : [ {
+          "description" : "NULL",
+          "type_data" : "STRING",
+          "code" : "STRING",
+          "requires_update" : false,
+          "system" : "STRING"
+        } ],
+        "patientId" : "STRING",
+        "conversion_rate" : 4.62,
+        "encounterType" : "STRING"
+      }
+    }
   }
-} ]
+}

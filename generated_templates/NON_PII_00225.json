@@ -1,44 +1,31 @@
-[ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "displayName" : "STRING",
-    "v_key" : "STRING",
-    "is_active" : true
-  }, {
-    "displayName" : "STRING",
-    "v_key" : "STRING",
-    "count" : "INT"
-  }, {
-    "count_data" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "retry_attempts" : 2920
-  } ]
-}, {
-  "facets" : [ {
-    "is_deleted" : false,
-    "key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "userName" : "STRING",
-    "key_data" : "STRING",
-    "count" : "INT"
-  }, {
-    "clientName" : "STRING",
-    "v_key" : "STRING",
-    "count" : "INT"
-  } ],
-  "filter" : "STRING"
-}, {
-  "facets" : [ {
-    "displayName" : "STRING",
-    "v_count" : "INT",
-    "has_discount" : true
-  }, {
-    "v_key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  } ],
-  "filter" : "STRING"
-} ]
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "audit_trail" : {
+      "transaction_trace" : {
+        "body" : {
+          "log_line" : "TEXT",
+          "auth" : {
+            "token_expires" : "DATETIME",
+            "client_secret" : "[MASKED]",
+            "cpu_usage_percent" : 6.23,
+            "api_key_data" : "[REDACTED]",
+            "password_data" : "********",
+            "username" : "svc_backup_01"
+          },
+          "v_service" : "STRING",
+          "last_status" : "STRING",
+          "last_run" : "DATETIME",
+          "endpoint" : "URL",
+          "v_environment" : "STRING",
+          "v_connection" : {
+            "pool_size" : "INT",
+            "retries_data" : "INT",
+            "timeout_ms" : "INT"
+          }
+        }
+      }
+    }
+  }
+}

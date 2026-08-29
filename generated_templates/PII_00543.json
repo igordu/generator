@@ -1,31 +1,38 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "transactionId" : "STRING",
-      "valueDate" : "DATE",
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "domain" : "STRING",
-        "family_data" : "STRING",
-        "is_active" : false
+  "data" : {
+    "fetchResource" : {
+      "email" : "PII_EMAIL",
+      "tags" : "STRING",
+      "v_currency" : "STRING",
+      "accepts_marketing" : "BOOLEAN",
+      "mobile" : "PII_PHONE_NUMBER",
+      "id" : "INT",
+      "default_address" : {
+        "last_name" : "PII_PERSON_LAST_NAME",
+        "default" : "BOOLEAN",
+        "customer_id" : "INT",
+        "province" : "STRING",
+        "address2" : "STRING",
+        "country" : "PII_LOCATION_COUNTRY",
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "zip" : "STRING",
+        "phone" : "PII_PHONE_NUMBER",
+        "country_code" : "STRING",
+        "fullName" : "PII_PERSON_NAME",
+        "http_status" : 1562,
+        "city" : "PII_LOCATION_CITY",
+        "address1" : "PII_ADDRESS_LINE",
+        "company" : "PII_COMPANY_NAME"
       },
-      "debtorAccount" : {
-        "iban" : "STRING",
-        "auto_renew" : true
-      },
-      "conversion_rate" : 329.09,
-      "debtorName" : "STRING",
-      "bookingDate" : "DATE",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "creditorAccount" : {
-        "v_iban" : "PII_IBAN",
-        "discount_rate" : 382.86
-      },
-      "userName" : "PII_PERSON_NAME",
-      "amount_data" : {
-        "v_amount" : "DECIMAL",
-        "currency" : "STRING"
-      }
-    } ]
+      "verified_email" : "BOOLEAN",
+      "name_val" : "PII_PERSON_FIRST_NAME",
+      "last_order_id" : "INT",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "total_spent" : "DECIMAL",
+      "state" : "STRING",
+      "created_at" : "DATETIME",
+      "v_orders_count" : "INT",
+      "updated_at_data" : "DATETIME"
+    }
   }
 }

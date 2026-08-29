@@ -1,5 +1,26 @@
 {
-  "v_clientToken" : "STRING",
-  "clientName" : "STRING",
-  "cpu_usage_percent" : 125.15
+  "data" : {
+    "fetchResource" : {
+      "system_state" : {
+        "request_context" : {
+          "raw_data" : {
+            "body" : {
+              "errorCode" : "STRING",
+              "orderId" : "STRING"
+            },
+            "movedToDlqAt" : "DATETIME",
+            "attributes" : {
+              "retryPolicy" : "",
+              "contentType" : "STRING"
+            },
+            "lastReceivedAt" : "DATETIME",
+            "queueName" : "STRING",
+            "originalQueue" : "STRING",
+            "firstReceivedAt" : "DATETIME",
+            "uuid" : "STRING"
+          }
+        }
+      }
+    }
+  }
 }

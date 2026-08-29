@@ -1,73 +1,33 @@
-[ {
-  "v_commit" : {
-    "v_comment_count" : "INT",
-    "author" : {
-      "name" : "PII_PERSON_NAME",
-      "primary_email" : "PII_EMAIL",
-      "date" : "DATETIME"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "tree" : {
-      "url_data" : "URL",
-      "system_ping_ms" : 4840,
-      "sha" : "STRING"
-    },
-    "verification" : {
-      "verified" : "BOOLEAN",
-      "reason" : "STRING",
-      "signature_data" : "STRING",
-      "priority_level" : 4434,
-      "verified_at" : "DATETIME"
-    },
-    "response_time_sec" : 135.89,
-    "committer" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "contactEmail" : "PII_EMAIL"
-    }
+{
+  "total_data" : "DECIMAL",
+  "v_status" : "STRING",
+  "customer" : {
+    "name" : "PII_PERSON_NAME",
+    "v_vatNumber" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "price" : 7233.88,
+    "email" : "PII_EMAIL",
+    "v_company" : "PII_COMPANY_NAME"
   },
-  "comments_url" : "URL",
-  "is_deleted" : true,
-  "author" : {
-    "following_url" : "URL",
-    "organizations_url" : "URL",
-    "http_status" : 1005,
-    "subscriptions_url" : "URL",
-    "id" : "INT",
-    "avatar_url" : "URL",
-    "url" : "URL",
-    "starred_url" : "URL",
-    "html_url" : "URL",
-    "login_data" : "STRING",
-    "events_url" : "URL",
-    "type" : "STRING",
-    "repos_url_data" : "URL",
-    "uuid" : "STRING",
-    "gists_url" : "URL"
-  },
-  "html_url" : "URL",
-  "url" : "URL",
-  "identifier" : "STRING",
-  "parents" : [ {
-    "url" : "URL",
-    "sha" : "STRING"
+  "issuedAt" : "DATETIME",
+  "lineItems_data" : [ {
+    "vatRate" : "DECIMAL",
+    "description" : "STRING",
+    "quantity" : "INT",
+    "unitPrice" : "DECIMAL"
   } ],
-  "sha" : "STRING",
-  "committer" : {
-    "subscriptions_url" : "URL",
-    "events_url" : "URL",
-    "id" : "INT",
-    "v_repos_url" : "URL",
-    "type" : "STRING",
-    "url" : "URL",
-    "login" : "STRING",
-    "html_url" : "URL",
-    "following_url" : "URL",
-    "followers_url" : "URL",
-    "gravatar_id" : "STRING",
-    "gists_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "organizations_url_data" : "URL",
-    "page_index" : 4129
-  }
-} ]
+  "currency_data" : "STRING",
+  "vendor" : {
+    "is_active" : false,
+    "name" : "PII_COMPANY_NAME",
+    "iban" : "PII_IBAN",
+    "vatNumber" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "email" : "PII_EMAIL"
+  },
+  "subtotal" : "DECIMAL",
+  "price" : 8157.07,
+  "invoiceId" : "STRING",
+  "dueDate" : "DATE",
+  "vatAmount" : "DECIMAL"
+}

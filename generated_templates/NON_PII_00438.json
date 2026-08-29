@@ -1,4 +1,18 @@
 {
-  "clientName" : "STRING",
-  "clientToken" : "STRING"
+  "response" : {
+    "v_statusCode" : "INT",
+    "cpu_usage_percent" : 36.62,
+    "latencyMs" : "INT",
+    "v_body" : "STRING"
+  },
+  "attempts" : "INT",
+  "signature_data" : "STRING",
+  "deliveredAt_data" : "DATETIME",
+  "event" : "STRING",
+  "endpoint" : {
+    "status" : "STRING",
+    "cpu_usage_percent" : 93.74,
+    "id" : "STRING",
+    "url" : "URL"
+  }
 }

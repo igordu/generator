@@ -1,37 +1,16 @@
 {
-  "registrants" : [ {
-    "comments" : "STRING",
-    "role_in_purchase_process_data" : "STRING",
-    "mobile" : "PII_PHONE_NUMBER",
-    "country" : "PII_LOCATION_COUNTRY",
-    "join_url" : "URL",
-    "purchasing_time_frame" : "STRING",
-    "is_deleted" : true,
-    "v_org" : "PII_ORGANIZATION_NAME",
-    "state" : "PII_LOCATION_STATE",
-    "v_city" : "PII_LOCATION_CITY",
-    "job_title_data" : "STRING",
-    "email" : "PII_EMAIL",
-    "industry" : "STRING",
-    "v_zip" : "STRING",
+  "comment" : "STRING",
+  "primaryKey" : "STRING",
+  "status" : "STRING",
+  "resourceType" : "STRING",
+  "end_data" : "DATETIME",
+  "participant" : [ {
+    "v_actor" : {
+      "display" : "PII_PERSON_NAME",
+      "reference" : "STRING"
+    },
     "status" : "STRING",
-    "custom_questions_data" : [ {
-      "title_data" : "STRING",
-      "value" : "STRING",
-      "item_count" : 1325
-    }, {
-      "value" : "STRING",
-      "title" : "NULL",
-      "price" : 787.43
-    } ],
-    "address" : "PII_ADDRESS_LINE",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "uuid" : "STRING"
+    "discount_rate" : 36.84
   } ],
-  "page_count" : "INT",
-  "total_records" : "INT",
-  "v_page_size" : "INT",
-  "page_index" : 1418,
-  "page_number" : "INT"
+  "start" : "DATETIME"
 }

@@ -1,34 +1,32 @@
 {
-  "has_more" : "BOOLEAN",
-  "url_data" : "URL",
-  "data" : [ {
-    "description" : "STRING",
-    "tax_exempt_data" : "STRING",
-    "invoice_settings" : {
-      "default_payment_method" : "STRING",
-      "custom_fields" : "NULL",
-      "rendering_options" : "NULL",
-      "footer" : "STRING"
-    },
-    "shipping" : "NULL",
-    "object" : "STRING",
-    "price" : 535.9,
-    "name" : "PII_PERSON_NAME",
-    "cell" : "PII_PHONE_NUMBER",
-    "livemode" : "BOOLEAN",
-    "next_invoice_sequence_data" : "INT",
-    "balance" : "INT",
-    "currency" : "STRING",
-    "address" : "NULL",
-    "created_data" : "DATETIME_EPOCH",
-    "delinquent" : "BOOLEAN",
-    "preferred_locales" : "ARRAY",
-    "id" : "STRING",
-    "metadata" : "OBJECT",
+  "v_academicYear" : "STRING",
+  "personalInfo" : {
+    "personalEmail" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "gender" : "STRING",
+    "has_discount" : false,
+    "v_nationality" : "PII_LOCATION_COUNTRY",
     "email" : "PII_EMAIL",
-    "v_test_clock" : "NULL",
-    "invoice_prefix" : "NULL"
-  } ],
-  "auto_renew" : true,
-  "v_object" : "STRING"
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "studentId" : "STRING",
+  "has_discount" : false,
+  "address" : {
+    "postcode_data" : "STRING",
+    "street_data" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "v_country" : "PII_LOCATION_COUNTRY"
+  },
+  "program_data" : "STRING",
+  "academicRecord" : {
+    "advisor_data" : {
+      "name" : "PII_PERSON_NAME",
+      "retry_attempts" : 4017,
+      "email" : "PII_EMAIL"
+    },
+    "creditsCompleted" : "INT"
+  }
 }

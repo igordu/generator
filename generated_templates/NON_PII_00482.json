@@ -1,4 +1,19 @@
 {
-  "clientToken" : "STRING",
-  "flowName" : ""
+  "messageId" : "STRING",
+  "lastReceivedAt" : "DATETIME",
+  "firstReceivedAt" : "DATETIME",
+  "originalQueue" : "STRING",
+  "body" : {
+    "errorCode" : "STRING",
+    "orderId" : "STRING",
+    "errorMessage" : "STRING"
+  },
+  "receiveCount" : "INT",
+  "queueName" : "STRING",
+  "requires_update" : true,
+  "attributes" : {
+    "contentType_data" : "STRING",
+    "v_retryPolicy" : "STRING"
+  },
+  "movedToDlqAt" : "DATETIME"
 }

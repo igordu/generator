@@ -1,30 +1,25 @@
 {
-  "server_logs" : {
-    "transaction_trace" : {
-      "raw_data" : {
-        "transactions" : {
-          "v_booked" : [ {
-            "valueDate" : "DATE",
-            "debtorName" : "STRING",
-            "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-            "recordId" : "STRING",
-            "creditorAccount" : {
-              "iban" : "PII_IBAN",
-              "http_status" : 2049
-            },
-            "fullName" : "PII_PERSON_NAME",
-            "bookingDate" : "DATE",
-            "debtorAccount" : {
-              "iban_data" : "STRING",
-              "requires_update" : false
-            },
-            "v_amount" : {
-              "amount_data" : "DECIMAL",
-              "v_currency" : "STRING"
-            }
-          } ]
-        }
-      }
-    }
-  }
+  "fullName" : "PII_PERSON_LAST_NAME",
+  "userName" : "PII_PERSON_NAME",
+  "givenName" : "PII_PERSON_FIRST_NAME",
+  "userType" : "STRING",
+  "streetAddress" : "PII_ADDRESS_LINE",
+  "postalCode_data" : "STRING",
+  "country" : "PII_LOCATION_COUNTRY",
+  "businessPhones" : [ "PII_PHONE_NUMBER" ],
+  "preferredLanguage" : "STRING",
+  "accountEnabled" : "BOOLEAN",
+  "mail" : "PII_EMAIL",
+  "createdDateTime" : null,
+  "officeLocation" : "STRING",
+  "recordId" : "",
+  "usageLocation" : "STRING",
+  "companyName" : "PII_COMPANY_NAME",
+  "contactNumber" : "PII_PHONE_NUMBER",
+  "jobTitle" : null,
+  "userPrincipalName" : "PII_EMAIL",
+  "state" : "STRING",
+  "department" : "STRING",
+  "employeeType" : "STRING",
+  "city_data" : "PII_LOCATION_CITY"
 }

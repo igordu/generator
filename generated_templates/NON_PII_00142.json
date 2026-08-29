@@ -1,23 +1,34 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "media" : {
-      "images_data" : [ {
-        "orderNumber" : "INT",
-        "smallHdUrl" : "URL",
-        "mediumHdUrl" : "URL",
-        "http_status" : 508,
-        "smallUrl" : "URL",
-        "v_mediumUrl" : "URL",
-        "type" : "STRING",
-        "largeUrl" : "URL",
-        "largeHdUrl" : "URL"
-      } ]
-    },
-    "temperature_c" : 924.98,
-    "id" : "STRING",
-    "shopUrl" : "URL",
-    "name" : "STRING"
+  "server_logs" : {
+    "transaction_trace" : {
+      "debug_payload" : {
+        "primaryKey" : {
+          "v_runbook_url" : "URL",
+          "service" : {
+            "identifier" : "STRING",
+            "summary_data" : "STRING"
+          },
+          "id" : "STRING",
+          "resolved_at_data" : "DATETIME",
+          "alert_counts" : {
+            "all" : "INT",
+            "resolved" : "INT"
+          },
+          "description" : "TEXT",
+          "incident_number" : "INT",
+          "notes_data" : [ {
+            "content" : "TEXT",
+            "cpu_usage_percent" : 37.76,
+            "created_at" : "DATETIME",
+            "id" : "STRING"
+          } ],
+          "v_status" : "STRING",
+          "created_at" : "DATETIME",
+          "v_urgency" : "STRING",
+          "escalation_policy" : "STRING",
+          "title_data" : "STRING"
+        }
+      }
+    }
   }
 }

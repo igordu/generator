@@ -1,38 +1,27 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "DateTimeUTC" : "DATETIME",
-      "ProviderName" : "STRING",
-      "recordId" : "NULL",
-      "Employees_data" : [ {
-        "ExternalLink" : {
-          "Description_data" : "STRING",
-          "priority_level" : 191,
-          "Url" : "URL"
-        },
-        "price" : 575.72,
-        "userName" : "PII_PERSON_FIRST_NAME",
-        "LastName" : "PII_PERSON_LAST_NAME",
-        "Status" : "STRING"
-      }, {
-        "FirstName" : "PII_PERSON_FIRST_NAME",
-        "UpdatedDateUTC" : "DATETIME",
-        "v_ExternalLink" : {
-          "v_Url" : "URL",
-          "Description" : ""
-        },
-        "Status" : "",
-        "LastName" : "PII_PERSON_LAST_NAME",
-        "EmployeeID" : "STRING"
-      }, {
-        "Status" : "STRING",
-        "UpdatedDateUTC" : "DATETIME",
-        "discount_rate" : 934.99,
-        "userName" : "PII_PERSON_LAST_NAME",
-        "FirstName" : "PII_PERSON_FIRST_NAME",
-        "primaryKey" : "STRING"
-      } ],
-      "Status" : "STRING"
-    }
-  }
+  "user" : {
+    "tz" : "STRING",
+    "tz_offset" : null,
+    "team_id" : "STRING",
+    "deleted" : "BOOLEAN",
+    "profile" : {
+      "phone" : "PII_PHONE_NUMBER",
+      "response_time_sec" : 7.11,
+      "display_name" : "PII_USERNAME",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "real_name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    },
+    "clientName" : "PII_PERSON_NAME",
+    "is_admin" : "BOOLEAN",
+    "id" : "STRING",
+    "updated" : "DATETIME_EPOCH",
+    "tz_label" : "STRING",
+    "name" : "PII_USERNAME",
+    "cpu_usage_percent" : 39.48,
+    "mail" : "BOOLEAN"
+  },
+  "ok" : "BOOLEAN",
+  "discount_rate" : 39.67
 }

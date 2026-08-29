@@ -1,12 +1,39 @@
 {
-  "user_info": {
-    "givennamefemale": "PII_FIRST_NAME_FEMALE",
-    "family-name-male": "PII_LAST_NAME_MALE",
-    "arline__name": "PII_COMPANY_NAME"
+  "verificationId": "STRING",
+  "status": "STRING",
+  "workflowId": "STRING",
+  "createdAt": "DATETIME",
+  "completedAt": "DATETIME",
+  "applicant": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "nationality": "PII_LOCATION_COUNTRY",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER"
   },
-  "tree": {
-          "url": "URL",
-          "sha": "STRING"
-   },
-   "active": "BOOLEAN"
+  "document": {
+    "type": "STRING",
+    "number": "PII_NATIONAL_ID",
+    "issuingCountry": "PII_LOCATION_COUNTRY",
+    "expiryDate": "DATE",
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH"
+  },
+  "address": {
+    "street": "PII_ADDRESS_LINE",
+    "city": "PII_LOCATION_CITY",
+    "postalCode": "STRING",
+    "country": "PII_LOCATION_COUNTRY"
+  },
+  "checks": [
+    {
+      "checkType": "STRING",
+      "result": "STRING",
+      "reason": "STRING"
+    }
+  ],
+  "riskScore": "INT",
+  "reviewedBy": "PII_EMAIL"
 }

@@ -1,43 +1,30 @@
 {
-  "gravatar_id" : "STRING",
-  "avatar_url" : "URL",
-  "private_gists" : "INT",
-  "collaborators" : "INT",
-  "repos_url_data" : "URL",
-  "clientName" : "STRING",
-  "received_events_url" : "URL",
-  "login" : "STRING",
-  "v_bio" : "PII_ORGANIZATION_NAME",
-  "plan" : {
-    "space_data" : "INT",
-    "stock_quantity" : 3027,
-    "name" : "STRING",
-    "private_repos" : "INT"
-  },
-  "html_url_data" : "URL",
-  "v_public_gists" : "INT",
-  "followers_url" : "URL",
-  "starred_url" : "URL",
-  "followers" : "INT",
-  "location" : "PII_LOCATION_CITY",
-  "email" : "PII_EMAIL",
-  "blog" : "URL",
-  "id" : "INT",
-  "disk_usage" : "INT",
-  "two_factor_authentication" : "BOOLEAN",
-  "organizations_url" : "URL",
-  "created_at" : "DATETIME",
-  "gists_url" : "URL",
-  "v_events_url" : "URL",
-  "v_updated_at" : "DATETIME",
-  "following_url" : "URL",
-  "type_data" : "STRING",
-  "hireable" : "BOOLEAN",
-  "url" : "URL",
-  "company_data" : "PII_ORGANIZATION_NAME",
-  "site_admin" : "BOOLEAN",
-  "subscriptions_url" : "URL",
-  "public_repos" : "INT",
-  "name" : "PII_PERSON_NAME",
-  "following" : "INT"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "completedAt" : "DATETIME",
+    "rollback" : {
+      "previousVersion" : "STRING",
+      "available" : "BOOLEAN"
+    },
+    "v_registry" : "STRING",
+    "startedAt" : "DATETIME",
+    "artifactDigest" : "STRING",
+    "environment" : "STRING",
+    "initiatedBy" : {
+      "pipelineId" : "STRING",
+      "type" : "STRING",
+      "price" : 4087.93,
+      "triggeredBy" : "STRING",
+      "actor" : "PII_EMAIL"
+    },
+    "healthCheck" : {
+      "status" : "STRING",
+      "v_url" : "URL",
+      "responseTimeMs" : "INT"
+    },
+    "service" : "STRING",
+    "v_version" : "STRING",
+    "strategy" : "STRING"
+  }
 }

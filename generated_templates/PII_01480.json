@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "primaryKey" : "STRING",
+    "finishedAt" : "DATETIME",
+    "artifactDigest" : "STRING",
+    "branch_data" : "STRING",
+    "repository" : "STRING",
+    "commit" : "STRING",
+    "startedAt" : "DATETIME",
+    "v_status" : "STRING",
+    "stages" : [ {
+      "name" : "STRING",
+      "status" : "STRING",
+      "v_coverage" : "DECIMAL",
+      "durationSeconds" : "INT"
+    } ],
+    "triggeredBy_data" : "PII_EMAIL"
+  }
+}

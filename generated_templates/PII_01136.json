@@ -1,49 +1,27 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "telemetry_data" : {
-      "event_data" : {
-        "extracted_info" : {
-          "login_data" : "NULL",
-          "avatar_url_data" : "URL",
-          "v_private_gists" : "INT",
-          "public_gists" : "INT",
-          "total_private_repos" : "INT",
-          "organizations_url" : "URL",
-          "company" : "PII_ORGANIZATION_NAME",
-          "updated_at" : "NULL",
-          "created_at" : "DATETIME",
-          "disk_usage" : "INT",
-          "v_site_admin" : "BOOLEAN",
-          "starred_url" : "URL",
-          "response_time_sec" : 167.38,
-          "email" : "PII_EMAIL",
-          "identifier" : "STRING",
-          "two_factor_authentication" : "BOOLEAN",
-          "collaborators" : "INT",
-          "followers" : "INT",
-          "hireable_data" : "BOOLEAN",
-          "gravatar_id" : "STRING",
-          "owned_private_repos" : "INT",
-          "url" : "URL",
-          "location" : "PII_LOCATION_CITY",
-          "html_url" : "URL",
-          "subscriptions_url" : "URL",
-          "twitter_username" : "",
-          "public_repos" : "INT",
-          "following" : "INT",
-          "recordId" : "INT",
-          "gists_url_data" : "URL",
-          "name" : "PII_PERSON_NAME",
-          "events_url" : "URL",
-          "type" : "STRING",
-          "followers_url" : "URL",
-          "blog" : "URL",
-          "bio" : "PII_ORGANIZATION_NAME",
-          "received_events_url" : "URL"
-        }
-      }
+  "initiatedBy" : {
+    "email" : "PII_EMAIL",
+    "fullName" : "PII_PERSON_NAME"
+  },
+  "status" : "STRING",
+  "steps" : [ {
+    "id" : "STRING",
+    "completedAt" : "DATETIME",
+    "status" : "STRING",
+    "is_active" : false
+  } ],
+  "context_data" : {
+    "recordId" : "STRING",
+    "mail" : "PII_EMAIL",
+    "employeeName" : "PII_PERSON_NAME",
+    "temperature_c" : 19.63,
+    "v_department" : "STRING",
+    "v_startDate" : "DATE",
+    "manager" : {
+      "id" : "STRING",
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
     }
-  }
+  },
+  "id" : "STRING"
 }

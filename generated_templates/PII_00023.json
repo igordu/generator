@@ -1,21 +1,68 @@
 {
-  "content" : [ {
-    "customerCity" : "PII_LOCATION_CITY",
-    "rating" : "NULL",
-    "recommend" : "BOOLEAN",
-    "articleModelId" : "STRING",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "language" : "STRING",
-    "reviewId" : "STRING",
-    "price" : 625.56,
-    "created" : "DATETIME",
-    "v_description" : "STRING",
-    "v_articleSizeRatings" : {
-      "system_ping_ms" : 315,
-      "OVERALL" : "INT",
-      "uuid" : "INT"
+  "userId" : "STRING",
+  "status" : "STRING",
+  "retry_attempts" : 4355,
+  "accountType" : "STRING",
+  "recordId" : "STRING",
+  "individualAccount" : {
+    "firstName" : "PII_PERSON_NAME",
+    "lastName" : "PII_PERSON_NAME",
+    "contactEmail" : "PII_EMAIL",
+    "primaryPhone" : {
+      "http_status" : 3595,
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "phoneType" : "STRING"
     },
-    "v_title" : "PII_COMPANY_NAME"
-  } ],
-  "temperature_c" : 833.72
+    "secondaryPhone" : {
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "temperature_c" : 32.83
+    },
+    "priority_level" : 2179,
+    "registrationAddress_data" : {
+      "addressLine2" : "STRING",
+      "country" : "STRING",
+      "addressLine1" : "STRING",
+      "county" : "STRING",
+      "page_index" : 3211,
+      "stateOrProvince" : "STRING",
+      "city" : "STRING",
+      "postalCode" : "STRING"
+    }
+  },
+  "username" : "PII_USERNAME",
+  "businessAccount" : {
+    "address" : {
+      "stateOrProvince" : "STRING",
+      "v_country" : "STRING",
+      "county" : "NULL",
+      "addressLine2" : "STRING",
+      "postalCode" : "STRING",
+      "auto_renew" : true,
+      "city" : "STRING",
+      "addressLine1" : "STRING"
+    },
+    "primaryContact" : {
+      "userName" : "PII_PERSON_NAME",
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "email" : "PII_EMAIL",
+    "name" : "PII_ORGANIZATION_NAME",
+    "v_website" : "URL",
+    "contactNumber" : {
+      "has_discount" : true,
+      "v_number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "doingBusinessAs" : "STRING",
+    "primaryPhone" : {
+      "priority_level" : 1837,
+      "phoneType" : "STRING",
+      "v_number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING"
+    }
+  }
 }

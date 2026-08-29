@@ -1,39 +1,43 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : [ {
-    "filter" : "STRING",
-    "requires_update" : false,
-    "facets" : [ {
-      "displayName" : "STRING",
-      "item_count" : 3258,
-      "key" : "STRING",
-      "count" : "INT"
-    }, {
-      "count" : "INT",
-      "v_key" : "STRING"
-    }, {
-      "key" : "STRING",
-      "count_data" : "INT",
-      "displayName" : "STRING"
-    } ]
-  }, {
-    "facets" : [ {
-      "displayName" : "STRING",
-      "v_key" : "STRING",
-      "count" : "INT"
-    }, {
-      "key" : "STRING",
-      "priority_level" : 1117,
-      "count" : "INT"
-    }, {
-      "key" : "STRING",
-      "userName" : "STRING",
-      "count" : "INT"
-    } ],
-    "auto_renew" : true,
-    "filter" : "STRING"
-  } ]
+  "audit_trail" : {
+    "transaction_trace" : {
+      "raw_data" : [ {
+        "bookDepreciationSetting_data" : {
+          "depreciationRate" : "DECIMAL",
+          "depreciationCalculationMethod_data" : "",
+          "recordId" : "STRING",
+          "bookEffectiveDateOfChangeId" : "STRING",
+          "depreciationMethod" : "STRING",
+          "depreciableObjectType" : "STRING",
+          "conversion_rate" : 1.39,
+          "averagingMethod" : "STRING"
+        },
+        "lockPrivateUseAccount" : "BOOLEAN",
+        "requires_update" : true,
+        "taxDepreciationSettings_data" : "ARRAY",
+        "assetTypeId" : "STRING",
+        "assetTypeName" : "STRING",
+        "locks" : "INT",
+        "accumulatedDepreciationAccountId" : "STRING",
+        "depreciationExpenseAccountId" : null,
+        "fixedAssetAccountId" : "STRING"
+      }, {
+        "fixedAssetAccountId" : "NULL",
+        "assetTypeId" : "STRING",
+        "identifier" : "STRING",
+        "page_index" : 2282,
+        "lockPrivateUseAccount_data" : "BOOLEAN",
+        "taxDepreciationSettings" : "ARRAY",
+        "accumulatedDepreciationAccountId" : "STRING",
+        "assetTypeName" : "STRING",
+        "locks" : "INT",
+        "bookDepreciationSetting" : {
+          "uuid" : "STRING",
+          "depreciationRate" : "DECIMAL",
+          "depreciationCalculationMethod_data" : "STRING",
+          "depreciableObjectType" : "NULL"
+        }
+      } ]
+    }
+  }
 }

@@ -1,0 +1,27 @@
+{
+  "ruleId": "rate-limit-api-gateway",
+  "name": "API Gateway Rate Limit",
+  "description": "Limit anonymous API requests to 100/min per IP",
+  "enabled": true,
+  "priority": 10,
+  "conditions": [
+    {
+      "field": "request.headers.Authorization",
+      "operator": "not_exists"
+    }
+  ],
+  "actions": [
+    {
+      "type": "rate_limit",
+      "config": {
+        "requestsPerMinute": 100,
+        "keyBy": "ip_address",
+        "responseCode": 429,
+        "responseMessage": "Too Many Requests"
+      }
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-04-01T12:00:00Z",
+  "createdBy": "devops@company.com"
+}

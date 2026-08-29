@@ -1,31 +1,27 @@
 {
-  "url" : "URL",
-  "object" : "STRING",
-  "has_more" : "BOOLEAN",
-  "data" : [ {
-    "livemode" : "BOOLEAN",
-    "delinquent" : "",
-    "object" : "STRING",
-    "v_preferred_locales" : "ARRAY",
-    "emailAddress" : "PII_EMAIL",
-    "invoice_settings_data" : {
-      "custom_fields" : "NULL",
-      "v_footer" : "STRING",
-      "v_default_payment_method" : "STRING",
-      "rendering_options" : "NULL"
-    },
-    "default_source" : "STRING",
-    "metadata" : "OBJECT",
-    "created" : "DATETIME_EPOCH",
-    "next_invoice_sequence" : "INT",
-    "invoice_prefix" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "test_clock" : "NULL",
-    "auto_renew" : false,
-    "description" : "STRING",
-    "v_shipping" : null,
-    "address_data" : "NULL",
-    "recordId" : "STRING",
+  "timestamp" : "DATETIME",
+  "recipient" : {
+    "primaryKey" : "STRING",
+    "v_type" : "STRING",
+    "price" : 8281.41,
+    "name" : "STRING"
+  },
+  "intent_data" : "STRING",
+  "channel" : "STRING",
+  "messageId" : "STRING",
+  "v_sentiment" : "STRING",
+  "cpu_usage_percent" : 58.44,
+  "content" : {
+    "text" : "STRING",
+    "type" : "STRING"
+  },
+  "direction" : "",
+  "primaryKey" : "STRING",
+  "sender" : {
+    "v_type" : "STRING",
+    "id" : "STRING",
+    "contactEmail" : "PII_EMAIL",
+    "price" : 835.14,
     "name" : "PII_PERSON_NAME"
-  } ]
+  }
 }

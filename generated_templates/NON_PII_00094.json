@@ -1,16 +1,10 @@
 {
-  "identifier" : "STRING",
-  "numberOfUserRecommendations_data" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "numberOfUserReviews" : "INT",
-  "response_time_sec" : 634.19,
-  "averageStarRating" : "INT",
-  "starRatingDistribution" : {
-    "5" : "INT",
-    "1" : "INT",
-    "v_4" : "INT",
-    "3" : "INT",
-    "2" : "INT",
-    "conversion_rate" : 628.27
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "http_status" : 696,
+    "clientToken" : "STRING"
   }
 }

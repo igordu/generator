@@ -1,32 +1,54 @@
 {
-  "cpu_usage_percent" : 114.25,
-  "transactions" : {
-    "http_status" : 2803,
-    "v_booked" : [ {
-      "item_count" : 971,
-      "identifier" : "STRING",
-      "creditorAccount_data" : {
-        "price" : 687.85,
-        "iban" : "PII_IBAN"
-      },
-      "valueDate" : "DATE",
-      "debtorAccount" : {
-        "iban" : "STRING",
-        "conversion_rate" : 780.02
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "bankTransactionCode" : {
-        "domain" : "STRING",
-        "subFamily" : "STRING",
-        "family" : "STRING"
-      },
-      "debtorName" : "STRING",
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "create_time" : "DATETIME",
+    "requires_update" : true,
+    "transactions" : [ {
       "amount" : {
-        "amount" : "",
-        "currency" : "STRING"
+        "currency" : "STRING",
+        "cache_hit" : false,
+        "total" : "DECIMAL"
       },
-      "bookingDate" : "DATE",
-      "fullName" : "PII_PERSON_NAME"
-    } ]
+      "auto_renew" : false,
+      "description" : "STRING",
+      "invoice_number_data" : "STRING"
+    } ],
+    "payer" : {
+      "discount_rate" : 34.06,
+      "status" : "STRING",
+      "payer_info" : {
+        "email" : "PII_EMAIL",
+        "shipping_address" : {
+          "v_country_code" : "PII_LOCATION_COUNTRY",
+          "postal_code" : "STRING",
+          "v_city" : "PII_LOCATION_CITY",
+          "phone" : "PII_PHONE_NUMBER",
+          "line2" : "STRING",
+          "recipient_name" : "PII_PERSON_NAME",
+          "line1" : "PII_ADDRESS_LINE",
+          "v_state" : "STRING"
+        },
+        "payer_id" : "STRING",
+        "birth_date" : "PII_DATE_OF_BIRTH",
+        "country_code" : "STRING",
+        "name_val" : "PII_PERSON_LAST_NAME",
+        "telephone" : "PII_PHONE_NUMBER",
+        "clientName" : "PII_PERSON_FIRST_NAME",
+        "billing_address" : {
+          "line1_data" : "PII_ADDRESS_LINE",
+          "city" : "PII_LOCATION_CITY",
+          "country_code" : "PII_LOCATION_COUNTRY",
+          "state" : "STRING",
+          "postal_code" : "STRING"
+        }
+      },
+      "v_payment_method" : "STRING"
+    },
+    "v_state" : "STRING",
+    "id" : "STRING",
+    "cart" : "STRING",
+    "intent" : "STRING",
+    "update_time" : "DATETIME"
   }
 }

@@ -1,28 +1,17 @@
-[ {
-  "facets" : [ {
-    "displayName" : "STRING",
-    "count_data" : "INT",
-    "key" : "STRING",
-    "cpu_usage_percent" : 264.08
-  }, {
-    "count" : "INT",
-    "userName" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT"
-  } ]
-}, {
-  "facets" : [ {
-    "key" : "STRING"
-  }, {
-    "userName" : "STRING",
-    "auto_renew" : false,
-    "key" : "STRING",
-    "count" : "INT"
+{
+  "usage" : {
+    "output_tokens" : "INT",
+    "cpu_usage_percent" : 43.93,
+    "input_tokens" : "INT"
+  },
+  "type" : "STRING",
+  "v_content" : [ {
+    "text_data" : "STRING",
+    "type" : "STRING",
+    "cache_hit" : false
   } ],
-  "filter" : "STRING",
-  "requires_update" : true
-}, {
-  "filter" : "STRING"
-} ]
+  "uuid" : "STRING",
+  "stop_reason" : "STRING",
+  "model_data" : "STRING",
+  "role" : "STRING"
+}

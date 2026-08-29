@@ -1,16 +1,40 @@
 {
-  "fingerprint" : "STRING",
-  "has_discount" : false,
-  "country" : "",
-  "v_routing_number" : "STRING",
-  "status" : "STRING",
-  "customer" : "STRING",
-  "account_type" : "STRING",
-  "metadata" : "NULL",
-  "currency" : "STRING",
-  "last4" : "NULL",
-  "id" : "STRING",
-  "object" : "STRING",
-  "clientName" : "STRING",
-  "userName" : "PII_PERSON_NAME"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "status" : "STRING",
+    "uuid" : "STRING",
+    "bankAccount" : {
+      "name_val" : "PII_COMPANY_NAME",
+      "iban_data" : "PII_IBAN"
+    },
+    "applicant" : {
+      "employmentStatus" : "STRING",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "clientName" : "PII_PERSON_LAST_NAME",
+      "monthlyIncome" : "DECIMAL",
+      "employer" : "PII_COMPANY_NAME",
+      "email" : "PII_EMAIL",
+      "nationalId" : "PII_NATIONAL_ID",
+      "address" : {
+        "street" : "PII_ADDRESS_LINE",
+        "v_state" : "STRING",
+        "stock_quantity" : 543,
+        "v_country" : "PII_LOCATION_COUNTRY",
+        "city" : "PII_LOCATION_CITY"
+      },
+      "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+      "cell" : "PII_PHONE_NUMBER"
+    },
+    "loanDetails" : {
+      "requestedAmount_data" : "DECIMAL",
+      "type" : "STRING",
+      "requestedAt" : "DATETIME",
+      "purpose" : "STRING",
+      "currency" : "STRING"
+    },
+    "creditScore" : "INT"
+  }
 }

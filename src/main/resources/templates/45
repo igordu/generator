@@ -1,0 +1,28 @@
+{
+  "token": "STRING",
+  "token_type": "STRING",
+  "scope": "STRING",
+  "user": {
+    "login": "PII_USERNAME",
+    "id": "INT",
+    "node_id": "STRING",
+    "avatar_url": "URL",
+    "url": "URL",
+    "html_url": "URL",
+    "type": "STRING",
+    "site_admin": "BOOLEAN",
+    "name": "PII_PERSON_NAME",
+    "company": "PII_COMPANY_NAME",
+    "blog": "URL",
+    "location": "PII_LOCATION_CITY",
+    "email": "PII_EMAIL",
+    "hireable": "BOOLEAN",
+    "bio": "STRING",
+    "twitter_username": "PII_USERNAME",
+    "public_repos": "INT",
+    "followers": "INT",
+    "following": "INT",
+    "created_at": "DATETIME",
+    "updated_at": "DATETIME"
+  }
+}

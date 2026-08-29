@@ -1,53 +1,23 @@
 {
-  "server_logs" : {
-    "request_context" : {
-      "debug_payload" : [ {
-        "facets" : [ {
-          "displayName" : "STRING",
-          "key" : "STRING",
-          "temperature_c" : 116.62,
-          "v_count" : "INT"
-        }, {
-          "key" : "STRING",
-          "count" : "INT",
-          "displayName" : ""
-        } ],
-        "filter" : "STRING",
-        "has_discount" : false
-      }, {
-        "facets" : [ {
-          "displayName" : "STRING",
-          "priority_level" : 2688,
-          "count" : "INT",
-          "v_key" : "STRING"
-        }, {
-          "count_data" : "INT",
-          "clientName" : "STRING",
-          "key" : "STRING"
-        }, {
-          "displayName" : "STRING",
-          "count_data" : "NULL",
-          "key" : "STRING",
-          "requires_update" : false
-        } ],
-        "filter" : "STRING",
-        "auto_renew" : true
-      }, {
-        "facets" : [ {
-          "cpu_usage_percent" : 658.98,
-          "key" : "STRING",
-          "count" : "INT"
-        }, {
-          "displayName" : "STRING",
-          "v_key" : "NULL"
-        }, {
-          "key_data" : "STRING",
-          "clientName" : "STRING",
-          "count" : "INT"
-        } ],
-        "filter_data" : "STRING",
-        "conversion_rate" : 181.12
-      } ]
+  "data" : {
+    "fetchResource" : {
+      "endpoint" : "URL",
+      "v_auth" : {
+        "password" : "********",
+        "v_api_key" : "[REDACTED]",
+        "client_secret" : "[MASKED]",
+        "v_token_expires" : "DATETIME",
+        "requires_update" : false,
+        "username" : "svc_backup_01"
+      },
+      "connection" : {
+        "pool_size" : "INT",
+        "retries" : "INT"
+      },
+      "service" : "STRING",
+      "last_run_data" : "DATETIME",
+      "last_status_data" : "STRING",
+      "log_line" : "TEXT"
     }
   }
 }

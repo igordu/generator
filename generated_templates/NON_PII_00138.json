@@ -1,17 +1,38 @@
 {
-  "media" : {
-    "images_data" : [ {
-      "largeUrl" : "URL",
-      "price" : 606.35,
-      "v_mediumHdUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "v_mediumUrl" : "URL",
-      "type" : "STRING",
-      "largeHdUrl" : "URL",
-      "orderNumber" : "INT"
-    } ]
+  "inventory" : {
+    "reservedStock" : "INT",
+    "totalStock" : "INT",
+    "is_deleted" : false,
+    "backorderAllowed" : "NULL",
+    "availableStock" : "INT",
+    "lowStockThreshold_data" : "INT"
   },
+  "updatedAt" : "DATETIME",
+  "productId" : "STRING",
+  "images_data" : [ {
+    "isPrimary" : "BOOLEAN",
+    "url" : "URL"
+  } ],
+  "v_pricing" : {
+    "salePrice" : "DECIMAL",
+    "v_currency" : "STRING",
+    "taxClass" : "STRING",
+    "price" : 6130.07,
+    "basePrice" : "DECIMAL"
+  },
+  "sku" : "STRING",
+  "v_attributes" : {
+    "noiseCancel" : "BOOLEAN",
+    "foldable" : "NULL",
+    "connectivity_data" : "STRING",
+    "weight_g" : "INT",
+    "color" : "STRING",
+    "priority_level" : 2281,
+    "batteryLifeHours" : "INT"
+  },
+  "category" : "STRING",
+  "createdAt_data" : "DATETIME",
+  "v_brand" : "STRING",
   "clientName" : "STRING",
-  "recordId" : "STRING",
-  "shopUrl" : "URL"
+  "status" : "STRING"
 }

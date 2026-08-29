@@ -1,0 +1,17 @@
+{
+  "snapshotId": "STRING",
+  "database": "STRING",
+  "cluster": "STRING",
+  "status": "STRING",
+  "type": "STRING",
+  "startedAt": "DATETIME",
+  "completedAt": "DATETIME",
+  "sizeGb": "DECIMAL",
+  "encryptionKeyId": "STRING",
+  "retentionDays": "INT",
+  "region": "STRING",
+  "tags": {
+    "environment": "STRING",
+    "team": "STRING"
+  }
+}

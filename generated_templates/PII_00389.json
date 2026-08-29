@@ -1,11 +1,22 @@
 {
-  "system_state" : {
-    "event_data" : {
-      "extracted_info" : {
-        "emailAddress" : "PII_EMAIL",
-        "page_index" : 2722,
-        "primary_email" : [ "STRING" ]
-      }
-    }
-  }
+  "v_api_version" : "STRING",
+  "subresource_uris_data" : {
+    "v_media" : "URL"
+  },
+  "date_created" : null,
+  "v_from" : "PII_PHONE_NUMBER",
+  "error_code" : "NULL",
+  "messaging_service_sid" : "STRING",
+  "v_price_unit" : "NULL",
+  "to" : "PII_PHONE_NUMBER",
+  "v_num_segments" : "STRING",
+  "status" : "STRING",
+  "error_message" : "NULL",
+  "http_status" : 4397,
+  "date_updated" : "DATETIME",
+  "price" : "",
+  "account_sid" : "STRING",
+  "direction" : null,
+  "date_sent" : "DATETIME",
+  "body" : "STRING"
 }

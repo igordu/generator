@@ -1,30 +1,31 @@
 {
-  "has_more" : "",
-  "data" : [ {
+  "adjuster" : {
+    "discount_rate" : 63.27,
     "name" : "PII_PERSON_NAME",
-    "default_source" : "STRING",
-    "contactEmail" : "PII_EMAIL",
-    "invoice_prefix_data" : "STRING",
-    "shipping" : "NULL",
-    "v_address" : "NULL",
-    "object" : "STRING",
-    "id" : "STRING",
-    "next_invoice_sequence" : "INT",
-    "mobile" : "PII_PHONE_NUMBER",
-    "v_invoice_settings" : {
-      "custom_fields" : "NULL",
-      "rendering_options_data" : "NULL"
+    "primaryKey" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "incidentDate" : "DATE",
+  "v_claimType" : "STRING",
+  "policyHolder" : {
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "item_count" : 2631,
+    "address" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "state" : "STRING",
+      "v_zip" : "STRING"
     },
-    "v_currency" : "STRING",
-    "test_clock" : "NULL",
-    "created" : "DATETIME_EPOCH",
-    "delinquent" : "BOOLEAN",
-    "description" : "STRING",
-    "balance" : "INT",
-    "metadata" : "OBJECT",
-    "v_preferred_locales" : "ARRAY",
-    "tax_exempt" : ""
-  } ],
-  "v_url" : "URL",
-  "object_data" : "STRING"
+    "email" : "PII_EMAIL",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "mobile" : "PII_PHONE_NUMBER"
+  },
+  "estimatedLoss_data" : "DECIMAL",
+  "policyNumber" : "STRING",
+  "recordId" : "STRING",
+  "description_data" : "STRING",
+  "v_reportedDate" : "DATE",
+  "currency" : "STRING",
+  "status" : "STRING"
 }

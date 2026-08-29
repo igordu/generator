@@ -1,36 +1,39 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "transactions" : {
-      "http_status" : 4213,
-      "booked" : [ {
-        "fullName" : "PII_PERSON_NAME",
-        "transactionId" : "STRING",
-        "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
-        "valueDate" : "DATE",
-        "v_amount" : {
-          "amount" : "DECIMAL",
-          "currency" : "STRING"
-        },
-        "debtorAccount" : {
-          "is_deleted" : true,
-          "iban" : "STRING"
-        },
-        "debtorName" : "STRING",
-        "bookingDate" : "DATE",
-        "creditorAccount" : {
-          "has_discount" : false,
-          "iban" : "PII_IBAN"
-        },
-        "bankTransactionCode" : {
-          "v_family" : "STRING",
-          "cache_hit" : true,
-          "subFamily" : "NULL"
-        }
-      } ]
-    }
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "id" : "INT",
+    "v_tags" : "STRING",
+    "accepts_marketing" : "BOOLEAN",
+    "phone" : "PII_PHONE_NUMBER",
+    "default_address" : {
+      "recordId" : "INT",
+      "v_zip" : "STRING",
+      "default" : "BOOLEAN",
+      "company" : "PII_COMPANY_NAME",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "name" : "PII_PERSON_NAME",
+      "mobile" : "PII_PHONE_NUMBER",
+      "address1" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "clientName" : "PII_PERSON_LAST_NAME",
+      "province_code" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "auto_renew" : false,
+      "country_code" : "STRING",
+      "id" : "INT",
+      "address2" : "STRING"
+    },
+    "last_order_id" : "INT",
+    "note" : "STRING",
+    "currency" : "STRING",
+    "total_spent" : "DECIMAL",
+    "updated_at" : "DATETIME",
+    "orders_count" : "INT",
+    "state" : "STRING",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "mail" : "PII_EMAIL",
+    "verified_email" : "BOOLEAN"
   }
 }

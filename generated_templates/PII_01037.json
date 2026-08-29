@@ -1,17 +1,47 @@
 {
-  "v_customer" : "STRING",
-  "account_holder_type_data" : "STRING",
-  "metadata" : "OBJECT",
-  "response_time_sec" : 73.46,
-  "name_val" : "PII_PERSON_NAME",
-  "recordId" : "STRING",
-  "bank_name" : "STRING",
-  "currency" : "STRING",
-  "routing_number" : "STRING",
-  "last4_data" : "STRING",
-  "account_type_data" : "STRING",
-  "status" : "STRING",
-  "v_object" : "STRING",
-  "v_country" : null,
-  "fingerprint" : "STRING"
+  "server_logs" : {
+    "payload_wrapper" : {
+      "extracted_info" : {
+        "checkIn" : "DATE",
+        "v_guest" : {
+          "nationality" : "PII_LOCATION_COUNTRY",
+          "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "passportNumber" : "PII_NATIONAL_ID",
+          "phone" : "PII_PHONE_NUMBER",
+          "cpu_usage_percent" : 12.52,
+          "lastName" : "PII_PERSON_LAST_NAME",
+          "contactEmail" : "PII_EMAIL"
+        },
+        "specialRequests" : "STRING",
+        "loyaltyNumber_data" : "STRING",
+        "hotel_data" : {
+          "id" : "STRING",
+          "name" : "PII_COMPANY_NAME",
+          "address" : "PII_ADDRESS_LINE",
+          "price" : 3210.48,
+          "phone" : "PII_PHONE_NUMBER"
+        },
+        "room" : {
+          "bedType" : "STRING",
+          "type" : "STRING",
+          "smoking" : "BOOLEAN",
+          "floor" : "INT",
+          "discount_rate" : 93.0
+        },
+        "status" : "STRING",
+        "createdAt_data" : "DATETIME",
+        "reservationId" : "STRING",
+        "v_checkOut" : "DATE",
+        "v_pricing" : {
+          "v_nights" : "INT",
+          "tax" : "DECIMAL",
+          "ratePerNight_data" : "DECIMAL",
+          "system_ping_ms" : 574,
+          "v_total" : "DECIMAL",
+          "currency" : "STRING"
+        }
+      }
+    }
+  }
 }

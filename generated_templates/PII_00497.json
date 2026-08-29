@@ -1,32 +1,34 @@
 {
-  "transactions" : {
-    "is_deleted" : true,
-    "booked" : [ {
-      "identifier" : null,
-      "v_creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "v_debtorAccount" : {
-        "is_active" : true,
-        "v_iban" : "STRING"
-      },
-      "temperature_c" : 135.34,
-      "debtorName" : "STRING",
-      "v_bankTransactionCode" : {
-        "family" : "STRING",
-        "domain_data" : "STRING",
-        "subFamily" : "STRING",
-        "auto_renew" : false
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "amount_data" : {
-        "currency" : "STRING",
-        "v_amount" : "DECIMAL"
-      },
-      "v_bookingDate" : "DATE",
-      "creditorName" : "PII_PERSON_NAME",
-      "valueDate" : "DATE"
-    } ]
+  "status" : "STRING",
+  "discount_rate" : 58.8,
+  "passwordChanged" : "DATETIME",
+  "activated" : "DATETIME",
+  "credentials" : {
+    "provider" : {
+      "conversion_rate" : 3.09,
+      "type" : "STRING",
+      "name" : "STRING"
+    }
   },
-  "is_deleted" : true
+  "id" : null,
+  "lastUpdated" : "DATETIME",
+  "v_lastLogin" : "DATETIME",
+  "profile_data" : {
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "v_organization" : "PII_COMPANY_NAME",
+    "email" : "PII_EMAIL",
+    "department" : null,
+    "displayName" : "PII_PERSON_NAME",
+    "countryCode" : "PII_LOCATION_COUNTRY",
+    "contactEmail" : "PII_EMAIL",
+    "city" : "PII_LOCATION_CITY",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "http_status" : 480,
+    "title_data" : "STRING",
+    "login_data" : "PII_EMAIL",
+    "state" : "STRING",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "zipCode" : "STRING"
+  }
 }

@@ -1,5 +1,14 @@
 {
-  "flowName" : "STRING",
-  "clientToken_data" : "STRING",
-  "http_status" : 1116
+  "originalQueue" : "STRING",
+  "movedToDlqAt" : "DATETIME",
+  "queueName" : "STRING",
+  "priority_level" : 4916,
+  "primaryKey" : "STRING",
+  "attributes" : {
+    "retryPolicy" : "STRING",
+    "contentType_data" : "STRING",
+    "cache_hit" : true
+  },
+  "firstReceivedAt" : "DATETIME",
+  "v_lastReceivedAt" : "DATETIME"
 }

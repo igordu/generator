@@ -1,65 +1,30 @@
 {
-  "registrationMarketplaceId" : "STRING",
-  "primaryKey" : "STRING",
-  "status" : "STRING",
-  "accountType" : "NULL",
-  "username" : "PII_USERNAME",
-  "businessAccount" : {
-    "temperature_c" : 252.46,
-    "address" : {
-      "county" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine2" : "STRING",
-      "has_discount" : false,
-      "city" : "STRING",
-      "v_postalCode" : "STRING",
-      "addressLine1" : "STRING",
-      "country" : "STRING"
+  "v_created_at" : "DATETIME_EPOCH",
+  "retry_attempts" : 4860,
+  "read" : "BOOLEAN",
+  "open_data" : "BOOLEAN",
+  "type" : "STRING",
+  "conversation_parts" : [ {
+    "v_author" : {
+      "type_data" : "STRING",
+      "name" : "PII_PERSON_NAME",
+      "item_count" : 100
     },
-    "email" : "PII_EMAIL",
-    "name" : "PII_ORGANIZATION_NAME",
-    "website_data" : "URL",
-    "primaryContact" : {
-      "discount_rate" : 867.65,
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "response_time_sec" : 319.71,
-      "v_countryCode" : "STRING"
-    },
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "countryCode" : "STRING"
-    },
-    "doingBusinessAs" : "STRING"
+    "body" : "PII_FREE_TEXT",
+    "part_type" : "STRING"
+  } ],
+  "source" : {
+    "body" : "PII_FREE_TEXT",
+    "subject" : "STRING",
+    "v_type" : "STRING",
+    "delivered_as" : "STRING",
+    "author_data" : {
+      "type" : "STRING",
+      "fullName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "identifier" : "STRING"
+    }
   },
-  "individualAccount" : {
-    "registrationAddress" : {
-      "country" : "STRING",
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "STRING",
-      "stock_quantity" : 3949,
-      "addressLine2" : "STRING",
-      "postalCode" : "STRING",
-      "city" : "STRING"
-    },
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "auto_renew" : false,
-      "phoneType" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER"
-    },
-    "clientName" : "PII_PERSON_NAME",
-    "emailAddress" : "PII_EMAIL"
-  }
+  "priority" : "STRING",
+  "id" : "STRING"
 }

@@ -1,28 +1,26 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "debtorAccount" : {
-        "is_deleted" : true,
-        "v_iban" : "STRING"
-      },
-      "auto_renew" : true,
-      "v_bankTransactionCode" : {
-        "subFamily_data" : "NULL",
-        "domain_data" : "STRING",
-        "family" : "STRING"
-      },
-      "creditorName" : "PII_PERSON_NAME",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "amount" : {
-        "v_amount" : "DECIMAL",
-        "item_count" : 4891,
-        "v_currency" : "STRING"
-      },
-      "name_val" : "STRING",
-      "bookingDate" : "DATE",
-      "v_creditorAccount" : {
-        "iban" : "PII_IBAN"
-      }
-    } ]
-  }
+  "department" : "STRING",
+  "mail" : "PII_EMAIL",
+  "v_jobTitle" : "STRING",
+  "preferredLanguage" : "STRING",
+  "accountEnabled" : "BOOLEAN",
+  "clientName" : "PII_EMAIL",
+  "givenName" : "PII_PERSON_FIRST_NAME",
+  "onPremisesSamAccountName" : "PII_USERNAME",
+  "companyName" : "PII_COMPANY_NAME",
+  "userType" : "STRING",
+  "v_employeeType" : "STRING",
+  "streetAddress" : "PII_ADDRESS_LINE",
+  "businessPhones" : [ "PII_PHONE_NUMBER" ],
+  "fullName" : "PII_PERSON_LAST_NAME",
+  "state" : "STRING",
+  "employeeId" : "STRING",
+  "usageLocation" : "STRING",
+  "displayName" : "PII_PERSON_NAME",
+  "city" : "PII_LOCATION_CITY",
+  "country" : "PII_LOCATION_COUNTRY",
+  "createdDateTime" : "DATETIME",
+  "mobilePhone" : "PII_PHONE_NUMBER",
+  "postalCode" : "STRING",
+  "officeLocation" : "STRING"
 }

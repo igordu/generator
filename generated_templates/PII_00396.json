@@ -1,46 +1,25 @@
 {
-  "server_logs" : {
-    "event_data" : {
-      "body" : {
-        "gender_data" : "STRING",
-        "id" : "STRING",
-        "address" : [ {
-          "use" : "STRING",
-          "v_country" : "PII_LOCATION_COUNTRY",
-          "item_count" : 1114,
-          "line" : [ "PII_ADDRESS_LINE" ],
-          "city" : "PII_LOCATION_CITY"
-        } ],
-        "birthDate" : "PII_DATE_OF_BIRTH",
-        "telecom_data" : [ {
-          "value" : "PII_EMAIL",
-          "discount_rate" : 366.68,
-          "system" : "STRING"
-        }, {
-          "use_data" : "STRING",
-          "value_data" : "PII_PHONE_NUMBER"
-        } ],
-        "clientName" : [ {
-          "family" : "PII_PERSON_LAST_NAME",
-          "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-          "temperature_c" : 922.26
-        } ],
-        "meta" : {
-          "conversion_rate" : 405.16,
-          "lastUpdated" : "DATETIME",
-          "versionId" : "INT"
-        },
-        "identifier" : [ {
-          "temperature_c" : 9.6,
-          "v_value" : "PII_NATIONAL_ID",
-          "system_data" : "URL",
-          "type" : {
-            "text" : "STRING"
-          }
-        } ],
-        "resourceType" : "STRING",
-        "page_index" : 211
-      }
-    }
-  }
+  "to" : "PII_PHONE_NUMBER",
+  "v_status" : "STRING",
+  "error_message" : "NULL",
+  "subresource_uris" : {
+    "item_count" : 1221,
+    "media_data" : "URL"
+  },
+  "price" : "NULL",
+  "messaging_service_sid" : "STRING",
+  "sid" : "STRING",
+  "account_sid" : "STRING",
+  "api_version" : "STRING",
+  "v_direction" : "STRING",
+  "uri" : "URL",
+  "price_unit" : "NULL",
+  "has_discount" : false,
+  "date_sent" : "DATETIME",
+  "num_media" : "STRING",
+  "body_data" : "STRING",
+  "date_updated_data" : "DATETIME",
+  "date_created" : "DATETIME",
+  "num_segments" : "STRING",
+  "from" : "PII_PHONE_NUMBER"
 }

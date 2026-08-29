@@ -1,38 +1,48 @@
 {
-  "Status" : "STRING",
-  "Id" : "STRING",
-  "page_index" : 2652,
-  "Employees" : [ {
-    "userName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "Status_data" : "STRING",
-    "item_count" : 4549,
-    "v_ExternalLink" : {
-      "Description_data" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "key" : "STRING",
+    "fields" : {
+      "priority" : {
+        "id" : "STRING"
+      },
+      "summary_data" : "STRING",
+      "created_data" : "DATETIME",
+      "reporter" : {
+        "timeZone" : "STRING",
+        "displayName" : "PII_PERSON_NAME",
+        "accountId" : "STRING",
+        "emailAddress" : "PII_EMAIL",
+        "active" : "BOOLEAN"
+      },
+      "duedate_data" : "DATE",
+      "comment" : {
+        "comments" : [ {
+          "v_author" : {
+            "is_deleted" : true,
+            "displayName" : "PII_PERSON_NAME",
+            "uuid" : "STRING",
+            "emailAddress" : "PII_EMAIL"
+          },
+          "created" : "DATETIME",
+          "updated_data" : "DATETIME",
+          "uuid" : "STRING"
+        } ]
+      },
+      "assignee" : {
+        "is_active" : true,
+        "v_active" : "BOOLEAN",
+        "timeZone" : null,
+        "recordId" : "STRING",
+        "emailAddress" : "PII_EMAIL",
+        "displayName" : "PII_PERSON_NAME"
+      },
+      "updated" : "DATETIME"
     },
-    "EmployeeID" : "NULL",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "stock_quantity" : 4970,
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "v_Url" : "URL",
-      "Description" : "STRING"
-    },
-    "identifier" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "v_ExternalLink" : {
-      "v_Description" : "STRING"
-    },
-    "uuid" : "STRING",
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "fullName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  } ],
-  "userName" : "STRING",
-  "DateTimeUTC" : "DATETIME"
+    "id" : "STRING",
+    "cache_hit" : false
+  }
 }

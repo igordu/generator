@@ -1,15 +1,179 @@
 {
-  "status" : "success",
-  "code" : 200,
   "data" : {
-    "numberOfUserPositiveRecommendations" : "INT",
-    "numberOfUserReviews" : "",
-    "averageStarRating" : "INT",
-    "starRatingDistribution" : {
-      "v_2" : "",
-      "3" : "INT",
-      "4_data" : "INT",
-      "5" : "INT"
+    "fetchResource" : {
+      "destinationFlowConfigList_data" : [ {
+        "apiVersion" : "STRING",
+        "connectorType" : "STRING",
+        "destinationConnectorProperties_data" : {
+          "EventBridge" : {
+            "v_object" : "STRING",
+            "errorHandlingConfig" : {
+              "clientName" : "STRING",
+              "failOnFirstDestinationError_data" : "BOOLEAN",
+              "bucketPrefix" : "STRING"
+            }
+          },
+          "v_Snowflake" : {
+            "errorHandlingConfig_data" : {
+              "is_deleted" : true,
+              "bucketPrefix" : "STRING",
+              "bucketName" : "STRING",
+              "failOnFirstDestinationError_data" : "BOOLEAN"
+            },
+            "bucketPrefix_data" : "STRING",
+            "fullName" : "STRING",
+            "item_count" : 1968,
+            "object" : "STRING"
+          },
+          "v_Salesforce" : {
+            "auto_renew" : false,
+            "object_data" : "STRING",
+            "writeOperationType" : "STRING",
+            "errorHandlingConfig" : {
+              "bucketName" : "STRING",
+              "stock_quantity" : 2133,
+              "bucketPrefix" : "STRING",
+              "failOnFirstDestinationError" : "BOOLEAN"
+            },
+            "dataTransferApi" : "STRING",
+            "userName" : "ARRAY"
+          },
+          "S3" : {
+            "bucketName" : "STRING",
+            "price" : 9283.81,
+            "bucketPrefix" : "STRING",
+            "v_s3OutputFormatConfig" : {
+              "prefixConfig" : {
+                "pathPrefixHierarchy_data" : "ARRAY",
+                "prefixType" : "STRING"
+              },
+              "preserveSourceDataTyping" : "BOOLEAN",
+              "response_time_sec" : 25.45,
+              "aggregationConfig" : {
+                "targetFileSize" : "INT",
+                "aggregationType_data" : "STRING"
+              }
+            }
+          },
+          "LookoutMetrics" : { }
+        },
+        "page_index" : 769,
+        "connectorProfileName" : "STRING"
+      } ],
+      "flowName" : "STRING",
+      "v_sourceFlowConfig" : {
+        "sourceConnectorProperties" : {
+          "v_SAPOData" : { },
+          "v_CustomConnector" : {
+            "customProperties" : {
+              "property2" : "STRING",
+              "property1" : ""
+            },
+            "entityName" : "STRING"
+          },
+          "ServiceNow" : {
+            "object" : "STRING"
+          },
+          "InforNexus_data" : {
+            "object" : "STRING"
+          },
+          "Zendesk_data" : {
+            "priority_level" : 4992,
+            "object" : "STRING"
+          },
+          "Singular" : {
+            "object_data" : "STRING",
+            "stock_quantity" : 68
+          },
+          "Dynatrace" : {
+            "object_data" : "STRING"
+          },
+          "Salesforce" : {
+            "includeDeletedRecords" : "BOOLEAN",
+            "dataTransferApi" : "STRING",
+            "object" : "STRING",
+            "enableDynamicFieldUpdate" : "BOOLEAN"
+          },
+          "S3" : {
+            "s3InputFormatConfig_data" : {
+              "retry_attempts" : 4095,
+              "s3InputFileType" : "STRING"
+            },
+            "v_bucketPrefix" : "STRING",
+            "bucketName" : "STRING"
+          },
+          "Amplitude" : {
+            "v_object" : "STRING"
+          },
+          "Trendmicro_data" : {
+            "object" : "STRING"
+          }
+        },
+        "apiVersion" : "STRING",
+        "v_incrementalPullConfig" : {
+          "datetimeTypeFieldName" : "NULL"
+        },
+        "connectorType" : "STRING",
+        "name_val" : "STRING"
+      },
+      "metadataCatalogConfig_data" : {
+        "glueDataCatalog" : {
+          "roleArn" : "STRING",
+          "tablePrefix_data" : "STRING",
+          "fullName" : "STRING"
+        },
+        "is_active" : false
+      },
+      "tags" : {
+        "v_property2" : "STRING"
+      },
+      "clientToken" : "",
+      "kmsArn" : "STRING",
+      "description" : "STRING",
+      "v_tasks" : [ {
+        "v_taskType" : "STRING",
+        "taskProperties" : {
+          "v_property2" : "STRING",
+          "conversion_rate" : 5.56,
+          "property1" : "STRING"
+        },
+        "sourceFields_data" : "ARRAY",
+        "v_connectorOperator" : {
+          "S3" : "STRING",
+          "v_Trendmicro" : "STRING",
+          "ServiceNow" : "STRING",
+          "CustomConnector_data" : null,
+          "Dynatrace_data" : "STRING",
+          "GoogleAnalytics" : "STRING",
+          "v_Zendesk" : "STRING",
+          "InforNexus" : "STRING",
+          "v_SAPOData" : "STRING",
+          "Amplitude" : "STRING",
+          "Datadog" : "STRING",
+          "Singular" : "STRING",
+          "Salesforce" : "STRING",
+          "Pardot" : "",
+          "Slack" : "NULL",
+          "Veeva" : "STRING"
+        },
+        "destinationField" : "NULL"
+      } ],
+      "v_triggerConfig" : {
+        "triggerProperties" : {
+          "Scheduled" : {
+            "scheduleStartTime_data" : "DATETIME",
+            "dataPullMode" : "STRING",
+            "scheduleExpression" : "STRING",
+            "timezone_data" : "STRING",
+            "conversion_rate" : 2.86,
+            "flowErrorDeactivationThreshold" : "INT",
+            "scheduleEndTime" : "DATETIME",
+            "v_scheduleOffset" : "INT",
+            "firstExecutionFrom" : "DATETIME"
+          }
+        },
+        "v_triggerType" : "STRING"
+      }
     }
   }
 }

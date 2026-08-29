@@ -1,39 +1,22 @@
 {
-  "address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "country" : "PII_LOCATION_COUNTRY",
-    "v_city" : "PII_LOCATION_CITY",
-    "use" : "STRING"
-  } ],
-  "has_discount" : true,
-  "telecom" : [ {
-    "value" : "PII_EMAIL",
-    "v_system" : "STRING"
-  }, {
-    "v_value" : "PII_PHONE_NUMBER",
-    "use" : "STRING",
-    "system" : "STRING"
-  } ],
-  "meta" : {
-    "v_lastUpdated" : "DATETIME",
-    "auto_renew" : false,
-    "versionId" : null
-  },
-  "identifier" : [ {
-    "response_time_sec" : 145.97,
-    "system_data" : "URL",
-    "v_type" : {
-      "priority_level" : 1645,
-      "text" : "STRING"
+  "data_data" : {
+    "conversion_rate" : 5.92,
+    "name" : "PII_PERSON_NAME",
+    "name_val" : "PII_USERNAME",
+    "created_at" : "DATETIME",
+    "v_protected" : "BOOLEAN",
+    "location" : "PII_LOCATION_CITY",
+    "pinned_tweet_id" : "STRING",
+    "public_metrics" : {
+      "following_count" : "INT",
+      "followers_count" : "INT",
+      "listed_count" : "INT",
+      "tweet_count" : "INT"
     },
-    "value_data" : "PII_NATIONAL_ID"
-  } ],
-  "resourceType" : "STRING",
-  "birthDate_data" : "PII_DATE_OF_BIRTH",
-  "gender_data" : "STRING",
-  "clientName" : [ {
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "use" : "STRING",
-    "family" : "PII_PERSON_LAST_NAME"
-  } ]
+    "id" : "STRING",
+    "verified" : "BOOLEAN",
+    "url" : "URL",
+    "description" : "STRING",
+    "profile_image_url" : "URL"
+  }
 }

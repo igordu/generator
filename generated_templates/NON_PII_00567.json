@@ -3,53 +3,34 @@
     "page" : 1,
     "total_pages" : 5
   },
-  "results" : [ {
-    "key" : "STRING",
-    "projectCategory" : {
-      "name" : null,
-      "description" : "STRING",
-      "id" : "NULL",
-      "self" : "URL"
+  "results" : {
+    "endpoint" : "NULL",
+    "serviceId" : "STRING",
+    "statusCodes" : {
+      "200_data" : "INT",
+      "price" : 5966.22,
+      "404" : "INT"
     },
-    "v_simplified" : "BOOLEAN",
-    "v_self" : "URL",
-    "style" : "STRING",
-    "v_insight" : {
-      "totalIssueCount" : "INT",
-      "lastIssueUpdateTime" : "DATETIME"
+    "topErrors_data" : [ {
+      "count" : "INT",
+      "code_data" : "STRING"
+    } ],
+    "period" : "STRING",
+    "sloCompliance" : {
+      "latencyTarget" : "INT",
+      "availabilityTarget_data" : "DECIMAL",
+      "latencyActualP99" : "INT",
+      "withinSlo_data" : "BOOLEAN"
     },
-    "name" : "STRING",
-    "v_avatarUrls" : {
-      "16x16" : "URL",
-      "48x48" : "URL",
-      "24x24" : "URL"
-    },
-    "id" : "STRING"
-  }, {
-    "self_data" : "URL",
-    "style" : "STRING",
-    "key" : "STRING",
-    "avatarUrls" : {
-      "16x16" : "URL",
-      "v_32x32" : "",
-      "cpu_usage_percent" : 931.04,
-      "48x48" : "URL",
-      "24x24" : "URL"
-    },
-    "simplified" : "BOOLEAN",
-    "id" : "STRING",
-    "v_projectCategory" : {
-      "cache_hit" : true,
-      "id" : "STRING",
-      "name" : "STRING",
-      "self" : "URL"
-    },
-    "item_count" : 3326,
-    "name" : "STRING",
-    "insight" : {
-      "lastIssueUpdateTime" : "",
-      "totalIssueCount_data" : "INT",
-      "conversion_rate" : 45.4
+    "metrics_data" : {
+      "p999LatencyMs" : "INT",
+      "v_requestCount" : "INT",
+      "system_ping_ms" : 4159,
+      "v_p99LatencyMs" : "INT",
+      "errorCount" : "INT",
+      "throughputRps" : "DECIMAL",
+      "v_errorRate" : "DECIMAL",
+      "p50LatencyMs" : "INT"
     }
-  } ]
+  }
 }

@@ -1,27 +1,34 @@
 {
-  "transactions_data" : {
-    "booked" : [ {
-      "v_amount" : {
-        "auto_renew" : false,
-        "currency" : "STRING"
-      },
-      "debtorName" : "STRING",
-      "transactionId" : "STRING",
-      "bookingDate" : "DATE",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "bankTransactionCode" : {
-        "retry_attempts" : 2197,
-        "family" : "STRING",
-        "subFamily" : "STRING",
-        "domain" : "STRING"
-      },
-      "valueDate_data" : "DATE",
-      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
-      "creditorName" : "PII_PERSON_NAME",
-      "cache_hit" : true
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "recordId" : "STRING",
+    "reply_to" : {
+      "cpu_usage_percent" : 69.83,
+      "mail" : "PII_EMAIL",
+      "name" : "STRING"
+    },
+    "auto_renew" : false,
+    "fullName" : "STRING",
+    "categories" : [ "STRING" ],
+    "subject" : "STRING",
+    "id" : "INT",
+    "send_at" : "DATETIME_EPOCH",
+    "personalizations" : [ {
+      "v_to" : [ {
+        "contactEmail" : "PII_EMAIL",
+        "name" : "PII_PERSON_NAME"
+      } ],
+      "subject" : "STRING",
+      "v_cc" : [ {
+        "name" : "PII_PERSON_NAME",
+        "email" : "PII_EMAIL"
+      } ]
     } ],
-    "is_deleted" : true
+    "from" : {
+      "requires_update" : false,
+      "mail" : "PII_EMAIL",
+      "name" : "PII_COMPANY_NAME"
+    }
   }
 }

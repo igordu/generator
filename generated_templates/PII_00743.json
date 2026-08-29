@@ -1,32 +1,51 @@
 {
-  "total_records" : "INT",
-  "page_count" : "INT",
-  "page_number" : "INT",
-  "registrants" : [ {
-    "v_industry" : "STRING",
-    "mobile" : "PII_PHONE_NUMBER",
-    "priority_level" : 2590,
-    "city" : "PII_LOCATION_CITY",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "custom_questions" : [ {
-      "title" : "STRING",
-      "system_ping_ms" : 3138,
-      "value" : "STRING"
-    } ],
-    "v_purchasing_time_frame" : "STRING",
-    "id" : "STRING",
-    "address" : "PII_ADDRESS_LINE",
-    "org_data" : "PII_ORGANIZATION_NAME",
-    "comments_data" : "STRING",
-    "join_url" : "URL",
-    "v_country" : "PII_LOCATION_COUNTRY",
-    "state" : "PII_LOCATION_STATE",
-    "job_title_data" : "STRING",
-    "create_time" : "DATETIME",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "v_role_in_purchase_process" : "STRING",
-    "no_of_employees" : "STRING",
-    "contactEmail" : "PII_EMAIL"
+  "id" : "STRING",
+  "telecom" : [ {
+    "system" : "STRING",
+    "v_value" : "PII_EMAIL",
+    "use" : "STRING"
+  }, {
+    "use" : "STRING",
+    "cache_hit" : false,
+    "value" : "PII_PHONE_NUMBER"
   } ],
-  "page_size_data" : "INT"
+  "fullName" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "prefix" : [ "STRING" ],
+    "item_count" : 3353,
+    "family" : "PII_PERSON_LAST_NAME",
+    "use_data" : "STRING"
+  } ],
+  "address" : [ {
+    "state" : "STRING",
+    "use_data" : "STRING",
+    "postalCode" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "city" : "PII_LOCATION_CITY"
+  } ],
+  "resourceType" : "STRING",
+  "identifier" : [ {
+    "system" : "URL",
+    "auto_renew" : true,
+    "value" : "PII_NATIONAL_ID"
+  } ],
+  "v_meta" : {
+    "lastUpdated" : "DATETIME",
+    "versionId" : "INT"
+  },
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "active" : "BOOLEAN",
+  "qualification" : [ {
+    "discount_rate" : 28.93,
+    "code" : {
+      "conversion_rate" : 7.85,
+      "coding" : [ {
+        "system" : "URL",
+        "code" : "STRING",
+        "response_time_sec" : 15.25
+      } ]
+    }
+  } ],
+  "gender" : "STRING"
 }

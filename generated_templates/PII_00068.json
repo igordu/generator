@@ -1,23 +1,4 @@
 {
-  "content_data" : [ {
-    "created" : "DATETIME",
-    "language" : "STRING",
-    "helpfulCount" : "INT",
-    "system_ping_ms" : 4570,
-    "recommend" : "BOOLEAN",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "customerCity" : "PII_LOCATION_CITY",
-    "unhelpfulCount" : "INT",
-    "description" : "STRING",
-    "rating" : "INT",
-    "title" : "PII_COMPANY_NAME",
-    "articleId" : "STRING",
-    "primaryKey" : "STRING",
-    "articleModelId" : "STRING",
-    "articleSizeRatings_data" : {
-      "identifier" : "INT",
-      "OVERALL_data" : "INT",
-      "response_time_sec" : 876.19
-    }
-  } ]
+  "contactEmail" : "PII_EMAIL",
+  "mail" : [ "STRING" ]
 }

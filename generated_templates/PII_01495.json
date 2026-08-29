@@ -1,0 +1,18 @@
+{
+  "stages_data" : [ {
+    "clientName" : "STRING",
+    "durationSeconds" : "INT",
+    "coverage" : "DECIMAL",
+    "has_discount" : true,
+    "v_status" : "STRING"
+  } ],
+  "pipelineId" : "STRING",
+  "repository" : "STRING",
+  "finishedAt" : "DATETIME",
+  "artifactDigest" : "STRING",
+  "triggeredBy" : "PII_EMAIL",
+  "startedAt" : "DATETIME",
+  "v_branch" : "STRING",
+  "http_status" : 3413,
+  "environment" : "STRING"
+}

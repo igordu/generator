@@ -1,0 +1,22 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "createdAt_data" : "DATETIME",
+    "slackChannel" : "STRING",
+    "name" : "STRING",
+    "updatedAt_data" : "DATETIME",
+    "teamId" : "STRING",
+    "priority_level" : 3676,
+    "members" : [ {
+      "joinedAt" : "DATETIME",
+      "clientName" : "PII_PERSON_NAME",
+      "userId" : "STRING",
+      "role" : "STRING",
+      "email" : "PII_EMAIL"
+    } ],
+    "ownedServices_data" : [ "STRING" ],
+    "description_data" : "STRING",
+    "oncallScheduleId" : "STRING"
+  }
+}

@@ -1,24 +1,29 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "debtorAccount" : {
-        "v_iban" : "STRING"
-      },
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "temperature_c" : 396.98,
-      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "valueDate_data" : "DATE",
-      "fullName" : "STRING",
-      "bankTransactionCode" : {
-        "family" : "STRING",
-        "subFamily" : "STRING",
-        "v_domain" : "STRING"
-      },
-      "name_val" : "PII_PERSON_NAME",
-      "bookingDate" : "DATE",
-      "transactionId" : "STRING"
-    } ]
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "company" : "PII_COMPANY_NAME",
+    "notes_last_contacted" : "DATETIME",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "associatedcompanyid" : "STRING",
+    "state" : "STRING",
+    "hs_email_optout" : "BOOLEAN",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "hs_lead_status_data" : "STRING",
+    "v_department" : "STRING",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "jobtitle" : "STRING",
+    "email" : "PII_EMAIL",
+    "id" : "",
+    "website" : "URL",
+    "phone" : "PII_PHONE_NUMBER",
+    "address" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "hs_object_id" : "",
+    "mobilephone" : "PII_PHONE_NUMBER",
+    "num_associated_deals" : "INT",
+    "createdate" : "DATETIME"
   }
 }

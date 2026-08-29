@@ -1,64 +1,30 @@
 {
-  "primaryKey" : {
-    "email" : "PII_EMAIL",
-    "registrationAddress" : {
-      "addressLine2" : "STRING",
-      "addressLine1" : "STRING",
-      "city" : "STRING",
-      "v_postalCode" : "STRING",
-      "county_data" : "STRING",
-      "country" : "STRING",
-      "stateOrProvince" : "STRING"
-    },
-    "cell" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "telephone" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "firstName" : "PII_PERSON_NAME",
-    "price" : 599.11
+  "v_content" : [ {
+    "value" : "PII_FREE_TEXT",
+    "type" : "STRING"
+  } ],
+  "v_reply_to" : {
+    "cpu_usage_percent" : 96.59,
+    "email" : "PII_EMAIL"
   },
-  "accountType" : "STRING",
-  "status" : "STRING",
-  "v_businessAccount" : {
-    "address" : {
-      "postalCode" : "STRING",
-      "v_addressLine2" : "STRING",
-      "stateOrProvince" : null,
-      "addressLine1" : "STRING",
-      "city" : "STRING",
-      "county" : "STRING",
-      "country" : "STRING"
-    },
-    "website" : "URL",
-    "v_doingBusinessAs" : "STRING",
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "page_index" : 1978,
-      "countryCode" : "STRING",
-      "phoneType" : "STRING"
-    },
-    "system_ping_ms" : 3096,
-    "primaryContact" : {
-      "price" : 900.7,
-      "fullName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "secondaryPhone" : {
-      "phoneType" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER",
-      "is_deleted" : false,
-      "countryCode" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "name" : "PII_ORGANIZATION_NAME"
+  "personalizations" : [ {
+    "to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "subject" : "STRING"
+  } ],
+  "batch_id" : "STRING",
+  "send_at" : "DATETIME_EPOCH",
+  "v_mail_settings" : {
+    "sandbox_mode" : {
+      "has_discount" : true,
+      "enable" : "BOOLEAN"
+    }
   },
-  "registrationMarketplaceId" : "STRING",
-  "username" : "PII_USERNAME",
-  "page_index" : 4333
+  "from" : {
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "v_categories" : [ "STRING" ]
 }

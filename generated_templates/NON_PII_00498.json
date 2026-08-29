@@ -1,4 +1,25 @@
 {
-  "has_discount" : false,
-  "userName" : "STRING"
+  "v_summary" : {
+    "low" : "INT",
+    "cache_hit" : true,
+    "v_info" : "INT",
+    "critical" : "NULL",
+    "medium_data" : "INT",
+    "high_data" : "INT"
+  },
+  "findings" : [ {
+    "stock_quantity" : 92,
+    "cwe" : "STRING",
+    "id" : "STRING",
+    "v_endpoint" : "STRING",
+    "type" : "STRING",
+    "parameter_data" : "STRING",
+    "description" : "STRING",
+    "remediation_data" : "STRING",
+    "cvss_data" : "DECIMAL",
+    "severity" : "NULL"
+  } ],
+  "scanType" : "STRING",
+  "target" : "URL",
+  "completedAt" : "DATETIME"
 }

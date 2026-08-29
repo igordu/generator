@@ -1,44 +1,31 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "twitter_username" : "STRING",
-    "v_two_factor_authentication" : "NULL",
-    "company" : "PII_ORGANIZATION_NAME",
-    "bio" : "PII_ORGANIZATION_NAME",
-    "owned_private_repos_data" : "INT",
-    "avatar_url_data" : "URL",
-    "organizations_url" : "URL",
-    "url" : "URL",
-    "created_at" : "DATETIME",
-    "v_blog" : "URL",
-    "updated_at" : "DATETIME",
-    "followers" : "INT",
-    "emailAddress" : "PII_EMAIL",
-    "html_url" : "URL",
-    "received_events_url" : "URL",
-    "starred_url_data" : "URL",
-    "site_admin" : "BOOLEAN",
-    "public_gists" : "INT",
+  "customer_data" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "priority_level" : 2103,
+    "id" : "STRING",
+    "contactEmail" : "PII_EMAIL",
     "name" : "PII_PERSON_NAME",
-    "type" : "STRING",
-    "login" : "STRING",
-    "disk_usage" : "INT",
-    "location" : "PII_LOCATION_CITY",
-    "recordId" : "STRING",
-    "followers_url" : "URL",
-    "v_private_gists" : "INT",
-    "total_private_repos_data" : "",
-    "plan" : {
-      "userName" : "",
-      "private_repos" : "INT",
-      "collaborators_data" : "INT",
-      "space" : "INT"
-    },
-    "collaborators" : "INT",
-    "public_repos" : "INT",
-    "gravatar_id" : "STRING",
-    "v_repos_url" : "URL",
-    "hireable" : "BOOLEAN"
-  }
+    "accountId" : "STRING"
+  },
+  "id" : "STRING",
+  "v_subject" : "STRING",
+  "tags" : [ "STRING" ],
+  "createdAt_data" : "DATETIME",
+  "v_messages" : [ {
+    "createdAt_data" : "DATETIME",
+    "id" : "STRING",
+    "clientName" : "PII_PERSON_NAME",
+    "authorType" : "STRING",
+    "body" : "STRING"
+  } ],
+  "category" : "STRING",
+  "status" : "STRING",
+  "priority" : "STRING",
+  "updatedAt" : "DATETIME",
+  "assignedAgent" : {
+    "email" : "PII_EMAIL",
+    "team" : "STRING",
+    "name_val" : "PII_PERSON_NAME"
+  },
+  "discount_rate" : 72.35
 }

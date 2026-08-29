@@ -1,0 +1,36 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "scopes" : [ "STRING" ],
+      "grantId" : "STRING",
+      "requires_update" : true,
+      "refreshToken" : {
+        "v_jti" : "STRING",
+        "rotated" : "BOOLEAN",
+        "expiresAt" : "DATETIME"
+      },
+      "uuid" : "STRING",
+      "idToken" : {
+        "phone_number" : "PII_PHONE_NUMBER",
+        "sub" : "STRING",
+        "birthdate_data" : "PII_DATE_OF_BIRTH",
+        "name" : "PII_PERSON_NAME",
+        "mail" : "PII_EMAIL",
+        "address" : {
+          "street_address" : "PII_ADDRESS_LINE",
+          "postal_code_data" : "STRING",
+          "country" : "PII_LOCATION_COUNTRY",
+          "locality" : "PII_LOCATION_CITY",
+          "region" : "STRING"
+        }
+      },
+      "email" : "PII_EMAIL",
+      "grantType" : "STRING",
+      "accessToken" : {
+        "jti_data" : "STRING",
+        "expiresAt" : null,
+        "type_data" : "STRING"
+      }
+    }
+  }
+}

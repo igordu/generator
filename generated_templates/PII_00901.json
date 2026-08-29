@@ -1,32 +1,30 @@
 {
-  "data" : [ {
-    "invoice_prefix" : "STRING",
-    "default_source" : null,
-    "invoice_settings" : {
-      "v_footer" : "STRING",
-      "default_payment_method" : "STRING",
-      "custom_fields" : "NULL"
-    },
-    "metadata" : "OBJECT",
-    "delinquent" : "BOOLEAN",
-    "balance" : "INT",
-    "is_deleted" : true,
-    "livemode_data" : "BOOLEAN",
-    "tax_exempt" : "STRING",
-    "address_data" : "NULL",
-    "phone" : "PII_PHONE_NUMBER",
-    "currency" : "STRING",
-    "v_created" : "DATETIME_EPOCH",
-    "test_clock" : "NULL",
-    "preferred_locales_data" : "ARRAY",
+  "estimatedLoss" : "DECIMAL",
+  "uuid" : "DATE",
+  "v_reportedDate" : "NULL",
+  "adjuster" : {
     "mail" : "PII_EMAIL",
-    "description" : "STRING",
-    "shipping" : "NULL",
-    "name" : "PII_PERSON_NAME",
-    "next_invoice_sequence" : "INT",
-    "primaryKey" : ""
-  } ],
-  "retry_attempts" : 4900,
-  "has_more" : "BOOLEAN",
-  "object" : "STRING"
+    "id" : "STRING",
+    "name" : "PII_PERSON_NAME"
+  },
+  "policyHolder" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "address" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "zip_data" : "STRING",
+      "city_data" : "PII_LOCATION_CITY",
+      "v_state" : "STRING",
+      "v_street" : "PII_ADDRESS_LINE"
+    },
+    "mobile" : "PII_PHONE_NUMBER",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "email" : "PII_EMAIL"
+  },
+  "v_claimType" : "",
+  "currency" : "STRING",
+  "description" : "STRING",
+  "claimId" : "STRING",
+  "policyNumber_data" : "STRING",
+  "status" : "STRING"
 }

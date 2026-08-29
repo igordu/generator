@@ -1,0 +1,32 @@
+{
+  "id": "STRING",
+  "status": "STRING",
+  "priority": "STRING",
+  "category": "STRING",
+  "subject": "STRING",
+  "createdAt": "DATETIME",
+  "updatedAt": "DATETIME",
+  "customer": {
+    "id": "STRING",
+    "name": "PII_PERSON_NAME",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "accountId": "STRING"
+  },
+  "assignedAgent": {
+    "id": "STRING",
+    "name": "PII_PERSON_NAME",
+    "email": "PII_EMAIL",
+    "team": "STRING"
+  },
+  "messages": [
+    {
+      "id": "STRING",
+      "authorType": "STRING",
+      "authorName": "PII_PERSON_NAME",
+      "body": "STRING",
+      "createdAt": "DATETIME"
+    }
+  ],
+  "tags": ["STRING"]
+}

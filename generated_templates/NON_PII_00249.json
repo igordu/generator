@@ -1,46 +1,34 @@
 [ {
-  "v_filter" : "STRING",
-  "facets" : [ {
-    "displayName" : "STRING",
-    "is_active" : false,
-    "count" : "INT",
-    "key" : "STRING"
-  }, {
-    "userName" : "STRING",
-    "v_key" : "STRING",
-    "count" : "INT"
-  } ]
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "depreciationExpenseAccountId" : "STRING",
+  "v_bookDepreciationSetting" : {
+    "v_depreciableObjectType" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "conversion_rate" : 0.11,
+    "depreciationMethod" : "STRING",
+    "averagingMethod" : "STRING",
+    "depreciationCalculationMethod" : "STRING",
+    "depreciationRate" : "DECIMAL"
+  },
+  "fixedAssetAccountId" : "STRING",
+  "assetTypeName" : "STRING",
+  "taxDepreciationSettings" : "ARRAY",
+  "locks_data" : "INT",
+  "accumulatedDepreciationAccountId" : "NULL"
 }, {
-  "filter" : "STRING",
-  "v_facets" : [ {
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "count" : "INT",
-    "displayName" : "NULL",
-    "conversion_rate" : 198.52,
-    "key" : "STRING"
-  }, {
-    "key_data" : "STRING",
-    "displayName" : "STRING",
-    "count_data" : "INT"
-  } ]
-}, {
-  "filter" : "STRING",
-  "stock_quantity" : 4075,
-  "facets_data" : [ {
-    "key" : "STRING",
-    "count" : "INT",
-    "temperature_c" : 552.56,
-    "displayName" : "STRING"
-  }, {
-    "key" : "",
-    "fullName" : "STRING",
-    "v_count" : "INT",
-    "discount_rate" : 615.91
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key" : "STRING"
-  } ]
+  "depreciationExpenseAccountId" : "STRING",
+  "locks" : "INT",
+  "fixedAssetAccountId" : "STRING",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "assetTypeId" : "STRING",
+  "assetTypeName" : "STRING",
+  "bookDepreciationSetting" : {
+    "depreciableObjectType" : "STRING",
+    "depreciationMethod" : "",
+    "depreciableObjectId" : "STRING",
+    "depreciationRate" : "DECIMAL",
+    "averagingMethod" : "STRING",
+    "depreciationCalculationMethod" : "STRING"
+  },
+  "taxDepreciationSettings" : "ARRAY"
 } ]

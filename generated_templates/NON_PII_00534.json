@@ -1,44 +1,18 @@
 {
-  "data" : {
-    "fetchResource" : [ {
-      "simplified" : "BOOLEAN",
-      "http_status" : 4577,
-      "avatarUrls_data" : {
-        "32x32" : "URL",
-        "discount_rate" : 481.62,
-        "16x16_data" : "URL",
-        "24x24_data" : "URL",
-        "48x48" : "URL"
-      },
-      "self" : "URL",
-      "insight" : {
-        "totalIssueCount" : "INT"
-      },
-      "key" : "STRING",
-      "v_style" : "STRING",
-      "name" : "NULL"
-    }, {
-      "projectCategory" : {
-        "has_discount" : true,
-        "v_self" : "URL",
-        "clientName" : "STRING",
-        "id" : "STRING",
-        "description_data" : "STRING"
-      },
-      "name" : "STRING",
-      "v_key" : "STRING",
-      "v_avatarUrls" : {
-        "48x48" : "URL",
-        "32x32" : "URL",
-        "v_16x16" : "URL"
-      },
-      "style" : "STRING",
-      "insight" : {
-        "lastIssueUpdateTime" : "DATETIME",
-        "totalIssueCount" : "INT"
-      },
-      "self" : "URL",
-      "simplified" : "BOOLEAN"
-    } ]
+  "chatId" : "STRING",
+  "v_metadata" : {
+    "sessionId" : "STRING",
+    "item_count" : 4502,
+    "identifier" : "STRING"
+  },
+  "createdAt" : "DATETIME",
+  "model" : "STRING",
+  "messages" : [ {
+    "content" : "STRING",
+    "timestamp" : "DATETIME",
+    "role" : "STRING"
+  } ],
+  "usage" : {
+    "inputTokens_data" : "INT"
   }
 }

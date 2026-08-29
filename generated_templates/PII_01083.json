@@ -1,14 +1,41 @@
 {
-  "status_data" : "STRING",
-  "id" : "STRING",
-  "customer" : "STRING",
-  "fullName" : "",
-  "name_val" : "PII_PERSON_NAME",
-  "routing_number" : "STRING",
-  "account_holder_type_data" : "STRING",
-  "account_type" : "",
-  "currency" : "STRING",
-  "object" : "STRING",
-  "country" : "STRING",
-  "metadata" : "OBJECT"
+  "events" : [ {
+    "location" : "PII_LOCATION_CITY",
+    "status" : "STRING",
+    "v_timestamp" : "DATETIME",
+    "priority_level" : 2575
+  } ],
+  "sender" : {
+    "address" : "PII_ADDRESS_LINE",
+    "priority_level" : 901,
+    "name" : "PII_COMPANY_NAME",
+    "contactEmail" : "PII_EMAIL"
+  },
+  "carrier_data" : "STRING",
+  "recipient" : {
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING",
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "is_active" : true
+    },
+    "priority_level" : 369,
+    "userName" : "PII_PERSON_NAME",
+    "deliveryInstructions" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "estimatedDelivery" : "DATE",
+  "parcels_data" : [ {
+    "priority_level" : 4662,
+    "weight_data" : {
+      "value_data" : "DECIMAL",
+      "unit_data" : "STRING"
+    },
+    "parcelId" : "STRING"
+  } ],
+  "uuid" : "STRING",
+  "status" : "STRING",
+  "trackingNumber" : "STRING"
 }

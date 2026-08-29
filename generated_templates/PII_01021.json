@@ -1,20 +1,40 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "reservationId" : "STRING",
+  "loyaltyNumber" : "STRING",
+  "specialRequests" : null,
+  "status" : "STRING",
+  "checkIn" : "DATE",
+  "guest" : {
+    "item_count" : 4983,
+    "passportNumber" : "PII_NATIONAL_ID",
+    "phone" : "PII_PHONE_NUMBER",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "emailAddress" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
   },
-  "results" : {
-    "country" : "STRING",
-    "customer" : "STRING",
-    "last4" : null,
-    "fingerprint_data" : "STRING",
-    "account_holder_name" : "PII_PERSON_NAME",
-    "object" : "STRING",
-    "priority_level" : 3129,
-    "status" : "STRING",
-    "account_type" : "STRING",
+  "v_createdAt" : "DATETIME",
+  "room_data" : {
+    "smoking_data" : "BOOLEAN",
+    "v_roomNumber" : "STRING",
+    "bedType" : "STRING",
+    "type" : "STRING",
+    "v_floor" : "INT"
+  },
+  "checkOut_data" : "DATE",
+  "price" : 4537.45,
+  "hotel" : {
+    "name" : "PII_COMPANY_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "uuid" : "STRING",
+    "telephone" : "PII_PHONE_NUMBER"
+  },
+  "pricing" : {
     "currency" : "STRING",
-    "bank_name" : "STRING",
-    "metadata" : "OBJECT"
+    "tax" : "DECIMAL",
+    "ratePerNight" : "DECIMAL",
+    "totalBeforeTax" : "DECIMAL",
+    "nights" : "INT"
   }
 }

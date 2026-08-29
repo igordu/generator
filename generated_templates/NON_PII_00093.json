@@ -1,13 +1,4 @@
 {
-  "numberOfUserRecommendations_data" : "INT",
-  "starRatingDistribution" : {
-    "3" : "INT",
-    "2" : "INT",
-    "5" : "INT",
-    "4" : "INT",
-    "1" : "INT"
-  },
-  "averageStarRating" : "INT",
-  "v_numberOfUserReviews" : "INT",
-  "articleModelId" : "STRING"
+  "v_clientToken" : "NULL",
+  "flowName" : "STRING"
 }

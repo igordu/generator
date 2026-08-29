@@ -1,0 +1,37 @@
+{
+  "accountId": "ACC-001928",
+  "name": "Acme Corporation",
+  "type": "enterprise",
+  "industry": "Technology",
+  "website": "https://acme.example.com",
+  "annualRevenue": 50000000,
+  "employees": 500,
+  "primaryContact": {
+    "name": "Tomas Novak",
+    "title": "IT Director",
+    "email": "t.novak@acme.example.com",
+    "phone": "+420 234 567 890"
+  },
+  "billingAddress": {
+    "street": "Wenceslas Square 1",
+    "city": "Prague",
+    "postalCode": "110 00",
+    "country": "CZ"
+  },
+  "contracts": [
+    {
+      "contractId": "CON-2024-001",
+      "product": "Enterprise Suite",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "value": 240000.00,
+      "currency": "CZK",
+      "status": "active"
+    }
+  ],
+  "csm": {
+    "id": "csm-0042",
+    "name": "Elena Volkov",
+    "email": "e.volkov@vendor.example.com"
+  }
+}

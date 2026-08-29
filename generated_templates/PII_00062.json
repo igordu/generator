@@ -1,17 +1,14 @@
 {
-  "content" : [ {
-    "articleId" : "STRING",
-    "recommend" : "BOOLEAN",
-    "description" : "STRING",
-    "unhelpfulCount" : "INT",
-    "reviewId" : "",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "rating" : "INT",
-    "customerCity" : "PII_LOCATION_CITY",
-    "v_title" : "PII_COMPANY_NAME",
-    "helpfulCount_data" : "INT",
-    "primaryKey" : "STRING",
-    "language" : "STRING"
-  } ],
-  "page_index" : 344
+  "data" : {
+    "fetchResource" : {
+      "audit_trail" : {
+        "payload_wrapper" : {
+          "raw_data" : {
+            "emailAddress" : "PII_EMAIL",
+            "emailAddressStatus" : [ "STRING" ]
+          }
+        }
+      }
+    }
+  }
 }

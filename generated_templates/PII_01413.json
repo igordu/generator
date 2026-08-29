@@ -1,0 +1,30 @@
+{
+  "failedLoginAttempts" : "INT",
+  "passwordLastChangedAt" : "DATETIME",
+  "userId" : "STRING",
+  "twoFactorMethod_data" : "STRING",
+  "createdAt" : "DATETIME",
+  "oauthConnections" : [ {
+    "mail" : "PII_EMAIL",
+    "identifier" : null,
+    "provider" : "STRING",
+    "v_connectedAt" : "DATETIME"
+  } ],
+  "lockedUntil" : "NULL",
+  "trustedDevices_data" : [ {
+    "lastUsedAt" : "DATETIME",
+    "addedAt" : "DATETIME",
+    "item_count" : 3650,
+    "macAddress" : "PII_MAC_ADDRESS",
+    "userName" : "STRING",
+    "platform" : "STRING",
+    "identifier" : null
+  } ],
+  "securityEvents" : [ {
+    "type" : "STRING",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "v_timestamp" : ""
+  } ],
+  "twoFactorEnabled" : "NULL",
+  "activeSessions" : "INT"
+}

@@ -1,11 +1,36 @@
 {
-  "telemetry_data" : {
-    "event_data" : {
-      "raw_data" : {
-        "emailAddressStatus" : [ "STRING" ],
-        "system_ping_ms" : 876,
-        "emailAddress" : "PII_EMAIL"
-      }
-    }
-  }
+  "address" : {
+    "postalCode" : "STRING",
+    "street" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "createdAt" : "DATETIME",
+  "v_status" : "STRING",
+  "applicant" : {
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "mobile" : "PII_PHONE_NUMBER",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "email" : "PII_EMAIL"
+  },
+  "document" : {
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "expiryDate" : "DATE",
+    "type_data" : "",
+    "number" : "PII_NATIONAL_ID"
+  },
+  "verificationId" : "STRING",
+  "riskScore" : "INT",
+  "workflowId" : "STRING",
+  "checks" : [ {
+    "reason_data" : "STRING",
+    "result_data" : "STRING",
+    "checkType" : "STRING"
+  } ],
+  "v_reviewedBy" : "PII_EMAIL"
 }

@@ -1,38 +1,22 @@
 {
-  "telemetry_data" : {
-    "event_data" : {
-      "raw_data" : {
-        "page_count" : "INT",
-        "registrants" : [ {
-          "email" : "PII_EMAIL",
-          "org" : "PII_ORGANIZATION_NAME",
-          "job_title" : "STRING",
-          "state" : "PII_LOCATION_STATE",
-          "phone" : "PII_PHONE_NUMBER",
-          "id" : null,
-          "industry" : "STRING",
-          "v_custom_questions" : [ {
-            "title" : "STRING",
-            "is_deleted" : false
-          } ],
-          "country" : "PII_LOCATION_COUNTRY",
-          "last_name" : "PII_PERSON_LAST_NAME",
-          "no_of_employees" : "STRING",
-          "first_name" : "PII_PERSON_FIRST_NAME",
-          "purchasing_time_frame_data" : "STRING",
-          "city" : "PII_LOCATION_CITY",
-          "status" : "STRING",
-          "address" : "PII_ADDRESS_LINE",
-          "zip_data" : "STRING",
-          "comments" : "NULL",
-          "role_in_purchase_process" : "STRING",
-          "create_time_data" : "NULL",
-          "join_url" : "URL"
-        } ],
-        "priority_level" : 4550,
-        "v_page_size" : "INT",
-        "total_records_data" : "INT"
-      }
-    }
-  }
+  "status" : "STRING",
+  "payment_status" : "STRING",
+  "updated_at" : "DATETIME",
+  "total_amount" : "INT",
+  "currency_data" : "STRING",
+  "shipping_address" : {
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "v_country_code" : "PII_LOCATION_COUNTRY",
+    "address_1" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "v_province_code" : "STRING"
+  },
+  "v_customer" : {
+    "id" : "STRING",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME"
+  },
+  "id" : "STRING",
+  "v_created_at" : "NULL"
 }

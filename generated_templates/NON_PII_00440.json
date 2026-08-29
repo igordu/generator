@@ -1,4 +1,25 @@
 {
-  "fullName" : "STRING",
-  "clientToken" : "STRING"
+  "payload" : {
+    "totalAmount" : "DECIMAL",
+    "orderId" : "STRING",
+    "completedAt_data" : "DATETIME",
+    "uuid" : "STRING",
+    "currency" : "STRING"
+  },
+  "recordId" : "STRING",
+  "page_index" : 4490,
+  "deliveredAt" : "DATETIME",
+  "v_event" : "STRING",
+  "endpoint" : {
+    "identifier" : "STRING",
+    "v_url" : "URL",
+    "status" : "STRING"
+  },
+  "response" : {
+    "body" : "STRING",
+    "latencyMs" : "INT",
+    "price" : 9965.16,
+    "statusCode" : "INT"
+  },
+  "attempts" : ""
 }

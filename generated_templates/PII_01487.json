@@ -1,0 +1,23 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "triggeredBy" : "PII_EMAIL",
+      "commit" : "STRING",
+      "v_startedAt" : "DATETIME",
+      "identifier" : "STRING",
+      "finishedAt_data" : "DATETIME",
+      "repository" : "STRING",
+      "branch" : "STRING",
+      "stages_data" : [ {
+        "status" : "STRING",
+        "durationSeconds" : "INT",
+        "name" : "STRING",
+        "coverage" : "DECIMAL",
+        "http_status" : 2909
+      } ],
+      "artifactDigest" : "STRING",
+      "v_environment" : "STRING",
+      "status" : "STRING"
+    }
+  }
+}

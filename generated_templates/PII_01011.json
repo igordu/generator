@@ -1,16 +1,43 @@
 {
-  "routing_number_data" : "STRING",
-  "customer" : "NULL",
-  "stock_quantity" : 1632,
-  "object" : "STRING",
-  "account_type" : "STRING",
-  "status" : "STRING",
-  "last4" : "STRING",
-  "metadata" : "",
-  "bank_name" : "STRING",
-  "account_holder_type" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "fingerprint" : "STRING",
-  "id" : "STRING",
-  "country" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "identifier" : {
+      "clientName" : "PII_PERSON_FIRST_NAME",
+      "address" : {
+        "street" : "PII_ADDRESS_LINE",
+        "country" : "PII_LOCATION_COUNTRY",
+        "postalCode" : "STRING",
+        "city" : "PII_LOCATION_CITY"
+      },
+      "email" : "PII_EMAIL",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "linkedIn" : "URL",
+      "system_ping_ms" : 2227,
+      "phone" : "PII_PHONE_NUMBER"
+    },
+    "temperature_c" : 23.62,
+    "status" : "STRING",
+    "updatedAt" : "DATETIME",
+    "appliedAt" : "DATETIME",
+    "source" : "STRING",
+    "candidateId" : "STRING",
+    "position_data" : {
+      "title" : "STRING",
+      "department" : "STRING",
+      "identifier" : "STRING",
+      "location" : "PII_LOCATION_CITY"
+    },
+    "interviews" : [ {
+      "round" : "INT",
+      "type" : "STRING",
+      "v_scheduledAt" : "DATETIME",
+      "v_interviewer" : {
+        "name" : "PII_PERSON_NAME",
+        "email" : "PII_EMAIL",
+        "has_discount" : false
+      },
+      "conversion_rate" : 7.57
+    } ]
+  }
 }

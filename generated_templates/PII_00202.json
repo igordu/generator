@@ -1,91 +1,27 @@
 {
-  "total_data" : "INT",
-  "href" : "STRING",
-  "limit" : "INT",
-  "next" : "STRING",
-  "offset" : "INT",
-  "temperature_c" : 635.13,
-  "transactions" : [ {
-    "transactionId" : "STRING",
-    "totalFeeAmount_data" : {
-      "currency" : "STRING",
-      "value" : "STRING",
-      "requires_update" : true,
-      "convertedFromCurrency_data" : "STRING",
-      "exchangeRate_data" : "STRING",
-      "convertedFromValue" : "STRING"
-    },
-    "feeType" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "exchangeRate_data" : "STRING",
-      "currency_data" : "STRING",
-      "value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue" : "STRING"
-    },
-    "transactionMemo_data" : "STRING",
-    "paymentsEntity" : "STRING",
-    "references" : [ {
-      "referenceId" : "STRING",
-      "referenceType" : "STRING"
-    } ],
-    "transactionStatus_data" : "STRING",
-    "transactionDate_data" : "DATETIME",
-    "salesRecordReference" : "STRING",
-    "auto_renew" : true,
-    "totalFeeBasisAmount_data" : {
-      "value" : "STRING",
-      "item_count" : 82,
-      "convertedFromValue" : "STRING",
-      "convertedFromCurrency_data" : "STRING",
-      "v_exchangeRate" : "STRING",
-      "v_currency" : "STRING"
-    },
-    "orderId" : "STRING",
-    "payoutId" : "STRING",
-    "buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "bookingEntry" : "STRING",
-    "amount" : {
-      "convertedFromCurrency" : "STRING",
-      "currency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "exchangeRate" : "STRING"
-    },
-    "transactionType" : null,
-    "v_feeJurisdiction" : {
-      "regionName" : "STRING",
-      "response_time_sec" : 6.89,
-      "regionType" : "STRING"
-    },
-    "orderLineItems" : [ {
-      "lineItemId" : "STRING",
-      "cpu_usage_percent" : 705.88,
-      "feeBasisAmount" : {
-        "v_exchangeRate" : "STRING",
-        "convertedFromCurrency_data" : "STRING",
-        "currency" : "STRING",
-        "convertedFromValue" : "STRING",
-        "value" : "STRING",
-        "temperature_c" : 886.28
+  "stock_quantity" : 4963,
+  "transactions" : {
+    "booked" : [ {
+      "amount_data" : {
+        "v_amount" : "DECIMAL",
+        "retry_attempts" : 3861
       },
-      "marketplaceFees" : [ {
-        "feeJurisdiction" : {
-          "regionType" : "STRING",
-          "regionName" : "STRING"
-        },
-        "amount" : {
-          "convertedFromValue" : "STRING",
-          "v_currency" : "STRING",
-          "v_convertedFromCurrency" : "STRING",
-          "value" : "STRING",
-          "exchangeRate_data" : "STRING"
-        },
-        "feeMemo" : "STRING",
-        "feeType" : "STRING"
-      } ]
+      "bankTransactionCode" : {
+        "domain_data" : "STRING",
+        "family" : "STRING"
+      },
+      "debtorName" : "STRING",
+      "debtorAccount" : {
+        "auto_renew" : false
+      },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN",
+        "price" : 2601.37
+      },
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "creditorName" : "PII_PERSON_NAME",
+      "valueDate" : "DATE",
+      "temperature_c" : 20.13
     } ]
-  } ],
-  "prev" : "STRING"
+  }
 }

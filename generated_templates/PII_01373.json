@@ -1,15 +1,39 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "user_info" : {
-      "response_time_sec" : 68.11,
-      "userName" : "PII_COMPANY_NAME",
-      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-      "family-name-male" : "PII_LAST_NAME_MALE"
-    },
-    "active_data" : "BOOLEAN"
+  "server_logs" : {
+    "event_data" : {
+      "raw_data" : {
+        "price" : 7253.24,
+        "language" : "STRING",
+        "pullRequest" : {
+          "response_time_sec" : 7.34,
+          "author_data" : {
+            "emailAddress" : "PII_EMAIL",
+            "userName" : "PII_PERSON_NAME",
+            "login" : "PII_USERNAME"
+          },
+          "deletions_data" : "INT",
+          "title" : "STRING",
+          "updatedAt" : "DATETIME",
+          "v_headBranch" : "STRING",
+          "state" : "STRING",
+          "v_reviewers" : [ {
+            "login_data" : "PII_USERNAME",
+            "emailAddress" : "PII_EMAIL",
+            "http_status" : 1890,
+            "state" : "STRING",
+            "name" : "PII_PERSON_NAME"
+          } ],
+          "changedFiles" : "INT",
+          "identifier" : "INT",
+          "createdAt" : "DATETIME",
+          "baseBranch" : "STRING"
+        },
+        "userName" : "STRING",
+        "repositoryId" : "STRING",
+        "defaultBranch" : "STRING",
+        "fullName" : "STRING",
+        "private" : "BOOLEAN"
+      }
+    }
   }
 }

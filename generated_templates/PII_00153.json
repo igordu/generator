@@ -1,69 +1,34 @@
 {
-  "audit_trail" : {
-    "transaction_trace" : {
-      "body" : {
-        "registrationMarketplaceId" : "STRING",
-        "accountType" : "STRING",
-        "retry_attempts" : 3559,
-        "status" : "STRING",
-        "username" : "PII_USERNAME",
-        "uuid" : {
-          "secondaryPhone" : {
-            "number" : "PII_PHONE_NUMBER",
-            "countryCode" : "STRING",
-            "cell" : "STRING"
-          },
-          "firstName" : "PII_PERSON_NAME",
-          "name_val" : "PII_PERSON_NAME",
-          "registrationAddress" : {
-            "postalCode" : "STRING",
-            "addressLine2" : "STRING",
-            "county" : "STRING",
-            "stateOrProvince_data" : "STRING",
-            "city" : "STRING",
-            "country" : "STRING",
-            "addressLine1_data" : "STRING"
-          },
-          "contactEmail" : "PII_EMAIL",
-          "telephone" : {
-            "phoneType" : "STRING",
-            "auto_renew" : false,
-            "v_number" : "PII_PHONE_NUMBER",
-            "countryCode" : "STRING"
-          }
-        },
-        "userId" : null,
-        "businessAccount" : {
-          "doingBusinessAs" : "STRING",
-          "primaryPhone" : {
-            "number" : "PII_PHONE_NUMBER",
-            "countryCode" : "STRING",
-            "phoneType" : "STRING"
-          },
+  "data" : {
+    "fetchResource" : {
+      "primaryKey" : "STRING",
+      "source" : {
+        "auto_renew" : true,
+        "delivered_as" : "STRING",
+        "body" : "PII_FREE_TEXT",
+        "author" : {
           "email" : "PII_EMAIL",
-          "v_primaryContact" : {
-            "firstName" : "PII_PERSON_NAME",
-            "name_val" : "PII_PERSON_NAME",
-            "cpu_usage_percent" : 575.58
-          },
-          "website" : "URL",
-          "cell" : {
-            "phoneType" : "STRING",
-            "countryCode" : "STRING",
-            "number_data" : "PII_PHONE_NUMBER"
-          },
-          "name" : "PII_ORGANIZATION_NAME",
-          "address" : {
-            "v_addressLine1" : "STRING",
-            "postalCode" : "STRING",
-            "country" : "STRING",
-            "county" : "STRING",
-            "addressLine2" : "STRING",
-            "city" : "STRING",
-            "stateOrProvince" : "STRING"
-          }
-        }
-      }
+          "retry_attempts" : 4143,
+          "type_data" : "STRING",
+          "name" : "PII_PERSON_NAME"
+        },
+        "type_data" : "STRING",
+        "subject" : "STRING"
+      },
+      "priority_data" : "STRING",
+      "v_state" : "",
+      "conversation_parts" : [ {
+        "part_type" : "STRING",
+        "v_body" : "PII_FREE_TEXT",
+        "v_author" : {
+          "name" : "PII_PERSON_NAME",
+          "type" : "STRING"
+        },
+        "created_at" : "DATETIME_EPOCH"
+      } ],
+      "type" : "STRING",
+      "v_created_at" : "DATETIME_EPOCH",
+      "read" : ""
     }
   }
 }

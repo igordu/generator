@@ -1,21 +1,22 @@
 {
   "status" : "success",
   "code" : 200,
-  "data" : [ {
-    "item_count" : 4517,
-    "facets_data" : [ {
-      "v_count" : "INT",
-      "key" : "",
-      "displayName" : "STRING"
-    }, {
-      "count" : "INT",
-      "displayName" : "STRING",
-      "key" : "STRING"
-    }, {
-      "key" : "STRING",
-      "count" : "INT",
-      "displayName" : "STRING",
-      "cpu_usage_percent" : 428.6
-    } ]
-  } ]
+  "data" : {
+    "location_code_data" : "STRING",
+    "v_reorder_quantity" : "INT",
+    "is_deleted" : true,
+    "quantity_available" : "INT",
+    "last_counted_at_data" : "DATETIME",
+    "v_quantity_reserved" : "INT",
+    "tags" : [ "STRING" ],
+    "expiry_date_data" : "NULL",
+    "currency" : "STRING",
+    "batch_number_data" : "STRING",
+    "reorder_point" : "INT",
+    "quantity_on_hand" : "INT",
+    "last_received_at" : "DATETIME",
+    "is_hazardous" : "BOOLEAN",
+    "unit_cost" : "INT",
+    "sku" : "STRING"
+  }
 }

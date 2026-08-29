@@ -1,5 +1,38 @@
 {
-  "temperature_c" : 216.47,
-  "emailAddressStatus" : [ "STRING" ],
-  "emailAddress" : "PII_EMAIL"
+  "completedAt" : "DATETIME",
+  "status" : "STRING",
+  "applicant" : {
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL"
+  },
+  "checks" : [ {
+    "v_checkType" : "STRING",
+    "result" : "STRING",
+    "discount_rate" : 15.82,
+    "reason" : "STRING"
+  } ],
+  "address" : {
+    "city" : "PII_LOCATION_CITY",
+    "street" : "PII_ADDRESS_LINE",
+    "page_index" : 2832,
+    "country" : "PII_LOCATION_COUNTRY",
+    "postalCode" : "STRING"
+  },
+  "createdAt" : "",
+  "document" : {
+    "page_index" : 3924,
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "number" : "PII_NATIONAL_ID",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "expiryDate" : "DATE",
+    "type" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME"
+  },
+  "reviewedBy" : "PII_EMAIL",
+  "riskScore_data" : ""
 }

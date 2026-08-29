@@ -1,77 +1,29 @@
-[ {
-  "html_url" : "URL",
-  "discount_rate" : 981.35,
-  "primaryKey" : "STRING",
-  "committer" : {
-    "html_url" : "URL",
-    "node_id" : "STRING",
-    "url" : "URL",
-    "followers_url" : "URL",
-    "login" : "STRING",
-    "v_site_admin" : "BOOLEAN",
-    "gravatar_id" : "STRING",
-    "starred_url" : "URL",
-    "type_data" : "STRING",
-    "subscriptions_url" : "URL",
-    "events_url" : "URL",
-    "v_organizations_url" : "URL",
-    "repos_url" : "URL",
-    "avatar_url" : "URL",
-    "following_url" : "URL",
-    "gists_url_data" : "URL",
-    "v_received_events_url" : "URL"
+{
+  "dataResidency" : "STRING",
+  "billingEmail" : "PII_EMAIL",
+  "usage" : {
+    "apiCallsThisMonth" : "INT",
+    "activeUsers30d" : "INT",
+    "is_active" : true,
+    "storageGb" : "DECIMAL"
   },
-  "author" : {
-    "type" : "STRING",
-    "node_id" : "STRING",
-    "v_avatar_url" : "",
-    "starred_url_data" : "URL",
-    "organizations_url" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "gists_url" : "URL",
-    "identifier" : "INT",
-    "repos_url" : "URL",
-    "events_url" : "URL",
-    "login" : "STRING",
-    "followers_url" : "URL",
-    "html_url" : "URL",
-    "url" : "URL",
-    "gravatar_id" : "STRING",
-    "received_events_url" : "URL"
+  "status" : "STRING",
+  "retry_attempts" : 4390,
+  "plan" : "STRING",
+  "primaryContact" : {
+    "name" : "PII_PERSON_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "auto_renew" : true,
+    "email" : "PII_EMAIL"
   },
-  "commit" : {
-    "message" : "PII_COMPANY_NAME",
-    "url" : "URL",
-    "comment_count" : "INT",
-    "tree" : {
-      "sha" : "STRING",
-      "v_url" : "URL"
-    },
-    "verification" : {
-      "payload" : "STRING",
-      "temperature_c" : 277.27,
-      "verified_at_data" : "DATETIME",
-      "reason" : "STRING",
-      "verified" : "BOOLEAN",
-      "signature_data" : "STRING"
-    },
-    "author_data" : {
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "stock_quantity" : 3965,
-      "date" : "DATETIME"
-    },
-    "committer" : {
-      "name" : "PII_PERSON_NAME",
-      "date" : "DATETIME",
-      "response_time_sec" : 849.05,
-      "email" : "PII_EMAIL"
-    },
-    "retry_attempts" : 2528
+  "v_ssoEnabled" : "BOOLEAN",
+  "tenantId" : "STRING",
+  "subscription" : {
+    "seatsUsed_data" : "INT",
+    "requires_update" : true,
+    "renewalDate" : "DATE",
+    "currency" : "STRING",
+    "v_mrr" : "DECIMAL"
   },
-  "parents" : [ {
-    "sha" : "STRING",
-    "v_url" : "URL"
-  } ],
-  "sha" : ""
-} ]
+  "createdAt" : "DATETIME"
+}

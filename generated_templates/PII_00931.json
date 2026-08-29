@@ -1,32 +1,33 @@
 {
-  "v_url" : "URL",
-  "v_has_more" : "BOOLEAN",
-  "object" : "STRING",
-  "data" : [ {
-    "default_source" : "STRING",
-    "primaryKey" : "STRING",
-    "v_balance" : "INT",
-    "livemode" : "BOOLEAN",
-    "telephone" : "PII_PHONE_NUMBER",
-    "currency" : "STRING",
-    "invoice_settings" : {
-      "rendering_options" : "NULL",
-      "footer_data" : "STRING",
-      "custom_fields" : "NULL",
-      "default_payment_method" : "STRING"
-    },
-    "description" : "STRING",
-    "v_delinquent" : "BOOLEAN",
-    "created" : "DATETIME_EPOCH",
-    "object" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "invoice_prefix" : "STRING",
-    "address" : null,
-    "shipping" : "NULL",
-    "price" : 622.6,
-    "v_metadata" : "OBJECT",
-    "email" : "PII_EMAIL",
-    "test_clock" : "NULL"
-  } ],
-  "system_ping_ms" : 674
+  "amount" : {
+    "item_count" : 965
+  },
+  "billing" : {
+    "postalCode" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "address" : "PII_ADDRESS_LINE"
+  },
+  "type_data" : "STRING",
+  "transactionId" : "STRING",
+  "merchant" : {
+    "id" : "STRING",
+    "categoryCode" : "NULL",
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "name" : "PII_COMPANY_NAME"
+  },
+  "cache_hit" : true,
+  "v_fraudScore" : "INT",
+  "timestamp" : "DATETIME",
+  "status" : "STRING",
+  "v_card" : {
+    "cardholderName" : "PII_PERSON_NAME",
+    "expiryMonth" : "STRING",
+    "stock_quantity" : 2404,
+    "v_pan" : "PII_CREDIT_CARD",
+    "expiryYear" : "STRING",
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "issuingBank" : "PII_COMPANY_NAME",
+    "scheme" : "STRING"
+  }
 }

@@ -1,56 +1,18 @@
 {
-  "server_logs" : {
-    "event_data" : {
-      "debug_payload" : [ {
-        "self" : "URL",
-        "id" : "STRING",
-        "style" : null,
-        "retry_attempts" : 3019,
-        "insight_data" : {
-          "lastIssueUpdateTime" : "DATETIME",
-          "totalIssueCount_data" : "NULL"
-        },
-        "projectCategory" : {
-          "temperature_c" : 476.35,
-          "description" : "STRING",
-          "name" : "STRING",
-          "v_self" : "URL",
-          "uuid" : "STRING"
-        },
-        "name" : "STRING",
-        "key_data" : "STRING",
-        "avatarUrls" : {
-          "v_16x16" : "URL",
-          "v_32x32" : "URL",
-          "24x24_data" : "URL",
-          "page_index" : 3147,
-          "48x48" : ""
-        }
-      }, {
-        "v_simplified" : "BOOLEAN",
-        "self" : null,
-        "style" : "STRING",
-        "id" : "STRING",
-        "insight" : {
-          "page_index" : 4932
-        },
-        "avatarUrls" : {
-          "16x16" : "URL",
-          "24x24" : "URL",
-          "conversion_rate" : 362.8,
-          "32x32" : "URL",
-          "v_48x48" : "URL"
-        },
-        "v_key" : "STRING",
-        "name" : "STRING",
-        "projectCategory" : {
-          "self_data" : "URL",
-          "temperature_c" : 762.24,
-          "description_data" : "STRING",
-          "name" : "STRING",
-          "identifier" : "STRING"
-        }
-      } ]
-    }
-  }
+  "createdAt_data" : "DATETIME",
+  "usage" : {
+    "outputTokens" : "INT"
+  },
+  "chatId" : "STRING",
+  "messages" : [ {
+    "timestamp" : "DATETIME",
+    "v_role" : "STRING",
+    "requires_update" : true,
+    "content" : "STRING"
+  } ],
+  "metadata_data" : {
+    "sessionId" : "STRING",
+    "recordId" : "STRING"
+  },
+  "model" : "STRING"
 }

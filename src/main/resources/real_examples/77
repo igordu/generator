@@ -1,0 +1,38 @@
+{
+  "scanId": "scan-20240410-00091",
+  "target": "https://api.example.com",
+  "scanType": "DAST",
+  "status": "completed",
+  "startedAt": "2024-04-10T02:00:00Z",
+  "completedAt": "2024-04-10T02:45:00Z",
+  "findings": [
+    {
+      "id": "finding-001",
+      "severity": "high",
+      "type": "SQL_INJECTION",
+      "endpoint": "/api/v1/users/search",
+      "parameter": "q",
+      "description": "Unsanitized input allows SQL injection via the 'q' parameter.",
+      "cwe": "CWE-89",
+      "cvss": 8.1,
+      "remediation": "Use parameterized queries or prepared statements."
+    },
+    {
+      "id": "finding-002",
+      "severity": "medium",
+      "type": "MISSING_SECURITY_HEADER",
+      "endpoint": "*",
+      "description": "Content-Security-Policy header is missing.",
+      "cwe": "CWE-693",
+      "cvss": 5.3,
+      "remediation": "Add Content-Security-Policy response header."
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "high": 1,
+    "medium": 1,
+    "low": 3,
+    "info": 8
+  }
+}

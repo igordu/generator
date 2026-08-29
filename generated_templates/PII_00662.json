@@ -1,38 +1,69 @@
 {
-  "ProviderName" : "STRING",
-  "Status" : "",
-  "v_Employees" : [ {
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "v_ExternalLink" : {
-      "v_Url" : "URL",
-      "Description" : "STRING"
+  "conversion_rate" : 3.78,
+  "v_Personal_Data" : {
+    "Identification_Data" : {
+      "Birth_Date" : "PII_DATE_OF_BIRTH",
+      "National_ID_Data" : [ {
+        "National_ID" : "PII_NATIONAL_ID",
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        }
+      } ],
+      "stock_quantity" : 1199
+    },
+    "Contact_Data_data" : {
+      "primary_email" : [ {
+        "Email_Address" : "PII_EMAIL"
+      } ],
+      "Address_Data" : [ {
+        "Postal_Code" : "STRING",
+        "Municipality_data" : "PII_LOCATION_CITY",
+        "Usage_Data" : {
+          "Type_Data_data" : [ { } ],
+          "price" : 1404.47
+        },
+        "http_status" : 4004,
+        "Address_Line_Data" : [ {
+          "page_index" : 564,
+          "Type" : "STRING",
+          "v_content" : "PII_ADDRESS_LINE"
+        } ],
+        "Country_Reference_data" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        }
+      } ],
+      "cell" : [ {
+        "Phone_Number" : "PII_PHONE_NUMBER",
+        "item_count" : 4192,
+        "Phone_Device_Type_Reference" : {
+          "WID" : "STRING"
+        }
+      } ]
+    },
+    "fullName" : {
+      "Legal_Name_Data" : {
+        "price" : 6000.96,
+        "Name_Detail_Data" : {
+          "cpu_usage_percent" : 61.55,
+          "userName" : "PII_PERSON_FIRST_NAME",
+          "First_Name" : "PII_PERSON_FIRST_NAME",
+          "Last_Name" : "PII_PERSON_LAST_NAME"
+        }
+      },
+      "item_count" : 4476
     }
-  }, {
-    "v_UpdatedDateUTC" : "DATETIME",
-    "v_Status" : "STRING",
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "v_Description" : "STRING",
-      "v_Url" : "URL"
+  },
+  "Employment_Data" : {
+    "Worker_Job_Data" : {
+      "v_Position_Data" : {
+        "cache_hit" : false,
+        "Job_Title_data" : "STRING",
+        "Business_Title" : "STRING",
+        "Start_Date" : "DATE",
+        "Position_ID" : "STRING"
+      }
     },
-    "EmployeeID" : "STRING"
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Description_data" : "",
-      "Url" : "URL",
-      "page_index" : 4408
-    },
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "page_index" : 2381,
-    "UpdatedDateUTC" : "DATETIME"
-  } ],
-  "v_DateTimeUTC" : "DATETIME",
-  "Id" : "STRING"
+    "auto_renew" : false
+  },
+  "Worker_ID" : "STRING"
 }

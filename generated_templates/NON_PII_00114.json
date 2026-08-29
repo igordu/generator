@@ -1,23 +1,50 @@
-{
-  "data" : {
-    "fetchResource" : {
-      "media" : {
-        "images" : [ {
-          "smallUrl" : "URL",
-          "v_orderNumber" : "INT",
-          "type_data" : "STRING",
-          "mediumUrl" : "URL",
-          "smallHdUrl_data" : "URL",
-          "largeHdUrl" : "URL",
-          "largeUrl" : "URL",
-          "requires_update" : false,
-          "thumbnailHdUrl" : "URL",
-          "mediumHdUrl_data" : "URL"
-        } ]
-      },
-      "primaryKey" : "STRING",
-      "modelId" : "STRING",
-      "shopUrl" : "NULL"
-    }
-  }
-}
+[ {
+  "avatarUrls" : {
+    "48x48_data" : "URL",
+    "16x16" : "URL",
+    "24x24" : "URL",
+    "cpu_usage_percent" : 72.08,
+    "32x32" : "URL"
+  },
+  "insight" : {
+    "totalIssueCount" : "INT"
+  },
+  "style_data" : "STRING",
+  "key" : "NULL",
+  "name" : "STRING",
+  "projectCategory_data" : {
+    "description" : "STRING",
+    "http_status" : 3194,
+    "name" : "STRING",
+    "self" : "URL"
+  },
+  "conversion_rate" : 6.26,
+  "identifier" : "STRING",
+  "simplified" : "BOOLEAN"
+}, {
+  "id" : "STRING",
+  "projectCategory" : {
+    "name" : "STRING",
+    "description" : "STRING",
+    "self_data" : "URL",
+    "temperature_c" : 45.3,
+    "id" : "STRING"
+  },
+  "key" : "STRING",
+  "insight" : {
+    "response_time_sec" : 16.91,
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount_data" : "INT"
+  },
+  "simplified" : "BOOLEAN",
+  "style_data" : "STRING",
+  "userName" : "STRING",
+  "avatarUrls" : {
+    "16x16" : "URL",
+    "24x24" : "NULL",
+    "auto_renew" : true,
+    "v_48x48" : "URL",
+    "v_32x32" : "URL"
+  },
+  "self" : "URL"
+} ]

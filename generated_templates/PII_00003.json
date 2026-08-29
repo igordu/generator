@@ -1,28 +1,25 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "stock_quantity" : 1912,
-    "content" : [ {
-      "uuid" : "",
-      "unhelpfulCount" : "INT",
-      "recommend" : "BOOLEAN",
-      "articleModelId" : null,
-      "description" : "STRING",
-      "helpfulCount" : "NULL",
-      "reviewId" : "STRING",
-      "articleSizeRatings" : {
-        "OVERALL_data" : "INT",
-        "SHOE_WIDTH" : "INT"
-      },
-      "language" : "STRING",
-      "created_data" : "DATETIME",
-      "customerCity" : "PII_LOCATION_CITY",
-      "customerCountry" : "PII_LOCATION_COUNTRY",
-      "title_data" : "PII_COMPANY_NAME",
-      "rating" : "INT"
-    } ]
+  "data" : {
+    "fetchResource" : {
+      "priority_level" : 1713,
+      "content" : [ {
+        "articleSizeRatings_data" : {
+          "auto_renew" : false,
+          "SHOE_WIDTH" : "INT"
+        },
+        "reviewId" : "STRING",
+        "primaryKey" : "STRING",
+        "rating" : "INT",
+        "articleModelId" : "STRING",
+        "unhelpfulCount" : "INT",
+        "customerCountry" : "PII_LOCATION_COUNTRY",
+        "v_title" : "STRING",
+        "description" : "STRING",
+        "customerCity" : "PII_LOCATION_CITY",
+        "helpfulCount_data" : "",
+        "recommend" : "BOOLEAN",
+        "language" : "STRING"
+      } ]
+    }
   }
 }

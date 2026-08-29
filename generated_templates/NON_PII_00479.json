@@ -1,5 +1,17 @@
 {
-  "flowName" : "STRING",
-  "is_deleted" : true,
-  "v_clientToken" : "STRING"
+  "lastReceivedAt" : "DATETIME",
+  "v_body" : {
+    "errorMessage" : "STRING",
+    "orderId" : "STRING",
+    "errorCode" : "STRING"
+  },
+  "fullName" : "STRING",
+  "movedToDlqAt" : "DATETIME",
+  "receiveCount_data" : "INT",
+  "attributes" : {
+    "contentType" : "STRING",
+    "stock_quantity" : 4703
+  },
+  "originalQueue" : "STRING",
+  "identifier" : "STRING"
 }

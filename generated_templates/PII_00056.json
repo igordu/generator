@@ -1,25 +1,68 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "content" : [ {
-      "articleSizeRatings" : {
-        "uuid" : "INT",
-        "OVERALL" : "INT"
-      },
-      "requires_update" : false,
-      "unhelpfulCount_data" : "INT",
-      "customerCountry" : "PII_LOCATION_COUNTRY",
-      "v_title" : "PII_COMPANY_NAME",
-      "helpfulCount_data" : null,
-      "primaryKey" : "STRING",
-      "recordId" : "STRING",
-      "language" : "",
-      "customerCity" : "PII_LOCATION_CITY",
-      "created_data" : "DATETIME",
-      "description_data" : "STRING",
-      "articleModelId" : "STRING",
-      "recommend" : "BOOLEAN"
-    } ]
-  }
+  "next" : "STRING",
+  "total" : "INT",
+  "offset_data" : "INT",
+  "href" : "STRING",
+  "limit" : "INT",
+  "transactions_data" : [ {
+    "feeJurisdiction" : {
+      "userName" : "STRING",
+      "v_regionType" : "STRING",
+      "cpu_usage_percent" : 19.06
+    },
+    "recordId" : "STRING",
+    "payoutId" : "NULL",
+    "paymentsEntity" : "STRING",
+    "totalFeeAmount" : {
+      "v_convertedFromValue" : null,
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate_data" : "STRING",
+      "currency_data" : "STRING"
+    },
+    "transactionType" : "STRING",
+    "feeType" : "STRING",
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "transactionDate_data" : "DATETIME",
+    "orderId" : "STRING",
+    "salesRecordReference_data" : "STRING",
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "amount" : {
+          "convertedFromValue" : "STRING",
+          "value_data" : "STRING",
+          "convertedFromCurrency" : "STRING",
+          "currency" : "STRING",
+          "v_exchangeRate" : "STRING"
+        },
+        "feeMemo_data" : "STRING"
+      } ],
+      "uuid" : "STRING",
+      "feeBasisAmount" : {
+        "currency" : "STRING",
+        "v_exchangeRate" : "STRING",
+        "value" : "NULL",
+        "convertedFromCurrency_data" : "STRING",
+        "convertedFromValue_data" : "STRING"
+      }
+    } ],
+    "amount" : {
+      "response_time_sec" : 23.93,
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "currency" : "STRING"
+    },
+    "transactionMemo" : "STRING",
+    "eBayCollectedTaxAmount_data" : {
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate" : null,
+      "value" : "STRING"
+    },
+    "transactionStatus" : "STRING"
+  } ],
+  "prev" : "STRING"
 }

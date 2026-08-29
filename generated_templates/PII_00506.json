@@ -1,30 +1,45 @@
 {
-  "transactions" : {
-    "booked_data" : [ {
-      "transactionId" : "STRING",
-      "creditorName" : "PII_PERSON_NAME",
-      "amount" : {
-        "amount_data" : "DECIMAL"
+  "data" : {
+    "fetchResource" : {
+      "categories" : [ "STRING" ],
+      "recordId" : "INT",
+      "personalizations" : [ {
+        "to_data" : [ {
+          "contactEmail" : "PII_EMAIL",
+          "name" : "PII_PERSON_NAME"
+        } ],
+        "subject" : "STRING",
+        "cc" : [ {
+          "discount_rate" : 67.92,
+          "email" : "PII_EMAIL",
+          "name" : "PII_PERSON_NAME"
+        } ]
+      } ],
+      "template_id" : "STRING",
+      "from" : {
+        "email" : "PII_EMAIL",
+        "retry_attempts" : 2357,
+        "name" : "PII_COMPANY_NAME"
       },
-      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "debtorAccount" : {
-        "page_index" : 741,
-        "iban" : "STRING"
+      "send_at" : "DATETIME_EPOCH",
+      "tracking_settings" : {
+        "response_time_sec" : 14.51,
+        "open_tracking" : {
+          "enable" : "BOOLEAN",
+          "requires_update" : true
+        },
+        "click_tracking_data" : {
+          "response_time_sec" : 28.46,
+          "enable" : "NULL"
+        }
       },
-      "creditorAccount_data" : {
-        "cpu_usage_percent" : 953.51,
-        "iban" : "PII_IBAN"
-      },
-      "discount_rate" : 168.13,
-      "valueDate" : "DATE",
-      "debtorName" : "STRING",
-      "bankTransactionCode" : {
-        "price" : 507.17,
-        "subFamily" : "STRING",
-        "family" : "STRING"
-      },
-      "bookingDate" : "DATE"
-    } ]
-  },
-  "is_deleted" : false
+      "ip_pool_name" : "STRING",
+      "v_status" : "STRING",
+      "reply_to" : {
+        "discount_rate" : 5.63,
+        "email" : "PII_EMAIL",
+        "userName" : "STRING"
+      }
+    }
+  }
 }

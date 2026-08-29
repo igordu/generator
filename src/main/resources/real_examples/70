@@ -1,0 +1,37 @@
+{
+  "consentId": "CONSENT-EU-2024-00182",
+  "dataSubject": {
+    "id": "usr-00821",
+    "email": "maja.kowalczyk@example.pl",
+    "firstName": "Maja",
+    "lastName": "Kowalczyk",
+    "dateOfBirth": "1994-06-18",
+    "country": "PL"
+  },
+  "collectedAt": "2024-04-10T11:00:00Z",
+  "version": "v3.2",
+  "purposes": [
+    {
+      "id": "marketing_email",
+      "name": "Marketing emails",
+      "granted": true,
+      "grantedAt": "2024-04-10T11:00:00Z"
+    },
+    {
+      "id": "analytics",
+      "name": "Usage analytics",
+      "granted": true,
+      "grantedAt": "2024-04-10T11:00:00Z"
+    },
+    {
+      "id": "third_party_sharing",
+      "name": "Sharing with partners",
+      "granted": false
+    }
+  ],
+  "ipAddress": "185.93.182.10",
+  "userAgent": "Mozilla/5.0",
+  "legalBasis": "consent",
+  "retentionDays": 730,
+  "withdrawnAt": null
+}

@@ -1,45 +1,27 @@
-[ {
-  "v_avatarUrls" : {
-    "16x16" : "URL",
-    "price" : 762.16,
-    "48x48" : "URL",
-    "v_32x32" : "URL"
-  },
-  "id" : "STRING",
-  "projectCategory" : {
-    "self" : "URL",
-    "description_data" : "STRING",
-    "is_deleted" : true,
-    "name_val" : "STRING",
-    "uuid" : "STRING"
-  },
-  "self_data" : "NULL",
-  "name" : "STRING",
-  "style" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "NULL",
-    "is_deleted" : true
-  }
-}, {
-  "avatarUrls" : {
-    "v_32x32" : "URL",
-    "16x16" : "URL",
-    "24x24" : "URL",
-    "48x48_data" : "URL"
-  },
-  "projectCategory" : {
-    "self" : "URL",
-    "name" : "STRING",
-    "is_active" : true,
-    "id" : "STRING"
-  },
+{
   "is_active" : false,
-  "simplified" : "BOOLEAN",
-  "uuid" : "STRING",
-  "name" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime_data" : "DATETIME"
+  "sloCompliance" : {
+    "latencyTarget" : "INT",
+    "availabilityTarget_data" : "DECIMAL",
+    "v_withinSlo" : null,
+    "page_index" : 4539
   },
-  "style" : "STRING"
-} ]
+  "metrics_data" : {
+    "v_errorRate" : "",
+    "priority_level" : 3555,
+    "p50LatencyMs" : "INT",
+    "p99LatencyMs_data" : "INT",
+    "throughputRps_data" : "DECIMAL",
+    "p999LatencyMs" : "INT",
+    "errorCount" : "INT",
+    "p95LatencyMs" : "INT"
+  },
+  "statusCodes" : {
+    "200" : "INT",
+    "v_429" : "INT",
+    "500" : "",
+    "404" : "INT"
+  },
+  "period" : null,
+  "serviceId" : "STRING"
+}

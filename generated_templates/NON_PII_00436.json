@@ -1,4 +1,24 @@
 {
-  "clientToken_data" : "NULL",
-  "flowName" : "STRING"
+  "event" : "STRING",
+  "attempts" : "INT",
+  "response" : {
+    "body" : "STRING",
+    "statusCode" : "INT",
+    "response_time_sec" : 10.35
+  },
+  "signature" : "STRING",
+  "v_payload" : {
+    "currency" : "STRING",
+    "is_deleted" : false,
+    "orderId" : "STRING",
+    "totalAmount" : null,
+    "customerId" : "NULL"
+  },
+  "cpu_usage_percent" : 48.93,
+  "endpoint" : {
+    "primaryKey" : "STRING",
+    "v_status" : "STRING",
+    "requires_update" : true,
+    "url" : "URL"
+  }
 }

@@ -1,38 +1,13 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "primaryKey" : "STRING",
-    "v_lockPrivateUseAccount" : "BOOLEAN",
-    "assetTypeName" : "STRING",
-    "bookDepreciationSetting_data" : {
-      "identifier" : "",
-      "depreciationMethod" : "STRING",
-      "v_depreciableObjectType" : "STRING",
-      "depreciationCalculationMethod" : "STRING",
-      "depreciationRate" : "DECIMAL",
-      "v_averagingMethod" : "STRING"
-    },
-    "uuid" : "STRING",
-    "assetTypeId" : "STRING",
-    "has_discount" : false
-  }, {
-    "taxDepreciationSettings" : "NULL",
-    "lockPrivateUseAccount_data" : "BOOLEAN",
-    "depreciationExpenseAccountId" : "STRING",
-    "fixedAssetAccountId" : "STRING",
-    "clientName" : "STRING",
-    "v_locks" : "INT",
-    "accumulatedDepreciationAccountId" : "",
-    "bookDepreciationSetting" : {
-      "depreciableObjectId" : "STRING",
-      "primaryKey" : "STRING",
-      "depreciationMethod" : "",
-      "v_averagingMethod" : "STRING",
-      "depreciationCalculationMethod" : "STRING",
-      "depreciableObjectType_data" : "STRING",
-      "depreciationRate" : "DECIMAL"
-    },
-    "recordId" : null
-  } ]
+  "completedAt" : "DATETIME",
+  "status" : "STRING",
+  "tags" : {
+    "v_environment" : "STRING"
+  },
+  "snapshotId" : "STRING",
+  "retentionDays" : null,
+  "type" : "STRING",
+  "sizeGb" : "DECIMAL",
+  "startedAt" : "DATETIME",
+  "region" : "STRING"
 }

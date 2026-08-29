@@ -1,39 +1,23 @@
-[ {
-  "v_filter" : "STRING",
-  "requires_update" : true
-}, {
-  "facets_data" : [ {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "auto_renew" : true,
-    "key" : "STRING"
-  }, {
-    "v_count" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "price" : 807.94
-  }, {
-    "displayName" : "STRING",
-    "is_active" : true,
-    "count" : "INT",
-    "key_data" : "STRING"
-  } ],
-  "v_filter" : "STRING"
-}, {
-  "facets" : [ {
-    "userName" : "STRING",
-    "discount_rate" : 77.09,
-    "v_key" : "STRING",
-    "v_count" : "INT"
-  }, {
-    "cache_hit" : true,
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count_data" : "INT"
-  }, {
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "count_data" : "INT"
-  } ],
-  "filter" : "STRING"
-} ]
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "content_data" : [ {
+      "retry_attempts" : 2766,
+      "text" : "STRING",
+      "type" : "STRING"
+    } ],
+    "type" : "STRING",
+    "role_data" : "STRING",
+    "usage" : {
+      "input_tokens" : "INT",
+      "stock_quantity" : 2411,
+      "output_tokens" : "INT"
+    },
+    "retry_attempts" : 216,
+    "id" : "STRING",
+    "v_stop_reason" : ""
+  }
+}

@@ -1,17 +1,17 @@
 {
-  "modelId" : "STRING",
-  "name" : "STRING",
-  "media" : {
-    "images" : [ {
-      "largeHdUrl_data" : "URL",
-      "thumbnailHdUrl_data" : "URL",
-      "smallHdUrl" : "URL",
-      "smallUrl" : "URL",
-      "v_largeUrl" : "URL",
-      "orderNumber" : "INT",
-      "type" : "STRING"
-    } ]
+  "primaryKey" : "STRING",
+  "anonymized" : "BOOLEAN",
+  "gdpr_erasure_applied" : "BOOLEAN",
+  "ticket" : {
+    "status" : "STRING",
+    "description" : "TEXT",
+    "created_at" : "DATETIME",
+    "requires_update" : false,
+    "satisfaction_rating" : {
+      "comment" : "TEXT",
+      "cache_hit" : true,
+      "v_score" : "STRING"
+    }
   },
-  "recordId" : "STRING",
-  "shopUrl" : "URL"
+  "exported_at" : "DATETIME"
 }

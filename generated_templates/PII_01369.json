@@ -1,13 +1,31 @@
 {
-  "active_data" : "BOOLEAN",
-  "v_tree" : {
-    "v_url" : "URL",
-    "is_deleted" : true,
-    "sha" : "STRING"
+  "private" : "BOOLEAN",
+  "defaultBranch" : "STRING",
+  "fullName" : "STRING",
+  "repositoryId" : "STRING",
+  "pullRequest" : {
+    "headBranch" : "STRING",
+    "primaryKey" : "NULL",
+    "deletions" : "INT",
+    "title" : "STRING",
+    "additions" : "INT",
+    "v_updatedAt" : "DATETIME",
+    "reviewers" : [ {
+      "login_data" : "PII_USERNAME",
+      "state" : "STRING",
+      "email" : "PII_EMAIL",
+      "cache_hit" : true,
+      "name" : "PII_PERSON_NAME"
+    } ],
+    "author" : {
+      "name" : "PII_PERSON_NAME",
+      "v_login" : "PII_USERNAME",
+      "email" : "PII_EMAIL"
+    },
+    "createdAt" : "DATETIME",
+    "baseBranch" : "STRING",
+    "changedFiles_data" : "INT"
   },
-  "user_info" : {
-    "fullName" : "PII_FIRST_NAME_FEMALE",
-    "name_val" : "PII_LAST_NAME_MALE",
-    "arline__name" : "PII_COMPANY_NAME"
-  }
+  "language" : "STRING",
+  "name" : "STRING"
 }

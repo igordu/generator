@@ -1,0 +1,26 @@
+{
+  "alertId": "ALT-20240410-00912",
+  "rule": "high_cpu_usage",
+  "severity": "warning",
+  "triggeredAt": "2024-04-10T15:30:00Z",
+  "resolvedAt": null,
+  "status": "firing",
+  "labels": {
+    "service": "recommendation-engine",
+    "environment": "production",
+    "region": "us-east-1",
+    "team": "ml-platform"
+  },
+  "annotations": {
+    "summary": "CPU usage above 85% for 10 minutes",
+    "description": "The recommendation-engine service has had CPU usage over 85% for more than 10 minutes.",
+    "runbook_url": "https://runbooks.internal/high-cpu"
+  },
+  "metric": {
+    "name": "cpu_usage_percent",
+    "value": 91.3,
+    "threshold": 85.0,
+    "window": "10m"
+  },
+  "notified_channels": ["#alerts-production", "pagerduty"]
+}

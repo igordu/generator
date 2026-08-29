@@ -1,10 +1,31 @@
 {
-  "telemetry_data" : {
-    "request_context" : {
-      "debug_payload" : {
-        "emailAddress" : "PII_EMAIL",
-        "emailAddressStatus" : [ "STRING" ]
-      }
-    }
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "messaging_service_sid" : "STRING",
+    "to" : "PII_PHONE_NUMBER",
+    "recordId" : "STRING",
+    "date_created" : "DATETIME",
+    "date_updated" : "DATETIME",
+    "num_media" : "STRING",
+    "error_message" : "NULL",
+    "uuid" : "STRING",
+    "subresource_uris" : {
+      "media_data" : null,
+      "auto_renew" : true
+    },
+    "error_code" : "NULL",
+    "num_segments" : "STRING",
+    "uri" : "URL",
+    "price_unit" : "NULL",
+    "date_sent" : "DATETIME",
+    "status" : "STRING",
+    "direction" : "STRING",
+    "price" : "NULL",
+    "v_api_version" : "STRING",
+    "from" : "PII_PHONE_NUMBER",
+    "body" : null
   }
 }

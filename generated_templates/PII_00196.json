@@ -1,64 +1,47 @@
 {
-  "registrationMarketplaceId" : "STRING",
-  "status" : "STRING",
-  "username" : "PII_USERNAME",
-  "businessAccount" : {
-    "doingBusinessAs" : "STRING",
-    "retry_attempts" : 1677,
-    "name" : "PII_ORGANIZATION_NAME",
-    "email" : "PII_EMAIL",
-    "contactNumber" : {
-      "cache_hit" : true,
-      "countryCode_data" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "website" : "URL",
-    "address" : {
-      "addressLine2" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine1" : "STRING",
-      "response_time_sec" : 670.51,
-      "v_country" : "STRING",
-      "city" : "STRING"
-    },
-    "telephone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "http_status" : 3748
-    },
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    }
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "system_ping_ms" : 1098,
-  "userId" : "STRING",
-  "individualAccount" : {
-    "has_discount" : true,
-    "firstName" : "PII_PERSON_NAME",
-    "registrationAddress" : {
-      "country" : "STRING",
-      "v_addressLine1" : "STRING",
-      "addressLine2" : "STRING",
-      "city" : "STRING",
-      "county" : "STRING",
-      "postalCode" : "STRING",
-      "page_index" : 803
+  "results" : {
+    "id" : null,
+    "address" : [ {
+      "line" : [ "PII_ADDRESS_LINE" ],
+      "use" : "NULL",
+      "response_time_sec" : 8.11,
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY"
+    } ],
+    "meta_data" : {
+      "versionId" : "INT",
+      "lastUpdated" : "DATETIME",
+      "cpu_usage_percent" : 13.5
     },
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "v_countryCode" : null,
-      "phoneType" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "telephone" : {
-      "number_data" : "PII_PHONE_NUMBER",
-      "v_countryCode" : "STRING",
-      "mobile" : "STRING"
-    },
-    "fullName" : "PII_PERSON_NAME"
-  },
-  "accountType" : "STRING"
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "telecom" : [ {
+      "value" : "PII_PHONE_NUMBER",
+      "system" : "STRING",
+      "use_data" : "STRING",
+      "stock_quantity" : 4275
+    }, {
+      "system" : "STRING",
+      "value" : "PII_EMAIL"
+    } ],
+    "identifier" : [ {
+      "system" : "URL",
+      "type" : {
+        "temperature_c" : 20.08,
+        "text" : "STRING"
+      },
+      "value" : "PII_NATIONAL_ID",
+      "use" : "STRING"
+    } ],
+    "gender" : "STRING",
+    "resourceType" : "STRING",
+    "name_val" : [ {
+      "family" : "PII_PERSON_LAST_NAME",
+      "given" : [ "PII_PERSON_FIRST_NAME" ],
+      "use_data" : "STRING"
+    } ]
+  }
 }

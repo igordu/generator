@@ -1,4 +1,14 @@
 {
-  "discount_rate" : 535.12,
-  "clientToken" : "STRING"
+  "name_val" : "STRING",
+  "createdAt" : "DATETIME",
+  "cpu_usage_percent" : 20.46,
+  "ttl" : "INT",
+  "cacheKey" : "NULL",
+  "hits_data" : "INT",
+  "value" : {
+    "roles" : [ "STRING" ],
+    "is_active" : true,
+    "userId" : "STRING"
+  },
+  "lastAccessedAt" : "DATETIME"
 }

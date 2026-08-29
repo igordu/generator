@@ -1,60 +1,27 @@
 {
-  "v_tsp" : {
-    "page_index" : 3603,
-    "call_out" : "BOOLEAN",
-    "call_out_countries" : "ARRAY",
-    "show_international_numbers_link" : "BOOLEAN"
-  },
-  "v_telephony" : {
-    "audio_conference_info" : "STRING",
-    "v_show_international_numbers_link" : "BOOLEAN"
-  },
-  "v_in_meeting" : {
-    "v_breakout_room" : null,
-    "e2e_encryption_data" : "BOOLEAN",
-    "show_meeting_control_toolbar" : "BOOLEAN",
-    "record_play_voice_data" : "BOOLEAN",
-    "feedback" : "BOOLEAN",
-    "attendee_on_hold" : "BOOLEAN",
-    "far_end_camera_control_data" : "BOOLEAN",
-    "group_hd" : "BOOLEAN",
-    "allow_live_streaming" : "BOOLEAN",
-    "polling" : "BOOLEAN",
-    "entry_exit_chime_data" : "STRING",
-    "virtual_background" : "BOOLEAN",
-    "v_auto_saving_chat" : "BOOLEAN",
-    "co_host" : "BOOLEAN",
-    "closed_caption" : "BOOLEAN",
-    "non_verbal_feedback" : "BOOLEAN",
-    "waiting_room" : "BOOLEAN",
-    "private_chat_data" : "BOOLEAN",
-    "remote_control" : "BOOLEAN",
-    "remote_support" : "BOOLEAN",
-    "chat" : "BOOLEAN",
-    "v_annotation" : "BOOLEAN",
-    "data_center_regions" : "ARRAY"
-  },
-  "retry_attempts" : 4427,
-  "email_notification" : {
-    "v_alternative_host_reminder" : "BOOLEAN",
-    "v_cancel_meeting_reminder" : "BOOLEAN",
-    "schedule_for_reminder_data" : "BOOLEAN",
-    "jbh_reminder" : "BOOLEAN",
-    "response_time_sec" : 722.15
-  },
-  "schedule_meeting" : {
-    "force_pmi_jbh_password" : "BOOLEAN",
-    "require_password_for_scheduling_new_meetings" : "BOOLEAN",
-    "require_password_for_pmi_meetings" : "STRING",
-    "embed_password_in_join_link_data" : "BOOLEAN",
-    "audio_type" : "",
-    "v_not_store_meeting_topic" : "BOOLEAN",
-    "host_video" : "BOOLEAN",
-    "primaryKey" : "BOOLEAN",
-    "v_use_pmi_for_scheduled_meetings" : "BOOLEAN",
-    "use_pmi_for_instant_meetings" : "BOOLEAN",
-    "v_pstn_password_protected" : "BOOLEAN",
-    "pmi_password_data" : "PII_PASSWORD",
-    "join_before_host" : "BOOLEAN"
+  "account" : {
+    "payouts_enabled" : "BOOLEAN",
+    "default_currency" : "STRING",
+    "created" : "DATETIME_EPOCH",
+    "v_details_submitted" : "BOOLEAN",
+    "type" : "STRING",
+    "charges_enabled" : "BOOLEAN",
+    "object" : "STRING",
+    "business_profile" : {
+      "support_email" : "PII_EMAIL",
+      "support_phone" : "PII_PHONE_NUMBER",
+      "mcc" : "STRING",
+      "userName" : "PII_COMPANY_NAME",
+      "url_data" : "NULL"
+    },
+    "is_deleted" : false,
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL",
+    "capabilities" : {
+      "card_payments" : "STRING",
+      "discount_rate" : 92.57,
+      "transfers" : "STRING"
+    },
+    "recordId" : "STRING"
   }
 }

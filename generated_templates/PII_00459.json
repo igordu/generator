@@ -1,39 +1,45 @@
 {
-  "v_gender" : "STRING",
-  "resourceType_data" : "STRING",
-  "userName" : [ {
-    "family_data" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING",
-    "given" : [ "PII_PERSON_FIRST_NAME" ]
-  } ],
-  "identifier" : [ {
-    "type" : {
-      "text" : "STRING"
-    },
-    "value" : "PII_NATIONAL_ID",
-    "price" : 414.01
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "id" : "STRING",
-  "telecom" : [ {
-    "v_value" : "PII_EMAIL",
-    "requires_update" : true,
-    "system_data" : "STRING"
-  }, {
-    "system" : "STRING",
-    "value" : "PII_PHONE_NUMBER",
-    "use" : "STRING"
-  } ],
-  "address_data" : [ {
-    "retry_attempts" : 2195,
-    "use_data" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY",
-    "line_data" : [ "PII_ADDRESS_LINE" ],
-    "city" : "PII_LOCATION_CITY"
-  } ],
-  "discount_rate" : 993.92,
-  "v_meta" : {
-    "lastUpdated" : "DATETIME",
-    "versionId" : "INT"
+  "system_state" : {
+    "event_data" : {
+      "raw_data" : {
+        "agreedToTerms" : "BOOLEAN",
+        "changePasswordAtNextLogin" : "BOOLEAN",
+        "isMailboxSetup" : "BOOLEAN",
+        "suspended" : "BOOLEAN",
+        "isAdmin" : "BOOLEAN",
+        "isDelegatedAdmin" : "BOOLEAN",
+        "lastLoginTime_data" : "DATETIME",
+        "recoveryEmail" : "PII_EMAIL",
+        "recordId" : "STRING",
+        "addresses" : [ {
+          "type" : "STRING",
+          "locality" : "PII_LOCATION_CITY",
+          "country" : "PII_LOCATION_COUNTRY",
+          "postalCode" : "STRING",
+          "streetAddress_data" : "PII_ADDRESS_LINE",
+          "region_data" : "STRING"
+        } ],
+        "archived" : "BOOLEAN",
+        "uuid" : "STRING",
+        "primary_email" : "PII_EMAIL",
+        "orgUnitPath" : "STRING",
+        "telephone" : [ {
+          "value" : "PII_PHONE_NUMBER",
+          "response_time_sec" : 17.05,
+          "v_type" : "STRING"
+        } ],
+        "recoveryPhone" : "PII_PHONE_NUMBER",
+        "emailAddress" : [ {
+          "address" : "PII_EMAIL",
+          "http_status" : 274,
+          "primary_data" : "BOOLEAN"
+        } ],
+        "name" : {
+          "familyName" : "PII_PERSON_LAST_NAME",
+          "fullName" : "PII_PERSON_NAME",
+          "givenName" : "PII_PERSON_FIRST_NAME"
+        }
+      }
+    }
   }
 }

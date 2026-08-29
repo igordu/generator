@@ -1,15 +1,38 @@
 {
-  "fingerprint" : "STRING",
-  "v_status" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "is_deleted" : true,
-  "routing_number" : "STRING",
-  "bank_name" : "STRING",
-  "country" : "STRING",
-  "uuid" : "STRING",
-  "metadata" : "OBJECT",
-  "last4" : "STRING",
-  "account_holder_type" : "STRING",
-  "account_type" : "STRING",
-  "customer" : "STRING"
+  "v_loyaltyNumber" : "STRING",
+  "reservationId" : "STRING",
+  "v_guest" : {
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "passportNumber" : "PII_NATIONAL_ID"
+  },
+  "hotel" : {
+    "fullName" : "PII_COMPANY_NAME",
+    "temperature_c" : -14.86,
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "address_data" : "PII_ADDRESS_LINE"
+  },
+  "specialRequests" : "STRING",
+  "checkOut" : "DATE",
+  "v_room" : {
+    "floor_data" : "INT",
+    "type_data" : "STRING",
+    "smoking" : "BOOLEAN",
+    "bedType" : "STRING",
+    "roomNumber" : "STRING"
+  },
+  "checkIn" : "DATE",
+  "createdAt" : "DATETIME",
+  "pricing" : {
+    "total" : "DECIMAL",
+    "currency" : "STRING",
+    "v_nights" : "INT",
+    "tax" : "DECIMAL",
+    "ratePerNight" : "DECIMAL"
+  },
+  "status" : "STRING"
 }

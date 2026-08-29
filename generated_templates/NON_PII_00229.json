@@ -1,40 +1,22 @@
-[ {
-  "facets_data" : [ {
-    "key_data" : "STRING",
-    "is_active" : true,
-    "count" : "NULL"
-  }, {
-    "count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  } ],
-  "filter" : "STRING"
-}, {
-  "facets" : [ {
-    "key" : "STRING",
-    "clientName" : "NULL",
-    "count" : "INT"
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key" : "STRING",
-    "item_count" : 137
-  }, {
-    "key" : "STRING",
-    "count" : "INT",
-    "name_val" : "STRING",
-    "cache_hit" : false
-  } ]
-}, {
-  "v_filter" : "STRING",
-  "facets" : [ {
-    "count" : "INT",
-    "v_key" : "STRING",
-    "displayName" : ""
-  }, {
-    "displayName" : "STRING",
-    "key_data" : "STRING",
-    "count" : "INT",
-    "auto_renew" : true
-  } ]
-} ]
+{
+  "environment" : "STRING",
+  "service_data" : "STRING",
+  "last_run" : "DATETIME",
+  "connection" : {
+    "retries_data" : "NULL",
+    "pool_size" : "INT",
+    "timeout_ms" : "INT",
+    "cpu_usage_percent" : 14.45
+  },
+  "last_status" : "NULL",
+  "cpu_usage_percent" : 14.78,
+  "endpoint" : "URL",
+  "auth" : {
+    "api_key" : "[REDACTED]",
+    "client_secret" : "[MASKED]",
+    "price" : 3948.64,
+    "v_token_expires" : "DATETIME",
+    "fullName" : "svc_backup_01",
+    "v_password" : "********"
+  }
+}

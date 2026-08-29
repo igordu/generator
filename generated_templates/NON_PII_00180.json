@@ -1,9 +1,25 @@
 {
-  "modelId" : null,
-  "id" : "STRING",
-  "shopUrl" : "URL",
-  "media" : {
-    "cpu_usage_percent" : 439.78
-  },
-  "name" : "STRING"
+  "v_target_commitish" : "STRING",
+  "changelog" : [ {
+    "message" : "TEXT",
+    "files_changed" : "INT",
+    "price" : 9906.34,
+    "commit_sha" : "STRING"
+  } ],
+  "body" : "TEXT",
+  "published_at" : "DATETIME",
+  "auto_renew" : false,
+  "prerelease" : "BOOLEAN",
+  "created_at" : "DATETIME",
+  "name" : "STRING",
+  "name_val" : "STRING",
+  "assets" : [ {
+    "browser_download_url" : "URL",
+    "download_count_data" : "INT",
+    "name" : "STRING",
+    "size" : "INT",
+    "id" : "INT",
+    "is_deleted" : false
+  } ],
+  "draft" : "BOOLEAN"
 }

@@ -1,22 +1,4 @@
 {
-  "stock_quantity" : 2287,
-  "content" : [ {
-    "conversion_rate" : 643.91,
-    "articleId" : "",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_language" : "STRING",
-    "articleModelId" : "STRING",
-    "articleSizeRatings" : {
-      "SHOE_WIDTH" : "INT",
-      "discount_rate" : 592.41,
-      "OVERALL_data" : "NULL"
-    },
-    "title" : "PII_COMPANY_NAME",
-    "created" : "DATETIME",
-    "uuid" : "STRING",
-    "recommend" : "BOOLEAN",
-    "customerCity" : "PII_LOCATION_CITY",
-    "rating" : "INT",
-    "helpfulCount" : "INT"
-  } ]
+  "primary_email" : [ "STRING" ],
+  "emailAddress" : "PII_EMAIL"
 }

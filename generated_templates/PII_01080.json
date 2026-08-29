@@ -1,15 +1,38 @@
 {
-  "temperature_c" : 265.4,
-  "country" : null,
-  "v_metadata" : "OBJECT",
-  "account_holder_type" : "STRING",
-  "last4" : "STRING",
-  "fingerprint" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "account_type" : "STRING",
-  "id" : "STRING",
-  "currency" : "STRING",
-  "v_customer" : "STRING",
-  "routing_number" : "STRING",
-  "v_status" : "STRING"
+  "status" : "STRING",
+  "has_discount" : true,
+  "events" : [ {
+    "location" : "PII_LOCATION_CITY",
+    "v_status" : "STRING",
+    "timestamp" : "DATETIME"
+  } ],
+  "parcels" : [ {
+    "parcelId" : "STRING",
+    "dimensions" : {
+      "recordId" : "INT",
+      "item_count" : 3796,
+      "height" : "INT",
+      "unit" : "STRING",
+      "length_data" : "INT"
+    }
+  } ],
+  "v_recipient" : {
+    "address" : {
+      "has_discount" : true,
+      "v_city" : "PII_LOCATION_CITY",
+      "street" : "PII_ADDRESS_LINE",
+      "country" : "PII_LOCATION_COUNTRY"
+    },
+    "phone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME"
+  },
+  "trackingNumber" : "STRING",
+  "deliveryId" : "STRING",
+  "sender" : {
+    "address" : "PII_ADDRESS_LINE",
+    "contactEmail" : "PII_EMAIL",
+    "userName" : "PII_COMPANY_NAME"
+  },
+  "estimatedDelivery" : "DATE"
 }

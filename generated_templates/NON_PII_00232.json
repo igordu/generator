@@ -1,24 +1,19 @@
-[ {
-  "facets" : [ {
-    "count_data" : null,
-    "displayName" : "STRING",
-    "key_data" : "STRING"
-  }, {
-    "key_data" : "STRING",
-    "count" : "INT",
-    "displayName" : "NULL"
-  } ],
-  "filter" : "STRING"
-}, {
-  "facets" : [ {
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "count_data" : "INT"
-  }, {
-    "count" : "INT",
-    "key" : "STRING",
-    "http_status" : 3021,
-    "displayName" : ""
-  } ],
-  "v_filter" : "STRING"
-} ]
+{
+  "last_status" : "STRING",
+  "auth" : {
+    "userName" : "svc_backup_01",
+    "password" : "********",
+    "v_token_expires" : "DATETIME",
+    "client_secret" : "[MASKED]"
+  },
+  "log_line_data" : "TEXT",
+  "v_last_run" : "NULL",
+  "environment_data" : "STRING",
+  "endpoint" : "URL",
+  "connection_data" : {
+    "pool_size" : "INT",
+    "retries" : "INT",
+    "timeout_ms" : "INT"
+  },
+  "service" : "STRING"
+}

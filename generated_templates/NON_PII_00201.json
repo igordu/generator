@@ -1,31 +1,27 @@
 {
   "status" : "success",
   "code" : 200,
-  "data" : [ {
-    "facets" : [ {
-      "key_data" : "STRING",
-      "displayName" : "STRING",
-      "count" : "INT"
-    }, {
-      "count" : "INT",
-      "is_active" : true,
-      "displayName" : "STRING",
-      "key" : "STRING"
-    } ],
-    "temperature_c" : 727.24,
-    "filter_data" : "STRING"
-  }, {
-    "stock_quantity" : 2434,
-    "filter" : "STRING",
-    "v_facets" : [ {
-      "key" : "STRING",
-      "count" : "INT",
-      "item_count" : 4798,
-      "displayName" : "STRING"
-    }, {
-      "key_data" : "STRING",
-      "count" : "INT",
-      "displayName" : "STRING"
-    } ]
-  } ]
+  "data" : {
+    "v_retention_policy" : "STRING",
+    "gdpr_erasure_applied_data" : "BOOLEAN",
+    "ticket_data" : {
+      "status_data" : "STRING",
+      "satisfaction_rating" : {
+        "v_comment" : "TEXT",
+        "score" : "STRING"
+      },
+      "created_at" : "DATETIME",
+      "subject" : "STRING",
+      "recordId" : "INT",
+      "response_time_sec" : 20.73,
+      "requester" : {
+        "primary_email" : "[MASKED]",
+        "contactNumber" : "***-***-****",
+        "name_val" : "REDACTED",
+        "http_status" : 466
+      },
+      "description" : "TEXT"
+    },
+    "export_id" : "STRING"
+  }
 }

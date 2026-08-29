@@ -1,45 +1,26 @@
-[ {
-  "id" : "STRING",
-  "simplified" : null,
-  "self" : "URL",
-  "style" : "STRING",
-  "insight" : {
-    "lastIssueUpdateTime_data" : null,
-    "totalIssueCount" : "INT",
-    "conversion_rate" : 985.37
+{
+  "v_uptimeSeconds" : "INT",
+  "topics_data" : [ {
+    "fullName" : "STRING",
+    "partitions_data" : "INT",
+    "requires_update" : true
+  } ],
+  "status" : "STRING",
+  "jvmMemory" : {
+    "heapUsedMb" : "INT",
+    "heapMaxMb" : "INT",
+    "http_status" : 3798,
+    "v_gcPauseMs" : "INT"
   },
-  "projectCategory" : {
-    "v_description" : "STRING",
-    "name" : "STRING",
-    "discount_rate" : 596.64
+  "role" : "STRING",
+  "primaryKey" : "STRING",
+  "version" : "STRING",
+  "v_metrics" : {
+    "bytesOutPerSec" : "",
+    "requestHandlerAvgIdlePercent" : "DECIMAL",
+    "messagesInPerSec" : "INT",
+    "underReplicatedPartitions_data" : "INT",
+    "requires_update" : true
   },
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "24x24" : "NULL",
-    "requires_update" : true,
-    "32x32" : "URL",
-    "48x48" : "URL"
-  },
-  "v_key" : "STRING"
-}, {
-  "avatarUrls" : {
-    "48x48" : "URL",
-    "16x16" : "URL",
-    "conversion_rate" : 404.44,
-    "24x24" : "URL"
-  },
-  "key" : "STRING",
-  "simplified" : "BOOLEAN",
-  "name" : "NULL",
-  "v_projectCategory" : {
-    "description" : "STRING",
-    "fullName" : "STRING"
-  },
-  "insight" : {
-    "v_lastIssueUpdateTime" : "NULL",
-    "totalIssueCount_data" : "INT"
-  },
-  "self" : "URL",
-  "style" : "STRING",
-  "id" : "STRING"
-} ]
+  "clusterId" : "STRING"
+}

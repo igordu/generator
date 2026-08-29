@@ -1,0 +1,18 @@
+{
+  "environment" : "STRING",
+  "finishedAt" : "DATETIME",
+  "stages" : [ {
+    "v_status" : "STRING",
+    "name" : "NULL",
+    "durationSeconds" : "INT",
+    "coverage" : "DECIMAL"
+  } ],
+  "artifactDigest" : "STRING",
+  "pipelineId" : "STRING",
+  "branch" : "STRING",
+  "triggeredBy" : "PII_EMAIL",
+  "repository" : "STRING",
+  "startedAt" : "DATETIME",
+  "commit" : "STRING",
+  "status_data" : "STRING"
+}

@@ -1,22 +1,34 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "identifier" : "NULL",
-      "id" : "",
-      "fullName" : "STRING",
-      "v_shopUrl" : "URL",
-      "media" : {
-        "temperature_c" : 537.24,
-        "images" : [ {
-          "smallUrl" : "URL",
-          "type" : "STRING",
-          "orderNumber" : "INT",
-          "mediumHdUrl" : "URL",
-          "thumbnailHdUrl" : "URL",
-          "largeHdUrl" : "NULL",
-          "mediumUrl" : "URL"
-        } ]
-      }
-    }
-  }
+  "productId" : "STRING",
+  "v_category" : "STRING",
+  "auto_renew" : true,
+  "v_updatedAt" : "DATETIME",
+  "attributes" : {
+    "color" : "STRING",
+    "auto_renew" : false,
+    "weight_g_data" : "INT",
+    "foldable" : "BOOLEAN",
+    "v_connectivity" : "STRING"
+  },
+  "status" : "STRING",
+  "pricing_data" : {
+    "v_basePrice" : "DECIMAL",
+    "currency" : "STRING",
+    "salePrice" : "DECIMAL",
+    "stock_quantity" : 4601,
+    "taxClass" : ""
+  },
+  "inventory_data" : {
+    "cache_hit" : false,
+    "availableStock" : "INT",
+    "backorderAllowed" : "BOOLEAN",
+    "reservedStock_data" : "INT",
+    "v_totalStock" : "INT",
+    "lowStockThreshold" : "NULL"
+  },
+  "name" : "",
+  "sku" : "STRING",
+  "images" : [ {
+    "isPrimary" : "BOOLEAN"
+  } ]
 }

@@ -1,31 +1,30 @@
 {
-  "url" : "URL",
-  "v_data" : [ {
-    "invoice_settings" : {
-      "custom_fields_data" : "NULL",
-      "default_payment_method" : "STRING",
-      "rendering_options" : "NULL",
-      "footer" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "identifier" : "STRING",
+    "sentiment" : "STRING",
+    "timestamp" : "DATETIME",
+    "metadata" : {
+      "auto_renew" : true,
+      "sessionId" : "STRING",
+      "language" : "STRING",
+      "userAgent" : "STRING"
     },
-    "tax_exempt" : "STRING",
-    "v_shipping" : "NULL",
-    "name" : "PII_PERSON_NAME",
-    "delinquent" : "BOOLEAN",
-    "currency" : "STRING",
-    "description" : "STRING",
-    "livemode" : "BOOLEAN",
-    "invoice_prefix_data" : "STRING",
-    "v_metadata" : "OBJECT",
-    "object" : "STRING",
-    "default_source" : "STRING",
-    "email" : "PII_EMAIL",
-    "phone" : "PII_PHONE_NUMBER",
-    "address" : "NULL",
-    "created" : "DATETIME_EPOCH",
-    "id" : "STRING",
-    "test_clock" : "NULL"
-  } ],
-  "conversion_rate" : 874.88,
-  "v_has_more" : "BOOLEAN",
-  "object" : "STRING"
+    "sender" : {
+      "id" : "STRING",
+      "auto_renew" : true,
+      "primary_email" : "PII_EMAIL",
+      "type" : "STRING",
+      "name" : "PII_PERSON_NAME"
+    },
+    "direction" : "STRING",
+    "v_recipient" : {
+      "name" : "STRING",
+      "type" : "STRING",
+      "id" : "STRING"
+    },
+    "system_ping_ms" : 3111,
+    "channel" : "STRING"
+  }
 }

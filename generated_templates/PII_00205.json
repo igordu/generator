@@ -1,59 +1,41 @@
 {
-  "limit" : "INT",
-  "next" : "STRING",
-  "transactions" : [ {
-    "totalFeeBasisAmount" : {
-      "v_exchangeRate" : "STRING",
-      "stock_quantity" : 1651,
-      "convertedFromCurrency" : "STRING",
-      "currency" : "STRING",
-      "value_data" : "STRING",
-      "convertedFromValue_data" : "STRING"
-    },
-    "payoutId" : "STRING",
-    "totalFeeAmount" : {
-      "convertedFromCurrency" : "NULL",
-      "page_index" : 4677,
-      "convertedFromValue_data" : "STRING",
-      "value" : "STRING",
-      "exchangeRate" : "STRING"
-    },
-    "transactionDate" : "DATETIME",
-    "transactionMemo" : "STRING",
-    "buyer" : {
-      "system_ping_ms" : 3508,
-      "username" : "PII_USERNAME"
-    },
-    "bookingEntry" : "STRING",
-    "transactionId" : "STRING",
-    "paymentsEntity_data" : "STRING",
-    "v_amount" : {
-      "conversion_rate" : 638.53,
-      "value_data" : "STRING",
-      "v_convertedFromCurrency" : "STRING",
-      "v_convertedFromValue" : "",
-      "exchangeRate_data" : "STRING"
-    },
-    "v_transactionType" : "",
-    "references" : [ {
-      "referenceType" : "STRING",
-      "referenceId" : "STRING"
-    } ],
-    "v_feeJurisdiction" : {
-      "regionType" : "STRING",
-      "regionName" : "STRING"
-    },
-    "orderId" : "STRING",
-    "transactionStatus" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "exchangeRate" : "STRING",
-      "currency" : "STRING",
-      "convertedFromValue_data" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "audit_trail" : {
+        "payload_wrapper" : {
+          "debug_payload" : {
+            "is_active" : false,
+            "transactions" : {
+              "v_booked" : [ {
+                "debtorAccount" : {
+                  "iban" : "NULL",
+                  "requires_update" : true
+                },
+                "bookingDate" : "DATE",
+                "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+                "bankTransactionCode" : {
+                  "is_deleted" : false,
+                  "domain" : "STRING",
+                  "subFamily" : "STRING",
+                  "family" : "STRING"
+                },
+                "valueDate" : "DATE",
+                "debtorName" : "STRING",
+                "creditorName" : "PII_PERSON_NAME",
+                "amount" : {
+                  "amount" : "DECIMAL",
+                  "v_currency" : "STRING",
+                  "is_deleted" : false
+                },
+                "retry_attempts" : 3364,
+                "creditorAccount" : {
+                  "v_iban" : "PII_IBAN"
+                }
+              } ]
+            }
+          }
+        }
+      }
     }
-  } ],
-  "offset" : "INT",
-  "href_data" : "STRING",
-  "total" : "INT"
+  }
 }

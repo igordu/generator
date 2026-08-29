@@ -17,7 +17,7 @@
         "email": "PII_EMAIL",
         "date": "DATETIME"
       },
-      "message": "PII_COMPANY_NAME",
+      "message": "STRING",
       "tree": {
         "url": "URL",
         "sha": "STRING"

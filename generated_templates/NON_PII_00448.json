@@ -1,4 +1,15 @@
 {
-  "clientToken" : "STRING",
-  "cache_hit" : true
+  "hits_data" : "INT",
+  "cacheKey" : "STRING",
+  "value" : {
+    "roles_data" : [ "STRING" ],
+    "userId" : "STRING",
+    "expiresAt" : "DATETIME"
+  },
+  "temperature_c" : 44.43,
+  "createdAt" : "DATETIME",
+  "v_lastAccessedAt" : "DATETIME",
+  "v_region" : "STRING",
+  "namespace" : "STRING",
+  "v_ttl" : "INT"
 }

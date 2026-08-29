@@ -1,0 +1,28 @@
+{
+  "id": "INT",
+  "tag_name": "STRING",
+  "target_commitish": "STRING",
+  "name": "STRING",
+  "body": "TEXT",
+  "draft": "BOOLEAN",
+  "prerelease": "BOOLEAN",
+  "created_at": "DATETIME",
+  "published_at": "DATETIME",
+  "assets": [
+    {
+      "id": "INT",
+      "name": "STRING",
+      "content_type": "STRING",
+      "size": "INT",
+      "download_count": "INT",
+      "browser_download_url": "URL"
+    }
+  ],
+  "changelog": [
+    {
+      "commit_sha": "STRING",
+      "message": "TEXT",
+      "files_changed": "INT"
+    }
+  ]
+}

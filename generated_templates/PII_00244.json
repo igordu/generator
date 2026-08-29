@@ -1,63 +1,36 @@
 {
-  "prev" : "STRING",
-  "transactions" : [ {
-    "orderId" : "STRING",
-    "feeType" : "STRING",
-    "v_orderLineItems" : [ {
-      "marketplaceFees" : [ {
-        "feeType" : "STRING",
-        "stock_quantity" : 3294,
-        "feeMemo_data" : "STRING"
-      } ],
-      "lineItemId" : "STRING",
-      "v_feeBasisAmount" : {
-        "convertedFromValue" : "STRING",
-        "v_value" : "STRING",
-        "convertedFromCurrency" : "STRING"
-      }
+  "registrants" : [ {
+    "custom_questions_data" : [ {
+      "v_value" : "STRING",
+      "temperature_c" : -8.05,
+      "title" : null
+    }, {
+      "title_data" : "STRING",
+      "v_value" : ""
     } ],
-    "buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "feeJurisdiction" : {
-      "regionType_data" : "STRING"
-    },
-    "amount" : {
-      "convertedFromCurrency" : "STRING",
-      "exchangeRate" : "STRING",
-      "is_deleted" : false,
-      "currency" : "STRING"
-    },
-    "transactionDate" : "DATETIME",
-    "transactionStatus" : "STRING",
-    "recordId" : "STRING",
-    "transactionType" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "v_currency" : "STRING",
-      "exchangeRate" : "STRING",
-      "value" : "STRING",
-      "temperature_c" : 176.72,
-      "v_convertedFromValue" : "STRING",
-      "convertedFromCurrency" : "STRING"
-    },
-    "totalFeeBasisAmount" : {
-      "value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "price" : 577.15
-    },
-    "uuid" : "STRING",
-    "paymentsEntity" : "STRING",
-    "references" : [ {
-      "identifier" : "STRING",
-      "cache_hit" : true,
-      "v_referenceType" : "STRING"
-    } ],
-    "salesRecordReference" : "STRING"
+    "city" : "PII_LOCATION_CITY",
+    "address" : "PII_ADDRESS_LINE",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "create_time" : "DATETIME",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "id" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "v_role_in_purchase_process" : "STRING",
+    "contactEmail" : "PII_EMAIL",
+    "v_industry" : "STRING",
+    "page_index" : 727,
+    "org_data" : "PII_ORGANIZATION_NAME",
+    "state" : "PII_LOCATION_STATE",
+    "job_title" : "STRING",
+    "comments" : "STRING",
+    "join_url" : "URL",
+    "status" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "no_of_employees" : "STRING"
   } ],
-  "offset" : "INT",
-  "total" : "INT",
-  "href" : "STRING",
-  "v_limit" : "INT",
-  "next" : "STRING"
+  "v_total_records" : "INT",
+  "page_count" : "INT",
+  "page_size" : "INT",
+  "page_number_data" : "INT"
 }

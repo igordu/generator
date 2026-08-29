@@ -1,22 +1,26 @@
-[ {
-  "facets" : [ {
-    "response_time_sec" : 781.62,
-    "v_count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "name_val" : "STRING",
-    "count" : "INT",
-    "key_data" : null
-  } ],
-  "discount_rate" : 158.76,
-  "filter_data" : "STRING"
-}, {
-  "filter" : "STRING"
-}, {
-  "discount_rate" : 499.35,
-  "filter" : null
-} ]
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "environment" : "STRING",
+    "last_status" : "STRING",
+    "auth" : {
+      "client_secret_data" : "[MASKED]",
+      "api_key_data" : "[REDACTED]",
+      "token_expires" : "DATETIME",
+      "username" : "svc_backup_01",
+      "password" : "********"
+    },
+    "connection" : {
+      "v_pool_size" : "INT",
+      "retries" : "INT",
+      "timeout_ms" : "INT"
+    },
+    "v_service" : "NULL",
+    "endpoint" : "URL",
+    "last_run" : "DATETIME",
+    "item_count" : 1079
+  }
+}

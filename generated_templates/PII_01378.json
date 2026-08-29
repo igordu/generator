@@ -1,9 +1,29 @@
 {
-  "user_info_data" : {
-    "fullName" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME"
+  "uuid" : "STRING",
+  "private" : "BOOLEAN",
+  "pullRequest" : {
+    "deletions" : "INT",
+    "state" : "STRING",
+    "changedFiles_data" : "INT",
+    "baseBranch_data" : "STRING",
+    "additions" : "INT",
+    "updatedAt_data" : "DATETIME",
+    "title" : null,
+    "reviewers_data" : [ {
+      "userName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "login" : "PII_USERNAME",
+      "state" : "STRING"
+    } ],
+    "author" : {
+      "email" : "PII_EMAIL",
+      "userName" : "PII_PERSON_NAME",
+      "login" : "PII_USERNAME",
+      "retry_attempts" : 1217
+    },
+    "id" : "INT"
   },
-  "page_index" : 2209,
-  "active" : "BOOLEAN"
+  "fullName" : "STRING",
+  "discount_rate" : 91.43,
+  "language" : "STRING"
 }

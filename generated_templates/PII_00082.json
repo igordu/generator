@@ -1,20 +1,30 @@
 {
-  "content" : [ {
-    "articleSizeRatings" : {
-      "OVERALL" : "INT"
-    },
-    "v_recommend" : "BOOLEAN",
-    "title" : "PII_COMPANY_NAME",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "v_language" : "STRING",
-    "v_helpfulCount" : "INT",
-    "created_data" : "DATETIME",
-    "articleId" : "STRING",
-    "unhelpfulCount" : "INT",
-    "reviewId" : "STRING",
-    "rating" : "INT",
-    "description" : "STRING",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "recordId" : "STRING"
-  } ]
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "ticket" : {
+      "v_tags" : [ "STRING" ],
+      "assignee_id" : "INT",
+      "created_at_data" : "DATETIME",
+      "priority_data" : "STRING",
+      "requester_data" : {
+        "mail" : "PII_EMAIL",
+        "name" : "PII_PERSON_NAME"
+      },
+      "v_subject" : "STRING",
+      "description" : "PII_FREE_TEXT",
+      "v_updated_at" : "DATETIME",
+      "comments" : [ {
+        "id" : "INT",
+        "uuid" : "INT",
+        "http_status" : 1358,
+        "body" : "PII_FREE_TEXT",
+        "public" : "BOOLEAN",
+        "created_at_data" : "DATETIME"
+      } ],
+      "v_status" : "STRING"
+    }
+  }
 }

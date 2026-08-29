@@ -1,14 +1,5 @@
 {
-  "averageStarRating" : "INT",
-  "starRatingDistribution_data" : {
-    "3_data" : "INT",
-    "2" : "INT",
-    "1" : "INT",
-    "v_4" : "INT"
-  },
-  "item_count" : 4592,
-  "numberOfUserReviews" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "primaryKey" : "STRING",
-  "numberOfUserRecommendations" : "INT"
+  "v_clientToken" : "STRING",
+  "cpu_usage_percent" : 97.88,
+  "flowName" : "NULL"
 }

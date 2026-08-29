@@ -1,14 +1,45 @@
 {
-  "country" : "STRING",
-  "v_account_holder_type" : "STRING",
-  "bank_name" : "STRING",
-  "currency" : "STRING",
-  "v_object" : "STRING",
-  "metadata" : "OBJECT",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "account_type" : "STRING",
-  "last4" : "STRING",
-  "fingerprint" : "STRING",
-  "customer_data" : "STRING",
-  "status" : "STRING"
+  "telemetry_data" : {
+    "payload_wrapper" : {
+      "raw_data" : {
+        "candidateId" : "STRING",
+        "interviews" : [ {
+          "type" : "STRING",
+          "requires_update" : true,
+          "interviewer" : {
+            "conversion_rate" : 6.49,
+            "email" : "PII_EMAIL",
+            "name" : "PII_PERSON_NAME"
+          },
+          "round" : "INT",
+          "scheduledAt" : "DATETIME"
+        } ],
+        "position" : {
+          "jobId" : "STRING",
+          "title_data" : "STRING",
+          "location" : "PII_LOCATION_CITY",
+          "department_data" : "STRING"
+        },
+        "candidate" : {
+          "v_linkedIn" : "URL",
+          "lastName" : "PII_PERSON_LAST_NAME",
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "dateOfBirth" : "PII_DATE_OF_BIRTH",
+          "resumeUrl" : "URL",
+          "cell" : "PII_PHONE_NUMBER",
+          "address" : {
+            "v_country" : "PII_LOCATION_COUNTRY",
+            "postalCode" : "STRING",
+            "street" : "PII_ADDRESS_LINE",
+            "city_data" : "PII_LOCATION_CITY"
+          },
+          "email" : "PII_EMAIL"
+        },
+        "status_data" : "STRING",
+        "appliedAt" : "DATETIME",
+        "updatedAt" : "DATETIME",
+        "source" : "NULL"
+      }
+    }
+  }
 }

@@ -1,9 +1,27 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "userName" : "NULL",
-    "clientToken" : "STRING",
-    "requires_update" : false
+  "telemetry_data" : {
+    "request_context" : {
+      "raw_data" : {
+        "v_status" : "STRING",
+        "v_notification" : {
+          "cpu_usage_percent" : 81.87,
+          "title" : "STRING",
+          "body" : "STRING",
+          "data_data" : { }
+        },
+        "type" : "STRING",
+        "campaign" : "NULL",
+        "v_sentAt" : "DATETIME",
+        "recipient" : {
+          "deviceToken" : "STRING",
+          "appVersion" : "STRING",
+          "temperature_c" : 9.34,
+          "platform_data" : "STRING"
+        },
+        "notificationId" : "STRING",
+        "item_count" : 3083,
+        "deliveredAt" : "DATETIME"
+      }
+    }
   }
 }

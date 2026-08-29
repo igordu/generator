@@ -1,68 +1,31 @@
-[ {
-  "url" : "URL",
-  "commit_data" : {
-    "http_status" : 1416,
-    "committer" : {
-      "date_data" : "DATETIME",
-      "system_ping_ms" : 4463,
-      "name" : "PII_PERSON_NAME",
-      "mail" : "PII_EMAIL"
-    },
-    "author" : {
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    },
-    "comment_count" : "INT",
-    "message" : "PII_COMPANY_NAME",
-    "v_url" : "URL",
-    "verification" : {
-      "verified" : "BOOLEAN",
-      "reason" : "STRING",
-      "signature" : "STRING",
-      "payload" : "STRING"
-    }
+{
+  "issuedAt" : "DATETIME",
+  "dueDate_data" : null,
+  "paymentTerms" : "STRING",
+  "lineItems_data" : [ {
+    "vatRate_data" : "DECIMAL",
+    "description" : "",
+    "total" : "DECIMAL",
+    "quantity" : "INT",
+    "unitPrice" : "DECIMAL"
+  } ],
+  "vatAmount" : "DECIMAL",
+  "vendor" : {
+    "name" : "PII_COMPANY_NAME",
+    "address_data" : "PII_ADDRESS_LINE",
+    "iban" : "PII_IBAN",
+    "vatNumber" : "STRING",
+    "email" : "PII_EMAIL"
   },
-  "system_ping_ms" : 2053,
-  "author" : {
-    "type" : null,
-    "repos_url" : "URL",
-    "followers_url_data" : "URL",
-    "gravatar_id" : "STRING",
-    "organizations_url" : "URL",
-    "html_url" : "URL",
-    "following_url" : "URL",
-    "received_events_url" : "URL",
-    "identifier" : "INT",
-    "site_admin" : "BOOLEAN",
-    "events_url" : "URL",
-    "discount_rate" : 848.8,
-    "v_gists_url" : "URL",
-    "v_starred_url" : "URL",
-    "login" : "STRING",
-    "avatar_url" : "URL",
-    "subscriptions_url" : "URL"
+  "customer" : {
+    "userName" : "PII_PERSON_NAME",
+    "v_address" : "PII_ADDRESS_LINE",
+    "mail" : "PII_EMAIL",
+    "company" : "PII_COMPANY_NAME",
+    "vatNumber" : "STRING",
+    "cache_hit" : false
   },
-  "html_url" : "URL",
-  "node_id" : "NULL",
-  "committer" : {
-    "events_url" : "URL",
-    "followers_url" : "URL",
-    "repos_url" : "URL",
-    "html_url" : "URL",
-    "v_subscriptions_url" : "URL",
-    "following_url_data" : "URL",
-    "received_events_url" : "URL",
-    "id" : null,
-    "login" : "STRING",
-    "gists_url_data" : "URL",
-    "node_id" : "STRING",
-    "avatar_url_data" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "organizations_url" : "URL"
-  },
-  "sha" : "STRING",
-  "parents" : [ {
-    "url" : "URL",
-    "sha_data" : "STRING"
-  } ]
-} ]
+  "subtotal" : "DECIMAL",
+  "status" : "STRING",
+  "currency" : "STRING"
+}

@@ -1,0 +1,30 @@
+{
+  "twoFactorEnabled" : "BOOLEAN",
+  "trustedDevices" : [ {
+    "macAddress" : "PII_MAC_ADDRESS",
+    "v_platform" : "STRING",
+    "deviceId" : "STRING",
+    "lastUsedAt" : "DATETIME",
+    "addedAt" : "DATETIME",
+    "page_index" : 4763,
+    "name" : "STRING"
+  } ],
+  "conversion_rate" : 0.96,
+  "createdAt" : "DATETIME",
+  "activeSessions" : "INT",
+  "twoFactorMethod" : "STRING",
+  "passwordLastChangedAt" : "DATETIME",
+  "oauthConnections" : [ {
+    "provider" : "",
+    "externalId" : "STRING",
+    "email" : "PII_EMAIL",
+    "connectedAt" : "DATETIME"
+  } ],
+  "lockedUntil" : "NULL",
+  "securityEvents" : [ {
+    "ipAddress" : "PII_IP_ADDRESS",
+    "timestamp" : "DATETIME",
+    "response_time_sec" : 18.15,
+    "type" : "STRING"
+  } ]
+}

@@ -1,3 +1,17 @@
 {
-  "clientToken" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "scanType" : "STRING",
+    "status" : "STRING",
+    "completedAt" : "DATETIME",
+    "startedAt" : "DATETIME",
+    "summary_data" : {
+      "v_critical" : "INT",
+      "high" : "INT",
+      "auto_renew" : true,
+      "low" : "INT",
+      "medium" : "INT"
+    }
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "object": "subscription",
+  "id": "sub_1234567890",
+  "customer": "cus_9s6XI9OFIdpjIg",
+  "status": "active",
+  "current_period_start": 1693396269,
+  "current_period_end": 1695988269,
+  "plan": {
+    "id": "price_1234",
+    "object": "plan",
+    "amount": 999,
+    "currency": "usd",
+    "interval": "month",
+    "product": "prod_enterprise"
+  },
+  "metadata": {
+    "order_id": "ORD-2024-00123",
+    "account_manager": "sales@example.com"
+  },
+  "trial_end": null,
+  "cancel_at_period_end": false,
+  "livemode": true
+}

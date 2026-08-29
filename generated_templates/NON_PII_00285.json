@@ -1,19 +1,16 @@
-[ {
-  "filter" : "NULL"
-}, {
-  "is_active" : false,
-  "v_facets" : [ {
-    "key_data" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "priority_level" : 3624,
-    "v_key" : "STRING",
-    "count" : "INT"
-  }, {
-    "displayName" : "STRING",
-    "v_count" : "INT",
-    "v_key" : "STRING",
-    "retry_attempts" : 2741
-  } ],
-  "filter" : "STRING"
-} ]
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "role" : "NULL",
+    "id" : "STRING",
+    "usage_data" : {
+      "response_time_sec" : 27.92,
+      "output_tokens" : ""
+    },
+    "auto_renew" : false,
+    "type" : "STRING",
+    "stop_reason_data" : "STRING",
+    "v_model" : "STRING"
+  }
+}

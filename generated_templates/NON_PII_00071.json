@@ -1,14 +1,140 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "cache_hit" : false,
-  "averageStarRating" : "INT",
-  "articleModelId" : "STRING",
-  "numberOfUserRecommendations" : "NULL",
-  "numberOfUserReviews" : "NULL",
-  "starRatingDistribution" : {
-    "v_5" : "INT",
-    "1" : "INT",
-    "4" : "",
-    "3" : "INT"
+  "tags" : {
+    "property2" : "STRING",
+    "property1" : "STRING"
+  },
+  "v_triggerConfig" : {
+    "requires_update" : false,
+    "triggerType" : "STRING",
+    "triggerProperties" : {
+      "Scheduled_data" : {
+        "scheduleEndTime_data" : "DATETIME",
+        "timezone" : "STRING",
+        "v_scheduleStartTime" : "DATETIME",
+        "is_active" : true,
+        "firstExecutionFrom_data" : "DATETIME",
+        "dataPullMode" : "STRING",
+        "scheduleOffset" : "NULL",
+        "flowErrorDeactivationThreshold" : "INT"
+      }
+    }
+  },
+  "clientToken" : "STRING",
+  "kmsArn" : "STRING",
+  "description" : "STRING",
+  "flowName" : "STRING",
+  "v_tasks" : [ {
+    "connectorOperator" : {
+      "Salesforce" : "",
+      "Dynatrace_data" : "STRING",
+      "is_active" : false,
+      "Marketo" : "STRING",
+      "S3_data" : "STRING",
+      "Pardot_data" : "STRING",
+      "SAPOData" : "STRING",
+      "v_Zendesk" : "STRING",
+      "CustomConnector_data" : "STRING",
+      "InforNexus" : "STRING",
+      "v_Veeva" : "STRING",
+      "Datadog" : "STRING",
+      "Amplitude" : "STRING",
+      "Trendmicro_data" : "STRING",
+      "Singular" : null,
+      "Slack" : "STRING",
+      "GoogleAnalytics" : "STRING",
+      "ServiceNow" : "STRING"
+    },
+    "v_sourceFields" : "ARRAY",
+    "taskType" : "STRING",
+    "destinationField" : "STRING",
+    "taskProperties" : {
+      "requires_update" : true,
+      "property1_data" : "STRING",
+      "v_property2" : "STRING"
+    }
+  } ],
+  "v_sourceFlowConfig" : {
+    "sourceConnectorProperties" : {
+      "Dynatrace_data" : {
+        "object" : "STRING"
+      },
+      "Singular_data" : {
+        "object" : "STRING",
+        "page_index" : 1147
+      },
+      "v_ServiceNow" : {
+        "v_object" : "STRING"
+      },
+      "InforNexus" : {
+        "priority_level" : 1099,
+        "object" : "STRING"
+      },
+      "Salesforce" : {
+        "includeDeletedRecords" : "BOOLEAN",
+        "enableDynamicFieldUpdate_data" : "BOOLEAN",
+        "v_dataTransferApi" : "STRING",
+        "object" : "STRING"
+      },
+      "Amplitude" : {
+        "object" : "STRING"
+      },
+      "Slack" : {
+        "v_object" : "STRING",
+        "requires_update" : false
+      },
+      "Datadog" : {
+        "response_time_sec" : 26.43
+      },
+      "CustomConnector" : {
+        "customProperties" : {
+          "property1" : "",
+          "v_property2" : "STRING"
+        }
+      },
+      "Zendesk_data" : {
+        "v_object" : "STRING",
+        "auto_renew" : false
+      },
+      "GoogleAnalytics_data" : {
+        "object" : "STRING"
+      },
+      "Trendmicro" : {
+        "cache_hit" : false,
+        "v_object" : "STRING"
+      },
+      "SAPOData" : {
+        "temperature_c" : 15.91,
+        "v_objectPath" : "STRING"
+      },
+      "v_Pardot" : {
+        "object" : "STRING"
+      },
+      "http_status" : 1280,
+      "Veeva" : {
+        "documentType" : "STRING",
+        "v_includeRenditions" : "BOOLEAN",
+        "includeSourceFiles" : "BOOLEAN",
+        "object" : "",
+        "includeAllVersions" : "BOOLEAN"
+      },
+      "S3" : {
+        "bucketPrefix" : "STRING",
+        "clientName" : "STRING"
+      }
+    },
+    "connectorProfileName" : "STRING",
+    "apiVersion" : "STRING",
+    "retry_attempts" : 2881,
+    "incrementalPullConfig" : {
+      "datetimeTypeFieldName" : "STRING",
+      "cache_hit" : true
+    },
+    "connectorType_data" : "STRING"
+  },
+  "metadataCatalogConfig" : {
+    "glueDataCatalog" : {
+      "roleArn" : "NULL",
+      "databaseName" : "STRING"
+    }
   }
 }

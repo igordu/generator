@@ -1,0 +1,24 @@
+{
+  "eventId": "evt-20240410-user-created-00821",
+  "eventType": "user.created",
+  "version": "1.0",
+  "occurredAt": "2024-04-10T09:00:00Z",
+  "producer": "identity-service",
+  "correlationId": "corr-20240410-0012",
+  "payload": {
+    "userId": "usr-00821",
+    "email": "new.user@example.com",
+    "firstName": "Mei",
+    "lastName": "Zhang",
+    "phone": "+86 138 0000 1234",
+    "dateOfBirth": "1995-03-08",
+    "country": "CN",
+    "registrationSource": "mobile_app",
+    "ipAddress": "116.228.89.10"
+  },
+  "metadata": {
+    "schemaVersion": "1.0",
+    "partition": 4,
+    "offset": 9182034
+  }
+}

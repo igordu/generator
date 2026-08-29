@@ -1,21 +1,39 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "last4_data" : "STRING",
-      "routing_number" : "STRING",
-      "object" : "STRING",
-      "is_deleted" : false,
-      "account_type" : "STRING",
-      "status" : "STRING",
-      "account_holder_type" : "STRING",
-      "v_customer" : "STRING",
-      "uuid" : "STRING",
-      "metadata" : "OBJECT",
-      "bank_name" : "STRING",
-      "account_holder_name" : "PII_PERSON_NAME",
-      "country" : "STRING",
-      "currency" : "NULL",
-      "v_fingerprint" : "STRING"
-    }
-  }
+  "source" : "STRING",
+  "appliedAt_data" : "DATETIME",
+  "candidateId" : "STRING",
+  "v_status" : "STRING",
+  "position_data" : {
+    "title" : "STRING",
+    "department_data" : "STRING",
+    "location_data" : "PII_LOCATION_CITY",
+    "temperature_c" : 2.78
+  },
+  "candidate" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "resumeUrl" : "URL",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "address" : {
+      "city" : "PII_LOCATION_CITY",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "postalCode_data" : "STRING"
+    },
+    "priority_level" : 1865
+  },
+  "updatedAt_data" : "DATETIME",
+  "interviews" : [ {
+    "type" : "STRING",
+    "interviewer" : {
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    },
+    "round" : "INT",
+    "scheduledAt" : "DATETIME",
+    "cache_hit" : false
+  } ],
+  "temperature_c" : 40.05
 }

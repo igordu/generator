@@ -1,19 +1,27 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "createdAt" : "DATETIME",
+  "pageId" : "STRING",
+  "system_ping_ms" : 30,
+  "status_data" : "STRING",
+  "updatedAt" : "DATETIME",
+  "ancestors" : [ {
+    "is_deleted" : true,
+    "title" : "STRING",
+    "primaryKey" : "STRING"
+  } ],
+  "author" : {
+    "clientName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "accountId" : "STRING"
   },
-  "results" : {
-    "active" : "",
-    "v_user_info" : {
-      "has_discount" : true,
-      "arline__name" : "PII_COMPANY_NAME",
-      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-      "family-name-male" : "PII_LAST_NAME_MALE"
-    },
-    "v_tree" : {
-      "url" : "URL",
-      "sha" : "STRING"
-    }
-  }
+  "labels_data" : [ "STRING" ],
+  "v_title" : "STRING",
+  "spaceKey" : "STRING",
+  "v_version" : "INT",
+  "lastModifiedBy" : {
+    "primary_email" : "PII_EMAIL",
+    "accountId" : "STRING",
+    "displayName" : "PII_PERSON_NAME"
+  },
+  "viewCount" : "INT"
 }

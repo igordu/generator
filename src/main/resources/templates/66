@@ -1,0 +1,31 @@
+{
+  "featureFlagKey": "STRING",
+  "projectKey": "STRING",
+  "environment": "STRING",
+  "enabled": "BOOLEAN",
+  "rolloutPercentage": "INT",
+  "targeting": {
+    "rules": [
+      {
+        "id": "STRING",
+        "description": "STRING",
+        "clauses": [
+          {
+            "attribute": "STRING",
+            "op": "STRING",
+            "values": ["STRING"]
+          }
+        ],
+        "variation": "STRING"
+      }
+    ],
+    "fallthrough": { "variation": "STRING" }
+  },
+  "variations": [
+    { "id": "STRING", "value": "BOOLEAN" }
+  ],
+  "createdAt": "DATETIME",
+  "updatedAt": "DATETIME",
+  "createdBy": "PII_EMAIL",
+  "tags": ["STRING"]
+}

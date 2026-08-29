@@ -1,0 +1,17 @@
+{
+  "inheritedFrom_data" : [ "STRING" ],
+  "permissions" : [ "STRING" ],
+  "name" : "STRING",
+  "v_createdAt" : null,
+  "roleId" : "STRING",
+  "v_updatedAt" : "DATETIME",
+  "assignedTo" : [ {
+    "name" : "PII_PERSON_NAME",
+    "assignedAt" : "DATETIME",
+    "userId" : "STRING",
+    "conversion_rate" : 6.01,
+    "contactEmail" : "PII_EMAIL"
+  } ],
+  "createdBy_data" : "PII_EMAIL",
+  "description" : "STRING"
+}

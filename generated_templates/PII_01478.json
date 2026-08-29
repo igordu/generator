@@ -1,0 +1,22 @@
+{
+  "has_discount" : true,
+  "userName" : "STRING",
+  "creationTimestamp" : "DATETIME",
+  "data_data" : {
+    "SMTP_HOST" : "STRING",
+    "DATABASE_PORT" : "STRING",
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "SMTP_PORT_data" : "STRING",
+    "REQUEST_TIMEOUT_MS" : "STRING",
+    "DATABASE_HOST" : "STRING",
+    "page_index" : 4400,
+    "v_MAX_CONNECTIONS" : "STRING",
+    "v_REDIS_PORT" : "STRING",
+    "fullName" : "STRING",
+    "LOG_LEVEL" : "STRING",
+    "REDIS_HOST_data" : "NULL",
+    "v_FEATURE_FLAG_NEW_CHECKOUT" : "STRING"
+  },
+  "v_resourceVersion" : "STRING",
+  "namespace" : "NULL"
+}

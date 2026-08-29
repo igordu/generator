@@ -1,23 +1,52 @@
 {
-  "cpu_usage_percent" : 87.12,
-  "content" : [ {
-    "articleSizeRatings" : {
-      "SHOE_WIDTH" : "NULL",
-      "OVERALL" : "INT"
+  "userId" : "STRING",
+  "priority_level" : 4360,
+  "v_accountType" : "STRING",
+  "username" : "PII_USERNAME",
+  "individualAccount" : {
+    "firstName" : "PII_PERSON_NAME",
+    "lastName" : "PII_PERSON_NAME",
+    "contactNumber" : {
+      "countryCode_data" : null,
+      "v_number" : "PII_PHONE_NUMBER"
     },
-    "articleId" : "STRING",
-    "is_deleted" : false,
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "reviewId" : "STRING",
-    "helpfulCount_data" : "INT",
-    "v_language" : "STRING",
-    "articleModelId" : "STRING",
-    "recommend" : "BOOLEAN",
-    "created" : "DATETIME",
-    "unhelpfulCount" : null,
-    "v_title" : "PII_COMPANY_NAME",
-    "rating_data" : "INT",
-    "customerCity" : "PII_LOCATION_CITY",
-    "v_description" : "STRING"
-  } ]
+    "secondaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "phoneType" : "STRING"
+    },
+    "contactEmail" : "PII_EMAIL"
+  },
+  "businessAccount" : {
+    "v_address" : {
+      "stateOrProvince" : "STRING",
+      "v_county" : "STRING",
+      "addressLine2_data" : "STRING",
+      "postalCode" : "STRING",
+      "addressLine1" : "STRING",
+      "auto_renew" : false,
+      "country" : "STRING",
+      "v_city" : "STRING"
+    },
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "system_ping_ms" : 1997,
+      "lastName" : "PII_PERSON_NAME"
+    },
+    "email" : "PII_EMAIL",
+    "secondaryPhone" : {
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "system_ping_ms" : 468
+    },
+    "name" : "PII_ORGANIZATION_NAME",
+    "primaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "website" : "URL",
+    "doingBusinessAs" : ""
+  },
+  "status_data" : "STRING"
 }

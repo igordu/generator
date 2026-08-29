@@ -1,62 +1,47 @@
 {
-  "status" : "STRING",
-  "accountType" : "STRING",
-  "recordId" : {
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "price" : 531.91,
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "registrationAddress_data" : {
-      "stateOrProvince" : "STRING",
-      "postalCode" : "STRING",
-      "county" : "STRING",
-      "country" : "STRING",
-      "v_addressLine1" : "STRING",
-      "city" : "STRING"
-    },
-    "primaryPhone" : {
-      "cell" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode_data" : "STRING",
-      "has_discount" : true
-    },
-    "email" : "PII_EMAIL",
-    "http_status" : 1409,
-    "firstName" : "PII_PERSON_NAME",
-    "lastName" : "PII_PERSON_NAME"
-  },
-  "registrationMarketplaceId" : "STRING",
-  "userId" : "STRING",
-  "stock_quantity" : 3019,
-  "fullName" : "PII_USERNAME",
-  "businessAccount_data" : {
-    "address_data" : {
-      "city" : "NULL",
-      "county" : "STRING",
-      "cpu_usage_percent" : 410.44,
-      "v_country" : "STRING",
-      "stateOrProvince_data" : "STRING",
-      "addressLine2" : "STRING",
-      "addressLine1" : "STRING"
-    },
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING"
-    },
-    "telephone" : {
-      "v_countryCode" : "STRING",
-      "mobile" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "http_status" : 689
-    },
-    "mail" : "PII_EMAIL",
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "doingBusinessAs" : "STRING"
+  "server_logs" : {
+    "request_context" : {
+      "body" : {
+        "address_data" : [ {
+          "country" : "PII_LOCATION_COUNTRY",
+          "line" : [ "PII_ADDRESS_LINE" ],
+          "v_city" : "PII_LOCATION_CITY",
+          "v_use" : "STRING",
+          "discount_rate" : 42.03
+        } ],
+        "resourceType" : "STRING",
+        "name" : [ {
+          "v_family" : "PII_PERSON_LAST_NAME",
+          "cache_hit" : true,
+          "v_given" : [ "PII_PERSON_FIRST_NAME" ],
+          "use_data" : "NULL"
+        } ],
+        "telecom" : [ {
+          "system" : "STRING",
+          "is_deleted" : false,
+          "value" : "PII_EMAIL"
+        }, {
+          "discount_rate" : 12.24,
+          "value" : "PII_PHONE_NUMBER",
+          "use_data" : "STRING",
+          "v_system" : "STRING"
+        } ],
+        "identifier" : [ {
+          "type" : {
+            "system_ping_ms" : 3127,
+            "text" : "STRING"
+          },
+          "use" : "STRING",
+          "value" : "PII_NATIONAL_ID"
+        } ],
+        "birthDate" : "PII_DATE_OF_BIRTH",
+        "gender_data" : "STRING",
+        "id" : "STRING",
+        "meta" : {
+          "lastUpdated" : "DATETIME",
+          "versionId" : "INT"
+        }
+      }
+    }
   }
 }

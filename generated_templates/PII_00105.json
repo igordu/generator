@@ -1,57 +1,27 @@
 {
-  "individualAccount" : {
-    "mobile" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "countryCode" : "STRING"
-    },
-    "fullName" : "PII_PERSON_NAME",
-    "clientName" : "PII_PERSON_NAME",
+  "batch_id" : "STRING",
+  "personalizations" : [ {
+    "to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "subject" : "STRING"
+  } ],
+  "content" : [ {
+    "v_value" : "PII_FREE_TEXT",
+    "type" : "STRING"
+  } ],
+  "from" : {
     "email" : "PII_EMAIL",
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "contactNumber" : "STRING"
-    },
-    "registrationAddress_data" : {
-      "addressLine2_data" : "STRING",
-      "addressLine1" : "STRING",
-      "v_city" : "STRING",
-      "v_postalCode" : "STRING",
-      "price" : 304.89,
-      "stateOrProvince" : "STRING"
-    }
+    "name" : "PII_PERSON_NAME"
   },
-  "registrationMarketplaceId" : "STRING",
-  "businessAccount_data" : {
-    "email" : "PII_EMAIL",
-    "retry_attempts" : 794,
-    "doingBusinessAs" : "STRING",
-    "website" : "URL",
-    "primaryContact_data" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "address" : {
-      "city" : "STRING",
-      "stateOrProvince_data" : "STRING",
-      "postalCode" : "STRING",
-      "addressLine1" : "STRING",
-      "addressLine2" : "STRING"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "mobile" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "page_index" : 3523,
-      "number" : "PII_PHONE_NUMBER"
-    }
+  "mail_settings" : {
+    "page_index" : 4839,
+    "sandbox_mode" : { }
   },
-  "accountType" : "STRING",
-  "username" : "PII_USERNAME",
-  "status_data" : "STRING"
+  "categories" : [ "STRING" ],
+  "reply_to" : {
+    "email" : "PII_EMAIL"
+  },
+  "send_at" : "DATETIME_EPOCH"
 }

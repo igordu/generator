@@ -1,13 +1,39 @@
 {
-  "object" : "STRING",
-  "account_type_data" : "STRING",
-  "v_metadata" : "OBJECT",
-  "account_holder_type" : "STRING",
-  "name_val" : "PII_PERSON_NAME",
-  "v_status" : "STRING",
-  "v_routing_number" : null,
-  "currency_data" : "STRING",
-  "fingerprint" : "STRING",
-  "v_country" : "STRING",
-  "v_last4" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "applicant" : {
+      "mobile" : "PII_PHONE_NUMBER",
+      "address" : {
+        "state" : "STRING",
+        "country" : "PII_LOCATION_COUNTRY",
+        "v_street" : "PII_ADDRESS_LINE",
+        "city" : "PII_LOCATION_CITY"
+      },
+      "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+      "monthlyIncome" : "DECIMAL",
+      "nationalId" : "PII_NATIONAL_ID",
+      "employer" : "PII_COMPANY_NAME",
+      "email" : "PII_EMAIL",
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "firstName" : "PII_PERSON_FIRST_NAME"
+    },
+    "loanDetails" : {
+      "requestedAmount" : "DECIMAL",
+      "termMonths" : "INT",
+      "type" : "STRING",
+      "v_purpose" : "STRING",
+      "requestedAt" : "DATETIME",
+      "currency" : "STRING",
+      "is_deleted" : false
+    },
+    "creditScore" : "INT",
+    "loanApplicationId" : "STRING",
+    "bankAccount" : {
+      "bankName" : "PII_COMPANY_NAME",
+      "branchCode" : "STRING",
+      "iban" : "PII_IBAN"
+    },
+    "cache_hit" : true
+  }
 }

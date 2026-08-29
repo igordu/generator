@@ -1,16 +1,3 @@
-{
-  "requires_update" : true,
-  "v_starRatingDistribution" : {
-    "has_discount" : false,
-    "v_3" : "INT",
-    "1_data" : "INT",
-    "4" : "INT",
-    "5" : "INT",
-    "2" : "INT"
-  },
-  "numberOfUserPositiveRecommendations" : "INT",
-  "numberOfUserRecommendations" : "NULL",
-  "articleModelId" : "STRING",
-  "v_numberOfUserReviews" : "INT",
-  "averageStarRating" : "INT"
-}
+[ {
+  "filter" : "STRING"
+} ]

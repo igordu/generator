@@ -1,5 +1,21 @@
 {
-  "contactEmail" : [ "" ],
-  "cpu_usage_percent" : 227.74,
-  "primary_email" : "PII_EMAIL"
+  "api_version" : "STRING",
+  "status" : "STRING",
+  "body" : "NULL",
+  "v_from" : "PII_PHONE_NUMBER",
+  "v_to" : "PII_PHONE_NUMBER",
+  "v_num_media" : "STRING",
+  "sid" : "STRING",
+  "date_created" : "DATETIME",
+  "account_sid" : "STRING",
+  "subresource_uris" : {
+    "media" : "URL"
+  },
+  "error_code" : "NULL",
+  "messaging_service_sid" : "STRING",
+  "price_unit_data" : "NULL",
+  "date_updated" : "DATETIME",
+  "num_segments_data" : "STRING",
+  "uri" : "URL",
+  "date_sent" : "DATETIME"
 }

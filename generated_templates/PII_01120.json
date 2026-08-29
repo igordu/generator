@@ -1,50 +1,31 @@
 {
-  "server_logs" : {
-    "transaction_trace" : {
-      "extracted_info" : {
-        "starred_url" : "URL",
-        "disk_usage" : "INT",
-        "name_val" : "STRING",
-        "plan" : {
-          "space_data" : "INT",
-          "v_private_repos" : "INT",
-          "collaborators" : "INT",
-          "name" : "STRING"
-        },
-        "collaborators" : "INT",
-        "v_location" : "PII_LOCATION_CITY",
-        "url" : "URL",
-        "following" : "INT",
-        "v_following_url" : "URL",
-        "company" : "PII_ORGANIZATION_NAME",
-        "avatar_url" : "URL",
-        "subscriptions_url_data" : "URL",
-        "total_private_repos_data" : "INT",
-        "blog" : "URL",
-        "received_events_url" : "URL",
-        "updated_at" : "DATETIME",
-        "name" : "PII_PERSON_NAME",
-        "private_gists" : "INT",
-        "followers_url" : "URL",
-        "site_admin_data" : "BOOLEAN",
-        "uuid" : "STRING",
-        "bio" : "PII_ORGANIZATION_NAME",
-        "created_at" : "DATETIME",
-        "html_url" : "URL",
-        "public_repos" : "INT",
-        "id" : "INT",
-        "followers" : "INT",
-        "login" : "STRING",
-        "repos_url_data" : "URL",
-        "v_events_url" : "URL",
-        "gists_url" : "",
-        "owned_private_repos" : "INT",
-        "hireable_data" : "BOOLEAN",
-        "public_gists" : "INT",
-        "email" : "PII_EMAIL",
-        "organizations_url" : "URL",
-        "type" : null
-      }
-    }
-  }
+  "fullName" : "STRING",
+  "http_status" : 899,
+  "v_context" : {
+    "v_department" : "STRING",
+    "startDate" : "",
+    "employeeEmail" : "PII_EMAIL",
+    "manager" : {
+      "email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "employeeName" : "PII_PERSON_NAME"
+  },
+  "initiatedBy" : {
+    "name_val" : "PII_PERSON_NAME",
+    "userId" : "STRING",
+    "cpu_usage_percent" : 5.84,
+    "email" : "PII_EMAIL"
+  },
+  "uuid" : "STRING",
+  "status" : "STRING",
+  "startedAt_data" : "DATETIME",
+  "trigger" : "NULL",
+  "steps_data" : [ {
+    "completedAt" : "DATETIME",
+    "name_val" : "STRING",
+    "v_status" : "STRING",
+    "recordId" : "STRING",
+    "http_status" : 1081
+  } ]
 }

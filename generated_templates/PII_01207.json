@@ -1,74 +1,16 @@
-[ {
-  "node_id" : "STRING",
-  "committer" : {
-    "events_url_data" : "URL",
-    "organizations_url" : "URL",
-    "avatar_url" : "URL",
-    "gists_url" : "URL",
-    "html_url" : "URL",
-    "response_time_sec" : 370.95,
-    "url" : "URL",
-    "starred_url" : "URL",
-    "followers_url" : "URL",
-    "v_type" : "STRING",
-    "site_admin" : "BOOLEAN",
-    "primaryKey" : "INT",
-    "login" : "",
-    "following_url_data" : "NULL",
-    "node_id" : "STRING",
-    "received_events_url" : "URL",
-    "gravatar_id" : "STRING"
+{
+  "dataSubject" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "identifier" : "STRING",
+    "item_count" : 3471,
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "email" : "PII_EMAIL",
+    "country" : "PII_LOCATION_COUNTRY"
   },
-  "sha" : "STRING",
-  "author_data" : {
-    "type" : "STRING",
-    "followers_url" : "URL",
-    "gists_url_data" : null,
-    "starred_url" : "URL",
-    "organizations_url" : "URL",
-    "v_following_url" : "URL",
-    "received_events_url" : "URL",
-    "events_url" : "URL",
-    "node_id" : "STRING",
-    "gravatar_id" : "STRING",
-    "avatar_url" : "URL",
-    "login" : "STRING",
-    "page_index" : 2349,
-    "id" : "INT",
-    "url" : "URL",
-    "repos_url" : "",
-    "site_admin" : "BOOLEAN"
-  },
-  "parents" : [ {
-    "url" : "URL"
-  } ],
-  "url" : "URL",
-  "comments_url" : "URL",
-  "commit" : {
-    "committer_data" : {
-      "v_date" : "DATETIME",
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME",
-      "is_deleted" : true
-    },
-    "tree" : {
-      "url" : "URL",
-      "sha_data" : "STRING"
-    },
-    "verification" : {
-      "v_signature" : "STRING",
-      "verified" : "",
-      "verified_at" : "DATETIME",
-      "payload" : "STRING",
-      "v_reason" : "STRING"
-    },
-    "author" : {
-      "requires_update" : false,
-      "email" : "PII_EMAIL",
-      "date" : "DATETIME",
-      "name_val" : "PII_PERSON_NAME"
-    },
-    "v_comment_count" : "INT",
-    "message" : "PII_COMPANY_NAME"
-  }
-} ]
+  "price" : 348.71,
+  "identifier" : "STRING",
+  "v_collectedAt" : "DATETIME",
+  "retentionDays_data" : "INT",
+  "version" : "STRING"
+}

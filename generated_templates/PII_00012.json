@@ -1,27 +1,24 @@
 {
-  "system_state" : {
-    "event_data" : {
-      "body" : {
-        "content" : [ {
-          "title" : "PII_COMPANY_NAME",
-          "helpfulCount" : "",
-          "unhelpfulCount" : "INT",
-          "v_description" : "STRING",
-          "customerCountry" : "PII_LOCATION_COUNTRY",
-          "recordId" : "STRING",
-          "created_data" : "DATETIME",
-          "articleSizeRatings" : {
-            "OVERALL" : "INT",
-            "SHOE_WIDTH" : "INT"
-          },
-          "v_customerCity" : "PII_LOCATION_CITY",
-          "articleModelId" : "STRING",
-          "articleId" : "STRING",
-          "v_recommend" : null,
-          "rating" : "INT",
-          "discount_rate" : 729.57
-        } ]
-      }
-    }
-  }
+  "conversion_rate" : 5.78,
+  "content" : [ {
+    "unhelpfulCount" : "INT",
+    "reviewId" : "STRING",
+    "description_data" : "STRING",
+    "created" : "DATETIME",
+    "rating" : "INT",
+    "recommend_data" : "BOOLEAN",
+    "temperature_c" : 9.13,
+    "v_title" : "STRING",
+    "language" : "STRING",
+    "articleSizeRatings_data" : {
+      "OVERALL" : "INT",
+      "has_discount" : true,
+      "identifier" : "INT"
+    },
+    "articleId" : "STRING",
+    "articleModelId" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "helpfulCount" : "INT"
+  } ]
 }

@@ -1,65 +1,31 @@
 {
-  "cpu_usage_percent" : 378.67,
-  "accountType" : "STRING",
-  "uuid" : {
-    "cpu_usage_percent" : 801.62,
-    "v_registrationAddress" : {
-      "country" : "STRING",
-      "v_addressLine2" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine1" : null,
-      "city_data" : "STRING",
-      "v_postalCode" : "STRING",
-      "county_data" : "STRING"
+  "open" : "BOOLEAN",
+  "source" : {
+    "body" : "PII_FREE_TEXT",
+    "subject" : "STRING",
+    "is_deleted" : true,
+    "author" : {
+      "type" : "STRING",
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "id" : "STRING"
     },
-    "email" : "PII_EMAIL",
-    "lastName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "contactNumber" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "cpu_usage_percent" : 942.47,
-      "v_countryCode" : "STRING"
-    },
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "mobile" : "STRING",
-      "price" : 662.89
-    },
-    "firstName" : "PII_PERSON_NAME"
+    "delivered_as" : "STRING",
+    "type" : "STRING"
   },
-  "businessAccount_data" : {
-    "name" : "PII_ORGANIZATION_NAME",
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "page_index" : 4092
+  "created_at_data" : "DATETIME_EPOCH",
+  "read" : "BOOLEAN",
+  "state" : "STRING",
+  "priority" : "STRING",
+  "type_data" : "STRING",
+  "conversation_parts" : [ {
+    "body" : "PII_FREE_TEXT",
+    "cache_hit" : true,
+    "author" : {
+      "name" : "PII_PERSON_NAME",
+      "v_type" : "STRING"
     },
-    "address" : {
-      "auto_renew" : false,
-      "postalCode" : "STRING",
-      "country" : "STRING",
-      "city" : "STRING",
-      "addressLine1" : "STRING",
-      "county" : "STRING",
-      "addressLine2" : "NULL",
-      "stateOrProvince" : "STRING"
-    },
-    "emailAddress" : "PII_EMAIL",
-    "primaryContact" : {
-      "is_deleted" : false,
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "requires_update" : false,
-    "website" : "URL",
-    "secondaryPhone" : {
-      "phoneType" : "STRING",
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "v_doingBusinessAs" : "STRING"
-  },
-  "username" : "PII_USERNAME",
-  "userId" : "STRING",
-  "primaryKey" : "STRING",
-  "status" : "STRING"
+    "created_at" : "DATETIME_EPOCH",
+    "part_type" : "STRING"
+  } ]
 }

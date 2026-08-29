@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "primaryKey" : "",
+    "v_updatedAt" : "DATETIME",
+    "requires_update" : false,
+    "description" : "STRING",
+    "uuid" : null,
+    "name" : "NULL",
+    "slackChannel" : "STRING",
+    "members" : [ {
+      "email" : "PII_EMAIL",
+      "v_joinedAt" : "DATETIME",
+      "userId" : "STRING",
+      "name" : "PII_PERSON_NAME",
+      "v_role" : "STRING",
+      "priority_level" : 2636
+    } ],
+    "v_ownedServices" : [ "STRING" ],
+    "createdAt" : "DATETIME"
+  }
+}

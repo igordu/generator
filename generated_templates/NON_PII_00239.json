@@ -1,43 +1,21 @@
-[ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "count" : "INT",
-    "conversion_rate" : 8.37,
-    "key" : "STRING",
-    "name_val" : "STRING"
-  }, {
-    "priority_level" : 4596,
-    "key" : "STRING",
-    "v_count" : "INT",
-    "clientName" : "STRING"
-  }, {
-    "key" : "STRING",
-    "clientName" : "STRING",
-    "count_data" : "INT"
-  } ],
-  "page_index" : 3638
-}, {
-  "filter" : "STRING",
-  "stock_quantity" : 3240,
-  "facets" : [ {
-    "count" : "INT",
-    "is_deleted" : false,
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "has_discount" : false,
-    "v_key" : "STRING",
-    "count" : "INT"
-  } ]
-}, {
-  "facets_data" : [ {
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "count_data" : "INT",
-    "key" : "STRING"
-  } ],
-  "filter" : "STRING"
-} ]
+{
+  "environment" : "STRING",
+  "log_line" : "TEXT",
+  "connection_data" : {
+    "discount_rate" : 27.75,
+    "v_timeout_ms" : "NULL",
+    "retries" : "INT",
+    "pool_size" : "INT"
+  },
+  "service" : "STRING",
+  "last_run" : "DATETIME",
+  "auth" : {
+    "client_secret" : "[MASKED]",
+    "token_expires" : "DATETIME",
+    "is_active" : false,
+    "password" : "********",
+    "username" : "svc_backup_01"
+  },
+  "last_status" : "STRING",
+  "v_endpoint" : "URL"
+}

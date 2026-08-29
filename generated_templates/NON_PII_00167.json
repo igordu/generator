@@ -1,23 +1,28 @@
 {
+  "status" : "success",
+  "code" : 200,
   "data" : {
-    "fetchResource" : {
-      "identifier" : "STRING",
-      "requires_update" : false,
-      "shopUrl_data" : "URL",
-      "modelId" : "STRING",
-      "media" : {
-        "stock_quantity" : 1619,
-        "v_images" : [ {
-          "largeHdUrl_data" : null,
-          "type_data" : null,
-          "mediumUrl" : "URL",
-          "thumbnailHdUrl" : "URL",
-          "mediumHdUrl" : "URL",
-          "largeUrl" : "URL",
-          "orderNumber" : "INT",
-          "item_count" : 853
-        } ]
-      }
-    }
+    "name" : "STRING",
+    "created_at" : "DATETIME",
+    "is_active" : false,
+    "published_at" : "DATETIME",
+    "draft_data" : "BOOLEAN",
+    "id" : "INT",
+    "target_commitish" : "STRING",
+    "tag_name" : "STRING",
+    "assets" : [ {
+      "system_ping_ms" : 3019,
+      "name" : "STRING",
+      "download_count" : "INT",
+      "content_type" : "STRING",
+      "size" : "INT",
+      "id" : "INT",
+      "browser_download_url" : "URL"
+    } ],
+    "changelog" : [ {
+      "files_changed_data" : "INT",
+      "message" : "TEXT"
+    } ],
+    "v_body" : "TEXT"
   }
 }

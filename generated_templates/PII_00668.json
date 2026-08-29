@@ -1,39 +1,65 @@
 {
-  "system_ping_ms" : 3104,
-  "DateTimeUTC" : "DATETIME",
-  "Employees" : [ {
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "item_count" : 1786,
-    "uuid" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink_data" : {
-      "Url" : "URL",
-      "Description_data" : "STRING"
-    },
-    "Status" : "STRING"
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "cpu_usage_percent" : 366.95,
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "price" : 674.21,
-      "Url" : "URL",
-      "Description_data" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "Personal_Data" : {
+        "Contact_Data" : {
+          "Phone_Data" : [ {
+            "Phone_Device_Type_Reference" : {
+              "recordId" : "STRING",
+              "item_count" : 813
+            },
+            "mobile" : "PII_PHONE_NUMBER"
+          } ],
+          "Email_Address_Data" : [ {
+            "Email_Address" : "PII_EMAIL"
+          } ],
+          "Address_Data" : [ {
+            "Country_Reference_data" : {
+              "v_ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+            },
+            "Usage_Data" : {
+              "Type_Data" : [ {
+                "Type_Reference_data" : {
+                  "response_time_sec" : 13.86,
+                  "uuid" : "STRING"
+                },
+                "page_index" : 1961
+              } ],
+              "retry_attempts" : 1503
+            },
+            "Municipality" : "PII_LOCATION_CITY",
+            "Address_Line_Data" : [ {
+              "content" : "PII_ADDRESS_LINE",
+              "Type" : "STRING"
+            } ]
+          } ]
+        },
+        "Identification_Data" : {
+          "Birth_Date" : "PII_DATE_OF_BIRTH",
+          "system_ping_ms" : 1626,
+          "primaryKey" : [ {
+            "National_ID" : "PII_NATIONAL_ID",
+            "Country_Reference_data" : {
+              "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+            },
+            "auto_renew" : true
+          } ]
+        },
+        "Name_Data" : {
+          "cpu_usage_percent" : 85.67,
+          "Legal_Name_Data" : {
+            "Name_Detail_Data" : {
+              "requires_update" : true,
+              "fullName" : "PII_PERSON_FIRST_NAME",
+              "Middle_Name" : "PII_PERSON_FIRST_NAME",
+              "Last_Name" : "PII_PERSON_LAST_NAME"
+            },
+            "is_deleted" : false
+          }
+        }
+      },
+      "Worker_ID" : "STRING",
+      "Employment_Data" : { }
     }
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Description_data" : "STRING"
-    },
-    "EmployeeID" : "STRING"
-  } ],
-  "Status" : "STRING",
-  "clientName" : "STRING"
+  }
 }

@@ -1,26 +1,33 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "server_logs" : {
-      "event_data" : {
-        "extracted_info" : {
-          "country" : "STRING",
-          "v_fingerprint" : "STRING",
-          "v_status" : "STRING",
-          "v_customer" : "STRING",
-          "id" : "STRING",
-          "object" : "STRING",
-          "last4" : "STRING",
-          "account_type" : "STRING",
-          "userName" : "STRING",
-          "account_holder_type" : null,
-          "auto_renew" : false,
-          "account_holder_name" : "PII_PERSON_NAME",
-          "routing_number" : "STRING",
-          "currency" : "STRING"
-        }
-      }
-    }
-  }
+  "response_time_sec" : 11.09,
+  "status" : "STRING",
+  "bookingRef" : "STRING",
+  "totalFare" : {
+    "amount" : "",
+    "http_status" : 834,
+    "currency_data" : "STRING"
+  },
+  "issuedAt" : "DATETIME",
+  "passenger" : {
+    "passportExpiry" : "DATE",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "title_data" : "STRING",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "frequentFlyerNumber" : "STRING",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "ticketNumber" : "STRING",
+  "v_itinerary" : [ {
+    "origin" : "NULL",
+    "flightNumber" : "STRING",
+    "departureAt" : "NULL",
+    "status" : "STRING",
+    "cabin" : "STRING",
+    "http_status" : 2196,
+    "destination" : "STRING"
+  } ]
 }

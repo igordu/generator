@@ -1,24 +1,28 @@
-[ {
-  "style" : "STRING",
-  "v_simplified" : "BOOLEAN",
-  "projectCategory" : {
-    "description" : "STRING",
-    "name" : "STRING",
-    "self" : "URL",
-    "id" : "STRING"
+{
+  "endpoint" : "STRING",
+  "period" : "STRING",
+  "statusCodes" : {
+    "cpu_usage_percent" : 70.98,
+    "404" : "INT",
+    "v_500" : "INT",
+    "v_429" : "INT"
   },
-  "self_data" : "URL",
-  "name" : "STRING",
-  "id" : "STRING",
-  "key" : "STRING",
-  "insight_data" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
+  "metrics" : {
+    "errorRate_data" : "DECIMAL",
+    "throughputRps" : "DECIMAL",
+    "p50LatencyMs" : "INT",
+    "requestCount" : "INT",
+    "p95LatencyMs" : "INT",
+    "v_p99LatencyMs" : "INT",
+    "errorCount" : "INT",
+    "auto_renew" : false
   },
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "24x24" : "URL",
-    "32x32" : "URL",
-    "48x48" : "URL"
-  }
-} ]
+  "sloCompliance" : {
+    "withinSlo" : "BOOLEAN",
+    "latencyActualP99_data" : "INT",
+    "availabilityActual" : "DECIMAL",
+    "latencyTarget" : null,
+    "availabilityTarget" : ""
+  },
+  "temperature_c" : -7.63
+}

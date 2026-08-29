@@ -1,8 +1,25 @@
 {
-  "active" : "BOOLEAN",
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  }
+  "updatedAt_data" : "DATETIME",
+  "labels" : [ "NULL" ],
+  "status" : "STRING",
+  "version" : "",
+  "createdAt" : "DATETIME",
+  "author_data" : {
+    "displayName" : "PII_PERSON_NAME",
+    "mail" : "PII_EMAIL"
+  },
+  "v_likes" : "INT",
+  "title" : "STRING",
+  "ancestors" : [ {
+    "v_title" : "NULL",
+    "id" : "STRING"
+  } ],
+  "v_spaceKey" : "STRING",
+  "lastModifiedBy" : {
+    "displayName" : "PII_PERSON_NAME",
+    "recordId" : "STRING",
+    "email" : "PII_EMAIL",
+    "is_active" : true
+  },
+  "pageId" : "NULL"
 }

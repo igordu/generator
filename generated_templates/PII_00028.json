@@ -1,18 +1,53 @@
 {
-  "content" : [ {
-    "articleSizeRatings" : {
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "NULL"
+  "businessAccount" : {
+    "website" : "URL",
+    "name_val" : "PII_ORGANIZATION_NAME",
+    "mail" : "PII_EMAIL",
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "stock_quantity" : 1300,
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
     },
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "uuid" : "STRING",
-    "helpfulCount" : "INT",
-    "description" : "STRING",
-    "identifier" : "STRING",
-    "title_data" : "PII_COMPANY_NAME",
-    "language" : "STRING",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "created" : "DATETIME"
-  } ],
-  "requires_update" : false
+    "telephone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING",
+      "discount_rate" : 66.03
+    },
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME"
+    }
+  },
+  "status" : "STRING",
+  "userId" : "STRING",
+  "recordId" : "NULL",
+  "individualAccount" : {
+    "contactNumber" : {
+      "price" : 2940.74,
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "NULL",
+      "v_countryCode" : "STRING"
+    },
+    "primaryPhone" : {
+      "mobile" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode_data" : "STRING"
+    },
+    "email" : "PII_EMAIL",
+    "fullName" : "PII_PERSON_NAME",
+    "name_val" : "PII_PERSON_NAME",
+    "registrationAddress" : {
+      "country" : "STRING",
+      "v_addressLine1" : "STRING",
+      "city" : "STRING",
+      "item_count" : 3983,
+      "v_postalCode" : null,
+      "county" : "STRING",
+      "v_addressLine2" : null
+    }
+  },
+  "username" : "PII_USERNAME",
+  "v_accountType" : "STRING"
 }

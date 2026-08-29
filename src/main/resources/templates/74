@@ -1,0 +1,14 @@
+{
+  "cacheKey": "STRING",
+  "namespace": "STRING",
+  "value": {
+    "userId": "STRING",
+    "roles": ["STRING"],
+    "expiresAt": "DATETIME"
+  },
+  "ttl": "INT",
+  "createdAt": "DATETIME",
+  "lastAccessedAt": "DATETIME",
+  "hits": "INT",
+  "region": "STRING"
+}

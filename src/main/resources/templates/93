@@ -1,0 +1,20 @@
+{
+  "configMapName": "STRING",
+  "namespace": "STRING",
+  "data": {
+    "DATABASE_HOST": "STRING",
+    "DATABASE_PORT": "STRING",
+    "DATABASE_NAME": "STRING",
+    "REDIS_HOST": "STRING",
+    "REDIS_PORT": "STRING",
+    "LOG_LEVEL": "STRING",
+    "MAX_CONNECTIONS": "STRING",
+    "REQUEST_TIMEOUT_MS": "STRING",
+    "FEATURE_FLAG_NEW_CHECKOUT": "STRING",
+    "SMTP_HOST": "STRING",
+    "SMTP_PORT": "STRING",
+    "SUPPORT_EMAIL": "PII_EMAIL"
+  },
+  "creationTimestamp": "DATETIME",
+  "resourceVersion": "STRING"
+}

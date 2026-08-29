@@ -1,0 +1,34 @@
+{
+  "transactionId": "TXN-20240410-00019283",
+  "timestamp": "2024-04-10T13:45:22Z",
+  "type": "purchase",
+  "status": "approved",
+  "card": {
+    "maskedPan": "4111 **** **** 1111",
+    "cardholderName": "ANNA KOWALSKI",
+    "expiryMonth": "09",
+    "expiryYear": "2027",
+    "scheme": "VISA",
+    "issuingBank": "PKO Bank Polski",
+    "issuingCountry": "PL"
+  },
+  "amount": {
+    "value": 24999,
+    "currency": "PLN"
+  },
+  "merchant": {
+    "id": "MRC-00512",
+    "name": "Allegro Sp. z o.o.",
+    "categoryCode": "5961",
+    "country": "PL"
+  },
+  "billing": {
+    "address": "ul. Grunwaldzka 182",
+    "city": "Poznan",
+    "postalCode": "60-166",
+    "country": "PL"
+  },
+  "ipAddress": "213.180.141.140",
+  "deviceFingerprint": "fp_abc123xyz",
+  "fraudScore": 12
+}

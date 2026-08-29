@@ -1,43 +1,25 @@
 {
-  "type" : "STRING",
-  "starred_url" : "URL",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "created_at" : "DATETIME",
-  "v_html_url" : "URL",
-  "v_subscriptions_url" : "URL",
-  "company_data" : "PII_ORGANIZATION_NAME",
-  "userName" : "PII_PERSON_NAME",
-  "node_id" : "STRING",
-  "fullName" : "STRING",
-  "collaborators" : "INT",
-  "disk_usage" : "INT",
-  "v_blog" : "URL",
-  "organizations_url" : "URL",
-  "v_received_events_url" : "URL",
-  "v_plan" : {
-    "space" : "INT",
-    "collaborators_data" : "INT",
-    "private_repos" : "INT",
-    "name" : "STRING"
-  },
-  "login" : "STRING",
-  "gravatar_id" : "STRING",
-  "location_data" : "PII_LOCATION_CITY",
-  "events_url" : "URL",
-  "v_followers_url" : "URL",
-  "hireable_data" : "BOOLEAN",
-  "email" : "PII_EMAIL",
-  "id" : "INT",
-  "private_gists" : "INT",
-  "avatar_url" : "URL",
-  "updated_at" : "DATETIME",
-  "v_site_admin" : "BOOLEAN",
-  "gists_url" : "URL",
-  "public_repos" : "INT",
-  "following_url_data" : null,
-  "followers" : "INT",
-  "total_private_repos" : "NULL",
-  "repos_url" : "URL",
-  "following" : "INT",
-  "v_url" : "URL"
+  "data" : {
+    "fetchResource" : {
+      "scopes" : [ "STRING" ],
+      "prefix" : "STRING",
+      "rateLimit" : {
+        "v_requestsPerMinute" : "INT",
+        "conversion_rate" : 8.73,
+        "requestsPerDay" : "INT"
+      },
+      "expiresAt" : "DATETIME",
+      "status" : "",
+      "ipWhitelist" : [ "STRING" ],
+      "name" : "STRING",
+      "lastUsed" : "DATETIME",
+      "apiKeyId" : "STRING",
+      "cache_hit" : false,
+      "createdBy_data" : {
+        "mail" : "PII_EMAIL",
+        "primaryKey" : "STRING"
+      },
+      "created" : "DATETIME"
+    }
+  }
 }

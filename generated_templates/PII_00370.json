@@ -1,5 +1,36 @@
 {
-  "emailAddressStatus" : [ "STRING" ],
-  "auto_renew" : true,
-  "emailAddress" : "PII_EMAIL"
+  "createdAt" : "DATETIME",
+  "auto_renew" : false,
+  "document" : {
+    "expiryDate" : "DATE",
+    "v_type" : "STRING",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "number" : "PII_NATIONAL_ID",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "issuingCountry_data" : "PII_LOCATION_COUNTRY"
+  },
+  "workflowId" : "STRING",
+  "applicant_data" : {
+    "emailAddress" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "nationality_data" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "name_val" : "PII_PERSON_LAST_NAME"
+  },
+  "completedAt" : "DATETIME",
+  "checks" : [ {
+    "checkType" : "STRING",
+    "reason" : "STRING",
+    "priority_level" : 101
+  } ],
+  "reviewedBy" : "PII_EMAIL",
+  "verificationId" : "STRING",
+  "address_data" : {
+    "postalCode" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "street_data" : "PII_ADDRESS_LINE",
+    "country_data" : "PII_LOCATION_COUNTRY"
+  }
 }

@@ -1,74 +1,25 @@
-[ {
-  "parents" : [ {
-    "url" : "URL",
-    "sha" : "STRING",
-    "is_deleted" : false
-  } ],
-  "html_url" : "URL",
-  "author" : {
-    "events_url" : "URL",
-    "login" : "STRING",
-    "avatar_url_data" : "URL",
-    "node_id" : "STRING",
-    "type" : "STRING",
-    "v_subscriptions_url" : "URL",
-    "v_url" : "URL",
-    "primaryKey" : "INT",
-    "received_events_url" : "URL",
-    "v_gists_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "starred_url" : "URL",
-    "following_url_data" : "URL",
-    "http_status" : 2138,
-    "organizations_url" : "URL",
-    "repos_url" : "",
-    "gravatar_id" : "STRING",
-    "html_url" : "URL"
+{
+  "handledBy" : {
+    "email" : "PII_EMAIL",
+    "agentId" : "STRING"
   },
-  "url" : "URL",
-  "committer" : {
-    "id" : "INT",
-    "repos_url" : "URL",
-    "url_data" : "URL",
-    "starred_url" : "URL",
-    "node_id" : "STRING",
-    "events_url" : "URL",
-    "subscriptions_url" : "URL",
-    "following_url" : "",
-    "v_type" : "STRING",
-    "site_admin_data" : "BOOLEAN",
-    "organizations_url" : "URL",
-    "gists_url" : "URL",
-    "followers_url" : "URL",
-    "v_received_events_url" : "URL",
-    "gravatar_id" : "STRING",
-    "avatar_url_data" : "URL"
+  "expiresAt_data" : "DATETIME",
+  "type" : "STRING",
+  "dataSubject_data" : {
+    "email" : "PII_EMAIL",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "id" : "STRING"
   },
-  "node_id" : "STRING",
-  "comments_url" : "URL",
-  "commit_data" : {
-    "message" : "PII_COMPANY_NAME",
-    "comment_count" : "INT",
-    "author" : {
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    },
-    "tree" : {
-      "requires_update" : true,
-      "sha_data" : "STRING",
-      "url" : "URL"
-    },
-    "verification" : {
-      "reason" : "STRING",
-      "stock_quantity" : 3983,
-      "v_payload" : "STRING",
-      "verified_at" : "DATETIME"
-    },
-    "v_committer" : {
-      "mail" : "PII_EMAIL",
-      "v_date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    }
-  }
-} ]
+  "legalBasis" : "STRING",
+  "system_ping_ms" : 1193,
+  "requestedBy" : "PII_EMAIL",
+  "deliveredVia" : "STRING",
+  "v_requestedAt" : "DATETIME",
+  "reportId" : "STRING",
+  "v_downloadUrl" : "URL",
+  "status_data" : "STRING",
+  "dataCategories_data" : [ "STRING" ]
+}

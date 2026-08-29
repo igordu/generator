@@ -1,0 +1,26 @@
+{
+  "correlationId" : "STRING",
+  "eventId" : "STRING",
+  "metadata" : {
+    "offset" : "INT",
+    "auto_renew" : true,
+    "partition" : "INT",
+    "schemaVersion" : "STRING"
+  },
+  "eventType" : "STRING",
+  "version_data" : "STRING",
+  "cache_hit" : true,
+  "producer" : "STRING",
+  "v_occurredAt" : "DATETIME",
+  "payload" : {
+    "ipAddress" : "PII_IP_ADDRESS",
+    "phone" : "PII_PHONE_NUMBER",
+    "country" : "PII_LOCATION_COUNTRY",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "email" : "PII_EMAIL",
+    "userId" : "STRING",
+    "registrationSource" : "STRING"
+  }
+}

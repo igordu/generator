@@ -1,34 +1,30 @@
 {
-  "has_more" : "BOOLEAN",
-  "object" : "STRING",
-  "url" : "URL",
-  "data" : [ {
-    "tax_exempt_data" : "STRING",
-    "invoice_settings" : {
-      "custom_fields" : "NULL",
-      "footer" : "STRING",
-      "default_payment_method" : "STRING",
-      "v_rendering_options" : "NULL"
-    },
-    "preferred_locales" : "ARRAY",
-    "object_data" : "NULL",
-    "created" : "DATETIME_EPOCH",
-    "name" : "PII_PERSON_NAME",
-    "phone" : "PII_PHONE_NUMBER",
-    "v_next_invoice_sequence" : "INT",
-    "v_invoice_prefix" : "NULL",
-    "delinquent" : "BOOLEAN",
-    "description" : "STRING",
-    "address" : "NULL",
-    "currency" : "STRING",
-    "shipping" : "NULL",
-    "metadata" : "OBJECT",
-    "livemode" : "BOOLEAN",
-    "balance_data" : "INT",
-    "id" : "",
-    "test_clock" : "NULL",
-    "default_source_data" : "STRING",
-    "email" : "PII_EMAIL",
-    "temperature_c" : 707.71
-  } ]
+  "channel_data" : "STRING",
+  "direction" : null,
+  "recipient" : {
+    "id" : "STRING",
+    "requires_update" : true,
+    "name" : "STRING",
+    "v_type" : "STRING"
+  },
+  "conversationId" : "STRING",
+  "timestamp" : "DATETIME",
+  "intent_data" : "STRING",
+  "messageId" : "STRING",
+  "v_content" : {
+    "v_type" : "STRING",
+    "text" : "STRING"
+  },
+  "sender" : {
+    "name_val" : "PII_PERSON_NAME",
+    "id" : "STRING",
+    "type" : "STRING",
+    "primary_email" : "PII_EMAIL"
+  },
+  "metadata" : {
+    "userAgent" : "STRING",
+    "uuid" : "STRING",
+    "language" : "STRING"
+  },
+  "sentiment_data" : "STRING"
 }

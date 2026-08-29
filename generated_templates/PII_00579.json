@@ -1,34 +1,50 @@
 {
+  "status" : "success",
+  "code" : 200,
   "data" : {
-    "fetchResource" : {
-      "transactions" : {
-        "booked" : [ {
-          "amount" : {
-            "amount" : "DECIMAL",
-            "is_active" : false
-          },
-          "creditorAccount_data" : {
-            "iban" : "PII_IBAN"
-          },
-          "creditorName" : "PII_PERSON_NAME",
-          "debtorName" : "STRING",
-          "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-          "recordId" : null,
-          "bookingDate" : "DATE",
-          "v_bankTransactionCode" : {
-            "subFamily_data" : "STRING",
-            "family" : "STRING",
-            "stock_quantity" : 1063,
-            "domain" : null
-          },
-          "system_ping_ms" : 1331,
-          "debtorAccount" : {
-            "auto_renew" : true,
-            "iban" : "STRING"
-          },
-          "valueDate_data" : "DATE"
-        } ]
+    "update_time" : "DATETIME",
+    "transactions" : [ {
+      "v_invoice_number" : "STRING",
+      "v_amount" : {
+        "total" : "NULL",
+        "currency" : null
       }
-    }
+    } ],
+    "cart" : "STRING",
+    "create_time" : "DATETIME",
+    "recordId" : "STRING",
+    "state_data" : null,
+    "payer_data" : {
+      "status" : "STRING",
+      "payer_info" : {
+        "shipping_address" : {
+          "recipient_name" : "PII_PERSON_NAME",
+          "city" : "PII_LOCATION_CITY",
+          "state_data" : "STRING",
+          "phone" : "PII_PHONE_NUMBER",
+          "line2" : "STRING",
+          "line1" : "PII_ADDRESS_LINE",
+          "postal_code_data" : "STRING",
+          "country_code" : "PII_LOCATION_COUNTRY"
+        },
+        "country_code" : "STRING",
+        "billing_address" : {
+          "discount_rate" : 98.46,
+          "postal_code" : "STRING",
+          "v_city" : "PII_LOCATION_CITY",
+          "country_code_data" : "PII_LOCATION_COUNTRY",
+          "line1" : "PII_ADDRESS_LINE"
+        },
+        "contactEmail" : "PII_EMAIL",
+        "v_birth_date" : "PII_DATE_OF_BIRTH",
+        "payer_id" : "STRING",
+        "fullName" : "PII_PERSON_LAST_NAME",
+        "phone" : "PII_PHONE_NUMBER",
+        "first_name" : "PII_PERSON_FIRST_NAME"
+      },
+      "response_time_sec" : 3.99,
+      "payment_method" : "STRING"
+    },
+    "intent" : ""
   }
 }

@@ -1,60 +1,28 @@
-[ {
-  "html_url" : "URL",
-  "comments_url_data" : "URL",
-  "node_id" : "STRING",
-  "commit" : {
-    "cpu_usage_percent" : 563.7,
-    "url" : "URL",
-    "verification" : {
-      "payload" : "STRING",
-      "reason" : "STRING",
-      "verified" : "BOOLEAN",
-      "v_verified_at" : "DATETIME",
-      "v_signature" : "STRING"
-    },
-    "author" : {
-      "v_date" : "DATETIME",
-      "mail" : "PII_EMAIL",
-      "userName" : "PII_PERSON_NAME"
-    },
-    "v_message" : "PII_COMPANY_NAME",
-    "v_tree" : {
-      "url" : "URL",
-      "sha_data" : "STRING"
-    },
-    "committer_data" : {
-      "requires_update" : true,
-      "primary_email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    },
-    "comment_count" : "INT"
+{
+  "downloadUrl_data" : "URL",
+  "deliveredVia" : "STRING",
+  "requestedBy" : "PII_EMAIL",
+  "status" : "STRING",
+  "handledBy" : {
+    "agentId" : "",
+    "priority_level" : 1052,
+    "email" : "PII_EMAIL"
   },
-  "v_committer" : {
-    "item_count" : 195,
-    "subscriptions_url" : "URL",
-    "url" : null,
-    "v_followers_url" : "URL",
-    "id" : "INT",
-    "repos_url_data" : "URL",
-    "html_url" : "URL",
-    "node_id" : "STRING",
-    "primaryKey" : "STRING",
-    "login_data" : "STRING",
-    "organizations_url" : "URL",
-    "gists_url" : "URL",
-    "type" : "STRING",
-    "site_admin" : "BOOLEAN",
-    "avatar_url" : "",
-    "received_events_url" : "URL",
-    "events_url_data" : "URL",
-    "starred_url_data" : "URL",
-    "v_following_url" : "URL"
+  "dataSubject" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "id" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "page_index" : 4107,
+    "email" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "fullName" : "PII_PERSON_FIRST_NAME"
   },
-  "url_data" : "URL",
-  "is_active" : false,
-  "parents" : [ {
-    "cache_hit" : false,
-    "sha" : "STRING",
-    "url" : "URL"
-  } ]
-} ]
+  "dataCategories" : [ "STRING" ],
+  "type" : null,
+  "v_legalBasis" : "STRING",
+  "requestedAt" : "DATETIME",
+  "has_discount" : false,
+  "expiresAt" : "DATETIME",
+  "completedAt" : "DATETIME",
+  "recordId" : "STRING"
+}

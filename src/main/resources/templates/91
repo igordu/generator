@@ -1,0 +1,24 @@
+{
+  "eventId": "STRING",
+  "eventType": "STRING",
+  "version": "STRING",
+  "occurredAt": "DATETIME",
+  "producer": "STRING",
+  "correlationId": "STRING",
+  "payload": {
+    "userId": "STRING",
+    "email": "PII_EMAIL",
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "phone": "PII_PHONE_NUMBER",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "country": "PII_LOCATION_COUNTRY",
+    "registrationSource": "STRING",
+    "ipAddress": "PII_IP_ADDRESS"
+  },
+  "metadata": {
+    "schemaVersion": "STRING",
+    "partition": "INT",
+    "offset": "INT"
+  }
+}

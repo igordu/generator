@@ -1,43 +1,38 @@
 {
-  "location" : "PII_LOCATION_CITY",
-  "blog" : "URL",
-  "gists_url" : "URL",
-  "two_factor_authentication" : "BOOLEAN",
-  "updated_at" : "DATETIME",
-  "public_repos" : "INT",
-  "private_gists_data" : "INT",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "email" : "PII_EMAIL",
-  "v_login" : "STRING",
-  "v_disk_usage" : null,
-  "site_admin" : "BOOLEAN",
-  "hireable" : "BOOLEAN",
-  "starred_url" : "URL",
-  "v_owned_private_repos" : "INT",
-  "organizations_url" : "URL",
-  "node_id" : "STRING",
-  "avatar_url" : "URL",
-  "name" : "PII_PERSON_NAME",
-  "following_url" : "URL",
-  "public_gists" : "INT",
-  "repos_url_data" : "URL",
-  "gravatar_id" : "STRING",
-  "v_following" : "INT",
-  "subscriptions_url" : "URL",
-  "collaborators_data" : "INT",
-  "total_private_repos" : "INT",
-  "v_received_events_url" : "URL",
-  "url" : "URL",
-  "followers_url" : "URL",
-  "v_html_url" : "URL",
-  "events_url" : "URL",
-  "type" : "STRING",
-  "company" : "PII_ORGANIZATION_NAME",
-  "v_plan" : {
-    "private_repos_data" : "INT",
-    "collaborators" : "INT",
-    "space" : "INT"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "primaryKey" : "NULL",
-  "created_at" : "DATETIME"
+  "results" : {
+    "auto_renew" : false,
+    "assignedAgent" : {
+      "mail" : "PII_EMAIL",
+      "team" : "STRING",
+      "clientName" : "PII_PERSON_NAME",
+      "cache_hit" : false,
+      "id" : "STRING"
+    },
+    "id" : "STRING",
+    "subject" : "STRING",
+    "createdAt" : "DATETIME",
+    "messages" : [ {
+      "name_val" : "PII_PERSON_NAME",
+      "createdAt" : "DATETIME",
+      "authorType_data" : "STRING",
+      "id" : "STRING",
+      "body" : "STRING"
+    } ],
+    "status" : "NULL",
+    "priority" : "STRING",
+    "category_data" : "STRING",
+    "tags" : [ "STRING" ],
+    "customer" : {
+      "email" : "PII_EMAIL",
+      "phone" : "PII_PHONE_NUMBER",
+      "recordId" : "STRING",
+      "name" : "PII_PERSON_NAME",
+      "accountId" : "STRING"
+    },
+    "v_updatedAt" : "NULL"
+  }
 }

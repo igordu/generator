@@ -1,13 +1,27 @@
 {
-  "v_tree" : {
-    "sha" : "STRING",
-    "url" : "URL"
+  "likes" : "INT",
+  "requires_update" : false,
+  "spaceKey" : "STRING",
+  "title" : "STRING",
+  "uuid" : "STRING",
+  "ancestors" : [ {
+    "uuid" : "STRING",
+    "title" : "STRING"
+  } ],
+  "status" : "STRING",
+  "viewCount" : "INT",
+  "createdAt" : "DATETIME",
+  "version" : null,
+  "labels" : [ "STRING" ],
+  "lastModifiedBy" : {
+    "stock_quantity" : 958,
+    "accountId" : "STRING",
+    "name_val" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
   },
-  "user_info" : {
-    "clientName" : "PII_LAST_NAME_MALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "retry_attempts" : 3947
+  "author" : {
+    "primary_email" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME"
   },
-  "active_data" : "BOOLEAN"
+  "updatedAt" : "DATETIME"
 }

@@ -1,18 +1,29 @@
 {
-  "name" : "STRING",
-  "media" : {
-    "images" : [ {
-      "mediumUrl_data" : "URL",
-      "type" : "STRING",
-      "thumbnailHdUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "smallUrl" : "URL",
-      "orderNumber" : "INT",
-      "mediumHdUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "largeUrl" : "URL"
+  "data" : {
+    "fetchResource" : [ {
+      "key" : "STRING",
+      "insight" : {
+        "page_index" : 4233,
+        "totalIssueCount" : "INT"
+      },
+      "projectCategory" : {
+        "description" : "STRING",
+        "name" : "STRING",
+        "id" : "STRING",
+        "self" : "URL"
+      },
+      "simplified" : "BOOLEAN",
+      "name" : "STRING",
+      "style" : "STRING",
+      "id" : "STRING",
+      "self" : "URL",
+      "http_status" : 146,
+      "avatarUrls" : {
+        "v_48x48" : "URL",
+        "16x16" : "URL",
+        "24x24" : "URL",
+        "32x32" : "URL"
+      }
     } ]
-  },
-  "temperature_c" : 918.38,
-  "shopUrl" : "URL"
+  }
 }

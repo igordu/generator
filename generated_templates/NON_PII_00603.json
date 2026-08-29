@@ -1,4 +1,18 @@
 {
-  "emailAddress" : [ "STRING" ],
-  "item_count" : 3501
+  "sizeGb" : "DECIMAL",
+  "v_retentionDays" : "INT",
+  "cluster" : "STRING",
+  "primaryKey" : "STRING",
+  "tags" : {
+    "team" : "STRING",
+    "price" : 9853.45,
+    "environment" : "STRING"
+  },
+  "startedAt" : "DATETIME",
+  "type" : "STRING",
+  "database" : "STRING",
+  "snapshotId" : "STRING",
+  "completedAt" : "DATETIME",
+  "v_region" : "STRING",
+  "status" : "STRING"
 }

@@ -1,14 +1,36 @@
 {
-  "metadata" : "OBJECT",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "object" : "STRING",
-  "system_ping_ms" : 4949,
-  "account_type" : "STRING",
-  "last4_data" : "STRING",
-  "customer_data" : "STRING",
-  "account_holder_type" : "STRING",
-  "fullName" : "STRING",
-  "country" : "STRING",
-  "status" : "STRING",
-  "fingerprint" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "is_active" : true,
+    "totalFare" : {
+      "currency" : "STRING"
+    },
+    "ticketNumber" : "STRING",
+    "bookingRef_data" : "STRING",
+    "fareClass_data" : "STRING",
+    "passenger" : {
+      "mobile" : "PII_PHONE_NUMBER",
+      "mail" : "PII_EMAIL",
+      "passportNumber" : "PII_NATIONAL_ID",
+      "frequentFlyerNumber_data" : "STRING",
+      "temperature_c" : -1.63,
+      "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "title" : "",
+      "fullName" : "PII_PERSON_FIRST_NAME",
+      "nationality" : "PII_LOCATION_COUNTRY",
+      "name_val" : "PII_PERSON_LAST_NAME",
+      "passportExpiry_data" : "DATE"
+    },
+    "v_itinerary" : [ {
+      "seat" : "STRING",
+      "v_segment" : "INT",
+      "arrivalAt" : "DATETIME",
+      "departureAt" : "DATETIME",
+      "cabin_data" : "STRING",
+      "status" : "STRING",
+      "destination_data" : "STRING",
+      "v_flightNumber" : "STRING"
+    } ]
+  }
 }

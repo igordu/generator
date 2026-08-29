@@ -1,0 +1,23 @@
+{
+  "object": "STRING",
+  "id": "STRING",
+  "customer": "STRING",
+  "status": "STRING",
+  "current_period_start": "DATETIME_EPOCH",
+  "current_period_end": "DATETIME_EPOCH",
+  "plan": {
+    "id": "STRING",
+    "object": "STRING",
+    "amount": "INT",
+    "currency": "STRING",
+    "interval": "STRING",
+    "product": "STRING"
+  },
+  "metadata": {
+    "order_id": "STRING",
+    "account_manager": "PII_EMAIL"
+  },
+  "trial_end": "NULL",
+  "cancel_at_period_end": "BOOLEAN",
+  "livemode": "BOOLEAN"
+}

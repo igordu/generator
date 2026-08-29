@@ -1,23 +1,34 @@
 {
-  "transactions_data" : {
-    "booked" : [ {
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "transactionId" : "STRING",
-      "bookingDate" : "DATE",
-      "debtorName" : null,
-      "valueDate" : "DATE",
-      "creditorName" : "PII_PERSON_NAME",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN",
-        "system_ping_ms" : 2707
-      },
-      "debtorAccount" : {
-        "stock_quantity" : 4175
-      },
-      "amount" : {
-        "currency_data" : "STRING"
-      }
-    } ],
-    "priority_level" : 2633
+  "note" : "STRING",
+  "orders_count" : "INT",
+  "response_time_sec" : 26.13,
+  "state" : "STRING",
+  "last_order_id" : "INT",
+  "updated_at" : "DATETIME",
+  "emailAddress" : "PII_EMAIL",
+  "total_spent_data" : "DECIMAL",
+  "verified_email" : "BOOLEAN",
+  "currency_data" : "STRING",
+  "id" : "INT",
+  "first_name" : "PII_PERSON_FIRST_NAME",
+  "last_name" : "PII_PERSON_LAST_NAME",
+  "tags" : "STRING",
+  "telephone" : "PII_PHONE_NUMBER",
+  "default_address_data" : {
+    "province_code_data" : "STRING",
+    "zip" : "STRING",
+    "company" : "PII_COMPANY_NAME",
+    "v_province" : "STRING",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "name" : "PII_PERSON_NAME",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "address2_data" : null,
+    "default" : "BOOLEAN",
+    "address1" : "PII_ADDRESS_LINE",
+    "country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "item_count" : 3993,
+    "customer_id" : "INT",
+    "phone" : "PII_PHONE_NUMBER"
   }
 }

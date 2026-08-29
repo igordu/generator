@@ -2,17 +2,37 @@
   "status" : "success",
   "code" : 200,
   "data" : {
-    "active" : "BOOLEAN",
-    "v_user_info" : {
-      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-      "has_discount" : false,
-      "arline__name" : "PII_COMPANY_NAME",
-      "fullName" : "PII_LAST_NAME_MALE"
+    "contracts" : [ {
+      "value" : "DECIMAL",
+      "contractId" : "STRING",
+      "startDate" : "",
+      "currency_data" : "STRING",
+      "v_product" : "STRING",
+      "http_status" : 991,
+      "endDate" : "DATE"
+    } ],
+    "annualRevenue_data" : "INT",
+    "v_csm" : {
+      "email" : "PII_EMAIL",
+      "id" : "STRING",
+      "name" : "PII_PERSON_NAME"
     },
-    "auto_renew" : true,
-    "tree" : {
-      "system_ping_ms" : 1049,
-      "sha" : "STRING"
-    }
+    "v_employees" : "INT",
+    "billingAddress" : {
+      "city" : "PII_LOCATION_CITY",
+      "postalCode" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE"
+    },
+    "type" : "STRING",
+    "primaryContact_data" : {
+      "phone" : "PII_PHONE_NUMBER",
+      "title" : "STRING",
+      "name" : "PII_PERSON_NAME",
+      "mail" : "PII_EMAIL",
+      "conversion_rate" : 6.6
+    },
+    "industry" : "STRING",
+    "name" : "PII_COMPANY_NAME"
   }
 }

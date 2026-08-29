@@ -1,30 +1,31 @@
 {
-  "url" : "URL",
-  "data_data" : [ {
-    "v_delinquent" : "BOOLEAN",
-    "preferred_locales" : "ARRAY",
-    "balance" : "INT",
-    "v_invoice_settings" : {
-      "rendering_options" : "NULL",
-      "v_default_payment_method" : "STRING",
-      "discount_rate" : 461.32,
-      "footer" : "STRING",
-      "custom_fields" : "NULL"
-    },
-    "tax_exempt" : "STRING",
-    "shipping" : "NULL",
-    "address" : "NULL",
-    "default_source" : "STRING",
-    "created_data" : "DATETIME_EPOCH",
-    "name" : "PII_PERSON_NAME",
-    "identifier" : "STRING",
-    "v_invoice_prefix" : "STRING",
-    "telephone" : "PII_PHONE_NUMBER",
-    "metadata" : "OBJECT",
-    "description" : "STRING",
-    "email" : "PII_EMAIL",
+  "fraudScore" : "INT",
+  "amount" : {
     "currency" : "STRING",
-    "object" : "STRING",
-    "livemode" : "BOOLEAN"
-  } ]
+    "value" : "INT"
+  },
+  "transactionId" : "STRING",
+  "type_data" : "STRING",
+  "v_status" : "STRING",
+  "billing" : {
+    "city" : "PII_LOCATION_CITY",
+    "address" : "PII_ADDRESS_LINE",
+    "country" : "PII_LOCATION_COUNTRY",
+    "postalCode" : "NULL"
+  },
+  "card" : {
+    "issuingBank_data" : "PII_COMPANY_NAME",
+    "scheme" : "STRING",
+    "expiryMonth" : "STRING",
+    "pan_data" : "PII_CREDIT_CARD",
+    "cardholderName" : "PII_PERSON_NAME",
+    "issuingCountry" : "PII_LOCATION_COUNTRY"
+  },
+  "merchant" : {
+    "uuid" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "name" : "PII_COMPANY_NAME",
+    "categoryCode" : "STRING"
+  },
+  "timestamp" : "DATETIME"
 }

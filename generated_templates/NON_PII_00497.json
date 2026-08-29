@@ -1,9 +1,25 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "v_clientToken" : "STRING",
-      "flowName" : "STRING",
-      "conversion_rate" : 388.92
-    }
-  }
+  "summary" : {
+    "info_data" : "INT",
+    "high_data" : "INT",
+    "critical" : "INT",
+    "low" : "INT",
+    "response_time_sec" : 2.87,
+    "medium" : "INT"
+  },
+  "findings" : [ {
+    "cwe" : "STRING",
+    "type" : "STRING",
+    "severity" : "STRING",
+    "uuid" : "STRING",
+    "remediation" : "STRING",
+    "conversion_rate" : 0.45,
+    "cvss" : "DECIMAL",
+    "endpoint" : "STRING"
+  } ],
+  "status" : "STRING",
+  "startedAt_data" : "DATETIME",
+  "scanId" : "STRING",
+  "scanType_data" : "STRING",
+  "target" : "URL"
 }

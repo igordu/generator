@@ -1,0 +1,32 @@
+{
+  "transactionId": "STRING",
+  "timestamp": "DATETIME",
+  "type": "STRING",
+  "status": "STRING",
+  "card": {
+    "pan": "PII_CREDIT_CARD",
+    "cardholderName": "PII_PERSON_NAME",
+    "expiryMonth": "STRING",
+    "expiryYear": "STRING",
+    "scheme": "STRING",
+    "issuingBank": "PII_COMPANY_NAME",
+    "issuingCountry": "PII_LOCATION_COUNTRY"
+  },
+  "amount": {
+    "value": "INT",
+    "currency": "STRING"
+  },
+  "merchant": {
+    "id": "STRING",
+    "name": "PII_COMPANY_NAME",
+    "categoryCode": "STRING",
+    "country": "PII_LOCATION_COUNTRY"
+  },
+  "billing": {
+    "address": "PII_ADDRESS_LINE",
+    "city": "PII_LOCATION_CITY",
+    "postalCode": "STRING",
+    "country": "PII_LOCATION_COUNTRY"
+  },
+  "fraudScore": "INT"
+}

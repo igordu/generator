@@ -1,27 +1,48 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "transactions" : {
-      "booked" : [ {
-        "name_val" : "STRING",
-        "bookingDate" : "NULL",
-        "uuid" : "STRING",
-        "bankTransactionCode" : {
-          "family" : "STRING"
-        },
-        "creditorAccount" : {
-          "system_ping_ms" : 1861,
-          "iban" : "PII_IBAN"
-        },
-        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-        "v_debtorAccount" : {
-          "iban" : "STRING",
-          "is_deleted" : true
-        },
-        "creditorName" : "PII_PERSON_NAME",
-        "valueDate" : "DATE"
-      } ]
-    }
-  }
+  "create_time" : "DATETIME",
+  "cart" : "STRING",
+  "state" : "STRING",
+  "payer" : {
+    "payment_method" : "STRING",
+    "payer_info" : {
+      "birth_date" : "PII_DATE_OF_BIRTH",
+      "telephone" : "PII_PHONE_NUMBER",
+      "userName" : "PII_PERSON_LAST_NAME",
+      "email" : "PII_EMAIL",
+      "country_code" : "STRING",
+      "shipping_address" : {
+        "city" : "PII_LOCATION_CITY",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "line2" : "STRING",
+        "fullName" : "PII_PERSON_NAME",
+        "v_line1" : "PII_ADDRESS_LINE",
+        "phone" : "PII_PHONE_NUMBER",
+        "state" : "STRING",
+        "postal_code" : "STRING"
+      },
+      "recordId" : "STRING",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "billing_address" : {
+        "state_data" : "NULL",
+        "postal_code" : "STRING",
+        "country_code_data" : "PII_LOCATION_COUNTRY",
+        "v_city" : "PII_LOCATION_CITY",
+        "v_line1" : "PII_ADDRESS_LINE"
+      }
+    },
+    "has_discount" : true,
+    "status_data" : "STRING"
+  },
+  "intent" : "STRING",
+  "update_time" : "DATETIME",
+  "id" : "STRING",
+  "transactions" : [ {
+    "amount" : {
+      "total" : "DECIMAL",
+      "http_status" : 4502,
+      "currency" : "STRING"
+    },
+    "description" : "STRING",
+    "invoice_number" : "NULL"
+  } ]
 }

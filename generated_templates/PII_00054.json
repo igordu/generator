@@ -1,20 +1,80 @@
 {
-  "content" : [ {
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "primaryKey" : "STRING",
-    "articleSizeRatings" : {
-      "price" : 414.11,
-      "v_OVERALL" : "INT",
-      "SHOE_WIDTH" : "INT"
+  "prev" : null,
+  "limit" : "INT",
+  "next_data" : "STRING",
+  "transactions_data" : [ {
+    "references_data" : [ {
+      "referenceType" : "STRING",
+      "referenceId" : "STRING"
+    } ],
+    "transactionId" : "STRING",
+    "price" : 7973.55,
+    "payoutId" : "STRING",
+    "buyer" : {
+      "username" : "PII_USERNAME"
     },
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "auto_renew" : false,
-    "rating" : "INT",
-    "created" : "DATETIME",
-    "description_data" : "STRING",
-    "v_language" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "unhelpfulCount" : "INT",
-    "articleId" : "STRING"
-  } ]
+    "v_feeType" : "STRING",
+    "totalFeeBasisAmount" : {
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "is_deleted" : true,
+      "convertedFromValue" : "STRING",
+      "value" : "STRING"
+    },
+    "eBayCollectedTaxAmount" : {
+      "currency" : "STRING",
+      "exchangeRate_data" : "",
+      "convertedFromValue" : "STRING",
+      "v_value" : "STRING"
+    },
+    "v_transactionDate" : "DATETIME",
+    "orderId" : "STRING",
+    "transactionStatus" : "STRING",
+    "salesRecordReference_data" : "STRING",
+    "totalFeeAmount" : {
+      "exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency_data" : "STRING",
+      "value" : "STRING",
+      "currency_data" : "STRING"
+    },
+    "v_orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "feeMemo" : "STRING",
+        "feeType" : "STRING",
+        "feeJurisdiction" : { },
+        "amount" : {
+          "convertedFromCurrency" : "STRING",
+          "currency" : "STRING",
+          "exchangeRate_data" : "STRING",
+          "value" : "STRING",
+          "convertedFromValue_data" : "STRING"
+        },
+        "priority_level" : 4105
+      } ],
+      "feeBasisAmount" : {
+        "convertedFromValue" : "STRING",
+        "http_status" : 3599,
+        "currency_data" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate" : "STRING"
+      },
+      "lineItemId" : "STRING"
+    } ],
+    "paymentsEntity_data" : "STRING",
+    "v_amount" : {
+      "currency" : "STRING",
+      "value" : "STRING",
+      "stock_quantity" : 4069,
+      "v_convertedFromCurrency" : "STRING",
+      "v_exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "transactionType_data" : "STRING"
+  } ],
+  "href" : "",
+  "total" : "INT",
+  "offset" : "INT"
 }

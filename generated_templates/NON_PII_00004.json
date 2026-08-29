@@ -1,15 +1,14 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "numberOfUserReviews" : "INT",
-    "v_starRatingDistribution" : {
-      "3" : "INT",
-      "1" : "INT",
-      "4_data" : "INT",
-      "2" : "INT"
-    },
-    "numberOfUserRecommendations" : "INT",
-    "priority_level" : 1945
-  }
+  "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserReviews" : "INT",
+  "averageStarRating" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "starRatingDistribution" : {
+    "v_2" : "INT",
+    "5" : null,
+    "4_data" : "INT",
+    "1" : "INT",
+    "3" : null
+  },
+  "articleModelId" : "STRING"
 }

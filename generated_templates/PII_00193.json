@@ -1,67 +1,36 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "meta" : {
+    "lastUpdated_data" : "DATETIME",
+    "versionId" : "INT",
+    "cache_hit" : false
   },
-  "results" : {
-    "uuid" : "STRING",
-    "is_active" : true,
-    "accountType" : "STRING",
-    "primaryKey" : {
-      "secondaryPhone" : {
-        "telephone" : "STRING",
-        "cpu_usage_percent" : 843.04,
-        "countryCode" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      },
-      "email" : "PII_EMAIL",
-      "firstName" : "PII_PERSON_NAME",
-      "primaryPhone" : {
-        "cell" : "STRING",
-        "number" : "PII_PHONE_NUMBER",
-        "countryCode" : "STRING"
-      },
-      "price" : 740.86,
-      "registrationAddress" : {
-        "city" : "NULL",
-        "county_data" : "STRING",
-        "country" : "STRING",
-        "postalCode" : "STRING",
-        "stateOrProvince" : "STRING",
-        "addressLine2" : "STRING"
-      },
-      "name_val" : "PII_PERSON_NAME"
-    },
-    "businessAccount" : {
-      "website" : "URL",
-      "v_address" : {
-        "postalCode" : "STRING",
-        "addressLine2" : "STRING",
-        "county_data" : "STRING",
-        "v_city" : "STRING",
-        "priority_level" : 1889,
-        "v_country" : "STRING"
-      },
-      "mobile" : {
-        "number" : "PII_PHONE_NUMBER",
-        "countryCode_data" : "STRING",
-        "requires_update" : false,
-        "phoneType" : "STRING"
-      },
-      "telephone" : {
-        "phoneType" : "STRING",
-        "countryCode" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      },
-      "is_deleted" : true,
-      "primaryContact_data" : {
-        "lastName" : "PII_PERSON_NAME",
-        "firstName" : "PII_PERSON_NAME"
-      },
-      "email" : "PII_EMAIL",
-      "clientName" : "PII_ORGANIZATION_NAME"
-    },
-    "userId" : "STRING",
-    "username" : "PII_USERNAME"
-  }
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "resourceType" : "STRING",
+  "id" : "STRING",
+  "gender_data" : "STRING",
+  "identifier" : [ {
+    "value_data" : "PII_NATIONAL_ID",
+    "system" : "URL",
+    "use" : "STRING"
+  } ],
+  "telecom" : [ {
+    "cpu_usage_percent" : 94.12,
+    "system" : "STRING",
+    "v_use" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  }, {
+    "value" : "PII_EMAIL",
+    "system_data" : "STRING"
+  } ],
+  "address" : [ {
+    "city" : "PII_LOCATION_CITY",
+    "use" : "STRING",
+    "v_line" : [ "PII_ADDRESS_LINE" ],
+    "country_data" : "PII_LOCATION_COUNTRY"
+  } ],
+  "clientName" : [ {
+    "use_data" : "NULL",
+    "family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ]
 }

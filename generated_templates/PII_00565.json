@@ -1,30 +1,50 @@
 {
-  "cpu_usage_percent" : 501.75,
-  "transactions" : {
-    "stock_quantity" : 3724,
-    "booked" : [ {
-      "amount" : {
-        "amount" : "DECIMAL",
-        "currency_data" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "v_payer" : {
+      "discount_rate" : 85.81,
+      "v_payment_method" : "STRING",
+      "payer_info" : {
+        "country_code_data" : "STRING",
+        "phone" : "PII_PHONE_NUMBER",
+        "last_name" : "PII_PERSON_LAST_NAME",
+        "v_billing_address" : {
+          "line1" : "PII_ADDRESS_LINE",
+          "city_data" : "PII_LOCATION_CITY",
+          "auto_renew" : false,
+          "v_postal_code" : "",
+          "state_data" : "STRING",
+          "country_code_data" : "PII_LOCATION_COUNTRY"
+        },
+        "shipping_address" : {
+          "state" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "recipient_name" : "PII_PERSON_NAME",
+          "postal_code" : "NULL",
+          "line1" : "PII_ADDRESS_LINE",
+          "country_code" : "PII_LOCATION_COUNTRY",
+          "phone" : "PII_PHONE_NUMBER"
+        },
+        "payer_id" : "STRING",
+        "birth_date" : "PII_DATE_OF_BIRTH",
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "email" : "PII_EMAIL"
       },
-      "creditorAccount" : {
-        "iban" : "PII_IBAN",
-        "system_ping_ms" : 1742
-      },
-      "creditorName" : "PII_PERSON_NAME",
-      "requires_update" : true,
-      "bookingDate" : "DATE",
-      "valueDate" : "DATE",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "family" : "STRING"
-      },
-      "debtorAccount" : {
-        "iban" : "STRING",
-        "price" : 289.56
-      },
-      "debtorName" : "STRING"
+      "v_status" : "STRING"
+    },
+    "update_time" : "DATETIME",
+    "state_data" : "STRING",
+    "create_time" : "DATETIME",
+    "id" : "STRING",
+    "cart" : "STRING",
+    "v_intent" : "STRING",
+    "transactions" : [ {
+      "description" : "STRING",
+      "amount_data" : {
+        "total" : "DECIMAL",
+        "currency" : "STRING"
+      }
     } ]
   }
 }

@@ -1,65 +1,15 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "discount_rate" : 589.99,
-      "accountType_data" : "STRING",
-      "businessAccount" : {
-        "telephone" : {
-          "mobile" : "STRING",
-          "v_number" : "PII_PHONE_NUMBER",
-          "cache_hit" : false
-        },
-        "name" : "PII_ORGANIZATION_NAME",
-        "primary_email" : "PII_EMAIL",
-        "website" : "URL",
-        "secondaryPhone" : {
-          "number" : "PII_PHONE_NUMBER",
-          "countryCode_data" : "STRING",
-          "phoneType" : "STRING"
-        },
-        "address" : {
-          "auto_renew" : false,
-          "v_addressLine2" : "STRING",
-          "city" : "STRING",
-          "county_data" : "STRING",
-          "country" : "STRING",
-          "stateOrProvince" : "STRING"
-        },
-        "v_doingBusinessAs" : "STRING",
-        "v_primaryContact" : {
-          "lastName" : "PII_PERSON_NAME",
-          "fullName" : "PII_PERSON_NAME"
-        }
-      },
-      "registrationMarketplaceId" : "STRING",
-      "individualAccount" : {
-        "registrationAddress" : {
-          "city" : "STRING",
-          "postalCode" : "STRING",
-          "addressLine1" : "STRING",
-          "v_stateOrProvince" : "STRING",
-          "v_county" : "STRING",
-          "addressLine2" : "STRING",
-          "country" : "STRING"
-        },
-        "secondaryPhone" : {
-          "countryCode" : "STRING",
-          "cell" : "STRING",
-          "cache_hit" : false,
-          "v_number" : "PII_PHONE_NUMBER"
-        },
-        "firstName" : "PII_PERSON_NAME",
-        "name_val" : "PII_PERSON_NAME",
-        "primaryPhone" : {
-          "number" : "PII_PHONE_NUMBER",
-          "v_countryCode" : "STRING",
-          "phoneType" : "STRING"
-        },
-        "contactEmail" : "PII_EMAIL"
-      },
-      "userName" : "PII_USERNAME",
-      "status" : "STRING",
-      "userId" : "STRING"
-    }
-  }
+  "v_uri" : "URL",
+  "direction" : "STRING",
+  "body" : "PII_FREE_TEXT",
+  "sid" : "STRING",
+  "price" : "DECIMAL",
+  "account_sid" : "STRING",
+  "status" : "STRING",
+  "v_date_sent" : "DATETIME",
+  "num_segments" : "INT",
+  "date_created" : "DATETIME",
+  "to" : "PII_PHONE_NUMBER",
+  "v_from" : "PII_PHONE_NUMBER",
+  "price_unit" : "STRING"
 }

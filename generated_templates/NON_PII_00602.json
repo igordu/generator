@@ -1,10 +1,20 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "contactEmail" : [ "STRING" ],
-    "retry_attempts" : 1606
-  }
+  "v_description" : "STRING",
+  "v_enabled" : "BOOLEAN",
+  "uuid" : "STRING",
+  "v_updatedAt" : "DATETIME",
+  "v_createdAt" : "DATETIME",
+  "v_actions" : [ {
+    "type" : "STRING",
+    "config" : {
+      "keyBy" : "STRING",
+      "responseCode" : "INT",
+      "v_responseMessage" : "STRING",
+      "requestsPerMinute" : "INT"
+    },
+    "http_status" : 2469
+  } ],
+  "createdBy" : "NULL",
+  "name_val" : "STRING",
+  "priority" : "INT"
 }

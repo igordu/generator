@@ -1,15 +1,39 @@
 {
-  "bank_name" : "STRING",
-  "account_holder_type" : "STRING",
-  "fingerprint" : "STRING",
-  "requires_update" : false,
-  "id" : "STRING",
-  "customer" : "STRING",
-  "account_type" : "STRING",
-  "last4" : "STRING",
-  "v_metadata" : "OBJECT",
-  "routing_number" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
+  "position" : {
+    "location" : "PII_LOCATION_CITY",
+    "jobId" : "STRING",
+    "department" : "STRING",
+    "title" : "STRING",
+    "system_ping_ms" : 1091
+  },
   "status" : "STRING",
-  "currency" : "STRING"
+  "updatedAt" : "DATETIME",
+  "candidateId" : "STRING",
+  "candidate" : {
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "linkedIn" : "URL",
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "country" : "PII_LOCATION_COUNTRY",
+      "postalCode_data" : "STRING",
+      "city" : "PII_LOCATION_CITY"
+    },
+    "priority_level" : 4908,
+    "emailAddress" : "PII_EMAIL",
+    "resumeUrl_data" : "URL",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "source" : "STRING",
+  "v_interviews" : [ {
+    "interviewer" : {
+      "emailAddress" : "PII_EMAIL",
+      "name_val" : "PII_PERSON_NAME"
+    },
+    "scheduledAt_data" : "DATETIME",
+    "type_data" : "STRING",
+    "round" : "INT"
+  } ],
+  "appliedAt" : "DATETIME"
 }

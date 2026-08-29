@@ -1,41 +1,18 @@
-[ {
-  "v_self" : "URL",
-  "v_simplified" : "BOOLEAN",
-  "projectCategory" : {
-    "id" : "STRING",
-    "v_description" : "STRING",
-    "self" : "URL"
+{
+  "metadata" : {
+    "recordId" : "STRING",
+    "primaryKey" : "STRING"
   },
-  "avatarUrls" : {
-    "24x24" : "URL",
-    "conversion_rate" : 793.75,
-    "16x16" : "URL",
-    "32x32" : "URL"
+  "chatId" : "STRING",
+  "v_createdAt" : "",
+  "v_model" : "STRING",
+  "usage" : {
+    "inputTokens_data" : "INT",
+    "outputTokens_data" : "INT"
   },
-  "insight_data" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "style" : "STRING",
-  "clientName" : "STRING",
-  "key" : "STRING",
-  "id" : "STRING"
-}, {
-  "avatarUrls_data" : {
-    "24x24_data" : "URL",
-    "32x32" : "URL",
-    "v_16x16" : "URL"
-  },
-  "projectCategory" : {
-    "id" : "NULL",
-    "name" : "STRING",
-    "self" : "URL",
-    "v_description" : "STRING"
-  },
-  "style" : "NULL",
-  "simplified" : "BOOLEAN",
-  "name" : "STRING",
-  "self" : "URL",
-  "id" : "STRING",
-  "key_data" : "STRING"
-} ]
+  "v_messages" : [ {
+    "timestamp" : "DATETIME",
+    "content" : "STRING",
+    "role" : "STRING"
+  } ]
+}

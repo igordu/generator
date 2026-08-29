@@ -1,18 +1,19 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "articleModelId" : null,
-    "starRatingDistribution_data" : {
-      "1" : "INT",
-      "http_status" : 2321,
-      "3_data" : "INT",
-      "4_data" : "INT",
-      "5" : "INT",
-      "v_2" : "INT"
-    },
-    "averageStarRating" : "INT",
-    "numberOfUserReviews" : "INT",
-    "numberOfUserRecommendations" : "INT"
-  }
+  "media" : {
+    "images_data" : [ {
+      "v_largeUrl" : "URL",
+      "stock_quantity" : 4237,
+      "thumbnailHdUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "smallUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "orderNumber" : null,
+      "mediumUrl" : "URL"
+    } ],
+    "auto_renew" : true
+  },
+  "shopUrl" : "URL",
+  "modelId" : "STRING",
+  "name" : "STRING",
+  "id" : "STRING"
 }

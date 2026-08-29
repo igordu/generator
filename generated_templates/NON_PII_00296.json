@@ -1,42 +1,17 @@
-[ {
-  "temperature_c" : 750.72,
-  "facets" : [ {
-    "key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "is_active" : true,
-    "count" : "INT",
-    "key" : "STRING"
+{
+  "model_data" : "STRING",
+  "content" : [ {
+    "priority_level" : 1965,
+    "v_text" : "STRING",
+    "type" : "STRING"
   } ],
-  "filter" : "STRING"
-}, {
-  "v_filter" : "STRING",
-  "v_facets" : [ {
-    "key_data" : "STRING",
-    "displayName" : "STRING",
-    "cache_hit" : false
-  }, {
-    "fullName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "key" : "STRING",
-    "count" : "INT",
-    "page_index" : 3266
-  } ],
-  "is_deleted" : false
-}, {
-  "facets" : [ {
-    "temperature_c" : 293.38,
-    "displayName" : "STRING",
-    "count" : "INT"
-  }, {
-    "count" : "INT",
-    "key_data" : "STRING"
-  }, {
-    "key" : "STRING",
-    "displayName" : "STRING"
-  } ],
-  "filter" : "STRING"
-} ]
+  "usage" : {
+    "v_output_tokens" : "NULL",
+    "discount_rate" : 50.23
+  },
+  "id" : "STRING",
+  "v_stop_reason" : "STRING",
+  "role" : "STRING",
+  "type" : "STRING",
+  "temperature_c" : 22.11
+}

@@ -1,52 +1,33 @@
 {
-  "individualAccount" : {
-    "registrationAddress" : {
-      "addressLine1" : "STRING",
-      "country" : "STRING",
-      "county" : "STRING",
-      "city_data" : "STRING",
-      "postalCode" : "STRING",
-      "stateOrProvince" : "STRING",
-      "v_addressLine2" : "NULL"
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "number_data" : "PII_PHONE_NUMBER"
-    },
-    "email" : "PII_EMAIL",
-    "primaryPhone" : {
-      "countryCode_data" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "cell" : "STRING"
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "auto_renew" : false
+  "personalizations" : [ {
+    "to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "v_subject" : "STRING"
+  } ],
+  "from" : {
+    "name" : "PII_PERSON_NAME",
+    "stock_quantity" : 3582,
+    "email" : "PII_EMAIL"
   },
-  "username" : "PII_USERNAME",
-  "retry_attempts" : 4855,
-  "businessAccount" : {
-    "telephone" : {
-      "v_countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "is_active" : false,
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "address" : {
-      "country" : "STRING",
-      "postalCode" : "STRING",
-      "addressLine1" : "STRING",
-      "addressLine2" : "STRING"
-    },
-    "v_website" : "URL",
-    "email" : "PII_EMAIL",
-    "v_doingBusinessAs" : null
+  "v_mail_settings" : {
+    "http_status" : 2731,
+    "sandbox_mode" : {
+      "enable" : "BOOLEAN"
+    }
   },
-  "status" : "STRING",
-  "accountType" : "STRING",
-  "identifier" : "STRING"
+  "categories" : [ "STRING" ],
+  "batch_id" : "STRING",
+  "http_status" : 361,
+  "content" : [ {
+    "retry_attempts" : 4370,
+    "type" : "STRING",
+    "value" : "PII_FREE_TEXT"
+  } ],
+  "send_at" : "DATETIME_EPOCH",
+  "reply_to" : {
+    "cache_hit" : false,
+    "emailAddress" : "PII_EMAIL"
+  }
 }

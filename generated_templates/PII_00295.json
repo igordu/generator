@@ -1,70 +1,33 @@
 {
-  "transactions" : [ {
-    "feeType" : "STRING",
-    "references" : [ {
-      "referenceType_data" : "STRING"
-    } ],
-    "paymentsEntity" : "STRING",
-    "totalFeeBasisAmount" : {
-      "currency" : "STRING",
-      "response_time_sec" : 572.69,
-      "convertedFromCurrency" : "STRING",
-      "v_exchangeRate" : "STRING",
-      "value" : "STRING"
-    },
-    "transactionStatus" : "STRING",
-    "orderLineItems" : [ {
-      "feeBasisAmount" : {
-        "convertedFromCurrency" : "",
-        "stock_quantity" : 590,
-        "value" : "STRING",
-        "exchangeRate" : "STRING",
-        "convertedFromValue_data" : "STRING",
-        "currency" : "STRING"
-      },
-      "lineItemId" : "STRING"
-    } ],
-    "v_buyer" : {
-      "is_active" : false,
-      "username" : "PII_USERNAME"
-    },
-    "transactionType_data" : "STRING",
-    "totalFeeAmount" : {
-      "v_currency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "value" : "STRING",
-      "exchangeRate" : "STRING"
-    },
-    "v_transactionDate" : "DATETIME",
-    "bookingEntry" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "page_index" : 131,
-      "currency_data" : "STRING",
-      "v_value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue_data" : "STRING",
-      "exchangeRate" : ""
-    },
-    "amount" : {
-      "convertedFromValue" : "STRING",
-      "currency" : "STRING",
-      "value" : "STRING",
-      "exchangeRate" : "STRING",
-      "convertedFromCurrency" : "STRING"
-    },
-    "v_salesRecordReference" : "STRING",
-    "orderId" : "STRING",
-    "feeJurisdiction" : {
-      "regionType" : "STRING",
-      "priority_level" : 4918,
-      "regionName" : "STRING"
-    },
+  "url" : "URL",
+  "data" : [ {
+    "created" : "DATETIME_EPOCH",
+    "livemode" : "BOOLEAN",
+    "balance" : "INT",
+    "next_invoice_sequence" : "INT",
+    "object" : "STRING",
+    "delinquent_data" : "BOOLEAN",
+    "shipping_data" : "NULL",
+    "name" : "PII_PERSON_NAME",
+    "v_invoice_prefix" : "STRING",
+    "metadata" : "OBJECT",
+    "v_default_source" : "STRING",
+    "description" : "STRING",
     "recordId" : "STRING",
-    "payoutId" : "STRING"
+    "invoice_settings" : {
+      "custom_fields" : "NULL",
+      "default_payment_method_data" : "STRING",
+      "price" : 7956.49,
+      "rendering_options" : "NULL"
+    },
+    "phone" : "PII_PHONE_NUMBER",
+    "preferred_locales_data" : "ARRAY",
+    "email" : "PII_EMAIL",
+    "is_deleted" : false,
+    "test_clock" : "NULL",
+    "tax_exempt" : "STRING",
+    "v_currency" : "STRING",
+    "address_data" : "NULL"
   } ],
-  "next" : "STRING",
-  "prev_data" : "STRING",
-  "offset" : "INT",
-  "v_href" : "STRING",
-  "total" : "INT"
+  "object" : "STRING"
 }

@@ -1,11 +1,35 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "id" : "STRING",
-    "shopUrl" : "URL",
-    "discount_rate" : 535.97,
-    "modelId" : "STRING",
-    "fullName" : "STRING"
+  "productId" : "STRING",
+  "name" : "STRING",
+  "v_category" : "STRING",
+  "createdAt_data" : "DATETIME",
+  "http_status" : 4057,
+  "status" : "STRING",
+  "images" : [ {
+    "v_isPrimary" : "BOOLEAN",
+    "url" : "URL"
+  } ],
+  "sku_data" : "STRING",
+  "pricing" : {
+    "basePrice" : "DECIMAL",
+    "salePrice" : "DECIMAL",
+    "currency_data" : "STRING",
+    "taxClass" : "STRING"
+  },
+  "inventory" : {
+    "v_availableStock" : "INT",
+    "backorderAllowed_data" : "BOOLEAN",
+    "totalStock" : "INT",
+    "lowStockThreshold_data" : "INT",
+    "stock_quantity" : 4973
+  },
+  "updatedAt" : "DATETIME",
+  "brand_data" : "STRING",
+  "attributes" : {
+    "weight_g" : "INT",
+    "connectivity" : "STRING",
+    "noiseCancel" : "BOOLEAN",
+    "foldable" : "BOOLEAN",
+    "color" : "STRING"
   }
 }

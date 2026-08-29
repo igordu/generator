@@ -1,5 +1,18 @@
 {
-  "userName" : "STRING",
-  "v_clientToken" : "STRING",
-  "priority_level" : 1938
+  "fullName" : "STRING",
+  "receiveCount" : "INT",
+  "firstReceivedAt" : "DATETIME",
+  "uuid" : "STRING",
+  "body" : {
+    "errorCode" : "STRING",
+    "errorMessage" : "STRING"
+  },
+  "lastReceivedAt_data" : "DATETIME",
+  "movedToDlqAt_data" : "DATETIME",
+  "discount_rate" : 77.34,
+  "v_attributes" : {
+    "retryPolicy" : "STRING",
+    "contentType_data" : "STRING"
+  },
+  "originalQueue" : "STRING"
 }

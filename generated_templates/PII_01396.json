@@ -1,0 +1,26 @@
+{
+  "lastModifiedBy" : {
+    "accountId" : "STRING",
+    "emailAddress" : "PII_EMAIL",
+    "response_time_sec" : 25.27,
+    "displayName" : "PII_PERSON_NAME"
+  },
+  "ancestors" : [ {
+    "title_data" : "STRING",
+    "id" : "STRING"
+  } ],
+  "author" : {
+    "displayName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "accountId" : "STRING"
+  },
+  "v_labels" : [ "STRING" ],
+  "v_updatedAt" : "DATETIME",
+  "pageId" : "STRING",
+  "title" : "STRING",
+  "viewCount" : "INT",
+  "spaceKey" : "",
+  "v_likes" : "INT",
+  "status" : "STRING",
+  "createdAt_data" : "DATETIME"
+}

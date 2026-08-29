@@ -1,0 +1,31 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "eventId" : "STRING",
+    "payload" : {
+      "page_index" : 2076,
+      "email" : "PII_EMAIL",
+      "registrationSource" : "STRING",
+      "clientName" : "PII_PERSON_LAST_NAME",
+      "country" : "PII_LOCATION_COUNTRY",
+      "telephone" : "PII_PHONE_NUMBER",
+      "userId" : "STRING",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "v_ipAddress" : "PII_IP_ADDRESS"
+    },
+    "eventType" : "NULL",
+    "occurredAt" : "DATETIME",
+    "correlationId" : "",
+    "producer" : "STRING",
+    "version" : "STRING",
+    "metadata" : {
+      "v_partition" : "INT",
+      "schemaVersion" : "STRING",
+      "temperature_c" : -13.67
+    }
+  }
+}

@@ -1,5 +1,24 @@
 {
-  "id" : "STRING",
-  "fullName" : "STRING",
-  "shopUrl" : "URL"
+  "discount_rate" : 53.61,
+  "retention_policy" : "STRING",
+  "anonymized" : "BOOLEAN",
+  "export_id" : "STRING",
+  "ticket" : {
+    "id" : "INT",
+    "subject_data" : "STRING",
+    "created_at" : "DATETIME",
+    "description" : "TEXT",
+    "status" : "STRING",
+    "requester" : {
+      "email" : "[MASKED]",
+      "name" : "REDACTED",
+      "phone" : "***-***-****",
+      "cpu_usage_percent" : 18.72
+    },
+    "satisfaction_rating_data" : {
+      "v_score" : "STRING",
+      "v_comment" : "TEXT"
+    }
+  },
+  "gdpr_erasure_applied" : "BOOLEAN"
 }

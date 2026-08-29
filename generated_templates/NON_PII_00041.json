@@ -1,16 +1,39 @@
 {
-  "averageStarRating" : "INT",
-  "starRatingDistribution" : {
-    "2" : "INT",
-    "3" : "INT",
-    "4" : "INT",
-    "item_count" : 635,
-    "5" : "INT",
-    "1" : "INT"
-  },
-  "articleModelId" : "STRING",
-  "numberOfUserReviews" : "",
-  "is_active" : true,
-  "numberOfUserPositiveRecommendations" : "INT",
-  "numberOfUserRecommendations" : "INT"
+  "data" : {
+    "fetchResource" : [ {
+      "facets" : [ {
+        "displayName" : "STRING",
+        "key_data" : "STRING",
+        "count_data" : "INT"
+      }, {
+        "response_time_sec" : 2.43,
+        "count" : "INT",
+        "displayName" : "",
+        "key" : "STRING"
+      }, {
+        "displayName" : "STRING",
+        "count" : "INT",
+        "key" : "STRING",
+        "discount_rate" : 37.04
+      } ],
+      "retry_attempts" : 136,
+      "filter" : "STRING"
+    }, {
+      "cache_hit" : false,
+      "facets" : [ {
+        "count" : "NULL",
+        "displayName" : "STRING",
+        "key" : "STRING"
+      }, {
+        "v_key" : "STRING",
+        "clientName" : "STRING",
+        "is_active" : true,
+        "count" : "NULL"
+      } ],
+      "filter" : "STRING"
+    }, {
+      "system_ping_ms" : 1648,
+      "filter_data" : "STRING"
+    } ]
+  }
 }

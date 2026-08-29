@@ -1,63 +1,35 @@
 {
-  "registrationMarketplaceId" : "STRING",
-  "status_data" : "STRING",
-  "username" : "PII_USERNAME",
-  "individualAccount" : {
-    "lastName" : "PII_PERSON_NAME",
-    "price" : 763.75,
-    "v_registrationAddress" : {
-      "country" : "",
-      "stateOrProvince" : "STRING",
-      "city_data" : "STRING",
-      "addressLine2" : "STRING",
-      "addressLine1" : "STRING",
-      "postalCode" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "open" : "NULL",
+    "conversation_parts" : [ {
+      "created_at" : "DATETIME_EPOCH",
+      "body_data" : "PII_FREE_TEXT",
+      "part_type" : "STRING",
+      "author" : {
+        "type" : "STRING",
+        "name" : "PII_PERSON_NAME"
+      }
+    } ],
+    "type" : "",
+    "created_at" : "NULL",
+    "source" : {
+      "v_author" : {
+        "id" : "STRING",
+        "type" : "STRING",
+        "mail" : "PII_EMAIL",
+        "fullName" : "PII_PERSON_NAME"
+      },
+      "body" : "PII_FREE_TEXT",
+      "delivered_as" : "STRING",
+      "type" : "NULL",
+      "discount_rate" : 12.92,
+      "subject" : "STRING"
     },
-    "cell" : {
-      "telephone" : "STRING",
-      "countryCode_data" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "email" : "PII_EMAIL"
-  },
-  "businessAccount" : {
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "v_address" : {
-      "stateOrProvince" : "STRING",
-      "v_addressLine1" : "STRING",
-      "v_country" : "STRING",
-      "cpu_usage_percent" : 52.43,
-      "city" : "STRING",
-      "v_county" : "STRING",
-      "postalCode" : "STRING"
-    },
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "cell" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "page_index" : 2562
-    },
-    "doingBusinessAs" : "STRING",
-    "temperature_c" : 111.57,
-    "name_val" : "PII_ORGANIZATION_NAME",
-    "email" : "PII_EMAIL",
-    "website" : "URL",
-    "contactNumber" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "response_time_sec" : 620.52,
-      "v_countryCode" : "STRING"
-    }
-  },
-  "userId" : "STRING",
-  "http_status" : 4018
+    "id" : "STRING",
+    "read_data" : "BOOLEAN",
+    "state_data" : "STRING",
+    "priority_data" : "NULL"
+  }
 }

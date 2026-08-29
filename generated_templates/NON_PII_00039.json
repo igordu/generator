@@ -1,16 +1,22 @@
 {
-  "numberOfUserReviews_data" : "INT",
-  "starRatingDistribution" : {
-    "1" : "INT",
-    "5" : "INT",
-    "v_3" : "INT",
-    "2" : "INT",
-    "4" : "INT",
-    "is_active" : true
-  },
-  "numberOfUserPositiveRecommendations" : "INT",
-  "averageStarRating" : "INT",
-  "articleModelId" : "STRING",
-  "numberOfUserRecommendations" : "INT",
-  "requires_update" : true
+  "data" : {
+    "fetchResource" : {
+      "media_data" : {
+        "v_images" : [ {
+          "mediumHdUrl" : "URL",
+          "smallUrl" : "URL",
+          "largeHdUrl_data" : "URL",
+          "type" : "STRING",
+          "mediumUrl_data" : "URL",
+          "v_orderNumber" : "INT",
+          "v_thumbnailHdUrl" : "URL",
+          "v_largeUrl" : "URL"
+        } ]
+      },
+      "v_shopUrl" : "URL",
+      "id" : "STRING",
+      "userName" : "STRING",
+      "modelId" : "STRING"
+    }
+  }
 }

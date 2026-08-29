@@ -1,33 +1,25 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "transactionId" : "STRING",
-      "auto_renew" : false,
-      "bookingDate" : "DATE",
-      "creditorName" : "PII_PERSON_NAME",
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "v_domain" : "STRING",
-        "family_data" : ""
-      },
-      "amount" : {
-        "currency" : "STRING",
-        "is_deleted" : true,
-        "v_amount" : "DECIMAL"
-      },
-      "debtorAccount" : {
-        "conversion_rate" : 412.29,
-        "v_iban" : "NULL"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "creditorAccount" : {
-        "has_discount" : true,
-        "iban" : "PII_IBAN"
-      },
-      "debtorName" : "STRING",
-      "valueDate" : "DATE"
-    } ],
-    "price" : 175.43
-  },
-  "requires_update" : true
+  "v_num_associated_deals" : "INT",
+  "v_jobtitle" : "STRING",
+  "primaryKey" : "STRING",
+  "auto_renew" : false,
+  "createdate" : "DATETIME",
+  "lifecyclestage" : "STRING",
+  "email" : "PII_EMAIL",
+  "city" : "PII_LOCATION_CITY",
+  "clientName" : "PII_PERSON_LAST_NAME",
+  "company" : "PII_COMPANY_NAME",
+  "zip_data" : "STRING",
+  "hs_email_optout" : "BOOLEAN",
+  "website" : "NULL",
+  "v_notes_last_contacted" : "DATETIME",
+  "v_country" : "PII_LOCATION_COUNTRY",
+  "lastmodifieddate_data" : "DATETIME",
+  "state_data" : "STRING",
+  "address_data" : "PII_ADDRESS_LINE",
+  "firstName" : "PII_PERSON_FIRST_NAME",
+  "mobilephone" : "PII_PHONE_NUMBER",
+  "contactNumber" : "PII_PHONE_NUMBER",
+  "hs_lead_status" : "STRING",
+  "department_data" : "STRING"
 }

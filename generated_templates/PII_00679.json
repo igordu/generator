@@ -1,38 +1,78 @@
 {
-  "userName" : "STRING",
-  "response_time_sec" : 517.44,
-  "DateTimeUTC" : "DATETIME",
-  "Employees" : [ {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "item_count" : 2589,
-      "v_Description" : "STRING",
-      "v_Url" : "URL"
+  "Personal_Data" : {
+    "Contact_Data" : {
+      "Email_Address_Data" : [ {
+        "Email_Address" : "PII_EMAIL"
+      } ],
+      "Address_Data" : [ {
+        "Municipality" : "PII_LOCATION_CITY",
+        "cpu_usage_percent" : 47.45,
+        "v_Address_Line_Data" : [ {
+          "priority_level" : 1258,
+          "v_Type" : "STRING",
+          "content" : "PII_ADDRESS_LINE"
+        } ],
+        "Postal_Code" : "STRING",
+        "Country_Reference" : {
+          "price" : 2907.57,
+          "ISO_3166_1_Alpha_2_Code_data" : "PII_LOCATION_COUNTRY"
+        },
+        "Usage_Data_data" : {
+          "item_count" : 4958,
+          "Type_Data" : [ {
+            "Type_Reference" : {
+              "identifier" : ""
+            },
+            "auto_renew" : false
+          } ]
+        }
+      } ],
+      "Phone_Data" : [ {
+        "item_count" : 565,
+        "Phone_Device_Type_Reference" : {
+          "WID" : "STRING"
+        },
+        "Phone_Number" : "PII_PHONE_NUMBER"
+      } ]
     },
-    "Status" : "STRING",
-    "identifier" : "STRING"
-  }, {
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "v_ExternalLink" : {
-      "Description" : "STRING",
-      "Url_data" : "URL"
+    "Identification_Data" : {
+      "temperature_c" : -3.51,
+      "Birth_Date" : "PII_DATE_OF_BIRTH",
+      "National_ID_Data" : [ {
+        "National_ID_Type_Reference" : {
+          "WID" : ""
+        },
+        "National_ID" : "PII_NATIONAL_ID",
+        "v_Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code_data" : "PII_LOCATION_COUNTRY"
+        }
+      } ]
     },
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
     "auto_renew" : true,
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING",
-    "Status" : "STRING",
-    "ExternalLink_data" : {
-      "system_ping_ms" : 1755,
-      "Description" : ""
+    "name_val" : {
+      "Legal_Name_Data" : {
+        "userName" : {
+          "Last_Name" : "PII_PERSON_LAST_NAME",
+          "userName" : "PII_PERSON_FIRST_NAME",
+          "Middle_Name" : "PII_PERSON_FIRST_NAME",
+          "system_ping_ms" : 1592
+        }
+      },
+      "stock_quantity" : 2707
     }
-  } ],
-  "Status_data" : "STRING",
-  "Id" : "STRING"
+  },
+  "Worker_ID" : "",
+  "Employment_Data" : {
+    "stock_quantity" : 2416,
+    "Worker_Job_Data" : {
+      "is_active" : true,
+      "Position_Data" : {
+        "Business_Title_data" : "STRING",
+        "Position_ID" : "NULL",
+        "Job_Title" : "STRING",
+        "Start_Date" : "DATE",
+        "has_discount" : true
+      }
+    }
+  }
 }

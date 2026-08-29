@@ -1,25 +1,30 @@
 {
-  "object_data" : "STRING",
-  "v_data" : [ {
-    "metadata" : null,
-    "currency" : "STRING",
-    "test_clock" : "NULL",
-    "recordId" : "STRING",
-    "next_invoice_sequence" : "INT",
-    "address" : "NULL",
-    "name" : "PII_PERSON_NAME",
-    "shipping" : "NULL",
-    "v_object" : "STRING",
-    "v_preferred_locales" : "ARRAY",
-    "description" : "STRING",
-    "default_source" : "STRING",
-    "invoice_prefix" : "STRING",
-    "mobile" : "PII_PHONE_NUMBER",
-    "is_deleted" : false,
-    "tax_exempt" : "STRING",
-    "v_delinquent" : "NULL",
+  "identifier" : "DATE",
+  "v_policyNumber" : "",
+  "v_description" : "STRING",
+  "claimType" : "STRING",
+  "status" : "STRING",
+  "reportedDate" : "DATE",
+  "adjuster" : {
     "email" : "PII_EMAIL",
-    "balance" : "INT",
-    "created" : "DATETIME_EPOCH"
-  } ]
+    "stock_quantity" : 39,
+    "id" : "STRING",
+    "name" : "PII_PERSON_NAME"
+  },
+  "v_currency" : "STRING",
+  "policyHolder" : {
+    "contactEmail" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "address" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "zip" : "STRING",
+      "street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "state" : "STRING"
+    },
+    "phone" : "PII_PHONE_NUMBER",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH"
+  },
+  "uuid" : "STRING"
 }

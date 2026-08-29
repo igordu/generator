@@ -1,30 +1,34 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "fullName" : "PII_PERSON_NAME",
-      "amount" : {
-        "currency" : "STRING",
-        "v_amount" : "NULL"
-      },
-      "debtorAccount" : {
-        "auto_renew" : true,
-        "iban" : "STRING"
-      },
-      "transactionId" : "STRING",
-      "is_active" : false,
-      "debtorName" : "STRING",
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "domain" : "STRING",
-        "family" : "STRING"
-      },
-      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN",
-        "price" : 785.49
-      },
-      "valueDate" : null,
-      "bookingDate" : "NULL"
-    } ]
-  }
+  "accepts_marketing" : "BOOLEAN",
+  "currency" : "STRING",
+  "identifier" : "INT",
+  "last_name" : "PII_PERSON_LAST_NAME",
+  "last_order_id" : "INT",
+  "default_address" : {
+    "zip" : "STRING",
+    "address2" : "STRING",
+    "address1" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "province_code" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "country_code" : "STRING",
+    "company" : "PII_COMPANY_NAME",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "clientName" : "PII_PERSON_NAME",
+    "province" : "STRING",
+    "recordId" : "INT",
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "note" : "STRING",
+  "first_name" : "PII_PERSON_FIRST_NAME",
+  "orders_count" : "INT",
+  "page_index" : 4330,
+  "verified_email" : "BOOLEAN",
+  "state" : "STRING",
+  "primary_email" : "PII_EMAIL",
+  "created_at" : "DATETIME",
+  "phone" : "PII_PHONE_NUMBER",
+  "total_spent_data" : "DECIMAL",
+  "tags" : "STRING"
 }

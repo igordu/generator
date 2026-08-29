@@ -1,0 +1,33 @@
+{
+  "id": "STRING",
+  "status": "STRING",
+  "created_at": "DATETIME",
+  "updated_at": "DATETIME",
+  "currency": "STRING",
+  "total_amount": "INT",
+  "customer": {
+    "id": "STRING",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "name": "PII_PERSON_NAME"
+  },
+  "shipping_address": {
+    "first_name": "PII_PERSON_FIRST_NAME",
+    "last_name": "PII_PERSON_LAST_NAME",
+    "address_1": "PII_ADDRESS_LINE",
+    "city": "PII_LOCATION_CITY",
+    "province_code": "STRING",
+    "country_code": "PII_LOCATION_COUNTRY",
+    "zip": "STRING"
+  },
+  "line_items": [
+    {
+      "id": "STRING",
+      "title": "STRING",
+      "quantity": "INT",
+      "unit_price": "INT",
+      "total": "INT"
+    }
+  ],
+  "payment_status": "STRING"
+}

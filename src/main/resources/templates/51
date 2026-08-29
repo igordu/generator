@@ -1,0 +1,30 @@
+{
+  "claimId": "STRING",
+  "policyNumber": "STRING",
+  "policyHolder": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "address": {
+      "street": "PII_ADDRESS_LINE",
+      "city": "PII_LOCATION_CITY",
+      "state": "STRING",
+      "zip": "STRING",
+      "country": "PII_LOCATION_COUNTRY"
+    }
+  },
+  "claimType": "STRING",
+  "incidentDate": "DATE",
+  "reportedDate": "DATE",
+  "description": "STRING",
+  "estimatedLoss": "DECIMAL",
+  "currency": "STRING",
+  "status": "STRING",
+  "adjuster": {
+    "id": "STRING",
+    "name": "PII_PERSON_NAME",
+    "email": "PII_EMAIL"
+  }
+}

@@ -1,18 +1,37 @@
 {
-  "name" : "STRING",
-  "identifier" : "STRING",
-  "media" : {
-    "images_data" : [ {
-      "v_orderNumber" : "INT",
-      "price" : 219.4,
-      "mediumUrl_data" : "URL",
-      "smallHdUrl" : "URL",
-      "smallUrl" : "URL",
-      "type" : "STRING",
-      "largeHdUrl_data" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "mediumHdUrl" : "URL"
-    } ]
+  "attributes" : {
+    "foldable_data" : "BOOLEAN",
+    "color" : "STRING",
+    "weight_g" : "INT",
+    "item_count" : 4719,
+    "noiseCancel" : "BOOLEAN",
+    "batteryLifeHours" : "INT"
   },
-  "v_shopUrl" : "URL"
+  "inventory" : {
+    "backorderAllowed" : "BOOLEAN",
+    "availableStock" : "INT",
+    "cache_hit" : false,
+    "v_totalStock" : "INT",
+    "lowStockThreshold" : "INT"
+  },
+  "category" : "STRING",
+  "brand" : "STRING",
+  "sku_data" : "STRING",
+  "name" : "STRING",
+  "images" : [ {
+    "url_data" : "URL",
+    "response_time_sec" : 17.96,
+    "isPrimary" : "BOOLEAN"
+  } ],
+  "productId" : "STRING",
+  "pricing" : {
+    "taxClass" : "STRING",
+    "v_basePrice" : "DECIMAL",
+    "currency" : "STRING",
+    "salePrice" : "DECIMAL"
+  },
+  "createdAt_data" : "DATETIME",
+  "status" : "STRING",
+  "response_time_sec" : 24.07,
+  "updatedAt" : "DATETIME"
 }

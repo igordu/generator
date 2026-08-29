@@ -1,0 +1,30 @@
+{
+  "incident": {
+    "id": "STRING",
+    "incident_number": "INT",
+    "title": "STRING",
+    "description": "TEXT",
+    "status": "STRING",
+    "urgency": "STRING",
+    "service": {
+      "id": "STRING",
+      "summary": "STRING"
+    },
+    "created_at": "DATETIME",
+    "resolved_at": "DATETIME",
+    "notes": [
+      {
+        "id": "STRING",
+        "content": "TEXT",
+        "created_at": "DATETIME"
+      }
+    ],
+    "runbook_url": "URL",
+    "escalation_policy": "STRING",
+    "alert_counts": {
+      "all": "INT",
+      "triggered": "INT",
+      "resolved": "INT"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "Worker_ID": "STRING",
+  "Personal_Data": {
+    "Name_Data": {
+      "Legal_Name_Data": {
+        "Name_Detail_Data": {
+          "First_Name": "PII_PERSON_FIRST_NAME",
+          "Last_Name": "PII_PERSON_LAST_NAME",
+          "Middle_Name": "PII_PERSON_FIRST_NAME"
+        }
+      }
+    },
+    "Contact_Data": {
+      "Address_Data": [
+        {
+          "Country_Reference": {
+            "ISO_3166_1_Alpha_2_Code": "PII_LOCATION_COUNTRY"
+          },
+          "Address_Line_Data": [
+            {
+              "Type": "STRING",
+              "content": "PII_ADDRESS_LINE"
+            }
+          ],
+          "Municipality": "PII_LOCATION_CITY",
+          "Postal_Code": "STRING",
+          "Usage_Data": {
+            "Type_Data": [
+              {
+                "Type_Reference": {
+                  "WID": "STRING"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "Phone_Data": [
+        {
+          "Phone_Number": "PII_PHONE_NUMBER",
+          "Phone_Device_Type_Reference": {
+            "WID": "STRING"
+          }
+        }
+      ],
+      "Email_Address_Data": [
+        {
+          "Email_Address": "PII_EMAIL"
+        }
+      ]
+    },
+    "Identification_Data": {
+      "National_ID_Data": [
+        {
+          "National_ID": "PII_NATIONAL_ID",
+          "National_ID_Type_Reference": {
+            "WID": "STRING"
+          },
+          "Country_Reference": {
+            "ISO_3166_1_Alpha_2_Code": "PII_LOCATION_COUNTRY"
+          }
+        }
+      ],
+      "Birth_Date": "PII_DATE_OF_BIRTH"
+    }
+  },
+  "Employment_Data": {
+    "Worker_Job_Data": {
+      "Position_Data": {
+        "Position_ID": "STRING",
+        "Job_Title": "STRING",
+        "Business_Title": "STRING",
+        "Start_Date": "DATE"
+      }
+    }
+  }
+}

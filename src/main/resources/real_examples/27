@@ -1,0 +1,45 @@
+{
+  "id": "00u1a2b3c4d5e6f7g8h9",
+  "status": "ACTIVE",
+  "created": "2022-03-15T12:00:00.000Z",
+  "activated": "2022-03-15T12:05:00.000Z",
+  "lastLogin": "2024-05-10T08:30:00.000Z",
+  "lastUpdated": "2024-04-01T10:00:00.000Z",
+  "passwordChanged": "2024-01-01T00:00:00.000Z",
+  "type": {
+    "id": "oty1a2b3c4d5e6f7g8h9"
+  },
+  "profile": {
+    "firstName": "Emily",
+    "lastName": "Carter",
+    "mobilePhone": "+1-650-555-0193",
+    "secondEmail": "emily.carter.backup@example.com",
+    "login": "emily.carter@company.com",
+    "email": "emily.carter@company.com",
+    "department": "Finance",
+    "title": "Financial Analyst",
+    "employeeNumber": "EMP-00421",
+    "streetAddress": "500 Oracle Pkwy",
+    "city": "Redwood City",
+    "state": "CA",
+    "zipCode": "94065",
+    "countryCode": "US",
+    "displayName": "Emily Carter",
+    "organization": "Acme Corp"
+  },
+  "credentials": {
+    "password": {},
+    "recovery_question": {
+      "question": "What is the name of your first pet?"
+    },
+    "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://company.okta.com/api/v1/users/00u1a2b3c4d5e6f7g8h9"
+    }
+  }
+}

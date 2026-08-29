@@ -1,14 +1,19 @@
 {
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "priority_level" : 2589,
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  "ipAddress" : "PII_IP_ADDRESS",
+  "userId" : "STRING",
+  "issuedTokens" : {
+    "idToken" : "NULL",
+    "accessToken" : "STRING",
+    "refreshToken" : "STRING"
   },
-  "active" : "BOOLEAN",
-  "temperature_c" : 231.82,
-  "v_tree" : {
-    "sha" : "STRING",
-    "url" : "URL"
-  }
+  "mfaMethod" : "STRING",
+  "revoked" : "BOOLEAN",
+  "uuid" : "STRING",
+  "mfaVerified" : "BOOLEAN",
+  "email" : "PII_EMAIL",
+  "lastActivityAt" : "DATETIME",
+  "riskScore_data" : "DECIMAL",
+  "userAgent" : "STRING",
+  "identifier" : "STRING",
+  "stock_quantity" : 3693
 }

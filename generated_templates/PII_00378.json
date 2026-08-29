@@ -1,5 +1,35 @@
 {
-  "conversion_rate" : 153.31,
-  "emailAddressStatus" : [ "STRING" ],
-  "emailAddress" : "PII_EMAIL"
+  "checks" : [ {
+    "checkType" : "STRING",
+    "result" : "STRING",
+    "reason" : null
+  } ],
+  "reviewedBy" : "PII_EMAIL",
+  "workflowId" : "STRING",
+  "riskScore" : "INT",
+  "v_address" : {
+    "postalCode" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "street_data" : "PII_ADDRESS_LINE"
+  },
+  "primaryKey" : "STRING",
+  "v_applicant" : {
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "phone" : "PII_PHONE_NUMBER",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "temperature_c" : 43.29,
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "completedAt" : "DATETIME",
+  "document" : {
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "v_issuingCountry" : "PII_LOCATION_COUNTRY",
+    "number" : "PII_NATIONAL_ID",
+    "v_type" : "STRING",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "expiryDate" : "DATE"
+  },
+  "createdAt_data" : "DATETIME"
 }

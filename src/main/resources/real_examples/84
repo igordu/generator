@@ -1,0 +1,33 @@
+{
+  "repositoryId": "repo-00821",
+  "name": "backend-api",
+  "fullName": "acme-corp/backend-api",
+  "private": true,
+  "language": "Java",
+  "defaultBranch": "main",
+  "pullRequest": {
+    "id": 482,
+    "title": "feat: add GDPR consent API",
+    "state": "open",
+    "author": {
+      "login": "dev.lead",
+      "email": "dev.lead@acme-corp.com",
+      "name": "Alex Rivera"
+    },
+    "reviewers": [
+      {
+        "login": "security.eng",
+        "email": "security@acme-corp.com",
+        "name": "Pat Kim",
+        "state": "CHANGES_REQUESTED"
+      }
+    ],
+    "headBranch": "feat/gdpr-consent-api",
+    "baseBranch": "main",
+    "createdAt": "2024-04-08T10:00:00Z",
+    "updatedAt": "2024-04-10T14:00:00Z",
+    "additions": 482,
+    "deletions": 31,
+    "changedFiles": 12
+  }
+}

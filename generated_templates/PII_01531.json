@@ -1,0 +1,25 @@
+{
+  "triggers" : [ "STRING" ],
+  "fullName" : "STRING",
+  "type" : "STRING",
+  "createdAt" : "NULL",
+  "provider" : "STRING",
+  "item_count" : 2808,
+  "integrationId" : "STRING",
+  "config" : {
+    "retry_attempts" : 3284,
+    "mentionOnError" : "STRING",
+    "channel" : "STRING"
+  },
+  "updatedAt" : "DATETIME",
+  "createdBy_data" : {
+    "userId" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "v_stats" : {
+    "v_totalDeliveries" : "INT",
+    "successRate" : "DECIMAL"
+  },
+  "lastTriggeredAt" : "DATETIME",
+  "status" : "STRING"
+}

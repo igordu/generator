@@ -1,133 +1,17 @@
 {
-  "description_data" : "STRING",
-  "v_sourceFlowConfig" : {
-    "connectorProfileName" : "STRING",
-    "apiVersion_data" : "STRING",
-    "http_status" : 540,
-    "v_incrementalPullConfig" : {
-      "datetimeTypeFieldName" : "STRING",
-      "temperature_c" : 313.73
-    },
-    "v_sourceConnectorProperties" : {
-      "Datadog" : {
-        "object" : "STRING",
-        "discount_rate" : 419.03
-      },
-      "InforNexus_data" : {
-        "requires_update" : true,
-        "v_object" : "STRING"
-      },
-      "Salesforce" : {
-        "object" : "STRING",
-        "enableDynamicFieldUpdate" : "BOOLEAN",
-        "includeDeletedRecords" : "BOOLEAN",
-        "price" : 969.87,
-        "dataTransferApi_data" : "STRING"
-      },
-      "GoogleAnalytics" : {
-        "object" : "STRING",
-        "priority_level" : 1228
-      },
-      "Singular" : {
-        "object" : "STRING",
-        "retry_attempts" : 743
-      },
-      "v_Trendmicro" : {
-        "object" : "STRING"
-      },
-      "CustomConnector" : {
-        "entityName" : "STRING"
-      },
-      "S3" : {
-        "bucketPrefix" : "STRING",
-        "auto_renew" : false,
-        "bucketName" : "STRING"
-      },
-      "v_Amplitude" : {
-        "object" : "STRING"
-      },
-      "Zendesk" : { },
-      "v_Slack" : {
-        "object" : "STRING",
-        "auto_renew" : true
-      },
-      "Veeva" : {
-        "includeAllVersions" : "BOOLEAN",
-        "object" : "STRING",
-        "price" : 125.67,
-        "v_includeRenditions" : "BOOLEAN",
-        "includeSourceFiles" : "BOOLEAN"
-      },
-      "ServiceNow_data" : {
-        "object" : "STRING"
-      },
-      "Pardot" : {
-        "object_data" : "STRING"
-      },
-      "v_SAPOData" : {
-        "v_objectPath" : "STRING",
-        "item_count" : 1957
-      }
-    },
-    "connectorType" : ""
-  },
-  "kmsArn_data" : "STRING",
-  "metadataCatalogConfig" : {
-    "glueDataCatalog" : {
-      "tablePrefix" : "STRING",
-      "userName" : "STRING"
-    },
-    "response_time_sec" : 217.36
-  },
-  "response_time_sec" : 6.03,
-  "tags" : {
-    "property2" : "STRING"
-  },
-  "v_clientToken" : "STRING",
-  "v_triggerConfig" : {
-    "triggerProperties" : {
-      "Scheduled" : {
-        "scheduleOffset" : "INT",
-        "v_dataPullMode" : "STRING",
-        "v_firstExecutionFrom" : "DATETIME",
-        "v_flowErrorDeactivationThreshold" : "INT",
-        "timezone" : "STRING",
-        "v_scheduleEndTime" : "DATETIME",
-        "scheduleStartTime" : "DATETIME",
-        "scheduleExpression" : "STRING"
-      },
-      "cache_hit" : true
-    },
-    "triggerType" : "STRING"
-  },
-  "userName" : "STRING",
-  "tasks_data" : [ {
-    "connectorOperator" : {
-      "Salesforce_data" : "STRING",
-      "InforNexus" : "STRING",
-      "Marketo" : "STRING",
-      "Trendmicro" : "STRING",
-      "Dynatrace" : "STRING",
-      "page_index" : 2977,
-      "CustomConnector_data" : "STRING",
-      "Amplitude" : "STRING",
-      "Zendesk" : "STRING",
-      "Singular" : "STRING",
-      "ServiceNow_data" : "STRING",
-      "Pardot_data" : null,
-      "S3" : "STRING",
-      "Datadog" : "STRING",
-      "GoogleAnalytics_data" : "STRING",
-      "SAPOData_data" : "STRING",
-      "Slack" : "STRING"
-    },
-    "price" : 447.86,
-    "taskType" : "STRING",
-    "destinationField" : "STRING",
-    "taskProperties" : {
-      "discount_rate" : 263.69,
-      "property1" : "STRING",
-      "v_property2" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "rollbackAvailable" : "BOOLEAN",
+      "checksum" : "STRING",
+      "v_executionTimeMs" : "INT",
+      "statementsExecuted" : "INT",
+      "database_data" : "",
+      "version" : "STRING",
+      "name" : "STRING",
+      "schema" : "STRING",
+      "v_appliedAt" : "DATETIME",
+      "requires_update" : false,
+      "recordId" : "STRING"
     }
-  } ]
+  }
 }

@@ -1,43 +1,39 @@
-[ {
-  "style" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime_data" : "DATETIME"
-  },
-  "clientName" : "STRING",
-  "key_data" : "STRING",
-  "id" : "STRING",
-  "self" : "URL",
-  "avatarUrls_data" : {
-    "v_24x24" : "URL",
-    "48x48" : "URL",
-    "has_discount" : false,
-    "v_32x32" : "URL"
-  },
-  "simplified" : "BOOLEAN",
-  "v_projectCategory" : {
-    "name" : "STRING",
-    "recordId" : "STRING",
-    "self" : "URL",
-    "is_deleted" : true,
-    "description" : "STRING"
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "serviceId" : "STRING",
+    "metrics" : {
+      "p999LatencyMs" : "INT",
+      "is_deleted" : true,
+      "p95LatencyMs_data" : "INT",
+      "requestCount_data" : "INT",
+      "throughputRps_data" : "DECIMAL",
+      "errorCount" : "INT",
+      "v_errorRate" : "DECIMAL",
+      "p99LatencyMs" : "INT"
+    },
+    "period" : "STRING",
+    "endpoint" : "STRING",
+    "statusCodes" : {
+      "404" : "INT",
+      "page_index" : 4397,
+      "500" : "INT",
+      "200" : "INT",
+      "429" : "INT"
+    },
+    "retry_attempts" : 803,
+    "topErrors" : [ {
+      "count" : "INT",
+      "code" : "STRING"
+    } ],
+    "sloCompliance_data" : {
+      "availabilityActual_data" : "DECIMAL",
+      "latencyActualP99" : "INT",
+      "cache_hit" : true,
+      "latencyTarget" : "INT",
+      "withinSlo" : "BOOLEAN",
+      "availabilityTarget" : "DECIMAL"
+    }
   }
-}, {
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "cache_hit" : false,
-  "name" : "STRING",
-  "projectCategory" : {
-    "discount_rate" : 868.7,
-    "name_val" : "STRING",
-    "description" : "STRING",
-    "uuid" : "STRING"
-  },
-  "style" : "STRING",
-  "self" : "URL",
-  "key" : "STRING",
-  "primaryKey" : "STRING",
-  "simplified" : "BOOLEAN"
-} ]
+}

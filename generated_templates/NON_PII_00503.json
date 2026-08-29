@@ -1,46 +1,29 @@
-[ {
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "24x24" : "URL",
-    "48x48_data" : "URL",
-    "16x16" : "URL",
-    "is_deleted" : true
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "simplified" : "BOOLEAN",
-  "insight" : {
-    "totalIssueCount_data" : "INT",
-    "lastIssueUpdateTime" : "DATETIME",
-    "auto_renew" : true
-  },
-  "price" : 128.98,
-  "key" : "STRING",
-  "projectCategory" : {
-    "v_description" : "STRING",
-    "userName" : "STRING",
-    "id" : null
-  },
-  "style" : "STRING",
-  "name" : "STRING",
-  "self" : "URL"
-}, {
-  "simplified" : "BOOLEAN",
-  "style_data" : "STRING",
-  "v_projectCategory" : {
-    "self_data" : "URL",
-    "uuid" : "STRING",
-    "description" : "STRING",
-    "name" : "STRING",
-    "temperature_c" : 324.81
-  },
-  "id" : "STRING",
-  "userName" : "STRING",
-  "self" : "URL",
-  "is_active" : false,
-  "avatarUrls" : {
-    "v_48x48" : "URL",
-    "24x24" : "URL",
-    "cache_hit" : false,
-    "32x32" : "URL",
-    "v_16x16" : "URL"
+  "results" : {
+    "telemetry_data" : {
+      "event_data" : {
+        "body" : {
+          "role" : "STRING",
+          "nodeId" : "STRING",
+          "v_version" : "STRING",
+          "uptimeSeconds" : "INT",
+          "metrics" : {
+            "offlinePartitionsCount_data" : "INT",
+            "underReplicatedPartitions_data" : "INT",
+            "requestHandlerAvgIdlePercent" : "DECIMAL",
+            "discount_rate" : 82.45,
+            "bytesOutPerSec_data" : "INT",
+            "activeControllerCount" : "INT",
+            "messagesInPerSec" : "INT"
+          },
+          "response_time_sec" : 12.04,
+          "status" : "STRING"
+        }
+      }
+    }
   }
-} ]
+}

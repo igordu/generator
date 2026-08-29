@@ -1,0 +1,30 @@
+{
+  "trainingDataPeriod" : "STRING",
+  "deployedAt" : "DATETIME",
+  "identifier" : "STRING",
+  "endpoint" : "URL",
+  "v_version" : "STRING",
+  "fullName" : "STRING",
+  "metrics" : {
+    "v_f1Score" : "DECIMAL",
+    "precision" : "DECIMAL",
+    "response_time_sec" : 8.59,
+    "accuracy" : "DECIMAL",
+    "recall" : "DECIMAL"
+  },
+  "status" : "STRING",
+  "featureImportance" : {
+    "days_since_last_login" : "DECIMAL",
+    "monthly_spend_trend" : "DECIMAL",
+    "v_support_ticket_count" : "DECIMAL",
+    "product_usage_score" : "DECIMAL"
+  },
+  "trainedBy" : "PII_EMAIL",
+  "framework" : "STRING",
+  "inferenceStats" : {
+    "errorRate" : "DECIMAL",
+    "avgLatencyMs" : "INT",
+    "requestsToday" : "INT",
+    "p99LatencyMs" : "INT"
+  }
+}

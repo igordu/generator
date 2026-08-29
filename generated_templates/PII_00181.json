@@ -1,70 +1,41 @@
 {
-  "server_logs" : {
-    "request_context" : {
-      "body" : {
-        "status" : "STRING",
-        "accountType" : "STRING",
-        "identifier" : "STRING",
-        "registrationMarketplaceId" : "STRING",
-        "individualAccount" : {
-          "priority_level" : 3215,
-          "userName" : "PII_PERSON_NAME",
-          "name_val" : "PII_PERSON_NAME",
-          "registrationAddress_data" : {
-            "addressLine2" : "STRING",
-            "county" : "STRING",
-            "country" : "STRING",
-            "postalCode" : "STRING",
-            "cache_hit" : true,
-            "stateOrProvince_data" : "",
-            "city" : "STRING",
-            "v_addressLine1" : "STRING"
-          },
-          "telephone" : {
-            "number" : "PII_PHONE_NUMBER",
-            "is_active" : false,
-            "phoneType" : "STRING",
-            "countryCode" : "STRING"
-          },
-          "email" : "PII_EMAIL",
-          "primaryPhone" : {
-            "number" : "PII_PHONE_NUMBER",
-            "phoneType" : "STRING"
-          }
-        },
-        "businessAccount" : {
-          "doingBusinessAs" : "STRING",
-          "name_val" : "PII_ORGANIZATION_NAME",
-          "website" : "URL",
-          "address" : {
-            "addressLine1" : "STRING",
-            "stateOrProvince" : "STRING",
-            "addressLine2" : "STRING",
-            "v_postalCode" : "STRING",
-            "country" : "STRING",
-            "requires_update" : true,
-            "county" : "STRING",
-            "city" : "STRING"
-          },
-          "mail" : "PII_EMAIL",
-          "primaryContact_data" : {
-            "firstName" : "PII_PERSON_NAME",
-            "userName" : "PII_PERSON_NAME"
-          },
-          "primaryPhone" : {
-            "number" : "PII_PHONE_NUMBER",
-            "page_index" : 3822,
-            "v_countryCode" : "STRING",
-            "phoneType" : "STRING"
-          },
-          "secondaryPhone" : {
-            "number_data" : "PII_PHONE_NUMBER",
-            "countryCode" : "STRING",
-            "mobile" : "STRING"
-          }
-        },
-        "userName" : "PII_USERNAME"
-      }
-    }
-  }
+  "name" : [ {
+    "v_family" : "PII_PERSON_LAST_NAME",
+    "v_use" : "STRING",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "v_telecom" : [ {
+    "use" : "STRING",
+    "system" : "STRING",
+    "v_value" : "PII_PHONE_NUMBER"
+  }, {
+    "system" : "",
+    "cache_hit" : true,
+    "value" : "PII_EMAIL"
+  } ],
+  "uuid" : [ {
+    "v_use" : "STRING",
+    "value" : "PII_NATIONAL_ID",
+    "system" : "URL",
+    "type" : {
+      "text" : "STRING",
+      "is_deleted" : false
+    },
+    "cpu_usage_percent" : 1.18
+  } ],
+  "meta" : {
+    "versionId" : "INT",
+    "lastUpdated" : "DATETIME"
+  },
+  "resourceType" : "STRING",
+  "http_status" : 3402,
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "id" : "STRING",
+  "address_data" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "v_use" : "NULL",
+    "city" : "PII_LOCATION_CITY",
+    "has_discount" : false
+  } ]
 }

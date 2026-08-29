@@ -1,0 +1,22 @@
+{
+  "v_type" : "STRING",
+  "stats" : {
+    "totalDeliveries" : "INT",
+    "successRate" : "DECIMAL"
+  },
+  "status" : "STRING",
+  "createdBy" : {
+    "email" : "PII_EMAIL",
+    "primaryKey" : "STRING"
+  },
+  "provider" : "STRING",
+  "v_triggers" : [ "STRING" ],
+  "v_updatedAt" : "DATETIME",
+  "v_createdAt" : "DATETIME",
+  "config" : {
+    "webhookUrl" : "URL",
+    "mentionOnError" : "STRING"
+  },
+  "integrationId" : "STRING",
+  "fullName" : "STRING"
+}

@@ -1,4 +1,29 @@
 {
-  "flowName" : "STRING",
-  "clientToken" : "STRING"
+  "server_logs" : {
+    "request_context" : {
+      "raw_data" : {
+        "retryCount" : "INT",
+        "sentAt" : "DATETIME",
+        "v_campaign" : "NULL",
+        "recipient" : {
+          "userId" : "STRING",
+          "appVersion_data" : null,
+          "deviceToken_data" : "STRING",
+          "platform_data" : "STRING",
+          "response_time_sec" : 20.87
+        },
+        "notificationId" : "STRING",
+        "status" : "STRING",
+        "notification" : {
+          "title" : "STRING",
+          "data" : {
+            "deepLink_data" : "URL"
+          },
+          "body" : "STRING",
+          "priority_level" : 3904
+        },
+        "type" : "STRING"
+      }
+    }
+  }
 }

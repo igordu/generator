@@ -1,14 +1,46 @@
 {
-  "account_holder_name" : "PII_PERSON_NAME",
-  "metadata" : "OBJECT",
-  "object" : "STRING",
-  "routing_number" : "STRING",
-  "currency" : "STRING",
-  "account_holder_type" : "STRING",
-  "last4_data" : "STRING",
-  "v_fingerprint" : "STRING",
-  "userName" : "STRING",
-  "account_type" : "STRING",
-  "id" : "STRING",
-  "country" : "STRING"
+  "status" : "STRING",
+  "sender_data" : {
+    "contactEmail" : "PII_EMAIL",
+    "name" : "PII_COMPANY_NAME",
+    "address" : "PII_ADDRESS_LINE"
+  },
+  "trackingNumber" : "STRING",
+  "events" : [ {
+    "is_active" : false,
+    "v_status" : "",
+    "location" : "PII_LOCATION_CITY",
+    "timestamp" : "DATETIME"
+  } ],
+  "parcels" : [ {
+    "system_ping_ms" : 13,
+    "weight" : {
+      "item_count" : 436,
+      "unit" : "STRING",
+      "value" : "DECIMAL"
+    },
+    "identifier" : "STRING",
+    "dimensions" : {
+      "unit" : "STRING",
+      "length" : "INT",
+      "conversion_rate" : 8.85,
+      "width" : "INT",
+      "height" : "INT"
+    }
+  } ],
+  "uuid" : "STRING",
+  "estimatedDelivery" : "DATE",
+  "carrier" : "STRING",
+  "recipient" : {
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "postalCode" : "STRING"
+    },
+    "price" : 6412.29,
+    "phone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME"
+  }
 }

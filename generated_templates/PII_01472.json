@@ -1,0 +1,19 @@
+{
+  "v_resourceVersion" : "STRING",
+  "creationTimestamp" : "DATETIME",
+  "clientName" : "STRING",
+  "configMapName" : "STRING",
+  "data" : {
+    "FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+    "SMTP_HOST" : "STRING",
+    "DATABASE_HOST" : "NULL",
+    "DATABASE_PORT" : "STRING",
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "DATABASE_NAME" : "STRING",
+    "SMTP_PORT" : "",
+    "REQUEST_TIMEOUT_MS" : "STRING",
+    "http_status" : 3233,
+    "LOG_LEVEL" : "STRING",
+    "REDIS_PORT" : "STRING"
+  }
+}

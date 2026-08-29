@@ -1,21 +1,44 @@
 {
-  "server_logs" : {
-    "transaction_trace" : {
+  "system_state" : {
+    "payload_wrapper" : {
       "raw_data" : {
-        "account_type" : "STRING",
-        "id" : "STRING",
-        "currency_data" : "STRING",
-        "account_holder_name" : "PII_PERSON_NAME",
-        "last4" : "STRING",
-        "country" : "STRING",
-        "bank_name" : "STRING",
-        "response_time_sec" : 957.42,
-        "metadata" : "OBJECT",
-        "object" : "STRING",
-        "account_holder_type" : "STRING",
-        "routing_number" : "STRING",
-        "fingerprint" : "STRING",
-        "status" : "STRING"
+        "checkIn" : "NULL",
+        "page_index" : 595,
+        "createdAt" : "DATETIME",
+        "status" : "STRING",
+        "specialRequests" : "STRING",
+        "hotel" : {
+          "clientName" : "PII_COMPANY_NAME",
+          "phone" : "PII_PHONE_NUMBER",
+          "address_data" : "PII_ADDRESS_LINE"
+        },
+        "guest_data" : {
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "has_discount" : true,
+          "userName" : "PII_PERSON_LAST_NAME",
+          "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+          "email" : "PII_EMAIL",
+          "telephone" : "PII_PHONE_NUMBER",
+          "passportNumber" : "PII_NATIONAL_ID",
+          "nationality" : "PII_LOCATION_COUNTRY"
+        },
+        "room" : {
+          "floor" : "INT",
+          "bedType_data" : "STRING",
+          "v_type" : "STRING"
+        },
+        "pricing" : {
+          "nights" : "INT",
+          "total" : "DECIMAL",
+          "tax" : "DECIMAL",
+          "ratePerNight" : null,
+          "cache_hit" : true,
+          "totalBeforeTax" : "DECIMAL",
+          "currency" : "STRING"
+        },
+        "loyaltyNumber" : "STRING",
+        "checkOut" : "DATE",
+        "reservationId" : "STRING"
       }
     }
   }

@@ -1,16 +1,19 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "averageStarRating" : "INT",
-  "starRatingDistribution" : {
-    "2" : "INT",
-    "4" : "INT",
-    "is_active" : false,
-    "v_5" : "INT",
-    "1" : "INT",
-    "3_data" : "INT"
+  "v_shopUrl" : "URL",
+  "modelId" : "STRING",
+  "id" : "STRING",
+  "media" : {
+    "images" : [ {
+      "v_thumbnailHdUrl" : "URL",
+      "type" : "STRING",
+      "orderNumber" : "INT",
+      "largeHdUrl_data" : "URL",
+      "largeUrl_data" : "URL",
+      "mediumUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "v_mediumHdUrl" : "",
+      "smallUrl" : "URL"
+    } ]
   },
-  "numberOfUserRecommendations" : "INT",
-  "price" : 417.93,
-  "recordId" : "STRING",
-  "numberOfUserReviews" : "INT"
+  "userName" : "STRING"
 }

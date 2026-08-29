@@ -1,29 +1,25 @@
 {
-  "v_transactions" : {
-    "booked" : [ {
-      "transactionId" : "STRING",
-      "amount_data" : {
-        "currency" : "STRING",
-        "amount_data" : "DECIMAL",
-        "conversion_rate" : 358.85
-      },
-      "debtorAccount_data" : {
-        "iban" : "STRING"
-      },
-      "bookingDate" : "DATE",
-      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "valueDate" : null,
-      "creditorAccount" : {
-        "iban" : "PII_IBAN",
-        "http_status" : 3046
-      },
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "family" : "STRING",
-        "domain" : null
-      },
-      "debtorName" : "STRING",
-      "creditorName" : "PII_PERSON_NAME"
-    } ]
-  }
+  "num_associated_deals" : "INT",
+  "website" : "URL",
+  "city_data" : "PII_LOCATION_CITY",
+  "hs_lead_status" : "STRING",
+  "department" : "STRING",
+  "phone" : "PII_PHONE_NUMBER",
+  "lastName" : "PII_PERSON_LAST_NAME",
+  "hs_object_id" : "STRING",
+  "lifecyclestage" : "STRING",
+  "company" : "PII_COMPANY_NAME",
+  "createdate" : "DATETIME",
+  "notes_last_contacted" : "",
+  "firstName" : "PII_PERSON_FIRST_NAME",
+  "zip" : "STRING",
+  "mobile" : "PII_PHONE_NUMBER",
+  "address" : "PII_ADDRESS_LINE",
+  "state" : "",
+  "http_status" : 1311,
+  "hs_email_optout" : "BOOLEAN",
+  "jobtitle" : "STRING",
+  "associatedcompanyid" : "STRING",
+  "email" : "PII_EMAIL",
+  "country" : "PII_LOCATION_COUNTRY"
 }

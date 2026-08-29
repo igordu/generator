@@ -1,35 +1,44 @@
 {
-  "id" : "STRING",
-  "v_telecom" : [ {
-    "value" : "PII_EMAIL"
-  }, {
-    "cpu_usage_percent" : 872.35,
-    "value_data" : "PII_PHONE_NUMBER",
-    "v_use" : "STRING",
-    "system_data" : "STRING"
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "resourceType_data" : "STRING",
-  "identifier" : [ {
-    "type_data" : { },
-    "value" : "PII_NATIONAL_ID",
-    "system" : "URL"
-  } ],
-  "meta" : {
-    "versionId" : "INT",
-    "v_lastUpdated" : "DATETIME"
-  },
-  "address" : [ {
-    "v_country" : "PII_LOCATION_COUNTRY",
-    "use_data" : null,
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "v_city" : "PII_LOCATION_CITY"
-  } ],
-  "name" : [ {
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "is_deleted" : false,
-    "use" : "STRING",
-    "family_data" : "PII_PERSON_LAST_NAME"
-  } ],
-  "auto_renew" : true
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "emails" : [ {
+      "address" : "PII_EMAIL",
+      "primary" : "BOOLEAN"
+    } ],
+    "price" : 7255.13,
+    "archived" : "BOOLEAN",
+    "name" : {
+      "userName" : "PII_PERSON_FIRST_NAME",
+      "familyName" : "PII_PERSON_LAST_NAME",
+      "fullName" : "PII_PERSON_NAME",
+      "requires_update" : false
+    },
+    "mail" : "PII_EMAIL",
+    "addresses" : [ {
+      "postalCode" : "STRING",
+      "locality" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "page_index" : 2402,
+      "type" : "STRING",
+      "region" : "STRING",
+      "streetAddress" : "PII_ADDRESS_LINE"
+    } ],
+    "isDelegatedAdmin" : "BOOLEAN",
+    "primaryEmail" : "PII_EMAIL",
+    "phones" : [ {
+      "type" : "STRING",
+      "value" : "PII_PHONE_NUMBER"
+    } ],
+    "agreedToTerms" : "BOOLEAN",
+    "suspended_data" : "BOOLEAN",
+    "recoveryPhone" : "PII_PHONE_NUMBER",
+    "changePasswordAtNextLogin" : "BOOLEAN",
+    "lastLoginTime" : "DATETIME",
+    "creationTime" : "DATETIME",
+    "customerId" : "STRING",
+    "orgUnitPath" : "STRING",
+    "isMailboxSetup" : "BOOLEAN",
+    "isAdmin_data" : "BOOLEAN"
+  }
 }

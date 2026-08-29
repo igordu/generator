@@ -1,22 +1,18 @@
-[ {
-  "key" : "STRING",
-  "recordId" : "STRING",
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "auto_renew" : true,
-    "16x16" : "URL",
-    "v_48x48" : "URL",
-    "24x24" : "URL"
+{
+  "chatId" : "STRING",
+  "usage_data" : {
+    "inputTokens_data" : "INT",
+    "v_outputTokens" : "INT"
   },
-  "self_data" : "URL",
-  "simplified_data" : "BOOLEAN",
-  "projectCategory" : {
-    "userName" : "STRING",
-    "uuid" : "STRING",
-    "v_self" : "",
-    "description" : "STRING",
-    "is_deleted" : false
+  "messages_data" : [ {
+    "role" : "STRING",
+    "content" : "STRING",
+    "timestamp" : "DATETIME"
+  } ],
+  "createdAt" : "DATETIME",
+  "model" : "STRING",
+  "metadata" : {
+    "sessionId" : "STRING"
   },
-  "name_val" : "STRING",
-  "style" : "NULL"
-} ]
+  "temperature_c" : 37.89
+}

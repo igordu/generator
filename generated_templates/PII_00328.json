@@ -1,10 +1,40 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "two_factor_authentication" : "BOOLEAN",
+  "primaryKey" : "STRING",
+  "public_gists" : "INT",
+  "owned_private_repos" : "INT",
+  "v_organizations_url" : "URL",
+  "cache_hit" : false,
+  "email" : "PII_EMAIL",
+  "type_data" : "",
+  "url_data" : "URL",
+  "fullName" : "PII_PERSON_NAME",
+  "plan_data" : {
+    "userName" : "STRING",
+    "private_repos_data" : "",
+    "v_space" : "INT",
+    "v_collaborators" : "INT"
   },
-  "results" : {
-    "emailAddress" : "PII_EMAIL",
-    "emailAddressStatus" : [ "STRING" ]
-  }
+  "following_url" : "URL",
+  "repos_url" : "URL",
+  "location" : "PII_LOCATION_CITY",
+  "twitter_username" : "STRING",
+  "v_html_url" : "URL",
+  "v_avatar_url" : "URL",
+  "received_events_url" : "URL",
+  "id" : "INT",
+  "following" : "INT",
+  "disk_usage_data" : "INT",
+  "public_repos" : null,
+  "subscriptions_url" : "URL",
+  "company" : "PII_ORGANIZATION_NAME",
+  "starred_url_data" : "URL",
+  "collaborators" : null,
+  "blog" : "URL",
+  "bio" : "PII_ORGANIZATION_NAME",
+  "hireable" : "BOOLEAN",
+  "created_at" : "DATETIME",
+  "login" : "NULL",
+  "gravatar_id" : "STRING",
+  "events_url_data" : "URL"
 }

@@ -1,9 +1,13 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "emailAddressStatus" : [ "STRING" ],
-      "temperature_c" : 588.91,
-      "emailAddress" : "PII_EMAIL"
-    }
-  }
+  "last4" : "STRING",
+  "metadata_data" : "OBJECT",
+  "v_currency" : "STRING",
+  "routing_number_data" : "STRING",
+  "fingerprint" : "STRING",
+  "country" : "STRING",
+  "customer" : "STRING",
+  "v_status" : "STRING",
+  "object" : "STRING",
+  "clientName" : "PII_PERSON_NAME",
+  "account_type" : "STRING"
 }

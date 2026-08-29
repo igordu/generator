@@ -1,5 +1,13 @@
 {
-  "clientToken_data" : "STRING",
-  "price" : 614.78,
-  "flowName" : "STRING"
+  "price" : 2935.87,
+  "cacheKey" : "STRING",
+  "value" : {
+    "discount_rate" : 94.25,
+    "roles" : [ "STRING" ],
+    "userId" : "STRING"
+  },
+  "ttl" : "INT",
+  "lastAccessedAt" : "DATETIME",
+  "createdAt" : "DATETIME",
+  "namespace" : "STRING"
 }

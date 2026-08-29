@@ -1,0 +1,17 @@
+{
+  "name" : "STRING",
+  "description" : "STRING",
+  "inheritedFrom_data" : [ "STRING" ],
+  "createdAt_data" : "DATETIME",
+  "v_createdBy" : "PII_EMAIL",
+  "permissions" : [ "STRING" ],
+  "v_updatedAt" : "DATETIME",
+  "roleId" : "STRING",
+  "temperature_c" : 46.55,
+  "assignedTo" : [ {
+    "userId" : "STRING",
+    "email" : "PII_EMAIL",
+    "assignedAt_data" : "DATETIME",
+    "name" : "PII_PERSON_NAME"
+  } ]
+}

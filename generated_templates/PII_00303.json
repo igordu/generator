@@ -1,5 +1,14 @@
 {
-  "emailAddressStatus" : [ "STRING" ],
-  "primary_email" : "PII_EMAIL",
-  "discount_rate" : 971.84
+  "status" : "STRING",
+  "http_status" : 415,
+  "last4" : "STRING",
+  "metadata_data" : "OBJECT",
+  "fullName" : "PII_PERSON_NAME",
+  "account_type" : "STRING",
+  "customer" : "STRING",
+  "country" : "STRING",
+  "currency" : "STRING",
+  "account_holder_type" : "STRING",
+  "id" : "STRING",
+  "v_fingerprint" : "STRING"
 }

@@ -1,36 +1,26 @@
-[ {
-  "facets" : [ {
-    "key" : "STRING",
-    "count_data" : "INT"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "priority_level" : 2568,
-    "v_count" : "INT",
-    "displayName" : "STRING"
-  } ],
-  "temperature_c" : 538.17,
-  "filter" : "STRING"
-}, {
-  "filter" : "STRING",
-  "cpu_usage_percent" : 207.02
-}, {
-  "facets_data" : [ {
-    "cpu_usage_percent" : 130.13,
-    "v_count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "v_key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "fullName" : "STRING",
-    "page_index" : 909,
-    "key" : "STRING"
-  } ],
-  "is_active" : true,
-  "filter" : "STRING"
-} ]
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "product_name" : "STRING",
+    "reorder_quantity" : "INT",
+    "sku" : "STRING",
+    "batch_number" : "STRING",
+    "unit_cost" : "INT",
+    "quantity_reserved" : "INT",
+    "identifier" : "STRING",
+    "currency" : "STRING",
+    "expiry_date" : "NULL",
+    "quantity_available_data" : "INT",
+    "tags" : [ "STRING" ],
+    "is_hazardous" : "BOOLEAN",
+    "last_received_at" : "DATETIME",
+    "v_reorder_point" : "INT",
+    "location_code" : "",
+    "quantity_on_hand" : "INT",
+    "last_counted_at" : "",
+    "price" : 3768.79
+  }
+}

@@ -1,8 +1,5 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "articleModelId" : "STRING",
-  "averageStarRating" : "INT",
-  "system_ping_ms" : 605,
-  "numberOfUserRecommendations_data" : "INT",
-  "numberOfUserReviews" : "INT"
+  "flowName" : "STRING",
+  "clientToken" : "STRING",
+  "requires_update" : true
 }

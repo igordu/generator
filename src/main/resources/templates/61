@@ -1,0 +1,35 @@
+{
+  "loanApplicationId": "STRING",
+  "applicant": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "nationalId": "PII_NATIONAL_ID",
+    "address": {
+      "street": "PII_ADDRESS_LINE",
+      "city": "PII_LOCATION_CITY",
+      "state": "STRING",
+      "country": "PII_LOCATION_COUNTRY"
+    },
+    "employmentStatus": "STRING",
+    "employer": "PII_COMPANY_NAME",
+    "monthlyIncome": "DECIMAL"
+  },
+  "loanDetails": {
+    "type": "STRING",
+    "requestedAmount": "DECIMAL",
+    "currency": "STRING",
+    "termMonths": "INT",
+    "purpose": "STRING",
+    "requestedAt": "DATETIME"
+  },
+  "creditScore": "INT",
+  "status": "STRING",
+  "bankAccount": {
+    "iban": "PII_IBAN",
+    "bankName": "PII_COMPANY_NAME",
+    "branchCode": "STRING"
+  }
+}

@@ -1,12 +1,34 @@
 {
-  "active" : "BOOLEAN",
-  "tree" : {
-    "url" : "URL"
-  },
-  "user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "retry_attempts" : 3274
+  "telemetry_data" : {
+    "event_data" : {
+      "raw_data" : {
+        "status" : "STRING",
+        "updatedAt" : "DATETIME",
+        "likes" : "INT",
+        "ancestors" : [ {
+          "uuid" : "STRING",
+          "title" : "STRING"
+        } ],
+        "lastModifiedBy_data" : {
+          "auto_renew" : false,
+          "identifier" : "STRING",
+          "displayName" : "PII_PERSON_NAME",
+          "email" : "PII_EMAIL"
+        },
+        "author" : {
+          "accountId" : "STRING",
+          "email" : "PII_EMAIL",
+          "item_count" : 1689,
+          "clientName" : "PII_PERSON_NAME"
+        },
+        "labels" : [ "STRING" ],
+        "title" : "STRING",
+        "viewCount_data" : "INT",
+        "pageId" : "STRING",
+        "v_version" : "INT",
+        "v_createdAt" : "DATETIME",
+        "v_spaceKey" : "STRING"
+      }
+    }
   }
 }

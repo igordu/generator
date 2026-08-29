@@ -1,40 +1,25 @@
 {
-  "server_logs" : {
-    "transaction_trace" : {
-      "extracted_info" : {
-        "resourceType" : "STRING",
-        "birthDate" : "PII_DATE_OF_BIRTH",
-        "name" : [ {
-          "given" : [ "PII_PERSON_FIRST_NAME" ],
-          "family" : "PII_PERSON_LAST_NAME",
-          "use" : "STRING"
-        } ],
-        "gender" : "STRING",
-        "v_address" : [ {
-          "use" : "STRING",
-          "city" : "PII_LOCATION_CITY",
-          "line" : [ "PII_ADDRESS_LINE" ],
-          "country" : "PII_LOCATION_COUNTRY"
-        } ],
-        "primaryKey" : [ {
-          "value_data" : "PII_NATIONAL_ID",
-          "v_type" : {
-            "text" : "STRING",
-            "retry_attempts" : 2066
-          },
-          "use" : "STRING"
-        } ],
-        "uuid" : "STRING",
-        "telecom" : [ {
-          "use" : "STRING",
-          "system" : "STRING",
-          "value" : "PII_PHONE_NUMBER"
-        }, {
-          "system" : "STRING",
-          "value_data" : "PII_EMAIL",
-          "is_active" : false
-        } ]
-      }
-    }
-  }
+  "lastUpdated" : "DATETIME",
+  "passwordChanged" : "DATETIME",
+  "lastLogin" : "DATETIME",
+  "created" : "DATETIME",
+  "v_profile" : {
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "state" : "STRING",
+    "secondEmail" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "login_data" : "PII_EMAIL",
+    "department_data" : "STRING",
+    "title" : "STRING",
+    "organization_data" : "PII_COMPANY_NAME",
+    "displayName" : "PII_PERSON_NAME",
+    "employeeNumber" : "STRING",
+    "countryCode" : "PII_LOCATION_COUNTRY",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "is_active" : false,
+    "city" : "PII_LOCATION_CITY",
+    "streetAddress" : "PII_ADDRESS_LINE"
+  },
+  "id" : "STRING"
 }

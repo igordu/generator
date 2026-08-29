@@ -1,0 +1,16 @@
+{
+  "createdBy" : "PII_EMAIL",
+  "roleId" : "STRING",
+  "description" : "STRING",
+  "updatedAt" : "NULL",
+  "name" : "STRING",
+  "createdAt" : "DATETIME",
+  "assignedTo" : [ {
+    "uuid" : "STRING",
+    "userName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "assignedAt" : "DATETIME"
+  } ],
+  "permissions" : [ "STRING" ],
+  "v_inheritedFrom" : [ "STRING" ]
+}

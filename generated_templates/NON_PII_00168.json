@@ -1,22 +1,25 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "name" : "STRING",
-      "shopUrl" : "URL",
-      "media" : {
-        "response_time_sec" : 749.0,
-        "images" : [ {
-          "largeHdUrl" : "URL",
-          "smallHdUrl" : "URL",
-          "type" : "STRING",
-          "largeUrl" : "URL",
-          "v_mediumHdUrl" : "URL",
-          "orderNumber_data" : "INT",
-          "smallUrl" : "URL",
-          "thumbnailHdUrl" : "URL",
-          "v_mediumUrl" : "URL"
-        } ]
-      }
-    }
-  }
+  "name" : "STRING",
+  "target_commitish" : "STRING",
+  "auto_renew" : true,
+  "id" : "INT",
+  "assets" : [ {
+    "id" : "NULL",
+    "name" : "STRING",
+    "size" : "INT",
+    "content_type" : "STRING",
+    "is_active" : false,
+    "browser_download_url" : "URL"
+  } ],
+  "body" : "TEXT",
+  "changelog_data" : [ {
+    "files_changed" : "INT",
+    "commit_sha" : "STRING",
+    "item_count" : 4356,
+    "message_data" : "TEXT"
+  } ],
+  "published_at" : "DATETIME",
+  "created_at" : "DATETIME",
+  "draft" : "BOOLEAN",
+  "tag_name" : "STRING"
 }

@@ -1,61 +1,31 @@
 {
-  "businessAccount" : {
-    "telephone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "cache_hit" : false,
-      "v_countryCode" : "STRING",
-      "phoneType" : "STRING"
+  "state" : "STRING",
+  "conversation_parts" : [ {
+    "part_type" : "STRING",
+    "body" : "PII_FREE_TEXT",
+    "v_author" : {
+      "type" : "STRING",
+      "clientName" : "PII_PERSON_NAME"
     },
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
+    "has_discount" : true,
+    "created_at" : "DATETIME_EPOCH"
+  } ],
+  "v_source" : {
+    "author" : {
+      "id" : "STRING",
+      "email" : "PII_EMAIL",
+      "v_type" : "STRING",
+      "name_val" : "PII_PERSON_NAME"
     },
-    "fullName" : "PII_ORGANIZATION_NAME",
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "contactNumber" : "STRING",
-      "countryCode" : "STRING"
-    },
-    "address_data" : {
-      "postalCode" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine2" : "STRING",
-      "county" : "STRING",
-      "v_addressLine1" : "STRING",
-      "page_index" : 1600,
-      "country" : "STRING"
-    },
-    "website" : "URL",
-    "doingBusinessAs" : "STRING",
-    "emailAddress" : "PII_EMAIL"
+    "subject" : "STRING",
+    "type_data" : "STRING",
+    "body" : "PII_FREE_TEXT"
   },
-  "identifier" : {
-    "mail" : "PII_EMAIL",
-    "lastName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "cell" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING"
-    },
-    "priority_level" : 254,
-    "contactNumber" : {
-      "phoneType" : "STRING",
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "registrationAddress" : {
-      "addressLine2" : "STRING",
-      "postalCode" : "STRING",
-      "stateOrProvince" : null,
-      "county" : "STRING",
-      "system_ping_ms" : 376,
-      "country" : "STRING",
-      "addressLine1" : "STRING",
-      "city" : "STRING"
-    },
-    "firstName" : "PII_PERSON_NAME"
-  },
-  "fullName" : "PII_USERNAME",
-  "status" : "STRING",
-  "v_accountType" : "STRING"
+  "read" : "BOOLEAN",
+  "v_open" : "BOOLEAN",
+  "type" : "STRING",
+  "id" : "STRING",
+  "priority_level" : 4545,
+  "created_at_data" : "DATETIME_EPOCH",
+  "priority" : "STRING"
 }

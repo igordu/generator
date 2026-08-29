@@ -1,0 +1,21 @@
+{
+  "eventType" : "STRING",
+  "version" : "STRING",
+  "occurredAt" : "DATETIME",
+  "eventId" : "STRING",
+  "correlationId" : "STRING",
+  "price" : 6003.57,
+  "payload" : {
+    "email" : "PII_EMAIL",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "registrationSource" : "STRING",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "userId" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "price" : 7964.94,
+    "country" : "PII_LOCATION_COUNTRY",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "producer" : "STRING"
+}

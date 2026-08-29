@@ -1,0 +1,26 @@
+{
+  "object": "STRING",
+  "data": [
+    {
+      "id": "STRING",
+      "object": "STRING",
+      "created_at": "DATETIME_EPOCH",
+      "finished_at": "DATETIME_EPOCH",
+      "model": "STRING",
+      "fine_tuned_model": "STRING",
+      "organization_id": "STRING",
+      "status": "STRING",
+      "training_file": "STRING",
+      "validation_file": "NULL",
+      "result_files": ["STRING"],
+      "trained_tokens": "INT",
+      "error": "NULL",
+      "hyperparameters": {
+        "n_epochs": "INT",
+        "batch_size": "INT",
+        "learning_rate_multiplier": "DECIMAL"
+      }
+    }
+  ],
+  "has_more": "BOOLEAN"
+}

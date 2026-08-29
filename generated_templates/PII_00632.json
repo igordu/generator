@@ -1,40 +1,44 @@
 {
-  "ProviderName" : "STRING",
-  "DateTimeUTC_data" : "DATETIME",
-  "Id" : "STRING",
-  "Employees" : [ {
-    "cache_hit" : false,
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "has_discount" : false,
-      "Url" : "URL"
+  "id" : "STRING",
+  "fields" : {
+    "v_reporter" : {
+      "active" : "BOOLEAN",
+      "identifier" : "STRING",
+      "displayName" : "PII_PERSON_NAME",
+      "timeZone_data" : "STRING",
+      "emailAddress" : "PII_EMAIL"
     },
-    "identifier" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "v_UpdatedDateUTC" : "DATETIME",
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : "STRING",
-    "ExternalLink_data" : {
-      "v_Url" : "URL",
-      "requires_update" : true,
-      "Description" : "STRING"
-    }
-  }, {
-    "UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status_data" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "auto_renew" : false,
-    "EmployeeID" : "STRING",
-    "ExternalLink" : {
-      "v_Description" : "STRING",
-      "has_discount" : false,
-      "Url" : "URL"
-    }
-  } ]
+    "duedate" : "DATE",
+    "v_assignee" : {
+      "emailAddress" : "PII_EMAIL",
+      "active" : "BOOLEAN",
+      "displayName" : "PII_PERSON_NAME",
+      "timeZone" : null,
+      "price" : 6149.97,
+      "recordId" : "STRING"
+    },
+    "priority" : {
+      "http_status" : 3991
+    },
+    "updated" : "DATETIME",
+    "summary_data" : "STRING",
+    "temperature_c" : 12.45,
+    "v_comment" : {
+      "comments" : [ {
+        "author" : {
+          "accountId" : "STRING",
+          "emailAddress" : "PII_EMAIL",
+          "displayName" : "PII_PERSON_NAME"
+        },
+        "updated" : "DATETIME",
+        "id" : "STRING",
+        "body" : "NULL",
+        "v_created" : "DATETIME"
+      } ],
+      "total" : "INT",
+      "cpu_usage_percent" : 80.7
+    },
+    "created" : "DATETIME"
+  },
+  "v_key" : "STRING"
 }

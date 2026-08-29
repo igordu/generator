@@ -1,0 +1,38 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "refreshToken" : {
+      "jti" : "STRING",
+      "rotated_data" : "BOOLEAN",
+      "requires_update" : true
+    },
+    "v_issuedAt" : "DATETIME",
+    "idToken" : {
+      "birthdate" : "PII_DATE_OF_BIRTH",
+      "sub" : "STRING",
+      "email" : "PII_EMAIL",
+      "price" : 4614.13,
+      "address" : {
+        "region_data" : "STRING",
+        "street_address" : "PII_ADDRESS_LINE",
+        "locality" : "PII_LOCATION_CITY",
+        "postal_code" : "STRING",
+        "country" : "PII_LOCATION_COUNTRY"
+      },
+      "cell" : "PII_PHONE_NUMBER",
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "emailAddress" : "PII_EMAIL",
+    "accessToken_data" : {
+      "v_jti" : "STRING",
+      "v_type" : "STRING",
+      "response_time_sec" : 8.51,
+      "expiresAt" : "DATETIME"
+    },
+    "clientId" : "STRING",
+    "grantType" : "STRING",
+    "userId" : "STRING",
+    "grantId" : "NULL"
+  }
+}

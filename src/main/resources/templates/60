@@ -1,0 +1,36 @@
+{
+  "bookingRef": "STRING",
+  "status": "STRING",
+  "issuedAt": "DATETIME",
+  "passenger": {
+    "title": "STRING",
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "passportNumber": "PII_NATIONAL_ID",
+    "passportExpiry": "DATE",
+    "nationality": "PII_LOCATION_COUNTRY",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "frequentFlyerNumber": "STRING"
+  },
+  "itinerary": [
+    {
+      "segment": "INT",
+      "flightNumber": "STRING",
+      "origin": "STRING",
+      "destination": "STRING",
+      "departureAt": "DATETIME",
+      "arrivalAt": "DATETIME",
+      "cabin": "STRING",
+      "seat": "STRING",
+      "status": "STRING"
+    }
+  ],
+  "ticketNumber": "STRING",
+  "fareClass": "STRING",
+  "totalFare": {
+    "amount": "DECIMAL",
+    "currency": "STRING"
+  }
+}

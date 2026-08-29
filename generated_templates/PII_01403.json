@@ -1,0 +1,30 @@
+{
+  "uuid" : "STRING",
+  "cpu_usage_percent" : 22.19,
+  "twoFactorEnabled" : "BOOLEAN",
+  "passwordLastChangedAt" : "DATETIME",
+  "v_securityEvents" : [ {
+    "timestamp_data" : "DATETIME",
+    "page_index" : 3603,
+    "ipAddress" : "PII_IP_ADDRESS",
+    "type" : "STRING"
+  } ],
+  "trustedDevices_data" : [ {
+    "lastUsedAt" : null,
+    "deviceId" : "STRING",
+    "auto_renew" : false,
+    "addedAt" : "DATETIME",
+    "macAddress_data" : "PII_MAC_ADDRESS",
+    "name" : "STRING",
+    "platform" : "STRING"
+  } ],
+  "createdAt" : "DATETIME",
+  "activeSessions_data" : "INT",
+  "oauthConnections" : [ {
+    "connectedAt_data" : "DATETIME",
+    "provider" : "STRING",
+    "email" : "PII_EMAIL",
+    "primaryKey" : "STRING"
+  } ],
+  "lockedUntil" : "NULL"
+}

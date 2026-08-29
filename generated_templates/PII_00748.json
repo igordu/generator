@@ -1,32 +1,45 @@
 {
-  "page_number_data" : "INT",
-  "registrants" : [ {
-    "comments_data" : "STRING",
-    "industry_data" : "STRING",
-    "status" : null,
-    "id" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "state" : "PII_LOCATION_STATE",
-    "join_url" : "URL",
-    "org_data" : "PII_ORGANIZATION_NAME",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "role_in_purchase_process" : "STRING",
-    "city" : "PII_LOCATION_CITY",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "address" : "PII_ADDRESS_LINE",
-    "job_title" : "STRING",
-    "purchasing_time_frame" : "STRING",
-    "custom_questions" : [ {
-      "auto_renew" : true,
-      "value" : "STRING"
-    } ],
-    "country_data" : "PII_LOCATION_COUNTRY",
-    "email" : "PII_EMAIL",
-    "create_time" : "DATETIME",
-    "no_of_employees" : null
+  "gender" : "STRING",
+  "identifier" : "STRING",
+  "active" : "BOOLEAN",
+  "v_birthDate" : "PII_DATE_OF_BIRTH",
+  "address" : [ {
+    "use" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "postalCode" : "STRING",
+    "city_data" : "PII_LOCATION_CITY",
+    "state" : "STRING",
+    "conversion_rate" : 7.05,
+    "line" : [ "PII_ADDRESS_LINE" ]
   } ],
-  "auto_renew" : false,
-  "page_count" : "INT",
-  "v_page_size" : "INT",
-  "total_records" : "INT"
+  "v_meta" : {
+    "lastUpdated_data" : "DATETIME",
+    "versionId" : "INT"
+  },
+  "qualification_data" : [ {
+    "temperature_c" : 21.41,
+    "code" : {
+      "v_coding" : [ {
+        "code" : "STRING",
+        "system" : "URL"
+      } ]
+    }
+  } ],
+  "telecom" : [ {
+    "value" : "PII_EMAIL",
+    "system" : "STRING",
+    "use" : "STRING"
+  }, {
+    "value" : "PII_PHONE_NUMBER",
+    "system" : "STRING"
+  } ],
+  "retry_attempts" : 786,
+  "resourceType" : "STRING",
+  "name" : [ {
+    "item_count" : 565,
+    "use" : "STRING",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "family" : "PII_PERSON_LAST_NAME",
+    "prefix_data" : [ "NULL" ]
+  } ]
 }

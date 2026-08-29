@@ -1,14 +1,50 @@
 {
-  "numberOfUserRecommendations" : "INT",
-  "starRatingDistribution" : {
-    "5" : "INT",
-    "3" : "INT",
-    "2" : "INT",
-    "v_4" : "INT",
-    "v_1" : "INT"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "averageStarRating" : "INT",
-  "page_index" : 54,
-  "articleModelId" : "STRING",
-  "v_numberOfUserReviews" : "INT"
+  "results" : [ {
+    "facets_data" : [ {
+      "clientName" : "STRING",
+      "key" : "STRING",
+      "count_data" : "INT"
+    }, {
+      "key" : "STRING",
+      "count" : "INT",
+      "fullName" : "STRING",
+      "is_deleted" : false
+    }, {
+      "displayName" : "NULL",
+      "count" : "INT",
+      "key" : "STRING"
+    } ],
+    "filter" : "STRING",
+    "discount_rate" : 3.97
+  }, {
+    "facets_data" : [ {
+      "key" : "STRING",
+      "displayName" : "STRING",
+      "count" : "INT",
+      "priority_level" : 478
+    }, {
+      "count_data" : "INT",
+      "key" : "STRING"
+    } ],
+    "v_filter" : "STRING"
+  }, {
+    "filter" : "STRING",
+    "facets" : [ {
+      "count" : "INT",
+      "key" : "STRING",
+      "displayName" : "STRING"
+    }, {
+      "displayName" : "STRING",
+      "key" : "STRING",
+      "count" : "INT"
+    }, {
+      "userName" : "STRING",
+      "key" : "STRING",
+      "count" : "INT"
+    } ]
+  } ]
 }

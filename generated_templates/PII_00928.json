@@ -1,28 +1,31 @@
 {
-  "data" : [ {
-    "object" : "",
-    "created_data" : "DATETIME_EPOCH",
-    "invoice_prefix" : "STRING",
-    "next_invoice_sequence" : "INT",
-    "address" : "NULL",
-    "shipping" : "NULL",
-    "delinquent" : "BOOLEAN",
-    "preferred_locales" : "ARRAY",
+  "timestamp" : "DATETIME",
+  "status_data" : "NULL",
+  "merchant" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "name" : "PII_COMPANY_NAME",
     "id" : "STRING",
-    "mobile" : "PII_PHONE_NUMBER",
-    "emailAddress" : "PII_EMAIL",
-    "balance_data" : "INT",
-    "userName" : "PII_PERSON_NAME",
-    "metadata" : "OBJECT",
-    "invoice_settings" : {
-      "v_custom_fields" : "NULL",
-      "default_payment_method" : "STRING",
-      "v_rendering_options" : "NULL"
-    },
-    "price" : 446.85,
-    "test_clock" : "NULL",
-    "v_default_source" : "STRING"
-  } ],
-  "has_more" : "BOOLEAN",
-  "url" : "NULL"
+    "auto_renew" : false
+  },
+  "amount" : {
+    "value" : "INT",
+    "currency" : "STRING"
+  },
+  "billing" : {
+    "city_data" : "PII_LOCATION_CITY",
+    "address" : "PII_ADDRESS_LINE",
+    "postalCode" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "type" : "STRING",
+  "fraudScore" : "INT",
+  "card_data" : {
+    "expiryYear" : "STRING",
+    "cardholderName" : "PII_PERSON_NAME",
+    "expiryMonth" : "STRING",
+    "v_scheme" : "STRING",
+    "pan" : "PII_CREDIT_CARD",
+    "issuingBank" : "PII_COMPANY_NAME",
+    "issuingCountry" : "PII_LOCATION_COUNTRY"
+  }
 }

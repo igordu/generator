@@ -1,34 +1,35 @@
 {
-  "v_telecom" : [ {
-    "value" : "PII_EMAIL",
-    "system" : "STRING",
-    "cpu_usage_percent" : 301.34
-  }, {
-    "value" : "PII_PHONE_NUMBER",
-    "system" : "STRING",
-    "use" : "STRING"
-  } ],
-  "id" : "STRING",
-  "meta" : {
-    "lastUpdated" : "DATETIME"
+  "v_status" : "STRING",
+  "profile" : {
+    "city" : "PII_LOCATION_CITY",
+    "v_streetAddress" : "PII_ADDRESS_LINE",
+    "v_countryCode" : "PII_LOCATION_COUNTRY",
+    "login" : "PII_EMAIL",
+    "secondEmail" : "PII_EMAIL",
+    "organization" : "PII_COMPANY_NAME",
+    "email" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME",
+    "title" : "STRING",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "employeeNumber" : "STRING",
+    "v_zipCode" : "STRING",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "department" : "STRING",
+    "state" : "STRING",
+    "mobilePhone" : "PII_PHONE_NUMBER"
   },
-  "identifier" : [ {
-    "http_status" : 2156,
-    "use" : "STRING",
-    "v_system" : "",
-    "value" : "PII_NATIONAL_ID"
-  } ],
-  "resourceType" : "STRING",
-  "gender" : "STRING",
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "address" : [ {
-    "country" : "PII_LOCATION_COUNTRY",
-    "v_use" : "STRING",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "city" : "PII_LOCATION_CITY"
-  } ],
-  "fullName" : [ {
-    "v_family" : "PII_PERSON_LAST_NAME",
-    "given" : [ "PII_PERSON_FIRST_NAME" ]
-  } ]
+  "v_activated" : "DATETIME",
+  "passwordChanged" : "DATETIME",
+  "credentials_data" : {
+    "provider" : {
+      "clientName" : "STRING",
+      "cpu_usage_percent" : 9.23,
+      "type_data" : "STRING"
+    },
+    "v_password" : "OBJECT"
+  },
+  "is_deleted" : true,
+  "lastLogin_data" : "DATETIME",
+  "lastUpdated" : "DATETIME",
+  "created" : "DATETIME"
 }

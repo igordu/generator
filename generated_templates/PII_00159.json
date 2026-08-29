@@ -1,62 +1,32 @@
 {
-  "registrationMarketplaceId" : "STRING",
-  "status_data" : "STRING",
-  "username" : "PII_USERNAME",
-  "primaryKey" : {
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "v_countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
+  "type" : "STRING",
+  "conversation_parts" : [ {
+    "body" : "PII_FREE_TEXT",
+    "item_count" : 2195,
+    "v_author" : {
+      "v_type" : "STRING",
+      "name" : "PII_PERSON_NAME"
     },
-    "contactEmail" : "PII_EMAIL",
-    "firstName" : "PII_PERSON_NAME",
-    "page_index" : 2664,
-    "fullName" : "PII_PERSON_NAME",
-    "mobile" : {
-      "countryCode" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "cpu_usage_percent" : 60.03
+    "created_at_data" : "DATETIME_EPOCH",
+    "part_type" : "STRING"
+  } ],
+  "open" : "BOOLEAN",
+  "v_read" : "BOOLEAN",
+  "created_at" : "DATETIME_EPOCH",
+  "discount_rate" : 76.9,
+  "state" : "STRING",
+  "priority" : "STRING",
+  "source" : {
+    "type" : "STRING",
+    "body" : "PII_FREE_TEXT",
+    "author" : {
+      "name" : "PII_PERSON_NAME",
+      "type" : "STRING",
+      "primaryKey" : "STRING",
+      "email" : "PII_EMAIL"
     },
-    "registrationAddress" : {
-      "postalCode" : "STRING",
-      "city" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine2" : "STRING",
-      "country" : "STRING",
-      "addressLine1" : "STRING",
-      "auto_renew" : true
-    }
+    "delivered_as" : "STRING",
+    "subject" : "STRING"
   },
-  "businessAccount" : {
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "name_val" : "PII_PERSON_NAME",
-      "http_status" : 4430
-    },
-    "address" : {
-      "addressLine1" : null,
-      "city" : "STRING",
-      "country" : "STRING",
-      "county" : "STRING",
-      "v_postalCode" : "STRING",
-      "stateOrProvince" : "STRING"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "cell" : "STRING"
-    },
-    "v_website" : "URL",
-    "doingBusinessAs" : "STRING",
-    "email" : "PII_EMAIL",
-    "primaryPhone" : {
-      "v_countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "item_count" : 2444
-    }
-  },
-  "accountType" : "STRING"
+  "id" : "STRING"
 }

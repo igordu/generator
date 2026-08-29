@@ -1,43 +1,23 @@
-[ {
-  "v_filter" : "STRING",
-  "v_facets" : [ {
-    "key" : "STRING",
-    "count_data" : "INT"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "priority_level" : 1507,
-    "key" : "STRING"
-  }, {
-    "key" : "STRING",
-    "fullName" : "STRING",
-    "count" : "NULL"
-  } ]
-}, {
-  "requires_update" : true,
-  "facets" : [ {
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "is_active" : false,
-    "count" : "INT",
-    "v_key" : "STRING",
-    "clientName" : "STRING"
-  }, {
-    "clientName" : "STRING",
-    "key" : "STRING",
-    "count_data" : "INT"
-  } ]
-}, {
-  "filter_data" : "STRING",
-  "facets" : [ {
-    "count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "v_key" : "STRING",
-    "displayName" : "STRING",
-    "has_discount" : true,
-    "count_data" : "INT"
-  } ]
-} ]
+{
+  "data" : {
+    "fetchResource" : {
+      "currency" : "NULL",
+      "reorder_quantity" : "INT",
+      "batch_number_data" : "STRING",
+      "unit_cost_data" : "INT",
+      "v_quantity_on_hand" : "INT",
+      "tags" : [ "STRING" ],
+      "quantity_reserved" : "INT",
+      "price" : 6714.82,
+      "is_hazardous_data" : "BOOLEAN",
+      "quantity_available_data" : "INT",
+      "reorder_point" : "INT",
+      "location_code" : "STRING",
+      "clientName" : "STRING",
+      "expiry_date_data" : "NULL",
+      "last_counted_at" : "DATETIME",
+      "v_sku" : "STRING",
+      "last_received_at" : "DATETIME"
+    }
+  }
+}

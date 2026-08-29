@@ -1,26 +1,35 @@
 {
-  "discount_rate" : 515.89,
-  "transactions" : {
-    "booked_data" : [ {
-      "bookingDate_data" : "DATE",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "page_index" : 2311,
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "domain" : "STRING"
-      },
-      "amount" : {
-        "amount_data" : "DECIMAL",
-        "page_index" : 4442,
-        "currency" : "STRING"
-      },
-      "creditorName" : "PII_PERSON_NAME",
-      "debtorAccount" : {
-        "iban" : "STRING"
-      },
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      }
-    } ]
-  }
+  "lastUpdated" : "DATETIME",
+  "v_created" : "DATETIME",
+  "temperature_c" : 40.27,
+  "passwordChanged" : "DATETIME",
+  "v_profile" : {
+    "department" : "STRING",
+    "displayName" : "PII_PERSON_NAME",
+    "state" : "STRING",
+    "organization" : "PII_COMPANY_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "v_zipCode" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "employeeNumber" : "STRING",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "login_data" : "PII_EMAIL",
+    "countryCode" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "secondEmail" : "PII_EMAIL",
+    "mail" : "PII_EMAIL",
+    "title" : "STRING"
+  },
+  "v_activated" : "DATETIME",
+  "recordId" : "STRING",
+  "v_lastLogin" : "DATETIME",
+  "v_credentials" : {
+    "has_discount" : true,
+    "provider" : {
+      "is_deleted" : true
+    },
+    "v_password" : "OBJECT"
+  },
+  "status" : "STRING"
 }

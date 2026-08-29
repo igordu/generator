@@ -1,0 +1,26 @@
+{
+  "ticket": {
+    "id": "INT",
+    "subject": "STRING",
+    "description": "PII_FREE_TEXT",
+    "status": "STRING",
+    "priority": "STRING",
+    "requester": {
+      "name": "PII_PERSON_NAME",
+      "email": "PII_EMAIL"
+    },
+    "assignee_id": "INT",
+    "created_at": "DATETIME",
+    "updated_at": "DATETIME",
+    "tags": ["STRING"],
+    "comments": [
+      {
+        "id": "INT",
+        "author_id": "INT",
+        "body": "PII_FREE_TEXT",
+        "public": "BOOLEAN",
+        "created_at": "DATETIME"
+      }
+    ]
+  }
+}

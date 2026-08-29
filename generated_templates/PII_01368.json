@@ -1,8 +1,32 @@
 {
-  "user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "family-name-male" : "PII_LAST_NAME_MALE"
+  "v_pullRequest" : {
+    "changedFiles" : "INT",
+    "title" : "STRING",
+    "createdAt_data" : "DATETIME",
+    "reviewers_data" : [ {
+      "http_status" : 1667,
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "v_login" : "PII_USERNAME"
+    } ],
+    "baseBranch_data" : "STRING",
+    "id" : "INT",
+    "updatedAt" : "DATETIME",
+    "cpu_usage_percent" : 62.5,
+    "additions" : "INT",
+    "author_data" : {
+      "name" : "PII_PERSON_NAME",
+      "login" : "PII_USERNAME",
+      "email" : "PII_EMAIL",
+      "cpu_usage_percent" : 69.04
+    },
+    "headBranch" : "STRING",
+    "state_data" : "STRING",
+    "deletions" : "INT"
   },
-  "active_data" : "NULL"
+  "language_data" : "STRING",
+  "repositoryId" : "STRING",
+  "v_defaultBranch" : "STRING",
+  "private" : "BOOLEAN",
+  "price" : 3814.13
 }

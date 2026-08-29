@@ -1,15 +1,45 @@
 {
-  "status" : "STRING",
-  "last4" : "STRING",
-  "object" : "STRING",
-  "name_val" : "STRING",
-  "id" : "STRING",
-  "customer" : "STRING",
-  "metadata" : "OBJECT",
-  "currency" : "STRING",
-  "country" : "STRING",
-  "fingerprint" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "v_account_holder_type" : "STRING",
-  "account_type_data" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "v_interviews" : [ {
+        "price" : 1228.44,
+        "round" : "INT",
+        "interviewer" : {
+          "userName" : "PII_PERSON_NAME",
+          "email" : "PII_EMAIL",
+          "cache_hit" : true
+        },
+        "type" : "STRING",
+        "scheduledAt" : "DATETIME"
+      } ],
+      "updatedAt" : "DATETIME",
+      "status" : "STRING",
+      "candidateId" : "STRING",
+      "position" : {
+        "location" : "PII_LOCATION_CITY",
+        "title" : "STRING",
+        "department" : "STRING",
+        "recordId" : "STRING"
+      },
+      "v_appliedAt" : "NULL",
+      "source" : "STRING",
+      "candidate" : {
+        "resumeUrl" : "URL",
+        "priority_level" : 2653,
+        "phone" : "PII_PHONE_NUMBER",
+        "linkedIn" : "URL",
+        "name_val" : "PII_PERSON_LAST_NAME",
+        "dateOfBirth" : "PII_DATE_OF_BIRTH",
+        "email" : "PII_EMAIL",
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "address" : {
+          "street_data" : "PII_ADDRESS_LINE",
+          "v_postalCode" : "STRING",
+          "requires_update" : true,
+          "country" : "PII_LOCATION_COUNTRY",
+          "v_city" : "PII_LOCATION_CITY"
+        }
+      }
+    }
+  }
 }

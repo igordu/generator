@@ -1,0 +1,20 @@
+{
+  "price" : 5256.73,
+  "version" : "STRING",
+  "producer" : "STRING",
+  "occurredAt_data" : "DATETIME",
+  "eventId" : "STRING",
+  "payload_data" : {
+    "email" : "PII_EMAIL",
+    "registrationSource" : "STRING",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "recordId" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "eventType" : "STRING",
+  "primaryKey" : "STRING"
+}

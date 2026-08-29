@@ -1,4 +1,29 @@
 {
-  "clientToken" : "STRING",
-  "flowName" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "retryCount" : "INT",
+    "notificationId" : "STRING",
+    "type_data" : "STRING",
+    "v_notification" : {
+      "body" : "STRING",
+      "title" : "STRING",
+      "http_status" : 2889,
+      "data" : {
+        "orderId" : "STRING",
+        "deepLink" : "URL"
+      }
+    },
+    "status_data" : "STRING",
+    "recipient" : {
+      "platform_data" : "STRING",
+      "deviceToken_data" : "",
+      "cache_hit" : false
+    },
+    "sentAt" : "NULL",
+    "campaign" : "NULL",
+    "deliveredAt" : "DATETIME"
+  }
 }

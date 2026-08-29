@@ -1,94 +1,16 @@
 {
-  "clientToken_data" : "STRING",
-  "destinationFlowConfigList" : [ {
-    "apiVersion" : "STRING",
-    "connectorProfileName" : "STRING",
-    "connectorType" : "STRING",
-    "v_destinationConnectorProperties" : {
-      "v_S3" : {
-        "bucketPrefix" : "STRING",
-        "name_val" : "STRING",
-        "s3OutputFormatConfig_data" : {
-          "v_fileType" : "STRING",
-          "aggregationConfig" : {
-            "targetFileSize" : "INT",
-            "aggregationType" : "STRING"
-          },
-          "preserveSourceDataTyping_data" : "BOOLEAN"
-        },
-        "page_index" : 658
-      },
-      "Redshift" : {
-        "intermediateBucketName" : "",
-        "object" : "STRING",
-        "requires_update" : true,
-        "v_errorHandlingConfig" : {
-          "bucketPrefix" : "STRING",
-          "fullName" : "STRING"
-        }
-      },
-      "Salesforce" : {
-        "writeOperationType" : "STRING",
-        "errorHandlingConfig" : {
-          "bucketPrefix" : "STRING",
-          "bucketName" : "STRING",
-          "requires_update" : false,
-          "failOnFirstDestinationError" : "BOOLEAN"
-        },
-        "dataTransferApi" : "STRING",
-        "cache_hit" : false,
-        "object" : "STRING"
-      },
-      "LookoutMetrics" : { },
-      "EventBridge" : {
-        "errorHandlingConfig" : {
-          "temperature_c" : 468.59,
-          "bucketName" : "STRING",
-          "bucketPrefix_data" : "STRING"
-        },
-        "object_data" : "STRING"
-      }
-    }
-  } ],
-  "metadataCatalogConfig" : {
-    "glueDataCatalog" : {
-      "clientName" : null,
-      "tablePrefix_data" : "STRING",
-      "roleArn" : "STRING"
-    }
+  "interval_data" : "STRING",
+  "consecutiveSuccesses_data" : "INT",
+  "node_data" : {
+    "identifier" : "STRING",
+    "datacenter" : null,
+    "address" : "STRING"
   },
-  "tasks_data" : [ {
-    "taskProperties" : {
-      "property1" : null,
-      "system_ping_ms" : 49,
-      "property2" : "STRING"
-    },
-    "taskType" : "STRING",
-    "sourceFields" : "",
-    "v_destinationField" : "STRING",
-    "discount_rate" : 494.16
-  } ],
-  "description" : "STRING",
-  "flowName" : "STRING",
-  "kmsArn_data" : "STRING",
-  "triggerConfig" : {
-    "v_triggerType" : "STRING",
-    "triggerProperties" : {
-      "Scheduled" : {
-        "dataPullMode_data" : "STRING",
-        "flowErrorDeactivationThreshold" : "INT",
-        "scheduleExpression" : "STRING",
-        "scheduleStartTime" : "DATETIME",
-        "scheduleOffset_data" : "INT",
-        "timezone" : "STRING",
-        "v_firstExecutionFrom" : "DATETIME",
-        "scheduleEndTime" : "DATETIME"
-      }
-    }
-  },
-  "tags" : {
-    "cpu_usage_percent" : 291.95,
-    "property2" : "STRING",
-    "property1" : "STRING"
-  }
+  "status" : "STRING",
+  "output" : "STRING",
+  "consecutiveFailures" : "INT",
+  "v_timestamp" : "DATETIME",
+  "requires_update" : false,
+  "serviceId" : null,
+  "checkId" : "STRING"
 }

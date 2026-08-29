@@ -1,14 +1,24 @@
 {
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "clientName" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-  },
-  "active" : "BOOLEAN",
-  "v_tree" : {
-    "sha" : "NULL",
-    "v_url" : "URL",
-    "has_discount" : true
-  },
-  "system_ping_ms" : 4503
+  "data" : {
+    "fetchResource" : {
+      "ipAddress" : "PII_IP_ADDRESS",
+      "email" : "PII_EMAIL",
+      "v_riskScore" : "DECIMAL",
+      "createdAt" : "DATETIME",
+      "mfaMethod" : "STRING",
+      "userAgent" : "STRING",
+      "mfaVerified" : "BOOLEAN",
+      "uuid" : "STRING",
+      "issuedTokens" : {
+        "idToken" : "STRING",
+        "accessToken" : "STRING",
+        "refreshToken" : "STRING"
+      },
+      "scopes_data" : [ "STRING" ],
+      "deviceId" : "STRING",
+      "identifier" : "STRING",
+      "revoked_data" : "BOOLEAN",
+      "lastActivityAt" : "DATETIME"
+    }
+  }
 }

@@ -1,0 +1,16 @@
+{
+  "description" : "STRING",
+  "createdAt" : "DATETIME",
+  "members" : [ {
+    "is_active" : false,
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "userId" : "STRING"
+  } ],
+  "updatedAt" : "DATETIME",
+  "item_count" : 1583,
+  "name" : "STRING",
+  "oncallScheduleId" : "STRING",
+  "slackChannel" : "STRING",
+  "ownedServices" : [ "STRING" ]
+}

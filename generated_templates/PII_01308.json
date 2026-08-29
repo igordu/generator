@@ -1,12 +1,30 @@
 {
-  "tree" : {
-    "v_url" : "URL",
-    "sha" : "STRING"
+  "recipient" : {
+    "accountId" : "NULL",
+    "bic" : "STRING",
+    "iban" : "PII_IBAN",
+    "priority_level" : 1389,
+    "name_val" : "PII_PERSON_NAME",
+    "bankName" : "PII_COMPANY_NAME"
   },
-  "active_data" : "BOOLEAN",
-  "user_info" : {
-    "name_val" : "PII_COMPANY_NAME",
-    "fullName" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  }
+  "chargesBearer" : "STRING",
+  "amount" : {
+    "value_data" : "DECIMAL",
+    "currency" : "STRING",
+    "page_index" : 6
+  },
+  "completedAt_data" : "DATETIME",
+  "initiatedAt" : "DATETIME",
+  "identifier" : "STRING",
+  "endToEndId" : "NULL",
+  "sender" : {
+    "temperature_c" : 10.09,
+    "name" : "PII_PERSON_NAME",
+    "bic" : "",
+    "bankName" : "PII_COMPANY_NAME",
+    "iban_data" : "PII_IBAN",
+    "accountId" : "STRING"
+  },
+  "reference" : "NULL",
+  "status" : "STRING"
 }

@@ -1,60 +1,23 @@
 {
-  "uuid" : "STRING",
-  "name_val" : "PII_USERNAME",
-  "businessAccount_data" : {
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "has_discount" : true,
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "email" : "PII_EMAIL",
-    "primaryContact_data" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "doingBusinessAs" : "STRING",
-    "v_address" : {
-      "city" : "STRING",
-      "postalCode" : "STRING",
-      "county" : "STRING",
-      "cpu_usage_percent" : 279.46,
-      "addressLine2" : "STRING",
-      "stateOrProvince" : "STRING"
-    },
-    "name_val" : "PII_ORGANIZATION_NAME",
-    "website" : "URL",
-    "secondaryPhone" : {
-      "phoneType" : "STRING",
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "temperature_c" : 159.88
+  "v_Owner" : {
+    "Name" : "PII_PERSON_NAME",
+    "Department" : "STRING",
+    "stock_quantity" : 125
   },
-  "individualAccount" : {
-    "primaryPhone" : {
-      "phoneType" : null,
-      "countryCode" : null,
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "email" : "PII_EMAIL",
-    "lastName" : "PII_PERSON_NAME",
-    "registrationAddress" : {
-      "postalCode" : "STRING",
-      "stateOrProvince" : "STRING",
-      "temperature_c" : 49.08,
-      "addressLine2" : "STRING",
-      "city" : "STRING",
-      "country_data" : "STRING"
-    },
-    "name_val" : "PII_PERSON_NAME",
-    "telephone" : {
-      "countryCode" : "STRING",
-      "cell" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER",
-      "temperature_c" : 429.22
-    }
+  "IsPrivate" : "BOOLEAN",
+  "ParentId" : "STRING",
+  "attributes" : {
+    "url" : "",
+    "v_type" : "STRING"
   },
-  "userId" : "STRING",
-  "status" : "STRING"
+  "Body" : "PII_FREE_TEXT",
+  "requires_update" : false,
+  "activity_log_data" : [ {
+    "timestamp_data" : "DATETIME",
+    "action" : "STRING",
+    "note_data" : "PII_FREE_TEXT"
+  } ],
+  "CreatedDate" : "DATETIME",
+  "v_LastModifiedDate" : "",
+  "Id" : "STRING"
 }

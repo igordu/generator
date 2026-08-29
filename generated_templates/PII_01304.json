@@ -1,18 +1,26 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "user_info" : {
-        "name_val" : "PII_COMPANY_NAME",
-        "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-        "family-name-male" : "PII_LAST_NAME_MALE",
-        "is_deleted" : true
-      },
-      "active_data" : "BOOLEAN",
-      "tree" : {
-        "v_sha" : "STRING",
-        "v_url" : "URL"
-      },
-      "cache_hit" : false
-    }
-  }
+  "sender" : {
+    "iban" : "PII_IBAN",
+    "bankName" : "PII_COMPANY_NAME",
+    "name" : "PII_PERSON_NAME",
+    "accountId" : "STRING",
+    "bic" : "STRING"
+  },
+  "identifier" : "STRING",
+  "v_initiatedAt" : "DATETIME",
+  "amount" : {
+    "currency" : "STRING",
+    "v_value" : "DECIMAL"
+  },
+  "reference_data" : "STRING",
+  "endToEndId" : "STRING",
+  "recipient" : {
+    "bic" : "STRING",
+    "iban" : "PII_IBAN",
+    "recordId" : "STRING",
+    "bankName" : "PII_COMPANY_NAME",
+    "name" : "PII_PERSON_NAME"
+  },
+  "status" : "STRING",
+  "chargesBearer" : "STRING"
 }

@@ -1,15 +1,46 @@
 {
-  "status" : "STRING",
-  "customer" : "STRING",
-  "metadata" : "OBJECT",
-  "identifier" : "STRING",
-  "fingerprint" : "STRING",
-  "v_country" : "STRING",
-  "last4_data" : "STRING",
-  "account_holder_type" : "STRING",
-  "currency" : "STRING",
-  "bank_name" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "v_routing_number" : "STRING",
-  "v_object" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "academicRecord" : {
+        "gpa" : "DECIMAL",
+        "advisor" : {
+          "priority_level" : 4779,
+          "email" : "PII_EMAIL",
+          "name" : "PII_PERSON_NAME"
+        },
+        "creditsCompleted_data" : "INT"
+      },
+      "enrollmentStatus" : "STRING",
+      "program" : "STRING",
+      "academicYear" : "STRING",
+      "studentId" : "STRING",
+      "personalInfo_data" : {
+        "lastName" : "PII_PERSON_LAST_NAME",
+        "nationality_data" : "PII_LOCATION_COUNTRY",
+        "email" : "PII_EMAIL",
+        "dateOfBirth" : "PII_DATE_OF_BIRTH",
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "gender" : "STRING",
+        "emailAddress" : "PII_EMAIL",
+        "cache_hit" : false,
+        "passportNumber" : "PII_NATIONAL_ID",
+        "phone" : "PII_PHONE_NUMBER"
+      },
+      "temperature_c" : -1.87,
+      "financialAid" : {
+        "v_disbursedAt" : "DATE",
+        "primaryKey" : null,
+        "price" : 2211.67,
+        "currency" : "STRING",
+        "amount" : "DECIMAL"
+      },
+      "address" : {
+        "retry_attempts" : 4267,
+        "postcode" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "street" : "PII_ADDRESS_LINE",
+        "country" : "PII_LOCATION_COUNTRY"
+      }
+    }
+  }
 }

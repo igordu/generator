@@ -1,5 +1,12 @@
 {
-  "clientToken_data" : "STRING",
-  "priority_level" : 2704,
-  "flowName" : "STRING"
+  "cacheKey" : "STRING",
+  "userName" : "STRING",
+  "ttl" : "INT",
+  "v_createdAt" : "DATETIME",
+  "value" : {
+    "expiresAt" : "DATETIME",
+    "roles" : [ "STRING" ],
+    "uuid" : "NULL"
+  },
+  "lastAccessedAt" : "DATETIME"
 }

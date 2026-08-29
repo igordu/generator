@@ -1,0 +1,22 @@
+{
+  "v_framework" : "STRING",
+  "version" : "STRING",
+  "uuid" : "STRING",
+  "metrics" : {
+    "auc_data" : "DECIMAL",
+    "recall" : "DECIMAL",
+    "accuracy" : "DECIMAL",
+    "f1Score" : "DECIMAL",
+    "precision" : "DECIMAL"
+  },
+  "endpoint" : "URL",
+  "status" : "STRING",
+  "inferenceStats" : {
+    "v_p99LatencyMs" : "INT",
+    "avgLatencyMs" : "INT",
+    "requestsToday" : "INT"
+  },
+  "trainedBy" : "PII_EMAIL",
+  "name" : "STRING",
+  "trainingDataPeriod" : "STRING"
+}

@@ -1,5 +1,15 @@
 {
-  "emailAddressStatus" : [ "STRING" ],
-  "emailAddress" : "PII_EMAIL",
-  "cpu_usage_percent" : 785.21
+  "routing_number" : "STRING",
+  "v_status" : "STRING",
+  "fingerprint" : "STRING",
+  "v_object" : "STRING",
+  "account_type" : null,
+  "currency" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "item_count" : 2627,
+  "metadata" : "NULL",
+  "v_customer" : "STRING",
+  "last4" : "STRING",
+  "country" : "STRING",
+  "account_holder_type" : "STRING"
 }

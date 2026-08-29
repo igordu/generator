@@ -1,65 +1,29 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "discount_rate" : 521.38,
-    "businessAccount_data" : {
-      "name" : "PII_ORGANIZATION_NAME",
-      "doingBusinessAs" : "STRING",
-      "address" : {
-        "addressLine2" : "STRING",
-        "conversion_rate" : 861.67,
-        "stateOrProvince" : "STRING",
-        "county" : "STRING",
-        "addressLine1" : "NULL",
-        "city_data" : "STRING",
-        "country_data" : "STRING"
-      },
-      "website" : "URL",
-      "contactNumber" : {
-        "requires_update" : true,
-        "countryCode" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      },
-      "primaryPhone" : {
-        "v_countryCode" : "STRING",
-        "number" : "PII_PHONE_NUMBER",
-        "phoneType" : "STRING"
-      },
-      "primary_email" : "PII_EMAIL",
-      "primaryContact" : {
-        "lastName" : "PII_PERSON_NAME",
-        "is_deleted" : true,
-        "firstName" : "PII_PERSON_NAME"
-      }
-    },
-    "status" : "STRING",
-    "individualAccount" : {
-      "secondaryPhone" : {
-        "number" : "PII_PHONE_NUMBER",
-        "v_countryCode" : "STRING",
-        "phoneType" : "STRING"
-      },
-      "userName" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "stock_quantity" : 1836,
-      "primaryPhone" : {
-        "number" : "PII_PHONE_NUMBER",
-        "is_deleted" : true,
-        "countryCode_data" : "STRING"
-      },
-      "registrationAddress" : {
-        "v_addressLine2" : "STRING",
-        "postalCode" : "STRING",
-        "city_data" : "STRING",
-        "stateOrProvince" : "NULL",
-        "temperature_c" : 21.83,
-        "county_data" : "STRING",
-        "addressLine1" : "STRING"
-      }
-    },
-    "accountType" : "STRING",
-    "username" : "PII_USERNAME",
-    "userId" : "STRING"
-  }
+  "send_at" : "DATETIME_EPOCH",
+  "uuid" : "STRING",
+  "reply_to" : {
+    "auto_renew" : true,
+    "mail" : "PII_EMAIL"
+  },
+  "content" : [ {
+    "type" : "STRING",
+    "value" : "PII_FREE_TEXT"
+  } ],
+  "from" : {
+    "email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME"
+  },
+  "mail_settings" : {
+    "sandbox_mode_data" : {
+      "enable" : "BOOLEAN"
+    }
+  },
+  "categories" : [ "STRING" ],
+  "v_personalizations" : [ {
+    "v_subject" : "STRING",
+    "to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ]
+  } ]
 }

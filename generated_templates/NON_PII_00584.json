@@ -1,50 +1,25 @@
-[ {
-  "name" : "STRING",
-  "avatarUrls" : {
-    "v_24x24" : "URL",
-    "32x32_data" : "NULL",
-    "cpu_usage_percent" : 659.49,
-    "48x48" : "URL",
-    "16x16" : "URL"
-  },
-  "insight" : {
-    "lastIssueUpdateTime_data" : "DATETIME",
-    "totalIssueCount" : "INT",
-    "cpu_usage_percent" : 369.71
-  },
-  "key_data" : "STRING",
-  "v_projectCategory" : {
-    "id" : "STRING",
-    "description" : "STRING",
-    "name" : "STRING",
-    "v_self" : "URL"
-  },
-  "self" : "URL",
-  "primaryKey" : "STRING",
-  "simplified" : "BOOLEAN",
-  "style" : "STRING"
-}, {
-  "id" : "STRING",
-  "insight" : {
-    "page_index" : 4704,
-    "v_lastIssueUpdateTime" : null,
-    "v_totalIssueCount" : "INT"
-  },
-  "name" : "STRING",
-  "has_discount" : false,
-  "self" : "URL",
-  "avatarUrls_data" : {
-    "32x32" : "URL",
-    "24x24" : "URL",
-    "16x16" : "URL",
-    "48x48_data" : "URL"
-  },
-  "projectCategory" : {
-    "v_description" : "STRING",
-    "name" : "STRING",
-    "self" : "URL",
-    "identifier" : null
-  },
-  "key" : "STRING",
-  "simplified" : "BOOLEAN"
-} ]
+{
+  "enabled" : "BOOLEAN",
+  "v_description" : "STRING",
+  "createdAt" : "DATETIME",
+  "recordId" : "STRING",
+  "actions" : [ {
+    "type" : "STRING",
+    "config" : {
+      "is_active" : true,
+      "requestsPerMinute" : "INT",
+      "responseMessage" : "STRING",
+      "responseCode_data" : "NULL",
+      "keyBy" : "STRING"
+    },
+    "http_status" : 1603
+  } ],
+  "createdBy" : "STRING",
+  "requires_update" : false,
+  "v_priority" : "INT",
+  "conditions_data" : [ {
+    "field" : "STRING",
+    "operator" : "STRING"
+  } ],
+  "updatedAt" : "DATETIME"
+}

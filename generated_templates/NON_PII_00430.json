@@ -1,9 +1,29 @@
 {
-  "system_state" : {
-    "event_data" : {
-      "extracted_info" : {
-        "clientToken_data" : "STRING"
-      }
-    }
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "signature" : "STRING",
+    "v_endpoint" : {
+      "status" : "STRING",
+      "primaryKey" : "STRING",
+      "url" : "URL"
+    },
+    "response" : {
+      "body" : "STRING",
+      "latencyMs" : "INT",
+      "statusCode" : "INT"
+    },
+    "event" : "STRING",
+    "payload" : {
+      "currency" : "NULL",
+      "customerId" : "STRING",
+      "completedAt" : "DATETIME",
+      "v_totalAmount" : null,
+      "has_discount" : false,
+      "primaryKey" : "STRING"
+    },
+    "deliveredAt" : "DATETIME",
+    "webhookId" : "STRING",
+    "attempts" : "INT"
   }
 }

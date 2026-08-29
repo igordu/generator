@@ -1,20 +1,25 @@
 {
-  "content" : [ {
-    "uuid" : "STRING",
-    "unhelpfulCount" : "INT",
-    "title_data" : "PII_COMPANY_NAME",
-    "customerCity" : "PII_LOCATION_CITY",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "helpfulCount" : "INT",
-    "language" : "STRING",
-    "rating" : "INT",
-    "recommend" : "BOOLEAN",
-    "v_description" : "STRING",
-    "articleSizeRatings_data" : {
-      "has_discount" : true,
-      "OVERALL" : "INT"
+  "is_deleted" : true,
+  "ticket" : {
+    "subject" : "NULL",
+    "id" : "INT",
+    "requester_data" : {
+      "name" : "PII_PERSON_NAME",
+      "primary_email" : "PII_EMAIL"
     },
-    "articleId" : "STRING",
-    "v_created" : null
-  } ]
+    "comments_data" : [ {
+      "created_at_data" : "DATETIME",
+      "body" : "PII_FREE_TEXT",
+      "id" : "INT",
+      "public" : "NULL",
+      "author_id" : "INT"
+    } ],
+    "v_tags" : [ "STRING" ],
+    "priority" : "STRING",
+    "assignee_id" : "INT",
+    "status_data" : "STRING",
+    "created_at" : "DATETIME",
+    "updated_at_data" : "NULL",
+    "description" : "PII_FREE_TEXT"
+  }
 }

@@ -1,0 +1,30 @@
+{
+  "taskId": "task-etl-20240410-001",
+  "name": "daily-user-sync",
+  "type": "etl",
+  "status": "completed",
+  "scheduledAt": "2024-04-10T01:00:00Z",
+  "startedAt": "2024-04-10T01:00:05Z",
+  "completedAt": "2024-04-10T01:18:42Z",
+  "durationSeconds": 1117,
+  "source": {
+    "type": "postgresql",
+    "host": "db-primary.internal",
+    "database": "users_db",
+    "table": "users"
+  },
+  "destination": {
+    "type": "bigquery",
+    "project": "analytics-prod",
+    "dataset": "crm",
+    "table": "users_daily_snapshot"
+  },
+  "stats": {
+    "recordsRead": 284920,
+    "recordsWritten": 284920,
+    "recordsSkipped": 0,
+    "bytesTransferred": 1482930128
+  },
+  "triggeredBy": "scheduler",
+  "nextRunAt": "2024-04-11T01:00:00Z"
+}

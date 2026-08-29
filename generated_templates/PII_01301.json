@@ -1,19 +1,29 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "tree" : {
-      "discount_rate" : 242.44,
-      "url" : "URL",
-      "sha_data" : "STRING"
-    },
-    "active" : "BOOLEAN",
-    "user_info_data" : {
-      "family-name-male" : "PII_LAST_NAME_MALE",
-      "system_ping_ms" : 1005,
-      "arline__name" : "PII_COMPANY_NAME",
-      "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-    },
-    "price" : 436.18
-  }
+  "recipient" : {
+    "accountId" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "bankName" : "PII_COMPANY_NAME",
+    "bic" : "STRING",
+    "iban" : "PII_IBAN",
+    "auto_renew" : false
+  },
+  "transferId" : "STRING",
+  "v_sender" : {
+    "accountId" : "STRING",
+    "bankName" : "PII_COMPANY_NAME",
+    "iban_data" : "PII_IBAN",
+    "bic_data" : "",
+    "name" : "PII_PERSON_NAME",
+    "auto_renew" : false
+  },
+  "v_status" : "STRING",
+  "endToEndId" : "STRING",
+  "amount" : {
+    "v_value" : "DECIMAL",
+    "currency" : "STRING"
+  },
+  "completedAt" : "DATETIME",
+  "initiatedAt" : "DATETIME",
+  "chargesBearer" : "STRING",
+  "reference" : "STRING"
 }

@@ -1,0 +1,36 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "featureImportance" : {
+      "monthly_spend_trend" : "DECIMAL",
+      "days_since_last_login" : "DECIMAL",
+      "item_count" : 3565,
+      "support_ticket_count" : "DECIMAL",
+      "product_usage_score" : "DECIMAL"
+    },
+    "status_data" : null,
+    "uuid" : "STRING",
+    "framework" : "STRING",
+    "trainingDataPeriod_data" : "STRING",
+    "v_trainedBy" : "PII_EMAIL",
+    "version" : "STRING",
+    "name" : "",
+    "endpoint" : "URL",
+    "v_metrics" : {
+      "recall" : "DECIMAL",
+      "v_precision" : "DECIMAL",
+      "auc_data" : "DECIMAL",
+      "f1Score_data" : "DECIMAL",
+      "has_discount" : true,
+      "accuracy" : "DECIMAL"
+    },
+    "v_inferenceStats" : {
+      "avgLatencyMs" : "INT",
+      "p99LatencyMs" : "INT",
+      "requestsToday" : "INT",
+      "errorRate" : "DECIMAL"
+    },
+    "v_deployedAt" : "DATETIME"
+  }
+}

@@ -1,5 +1,23 @@
 {
-  "price" : 819.78,
-  "clientToken" : "STRING",
-  "flowName" : "STRING"
+  "item_count" : 230,
+  "campaign_data" : "NULL",
+  "notificationId" : "STRING",
+  "status" : "",
+  "recipient" : {
+    "v_platform" : "STRING",
+    "appVersion" : "STRING",
+    "deviceToken" : "STRING",
+    "userId" : "STRING"
+  },
+  "v_retryCount" : "INT",
+  "notification" : {
+    "data" : {
+      "orderId" : "STRING",
+      "deepLink" : "URL"
+    },
+    "body" : "STRING"
+  },
+  "type" : "STRING",
+  "sentAt" : "DATETIME",
+  "deliveredAt_data" : "DATETIME"
 }

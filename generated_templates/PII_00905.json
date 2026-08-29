@@ -1,32 +1,35 @@
 {
-  "v_data" : [ {
-    "description_data" : "STRING",
-    "created" : "DATETIME_EPOCH",
-    "delinquent_data" : "BOOLEAN",
-    "default_source" : "STRING",
-    "balance_data" : "INT",
-    "next_invoice_sequence_data" : "INT",
-    "livemode" : "BOOLEAN",
-    "v_shipping" : "NULL",
-    "id" : "STRING",
-    "v_tax_exempt" : "STRING",
-    "currency" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "v_test_clock" : "NULL",
-    "invoice_settings" : {
-      "rendering_options" : "NULL",
-      "custom_fields" : "NULL",
-      "footer" : "STRING",
-      "default_payment_method" : "STRING"
-    },
-    "v_invoice_prefix" : "STRING",
-    "email" : "PII_EMAIL",
-    "address" : "NULL",
-    "name" : "PII_PERSON_NAME",
-    "object" : "STRING",
-    "preferred_locales" : "ARRAY"
-  } ],
-  "has_more" : "BOOLEAN",
-  "url" : "URL",
-  "object" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "reportedDate" : "NULL",
+      "estimatedLoss" : "DECIMAL",
+      "claimId" : "STRING",
+      "policyNumber" : "STRING",
+      "currency" : "STRING",
+      "retry_attempts" : 840,
+      "policyHolder" : {
+        "mobile" : "PII_PHONE_NUMBER",
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "address" : {
+          "street" : "PII_ADDRESS_LINE",
+          "zip" : "STRING",
+          "country_data" : "PII_LOCATION_COUNTRY",
+          "city" : "PII_LOCATION_CITY",
+          "system_ping_ms" : 4723,
+          "state" : "NULL"
+        },
+        "lastName" : "PII_PERSON_LAST_NAME",
+        "email" : "PII_EMAIL",
+        "requires_update" : true,
+        "dateOfBirth_data" : "PII_DATE_OF_BIRTH"
+      },
+      "v_description" : "NULL",
+      "status" : "",
+      "adjuster" : {
+        "email" : "PII_EMAIL",
+        "id" : "STRING",
+        "name" : "PII_PERSON_NAME"
+      }
+    }
+  }
 }

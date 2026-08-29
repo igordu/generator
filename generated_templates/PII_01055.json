@@ -1,16 +1,37 @@
 {
-  "status_data" : "STRING",
-  "id" : "STRING",
-  "currency" : "STRING",
-  "last4" : "STRING",
-  "account_type" : null,
-  "system_ping_ms" : 2480,
-  "country" : "STRING",
-  "fingerprint" : "STRING",
-  "userName" : "STRING",
-  "customer_data" : "STRING",
-  "routing_number" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "metadata" : "OBJECT",
-  "object" : "STRING"
+  "v_status" : "STRING",
+  "bookingRef_data" : "NULL",
+  "issuedAt_data" : "DATETIME",
+  "totalFare" : {
+    "currency" : "STRING",
+    "amount" : "DECIMAL"
+  },
+  "v_passenger" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "passportExpiry" : "DATE",
+    "title" : "STRING",
+    "conversion_rate" : 7.38,
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "frequentFlyerNumber" : "STRING",
+    "v_passportNumber" : "PII_NATIONAL_ID",
+    "email" : "PII_EMAIL",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "lastName" : "PII_PERSON_LAST_NAME"
+  },
+  "temperature_c" : 9.66,
+  "fareClass" : "STRING",
+  "itinerary" : [ {
+    "arrivalAt" : "DATETIME",
+    "destination" : "STRING",
+    "cabin_data" : "STRING",
+    "v_origin" : "STRING",
+    "segment_data" : "INT",
+    "departureAt" : "DATETIME",
+    "price" : 5068.26,
+    "status" : "",
+    "seat" : "",
+    "flightNumber" : "STRING"
+  } ],
+  "ticketNumber_data" : "STRING"
 }

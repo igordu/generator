@@ -1,33 +1,43 @@
 {
-  "v_total_records" : "INT",
-  "page_number" : "INT",
-  "page_count" : "INT",
-  "page_size" : "INT",
-  "registrants_data" : [ {
-    "industry_data" : "STRING",
-    "v_create_time" : "DATETIME",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "contactEmail" : "PII_EMAIL",
-    "comments" : "STRING",
-    "org_data" : "PII_ORGANIZATION_NAME",
-    "role_in_purchase_process" : "STRING",
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "city_data" : "PII_LOCATION_CITY",
-    "address_data" : "PII_ADDRESS_LINE",
-    "zip" : "STRING",
-    "join_url" : "URL",
+  "telecom" : [ {
+    "is_deleted" : false,
+    "value_data" : "PII_EMAIL",
+    "system_data" : "STRING"
+  }, {
+    "retry_attempts" : 3628,
+    "use" : "STRING",
+    "system" : "STRING",
+    "v_value" : "PII_PHONE_NUMBER"
+  } ],
+  "resourceType" : "STRING",
+  "birthDate_data" : "PII_DATE_OF_BIRTH",
+  "identifier" : [ {
+    "value_data" : "PII_NATIONAL_ID",
+    "system" : "URL",
+    "response_time_sec" : 3.08
+  } ],
+  "id" : "STRING",
+  "active" : "BOOLEAN",
+  "qualification" : [ {
+    "code" : {
+      "auto_renew" : false,
+      "coding_data" : [ {
+        "system_data" : "URL",
+        "code" : "STRING"
+      } ]
+    }
+  } ],
+  "address_data" : [ {
+    "use" : "STRING",
+    "postalCode" : "STRING",
+    "state" : null,
+    "line" : [ "PII_ADDRESS_LINE" ],
     "country" : "PII_LOCATION_COUNTRY",
-    "id" : "STRING",
-    "custom_questions" : [ {
-      "value" : "STRING",
-      "title" : "STRING"
-    }, {
-      "auto_renew" : true,
-      "title" : "STRING"
-    } ],
-    "contactNumber" : "PII_PHONE_NUMBER",
-    "state_data" : "PII_LOCATION_STATE",
-    "purchasing_time_frame" : "STRING",
-    "v_no_of_employees" : "STRING"
+    "city" : "PII_LOCATION_CITY"
+  } ],
+  "name" : [ {
+    "family_data" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING"
   } ]
 }

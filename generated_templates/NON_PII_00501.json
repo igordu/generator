@@ -1,49 +1,24 @@
-[ {
-  "style" : "STRING",
-  "system_ping_ms" : 1679,
-  "v_projectCategory" : {
-    "item_count" : 3701,
+{
+  "summary" : {
+    "info" : "INT",
+    "v_medium" : "INT",
+    "low" : "INT",
+    "high" : "INT",
+    "critical" : "INT"
+  },
+  "completedAt" : "DATETIME",
+  "v_scanType" : "STRING",
+  "startedAt" : "DATETIME",
+  "uuid" : "STRING",
+  "status" : "STRING",
+  "target" : "URL",
+  "findings" : [ {
+    "cvss" : "DECIMAL",
+    "remediation" : "STRING",
+    "cwe" : "STRING",
+    "type" : "STRING",
     "description" : "STRING",
-    "id" : "STRING",
-    "fullName" : "STRING",
-    "self" : "URL"
-  },
-  "id" : "STRING",
-  "v_insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "name" : "STRING",
-  "avatarUrls" : {
-    "24x24" : "URL",
-    "48x48_data" : "URL",
-    "32x32" : "URL"
-  },
-  "self" : "URL",
-  "key" : "STRING"
-}, {
-  "page_index" : 4428,
-  "self" : "NULL",
-  "name" : "STRING",
-  "style" : "STRING",
-  "key_data" : "STRING",
-  "projectCategory" : {
-    "id" : "STRING",
-    "name_val" : "STRING",
-    "description" : "NULL",
-    "self" : "URL"
-  },
-  "v_avatarUrls" : {
-    "24x24" : "URL",
-    "32x32_data" : "URL",
-    "is_deleted" : false,
-    "48x48" : "URL",
-    "16x16" : "URL"
-  },
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "simplified" : "",
-  "id" : "STRING"
-} ]
+    "identifier" : "",
+    "parameter" : "STRING"
+  } ]
+}

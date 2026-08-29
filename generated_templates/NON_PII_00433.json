@@ -1,5 +1,19 @@
 {
-  "flowName" : "STRING",
-  "temperature_c" : 638.4,
-  "clientToken" : "STRING"
+  "attempts" : "INT",
+  "event" : "STRING",
+  "v_payload" : {
+    "currency_data" : "STRING",
+    "completedAt_data" : "DATETIME",
+    "orderId" : "STRING",
+    "v_totalAmount" : "DECIMAL"
+  },
+  "item_count" : 3924,
+  "signature" : "STRING",
+  "deliveredAt" : "DATETIME",
+  "endpoint_data" : {
+    "id" : "STRING",
+    "url" : "URL",
+    "status_data" : "STRING"
+  },
+  "webhookId" : "STRING"
 }

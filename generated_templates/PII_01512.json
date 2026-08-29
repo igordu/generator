@@ -1,0 +1,17 @@
+{
+  "permissions" : [ "STRING" ],
+  "description" : "STRING",
+  "createdAt" : "DATETIME",
+  "updatedAt" : "DATETIME",
+  "name" : "STRING",
+  "inheritedFrom" : [ "STRING" ],
+  "uuid" : "STRING",
+  "createdBy" : "PII_EMAIL",
+  "assignedTo" : [ {
+    "uuid" : "STRING",
+    "email" : "PII_EMAIL",
+    "assignedAt" : "DATETIME",
+    "requires_update" : false,
+    "name" : "PII_PERSON_NAME"
+  } ]
+}

@@ -1,9 +1,15 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "is_active" : true,
-      "emailAddress" : "PII_EMAIL",
-      "emailAddressStatus" : [ "STRING" ]
-    }
-  }
+  "fingerprint_data" : "STRING",
+  "routing_number" : "STRING",
+  "id" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "country_data" : "",
+  "clientName" : "STRING",
+  "metadata" : "OBJECT",
+  "customer_data" : "STRING",
+  "account_holder_type" : "STRING",
+  "status" : "STRING",
+  "account_type_data" : "STRING",
+  "last4" : "STRING",
+  "object" : "STRING"
 }

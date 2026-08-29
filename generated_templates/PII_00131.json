@@ -1,56 +1,22 @@
 {
-  "uuid" : {
-    "retry_attempts" : 852,
-    "registrationAddress" : {
-      "addressLine2" : "STRING",
-      "requires_update" : true,
-      "postalCode" : "STRING",
-      "stateOrProvince" : "STRING",
-      "county" : "STRING",
-      "country" : "STRING",
-      "addressLine1" : null,
-      "city" : "STRING"
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "conversion_rate" : 692.02,
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "firstName" : "PII_PERSON_NAME",
-    "telephone" : {
-      "countryCode_data" : "STRING",
-      "is_active" : false,
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    }
-  },
-  "registrationMarketplaceId" : "STRING",
-  "username" : "PII_USERNAME",
-  "page_index" : 2598,
-  "accountType" : "STRING",
-  "status" : "STRING",
-  "businessAccount" : {
-    "website" : "URL",
-    "name" : "PII_ORGANIZATION_NAME",
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "conversion_rate" : 228.41,
-    "v_primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "email" : "PII_EMAIL",
-    "v_doingBusinessAs" : "STRING",
-    "secondaryPhone" : {
-      "countryCode_data" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
+  "audit_trail" : {
+    "event_data" : {
+      "extracted_info" : {
+        "account_sid" : "STRING",
+        "status" : "STRING",
+        "stock_quantity" : 882,
+        "v_to" : "PII_PHONE_NUMBER",
+        "price" : "DECIMAL",
+        "body_data" : "PII_FREE_TEXT",
+        "v_date_created" : "DATETIME",
+        "uri" : "URL",
+        "from" : "PII_PHONE_NUMBER",
+        "num_segments" : "INT",
+        "sid" : "STRING",
+        "error_code_data" : "NULL",
+        "v_direction" : "STRING",
+        "price_unit" : "STRING"
+      }
     }
   }
 }

@@ -1,14 +1,40 @@
 {
-  "tree_data" : {
-    "conversion_rate" : 502.61,
-    "url" : "URL",
-    "sha" : "STRING"
-  },
-  "user_info" : {
-    "userName" : "PII_COMPANY_NAME",
-    "system_ping_ms" : 1701,
-    "clientName" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-  },
-  "active_data" : "BOOLEAN"
+  "system_state" : {
+    "request_context" : {
+      "raw_data" : {
+        "private" : "BOOLEAN",
+        "repositoryId" : "STRING",
+        "defaultBranch" : "STRING",
+        "fullName" : "STRING",
+        "name_val" : "STRING",
+        "pullRequest" : {
+          "state_data" : "STRING",
+          "author" : {
+            "v_login" : "PII_USERNAME",
+            "email" : "PII_EMAIL",
+            "system_ping_ms" : 518,
+            "name_val" : "PII_PERSON_NAME"
+          },
+          "deletions" : "INT",
+          "discount_rate" : 86.71,
+          "title" : "STRING",
+          "createdAt" : "DATETIME",
+          "additions" : "INT",
+          "headBranch" : "NULL",
+          "changedFiles" : "INT",
+          "v_baseBranch" : "",
+          "recordId" : null,
+          "reviewers" : [ {
+            "name" : "PII_PERSON_NAME",
+            "response_time_sec" : 7.08,
+            "state" : "STRING",
+            "login_data" : "PII_USERNAME",
+            "mail" : "PII_EMAIL"
+          } ],
+          "updatedAt" : "DATETIME"
+        },
+        "v_language" : "STRING"
+      }
+    }
+  }
 }

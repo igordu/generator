@@ -1,24 +1,22 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "recordId" : "STRING",
-    "media" : {
-      "auto_renew" : false,
-      "images_data" : [ {
-        "mediumHdUrl_data" : "URL",
-        "largeUrl" : "URL",
-        "v_smallHdUrl" : "URL",
-        "type" : "STRING",
-        "largeHdUrl_data" : null,
-        "smallUrl" : "URL",
-        "v_thumbnailHdUrl" : "URL",
-        "orderNumber" : ""
-      } ]
-    },
-    "id" : "",
-    "shopUrl" : "URL",
-    "userName" : "STRING",
-    "conversion_rate" : 106.32
-  }
+  "id" : "INT",
+  "prerelease" : "BOOLEAN",
+  "tag_name" : "STRING",
+  "name" : "STRING",
+  "body" : "TEXT",
+  "assets" : [ {
+    "download_count" : "INT",
+    "size" : "INT",
+    "recordId" : "INT",
+    "content_type" : "STRING",
+    "browser_download_url_data" : "URL"
+  } ],
+  "published_at" : "DATETIME",
+  "draft" : "BOOLEAN",
+  "target_commitish" : "STRING",
+  "changelog" : [ {
+    "message" : "TEXT",
+    "commit_sha_data" : "STRING",
+    "files_changed" : "INT"
+  } ]
 }

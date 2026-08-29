@@ -1,0 +1,24 @@
+{
+  "webhookId": "STRING",
+  "event": "STRING",
+  "deliveredAt": "DATETIME",
+  "attempts": "INT",
+  "payload": {
+    "orderId": "STRING",
+    "customerId": "STRING",
+    "totalAmount": "DECIMAL",
+    "currency": "STRING",
+    "completedAt": "DATETIME"
+  },
+  "endpoint": {
+    "id": "STRING",
+    "url": "URL",
+    "status": "STRING"
+  },
+  "response": {
+    "statusCode": "INT",
+    "body": "STRING",
+    "latencyMs": "INT"
+  },
+  "signature": "STRING"
+}

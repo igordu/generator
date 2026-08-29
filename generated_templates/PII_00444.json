@@ -1,41 +1,37 @@
 {
-  "gender" : "STRING",
-  "v_birthDate" : "PII_DATE_OF_BIRTH",
-  "primaryKey" : "STRING",
-  "v_address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "http_status" : 3267,
-    "country" : "PII_LOCATION_COUNTRY",
-    "city" : "PII_LOCATION_CITY",
-    "use" : "STRING"
+  "isAdmin" : "BOOLEAN",
+  "v_archived" : "BOOLEAN",
+  "emailAddress" : "PII_EMAIL",
+  "orgUnitPath" : "STRING",
+  "isMailboxSetup_data" : "BOOLEAN",
+  "addresses" : [ {
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "type" : "STRING",
+    "region" : "STRING",
+    "locality" : "PII_LOCATION_CITY",
+    "streetAddress" : "PII_ADDRESS_LINE"
   } ],
-  "identifier" : [ {
-    "value" : "PII_NATIONAL_ID",
-    "type" : {
-      "requires_update" : true,
-      "text" : "STRING"
-    },
-    "use" : "STRING",
-    "system_data" : "URL"
-  } ],
-  "name" : [ {
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "use" : "STRING",
-    "family" : "PII_PERSON_LAST_NAME",
-    "priority_level" : 3278
-  } ],
-  "meta" : {
-    "lastUpdated_data" : "DATETIME",
-    "versionId" : "INT"
+  "agreedToTerms" : "BOOLEAN",
+  "isDelegatedAdmin" : "BOOLEAN",
+  "recoveryPhone" : "PII_PHONE_NUMBER",
+  "recoveryEmail" : "PII_EMAIL",
+  "clientName" : {
+    "fullName" : "PII_PERSON_NAME",
+    "familyName" : "PII_PERSON_LAST_NAME",
+    "givenName" : "PII_PERSON_FIRST_NAME"
   },
-  "resourceType" : "STRING",
-  "telecom" : [ {
-    "system" : "STRING",
-    "value" : "PII_EMAIL",
-    "stock_quantity" : 1174
-  }, {
+  "id" : "STRING",
+  "phones" : [ {
     "value" : "PII_PHONE_NUMBER",
-    "use" : "STRING",
-    "system" : "STRING"
-  } ]
+    "v_type" : "STRING"
+  } ],
+  "lastLoginTime" : "DATETIME",
+  "changePasswordAtNextLogin" : "BOOLEAN",
+  "primary_email" : [ {
+    "address" : "PII_EMAIL",
+    "primary" : "BOOLEAN"
+  } ],
+  "suspended" : "BOOLEAN",
+  "creationTime" : "DATETIME",
+  "cache_hit" : true
 }

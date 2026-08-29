@@ -1,82 +1,24 @@
 {
-  "telemetry_data" : {
-    "event_data" : {
-      "raw_data" : [ {
-        "response_time_sec" : 939.66,
-        "comments_url_data" : "URL",
-        "author" : {
-          "subscriptions_url" : "URL",
-          "url" : "URL",
-          "received_events_url" : "URL",
-          "login" : "STRING",
-          "site_admin_data" : "BOOLEAN",
-          "v_following_url" : "URL",
-          "repos_url" : "URL",
-          "type" : "STRING",
-          "html_url" : "URL",
-          "node_id" : "STRING",
-          "followers_url" : "URL",
-          "organizations_url" : "URL",
-          "starred_url" : "URL",
-          "primaryKey" : "STRING",
-          "gists_url" : "URL",
-          "identifier" : "INT"
-        },
-        "committer" : {
-          "html_url_data" : "URL",
-          "avatar_url" : "URL",
-          "v_repos_url" : "URL",
-          "followers_url_data" : "URL",
-          "url" : null,
-          "v_following_url" : "URL",
-          "gravatar_id" : "STRING",
-          "subscriptions_url" : "URL",
-          "starred_url" : "URL",
-          "login" : "STRING",
-          "site_admin_data" : "BOOLEAN",
-          "node_id" : "",
-          "gists_url" : "URL",
-          "organizations_url" : "URL",
-          "events_url" : "URL",
-          "type" : "STRING",
-          "id" : "INT"
-        },
-        "commit" : {
-          "comment_count_data" : "INT",
-          "author" : {
-            "name" : "PII_PERSON_NAME",
-            "email" : "PII_EMAIL"
-          },
-          "v_verification" : {
-            "v_reason" : null,
-            "verified_data" : "BOOLEAN",
-            "signature" : "STRING",
-            "verified_at_data" : "",
-            "payload" : "NULL"
-          },
-          "committer" : {
-            "clientName" : "PII_PERSON_NAME",
-            "date" : "DATETIME",
-            "email" : "PII_EMAIL",
-            "price" : 864.14
-          },
-          "url" : "URL",
-          "v_tree" : {
-            "url" : "URL",
-            "sha" : "STRING"
-          },
-          "message_data" : "PII_COMPANY_NAME"
-        },
-        "html_url" : "URL",
-        "node_id" : "STRING",
-        "url" : "URL",
-        "sha" : "STRING",
-        "parents_data" : [ {
-          "item_count" : 1820,
-          "v_url" : "URL",
-          "sha_data" : "STRING"
-        } ]
-      } ]
-    }
-  }
+  "stock_quantity" : 3821,
+  "purposes" : [ {
+    "name" : "STRING",
+    "v_grantedAt" : "DATETIME",
+    "granted" : "BOOLEAN",
+    "id" : "STRING"
+  } ],
+  "collectedAt" : "DATETIME",
+  "retentionDays" : "INT",
+  "legalBasis_data" : "STRING",
+  "withdrawnAt" : "",
+  "version" : "STRING",
+  "v_dataSubject" : {
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "priority_level" : 2731,
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "id" : null,
+    "email" : "PII_EMAIL",
+    "v_country" : "PII_LOCATION_COUNTRY"
+  },
+  "primaryKey" : "NULL"
 }

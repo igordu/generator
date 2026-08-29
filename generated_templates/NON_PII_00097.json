@@ -1,19 +1,4 @@
 {
-  "system_state" : {
-    "request_context" : {
-      "raw_data" : {
-        "v_numberOfUserReviews" : "INT",
-        "starRatingDistribution" : {
-          "5" : "INT",
-          "2_data" : "INT",
-          "v_1" : "INT",
-          "v_4" : "INT",
-          "3_data" : "INT"
-        },
-        "averageStarRating" : "INT",
-        "numberOfUserPositiveRecommendations" : "INT",
-        "identifier" : "STRING"
-      }
-    }
-  }
+  "clientName" : "STRING",
+  "clientToken" : "STRING"
 }

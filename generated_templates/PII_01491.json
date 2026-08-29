@@ -1,0 +1,19 @@
+{
+  "finishedAt" : "DATETIME",
+  "commit" : "STRING",
+  "environment_data" : "STRING",
+  "stages" : [ {
+    "durationSeconds" : "NULL",
+    "name" : "STRING",
+    "coverage" : "DECIMAL",
+    "status_data" : "STRING"
+  } ],
+  "artifactDigest" : "STRING",
+  "branch_data" : "STRING",
+  "pipelineId" : "STRING",
+  "cpu_usage_percent" : 77.9,
+  "startedAt" : "NULL",
+  "triggeredBy" : "PII_EMAIL",
+  "status" : "STRING",
+  "repository_data" : "STRING"
+}

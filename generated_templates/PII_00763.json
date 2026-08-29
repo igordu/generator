@@ -1,44 +1,16 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "v_total_records" : "INT",
-    "response_time_sec" : 485.58,
-    "page_count_data" : "INT",
-    "page_number_data" : "INT",
-    "registrants_data" : [ {
-      "v_no_of_employees" : "STRING",
-      "zip" : "NULL",
-      "role_in_purchase_process" : "STRING",
-      "last_name" : "PII_PERSON_LAST_NAME",
-      "comments_data" : "STRING",
-      "job_title" : "STRING",
-      "create_time" : "NULL",
-      "state" : "PII_LOCATION_STATE",
-      "custom_questions" : [ {
-        "title" : "STRING",
-        "auto_renew" : false,
-        "value" : "STRING"
-      }, {
-        "value" : "STRING",
-        "title" : "STRING"
-      } ],
-      "purchasing_time_frame" : "STRING",
-      "email" : "PII_EMAIL",
-      "org" : "PII_ORGANIZATION_NAME",
-      "industry" : "STRING",
-      "country_data" : "PII_LOCATION_COUNTRY",
-      "city_data" : "PII_LOCATION_CITY",
-      "join_url" : "URL",
-      "status" : "STRING",
-      "priority_level" : 2735,
-      "id" : "STRING",
-      "address" : "PII_ADDRESS_LINE",
-      "name_val" : "PII_PERSON_FIRST_NAME",
-      "phone" : "PII_PHONE_NUMBER"
-    } ],
-    "v_page_size" : "INT"
-  }
+  "end" : "DATETIME",
+  "status_data" : "STRING",
+  "comment" : "STRING",
+  "id" : "STRING",
+  "resourceType" : "STRING",
+  "v_start" : "DATETIME",
+  "page_index" : 2518,
+  "participant" : [ {
+    "status" : "STRING",
+    "v_actor" : {
+      "v_display" : "PII_PERSON_NAME",
+      "reference" : "STRING"
+    }
+  } ]
 }

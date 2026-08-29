@@ -1,53 +1,20 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "name" : "NULL",
+  "v_createdBy" : {
+    "conversion_rate" : 0.04,
+    "email" : "PII_EMAIL"
   },
-  "results" : {
-    "hireable" : "BOOLEAN",
-    "fullName" : "STRING",
-    "owned_private_repos" : "INT",
-    "followers_url" : "URL",
-    "two_factor_authentication" : "BOOLEAN",
-    "name" : "PII_PERSON_NAME",
-    "created_at" : "DATETIME",
-    "type" : "STRING",
-    "blog" : "NULL",
-    "repos_url" : "URL",
-    "v_private_gists" : "INT",
-    "gists_url" : "URL",
-    "html_url" : "URL",
-    "email" : "PII_EMAIL",
-    "v_plan" : {
-      "v_space" : "INT",
-      "collaborators" : "INT",
-      "private_repos" : "INT",
-      "name" : "STRING",
-      "discount_rate" : 924.28
-    },
-    "total_private_repos" : "INT",
-    "v_disk_usage" : "INT",
-    "public_repos" : null,
-    "public_gists" : "INT",
-    "organizations_url" : "URL",
-    "subscriptions_url" : "URL",
-    "v_starred_url" : "URL",
-    "received_events_url" : "URL",
-    "gravatar_id" : "STRING",
-    "url" : "URL",
-    "identifier" : "STRING",
-    "id" : "INT",
-    "company" : "PII_ORGANIZATION_NAME",
-    "v_updated_at" : "DATETIME",
-    "bio" : "PII_ORGANIZATION_NAME",
-    "site_admin" : "BOOLEAN",
-    "avatar_url" : "URL",
-    "location" : "PII_LOCATION_CITY",
-    "followers" : "NULL",
-    "collaborators_data" : "INT",
-    "following_url" : "URL",
-    "login" : null,
-    "events_url" : "URL",
-    "following_data" : "INT"
-  }
+  "lastUsed_data" : "DATETIME",
+  "scopes" : [ "STRING" ],
+  "rateLimit_data" : {
+    "requestsPerMinute" : "INT",
+    "requestsPerDay" : "INT"
+  },
+  "cpu_usage_percent" : 3.39,
+  "apiKeyId" : "STRING",
+  "prefix" : "STRING",
+  "v_ipWhitelist" : [ "STRING" ],
+  "created_data" : "DATETIME",
+  "expiresAt_data" : null,
+  "status_data" : "STRING"
 }

@@ -1,15 +1,15 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "averageStarRating" : "INT",
-  "recordId" : "STRING",
+  "v_numberOfUserPositiveRecommendations" : "INT",
+  "primaryKey" : "STRING",
+  "item_count" : 4987,
   "starRatingDistribution" : {
-    "4" : "INT",
-    "3" : "INT",
-    "1" : "INT",
-    "cpu_usage_percent" : 357.63,
-    "5_data" : "INT",
-    "2" : "INT"
+    "4_data" : "INT",
+    "2" : "INT",
+    "5" : "INT",
+    "1_data" : "INT",
+    "3" : "INT"
   },
   "numberOfUserReviews" : "INT",
-  "numberOfUserRecommendations" : "INT"
+  "averageStarRating_data" : "INT",
+  "numberOfUserRecommendations" : ""
 }

@@ -1,29 +1,46 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "bankTransactionCode" : {
-        "domain" : "STRING",
-        "item_count" : 4533,
-        "family" : "STRING",
-        "subFamily" : "STRING"
+  "state" : "STRING",
+  "cart" : "STRING",
+  "id" : "STRING",
+  "transactions" : [ {
+    "v_amount" : {
+      "total" : "DECIMAL",
+      "v_currency" : "STRING"
+    },
+    "invoice_number" : "STRING",
+    "v_description" : "STRING"
+  } ],
+  "create_time" : "DATETIME",
+  "intent" : "STRING",
+  "payer" : {
+    "payment_method" : "STRING",
+    "payer_info" : {
+      "birth_date" : "PII_DATE_OF_BIRTH",
+      "item_count" : 4809,
+      "primaryKey" : "STRING",
+      "email" : "PII_EMAIL",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "country_code" : "STRING",
+      "phone" : "PII_PHONE_NUMBER",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "billing_address_data" : {
+        "city_data" : "PII_LOCATION_CITY",
+        "country_code_data" : "PII_LOCATION_COUNTRY",
+        "line1" : "PII_ADDRESS_LINE",
+        "state" : "STRING",
+        "response_time_sec" : 3.31
       },
-      "clientName" : "PII_PERSON_NAME",
-      "transactionId" : "STRING",
-      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
-      "userName" : "STRING",
-      "bookingDate" : "DATE",
-      "amount" : {
-        "v_currency" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "valueDate" : "DATE",
-      "debtorAccount" : {
-        "iban" : "STRING"
-      },
-      "conversion_rate" : 267.73,
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
+      "shipping_address_data" : {
+        "line1" : "PII_ADDRESS_LINE",
+        "postal_code_data" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "cell" : "PII_PHONE_NUMBER",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "recipient_name" : "PII_PERSON_NAME",
+        "line2" : "STRING"
       }
-    } ]
-  }
+    },
+    "status_data" : "STRING"
+  },
+  "price" : 4095.46
 }

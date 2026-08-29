@@ -1,35 +1,23 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "facets" : [ {
-      "displayName" : "STRING",
-      "is_active" : false,
-      "key_data" : "STRING",
-      "v_count" : "INT"
-    }, {
-      "stock_quantity" : 2536,
-      "count_data" : "INT",
-      "displayName" : "STRING",
-      "key" : "STRING"
-    } ]
-  }, {
-    "facets" : [ {
-      "auto_renew" : false,
-      "displayName" : null,
-      "v_key" : "STRING",
-      "count" : "INT"
-    } ],
-    "filter" : "STRING"
-  }, {
-    "is_deleted" : false,
-    "facets" : [ {
-      "clientName" : "STRING",
-      "v_count" : "INT"
-    }, {
-      "displayName" : "STRING",
-      "count_data" : "INT"
-    } ],
-    "filter" : "STRING"
-  } ]
+  "system_state" : {
+    "transaction_trace" : {
+      "raw_data" : {
+        "usage_data" : {
+          "output_tokens" : "INT",
+          "input_tokens_data" : "INT",
+          "is_active" : false
+        },
+        "content" : [ {
+          "v_type" : "STRING",
+          "is_deleted" : false,
+          "text" : "STRING"
+        } ],
+        "stop_reason" : "STRING",
+        "retry_attempts" : 2399,
+        "role" : "STRING",
+        "v_model" : "STRING",
+        "id" : "STRING"
+      }
+    }
+  }
 }

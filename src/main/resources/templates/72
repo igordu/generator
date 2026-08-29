@@ -1,0 +1,34 @@
+{
+  "invoiceId": "STRING",
+  "status": "STRING",
+  "issuedAt": "DATETIME",
+  "dueDate": "DATE",
+  "vendor": {
+    "name": "PII_COMPANY_NAME",
+    "vatNumber": "STRING",
+    "address": "PII_ADDRESS_LINE",
+    "email": "PII_EMAIL",
+    "iban": "PII_IBAN"
+  },
+  "customer": {
+    "name": "PII_PERSON_NAME",
+    "company": "PII_COMPANY_NAME",
+    "vatNumber": "STRING",
+    "address": "PII_ADDRESS_LINE",
+    "email": "PII_EMAIL"
+  },
+  "lineItems": [
+    {
+      "description": "STRING",
+      "quantity": "INT",
+      "unitPrice": "DECIMAL",
+      "vatRate": "DECIMAL",
+      "total": "DECIMAL"
+    }
+  ],
+  "subtotal": "DECIMAL",
+  "vatAmount": "DECIMAL",
+  "total": "DECIMAL",
+  "currency": "STRING",
+  "paymentTerms": "STRING"
+}

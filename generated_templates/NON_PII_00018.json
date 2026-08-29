@@ -1,14 +1,13 @@
 {
-  "starRatingDistribution" : {
-    "1_data" : "INT",
-    "4" : "",
-    "has_discount" : true,
-    "3" : "INT",
-    "v_5" : "INT"
-  },
-  "numberOfUserRecommendations_data" : "INT",
+  "numberOfUserReviews" : "INT",
   "averageStarRating" : "INT",
-  "identifier" : "",
-  "is_active" : true,
-  "numberOfUserReviews" : "INT"
+  "numberOfUserRecommendations" : "INT",
+  "articleModelId" : "STRING",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "starRatingDistribution" : {
+    "5" : "INT",
+    "2" : "INT",
+    "page_index" : 4321
+  },
+  "discount_rate" : 37.25
 }

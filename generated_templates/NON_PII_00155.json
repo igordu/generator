@@ -1,19 +1,29 @@
 {
-  "media" : {
-    "images" : [ {
-      "v_largeHdUrl" : "URL",
-      "largeUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "v_mediumUrl" : "URL",
-      "type" : "STRING",
-      "thumbnailHdUrl" : "URL",
-      "v_smallUrl" : "URL",
-      "mediumHdUrl" : "URL"
-    } ]
-  },
-  "uuid" : "STRING",
-  "primaryKey" : "STRING",
-  "shopUrl" : "URL",
-  "name" : "STRING"
+  "identifier" : {
+    "resolved_at" : "NULL",
+    "id" : "STRING",
+    "created_at" : "DATETIME",
+    "status" : "STRING",
+    "alert_counts" : {
+      "has_discount" : true,
+      "resolved" : "INT",
+      "triggered" : "INT",
+      "all_data" : "INT"
+    },
+    "urgency" : "STRING",
+    "service" : {
+      "summary" : "STRING",
+      "id" : "STRING"
+    },
+    "primaryKey" : "INT",
+    "page_index" : 3642,
+    "title" : "STRING",
+    "v_notes" : [ {
+      "created_at" : "DATETIME",
+      "content" : "TEXT",
+      "has_discount" : true,
+      "id" : "STRING"
+    } ],
+    "description" : "TEXT"
+  }
 }

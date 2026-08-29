@@ -1,34 +1,44 @@
 {
-  "price" : 515.09,
-  "Employees" : [ {
-    "fullName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Url" : "URL"
+  "cpu_usage_percent" : 13.7,
+  "fields" : {
+    "summary" : "STRING",
+    "assignee" : {
+      "priority_level" : 4941,
+      "emailAddress" : "PII_EMAIL",
+      "accountId" : "STRING",
+      "timeZone" : "STRING",
+      "userName" : "PII_PERSON_NAME",
+      "active" : "BOOLEAN"
     },
-    "UpdatedDateUTC_data" : null,
-    "recordId" : "STRING",
-    "Status_data" : "STRING"
-  }, {
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink_data" : {
-      "Description" : "STRING",
-      "auto_renew" : false
+    "priority" : {
+      "fullName" : "STRING"
     },
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "primaryKey" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "http_status" : 644,
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
+    "retry_attempts" : 624,
+    "created_data" : "DATETIME",
+    "duedate" : "DATE",
+    "comment" : {
+      "total_data" : "INT",
+      "comments" : [ {
+        "has_discount" : false,
+        "updated" : "DATETIME",
+        "author" : {
+          "emailAddress" : "PII_EMAIL",
+          "displayName" : "PII_PERSON_NAME",
+          "is_deleted" : true
+        },
+        "created" : "DATETIME",
+        "body" : "STRING",
+        "id" : "STRING"
+      } ]
+    },
+    "reporter_data" : {
+      "active" : "BOOLEAN",
+      "accountId" : "STRING",
+      "displayName" : "PII_PERSON_NAME",
+      "primary_email" : "PII_EMAIL",
+      "timeZone_data" : "STRING"
     }
-  } ],
-  "v_DateTimeUTC" : "DATETIME",
-  "Id" : "NULL",
-  "Status_data" : "STRING",
-  "ProviderName" : "STRING"
+  },
+  "key" : "STRING",
+  "id" : "STRING"
 }

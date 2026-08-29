@@ -1,4 +1,16 @@
 {
-  "emailAddress" : "PII_EMAIL",
-  "mail" : [ "STRING" ]
+  "bank_name" : "STRING",
+  "fingerprint" : "STRING",
+  "customer" : "STRING",
+  "account_holder_type" : "STRING",
+  "country" : "STRING",
+  "status" : "STRING",
+  "recordId" : "STRING",
+  "metadata" : "OBJECT",
+  "routing_number" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "currency" : "STRING",
+  "object" : "STRING",
+  "account_type" : "",
+  "last4" : "STRING"
 }

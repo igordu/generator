@@ -1,0 +1,25 @@
+{
+  "page_index" : 1093,
+  "createdAt" : "DATETIME",
+  "status" : "STRING",
+  "type" : "STRING",
+  "stats" : {
+    "totalDeliveries" : "",
+    "successRate" : "DECIMAL"
+  },
+  "lastTriggeredAt" : "DATETIME",
+  "createdBy" : {
+    "email" : "PII_EMAIL",
+    "http_status" : 3840
+  },
+  "integrationId" : "STRING",
+  "provider" : "STRING",
+  "triggers" : [ "STRING" ],
+  "v_updatedAt" : "DATETIME",
+  "config" : {
+    "mentionOnError" : "STRING",
+    "webhookUrl" : "URL",
+    "channel" : "STRING",
+    "stock_quantity" : 2522
+  }
+}

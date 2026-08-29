@@ -1,10 +1,17 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "flowName" : "STRING",
-    "cpu_usage_percent" : 934.78
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "namespace" : "STRING",
+    "hits" : "INT",
+    "v_region" : "STRING",
+    "value" : {
+      "recordId" : "STRING",
+      "roles" : [ "STRING" ],
+      "expiresAt_data" : "DATETIME"
+    },
+    "v_createdAt" : "DATETIME",
+    "response_time_sec" : 7.79,
+    "ttl" : "INT"
   }
 }

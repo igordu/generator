@@ -1,10 +1,46 @@
 {
-  "audit_trail" : {
-    "request_context" : {
-      "debug_payload" : {
-        "emailAddress" : "PII_EMAIL",
-        "emailAddressStatus" : [ "STRING" ]
-      }
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "recordId" : "STRING",
+    "address_data" : {
+      "postalCode" : "STRING",
+      "street" : "PII_ADDRESS_LINE",
+      "auto_renew" : true,
+      "city_data" : "PII_LOCATION_CITY",
+      "country_data" : "PII_LOCATION_COUNTRY"
+    },
+    "v_createdAt" : "DATETIME",
+    "document" : {
+      "expiryDate_data" : "DATE",
+      "fullName" : "PII_PERSON_LAST_NAME",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "system_ping_ms" : 2077,
+      "v_issuingCountry" : "PII_LOCATION_COUNTRY",
+      "number" : "PII_NATIONAL_ID",
+      "clientName" : "PII_PERSON_FIRST_NAME"
+    },
+    "price" : 2410.03,
+    "v_checks" : [ {
+      "http_status" : 1526,
+      "reason" : "STRING",
+      "checkType" : "STRING",
+      "v_result" : null
+    } ],
+    "workflowId" : "STRING",
+    "completedAt" : "DATETIME",
+    "riskScore" : "INT",
+    "v_reviewedBy" : "PII_EMAIL",
+    "applicant" : {
+      "cache_hit" : false,
+      "email" : "PII_EMAIL",
+      "nationality" : "PII_LOCATION_COUNTRY",
+      "phone" : "PII_PHONE_NUMBER",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "name_val" : "PII_PERSON_LAST_NAME"
     }
   }
 }

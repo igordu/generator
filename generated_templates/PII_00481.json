@@ -1,39 +1,36 @@
 {
-  "v_address" : [ {
-    "conversion_rate" : 610.59,
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "country_data" : "PII_LOCATION_COUNTRY",
-    "city_data" : "PII_LOCATION_CITY",
-    "use" : "STRING"
-  } ],
-  "v_telecom" : [ {
-    "v_value" : "PII_PHONE_NUMBER",
-    "cache_hit" : true,
-    "use" : "STRING"
-  }, {
-    "value" : "PII_EMAIL"
-  } ],
-  "identifier" : [ {
-    "v_system" : "URL",
-    "value" : "PII_NATIONAL_ID",
-    "use" : "STRING",
-    "type" : {
-      "text" : "STRING"
-    }
-  } ],
-  "has_discount" : false,
-  "id" : "STRING",
-  "v_meta" : {
-    "lastUpdated" : "DATETIME",
-    "primaryKey" : null,
-    "priority_level" : 4378
+  "lastLogin" : "DATETIME",
+  "lastUpdated" : "DATETIME",
+  "passwordChanged_data" : "DATETIME",
+  "activated" : "DATETIME",
+  "profile" : {
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "v_countryCode" : "PII_LOCATION_COUNTRY",
+    "cell" : "PII_PHONE_NUMBER",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "zipCode" : "STRING",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "login_data" : "PII_EMAIL",
+    "city" : "PII_LOCATION_CITY",
+    "email" : "PII_EMAIL",
+    "v_department" : "NULL",
+    "v_state" : "STRING",
+    "organization" : "PII_COMPANY_NAME",
+    "employeeNumber_data" : "STRING",
+    "v_title" : "STRING",
+    "primary_email" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME"
   },
-  "v_gender" : "STRING",
-  "clientName" : [ {
-    "family" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING",
-    "given" : [ "PII_PERSON_FIRST_NAME" ]
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "v_resourceType" : "STRING"
+  "id" : "STRING",
+  "cache_hit" : false,
+  "credentials" : {
+    "provider" : {
+      "type" : "STRING",
+      "is_active" : true,
+      "name" : "STRING"
+    },
+    "password" : "OBJECT",
+    "page_index" : 1925
+  },
+  "created" : "DATETIME"
 }

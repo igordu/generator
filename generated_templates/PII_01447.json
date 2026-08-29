@@ -1,0 +1,24 @@
+{
+  "eventId" : "STRING",
+  "version_data" : "STRING",
+  "system_ping_ms" : 4824,
+  "correlationId" : "STRING",
+  "eventType" : "STRING",
+  "producer" : "STRING",
+  "metadata" : {
+    "partition" : "INT",
+    "retry_attempts" : 3244
+  },
+  "occurredAt" : "DATETIME",
+  "payload_data" : {
+    "registrationSource" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "userId" : "STRING",
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER"
+  }
+}

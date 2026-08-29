@@ -1,5 +1,18 @@
 {
-  "conversion_rate" : 536.08,
-  "flowName" : "STRING",
-  "clientToken_data" : "STRING"
+  "queueName" : "STRING",
+  "v_movedToDlqAt" : "DATETIME",
+  "receiveCount" : "INT",
+  "priority_level" : 18,
+  "lastReceivedAt" : "DATETIME",
+  "attributes" : {
+    "auto_renew" : false,
+    "retryPolicy" : "STRING"
+  },
+  "body" : {
+    "errorCode" : "STRING",
+    "errorMessage" : "STRING",
+    "orderId" : ""
+  },
+  "firstReceivedAt" : "DATETIME",
+  "v_originalQueue" : "STRING"
 }

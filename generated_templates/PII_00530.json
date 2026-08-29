@@ -1,26 +1,25 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "bankTransactionCode" : {
-        "domain_data" : "STRING",
-        "family_data" : "STRING",
-        "subFamily" : "STRING"
-      },
-      "valueDate" : "DATE",
-      "transactionId" : "STRING",
-      "v_debtorAccount" : {
-        "v_iban" : "STRING"
-      },
-      "v_creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "amount" : {
-        "amount" : "DECIMAL"
-      },
-      "v_bookingDate" : "DATE",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "clientName" : "STRING",
-      "creditorName" : "PII_PERSON_NAME"
-    } ]
-  }
+  "hs_lead_status" : "STRING",
+  "company_data" : "PII_COMPANY_NAME",
+  "id" : "STRING",
+  "phone" : "PII_PHONE_NUMBER",
+  "firstName" : "PII_PERSON_FIRST_NAME",
+  "v_address" : "PII_ADDRESS_LINE",
+  "country" : "PII_LOCATION_COUNTRY",
+  "mobilephone" : "PII_PHONE_NUMBER",
+  "city" : "PII_LOCATION_CITY",
+  "clientName" : "PII_PERSON_LAST_NAME",
+  "zip" : "STRING",
+  "notes_last_contacted" : "DATETIME",
+  "lifecyclestage" : "STRING",
+  "state" : "STRING",
+  "lastmodifieddate" : null,
+  "identifier" : "STRING",
+  "associatedcompanyid" : "STRING",
+  "department" : "STRING",
+  "website" : "URL",
+  "jobtitle" : null,
+  "hs_email_optout" : "NULL",
+  "email" : "PII_EMAIL",
+  "createdate" : "DATETIME"
 }

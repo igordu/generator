@@ -1,14 +1,13 @@
 {
-  "numberOfUserReviews" : "NULL",
-  "v_averageStarRating" : "INT",
-  "response_time_sec" : 40.99,
+  "averageStarRating" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserReviews_data" : "INT",
+  "numberOfUserRecommendations" : "NULL",
   "starRatingDistribution" : {
-    "v_2" : "INT",
-    "4" : "INT",
-    "cache_hit" : false,
-    "5" : "",
     "3" : "INT",
-    "1" : "INT"
+    "1" : "NULL",
+    "v_5" : "INT",
+    "response_time_sec" : 25.25
   },
-  "numberOfUserRecommendations" : "INT"
+  "articleModelId" : "STRING"
 }

@@ -1,15 +1,50 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "v_numberOfUserReviews" : "INT",
-  "identifier" : "STRING",
-  "averageStarRating" : "INT",
-  "starRatingDistribution" : {
-    "5" : "INT",
-    "4" : "INT",
-    "3_data" : "INT",
-    "2" : "INT",
-    "v_1" : "INT"
-  },
-  "numberOfUserRecommendations" : "INT",
-  "is_deleted" : true
+  "data" : {
+    "fetchResource" : [ {
+      "facets" : [ {
+        "name_val" : "STRING",
+        "v_count" : "INT",
+        "v_key" : "STRING"
+      }, {
+        "temperature_c" : 44.73,
+        "key_data" : "STRING",
+        "count_data" : "INT",
+        "displayName" : "STRING"
+      } ],
+      "cache_hit" : false,
+      "v_filter" : "STRING"
+    }, {
+      "facets" : [ {
+        "page_index" : 1927,
+        "count" : "INT",
+        "displayName" : "STRING",
+        "key" : "STRING"
+      }, {
+        "fullName" : "STRING",
+        "count" : "INT",
+        "key" : "STRING"
+      }, {
+        "key" : "STRING",
+        "displayName" : "STRING"
+      } ],
+      "filter" : "STRING",
+      "stock_quantity" : 2259
+    }, {
+      "filter" : "",
+      "facets" : [ {
+        "conversion_rate" : 1.58,
+        "count" : "INT",
+        "key" : "STRING",
+        "fullName" : "STRING"
+      }, {
+        "key" : "STRING",
+        "displayName" : "STRING",
+        "count" : "INT"
+      }, {
+        "key" : "STRING",
+        "displayName" : "NULL",
+        "discount_rate" : 67.98
+      } ]
+    } ]
+  }
 }

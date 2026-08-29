@@ -1,21 +1,64 @@
 {
-  "content" : [ {
-    "v_title" : "PII_COMPANY_NAME",
-    "customerCity" : "PII_LOCATION_CITY",
-    "recommend" : "BOOLEAN",
-    "v_description" : "STRING",
-    "unhelpfulCount_data" : "INT",
-    "reviewId" : "STRING",
-    "articleModelId" : "STRING",
-    "rating" : "INT",
-    "articleId" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_helpfulCount" : "INT",
-    "created_data" : "DATETIME",
-    "language" : "STRING",
-    "v_articleSizeRatings" : {
-      "OVERALL" : "INT",
-      "SHOE_WIDTH" : "INT"
-    }
-  } ]
+  "username" : "PII_USERNAME",
+  "individualAccount" : {
+    "registrationAddress_data" : {
+      "postalCode" : "STRING",
+      "stateOrProvince" : "STRING",
+      "county" : "STRING",
+      "city" : "STRING",
+      "country" : "STRING",
+      "addressLine2" : "STRING"
+    },
+    "fullName" : "PII_PERSON_NAME",
+    "cell" : {
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode_data" : "NULL",
+      "phoneType" : "STRING",
+      "conversion_rate" : 0.61
+    },
+    "secondaryPhone" : {
+      "countryCode_data" : "STRING",
+      "discount_rate" : 52.32,
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
+    },
+    "mail" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_NAME"
+  },
+  "is_active" : false,
+  "status_data" : "STRING",
+  "v_businessAccount" : {
+    "doingBusinessAs" : "STRING",
+    "name" : "PII_ORGANIZATION_NAME",
+    "primaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "website_data" : "URL",
+    "address" : {
+      "has_discount" : false,
+      "city" : "STRING",
+      "county" : "STRING",
+      "stateOrProvince" : "STRING",
+      "v_addressLine2" : "STRING",
+      "country_data" : "STRING",
+      "postalCode_data" : "",
+      "addressLine1" : "STRING"
+    },
+    "secondaryPhone" : {
+      "phoneType" : "STRING",
+      "countryCode" : "STRING",
+      "v_number" : "PII_PHONE_NUMBER"
+    },
+    "primaryContact" : {
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME",
+      "cpu_usage_percent" : 49.21
+    },
+    "is_active" : false,
+    "email" : "PII_EMAIL"
+  },
+  "accountType" : "STRING",
+  "registrationMarketplaceId" : "STRING"
 }

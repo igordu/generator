@@ -1,17 +1,23 @@
 {
-  "account_holder_name" : "PII_PERSON_NAME",
-  "id" : "STRING",
   "status" : "STRING",
-  "fingerprint" : "STRING",
-  "last4_data" : "STRING",
-  "v_account_holder_type" : "STRING",
-  "country" : "NULL",
-  "customer_data" : "STRING",
-  "bank_name" : "STRING",
-  "object" : "STRING",
-  "metadata_data" : "OBJECT",
-  "account_type" : "STRING",
-  "currency_data" : "STRING",
-  "routing_number" : "STRING",
-  "requires_update" : true
+  "issuedAt_data" : "DATETIME",
+  "ticketNumber" : "STRING",
+  "totalFare_data" : {
+    "temperature_c" : 18.43,
+    "amount" : "DECIMAL"
+  },
+  "v_passenger" : {
+    "v_frequentFlyerNumber" : "NULL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "passportExpiry" : "DATE",
+    "email" : "PII_EMAIL",
+    "title_data" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "phone" : "PII_PHONE_NUMBER",
+    "v_passportNumber" : "PII_NATIONAL_ID"
+  },
+  "bookingRef" : "STRING",
+  "fareClass" : "STRING"
 }

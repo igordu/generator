@@ -1,14 +1,13 @@
 {
-  "starRatingDistribution_data" : {
-    "v_5" : "INT",
+  "numberOfUserPositiveRecommendations_data" : "INT",
+  "averageStarRating" : "INT",
+  "starRatingDistribution" : {
+    "1" : "INT",
     "2" : "INT",
-    "3" : "INT",
-    "4_data" : "INT",
-    "1" : "INT"
+    "4" : "INT",
+    "5" : "NULL",
+    "v_3" : "INT"
   },
-  "numberOfUserPositiveRecommendations" : "INT",
-  "recordId" : "STRING",
-  "system_ping_ms" : 4229,
-  "numberOfUserReviews" : "INT",
-  "averageStarRating" : "INT"
+  "v_numberOfUserRecommendations" : "INT",
+  "articleModelId" : "STRING"
 }

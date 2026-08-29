@@ -1,0 +1,21 @@
+{
+  "data": {
+    "id": "STRING",
+    "name": "PII_PERSON_NAME",
+    "username": "PII_USERNAME",
+    "created_at": "DATETIME",
+    "description": "STRING",
+    "location": "PII_LOCATION_CITY",
+    "pinned_tweet_id": "STRING",
+    "profile_image_url": "URL",
+    "protected": "BOOLEAN",
+    "public_metrics": {
+      "followers_count": "INT",
+      "following_count": "INT",
+      "tweet_count": "INT",
+      "listed_count": "INT"
+    },
+    "url": "URL",
+    "verified": "BOOLEAN"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "data" : {
+    "stock_quantity" : 2678,
+    "REDIS_HOST" : "STRING",
+    "FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+    "v_DATABASE_PORT" : "STRING",
+    "REDIS_PORT" : "STRING",
+    "MAX_CONNECTIONS" : "STRING",
+    "mail" : "PII_EMAIL",
+    "REQUEST_TIMEOUT_MS" : "STRING",
+    "SMTP_PORT" : "STRING",
+    "v_LOG_LEVEL" : "STRING",
+    "DATABASE_NAME" : "STRING",
+    "SMTP_HOST" : "STRING",
+    "DATABASE_HOST" : "STRING"
+  },
+  "namespace" : "STRING",
+  "resourceVersion" : "STRING",
+  "userName" : "STRING",
+  "creationTimestamp" : "DATETIME"
+}

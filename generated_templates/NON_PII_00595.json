@@ -1,47 +1,20 @@
-[ {
-  "key" : "STRING",
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT",
-    "has_discount" : true
-  },
-  "v_self" : "URL",
-  "style" : "STRING",
-  "avatarUrls_data" : {
-    "16x16" : "URL",
-    "32x32" : "URL",
-    "24x24_data" : "URL",
-    "48x48" : "URL"
-  },
-  "v_projectCategory" : {
-    "id" : "STRING",
-    "description" : "STRING",
-    "self" : "URL",
-    "name" : ""
-  },
-  "v_simplified" : "BOOLEAN",
-  "id" : "STRING"
-}, {
-  "id" : "STRING",
-  "cache_hit" : true,
-  "projectCategory" : {
-    "description" : "STRING",
-    "id" : "STRING",
-    "self" : "URL"
-  },
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "24x24" : "URL",
-    "32x32_data" : "URL",
-    "48x48" : "URL",
-    "page_index" : 1048
-  },
-  "v_insight" : {
-    "conversion_rate" : 877.87,
-    "lastIssueUpdateTime" : "",
-    "totalIssueCount" : "INT"
-  },
-  "style" : "STRING",
-  "key" : "STRING",
-  "self" : "URL"
-} ]
+{
+  "name" : "STRING",
+  "description_data" : "STRING",
+  "v_priority" : "INT",
+  "actions" : [ {
+    "is_deleted" : true,
+    "type" : "STRING",
+    "config" : {
+      "responseCode" : "INT",
+      "v_requestsPerMinute" : "INT",
+      "auto_renew" : true,
+      "v_keyBy" : "STRING"
+    }
+  } ],
+  "createdBy" : "STRING",
+  "primaryKey" : "STRING",
+  "v_enabled" : "BOOLEAN",
+  "updatedAt" : "DATETIME",
+  "v_createdAt" : "DATETIME"
+}

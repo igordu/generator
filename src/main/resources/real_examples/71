@@ -1,0 +1,23 @@
+{
+  "notificationId": "notif-20240410-00821",
+  "type": "push",
+  "status": "delivered",
+  "sentAt": "2024-04-10T09:00:00Z",
+  "deliveredAt": "2024-04-10T09:00:02Z",
+  "recipient": {
+    "userId": "usr-00293",
+    "deviceToken": "dGhpcyBpcyBhIGZha2UgZGV2aWNlIHRva2Vu",
+    "platform": "ios",
+    "appVersion": "6.1.2"
+  },
+  "notification": {
+    "title": "Your order has shipped!",
+    "body": "Order #ORD-2024-00821 is on its way.",
+    "data": {
+      "orderId": "ORD-2024-00821",
+      "deepLink": "myapp://orders/ORD-2024-00821"
+    }
+  },
+  "campaign": null,
+  "retryCount": 0
+}

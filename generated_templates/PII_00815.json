@@ -1,56 +1,24 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "email_notification" : {
-      "cancel_meeting_reminder_data" : "BOOLEAN",
-      "alternative_host_reminder" : "BOOLEAN",
-      "schedule_for_reminder" : "BOOLEAN"
+  "system_ping_ms" : 4143,
+  "account" : {
+    "created" : "DATETIME_EPOCH",
+    "country" : "PII_LOCATION_COUNTRY",
+    "capabilities" : {
+      "transfers" : "STRING",
+      "card_payments" : "STRING"
     },
-    "tsp" : {
-      "show_international_numbers_link" : "NULL",
-      "call_out_data" : "BOOLEAN",
-      "v_call_out_countries" : "ARRAY"
+    "v_type" : "STRING",
+    "details_submitted" : "BOOLEAN",
+    "email" : "PII_EMAIL",
+    "v_business_profile" : {
+      "mcc" : "STRING",
+      "retry_attempts" : 2191,
+      "url" : "URL",
+      "support_phone" : "PII_PHONE_NUMBER",
+      "name" : "PII_COMPANY_NAME",
+      "primary_email" : "PII_EMAIL"
     },
-    "recording" : {
-      "recording_password_requirement" : {
-        "only_allow_numeric" : "BOOLEAN",
-        "length" : "INT",
-        "is_deleted" : false,
-        "have_number_data" : "BOOLEAN",
-        "have_special_character" : "BOOLEAN"
-      },
-      "record_gallery_view_data" : "BOOLEAN",
-      "v_auto_delete_cmr" : "BOOLEAN",
-      "save_chat_text" : "BOOLEAN",
-      "record_audio_file" : "BOOLEAN",
-      "local_recording_data" : "BOOLEAN",
-      "cloud_recording" : "BOOLEAN",
-      "record_speaker_view" : "BOOLEAN",
-      "show_timestamp" : "BOOLEAN",
-      "system_ping_ms" : 998,
-      "auto_recording" : "STRING"
-    },
-    "schedule_meeting" : {
-      "identifier" : "BOOLEAN",
-      "require_password_for_pmi_meetings_data" : "STRING",
-      "v_use_pmi_for_instant_meetings" : "BOOLEAN",
-      "meeting_password_requirement" : {
-        "length_data" : "INT",
-        "v_have_special_character" : "BOOLEAN",
-        "have_letter" : "BOOLEAN",
-        "have_number" : "BOOLEAN"
-      },
-      "join_before_host_data" : "BOOLEAN",
-      "item_count" : 3962,
-      "audio_type" : "STRING",
-      "use_pmi_for_scheduled_meetings" : "BOOLEAN",
-      "pmi_password" : "PII_PASSWORD",
-      "v_pstn_password_protected" : "BOOLEAN",
-      "force_pmi_jbh_password" : "BOOLEAN",
-      "host_video" : "BOOLEAN",
-      "embed_password_in_join_link" : "BOOLEAN",
-      "require_password_for_scheduling_new_meetings" : "BOOLEAN"
-    }
+    "charges_enabled_data" : "BOOLEAN",
+    "default_currency" : "STRING"
   }
 }

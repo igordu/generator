@@ -1,46 +1,28 @@
-[ {
-  "projectCategory" : {
-    "fullName" : "STRING",
-    "description" : "STRING",
-    "self" : "URL"
+{
+  "metrics" : {
+    "requestHandlerAvgIdlePercent" : "DECIMAL",
+    "messagesInPerSec_data" : "INT",
+    "bytesInPerSec_data" : "INT",
+    "v_activeControllerCount" : "INT",
+    "underReplicatedPartitions" : "INT",
+    "bytesOutPerSec_data" : "INT",
+    "offlinePartitionsCount" : "INT"
   },
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "48x48" : "URL"
-  },
-  "key" : "STRING",
-  "simplified" : "BOOLEAN",
-  "name_val" : "STRING",
-  "id" : "STRING",
-  "style" : "STRING",
-  "self" : "URL",
-  "priority_level" : 3061,
-  "insight" : {
-    "retry_attempts" : 1775,
-    "lastIssueUpdateTime" : "DATETIME"
-  }
-}, {
-  "v_projectCategory" : {
-    "description" : "STRING",
-    "name" : "STRING",
-    "self_data" : "URL",
-    "id" : "STRING"
-  },
-  "key" : "STRING",
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "page_index" : 363,
+  "status_data" : "STRING",
+  "version" : "STRING",
   "primaryKey" : "STRING",
-  "simplified" : "BOOLEAN",
-  "style" : "STRING",
-  "avatarUrls" : {
-    "v_32x32" : "URL",
-    "24x24" : "URL",
-    "v_16x16" : "URL",
-    "priority_level" : 1142,
-    "48x48" : "URL"
+  "topics" : [ {
+    "partitions" : "INT",
+    "replicationFactor_data" : "INT",
+    "name" : "STRING"
+  } ],
+  "v_jvmMemory" : {
+    "heapUsedMb" : "INT",
+    "heapMaxMb" : "INT",
+    "cache_hit" : true,
+    "gcPauseMs" : "INT"
   },
-  "self" : "URL",
-  "name" : "STRING"
-} ]
+  "clusterId" : "",
+  "role" : "STRING",
+  "uptimeSeconds_data" : "INT"
+}

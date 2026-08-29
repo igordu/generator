@@ -1,14 +1,22 @@
 {
-  "v_active" : "BOOLEAN",
-  "user_info" : {
-    "clientName" : "PII_LAST_NAME_MALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "auto_renew" : true
+  "revoked_data" : "BOOLEAN",
+  "ipAddress" : "PII_IP_ADDRESS",
+  "sessionId" : "STRING",
+  "lastActivityAt" : "DATETIME",
+  "createdAt" : "DATETIME",
+  "mfaMethod" : "STRING",
+  "uuid" : "STRING",
+  "email" : "PII_EMAIL",
+  "riskScore" : "DECIMAL",
+  "mfaVerified_data" : "BOOLEAN",
+  "issuedTokens" : {
+    "accessToken" : "STRING",
+    "refreshToken_data" : "STRING",
+    "cpu_usage_percent" : 57.44,
+    "idToken" : "STRING"
   },
-  "discount_rate" : 878.95,
-  "tree" : {
-    "url" : "URL",
-    "sha" : "STRING"
-  }
+  "recordId" : "STRING",
+  "scopes" : [ "STRING" ],
+  "expiresAt_data" : "DATETIME",
+  "userAgent" : "STRING"
 }

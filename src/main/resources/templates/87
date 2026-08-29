@@ -1,0 +1,30 @@
+{
+  "taskId": "STRING",
+  "name": "STRING",
+  "type": "STRING",
+  "status": "STRING",
+  "scheduledAt": "DATETIME",
+  "startedAt": "DATETIME",
+  "completedAt": "DATETIME",
+  "durationSeconds": "INT",
+  "source": {
+    "type": "STRING",
+    "host": "STRING",
+    "database": "STRING",
+    "table": "STRING"
+  },
+  "destination": {
+    "type": "STRING",
+    "project": "STRING",
+    "dataset": "STRING",
+    "table": "STRING"
+  },
+  "stats": {
+    "recordsRead": "INT",
+    "recordsWritten": "INT",
+    "recordsSkipped": "INT",
+    "bytesTransferred": "INT"
+  },
+  "triggeredBy": "STRING",
+  "nextRunAt": "DATETIME"
+}

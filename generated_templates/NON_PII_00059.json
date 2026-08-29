@@ -1,14 +1,48 @@
-{
-  "starRatingDistribution" : {
-    "1" : "INT",
-    "4" : "INT",
-    "5" : "INT",
-    "2" : "INT",
-    "3" : "INT"
-  },
-  "numberOfUserRecommendations" : "INT",
-  "numberOfUserPositiveRecommendations_data" : "INT",
-  "numberOfUserReviews" : "INT",
-  "articleModelId" : "STRING",
-  "averageStarRating" : "INT"
-}
+[ {
+  "filter" : "STRING",
+  "response_time_sec" : 14.33,
+  "facets" : [ {
+    "count" : "INT",
+    "v_key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "system_ping_ms" : 4101,
+    "count_data" : "INT"
+  } ]
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "fullName" : "STRING",
+    "key" : "STRING",
+    "count" : "",
+    "conversion_rate" : 7.08
+  }, {
+    "count" : "INT",
+    "system_ping_ms" : 3077,
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "discount_rate" : 63.08,
+    "count" : "INT",
+    "key" : "STRING"
+  } ]
+}, {
+  "facets_data" : [ {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "cpu_usage_percent" : 58.32,
+    "key" : "STRING",
+    "v_count" : "INT",
+    "displayName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  } ],
+  "filter" : "STRING",
+  "is_deleted" : true
+} ]

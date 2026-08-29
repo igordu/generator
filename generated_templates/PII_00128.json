@@ -1,64 +1,16 @@
 {
-  "recordId" : "STRING",
-  "accountType" : "STRING",
-  "businessAccount" : {
-    "conversion_rate" : 292.36,
-    "address_data" : {
-      "addressLine1" : "STRING",
-      "v_country" : "STRING",
-      "is_active" : false,
-      "addressLine2" : "STRING",
-      "city" : "STRING",
-      "county" : "STRING"
-    },
-    "telephone" : {
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "cpu_usage_percent" : 910.7
-    },
-    "primaryPhone" : {
-      "discount_rate" : 676.97,
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "v_countryCode" : "STRING"
-    },
-    "userName" : "PII_ORGANIZATION_NAME",
-    "email" : "PII_EMAIL",
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "item_count" : 476,
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "website" : "URL"
-  },
-  "username" : "PII_USERNAME",
-  "registrationMarketplaceId" : "STRING",
-  "uuid" : {
-    "firstName" : "PII_PERSON_NAME",
-    "item_count" : 4731,
-    "registrationAddress" : {
-      "v_stateOrProvince" : "STRING",
-      "county" : "STRING",
-      "city" : "NULL",
-      "country" : "STRING",
-      "postalCode" : "STRING",
-      "priority_level" : 1558,
-      "addressLine2" : "STRING",
-      "addressLine1" : "STRING"
-    },
-    "primaryPhone" : {
-      "countryCode_data" : "STRING",
-      "has_discount" : false,
-      "v_number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "cell" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "email" : "PII_EMAIL"
-  }
+  "price_unit" : "STRING",
+  "sid" : "STRING",
+  "from" : "PII_PHONE_NUMBER",
+  "to" : "PII_PHONE_NUMBER",
+  "identifier" : "STRING",
+  "v_status" : "STRING",
+  "date_sent" : "DATETIME",
+  "error_code" : "NULL",
+  "is_deleted" : true,
+  "body" : "PII_FREE_TEXT",
+  "v_date_created" : "DATETIME",
+  "num_segments" : "INT",
+  "price" : "",
+  "uri" : "URL"
 }

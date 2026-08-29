@@ -1,27 +1,27 @@
 {
-  "v_transactions" : {
-    "cpu_usage_percent" : 972.66,
-    "booked_data" : [ {
-      "creditorAccount" : {
-        "iban_data" : "PII_IBAN"
-      },
-      "creditorName" : "PII_PERSON_NAME",
-      "page_index" : 4139,
-      "amount" : {
-        "v_currency" : "STRING"
-      },
-      "uuid" : "STRING",
-      "clientName" : "STRING",
-      "debtorAccount" : { },
-      "v_bankTransactionCode" : {
-        "cache_hit" : false,
-        "domain_data" : "NULL",
-        "v_family" : "STRING",
-        "subFamily" : "STRING"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "v_valueDate" : "DATE",
-      "bookingDate" : "DATE"
-    } ]
-  }
+  "employeeType" : "STRING",
+  "preferredLanguage" : "STRING",
+  "name_val" : "PII_PERSON_LAST_NAME",
+  "mail" : "PII_EMAIL",
+  "clientName" : "PII_PERSON_NAME",
+  "jobTitle" : "STRING",
+  "usageLocation" : "",
+  "stock_quantity" : 2403,
+  "id" : "STRING",
+  "createdDateTime_data" : "DATETIME",
+  "country" : "PII_LOCATION_COUNTRY",
+  "v_officeLocation" : "STRING",
+  "department_data" : "STRING",
+  "userPrincipalName" : "PII_EMAIL",
+  "accountEnabled" : "BOOLEAN",
+  "userType_data" : "STRING",
+  "city" : "PII_LOCATION_CITY",
+  "companyName" : "PII_COMPANY_NAME",
+  "givenName" : "PII_PERSON_FIRST_NAME",
+  "onPremisesSamAccountName" : "PII_USERNAME",
+  "telephone" : [ "PII_PHONE_NUMBER" ],
+  "mobilePhone" : "PII_PHONE_NUMBER",
+  "postalCode" : "STRING",
+  "streetAddress_data" : "PII_ADDRESS_LINE",
+  "state_data" : "STRING"
 }

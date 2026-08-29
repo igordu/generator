@@ -1,10 +1,25 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "num_segments" : "STRING",
+  "date_updated_data" : "DATETIME",
+  "date_created" : "DATETIME",
+  "to" : "PII_PHONE_NUMBER",
+  "body_data" : "STRING",
+  "from" : "PII_PHONE_NUMBER",
+  "api_version_data" : "STRING",
+  "price_data" : null,
+  "sid" : "STRING",
+  "error_code" : "NULL",
+  "v_price_unit" : "NULL",
+  "num_media_data" : "STRING",
+  "v_date_sent" : "DATETIME",
+  "identifier" : "STRING",
+  "subresource_uris_data" : {
+    "item_count" : 3264,
+    "v_media" : "URL"
   },
-  "results" : {
-    "emailAddressStatus" : [ "STRING" ],
-    "emailAddress" : "PII_EMAIL"
-  }
+  "status" : "STRING",
+  "messaging_service_sid" : "STRING",
+  "has_discount" : false,
+  "error_message" : "NULL",
+  "uri" : "URL"
 }

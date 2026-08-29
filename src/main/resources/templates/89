@@ -1,0 +1,34 @@
+{
+  "serviceId": "STRING",
+  "endpoint": "STRING",
+  "period": "STRING",
+  "metrics": {
+    "requestCount": "INT",
+    "errorCount": "INT",
+    "errorRate": "DECIMAL",
+    "p50LatencyMs": "INT",
+    "p95LatencyMs": "INT",
+    "p99LatencyMs": "INT",
+    "p999LatencyMs": "INT",
+    "throughputRps": "DECIMAL"
+  },
+  "statusCodes": {
+    "200": "INT",
+    "404": "INT",
+    "429": "INT",
+    "500": "INT"
+  },
+  "topErrors": [
+    {
+      "code": "STRING",
+      "count": "INT"
+    }
+  ],
+  "sloCompliance": {
+    "availabilityTarget": "DECIMAL",
+    "availabilityActual": "DECIMAL",
+    "latencyTarget": "INT",
+    "latencyActualP99": "INT",
+    "withinSlo": "BOOLEAN"
+  }
+}

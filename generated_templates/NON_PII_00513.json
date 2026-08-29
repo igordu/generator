@@ -1,47 +1,28 @@
-[ {
-  "id" : "STRING",
-  "style" : "STRING",
-  "simplified" : "BOOLEAN",
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
+{
+  "discount_rate" : 89.9,
+  "clusterId" : "NULL",
+  "status" : "STRING",
+  "v_topics" : [ {
+    "replicationFactor" : "INT",
+    "partitions" : "INT",
+    "name" : "STRING"
+  } ],
+  "v_metrics" : {
+    "temperature_c" : -11.0,
+    "underReplicatedPartitions" : "INT",
+    "bytesInPerSec" : "NULL",
+    "messagesInPerSec" : "INT",
+    "offlinePartitionsCount" : "INT",
+    "bytesOutPerSec_data" : null,
+    "identifier" : "DECIMAL"
   },
-  "key" : "STRING",
-  "name" : "STRING",
-  "projectCategory_data" : {
-    "self_data" : "URL",
-    "name_val" : "STRING",
-    "discount_rate" : 3.81,
-    "id" : "STRING",
-    "description" : "STRING"
+  "role" : "STRING",
+  "uptimeSeconds" : "INT",
+  "recordId" : "STRING",
+  "v_jvmMemory" : {
+    "heapUsedMb" : "INT",
+    "gcPauseMs_data" : "INT",
+    "heapMaxMb" : "INT"
   },
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "32x32_data" : "URL",
-    "v_48x48" : "URL"
-  },
-  "self" : null
-}, {
-  "name" : "STRING",
-  "self" : "URL",
-  "insight_data" : {
-    "requires_update" : false,
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "avatarUrls" : {
-    "48x48" : "URL",
-    "v_32x32" : "URL",
-    "24x24" : "URL"
-  },
-  "simplified" : "BOOLEAN",
-  "key_data" : "STRING",
-  "projectCategory" : {
-    "self" : "URL",
-    "name" : "STRING",
-    "description" : "STRING",
-    "id" : "STRING"
-  },
-  "uuid" : "STRING",
-  "style" : "STRING"
-} ]
+  "version" : "STRING"
+}

@@ -1,42 +1,25 @@
 {
-  "http_status" : 909,
-  "identifier" : [ {
-    "value" : "PII_NATIONAL_ID",
-    "v_system" : "URL",
-    "use" : "STRING",
-    "requires_update" : false,
-    "type" : {
-      "text" : "STRING",
-      "price" : 958.74
-    }
-  } ],
-  "gender_data" : "STRING",
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "id" : "STRING",
-  "meta" : {
-    "cache_hit" : false,
-    "identifier" : "INT"
-  },
-  "name" : [ {
-    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-    "use" : "STRING",
-    "family" : "PII_PERSON_LAST_NAME"
-  } ],
-  "resourceType" : "STRING",
-  "address" : [ {
-    "is_deleted" : false,
-    "city" : "PII_LOCATION_CITY",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "country" : "PII_LOCATION_COUNTRY"
-  } ],
-  "telecom_data" : [ {
-    "value_data" : "PII_PHONE_NUMBER",
-    "system" : "STRING",
-    "conversion_rate" : 629.25,
-    "use" : "STRING"
-  }, {
-    "retry_attempts" : 410,
-    "system" : "STRING",
-    "value" : "PII_EMAIL"
-  } ]
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "Email" : "PII_EMAIL",
+    "MailingState" : "STRING",
+    "MailingCity" : "PII_LOCATION_CITY",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "AccountId" : "STRING",
+    "OwnerId" : "STRING",
+    "v_IsDeleted" : "BOOLEAN",
+    "Birthdate" : "PII_DATE_OF_BIRTH",
+    "AccountName" : "PII_COMPANY_NAME",
+    "cell" : "PII_PHONE_NUMBER",
+    "Title_data" : "STRING",
+    "Name" : "PII_PERSON_NAME",
+    "LastModifiedDate" : "DATETIME",
+    "Id" : "STRING",
+    "mobile" : "PII_PHONE_NUMBER",
+    "Description" : "STRING",
+    "MailingCountry" : "PII_LOCATION_COUNTRY",
+    "MailingStreet" : "PII_ADDRESS_LINE"
+  }
 }

@@ -1,21 +1,23 @@
 {
-  "v_content" : [ {
-    "created_data" : "DATETIME",
-    "primaryKey" : "STRING",
-    "v_unhelpfulCount" : "INT",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "language" : "STRING",
-    "description" : "",
-    "recommend" : "BOOLEAN",
-    "articleId" : "STRING",
-    "customerCity" : "PII_LOCATION_CITY",
-    "title_data" : "PII_COMPANY_NAME",
-    "reviewId" : "STRING",
-    "articleSizeRatings" : {
-      "OVERALL" : "INT",
-      "response_time_sec" : 927.63,
-      "SHOE_WIDTH" : "INT"
+  "ticket" : {
+    "page_index" : 1016,
+    "comments_data" : [ {
+      "body" : "PII_FREE_TEXT",
+      "author_id" : "INT",
+      "public" : "NULL"
+    } ],
+    "status" : "STRING",
+    "created_at_data" : "DATETIME",
+    "requester" : {
+      "fullName" : "PII_PERSON_NAME",
+      "primary_email" : "PII_EMAIL"
     },
-    "rating_data" : "INT"
-  } ]
+    "subject" : "STRING",
+    "priority" : "STRING",
+    "tags" : [ "STRING" ],
+    "id" : "INT",
+    "description_data" : "PII_FREE_TEXT",
+    "recordId" : "INT",
+    "updated_at" : "DATETIME"
+  }
 }

@@ -1,15 +1,44 @@
 {
-  "articleModelId" : null,
-  "averageStarRating_data" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "has_discount" : true,
-  "numberOfUserReviews" : "INT",
-  "numberOfUserRecommendations" : "INT",
-  "starRatingDistribution" : {
-    "4_data" : "INT",
-    "2_data" : "INT",
-    "conversion_rate" : 647.24,
-    "1" : "INT",
-    "3" : "INT"
+  "audit_trail" : {
+    "transaction_trace" : {
+      "extracted_info" : [ {
+        "filter" : "STRING",
+        "facets" : [ {
+          "key" : "STRING",
+          "count" : "INT",
+          "displayName" : "STRING"
+        }, {
+          "discount_rate" : 98.66,
+          "displayName" : "STRING",
+          "key" : "STRING"
+        } ]
+      }, {
+        "filter" : "STRING",
+        "is_deleted" : true,
+        "facets" : [ {
+          "count" : "INT",
+          "name_val" : "STRING",
+          "key" : "STRING"
+        }, {
+          "count" : "INT",
+          "name_val" : "STRING"
+        }, {
+          "v_key" : "STRING",
+          "name_val" : "STRING",
+          "v_count" : "INT"
+        } ]
+      }, {
+        "v_facets" : [ {
+          "priority_level" : 3169,
+          "count" : "",
+          "displayName" : "STRING"
+        }, {
+          "key" : "STRING",
+          "count" : "INT"
+        } ],
+        "response_time_sec" : 13.76,
+        "filter" : "STRING"
+      } ]
+    }
   }
 }

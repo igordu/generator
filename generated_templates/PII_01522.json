@@ -1,0 +1,25 @@
+{
+  "v_status" : "STRING",
+  "updatedAt" : "DATETIME",
+  "lastTriggeredAt_data" : "DATETIME",
+  "config" : {
+    "mentionOnError" : "",
+    "webhookUrl_data" : "URL"
+  },
+  "triggers" : [ "STRING" ],
+  "integrationId" : "STRING",
+  "stats" : {
+    "successRate_data" : "DECIMAL",
+    "totalDeliveries" : "INT"
+  },
+  "retry_attempts" : 1367,
+  "fullName" : "STRING",
+  "createdAt" : "DATETIME",
+  "createdBy_data" : {
+    "userId" : "STRING",
+    "email" : "PII_EMAIL",
+    "cache_hit" : false
+  },
+  "type" : "STRING",
+  "provider" : "STRING"
+}

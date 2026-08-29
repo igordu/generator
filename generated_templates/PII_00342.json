@@ -1,10 +1,63 @@
 {
-  "audit_trail" : {
-    "event_data" : {
-      "raw_data" : {
-        "emailAddress" : "PII_EMAIL",
-        "emailAddressStatus" : [ "STRING" ]
+  "status" : "success",
+  "code" : 200,
+  "data" : [ {
+    "url" : "URL",
+    "comments_url" : "URL",
+    "html_url" : "URL",
+    "commit_data" : {
+      "tree_data" : {
+        "url" : "URL",
+        "auto_renew" : false
+      },
+      "committer" : {
+        "date" : "DATETIME",
+        "contactEmail" : "PII_EMAIL",
+        "is_active" : false,
+        "name" : "PII_PERSON_NAME"
+      },
+      "v_url" : "URL",
+      "verification" : {
+        "reason_data" : "STRING",
+        "verified" : "BOOLEAN",
+        "retry_attempts" : 2790,
+        "payload" : "STRING",
+        "signature" : "STRING",
+        "verified_at" : "DATETIME"
+      },
+      "comment_count" : "INT",
+      "message_data" : "STRING",
+      "author" : {
+        "date" : null,
+        "name" : "PII_PERSON_NAME",
+        "primary_email" : "PII_EMAIL"
       }
-    }
-  }
+    },
+    "node_id" : "STRING",
+    "author" : {
+      "html_url" : "URL",
+      "gists_url_data" : "URL",
+      "url" : "URL",
+      "login" : "STRING",
+      "gravatar_id" : "STRING",
+      "v_followers_url" : "URL",
+      "v_subscriptions_url" : "URL",
+      "cpu_usage_percent" : 88.55,
+      "avatar_url" : "URL",
+      "type" : "STRING",
+      "site_admin" : "BOOLEAN",
+      "repos_url" : "URL",
+      "starred_url" : "URL",
+      "id" : "INT",
+      "primaryKey" : "STRING",
+      "organizations_url" : "URL",
+      "following_url" : "URL"
+    },
+    "parents" : [ {
+      "url" : "URL",
+      "priority_level" : 2754,
+      "sha_data" : "STRING"
+    } ],
+    "sha" : "STRING"
+  } ]
 }

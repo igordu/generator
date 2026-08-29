@@ -1,20 +1,31 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "active" : "BOOLEAN",
-    "tree" : {
-      "has_discount" : false,
-      "url" : "URL",
-      "sha" : "STRING"
-    },
-    "user_info_data" : {
-      "arline__name" : "PII_COMPANY_NAME",
-      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-      "family-name-male" : "PII_LAST_NAME_MALE",
-      "cache_hit" : false
+  "data" : {
+    "fetchResource" : {
+      "recipient_data" : {
+        "bic" : "STRING",
+        "fullName" : "PII_COMPANY_NAME",
+        "accountId" : "STRING",
+        "iban" : "PII_IBAN",
+        "name" : "PII_PERSON_NAME"
+      },
+      "status" : "STRING",
+      "amount" : {
+        "currency" : null,
+        "http_status" : 2855
+      },
+      "completedAt" : "DATETIME",
+      "endToEndId" : "STRING",
+      "transferId" : "STRING",
+      "reference" : "STRING",
+      "v_sender" : {
+        "cache_hit" : false,
+        "name" : "PII_PERSON_NAME",
+        "uuid" : "STRING",
+        "v_iban" : "PII_IBAN",
+        "bic" : "STRING",
+        "name_val" : "PII_COMPANY_NAME"
+      },
+      "chargesBearer_data" : "STRING"
     }
   }
 }

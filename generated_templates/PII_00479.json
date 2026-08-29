@@ -1,37 +1,18 @@
 {
-  "name" : [ {
-    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-    "family" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING"
-  } ],
-  "resourceType" : "STRING",
-  "v_telecom" : [ {
-    "v_value" : "PII_EMAIL",
-    "stock_quantity" : 4371,
-    "v_system" : "STRING"
-  }, {
-    "value_data" : "PII_PHONE_NUMBER"
-  } ],
-  "id" : "STRING",
-  "gender" : "STRING",
-  "address" : [ {
-    "price" : 154.07,
-    "city" : "PII_LOCATION_CITY",
-    "country" : "PII_LOCATION_COUNTRY",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "use" : "STRING"
-  } ],
-  "identifier" : [ {
-    "v_system" : "URL",
-    "use" : "STRING",
-    "type" : {
-      "text" : "STRING"
+  "data" : {
+    "id" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "v_location" : "PII_LOCATION_CITY",
+    "protected" : "BOOLEAN",
+    "public_metrics" : {
+      "following_count" : "INT",
+      "v_followers_count" : "INT",
+      "is_deleted" : true
     },
-    "value_data" : "PII_NATIONAL_ID"
-  } ],
-  "meta" : {
-    "v_lastUpdated" : "",
-    "versionId" : "INT"
-  },
-  "v_birthDate" : "PII_DATE_OF_BIRTH"
+    "url_data" : "URL",
+    "created_at" : "DATETIME",
+    "username" : "PII_USERNAME",
+    "pinned_tweet_id" : "STRING",
+    "description" : "STRING"
+  }
 }

@@ -1,73 +1,26 @@
-[ {
-  "html_url_data" : "URL",
-  "author" : {
-    "v_type" : "STRING",
-    "organizations_url_data" : "URL",
-    "html_url" : "URL",
-    "subscriptions_url" : "URL",
-    "received_events_url_data" : "URL",
-    "following_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "v_starred_url" : "URL",
-    "uuid" : "INT",
-    "repos_url" : "URL",
-    "avatar_url" : "URL",
-    "followers_url" : "URL",
-    "url" : "URL",
-    "node_id" : "STRING",
-    "gravatar_id" : "STRING"
+{
+  "v_downloadUrl" : "URL",
+  "has_discount" : true,
+  "status" : "STRING",
+  "expiresAt" : "DATETIME",
+  "v_dataCategories" : [ "STRING" ],
+  "type" : "STRING",
+  "completedAt" : "DATETIME",
+  "requestedBy" : "PII_EMAIL",
+  "v_dataSubject" : {
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "id" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
   },
-  "parents" : [ {
-    "v_sha" : "STRING",
-    "url" : "URL",
-    "retry_attempts" : 2873
-  } ],
-  "url_data" : "URL",
-  "comments_url" : "URL",
-  "v_sha" : "STRING",
-  "uuid" : "STRING",
-  "commit" : {
-    "comment_count" : "INT",
-    "tree" : {
-      "sha_data" : "STRING",
-      "response_time_sec" : 205.87,
-      "v_url" : "URL"
-    },
-    "verification" : {
-      "verified_at" : "DATETIME",
-      "v_reason" : "STRING",
-      "signature" : "STRING"
-    },
-    "retry_attempts" : 4002,
-    "committer_data" : {
-      "emailAddress" : "PII_EMAIL",
-      "stock_quantity" : 670,
-      "name" : "PII_PERSON_NAME",
-      "date_data" : "DATETIME"
-    },
-    "v_url" : "URL",
-    "author" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "contactEmail" : "PII_EMAIL"
-    },
-    "message" : "PII_COMPANY_NAME"
-  },
-  "committer" : {
-    "following_url" : "URL",
-    "node_id" : "STRING",
-    "login" : "STRING",
-    "organizations_url" : "URL",
-    "type" : "STRING",
-    "gravatar_id" : "STRING",
-    "subscriptions_url" : "URL",
-    "starred_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "primaryKey" : "INT",
-    "repos_url" : "URL",
-    "url" : "URL",
-    "html_url" : "URL",
-    "gists_url" : "URL",
-    "received_events_url" : "URL"
+  "deliveredVia" : "STRING",
+  "legalBasis" : "STRING",
+  "requestedAt" : "DATETIME",
+  "reportId" : "STRING",
+  "handledBy" : {
+    "email" : "PII_EMAIL",
+    "agentId" : "STRING"
   }
-} ]
+}

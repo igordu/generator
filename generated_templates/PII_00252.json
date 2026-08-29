@@ -1,67 +1,37 @@
 {
-  "prev_data" : "STRING",
-  "total_data" : "INT",
-  "limit" : "INT",
-  "conversion_rate" : 287.29,
-  "offset" : "INT",
-  "href_data" : "STRING",
-  "v_next" : "STRING",
-  "transactions" : [ {
-    "transactionMemo" : "STRING",
-    "salesRecordReference" : "STRING",
-    "payoutId" : "STRING",
-    "feeJurisdiction" : {
-      "retry_attempts" : 2703,
-      "fullName" : "STRING",
-      "regionType_data" : "STRING"
-    },
-    "buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "transactionStatus" : "STRING",
-    "identifier" : "STRING",
-    "bookingEntry" : "STRING",
-    "feeType" : "STRING",
-    "references" : [ {
-      "referenceId" : "STRING",
-      "response_time_sec" : 931.22,
-      "referenceType" : "NULL"
-    } ],
-    "amount_data" : {
-      "is_deleted" : false,
-      "convertedFromCurrency" : "STRING",
-      "exchangeRate" : "STRING",
-      "currency" : "STRING",
-      "value" : "STRING"
-    },
-    "totalFeeBasisAmount_data" : {
-      "v_value" : "STRING",
-      "exchangeRate" : "STRING",
-      "v_currency" : "STRING",
-      "convertedFromValue_data" : "STRING"
-    },
-    "orderLineItems" : [ {
-      "lineItemId" : "STRING",
-      "marketplaceFees" : [ {
-        "v_feeJurisdiction" : {
-          "regionName" : "STRING",
-          "priority_level" : 2810,
-          "regionType" : null
-        },
-        "v_feeMemo" : "STRING",
-        "feeType_data" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "total_records_data" : "NULL",
+    "v_registrants" : [ {
+      "country" : "PII_LOCATION_COUNTRY",
+      "phone" : "PII_PHONE_NUMBER",
+      "job_title" : "STRING",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "v_status" : "STRING",
+      "v_purchasing_time_frame" : "STRING",
+      "org" : "PII_ORGANIZATION_NAME",
+      "userName" : "PII_PERSON_FIRST_NAME",
+      "industry" : "STRING",
+      "zip" : "STRING",
+      "v_create_time" : "DATETIME",
+      "role_in_purchase_process" : "STRING",
+      "custom_questions_data" : [ {
+        "title" : "STRING",
+        "priority_level" : 3551,
+        "value" : "STRING"
       } ],
-      "feeBasisAmount" : {
-        "convertedFromValue" : "STRING",
-        "currency_data" : "STRING",
-        "v_value" : "STRING",
-        "exchangeRate" : "STRING",
-        "convertedFromCurrency" : "STRING"
-      }
+      "state" : "PII_LOCATION_STATE",
+      "join_url_data" : "URL",
+      "no_of_employees_data" : "STRING",
+      "address" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "id" : "STRING",
+      "emailAddress" : "PII_EMAIL"
     } ],
-    "v_transactionDate" : "DATETIME",
-    "recordId" : "STRING",
-    "transactionType" : "STRING",
-    "v_paymentsEntity" : "STRING"
-  } ]
+    "page_size" : "INT",
+    "requires_update" : false,
+    "page_number_data" : "INT",
+    "page_count" : "INT"
+  }
 }

@@ -1,5 +1,14 @@
 {
-  "mail" : "PII_EMAIL",
-  "emailAddressStatus" : [ "STRING" ],
-  "temperature_c" : 986.8
+  "object" : "STRING",
+  "fingerprint" : "STRING",
+  "v_customer" : "STRING",
+  "status" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "retry_attempts" : 3294,
+  "currency_data" : "STRING",
+  "last4" : "STRING",
+  "account_holder_type" : "STRING",
+  "routing_number" : "STRING",
+  "name_val" : "STRING",
+  "metadata" : "OBJECT"
 }

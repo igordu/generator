@@ -1,38 +1,61 @@
 {
-  "fullName" : "STRING",
-  "DateTimeUTC_data" : "DATETIME",
-  "Id" : "STRING",
-  "cpu_usage_percent" : 256.76,
-  "Status" : "STRING",
-  "v_Employees" : [ {
-    "ExternalLink" : {
-      "Description" : "STRING"
+  "v_Personal_Data" : {
+    "v_Contact_Data" : {
+      "Phone_Data" : [ {
+        "contactNumber" : {
+          "WID" : "STRING"
+        },
+        "Phone_Number" : "PII_PHONE_NUMBER"
+      } ],
+      "Address_Data_data" : [ {
+        "Address_Line_Data" : [ {
+          "price" : 6889.69,
+          "Type" : "STRING",
+          "content" : "PII_ADDRESS_LINE"
+        } ],
+        "Postal_Code" : "STRING",
+        "Municipality" : "PII_LOCATION_CITY",
+        "Country_Reference_data" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY",
+          "http_status" : 4774
+        },
+        "is_deleted" : true,
+        "Usage_Data" : {
+          "v_Type_Data" : [ {
+            "Type_Reference" : {
+              "WID" : "STRING",
+              "temperature_c" : 9.14
+            }
+          } ]
+        }
+      } ],
+      "retry_attempts" : 3017,
+      "emailAddress" : [ {
+        "Email_Address" : "PII_EMAIL"
+      } ]
     },
-    "EmployeeID" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "is_active" : false,
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status_data" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "recordId" : "STRING",
-    "ExternalLink_data" : {
-      "Description_data" : "STRING",
-      "Url" : "URL"
-    }
-  }, {
-    "v_Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
+    "clientName" : {
+      "auto_renew" : true,
+      "Legal_Name_Data" : {
+        "Name_Detail_Data" : {
+          "fullName" : "PII_PERSON_LAST_NAME",
+          "userName" : "PII_PERSON_FIRST_NAME",
+          "Middle_Name" : "PII_PERSON_FIRST_NAME",
+          "auto_renew" : false
+        }
+      }
     },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "userName" : "PII_PERSON_LAST_NAME",
-    "identifier" : "STRING"
-  } ]
+    "identifier" : {
+      "Birth_Date" : "PII_DATE_OF_BIRTH",
+      "National_ID_Data" : [ {
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        },
+        "National_ID" : "PII_NATIONAL_ID"
+      } ]
+    },
+    "system_ping_ms" : 2334
+  },
+  "has_discount" : true,
+  "identifier" : "STRING"
 }

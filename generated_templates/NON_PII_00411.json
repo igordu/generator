@@ -1,3 +1,14 @@
 {
-  "v_clientToken" : "STRING"
+  "sentAt" : "DATETIME",
+  "recipient" : {
+    "appVersion" : "STRING",
+    "platform_data" : "STRING",
+    "userId" : "STRING"
+  },
+  "discount_rate" : 52.91,
+  "status" : "STRING",
+  "campaign" : "NULL",
+  "notificationId" : "STRING",
+  "deliveredAt" : "DATETIME",
+  "type" : "STRING"
 }

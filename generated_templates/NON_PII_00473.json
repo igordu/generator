@@ -1,5 +1,17 @@
 {
-  "has_discount" : true,
-  "flowName" : "STRING",
-  "v_clientToken" : "STRING"
+  "receiveCount" : "",
+  "lastReceivedAt_data" : null,
+  "firstReceivedAt" : "DATETIME",
+  "queueName" : "STRING",
+  "body" : {
+    "errorMessage" : "STRING",
+    "v_errorCode" : "STRING",
+    "orderId" : "STRING"
+  },
+  "messageId" : "NULL",
+  "attributes" : {
+    "contentType" : "STRING"
+  },
+  "originalQueue" : "STRING",
+  "v_movedToDlqAt" : "DATETIME"
 }

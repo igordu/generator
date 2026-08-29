@@ -1,51 +1,24 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "trace_id" : "STRING",
+  "hostname" : "STRING",
+  "source_service_data" : "STRING",
+  "price" : 9995.87,
+  "primaryKey" : "STRING",
+  "target_service_data" : "STRING",
+  "region" : "STRING",
+  "http_data" : {
+    "v_method" : "STRING",
+    "status_code_data" : null,
+    "page_index" : 2669,
+    "latency_ms_data" : "INT"
   },
-  "results" : [ {
-    "facets_data" : [ {
-      "userName" : "STRING",
-      "count" : "",
-      "key" : "STRING"
-    }, {
-      "displayName" : "STRING",
-      "key" : "STRING",
-      "v_count" : "INT"
-    }, {
-      "count" : "INT",
-      "displayName" : "STRING",
-      "key" : "STRING"
-    } ],
-    "filter" : "STRING"
-  }, {
-    "price" : 260.08,
-    "facets" : [ {
-      "count" : "INT",
-      "displayName" : "STRING",
-      "key" : "STRING"
-    }, {
-      "priority_level" : 4747,
-      "key" : "STRING",
-      "count" : "INT",
-      "displayName" : "STRING"
-    } ],
-    "filter_data" : "STRING"
-  }, {
-    "cpu_usage_percent" : 78.56,
-    "v_filter" : "STRING",
-    "facets" : [ {
-      "key" : "STRING",
-      "count" : "INT"
-    }, {
-      "count" : "INT",
-      "displayName" : "STRING",
-      "key" : "STRING"
-    }, {
-      "key" : "STRING",
-      "count" : "INT",
-      "displayName" : "STRING",
-      "item_count" : 1408
-    } ]
-  } ]
+  "severity" : "STRING",
+  "v_details" : [ {
+    "log_line_data" : null,
+    "outcome" : "STRING"
+  } ],
+  "event_type" : "STRING",
+  "v_timestamp" : "DATETIME",
+  "message" : "TEXT",
+  "span_id" : "STRING"
 }

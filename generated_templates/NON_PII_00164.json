@@ -1,6 +1,23 @@
 {
-  "name_val" : "STRING",
-  "shopUrl" : "URL",
-  "modelId" : "STRING",
-  "id" : "STRING"
+  "changelog" : [ {
+    "files_changed" : "INT",
+    "commit_sha" : "STRING",
+    "v_message" : "TEXT"
+  } ],
+  "id" : "INT",
+  "name" : "STRING",
+  "assets_data" : [ {
+    "v_size" : "",
+    "v_browser_download_url" : "URL",
+    "userName" : "STRING",
+    "id" : "INT",
+    "download_count" : "INT",
+    "retry_attempts" : 956,
+    "v_content_type" : "STRING"
+  } ],
+  "published_at" : "DATETIME",
+  "is_active" : true,
+  "target_commitish" : "STRING",
+  "prerelease_data" : "BOOLEAN",
+  "body" : "TEXT"
 }

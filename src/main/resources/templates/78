@@ -1,0 +1,26 @@
+{
+  "tenantId": "STRING",
+  "plan": "STRING",
+  "status": "STRING",
+  "createdAt": "DATETIME",
+  "billingEmail": "PII_EMAIL",
+  "primaryContact": {
+    "name": "PII_PERSON_NAME",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER"
+  },
+  "subscription": {
+    "seats": "INT",
+    "seatsUsed": "INT",
+    "renewalDate": "DATE",
+    "mrr": "DECIMAL",
+    "currency": "STRING"
+  },
+  "usage": {
+    "apiCallsThisMonth": "INT",
+    "storageGb": "DECIMAL",
+    "activeUsers30d": "INT"
+  },
+  "ssoEnabled": "BOOLEAN",
+  "dataResidency": "STRING"
+}

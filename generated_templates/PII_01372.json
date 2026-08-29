@@ -1,14 +1,29 @@
 {
-  "has_discount" : false,
-  "tree" : {
-    "sha_data" : "",
-    "url_data" : "URL"
+  "page_index" : 3035,
+  "fullName" : "STRING",
+  "private" : "BOOLEAN",
+  "defaultBranch_data" : "",
+  "pullRequest_data" : {
+    "uuid" : "INT",
+    "updatedAt_data" : "DATETIME",
+    "changedFiles" : "INT",
+    "createdAt_data" : "DATETIME",
+    "additions" : "INT",
+    "reviewers" : [ {
+      "email" : "PII_EMAIL",
+      "v_state" : "STRING",
+      "login" : "PII_USERNAME",
+      "name" : "PII_PERSON_NAME"
+    } ],
+    "headBranch" : "STRING",
+    "deletions" : "INT",
+    "v_title" : "STRING",
+    "author" : {
+      "userName" : "PII_PERSON_NAME",
+      "v_login" : "PII_USERNAME",
+      "contactEmail" : "PII_EMAIL"
+    }
   },
-  "v_user_info" : {
-    "system_ping_ms" : 1058,
-    "fullName" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "arline__name" : "PII_COMPANY_NAME"
-  },
-  "active" : "BOOLEAN"
+  "v_language" : "NULL",
+  "name" : "STRING"
 }

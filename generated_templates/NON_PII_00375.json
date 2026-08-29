@@ -1,144 +1,15 @@
 {
-  "tasks" : [ {
-    "taskProperties" : {
-      "property1" : "STRING",
-      "v_property2" : "STRING",
-      "auto_renew" : true
-    },
-    "destinationField_data" : "STRING",
-    "taskType" : "STRING",
-    "connectorOperator" : {
-      "Pardot" : "STRING",
-      "InforNexus" : "STRING",
-      "CustomConnector" : "STRING",
-      "Amplitude" : "STRING",
-      "Trendmicro" : "STRING",
-      "Dynatrace" : "STRING",
-      "ServiceNow" : "STRING",
-      "Zendesk" : "STRING",
-      "Datadog" : "STRING",
-      "Singular" : "STRING",
-      "GoogleAnalytics" : "STRING",
-      "S3" : "STRING",
-      "SAPOData" : "STRING",
-      "Marketo" : "STRING",
-      "Slack_data" : "STRING",
-      "v_Veeva" : "STRING",
-      "Salesforce" : "STRING"
-    },
-    "sourceFields" : "ARRAY"
-  } ],
-  "tags_data" : {
-    "property1" : "STRING",
-    "conversion_rate" : 490.39,
-    "property2" : "STRING"
+  "output" : "STRING",
+  "checkId" : "STRING",
+  "serviceId" : "STRING",
+  "node" : {
+    "http_status" : 3358,
+    "id" : "STRING",
+    "datacenter" : "STRING"
   },
-  "kmsArn" : "STRING",
-  "description" : "STRING",
-  "triggerConfig" : {
-    "stock_quantity" : 4068,
-    "triggerProperties" : {
-      "auto_renew" : false,
-      "Scheduled" : {
-        "scheduleStartTime_data" : "DATETIME",
-        "v_dataPullMode" : "STRING",
-        "scheduleEndTime" : "DATETIME",
-        "scheduleExpression" : "STRING",
-        "flowErrorDeactivationThreshold" : "INT",
-        "scheduleOffset" : "INT",
-        "cache_hit" : true
-      }
-    },
-    "triggerType" : "STRING"
-  },
-  "flowName" : "STRING",
-  "sourceFlowConfig" : {
-    "v_sourceConnectorProperties" : {
-      "Amplitude_data" : { },
-      "SAPOData" : { },
-      "InforNexus" : {
-        "object_data" : "STRING"
-      },
-      "Datadog" : {
-        "object" : "STRING",
-        "http_status" : 1081
-      },
-      "Salesforce" : {
-        "enableDynamicFieldUpdate" : "",
-        "includeDeletedRecords" : "BOOLEAN",
-        "v_dataTransferApi" : "STRING",
-        "object_data" : "STRING"
-      },
-      "v_Trendmicro" : {
-        "object" : "STRING"
-      },
-      "Dynatrace" : {
-        "is_active" : true
-      },
-      "Zendesk" : {
-        "object_data" : "STRING"
-      },
-      "Pardot_data" : {
-        "object" : "STRING",
-        "http_status" : 4839
-      },
-      "Marketo" : {
-        "is_active" : true,
-        "object_data" : "STRING"
-      },
-      "Veeva" : {
-        "v_includeAllVersions" : "BOOLEAN",
-        "includeRenditions" : "BOOLEAN",
-        "includeSourceFiles" : "BOOLEAN",
-        "documentType" : "STRING"
-      },
-      "price" : 203.15,
-      "S3" : {
-        "bucketPrefix" : "STRING",
-        "s3InputFormatConfig" : {
-          "s3InputFileType_data" : "STRING"
-        }
-      },
-      "v_CustomConnector" : {
-        "name_val" : "NULL",
-        "customProperties" : {
-          "property1" : "STRING",
-          "cache_hit" : true,
-          "property2" : "STRING"
-        },
-        "auto_renew" : true
-      },
-      "GoogleAnalytics" : {
-        "v_object" : "STRING",
-        "cache_hit" : false
-      },
-      "Singular" : {
-        "conversion_rate" : 287.95,
-        "v_object" : "STRING"
-      },
-      "ServiceNow_data" : {
-        "object" : "STRING"
-      }
-    },
-    "connectorProfileName" : "STRING",
-    "incrementalPullConfig_data" : {
-      "datetimeTypeFieldName" : "STRING"
-    },
-    "connectorType_data" : "STRING",
-    "priority_level" : 3113
-  },
-  "destinationFlowConfigList" : [ {
-    "userName" : "STRING",
-    "apiVersion" : "STRING"
-  } ],
-  "clientToken_data" : "",
-  "auto_renew" : false,
-  "v_metadataCatalogConfig" : {
-    "glueDataCatalog" : {
-      "tablePrefix" : null,
-      "userName" : "STRING",
-      "roleArn" : "STRING"
-    },
-    "cache_hit" : false
-  }
+  "timestamp" : "",
+  "status" : "STRING",
+  "consecutiveSuccesses_data" : "INT",
+  "consecutiveFailures" : "INT",
+  "interval_data" : "STRING"
 }

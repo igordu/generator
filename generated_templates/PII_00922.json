@@ -1,37 +1,43 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "object" : "STRING",
-      "data" : [ {
-        "balance" : null,
-        "v_tax_exempt" : "STRING",
-        "email" : "PII_EMAIL",
-        "cell" : "PII_PHONE_NUMBER",
-        "invoice_prefix" : "STRING",
-        "description" : "STRING",
-        "livemode" : "BOOLEAN",
-        "address_data" : "NULL",
-        "invoice_settings" : {
-          "footer_data" : "NULL",
-          "default_payment_method_data" : "STRING",
-          "custom_fields_data" : "NULL",
-          "rendering_options" : "NULL"
+  "system_state" : {
+    "transaction_trace" : {
+      "raw_data" : {
+        "amount" : {
+          "v_value" : "INT",
+          "currency" : "NULL",
+          "price" : 1873.63
         },
-        "object_data" : "STRING",
-        "shipping" : "NULL",
-        "default_source" : "STRING",
-        "currency" : "STRING",
-        "id" : "STRING",
-        "test_clock" : "NULL",
-        "preferred_locales_data" : "ARRAY",
-        "next_invoice_sequence" : "INT",
-        "created" : "DATETIME_EPOCH",
-        "metadata_data" : "OBJECT",
-        "delinquent" : "BOOLEAN",
-        "name" : "PII_PERSON_NAME"
-      } ],
-      "url" : "URL",
-      "has_more_data" : "BOOLEAN"
+        "conversion_rate" : 7.36,
+        "billing_data" : {
+          "postalCode" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "address" : "PII_ADDRESS_LINE",
+          "cache_hit" : false,
+          "country" : "PII_LOCATION_COUNTRY"
+        },
+        "card_data" : {
+          "pan" : "PII_CREDIT_CARD",
+          "v_issuingCountry" : "PII_LOCATION_COUNTRY",
+          "issuingBank" : "PII_COMPANY_NAME",
+          "price" : 2317.99,
+          "scheme" : "STRING",
+          "cardholderName" : "PII_PERSON_NAME",
+          "expiryYear" : "STRING",
+          "expiryMonth" : "STRING"
+        },
+        "transactionId" : "STRING",
+        "timestamp" : "DATETIME",
+        "type" : "STRING",
+        "merchant" : {
+          "categoryCode" : "STRING",
+          "v_country" : "PII_LOCATION_COUNTRY",
+          "id" : "STRING",
+          "name" : "PII_COMPANY_NAME",
+          "price" : 7489.86
+        },
+        "fraudScore" : "INT",
+        "v_status" : "STRING"
+      }
     }
   }
 }

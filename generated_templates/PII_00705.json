@@ -1,32 +1,33 @@
 {
-  "page_number" : "INT",
-  "registrants" : [ {
-    "job_title" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY",
-    "status" : "STRING",
-    "email" : "PII_EMAIL",
-    "custom_questions" : [ {
-      "page_index" : 4351,
-      "value" : "NULL",
-      "title" : "STRING"
-    } ],
-    "role_in_purchase_process" : "STRING",
-    "conversion_rate" : 30.94,
-    "no_of_employees" : "STRING",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "phone" : "PII_PHONE_NUMBER",
-    "org_data" : "PII_ORGANIZATION_NAME",
-    "address" : "PII_ADDRESS_LINE",
-    "join_url" : "",
-    "state" : "PII_LOCATION_STATE",
-    "purchasing_time_frame" : "",
-    "city" : "PII_LOCATION_CITY",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "industry" : "STRING",
-    "id" : "STRING",
-    "create_time" : "DATETIME",
-    "zip" : "STRING"
-  } ],
-  "total_records" : "",
-  "page_size" : "INT"
+  "created" : "DATETIME_EPOCH",
+  "api_version" : "STRING",
+  "livemode" : "BOOLEAN",
+  "v_type" : "STRING",
+  "object" : "STRING",
+  "id" : "",
+  "v_data" : {
+    "object" : {
+      "object" : "STRING",
+      "currency_data" : "NULL",
+      "primaryKey" : "STRING",
+      "mail" : "PII_EMAIL",
+      "customer" : null,
+      "amount" : "INT",
+      "description" : "STRING",
+      "status" : "STRING",
+      "shipping" : {
+        "is_deleted" : true,
+        "address" : {
+          "state_data" : "STRING",
+          "country" : "PII_LOCATION_COUNTRY",
+          "postal_code" : "",
+          "city_data" : "PII_LOCATION_CITY",
+          "line1" : "PII_ADDRESS_LINE",
+          "has_discount" : true
+        },
+        "phone" : "PII_PHONE_NUMBER",
+        "name" : "PII_PERSON_NAME"
+      }
+    }
+  }
 }

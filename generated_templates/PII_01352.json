@@ -1,12 +1,43 @@
 {
-  "v_user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "clientName" : "PII_LAST_NAME_MALE",
-    "name_val" : "PII_COMPANY_NAME"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "v_tree" : {
-    "sha" : "STRING",
-    "url" : "URL"
-  },
-  "active" : "BOOLEAN"
+  "results" : {
+    "type" : "NULL",
+    "annualRevenue" : "INT",
+    "billingAddress_data" : {
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "v_city" : "PII_LOCATION_CITY",
+      "postalCode" : "STRING",
+      "street" : "PII_ADDRESS_LINE"
+    },
+    "website" : "URL",
+    "name" : "PII_COMPANY_NAME",
+    "accountId" : "STRING",
+    "primaryContact_data" : {
+      "name" : "PII_PERSON_NAME",
+      "stock_quantity" : 3912,
+      "title" : "STRING",
+      "email" : "PII_EMAIL",
+      "contactNumber" : "PII_PHONE_NUMBER"
+    },
+    "cache_hit" : false,
+    "v_employees" : "INT",
+    "industry_data" : "STRING",
+    "csm" : {
+      "id" : "STRING",
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "cache_hit" : false
+    },
+    "v_contracts" : [ {
+      "currency" : "STRING",
+      "status" : "STRING",
+      "endDate" : "DATE",
+      "value" : "DECIMAL",
+      "contractId" : "STRING",
+      "startDate" : "DATE"
+    } ]
+  }
 }

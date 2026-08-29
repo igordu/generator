@@ -1,17 +1,25 @@
 {
-  "name" : "STRING",
-  "v_media" : {
-    "has_discount" : true,
-    "v_images" : [ {
-      "smallUrl" : "URL",
-      "orderNumber_data" : "INT",
-      "mediumUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "type" : "STRING",
-      "v_mediumHdUrl" : "",
-      "largeHdUrl" : "URL"
-    } ]
+  "anonymized_data" : "BOOLEAN",
+  "stock_quantity" : 3240,
+  "v_ticket" : {
+    "description" : "TEXT",
+    "discount_rate" : 32.11,
+    "id" : "INT",
+    "satisfaction_rating" : {
+      "score" : "STRING",
+      "cpu_usage_percent" : 30.97
+    },
+    "status" : "STRING",
+    "v_created_at" : "DATETIME",
+    "subject" : "STRING",
+    "requester_data" : {
+      "phone" : "***-***-****",
+      "email" : "[MASKED]",
+      "name" : "REDACTED"
+    }
   },
-  "page_index" : 4991
+  "export_id" : "STRING",
+  "gdpr_erasure_applied" : "BOOLEAN",
+  "exported_at" : "DATETIME",
+  "retention_policy" : "STRING"
 }

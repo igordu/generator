@@ -1,62 +1,22 @@
 {
-  "response_time_sec" : 447.97,
-  "fullName" : "PII_USERNAME",
-  "individualAccount" : {
-    "lastName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "v_number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "auto_renew" : false,
-      "v_countryCode" : "STRING"
-    },
-    "contactEmail" : "PII_EMAIL",
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "auto_renew" : true,
-    "registrationAddress" : {
-      "v_county" : "STRING",
-      "city" : "STRING",
-      "country" : "STRING",
-      "addressLine2" : "STRING",
-      "v_postalCode" : null,
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "NULL"
-    },
-    "firstName" : "PII_PERSON_NAME"
-  },
-  "status" : "STRING",
-  "businessAccount" : {
-    "secondaryPhone" : {
-      "number_data" : "PII_PHONE_NUMBER",
-      "mobile" : "STRING"
-    },
-    "primary_email" : "PII_EMAIL",
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "discount_rate" : 278.06,
-      "countryCode" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME",
-      "retry_attempts" : 3831
-    },
-    "v_address" : {
-      "country" : "STRING",
-      "addressLine2" : "STRING",
-      "addressLine1" : "STRING",
-      "has_discount" : true,
-      "city" : "STRING",
-      "stateOrProvince" : "STRING",
-      "postalCode" : "NULL"
-    },
-    "doingBusinessAs" : "STRING"
-  },
-  "accountType" : "STRING",
-  "userId" : "STRING"
+  "server_logs" : {
+    "transaction_trace" : {
+      "debug_payload" : {
+        "date_sent" : "DATETIME",
+        "to" : "PII_PHONE_NUMBER",
+        "temperature_c" : 29.4,
+        "direction" : "STRING",
+        "v_num_segments" : "INT",
+        "error_code" : "NULL",
+        "sid" : "STRING",
+        "date_created" : "DATETIME",
+        "body" : "PII_FREE_TEXT",
+        "price" : "DECIMAL",
+        "from" : "PII_PHONE_NUMBER",
+        "price_unit" : "STRING",
+        "account_sid" : "STRING",
+        "status" : "STRING"
+      }
+    }
+  }
 }

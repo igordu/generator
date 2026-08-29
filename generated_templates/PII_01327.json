@@ -1,12 +1,22 @@
 {
-  "active" : "BOOLEAN",
-  "user_info" : {
-    "fullName" : "PII_LAST_NAME_MALE",
-    "price" : 947.55,
-    "name_val" : "PII_COMPANY_NAME"
+  "v_riskScore" : "DECIMAL",
+  "deviceId" : "STRING",
+  "lastActivityAt" : "NULL",
+  "mfaMethod_data" : "STRING",
+  "issuedTokens" : {
+    "idToken" : "STRING",
+    "refreshToken" : "STRING",
+    "accessToken" : "STRING",
+    "has_discount" : true
   },
-  "tree" : {
-    "url" : "URL",
-    "sha" : "STRING"
-  }
+  "ipAddress" : "PII_IP_ADDRESS",
+  "identifier" : "STRING",
+  "expiresAt" : "DATETIME",
+  "contactEmail" : "PII_EMAIL",
+  "v_userAgent" : "STRING",
+  "has_discount" : true,
+  "createdAt_data" : "DATETIME",
+  "mfaVerified" : "BOOLEAN",
+  "userId" : "STRING",
+  "scopes" : [ "STRING" ]
 }

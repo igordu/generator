@@ -1,28 +1,25 @@
 {
-  "transactions" : {
-    "cpu_usage_percent" : 608.15,
-    "booked" : [ {
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "creditorAccount" : {
-        "is_active" : false,
-        "iban" : "PII_IBAN"
-      },
-      "valueDate" : "DATE",
-      "debtorName" : "STRING",
-      "bankTransactionCode_data" : {
-        "family" : "STRING",
-        "domain" : "STRING",
-        "subFamily_data" : "STRING"
-      },
-      "identifier" : "STRING",
-      "debtorAccount" : { },
-      "bookingDate" : "NULL",
-      "v_amount" : {
-        "amount" : "DECIMAL",
-        "currency" : "",
-        "cache_hit" : false
-      },
-      "creditorName" : "PII_PERSON_NAME"
-    } ]
-  }
+  "displayName" : "PII_PERSON_NAME",
+  "createdDateTime" : "DATETIME",
+  "businessPhones" : [ "PII_PHONE_NUMBER" ],
+  "userPrincipalName" : "PII_EMAIL",
+  "surname" : "PII_PERSON_LAST_NAME",
+  "mobilePhone" : "PII_PHONE_NUMBER",
+  "userName" : "PII_USERNAME",
+  "officeLocation" : "STRING",
+  "v_usageLocation" : "STRING",
+  "mail" : "PII_EMAIL",
+  "country" : "PII_LOCATION_COUNTRY",
+  "companyName" : "PII_COMPANY_NAME",
+  "v_jobTitle" : "STRING",
+  "v_state" : "STRING",
+  "preferredLanguage" : "STRING",
+  "userType" : "STRING",
+  "employeeType_data" : "NULL",
+  "streetAddress" : "PII_ADDRESS_LINE",
+  "primaryKey" : "STRING",
+  "city_data" : "PII_LOCATION_CITY",
+  "postalCode" : "STRING",
+  "identifier" : "STRING",
+  "department_data" : "NULL"
 }

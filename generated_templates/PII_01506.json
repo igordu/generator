@@ -1,0 +1,13 @@
+{
+  "clientName" : "STRING",
+  "permissions" : [ "STRING" ],
+  "v_createdAt" : "DATETIME",
+  "v_assignedTo" : [ {
+    "name" : "PII_PERSON_NAME",
+    "userId" : "STRING",
+    "email" : "PII_EMAIL"
+  } ],
+  "description" : "STRING",
+  "createdBy_data" : "PII_EMAIL",
+  "inheritedFrom" : [ "STRING" ]
+}

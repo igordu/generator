@@ -1,0 +1,22 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "description" : "NULL",
+      "ownedServices" : [ "STRING" ],
+      "slackChannel" : "STRING",
+      "oncallScheduleId" : "STRING",
+      "v_members" : [ {
+        "has_discount" : false,
+        "userId" : "STRING",
+        "joinedAt" : "DATETIME",
+        "name" : "PII_PERSON_NAME",
+        "role" : "STRING",
+        "mail" : "PII_EMAIL"
+      } ],
+      "name" : "STRING",
+      "updatedAt" : "DATETIME",
+      "createdAt" : "",
+      "uuid" : "STRING"
+    }
+  }
+}

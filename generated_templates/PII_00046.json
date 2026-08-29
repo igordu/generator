@@ -1,18 +1,92 @@
 {
-  "content" : [ {
-    "requires_update" : false,
-    "title" : "PII_COMPANY_NAME",
-    "identifier" : "STRING",
-    "v_unhelpfulCount" : "INT",
-    "created" : "DATETIME",
-    "rating" : "INT",
-    "reviewId" : "STRING",
-    "articleId" : "STRING",
-    "language_data" : "STRING",
-    "recommend" : "BOOLEAN",
-    "description" : "STRING",
-    "helpfulCount" : "INT",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_customerCity" : "PII_LOCATION_CITY"
-  } ]
+  "next" : "STRING",
+  "total" : "INT",
+  "limit" : "INT",
+  "discount_rate" : 34.37,
+  "href" : "STRING",
+  "transactions_data" : [ {
+    "v_feeType" : "STRING",
+    "v_totalFeeAmount" : {
+      "v_value" : "STRING",
+      "convertedFromValue" : "STRING",
+      "auto_renew" : true,
+      "currency" : null,
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate_data" : "STRING"
+    },
+    "transactionType" : "STRING",
+    "paymentsEntity" : "STRING",
+    "v_amount" : {
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "v_currency" : "STRING"
+    },
+    "feeJurisdiction_data" : {
+      "response_time_sec" : 0.33,
+      "v_regionType" : "",
+      "regionName" : "STRING"
+    },
+    "v_buyer" : {
+      "is_deleted" : false,
+      "username" : "PII_USERNAME"
+    },
+    "v_bookingEntry" : "STRING",
+    "payoutId" : "STRING",
+    "transactionStatus" : "STRING",
+    "eBayCollectedTaxAmount_data" : {
+      "convertedFromCurrency" : "STRING",
+      "exchangeRate" : "STRING",
+      "v_convertedFromValue" : "",
+      "currency" : "STRING",
+      "value" : "STRING"
+    },
+    "orderLineItems_data" : [ {
+      "v_marketplaceFees" : [ {
+        "v_feeJurisdiction" : {
+          "regionType" : "STRING",
+          "price" : 593.71,
+          "regionName" : "STRING"
+        },
+        "feeMemo" : "STRING",
+        "feeType" : "STRING",
+        "requires_update" : false,
+        "amount_data" : {
+          "value" : "",
+          "stock_quantity" : 648,
+          "convertedFromCurrency_data" : "STRING",
+          "exchangeRate" : null,
+          "v_currency" : "STRING",
+          "convertedFromValue" : "STRING"
+        }
+      } ],
+      "feeBasisAmount" : {
+        "value" : "STRING",
+        "requires_update" : true,
+        "convertedFromCurrency" : "STRING",
+        "currency" : "STRING",
+        "v_exchangeRate" : "STRING",
+        "convertedFromValue" : "STRING"
+      },
+      "lineItemId" : "STRING"
+    } ],
+    "primaryKey" : "STRING",
+    "totalFeeBasisAmount" : {
+      "value" : "STRING",
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "convertedFromValue" : "STRING"
+    },
+    "orderId" : "STRING",
+    "references" : [ {
+      "referenceType" : "STRING",
+      "referenceId" : null,
+      "page_index" : 3814
+    } ],
+    "v_salesRecordReference" : "STRING",
+    "v_transactionMemo" : "STRING",
+    "transactionDate" : "DATETIME"
+  } ],
+  "offset" : "INT"
 }

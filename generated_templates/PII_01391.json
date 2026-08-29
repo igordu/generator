@@ -1,13 +1,27 @@
 {
-  "priority_level" : 4052,
-  "active" : "BOOLEAN",
-  "tree" : {
-    "url" : "URL"
+  "v_viewCount" : "INT",
+  "spaceKey_data" : "STRING",
+  "version" : "INT",
+  "priority_level" : 2114,
+  "author" : {
+    "displayName" : "PII_PERSON_NAME",
+    "contactEmail" : "PII_EMAIL",
+    "accountId" : "STRING"
   },
-  "user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "name_val" : "PII_COMPANY_NAME",
-    "page_index" : 4075
-  }
+  "title" : "STRING",
+  "updatedAt" : "DATETIME",
+  "labels_data" : [ "STRING" ],
+  "lastModifiedBy" : {
+    "accountId" : "STRING",
+    "email" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME"
+  },
+  "v_likes" : "INT",
+  "uuid" : "STRING",
+  "v_ancestors" : [ {
+    "id" : "STRING",
+    "item_count" : 309
+  } ],
+  "createdAt" : "DATETIME",
+  "status_data" : "STRING"
 }

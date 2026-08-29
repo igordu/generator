@@ -1,126 +1,14 @@
 {
-  "clientToken" : "STRING",
-  "tasks_data" : [ {
-    "priority_level" : 3389,
-    "taskType" : "STRING",
-    "sourceFields" : "ARRAY",
-    "taskProperties_data" : {
-      "property2" : "STRING"
-    },
-    "connectorOperator" : {
-      "Trendmicro_data" : "STRING",
-      "Datadog" : "STRING",
-      "Zendesk" : "STRING",
-      "S3_data" : null,
-      "Salesforce_data" : "STRING",
-      "Amplitude" : "STRING",
-      "v_Singular" : "NULL",
-      "ServiceNow" : "STRING",
-      "v_Marketo" : "STRING",
-      "CustomConnector" : "STRING",
-      "SAPOData" : "STRING",
-      "v_InforNexus" : "STRING",
-      "Veeva" : "STRING",
-      "Dynatrace" : "STRING",
-      "GoogleAnalytics" : "STRING",
-      "Pardot" : "STRING",
-      "Slack" : "STRING"
-    }
-  } ],
-  "triggerConfig" : {
-    "triggerType" : "STRING",
-    "triggerProperties" : {
-      "conversion_rate" : 370.27,
-      "Scheduled" : {
-        "scheduleStartTime" : "DATETIME",
-        "v_scheduleExpression" : "STRING",
-        "firstExecutionFrom" : "DATETIME",
-        "v_timezone" : "STRING",
-        "priority_level" : 4854,
-        "scheduleOffset" : "NULL",
-        "v_scheduleEndTime" : null
-      }
-    }
+  "recordId" : "STRING",
+  "checkId" : "STRING",
+  "consecutiveFailures" : "INT",
+  "v_node" : {
+    "priority_level" : 3236,
+    "datacenter" : "STRING",
+    "uuid" : "STRING"
   },
-  "metadataCatalogConfig" : {
-    "glueDataCatalog" : {
-      "roleArn_data" : "STRING",
-      "databaseName" : "STRING",
-      "tablePrefix_data" : "STRING",
-      "price" : 782.39
-    }
-  },
-  "sourceFlowConfig" : {
-    "connectorType" : "STRING",
-    "v_incrementalPullConfig" : {
-      "userName" : "STRING"
-    },
-    "sourceConnectorProperties" : {
-      "SAPOData" : {
-        "objectPath" : "NULL"
-      },
-      "retry_attempts" : 4797,
-      "Pardot" : {
-        "page_index" : 1640,
-        "v_object" : "STRING"
-      },
-      "Trendmicro" : {
-        "auto_renew" : true,
-        "object_data" : "STRING"
-      },
-      "GoogleAnalytics" : {
-        "object" : "STRING"
-      },
-      "Dynatrace" : {
-        "object" : "STRING"
-      },
-      "Zendesk" : {
-        "object_data" : "STRING",
-        "retry_attempts" : 1330
-      },
-      "Amplitude" : {
-        "object" : "STRING",
-        "requires_update" : false
-      },
-      "InforNexus" : {
-        "object" : "STRING"
-      },
-      "Marketo" : {
-        "object" : "STRING"
-      },
-      "Datadog" : {
-        "http_status" : 3552
-      },
-      "v_CustomConnector" : {
-        "entityName" : "STRING",
-        "customProperties" : {
-          "property2" : "STRING"
-        }
-      },
-      "Salesforce" : {
-        "includeDeletedRecords" : "BOOLEAN",
-        "page_index" : 4029,
-        "dataTransferApi_data" : "STRING",
-        "object" : "STRING"
-      },
-      "S3" : {
-        "bucketPrefix" : "STRING",
-        "bucketName" : "STRING",
-        "s3InputFormatConfig_data" : {
-          "s3InputFileType_data" : "STRING",
-          "cache_hit" : true
-        }
-      },
-      "Singular" : {
-        "v_object" : "STRING"
-      }
-    }
-  },
-  "retry_attempts" : 4413,
-  "kmsArn" : "STRING",
-  "tags" : {
-    "cache_hit" : true,
-    "property1" : "STRING"
-  },
-  "fullName" : "STRING"
+  "v_status" : "STRING",
+  "timestamp" : "DATETIME",
+  "consecutiveSuccesses_data" : "INT",
+  "output" : "STRING"
 }

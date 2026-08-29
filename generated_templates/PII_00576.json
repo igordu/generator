@@ -1,34 +1,52 @@
 {
-  "telemetry_data" : {
-    "request_context" : {
-      "debug_payload" : {
-        "v_transactions" : {
-          "booked_data" : [ {
-            "creditorAccount" : {
-              "iban" : "PII_IBAN",
-              "response_time_sec" : 988.29
-            },
-            "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-            "v_bookingDate" : "DATE",
-            "bankTransactionCode" : {
-              "family" : "STRING",
-              "domain_data" : "STRING",
-              "subFamily" : "STRING",
-              "page_index" : 2869
-            },
-            "identifier" : "STRING",
-            "creditorName" : "PII_PERSON_NAME",
-            "amount" : {
-              "currency" : "STRING",
-              "amount" : "DECIMAL"
-            },
-            "valueDate" : "DATE",
-            "page_index" : 2013
-          } ],
-          "discount_rate" : 872.0
-        },
-        "temperature_c" : 631.19
-      }
+  "state" : "STRING",
+  "payer" : {
+    "v_payment_method" : "STRING",
+    "status_data" : "STRING",
+    "price" : 2342.29,
+    "payer_info" : {
+      "v_birth_date" : "PII_DATE_OF_BIRTH",
+      "v_country_code" : "STRING",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "payer_id" : "STRING",
+      "billing_address" : {
+        "city" : "PII_LOCATION_CITY",
+        "postal_code" : "STRING",
+        "line1_data" : "PII_ADDRESS_LINE",
+        "state" : "STRING",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "cache_hit" : true
+      },
+      "shipping_address" : {
+        "line1" : "PII_ADDRESS_LINE",
+        "phone" : "PII_PHONE_NUMBER",
+        "city" : "PII_LOCATION_CITY",
+        "state" : "STRING",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "postal_code_data" : "STRING",
+        "page_index" : 2841,
+        "recipient_name" : "PII_PERSON_NAME",
+        "line2" : "STRING"
+      },
+      "email" : "PII_EMAIL",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "telephone" : "PII_PHONE_NUMBER"
     }
-  }
+  },
+  "transactions" : [ {
+    "amount_data" : {
+      "currency" : "STRING",
+      "price" : 3141.33,
+      "total" : "DECIMAL"
+    },
+    "v_invoice_number" : "STRING",
+    "description" : "STRING",
+    "is_deleted" : false
+  } ],
+  "id" : "STRING",
+  "intent" : "STRING",
+  "create_time_data" : "DATETIME",
+  "update_time" : "DATETIME",
+  "cart_data" : null,
+  "stock_quantity" : 4532
 }

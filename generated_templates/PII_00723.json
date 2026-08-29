@@ -1,39 +1,29 @@
 {
-  "v_registrants" : [ {
-    "state_data" : "PII_LOCATION_STATE",
-    "phone" : "PII_PHONE_NUMBER",
-    "purchasing_time_frame_data" : "STRING",
-    "address_data" : "PII_ADDRESS_LINE",
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "plan" : {
+      "interval" : "STRING",
+      "response_time_sec" : 22.07,
+      "currency" : "STRING",
+      "object" : "STRING",
+      "amount" : "INT"
+    },
+    "livemode_data" : "BOOLEAN",
+    "current_period_end" : "DATETIME_EPOCH",
+    "customer" : "",
+    "metadata" : {
+      "account_manager" : "PII_EMAIL",
+      "order_id" : "STRING"
+    },
+    "http_status" : 1300,
     "id" : "STRING",
-    "v_custom_questions" : [ {
-      "conversion_rate" : 356.12,
-      "value" : "STRING",
-      "title" : "STRING"
-    }, {
-      "value" : "",
-      "title_data" : "STRING",
-      "auto_renew" : false
-    } ],
-    "role_in_purchase_process" : "STRING",
-    "industry_data" : "STRING",
-    "contactEmail" : "PII_EMAIL",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "comments" : "STRING",
     "status" : "STRING",
-    "v_create_time" : "DATETIME",
-    "v_job_title" : "STRING",
-    "no_of_employees" : "STRING",
-    "price" : 817.54,
-    "zip" : "STRING",
-    "org_data" : "PII_ORGANIZATION_NAME",
-    "country_data" : "PII_LOCATION_COUNTRY",
-    "v_city" : "PII_LOCATION_CITY",
-    "v_join_url" : "URL"
-  } ],
-  "page_number" : "INT",
-  "page_size_data" : null,
-  "page_count" : "INT",
-  "requires_update" : true,
-  "total_records" : "INT"
+    "trial_end_data" : "NULL",
+    "cancel_at_period_end" : "BOOLEAN",
+    "v_object" : "STRING",
+    "current_period_start_data" : "DATETIME_EPOCH"
+  }
 }

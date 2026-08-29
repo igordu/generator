@@ -1,34 +1,56 @@
 {
-  "page_size_data" : "INT",
-  "v_registrants" : [ {
-    "id" : "STRING",
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "comments_data" : "STRING",
-    "v_state" : "PII_LOCATION_STATE",
-    "industry" : "STRING",
-    "v_address" : "PII_ADDRESS_LINE",
-    "job_title" : "STRING",
-    "v_city" : "PII_LOCATION_CITY",
-    "country_data" : "PII_LOCATION_COUNTRY",
-    "v_org" : "PII_ORGANIZATION_NAME",
-    "zip_data" : "STRING",
-    "role_in_purchase_process" : "STRING",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "emailAddress" : "PII_EMAIL",
-    "phone" : "PII_PHONE_NUMBER",
-    "status" : "STRING",
-    "custom_questions" : [ {
-      "title" : null
-    }, {
-      "value" : "STRING",
-      "has_discount" : true,
-      "title" : "STRING"
-    } ],
-    "join_url" : "URL",
-    "purchasing_time_frame" : "STRING",
-    "no_of_employees" : "STRING"
-  } ],
-  "cpu_usage_percent" : 769.11,
-  "page_count" : "INT",
-  "page_number" : "INT"
+  "audit_trail" : {
+    "event_data" : {
+      "raw_data" : {
+        "fullName" : [ {
+          "use" : "NULL",
+          "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+          "prefix" : [ "STRING" ],
+          "family_data" : "PII_PERSON_LAST_NAME"
+        } ],
+        "qualification" : [ {
+          "discount_rate" : 89.08,
+          "code" : {
+            "coding" : [ {
+              "system" : "URL",
+              "code" : "STRING"
+            } ]
+          }
+        } ],
+        "gender" : "STRING",
+        "meta" : {
+          "versionId" : "INT",
+          "lastUpdated" : "DATETIME"
+        },
+        "active" : "BOOLEAN",
+        "identifier" : [ {
+          "system" : "URL",
+          "requires_update" : true,
+          "value_data" : "PII_NATIONAL_ID"
+        } ],
+        "address" : [ {
+          "use_data" : "STRING",
+          "v_postalCode" : "STRING",
+          "is_active" : false,
+          "city" : "PII_LOCATION_CITY",
+          "state" : "STRING",
+          "country" : "PII_LOCATION_COUNTRY",
+          "line" : [ "PII_ADDRESS_LINE" ]
+        } ],
+        "birthDate" : "PII_DATE_OF_BIRTH",
+        "resourceType" : "STRING",
+        "telecom" : [ {
+          "value" : "PII_EMAIL",
+          "use" : "STRING",
+          "system" : "STRING",
+          "system_ping_ms" : 30
+        }, {
+          "use" : "STRING",
+          "system" : "STRING",
+          "stock_quantity" : 3424,
+          "value_data" : "PII_PHONE_NUMBER"
+        } ]
+      }
+    }
+  }
 }

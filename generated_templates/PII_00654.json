@@ -1,37 +1,55 @@
 {
-  "v_DateTimeUTC" : "DATETIME",
-  "Employees_data" : [ {
-    "v_Status" : "STRING",
-    "uuid" : "STRING",
-    "ExternalLink" : {
-      "Description_data" : "STRING",
-      "Url" : "URL"
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC_data" : "DATETIME",
-    "clientName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "NULL",
-    "ExternalLink" : {
-      "stock_quantity" : 4352
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "is_active" : true,
+  "metadata" : {
+    "resourceVersion" : "NULL",
     "identifier" : "STRING",
-    "fullName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "EmployeeID" : "STRING",
-    "v_ExternalLink" : {
-      "discount_rate" : 820.15,
-      "Description" : "STRING"
+    "v_labels" : {
+      "environment" : "STRING",
+      "stock_quantity" : 2902,
+      "version" : "STRING",
+      "app" : "STRING"
     },
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  } ],
-  "fullName" : "STRING",
-  "Status" : "STRING",
-  "Id" : "STRING"
+    "creationTimestamp" : "DATETIME",
+    "cache_hit" : false,
+    "namespace" : "STRING",
+    "annotations" : {
+      "v_contact" : "PII_EMAIL"
+    }
+  },
+  "conversion_rate" : 7.34,
+  "spec" : {
+    "clientName" : "STRING",
+    "nodeName" : "STRING",
+    "response_time_sec" : 16.75,
+    "containers" : [ {
+      "image_data" : "STRING",
+      "env" : [ {
+        "name" : "STRING",
+        "value" : "PII_EMAIL"
+      } ],
+      "resources" : {
+        "requests" : {
+          "cpu" : "STRING",
+          "memory" : "STRING"
+        },
+        "limits_data" : {
+          "response_time_sec" : 22.62,
+          "cpu" : "STRING",
+          "v_memory" : "STRING"
+        }
+      },
+      "name" : "STRING",
+      "ports" : [ {
+        "protocol" : "STRING",
+        "containerPort" : "INT"
+      } ]
+    } ]
+  },
+  "status_data" : {
+    "startTime" : "DATETIME",
+    "temperature_c" : 32.67,
+    "phase_data" : "NULL",
+    "v_podIP" : "STRING"
+  },
+  "apiVersion" : "STRING",
+  "v_kind" : "STRING"
 }

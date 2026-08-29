@@ -1,24 +1,24 @@
-[ {
-  "filter" : "STRING",
-  "facets_data" : [ {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT",
-    "has_discount" : false
-  } ]
-}, {
-  "price" : 833.29,
-  "v_facets" : [ {
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "userName" : "STRING",
-    "v_count" : "INT",
-    "key" : "STRING"
-  }, {
-    "cpu_usage_percent" : 371.02,
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING"
-  } ]
-} ]
+{
+  "data" : {
+    "fetchResource" : {
+      "endpoint" : "URL",
+      "log_line" : "TEXT",
+      "connection" : {
+        "timeout_ms" : "INT",
+        "pool_size" : "INT",
+        "v_retries" : "INT",
+        "cpu_usage_percent" : 53.49
+      },
+      "service" : "STRING",
+      "auth" : {
+        "priority_level" : 1338,
+        "api_key" : "[REDACTED]",
+        "client_secret" : "[MASKED]",
+        "token_expires" : "DATETIME",
+        "username" : "svc_backup_01",
+        "v_password" : "********"
+      },
+      "last_status_data" : "STRING"
+    }
+  }
+}

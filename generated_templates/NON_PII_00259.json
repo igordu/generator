@@ -1,26 +1,27 @@
 [ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "key" : "STRING",
-    "is_deleted" : true,
-    "count" : "INT"
-  }, {
-    "count" : "INT",
-    "cpu_usage_percent" : 700.59,
-    "key" : "STRING"
-  }, {
-    "count" : "INT",
-    "response_time_sec" : 934.76,
-    "key" : "",
-    "displayName" : "STRING"
-  } ]
+  "taxDepreciationSettings" : "ARRAY",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "assetTypeId" : "STRING",
+  "fixedAssetAccountId" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "fullName" : "STRING",
+  "depreciationExpenseAccountId" : "STRING",
+  "locks_data" : "INT"
 }, {
-  "requires_update" : true,
-  "filter" : "STRING",
-  "v_facets" : [ {
-    "count_data" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "discount_rate" : 304.86
-  } ]
+  "primaryKey" : "STRING",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "taxDepreciationSettings" : null,
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "cpu_usage_percent" : 81.89,
+  "locks" : "INT",
+  "assetTypeName" : "STRING",
+  "bookDepreciationSetting" : {
+    "depreciableObjectId" : "STRING",
+    "is_active" : true,
+    "v_depreciationCalculationMethod" : "STRING",
+    "v_averagingMethod" : "STRING",
+    "depreciableObjectType_data" : "STRING",
+    "depreciationMethod" : "STRING",
+    "depreciationRate" : "DECIMAL"
+  }
 } ]

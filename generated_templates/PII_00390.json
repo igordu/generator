@@ -1,4 +1,26 @@
 {
-  "page_index" : 3069,
-  "emailAddress" : "PII_EMAIL"
+  "error_message" : "NULL",
+  "date_sent_data" : "DATETIME",
+  "num_segments" : "STRING",
+  "date_created_data" : "DATETIME",
+  "direction" : "STRING",
+  "identifier" : "STRING",
+  "response_time_sec" : 19.55,
+  "from" : "PII_PHONE_NUMBER",
+  "status" : "STRING",
+  "v_subresource_uris" : {
+    "is_deleted" : true,
+    "media" : "URL"
+  },
+  "account_sid" : "STRING",
+  "price" : null,
+  "v_error_code" : "NULL",
+  "api_version" : null,
+  "price_unit" : "NULL",
+  "sid" : "STRING",
+  "to" : "PII_PHONE_NUMBER",
+  "v_uri" : "URL",
+  "date_updated" : "DATETIME",
+  "body" : "STRING",
+  "v_num_media" : "STRING"
 }

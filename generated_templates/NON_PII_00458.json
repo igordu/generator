@@ -1,10 +1,15 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "ttl" : "INT",
+  "namespace" : "STRING",
+  "cacheKey" : "STRING",
+  "lastAccessedAt" : "DATETIME",
+  "value" : {
+    "userId" : "STRING",
+    "expiresAt" : "DATETIME",
+    "roles" : [ "NULL" ],
+    "has_discount" : true
   },
-  "results" : {
-    "flowName" : "STRING",
-    "clientToken" : "STRING"
-  }
+  "auto_renew" : false,
+  "createdAt_data" : "DATETIME",
+  "region" : "STRING"
 }

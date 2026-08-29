@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "modelId" : "STRING",
+    "fullName" : "NULL",
+    "version" : "STRING",
+    "endpoint" : "URL",
+    "trainingDataPeriod" : "STRING",
+    "metrics" : {
+      "accuracy" : "DECIMAL",
+      "v_recall" : "NULL",
+      "f1Score" : "DECIMAL",
+      "precision" : "DECIMAL"
+    },
+    "deployedAt_data" : null,
+    "inferenceStats_data" : {
+      "avgLatencyMs" : "INT",
+      "v_requestsToday" : "INT",
+      "v_errorRate" : "DECIMAL"
+    },
+    "featureImportance" : {
+      "monthly_spend_trend" : "DECIMAL",
+      "v_product_usage_score" : "DECIMAL",
+      "days_since_last_login_data" : "DECIMAL",
+      "v_support_ticket_count" : "DECIMAL"
+    },
+    "v_trainedBy" : "PII_EMAIL",
+    "status_data" : "STRING"
+  }
+}

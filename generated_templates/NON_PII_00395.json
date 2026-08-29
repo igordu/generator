@@ -1,135 +1,21 @@
 {
-  "sourceFlowConfig" : {
-    "system_ping_ms" : 2637,
-    "connectorType" : "STRING",
-    "connectorProfileName" : "STRING",
-    "v_incrementalPullConfig" : {
-      "datetimeTypeFieldName" : "STRING"
-    },
-    "apiVersion" : "STRING"
-  },
-  "metadataCatalogConfig" : { },
-  "description" : "STRING",
-  "triggerConfig" : {
-    "v_triggerProperties" : {
-      "Scheduled_data" : {
-        "v_firstExecutionFrom" : "DATETIME",
-        "dataPullMode" : "STRING",
-        "v_scheduleOffset" : "INT",
-        "response_time_sec" : 951.58,
-        "timezone" : "STRING",
-        "scheduleStartTime" : "DATETIME",
-        "scheduleEndTime" : "DATETIME",
-        "scheduleExpression_data" : "STRING",
-        "flowErrorDeactivationThreshold" : "INT"
+  "audit_trail" : {
+    "event_data" : {
+      "raw_data" : {
+        "migrationId" : "STRING",
+        "rollbackAvailable" : "BOOLEAN",
+        "version" : "STRING",
+        "executionTimeMs" : "INT",
+        "appliedBy_data" : "STRING",
+        "schema" : "STRING",
+        "statementsExecuted" : "INT",
+        "database_data" : "STRING",
+        "response_time_sec" : 4.11,
+        "name" : "STRING",
+        "status" : "STRING",
+        "appliedAt" : "DATETIME",
+        "v_checksum" : "STRING"
       }
-    },
-    "triggerType" : "NULL",
-    "discount_rate" : 170.04
-  },
-  "tags" : {
-    "property2" : "STRING",
-    "property1" : "STRING"
-  },
-  "userName" : "STRING",
-  "v_destinationFlowConfigList" : [ {
-    "priority_level" : 4185,
-    "apiVersion" : "STRING",
-    "destinationConnectorProperties" : {
-      "Salesforce" : {
-        "conversion_rate" : 53.82,
-        "errorHandlingConfig" : {
-          "bucketPrefix" : "STRING",
-          "bucketName" : "STRING",
-          "failOnFirstDestinationError" : "BOOLEAN",
-          "is_deleted" : false
-        },
-        "dataTransferApi" : "STRING",
-        "idFieldNames" : "ARRAY",
-        "writeOperationType" : "STRING",
-        "object" : "STRING"
-      },
-      "Redshift_data" : {
-        "bucketPrefix" : "STRING",
-        "response_time_sec" : 642.4,
-        "object_data" : "STRING",
-        "name_val" : "STRING",
-        "errorHandlingConfig" : {
-          "failOnFirstDestinationError_data" : "BOOLEAN",
-          "name_val" : "STRING",
-          "bucketPrefix" : "STRING",
-          "http_status" : 2180
-        }
-      },
-      "Snowflake" : {
-        "errorHandlingConfig" : {
-          "bucketName" : "NULL",
-          "failOnFirstDestinationError_data" : "BOOLEAN",
-          "bucketPrefix" : "STRING"
-        },
-        "object" : "STRING",
-        "bucketPrefix" : "STRING",
-        "intermediateBucketName" : "STRING"
-      },
-      "S3_data" : {
-        "clientName" : "STRING",
-        "bucketPrefix_data" : "STRING",
-        "s3OutputFormatConfig" : {
-          "preserveSourceDataTyping_data" : "BOOLEAN",
-          "prefixConfig" : {
-            "prefixFormat" : "STRING",
-            "conversion_rate" : 524.89,
-            "prefixType" : "STRING",
-            "pathPrefixHierarchy" : "ARRAY"
-          },
-          "fileType" : "STRING",
-          "item_count" : 4148,
-          "aggregationConfig" : {
-            "targetFileSize" : "INT"
-          }
-        }
-      },
-      "recordId" : {
-        "errorHandlingConfig" : {
-          "v_bucketPrefix" : "STRING",
-          "fullName" : "STRING",
-          "failOnFirstDestinationError" : "BOOLEAN"
-        },
-        "discount_rate" : 909.01,
-        "object_data" : "STRING"
-      },
-      "LookoutMetrics" : { },
-      "conversion_rate" : 986.81
-    },
-    "connectorProfileName" : null,
-    "connectorType" : "STRING"
-  } ],
-  "v_tasks" : [ {
-    "taskType" : "STRING",
-    "connectorOperator" : {
-      "v_Trendmicro" : "STRING",
-      "Zendesk" : "STRING",
-      "SAPOData" : "STRING",
-      "Amplitude" : "STRING",
-      "Slack" : "STRING",
-      "Pardot" : "STRING",
-      "ServiceNow" : "STRING",
-      "GoogleAnalytics" : "STRING",
-      "Veeva_data" : "STRING",
-      "Datadog" : "STRING",
-      "Dynatrace" : "STRING",
-      "v_CustomConnector" : "STRING",
-      "v_InforNexus" : "STRING",
-      "Singular" : "STRING",
-      "system_ping_ms" : 1436,
-      "Marketo" : null
-    },
-    "sourceFields" : "ARRAY",
-    "taskProperties" : {
-      "property1" : "STRING",
-      "property2" : "STRING"
-    },
-    "destinationField" : "STRING",
-    "cpu_usage_percent" : 262.37
-  } ]
+    }
+  }
 }

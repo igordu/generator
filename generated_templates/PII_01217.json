@@ -1,70 +1,22 @@
-[ {
-  "parents" : [ {
-    "temperature_c" : 572.5,
-    "v_url" : "URL"
+{
+  "legalBasis" : "STRING",
+  "collectedAt" : "DATETIME",
+  "dataSubject" : {
+    "email" : "PII_EMAIL",
+    "country" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "id" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "lastName" : "PII_PERSON_LAST_NAME"
+  },
+  "withdrawnAt" : "NULL",
+  "purposes" : [ {
+    "name" : "STRING",
+    "grantedAt" : "DATETIME",
+    "v_granted" : "BOOLEAN",
+    "id" : "STRING"
   } ],
-  "committer" : {
-    "received_events_url" : "URL",
-    "avatar_url" : "URL",
-    "following_url" : "URL",
-    "v_organizations_url" : "URL",
-    "followers_url" : "URL",
-    "subscriptions_url" : "URL",
-    "type" : "STRING",
-    "gists_url" : "URL",
-    "repos_url" : "URL",
-    "events_url" : "URL",
-    "html_url" : "URL",
-    "price" : 799.01,
-    "id" : "INT",
-    "site_admin" : "",
-    "url_data" : "URL",
-    "starred_url_data" : "URL",
-    "login" : "STRING"
-  },
-  "system_ping_ms" : 1200,
-  "node_id" : "STRING",
-  "html_url" : "URL",
-  "author" : {
-    "repos_url" : "NULL",
-    "id" : "INT",
-    "type" : "STRING",
-    "gists_url_data" : "URL",
-    "gravatar_id" : "STRING",
-    "following_url" : "URL",
-    "events_url" : "NULL",
-    "starred_url" : "URL",
-    "avatar_url" : "URL",
-    "organizations_url_data" : "NULL",
-    "followers_url_data" : "URL",
-    "received_events_url" : "URL",
-    "recordId" : "STRING",
-    "url" : "URL",
-    "html_url" : "URL",
-    "subscriptions_url" : "URL"
-  },
-  "commit" : {
-    "priority_level" : 2835,
-    "author" : {
-      "email" : "PII_EMAIL",
-      "v_date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "tree" : {
-      "url" : "",
-      "sha" : "STRING"
-    },
-    "comment_count" : "INT",
-    "url" : "URL",
-    "committer" : {
-      "has_discount" : true,
-      "name" : "PII_PERSON_NAME",
-      "v_date" : "DATETIME",
-      "email" : "PII_EMAIL"
-    },
-    "message" : "PII_COMPANY_NAME"
-  },
-  "sha_data" : "STRING",
-  "v_comments_url" : "URL",
-  "url" : "URL"
-} ]
+  "version" : "NULL",
+  "consentId" : "STRING",
+  "retentionDays_data" : "INT"
+}

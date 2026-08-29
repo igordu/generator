@@ -1,33 +1,37 @@
 {
-  "data" : [ {
-    "item_count" : 4107,
-    "invoice_settings" : {
-      "footer_data" : "STRING",
-      "custom_fields" : "NULL",
-      "default_payment_method" : "NULL",
-      "rendering_options" : "NULL"
+  "v_address" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "street_data" : "PII_ADDRESS_LINE",
+    "v_city" : "PII_LOCATION_CITY",
+    "requires_update" : false,
+    "postcode" : "STRING"
+  },
+  "financialAid" : {
+    "is_active" : true,
+    "disbursedAt_data" : "DATE",
+    "scholarshipId" : "STRING"
+  },
+  "studentId" : "STRING",
+  "academicRecord" : {
+    "advisor_data" : {
+      "name" : "PII_PERSON_NAME",
+      "temperature_c" : -13.48,
+      "primary_email" : "PII_EMAIL"
     },
-    "tax_exempt" : "STRING",
-    "livemode" : "BOOLEAN",
-    "test_clock" : "NULL",
-    "currency" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "preferred_locales_data" : "ARRAY",
-    "v_delinquent" : "BOOLEAN",
-    "invoice_prefix" : "STRING",
-    "v_address" : "NULL",
-    "created_data" : "DATETIME_EPOCH",
+    "gpa" : "DECIMAL"
+  },
+  "academicYear" : null,
+  "program" : "STRING",
+  "enrollmentStatus" : null,
+  "has_discount" : false,
+  "personalInfo" : {
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
     "email" : "PII_EMAIL",
-    "description" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "balance_data" : "INT",
-    "id" : "STRING",
-    "default_source" : "STRING",
-    "shipping" : "NULL",
-    "next_invoice_sequence" : "INT",
-    "v_metadata" : "OBJECT"
-  } ],
-  "object" : "STRING",
-  "url_data" : "URL",
-  "retry_attempts" : 1790
+    "phone" : "PII_PHONE_NUMBER",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "personalEmail" : "PII_EMAIL"
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "status" : "STRING",
+    "createdAt" : "DATETIME",
+    "createdBy_data" : {
+      "primary_email" : "PII_EMAIL",
+      "recordId" : "STRING"
+    },
+    "v_triggers" : [ "STRING" ],
+    "stats" : {
+      "successRate" : "DECIMAL",
+      "requires_update" : true,
+      "totalDeliveries" : "INT"
+    },
+    "config" : {
+      "mentionOnError_data" : "STRING",
+      "webhookUrl_data" : "URL",
+      "channel" : "STRING"
+    },
+    "updatedAt_data" : "DATETIME",
+    "v_type" : "STRING",
+    "provider" : "STRING",
+    "integrationId" : "",
+    "name" : "STRING"
+  }
+}

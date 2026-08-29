@@ -1,27 +1,34 @@
 {
-  "transactions" : {
-    "booked_data" : [ {
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "creditorName" : "PII_PERSON_NAME",
-      "amount" : {
-        "amount" : "DECIMAL",
-        "currency" : "STRING",
-        "requires_update" : false
-      },
-      "valueDate" : "DATE",
-      "debtorName" : "STRING",
-      "creditorAccount_data" : {
-        "cpu_usage_percent" : 716.86,
-        "iban" : "PII_IBAN"
-      },
-      "bookingDate" : "DATE",
-      "recordId" : "NULL",
-      "bankTransactionCode" : {
-        "family" : "STRING",
-        "v_subFamily" : "STRING",
-        "v_domain" : "STRING"
-      }
-    } ],
-    "temperature_c" : 530.52
-  }
+  "v_credentials" : {
+    "provider" : {
+      "name" : "STRING"
+    },
+    "password" : "OBJECT"
+  },
+  "passwordChanged" : "DATETIME",
+  "id" : "STRING",
+  "lastUpdated" : "DATETIME",
+  "profile" : {
+    "zipCode_data" : "STRING",
+    "department_data" : "STRING",
+    "v_streetAddress" : "PII_ADDRESS_LINE",
+    "login" : "PII_EMAIL",
+    "email" : "PII_EMAIL",
+    "v_title" : "STRING",
+    "employeeNumber" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "mail" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME",
+    "cpu_usage_percent" : 68.07,
+    "countryCode" : "PII_LOCATION_COUNTRY",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "organization" : "PII_COMPANY_NAME",
+    "v_state" : "NULL"
+  },
+  "status_data" : "STRING",
+  "activated" : "DATETIME",
+  "created" : "DATETIME",
+  "lastLogin" : "DATETIME"
 }

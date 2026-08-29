@@ -1,8 +1,42 @@
 {
-  "user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "clientName" : "PII_COMPANY_NAME"
-  },
-  "auto_renew" : false,
-  "active" : "BOOLEAN"
+  "data" : {
+    "fetchResource" : {
+      "csm" : {
+        "name" : "PII_PERSON_NAME",
+        "email" : "PII_EMAIL",
+        "cpu_usage_percent" : 15.65
+      },
+      "website_data" : "URL",
+      "primaryContact" : {
+        "title" : "STRING",
+        "name_val" : "PII_PERSON_NAME",
+        "priority_level" : 3277,
+        "phone" : "PII_PHONE_NUMBER",
+        "email" : "PII_EMAIL"
+      },
+      "v_billingAddress" : {
+        "postalCode_data" : "",
+        "country" : "PII_LOCATION_COUNTRY",
+        "priority_level" : 1730,
+        "city" : "PII_LOCATION_CITY",
+        "street" : "PII_ADDRESS_LINE"
+      },
+      "v_industry" : "STRING",
+      "type" : "STRING",
+      "cpu_usage_percent" : 13.26,
+      "employees_data" : "INT",
+      "accountId" : "STRING",
+      "contracts" : [ {
+        "endDate" : null,
+        "value" : "DECIMAL",
+        "currency" : "STRING",
+        "contractId" : "NULL",
+        "product_data" : "",
+        "startDate" : "DATE",
+        "v_status" : "STRING"
+      } ],
+      "v_annualRevenue" : "INT",
+      "name" : "PII_COMPANY_NAME"
+    }
+  }
 }

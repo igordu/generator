@@ -1,48 +1,22 @@
-[ {
-  "url_data" : "URL",
-  "comments_url" : "URL",
-  "commit" : {
-    "v_message" : "PII_COMPANY_NAME",
-    "tree" : {
-      "url" : "URL",
-      "priority_level" : 2613,
-      "v_sha" : "STRING"
-    },
+{
+  "withdrawnAt" : "NULL",
+  "collectedAt" : "DATETIME",
+  "consentId" : "STRING",
+  "v_retentionDays" : "INT",
+  "dataSubject" : {
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "recordId" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
     "requires_update" : true,
-    "author" : {
-      "email" : "PII_EMAIL",
-      "date_data" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "v_comment_count" : "INT",
-    "url_data" : "URL",
-    "v_committer" : {
-      "discount_rate" : 307.54,
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    }
+    "email" : "PII_EMAIL"
   },
-  "committer" : {
-    "subscriptions_url" : "URL",
-    "v_following_url" : "URL",
-    "events_url" : "URL",
-    "url" : "URL",
-    "uuid" : "STRING",
-    "received_events_url" : "URL",
-    "avatar_url" : "URL",
-    "starred_url" : "URL",
-    "id" : "INT",
-    "organizations_url" : "URL",
-    "v_html_url" : "URL",
-    "v_login" : "STRING",
-    "followers_url_data" : "URL",
-    "type" : "STRING",
-    "v_site_admin" : "BOOLEAN",
-    "v_gists_url" : "URL",
-    "repos_url" : "NULL"
-  },
-  "priority_level" : 1897,
-  "sha" : "STRING",
-  "html_url" : "URL"
-} ]
+  "legalBasis" : "STRING",
+  "purposes" : [ {
+    "name" : "STRING",
+    "grantedAt" : "DATETIME",
+    "id" : null
+  } ],
+  "version_data" : "STRING"
+}

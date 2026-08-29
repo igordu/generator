@@ -1,0 +1,18 @@
+{
+  "commit" : "STRING",
+  "startedAt" : "DATETIME",
+  "artifactDigest_data" : "STRING",
+  "repository" : "STRING",
+  "finishedAt" : "DATETIME",
+  "status" : "STRING",
+  "environment" : "STRING",
+  "v_triggeredBy" : "PII_EMAIL",
+  "branch" : "STRING",
+  "requires_update" : true,
+  "stages" : [ {
+    "durationSeconds" : "INT",
+    "name" : "STRING",
+    "http_status" : 4733,
+    "coverage" : "DECIMAL"
+  } ]
+}

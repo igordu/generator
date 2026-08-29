@@ -1,28 +1,29 @@
 {
-  "url_data" : "URL",
-  "has_discount" : true,
-  "data_data" : [ {
-    "balance_data" : "INT",
-    "default_source" : "NULL",
-    "phone" : "PII_PHONE_NUMBER",
-    "recordId" : null,
-    "preferred_locales" : "ARRAY",
-    "v_metadata" : "OBJECT",
-    "currency" : "STRING",
-    "cache_hit" : false,
-    "object" : "STRING",
-    "next_invoice_sequence" : "INT",
-    "livemode" : "BOOLEAN",
-    "name" : "PII_PERSON_NAME",
-    "delinquent" : "BOOLEAN",
+  "content" : {
+    "type" : "STRING",
+    "text" : "STRING"
+  },
+  "v_timestamp" : "DATETIME",
+  "recipient" : {
+    "name" : "STRING",
+    "type" : "STRING",
+    "has_discount" : true,
+    "id" : "STRING"
+  },
+  "metadata" : {
+    "language" : "STRING",
+    "sessionId" : "STRING"
+  },
+  "uuid" : "STRING",
+  "messageId" : "STRING",
+  "intent" : "STRING",
+  "v_sender" : {
     "email" : "PII_EMAIL",
-    "created_data" : "DATETIME_EPOCH",
-    "description" : "STRING",
-    "v_test_clock" : "NULL",
-    "address" : "NULL",
-    "shipping" : "",
-    "invoice_prefix" : "STRING"
-  } ],
-  "has_more_data" : "BOOLEAN",
-  "v_object" : "STRING"
+    "cache_hit" : true,
+    "name" : "PII_PERSON_NAME",
+    "v_type" : "STRING"
+  },
+  "cache_hit" : true,
+  "v_channel" : "STRING",
+  "direction_data" : "STRING"
 }

@@ -1,73 +1,24 @@
-[ {
-  "html_url" : null,
-  "sha_data" : "STRING",
-  "author_data" : {
-    "avatar_url_data" : "URL",
-    "v_repos_url" : "URL",
-    "gists_url" : "URL",
-    "received_events_url_data" : "URL",
-    "type" : "STRING",
-    "followers_url" : "URL",
-    "html_url" : "URL",
-    "following_url" : "URL",
-    "organizations_url" : "URL",
-    "starred_url" : "URL",
-    "node_id" : "STRING",
-    "url" : "URL",
-    "subscriptions_url" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "id" : "INT"
-  },
-  "parents" : [ {
-    "url" : "",
-    "sha" : "STRING"
+{
+  "retentionDays" : "",
+  "item_count" : 4535,
+  "legalBasis_data" : "STRING",
+  "consentId" : "STRING",
+  "purposes" : [ {
+    "price" : 6744.27,
+    "fullName" : "STRING",
+    "granted_data" : "BOOLEAN",
+    "uuid" : "STRING",
+    "grantedAt" : "DATETIME"
   } ],
-  "comments_url" : "URL",
-  "primaryKey" : "STRING",
-  "commit" : {
-    "v_comment_count" : "INT",
-    "tree" : {
-      "url" : "URL"
-    },
-    "verification" : {
-      "payload_data" : "STRING",
-      "signature_data" : null,
-      "verified_data" : "BOOLEAN",
-      "v_reason" : "STRING",
-      "v_verified_at" : "DATETIME",
-      "auto_renew" : false
-    },
-    "message" : "PII_COMPANY_NAME",
-    "author" : {
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL",
-      "userName" : "PII_PERSON_NAME"
-    },
-    "committer" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "discount_rate" : 205.34
-    }
-  },
-  "url" : "URL",
-  "committer_data" : {
-    "url" : "URL",
-    "events_url_data" : "URL",
-    "organizations_url" : "URL",
-    "v_gists_url" : "URL",
-    "type" : "STRING",
-    "site_admin_data" : "BOOLEAN",
-    "repos_url" : "URL",
-    "received_events_url" : "URL",
-    "gravatar_id" : "STRING",
-    "followers_url" : "URL",
-    "v_html_url" : "URL",
-    "avatar_url" : "URL",
-    "node_id" : "STRING",
-    "id" : "INT",
-    "following_url" : "URL",
-    "v_subscriptions_url" : "URL",
-    "login" : "STRING"
+  "collectedAt" : "",
+  "version" : "STRING",
+  "withdrawnAt" : "NULL",
+  "dataSubject_data" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "id" : "STRING",
+    "primary_email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
   }
-} ]
+}

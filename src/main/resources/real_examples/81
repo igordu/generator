@@ -1,0 +1,21 @@
+{
+  "sessionId": "sess_20240410_xk9pq",
+  "userId": "usr-00821",
+  "email": "user@example.com",
+  "createdAt": "2024-04-10T08:00:00Z",
+  "expiresAt": "2024-04-10T20:00:00Z",
+  "lastActivityAt": "2024-04-10T14:55:00Z",
+  "ipAddress": "203.0.113.42",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+  "deviceId": "dev-mac-00182",
+  "mfaVerified": true,
+  "mfaMethod": "totp",
+  "scopes": ["openid", "profile", "email"],
+  "issuedTokens": {
+    "accessToken": "eyJhbGciOiJSUzI1NiJ9...",
+    "refreshToken": "dGhpcyBpcyBhIGZha2UgcmVmcmVzaA==",
+    "idToken": "eyJhbGciOiJSUzI1NiJ9..."
+  },
+  "riskScore": 0.05,
+  "revoked": false
+}

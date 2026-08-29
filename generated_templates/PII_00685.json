@@ -1,36 +1,16 @@
 {
-  "Id" : "STRING",
-  "Employees" : [ {
-    "ExternalLink" : {
-      "Url_data" : "URL",
-      "v_Description" : "STRING"
-    },
-    "UpdatedDateUTC" : "DATETIME",
-    "uuid" : "STRING",
-    "fullName" : "PII_PERSON_LAST_NAME",
-    "cache_hit" : false,
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "v_ExternalLink" : {
-      "Url" : "URL",
-      "v_Description" : "STRING"
-    },
-    "v_UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "recordId" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "v_ExternalLink" : {
-      "Url" : "",
-      "Description" : "STRING"
-    },
-    "EmployeeID" : "STRING",
-    "temperature_c" : 359.51,
-    "UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
+  "is_deleted" : false,
+  "account_sid" : "STRING",
+  "service_sid" : "STRING",
+  "date_updated" : "DATETIME",
+  "v_date_created" : "DATETIME",
+  "identity" : "PII_USERNAME",
+  "factors" : [ {
+    "factor_type_data" : "STRING",
+    "v_status" : "STRING",
+    "sid" : "STRING",
+    "date_created" : "DATETIME"
   } ],
-  "Status" : "STRING",
-  "ProviderName" : "STRING",
-  "DateTimeUTC" : "DATETIME"
+  "sid" : "STRING",
+  "url" : "URL"
 }

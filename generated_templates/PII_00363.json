@@ -1,4 +1,39 @@
 {
-  "emailAddress" : [ "" ],
-  "mail" : "PII_EMAIL"
+  "completedAt" : "DATETIME",
+  "recordId" : "STRING",
+  "v_applicant" : {
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "nationality_data" : "PII_LOCATION_COUNTRY",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "primary_email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "document" : {
+    "number" : "PII_NATIONAL_ID",
+    "type" : "STRING",
+    "v_issuingCountry" : "PII_LOCATION_COUNTRY",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "expiryDate_data" : "DATE"
+  },
+  "createdAt" : "DATETIME",
+  "page_index" : 2566,
+  "v_address" : {
+    "city" : "PII_LOCATION_CITY",
+    "price" : 6150.44,
+    "postalCode" : "STRING",
+    "street_data" : "PII_ADDRESS_LINE",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "reviewedBy_data" : "PII_EMAIL",
+  "v_status" : "STRING",
+  "checks_data" : [ {
+    "http_status" : 4764,
+    "reason_data" : "STRING",
+    "result" : "STRING",
+    "checkType" : "STRING"
+  } ],
+  "riskScore" : "INT"
 }

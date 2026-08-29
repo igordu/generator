@@ -1,43 +1,21 @@
-[ {
-  "v_self" : "URL",
-  "projectCategory" : {
+{
+  "usage" : {
     "requires_update" : false,
-    "description" : "STRING",
-    "id" : "STRING",
-    "name" : "STRING",
-    "self_data" : "URL"
+    "v_inputTokens" : "",
+    "outputTokens_data" : "INT"
   },
-  "key" : "STRING",
-  "conversion_rate" : 889.32,
-  "v_insight" : {
-    "price" : 905.41,
-    "lastIssueUpdateTime_data" : "DATETIME"
+  "messages" : [ {
+    "timestamp" : "DATETIME",
+    "content" : "STRING",
+    "cpu_usage_percent" : 52.97,
+    "role" : "STRING"
+  } ],
+  "model" : "NULL",
+  "v_metadata" : {
+    "sessionId" : "STRING",
+    "agentId" : "STRING"
   },
-  "simplified" : "BOOLEAN",
-  "name" : "STRING",
-  "id" : "STRING",
-  "style" : "STRING"
-}, {
-  "clientName" : "STRING",
-  "v_insight" : {
-    "v_totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "NULL"
-  },
-  "self" : "URL",
-  "key" : "STRING",
-  "id" : "STRING",
-  "simplified" : "BOOLEAN",
-  "projectCategory" : {
-    "description_data" : "NULL",
-    "id" : "STRING",
-    "self" : "URL"
-  },
-  "is_deleted" : false,
-  "avatarUrls" : {
-    "24x24" : "URL",
-    "48x48" : "URL",
-    "32x32" : "URL",
-    "16x16" : "URL",
-    "stock_quantity" : 965
-  }
-} ]
+  "createdAt_data" : "DATETIME",
+  "chatId" : "STRING",
+  "priority_level" : 2006
+}

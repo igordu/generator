@@ -1,21 +1,26 @@
 {
-  "content" : [ {
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "reviewId" : "STRING",
-    "articleSizeRatings" : {
-      "system_ping_ms" : 3992,
-      "SHOE_WIDTH" : "INT",
-      "OVERALL_data" : "INT"
+  "ticket" : {
+    "created_at" : null,
+    "tags" : [ "STRING" ],
+    "status" : "STRING",
+    "priority" : "STRING",
+    "requester" : {
+      "discount_rate" : 5.17,
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
     },
-    "articleModelId" : "STRING",
-    "unhelpfulCount" : "INT",
-    "title" : "PII_COMPANY_NAME",
-    "v_language" : "STRING",
-    "description" : "STRING",
-    "rating" : "INT",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "helpfulCount" : "INT",
-    "created" : "DATETIME"
-  } ],
-  "requires_update" : true
+    "primaryKey" : "INT",
+    "recordId" : "INT",
+    "updated_at_data" : "DATETIME",
+    "subject" : "STRING",
+    "comments" : [ {
+      "public" : "BOOLEAN",
+      "author_id" : "INT",
+      "body" : "PII_FREE_TEXT",
+      "created_at_data" : "DATETIME",
+      "id" : "NULL"
+    } ],
+    "discount_rate" : 83.9,
+    "description_data" : "PII_FREE_TEXT"
+  }
 }

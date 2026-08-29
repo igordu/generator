@@ -1,0 +1,18 @@
+{
+  "sid": "STRING",
+  "account_sid": "STRING",
+  "service_sid": "STRING",
+  "identity": "PII_USERNAME",
+  "date_created": "DATETIME",
+  "date_updated": "DATETIME",
+  "factors": [
+    {
+      "sid": "STRING",
+      "friendly_name": "STRING",
+      "factor_type": "STRING",
+      "status": "STRING",
+      "date_created": "DATETIME"
+    }
+  ],
+  "url": "URL"
+}

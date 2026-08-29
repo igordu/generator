@@ -1,97 +1,31 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "system_state" : {
-      "event_data" : {
-        "body" : {
-          "offset" : "INT",
-          "v_href" : "STRING",
-          "transactions_data" : [ {
-            "totalFeeAmount" : {
-              "value" : "STRING",
-              "exchangeRate" : "STRING",
-              "conversion_rate" : 759.02,
-              "currency" : "STRING",
-              "convertedFromValue" : "STRING",
-              "v_convertedFromCurrency" : "STRING"
-            },
-            "v_orderLineItems" : [ {
-              "marketplaceFees" : [ {
-                "feeMemo_data" : "STRING",
-                "feeJurisdiction" : {
-                  "cpu_usage_percent" : 548.97,
-                  "regionName" : "STRING",
-                  "regionType" : "STRING"
-                },
-                "cpu_usage_percent" : 895.09,
-                "amount" : {
-                  "convertedFromValue" : "STRING",
-                  "currency" : "STRING",
-                  "convertedFromCurrency" : "STRING",
-                  "exchangeRate" : "STRING",
-                  "value" : "STRING"
-                },
-                "feeType" : "STRING"
-              } ],
-              "v_feeBasisAmount" : {
-                "exchangeRate" : "STRING",
-                "currency" : "STRING",
-                "value" : "STRING",
-                "convertedFromCurrency_data" : "STRING",
-                "convertedFromValue" : "STRING"
-              },
-              "primaryKey" : "STRING"
-            } ],
-            "bookingEntry" : "STRING",
-            "totalFeeBasisAmount" : {
-              "value" : "STRING",
-              "exchangeRate" : "STRING",
-              "convertedFromValue" : "STRING",
-              "requires_update" : true,
-              "currency" : "STRING",
-              "v_convertedFromCurrency" : "STRING"
-            },
-            "transactionId" : "STRING",
-            "paymentsEntity_data" : "STRING",
-            "salesRecordReference" : "",
-            "buyer" : {
-              "priority_level" : 4703,
-              "clientName" : "PII_USERNAME"
-            },
-            "transactionStatus_data" : "STRING",
-            "amount" : {
-              "system_ping_ms" : 1838,
-              "v_value" : "STRING",
-              "convertedFromCurrency_data" : "STRING",
-              "currency" : "STRING"
-            },
-            "eBayCollectedTaxAmount" : {
-              "v_convertedFromCurrency" : "STRING",
-              "convertedFromValue" : "STRING",
-              "has_discount" : false,
-              "value" : "",
-              "currency_data" : "STRING",
-              "exchangeRate" : "NULL"
-            },
-            "v_references" : [ {
-              "v_referenceType" : "STRING",
-              "referenceId" : "STRING"
-            } ],
-            "orderId" : "STRING",
-            "transactionMemo" : "STRING",
-            "payoutId" : "STRING",
-            "v_feeJurisdiction" : { }
-          } ],
-          "next" : "STRING",
-          "prev" : "STRING",
-          "limit" : "INT",
-          "system_ping_ms" : 574,
-          "v_total" : "INT"
-        }
-      }
-    }
-  }
+  "has_more" : "BOOLEAN",
+  "data" : [ {
+    "phone" : "PII_PHONE_NUMBER",
+    "default_source" : "STRING",
+    "invoice_settings" : {
+      "custom_fields_data" : "NULL",
+      "rendering_options" : "NULL",
+      "default_payment_method_data" : "STRING",
+      "footer" : "STRING",
+      "response_time_sec" : 2.28
+    },
+    "balance" : "INT",
+    "livemode" : "BOOLEAN",
+    "currency" : "STRING",
+    "v_next_invoice_sequence" : "INT",
+    "v_metadata" : "OBJECT",
+    "id" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "object" : "STRING",
+    "v_created" : "DATETIME_EPOCH",
+    "invoice_prefix" : "STRING",
+    "shipping_data" : "NULL",
+    "email" : "PII_EMAIL",
+    "address" : "NULL",
+    "v_description" : "STRING",
+    "tax_exempt" : "STRING",
+    "v_test_clock" : "NULL"
+  } ],
+  "object" : "STRING"
 }

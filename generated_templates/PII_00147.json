@@ -1,61 +1,31 @@
 {
-  "userId" : null,
-  "status" : "STRING",
-  "businessAccount" : {
-    "address" : {
-      "city_data" : "STRING",
-      "county" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine2" : "STRING",
-      "addressLine1_data" : "NULL",
-      "postalCode" : "STRING"
+  "type" : "STRING",
+  "state" : "STRING",
+  "open" : "BOOLEAN",
+  "priority" : "STRING",
+  "v_created_at" : "DATETIME_EPOCH",
+  "read" : "BOOLEAN",
+  "v_conversation_parts" : [ {
+    "v_body" : "PII_FREE_TEXT",
+    "created_at" : "DATETIME_EPOCH",
+    "author" : {
+      "type" : "STRING",
+      "name" : "PII_PERSON_NAME"
     },
-    "name" : "PII_ORGANIZATION_NAME",
-    "website" : "URL",
-    "email" : "PII_EMAIL",
-    "primaryContact" : {
-      "userName" : "PII_PERSON_NAME",
-      "fullName" : "PII_PERSON_NAME"
+    "discount_rate" : 59.03,
+    "part_type" : ""
+  } ],
+  "id" : "STRING",
+  "source_data" : {
+    "subject" : "STRING",
+    "body" : "PII_FREE_TEXT",
+    "v_type" : "STRING",
+    "author" : {
+      "name_val" : "PII_PERSON_NAME",
+      "primary_email" : "PII_EMAIL",
+      "identifier" : "STRING"
     },
-    "doingBusinessAs" : "STRING",
-    "primaryPhone" : {
-      "retry_attempts" : 1236,
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING"
-    },
-    "secondaryPhone" : {
-      "number_data" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING"
-    }
-  },
-  "username" : "PII_USERNAME",
-  "individualAccount" : {
-    "email" : "PII_EMAIL",
-    "firstName" : "PII_PERSON_NAME",
-    "clientName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "page_index" : 3670,
-      "countryCode" : "STRING"
-    },
-    "registrationAddress" : {
-      "addressLine2" : "STRING",
-      "addressLine1" : "STRING",
-      "county" : null,
-      "country_data" : "STRING",
-      "has_discount" : true,
-      "stateOrProvince" : "STRING",
-      "city_data" : "STRING",
-      "postalCode" : "STRING"
-    },
-    "mobile" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    }
-  },
-  "accountType" : "STRING",
-  "uuid" : "STRING"
+    "discount_rate" : 71.54,
+    "delivered_as" : "STRING"
+  }
 }

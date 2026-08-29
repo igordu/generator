@@ -1,115 +1,19 @@
 {
-  "tags" : {
-    "property2" : "STRING",
-    "property1" : "STRING"
-  },
-  "sourceFlowConfig" : {
-    "connectorType_data" : "",
-    "incrementalPullConfig" : {
-      "datetimeTypeFieldName" : "STRING",
-      "http_status" : 2141
-    },
-    "apiVersion" : "",
-    "v_sourceConnectorProperties" : {
-      "InforNexus_data" : {
-        "object" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "node" : {
+        "address" : "STRING",
+        "identifier" : "",
+        "datacenter" : "STRING",
+        "response_time_sec" : 10.34
       },
-      "Dynatrace" : {
-        "has_discount" : true,
-        "object" : "STRING"
-      },
-      "v_Datadog" : {
-        "page_index" : 1079,
-        "object_data" : "STRING"
-      },
-      "Singular" : {
-        "object" : "STRING",
-        "is_active" : false
-      },
-      "v_Veeva" : {
-        "documentType" : "STRING",
-        "includeSourceFiles" : "BOOLEAN",
-        "includeAllVersions" : "BOOLEAN",
-        "includeRenditions" : "BOOLEAN",
-        "object_data" : "STRING"
-      },
-      "Marketo" : {
-        "object" : "STRING"
-      },
-      "Salesforce" : {
-        "dataTransferApi" : "STRING",
-        "object_data" : "STRING",
-        "enableDynamicFieldUpdate" : "BOOLEAN",
-        "includeDeletedRecords" : "BOOLEAN"
-      },
-      "Zendesk" : {
-        "conversion_rate" : 251.83
-      },
-      "v_GoogleAnalytics" : {
-        "object_data" : "STRING"
-      },
-      "Amplitude_data" : {
-        "v_object" : "STRING",
-        "is_active" : false
-      },
-      "Slack" : { },
-      "S3_data" : {
-        "bucketPrefix_data" : "STRING",
-        "bucketName" : "STRING"
-      },
-      "v_CustomConnector" : {
-        "v_customProperties" : {
-          "requires_update" : true,
-          "property2" : "STRING",
-          "property1_data" : "STRING"
-        },
-        "entityName" : "STRING"
-      },
-      "Trendmicro" : {
-        "has_discount" : true
-      }
-    },
-    "connectorProfileName" : "STRING"
-  },
-  "description" : "STRING",
-  "metadataCatalogConfig" : {
-    "glueDataCatalog" : {
-      "roleArn" : "STRING",
-      "databaseName" : "STRING"
+      "checkId" : "STRING",
+      "consecutiveFailures" : "INT",
+      "consecutiveSuccesses" : "INT",
+      "timestamp" : "DATETIME",
+      "requires_update" : true,
+      "serviceId" : "STRING",
+      "v_status" : "STRING"
     }
-  },
-  "page_index" : 3529,
-  "flowName" : "STRING",
-  "clientToken" : "STRING",
-  "triggerConfig" : {
-    "v_triggerType" : "STRING",
-    "http_status" : 1501
-  },
-  "tasks_data" : [ {
-    "taskProperties" : {
-      "property1_data" : null,
-      "property2" : "STRING"
-    },
-    "taskType" : "STRING",
-    "connectorOperator" : {
-      "Slack" : "STRING",
-      "v_Salesforce" : "STRING",
-      "GoogleAnalytics" : "STRING",
-      "Zendesk" : "STRING",
-      "Trendmicro" : "STRING",
-      "Amplitude" : "STRING",
-      "Marketo_data" : "NULL",
-      "Singular" : "STRING",
-      "SAPOData" : null,
-      "CustomConnector" : "STRING",
-      "Datadog" : "",
-      "Veeva" : "STRING",
-      "Dynatrace" : "STRING",
-      "v_Pardot" : "STRING",
-      "S3" : "STRING"
-    },
-    "v_destinationField" : "STRING",
-    "sourceFields" : "ARRAY"
-  } ],
-  "kmsArn" : "STRING"
+  }
 }

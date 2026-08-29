@@ -1,0 +1,34 @@
+{
+  "resourceType": "Appointment",
+  "id": "appt-2024-00412",
+  "status": "booked",
+  "serviceType": [
+    {
+      "coding": [
+        {
+          "code": "408443003",
+          "display": "General medical practice"
+        }
+      ]
+    }
+  ],
+  "start": "2024-05-15T09:00:00Z",
+  "end": "2024-05-15T09:30:00Z",
+  "participant": [
+    {
+      "actor": {
+        "reference": "Patient/patient-001",
+        "display": "Michael Torres"
+      },
+      "status": "accepted"
+    },
+    {
+      "actor": {
+        "reference": "Practitioner/dr-jane-smith-001",
+        "display": "Dr. Jane Smith"
+      },
+      "status": "accepted"
+    }
+  ],
+  "comment": "Annual checkup. Patient has history of hypertension."
+}

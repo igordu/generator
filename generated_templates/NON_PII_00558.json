@@ -1,39 +1,33 @@
-[ {
-  "clientName" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT"
+{
+  "source" : {
+    "v_database" : "STRING",
+    "host" : "STRING",
+    "type" : "STRING",
+    "table" : "STRING"
   },
-  "projectCategory" : {
-    "description" : "STRING",
-    "id" : "STRING",
-    "fullName" : "STRING"
-  },
-  "id" : "STRING",
-  "self" : "URL",
-  "avatarUrls" : {
-    "24x24" : "URL",
-    "v_32x32" : "URL",
-    "48x48_data" : "URL",
-    "16x16" : "URL",
-    "discount_rate" : 30.09
-  },
-  "key" : "STRING"
-}, {
-  "style" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME",
-    "conversion_rate" : 338.2
-  },
-  "identifier" : "STRING",
-  "v_key" : "STRING",
   "name" : "STRING",
-  "v_projectCategory" : {
-    "id" : "STRING",
-    "description_data" : "STRING",
-    "self" : "URL",
-    "name" : "STRING",
-    "auto_renew" : true
+  "completedAt" : "DATETIME",
+  "nextRunAt" : "DATETIME",
+  "scheduledAt" : "DATETIME",
+  "taskId" : "STRING",
+  "destination" : {
+    "table" : "STRING",
+    "dataset_data" : "STRING",
+    "v_project" : "STRING",
+    "is_deleted" : false,
+    "type" : "STRING"
   },
-  "self_data" : "NULL"
-} ]
+  "retry_attempts" : 4327,
+  "status_data" : "STRING",
+  "startedAt" : "DATETIME",
+  "durationSeconds" : "INT",
+  "triggeredBy" : "STRING",
+  "stats" : {
+    "recordsWritten" : "INT",
+    "bytesTransferred" : "INT",
+    "recordsRead" : "INT",
+    "recordsSkipped" : "INT",
+    "requires_update" : false
+  },
+  "v_type" : "STRING"
+}

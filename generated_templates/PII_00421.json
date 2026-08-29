@@ -1,33 +1,46 @@
 {
-  "name" : [ {
-    "family" : "PII_PERSON_LAST_NAME",
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "v_use" : "STRING"
+  "phoneNumbers" : [ {
+    "type" : "STRING",
+    "number" : "PII_PHONE_NUMBER"
   } ],
-  "telecom" : [ {
-    "v_use" : null,
-    "system" : "STRING",
-    "v_value" : "PII_PHONE_NUMBER",
-    "response_time_sec" : 26.15
-  }, {
-    "v_system" : "STRING",
-    "value_data" : "PII_EMAIL"
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "city" : "PII_LOCATION_CITY",
-    "use_data" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY"
-  } ],
-  "identifier" : [ {
-    "value" : "PII_NATIONAL_ID",
-    "system" : "URL",
-    "v_use" : "STRING",
-    "type" : {
-      "text" : "STRING"
+  "has_discount" : true,
+  "lastName" : {
+    "v_preferredLocale" : {
+      "country" : "STRING",
+      "is_deleted" : true
+    },
+    "localized" : {
+      "en_US" : "PII_PERSON_LAST_NAME"
     }
-  } ],
+  },
   "id" : "STRING",
-  "conversion_rate" : 516.79
+  "fullName" : {
+    "preferredLocale" : {
+      "language" : "STRING",
+      "country" : "STRING"
+    },
+    "localized_data" : {
+      "en_US" : "PII_PERSON_FIRST_NAME",
+      "price" : 4033.19
+    }
+  },
+  "vanityName" : "PII_USERNAME",
+  "v_location" : {
+    "v_country" : {
+      "requires_update" : true,
+      "v_code" : "PII_LOCATION_COUNTRY"
+    },
+    "has_discount" : false
+  },
+  "birthDate" : {
+    "v_month" : "INT",
+    "day" : "INT"
+  },
+  "emailAddress" : "PII_EMAIL",
+  "headline_data" : {
+    "localized" : {
+      "en_US_data" : "STRING"
+    },
+    "stock_quantity" : 3916
+  }
 }

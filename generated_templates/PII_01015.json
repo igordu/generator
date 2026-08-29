@@ -1,14 +1,42 @@
 {
-  "id" : "",
-  "customer_data" : "STRING",
-  "country_data" : "STRING",
-  "currency_data" : "STRING",
-  "last4" : "STRING",
-  "fingerprint" : "NULL",
-  "account_type" : "STRING",
-  "name_val" : "PII_PERSON_NAME",
-  "account_holder_type" : "STRING",
+  "updatedAt" : "DATETIME",
+  "interviews_data" : [ {
+    "v_interviewer" : {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "retry_attempts" : 641
+    },
+    "type" : "STRING",
+    "scheduledAt" : "DATETIME",
+    "round_data" : "INT",
+    "stock_quantity" : 2091
+  } ],
+  "appliedAt" : "DATETIME",
+  "candidate" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "resumeUrl" : "URL",
+    "linkedIn_data" : "URL",
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "address" : {
+      "city" : "PII_LOCATION_CITY",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "street_data" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING",
+      "conversion_rate" : 5.28
+    },
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "contactEmail" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "position" : {
+    "location" : "PII_LOCATION_CITY",
+    "department" : "STRING",
+    "jobId" : "STRING",
+    "v_title" : "STRING",
+    "http_status" : 275
+  },
+  "source" : "STRING",
+  "is_deleted" : false,
   "status" : "STRING",
-  "object" : "STRING",
-  "routing_number" : "NULL"
+  "uuid" : "STRING"
 }

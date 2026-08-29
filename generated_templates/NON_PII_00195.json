@@ -1,7 +1,22 @@
 {
-  "id" : "STRING",
-  "shopUrl" : "URL",
-  "is_deleted" : false,
-  "modelId" : "STRING",
-  "name" : "STRING"
+  "ticket" : {
+    "status" : "STRING",
+    "requester_data" : {
+      "phone" : "***-***-****",
+      "name_val" : "REDACTED",
+      "email" : "[MASKED]"
+    },
+    "satisfaction_rating" : {
+      "score" : "STRING",
+      "comment" : "TEXT"
+    },
+    "v_created_at" : "NULL",
+    "requires_update" : false,
+    "description" : "TEXT",
+    "id" : "INT",
+    "subject" : "STRING"
+  },
+  "v_retention_policy" : "STRING",
+  "gdpr_erasure_applied" : "BOOLEAN",
+  "exported_at" : "DATETIME"
 }

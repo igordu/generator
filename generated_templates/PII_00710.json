@@ -1,33 +1,29 @@
 {
-  "registrants_data" : [ {
-    "country" : "PII_LOCATION_COUNTRY",
-    "no_of_employees" : "STRING",
-    "v_address" : "PII_ADDRESS_LINE",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "zip" : "STRING",
-    "city_data" : "PII_LOCATION_CITY",
-    "create_time_data" : "DATETIME",
-    "job_title" : "STRING",
-    "id" : "STRING",
-    "custom_questions" : [ {
-      "value" : "STRING",
-      "title_data" : "STRING"
-    }, {
-      "value" : "STRING"
-    } ],
-    "state" : "PII_LOCATION_STATE",
-    "join_url_data" : "URL",
-    "purchasing_time_frame" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "industry" : "STRING",
-    "email" : "PII_EMAIL",
-    "org" : "PII_ORGANIZATION_NAME",
-    "status" : "STRING"
-  } ],
-  "page_size" : "INT",
-  "auto_renew" : false,
-  "page_count" : "INT",
-  "total_records_data" : "INT",
-  "v_page_number" : null
+  "id" : "STRING",
+  "data" : {
+    "v_object" : {
+      "v_shipping" : {
+        "address" : {
+          "city_data" : "PII_LOCATION_CITY",
+          "postal_code" : "STRING",
+          "state" : "STRING",
+          "country" : "PII_LOCATION_COUNTRY",
+          "line1" : "PII_ADDRESS_LINE"
+        },
+        "phone" : "PII_PHONE_NUMBER",
+        "fullName" : "PII_PERSON_NAME"
+      },
+      "receipt_email" : "PII_EMAIL",
+      "description_data" : "STRING",
+      "amount" : "INT",
+      "id" : "STRING",
+      "status" : "STRING",
+      "currency" : null,
+      "customer" : "STRING"
+    }
+  },
+  "livemode" : "BOOLEAN",
+  "object" : "STRING",
+  "type_data" : "STRING",
+  "created_data" : "DATETIME_EPOCH"
 }

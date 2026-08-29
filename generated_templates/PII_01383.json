@@ -1,14 +1,28 @@
 {
-  "tree" : {
-    "sha" : "STRING",
-    "url" : "URL",
-    "http_status" : 3596
+  "viewCount" : "INT",
+  "pageId" : "STRING",
+  "spaceKey" : "STRING",
+  "status" : "STRING",
+  "title" : "STRING",
+  "labels" : [ "STRING" ],
+  "likes" : "",
+  "v_updatedAt" : "DATETIME",
+  "v_version" : "INT",
+  "ancestors" : [ {
+    "id" : "STRING",
+    "title_data" : "STRING",
+    "response_time_sec" : 5.55
+  } ],
+  "lastModifiedBy" : {
+    "primaryKey" : "STRING",
+    "email" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME"
   },
-  "auto_renew" : false,
-  "v_user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "name_val" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  "author" : {
+    "accountId" : null,
+    "emailAddress" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME"
   },
-  "active" : "BOOLEAN"
+  "createdAt_data" : "DATETIME",
+  "requires_update" : true
 }

@@ -1,42 +1,21 @@
 {
-  "identifier" : [ {
-    "system" : "URL",
-    "value" : "PII_NATIONAL_ID",
-    "is_active" : false,
-    "v_type" : {
-      "auto_renew" : false,
-      "text_data" : "STRING"
+  "priority_level" : 966,
+  "data" : {
+    "verified" : "BOOLEAN",
+    "system_ping_ms" : 1601,
+    "url" : "URL",
+    "username" : "PII_USERNAME",
+    "profile_image_url_data" : "URL",
+    "clientName" : "PII_PERSON_NAME",
+    "protected" : "BOOLEAN",
+    "v_created_at" : null,
+    "public_metrics" : {
+      "followers_count" : "INT",
+      "following_count" : "INT",
+      "listed_count" : "INT"
     },
-    "use" : "STRING"
-  } ],
-  "resourceType" : "STRING",
-  "meta" : {
-    "lastUpdated_data" : "DATETIME",
-    "versionId" : "INT"
-  },
-  "telecom_data" : [ {
-    "use" : "STRING",
-    "system" : "STRING",
-    "value" : "PII_PHONE_NUMBER"
-  }, {
-    "page_index" : 4917,
-    "system" : "STRING",
-    "v_value" : "PII_EMAIL"
-  } ],
-  "gender" : "STRING",
-  "address" : [ {
-    "city" : "PII_LOCATION_CITY",
-    "response_time_sec" : 996.63,
-    "use" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY",
-    "line_data" : [ "PII_ADDRESS_LINE" ]
-  } ],
-  "name" : [ {
-    "conversion_rate" : 28.63,
-    "family" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING",
-    "given_data" : [ "PII_PERSON_FIRST_NAME" ]
-  } ],
-  "has_discount" : true,
-  "birthDate" : "PII_DATE_OF_BIRTH"
+    "identifier" : "STRING",
+    "pinned_tweet_id" : "STRING",
+    "location" : "PII_LOCATION_CITY"
+  }
 }

@@ -1,43 +1,19 @@
 {
-  "is_active" : true,
-  "fullName" : "PII_PERSON_NAME",
-  "company_data" : "PII_ORGANIZATION_NAME",
-  "v_repos_url" : "URL",
-  "total_private_repos" : "",
-  "v_following" : "INT",
-  "owned_private_repos" : "INT",
-  "primary_email" : "PII_EMAIL",
-  "disk_usage" : "INT",
-  "received_events_url" : "URL",
-  "login" : "STRING",
-  "subscriptions_url" : "URL",
-  "location" : "PII_LOCATION_CITY",
-  "v_bio" : "PII_ORGANIZATION_NAME",
-  "following_url_data" : "NULL",
-  "type" : "STRING",
-  "events_url" : "URL",
-  "public_repos" : "INT",
-  "blog" : "URL",
-  "html_url" : "URL",
-  "v_avatar_url" : "NULL",
-  "twitter_username" : "STRING",
-  "hireable" : "BOOLEAN",
-  "url" : "URL",
-  "gists_url" : "URL",
-  "organizations_url" : null,
-  "plan" : {
-    "v_space" : "INT",
-    "name" : "STRING",
-    "private_repos_data" : "INT",
-    "requires_update" : true
+  "prefix" : "STRING",
+  "v_lastUsed" : "DATETIME",
+  "ipWhitelist" : [ "STRING" ],
+  "expiresAt" : "",
+  "rateLimit" : {
+    "v_requestsPerMinute" : "INT",
+    "requestsPerDay" : "INT"
   },
-  "v_followers_url" : "URL",
-  "site_admin" : "BOOLEAN",
-  "private_gists" : "INT",
-  "starred_url" : "URL",
-  "updated_at" : "DATETIME",
-  "followers" : "INT",
-  "id" : "INT",
+  "userName" : "STRING",
+  "v_createdBy" : {
+    "userId" : "STRING",
+    "email" : "PII_EMAIL"
+  },
   "recordId" : "STRING",
-  "created_at" : "DATETIME"
+  "scopes" : [ "" ],
+  "status_data" : "STRING",
+  "created" : "DATETIME"
 }

@@ -1,31 +1,34 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "price" : 962.27,
-    "transactions_data" : {
-      "booked_data" : [ {
-        "bankTransactionCode_data" : {
-          "subFamily" : "STRING",
-          "family_data" : "STRING",
-          "domain" : "STRING"
-        },
-        "bookingDate" : "DATE",
-        "transactionId" : "STRING",
-        "v_debtorAccount" : {
-          "iban" : "STRING"
-        },
-        "creditorName" : "PII_PERSON_NAME",
-        "creditorAccount" : {
-          "iban_data" : "PII_IBAN"
-        },
-        "amount" : {
-          "currency" : "STRING",
-          "auto_renew" : false,
-          "amount" : "DECIMAL"
-        },
-        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
-      } ]
-    }
-  }
+  "tags" : "STRING",
+  "email" : "PII_EMAIL",
+  "default_address" : {
+    "default" : "BOOLEAN",
+    "province" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_country_code" : "STRING",
+    "address1" : "PII_ADDRESS_LINE",
+    "company_data" : "PII_COMPANY_NAME",
+    "address2" : "STRING",
+    "province_code" : "STRING",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "uuid" : "INT",
+    "phone" : "PII_PHONE_NUMBER",
+    "clientName" : "PII_PERSON_NAME",
+    "priority_level" : 571,
+    "id" : "INT"
+  },
+  "note" : "STRING",
+  "id" : "INT",
+  "total_spent" : "DECIMAL",
+  "first_name" : "PII_PERSON_FIRST_NAME",
+  "created_at" : "DATETIME",
+  "phone" : "PII_PHONE_NUMBER",
+  "last_name" : "PII_PERSON_LAST_NAME",
+  "accepts_marketing" : "NULL",
+  "state" : "STRING",
+  "last_order_id" : "INT",
+  "currency" : "STRING",
+  "updated_at" : "DATETIME"
 }

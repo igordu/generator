@@ -1,34 +1,48 @@
 {
-  "page_count" : "INT",
-  "v_page_number" : "INT",
-  "retry_attempts" : 3321,
-  "registrants" : [ {
-    "job_title" : "STRING",
-    "v_create_time" : "DATETIME",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "join_url" : "URL",
-    "v_custom_questions" : [ {
-      "value" : "STRING"
-    }, {
-      "value" : "STRING",
-      "v_title" : "STRING"
-    } ],
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "email" : "PII_EMAIL",
-    "state" : "PII_LOCATION_STATE",
-    "id" : "STRING",
-    "v_role_in_purchase_process" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "city" : "PII_LOCATION_CITY",
-    "country_data" : "PII_LOCATION_COUNTRY",
-    "zip" : "STRING",
-    "address" : "PII_ADDRESS_LINE",
-    "status" : "STRING",
-    "industry" : "STRING",
-    "v_comments" : "STRING",
-    "org" : "PII_ORGANIZATION_NAME",
-    "purchasing_time_frame_data" : "STRING"
+  "resourceType" : "STRING",
+  "qualification_data" : [ {
+    "is_deleted" : false,
+    "code" : {
+      "is_deleted" : false,
+      "coding" : [ {
+        "cache_hit" : true,
+        "v_system" : "URL",
+        "code" : "STRING"
+      } ]
+    }
   } ],
-  "total_records_data" : "INT",
-  "page_size" : ""
+  "meta" : {
+    "lastUpdated" : "DATETIME",
+    "versionId" : "INT"
+  },
+  "address" : [ {
+    "postalCode" : "STRING",
+    "state" : "STRING",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "use" : "STRING"
+  } ],
+  "telecom" : [ {
+    "value_data" : "PII_PHONE_NUMBER",
+    "use" : "STRING",
+    "system" : "STRING"
+  }, {
+    "system_ping_ms" : 629,
+    "use" : "STRING",
+    "value_data" : "PII_EMAIL"
+  } ],
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "identifier" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "system" : "URL"
+  } ],
+  "gender" : "STRING",
+  "name" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "use" : "STRING",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "v_prefix" : [ "" ]
+  } ],
+  "v_active" : "BOOLEAN"
 }

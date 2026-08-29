@@ -1,5 +1,17 @@
 {
-  "is_deleted" : false,
-  "clientToken" : "STRING",
-  "flowName" : "STRING"
+  "type_data" : "STRING",
+  "v_status" : "STRING",
+  "retryCount_data" : "INT",
+  "sentAt" : "DATETIME",
+  "notificationId" : "STRING",
+  "campaign" : "NULL",
+  "notification" : {
+    "title" : "STRING",
+    "data" : {
+      "orderId" : "STRING",
+      "deepLink" : "URL"
+    },
+    "body" : "NULL",
+    "conversion_rate" : 6.2
+  }
 }

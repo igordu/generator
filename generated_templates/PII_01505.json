@@ -1,0 +1,16 @@
+{
+  "createdBy" : "PII_EMAIL",
+  "createdAt" : "NULL",
+  "v_permissions" : [ "STRING" ],
+  "response_time_sec" : 13.57,
+  "roleId" : "STRING",
+  "name_val" : "STRING",
+  "v_assignedTo" : [ {
+    "assignedAt" : "",
+    "recordId" : null,
+    "name" : "PII_PERSON_NAME",
+    "is_active" : false,
+    "email" : "PII_EMAIL"
+  } ],
+  "updatedAt" : "DATETIME"
+}

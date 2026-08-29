@@ -1,11 +1,25 @@
 {
-  "system_state" : {
-    "transaction_trace" : {
-      "debug_payload" : {
-        "userName" : "STRING",
-        "v_clientToken" : "STRING",
-        "system_ping_ms" : 554
-      }
-    }
-  }
+  "v_signature" : "STRING",
+  "response" : {
+    "body" : "STRING",
+    "latencyMs" : "INT",
+    "statusCode" : "INT",
+    "response_time_sec" : 6.21
+  },
+  "deliveredAt" : "DATETIME",
+  "v_endpoint" : {
+    "status" : null,
+    "v_url" : "URL",
+    "id" : "STRING"
+  },
+  "payload_data" : {
+    "customerId" : "STRING",
+    "v_completedAt" : "",
+    "totalAmount_data" : "DECIMAL",
+    "orderId" : "STRING",
+    "currency" : "STRING"
+  },
+  "v_event" : "NULL",
+  "primaryKey" : "STRING",
+  "attempts" : "INT"
 }

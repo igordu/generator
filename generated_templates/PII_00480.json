@@ -1,41 +1,35 @@
 {
-  "telecom" : [ {
-    "priority_level" : 1239,
-    "value" : "PII_EMAIL",
-    "system" : "STRING"
-  }, {
-    "temperature_c" : 13.58,
-    "v_system" : "STRING",
-    "value" : "PII_PHONE_NUMBER",
-    "use" : "NULL"
-  } ],
-  "meta_data" : {
-    "lastUpdated" : "DATETIME",
-    "versionId" : "INT"
-  },
-  "recordId" : [ {
-    "type" : {
-      "discount_rate" : 139.99,
-      "text" : "STRING"
-    },
-    "value" : "PII_NATIONAL_ID",
-    "system" : "URL"
-  } ],
-  "gender" : "STRING",
-  "v_address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "v_country" : "PII_LOCATION_COUNTRY",
-    "use" : "STRING",
-    "stock_quantity" : 4644,
-    "city" : "PII_LOCATION_CITY"
-  } ],
-  "id" : "STRING",
-  "resourceType" : "STRING",
-  "name" : [ {
-    "price" : 157.57,
-    "v_use" : "STRING",
-    "family_data" : "PII_PERSON_LAST_NAME",
-    "given" : [ "PII_PERSON_FIRST_NAME" ]
-  } ],
-  "v_birthDate" : "PII_DATE_OF_BIRTH"
+  "audit_trail" : {
+    "event_data" : {
+      "extracted_info" : {
+        "profile" : {
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "lastName" : "PII_PERSON_LAST_NAME",
+          "mobilePhone" : "PII_PHONE_NUMBER",
+          "v_login" : "PII_EMAIL",
+          "state" : "STRING",
+          "countryCode" : "PII_LOCATION_COUNTRY",
+          "employeeNumber" : "STRING",
+          "title_data" : "STRING",
+          "zipCode_data" : "STRING",
+          "email" : "PII_EMAIL",
+          "secondEmail" : "PII_EMAIL",
+          "organization" : "PII_COMPANY_NAME",
+          "displayName" : "PII_PERSON_NAME",
+          "v_streetAddress" : "PII_ADDRESS_LINE",
+          "department" : "STRING",
+          "city" : "PII_LOCATION_CITY"
+        },
+        "credentials" : {
+          "http_status" : 932,
+          "password" : "OBJECT"
+        },
+        "created" : "DATETIME",
+        "activated" : "DATETIME",
+        "lastUpdated_data" : "DATETIME",
+        "id" : "STRING",
+        "lastLogin" : "DATETIME"
+      }
+    }
+  }
 }

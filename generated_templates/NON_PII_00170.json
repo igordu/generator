@@ -1,14 +1,25 @@
 {
-  "system_state" : {
-    "transaction_trace" : {
-      "debug_payload" : {
-        "name" : "STRING",
-        "modelId" : "STRING",
-        "v_media" : { },
-        "shopUrl" : "URL",
-        "is_active" : true,
-        "id" : "STRING"
-      }
-    }
-  }
+  "assets" : [ {
+    "id" : "INT",
+    "v_content_type" : "STRING",
+    "is_deleted" : true,
+    "size_data" : "INT",
+    "download_count" : "INT",
+    "browser_download_url" : null
+  } ],
+  "recordId" : "INT",
+  "published_at_data" : "DATETIME",
+  "target_commitish" : "STRING",
+  "prerelease" : "BOOLEAN",
+  "fullName" : "STRING",
+  "http_status" : 4497,
+  "draft" : "BOOLEAN",
+  "created_at" : "DATETIME",
+  "changelog" : [ {
+    "v_files_changed" : "NULL",
+    "commit_sha" : "STRING",
+    "message" : "TEXT"
+  } ],
+  "name" : "STRING",
+  "body" : "TEXT"
 }

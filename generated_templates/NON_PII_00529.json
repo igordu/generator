@@ -1,49 +1,20 @@
-[ {
-  "insight_data" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
+{
+  "model_data" : "STRING",
+  "createdAt_data" : "DATETIME",
+  "messages" : [ {
+    "timestamp" : "DATETIME",
+    "role" : "STRING",
+    "requires_update" : false
+  } ],
+  "metadata" : {
+    "primaryKey" : "STRING",
+    "price" : 8568.55,
+    "agentId" : "STRING"
   },
-  "id" : "STRING",
-  "response_time_sec" : 236.9,
-  "projectCategory" : {
-    "name" : "STRING",
-    "id" : "STRING",
-    "self" : "URL",
-    "description_data" : "STRING"
-  },
-  "name" : "STRING",
-  "self" : "URL",
-  "v_simplified" : "BOOLEAN",
-  "v_avatarUrls" : {
-    "requires_update" : true,
-    "48x48" : "URL",
-    "v_32x32" : "URL",
-    "16x16" : "URL",
-    "24x24" : "URL"
-  },
-  "v_style" : "STRING",
-  "v_key" : "STRING"
-}, {
-  "style" : "NULL",
-  "name" : "STRING",
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "priority_level" : 1654,
-    "v_16x16" : "URL",
-    "24x24" : "URL",
-    "48x48" : "URL"
-  },
-  "id" : "STRING",
-  "simplified_data" : "BOOLEAN",
-  "insight" : {
-    "totalIssueCount" : "INT"
-  },
-  "self" : "URL",
-  "key" : "STRING",
-  "projectCategory" : {
-    "description" : "STRING",
-    "self_data" : "URL",
-    "recordId" : "STRING",
-    "name" : "STRING"
+  "chatId" : "STRING",
+  "v_usage" : {
+    "v_outputTokens" : "INT",
+    "has_discount" : false,
+    "inputTokens_data" : "INT"
   }
-} ]
+}

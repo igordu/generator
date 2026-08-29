@@ -1,38 +1,49 @@
 {
-  "Employees" : [ {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "uuid" : "STRING",
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
+  "key" : "STRING",
+  "fields" : {
+    "v_duedate" : "DATE",
+    "comment" : {
+      "priority_level" : 4980,
+      "comments" : [ {
+        "primaryKey" : "STRING",
+        "author" : {
+          "accountId" : "STRING",
+          "displayName" : "PII_PERSON_NAME",
+          "emailAddress" : "PII_EMAIL"
+        },
+        "created" : "DATETIME",
+        "requires_update" : false,
+        "v_body" : "STRING",
+        "updated_data" : "DATETIME"
+      } ]
     },
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "recordId" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "v_Url" : "URL"
+    "priority" : {
+      "id" : "STRING",
+      "stock_quantity" : 4244,
+      "name" : "STRING"
     },
-    "stock_quantity" : 3659,
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC_data" : "DATETIME"
-  }, {
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "requires_update" : false,
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
+    "assignee" : {
+      "active" : "BOOLEAN",
+      "accountId" : "STRING",
+      "v_timeZone" : "STRING",
+      "emailAddress" : "PII_EMAIL",
+      "displayName" : "PII_PERSON_NAME"
     },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : "STRING"
-  } ],
-  "DateTimeUTC" : "DATETIME",
-  "identifier" : "STRING",
-  "Status" : "STRING",
-  "has_discount" : true
+    "updated" : "DATETIME",
+    "discount_rate" : 26.55,
+    "status" : {
+      "id" : "STRING",
+      "name" : "STRING"
+    },
+    "reporter" : {
+      "active" : "BOOLEAN",
+      "accountId" : "STRING",
+      "priority_level" : 4062,
+      "emailAddress" : "PII_EMAIL",
+      "timeZone" : "STRING",
+      "displayName" : "PII_PERSON_NAME"
+    },
+    "created" : "DATETIME",
+    "summary" : "STRING"
+  }
 }

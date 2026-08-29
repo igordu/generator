@@ -1,7 +1,7 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "v_averageStarRating" : "INT",
-  "numberOfUserReviews" : "INT",
-  "numberOfUserRecommendations" : "INT",
-  "articleModelId" : "STRING"
+  "media" : { },
+  "modelId" : "",
+  "name" : "STRING",
+  "shopUrl" : "URL",
+  "id" : "STRING"
 }

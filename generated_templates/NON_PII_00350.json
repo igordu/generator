@@ -1,124 +1,24 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "sourceFlowConfig" : {
-        "connectorType" : "STRING",
-        "incrementalPullConfig" : {
-          "datetimeTypeFieldName" : "STRING",
-          "is_deleted" : false
+  "audit_trail" : {
+    "payload_wrapper" : {
+      "extracted_info" : {
+        "severity" : "STRING",
+        "resolvedAt" : "NULL",
+        "alertId" : "NULL",
+        "rule" : "STRING",
+        "triggeredAt" : "DATETIME",
+        "annotations" : {
+          "summary" : "STRING",
+          "description" : "STRING",
+          "runbook_url" : "URL"
         },
-        "sourceConnectorProperties" : {
-          "Pardot" : {
-            "object" : "STRING"
-          },
-          "Amplitude" : {
-            "stock_quantity" : 4500,
-            "object" : "STRING"
-          },
-          "ServiceNow" : {
-            "object" : "STRING"
-          },
-          "Salesforce_data" : {
-            "includeDeletedRecords_data" : "BOOLEAN",
-            "conversion_rate" : 49.41,
-            "object" : "NULL",
-            "dataTransferApi" : "STRING",
-            "enableDynamicFieldUpdate" : "BOOLEAN"
-          },
-          "Datadog_data" : {
-            "priority_level" : 558
-          },
-          "http_status" : 2801,
-          "v_Marketo" : {
-            "v_object" : "NULL"
-          },
-          "GoogleAnalytics" : {
-            "has_discount" : false,
-            "object_data" : "STRING"
-          },
-          "S3" : {
-            "bucketName" : "STRING",
-            "bucketPrefix_data" : "STRING",
-            "s3InputFormatConfig" : {
-              "s3InputFileType" : "STRING"
-            }
-          },
-          "Veeva" : {
-            "stock_quantity" : 1829,
-            "includeAllVersions" : "BOOLEAN",
-            "object" : "STRING",
-            "includeSourceFiles" : "BOOLEAN",
-            "documentType" : "STRING"
-          },
-          "v_Zendesk" : {
-            "discount_rate" : 648.24,
-            "object" : "STRING"
-          },
-          "Singular" : {
-            "object" : "STRING"
-          },
-          "Dynatrace" : {
-            "object" : "STRING"
-          },
-          "CustomConnector_data" : {
-            "v_customProperties" : {
-              "property2_data" : "STRING",
-              "property1" : "STRING"
-            },
-            "entityName" : "NULL"
-          },
-          "Trendmicro" : {
-            "object" : "STRING"
-          },
-          "Slack" : {
-            "object" : "STRING",
-            "response_time_sec" : 433.51
-          },
-          "SAPOData" : {
-            "item_count" : 1423,
-            "objectPath" : "STRING"
-          }
-        },
-        "connectorProfileName" : "STRING",
-        "retry_attempts" : 100
-      },
-      "fullName" : "STRING",
-      "clientToken" : "STRING",
-      "triggerConfig" : {
-        "v_triggerType" : "STRING"
-      },
-      "v_tags" : {
-        "property1" : "STRING",
-        "property2" : "STRING"
-      },
-      "tasks" : [ {
-        "sourceFields" : "ARRAY",
-        "taskType" : "STRING",
-        "connectorOperator" : {
-          "Veeva" : "STRING",
-          "InforNexus_data" : "STRING",
-          "GoogleAnalytics" : "STRING",
-          "Marketo" : "STRING",
-          "Datadog_data" : "STRING",
-          "v_Pardot" : "STRING",
-          "v_Zendesk" : "STRING",
-          "v_SAPOData" : "STRING",
-          "ServiceNow" : "STRING",
-          "Singular" : "STRING",
-          "S3" : "STRING",
-          "CustomConnector" : "STRING",
-          "Trendmicro" : "STRING",
-          "Amplitude" : "STRING"
-        },
-        "destinationField" : "NULL"
-      } ],
-      "retry_attempts" : 301,
-      "kmsArn_data" : "STRING",
-      "v_metadataCatalogConfig" : {
-        "glueDataCatalog" : {
-          "tablePrefix" : "STRING",
-          "roleArn_data" : "STRING",
-          "stock_quantity" : 4786
+        "status" : null,
+        "notified_channels_data" : [ "STRING" ],
+        "metric" : {
+          "threshold" : "DECIMAL",
+          "v_value" : "NULL",
+          "name" : "STRING",
+          "window" : "STRING"
         }
       }
     }

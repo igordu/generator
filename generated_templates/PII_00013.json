@@ -1,21 +1,17 @@
 {
-  "price" : 443.81,
   "content" : [ {
-    "title_data" : "PII_COMPANY_NAME",
-    "created" : "DATETIME",
-    "customerCity" : "PII_LOCATION_CITY",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "description" : "STRING",
-    "articleModelId" : "STRING",
-    "rating" : "INT",
-    "v_language" : "STRING",
+    "articleId" : null,
     "recommend" : "BOOLEAN",
-    "articleId" : "STRING",
-    "item_count" : 344,
-    "articleSizeRatings" : {
-      "OVERALL" : "INT"
-    },
-    "helpfulCount" : "INT",
-    "reviewId" : "STRING"
-  } ]
+    "articleModelId" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "language_data" : "STRING",
+    "unhelpfulCount_data" : "INT",
+    "title" : "STRING",
+    "temperature_c" : 28.07,
+    "reviewId" : "STRING",
+    "description" : "STRING",
+    "rating_data" : "INT"
+  } ],
+  "stock_quantity" : 4900
 }

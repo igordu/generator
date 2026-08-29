@@ -1,0 +1,21 @@
+{
+  "v_updatedAt" : "DATETIME",
+  "integrationId" : "STRING",
+  "createdBy" : {
+    "emailAddress" : "PII_EMAIL",
+    "userId" : "STRING"
+  },
+  "v_lastTriggeredAt" : "DATETIME",
+  "name" : "NULL",
+  "type" : "STRING",
+  "createdAt" : "NULL",
+  "triggers" : [ "STRING" ],
+  "status" : "STRING",
+  "config" : {
+    "channel" : null,
+    "webhookUrl" : "NULL",
+    "mentionOnError" : "STRING"
+  },
+  "is_active" : true,
+  "provider" : "STRING"
+}

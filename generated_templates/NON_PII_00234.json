@@ -1,17 +1,21 @@
 {
-  "data" : {
-    "fetchResource" : [ {
-      "facets" : [ {
-        "v_key" : "STRING",
-        "count" : "INT",
-        "displayName" : "STRING"
-      }, {
-        "displayName" : "NULL",
-        "count" : "INT",
-        "key" : "STRING"
-      } ],
-      "auto_renew" : true,
-      "v_filter" : "STRING"
-    } ]
-  }
+  "v_environment" : "STRING",
+  "v_connection" : {
+    "pool_size" : "INT",
+    "retries" : "INT"
+  },
+  "last_status" : "STRING",
+  "auth_data" : {
+    "stock_quantity" : 4580,
+    "client_secret_data" : null,
+    "username" : "svc_backup_01",
+    "token_expires" : "DATETIME",
+    "password" : "********",
+    "api_key" : "[REDACTED]"
+  },
+  "log_line" : "TEXT",
+  "last_run" : "DATETIME",
+  "endpoint" : "NULL",
+  "temperature_c" : 45.92,
+  "service" : "STRING"
 }

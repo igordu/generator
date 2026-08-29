@@ -1,77 +1,28 @@
-[ {
-  "parents" : [ {
-    "discount_rate" : 974.65,
-    "url" : "URL",
-    "sha" : "STRING"
-  } ],
-  "author" : {
-    "id" : "INT",
-    "subscriptions_url" : "URL",
-    "received_events_url" : "URL",
-    "html_url" : "URL",
-    "url" : "URL",
-    "starred_url" : "URL",
-    "gravatar_id" : "STRING",
-    "page_index" : 2094,
-    "node_id" : "STRING",
-    "type" : "STRING",
-    "organizations_url" : "",
-    "following_url_data" : "URL",
-    "repos_url" : "URL",
-    "avatar_url" : "URL",
-    "login" : "STRING",
-    "events_url" : "URL",
-    "gists_url" : "URL",
-    "site_admin" : null
+{
+  "v_plan" : "STRING",
+  "ssoEnabled_data" : "BOOLEAN",
+  "usage_data" : {
+    "storageGb" : "DECIMAL",
+    "v_apiCallsThisMonth" : "INT",
+    "v_activeUsers30d" : "INT"
   },
-  "commit_data" : {
-    "verification" : {
-      "verified_at" : "DATETIME",
-      "reason" : "STRING",
-      "v_signature" : "STRING",
-      "payload" : "STRING",
-      "v_verified" : "BOOLEAN",
-      "temperature_c" : 921.88
-    },
-    "v_message" : "PII_COMPANY_NAME",
-    "url" : "URL",
-    "tree" : {
-      "conversion_rate" : 68.76,
-      "v_url" : "URL",
-      "sha" : "STRING"
-    },
-    "comment_count" : "NULL",
-    "price" : 614.19,
-    "committer_data" : {
-      "email" : "PII_EMAIL",
-      "clientName" : "PII_PERSON_NAME",
-      "date" : "DATETIME"
-    },
-    "v_author" : {
-      "email" : "PII_EMAIL",
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    }
+  "billingEmail" : "PII_EMAIL",
+  "primaryContact" : {
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER"
   },
-  "url" : "URL",
-  "sha" : "STRING",
-  "v_committer" : {
-    "starred_url" : "URL",
-    "type" : "STRING",
-    "gists_url" : "URL",
-    "login" : "STRING",
-    "v_html_url" : "URL",
-    "v_url" : "URL",
-    "following_url" : "URL",
-    "followers_url" : "URL",
-    "received_events_url" : "URL",
-    "events_url" : "URL",
-    "avatar_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "primaryKey" : "STRING",
-    "id" : "INT"
+  "subscription" : {
+    "v_seatsUsed" : "INT",
+    "currency" : "STRING",
+    "v_renewalDate" : "DATE",
+    "seats_data" : "INT",
+    "has_discount" : true,
+    "mrr_data" : "DECIMAL"
   },
-  "page_index" : 1250,
-  "node_id" : "STRING",
-  "v_html_url" : "URL"
-} ]
+  "is_active" : false,
+  "status" : "STRING",
+  "tenantId" : "STRING",
+  "dataResidency" : "STRING",
+  "createdAt" : "DATETIME"
+}

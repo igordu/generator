@@ -1,34 +1,26 @@
-[ {
-  "id" : "STRING",
-  "style" : "STRING",
-  "name" : "STRING",
-  "self" : "URL",
-  "simplified" : "BOOLEAN",
-  "key" : "STRING",
-  "insight_data" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "v_totalIssueCount" : "INT"
-  }
-}, {
-  "avatarUrls" : {
-    "v_16x16" : null,
-    "48x48" : "URL",
-    "24x24" : "URL",
-    "priority_level" : 91
+{
+  "triggeredBy" : "STRING",
+  "conversion_rate" : 2.34,
+  "status" : "STRING",
+  "destination" : {
+    "type" : "STRING",
+    "project" : "STRING",
+    "table" : "STRING"
   },
-  "simplified" : "BOOLEAN",
-  "style" : "STRING",
-  "insight" : {
-    "totalIssueCount_data" : "INT",
-    "has_discount" : true
+  "source" : {
+    "table" : "STRING",
+    "host" : "STRING",
+    "type_data" : "STRING",
+    "v_database" : "STRING"
   },
-  "name" : "STRING",
-  "id" : "STRING",
-  "projectCategory" : {
-    "name" : "STRING",
-    "self" : "URL",
-    "id" : "STRING",
-    "description" : "STRING"
+  "v_stats" : {
+    "recordsSkipped" : "INT",
+    "bytesTransferred" : "INT",
+    "recordsRead_data" : "INT"
   },
-  "self" : "URL"
-} ]
+  "startedAt_data" : "DATETIME",
+  "completedAt_data" : "DATETIME",
+  "nextRunAt" : "DATETIME",
+  "scheduledAt" : "DATETIME",
+  "clientName" : "STRING"
+}

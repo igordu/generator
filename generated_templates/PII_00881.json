@@ -1,91 +1,52 @@
 {
-  "v_tsp" : {
-    "call_out_data" : "BOOLEAN",
-    "call_out_countries" : "ARRAY",
-    "show_international_numbers_link_data" : "BOOLEAN"
-  },
-  "telephony" : {
-    "v_show_international_numbers_link" : "BOOLEAN",
-    "third_party_audio" : "BOOLEAN",
-    "audio_conference_info" : "STRING"
-  },
-  "feature" : {
-    "zoom_phone" : "BOOLEAN",
-    "webinar_data" : "BOOLEAN",
-    "requires_update" : true,
-    "meeting_capacity" : "INT",
-    "cn_meeting" : "BOOLEAN",
-    "large_meeting" : "BOOLEAN",
-    "in_meeting" : "BOOLEAN"
-  },
-  "temperature_c" : 74.59,
-  "schedule_meeting" : {
-    "use_pmi_for_instant_meetings" : "BOOLEAN",
-    "meeting_password_requirement" : {
-      "have_letter" : "BOOLEAN",
-      "only_allow_numeric" : "BOOLEAN",
-      "have_special_character" : "BOOLEAN",
-      "have_number" : "BOOLEAN"
-    },
-    "host_video" : "BOOLEAN",
-    "v_join_before_host" : "BOOLEAN",
-    "cpu_usage_percent" : 262.61,
-    "require_password_for_scheduling_new_meetings" : "BOOLEAN",
-    "v_force_pmi_jbh_password" : "BOOLEAN",
-    "v_require_password_for_pmi_meetings" : "STRING",
-    "use_pmi_for_scheduled_meetings" : "BOOLEAN",
-    "participants_video" : "BOOLEAN",
-    "embed_password_in_join_link" : "BOOLEAN",
-    "audio_type" : "STRING",
-    "not_store_meeting_topic_data" : "BOOLEAN",
-    "pmi_password" : "PII_PASSWORD",
-    "pstn_password_protected" : "BOOLEAN"
-  },
-  "v_in_meeting" : {
-    "remote_control" : "BOOLEAN",
-    "v_custom_data_center_regions" : "BOOLEAN",
-    "remote_support" : "BOOLEAN",
-    "data_center_regions" : "ARRAY",
-    "closed_caption" : "BOOLEAN",
-    "allow_live_streaming" : "BOOLEAN",
-    "show_meeting_control_toolbar" : "BOOLEAN",
-    "polling" : "BOOLEAN",
-    "attendee_on_hold_data" : "BOOLEAN",
-    "chat" : "BOOLEAN",
-    "annotation" : "BOOLEAN",
-    "private_chat" : "BOOLEAN",
-    "v_co_host" : "BOOLEAN",
-    "far_end_camera_control" : "BOOLEAN",
-    "group_hd" : null,
-    "entry_exit_chime" : "",
-    "e2e_encryption" : "BOOLEAN",
-    "non_verbal_feedback_data" : "BOOLEAN",
-    "auto_saving_chat" : "BOOLEAN",
-    "v_record_play_voice" : "BOOLEAN",
-    "waiting_room" : "BOOLEAN"
-  },
-  "mail" : {
-    "jbh_reminder" : "BOOLEAN",
-    "v_cancel_meeting_reminder" : "BOOLEAN",
-    "alternative_host_reminder" : "BOOLEAN",
-    "v_schedule_for_reminder" : "BOOLEAN",
-    "discount_rate" : 959.24
-  },
-  "recording" : {
-    "local_recording" : "BOOLEAN",
-    "recording_password_requirement" : {
-      "have_letter" : "BOOLEAN",
-      "length" : "INT",
-      "only_allow_numeric" : "BOOLEAN",
-      "have_number" : "BOOLEAN"
-    },
-    "record_audio_file" : "BOOLEAN",
-    "is_active" : false,
-    "record_speaker_view_data" : "BOOLEAN",
-    "auto_delete_cmr" : "BOOLEAN",
-    "save_chat_text" : "BOOLEAN",
-    "v_record_gallery_view" : "BOOLEAN",
-    "cloud_recording" : "BOOLEAN",
-    "auto_recording" : "NULL"
+  "system_state" : {
+    "payload_wrapper" : {
+      "body" : {
+        "has_discount" : false,
+        "v_address" : {
+          "country" : "PII_LOCATION_COUNTRY",
+          "city" : "PII_LOCATION_CITY",
+          "postalCode" : "STRING",
+          "state" : "STRING",
+          "street" : "PII_ADDRESS_LINE"
+        },
+        "payroll" : {
+          "payFrequency" : "STRING",
+          "salary" : "INT",
+          "userName" : "PII_COMPANY_NAME",
+          "accountNumber" : "PII_IBAN"
+        },
+        "recordId" : "STRING",
+        "jobInfo" : {
+          "employmentType_data" : "STRING",
+          "managerId" : "STRING",
+          "title" : null,
+          "department" : "STRING"
+        },
+        "personalInfo" : {
+          "primary_email" : "PII_EMAIL",
+          "ssn" : "PII_NATIONAL_ID",
+          "gender" : "STRING",
+          "page_index" : 157,
+          "telephone" : "PII_PHONE_NUMBER",
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "middleName" : "PII_PERSON_FIRST_NAME",
+          "dateOfBirth" : "PII_DATE_OF_BIRTH",
+          "personalEmail" : "PII_EMAIL",
+          "mobilePhone" : "PII_PHONE_NUMBER",
+          "nationality_data" : "PII_LOCATION_COUNTRY",
+          "lastName" : "PII_PERSON_LAST_NAME"
+        },
+        "status" : "STRING",
+        "emergencyContact" : {
+          "clientName" : "PII_PERSON_NAME",
+          "phone" : "PII_PHONE_NUMBER",
+          "conversion_rate" : 7.48,
+          "relationship_data" : null
+        },
+        "hireDate" : "DATE",
+        "terminationDate" : "NULL"
+      }
+    }
   }
 }

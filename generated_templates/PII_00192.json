@@ -1,53 +1,38 @@
 {
-  "identifier" : {
-    "secondaryPhone" : {
-      "mobile" : "STRING",
-      "countryCode" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "email" : "PII_EMAIL",
-    "clientName" : "PII_PERSON_NAME"
-  },
-  "primaryKey" : "STRING",
-  "username" : "PII_USERNAME",
-  "businessAccount" : {
-    "email" : "PII_EMAIL",
-    "v_primaryContact" : {
-      "clientName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "doingBusinessAs" : "STRING",
-    "name" : "PII_ORGANIZATION_NAME",
-    "secondaryPhone" : {
-      "price" : 45.43,
-      "countryCode" : "STRING",
-      "cell" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "priority_level" : 4197,
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING"
-    },
-    "website" : "URL",
-    "address" : {
-      "postalCode" : "STRING",
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "STRING",
-      "country" : "STRING",
-      "county" : "STRING",
-      "city" : "STRING",
-      "addressLine2" : "STRING"
+  "userName" : [ {
+    "use" : "STRING",
+    "temperature_c" : 19.27,
+    "family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "identifier" : [ {
+    "use_data" : "STRING",
+    "system" : "URL",
+    "value_data" : "PII_NATIONAL_ID",
+    "response_time_sec" : 19.02,
+    "type" : {
+      "v_text" : "NULL"
     }
-  },
-  "requires_update" : false,
-  "status" : "STRING",
-  "accountType" : "STRING"
+  } ],
+  "v_gender" : "STRING",
+  "recordId" : "STRING",
+  "telecom_data" : [ {
+    "value" : "PII_EMAIL",
+    "system" : ""
+  }, {
+    "value_data" : "PII_PHONE_NUMBER",
+    "system" : "NULL"
+  } ],
+  "v_address" : [ {
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "v_use" : "STRING",
+    "city" : "PII_LOCATION_CITY"
+  } ],
+  "birthDate_data" : "PII_DATE_OF_BIRTH",
+  "resourceType_data" : "STRING",
+  "meta" : {
+    "has_discount" : true,
+    "versionId" : "INT"
+  }
 }

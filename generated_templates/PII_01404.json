@@ -1,0 +1,35 @@
+{
+  "audit_trail" : {
+    "request_context" : {
+      "body" : {
+        "passwordLastChangedAt_data" : "NULL",
+        "userId" : "STRING",
+        "failedLoginAttempts" : "INT",
+        "trustedDevices" : [ {
+          "addedAt" : "DATETIME",
+          "platform" : "STRING",
+          "lastUsedAt" : "DATETIME",
+          "fullName" : "STRING",
+          "recordId" : "STRING",
+          "v_macAddress" : "PII_MAC_ADDRESS"
+        } ],
+        "item_count" : 3271,
+        "v_securityEvents" : [ {
+          "v_ipAddress" : "PII_IP_ADDRESS",
+          "type" : "STRING",
+          "v_timestamp" : "DATETIME"
+        } ],
+        "activeSessions" : "INT",
+        "oauthConnections_data" : [ {
+          "connectedAt_data" : "DATETIME",
+          "provider" : "STRING",
+          "externalId" : "STRING",
+          "conversion_rate" : 7.55,
+          "emailAddress" : "PII_EMAIL"
+        } ],
+        "lockedUntil" : "NULL",
+        "twoFactorEnabled" : "BOOLEAN"
+      }
+    }
+  }
+}

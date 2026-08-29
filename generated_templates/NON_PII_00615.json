@@ -1,36 +1,19 @@
-[ {
-  "assetTypeId" : "STRING",
-  "locks" : "INT",
-  "identifier" : "STRING",
-  "cache_hit" : true,
-  "recordId" : "STRING",
-  "v_taxDepreciationSettings" : "ARRAY",
-  "fixedAssetAccountId" : "STRING",
-  "assetTypeName" : "STRING",
-  "bookDepreciationSetting" : {
-    "v_depreciableObjectType" : "STRING",
-    "system_ping_ms" : 904,
-    "depreciationRate" : "DECIMAL",
-    "depreciationMethod" : "STRING",
-    "averagingMethod" : "STRING",
-    "bookEffectiveDateOfChangeId" : "STRING",
-    "depreciationCalculationMethod_data" : "STRING",
-    "depreciableObjectId" : "STRING"
-  }
-}, {
-  "v_taxDepreciationSettings" : "ARRAY",
-  "uuid" : "STRING",
-  "bookDepreciationSetting_data" : {
-    "depreciationMethod" : "STRING",
-    "averagingMethod" : "STRING",
-    "recordId" : "STRING",
-    "v_depreciableObjectType" : "STRING",
-    "depreciationCalculationMethod" : "STRING",
-    "depreciableObjectId" : "STRING"
+{
+  "tags" : {
+    "priority_level" : 4029,
+    "environment" : "STRING",
+    "team" : "STRING"
   },
-  "fixedAssetAccountId" : "NULL",
-  "accumulatedDepreciationAccountId" : "STRING",
-  "fullName" : "STRING",
-  "lockPrivateUseAccount" : "BOOLEAN",
-  "assetTypeId" : "STRING"
-} ]
+  "startedAt" : "DATETIME",
+  "requires_update" : false,
+  "type" : "STRING",
+  "retentionDays" : "INT",
+  "encryptionKeyId" : "STRING",
+  "snapshotId" : "STRING",
+  "sizeGb" : "DECIMAL",
+  "v_status" : "STRING",
+  "v_database" : "STRING",
+  "v_cluster" : "STRING",
+  "region" : "STRING",
+  "completedAt" : "DATETIME"
+}

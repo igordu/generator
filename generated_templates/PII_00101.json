@@ -1,38 +1,32 @@
 {
-  "userId" : "STRING",
-  "primaryKey" : "STRING",
-  "item_count" : 1420,
-  "businessAccount" : {
-    "email" : "PII_EMAIL",
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "countryCode" : "STRING"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "doingBusinessAs" : "STRING",
-    "is_active" : false,
-    "address" : {
-      "county" : "STRING",
-      "addressLine1" : "STRING",
-      "addressLine2" : "STRING",
-      "postalCode" : "STRING",
-      "city" : "NULL",
-      "country" : "STRING"
-    },
-    "website" : "URL",
-    "secondaryPhone" : {
-      "countryCode_data" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "is_active" : true
-    },
-    "v_primaryContact" : {
-      "fullName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    }
+  "reply_to" : {
+    "price" : 4219.5,
+    "contactEmail" : "PII_EMAIL"
   },
-  "accountType" : "STRING",
-  "username" : "PII_USERNAME",
-  "status" : "STRING"
+  "stock_quantity" : 1481,
+  "personalizations" : [ {
+    "to" : [ {
+      "contactEmail" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "temperature_c" : 29.14
+    } ],
+    "subject" : "STRING"
+  } ],
+  "v_send_at" : "DATETIME_EPOCH",
+  "from" : {
+    "name" : "PII_PERSON_NAME",
+    "is_deleted" : false,
+    "email" : "PII_EMAIL"
+  },
+  "v_mail_settings" : {
+    "sandbox_mode" : {
+      "enable" : "BOOLEAN"
+    },
+    "cache_hit" : true
+  },
+  "categories" : [ "STRING" ],
+  "content" : [ {
+    "type" : "STRING",
+    "v_value" : "PII_FREE_TEXT"
+  } ]
 }

@@ -1,0 +1,31 @@
+{
+  "reportId": "GDPR-SAR-2024-00082",
+  "type": "subject_access_request",
+  "status": "completed",
+  "requestedAt": "2024-03-15T10:00:00Z",
+  "completedAt": "2024-04-12T10:00:00Z",
+  "dataSubject": {
+    "id": "usr-00821",
+    "email": "jean.dupont@email.fr",
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "dateOfBirth": "1978-07-04",
+    "country": "FR"
+  },
+  "requestedBy": "jean.dupont@email.fr",
+  "legalBasis": "GDPR Art. 15",
+  "dataCategories": [
+    "personal_identifiers",
+    "contact_information",
+    "purchase_history",
+    "consent_records",
+    "communication_logs"
+  ],
+  "deliveredVia": "secure_download_link",
+  "downloadUrl": "https://gdpr.example.com/exports/secure/abc123",
+  "expiresAt": "2024-04-19T10:00:00Z",
+  "handledBy": {
+    "agentId": "dpo-agent-001",
+    "email": "dpo@example.com"
+  }
+}

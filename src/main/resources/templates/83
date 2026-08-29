@@ -1,0 +1,29 @@
+{
+  "nodeId": "STRING",
+  "clusterId": "STRING",
+  "role": "STRING",
+  "status": "STRING",
+  "metrics": {
+    "messagesInPerSec": "INT",
+    "bytesInPerSec": "INT",
+    "bytesOutPerSec": "INT",
+    "underReplicatedPartitions": "INT",
+    "activeControllerCount": "INT",
+    "offlinePartitionsCount": "INT",
+    "requestHandlerAvgIdlePercent": "DECIMAL"
+  },
+  "topics": [
+    {
+      "name": "STRING",
+      "partitions": "INT",
+      "replicationFactor": "INT"
+    }
+  ],
+  "jvmMemory": {
+    "heapUsedMb": "INT",
+    "heapMaxMb": "INT",
+    "gcPauseMs": "INT"
+  },
+  "version": "STRING",
+  "uptimeSeconds": "INT"
+}

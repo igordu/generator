@@ -1,27 +1,28 @@
 {
-  "transactions_data" : {
-    "booked_data" : [ {
-      "fullName" : "PII_PERSON_NAME",
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "page_index" : 4424,
-        "family_data" : "STRING",
-        "domain" : "STRING"
-      },
-      "transactionId" : "STRING",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "amount" : {
-        "amount" : "DECIMAL",
-        "response_time_sec" : 650.96,
-        "currency" : "STRING"
-      },
-      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "valueDate" : "DATE",
-      "clientName" : "STRING",
-      "bookingDate" : "DATE"
-    } ]
-  },
-  "is_active" : false
+  "officeLocation" : "STRING",
+  "userType" : "STRING",
+  "department_data" : "STRING",
+  "employeeId" : "STRING",
+  "companyName" : "PII_COMPANY_NAME",
+  "createdDateTime" : "DATETIME",
+  "country" : "PII_LOCATION_COUNTRY",
+  "mail" : "PII_EMAIL",
+  "city_data" : "PII_LOCATION_CITY",
+  "clientName" : "PII_EMAIL",
+  "usageLocation" : "STRING",
+  "preferredLanguage" : "STRING",
+  "identifier" : "STRING",
+  "businessPhones" : [ "PII_PHONE_NUMBER" ],
+  "v_state" : "STRING",
+  "employeeType" : "STRING",
+  "accountEnabled" : "BOOLEAN",
+  "onPremisesSamAccountName" : "PII_USERNAME",
+  "userName" : "PII_PERSON_LAST_NAME",
+  "displayName" : "PII_PERSON_NAME",
+  "jobTitle" : "STRING",
+  "givenName" : "PII_PERSON_FIRST_NAME",
+  "is_deleted" : false,
+  "contactNumber" : "PII_PHONE_NUMBER",
+  "postalCode" : "STRING",
+  "streetAddress_data" : "PII_ADDRESS_LINE"
 }

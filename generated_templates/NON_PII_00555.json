@@ -1,46 +1,33 @@
-[ {
-  "id" : "",
-  "key" : "STRING",
-  "simplified_data" : "BOOLEAN",
-  "name_val" : "STRING",
-  "avatarUrls_data" : {
-    "system_ping_ms" : 1014,
-    "32x32" : "URL",
-    "16x16" : "URL",
-    "48x48" : "URL",
-    "24x24" : "URL"
+{
+  "http_status" : 993,
+  "v_completedAt" : "DATETIME",
+  "v_startedAt" : "DATETIME",
+  "source" : {
+    "v_host" : "STRING",
+    "type" : "STRING",
+    "has_discount" : false,
+    "database" : "STRING",
+    "table" : ""
   },
-  "v_style" : "STRING",
-  "projectCategory_data" : {
-    "description" : "STRING",
-    "userName" : "STRING",
-    "priority_level" : 615,
-    "self_data" : "URL",
-    "recordId" : "STRING"
+  "stats" : {
+    "temperature_c" : 8.96,
+    "recordsRead" : "INT",
+    "bytesTransferred_data" : "INT",
+    "recordsSkipped" : "INT"
   },
-  "self" : "URL",
-  "discount_rate" : 790.76
-}, {
-  "v_key" : "NULL",
-  "self" : "URL",
-  "fullName" : "STRING",
-  "insight_data" : {
-    "totalIssueCount" : "INT",
-    "cache_hit" : false,
-    "lastIssueUpdateTime" : null
+  "type" : "STRING",
+  "status" : "STRING",
+  "durationSeconds" : "INT",
+  "destination" : {
+    "dataset" : "STRING",
+    "table" : "STRING",
+    "type" : "STRING",
+    "conversion_rate" : 3.9,
+    "project" : "STRING"
   },
-  "simplified" : "BOOLEAN",
-  "v_projectCategory" : {
-    "v_description" : "STRING",
-    "identifier" : "STRING",
-    "v_self" : "URL"
-  },
-  "primaryKey" : "STRING",
-  "style" : "STRING",
-  "avatarUrls" : {
-    "24x24" : "URL",
-    "v_48x48" : "URL",
-    "32x32" : "URL",
-    "has_discount" : true
-  }
-} ]
+  "nextRunAt" : "DATETIME",
+  "scheduledAt_data" : "DATETIME",
+  "name" : "STRING",
+  "triggeredBy" : "STRING",
+  "identifier" : "STRING"
+}

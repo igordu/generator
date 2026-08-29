@@ -1,14 +1,38 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "system_state" : {
-        "request_context" : {
-          "debug_payload" : {
-            "emailAddressStatus" : [ "STRING" ],
-            "emailAddress" : "PII_EMAIL"
-          }
-        }
-      }
-    }
+  "riskScore" : "INT",
+  "createdAt" : "NULL",
+  "uuid" : "STRING",
+  "verificationId" : "STRING",
+  "checks" : [ {
+    "reason" : "STRING",
+    "system_ping_ms" : 2513,
+    "v_result" : "STRING",
+    "checkType" : "STRING"
+  } ],
+  "reviewedBy" : "PII_EMAIL",
+  "completedAt" : "DATETIME",
+  "address" : {
+    "postalCode" : "STRING",
+    "street" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "document_data" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "number" : "PII_NATIONAL_ID",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "expiryDate" : "DATE",
+    "type" : "STRING"
+  },
+  "status" : "STRING",
+  "applicant" : {
+    "telephone" : "PII_PHONE_NUMBER",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "v_nationality" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "email" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME"
   }
 }

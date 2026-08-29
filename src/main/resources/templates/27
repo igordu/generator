@@ -1,0 +1,34 @@
+{
+  "id": "STRING",
+  "status": "STRING",
+  "created": "DATETIME",
+  "activated": "DATETIME",
+  "lastLogin": "DATETIME",
+  "lastUpdated": "DATETIME",
+  "passwordChanged": "DATETIME",
+  "profile": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "mobilePhone": "PII_PHONE_NUMBER",
+    "secondEmail": "PII_EMAIL",
+    "login": "PII_EMAIL",
+    "email": "PII_EMAIL",
+    "department": "STRING",
+    "title": "STRING",
+    "employeeNumber": "STRING",
+    "streetAddress": "PII_ADDRESS_LINE",
+    "city": "PII_LOCATION_CITY",
+    "state": "STRING",
+    "zipCode": "STRING",
+    "countryCode": "PII_LOCATION_COUNTRY",
+    "displayName": "PII_PERSON_NAME",
+    "organization": "PII_COMPANY_NAME"
+  },
+  "credentials": {
+    "password": "OBJECT",
+    "provider": {
+      "type": "STRING",
+      "name": "STRING"
+    }
+  }
+}

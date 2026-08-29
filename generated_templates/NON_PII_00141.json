@@ -1,17 +1,28 @@
 {
-  "identifier" : "STRING",
-  "shopUrl" : "URL",
-  "media_data" : {
-    "images" : [ {
-      "largeHdUrl" : "",
-      "orderNumber" : "INT",
-      "smallHdUrl_data" : "URL",
-      "largeUrl" : "URL",
-      "v_smallUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "v_type" : "STRING",
-      "thumbnailHdUrl" : "URL"
-    } ]
+  "stock_quantity" : 449,
+  "pricing" : {
+    "salePrice" : "DECIMAL",
+    "currency" : "STRING",
+    "basePrice_data" : "DECIMAL"
   },
-  "name" : "STRING"
+  "v_updatedAt" : "DATETIME",
+  "v_sku" : "STRING",
+  "images" : [ {
+    "isPrimary" : "BOOLEAN",
+    "page_index" : 2220,
+    "url" : "URL"
+  } ],
+  "status" : "STRING",
+  "name" : "STRING",
+  "v_createdAt" : "DATETIME",
+  "brand" : "STRING",
+  "productId" : "STRING",
+  "attributes" : {
+    "color" : "STRING",
+    "batteryLifeHours" : "INT",
+    "weight_g" : "INT",
+    "foldable" : "BOOLEAN",
+    "connectivity" : "STRING",
+    "has_discount" : true
+  }
 }

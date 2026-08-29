@@ -1,0 +1,19 @@
+{
+  "description" : "STRING",
+  "slackChannel_data" : "STRING",
+  "ownedServices" : [ "STRING" ],
+  "createdAt" : "DATETIME",
+  "identifier" : "STRING",
+  "name" : "STRING",
+  "auto_renew" : true,
+  "members" : [ {
+    "userId" : "STRING",
+    "email" : "PII_EMAIL",
+    "http_status" : 573,
+    "role" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "joinedAt_data" : "DATETIME"
+  } ],
+  "updatedAt" : "DATETIME",
+  "uuid" : "STRING"
+}

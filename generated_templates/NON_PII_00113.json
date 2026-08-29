@@ -1,23 +1,45 @@
-{
-  "data" : {
-    "fetchResource" : {
-      "modelId" : "STRING",
-      "media" : {
-        "images" : [ {
-          "mediumHdUrl" : "URL",
-          "smallUrl" : "NULL",
-          "v_mediumUrl" : "URL",
-          "largeUrl" : "URL",
-          "type" : "STRING",
-          "smallHdUrl" : "URL",
-          "largeHdUrl" : "URL",
-          "orderNumber" : "INT",
-          "thumbnailHdUrl" : "URL"
-        } ]
-      },
-      "shopUrl_data" : "URL",
-      "id" : "STRING",
-      "name" : "STRING"
-    }
+[ {
+  "projectCategory" : {
+    "self" : "URL",
+    "name" : "STRING",
+    "description" : "STRING",
+    "id" : "STRING"
+  },
+  "style" : "STRING",
+  "key" : "STRING",
+  "avatarUrls" : {
+    "v_48x48" : "URL",
+    "v_24x24" : "URL",
+    "32x32" : "URL",
+    "16x16" : "NULL"
+  },
+  "priority_level" : 4328,
+  "name" : "STRING",
+  "simplified" : "BOOLEAN",
+  "self" : "URL"
+}, {
+  "avatarUrls" : {
+    "32x32" : "URL",
+    "v_24x24" : "",
+    "16x16" : "URL",
+    "48x48_data" : "URL"
+  },
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME",
+    "conversion_rate" : 2.71
+  },
+  "name" : "STRING",
+  "style" : "STRING",
+  "key_data" : "STRING",
+  "is_deleted" : true,
+  "simplified_data" : "BOOLEAN",
+  "self" : "URL",
+  "projectCategory" : {
+    "name" : "STRING",
+    "priority_level" : 3619,
+    "recordId" : "STRING",
+    "self" : "URL",
+    "description" : "STRING"
   }
-}
+} ]

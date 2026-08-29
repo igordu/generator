@@ -1,36 +1,53 @@
 {
-  "page_count" : "INT",
-  "page_number" : "INT",
-  "http_status" : 3806,
-  "total_records_data" : "INT",
-  "registrants" : [ {
-    "join_url" : "URL",
-    "id" : "STRING",
-    "city" : "PII_LOCATION_CITY",
-    "org" : "PII_ORGANIZATION_NAME",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "phone" : "PII_PHONE_NUMBER",
-    "role_in_purchase_process" : "STRING",
-    "create_time" : "DATETIME",
-    "purchasing_time_frame" : "STRING",
-    "state" : "PII_LOCATION_STATE",
-    "cpu_usage_percent" : 803.94,
-    "job_title_data" : "STRING",
-    "zip_data" : "STRING",
-    "industry" : "STRING",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "address" : "PII_ADDRESS_LINE",
-    "comments" : "STRING",
-    "email" : "PII_EMAIL",
-    "country" : "PII_LOCATION_COUNTRY",
-    "no_of_employees" : "STRING",
-    "custom_questions_data" : [ {
-      "title_data" : "STRING",
-      "v_value" : "STRING"
-    }, {
-      "title" : "STRING",
-      "value" : "STRING"
-    } ]
-  } ],
-  "page_size_data" : "INT"
+  "data" : {
+    "fetchResource" : {
+      "active_data" : "BOOLEAN",
+      "meta_data" : {
+        "lastUpdated" : "DATETIME",
+        "versionId" : "INT"
+      },
+      "qualification_data" : [ {
+        "retry_attempts" : 3335,
+        "code" : {
+          "temperature_c" : 14.4,
+          "coding" : [ {
+            "v_system" : "URL",
+            "code" : "STRING"
+          } ]
+        }
+      } ],
+      "primaryKey" : "STRING",
+      "telecom" : [ {
+        "value" : "PII_PHONE_NUMBER",
+        "v_use" : "STRING",
+        "system_data" : "STRING"
+      }, {
+        "system" : "STRING",
+        "value" : "PII_EMAIL"
+      } ],
+      "cpu_usage_percent" : 53.89,
+      "name_val" : [ {
+        "has_discount" : true,
+        "family" : "PII_PERSON_LAST_NAME",
+        "prefix" : [ "NULL" ],
+        "use_data" : "STRING",
+        "given" : [ "PII_PERSON_FIRST_NAME" ]
+      } ],
+      "v_resourceType" : "STRING",
+      "address" : [ {
+        "postalCode_data" : "STRING",
+        "country" : "PII_LOCATION_COUNTRY",
+        "v_line" : [ "PII_ADDRESS_LINE" ],
+        "city" : "PII_LOCATION_CITY",
+        "use_data" : "STRING"
+      } ],
+      "birthDate" : "PII_DATE_OF_BIRTH",
+      "gender" : "STRING",
+      "identifier" : [ {
+        "value" : "PII_NATIONAL_ID",
+        "conversion_rate" : 4.89,
+        "system" : "URL"
+      } ]
+    }
+  }
 }

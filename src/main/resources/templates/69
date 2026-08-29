@@ -1,0 +1,27 @@
+{
+  "deploymentId": "STRING",
+  "service": "STRING",
+  "version": "STRING",
+  "environment": "STRING",
+  "status": "STRING",
+  "initiatedBy": {
+    "type": "STRING",
+    "pipelineId": "STRING",
+    "triggeredBy": "STRING",
+    "actor": "PII_EMAIL"
+  },
+  "startedAt": "DATETIME",
+  "completedAt": "DATETIME",
+  "strategy": "STRING",
+  "healthCheck": {
+    "url": "URL",
+    "status": "STRING",
+    "responseTimeMs": "INT"
+  },
+  "rollback": {
+    "available": "BOOLEAN",
+    "previousVersion": "STRING"
+  },
+  "artifactDigest": "STRING",
+  "registry": "STRING"
+}

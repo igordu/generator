@@ -1,36 +1,25 @@
 {
-  "telecom_data" : [ {
-    "value" : "PII_EMAIL",
-    "system" : "STRING",
-    "is_active" : false
-  }, {
-    "http_status" : 4018,
-    "v_value" : "PII_PHONE_NUMBER",
-    "system" : "STRING"
-  } ],
-  "address" : [ {
-    "v_use" : "STRING",
-    "priority_level" : 2273,
-    "country" : "PII_LOCATION_COUNTRY",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "city_data" : "PII_LOCATION_CITY"
-  } ],
-  "identifier" : [ {
-    "value" : "PII_NATIONAL_ID",
-    "use" : "STRING",
-    "system_data" : null,
-    "type" : {
-      "text" : "STRING",
-      "requires_update" : false
+  "data" : {
+    "fetchResource" : {
+      "data_data" : {
+        "page_index" : 3416,
+        "username" : "PII_USERNAME",
+        "uuid" : "STRING",
+        "location" : "PII_LOCATION_CITY",
+        "public_metrics_data" : {
+          "v_tweet_count" : "INT",
+          "listed_count" : "INT",
+          "followers_count" : "INT"
+        },
+        "verified_data" : "BOOLEAN",
+        "profile_image_url" : "URL",
+        "pinned_tweet_id" : "STRING",
+        "v_description" : "STRING",
+        "name" : "PII_PERSON_NAME",
+        "url_data" : "URL",
+        "created_at_data" : "DATETIME"
+      },
+      "is_active" : true
     }
-  } ],
-  "resourceType" : "STRING",
-  "gender_data" : "STRING",
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "clientName" : [ {
-    "stock_quantity" : 4635,
-    "family" : "PII_PERSON_LAST_NAME",
-    "use_data" : "STRING",
-    "given" : [ "PII_PERSON_FIRST_NAME" ]
-  } ]
+  }
 }

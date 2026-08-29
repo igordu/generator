@@ -1,59 +1,34 @@
 {
-  "registrationMarketplaceId" : "STRING",
-  "businessAccount" : {
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "cell" : {
-      "countryCode" : "STRING",
-      "mobile" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "v_website" : "URL",
-    "auto_renew" : false,
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "system_ping_ms" : 4664
-    },
-    "address" : {
-      "county" : "STRING",
-      "addressLine1" : "STRING",
-      "addressLine2" : "STRING",
-      "postalCode_data" : null
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "email" : "PII_EMAIL",
-    "doingBusinessAs" : "STRING"
-  },
-  "v_accountType" : "STRING",
-  "individualAccount" : {
-    "contactEmail" : "PII_EMAIL",
-    "secondaryPhone" : {
-      "is_deleted" : true,
-      "number_data" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING"
-    },
-    "temperature_c" : 113.37,
-    "registrationAddress_data" : {
-      "addressLine1" : "STRING",
-      "addressLine2" : "STRING",
-      "county" : "STRING",
-      "v_stateOrProvince" : "STRING",
-      "postalCode" : "STRING",
-      "v_city" : "STRING"
-    },
-    "userName" : "PII_PERSON_NAME",
-    "lastName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode_data" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "id" : "STRING",
+      "read" : "BOOLEAN",
+      "source" : {
+        "cache_hit" : true,
+        "type" : "STRING",
+        "subject" : "STRING",
+        "delivered_as" : "",
+        "body_data" : "PII_FREE_TEXT",
+        "author" : {
+          "id" : "STRING",
+          "type" : "STRING",
+          "page_index" : 2562,
+          "name" : "PII_PERSON_NAME",
+          "email" : "PII_EMAIL"
+        }
+      },
+      "priority" : "STRING",
+      "type" : "STRING",
+      "v_conversation_parts" : [ {
+        "body" : "PII_FREE_TEXT",
+        "author" : {
+          "fullName" : "PII_PERSON_NAME"
+        },
+        "v_created_at" : "DATETIME_EPOCH",
+        "part_type" : "STRING",
+        "is_active" : true
+      } ],
+      "created_at" : "DATETIME_EPOCH"
     }
-  },
-  "clientName" : "PII_USERNAME",
-  "status" : "STRING",
-  "userId" : "STRING"
+  }
 }

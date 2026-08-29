@@ -1,66 +1,44 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "businessAccount" : {
-      "primaryContact" : {
-        "priority_level" : 3374,
-        "lastName" : "PII_PERSON_NAME",
-        "fullName" : "PII_PERSON_NAME"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "clientName" : [ {
+      "use" : "STRING",
+      "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+      "family" : "PII_PERSON_LAST_NAME",
+      "retry_attempts" : 4441
+    } ],
+    "identifier" : [ {
+      "system" : "URL",
+      "has_discount" : false,
+      "value_data" : "PII_NATIONAL_ID",
+      "type" : {
+        "text" : "STRING",
+        "cpu_usage_percent" : 52.83
       },
-      "doingBusinessAs" : "",
-      "primaryPhone" : {
-        "conversion_rate" : 609.08,
-        "phoneType" : "STRING",
-        "v_number" : "PII_PHONE_NUMBER",
-        "countryCode" : "NULL"
-      },
-      "address" : {
-        "postalCode_data" : "STRING",
-        "country" : "STRING",
-        "v_city" : "STRING",
-        "v_addressLine1" : null,
-        "stateOrProvince" : "STRING",
-        "addressLine2_data" : "STRING"
-      },
-      "emailAddress" : "PII_EMAIL",
-      "userName" : "PII_ORGANIZATION_NAME",
-      "contactNumber" : {
-        "number" : "PII_PHONE_NUMBER",
-        "phoneType" : "STRING",
-        "countryCode" : "NULL"
-      }
-    },
-    "is_active" : false,
-    "individualAccount" : {
-      "firstName" : "PII_PERSON_NAME",
-      "emailAddress" : "PII_EMAIL",
-      "page_index" : 138,
-      "registrationAddress" : {
-        "country_data" : "STRING",
-        "city" : "STRING",
-        "postalCode" : "STRING",
-        "v_county" : "STRING",
-        "stateOrProvince" : "STRING",
-        "addressLine1" : "STRING",
-        "addressLine2" : "STRING"
-      },
-      "contactNumber" : {
-        "mobile" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      },
-      "lastName" : "PII_PERSON_NAME",
-      "primaryPhone" : {
-        "countryCode" : "STRING",
-        "phoneType" : "STRING",
-        "discount_rate" : 407.31,
-        "number" : "PII_PHONE_NUMBER"
-      }
-    },
-    "accountType" : "STRING",
-    "username" : "PII_USERNAME",
-    "registrationMarketplaceId" : "STRING"
+      "use" : "STRING"
+    } ],
+    "id" : "STRING",
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "stock_quantity" : 1943,
+    "address" : [ {
+      "line" : [ "PII_ADDRESS_LINE" ],
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "use" : "STRING",
+      "page_index" : 601
+    } ],
+    "telecom" : [ {
+      "priority_level" : 1369,
+      "value" : "PII_PHONE_NUMBER",
+      "use" : "STRING",
+      "system_data" : "STRING"
+    }, {
+      "is_deleted" : true,
+      "value" : "PII_EMAIL",
+      "system" : "STRING"
+    } ],
+    "gender_data" : "STRING",
+    "resourceType" : "STRING"
   }
 }

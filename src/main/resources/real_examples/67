@@ -1,0 +1,14 @@
+{
+  "migrationId": "mig-20240401-001",
+  "name": "add_user_consent_columns",
+  "version": "20240401120000",
+  "status": "applied",
+  "appliedAt": "2024-04-01T12:05:33Z",
+  "appliedBy": "deploy-bot@ci.internal",
+  "database": "users_db",
+  "schema": "public",
+  "checksum": "sha256:a3f5b2c1d4e6f789",
+  "executionTimeMs": 412,
+  "statementsExecuted": 3,
+  "rollbackAvailable": true
+}

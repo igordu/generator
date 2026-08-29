@@ -1,15 +1,123 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "starRatingDistribution" : {
-    "5" : "INT",
-    "3" : "",
-    "v_2" : "INT",
-    "4" : "INT",
-    "auto_renew" : false,
-    "1" : "INT"
+  "triggerConfig_data" : {
+    "triggerProperties" : {
+      "Scheduled_data" : {
+        "scheduleStartTime_data" : "DATETIME",
+        "flowErrorDeactivationThreshold" : "INT",
+        "scheduleExpression" : "STRING",
+        "scheduleEndTime" : "DATETIME",
+        "scheduleOffset" : "NULL",
+        "dataPullMode" : "STRING",
+        "firstExecutionFrom_data" : "DATETIME",
+        "page_index" : 276
+      },
+      "is_deleted" : true
+    },
+    "triggerType" : "STRING"
   },
-  "numberOfUserReviews" : "INT",
-  "v_averageStarRating" : "INT",
-  "articleModelId" : "STRING",
-  "numberOfUserRecommendations" : "INT"
+  "tags" : {
+    "property2" : "STRING"
+  },
+  "sourceFlowConfig" : {
+    "connectorProfileName" : "STRING",
+    "connectorType" : "STRING"
+  },
+  "destinationFlowConfigList" : [ {
+    "v_connectorType" : "NULL",
+    "connectorProfileName" : "STRING",
+    "v_destinationConnectorProperties" : {
+      "Redshift" : {
+        "object" : "STRING",
+        "v_errorHandlingConfig" : {
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "is_active" : true,
+          "userName" : "STRING",
+          "bucketPrefix_data" : "STRING"
+        },
+        "fullName" : "STRING",
+        "auto_renew" : false
+      },
+      "Salesforce" : {
+        "writeOperationType_data" : "STRING",
+        "cache_hit" : true,
+        "dataTransferApi" : null,
+        "object" : "STRING",
+        "errorHandlingConfig" : {
+          "bucketName" : "STRING",
+          "bucketPrefix" : "STRING",
+          "v_failOnFirstDestinationError" : "BOOLEAN"
+        },
+        "idFieldNames" : "ARRAY"
+      },
+      "v_LookoutMetrics" : {
+        "discount_rate" : 61.28
+      },
+      "primaryKey" : {
+        "object" : "STRING",
+        "errorHandlingConfig" : {
+          "fullName" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "v_bucketPrefix" : "NULL"
+        }
+      },
+      "S3" : {
+        "bucketName" : "STRING",
+        "s3OutputFormatConfig" : {
+          "fileType" : "NULL",
+          "v_prefixConfig" : {
+            "prefixFormat" : "STRING",
+            "pathPrefixHierarchy_data" : "ARRAY",
+            "prefixType" : "STRING"
+          },
+          "preserveSourceDataTyping" : "BOOLEAN",
+          "aggregationConfig" : {
+            "aggregationType_data" : "STRING",
+            "response_time_sec" : 1.22,
+            "targetFileSize" : "NULL"
+          }
+        },
+        "bucketPrefix" : "STRING"
+      }
+    },
+    "apiVersion" : "STRING"
+  } ],
+  "description_data" : "STRING",
+  "v_tasks" : [ {
+    "connectorOperator_data" : {
+      "cpu_usage_percent" : 43.3,
+      "InforNexus" : "STRING",
+      "GoogleAnalytics" : "STRING",
+      "Salesforce" : "STRING",
+      "CustomConnector" : "STRING",
+      "Dynatrace" : "STRING",
+      "Singular" : "STRING",
+      "SAPOData" : "STRING",
+      "v_Trendmicro" : "STRING",
+      "Veeva" : "STRING",
+      "Zendesk_data" : "STRING",
+      "ServiceNow" : "STRING",
+      "Marketo" : "STRING",
+      "Amplitude" : "STRING",
+      "Slack" : "STRING"
+    },
+    "taskType" : null,
+    "taskProperties" : {
+      "stock_quantity" : 2119,
+      "v_property2" : "STRING",
+      "property1" : "STRING"
+    },
+    "destinationField" : "STRING",
+    "sourceFields" : "ARRAY",
+    "system_ping_ms" : 3604
+  } ],
+  "flowName" : "STRING",
+  "metadataCatalogConfig" : {
+    "glueDataCatalog" : {
+      "v_roleArn" : "NULL",
+      "auto_renew" : false,
+      "databaseName" : "STRING"
+    }
+  },
+  "cpu_usage_percent" : 67.58,
+  "kmsArn" : "STRING"
 }

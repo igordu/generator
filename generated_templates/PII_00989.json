@@ -1,37 +1,38 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "object" : "STRING",
-    "has_more" : "BOOLEAN",
-    "url" : "URL",
-    "data" : [ {
-      "invoice_settings" : {
-        "rendering_options" : "NULL",
-        "item_count" : 1752,
-        "footer" : "STRING",
-        "v_custom_fields" : "NULL"
-      },
-      "currency_data" : "STRING",
-      "created" : "DATETIME_EPOCH",
-      "v_preferred_locales" : "ARRAY",
-      "default_source" : "STRING",
-      "tax_exempt" : "STRING",
-      "v_description" : "STRING",
+  "academicRecord" : {
+    "advisor" : {
       "name" : "PII_PERSON_NAME",
-      "v_metadata" : "OBJECT",
-      "test_clock_data" : "NULL",
-      "livemode" : "BOOLEAN",
-      "next_invoice_sequence" : "INT",
-      "delinquent" : "BOOLEAN",
-      "primary_email" : "PII_EMAIL",
-      "shipping" : "NULL",
-      "v_balance" : "INT",
-      "phone" : "PII_PHONE_NUMBER",
-      "object" : "STRING",
-      "id" : "STRING",
-      "invoice_prefix" : "STRING",
-      "address" : "NULL"
-    } ]
+      "stock_quantity" : 3826,
+      "email" : "PII_EMAIL"
+    },
+    "is_deleted" : false,
+    "creditsCompleted" : "INT"
+  },
+  "system_ping_ms" : 330,
+  "enrollmentStatus" : "STRING",
+  "v_academicYear" : "STRING",
+  "v_address" : {
+    "city_data" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "street" : "PII_ADDRESS_LINE",
+    "postcode" : "STRING"
+  },
+  "studentId" : "STRING",
+  "personalInfo" : {
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "gender" : "STRING",
+    "personalEmail" : "PII_EMAIL",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "email" : "PII_EMAIL",
+    "mobile" : "PII_PHONE_NUMBER",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "recordId" : {
+    "requires_update" : true,
+    "amount" : "DECIMAL",
+    "disbursedAt" : "DATE",
+    "recordId" : ""
   }
 }

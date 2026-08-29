@@ -1,45 +1,21 @@
 {
-  "audit_trail" : {
-    "payload_wrapper" : {
-      "extracted_info" : [ {
-        "stock_quantity" : 427,
-        "filter_data" : "STRING",
-        "facets" : [ {
-          "count_data" : "INT",
-          "displayName" : "STRING"
-        } ]
-      }, {
-        "facets_data" : [ {
-          "stock_quantity" : 4925,
-          "count" : "INT",
-          "key_data" : "STRING",
-          "name_val" : "STRING"
-        }, {
-          "count" : "INT",
-          "key" : "STRING",
-          "userName" : "STRING",
-          "temperature_c" : 153.59
-        }, {
-          "name_val" : "STRING",
-          "key" : "STRING",
-          "count" : "INT"
-        } ],
-        "is_deleted" : false,
-        "v_filter" : "STRING"
-      }, {
-        "facets_data" : [ {
-          "v_count" : "INT",
-          "v_key" : "STRING",
-          "name_val" : "STRING",
-          "auto_renew" : true
-        }, {
-          "key" : "STRING",
-          "displayName" : "STRING",
-          "cpu_usage_percent" : 881.31,
-          "count" : "INT"
-        } ],
-        "filter" : "STRING"
-      } ]
-    }
+  "last_status" : "STRING",
+  "log_line_data" : "TEXT",
+  "environment" : "STRING",
+  "service_data" : "STRING",
+  "requires_update" : true,
+  "last_run_data" : "DATETIME",
+  "v_endpoint" : "URL",
+  "connection" : {
+    "v_pool_size" : "INT",
+    "timeout_ms" : "INT",
+    "retries" : "INT"
+  },
+  "auth" : {
+    "is_active" : true,
+    "v_password" : "********",
+    "v_client_secret" : "",
+    "v_api_key" : "[REDACTED]",
+    "token_expires_data" : "DATETIME"
   }
 }

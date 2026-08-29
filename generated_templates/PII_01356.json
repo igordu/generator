@@ -1,13 +1,39 @@
 {
-  "active_data" : "BOOLEAN",
-  "tree" : {
-    "url" : "URL",
-    "sha_data" : "STRING",
-    "has_discount" : true
+  "csm" : {
+    "conversion_rate" : 2.26,
+    "uuid" : "STRING",
+    "userName" : "PII_PERSON_NAME",
+    "contactEmail" : "PII_EMAIL"
   },
-  "user_info" : {
-    "userName" : "PII_COMPANY_NAME",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-  }
+  "type" : "STRING",
+  "industry" : "STRING",
+  "website" : "",
+  "billingAddress" : {
+    "v_postalCode" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "city_data" : "PII_LOCATION_CITY",
+    "requires_update" : true,
+    "v_street" : "PII_ADDRESS_LINE"
+  },
+  "primaryContact" : {
+    "auto_renew" : false,
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "v_title" : "STRING",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "name" : "PII_COMPANY_NAME",
+  "employees" : "INT",
+  "discount_rate" : 79.17,
+  "contracts" : [ {
+    "currency" : "NULL",
+    "product" : "STRING",
+    "auto_renew" : true,
+    "value" : "DECIMAL",
+    "startDate" : "DATE",
+    "status" : "STRING",
+    "contractId" : "STRING",
+    "endDate" : "DATE"
+  } ],
+  "annualRevenue" : "INT"
 }

@@ -1,8 +1,26 @@
 {
-  "media" : { },
-  "modelId" : "STRING",
-  "id" : "STRING",
-  "priority_level" : 1300,
-  "v_shopUrl" : "URL",
-  "name" : "STRING"
+  "category" : "STRING",
+  "pricing_data" : {
+    "currency" : "STRING",
+    "item_count" : 563,
+    "basePrice" : "DECIMAL",
+    "salePrice" : "DECIMAL"
+  },
+  "createdAt" : "DATETIME",
+  "v_brand" : "STRING",
+  "v_status" : "STRING",
+  "v_images" : [ {
+    "isPrimary" : "BOOLEAN",
+    "url" : "URL"
+  } ],
+  "identifier" : "STRING",
+  "discount_rate" : 21.14,
+  "updatedAt_data" : "DATETIME",
+  "v_inventory" : {
+    "backorderAllowed" : "BOOLEAN",
+    "totalStock" : "INT",
+    "reservedStock_data" : "INT",
+    "v_lowStockThreshold" : "INT",
+    "availableStock" : "INT"
+  }
 }

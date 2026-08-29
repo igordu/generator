@@ -1,39 +1,53 @@
 {
-  "Status_data" : "STRING",
-  "is_active" : true,
-  "Id" : "STRING",
-  "DateTimeUTC_data" : "DATETIME",
-  "clientName" : "STRING",
-  "Employees" : [ {
-    "ExternalLink_data" : {
-      "Url_data" : "URL",
-      "Description" : "STRING"
+  "kind_data" : "STRING",
+  "v_status" : {
+    "hostIP_data" : "STRING",
+    "phase" : "STRING",
+    "podIP" : "STRING",
+    "startTime" : "DATETIME"
+  },
+  "apiVersion" : "STRING",
+  "spec_data" : {
+    "http_status" : 4192,
+    "userName" : "STRING",
+    "v_containers" : [ {
+      "ports" : [ {
+        "retry_attempts" : 443,
+        "v_containerPort" : "NULL",
+        "protocol" : null
+      } ],
+      "image" : "STRING",
+      "v_resources" : {
+        "limits" : {
+          "memory" : "STRING",
+          "item_count" : 1130,
+          "cpu" : "STRING"
+        },
+        "requests" : {
+          "v_cpu" : "STRING",
+          "memory_data" : "STRING"
+        },
+        "temperature_c" : 40.52
+      },
+      "env_data" : [ {
+        "name" : "STRING",
+        "auto_renew" : false,
+        "value" : "PII_EMAIL"
+      } ],
+      "name" : "STRING"
+    } ],
+    "serviceAccountName" : "STRING"
+  },
+  "metadata" : {
+    "uuid" : "STRING",
+    "namespace" : "STRING",
+    "annotations" : {
+      "owner" : "STRING",
+      "contact" : "PII_EMAIL"
     },
-    "UpdatedDateUTC" : "DATETIME",
-    "Status_data" : "STRING",
-    "EmployeeID" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "clientName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING",
-      "http_status" : 1491
-    },
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "auto_renew" : true,
-    "EmployeeID" : "STRING"
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink_data" : {
-      "Url" : "URL"
-    },
-    "EmployeeID" : "STRING",
-    "price" : 911.33,
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  } ]
+    "name" : "STRING",
+    "retry_attempts" : 1536,
+    "creationTimestamp" : "DATETIME",
+    "resourceVersion_data" : "STRING"
+  }
 }

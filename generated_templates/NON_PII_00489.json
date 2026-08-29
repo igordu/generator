@@ -1,5 +1,27 @@
 {
-  "clientToken" : "STRING",
-  "discount_rate" : 866.63,
-  "flowName" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "target" : "URL",
+      "v_completedAt" : "DATETIME",
+      "v_findings" : [ {
+        "cvss" : "DECIMAL",
+        "remediation" : "STRING",
+        "id" : "STRING",
+        "cwe" : "STRING",
+        "parameter" : null,
+        "severity" : "STRING",
+        "type" : "STRING"
+      } ],
+      "startedAt_data" : "DATETIME",
+      "scanId" : "STRING",
+      "summary_data" : {
+        "info_data" : "INT",
+        "low_data" : "INT",
+        "medium_data" : "INT",
+        "discount_rate" : 30.16,
+        "high" : "INT"
+      },
+      "scanType" : "STRING"
+    }
+  }
 }

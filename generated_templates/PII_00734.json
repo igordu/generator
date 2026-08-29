@@ -1,34 +1,23 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "page_number" : "INT",
-      "v_page_count" : "INT",
-      "registrants" : [ {
-        "zip" : "STRING",
-        "state" : "PII_LOCATION_STATE",
-        "no_of_employees" : "STRING",
-        "name_val" : "PII_PERSON_FIRST_NAME",
-        "city_data" : "PII_LOCATION_CITY",
-        "status" : "STRING",
-        "create_time" : "DATETIME",
-        "v_industry" : "STRING",
-        "join_url" : "URL",
-        "v_comments" : "STRING",
-        "v_country" : "PII_LOCATION_COUNTRY",
-        "custom_questions" : [ ],
-        "clientName" : "PII_PERSON_LAST_NAME",
-        "email" : "PII_EMAIL",
-        "id" : "STRING",
-        "job_title" : "STRING",
-        "telephone" : "PII_PHONE_NUMBER",
-        "role_in_purchase_process" : "STRING",
-        "org" : "PII_ORGANIZATION_NAME",
-        "auto_renew" : true,
-        "purchasing_time_frame" : "STRING",
-        "v_address" : "PII_ADDRESS_LINE"
-      } ],
-      "v_total_records" : "INT",
-      "page_size_data" : "INT"
-    }
-  }
+  "customer" : "STRING",
+  "trial_end" : "NULL",
+  "metadata" : {
+    "account_manager_data" : "PII_EMAIL"
+  },
+  "object" : "STRING",
+  "v_status" : "STRING",
+  "cancel_at_period_end" : "BOOLEAN",
+  "livemode" : "BOOLEAN",
+  "id" : "STRING",
+  "item_count" : 2089,
+  "v_current_period_start" : "DATETIME_EPOCH",
+  "plan" : {
+    "primaryKey" : "STRING",
+    "interval" : "STRING",
+    "amount" : "INT",
+    "product_data" : "STRING",
+    "currency" : "STRING",
+    "object" : "NULL"
+  },
+  "current_period_end" : "DATETIME_EPOCH"
 }

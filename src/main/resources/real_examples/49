@@ -1,0 +1,26 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "ft:gpt-4o-mini:my-org:pii-detector:9ABC",
+      "object": "fine_tuning.job",
+      "created_at": 1715000000,
+      "finished_at": 1715003600,
+      "model": "gpt-4o-mini",
+      "fine_tuned_model": "ft:gpt-4o-mini:my-org:pii-detector:9ABC",
+      "organization_id": "org-abc123",
+      "status": "succeeded",
+      "training_file": "file-abc123",
+      "validation_file": null,
+      "result_files": ["file-xyz789"],
+      "trained_tokens": 8192,
+      "error": null,
+      "hyperparameters": {
+        "n_epochs": 3,
+        "batch_size": 4,
+        "learning_rate_multiplier": 0.1
+      }
+    }
+  ],
+  "has_more": false
+}

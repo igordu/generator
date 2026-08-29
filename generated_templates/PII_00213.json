@@ -1,84 +1,29 @@
 {
-  "prev_data" : "STRING",
-  "v_limit" : "INT",
-  "total" : "INT",
-  "transactions" : [ {
-    "totalFeeAmount" : {
-      "currency" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING"
-    },
-    "orderId" : "STRING",
-    "transactionDate" : "DATETIME",
-    "payoutId" : "STRING",
-    "eBayCollectedTaxAmount_data" : {
-      "cache_hit" : true,
-      "v_convertedFromCurrency" : null,
-      "convertedFromValue" : "STRING",
-      "exchangeRate" : "STRING",
-      "value" : ""
-    },
-    "orderLineItems" : [ {
-      "identifier" : "STRING",
-      "feeBasisAmount" : {
-        "value" : "STRING",
-        "v_currency" : "STRING",
-        "convertedFromValue" : "STRING",
-        "exchangeRate" : "STRING",
-        "price" : 967.3
+  "is_deleted" : false,
+  "transactions" : {
+    "v_booked" : [ {
+      "bankTransactionCode" : {
+        "domain" : "STRING",
+        "subFamily" : "STRING"
       },
-      "marketplaceFees" : [ {
-        "feeMemo" : "STRING",
-        "system_ping_ms" : 1316,
-        "feeJurisdiction" : {
-          "regionName" : "STRING",
-          "v_regionType" : "STRING"
-        },
-        "amount" : {
-          "convertedFromCurrency" : "STRING",
-          "value" : "STRING",
-          "exchangeRate" : "STRING",
-          "currency" : "STRING"
-        },
-        "feeType" : "STRING"
-      } ]
+      "bookingDate" : "DATE",
+      "debtorAccount" : {
+        "iban" : "STRING",
+        "has_discount" : true
+      },
+      "debtorName" : "STRING",
+      "v_amount" : {
+        "amount_data" : "DECIMAL",
+        "item_count" : 559,
+        "currency_data" : "STRING"
+      },
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "creditorName" : "PII_PERSON_NAME",
+      "valueDate" : "DATE"
     } ],
-    "paymentsEntity" : "NULL",
-    "feeJurisdiction" : {
-      "name_val" : "STRING",
-      "regionType" : "STRING",
-      "auto_renew" : true
-    },
-    "buyer_data" : {
-      "name_val" : "PII_USERNAME",
-      "item_count" : 746
-    },
-    "references_data" : [ {
-      "referenceType" : "STRING",
-      "referenceId" : "STRING"
-    } ],
-    "amount" : {
-      "exchangeRate_data" : "STRING",
-      "convertedFromValue" : "STRING",
-      "temperature_c" : 109.93,
-      "value" : "STRING",
-      "currency" : "NULL"
-    },
-    "transactionMemo" : "STRING",
-    "transactionStatus" : "STRING",
-    "v_bookingEntry" : "STRING",
-    "feeType" : "STRING",
-    "transactionType" : "STRING",
-    "v_totalFeeBasisAmount" : {
-      "currency_data" : "STRING",
-      "convertedFromValue" : "STRING",
-      "exchangeRate" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING"
-    },
-    "primaryKey" : "STRING"
-  } ],
-  "offset" : "INT",
-  "next" : "STRING",
-  "href" : "STRING"
+    "page_index" : 1860
+  }
 }

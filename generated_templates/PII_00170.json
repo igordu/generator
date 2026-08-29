@@ -1,69 +1,22 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "CreatedDate" : "DATETIME",
+  "attributes_data" : {
+    "url" : "URL",
+    "type" : "STRING"
   },
-  "results" : {
-    "username" : "PII_USERNAME",
-    "individualAccount" : {
-      "http_status" : 3361,
-      "mail" : "PII_EMAIL",
-      "registrationAddress" : {
-        "http_status" : 477,
-        "addressLine1" : "STRING",
-        "county_data" : "STRING",
-        "city" : "STRING",
-        "country" : "STRING",
-        "v_addressLine2" : "STRING",
-        "postalCode" : "STRING"
-      },
-      "cell" : {
-        "contactNumber" : "",
-        "countryCode" : "STRING",
-        "number_data" : "PII_PHONE_NUMBER",
-        "is_active" : false
-      },
-      "clientName" : "PII_PERSON_NAME",
-      "primaryPhone" : {
-        "countryCode_data" : "STRING",
-        "telephone" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      }
-    },
-    "accountType" : "STRING",
-    "registrationMarketplaceId" : "STRING",
-    "userId" : "STRING",
-    "cpu_usage_percent" : 493.55,
-    "businessAccount" : {
-      "name" : "PII_ORGANIZATION_NAME",
-      "email" : "PII_EMAIL",
-      "contactNumber" : {
-        "countryCode" : "STRING",
-        "system_ping_ms" : 3066,
-        "cell" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      },
-      "website" : "URL",
-      "address" : {
-        "county" : "NULL",
-        "postalCode" : "STRING",
-        "stateOrProvince" : "",
-        "addressLine1" : "STRING",
-        "country" : "STRING"
-      },
-      "doingBusinessAs" : "STRING",
-      "telephone" : {
-        "cell" : "STRING",
-        "response_time_sec" : 606.74,
-        "countryCode" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      },
-      "primaryContact" : {
-        "firstName" : "PII_PERSON_NAME",
-        "stock_quantity" : 1338,
-        "lastName" : "PII_PERSON_NAME"
-      }
-    },
-    "status" : "STRING"
-  }
+  "OwnerId" : "STRING",
+  "http_status" : 4201,
+  "Owner" : {
+    "Department" : "STRING",
+    "Name" : "PII_PERSON_NAME"
+  },
+  "Body" : "PII_FREE_TEXT",
+  "activity_log" : [ {
+    "response_time_sec" : 6.16,
+    "timestamp" : "DATETIME",
+    "v_note" : "PII_FREE_TEXT"
+  } ],
+  "Id" : "STRING",
+  "identifier" : "STRING",
+  "Title" : "STRING"
 }

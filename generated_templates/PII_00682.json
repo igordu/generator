@@ -1,36 +1,14 @@
 {
-  "ProviderName" : "STRING",
-  "DateTimeUTC" : "DATETIME",
-  "Employees" : [ {
-    "uuid" : "STRING",
-    "Status" : "STRING",
-    "v_UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Url_data" : "URL",
-      "http_status" : 553,
-      "Description" : "STRING"
-    },
-    "userName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "fullName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url_data" : "URL"
-    },
-    "Status" : "STRING"
-  }, {
-    "Status" : "STRING",
-    "primaryKey" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Description_data" : "STRING",
-      "Url" : "URL"
-    },
-    "FirstName" : "PII_PERSON_FIRST_NAME"
+  "identity" : "PII_USERNAME",
+  "date_created" : "DATETIME",
+  "recordId" : "STRING",
+  "factors" : [ {
+    "friendly_name" : "STRING",
+    "status" : "STRING",
+    "v_factor_type" : "STRING",
+    "sid" : "STRING",
+    "date_created_data" : "DATETIME"
   } ],
-  "Status_data" : "STRING"
+  "url_data" : "URL",
+  "date_updated" : "DATETIME"
 }

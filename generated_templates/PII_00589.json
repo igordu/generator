@@ -1,33 +1,25 @@
 {
-  "auto_renew" : true,
-  "transactions" : {
-    "booked" : [ {
-      "creditorName" : "PII_PERSON_NAME",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "bookingDate" : "DATE",
-      "debtorName" : "STRING",
-      "temperature_c" : 769.42,
-      "v_debtorAccount" : {
-        "iban" : "STRING",
-        "cpu_usage_percent" : 770.86
-      },
-      "amount" : {
-        "currency" : "STRING",
-        "amount" : "",
-        "discount_rate" : 894.09
-      },
-      "creditorAccount" : {
-        "system_ping_ms" : 4567,
-        "iban" : "PII_IBAN"
-      },
-      "transactionId" : "STRING",
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "family" : "STRING",
-        "is_active" : false,
-        "domain_data" : "STRING"
-      }
-    } ],
-    "page_index" : 1654
-  }
+  "fullName" : "PII_COMPANY_NAME",
+  "city" : "PII_LOCATION_CITY",
+  "v_jobTitle" : "STRING",
+  "givenName" : "PII_PERSON_FIRST_NAME",
+  "businessPhones" : [ "PII_PHONE_NUMBER" ],
+  "v_mail" : "PII_EMAIL",
+  "v_country" : "PII_LOCATION_COUNTRY",
+  "preferredLanguage" : "STRING",
+  "state_data" : "STRING",
+  "surname" : "PII_PERSON_LAST_NAME",
+  "v_userType" : "STRING",
+  "officeLocation_data" : "STRING",
+  "primaryKey" : "STRING",
+  "onPremisesSamAccountName" : "PII_USERNAME",
+  "employeeType_data" : "STRING",
+  "postalCode" : "STRING",
+  "mobilePhone" : "PII_PHONE_NUMBER",
+  "userPrincipalName" : "PII_EMAIL",
+  "usageLocation" : "STRING",
+  "displayName" : "PII_PERSON_NAME",
+  "accountEnabled" : "BOOLEAN",
+  "streetAddress" : "PII_ADDRESS_LINE",
+  "id" : "STRING"
 }

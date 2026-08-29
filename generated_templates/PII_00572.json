@@ -1,35 +1,53 @@
 {
+  "status" : "success",
+  "code" : 200,
   "data" : {
-    "fetchResource" : {
-      "transactions" : {
-        "booked" : [ {
-          "debtorAccount" : {
-            "system_ping_ms" : 3710,
-            "v_iban" : "STRING"
-          },
-          "clientName" : "STRING",
-          "valueDate" : "DATE",
-          "v_amount" : {
-            "cpu_usage_percent" : 711.93,
-            "currency" : "STRING"
-          },
-          "creditorAccount" : {
-            "cache_hit" : true,
-            "iban_data" : "PII_IBAN"
-          },
-          "creditorName" : "PII_PERSON_NAME",
-          "bankTransactionCode_data" : {
-            "family" : "NULL",
-            "v_subFamily" : "STRING",
-            "temperature_c" : 512.48,
-            "v_domain" : "NULL"
-          },
-          "transactionId" : "STRING",
-          "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
-          "v_bookingDate" : "DATE"
-        } ],
-        "conversion_rate" : 837.15
-      }
-    }
+    "state" : "STRING",
+    "update_time_data" : "DATETIME",
+    "create_time_data" : "DATETIME",
+    "v_payer" : {
+      "v_status" : "STRING",
+      "payment_method" : "STRING",
+      "payer_info" : {
+        "birth_date" : "PII_DATE_OF_BIRTH",
+        "billing_address" : {
+          "stock_quantity" : 2570,
+          "country_code" : "PII_LOCATION_COUNTRY",
+          "line1" : "PII_ADDRESS_LINE",
+          "postal_code" : "STRING",
+          "v_state" : "STRING",
+          "city_data" : "PII_LOCATION_CITY"
+        },
+        "email" : "PII_EMAIL",
+        "country_code_data" : "STRING",
+        "cpu_usage_percent" : 88.25,
+        "shipping_address" : {
+          "country_code_data" : "PII_LOCATION_COUNTRY",
+          "price" : 5128.19,
+          "line2" : "STRING",
+          "line1" : "PII_ADDRESS_LINE",
+          "phone" : "PII_PHONE_NUMBER",
+          "recipient_name" : "PII_PERSON_NAME",
+          "postal_code" : "STRING",
+          "state" : "STRING",
+          "city_data" : "PII_LOCATION_CITY"
+        },
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "cell" : "PII_PHONE_NUMBER",
+        "last_name" : "PII_PERSON_LAST_NAME",
+        "payer_id" : "STRING"
+      },
+      "stock_quantity" : 4227
+    },
+    "transactions_data" : [ {
+      "amount" : {
+        "currency" : null,
+        "v_total" : "DECIMAL"
+      },
+      "description" : "STRING",
+      "invoice_number" : "STRING",
+      "temperature_c" : 1.54
+    } ],
+    "intent" : "STRING"
   }
 }

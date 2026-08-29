@@ -1,41 +1,39 @@
 {
-  "following" : "INT",
-  "gravatar_id" : "STRING",
-  "starred_url_data" : "URL",
-  "following_url" : "NULL",
-  "v_bio" : "PII_ORGANIZATION_NAME",
-  "avatar_url" : "URL",
-  "v_login" : "STRING",
-  "organizations_url_data" : "URL",
-  "public_gists_data" : "INT",
-  "email" : "PII_EMAIL",
-  "collaborators" : "INT",
-  "v_received_events_url" : "URL",
-  "name" : "PII_PERSON_NAME",
-  "events_url" : "URL",
-  "location" : "PII_LOCATION_CITY",
-  "disk_usage" : "INT",
-  "public_repos" : "INT",
-  "created_at" : "DATETIME",
-  "updated_at" : null,
-  "url" : "URL",
-  "blog_data" : "URL",
-  "id" : "INT",
-  "company" : "PII_ORGANIZATION_NAME",
-  "owned_private_repos" : "INT",
-  "private_gists_data" : "INT",
-  "gists_url" : "URL",
-  "v_site_admin" : "BOOLEAN",
-  "html_url" : "URL",
-  "hireable" : "BOOLEAN",
-  "repos_url_data" : "URL",
-  "subscriptions_url" : "URL",
-  "has_discount" : false,
-  "two_factor_authentication" : "BOOLEAN",
-  "twitter_username" : "STRING",
-  "node_id" : "STRING",
-  "plan" : {
-    "collaborators" : "INT",
-    "space_data" : "NULL"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "telemetry_data" : {
+      "request_context" : {
+        "debug_payload" : {
+          "category_data" : "STRING",
+          "priority" : "STRING",
+          "customer" : {
+            "primaryKey" : "STRING",
+            "accountId" : "STRING",
+            "email" : "PII_EMAIL",
+            "name" : "PII_PERSON_NAME",
+            "phone" : "PII_PHONE_NUMBER"
+          },
+          "v_assignedAgent" : {
+            "email" : "PII_EMAIL",
+            "name" : "PII_PERSON_NAME",
+            "identifier" : "STRING",
+            "team" : "STRING"
+          },
+          "subject" : "STRING",
+          "id" : "STRING",
+          "tags" : [ "STRING" ],
+          "status_data" : "STRING",
+          "messages" : [ {
+            "createdAt" : "DATETIME",
+            "id" : "STRING",
+            "name_val" : "PII_PERSON_NAME",
+            "authorType" : "STRING"
+          } ]
+        }
+      }
+    }
   }
 }

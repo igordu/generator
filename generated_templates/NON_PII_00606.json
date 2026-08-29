@@ -1,22 +1,19 @@
 {
+  "status" : "success",
+  "code" : 200,
   "data" : {
-    "fetchResource" : [ {
-      "taxDepreciationSettings" : "ARRAY",
-      "recordId" : null,
-      "assetTypeId" : "STRING",
-      "lockPrivateUseAccount" : "BOOLEAN",
-      "page_index" : 3228,
-      "bookDepreciationSetting" : {
-        "averagingMethod" : "NULL",
-        "depreciationCalculationMethod" : "STRING",
-        "cache_hit" : false,
-        "depreciableObjectId" : "STRING",
-        "bookEffectiveDateOfChangeId" : null,
-        "v_depreciationRate" : "DECIMAL",
-        "depreciableObjectType" : "STRING"
-      },
-      "assetTypeName" : "STRING",
-      "locks" : "INT"
-    } ]
+    "region" : "STRING",
+    "startedAt" : "DATETIME",
+    "cluster" : "STRING",
+    "encryptionKeyId" : "STRING",
+    "v_database" : "",
+    "tags" : {
+      "team" : "STRING",
+      "cache_hit" : true,
+      "environment_data" : ""
+    },
+    "retentionDays_data" : "INT",
+    "type" : "STRING",
+    "sizeGb" : "DECIMAL"
   }
 }

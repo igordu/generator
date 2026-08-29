@@ -1,40 +1,40 @@
 {
-  "v_DateTimeUTC" : "DATETIME",
-  "ProviderName" : "NULL",
-  "Id" : "STRING",
-  "discount_rate" : 814.36,
-  "Status" : "STRING",
-  "Employees" : [ {
-    "has_discount" : false,
-    "v_UpdatedDateUTC" : "DATETIME",
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : "STRING",
-    "ExternalLink" : {
-      "v_Description" : "STRING",
-      "Url" : "URL"
-    }
-  }, {
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "v_Description" : "STRING"
+  "metadata_data" : {
+    "fullName" : "STRING",
+    "resourceVersion" : "STRING",
+    "v_creationTimestamp" : "DATETIME",
+    "v_annotations" : {
+      "owner" : "STRING",
+      "v_contact" : "PII_EMAIL",
+      "cpu_usage_percent" : 60.87
     },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "v_UpdatedDateUTC" : "DATETIME",
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : "STRING"
-  }, {
-    "UpdatedDateUTC" : "DATETIME",
-    "Status" : "STRING",
-    "identifier" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL",
-      "temperature_c" : 305.23
-    }
-  } ]
+    "price" : 635.33,
+    "labels" : {
+      "environment" : "STRING",
+      "version" : "STRING",
+      "app_data" : "STRING"
+    },
+    "uid" : "STRING",
+    "name" : "STRING"
+  },
+  "v_apiVersion" : "STRING",
+  "status" : {
+    "phase" : "STRING",
+    "startTime" : "DATETIME",
+    "hostIP" : "STRING",
+    "conversion_rate" : 0.25,
+    "podIP_data" : "STRING"
+  },
+  "spec" : {
+    "containers" : [ {
+      "env" : [ {
+        "value" : "PII_EMAIL",
+        "name" : "STRING"
+      } ],
+      "name" : "NULL",
+      "image" : "STRING"
+    } ],
+    "serviceAccountName" : "STRING",
+    "nodeName" : "STRING"
+  }
 }

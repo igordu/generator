@@ -18,4 +18,83 @@
 18 PII https://api.stripe.com/v1/customers/cus_9s6XI9OFIdpjIg/bank_accounts
 19 PII https://api.github.com/user
 20 PII https://api.github.com/repos/OWNER/REPO/commits
-21 PII custom template
+21 PII https://documentation.jumio.com/api/verification/ (KYC identity verification)
+22 PII https://api.twilio.com/2010-04-01/Accounts/{AccountSid}/Messages.json
+23 PII https://developer.salesforce.com/docs/api/contact
+24 PII https://api.linkedin.com/v2/me
+25 PII https://admin.googleapis.com/admin/directory/v1/users/{userKey}
+26 PII https://api.twitter.com/2/users/{id}
+27 PII https://developer.okta.com/docs/reference/api/users/#get-user
+28 PII https://api.sendgrid.com/v3/mail/send
+29 PII https://api.hubapi.com/crm/v3/objects/contacts/{contactId}
+30 PII https://shopify.dev/docs/api/admin-rest/2024-01/resources/customer
+31 PII https://developer.paypal.com/docs/api/payments/v1/#payment_get
+32 PII https://graph.microsoft.com/v1.0/users/{id}
+33 PII https://slack.com/api/users.info
+34 PII https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/
+35 PII https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/pod-v1/
+36 PII https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v42.2/Get_Workers.html
+37 PII https://www.twilio.com/docs/verify/api/entity
+38 PII https://stripe.com/docs/api/events/object
+39 PII https://stripe.com/docs/api/subscriptions/object
+40 PII https://hl7.org/fhir/practitioner.html
+41 PII https://hl7.org/fhir/appointment.html
+42 PII https://docs.medusajs.com/api/admin#orders_getorder
+43 NON_PII https://docs.medusajs.com/api/admin#inventory_getinventoryitem
+44 PII https://stripe.com/docs/api/accounts/object
+45 PII https://docs.github.com/en/rest/apps/oauth-applications
+46 PII https://plaid.com/docs/api/products/identity/#identityget (bank account owner PII)
+47 PII custom financial-report template (enriched with preparer/approver/customer contacts)
+48 NON_PII https://docs.anthropic.com/en/api/messages
+49 NON_PII https://platform.openai.com/docs/api-reference/fine-tuning
+50 PII custom hr-employee-record template
+51 PII https://hl7.org/fhir/R4/claim.html (HL7 FHIR Claim resource)
+52 PII custom payment-card-transaction template
+53 PII custom support-chat-message template
+54 PII custom audit-log-user-login template
+55 NON_PII custom service-error-log template
+56 NON_PII custom monitoring-alert template
+57 PII https://ellucianexpand.ellucian.com/content/apis (Ellucian Banner Student API)
+58 PII https://developers.greenhouse.io/harvest.html#get-retrieve-candidate (Greenhouse Harvest API)
+59 PII https://developers.amadeus.com/self-service/category/hotels/api-doc/hotel-booking (Amadeus Hotel Booking API)
+60 PII https://developers.amadeus.com/self-service/category/flights/api-doc/flight-create-orders (Amadeus Flight Orders API)
+61 PII custom loan-application template
+62 PII https://developer.dhl.com/api-reference/shipment-tracking (DHL Shipment Tracking API)
+63 PII https://developer.zendesk.com/api-reference/ticketing/tickets/tickets/ (Zendesk Tickets API)
+64 PII custom hr-onboarding-workflow template
+65 NON_PII https://developer.hashicorp.com/consul/api-docs/health
+66 PII https://docs.launchdarkly.com/home/feature-flags
+67 NON_PII custom db-migration-record template
+68 PII custom api-key-management template
+69 PII custom deployment-record template
+70 PII https://developer.onetrust.com/onetrust/reference/retrieving-client-side-consent-preferences-using-the-preferences-api (OneTrust Consent API)
+71 NON_PII custom push-notification-log template
+72 PII https://developer.xero.com/documentation/api/accounting/invoices (Xero Invoices API)
+73 NON_PII custom webhook-delivery-log template
+74 NON_PII custom cache-entry template
+75 NON_PII custom message-queue-dlq template
+76 PII https://hl7.org/fhir/R4/encounter.html (HL7 FHIR Encounter resource)
+77 NON_PII custom security-scan-report template
+78 PII https://apidocs.chargebee.com/docs/api/subscriptions (Chargebee Subscriptions API)
+79 PII custom gdpr-sar-report template
+80 PII https://developer.gocardless.com/api-reference/#payments-create-a-payment (GoCardless SEPA Payments API)
+81 PII custom user-session-token template
+82 PII https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_account.htm (Salesforce Account sObject API)
+83 NON_PII custom kafka-broker-metrics template
+84 PII custom github-pull-request template
+85 PII custom confluence-page template
+86 NON_PII custom llm-chat-log template
+87 NON_PII custom etl-task-run template
+88 PII custom user-security-settings template
+89 NON_PII custom api-slo-metrics template
+90 PII https://developer.okta.com/docs/reference/api/oidc/#userinfo (Okta OIDC UserInfo endpoint)
+91 PII custom domain-event-user-created template
+92 NON_PII custom api-gateway-rate-limit-rule template
+93 PII custom kubernetes-configmap template
+94 NON_PII custom db-backup-snapshot template
+95 PII custom ci-pipeline-run template
+96 PII custom rbac-role-assignment template
+97 PII custom slack-integration-config template
+98 PII custom ml-model-serving template
+99 PII custom team-membership template
+100 NON_PII custom product-catalog-item template

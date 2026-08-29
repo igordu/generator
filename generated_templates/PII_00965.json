@@ -1,33 +1,24 @@
 {
-  "object" : "STRING",
-  "has_more" : "BOOLEAN",
-  "url" : "URL",
-  "data" : [ {
-    "telephone" : "PII_PHONE_NUMBER",
-    "livemode" : "BOOLEAN",
-    "next_invoice_sequence" : null,
-    "metadata_data" : null,
-    "delinquent" : "BOOLEAN",
-    "invoice_settings" : {
-      "custom_fields" : "NULL",
-      "temperature_c" : 216.19,
-      "default_payment_method" : "STRING",
-      "footer" : "STRING",
-      "rendering_options_data" : "NULL"
-    },
-    "created" : "DATETIME_EPOCH",
-    "invoice_prefix" : "STRING",
-    "id" : "STRING",
-    "address_data" : "NULL",
-    "shipping" : "NULL",
-    "default_source" : "STRING",
-    "tax_exempt" : "STRING",
+  "outcome" : "STRING",
+  "datacenter_data" : "STRING",
+  "severity_data" : "STRING",
+  "actor" : {
+    "recordId" : "STRING",
     "email" : "PII_EMAIL",
-    "v_currency" : "STRING",
-    "v_object" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "priority_level" : 3210,
-    "description" : "STRING",
-    "test_clock" : "NULL"
-  } ]
+    "is_deleted" : true,
+    "v_user_agent" : "STRING",
+    "ip_address" : "PII_IP_ADDRESS",
+    "username" : "PII_USERNAME"
+  },
+  "session_id" : "STRING",
+  "version" : "STRING",
+  "mfa_used" : "NULL",
+  "service" : "STRING",
+  "resource_data" : {
+    "v_type" : "STRING",
+    "id" : "STRING",
+    "system_ping_ms" : 1006,
+    "name" : "STRING"
+  },
+  "v_timestamp" : "DATETIME"
 }

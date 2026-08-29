@@ -1,33 +1,18 @@
 {
-  "total_records" : "INT",
-  "page_size" : "INT",
-  "registrants_data" : [ {
-    "v_purchasing_time_frame" : "STRING",
-    "industry_data" : "STRING",
-    "org" : "PII_ORGANIZATION_NAME",
-    "city" : "PII_LOCATION_CITY",
-    "id" : "STRING",
-    "primary_email" : "PII_EMAIL",
-    "v_country" : "PII_LOCATION_COUNTRY",
-    "role_in_purchase_process" : "STRING",
-    "state" : "PII_LOCATION_STATE",
-    "create_time" : "DATETIME",
-    "mobile" : "PII_PHONE_NUMBER",
-    "address_data" : "PII_ADDRESS_LINE",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "custom_questions" : [ {
-      "value" : "STRING",
-      "title" : "STRING",
-      "stock_quantity" : 937
-    }, {
-      "title" : "STRING",
-      "auto_renew" : true
-    } ],
-    "job_title" : "STRING",
-    "status" : "STRING",
-    "v_comments" : "STRING",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "join_url" : "URL"
+  "resourceType_data" : "STRING",
+  "requires_update" : true,
+  "id" : "STRING",
+  "end_data" : "DATETIME",
+  "comment" : "STRING",
+  "participant" : [ {
+    "page_index" : 4789,
+    "actor_data" : {
+      "temperature_c" : -19.69,
+      "display" : "PII_PERSON_NAME",
+      "reference_data" : "STRING"
+    },
+    "v_status" : ""
   } ],
-  "page_number" : "INT"
+  "start" : "DATETIME",
+  "status" : "STRING"
 }

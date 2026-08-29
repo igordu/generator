@@ -1,28 +1,50 @@
 {
-  "registrants" : [ {
-    "email" : "PII_EMAIL",
-    "create_time" : "DATETIME",
-    "no_of_employees" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "city" : "PII_LOCATION_CITY",
-    "industry" : "STRING",
-    "state" : "PII_LOCATION_STATE",
-    "purchasing_time_frame" : "STRING",
+  "meta_data" : {
+    "primaryKey" : "INT",
+    "temperature_c" : 23.93
+  },
+  "active_data" : "BOOLEAN",
+  "resourceType" : "STRING",
+  "address" : [ {
+    "postalCode" : "STRING",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "city_data" : "PII_LOCATION_CITY",
     "v_country" : "PII_LOCATION_COUNTRY",
-    "zip" : "STRING",
-    "comments" : "STRING",
-    "role_in_purchase_process_data" : "STRING",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "id" : "STRING",
-    "job_title" : "STRING",
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "address" : "PII_ADDRESS_LINE",
-    "status" : "STRING",
-    "join_url" : "URL",
-    "org_data" : "PII_ORGANIZATION_NAME"
+    "state_data" : "STRING",
+    "use" : "STRING",
+    "conversion_rate" : 9.4
   } ],
-  "v_page_count" : "",
-  "page_size" : "INT",
-  "page_number" : "INT",
-  "total_records_data" : "INT"
+  "qualification" : [ {
+    "cpu_usage_percent" : 44.07,
+    "code" : {
+      "priority_level" : 1364,
+      "v_coding" : [ {
+        "system" : "URL",
+        "code" : "STRING"
+      } ]
+    }
+  } ],
+  "is_active" : false,
+  "gender_data" : null,
+  "telecom_data" : [ {
+    "v_value" : "PII_EMAIL",
+    "system" : "STRING",
+    "use" : "STRING"
+  }, {
+    "price" : 8543.17,
+    "use" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  } ],
+  "identifier" : [ {
+    "value" : "PII_NATIONAL_ID",
+    "system" : "URL"
+  } ],
+  "id" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "fullName" : [ {
+    "family" : "PII_PERSON_LAST_NAME",
+    "prefix" : [ null ],
+    "use_data" : "STRING",
+    "v_given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ]
 }

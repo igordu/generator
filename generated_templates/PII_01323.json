@@ -1,15 +1,21 @@
 {
-  "user_info_data" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "discount_rate" : 399.46,
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  },
-  "active" : "BOOLEAN",
-  "v_tree" : {
-    "url_data" : "URL",
-    "sha_data" : "STRING",
-    "http_status" : 2811
-  },
-  "temperature_c" : 695.27
+  "scopes" : [ "STRING" ],
+  "primaryKey" : "",
+  "email" : "PII_EMAIL",
+  "revoked" : "BOOLEAN",
+  "lastActivityAt" : "DATETIME",
+  "userId" : "STRING",
+  "createdAt" : "NULL",
+  "sessionId" : null,
+  "v_userAgent" : "STRING",
+  "v_mfaVerified" : "BOOLEAN",
+  "expiresAt" : "DATETIME",
+  "riskScore" : "DECIMAL",
+  "ipAddress" : "PII_IP_ADDRESS",
+  "issuedTokens_data" : {
+    "idToken" : "STRING",
+    "refreshToken" : "STRING",
+    "response_time_sec" : 1.57,
+    "accessToken_data" : "STRING"
+  }
 }

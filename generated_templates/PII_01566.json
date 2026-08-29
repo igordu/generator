@@ -1,0 +1,17 @@
+{
+  "ownedServices" : [ "STRING" ],
+  "slackChannel" : "STRING",
+  "createdAt" : "DATETIME",
+  "fullName" : "STRING",
+  "oncallScheduleId" : "STRING",
+  "teamId" : "STRING",
+  "updatedAt" : "DATETIME",
+  "description" : "STRING",
+  "members" : [ {
+    "userId" : "STRING",
+    "email" : "PII_EMAIL",
+    "role" : "STRING",
+    "joinedAt" : "DATETIME",
+    "name" : "PII_PERSON_NAME"
+  } ]
+}

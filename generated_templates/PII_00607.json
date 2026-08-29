@@ -1,39 +1,27 @@
 {
-  "Id" : "STRING",
-  "ProviderName" : "STRING",
-  "Employees" : [ {
-    "UpdatedDateUTC" : "NULL",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "v_Url" : "URL"
+  "user_data" : {
+    "requires_update" : true,
+    "v_is_bot" : "BOOLEAN",
+    "profile" : {
+      "fullName" : "PII_PERSON_NAME",
+      "team" : "",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "contactNumber" : "PII_PHONE_NUMBER",
+      "display_name" : "PII_USERNAME",
+      "title" : "STRING",
+      "email" : "PII_EMAIL",
+      "last_name" : "PII_PERSON_LAST_NAME"
     },
-    "Status_data" : "STRING",
-    "fullName" : "PII_PERSON_FIRST_NAME",
-    "http_status" : 1135,
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING"
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "uuid" : "STRING",
-    "ExternalLink" : {
-      "has_discount" : false,
-      "Description_data" : "STRING"
-    },
-    "http_status" : 438,
-    "UpdatedDateUTC_data" : "DATETIME"
-  }, {
-    "stock_quantity" : 4498,
-    "v_ExternalLink" : {
-      "Description" : "STRING",
-      "response_time_sec" : 433.03
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING",
-    "v_Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  } ],
-  "DateTimeUTC" : "DATETIME"
+    "tz_offset" : "INT",
+    "is_email_confirmed" : "BOOLEAN",
+    "id" : "STRING",
+    "name_val" : "PII_PERSON_NAME",
+    "is_owner" : "BOOLEAN",
+    "deleted_data" : "BOOLEAN",
+    "updated_data" : "DATETIME_EPOCH",
+    "fullName" : "PII_USERNAME",
+    "tz_label" : "STRING"
+  },
+  "discount_rate" : 61.54,
+  "ok_data" : "BOOLEAN"
 }

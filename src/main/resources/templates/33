@@ -1,0 +1,28 @@
+{
+  "ok": "BOOLEAN",
+  "user": {
+    "id": "STRING",
+    "team_id": "STRING",
+    "name": "PII_USERNAME",
+    "deleted": "BOOLEAN",
+    "real_name": "PII_PERSON_NAME",
+    "tz": "STRING",
+    "tz_label": "STRING",
+    "tz_offset": "INT",
+    "profile": {
+      "title": "STRING",
+      "phone": "PII_PHONE_NUMBER",
+      "real_name": "PII_PERSON_NAME",
+      "display_name": "PII_USERNAME",
+      "email": "PII_EMAIL",
+      "first_name": "PII_PERSON_FIRST_NAME",
+      "last_name": "PII_PERSON_LAST_NAME",
+      "team": "STRING"
+    },
+    "is_admin": "BOOLEAN",
+    "is_owner": "BOOLEAN",
+    "is_bot": "BOOLEAN",
+    "updated": "DATETIME_EPOCH",
+    "is_email_confirmed": "BOOLEAN"
+  }
+}

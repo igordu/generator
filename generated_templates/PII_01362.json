@@ -1,13 +1,31 @@
 {
-  "price" : 722.41,
-  "v_tree" : {
-    "v_url" : "URL",
-    "v_sha" : "STRING"
+  "v_private" : "BOOLEAN",
+  "defaultBranch" : "STRING",
+  "pullRequest" : {
+    "createdAt" : "DATETIME",
+    "deletions" : "INT",
+    "is_deleted" : true,
+    "state_data" : "NULL",
+    "updatedAt_data" : "DATETIME",
+    "v_reviewers" : [ {
+      "state" : "STRING",
+      "login_data" : "PII_USERNAME",
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    } ],
+    "baseBranch" : "STRING",
+    "author" : {
+      "login" : "PII_USERNAME",
+      "name" : "PII_PERSON_NAME",
+      "primary_email" : "PII_EMAIL"
+    },
+    "headBranch" : "STRING",
+    "changedFiles" : "INT",
+    "title_data" : "STRING",
+    "id" : "INT"
   },
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "fullName" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  },
-  "active" : "BOOLEAN"
+  "fullName" : "STRING",
+  "uuid" : "STRING",
+  "name" : "STRING",
+  "language" : "STRING"
 }

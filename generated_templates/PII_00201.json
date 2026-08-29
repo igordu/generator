@@ -1,78 +1,28 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "limit_data" : "NULL",
-      "next" : "STRING",
-      "href_data" : "STRING",
-      "transactions" : [ {
-        "buyer" : {
-          "username" : "PII_USERNAME"
-        },
-        "totalFeeAmount" : {
-          "exchangeRate" : "STRING",
-          "value" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "convertedFromValue" : "STRING",
-          "currency" : "STRING"
-        },
-        "transactionMemo" : "STRING",
-        "transactionId" : "STRING",
-        "v_bookingEntry" : "STRING",
-        "v_transactionDate" : "DATETIME",
-        "eBayCollectedTaxAmount" : {
-          "exchangeRate" : "STRING",
-          "value" : "STRING",
-          "currency" : "STRING",
-          "convertedFromValue" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "is_deleted" : true
-        },
-        "transactionType" : "STRING",
-        "salesRecordReference" : "STRING",
-        "feeType_data" : "STRING",
-        "priority_level" : 4359,
-        "feeJurisdiction" : {
-          "regionType" : "",
-          "regionName" : "STRING"
-        },
-        "orderId" : "",
-        "amount" : {
-          "convertedFromCurrency" : "STRING",
-          "convertedFromValue_data" : "STRING",
-          "value" : "STRING",
-          "currency" : "STRING",
-          "exchangeRate" : "STRING"
-        },
-        "v_orderLineItems" : [ {
-          "feeBasisAmount_data" : {
-            "convertedFromValue" : "STRING",
-            "currency" : "STRING",
-            "is_deleted" : true,
-            "v_exchangeRate" : "STRING",
-            "convertedFromCurrency" : "STRING"
-          },
-          "marketplaceFees" : [ {
-            "feeType" : "STRING",
-            "amount" : {
-              "currency" : "STRING",
-              "conversion_rate" : 711.62,
-              "value" : "STRING",
-              "convertedFromCurrency" : "STRING",
-              "exchangeRate" : "STRING"
-            },
-            "feeMemo" : "NULL",
-            "feeJurisdiction" : {
-              "regionType" : "STRING",
-              "regionName" : "STRING"
-            },
-            "conversion_rate" : 443.91
-          } ],
-          "lineItemId" : "STRING"
-        } ],
-        "payoutId" : "STRING",
-        "paymentsEntity_data" : "STRING"
-      } ],
-      "prev" : "STRING"
-    }
+  "discount_rate" : 37.85,
+  "transactions" : {
+    "booked" : [ {
+      "valueDate" : "DATE",
+      "name_val" : "STRING",
+      "uuid" : "STRING",
+      "bankTransactionCode" : {
+        "v_family" : "STRING",
+        "domain" : "STRING"
+      },
+      "creditorAccount" : {
+        "v_iban" : "PII_IBAN"
+      },
+      "debtorAccount" : {
+        "iban" : "STRING",
+        "temperature_c" : 13.61
+      },
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "amount_data" : {
+        "amount" : "DECIMAL",
+        "currency" : "STRING"
+      },
+      "bookingDate" : "DATE",
+      "creditorName" : "PII_PERSON_NAME"
+    } ]
   }
 }

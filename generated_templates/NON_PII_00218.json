@@ -1,50 +1,26 @@
 {
-  "data" : {
-    "fetchResource" : [ {
-      "discount_rate" : 692.2,
-      "filter" : "STRING",
-      "facets" : [ {
-        "displayName" : "STRING",
-        "key" : "NULL",
-        "count" : "INT"
-      }, {
-        "price" : 680.04,
-        "key" : "STRING",
-        "displayName" : "STRING",
-        "count" : "INT"
-      }, {
-        "key" : "",
-        "count_data" : "INT",
-        "displayName" : "STRING"
-      } ]
-    }, {
-      "filter" : "STRING",
-      "facets" : [ {
-        "displayName" : "STRING",
-        "v_count" : "INT",
-        "page_index" : 3793,
-        "key" : "STRING"
-      }, {
-        "count_data" : "INT",
-        "is_deleted" : false,
-        "key" : "STRING",
-        "displayName" : "STRING"
-      } ]
-    }, {
-      "facets" : [ {
-        "stock_quantity" : 4454,
-        "count" : "INT",
-        "userName" : "STRING"
-      }, {
-        "fullName" : "STRING",
-        "is_active" : false,
-        "key" : "STRING"
-      }, {
-        "key" : "STRING",
-        "stock_quantity" : 3271,
-        "count" : "INT",
-        "displayName" : "STRING"
-      } ]
-    } ]
-  }
+  "event_id" : "STRING",
+  "http" : {
+    "v_status_code" : "INT",
+    "method" : "STRING",
+    "latency_ms_data" : "INT",
+    "price" : 3665.82,
+    "v_path" : "URL"
+  },
+  "v_severity" : "STRING",
+  "message" : "TEXT",
+  "kubernetes" : {
+    "clientName" : "STRING",
+    "primaryKey" : "STRING",
+    "pod_name" : "STRING",
+    "node" : "STRING"
+  },
+  "trace_id" : "STRING",
+  "target_service" : "STRING",
+  "span_id" : "STRING",
+  "region" : "STRING",
+  "hostname" : "STRING",
+  "source_service" : "STRING",
+  "v_timestamp" : "DATETIME",
+  "event_type" : "STRING"
 }

@@ -1,0 +1,24 @@
+{
+  "stats" : {
+    "successRate" : "DECIMAL",
+    "totalDeliveries" : "INT",
+    "stock_quantity" : 2361
+  },
+  "is_deleted" : false,
+  "v_createdAt" : "DATETIME",
+  "lastTriggeredAt" : "DATETIME",
+  "updatedAt" : "DATETIME",
+  "integrationId" : "STRING",
+  "provider" : "STRING",
+  "status_data" : "STRING",
+  "createdBy" : {
+    "email" : "PII_EMAIL",
+    "userId" : "STRING"
+  },
+  "v_type" : "STRING",
+  "fullName" : "STRING",
+  "config" : {
+    "page_index" : 1083,
+    "channel" : "STRING"
+  }
+}

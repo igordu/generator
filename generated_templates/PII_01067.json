@@ -1,15 +1,29 @@
 {
-  "country" : "STRING",
-  "status_data" : "STRING",
-  "routing_number" : "STRING",
-  "v_currency" : null,
-  "v_fingerprint" : "STRING",
-  "bank_name" : "STRING",
-  "account_holder_type" : "STRING",
-  "account_type_data" : "STRING",
-  "metadata" : "OBJECT",
-  "fullName" : "PII_PERSON_NAME",
-  "last4" : "STRING",
-  "object" : "STRING",
-  "customer_data" : "STRING"
+  "bankAccount" : {
+    "iban" : "PII_IBAN",
+    "v_branchCode" : "STRING",
+    "stock_quantity" : 2895,
+    "name_val" : "PII_COMPANY_NAME"
+  },
+  "applicant_data" : {
+    "email" : "PII_EMAIL",
+    "identifier" : "PII_NATIONAL_ID",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "address" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "v_state" : "NULL",
+      "city" : "PII_LOCATION_CITY",
+      "street" : "PII_ADDRESS_LINE"
+    },
+    "phone" : "PII_PHONE_NUMBER",
+    "monthlyIncome" : "DECIMAL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "employmentStatus" : "STRING",
+    "employer" : "PII_COMPANY_NAME"
+  },
+  "is_active" : true,
+  "v_status" : "STRING",
+  "v_creditScore" : "INT",
+  "identifier" : "STRING"
 }

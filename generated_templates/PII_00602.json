@@ -1,35 +1,34 @@
 {
-  "Id" : "STRING",
-  "Employees" : [ {
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "user" : {
+      "id" : "STRING",
+      "tz_label_data" : "STRING",
+      "tz" : "STRING",
+      "profile" : {
+        "phone" : "PII_PHONE_NUMBER",
+        "response_time_sec" : 20.4,
+        "title" : "STRING",
+        "team" : "STRING",
+        "display_name" : "PII_USERNAME",
+        "userName" : "PII_PERSON_LAST_NAME",
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "mail" : "PII_EMAIL",
+        "real_name" : "PII_PERSON_NAME"
+      },
+      "stock_quantity" : 1335,
+      "is_email_confirmed" : "BOOLEAN",
+      "clientName" : "PII_USERNAME",
+      "is_admin" : "BOOLEAN",
+      "is_bot_data" : "BOOLEAN",
+      "tz_offset" : "INT",
+      "v_is_owner" : "BOOLEAN",
+      "userName" : "PII_PERSON_NAME",
+      "updated" : "DATETIME_EPOCH"
     },
-    "EmployeeID" : "STRING",
-    "Status" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  }, {
-    "fullName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : null
-    },
-    "Status_data" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "userName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
-    },
-    "v_Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING"
-  } ],
-  "Status" : "STRING",
-  "fullName" : "STRING",
-  "DateTimeUTC" : "DATETIME"
+    "ok" : "BOOLEAN"
+  }
 }

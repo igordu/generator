@@ -1,35 +1,37 @@
 {
-  "telemetry_data" : {
-    "transaction_trace" : {
-      "debug_payload" : {
-        "object" : "STRING",
-        "data" : [ {
-          "name_val" : "PII_PERSON_NAME",
-          "identifier" : "STRING",
-          "metadata" : "OBJECT",
-          "default_source_data" : "STRING",
-          "address" : "",
-          "currency" : "STRING",
-          "phone" : "PII_PHONE_NUMBER",
-          "invoice_settings" : {
-            "footer" : "STRING",
-            "default_payment_method" : "STRING",
-            "rendering_options" : "NULL"
-          },
-          "cache_hit" : true,
-          "test_clock" : "NULL",
-          "object" : "STRING",
-          "invoice_prefix_data" : "STRING",
-          "v_next_invoice_sequence" : "INT",
-          "balance" : "INT",
-          "created" : "DATETIME_EPOCH",
-          "v_preferred_locales" : "ARRAY",
-          "delinquent" : "BOOLEAN",
-          "description" : "STRING",
-          "email" : "PII_EMAIL"
-        } ],
-        "url" : "URL"
-      }
-    }
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "fraudScore_data" : "INT",
+    "status" : "STRING",
+    "card" : {
+      "expiryMonth" : "STRING",
+      "issuingBank_data" : "PII_COMPANY_NAME",
+      "pan_data" : "PII_CREDIT_CARD",
+      "issuingCountry" : "PII_LOCATION_COUNTRY",
+      "cardholderName" : "PII_PERSON_NAME",
+      "scheme" : "STRING",
+      "expiryYear" : "STRING"
+    },
+    "amount" : {
+      "page_index" : 1601,
+      "value" : "INT"
+    },
+    "merchant" : {
+      "id" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "name" : "PII_COMPANY_NAME",
+      "categoryCode" : "STRING",
+      "item_count" : 3032
+    },
+    "uuid" : "NULL",
+    "billing" : {
+      "postalCode" : "STRING",
+      "cpu_usage_percent" : 67.14,
+      "v_address" : "PII_ADDRESS_LINE",
+      "v_city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY"
+    },
+    "v_type" : "STRING"
   }
 }

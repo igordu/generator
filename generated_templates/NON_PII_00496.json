@@ -1,10 +1,28 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "clientToken" : "STRING",
-    "cpu_usage_percent" : 288.17
+  "v_startedAt" : "DATETIME",
+  "completedAt" : "DATETIME",
+  "target" : "URL",
+  "findings" : [ {
+    "description" : "STRING",
+    "cwe" : "STRING",
+    "v_endpoint" : "STRING",
+    "parameter" : "STRING",
+    "cvss" : "DECIMAL",
+    "type" : "STRING",
+    "severity" : "STRING",
+    "id" : "STRING",
+    "remediation" : "STRING"
+  } ],
+  "cache_hit" : false,
+  "scanId" : "STRING",
+  "status_data" : "STRING",
+  "scanType" : null,
+  "summary" : {
+    "v_critical" : "INT",
+    "low" : "INT",
+    "price" : 2130.24,
+    "info" : "INT",
+    "medium" : "INT",
+    "high" : "INT"
   }
 }

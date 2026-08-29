@@ -1,0 +1,30 @@
+{
+  "trainedBy" : "PII_EMAIL",
+  "metrics" : {
+    "f1Score" : "DECIMAL",
+    "cache_hit" : false,
+    "recall" : "DECIMAL",
+    "accuracy" : "DECIMAL",
+    "auc_data" : "NULL",
+    "precision" : "DECIMAL"
+  },
+  "featureImportance" : {
+    "product_usage_score" : "DECIMAL",
+    "days_since_last_login" : "DECIMAL",
+    "support_ticket_count" : "DECIMAL",
+    "monthly_spend_trend" : "DECIMAL"
+  },
+  "name" : "STRING",
+  "price" : 4838.2,
+  "status" : "STRING",
+  "inferenceStats_data" : {
+    "errorRate" : "DECIMAL",
+    "avgLatencyMs" : "INT",
+    "item_count" : 69,
+    "requestsToday" : "INT"
+  },
+  "modelId" : "STRING",
+  "framework" : "STRING",
+  "trainingDataPeriod" : "NULL",
+  "deployedAt_data" : "DATETIME"
+}

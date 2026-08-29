@@ -1,0 +1,33 @@
+{
+  "grantId": "grant_01HQK5abc",
+  "clientId": "client_mobile_app_v3",
+  "userId": "usr-00821",
+  "email": "user@example.com",
+  "scopes": ["openid", "profile", "email", "orders:read"],
+  "grantType": "authorization_code",
+  "issuedAt": "2024-04-10T08:00:00Z",
+  "accessToken": {
+    "jti": "at_xK9mL2nP",
+    "expiresAt": "2024-04-10T09:00:00Z",
+    "type": "Bearer"
+  },
+  "refreshToken": {
+    "jti": "rt_aB3cD4eF",
+    "expiresAt": "2024-05-10T08:00:00Z",
+    "rotated": false
+  },
+  "idToken": {
+    "sub": "usr-00821",
+    "name": "Alice Johnson",
+    "email": "user@example.com",
+    "phone_number": "+14155552671",
+    "birthdate": "1990-08-14",
+    "address": {
+      "street_address": "1600 Amphitheatre Pkwy",
+      "locality": "Mountain View",
+      "region": "CA",
+      "postal_code": "94043",
+      "country": "US"
+    }
+  }
+}

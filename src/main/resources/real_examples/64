@@ -1,0 +1,30 @@
+{
+  "id": "wf_01HQK5V6SFKEBDVSXHF6NSKM2V",
+  "name": "new-employee-onboarding",
+  "trigger": "manual",
+  "status": "running",
+  "startedAt": "2024-04-10T09:00:00Z",
+  "initiatedBy": {
+    "userId": "usr-hr-0012",
+    "email": "hr.coordinator@company.com",
+    "name": "Rita Moreau"
+  },
+  "context": {
+    "employeeId": "EMP-10099",
+    "employeeName": "Andrei Popescu",
+    "employeeEmail": "a.popescu@company.com",
+    "startDate": "2024-05-01",
+    "department": "Engineering",
+    "manager": {
+      "id": "EMP-10003",
+      "name": "Sophie Chen",
+      "email": "s.chen@company.com"
+    }
+  },
+  "steps": [
+    { "id": "step_1", "name": "Send welcome email", "status": "completed", "completedAt": "2024-04-10T09:01:00Z" },
+    { "id": "step_2", "name": "Create IT accounts", "status": "running", "startedAt": "2024-04-10T09:02:00Z" },
+    { "id": "step_3", "name": "Assign equipment", "status": "pending" },
+    { "id": "step_4", "name": "Schedule orientation", "status": "pending" }
+  ]
+}

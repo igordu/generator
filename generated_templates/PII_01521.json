@@ -1,0 +1,24 @@
+{
+  "provider" : "NULL",
+  "price" : 7692.72,
+  "type" : "STRING",
+  "stats" : {
+    "successRate" : "DECIMAL",
+    "price" : 7002.35,
+    "totalDeliveries_data" : "INT"
+  },
+  "config" : {
+    "webhookUrl" : "URL",
+    "v_mentionOnError" : "STRING"
+  },
+  "name_val" : "STRING",
+  "status" : "STRING",
+  "createdAt_data" : "NULL",
+  "v_lastTriggeredAt" : "DATETIME",
+  "triggers" : [ "STRING" ],
+  "integrationId" : "STRING",
+  "createdBy_data" : {
+    "uuid" : "STRING",
+    "email" : "PII_EMAIL"
+  }
+}

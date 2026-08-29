@@ -1,5 +1,31 @@
 {
-  "http_status" : 1709,
-  "fullName" : "STRING",
-  "clientToken" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "scanId" : "STRING",
+      "v_completedAt" : "DATETIME",
+      "target" : "URL",
+      "v_startedAt" : "NULL",
+      "scanType_data" : null,
+      "retry_attempts" : 3633,
+      "v_findings" : [ {
+        "v_severity" : "STRING",
+        "v_type" : "STRING",
+        "remediation" : "STRING",
+        "parameter_data" : "STRING",
+        "description" : "STRING",
+        "stock_quantity" : 4491,
+        "cwe" : "STRING",
+        "endpoint" : "STRING"
+      } ],
+      "status" : null,
+      "summary" : {
+        "medium" : "INT",
+        "high" : "INT",
+        "low_data" : "INT",
+        "discount_rate" : 25.06,
+        "critical" : "INT",
+        "info" : "INT"
+      }
+    }
+  }
 }

@@ -1,43 +1,36 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "birthDate" : "PII_DATE_OF_BIRTH",
-    "v_meta" : {
-      "uuid" : "INT",
-      "lastUpdated" : "NULL"
+  "status_data" : null,
+  "created" : "DATETIME",
+  "passwordChanged" : "DATETIME",
+  "lastUpdated" : "",
+  "id" : "STRING",
+  "conversion_rate" : 7.88,
+  "v_profile" : {
+    "zipCode_data" : "STRING",
+    "email" : "PII_EMAIL",
+    "organization" : "PII_COMPANY_NAME",
+    "countryCode" : "PII_LOCATION_COUNTRY",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "fullName" : "PII_PERSON_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "secondEmail" : "PII_EMAIL",
+    "city_data" : "PII_LOCATION_CITY",
+    "employeeNumber_data" : "STRING",
+    "state_data" : "STRING",
+    "department" : "STRING",
+    "login" : "PII_EMAIL",
+    "mobilePhone" : "PII_PHONE_NUMBER"
+  },
+  "activated" : "DATETIME",
+  "lastLogin" : "DATETIME",
+  "credentials_data" : {
+    "system_ping_ms" : 2029,
+    "primaryKey" : {
+      "v_type" : "STRING",
+      "price" : 1264.37,
+      "clientName" : "STRING"
     },
-    "name_val" : [ {
-      "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-      "price" : 930.97,
-      "v_family" : "PII_PERSON_LAST_NAME",
-      "use" : "STRING"
-    } ],
-    "resourceType" : "STRING",
-    "telecom" : [ {
-      "use" : "STRING",
-      "system" : null,
-      "v_value" : "PII_PHONE_NUMBER"
-    }, {
-      "requires_update" : false,
-      "value" : "PII_EMAIL",
-      "system" : "STRING"
-    } ],
-    "address" : [ {
-      "line" : [ "PII_ADDRESS_LINE" ],
-      "country" : "PII_LOCATION_COUNTRY",
-      "use" : null,
-      "city" : "PII_LOCATION_CITY"
-    } ],
-    "id" : "STRING",
-    "v_gender" : "STRING",
-    "identifier" : [ {
-      "v_type" : {
-        "is_active" : true,
-        "v_text" : "STRING"
-      },
-      "value" : "PII_NATIONAL_ID",
-      "system" : "URL"
-    } ]
+    "password_data" : "OBJECT"
   }
 }

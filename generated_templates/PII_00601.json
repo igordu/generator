@@ -1,42 +1,25 @@
 {
-  "Status" : "STRING",
-  "recordId" : "STRING",
-  "Employees" : [ {
-    "Status" : "STRING",
-    "EmployeeID" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL",
-      "price" : 167.34
+  "ok" : "BOOLEAN",
+  "user" : {
+    "v_is_owner" : "BOOLEAN",
+    "id" : "STRING",
+    "v_tz" : "STRING",
+    "primaryKey" : "STRING",
+    "system_ping_ms" : 4772,
+    "name_val" : "PII_USERNAME",
+    "is_admin_data" : "BOOLEAN",
+    "real_name" : "PII_PERSON_NAME",
+    "v_profile" : {
+      "cell" : "PII_PHONE_NUMBER",
+      "team" : "STRING",
+      "real_name" : "PII_PERSON_NAME",
+      "userName" : "PII_USERNAME",
+      "email" : "PII_EMAIL",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "first_name" : "PII_PERSON_FIRST_NAME"
     },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  }, {
-    "stock_quantity" : 995,
-    "EmployeeID" : "STRING",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "retry_attempts" : 1707,
-      "Description" : "STRING"
-    },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  }, {
-    "item_count" : 1095,
-    "UpdatedDateUTC_data" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
-    },
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING"
-  } ],
-  "ProviderName" : "STRING",
-  "price" : 527.91,
-  "DateTimeUTC" : "DATETIME"
+    "v_tz_offset" : "INT",
+    "updated" : "DATETIME_EPOCH",
+    "tz_label" : "STRING"
+  }
 }

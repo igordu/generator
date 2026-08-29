@@ -2,16 +2,25 @@
   "status" : "success",
   "code" : 200,
   "data" : {
-    "tree" : {
-      "sha" : "STRING",
-      "url" : "URL"
+    "createdAt_data" : "DATETIME",
+    "lastActivityAt" : "DATETIME",
+    "expiresAt" : "DATETIME",
+    "mfaVerified" : "BOOLEAN",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "riskScore" : "DECIMAL",
+    "deviceId" : "STRING",
+    "primaryKey" : "STRING",
+    "issuedTokens" : {
+      "refreshToken" : "STRING",
+      "idToken" : "STRING",
+      "accessToken" : "STRING"
     },
-    "user_info" : {
-      "family-name-male" : "PII_LAST_NAME_MALE",
-      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-      "arline__name" : "PII_COMPANY_NAME"
-    },
-    "v_active" : "BOOLEAN",
-    "conversion_rate" : 420.19
+    "revoked" : "BOOLEAN",
+    "temperature_c" : -19.48,
+    "userId" : "STRING",
+    "userAgent" : "STRING",
+    "email" : "PII_EMAIL",
+    "mfaMethod" : "STRING",
+    "scopes" : [ "STRING" ]
   }
 }

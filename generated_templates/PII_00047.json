@@ -1,25 +1,83 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "content" : [ {
-      "articleSizeRatings" : {
-        "v_OVERALL" : "INT",
-        "recordId" : "INT",
-        "has_discount" : true
+  "href" : "STRING",
+  "v_prev" : "STRING",
+  "transactions" : [ {
+    "payoutId" : "STRING",
+    "transactionStatus" : "STRING",
+    "totalFeeBasisAmount" : {
+      "convertedFromValue" : "STRING",
+      "v_convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING"
+    },
+    "orderLineItems" : [ {
+      "marketplaceFees" : [ {
+        "feeJurisdiction" : {
+          "regionName" : "STRING",
+          "regionType" : "STRING",
+          "discount_rate" : 27.7
+        },
+        "feeType" : "STRING",
+        "amount_data" : {
+          "convertedFromValue" : "STRING",
+          "currency" : "STRING",
+          "value" : "STRING",
+          "exchangeRate" : "STRING",
+          "convertedFromCurrency" : "STRING"
+        }
+      } ],
+      "feeBasisAmount" : {
+        "v_currency" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "exchangeRate" : "STRING",
+        "value" : "STRING"
       },
-      "unhelpfulCount" : "INT",
-      "description" : "STRING",
-      "recommend" : "BOOLEAN",
-      "recordId" : "STRING",
-      "articleId" : null,
-      "customerCountry_data" : "PII_LOCATION_COUNTRY",
-      "helpfulCount" : "INT",
-      "created" : "DATETIME",
-      "v_customerCity" : "PII_LOCATION_CITY",
-      "reviewId" : "STRING",
-      "price" : 415.13,
-      "v_title" : "PII_COMPANY_NAME"
-    } ]
-  }
+      "lineItemId" : "STRING"
+    } ],
+    "v_transactionType" : "STRING",
+    "transactionId" : "STRING",
+    "salesRecordReference_data" : "STRING",
+    "totalFeeAmount" : {
+      "requires_update" : false,
+      "convertedFromCurrency" : "STRING",
+      "v_value" : "STRING",
+      "currency" : "STRING",
+      "convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "transactionDate" : "DATETIME",
+    "transactionMemo" : "STRING",
+    "references" : [ {
+      "uuid" : "STRING",
+      "response_time_sec" : 1.56,
+      "referenceType" : "STRING"
+    } ],
+    "identifier" : "STRING",
+    "feeJurisdiction" : {
+      "regionName" : "STRING",
+      "regionType" : "STRING"
+    },
+    "bookingEntry" : "STRING",
+    "v_buyer" : {
+      "clientName" : "PII_USERNAME"
+    },
+    "amount_data" : {
+      "exchangeRate" : "STRING",
+      "currency" : "STRING",
+      "value_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING"
+    },
+    "eBayCollectedTaxAmount" : {
+      "currency" : "STRING",
+      "value" : "STRING",
+      "convertedFromCurrency_data" : "NULL",
+      "v_exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "cache_hit" : true
+    }
+  } ],
+  "next" : "STRING",
+  "total_data" : "INT"
 }

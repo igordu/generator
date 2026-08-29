@@ -1,0 +1,35 @@
+{
+  "productId": "prod_WHP-BLK-PRO-001",
+  "sku": "WHP-BLK-PRO-001",
+  "name": "Wireless Headphones Pro - Black",
+  "brand": "SoundCore",
+  "category": "Electronics > Audio > Headphones",
+  "status": "active",
+  "pricing": {
+    "basePrice": 149.99,
+    "salePrice": 119.99,
+    "currency": "USD",
+    "taxClass": "standard"
+  },
+  "inventory": {
+    "totalStock": 342,
+    "availableStock": 315,
+    "reservedStock": 27,
+    "backorderAllowed": false,
+    "lowStockThreshold": 50
+  },
+  "attributes": {
+    "color": "Black",
+    "connectivity": "Bluetooth 5.3",
+    "batteryLifeHours": 40,
+    "weight_g": 250,
+    "noiseCancel": true,
+    "foldable": true
+  },
+  "images": [
+    { "url": "https://cdn.example.com/products/whp-blk-pro-001-front.jpg", "isPrimary": true },
+    { "url": "https://cdn.example.com/products/whp-blk-pro-001-side.jpg", "isPrimary": false }
+  ],
+  "createdAt": "2023-09-01T00:00:00Z",
+  "updatedAt": "2024-04-01T00:00:00Z"
+}

@@ -1,7 +1,23 @@
 {
-  "name_val" : "STRING",
-  "modelId" : "STRING",
-  "shopUrl_data" : "URL",
-  "media" : { },
-  "id" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "tag_name" : "STRING",
+    "assets_data" : [ {
+      "is_deleted" : false,
+      "name" : "STRING",
+      "v_size" : "INT",
+      "browser_download_url_data" : "URL",
+      "v_content_type" : "STRING",
+      "identifier" : "INT"
+    } ],
+    "created_at" : "DATETIME",
+    "v_target_commitish" : "STRING",
+    "name" : "STRING",
+    "v_draft" : "BOOLEAN",
+    "body" : "TEXT",
+    "prerelease" : "BOOLEAN"
+  }
 }

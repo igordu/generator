@@ -1,10 +1,32 @@
 {
-  "user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "is_active" : false
-  },
-  "retry_attempts" : 543,
-  "active_data" : "BOOLEAN"
+  "fullName" : "STRING",
+  "identifier" : "STRING",
+  "userName" : "STRING",
+  "private" : "BOOLEAN",
+  "language" : "STRING",
+  "price" : 9445.45,
+  "pullRequest" : {
+    "changedFiles" : "INT",
+    "updatedAt" : "DATETIME",
+    "headBranch" : "STRING",
+    "reviewers" : [ {
+      "email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME",
+      "requires_update" : true,
+      "login" : "PII_USERNAME",
+      "state" : "STRING"
+    } ],
+    "createdAt" : "DATETIME",
+    "author" : {
+      "name" : "PII_PERSON_NAME",
+      "v_login" : "PII_USERNAME",
+      "emailAddress" : "PII_EMAIL"
+    },
+    "additions" : "INT",
+    "title" : "STRING",
+    "v_deletions" : "INT",
+    "baseBranch" : "STRING",
+    "id" : "INT",
+    "state" : "STRING"
+  }
 }

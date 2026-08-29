@@ -1,40 +1,33 @@
 [ {
-  "filter_data" : "STRING",
-  "v_facets" : [ {
-    "key" : "STRING",
-    "count_data" : "INT"
-  }, {
-    "clientName" : "STRING",
-    "page_index" : 1169,
-    "key_data" : "STRING"
-  }, {
-    "name_val" : "STRING",
-    "key_data" : "STRING",
-    "v_count" : "INT"
-  } ]
+  "bookDepreciationSetting" : {
+    "depreciationCalculationMethod" : "NULL",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "averagingMethod_data" : "STRING",
+    "depreciationMethod" : "STRING",
+    "depreciableObjectType" : "STRING",
+    "depreciationRate" : "DECIMAL"
+  },
+  "primaryKey" : "STRING",
+  "response_time_sec" : 0.05,
+  "assetTypeId" : "STRING",
+  "locks" : "INT",
+  "identifier" : "STRING",
+  "taxDepreciationSettings" : "ARRAY"
 }, {
-  "v_filter" : "STRING",
-  "v_facets" : [ {
-    "key" : "STRING",
-    "name_val" : "STRING",
-    "cache_hit" : false,
-    "count" : "INT"
-  }, {
-    "key_data" : "STRING",
-    "displayName" : "STRING",
-    "count_data" : "INT"
-  }, {
-    "retry_attempts" : 859,
-    "v_count" : "INT",
-    "v_key" : "STRING"
-  } ],
-  "is_deleted" : false
-}, {
-  "filter" : "STRING",
-  "facets" : [ {
-    "key" : "STRING",
-    "requires_update" : true,
-    "count_data" : "INT",
-    "displayName" : "STRING"
-  } ]
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "uuid" : "STRING",
+  "primaryKey" : "STRING",
+  "userName" : "STRING",
+  "bookDepreciationSetting_data" : {
+    "depreciationRate" : "NULL",
+    "depreciationCalculationMethod" : "STRING",
+    "v_averagingMethod" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "depreciableObjectType" : "STRING",
+    "bookEffectiveDateOfChangeId" : "STRING"
+  },
+  "depreciationExpenseAccountId" : "STRING",
+  "assetTypeId" : "STRING",
+  "locks_data" : "INT",
+  "v_taxDepreciationSettings" : "ARRAY"
 } ]

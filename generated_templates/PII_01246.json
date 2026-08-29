@@ -1,77 +1,27 @@
-[ {
-  "parents" : [ {
-    "v_sha" : "STRING",
-    "url" : "URL"
-  } ],
-  "comments_url" : "URL",
-  "has_discount" : false,
-  "author" : {
-    "gravatar_id" : "STRING",
-    "gists_url" : "URL",
-    "login" : "STRING",
-    "following_url" : "URL",
-    "recordId" : "INT",
-    "type_data" : "STRING",
-    "received_events_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "node_id" : "STRING",
-    "html_url" : "URL",
-    "avatar_url" : "URL",
-    "organizations_url_data" : "URL",
-    "v_url" : "URL",
-    "starred_url_data" : "URL",
-    "followers_url" : "URL",
-    "repos_url" : "URL",
-    "subscriptions_url_data" : "URL"
+{
+  "encounterType" : "STRING",
+  "v_date" : "DATE",
+  "patient" : {
+    "gender" : "STRING",
+    "conversion_rate" : 0.59,
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "city_data" : "PII_LOCATION_CITY",
+      "postalCode" : "STRING",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "is_active" : false
+    },
+    "phone" : "PII_PHONE_NUMBER",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "taxCode" : "PII_NATIONAL_ID",
+    "contactEmail" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME"
   },
-  "commit" : {
-    "verification" : {
-      "v_verified" : "BOOLEAN",
-      "payload" : "STRING",
-      "verified_at" : "DATETIME",
-      "reason" : "STRING",
-      "signature" : "STRING"
-    },
-    "committer" : {
-      "email" : "PII_EMAIL",
-      "date_data" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "comment_count" : "INT",
-    "tree" : {
-      "url_data" : "URL",
-      "sha" : "STRING"
-    },
-    "author" : {
-      "email" : "PII_EMAIL",
-      "price" : 312.33,
-      "clientName" : "PII_PERSON_NAME"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "url" : "URL",
-    "item_count" : 2718
-  },
-  "committer" : {
-    "organizations_url" : "URL",
-    "v_events_url" : "URL",
-    "received_events_url" : "URL",
-    "html_url" : "URL",
-    "gists_url" : "URL",
-    "subscriptions_url" : "URL",
-    "v_login" : "STRING",
-    "avatar_url" : "URL",
-    "followers_url" : "URL",
-    "starred_url_data" : "URL",
-    "gravatar_id" : "STRING",
-    "id" : "INT",
-    "repos_url" : "URL",
-    "v_following_url" : "URL",
-    "primaryKey" : "STRING",
-    "type_data" : "STRING",
-    "v_site_admin" : "BOOLEAN"
-  },
-  "html_url" : "URL",
-  "node_id" : "STRING",
-  "v_sha" : "STRING",
-  "v_url" : "URL"
-} ]
+  "encounterId" : "STRING",
+  "referral_data" : {
+    "cpu_usage_percent" : 67.82,
+    "v_specialist" : "STRING",
+    "urgency" : "STRING"
+  }
+}

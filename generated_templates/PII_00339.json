@@ -1,11 +1,43 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "login" : "STRING",
+  "private_gists" : "INT",
+  "gists_url" : "URL",
+  "email" : "PII_EMAIL",
+  "collaborators" : "INT",
+  "hireable" : "BOOLEAN",
+  "created_at" : "DATETIME",
+  "v_updated_at" : "DATETIME",
+  "v_followers" : "INT",
+  "gravatar_id" : null,
+  "v_owned_private_repos" : "INT",
+  "public_repos" : "INT",
+  "v_subscriptions_url" : "URL",
+  "followers_url_data" : "URL",
+  "userName" : "STRING",
+  "type_data" : "STRING",
+  "cpu_usage_percent" : 14.65,
+  "following_url" : "URL",
+  "v_starred_url" : "URL",
+  "organizations_url_data" : "URL",
+  "bio" : "PII_ORGANIZATION_NAME",
+  "avatar_url_data" : "",
+  "repos_url_data" : "",
+  "plan" : {
+    "collaborators" : "INT",
+    "private_repos" : "INT",
+    "name" : "STRING",
+    "space" : "INT"
   },
-  "results" : {
-    "price" : 527.55,
-    "mail" : "PII_EMAIL",
-    "emailAddressStatus" : [ "STRING" ]
-  }
+  "following" : "INT",
+  "total_private_repos" : "INT",
+  "blog" : "URL",
+  "received_events_url" : "URL",
+  "fullName" : "PII_PERSON_NAME",
+  "disk_usage" : "INT",
+  "two_factor_authentication" : "BOOLEAN",
+  "events_url" : "URL",
+  "node_id" : "STRING",
+  "location" : "PII_LOCATION_CITY",
+  "public_gists" : "INT",
+  "company" : "PII_ORGANIZATION_NAME"
 }

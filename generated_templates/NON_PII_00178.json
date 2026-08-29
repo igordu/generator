@@ -1,8 +1,16 @@
 {
-  "shopUrl" : "URL",
-  "identifier" : "STRING",
-  "media" : { },
-  "modelId" : "STRING",
+  "id" : "INT",
+  "conversion_rate" : 0.37,
   "name" : "STRING",
-  "auto_renew" : false
+  "draft" : "BOOLEAN",
+  "created_at" : "DATETIME",
+  "target_commitish" : "STRING",
+  "tag_name" : "STRING",
+  "changelog" : [ {
+    "files_changed" : "INT",
+    "message" : "TEXT",
+    "v_commit_sha" : "STRING",
+    "priority_level" : 952
+  } ],
+  "prerelease" : "BOOLEAN"
 }

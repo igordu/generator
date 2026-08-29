@@ -1,17 +1,43 @@
 {
+  "deliveryId" : "STRING",
+  "estimatedDelivery" : "DATE",
+  "events" : [ {
+    "timestamp" : "DATETIME",
+    "status" : "",
+    "location" : "PII_LOCATION_CITY"
+  } ],
   "status" : "STRING",
-  "id" : "STRING",
-  "v_country" : "STRING",
-  "account_holder_type" : "STRING",
-  "metadata_data" : "OBJECT",
-  "object" : "STRING",
-  "routing_number" : "STRING",
-  "v_fingerprint" : "STRING",
-  "last4" : "STRING",
-  "bank_name" : "STRING",
-  "customer_data" : "STRING",
-  "discount_rate" : 851.87,
-  "v_currency" : "STRING",
-  "fullName" : "PII_PERSON_NAME",
-  "account_type" : "STRING"
+  "auto_renew" : true,
+  "recipient" : {
+    "deliveryInstructions" : "STRING",
+    "email" : "PII_EMAIL",
+    "address" : {
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "postalCode" : "STRING"
+    },
+    "fullName" : "PII_PERSON_NAME",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "carrier" : "STRING",
+  "parcels" : [ {
+    "v_weight" : {
+      "value" : "DECIMAL",
+      "priority_level" : 1005,
+      "v_unit" : "STRING"
+    },
+    "identifier" : "STRING",
+    "dimensions" : {
+      "height" : "INT",
+      "unit" : "STRING",
+      "v_length" : "INT"
+    }
+  } ],
+  "sender" : {
+    "address" : "PII_ADDRESS_LINE",
+    "name" : "PII_COMPANY_NAME",
+    "primary_email" : "PII_EMAIL",
+    "discount_rate" : 78.95
+  }
 }

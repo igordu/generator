@@ -1,23 +1,5 @@
 {
-  "requires_update" : true,
-  "content_data" : [ {
-    "articleId" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "description" : "STRING",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "created" : "DATETIME",
-    "unhelpfulCount" : "INT",
-    "helpfulCount" : "INT",
-    "recordId" : "STRING",
-    "conversion_rate" : 245.32,
-    "language" : "STRING",
-    "v_recommend" : "BOOLEAN",
-    "articleSizeRatings" : {
-      "temperature_c" : 731.33,
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "INT"
-    },
-    "articleModelId" : "STRING"
-  } ]
+  "emailAddressStatus" : [ null ],
+  "has_discount" : false,
+  "emailAddress" : "PII_EMAIL"
 }

@@ -1,42 +1,32 @@
 {
-  "v_disk_usage" : "INT",
-  "following" : "INT",
-  "created_at" : "DATETIME",
-  "email" : "PII_EMAIL",
-  "login" : "STRING",
-  "collaborators" : "INT",
-  "hireable" : "BOOLEAN",
-  "company" : "PII_ORGANIZATION_NAME",
-  "private_gists" : "INT",
-  "public_repos" : "INT",
-  "bio_data" : "PII_ORGANIZATION_NAME",
-  "has_discount" : false,
-  "identifier" : null,
-  "received_events_url" : "URL",
-  "followers_url" : "URL",
-  "subscriptions_url" : "NULL",
-  "followers" : "INT",
-  "starred_url" : "URL",
-  "two_factor_authentication_data" : "BOOLEAN",
-  "updated_at" : "DATETIME",
-  "v_html_url" : "URL",
-  "id" : "INT",
-  "name" : "PII_PERSON_NAME",
-  "owned_private_repos" : "INT",
-  "avatar_url_data" : "URL",
-  "gravatar_id" : "STRING",
-  "url" : "URL",
-  "site_admin" : "BOOLEAN",
-  "organizations_url" : "URL",
-  "plan" : {
-    "name" : "STRING",
-    "private_repos" : "INT",
-    "collaborators" : "INT"
+  "createdBy" : "PII_EMAIL",
+  "targeting" : {
+    "rules" : [ {
+      "description_data" : "STRING",
+      "conversion_rate" : 9.14,
+      "id" : "STRING",
+      "clauses" : [ {
+        "attribute" : "STRING",
+        "page_index" : 1784,
+        "values" : [ "STRING" ],
+        "v_op" : "STRING"
+      } ]
+    } ],
+    "temperature_c" : -12.26,
+    "fallthrough" : {
+      "requires_update" : false,
+      "v_variation" : "STRING"
+    }
   },
-  "events_url" : "URL",
-  "location" : "PII_LOCATION_CITY",
-  "v_total_private_repos" : "INT",
-  "blog" : "URL",
-  "v_following_url" : "URL",
-  "gists_url" : "URL"
+  "rolloutPercentage" : "INT",
+  "featureFlagKey" : "STRING",
+  "environment" : "STRING",
+  "v_variations" : [ {
+    "v_value" : "BOOLEAN",
+    "primaryKey" : "STRING"
+  } ],
+  "createdAt" : "DATETIME",
+  "tags" : [ "STRING" ],
+  "enabled" : "BOOLEAN",
+  "v_projectKey" : "STRING"
 }

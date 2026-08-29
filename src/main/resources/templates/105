@@ -1,0 +1,25 @@
+{
+  "attributes": {
+    "type": "STRING",
+    "url": "URL"
+  },
+  "Id": "STRING",
+  "Title": "STRING",
+  "Body": "PII_FREE_TEXT",
+  "ParentId": "STRING",
+  "OwnerId": "STRING",
+  "Owner": {
+    "Name": "PII_PERSON_NAME",
+    "Department": "STRING"
+  },
+  "IsPrivate": "BOOLEAN",
+  "CreatedDate": "DATETIME",
+  "LastModifiedDate": "DATETIME",
+  "activity_log": [
+    {
+      "action": "STRING",
+      "note": "PII_FREE_TEXT",
+      "timestamp": "DATETIME"
+    }
+  ]
+}

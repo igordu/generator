@@ -1,0 +1,24 @@
+{
+  "eventType_data" : "STRING",
+  "producer" : "STRING",
+  "payload" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "conversion_rate" : 8.73,
+    "ipAddress" : "PII_IP_ADDRESS",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "recordId" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "v_registrationSource" : "STRING"
+  },
+  "v_version" : "STRING",
+  "eventId" : "STRING",
+  "metadata" : {
+    "offset" : "INT",
+    "auto_renew" : false,
+    "schemaVersion" : "STRING",
+    "partition" : "INT"
+  }
+}

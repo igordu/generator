@@ -1,29 +1,26 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "content" : [ {
-      "title_data" : "PII_COMPANY_NAME",
-      "description" : "STRING",
-      "reviewId" : "STRING",
-      "v_customerCountry" : "PII_LOCATION_COUNTRY",
-      "customerCity" : "PII_LOCATION_CITY",
-      "v_rating" : "INT",
-      "helpfulCount_data" : "INT",
-      "v_articleSizeRatings" : {
-        "is_deleted" : false,
-        "OVERALL" : "INT",
-        "SHOE_WIDTH" : "INT"
-      },
-      "unhelpfulCount" : "INT",
-      "uuid" : "STRING",
-      "language" : "STRING",
-      "created" : "DATETIME",
-      "recommend" : "BOOLEAN",
-      "page_index" : 1997,
-      "articleModelId" : "STRING"
+  "ticket" : {
+    "description_data" : "PII_FREE_TEXT",
+    "updated_at" : "NULL",
+    "assignee_id" : "",
+    "v_created_at" : "DATETIME",
+    "status" : "STRING",
+    "subject" : "STRING",
+    "requester" : {
+      "name" : "PII_PERSON_NAME",
+      "price" : 2821.03,
+      "email" : "PII_EMAIL"
+    },
+    "priority" : "STRING",
+    "tags" : [ "STRING" ],
+    "id" : "INT",
+    "comments_data" : [ {
+      "created_at" : "DATETIME",
+      "body" : "PII_FREE_TEXT",
+      "author_id" : "INT",
+      "id" : null,
+      "public" : "BOOLEAN",
+      "http_status" : 4898
     } ]
   }
 }

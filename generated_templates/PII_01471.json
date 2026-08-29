@@ -1,0 +1,25 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "page_index" : 4222,
+      "creationTimestamp_data" : "DATETIME",
+      "configMapName" : "STRING",
+      "resourceVersion_data" : "STRING",
+      "data" : {
+        "REDIS_HOST" : "STRING",
+        "FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+        "SMTP_PORT" : "NULL",
+        "DATABASE_PORT_data" : "STRING",
+        "SMTP_HOST" : "STRING",
+        "SUPPORT_EMAIL" : "PII_EMAIL",
+        "MAX_CONNECTIONS" : "NULL",
+        "REQUEST_TIMEOUT_MS" : "STRING",
+        "DATABASE_HOST" : "STRING",
+        "REDIS_PORT" : "STRING",
+        "DATABASE_NAME" : "STRING",
+        "LOG_LEVEL" : "STRING"
+      },
+      "namespace" : "STRING"
+    }
+  }
+}

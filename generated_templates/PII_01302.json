@@ -1,17 +1,30 @@
 {
-  "status" : "success",
-  "code" : 200,
   "data" : {
-    "active" : "BOOLEAN",
-    "user_info" : {
-      "family-name-male" : "PII_LAST_NAME_MALE",
-      "stock_quantity" : 3292,
-      "arline__name" : "PII_COMPANY_NAME",
-      "clientName" : "PII_FIRST_NAME_FEMALE"
-    },
-    "tree" : {
-      "sha" : "STRING",
-      "v_url" : "URL"
+    "fetchResource" : {
+      "amount" : {
+        "currency" : "STRING",
+        "value" : "NULL"
+      },
+      "initiatedAt" : "DATETIME",
+      "transferId" : "STRING",
+      "v_chargesBearer" : "STRING",
+      "sender" : {
+        "bankName" : "PII_COMPANY_NAME",
+        "name" : "PII_PERSON_NAME",
+        "identifier" : "STRING",
+        "bic" : "STRING",
+        "iban" : "PII_IBAN"
+      },
+      "v_status" : "STRING",
+      "endToEndId" : "STRING",
+      "recipient" : {
+        "primaryKey" : "STRING",
+        "iban" : "PII_IBAN",
+        "name" : "PII_PERSON_NAME",
+        "clientName" : "PII_COMPANY_NAME",
+        "v_bic" : "STRING"
+      },
+      "reference" : "STRING"
     }
   }
 }

@@ -1,19 +1,24 @@
 {
-  "uuid" : "STRING",
-  "media" : {
-    "images" : [ {
-      "orderNumber" : "INT",
-      "mediumHdUrl" : "URL",
-      "type_data" : "STRING",
-      "largeUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "mediumUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "smallUrl_data" : "URL"
-    } ],
-    "http_status" : 4189
-  },
-  "id" : "STRING",
-  "name" : "STRING"
+  "v_target_commitish" : "STRING",
+  "name" : "STRING",
+  "v_created_at" : "DATETIME",
+  "published_at" : "DATETIME",
+  "draft" : "BOOLEAN",
+  "system_ping_ms" : 4878,
+  "id" : "INT",
+  "clientName" : "STRING",
+  "body" : "TEXT",
+  "v_assets" : [ {
+    "size" : "INT",
+    "download_count" : "INT",
+    "name" : "STRING",
+    "browser_download_url" : "URL",
+    "content_type" : "STRING"
+  } ],
+  "changelog" : [ {
+    "v_message" : "TEXT",
+    "commit_sha_data" : "STRING",
+    "files_changed" : "INT"
+  } ],
+  "v_prerelease" : "BOOLEAN"
 }

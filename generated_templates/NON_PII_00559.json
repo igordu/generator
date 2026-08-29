@@ -1,40 +1,29 @@
-[ {
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "32x32" : "URL",
-    "48x48" : "URL",
-    "v_24x24" : "",
-    "response_time_sec" : 770.53
+{
+  "completedAt" : "DATETIME",
+  "stats" : {
+    "recordsRead_data" : "INT",
+    "stock_quantity" : 1388,
+    "bytesTransferred" : "INT",
+    "recordsSkipped" : null,
+    "recordsWritten" : "INT"
   },
-  "v_projectCategory" : {
-    "description" : "STRING",
-    "self" : "URL",
-    "id" : "STRING",
-    "auto_renew" : true,
-    "name" : "STRING"
+  "nextRunAt" : "DATETIME",
+  "destination" : {
+    "v_type" : "NULL",
+    "table" : "STRING",
+    "project" : "STRING",
+    "dataset" : "STRING"
   },
-  "name" : "STRING",
-  "key_data" : "STRING",
-  "id" : "STRING",
-  "insight" : {
-    "v_lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "self" : "URL"
-}, {
-  "id" : "STRING",
-  "self_data" : "URL",
-  "key_data" : "STRING",
-  "avatarUrls_data" : {
-    "16x16" : "URL",
-    "is_deleted" : false,
-    "48x48" : "URL",
-    "24x24" : "URL"
-  },
-  "projectCategory" : {
-    "self" : "URL",
-    "name" : "STRING",
-    "recordId" : "STRING"
-  },
-  "style" : "STRING"
-} ]
+  "type" : "STRING",
+  "scheduledAt" : "DATETIME",
+  "startedAt_data" : "NULL",
+  "stock_quantity" : 4601,
+  "triggeredBy" : "STRING",
+  "v_durationSeconds" : "INT",
+  "name_val" : "STRING",
+  "source" : {
+    "v_database" : "",
+    "type" : "STRING",
+    "host" : "STRING"
+  }
+}

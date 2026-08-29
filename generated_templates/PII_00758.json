@@ -1,33 +1,56 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "total_records_data" : "INT",
-      "page_number" : "INT",
-      "registrants" : [ {
-        "country" : "PII_LOCATION_COUNTRY",
-        "job_title" : "STRING",
-        "city" : "PII_LOCATION_CITY",
-        "temperature_c" : 352.37,
-        "create_time" : "DATETIME",
-        "phone" : "PII_PHONE_NUMBER",
-        "state" : "PII_LOCATION_STATE",
-        "address" : "PII_ADDRESS_LINE",
-        "comments" : "STRING",
-        "name_val" : "PII_PERSON_FIRST_NAME",
-        "id" : "STRING",
-        "org" : "PII_ORGANIZATION_NAME",
-        "status" : "STRING",
-        "primary_email" : "PII_EMAIL",
-        "role_in_purchase_process" : "STRING",
-        "join_url" : "URL",
-        "purchasing_time_frame" : "STRING",
-        "no_of_employees" : "STRING",
-        "userName" : "PII_PERSON_LAST_NAME",
-        "v_industry" : "STRING"
-      } ],
-      "priority_level" : 1820,
-      "page_count" : "",
-      "page_size" : "INT"
-    }
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "address" : [ {
+      "state" : "STRING",
+      "use" : null,
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "line" : [ "PII_ADDRESS_LINE" ],
+      "auto_renew" : true,
+      "city" : "PII_LOCATION_CITY"
+    } ],
+    "resourceType_data" : "STRING",
+    "telecom" : [ {
+      "value_data" : "PII_PHONE_NUMBER",
+      "system_data" : "STRING"
+    }, {
+      "use" : "STRING",
+      "v_system" : "STRING",
+      "value_data" : "PII_EMAIL"
+    } ],
+    "id" : "STRING",
+    "gender" : "STRING",
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "name" : [ {
+      "use" : "STRING",
+      "given" : [ "PII_PERSON_FIRST_NAME" ],
+      "prefix" : [ "STRING" ],
+      "family_data" : "PII_PERSON_LAST_NAME"
+    } ],
+    "meta" : {
+      "item_count" : 3932,
+      "recordId" : "INT",
+      "lastUpdated" : ""
+    },
+    "identifier" : [ {
+      "value" : "PII_NATIONAL_ID",
+      "http_status" : 3294,
+      "v_system" : "URL"
+    } ],
+    "v_active" : "BOOLEAN",
+    "qualification_data" : [ {
+      "code" : {
+        "stock_quantity" : 1134,
+        "coding" : [ {
+          "code_data" : "STRING",
+          "system" : "URL",
+          "page_index" : 4600
+        } ]
+      },
+      "system_ping_ms" : 3023
+    } ]
   }
 }

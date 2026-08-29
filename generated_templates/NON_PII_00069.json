@@ -1,14 +1,33 @@
 {
-  "articleModelId" : "STRING",
-  "v_numberOfUserPositiveRecommendations" : "INT",
-  "averageStarRating" : "INT",
-  "v_numberOfUserRecommendations" : "INT",
-  "starRatingDistribution_data" : {
-    "1" : "INT",
-    "4" : "INT",
-    "3" : "INT",
-    "v_5" : "INT",
-    "v_2" : "INT"
+  "price" : 7387.3,
+  "description_data" : "STRING",
+  "v_tags" : {
+    "property1" : "STRING",
+    "discount_rate" : 27.05,
+    "property2_data" : "STRING"
   },
-  "numberOfUserReviews_data" : "INT"
+  "triggerConfig_data" : {
+    "triggerProperties" : {
+      "Scheduled_data" : {
+        "flowErrorDeactivationThreshold" : "INT",
+        "stock_quantity" : 1383,
+        "scheduleExpression" : "STRING",
+        "scheduleOffset" : "NULL",
+        "firstExecutionFrom" : "DATETIME",
+        "v_timezone" : "STRING",
+        "dataPullMode" : "STRING"
+      }
+    },
+    "triggerType" : "STRING",
+    "page_index" : 4817
+  },
+  "kmsArn" : "STRING",
+  "name_val" : "STRING",
+  "clientToken_data" : "",
+  "metadataCatalogConfig" : {
+    "v_glueDataCatalog" : {
+      "databaseName" : "STRING",
+      "tablePrefix_data" : "STRING"
+    }
+  }
 }

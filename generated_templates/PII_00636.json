@@ -1,38 +1,46 @@
 {
-  "DateTimeUTC" : "DATETIME",
-  "is_active" : false,
-  "Employees" : [ {
-    "UpdatedDateUTC" : "DATETIME",
-    "uuid" : null,
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL",
-      "is_deleted" : true
-    }
-  }, {
-    "identifier" : "STRING",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "is_active" : true,
-      "v_Description" : "STRING"
+  "id" : "STRING",
+  "key" : "STRING",
+  "fields" : {
+    "reporter_data" : {
+      "emailAddress" : "PII_EMAIL",
+      "accountId" : "STRING",
+      "clientName" : "PII_PERSON_NAME",
+      "active" : "BOOLEAN",
+      "timeZone" : "STRING"
     },
-    "UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING"
-  }, {
-    "fullName" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING",
-    "v_UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "priority_level" : 2832,
-      "Url" : "URL",
-      "Description" : "STRING"
-    }
-  } ],
-  "fullName" : "STRING",
-  "Id" : "STRING"
+    "assignee" : {
+      "timeZone_data" : "STRING",
+      "active" : "BOOLEAN",
+      "temperature_c" : 28.01,
+      "identifier" : "STRING",
+      "mail" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "priority_data" : {
+      "primaryKey" : "STRING",
+      "name" : "STRING"
+    },
+    "status_data" : {
+      "name" : "STRING"
+    },
+    "summary" : "STRING",
+    "comment" : {
+      "comments" : [ {
+        "v_updated" : "NULL",
+        "id" : "STRING",
+        "author" : {
+          "requires_update" : true,
+          "contactEmail" : "PII_EMAIL",
+          "displayName" : "PII_PERSON_NAME"
+        },
+        "body" : "STRING",
+        "created" : "DATETIME"
+      } ],
+      "total" : "INT"
+    },
+    "v_created" : "DATETIME",
+    "updated_data" : "DATETIME"
+  },
+  "http_status" : 3619
 }

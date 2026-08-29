@@ -1,0 +1,15 @@
+{
+  "stock_quantity" : 1866,
+  "createdBy" : "PII_EMAIL",
+  "updatedAt_data" : "DATETIME",
+  "v_assignedTo" : [ {
+    "v_assignedAt" : "DATETIME",
+    "name" : "PII_PERSON_NAME",
+    "userId" : "STRING",
+    "email" : "PII_EMAIL"
+  } ],
+  "roleId" : "STRING",
+  "fullName" : "STRING",
+  "createdAt" : "DATETIME",
+  "permissions" : [ "STRING" ]
+}

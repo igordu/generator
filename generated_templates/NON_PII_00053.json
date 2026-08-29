@@ -1,21 +1,41 @@
-{
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "numberOfUserPositiveRecommendations" : "",
-    "v_averageStarRating" : "INT",
-    "numberOfUserReviews_data" : "INT",
-    "starRatingDistribution" : {
-      "2" : null,
-      "4" : "INT",
-      "is_deleted" : false,
-      "v_1" : "INT",
-      "5" : null,
-      "3" : "INT"
-    },
-    "primaryKey" : "STRING",
-    "numberOfUserRecommendations" : "NULL"
-  }
-}
+[ {
+  "facets_data" : [ {
+    "count" : "INT",
+    "response_time_sec" : 13.17,
+    "key" : "STRING",
+    "displayName" : "STRING"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING"
+  } ],
+  "has_discount" : true,
+  "filter" : "STRING"
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "count" : "INT",
+    "temperature_c" : 9.15,
+    "displayName" : "STRING"
+  }, {
+    "count" : "INT",
+    "v_key" : "STRING",
+    "displayName" : "STRING"
+  } ],
+  "cache_hit" : true
+}, {
+  "filter" : "STRING",
+  "temperature_c" : -1.52,
+  "facets" : [ {
+    "displayName" : "STRING",
+    "has_discount" : true,
+    "count" : "INT",
+    "key" : "STRING"
+  }, {
+    "count_data" : "INT",
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "price" : 4490.61,
+    "displayName" : "STRING"
+  } ]
+} ]

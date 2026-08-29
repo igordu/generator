@@ -1,13 +1,27 @@
 {
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "userName" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  "v_initiatedAt" : "DATETIME",
+  "sender" : {
+    "clientName" : "PII_PERSON_NAME",
+    "primaryKey" : "STRING",
+    "iban" : "PII_IBAN",
+    "conversion_rate" : 8.7,
+    "bankName" : "PII_COMPANY_NAME",
+    "v_bic" : "STRING"
   },
-  "system_ping_ms" : 664,
-  "tree" : {
-    "sha" : "STRING",
-    "http_status" : 2670
+  "endToEndId" : "STRING",
+  "chargesBearer" : "STRING",
+  "transferId" : "STRING",
+  "v_recipient" : {
+    "iban" : "PII_IBAN",
+    "name" : "PII_PERSON_NAME",
+    "accountId" : "STRING",
+    "bankName" : "PII_COMPANY_NAME"
   },
-  "active" : "BOOLEAN"
+  "completedAt" : "DATETIME",
+  "status" : "STRING",
+  "v_amount" : {
+    "value" : "DECIMAL",
+    "currency" : "STRING"
+  },
+  "http_status" : 3652
 }

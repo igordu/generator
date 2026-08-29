@@ -1,61 +1,38 @@
 {
-  "total" : "INT",
-  "transactions" : [ {
-    "paymentsEntity" : "NULL",
-    "v_transactionType" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "v_convertedFromValue" : "STRING",
-      "exchangeRate_data" : "STRING",
+  "priority_level" : 4149,
+  "registrants_data" : [ {
+    "id" : null,
+    "address" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "zip" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "custom_questions" : [ {
+      "v_title" : "STRING",
       "value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "v_currency" : "STRING"
-    },
-    "v_amount" : {
-      "v_convertedFromCurrency" : "STRING",
-      "value" : "STRING",
-      "v_convertedFromValue" : "STRING",
-      "currency" : "STRING",
-      "exchangeRate" : "STRING",
-      "conversion_rate" : 663.04
-    },
-    "payoutId" : "STRING",
-    "transactionDate" : "DATETIME",
-    "feeJurisdiction" : {
-      "regionName" : "STRING",
-      "regionType" : "STRING"
-    },
-    "references_data" : [ {
-      "referenceType" : "STRING",
-      "referenceId" : null
+      "requires_update" : true
+    }, {
+      "item_count" : 2247,
+      "title" : "STRING",
+      "value" : "STRING"
     } ],
-    "recordId" : "STRING",
-    "bookingEntry" : "STRING",
-    "feeType" : "STRING",
-    "buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "totalFeeAmount" : {
-      "is_active" : true,
-      "convertedFromValue" : "STRING",
-      "convertedFromCurrency_data" : "STRING",
-      "value" : "STRING",
-      "v_exchangeRate" : "STRING",
-      "currency" : "STRING"
-    },
-    "totalFeeBasisAmount" : {
-      "convertedFromValue_data" : "STRING",
-      "currency" : "STRING",
-      "value_data" : "STRING",
-      "convertedFromCurrency_data" : "STRING",
-      "conversion_rate" : 642.98,
-      "exchangeRate" : "STRING"
-    },
-    "salesRecordReference" : "STRING",
-    "transactionStatus" : "STRING"
+    "phone" : "PII_PHONE_NUMBER",
+    "join_url" : "URL",
+    "industry" : "STRING",
+    "email" : "PII_EMAIL",
+    "role_in_purchase_process" : "STRING",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "org" : "PII_ORGANIZATION_NAME",
+    "comments_data" : "STRING",
+    "v_job_title" : "STRING",
+    "status_data" : "STRING",
+    "no_of_employees" : "STRING",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "state" : "PII_LOCATION_STATE",
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "create_time" : "DATETIME"
   } ],
-  "offset_data" : "NULL",
-  "limit" : "INT",
-  "v_href" : "STRING",
-  "prev" : null,
-  "is_active" : true
+  "page_count" : "INT",
+  "page_size" : "INT",
+  "total_records" : "INT",
+  "page_number" : "INT"
 }

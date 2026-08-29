@@ -1,19 +1,18 @@
 {
-  "server_logs" : {
-    "transaction_trace" : {
-      "extracted_info" : {
-        "numberOfUserPositiveRecommendations" : "INT",
-        "averageStarRating" : "INT",
-        "numberOfUserReviews" : "INT",
-        "starRatingDistribution" : {
-          "5" : "INT",
-          "2" : "INT",
-          "3_data" : "INT",
-          "1" : "INT",
-          "v_4" : "INT"
-        },
-        "numberOfUserRecommendations" : "INT"
-      }
-    }
+  "name" : "STRING",
+  "v_shopUrl" : "URL",
+  "modelId" : "STRING",
+  "recordId" : "STRING",
+  "media" : {
+    "images" : [ {
+      "v_largeUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "type" : "STRING",
+      "orderNumber" : "INT",
+      "largeHdUrl_data" : "URL",
+      "mediumUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "v_smallUrl" : "URL"
+    } ]
   }
 }

@@ -1,41 +1,23 @@
 {
-  "v_address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "has_discount" : false,
-    "country" : "PII_LOCATION_COUNTRY",
-    "city" : "PII_LOCATION_CITY"
-  } ],
-  "temperature_c" : 585.61,
-  "telecom" : [ {
-    "auto_renew" : false,
-    "system_data" : "STRING",
-    "value" : "PII_EMAIL"
-  }, {
-    "use" : "STRING",
-    "value" : "PII_PHONE_NUMBER",
-    "conversion_rate" : 263.6,
-    "system" : "STRING"
-  } ],
-  "name" : [ {
-    "use" : "STRING",
-    "v_given" : [ "PII_PERSON_FIRST_NAME" ],
-    "v_family" : "PII_PERSON_LAST_NAME"
-  } ],
-  "identifier" : [ {
-    "type" : {
-      "text" : "STRING"
+  "data_data" : {
+    "name" : "PII_PERSON_NAME",
+    "v_url" : "URL",
+    "username" : "PII_USERNAME",
+    "description" : "STRING",
+    "protected" : "BOOLEAN",
+    "profile_image_url" : "",
+    "public_metrics" : {
+      "listed_count_data" : "INT",
+      "price" : 1701.32,
+      "followers_count" : "INT",
+      "tweet_count" : "INT",
+      "following_count_data" : "INT"
     },
-    "value" : "PII_NATIONAL_ID",
-    "stock_quantity" : 724,
-    "system_data" : "URL"
-  } ],
-  "id" : "STRING",
-  "resourceType" : "NULL",
-  "gender" : "STRING",
-  "birthDate_data" : "PII_DATE_OF_BIRTH",
-  "meta" : {
-    "cache_hit" : true,
-    "lastUpdated" : "DATETIME",
-    "versionId" : "INT"
-  }
+    "verified" : "BOOLEAN",
+    "auto_renew" : true,
+    "location" : "PII_LOCATION_CITY",
+    "id" : "STRING",
+    "created_at" : "DATETIME"
+  },
+  "cache_hit" : false
 }

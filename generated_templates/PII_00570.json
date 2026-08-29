@@ -1,33 +1,48 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "transactions_data" : {
-        "cache_hit" : true,
-        "booked" : [ {
-          "creditorAccount" : {
-            "iban" : "PII_IBAN"
-          },
-          "amount" : {
-            "currency" : "STRING",
-            "amount_data" : "DECIMAL"
-          },
-          "v_debtorAccount" : {
-            "v_iban" : "STRING",
-            "cpu_usage_percent" : 831.98
-          },
-          "recordId" : "STRING",
-          "bookingDate" : "DATE",
-          "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-          "v_valueDate" : "DATE",
-          "debtorName" : "STRING",
-          "name_val" : "PII_PERSON_NAME",
-          "bankTransactionCode_data" : {
-            "domain" : "STRING",
-            "subFamily" : "STRING",
-            "family_data" : "STRING"
-          }
-        } ]
-      }
-    }
-  }
+  "payer" : {
+    "v_payer_info" : {
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "v_birth_date" : "PII_DATE_OF_BIRTH",
+      "telephone" : "PII_PHONE_NUMBER",
+      "email" : "PII_EMAIL",
+      "payer_id" : "STRING",
+      "v_country_code" : "NULL",
+      "shipping_address" : {
+        "state" : "STRING",
+        "recipient_name" : "PII_PERSON_NAME",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "phone" : "PII_PHONE_NUMBER",
+        "postal_code" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "line1" : "PII_ADDRESS_LINE",
+        "v_line2" : "STRING"
+      },
+      "billing_address_data" : {
+        "v_city" : "PII_LOCATION_CITY",
+        "state_data" : "STRING",
+        "has_discount" : true,
+        "line1" : "PII_ADDRESS_LINE",
+        "country_code_data" : "PII_LOCATION_COUNTRY"
+      },
+      "auto_renew" : false,
+      "first_name" : "PII_PERSON_FIRST_NAME"
+    },
+    "status" : "STRING",
+    "payment_method" : "STRING",
+    "is_active" : true
+  },
+  "v_update_time" : "DATETIME",
+  "cart" : "STRING",
+  "create_time" : "NULL",
+  "identifier" : "STRING",
+  "state" : "STRING",
+  "transactions" : [ {
+    "description" : "STRING",
+    "cpu_usage_percent" : 71.92,
+    "amount" : {
+      "total" : "DECIMAL"
+    },
+    "invoice_number" : null
+  } ],
+  "intent" : "STRING"
 }

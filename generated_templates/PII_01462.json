@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "v_data" : {
+      "MAX_CONNECTIONS" : "STRING",
+      "SMTP_PORT" : "STRING",
+      "REDIS_HOST" : "STRING",
+      "v_LOG_LEVEL" : "STRING",
+      "DATABASE_HOST" : "STRING",
+      "SUPPORT_EMAIL" : "PII_EMAIL",
+      "REQUEST_TIMEOUT_MS" : "STRING",
+      "SMTP_HOST_data" : "STRING",
+      "REDIS_PORT" : "STRING",
+      "FEATURE_FLAG_NEW_CHECKOUT" : "STRING"
+    },
+    "configMapName" : "STRING",
+    "resourceVersion" : "NULL",
+    "clientName" : "NULL"
+  }
+}

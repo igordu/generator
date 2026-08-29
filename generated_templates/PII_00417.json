@@ -1,43 +1,23 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "v_gender" : "STRING",
-    "meta" : {
-      "lastUpdated" : "DATETIME",
-      "versionId" : "INT"
-    },
-    "has_discount" : true,
-    "v_resourceType" : "STRING",
-    "fullName" : [ {
-      "has_discount" : false,
-      "given" : [ "PII_PERSON_FIRST_NAME" ],
-      "use_data" : "STRING",
-      "family" : "PII_PERSON_LAST_NAME"
-    } ],
-    "birthDate" : "PII_DATE_OF_BIRTH",
-    "identifier" : [ {
-      "is_deleted" : true,
-      "v_value" : "PII_NATIONAL_ID",
-      "v_system" : "URL",
-      "v_use" : "STRING",
-      "type_data" : {
-        "text" : "STRING",
-        "conversion_rate" : 880.05
-      }
-    } ],
-    "telecom" : [ {
-      "system" : "STRING",
-      "value" : "PII_EMAIL"
-    }, {
-      "v_use" : "STRING",
-      "value" : "PII_PHONE_NUMBER"
-    } ],
-    "v_address" : [ {
-      "line" : [ "PII_ADDRESS_LINE" ],
-      "use" : "STRING",
-      "city" : "PII_LOCATION_CITY",
-      "country_data" : "PII_LOCATION_COUNTRY"
-    } ]
-  }
+  "v_MailingStreet" : "PII_ADDRESS_LINE",
+  "Birthdate_data" : "PII_DATE_OF_BIRTH",
+  "CreatedDate" : "DATETIME",
+  "Department_data" : "STRING",
+  "AccountId" : "STRING",
+  "OwnerId" : "STRING",
+  "AccountName" : "PII_COMPANY_NAME",
+  "IsDeleted_data" : "BOOLEAN",
+  "clientName" : "PII_PERSON_NAME",
+  "MailingState" : "STRING",
+  "MailingPostalCode" : "STRING",
+  "Phone" : "PII_PHONE_NUMBER",
+  "LastModifiedDate" : null,
+  "Title" : "STRING",
+  "v_MailingCountry" : "PII_LOCATION_COUNTRY",
+  "Email" : "PII_EMAIL",
+  "MailingCity" : "PII_LOCATION_CITY",
+  "Description_data" : "STRING",
+  "LastName" : "PII_PERSON_LAST_NAME",
+  "Id" : "STRING",
+  "MobilePhone" : "PII_PHONE_NUMBER"
 }

@@ -1,20 +1,24 @@
 {
-  "content" : [ {
-    "customerCountry_data" : "PII_LOCATION_COUNTRY",
-    "articleId" : "STRING",
-    "rating" : "INT",
-    "v_helpfulCount" : "INT",
-    "description" : "STRING",
-    "reviewId" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "unhelpfulCount" : "INT",
-    "recommend" : "BOOLEAN",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "language_data" : "",
-    "articleModelId" : "STRING",
-    "v_articleSizeRatings" : {
-      "OVERALL_data" : "INT",
-      "SHOE_WIDTH" : "INT"
-    }
-  } ]
+  "ticket" : {
+    "description_data" : "PII_FREE_TEXT",
+    "identifier" : "INT",
+    "subject" : "STRING",
+    "comments" : [ {
+      "requires_update" : true,
+      "created_at" : "DATETIME",
+      "id" : "INT",
+      "author_id" : "INT",
+      "v_body" : "PII_FREE_TEXT"
+    } ],
+    "status" : "STRING",
+    "tags" : [ "STRING" ],
+    "requester" : {
+      "conversion_rate" : 9.34,
+      "userName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    },
+    "price" : 897.08,
+    "assignee_id" : "INT",
+    "created_at" : "DATETIME"
+  }
 }

@@ -1,36 +1,12 @@
-[ {
-  "v_facets" : [ {
-    "key_data" : "STRING",
-    "count" : "INT"
-  }, {
-    "system_ping_ms" : 4724,
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING"
-  } ],
-  "filter" : "STRING"
-}, {
-  "cache_hit" : false,
-  "filter" : "STRING",
-  "facets_data" : [ {
-    "requires_update" : true,
-    "fullName" : "STRING",
-    "count" : "INT",
-    "key" : "STRING"
-  } ]
-}, {
-  "stock_quantity" : 2818,
-  "facets" : [ {
-    "count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "key" : "STRING",
-    "fullName" : "STRING",
-    "count" : "INT",
-    "requires_update" : true
-  } ],
-  "filter" : "STRING"
-} ]
+{
+  "v_last_run" : "DATETIME",
+  "last_status" : "STRING",
+  "v_connection" : {
+    "timeout_ms_data" : "INT",
+    "pool_size_data" : "NULL",
+    "retries" : "INT"
+  },
+  "v_service" : "STRING",
+  "v_log_line" : "TEXT",
+  "endpoint_data" : "URL"
+}

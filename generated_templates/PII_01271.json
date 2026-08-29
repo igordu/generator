@@ -1,69 +1,34 @@
-[ {
-  "conversion_rate" : 181.63,
-  "v_committer" : {
-    "primaryKey" : "INT",
-    "followers_url_data" : "URL",
-    "received_events_url" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "following_url" : "URL",
-    "starred_url" : "URL",
-    "gists_url_data" : "URL",
-    "type" : "STRING",
-    "identifier" : "STRING",
-    "events_url" : "URL",
-    "is_active" : false,
-    "v_login" : "STRING",
-    "subscriptions_url" : "URL",
-    "html_url" : "URL",
-    "organizations_url" : "URL",
-    "repos_url" : "URL",
-    "v_url" : "URL",
-    "avatar_url" : "URL"
-  },
-  "url" : "URL",
-  "commit" : {
-    "comment_count" : "INT",
-    "verification" : {
-      "signature" : "STRING",
-      "v_reason" : "STRING",
-      "verified_data" : "BOOLEAN",
-      "payload" : "STRING",
-      "response_time_sec" : 85.1
-    },
-    "tree" : {
-      "v_sha" : "STRING",
-      "retry_attempts" : 4880
-    },
-    "committer" : {
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    },
-    "author" : {
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "temperature_c" : 840.7,
-      "date" : "DATETIME"
-    },
-    "url" : "URL",
-    "v_message" : "PII_COMPANY_NAME"
-  },
-  "comments_url" : "URL",
-  "author" : {
-    "organizations_url" : "URL",
-    "login" : "STRING",
-    "starred_url" : "URL",
-    "id" : "INT",
-    "primaryKey" : "STRING",
-    "subscriptions_url" : "URL",
-    "v_followers_url" : "URL",
-    "repos_url" : "URL",
-    "price" : 45.82,
-    "html_url" : "URL",
-    "url" : "URL",
-    "node_id" : "STRING",
-    "events_url" : "URL",
-    "gists_url" : "URL"
-  },
-  "node_id" : "STRING"
-} ]
+{
+  "server_logs" : {
+    "transaction_trace" : {
+      "extracted_info" : {
+        "usage" : {
+          "storageGb" : "DECIMAL",
+          "activeUsers30d" : "INT"
+        },
+        "ssoEnabled" : "BOOLEAN",
+        "tenantId" : "STRING",
+        "billingEmail" : "PII_EMAIL",
+        "dataResidency" : "STRING",
+        "plan" : "STRING",
+        "v_status" : "STRING",
+        "price" : 4662.07,
+        "primaryContact" : {
+          "has_discount" : true,
+          "phone" : "PII_PHONE_NUMBER",
+          "email" : "PII_EMAIL",
+          "name" : "PII_PERSON_NAME"
+        },
+        "createdAt" : "DATETIME",
+        "subscription" : {
+          "is_active" : false,
+          "v_seatsUsed" : "NULL",
+          "mrr" : "DECIMAL",
+          "renewalDate" : "DATE",
+          "currency" : "STRING",
+          "seats" : "INT"
+        }
+      }
+    }
+  }
+}

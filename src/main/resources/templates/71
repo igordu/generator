@@ -1,0 +1,23 @@
+{
+  "notificationId": "STRING",
+  "type": "STRING",
+  "status": "STRING",
+  "sentAt": "DATETIME",
+  "deliveredAt": "DATETIME",
+  "recipient": {
+    "userId": "STRING",
+    "deviceToken": "STRING",
+    "platform": "STRING",
+    "appVersion": "STRING"
+  },
+  "notification": {
+    "title": "STRING",
+    "body": "STRING",
+    "data": {
+      "orderId": "STRING",
+      "deepLink": "URL"
+    }
+  },
+  "campaign": "NULL",
+  "retryCount": "INT"
+}

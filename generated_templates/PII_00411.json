@@ -1,39 +1,28 @@
 {
-  "address" : [ {
-    "v_line" : [ "PII_ADDRESS_LINE" ],
-    "city" : "PII_LOCATION_CITY",
-    "country" : "PII_LOCATION_COUNTRY",
-    "use" : "STRING"
-  } ],
-  "name" : [ {
-    "family" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING",
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "item_count" : 4556
-  } ],
-  "telecom" : [ {
-    "v_use" : "STRING",
-    "price" : 714.59,
-    "value" : "PII_PHONE_NUMBER",
-    "system" : "STRING"
-  }, {
-    "value" : "PII_EMAIL"
-  } ],
-  "id" : "STRING",
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "gender" : "STRING",
-  "identifier" : [ {
-    "v_value" : "PII_NATIONAL_ID",
-    "type" : {
-      "response_time_sec" : 149.02
-    },
-    "use" : "NULL",
-    "response_time_sec" : 637.26
-  } ],
-  "resourceType_data" : "STRING",
-  "meta" : {
-    "item_count" : 1503,
-    "versionId" : "INT",
-    "v_lastUpdated" : "DATETIME"
+  "data" : {
+    "fetchResource" : {
+      "v_MailingState" : "STRING",
+      "fullName" : "PII_COMPANY_NAME",
+      "telephone" : "PII_PHONE_NUMBER",
+      "price" : 9738.58,
+      "Phone" : "PII_PHONE_NUMBER",
+      "Email" : "PII_EMAIL",
+      "Title" : "STRING",
+      "IsDeleted" : "BOOLEAN",
+      "Birthdate_data" : "PII_DATE_OF_BIRTH",
+      "FirstName" : "PII_PERSON_FIRST_NAME",
+      "MailingCountry" : "PII_LOCATION_COUNTRY",
+      "OwnerId" : "STRING",
+      "Name" : "PII_PERSON_NAME",
+      "CreatedDate" : "DATETIME",
+      "Department" : "STRING",
+      "MailingPostalCode" : "STRING",
+      "LastModifiedDate" : "DATETIME",
+      "MailingCity" : "PII_LOCATION_CITY",
+      "MailingStreet" : "PII_ADDRESS_LINE",
+      "LastName" : "PII_PERSON_LAST_NAME",
+      "Id" : "STRING",
+      "AccountId" : "STRING"
+    }
   }
 }

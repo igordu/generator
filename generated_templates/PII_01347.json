@@ -1,13 +1,36 @@
 {
-  "is_active" : false,
-  "user_info_data" : {
-    "temperature_c" : 851.63,
-    "clientName" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "name_val" : "PII_COMPANY_NAME"
+  "requires_update" : false,
+  "v_employees" : "INT",
+  "industry" : "STRING",
+  "contracts_data" : [ {
+    "v_value" : "DECIMAL",
+    "currency_data" : "STRING",
+    "startDate_data" : "DATE",
+    "contractId" : "STRING",
+    "status_data" : "STRING",
+    "endDate" : "DATE",
+    "v_product" : "STRING"
+  } ],
+  "userName" : "PII_COMPANY_NAME",
+  "csm" : {
+    "name" : "PII_PERSON_NAME",
+    "id" : "STRING",
+    "email" : "PII_EMAIL"
   },
-  "tree" : {
-    "has_discount" : true,
-    "url" : "URL"
-  }
+  "billingAddress" : {
+    "street" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "discount_rate" : 19.5,
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "v_website" : "URL",
+  "annualRevenue" : "INT",
+  "accountId" : "STRING",
+  "primaryContact_data" : {
+    "email" : "PII_EMAIL",
+    "v_title" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "name" : "PII_PERSON_NAME"
+  },
+  "type" : "STRING"
 }

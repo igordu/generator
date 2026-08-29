@@ -1,0 +1,24 @@
+{
+  "audit_id": "STRING",
+  "service": "STRING",
+  "version": "STRING",
+  "event_type": "STRING",
+  "severity": "STRING",
+  "timestamp": "DATETIME",
+  "actor": {
+    "user_id": "STRING",
+    "username": "PII_USERNAME",
+    "email": "PII_EMAIL",
+    "ip_address": "PII_IP_ADDRESS",
+    "user_agent": "STRING"
+  },
+  "resource": {
+    "type": "STRING",
+    "id": "STRING",
+    "name": "STRING"
+  },
+  "outcome": "STRING",
+  "mfa_used": "BOOLEAN",
+  "session_id": "STRING",
+  "datacenter": "STRING"
+}

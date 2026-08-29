@@ -1,0 +1,49 @@
+{
+  "id": "PAY-7GH30918KK0024148",
+  "intent": "sale",
+  "state": "approved",
+  "cart": "5XK13254G3981002A",
+  "payer": {
+    "payment_method": "paypal",
+    "status": "VERIFIED",
+    "payer_info": {
+      "email": "buyer@example.com",
+      "first_name": "Daniel",
+      "last_name": "Nguyen",
+      "payer_id": "XYZPAYER123",
+      "phone": "5555551234",
+      "shipping_address": {
+        "recipient_name": "Daniel Nguyen",
+        "line1": "100 Main Street",
+        "line2": "Suite 200",
+        "city": "Chicago",
+        "state": "IL",
+        "postal_code": "60601",
+        "country_code": "US",
+        "phone": "5555551234"
+      },
+      "billing_address": {
+        "line1": "100 Main Street",
+        "city": "Chicago",
+        "state": "IL",
+        "postal_code": "60601",
+        "country_code": "US"
+      },
+      "birth_date": "1990-07-15",
+      "tax_id_type": "SSN",
+      "country_code": "US"
+    }
+  },
+  "transactions": [
+    {
+      "amount": {
+        "total": "89.99",
+        "currency": "USD"
+      },
+      "description": "Online purchase",
+      "invoice_number": "INV-2024-00321"
+    }
+  ],
+  "create_time": "2024-04-10T12:00:00Z",
+  "update_time": "2024-04-10T12:01:30Z"
+}

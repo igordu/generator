@@ -1,33 +1,37 @@
 {
-  "v_has_more" : "BOOLEAN",
-  "discount_rate" : 255.43,
-  "url" : "URL",
-  "data_data" : [ {
-    "description_data" : "STRING",
-    "v_invoice_settings" : {
-      "footer" : "STRING",
-      "default_payment_method" : "STRING",
-      "custom_fields" : "NULL",
-      "stock_quantity" : 4571,
-      "rendering_options" : "NULL"
+  "academicYear" : "STRING",
+  "program" : "STRING",
+  "financialAid" : {
+    "primaryKey" : "STRING",
+    "temperature_c" : -14.72,
+    "disbursedAt_data" : "DATE",
+    "currency" : "STRING"
+  },
+  "academicRecord" : {
+    "gpa" : "DECIMAL",
+    "advisor_data" : {
+      "clientName" : "PII_PERSON_NAME",
+      "emailAddress" : "PII_EMAIL"
     },
-    "shipping" : "NULL",
-    "metadata" : "OBJECT",
-    "next_invoice_sequence" : "INT",
-    "default_source" : "",
-    "http_status" : 3916,
-    "delinquent" : "BOOLEAN",
-    "name" : "PII_PERSON_NAME",
-    "balance" : "INT",
-    "phone" : "PII_PHONE_NUMBER",
-    "address" : "NULL",
+    "creditsCompleted" : "INT"
+  },
+  "address" : {
+    "street" : "PII_ADDRESS_LINE",
+    "country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "postcode" : "STRING"
+  },
+  "http_status" : 2899,
+  "personalInfo" : {
+    "personalEmail" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
     "email" : "PII_EMAIL",
-    "test_clock" : null,
-    "created_data" : "DATETIME_EPOCH",
-    "livemode" : "BOOLEAN",
-    "id" : "STRING",
-    "preferred_locales" : "ARRAY",
-    "currency" : "STRING",
-    "invoice_prefix" : "STRING"
-  } ]
+    "userName" : "PII_PERSON_LAST_NAME",
+    "gender" : "STRING",
+    "telephone" : "PII_PHONE_NUMBER"
+  },
+  "studentId" : "STRING"
 }

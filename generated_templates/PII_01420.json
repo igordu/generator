@@ -1,0 +1,33 @@
+{
+  "idToken" : {
+    "sub" : "STRING",
+    "stock_quantity" : 4084,
+    "phone_number" : "PII_PHONE_NUMBER",
+    "fullName" : "PII_PERSON_NAME",
+    "v_birthdate" : "PII_DATE_OF_BIRTH",
+    "email" : "PII_EMAIL",
+    "address" : {
+      "region" : "STRING",
+      "postal_code" : "STRING",
+      "street_address" : "PII_ADDRESS_LINE",
+      "locality_data" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY"
+    }
+  },
+  "issuedAt_data" : "NULL",
+  "scopes" : [ "STRING" ],
+  "grantId" : "STRING",
+  "grantType" : "STRING",
+  "emailAddress" : "PII_EMAIL",
+  "v_accessToken" : {
+    "type" : "STRING",
+    "v_expiresAt" : "DATETIME",
+    "jti" : "NULL"
+  },
+  "refreshToken_data" : {
+    "rotated" : "BOOLEAN",
+    "cache_hit" : false
+  },
+  "page_index" : 2492,
+  "clientId" : "STRING"
+}

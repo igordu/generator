@@ -1,13 +1,16 @@
 {
-  "numberOfUserReviews" : "INT",
-  "uuid" : "STRING",
+  "articleModelId" : "STRING",
+  "numberOfUserPositiveRecommendations" : "INT",
   "averageStarRating" : "INT",
-  "v_numberOfUserRecommendations" : "INT",
-  "v_starRatingDistribution" : {
-    "1" : "INT",
+  "auto_renew" : true,
+  "starRatingDistribution_data" : {
+    "conversion_rate" : 9.54,
+    "3" : "INT",
+    "2" : "INT",
     "4" : "INT",
-    "5" : "INT",
-    "v_2" : "INT"
+    "1" : "INT",
+    "5" : "NULL"
   },
-  "item_count" : 4756
+  "numberOfUserRecommendations" : "INT",
+  "numberOfUserReviews" : "INT"
 }

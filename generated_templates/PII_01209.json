@@ -1,71 +1,28 @@
-[ {
-  "commit" : {
-    "verification" : {
-      "v_verified_at" : "DATETIME",
-      "reason" : "STRING",
-      "temperature_c" : 935.09,
-      "signature" : null,
-      "payload" : "STRING"
-    },
-    "author" : {
-      "email" : "PII_EMAIL",
-      "userName" : "PII_PERSON_NAME",
-      "http_status" : 4215,
-      "date" : "DATETIME"
-    },
-    "v_url" : "URL",
-    "message_data" : "PII_COMPANY_NAME",
-    "committer_data" : {
-      "contactEmail" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    },
-    "tree_data" : {
-      "sha_data" : "STRING",
-      "url" : "URL"
+{
+  "system_state" : {
+    "request_context" : {
+      "raw_data" : {
+        "v_version" : "STRING",
+        "dataSubject" : {
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+          "email" : "PII_EMAIL",
+          "country" : "PII_LOCATION_COUNTRY",
+          "id" : "STRING",
+          "lastName" : "PII_PERSON_LAST_NAME"
+        },
+        "withdrawnAt" : "NULL",
+        "purposes" : [ {
+          "stock_quantity" : 4198,
+          "id" : "STRING",
+          "v_granted" : "BOOLEAN",
+          "fullName" : "STRING",
+          "grantedAt" : "DATETIME"
+        } ],
+        "recordId" : "STRING",
+        "legalBasis" : "STRING",
+        "v_collectedAt" : "DATETIME"
+      }
     }
-  },
-  "url" : "URL",
-  "html_url" : "URL",
-  "comments_url" : "URL",
-  "v_author" : {
-    "gists_url" : "URL",
-    "following_url" : "URL",
-    "starred_url" : "URL",
-    "v_avatar_url" : "URL",
-    "organizations_url" : "URL",
-    "followers_url" : "URL",
-    "type" : "STRING",
-    "site_admin" : "BOOLEAN",
-    "id" : "INT",
-    "repos_url" : "URL",
-    "subscriptions_url" : "URL",
-    "events_url_data" : "URL",
-    "node_id" : "STRING",
-    "received_events_url_data" : "URL",
-    "html_url" : "URL"
-  },
-  "node_id" : "STRING",
-  "committer" : {
-    "following_url" : "URL",
-    "recordId" : "STRING",
-    "organizations_url" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "followers_url_data" : "URL",
-    "avatar_url" : "URL",
-    "v_url" : "URL",
-    "login" : "STRING",
-    "received_events_url_data" : "URL",
-    "html_url" : "URL",
-    "page_index" : 2504,
-    "gravatar_id" : "STRING",
-    "v_starred_url" : "URL",
-    "gists_url_data" : "URL",
-    "repos_url" : "URL"
-  },
-  "v_sha" : "STRING",
-  "parents" : [ {
-    "is_active" : false,
-    "sha" : "STRING",
-    "v_url" : "URL"
-  } ]
-} ]
+  }
+}

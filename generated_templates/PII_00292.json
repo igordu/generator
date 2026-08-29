@@ -1,83 +1,32 @@
 {
-  "offset" : "INT",
-  "next" : "STRING",
-  "href_data" : "STRING",
-  "prev" : "STRING",
-  "v_transactions" : [ {
-    "transactionStatus_data" : "STRING",
-    "transactionId" : "STRING",
-    "orderLineItems_data" : [ {
-      "lineItemId" : "STRING",
-      "v_marketplaceFees" : [ {
-        "amount" : {
-          "value" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "currency_data" : null
-        },
-        "feeType" : "STRING",
-        "v_feeJurisdiction" : {
-          "v_regionType" : "STRING",
-          "http_status" : 3762,
-          "regionName" : "STRING"
-        }
-      } ],
-      "price" : 134.89,
-      "feeBasisAmount" : {
-        "currency_data" : "STRING",
-        "value" : "",
-        "convertedFromCurrency" : "STRING",
-        "exchangeRate" : "STRING",
-        "convertedFromValue" : "STRING"
-      }
-    } ],
-    "v_transactionMemo" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "stock_quantity" : 1201
+  "url" : "URL",
+  "data" : [ {
+    "phone" : "PII_PHONE_NUMBER",
+    "livemode" : "BOOLEAN",
+    "object" : "STRING",
+    "test_clock" : "NULL",
+    "default_source" : "STRING",
+    "invoice_prefix" : "STRING",
+    "next_invoice_sequence_data" : "INT",
+    "fullName" : "PII_PERSON_NAME",
+    "address" : "NULL",
+    "balance" : "INT",
+    "email" : "PII_EMAIL",
+    "currency" : "STRING",
+    "id" : "STRING",
+    "created" : "DATETIME_EPOCH",
+    "invoice_settings" : {
+      "custom_fields" : "NULL",
+      "v_default_payment_method" : "STRING",
+      "footer" : null,
+      "rendering_options_data" : "NULL"
     },
-    "payoutId" : "STRING",
-    "v_totalFeeBasisAmount" : {
-      "exchangeRate" : "STRING",
-      "convertedFromCurrency_data" : "STRING",
-      "convertedFromValue" : "STRING",
-      "value" : "STRING"
-    },
-    "conversion_rate" : 0.85,
-    "v_bookingEntry" : "STRING",
-    "paymentsEntity_data" : "STRING",
-    "v_references" : [ {
-      "identifier" : "STRING",
-      "http_status" : 348
-    } ],
-    "salesRecordReference" : "STRING",
-    "v_transactionType" : "STRING",
-    "feeType" : "STRING",
-    "transactionDate" : "DATETIME",
-    "amount" : {
-      "v_currency" : "STRING",
-      "value" : "STRING",
-      "convertedFromValue" : "STRING",
-      "page_index" : 2300,
-      "convertedFromCurrency" : "STRING",
-      "exchangeRate" : "STRING"
-    },
-    "v_buyer" : {
-      "username" : "PII_USERNAME",
-      "page_index" : 3922
-    },
-    "v_totalFeeAmount" : {
-      "convertedFromCurrency_data" : "STRING",
-      "convertedFromValue" : "STRING",
-      "exchangeRate" : "STRING",
-      "currency_data" : "STRING",
-      "temperature_c" : 340.79
-    },
-    "feeJurisdiction_data" : {
-      "regionType" : "STRING",
-      "regionName" : "STRING"
-    }
+    "shipping_data" : null,
+    "tax_exempt_data" : "STRING",
+    "v_preferred_locales" : "ARRAY",
+    "description" : "STRING"
   } ],
-  "total" : "INT",
-  "v_limit" : "INT"
+  "retry_attempts" : 4232,
+  "v_has_more" : "BOOLEAN",
+  "object" : "STRING"
 }

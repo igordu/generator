@@ -1,0 +1,25 @@
+{
+  "account": {
+    "id": "STRING",
+    "object": "STRING",
+    "business_profile": {
+      "name": "PII_COMPANY_NAME",
+      "support_email": "PII_EMAIL",
+      "support_phone": "PII_PHONE_NUMBER",
+      "url": "URL",
+      "mcc": "STRING"
+    },
+    "capabilities": {
+      "card_payments": "STRING",
+      "transfers": "STRING"
+    },
+    "charges_enabled": "BOOLEAN",
+    "country": "PII_LOCATION_COUNTRY",
+    "created": "DATETIME_EPOCH",
+    "default_currency": "STRING",
+    "details_submitted": "BOOLEAN",
+    "email": "PII_EMAIL",
+    "payouts_enabled": "BOOLEAN",
+    "type": "STRING"
+  }
+}

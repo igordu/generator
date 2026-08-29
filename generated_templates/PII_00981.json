@@ -1,34 +1,41 @@
 {
-  "stock_quantity" : 2483,
-  "data_data" : [ {
-    "object" : "STRING",
-    "tax_exempt_data" : "STRING",
-    "livemode" : "BOOLEAN",
-    "phone" : "PII_PHONE_NUMBER",
-    "id" : "STRING",
-    "invoice_settings" : {
-      "temperature_c" : 117.49,
-      "footer" : "STRING",
-      "custom_fields" : "NULL",
-      "default_payment_method" : "STRING",
-      "rendering_options" : "NULL"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "personalInfo_data" : {
+      "fullName" : "PII_PERSON_LAST_NAME",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "gender" : "STRING",
+      "passportNumber" : "PII_NATIONAL_ID",
+      "personalEmail" : "PII_EMAIL",
+      "contactEmail" : "PII_EMAIL",
+      "nationality" : "PII_LOCATION_COUNTRY",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "phone" : "PII_PHONE_NUMBER"
     },
-    "balance" : "INT",
-    "v_delinquent" : "BOOLEAN",
-    "shipping" : "NULL",
-    "address" : "NULL",
-    "next_invoice_sequence" : "INT",
-    "created_data" : "DATETIME_EPOCH",
-    "name" : "PII_PERSON_NAME",
-    "test_clock" : "NULL",
-    "v_preferred_locales" : "ARRAY",
-    "default_source" : "STRING",
-    "metadata_data" : "OBJECT",
-    "v_description" : "STRING",
-    "invoice_prefix" : "STRING",
-    "email" : "PII_EMAIL"
-  } ],
-  "has_more" : "BOOLEAN",
-  "object" : "STRING",
-  "url_data" : "URL"
+    "v_address" : {
+      "temperature_c" : 1.18,
+      "city" : "PII_LOCATION_CITY",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "v_street" : "PII_ADDRESS_LINE"
+    },
+    "identifier" : "STRING",
+    "financialAid" : {
+      "uuid" : "STRING",
+      "currency" : "STRING",
+      "v_disbursedAt" : "DATE"
+    },
+    "academicYear" : "STRING",
+    "enrollmentStatus" : "STRING",
+    "academicRecord" : {
+      "creditsCompleted" : "INT",
+      "gpa" : "DECIMAL",
+      "advisor_data" : {
+        "email" : "PII_EMAIL",
+        "name" : "PII_PERSON_NAME"
+      }
+    }
+  }
 }

@@ -1,4 +1,29 @@
 {
-  "emailAddress" : [ "STRING" ],
-  "cpu_usage_percent" : 899.16
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "createdBy" : "STRING",
+    "name" : "STRING",
+    "actions" : [ {
+      "config" : {
+        "responseCode" : "INT",
+        "discount_rate" : 31.98,
+        "keyBy" : "STRING",
+        "requestsPerMinute" : "INT"
+      },
+      "type" : "STRING"
+    } ],
+    "ruleId" : "STRING",
+    "updatedAt_data" : "DATETIME",
+    "auto_renew" : false,
+    "conditions" : [ {
+      "v_operator" : "STRING",
+      "field" : "STRING"
+    } ],
+    "description" : "STRING",
+    "v_priority" : "INT",
+    "createdAt" : "DATETIME"
+  }
 }

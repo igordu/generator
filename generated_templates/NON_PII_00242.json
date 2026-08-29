@@ -1,48 +1,28 @@
 [ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "v_count" : "INT",
-    "is_deleted" : true
-  }, {
-    "name_val" : "STRING",
-    "v_key" : "STRING",
-    "count" : "INT"
-  } ],
-  "requires_update" : false
+  "recordId" : "STRING",
+  "depreciationExpenseAccountId" : null,
+  "assetTypeId" : "STRING",
+  "clientName" : "",
+  "bookDepreciationSetting_data" : {
+    "v_depreciationMethod" : "STRING",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "v_depreciableObjectType" : "STRING",
+    "depreciationRate" : "DECIMAL",
+    "depreciationCalculationMethod" : "STRING",
+    "averagingMethod" : "STRING",
+    "uuid" : "STRING"
+  },
+  "fixedAssetAccountId" : "STRING",
+  "taxDepreciationSettings" : "ARRAY",
+  "lockPrivateUseAccount_data" : "BOOLEAN",
+  "locks" : "INT"
 }, {
-  "facets" : [ {
-    "key_data" : "STRING",
-    "count" : "INT",
-    "displayName" : "NULL"
-  }, {
-    "stock_quantity" : 2232,
-    "count_data" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "cache_hit" : true
-  } ],
-  "filter" : "STRING"
-}, {
-  "retry_attempts" : 1935,
-  "facets_data" : [ {
-    "displayName" : "STRING",
-    "v_count" : "INT",
-    "temperature_c" : 177.58,
-    "key" : "STRING"
-  }, {
-    "name_val" : "STRING",
-    "count" : "INT",
-    "v_key" : "STRING"
-  }, {
-    "count" : "INT",
-    "cache_hit" : false,
-    "displayName" : "STRING",
-    "key_data" : "STRING"
-  } ],
-  "filter" : "NULL"
+  "locks" : "INT",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "cpu_usage_percent" : 8.59,
+  "taxDepreciationSettings" : "NULL",
+  "accumulatedDepreciationAccountId" : "NULL",
+  "assetTypeName" : "STRING",
+  "depreciationExpenseAccountId" : "STRING",
+  "recordId" : "STRING"
 } ]

@@ -1,15 +1,20 @@
 {
-  "discount_rate" : 424.39,
-  "articleModelId" : "STRING",
-  "starRatingDistribution" : {
-    "3_data" : "INT",
-    "1" : "INT",
-    "5" : "INT",
-    "2_data" : "INT",
-    "v_4" : "INT"
-  },
-  "numberOfUserRecommendations" : "NULL",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "numberOfUserReviews" : "INT",
-  "averageStarRating" : "INT"
+  "shopUrl" : "URL",
+  "modelId" : "STRING",
+  "id" : "STRING",
+  "clientName" : "NULL",
+  "media" : {
+    "images" : [ {
+      "mediumHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "retry_attempts" : 3025,
+      "orderNumber_data" : "INT",
+      "v_smallHdUrl" : "URL",
+      "mediumUrl" : "URL",
+      "v_type" : "NULL",
+      "v_largeUrl" : "URL",
+      "smallUrl" : "URL"
+    } ],
+    "discount_rate" : 44.8
+  }
 }

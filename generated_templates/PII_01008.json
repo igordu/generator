@@ -1,14 +1,39 @@
 {
-  "v_fingerprint" : "STRING",
-  "currency" : "",
-  "country" : "STRING",
-  "status_data" : "STRING",
-  "account_holder_type" : "STRING",
-  "object" : "STRING",
-  "bank_name" : "STRING",
-  "routing_number_data" : "STRING",
-  "id" : "STRING",
-  "temperature_c" : 255.01,
-  "v_customer" : "STRING",
-  "clientName" : "PII_PERSON_NAME"
+  "candidateId" : "STRING",
+  "candidate" : {
+    "resumeUrl" : "URL",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "v_address" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "city" : "PII_LOCATION_CITY",
+      "postalCode" : "STRING",
+      "street" : "PII_ADDRESS_LINE"
+    },
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "linkedIn" : "URL",
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "position_data" : {
+    "department" : "STRING",
+    "location" : "PII_LOCATION_CITY",
+    "recordId" : "STRING",
+    "title" : "STRING"
+  },
+  "source_data" : "STRING",
+  "status" : "STRING",
+  "item_count" : 2253,
+  "interviews" : [ {
+    "scheduledAt" : "DATETIME",
+    "interviewer" : {
+      "response_time_sec" : 1.11,
+      "email" : "PII_EMAIL",
+      "fullName" : "PII_PERSON_NAME"
+    },
+    "round" : "INT",
+    "type" : "STRING"
+  } ],
+  "appliedAt" : "DATETIME",
+  "updatedAt" : ""
 }

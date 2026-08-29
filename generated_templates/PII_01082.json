@@ -1,15 +1,45 @@
 {
-  "status_data" : "STRING",
-  "stock_quantity" : 4687,
-  "identifier" : "STRING",
-  "bank_name" : "STRING",
-  "fingerprint" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "account_type" : "NULL",
-  "routing_number" : "STRING",
-  "country_data" : "STRING",
-  "last4" : "STRING",
-  "customer" : "",
-  "object" : "STRING",
-  "currency" : "STRING"
+  "http_status" : 4639,
+  "estimatedDelivery_data" : "DATE",
+  "parcels_data" : [ {
+    "weight" : {
+      "value" : "DECIMAL"
+    },
+    "response_time_sec" : 0.15,
+    "dimensions" : {
+      "height" : "INT",
+      "unit" : "STRING",
+      "identifier" : "INT",
+      "v_length" : "INT"
+    },
+    "primaryKey" : "STRING"
+  } ],
+  "trackingNumber" : "STRING",
+  "events" : [ {
+    "timestamp" : "DATETIME",
+    "status" : "STRING",
+    "location" : "PII_LOCATION_CITY"
+  } ],
+  "v_status" : "STRING",
+  "sender" : {
+    "address" : "PII_ADDRESS_LINE",
+    "clientName" : "PII_COMPANY_NAME",
+    "page_index" : 3889,
+    "contactEmail" : "PII_EMAIL"
+  },
+  "carrier" : "STRING",
+  "deliveryId" : "STRING",
+  "v_recipient" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "userName" : "PII_PERSON_NAME",
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "item_count" : 1184,
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "v_postalCode" : "NULL"
+    },
+    "email" : "PII_EMAIL",
+    "deliveryInstructions" : "STRING"
+  }
 }

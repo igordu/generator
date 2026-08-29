@@ -1,19 +1,36 @@
 {
-  "id" : "STRING",
-  "media" : {
-    "images" : [ {
-      "type" : "STRING",
-      "orderNumber" : "INT",
-      "mediumHdUrl" : "URL",
-      "v_smallUrl" : "URL",
-      "mediumUrl" : null,
-      "system_ping_ms" : 2842,
-      "thumbnailHdUrl" : null,
-      "largeUrl" : "URL"
-    } ],
-    "discount_rate" : 767.31
+  "name" : "STRING",
+  "category" : "STRING",
+  "attributes" : {
+    "weight_g" : "INT",
+    "noiseCancel_data" : "BOOLEAN",
+    "batteryLifeHours" : "INT",
+    "item_count" : 737,
+    "v_color" : "STRING",
+    "foldable" : "BOOLEAN",
+    "v_connectivity" : "STRING"
   },
-  "cache_hit" : false,
-  "modelId" : "STRING",
-  "shopUrl_data" : "URL"
+  "updatedAt" : "DATETIME",
+  "brand" : "STRING",
+  "inventory" : {
+    "availableStock" : "INT",
+    "totalStock" : "INT",
+    "reservedStock" : "INT",
+    "lowStockThreshold" : "INT",
+    "backorderAllowed" : ""
+  },
+  "pricing" : {
+    "taxClass" : "STRING",
+    "currency_data" : "STRING",
+    "salePrice" : "DECIMAL",
+    "basePrice" : "DECIMAL",
+    "requires_update" : false
+  },
+  "v_images" : [ {
+    "discount_rate" : 46.43,
+    "v_isPrimary" : "BOOLEAN"
+  } ],
+  "status" : "STRING",
+  "createdAt" : "DATETIME",
+  "sku" : "STRING"
 }

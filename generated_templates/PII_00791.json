@@ -1,34 +1,33 @@
 {
-  "v_page_size" : "INT",
-  "cpu_usage_percent" : 807.6,
-  "page_count" : "INT",
-  "registrants" : [ {
+  "total_amount" : "NULL",
+  "v_status" : "STRING",
+  "payment_status" : "STRING",
+  "currency" : "STRING",
+  "line_items" : [ {
+    "total" : "INT",
+    "quantity" : "INT",
     "id" : "STRING",
-    "city" : "PII_LOCATION_CITY",
-    "purchasing_time_frame_data" : "STRING",
-    "v_comments" : "STRING",
-    "join_url" : "",
-    "email" : "PII_EMAIL",
-    "zip" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "v_status" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY",
-    "job_title" : "STRING",
-    "address" : "PII_ADDRESS_LINE",
-    "role_in_purchase_process" : "STRING",
-    "custom_questions" : [ {
-      "title" : "STRING",
-      "requires_update" : true,
-      "value" : "STRING"
-    }, {
-      "title" : "STRING",
-      "value" : "STRING",
-      "requires_update" : true
-    } ],
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "org" : "PII_ORGANIZATION_NAME",
-    "state" : "PII_LOCATION_STATE",
-    "first_name" : "PII_PERSON_FIRST_NAME"
+    "conversion_rate" : 4.18,
+    "v_unit_price" : "INT",
+    "title_data" : "STRING"
   } ],
-  "total_records" : "INT"
+  "priority_level" : 1836,
+  "customer" : {
+    "email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME",
+    "uuid" : "STRING",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "shipping_address_data" : {
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "zip" : "STRING",
+    "city_data" : "PII_LOCATION_CITY",
+    "v_address_1" : "PII_ADDRESS_LINE",
+    "country_code" : "PII_LOCATION_COUNTRY",
+    "province_code" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME"
+  },
+  "updated_at" : "DATETIME",
+  "identifier" : "STRING",
+  "v_created_at" : "DATETIME"
 }

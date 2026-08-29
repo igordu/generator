@@ -1,22 +1,67 @@
 {
-  "v_content" : [ {
-    "articleSizeRatings" : {
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "INT"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "status" : "STRING",
+    "cache_hit" : false,
+    "userId" : "STRING",
+    "v_businessAccount" : {
+      "secondaryPhone" : {
+        "number_data" : "PII_PHONE_NUMBER",
+        "countryCode" : "STRING",
+        "phoneType" : "STRING",
+        "requires_update" : false
+      },
+      "email" : "PII_EMAIL",
+      "address_data" : {
+        "addressLine2" : "STRING",
+        "country" : "STRING",
+        "stateOrProvince" : "STRING",
+        "postalCode" : "STRING",
+        "addressLine1" : "STRING",
+        "has_discount" : true,
+        "county" : "STRING",
+        "city_data" : "STRING"
+      },
+      "userName" : "PII_ORGANIZATION_NAME",
+      "website" : "URL",
+      "primaryContact" : {
+        "firstName" : "PII_PERSON_NAME",
+        "stock_quantity" : 3195,
+        "lastName" : "PII_PERSON_NAME"
+      },
+      "doingBusinessAs" : "STRING",
+      "cell" : {
+        "mobile" : "STRING",
+        "response_time_sec" : 10.51,
+        "countryCode" : "NULL",
+        "number_data" : "PII_PHONE_NUMBER"
+      }
     },
-    "helpfulCount" : "INT",
-    "rating" : "INT",
-    "reviewId" : "NULL",
-    "articleModelId" : "STRING",
-    "v_unhelpfulCount" : "INT",
-    "language_data" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "recommend_data" : "BOOLEAN",
-    "v_description" : "STRING",
-    "customerCity" : "PII_LOCATION_CITY",
-    "discount_rate" : 215.15,
-    "title" : "PII_COMPANY_NAME",
-    "created" : "DATETIME"
-  } ],
-  "item_count" : 2296
+    "name_val" : "PII_USERNAME",
+    "individualAccount" : {
+      "v_registrationAddress" : {
+        "postalCode" : "STRING",
+        "county_data" : "STRING",
+        "stateOrProvince" : "STRING",
+        "requires_update" : false,
+        "addressLine1" : "STRING",
+        "city" : "STRING"
+      },
+      "mail" : "PII_EMAIL",
+      "primaryPhone" : {
+        "mobile" : "NULL",
+        "cache_hit" : false,
+        "v_countryCode" : "STRING",
+        "number" : "PII_PHONE_NUMBER"
+      },
+      "firstName" : "PII_PERSON_NAME",
+      "lastName" : "PII_PERSON_NAME",
+      "secondaryPhone" : {
+        "phoneType" : "STRING",
+        "countryCode" : "STRING",
+        "number" : "PII_PHONE_NUMBER"
+      }
+    }
+  }
 }

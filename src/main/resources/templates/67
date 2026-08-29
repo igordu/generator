@@ -1,0 +1,14 @@
+{
+  "migrationId": "STRING",
+  "name": "STRING",
+  "version": "STRING",
+  "status": "STRING",
+  "appliedAt": "DATETIME",
+  "appliedBy": "STRING",
+  "database": "STRING",
+  "schema": "STRING",
+  "checksum": "STRING",
+  "executionTimeMs": "INT",
+  "statementsExecuted": "INT",
+  "rollbackAvailable": "BOOLEAN"
+}

@@ -1,38 +1,35 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "data" : [ {
-      "balance" : "INT",
-      "v_invoice_settings" : {
-        "v_rendering_options" : "NULL",
-        "footer_data" : "STRING",
-        "v_default_payment_method" : "STRING",
-        "priority_level" : 756,
-        "custom_fields" : "NULL"
-      },
-      "delinquent" : "BOOLEAN",
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "claimId" : "STRING",
+    "description" : "STRING",
+    "v_claimType" : "STRING",
+    "v_policyHolder" : {
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
       "phone" : "PII_PHONE_NUMBER",
-      "v_default_source" : "STRING",
-      "invoice_prefix" : "STRING",
-      "tax_exempt" : "STRING",
-      "v_created" : "DATETIME_EPOCH",
-      "shipping" : "NULL",
-      "address" : "NULL",
-      "description" : "STRING",
-      "uuid" : "STRING",
-      "test_clock_data" : "NULL",
-      "next_invoice_sequence_data" : "INT",
-      "v_preferred_locales" : "ARRAY",
-      "livemode" : "BOOLEAN",
-      "currency_data" : "STRING",
-      "name" : "PII_PERSON_NAME",
+      "fullName" : "PII_PERSON_LAST_NAME",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "v_address" : {
+        "country" : "PII_LOCATION_COUNTRY",
+        "city" : "PII_LOCATION_CITY",
+        "street" : "PII_ADDRESS_LINE",
+        "retry_attempts" : 3226,
+        "state" : "STRING"
+      },
+      "auto_renew" : false,
       "email" : "PII_EMAIL"
-    } ],
-    "discount_rate" : 773.48,
-    "has_more_data" : "BOOLEAN",
-    "object" : "STRING"
+    },
+    "policyNumber" : "STRING",
+    "cpu_usage_percent" : 58.78,
+    "status_data" : "STRING",
+    "incidentDate" : "DATE",
+    "adjuster" : {
+      "email" : "PII_EMAIL",
+      "system_ping_ms" : 4521,
+      "name" : "PII_PERSON_NAME",
+      "id" : "STRING"
+    },
+    "reportedDate" : "DATE"
   }
 }

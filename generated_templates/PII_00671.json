@@ -1,37 +1,73 @@
 {
-  "DateTimeUTC" : "DATETIME",
-  "v_Employees" : [ {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "requires_update" : false,
-      "v_Description" : "",
-      "Url" : "URL"
+  "Worker_ID" : "STRING",
+  "Personal_Data" : {
+    "Name_Data" : {
+      "fullName" : {
+        "Name_Detail_Data" : {
+          "Last_Name" : "PII_PERSON_LAST_NAME",
+          "Middle_Name" : "PII_PERSON_FIRST_NAME",
+          "First_Name" : "PII_PERSON_FIRST_NAME",
+          "page_index" : 3284
+        },
+        "http_status" : 3082
+      }
     },
-    "UpdatedDateUTC" : "DATETIME",
-    "v_Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "UpdatedDateUTC" : "DATETIME",
-    "Status" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "primaryKey" : "STRING",
-    "ExternalLink" : {
-      "Description_data" : "STRING",
-      "v_Url" : "URL"
+    "Identification_Data" : {
+      "Birth_Date_data" : "PII_DATE_OF_BIRTH",
+      "National_ID_Data" : [ {
+        "uuid" : {
+          "identifier" : "NULL",
+          "is_deleted" : false
+        },
+        "v_Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        },
+        "National_ID" : "PII_NATIONAL_ID"
+      } ]
     },
-    "cpu_usage_percent" : 55.54,
-    "clientName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "v_UpdatedDateUTC" : "DATETIME",
-    "userName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "Url" : "NULL"
-    },
-    "Status" : null,
-    "primaryKey" : "STRING"
-  } ],
-  "Id" : "STRING",
-  "Status" : "STRING",
-  "ProviderName" : "STRING"
+    "Contact_Data" : {
+      "Phone_Data" : [ {
+        "Phone_Number" : "PII_PHONE_NUMBER",
+        "Phone_Device_Type_Reference" : {
+          "http_status" : 212,
+          "WID" : "STRING"
+        },
+        "is_deleted" : true
+      } ],
+      "Email_Address_Data" : [ {
+        "priority_level" : 1621,
+        "primary_email" : "PII_EMAIL"
+      } ],
+      "Address_Data" : [ {
+        "Address_Line_Data" : [ {
+          "Type" : "STRING",
+          "content" : "PII_ADDRESS_LINE"
+        } ],
+        "temperature_c" : 14.87,
+        "Postal_Code" : "STRING",
+        "Usage_Data" : {
+          "Type_Data" : [ {
+            "Type_Reference" : { },
+            "has_discount" : false
+          } ]
+        },
+        "v_Municipality" : "PII_LOCATION_CITY",
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code_data" : "PII_LOCATION_COUNTRY"
+        }
+      } ]
+    }
+  },
+  "Employment_Data" : {
+    "Worker_Job_Data" : {
+      "Position_Data" : {
+        "Business_Title" : "STRING",
+        "Position_ID" : "STRING",
+        "Job_Title" : "STRING",
+        "Start_Date" : "DATE"
+      },
+      "temperature_c" : 13.94
+    }
+  },
+  "discount_rate" : 19.7
 }

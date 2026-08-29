@@ -1,29 +1,30 @@
-[ {
-  "v_filter" : "STRING",
-  "conversion_rate" : 49.08,
-  "facets" : [ {
-    "has_discount" : false,
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "count_data" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "v_count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "auto_renew" : true
-  } ]
-}, {
-  "filter" : "NULL",
-  "facets" : [ {
-    "count_data" : "INT",
-    "displayName" : "STRING",
-    "cpu_usage_percent" : 528.15,
-    "key" : "STRING"
-  }, {
-    "v_key" : "STRING"
-  } ]
-} ]
+{
+  "severity" : "STRING",
+  "message" : "TEXT",
+  "v_timestamp" : "DATETIME",
+  "hostname" : "STRING",
+  "region" : "STRING",
+  "v_http" : {
+    "path_data" : "URL",
+    "v_method" : "STRING",
+    "is_deleted" : false,
+    "latency_ms" : "INT",
+    "status_code_data" : "INT"
+  },
+  "event_type" : "STRING",
+  "kubernetes_data" : {
+    "node" : "STRING",
+    "pod_name" : null,
+    "namespace" : "STRING",
+    "container_id" : "STRING"
+  },
+  "source_service" : "STRING",
+  "target_service" : "STRING",
+  "details" : [ {
+    "conversion_rate" : 1.63,
+    "outcome" : "STRING",
+    "log_line" : "TEXT"
+  } ],
+  "trace_id" : "STRING",
+  "event_id" : "STRING"
+}

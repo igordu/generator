@@ -1,0 +1,17 @@
+{
+  "startedAt" : "DATETIME",
+  "stages" : [ {
+    "v_status" : "STRING",
+    "conversion_rate" : 8.55,
+    "coverage" : "DECIMAL"
+  } ],
+  "branch" : "STRING",
+  "finishedAt" : "DATETIME",
+  "status" : "STRING",
+  "repository" : "STRING",
+  "triggeredBy" : "PII_EMAIL",
+  "pipelineId" : "STRING",
+  "artifactDigest" : "STRING",
+  "v_commit" : "STRING",
+  "v_environment" : "STRING"
+}

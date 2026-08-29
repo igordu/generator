@@ -1,60 +1,33 @@
 {
-  "limit" : "INT",
-  "offset" : "INT",
-  "prev" : "STRING",
-  "transactions" : [ {
-    "v_transactionType" : "STRING",
-    "amount" : {
-      "convertedFromValue" : "",
-      "exchangeRate" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING"
-    },
-    "references" : [ {
-      "referenceType" : "STRING",
-      "referenceId" : "STRING"
-    } ],
-    "uuid" : "STRING",
-    "v_transactionMemo" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "currency" : "STRING",
-      "convertedFromCurrency" : "",
-      "value" : "STRING",
-      "exchangeRate" : "STRING",
-      "convertedFromValue" : "STRING"
-    },
-    "payoutId" : "NULL",
-    "orderId" : "STRING",
-    "totalFeeBasisAmount" : {
-      "currency" : "STRING",
-      "exchangeRate" : "STRING",
-      "convertedFromValue" : "STRING",
-      "value" : "STRING",
-      "convertedFromCurrency" : "STRING"
-    },
-    "bookingEntry" : "STRING",
-    "buyer" : {
-      "username" : "PII_USERNAME",
-      "is_active" : true
-    },
-    "feeJurisdiction" : {
-      "regionType" : "STRING"
-    },
-    "totalFeeAmount" : {
-      "v_currency" : "STRING",
-      "exchangeRate" : "STRING",
-      "value" : "",
-      "convertedFromValue" : "NULL",
-      "v_convertedFromCurrency" : "STRING",
-      "discount_rate" : 909.7
-    },
-    "transactionStatus" : "STRING",
-    "paymentsEntity_data" : "STRING",
-    "salesRecordReference" : "STRING",
-    "feeType" : "STRING",
-    "transactionDate" : "DATETIME"
+  "data" : [ {
+    "description_data" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "tax_exempt" : "STRING",
+    "v_default_source" : "STRING",
+    "delinquent" : "BOOLEAN",
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER",
+    "test_clock" : "NULL",
+    "object" : "STRING",
+    "livemode" : "BOOLEAN",
+    "preferred_locales" : "ARRAY",
+    "discount_rate" : 56.94,
+    "v_metadata" : "OBJECT",
+    "balance" : "INT",
+    "id" : "STRING",
+    "next_invoice_sequence_data" : "INT",
+    "created" : "DATETIME_EPOCH",
+    "address" : "NULL",
+    "invoice_prefix_data" : "STRING",
+    "invoice_settings_data" : {
+      "custom_fields" : "",
+      "v_default_payment_method" : "STRING",
+      "rendering_options" : "",
+      "footer" : "STRING",
+      "system_ping_ms" : 282
+    }
   } ],
-  "next" : "STRING",
-  "href" : "STRING",
-  "total" : "INT"
+  "has_more" : "BOOLEAN",
+  "object" : "STRING",
+  "url_data" : "URL"
 }

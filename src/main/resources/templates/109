@@ -1,0 +1,32 @@
+{
+  "event_id": "STRING",
+  "event_type": "STRING",
+  "severity": "STRING",
+  "source_service": "STRING",
+  "target_service": "STRING",
+  "hostname": "STRING",
+  "region": "STRING",
+  "trace_id": "STRING",
+  "span_id": "STRING",
+  "message": "TEXT",
+  "http": {
+    "method": "STRING",
+    "status_code": "INT",
+    "path": "URL",
+    "latency_ms": "INT"
+  },
+  "kubernetes": {
+    "namespace": "STRING",
+    "pod_name": "STRING",
+    "container_id": "STRING",
+    "node": "STRING"
+  },
+  "timestamp": "DATETIME",
+  "details": [
+    {
+      "step": "STRING",
+      "outcome": "STRING",
+      "log_line": "TEXT"
+    }
+  ]
+}

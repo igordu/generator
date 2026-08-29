@@ -1,17 +1,27 @@
-[ {
-  "name" : "STRING",
-  "key" : "STRING",
-  "style_data" : "NULL",
-  "is_active" : true,
-  "id" : "STRING",
-  "self_data" : "",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
+{
+  "role" : "STRING",
+  "jvmMemory" : {
+    "gcPauseMs_data" : "INT",
+    "v_heapUsedMb" : "INT",
+    "stock_quantity" : 3865,
+    "heapMaxMb" : "INT"
   },
-  "avatarUrls" : {
-    "24x24_data" : "URL",
-    "32x32" : "URL",
-    "48x48" : "URL"
-  }
-} ]
+  "metrics_data" : {
+    "bytesOutPerSec" : "INT",
+    "activeControllerCount" : "",
+    "underReplicatedPartitions" : "INT",
+    "messagesInPerSec" : "INT",
+    "bytesInPerSec" : "INT",
+    "offlinePartitionsCount_data" : "INT",
+    "is_deleted" : false,
+    "requestHandlerAvgIdlePercent" : "DECIMAL"
+  },
+  "version" : "STRING",
+  "topics" : [ {
+    "partitions" : "INT"
+  } ],
+  "status" : "STRING",
+  "nodeId" : "STRING",
+  "uptimeSeconds_data" : "INT",
+  "identifier" : "STRING"
+}

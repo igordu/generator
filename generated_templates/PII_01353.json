@@ -1,10 +1,39 @@
 {
-  "user_info" : {
-    "requires_update" : true,
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "userName" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  "name" : "PII_COMPANY_NAME",
+  "v_type" : "STRING",
+  "v_billingAddress" : {
+    "postalCode" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "street" : "PII_ADDRESS_LINE",
+    "country" : "PII_LOCATION_COUNTRY",
+    "is_deleted" : false
   },
-  "price" : 3.86,
-  "active" : "BOOLEAN"
+  "accountId" : "STRING",
+  "csm" : {
+    "id" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "item_count" : 258,
+  "v_primaryContact" : {
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "title" : null,
+    "phone" : "PII_PHONE_NUMBER",
+    "discount_rate" : 49.55
+  },
+  "employees_data" : "INT",
+  "industry_data" : "STRING",
+  "contracts" : [ {
+    "status" : "STRING",
+    "contractId" : "STRING",
+    "product" : "STRING",
+    "value" : "DECIMAL",
+    "v_startDate" : "DATE",
+    "has_discount" : false,
+    "endDate" : "DATE",
+    "v_currency" : null
+  } ],
+  "annualRevenue_data" : "INT",
+  "v_website" : "URL"
 }

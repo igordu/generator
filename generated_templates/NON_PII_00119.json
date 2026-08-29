@@ -1,20 +1,24 @@
 {
-  "media" : {
-    "v_images" : [ {
-      "mediumUrl_data" : "",
-      "type" : "STRING",
-      "largeUrl" : "URL",
-      "smallHdUrl_data" : "URL",
-      "v_smallUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "largeHdUrl_data" : "URL",
-      "mediumHdUrl" : "URL",
-      "discount_rate" : 221.52
-    } ]
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "id" : "STRING",
-  "shopUrl_data" : "URL",
-  "modelId" : "STRING",
-  "name" : "STRING",
-  "retry_attempts" : 319
+  "results" : [ {
+    "key" : "STRING",
+    "primaryKey" : "STRING",
+    "projectCategory" : {
+      "primaryKey" : "STRING",
+      "name" : "STRING",
+      "description" : null
+    },
+    "style" : "STRING",
+    "name" : "STRING",
+    "self" : "URL",
+    "simplified" : "BOOLEAN",
+    "insight" : {
+      "lastIssueUpdateTime_data" : "DATETIME",
+      "discount_rate" : 25.17,
+      "totalIssueCount_data" : "INT"
+    }
+  } ]
 }

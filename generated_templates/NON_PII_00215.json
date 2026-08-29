@@ -1,25 +1,34 @@
-[ {
-  "facets_data" : [ {
-    "v_count" : "INT",
-    "displayName" : "",
-    "key" : "STRING"
-  }, {
-    "count" : "INT",
-    "item_count" : 3133,
-    "key" : "STRING"
-  }, {
-    "key" : "STRING",
-    "temperature_c" : 713.65,
-    "count" : "INT",
-    "displayName" : "STRING"
-  } ],
-  "filter" : "STRING"
-}, {
-  "v_facets" : [ {
-    "count" : "INT",
-    "key_data" : "STRING",
-    "displayName" : "STRING"
-  } ],
-  "requires_update" : false,
-  "filter" : "STRING"
-} ]
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "timestamp" : "DATETIME",
+    "http" : {
+      "path" : "URL",
+      "latency_ms" : "INT",
+      "status_code" : "INT",
+      "method" : "STRING"
+    },
+    "details" : [ {
+      "v_outcome" : "STRING",
+      "step" : "STRING",
+      "log_line" : "TEXT",
+      "is_deleted" : false
+    } ],
+    "trace_id" : "STRING",
+    "kubernetes" : {
+      "fullName" : "STRING",
+      "node" : "STRING"
+    },
+    "v_event_type" : "NULL",
+    "target_service" : "STRING",
+    "message" : "TEXT",
+    "response_time_sec" : 1.69,
+    "span_id" : "STRING",
+    "source_service" : "STRING",
+    "region" : "STRING",
+    "event_id" : "STRING",
+    "name_val" : "STRING",
+    "severity" : "STRING"
+  }
+}

@@ -1,46 +1,37 @@
-[ {
-  "style_data" : "STRING",
-  "primaryKey" : "STRING",
-  "v_projectCategory" : {
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "durationSeconds" : "INT",
+    "v_destination" : {
+      "table" : "STRING",
+      "item_count" : 2951,
+      "dataset_data" : "STRING",
+      "type_data" : "STRING",
+      "project_data" : "STRING"
+    },
+    "completedAt" : "DATETIME",
+    "scheduledAt" : "DATETIME",
+    "status" : "STRING",
     "name" : "STRING",
-    "self_data" : "URL",
-    "description_data" : "STRING"
-  },
-  "simplified" : "BOOLEAN",
-  "is_active" : false,
-  "avatarUrls" : {
-    "stock_quantity" : 1641,
-    "v_16x16" : "URL",
-    "24x24" : "URL",
-    "48x48" : "URL"
-  },
-  "key" : "STRING",
-  "name" : "STRING",
-  "v_insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME",
-    "is_active" : false
+    "nextRunAt_data" : "DATETIME",
+    "triggeredBy" : "STRING",
+    "stats" : {
+      "recordsSkipped" : "INT",
+      "bytesTransferred" : "INT",
+      "recordsWritten" : "INT",
+      "recordsRead" : "INT"
+    },
+    "v_source" : {
+      "database" : "STRING",
+      "host" : "STRING",
+      "type" : "STRING",
+      "table" : "STRING"
+    },
+    "taskId" : "STRING",
+    "startedAt" : "DATETIME",
+    "v_type" : "STRING"
   }
-}, {
-  "price" : 397.53,
-  "self" : "URL",
-  "style" : "NULL",
-  "simplified" : "BOOLEAN",
-  "id" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "v_projectCategory" : {
-    "self" : "URL",
-    "name" : "STRING",
-    "v_description" : "NULL",
-    "identifier" : "STRING"
-  },
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "32x32" : "URL",
-    "48x48" : "URL"
-  },
-  "key" : "STRING"
-} ]
+}

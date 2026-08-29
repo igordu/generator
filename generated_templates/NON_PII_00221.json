@@ -1,38 +1,29 @@
-[ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "name_val" : "STRING",
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "key" : "STRING",
-    "displayName" : "NULL",
-    "count" : "INT"
+{
+  "message_data" : "TEXT",
+  "source_service" : "STRING",
+  "target_service" : "STRING",
+  "trace_id" : "STRING",
+  "kubernetes" : {
+    "pod_name" : "STRING",
+    "namespace" : "STRING",
+    "price" : 7455.58,
+    "identifier" : "STRING",
+    "node" : "STRING"
+  },
+  "region" : "STRING",
+  "event_type" : "STRING",
+  "hostname" : "STRING",
+  "v_severity" : "STRING",
+  "timestamp" : "DATETIME",
+  "http_data" : {
+    "status_code" : "INT",
+    "path" : "URL",
+    "priority_level" : 207
+  },
+  "event_id" : "STRING",
+  "v_details" : [ {
+    "outcome" : "STRING",
+    "step" : "STRING",
+    "v_log_line" : "TEXT"
   } ]
-}, {
-  "facets" : [ {
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "key_data" : "STRING",
-    "name_val" : "STRING",
-    "count" : "INT"
-  } ],
-  "filter" : "STRING",
-  "discount_rate" : 166.35
-}, {
-  "facets" : [ {
-    "count_data" : "INT",
-    "http_status" : 4393,
-    "key" : "STRING",
-    "clientName" : "STRING"
-  }, {
-    "v_count" : "INT",
-    "clientName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "key" : "STRING",
-    "count" : "INT"
-  } ],
-  "filter" : "STRING"
-} ]
+}

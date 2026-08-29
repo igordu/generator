@@ -1,19 +1,68 @@
 {
-  "cpu_usage_percent" : 222.34,
-  "content" : [ {
-    "title_data" : "PII_COMPANY_NAME",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "primaryKey" : "STRING",
-    "description" : "STRING",
-    "language" : "STRING",
-    "v_rating" : "",
-    "reviewId" : "STRING",
-    "customerCity" : "PII_LOCATION_CITY",
-    "articleId" : "STRING",
-    "has_discount" : false,
-    "v_created" : "DATETIME",
-    "recommend" : "NULL",
-    "v_unhelpfulCount" : "INT",
-    "helpfulCount" : "INT"
-  } ]
+  "recordId" : {
+    "registrationAddress_data" : {
+      "addressLine2" : "STRING",
+      "price" : 8896.97,
+      "stateOrProvince" : "STRING",
+      "country" : "STRING",
+      "postalCode_data" : "STRING",
+      "city" : "STRING",
+      "addressLine1" : "STRING",
+      "county" : "STRING"
+    },
+    "lastName" : "PII_PERSON_NAME",
+    "firstName" : "PII_PERSON_NAME",
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "phoneType" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "cpu_usage_percent" : 77.76
+    },
+    "email" : "PII_EMAIL",
+    "telephone" : {
+      "cache_hit" : true,
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    }
+  },
+  "accountType" : "STRING",
+  "stock_quantity" : 2500,
+  "status" : "STRING",
+  "registrationMarketplaceId" : "STRING",
+  "uuid" : "STRING",
+  "username" : "PII_USERNAME",
+  "businessAccount" : {
+    "email" : "PII_EMAIL",
+    "name" : "PII_ORGANIZATION_NAME",
+    "website_data" : "NULL",
+    "address" : {
+      "v_addressLine1" : "STRING",
+      "addressLine2" : "STRING",
+      "stateOrProvince" : "NULL",
+      "v_county" : "STRING",
+      "v_postalCode" : "STRING",
+      "v_country" : "STRING",
+      "city" : "STRING"
+    },
+    "v_doingBusinessAs" : "STRING",
+    "primaryContact_data" : {
+      "lastName" : "PII_PERSON_NAME",
+      "priority_level" : 897,
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "requires_update" : true,
+      "v_number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
+    },
+    "stock_quantity" : 3939,
+    "secondaryPhone" : {
+      "countryCode" : "STRING",
+      "phoneType" : "STRING",
+      "has_discount" : false,
+      "number" : "PII_PHONE_NUMBER"
+    }
+  }
 }

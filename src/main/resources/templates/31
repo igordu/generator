@@ -1,0 +1,48 @@
+{
+  "id": "STRING",
+  "intent": "STRING",
+  "state": "STRING",
+  "cart": "STRING",
+  "payer": {
+    "payment_method": "STRING",
+    "status": "STRING",
+    "payer_info": {
+      "email": "PII_EMAIL",
+      "first_name": "PII_PERSON_FIRST_NAME",
+      "last_name": "PII_PERSON_LAST_NAME",
+      "payer_id": "STRING",
+      "phone": "PII_PHONE_NUMBER",
+      "shipping_address": {
+        "recipient_name": "PII_PERSON_NAME",
+        "line1": "PII_ADDRESS_LINE",
+        "line2": "STRING",
+        "city": "PII_LOCATION_CITY",
+        "state": "STRING",
+        "postal_code": "STRING",
+        "country_code": "PII_LOCATION_COUNTRY",
+        "phone": "PII_PHONE_NUMBER"
+      },
+      "billing_address": {
+        "line1": "PII_ADDRESS_LINE",
+        "city": "PII_LOCATION_CITY",
+        "state": "STRING",
+        "postal_code": "STRING",
+        "country_code": "PII_LOCATION_COUNTRY"
+      },
+      "birth_date": "PII_DATE_OF_BIRTH",
+      "country_code": "STRING"
+    }
+  },
+  "transactions": [
+    {
+      "amount": {
+        "total": "DECIMAL",
+        "currency": "STRING"
+      },
+      "description": "STRING",
+      "invoice_number": "STRING"
+    }
+  ],
+  "create_time": "DATETIME",
+  "update_time": "DATETIME"
+}

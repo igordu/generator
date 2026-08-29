@@ -1,27 +1,25 @@
 {
-  "stock_quantity" : 1306,
-  "has_more" : "BOOLEAN",
-  "object_data" : "STRING",
-  "url" : "URL",
-  "data" : [ {
-    "v_preferred_locales" : "ARRAY",
-    "invoice_prefix" : "STRING",
-    "address" : "NULL",
-    "currency" : "STRING",
-    "default_source_data" : "STRING",
-    "test_clock" : "NULL",
-    "created" : "DATETIME_EPOCH",
+  "event_type" : "STRING",
+  "actor" : {
+    "ip_address" : "PII_IP_ADDRESS",
+    "cache_hit" : false,
+    "user_agent" : "STRING",
+    "primaryKey" : "STRING",
+    "userName" : "PII_USERNAME",
+    "email" : "PII_EMAIL"
+  },
+  "outcome" : "STRING",
+  "timestamp" : "NULL",
+  "version" : "STRING",
+  "resource" : {
+    "name" : "STRING",
     "id" : "STRING",
-    "email" : "PII_EMAIL",
-    "livemode" : "BOOLEAN",
-    "next_invoice_sequence" : "INT",
-    "description" : "STRING",
-    "shipping" : "NULL",
-    "name" : "PII_PERSON_NAME",
-    "temperature_c" : 573.38,
-    "phone" : "PII_PHONE_NUMBER",
-    "metadata_data" : "OBJECT",
-    "v_object" : "STRING",
-    "balance" : "INT"
-  } ]
+    "v_type" : "STRING"
+  },
+  "mfa_used" : "BOOLEAN",
+  "severity" : "STRING",
+  "datacenter" : "STRING",
+  "service" : "STRING",
+  "audit_id" : "STRING",
+  "identifier" : "STRING"
 }

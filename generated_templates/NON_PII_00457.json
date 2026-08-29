@@ -1,3 +1,17 @@
 {
-  "clientToken_data" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "createdAt" : "DATETIME",
+      "namespace" : "STRING",
+      "auto_renew" : false,
+      "region" : "STRING",
+      "cacheKey" : "STRING",
+      "hits" : "INT",
+      "value" : {
+        "userId" : "STRING",
+        "roles" : [ "STRING" ],
+        "is_active" : false
+      }
+    }
+  }
 }

@@ -1,12 +1,32 @@
 {
-  "user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "conversion_rate" : 934.38,
-    "arline__name" : "PII_COMPANY_NAME"
+  "defaultBranch_data" : "STRING",
+  "pullRequest" : {
+    "updatedAt_data" : "DATETIME",
+    "state" : "STRING",
+    "changedFiles" : "INT",
+    "reviewers_data" : [ {
+      "login" : "PII_USERNAME",
+      "discount_rate" : 72.25,
+      "fullName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "createdAt_data" : "DATETIME",
+    "additions" : "INT",
+    "headBranch_data" : "STRING",
+    "v_author" : {
+      "email" : "PII_EMAIL",
+      "name_val" : "PII_PERSON_NAME",
+      "login_data" : "PII_USERNAME"
+    },
+    "title" : "STRING",
+    "deletions" : "INT",
+    "baseBranch_data" : "STRING",
+    "page_index" : 4601,
+    "id" : "INT"
   },
-  "tree" : {
-    "requires_update" : true
-  },
-  "page_index" : 1379
+  "uuid" : "STRING",
+  "name" : "NULL",
+  "language" : "STRING",
+  "v_private" : "BOOLEAN",
+  "clientName" : "STRING"
 }

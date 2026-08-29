@@ -1,45 +1,23 @@
-[ {
-  "name" : "STRING",
-  "key" : "STRING",
-  "simplified" : "BOOLEAN",
-  "projectCategory" : {
-    "description" : "STRING",
-    "name" : "STRING",
-    "self" : "URL",
-    "id" : "STRING"
-  },
-  "insight_data" : {
-    "totalIssueCount" : "INT"
-  },
-  "self_data" : null,
-  "avatarUrls" : {
-    "retry_attempts" : 3240,
-    "16x16" : "URL",
-    "24x24" : "URL",
-    "32x32" : "URL",
-    "48x48" : "URL"
-  },
-  "style_data" : "STRING",
-  "id" : "STRING",
-  "http_status" : 4631
-}, {
-  "v_key" : "STRING",
-  "name" : "STRING",
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "v_totalIssueCount" : "INT",
-    "priority_level" : 958
-  },
-  "system_ping_ms" : 4703,
-  "v_simplified" : "BOOLEAN",
-  "v_avatarUrls" : {
-    "v_48x48" : "URL",
-    "16x16" : "URL",
-    "v_32x32" : "URL",
-    "is_active" : true,
-    "24x24" : "URL"
-  },
-  "style" : "STRING",
-  "self" : "URL",
-  "id" : ""
-} ]
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "messages_data" : [ {
+      "timestamp" : "DATETIME",
+      "content_data" : "STRING",
+      "role" : "STRING"
+    } ],
+    "usage_data" : {
+      "inputTokens" : "INT",
+      "page_index" : 4826
+    },
+    "createdAt" : "DATETIME",
+    "cpu_usage_percent" : 34.89,
+    "metadata_data" : {
+      "sessionId" : "STRING",
+      "agentId" : "STRING"
+    },
+    "recordId" : "STRING",
+    "model" : "STRING"
+  }
+}

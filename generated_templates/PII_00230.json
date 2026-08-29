@@ -1,51 +1,43 @@
 {
-  "transactions" : [ {
-    "payoutId" : "STRING",
-    "transactionId" : "STRING",
-    "totalFeeAmount" : {
-      "v_value" : "STRING",
-      "exchangeRate_data" : "STRING",
-      "convertedFromValue" : "STRING",
-      "v_convertedFromCurrency" : "STRING"
-    },
-    "feeJurisdiction" : {
-      "regionName" : "STRING",
-      "regionType" : "STRING"
-    },
-    "eBayCollectedTaxAmount" : {
-      "convertedFromValue_data" : "STRING",
-      "currency" : "STRING",
-      "value" : "STRING",
-      "convertedFromCurrency_data" : "STRING",
-      "exchangeRate" : "STRING"
-    },
-    "transactionType" : "STRING",
-    "bookingEntry" : "STRING",
-    "v_salesRecordReference" : "STRING",
-    "totalFeeBasisAmount" : {
-      "v_exchangeRate" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "currency" : "STRING",
-      "convertedFromValue_data" : "STRING",
-      "is_active" : false
-    },
-    "paymentsEntity" : "STRING",
-    "feeType_data" : "STRING",
-    "auto_renew" : false,
-    "buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "references" : [ {
-      "primaryKey" : "STRING",
-      "cpu_usage_percent" : 569.28,
-      "v_referenceType" : "STRING"
-    } ],
-    "transactionMemo" : "STRING"
-  } ],
-  "total" : "INT",
-  "next" : "STRING",
-  "href" : "STRING",
-  "limit" : "INT",
-  "cache_hit" : false,
-  "offset" : "INT"
+  "data" : {
+    "fetchResource" : {
+      "Status" : "STRING",
+      "Employees" : [ {
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "v_ExternalLink" : {
+          "Description" : "STRING",
+          "system_ping_ms" : 2423
+        },
+        "uuid" : "",
+        "LastName" : "PII_PERSON_LAST_NAME",
+        "UpdatedDateUTC_data" : "DATETIME",
+        "Status" : "STRING",
+        "auto_renew" : true
+      }, {
+        "UpdatedDateUTC" : "DATETIME",
+        "EmployeeID" : "STRING",
+        "v_ExternalLink" : {
+          "cache_hit" : false,
+          "Url" : "URL",
+          "Description" : "STRING"
+        },
+        "item_count" : 998,
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "v_Status" : "STRING",
+        "LastName" : "PII_PERSON_LAST_NAME"
+      }, {
+        "ExternalLink" : {
+          "v_Url" : "URL"
+        },
+        "FirstName" : "PII_PERSON_FIRST_NAME",
+        "UpdatedDateUTC" : "DATETIME",
+        "Status_data" : "STRING",
+        "LastName" : "PII_PERSON_LAST_NAME",
+        "cpu_usage_percent" : 96.13
+      } ],
+      "ProviderName" : "STRING",
+      "DateTimeUTC_data" : "DATETIME",
+      "uuid" : "STRING"
+    }
+  }
 }

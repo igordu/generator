@@ -1,14 +1,37 @@
 {
-  "fingerprint" : "STRING",
-  "routing_number" : null,
-  "metadata" : null,
-  "account_type" : "STRING",
-  "country" : "STRING",
-  "id" : "STRING",
-  "v_customer" : "STRING",
-  "account_holder_type" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "v_object" : "STRING",
-  "bank_name" : "STRING",
-  "status_data" : "STRING"
+  "applicant" : {
+    "monthlyIncome" : "DECIMAL",
+    "cache_hit" : false,
+    "employmentStatus" : "STRING",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "nationalId" : "PII_NATIONAL_ID",
+    "employer_data" : "PII_COMPANY_NAME",
+    "address" : {
+      "is_deleted" : false,
+      "v_city" : "PII_LOCATION_CITY",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE"
+    },
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "v_creditScore" : "INT",
+  "bankAccount" : {
+    "v_iban" : "PII_IBAN",
+    "bankName" : "PII_COMPANY_NAME",
+    "branchCode_data" : "STRING"
+  },
+  "status" : "STRING",
+  "loanDetails" : {
+    "currency" : "STRING",
+    "is_deleted" : true,
+    "type" : "STRING",
+    "requestedAt_data" : "DATETIME",
+    "requestedAmount_data" : "DECIMAL",
+    "termMonths" : "INT",
+    "purpose" : "NULL"
+  },
+  "response_time_sec" : 19.03
 }

@@ -1,18 +1,27 @@
 {
-  "server_logs" : {
-    "event_data" : {
-      "extracted_info" : {
-        "tree_data" : {
-          "url_data" : "URL"
-        },
-        "active" : "BOOLEAN",
-        "http_status" : 3172,
-        "user_info" : {
-          "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-          "arline__name" : "PII_COMPANY_NAME",
-          "family-name-male" : "PII_LAST_NAME_MALE"
-        }
-      }
-    }
-  }
+  "v_completedAt" : "DATETIME",
+  "requestedBy" : "PII_EMAIL",
+  "downloadUrl" : "URL",
+  "dataSubject" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "country" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "has_discount" : true,
+    "id" : "STRING"
+  },
+  "dataCategories" : [ "STRING" ],
+  "expiresAt" : "DATETIME",
+  "requestedAt_data" : "DATETIME",
+  "handledBy" : {
+    "price" : 1569.59,
+    "email" : "PII_EMAIL",
+    "agentId" : "STRING"
+  },
+  "deliveredVia_data" : "STRING",
+  "legalBasis_data" : "STRING",
+  "reportId" : "STRING",
+  "requires_update" : false,
+  "status_data" : "STRING"
 }

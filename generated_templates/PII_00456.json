@@ -1,37 +1,39 @@
 {
-  "name" : [ {
-    "family" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING",
-    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  "lastLoginTime_data" : "DATETIME",
+  "recoveryPhone" : "PII_PHONE_NUMBER",
+  "orgUnitPath" : "STRING",
+  "id" : "STRING",
+  "creationTime" : "DATETIME",
+  "agreedToTerms" : "BOOLEAN",
+  "customerId" : "",
+  "v_suspended" : "BOOLEAN",
+  "primaryEmail" : "PII_EMAIL",
+  "changePasswordAtNextLogin_data" : "BOOLEAN",
+  "archived" : "BOOLEAN",
+  "addresses" : [ {
+    "country" : "PII_LOCATION_COUNTRY",
+    "locality" : "PII_LOCATION_CITY",
+    "region" : "STRING",
+    "price" : 4201.92,
+    "type" : "STRING",
+    "streetAddress_data" : "PII_ADDRESS_LINE",
+    "postalCode" : "STRING"
   } ],
-  "v_meta" : {
-    "primaryKey" : "INT",
-    "lastUpdated" : "DATETIME"
+  "isAdmin_data" : "BOOLEAN",
+  "name" : {
+    "fullName" : "PII_PERSON_NAME",
+    "givenName" : "PII_PERSON_FIRST_NAME",
+    "name_val" : "PII_PERSON_LAST_NAME"
   },
-  "gender_data" : "STRING",
-  "address" : [ {
-    "use" : "STRING",
-    "v_country" : "PII_LOCATION_COUNTRY",
-    "city" : "PII_LOCATION_CITY",
-    "line" : [ "PII_ADDRESS_LINE" ]
+  "isDelegatedAdmin_data" : "BOOLEAN",
+  "contactEmail" : "PII_EMAIL",
+  "emails" : [ {
+    "address_data" : "PII_EMAIL",
+    "primary" : "BOOLEAN"
   } ],
-  "identifier" : [ {
-    "value" : "PII_NATIONAL_ID",
-    "v_use" : "STRING",
-    "system_data" : "URL",
-    "type" : {
-      "text" : "STRING"
-    }
-  } ],
-  "telecom" : [ {
-    "value" : "PII_EMAIL"
-  }, {
-    "value_data" : "PII_PHONE_NUMBER",
-    "system" : "STRING",
-    "cache_hit" : true,
-    "use" : "STRING"
-  } ],
-  "resourceType" : "STRING",
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "uuid" : "STRING"
+  "isMailboxSetup" : "BOOLEAN",
+  "phones" : [ {
+    "v_value" : "PII_PHONE_NUMBER",
+    "type" : "STRING"
+  } ]
 }

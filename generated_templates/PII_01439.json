@@ -1,0 +1,32 @@
+{
+  "system_state" : {
+    "transaction_trace" : {
+      "debug_payload" : {
+        "eventType_data" : "STRING",
+        "payload" : {
+          "phone" : "PII_PHONE_NUMBER",
+          "ipAddress" : "PII_IP_ADDRESS",
+          "lastName" : "PII_PERSON_LAST_NAME",
+          "userName" : "PII_PERSON_FIRST_NAME",
+          "has_discount" : true,
+          "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+          "userId" : "NULL",
+          "country" : "PII_LOCATION_COUNTRY",
+          "email" : "PII_EMAIL"
+        },
+        "v_version" : "STRING",
+        "occurredAt" : "DATETIME",
+        "recordId" : "STRING",
+        "item_count" : 50,
+        "uuid" : "STRING",
+        "metadata" : {
+          "v_schemaVersion" : "STRING",
+          "v_offset" : "INT",
+          "partition" : "INT",
+          "stock_quantity" : 3382
+        },
+        "producer" : "STRING"
+      }
+    }
+  }
+}

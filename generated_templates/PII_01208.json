@@ -1,67 +1,23 @@
-[ {
-  "v_commit" : {
-    "tree" : {
-      "v_sha" : "STRING",
-      "cpu_usage_percent" : 605.97,
-      "url" : "URL"
-    },
-    "page_index" : 2972,
-    "author_data" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "url" : "URL",
-    "committer_data" : {
-      "is_deleted" : false,
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL"
-    },
-    "comment_count" : "INT"
+{
+  "retentionDays" : "",
+  "collectedAt" : "DATETIME",
+  "legalBasis" : "STRING",
+  "consentId" : "STRING",
+  "version" : "STRING",
+  "dataSubject" : {
+    "userName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "country" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "id" : "STRING"
   },
-  "comments_url" : "URL",
-  "auto_renew" : false,
-  "v_author" : {
-    "v_gists_url" : "URL",
-    "recordId" : "STRING",
-    "type" : "STRING",
-    "received_events_url" : "URL",
-    "starred_url" : "URL",
-    "subscriptions_url" : "URL",
-    "html_url" : "URL",
-    "v_login" : "STRING",
-    "avatar_url" : "URL",
-    "url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "v_events_url" : "URL",
-    "followers_url" : "URL",
-    "organizations_url" : "URL",
-    "repos_url" : "URL",
-    "is_active" : false
-  },
-  "url" : "NULL",
-  "node_id" : "STRING",
-  "v_committer" : {
-    "url" : "URL",
-    "starred_url" : "URL",
-    "type" : "STRING",
-    "repos_url" : "URL",
-    "followers_url" : "URL",
-    "gravatar_id" : "STRING",
-    "html_url" : "URL",
-    "id" : "INT",
-    "v_following_url" : "URL",
-    "organizations_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "gists_url" : "URL",
-    "login" : "STRING",
-    "subscriptions_url_data" : "URL",
-    "avatar_url" : "URL"
-  },
-  "v_html_url" : "URL",
-  "parents" : [ {
-    "sha" : "STRING",
-    "url_data" : "URL"
-  } ]
-} ]
+  "purposes" : [ {
+    "stock_quantity" : 1261,
+    "name" : "STRING",
+    "v_granted" : "BOOLEAN",
+    "grantedAt_data" : "DATETIME",
+    "id" : "STRING"
+  } ],
+  "withdrawnAt" : "NULL"
+}

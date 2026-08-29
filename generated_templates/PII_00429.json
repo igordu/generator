@@ -1,35 +1,45 @@
 {
-  "resourceType_data" : "STRING",
-  "is_active" : true,
-  "identifier" : [ {
-    "v_type" : {
-      "http_status" : 2400,
-      "text" : "STRING"
+  "lastName" : {
+    "v_preferredLocale" : {
+      "price" : 351.77,
+      "country_data" : "STRING",
+      "language" : "STRING"
     },
-    "use" : "STRING",
-    "system" : "URL",
-    "value" : "PII_NATIONAL_ID"
+    "localized_data" : {
+      "http_status" : 4363,
+      "en_US" : "PII_PERSON_LAST_NAME"
+    }
+  },
+  "vanityName" : "PII_USERNAME",
+  "location" : {
+    "country" : {
+      "price" : 2755.15,
+      "v_code" : "PII_LOCATION_COUNTRY"
+    }
+  },
+  "headline" : {
+    "localized" : {
+      "en_US" : "STRING"
+    }
+  },
+  "firstName" : {
+    "localized" : {
+      "en_US_data" : "PII_PERSON_FIRST_NAME",
+      "page_index" : 4126
+    },
+    "system_ping_ms" : 381,
+    "preferredLocale" : {
+      "language" : "STRING"
+    }
+  },
+  "id" : "STRING",
+  "contactNumber" : [ {
+    "type" : "STRING",
+    "number" : "PII_PHONE_NUMBER"
   } ],
-  "name" : [ {
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "family" : "PII_PERSON_LAST_NAME",
-    "requires_update" : false,
-    "use_data" : "STRING"
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "gender" : "STRING",
-  "telecom" : [ {
-    "system" : "STRING",
-    "value" : "PII_PHONE_NUMBER",
-    "use" : "STRING"
-  }, {
-    "system" : "STRING",
-    "value" : "PII_EMAIL"
-  } ],
-  "address" : [ {
-    "v_line" : [ "PII_ADDRESS_LINE" ],
-    "page_index" : 1071,
-    "v_city" : "PII_LOCATION_CITY",
-    "country" : "PII_LOCATION_COUNTRY"
-  } ]
+  "birthDate" : {
+    "day" : "INT",
+    "v_month" : "NULL"
+  },
+  "emailAddress" : "PII_EMAIL"
 }

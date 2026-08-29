@@ -1,30 +1,41 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "amount" : {
-        "price" : 323.17,
-        "currency" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "creditorAccount" : {
-        "iban_data" : "PII_IBAN"
-      },
-      "name_val" : "STRING",
-      "primaryKey" : "STRING",
-      "creditorName" : "PII_PERSON_NAME",
-      "bankTransactionCode_data" : {
-        "temperature_c" : 818.83,
-        "domain" : "STRING",
-        "subFamily" : "STRING",
-        "family" : "STRING"
-      },
-      "valueDate" : "DATE",
-      "debtorAccount" : {
-        "iban" : "STRING",
-        "item_count" : 4884
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "bookingDate" : "DATE"
+  "id" : "INT",
+  "send_at" : "DATETIME_EPOCH",
+  "reply_to" : {
+    "fullName" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "tracking_settings" : {
+    "v_open_tracking" : {
+      "discount_rate" : 59.36,
+      "enable" : "BOOLEAN"
+    },
+    "response_time_sec" : 14.57,
+    "click_tracking" : {
+      "v_enable" : null
+    }
+  },
+  "categories_data" : [ "STRING" ],
+  "ip_pool_name" : "STRING",
+  "from" : {
+    "requires_update" : false,
+    "primary_email" : "PII_EMAIL",
+    "userName" : "PII_COMPANY_NAME"
+  },
+  "system_ping_ms" : 1892,
+  "personalizations" : [ {
+    "to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "subject" : "STRING",
+    "v_cc" : [ {
+      "requires_update" : true,
+      "email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME"
     } ]
-  }
+  } ],
+  "template_id" : "STRING",
+  "subject" : "STRING",
+  "status_data" : "STRING"
 }

@@ -1,0 +1,19 @@
+{
+  "environment" : "STRING",
+  "recordId" : "STRING",
+  "commit_data" : "STRING",
+  "branch" : "STRING",
+  "v_repository" : "STRING",
+  "status" : "STRING",
+  "startedAt" : "DATETIME",
+  "v_finishedAt" : "DATETIME",
+  "stages" : [ {
+    "durationSeconds" : "INT",
+    "coverage" : "NULL",
+    "fullName" : "NULL",
+    "conversion_rate" : 4.41,
+    "status" : "STRING"
+  } ],
+  "v_triggeredBy" : "PII_EMAIL",
+  "artifactDigest_data" : "STRING"
+}

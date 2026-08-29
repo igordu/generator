@@ -1,15 +1,27 @@
 {
-  "active" : "BOOLEAN",
-  "item_count" : 4655,
-  "user_info" : {
-    "userName" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "priority_level" : 3043,
-    "arline__name" : "PII_COMPANY_NAME"
+  "v_title" : "STRING",
+  "v_updatedAt" : "DATETIME",
+  "ancestors" : [ {
+    "id" : "STRING",
+    "title" : "STRING"
+  } ],
+  "labels" : [ "STRING" ],
+  "version" : "INT",
+  "createdAt" : "DATETIME",
+  "likes" : "INT",
+  "lastModifiedBy" : {
+    "userName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "requires_update" : false,
+    "recordId" : "STRING"
   },
-  "tree_data" : {
-    "url" : "URL",
-    "sha" : "STRING",
-    "cpu_usage_percent" : 18.4
-  }
+  "author" : {
+    "mail" : "PII_EMAIL",
+    "accountId" : "STRING",
+    "clientName" : "PII_PERSON_NAME"
+  },
+  "viewCount" : "INT",
+  "status" : "STRING",
+  "temperature_c" : -1.14,
+  "spaceKey" : "STRING"
 }

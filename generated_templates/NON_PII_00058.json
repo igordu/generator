@@ -1,14 +1,22 @@
 {
-  "item_count" : 1628,
-  "starRatingDistribution" : {
-    "3" : "INT",
-    "4" : "INT",
-    "1" : "INT",
-    "2_data" : "INT",
-    "v_5" : "INT"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "v_numberOfUserRecommendations" : "INT",
-  "v_numberOfUserPositiveRecommendations" : "INT",
-  "recordId" : "STRING",
-  "averageStarRating" : "INT"
+  "results" : [ {
+    "filter" : "STRING",
+    "facets_data" : [ {
+      "clientName" : null,
+      "key" : "STRING",
+      "count_data" : "INT"
+    }, {
+      "count" : "INT",
+      "displayName" : "STRING"
+    }, {
+      "displayName" : "NULL",
+      "count" : "INT",
+      "key_data" : "STRING"
+    } ],
+    "stock_quantity" : 4254
+  } ]
 }

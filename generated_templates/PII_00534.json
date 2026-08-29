@@ -1,30 +1,31 @@
 {
-  "transactions_data" : {
-    "booked" : [ {
-      "creditorName" : "PII_PERSON_NAME",
-      "creditorAccount" : {
-        "v_iban" : "PII_IBAN",
-        "response_time_sec" : 969.89
-      },
-      "debtorAccount" : {
-        "iban" : "STRING"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "v_amount" : {
-        "retry_attempts" : 2618,
-        "currency" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "valueDate" : "NULL",
-      "primaryKey" : "STRING",
-      "bookingDate" : "DATE",
-      "debtorName" : "STRING",
-      "bankTransactionCode_data" : {
-        "v_subFamily" : "STRING",
-        "family" : "STRING"
-      }
-    } ],
-    "auto_renew" : true
-  },
-  "discount_rate" : 662.1
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "state" : "STRING",
+    "id" : "STRING",
+    "mobilephone" : "PII_PHONE_NUMBER",
+    "notes_last_contacted_data" : "DATETIME",
+    "lastmodifieddate" : "DATETIME",
+    "department" : "NULL",
+    "phone" : "PII_PHONE_NUMBER",
+    "zip" : "STRING",
+    "v_num_associated_deals" : "INT",
+    "requires_update" : false,
+    "company" : "PII_COMPANY_NAME",
+    "website" : "URL",
+    "lifecyclestage" : "STRING",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "address" : "PII_ADDRESS_LINE",
+    "hs_lead_status" : "STRING",
+    "jobtitle_data" : "STRING",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "createdate_data" : "DATETIME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "associatedcompanyid" : "STRING",
+    "hs_object_id" : "STRING",
+    "hs_email_optout" : "BOOLEAN",
+    "email" : "PII_EMAIL",
+    "city" : "PII_LOCATION_CITY"
+  }
 }

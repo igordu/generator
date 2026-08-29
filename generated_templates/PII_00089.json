@@ -1,21 +1,27 @@
 {
-  "content" : [ {
-    "description" : "STRING",
-    "created_data" : "NULL",
-    "language" : "STRING",
-    "articleId" : "STRING",
-    "v_helpfulCount" : "INT",
-    "recordId" : "STRING",
-    "articleSizeRatings" : {
-      "OVERALL_data" : "INT",
-      "uuid" : "INT"
+  "ticket" : {
+    "v_description" : "PII_FREE_TEXT",
+    "requester_data" : {
+      "email" : "PII_EMAIL",
+      "userName" : "PII_PERSON_NAME"
     },
-    "v_recommend" : "BOOLEAN",
-    "customerCity" : "PII_LOCATION_CITY",
-    "unhelpfulCount" : "INT",
-    "title" : "PII_COMPANY_NAME",
-    "v_rating" : "INT",
-    "customerCountry" : "PII_LOCATION_COUNTRY"
-  } ],
-  "cache_hit" : false
+    "primaryKey" : "INT",
+    "comments" : [ {
+      "author_id" : "NULL",
+      "cache_hit" : false,
+      "v_created_at" : "DATETIME",
+      "body" : "PII_FREE_TEXT",
+      "id" : "INT",
+      "v_public" : "BOOLEAN"
+    } ],
+    "status" : "STRING",
+    "subject" : "NULL",
+    "updated_at" : "DATETIME",
+    "recordId" : "NULL",
+    "response_time_sec" : 2.33,
+    "created_at_data" : "DATETIME",
+    "priority" : "STRING",
+    "tags_data" : [ "STRING" ]
+  },
+  "price" : 563.67
 }

@@ -1,18 +1,21 @@
 {
-  "v_content" : [ {
-    "customerCountry_data" : "PII_LOCATION_COUNTRY",
-    "primaryKey" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "articleId" : "",
-    "description" : "STRING",
-    "recommend" : "BOOLEAN",
-    "reviewId" : "STRING",
-    "helpfulCount" : "INT",
-    "unhelpfulCount" : "INT",
-    "articleSizeRatings" : {
-      "SHOE_WIDTH" : "INT",
+  "content" : [ {
+    "customerCity" : "PII_LOCATION_CITY",
+    "created_data" : "DATETIME",
+    "articleSizeRatings_data" : {
+      "identifier" : "INT",
+      "price" : 7840.38,
       "OVERALL" : "INT"
     },
-    "customerCity" : "PII_LOCATION_CITY"
+    "reviewId" : "STRING",
+    "helpfulCount_data" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "description_data" : "STRING",
+    "recommend" : "BOOLEAN",
+    "rating" : "INT",
+    "v_language" : "STRING",
+    "articleModelId" : "STRING",
+    "uuid" : "STRING",
+    "unhelpfulCount" : "INT"
   } ]
 }

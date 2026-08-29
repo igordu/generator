@@ -1,49 +1,21 @@
 {
-  "userId" : "STRING",
-  "status" : "STRING",
-  "username" : "PII_USERNAME",
-  "businessAccount" : {
-    "userName" : "PII_ORGANIZATION_NAME",
-    "website" : "URL",
-    "secondaryPhone" : {
-      "countryCode_data" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "primaryContact" : {
-      "name_val" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "doingBusinessAs" : "",
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "discount_rate" : 353.96,
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING"
-    },
-    "email" : "PII_EMAIL"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "registrationMarketplaceId" : "STRING",
-  "identifier" : {
-    "lastName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "v_number" : "PII_PHONE_NUMBER",
-      "cell" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "firstName" : "PII_PERSON_NAME",
-    "registrationAddress" : {
-      "addressLine2" : "STRING",
-      "city" : "STRING",
-      "postalCode" : "STRING",
-      "county" : "STRING",
-      "v_addressLine1" : "STRING",
-      "country" : "STRING",
-      "stateOrProvince" : "STRING"
-    },
-    "telephone" : {
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "contactNumber" : "STRING"
-    }
+  "results" : {
+    "v_price_unit" : "STRING",
+    "to" : "PII_PHONE_NUMBER",
+    "date_sent" : "DATETIME",
+    "uri" : "URL",
+    "price" : "DECIMAL",
+    "date_created" : "DATETIME",
+    "body" : "PII_FREE_TEXT",
+    "num_segments" : "INT",
+    "status" : "STRING",
+    "is_active" : false,
+    "uuid" : "STRING",
+    "from" : "PII_PHONE_NUMBER",
+    "error_code" : "NULL"
   }
 }

@@ -1,11 +1,37 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "address" : {
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "street" : "PII_ADDRESS_LINE",
+    "v_postalCode" : "STRING",
+    "city_data" : "PII_LOCATION_CITY"
   },
-  "results" : {
-    "emailAddressStatus" : [ "STRING" ],
-    "has_discount" : true,
-    "emailAddress" : "PII_EMAIL"
-  }
+  "riskScore" : "",
+  "createdAt" : "DATETIME",
+  "checks" : [ {
+    "v_result" : "STRING",
+    "checkType" : "NULL"
+  } ],
+  "document" : {
+    "issuingCountry_data" : "PII_LOCATION_COUNTRY",
+    "v_expiryDate" : null,
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "response_time_sec" : 17.44,
+    "v_number" : "PII_NATIONAL_ID",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "type" : "STRING",
+    "firstName" : "PII_PERSON_FIRST_NAME"
+  },
+  "status" : "STRING",
+  "workflowId" : "STRING",
+  "verificationId" : "STRING",
+  "completedAt" : "DATETIME",
+  "applicant" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "email" : "PII_EMAIL",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "userName" : "PII_PERSON_FIRST_NAME"
+  },
+  "reviewedBy" : "PII_EMAIL"
 }

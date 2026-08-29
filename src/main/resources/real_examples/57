@@ -1,0 +1,37 @@
+{
+  "studentId": "STU-20210048",
+  "enrollmentStatus": "active",
+  "program": "MSc Computer Science",
+  "academicYear": "2023-2024",
+  "personalInfo": {
+    "firstName": "Amelia",
+    "lastName": "Thornton",
+    "dateOfBirth": "2000-09-14",
+    "gender": "female",
+    "email": "a.thornton@university.edu",
+    "personalEmail": "amelia.thornton@gmail.com",
+    "phone": "+44 7700 900415",
+    "nationality": "GB",
+    "passportNumber": "GB123456789"
+  },
+  "address": {
+    "street": "15 King Street",
+    "city": "Manchester",
+    "postcode": "M2 4LQ",
+    "country": "GB"
+  },
+  "academicRecord": {
+    "gpa": 3.85,
+    "creditsCompleted": 60,
+    "advisor": {
+      "name": "Prof. Richard Hayes",
+      "email": "r.hayes@university.edu"
+    }
+  },
+  "financialAid": {
+    "scholarshipId": "SCHOL-2023-0041",
+    "amount": 8000.00,
+    "currency": "GBP",
+    "disbursedAt": "2023-09-01"
+  }
+}

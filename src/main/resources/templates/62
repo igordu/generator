@@ -1,0 +1,38 @@
+{
+  "deliveryId": "STRING",
+  "status": "STRING",
+  "trackingNumber": "STRING",
+  "carrier": "STRING",
+  "estimatedDelivery": "DATE",
+  "sender": {
+    "name": "PII_COMPANY_NAME",
+    "address": "PII_ADDRESS_LINE",
+    "contactEmail": "PII_EMAIL"
+  },
+  "recipient": {
+    "name": "PII_PERSON_NAME",
+    "phone": "PII_PHONE_NUMBER",
+    "email": "PII_EMAIL",
+    "address": {
+      "street": "PII_ADDRESS_LINE",
+      "city": "PII_LOCATION_CITY",
+      "postalCode": "STRING",
+      "country": "PII_LOCATION_COUNTRY"
+    },
+    "deliveryInstructions": "STRING"
+  },
+  "parcels": [
+    {
+      "parcelId": "STRING",
+      "weight": { "value": "DECIMAL", "unit": "STRING" },
+      "dimensions": { "length": "INT", "width": "INT", "height": "INT", "unit": "STRING" }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "DATETIME",
+      "location": "PII_LOCATION_CITY",
+      "status": "STRING"
+    }
+  ]
+}

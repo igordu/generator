@@ -1,0 +1,14 @@
+{
+  "cacheKey": "user:session:sess_20240410_xk9pq",
+  "namespace": "auth",
+  "value": {
+    "userId": "usr-00821",
+    "roles": ["viewer", "editor"],
+    "expiresAt": "2024-04-10T21:00:00Z"
+  },
+  "ttl": 3600,
+  "createdAt": "2024-04-10T09:00:00Z",
+  "lastAccessedAt": "2024-04-10T14:55:00Z",
+  "hits": 42,
+  "region": "eu-central-1"
+}

@@ -1,75 +1,34 @@
 {
-  "offset_data" : "INT",
-  "next_data" : "STRING",
-  "retry_attempts" : 3764,
-  "v_href" : "NULL",
-  "prev_data" : "STRING",
-  "transactions" : [ {
-    "feeJurisdiction" : {
-      "regionName" : "STRING",
-      "regionType" : "STRING"
-    },
-    "eBayCollectedTaxAmount" : {
-      "v_currency" : "STRING",
-      "v_value" : "STRING",
-      "exchangeRate" : "STRING",
-      "item_count" : 1958,
-      "convertedFromCurrency_data" : "STRING",
-      "v_convertedFromValue" : "STRING"
-    },
-    "bookingEntry" : "STRING",
-    "uuid" : "STRING",
-    "amount" : {
-      "currency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "v_convertedFromCurrency" : "STRING",
-      "exchangeRate" : "STRING",
-      "value" : "STRING"
-    },
-    "v_totalFeeBasisAmount" : {
-      "convertedFromValue" : "STRING",
-      "exchangeRate" : "STRING",
-      "cache_hit" : false,
-      "value" : "STRING",
-      "currency" : "STRING"
-    },
-    "orderLineItems" : [ {
-      "lineItemId" : "STRING",
-      "marketplaceFees" : [ {
-        "v_feeType" : "STRING",
-        "feeMemo" : "NULL",
-        "priority_level" : 1480,
-        "amount" : {
-          "stock_quantity" : 3840,
-          "convertedFromValue_data" : "STRING",
-          "exchangeRate" : "STRING",
-          "convertedFromCurrency" : "STRING"
-        },
-        "feeJurisdiction" : {
-          "regionType" : "STRING",
-          "regionName" : "STRING"
-        }
-      } ]
+  "registrants" : [ {
+    "job_title" : "STRING",
+    "email" : "PII_EMAIL",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "zip" : "STRING",
+    "create_time" : "DATETIME",
+    "country" : "PII_LOCATION_COUNTRY",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "state" : "PII_LOCATION_STATE",
+    "org_data" : "PII_ORGANIZATION_NAME",
+    "no_of_employees" : "STRING",
+    "cell" : "PII_PHONE_NUMBER",
+    "id" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "comments" : "STRING",
+    "purchasing_time_frame" : "STRING",
+    "role_in_purchase_process" : "",
+    "industry" : "STRING",
+    "status" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "custom_questions" : [ {
+      "v_value" : "",
+      "cache_hit" : true
+    }, {
+      "title_data" : "STRING"
     } ],
-    "salesRecordReference" : "STRING",
-    "paymentsEntity" : "STRING",
-    "references" : [ {
-      "item_count" : 460,
-      "referenceId" : "STRING",
-      "referenceType" : "STRING"
-    } ],
-    "transactionType" : "STRING",
-    "orderId" : "STRING",
-    "transactionMemo" : "STRING",
-    "feeType" : "STRING",
-    "buyer" : {
-      "temperature_c" : 211.66,
-      "userName" : "PII_USERNAME"
-    },
-    "transactionStatus_data" : "STRING",
-    "primaryKey" : "STRING",
-    "transactionDate" : "DATETIME"
+    "v_join_url" : "URL"
   } ],
-  "limit" : "INT",
-  "total" : "INT"
+  "total_records_data" : "INT",
+  "page_size" : "INT",
+  "priority_level" : 1520,
+  "page_count" : "INT"
 }

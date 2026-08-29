@@ -1,5 +1,37 @@
 {
-  "emailAddressStatus" : [ "" ],
-  "emailAddress" : "PII_EMAIL",
-  "cache_hit" : true
+  "v_applicant" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL"
+  },
+  "uuid" : "STRING",
+  "status" : "STRING",
+  "document" : {
+    "cpu_usage_percent" : 91.12,
+    "v_type" : "STRING",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "v_expiryDate" : "",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "number" : "PII_NATIONAL_ID"
+  },
+  "checks" : [ {
+    "is_active" : true,
+    "result" : "STRING"
+  } ],
+  "address" : {
+    "city_data" : "PII_LOCATION_CITY",
+    "postalCode" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "street" : "PII_ADDRESS_LINE"
+  },
+  "reviewedBy" : "PII_EMAIL",
+  "completedAt" : "DATETIME",
+  "riskScore_data" : "INT",
+  "createdAt_data" : "DATETIME",
+  "workflowId" : "STRING"
 }

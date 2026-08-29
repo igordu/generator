@@ -1,20 +1,42 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "fingerprint" : "STRING",
-      "id" : "STRING",
-      "v_last4" : "STRING",
-      "object" : "STRING",
-      "country" : "STRING",
-      "currency" : "STRING",
-      "routing_number" : "STRING",
-      "v_customer" : "STRING",
-      "account_holder_type" : null,
-      "metadata" : "OBJECT",
-      "account_holder_name" : "PII_PERSON_NAME",
-      "bank_name" : "STRING",
-      "account_type" : "STRING",
-      "status" : "STRING"
-    }
-  }
+  "deliveryId" : "STRING",
+  "estimatedDelivery" : "DATE",
+  "v_recipient" : {
+    "name" : "PII_PERSON_NAME",
+    "primary_email" : "PII_EMAIL",
+    "address_data" : {
+      "postalCode" : "STRING",
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE"
+    },
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "parcels" : [ {
+    "dimensions" : {
+      "uuid" : "INT",
+      "is_active" : true,
+      "length_data" : "",
+      "unit" : "STRING",
+      "height" : "INT"
+    },
+    "weight" : {
+      "unit" : "STRING",
+      "response_time_sec" : 7.34
+    },
+    "http_status" : 2519,
+    "uuid" : "STRING"
+  } ],
+  "status" : "STRING",
+  "sender" : {
+    "name" : "PII_COMPANY_NAME",
+    "contactEmail" : "PII_EMAIL",
+    "address_data" : "PII_ADDRESS_LINE"
+  },
+  "events" : [ {
+    "retry_attempts" : 3969,
+    "v_timestamp" : "DATETIME",
+    "v_status" : "STRING",
+    "location" : "PII_LOCATION_CITY"
+  } ]
 }

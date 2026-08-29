@@ -1,31 +1,70 @@
 {
-  "ProviderName" : "STRING",
-  "Id" : "STRING",
-  "Status" : "STRING",
-  "Employees" : [ {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "identifier" : "STRING",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
+  "Employment_Data" : {
+    "Worker_Job_Data" : {
+      "system_ping_ms" : 290,
+      "Position_Data" : {
+        "Position_ID" : "STRING",
+        "Job_Title" : "STRING",
+        "http_status" : 4635,
+        "Business_Title" : "",
+        "Start_Date" : "DATE"
+      }
+    }
+  },
+  "Personal_Data" : {
+    "Identification_Data" : {
+      "identifier" : [ {
+        "National_ID" : "PII_NATIONAL_ID",
+        "National_ID_Type_Reference" : {
+          "WID" : "STRING"
+        },
+        "v_Country_Reference" : {
+          "conversion_rate" : 8.35,
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        }
+      } ],
+      "Birth_Date" : "PII_DATE_OF_BIRTH"
     },
-    "Status" : "NULL",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : "STRING",
-    "Status" : "STRING"
-  }, {
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : { },
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  } ],
-  "response_time_sec" : 722.19,
-  "DateTimeUTC" : "DATETIME"
+    "name_val" : {
+      "Legal_Name_Data" : {
+        "userName" : {
+          "name_val" : "PII_PERSON_FIRST_NAME",
+          "http_status" : 3408,
+          "clientName" : "PII_PERSON_LAST_NAME"
+        }
+      }
+    },
+    "Contact_Data" : {
+      "Email_Address_Data" : [ {
+        "primary_email" : "PII_EMAIL"
+      } ],
+      "Phone_Data" : [ {
+        "mobile" : "PII_PHONE_NUMBER",
+        "stock_quantity" : 2680
+      } ],
+      "Address_Data" : [ {
+        "v_Usage_Data" : {
+          "cpu_usage_percent" : 74.98,
+          "v_Type_Data" : [ {
+            "conversion_rate" : 0.04,
+            "Type_Reference" : {
+              "WID" : "STRING"
+            }
+          } ]
+        },
+        "is_active" : true,
+        "Municipality" : "PII_LOCATION_CITY",
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code_data" : "PII_LOCATION_COUNTRY",
+          "cache_hit" : false
+        },
+        "Address_Line_Data" : [ {
+          "Type" : "STRING",
+          "content" : "PII_ADDRESS_LINE",
+          "requires_update" : false
+        } ],
+        "Postal_Code" : "NULL"
+      } ]
+    }
+  }
 }

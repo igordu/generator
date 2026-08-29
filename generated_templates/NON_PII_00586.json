@@ -1,51 +1,26 @@
 {
-  "system_state" : {
-    "payload_wrapper" : {
-      "extracted_info" : [ {
-        "key" : "STRING",
-        "simplified" : "BOOLEAN",
-        "v_avatarUrls" : {
-          "24x24" : "",
-          "16x16" : "URL",
-          "is_active" : false,
-          "48x48" : "URL",
-          "32x32" : "URL"
-        },
-        "v_insight" : {
-          "lastIssueUpdateTime" : "DATETIME",
-          "totalIssueCount" : "INT"
-        },
-        "auto_renew" : false,
-        "name" : "NULL",
-        "id" : "STRING",
-        "style" : "STRING"
-      }, {
-        "simplified" : "BOOLEAN",
-        "insight" : {
-          "item_count" : 402,
-          "lastIssueUpdateTime" : "DATETIME",
-          "v_totalIssueCount" : "INT"
-        },
-        "avatarUrls" : {
-          "24x24" : "URL",
-          "16x16_data" : "URL",
-          "conversion_rate" : 713.01,
-          "48x48" : "URL",
-          "32x32" : "URL"
-        },
-        "style" : "STRING",
-        "projectCategory_data" : {
-          "description" : "STRING",
-          "id" : "STRING",
-          "clientName" : "STRING",
-          "self" : "URL"
-        },
-        "price" : 229.97,
-        "name" : "STRING",
-        "key" : "STRING",
-        "id" : "STRING",
-        "self_data" : "URL"
-      } ]
-    }
-  }
+  "ruleId" : "STRING",
+  "priority_data" : "INT",
+  "v_actions" : [ {
+    "v_type" : "STRING",
+    "config_data" : {
+      "responseCode" : "INT",
+      "keyBy" : "STRING",
+      "is_active" : false,
+      "responseMessage" : "STRING",
+      "v_requestsPerMinute" : "INT"
+    },
+    "requires_update" : false
+  } ],
+  "enabled" : "BOOLEAN",
+  "createdAt" : "DATETIME",
+  "updatedAt" : "DATETIME",
+  "createdBy_data" : "",
+  "conditions" : [ {
+    "operator" : "STRING",
+    "system_ping_ms" : 2893,
+    "field" : null
+  } ],
+  "stock_quantity" : 1523,
+  "description_data" : "STRING"
 }

@@ -1,56 +1,28 @@
-[ {
-  "commit" : {
-    "tree" : {
-      "sha" : "STRING",
-      "url" : "URL"
-    },
-    "priority_level" : 1478,
-    "v_verification" : {
-      "verified_data" : "",
-      "signature_data" : "",
-      "verified_at" : "DATETIME",
-      "reason" : "STRING"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "comment_count" : "INT",
-    "author" : {
-      "email" : "PII_EMAIL",
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "committer" : {
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME",
-      "v_date" : "DATETIME"
-    },
-    "url" : "URL"
-  },
-  "committer" : {
-    "type" : "STRING",
-    "followers_url" : "URL",
-    "identifier" : "STRING",
-    "v_gists_url" : "URL",
-    "conversion_rate" : 253.62,
-    "repos_url" : "URL",
-    "id" : "INT",
-    "organizations_url" : "URL",
-    "gravatar_id" : "STRING",
-    "starred_url_data" : "URL",
-    "site_admin" : "",
-    "received_events_url" : "URL",
-    "avatar_url" : "URL",
-    "url_data" : "URL",
-    "html_url" : "URL",
-    "subscriptions_url" : "URL",
-    "following_url" : "URL"
-  },
-  "url_data" : "URL",
-  "v_comments_url" : "URL",
-  "html_url" : "URL",
-  "node_id" : "STRING",
-  "sha" : "STRING",
-  "parents" : [ {
-    "is_deleted" : false,
-    "url" : "URL"
-  } ]
-} ]
+{
+  "data" : {
+    "fetchResource" : {
+      "v_retentionDays" : "INT",
+      "purposes_data" : [ {
+        "name" : "STRING",
+        "grantedAt" : "DATETIME",
+        "granted_data" : "BOOLEAN",
+        "cpu_usage_percent" : 20.52,
+        "id" : "STRING"
+      } ],
+      "legalBasis" : "STRING",
+      "dataSubject" : {
+        "name_val" : "PII_PERSON_LAST_NAME",
+        "country_data" : "PII_LOCATION_COUNTRY",
+        "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+        "response_time_sec" : 8.02,
+        "email" : "PII_EMAIL",
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "id" : "STRING"
+      },
+      "primaryKey" : "STRING",
+      "version" : "STRING",
+      "collectedAt" : "DATETIME",
+      "withdrawnAt" : "NULL"
+    }
+  }
+}

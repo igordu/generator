@@ -1,14 +1,27 @@
 {
-  "v_tree" : {
-    "sha" : "STRING",
-    "url" : "URL",
-    "cache_hit" : false
+  "pageId" : "STRING",
+  "spaceKey" : "STRING",
+  "lastModifiedBy_data" : {
+    "accountId" : "STRING",
+    "name_val" : "PII_PERSON_NAME",
+    "contactEmail" : "PII_EMAIL"
   },
-  "active_data" : "BOOLEAN",
-  "user_info" : {
-    "item_count" : 4085,
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "name_val" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME"
-  }
+  "status" : "",
+  "labels_data" : [ "STRING" ],
+  "viewCount_data" : "INT",
+  "author" : {
+    "userName" : "PII_PERSON_NAME",
+    "recordId" : "STRING",
+    "primary_email" : "PII_EMAIL"
+  },
+  "title" : "STRING",
+  "likes" : "INT",
+  "v_ancestors" : [ {
+    "auto_renew" : false,
+    "id" : "STRING"
+  } ],
+  "temperature_c" : -9.32,
+  "version" : "INT",
+  "updatedAt_data" : "DATETIME",
+  "createdAt" : "DATETIME"
 }

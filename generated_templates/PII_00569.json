@@ -1,32 +1,48 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "discount_rate" : 86.91,
-    "transactions" : {
-      "v_booked" : [ {
-        "v_debtorAccount" : {
-          "has_discount" : true,
-          "iban" : "NULL"
-        },
-        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-        "bookingDate" : "DATE",
-        "bankTransactionCode_data" : {
-          "family" : "STRING",
-          "v_domain" : null,
-          "subFamily" : "STRING"
-        },
-        "debtorName" : "STRING",
-        "recordId" : "STRING",
-        "v_valueDate" : "DATE",
-        "creditorName" : "PII_PERSON_NAME",
-        "creditorAccount" : {
-          "is_active" : true,
-          "iban" : "PII_IBAN"
+  "server_logs" : {
+    "request_context" : {
+      "body" : {
+        "create_time" : "DATETIME",
+        "update_time" : "DATETIME",
+        "transactions" : [ {
+          "description" : "STRING"
+        } ],
+        "id" : "STRING",
+        "response_time_sec" : 27.82,
+        "intent" : "STRING",
+        "state_data" : "STRING",
+        "cart" : "STRING",
+        "payer" : {
+          "status" : "STRING",
+          "payer_info" : {
+            "emailAddress" : "PII_EMAIL",
+            "phone" : "PII_PHONE_NUMBER",
+            "shipping_address" : {
+              "recipient_name" : "PII_PERSON_NAME",
+              "phone" : "PII_PHONE_NUMBER",
+              "state_data" : "STRING",
+              "postal_code" : "STRING",
+              "country_code_data" : "PII_LOCATION_COUNTRY",
+              "line2" : null,
+              "has_discount" : true,
+              "line1" : "PII_ADDRESS_LINE",
+              "city" : "PII_LOCATION_CITY"
+            },
+            "v_birth_date" : "PII_DATE_OF_BIRTH",
+            "uuid" : "STRING",
+            "billing_address" : {
+              "line1" : "PII_ADDRESS_LINE",
+              "state" : "STRING",
+              "postal_code" : "STRING",
+              "country_code" : "PII_LOCATION_COUNTRY",
+              "city" : "PII_LOCATION_CITY"
+            },
+            "last_name" : "PII_PERSON_LAST_NAME",
+            "country_code" : "STRING",
+            "name_val" : "PII_PERSON_FIRST_NAME"
+          }
         }
-      } ]
+      }
     }
   }
 }

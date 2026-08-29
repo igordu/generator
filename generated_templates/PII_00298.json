@@ -1,73 +1,38 @@
 {
+  "status" : "success",
+  "code" : 200,
   "data" : {
-    "fetchResource" : {
-      "transactions" : [ {
-        "has_discount" : false,
-        "eBayCollectedTaxAmount" : {
-          "value" : "STRING",
-          "requires_update" : true,
-          "currency" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "exchangeRate_data" : "STRING",
-          "convertedFromValue" : "STRING"
-        },
-        "transactionDate" : "DATETIME",
-        "feeType" : "STRING",
-        "totalFeeAmount" : {
-          "convertedFromCurrency" : "STRING",
-          "v_exchangeRate" : "STRING",
-          "value" : "STRING",
-          "v_currency" : "STRING"
-        },
-        "amount" : {
-          "value" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "http_status" : 4045,
-          "exchangeRate" : "STRING",
-          "convertedFromValue" : "STRING",
-          "currency" : "STRING"
-        },
-        "transactionMemo" : "STRING",
-        "buyer_data" : {
-          "username" : "PII_USERNAME"
-        },
-        "transactionType_data" : "STRING",
-        "transactionStatus" : "STRING",
-        "paymentsEntity_data" : "STRING",
-        "v_totalFeeBasisAmount" : {
-          "exchangeRate_data" : "NULL",
-          "currency" : "STRING",
-          "stock_quantity" : 614,
-          "convertedFromCurrency_data" : "STRING",
-          "v_convertedFromValue" : "STRING",
-          "value" : "STRING"
-        },
-        "references" : [ {
-          "referenceType" : "STRING",
-          "conversion_rate" : 544.72
-        } ],
-        "orderLineItems" : [ {
-          "feeBasisAmount" : {
-            "price" : 165.3,
-            "currency" : "STRING",
-            "value" : "STRING",
-            "exchangeRate" : "STRING",
-            "convertedFromValue" : "STRING",
-            "convertedFromCurrency" : "STRING"
-          },
-          "primaryKey" : "STRING",
-          "item_count" : 1860
-        } ],
-        "orderId" : "STRING",
-        "bookingEntry" : "STRING",
-        "transactionId" : "STRING"
-      } ],
-      "total_data" : "INT",
-      "next" : "STRING",
-      "href" : "STRING",
-      "prev" : "STRING",
-      "offset" : "INT",
-      "limit" : "INT"
-    }
+    "is_active" : true,
+    "v_object" : "STRING",
+    "data" : [ {
+      "preferred_locales" : "ARRAY",
+      "shipping" : "NULL",
+      "delinquent" : "NULL",
+      "balance_data" : "INT",
+      "test_clock" : "NULL",
+      "next_invoice_sequence_data" : "INT",
+      "livemode" : "BOOLEAN",
+      "created" : "DATETIME_EPOCH",
+      "default_source" : "STRING",
+      "description" : "STRING",
+      "invoice_prefix" : "STRING",
+      "object" : "STRING",
+      "phone" : "PII_PHONE_NUMBER",
+      "uuid" : "STRING",
+      "invoice_settings" : {
+        "v_footer" : "STRING",
+        "discount_rate" : 96.28,
+        "default_payment_method" : "STRING",
+        "custom_fields" : "NULL",
+        "rendering_options" : "NULL"
+      },
+      "metadata" : "OBJECT",
+      "address" : "NULL",
+      "email" : "PII_EMAIL",
+      "userName" : "PII_PERSON_NAME",
+      "currency" : "STRING"
+    } ],
+    "url" : "URL",
+    "has_more" : "BOOLEAN"
   }
 }

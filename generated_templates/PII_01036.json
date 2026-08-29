@@ -1,20 +1,37 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "account_type_data" : "STRING",
-      "account_holder_type" : "STRING",
-      "customer" : "STRING",
-      "fullName" : "PII_PERSON_NAME",
-      "metadata" : "OBJECT",
-      "bank_name" : "STRING",
-      "country" : "STRING",
-      "routing_number" : "STRING",
-      "status" : "STRING",
-      "id" : "STRING",
-      "v_last4" : "STRING",
-      "v_currency" : "STRING",
-      "fingerprint" : "STRING",
-      "object" : "STRING"
-    }
+  "hotel" : {
+    "name" : "PII_COMPANY_NAME",
+    "conversion_rate" : 9.93,
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "address" : "PII_ADDRESS_LINE"
+  },
+  "status" : "STRING",
+  "specialRequests_data" : "STRING",
+  "createdAt" : "DATETIME",
+  "checkIn" : "DATE",
+  "reservationId" : "STRING",
+  "room" : {
+    "type" : "NULL",
+    "floor" : "INT",
+    "roomNumber" : "STRING",
+    "v_bedType" : "STRING"
+  },
+  "guest" : {
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "phone" : "PII_PHONE_NUMBER",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "lastName" : "PII_PERSON_LAST_NAME"
+  },
+  "v_checkOut" : "DATE",
+  "pricing" : {
+    "totalBeforeTax" : "",
+    "total" : "DECIMAL",
+    "nights" : "INT",
+    "tax" : "DECIMAL",
+    "currency" : "STRING",
+    "ratePerNight_data" : "DECIMAL"
   }
 }

@@ -1,77 +1,35 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "next" : "STRING",
-      "v_limit" : "INT",
-      "total" : "INT",
-      "href" : "STRING",
-      "v_offset" : "INT",
-      "transactions" : [ {
-        "orderLineItems" : [ {
-          "v_feeBasisAmount" : {
-            "has_discount" : true,
-            "currency_data" : "STRING",
-            "exchangeRate" : "STRING",
-            "convertedFromCurrency" : "STRING",
-            "value" : "STRING",
-            "convertedFromValue" : "STRING"
-          },
-          "lineItemId" : "STRING"
-        } ],
-        "transactionMemo" : "STRING",
-        "totalFeeAmount" : {
-          "convertedFromCurrency" : null,
-          "currency" : "STRING",
-          "exchangeRate" : null,
-          "v_value" : "STRING",
-          "convertedFromValue" : "NULL"
-        },
-        "uuid" : "STRING",
-        "amount" : {
-          "currency" : "STRING",
-          "exchangeRate" : "STRING",
-          "value" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "convertedFromValue" : "STRING"
-        },
-        "v_feeJurisdiction" : {
-          "v_regionType" : "STRING",
-          "name_val" : "STRING",
-          "system_ping_ms" : 4862
-        },
-        "bookingEntry" : "STRING",
-        "feeType" : "STRING",
-        "totalFeeBasisAmount" : {
-          "value" : "STRING",
-          "v_exchangeRate" : "STRING",
-          "convertedFromValue" : "STRING",
-          "currency" : "STRING"
-        },
-        "transactionDate" : "DATETIME",
-        "references" : [ {
-          "price" : 578.95,
-          "v_referenceType" : "NULL",
-          "identifier" : "STRING"
-        } ],
-        "salesRecordReference" : "STRING",
-        "paymentsEntity" : "STRING",
-        "transactionStatus_data" : "STRING",
-        "price" : 55.55,
-        "orderId" : "STRING",
-        "buyer" : {
-          "username" : "PII_USERNAME"
-        },
-        "eBayCollectedTaxAmount_data" : {
-          "is_active" : true,
-          "v_exchangeRate" : "STRING",
-          "currency" : "STRING",
-          "convertedFromValue" : "STRING",
-          "value" : null
-        },
-        "transactionType" : "STRING"
-      } ],
-      "prev_data" : "STRING",
-      "stock_quantity" : 4637
-    }
-  }
+  "Employees" : [ {
+    "Status" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "v_ExternalLink" : {
+      "Description" : "STRING",
+      "page_index" : 855,
+      "Url" : "URL"
+    },
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "v_UpdatedDateUTC" : "DATETIME",
+    "primaryKey" : "STRING",
+    "response_time_sec" : 27.05
+  }, {
+    "UpdatedDateUTC" : "DATETIME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "Status" : "STRING",
+    "ExternalLink" : {
+      "Url" : "URL"
+    },
+    "price" : 2703.17,
+    "EmployeeID" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "price" : 8858.65,
+    "Status_data" : "STRING",
+    "recordId" : "STRING",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC_data" : "DATETIME"
+  } ],
+  "fullName" : "STRING",
+  "DateTimeUTC" : "DATETIME",
+  "Id" : "STRING"
 }

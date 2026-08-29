@@ -1,53 +1,9 @@
 {
-  "server_logs" : {
-    "transaction_trace" : {
-      "body" : [ {
-        "filter" : "STRING",
-        "facets" : [ {
-          "key_data" : "STRING",
-          "count" : "INT",
-          "displayName" : "STRING"
-        }, {
-          "item_count" : 4308,
-          "displayName" : "STRING",
-          "count" : "INT",
-          "key" : "STRING"
-        }, {
-          "key" : "STRING",
-          "displayName" : "STRING",
-          "count" : "INT"
-        } ]
-      }, {
-        "facets" : [ {
-          "count" : "INT",
-          "fullName" : "STRING",
-          "is_active" : true,
-          "key" : "STRING"
-        }, {
-          "key" : "STRING",
-          "displayName" : "STRING",
-          "count_data" : "INT"
-        }, {
-          "discount_rate" : 795.95,
-          "count" : "INT",
-          "key" : "STRING",
-          "displayName" : "STRING"
-        } ],
-        "has_discount" : false,
-        "filter" : "STRING"
-      }, {
-        "facets" : [ {
-          "v_count" : "INT",
-          "clientName" : "STRING"
-        }, {
-          "requires_update" : true,
-          "displayName" : "STRING",
-          "key" : "STRING",
-          "count" : "INT"
-        } ],
-        "filter" : "STRING",
-        "http_status" : 1501
-      } ]
-    }
-  }
+  "cpu_usage_percent" : 10.75,
+  "log_line" : "TEXT",
+  "last_run_data" : "DATETIME",
+  "v_endpoint" : "URL",
+  "last_status" : "STRING",
+  "service" : "STRING",
+  "environment" : "STRING"
 }

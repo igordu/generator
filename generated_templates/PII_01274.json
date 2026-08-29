@@ -1,71 +1,26 @@
-[ {
-  "author" : {
-    "followers_url_data" : "URL",
-    "starred_url_data" : "URL",
-    "gravatar_id" : "STRING",
-    "received_events_url" : "NULL",
-    "events_url" : "URL",
-    "gists_url" : "URL",
-    "following_url" : "URL",
-    "type_data" : "STRING",
-    "login_data" : "STRING",
-    "node_id" : "STRING",
-    "repos_url_data" : "URL",
-    "v_organizations_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "subscriptions_url" : "URL",
-    "avatar_url" : "URL"
+{
+  "plan_data" : "",
+  "subscription" : {
+    "currency" : "STRING",
+    "v_seatsUsed" : "INT",
+    "renewalDate" : null,
+    "mrr" : "DECIMAL",
+    "priority_level" : 374,
+    "seats" : "INT"
   },
-  "committer_data" : {
-    "v_login" : "STRING",
-    "gists_url" : "URL",
-    "subscriptions_url" : "URL",
-    "avatar_url" : "URL",
-    "followers_url" : "URL",
-    "html_url" : "URL",
-    "id" : "INT",
-    "site_admin" : "BOOLEAN",
-    "organizations_url" : "URL",
-    "identifier" : "STRING",
-    "primaryKey" : "STRING",
-    "events_url" : "URL",
-    "following_url" : "URL",
-    "starred_url" : "URL",
-    "received_events_url" : "URL"
+  "primaryContact" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "clientName" : "PII_PERSON_NAME"
   },
-  "html_url" : "URL",
-  "sha" : "STRING",
-  "is_active" : true,
-  "comments_url" : "URL",
-  "url" : "NULL",
-  "node_id" : "STRING",
-  "commit" : {
-    "v_url" : "URL",
-    "message" : "PII_COMPANY_NAME",
-    "comment_count" : "INT",
-    "verification" : {
-      "verified" : "BOOLEAN",
-      "verified_at" : "DATETIME",
-      "signature_data" : "STRING",
-      "reason" : "STRING"
-    },
-    "v_tree" : {
-      "is_active" : true,
-      "url_data" : "URL"
-    },
-    "author_data" : {
-      "v_date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL"
-    },
-    "committer" : {
-      "mail" : "PII_EMAIL",
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    }
-  },
-  "v_parents" : [ {
-    "url" : "URL",
-    "sha" : "STRING"
-  } ]
-} ]
+  "status" : "STRING",
+  "billingEmail" : "PII_EMAIL",
+  "dataResidency" : "STRING",
+  "ssoEnabled_data" : "BOOLEAN",
+  "createdAt" : "DATETIME",
+  "usage" : {
+    "temperature_c" : 44.95,
+    "storageGb" : "DECIMAL",
+    "activeUsers30d" : "INT"
+  }
+}

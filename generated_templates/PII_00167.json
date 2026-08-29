@@ -1,56 +1,21 @@
 {
-  "identifier" : "STRING",
-  "individualAccount" : {
-    "firstName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "has_discount" : false,
-      "phoneType" : "STRING",
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "cell" : {
-      "countryCode_data" : "STRING",
-      "contactNumber" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "name_val" : "PII_PERSON_NAME",
-    "contactEmail" : "PII_EMAIL"
+  "ParentId" : "STRING",
+  "CreatedDate_data" : "DATETIME",
+  "IsPrivate" : "BOOLEAN",
+  "recordId" : "STRING",
+  "Body" : "PII_FREE_TEXT",
+  "attributes" : {
+    "type" : "STRING",
+    "v_url" : "URL",
+    "stock_quantity" : 2999
   },
-  "accountType" : "STRING",
-  "businessAccount" : {
-    "clientName" : "PII_ORGANIZATION_NAME",
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "cpu_usage_percent" : 964.29,
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "v_address" : {
-      "stock_quantity" : 3327,
-      "v_postalCode" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine2" : "STRING",
-      "v_city" : "STRING",
-      "country" : "STRING",
-      "county" : "STRING",
-      "addressLine1" : "STRING"
-    },
-    "doingBusinessAs" : "STRING",
-    "email" : "PII_EMAIL",
-    "system_ping_ms" : 3020,
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "temperature_c" : 62.49,
-      "number" : "PII_PHONE_NUMBER",
-      "v_countryCode" : "STRING"
-    },
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "",
-      "countryCode" : "STRING"
-    }
-  },
-  "username" : "PII_USERNAME",
-  "registrationMarketplaceId" : "STRING",
-  "status" : "STRING",
-  "is_active" : false
+  "LastModifiedDate" : "DATETIME",
+  "activity_log" : [ {
+    "note" : "PII_FREE_TEXT",
+    "timestamp_data" : "DATETIME"
+  } ],
+  "Owner" : {
+    "Department" : "STRING",
+    "Name" : "PII_PERSON_NAME"
+  }
 }

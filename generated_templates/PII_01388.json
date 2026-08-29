@@ -1,14 +1,29 @@
 {
-  "user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "userName" : "PII_FIRST_NAME_FEMALE",
-    "fullName" : "PII_COMPANY_NAME"
+  "labels" : [ "STRING" ],
+  "version_data" : "INT",
+  "v_viewCount" : "INT",
+  "pageId" : "STRING",
+  "v_likes" : "INT",
+  "status_data" : "STRING",
+  "v_lastModifiedBy" : {
+    "uuid" : "STRING",
+    "email" : "PII_EMAIL",
+    "priority_level" : 1425,
+    "displayName" : "PII_PERSON_NAME"
   },
-  "active" : "BOOLEAN",
-  "priority_level" : 3976,
-  "v_tree" : {
-    "sha" : "STRING",
-    "url" : "URL",
-    "temperature_c" : 210.35
-  }
+  "updatedAt_data" : "DATETIME",
+  "createdAt_data" : "DATETIME",
+  "author_data" : {
+    "uuid" : "STRING",
+    "stock_quantity" : 296,
+    "emailAddress" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME"
+  },
+  "ancestors" : [ {
+    "title" : "STRING",
+    "id" : "NULL"
+  } ],
+  "page_index" : 1033,
+  "spaceKey" : "STRING",
+  "title" : "STRING"
 }

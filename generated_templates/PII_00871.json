@@ -1,57 +1,42 @@
 {
-  "tsp_data" : {
-    "conversion_rate" : 503.61,
-    "call_out" : "BOOLEAN",
-    "call_out_countries" : "ARRAY",
-    "show_international_numbers_link" : ""
-  },
-  "email_notification" : {
-    "jbh_reminder" : "BOOLEAN",
-    "price" : 551.71,
-    "v_alternative_host_reminder" : "BOOLEAN",
-    "schedule_for_reminder_data" : "BOOLEAN",
-    "cancel_meeting_reminder" : "BOOLEAN"
-  },
-  "telephony" : {
-    "show_international_numbers_link" : "BOOLEAN",
-    "audio_conference_info" : "STRING",
-    "third_party_audio" : "BOOLEAN"
-  },
-  "v_recording" : {
-    "local_recording" : "BOOLEAN",
-    "save_chat_text" : "",
-    "record_speaker_view" : "BOOLEAN",
-    "show_timestamp" : "BOOLEAN",
-    "cloud_recording" : "BOOLEAN",
-    "auto_recording" : "STRING",
-    "recording_audio_transcript" : "BOOLEAN",
-    "v_recording_password_requirement" : {
-      "have_special_character" : "BOOLEAN",
-      "v_only_allow_numeric" : "BOOLEAN",
-      "length" : "INT",
-      "have_letter" : "BOOLEAN",
-      "have_number_data" : "NULL"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "reportType" : "STRING",
+    "reportId" : "STRING",
+    "costCenters_data" : [ {
+      "id" : "STRING",
+      "name" : "STRING",
+      "spend" : "DECIMAL",
+      "ownerEmail" : "PII_EMAIL",
+      "cache_hit" : true
+    } ],
+    "period_data" : {
+      "end" : "DATE",
+      "start" : "DATE"
     },
-    "auto_delete_cmr" : "BOOLEAN"
-  },
-  "v_schedule_meeting" : {
-    "embed_password_in_join_link" : "BOOLEAN",
-    "is_deleted" : true,
-    "require_password_for_pmi_meetings" : "NULL",
-    "audio_type" : "STRING",
-    "host_video" : "BOOLEAN",
-    "pmi_password" : "PII_PASSWORD",
-    "force_pmi_jbh_password" : "BOOLEAN",
-    "use_pmi_for_instant_meetings_data" : "BOOLEAN",
-    "join_before_host" : "BOOLEAN",
-    "pstn_password_protected" : "BOOLEAN",
-    "require_password_for_scheduling_new_meetings_data" : "BOOLEAN"
-  },
-  "feature" : {
-    "cell" : "BOOLEAN",
-    "meeting_capacity" : "INT",
-    "in_meeting" : "BOOLEAN",
-    "webinar" : "BOOLEAN",
-    "large_meeting" : "BOOLEAN"
+    "preparedBy" : {
+      "emailAddress" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "page_index" : 2814,
+      "title_data" : "STRING"
+    },
+    "summary" : {
+      "netProfit" : "DECIMAL",
+      "totalRevenue" : "DECIMAL",
+      "page_index" : 1703,
+      "totalExpenses_data" : "DECIMAL"
+    },
+    "approvedBy" : {
+      "signedAt" : "DATETIME",
+      "name" : "PII_PERSON_NAME",
+      "primary_email" : "PII_EMAIL"
+    },
+    "topCustomers" : [ {
+      "contactEmail" : "PII_EMAIL",
+      "companyName" : "PII_COMPANY_NAME",
+      "revenue" : "DECIMAL",
+      "customerId" : "STRING"
+    } ]
   }
 }

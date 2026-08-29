@@ -1,0 +1,14 @@
+{
+  "roleId" : "STRING",
+  "assignedTo" : [ {
+    "http_status" : 4213,
+    "email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME",
+    "userId" : null
+  } ],
+  "updatedAt" : "DATETIME",
+  "permissions" : [ "STRING" ],
+  "inheritedFrom" : [ "STRING" ],
+  "createdAt" : "DATETIME",
+  "createdBy" : "PII_EMAIL"
+}

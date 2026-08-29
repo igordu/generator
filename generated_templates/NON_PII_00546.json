@@ -1,39 +1,29 @@
-[ {
-  "self" : "URL",
-  "id" : "STRING",
-  "avatarUrls" : {
-    "48x48" : "NULL",
-    "32x32" : "",
-    "16x16" : "URL"
-  },
-  "projectCategory" : {
-    "name_val" : "STRING",
-    "self" : "URL",
-    "id" : "",
-    "description" : "STRING"
-  },
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "key" : "STRING",
-  "v_simplified" : "BOOLEAN",
-  "name" : "STRING",
-  "style" : "STRING"
-}, {
-  "self" : "URL",
-  "style" : "STRING",
-  "name" : "STRING",
-  "projectCategory" : {
-    "name" : "STRING",
-    "self_data" : "URL",
-    "response_time_sec" : 763.62,
-    "id" : "STRING"
-  },
-  "insight_data" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "simplified" : "BOOLEAN",
-  "key" : "STRING"
-} ]
+{
+  "audit_trail" : {
+    "request_context" : {
+      "debug_payload" : {
+        "status" : "STRING",
+        "triggeredBy_data" : "STRING",
+        "scheduledAt_data" : "DATETIME",
+        "completedAt" : "DATETIME",
+        "v_startedAt" : "DATETIME",
+        "type" : "STRING",
+        "stats_data" : {
+          "recordsSkipped_data" : "INT",
+          "recordsRead" : "INT",
+          "bytesTransferred" : "INT",
+          "recordsWritten_data" : "INT"
+        },
+        "durationSeconds" : "INT",
+        "name" : "STRING",
+        "source_data" : {
+          "type" : "STRING",
+          "host_data" : "STRING",
+          "table" : null,
+          "database" : "STRING"
+        },
+        "nextRunAt" : "DATETIME"
+      }
+    }
+  }
+}

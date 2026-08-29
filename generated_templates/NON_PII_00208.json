@@ -1,45 +1,28 @@
 {
-  "data" : {
-    "fetchResource" : [ {
-      "filter" : "STRING",
-      "facets" : [ {
-        "count_data" : "INT",
-        "priority_level" : 4358,
-        "fullName" : "STRING",
-        "key" : "STRING"
-      } ]
-    }, {
-      "filter" : "STRING",
-      "facets" : [ {
-        "count" : "INT",
-        "clientName" : "STRING",
-        "has_discount" : true,
-        "key_data" : "STRING"
-      }, {
-        "v_key" : "STRING",
-        "count_data" : "INT",
-        "displayName" : "STRING"
-      }, {
-        "displayName" : "STRING",
-        "discount_rate" : 977.62,
-        "key" : "STRING",
-        "count" : "INT"
-      } ]
-    }, {
-      "facets_data" : [ {
-        "v_key" : "STRING",
-        "auto_renew" : false,
-        "count" : "INT"
-      }, {
-        "userName" : "STRING",
-        "count" : "INT"
-      }, {
-        "displayName" : "STRING",
-        "key" : "STRING",
-        "count" : "INT"
-      } ],
-      "is_active" : false,
-      "filter" : "STRING"
-    } ]
+  "response_time_sec" : 10.34,
+  "target_service" : "STRING",
+  "v_severity" : "STRING",
+  "details" : [ {
+    "step_data" : "STRING",
+    "outcome" : "STRING",
+    "log_line" : "TEXT",
+    "stock_quantity" : 1715
+  } ],
+  "source_service_data" : "STRING",
+  "recordId" : "STRING",
+  "event_type" : "STRING",
+  "region" : "NULL",
+  "http" : {
+    "method" : "STRING",
+    "v_status_code" : "INT",
+    "latency_ms" : "INT"
+  },
+  "event_id" : null,
+  "kubernetes_data" : {
+    "node" : "STRING",
+    "namespace" : "STRING",
+    "container_id" : "STRING",
+    "pod_name" : "STRING",
+    "temperature_c" : 25.35
   }
 }

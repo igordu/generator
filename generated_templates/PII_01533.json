@@ -1,0 +1,30 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "updatedAt" : "DATETIME",
+    "lastTriggeredAt" : "DATETIME",
+    "stats" : {
+      "v_successRate" : "DECIMAL",
+      "totalDeliveries" : "INT"
+    },
+    "createdAt" : "DATETIME",
+    "recordId" : "STRING",
+    "v_createdBy" : {
+      "has_discount" : false,
+      "userId" : "STRING",
+      "email" : "PII_EMAIL"
+    },
+    "type" : "STRING",
+    "item_count" : 258,
+    "v_status" : "STRING",
+    "name_val" : null,
+    "config" : {
+      "mentionOnError" : "STRING",
+      "channel" : "STRING"
+    },
+    "triggers_data" : [ "STRING" ]
+  }
+}

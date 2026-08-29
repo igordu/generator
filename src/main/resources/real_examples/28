@@ -1,0 +1,43 @@
+{
+  "id": 1234567,
+  "contact_id": "contact-98765",
+  "status": "delivered",
+  "personalizations": [
+    {
+      "to": [
+        {
+          "email": "recipient@example.com",
+          "name": "Bob Williams"
+        }
+      ],
+      "cc": [
+        {
+          "email": "manager@example.com",
+          "name": "Sarah Manager"
+        }
+      ],
+      "subject": "Your order has shipped!"
+    }
+  ],
+  "from": {
+    "email": "noreply@shop.example.com",
+    "name": "Example Shop"
+  },
+  "reply_to": {
+    "email": "support@shop.example.com",
+    "name": "Support Team"
+  },
+  "subject": "Your order has shipped!",
+  "send_at": 1715000000,
+  "tracking_settings": {
+    "click_tracking": {
+      "enable": true
+    },
+    "open_tracking": {
+      "enable": true
+    }
+  },
+  "categories": ["transactional", "order-shipped"],
+  "ip_pool_name": "transactional",
+  "template_id": "d-abc123def456ghi789"
+}

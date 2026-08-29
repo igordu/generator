@@ -1,17 +1,30 @@
 {
-  "last4" : "STRING",
-  "status" : "STRING",
-  "currency" : null,
-  "routing_number_data" : "STRING",
-  "account_holder_type" : null,
-  "customer_data" : "STRING",
-  "object" : "STRING",
-  "country" : "STRING",
-  "id" : "STRING",
-  "fingerprint" : "STRING",
-  "stock_quantity" : 1867,
-  "fullName" : "STRING",
-  "account_type" : "STRING",
-  "metadata_data" : "OBJECT",
-  "account_holder_name" : "PII_PERSON_NAME"
+  "ticketNumber_data" : "STRING",
+  "status_data" : "STRING",
+  "issuedAt" : "DATETIME",
+  "fareClass" : "STRING",
+  "passenger" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "nationality_data" : "PII_LOCATION_COUNTRY",
+    "frequentFlyerNumber" : "STRING",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "title" : "NULL",
+    "retry_attempts" : 1799,
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "v_passportNumber" : "PII_NATIONAL_ID",
+    "emailAddress" : "PII_EMAIL"
+  },
+  "itinerary_data" : [ {
+    "priority_level" : 1904,
+    "origin" : "STRING",
+    "cabin" : "STRING",
+    "segment" : "INT",
+    "departureAt" : "DATETIME",
+    "flightNumber" : "STRING",
+    "seat_data" : "STRING",
+    "status_data" : "STRING",
+    "v_arrivalAt" : "DATETIME",
+    "destination" : "STRING"
+  } ]
 }

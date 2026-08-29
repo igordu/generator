@@ -1,47 +1,14 @@
-[ {
-  "style" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME",
-    "response_time_sec" : 7.1
+{
+  "v_model" : "STRING",
+  "v_createdAt" : "DATETIME",
+  "messages" : [ {
+    "content" : "STRING",
+    "http_status" : 1941,
+    "timestamp_data" : "DATETIME"
+  } ],
+  "usage" : {
+    "outputTokens_data" : "INT",
+    "inputTokens" : "INT"
   },
-  "uuid" : "STRING",
-  "projectCategory" : {
-    "name" : "STRING",
-    "description" : "STRING",
-    "primaryKey" : "STRING"
-  },
-  "v_avatarUrls" : {
-    "48x48" : "URL",
-    "16x16" : "URL",
-    "32x32" : "URL"
-  },
-  "v_simplified" : "BOOLEAN",
-  "v_key" : "STRING"
-}, {
-  "v_projectCategory" : {
-    "description" : "NULL",
-    "page_index" : 3737,
-    "self_data" : "URL",
-    "identifier" : "STRING",
-    "name" : "STRING"
-  },
-  "id" : "STRING",
-  "clientName" : "STRING",
-  "item_count" : 1311,
-  "insight" : {
-    "is_active" : false,
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "simplified_data" : "BOOLEAN",
-  "style" : "NULL",
-  "key" : "STRING",
-  "self" : "",
-  "v_avatarUrls" : {
-    "24x24_data" : "NULL",
-    "v_32x32" : "URL",
-    "price" : 380.47,
-    "16x16" : "URL"
-  }
-} ]
+  "chatId" : "STRING"
+}

@@ -1,23 +1,24 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "taxDepreciationSettings_data" : "ARRAY",
-    "locks_data" : "INT",
-    "assetTypeId" : "STRING",
-    "lockPrivateUseAccount_data" : "BOOLEAN",
-    "accumulatedDepreciationAccountId" : "STRING",
-    "userName" : "STRING",
-    "depreciationExpenseAccountId" : "STRING",
-    "bookDepreciationSetting" : {
-      "v_depreciationRate" : "DECIMAL",
-      "depreciationMethod" : "STRING",
-      "averagingMethod" : "STRING",
-      "response_time_sec" : 439.73,
-      "depreciationCalculationMethod" : "STRING",
-      "bookEffectiveDateOfChangeId" : "STRING",
-      "v_depreciableObjectType" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "cluster_data" : "STRING",
+    "cpu_usage_percent" : 0.25,
+    "completedAt_data" : "DATETIME",
+    "status" : "STRING",
+    "type" : "NULL",
+    "snapshotId" : "STRING",
+    "encryptionKeyId" : "STRING",
+    "region" : "STRING",
+    "retentionDays_data" : "INT",
+    "sizeGb" : "DECIMAL",
+    "tags" : {
+      "team" : "STRING",
+      "environment" : "STRING"
     },
-    "fixedAssetAccountId" : "STRING"
-  } ]
+    "database" : "STRING",
+    "startedAt_data" : "DATETIME"
+  }
 }

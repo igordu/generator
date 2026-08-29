@@ -1,18 +1,26 @@
 {
+  "item_count" : 1253,
+  "name_val" : "STRING",
   "name" : "STRING",
-  "media" : {
-    "images" : [ {
-      "conversion_rate" : 423.82,
-      "smallHdUrl_data" : "URL",
-      "mediumHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "mediumUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "v_largeUrl" : "URL"
-    } ],
-    "auto_renew" : false
-  },
-  "v_shopUrl" : "URL",
-  "uuid" : "STRING",
-  "id" : ""
+  "body" : "TEXT",
+  "id" : "INT",
+  "created_at" : "DATETIME",
+  "v_published_at" : "DATETIME",
+  "target_commitish" : "STRING",
+  "v_assets" : [ {
+    "fullName" : "STRING",
+    "browser_download_url_data" : "URL",
+    "size" : "INT",
+    "content_type" : "STRING",
+    "price" : 979.65,
+    "download_count" : "INT",
+    "id" : "INT"
+  } ],
+  "v_prerelease" : "BOOLEAN",
+  "draft" : "BOOLEAN",
+  "changelog" : [ {
+    "commit_sha" : "STRING",
+    "message" : "TEXT",
+    "files_changed" : null
+  } ]
 }

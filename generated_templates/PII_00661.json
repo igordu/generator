@@ -1,32 +1,65 @@
 {
-  "Employees" : [ {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING",
-    "Status" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "discount_rate" : 434.62,
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
-    }
-  }, {
-    "EmployeeID" : "STRING",
-    "Status" : "STRING",
-    "v_UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "UpdatedDateUTC" : "DATETIME",
-    "v_ExternalLink" : {
-      "Url" : "URL"
+  "recordId" : "STRING",
+  "Personal_Data" : {
+    "Identification_Data" : {
+      "National_ID_Data" : [ {
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY",
+          "stock_quantity" : 4189
+        },
+        "identifier" : {
+          "WID" : "STRING"
+        },
+        "uuid" : "PII_NATIONAL_ID",
+        "requires_update" : true
+      } ],
+      "Birth_Date" : "PII_DATE_OF_BIRTH"
     },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  } ],
-  "is_active" : false,
-  "DateTimeUTC" : "DATETIME",
-  "Id" : "STRING",
-  "userName" : "STRING",
-  "Status" : "STRING"
+    "userName" : {
+      "Legal_Name_Data" : {
+        "userName" : {
+          "fullName" : "PII_PERSON_FIRST_NAME",
+          "First_Name" : "PII_PERSON_FIRST_NAME"
+        }
+      }
+    },
+    "Contact_Data" : {
+      "priority_level" : 17,
+      "Address_Data" : [ {
+        "Municipality" : "PII_LOCATION_CITY",
+        "Address_Line_Data" : [ {
+          "content" : "PII_ADDRESS_LINE",
+          "priority_level" : 3342,
+          "Type" : "STRING"
+        } ],
+        "Usage_Data_data" : { },
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY",
+          "retry_attempts" : 2709
+        },
+        "Postal_Code_data" : "STRING"
+      } ],
+      "Email_Address_Data" : [ {
+        "system_ping_ms" : 3295,
+        "Email_Address" : "PII_EMAIL"
+      } ],
+      "Phone_Data" : [ {
+        "Phone_Device_Type_Reference" : {
+          "WID" : "STRING"
+        },
+        "Phone_Number" : "PII_PHONE_NUMBER"
+      } ]
+    }
+  },
+  "Employment_Data" : {
+    "Worker_Job_Data" : {
+      "Position_Data" : {
+        "Business_Title" : "STRING",
+        "Position_ID" : "STRING",
+        "Job_Title" : "STRING",
+        "Start_Date_data" : "NULL",
+        "is_deleted" : true
+      }
+    }
+  }
 }

@@ -1,28 +1,40 @@
 {
-  "stock_quantity" : 2789,
-  "transactions" : {
-    "booked" : [ {
-      "valueDate" : "DATE",
-      "creditorName" : "PII_PERSON_NAME",
-      "debtorName" : "STRING",
-      "bookingDate" : "",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "debtorAccount" : {
-        "iban_data" : "STRING"
-      },
-      "bankTransactionCode" : {
-        "domain" : "STRING",
-        "family" : "STRING"
-      },
-      "v_creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "transactionId" : null,
-      "amount" : {
-        "currency" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "temperature_c" : 89.39
+  "identifier" : "INT",
+  "userName" : "STRING",
+  "status" : "STRING",
+  "reply_to" : {
+    "name" : "STRING",
+    "primary_email" : "PII_EMAIL"
+  },
+  "send_at" : "DATETIME_EPOCH",
+  "from_data" : {
+    "name" : "PII_COMPANY_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "cpu_usage_percent" : 5.13,
+  "personalizations" : [ {
+    "cc" : [ {
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "retry_attempts" : 4792
+    } ],
+    "conversion_rate" : 7.52,
+    "subject" : "NULL",
+    "to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "retry_attempts" : 3973
     } ]
+  } ],
+  "subject" : "STRING",
+  "recordId" : "STRING",
+  "v_tracking_settings" : {
+    "open_tracking_data" : {
+      "enable" : "BOOLEAN"
+    },
+    "click_tracking" : {
+      "enable" : "BOOLEAN",
+      "item_count" : 2940
+    }
   }
 }

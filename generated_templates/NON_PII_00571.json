@@ -1,48 +1,36 @@
-[ {
-  "self" : "URL",
-  "retry_attempts" : 4641,
-  "projectCategory" : {
-    "self" : "URL",
-    "description" : "STRING",
-    "response_time_sec" : 374.65,
-    "id" : "STRING"
-  },
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "name" : "STRING",
-  "style" : "STRING",
-  "id" : "STRING",
-  "key" : "STRING",
-  "simplified" : "BOOLEAN",
-  "avatarUrls_data" : {
-    "has_discount" : true,
-    "48x48" : "URL",
-    "32x32_data" : "URL"
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "endpoint" : "STRING",
+    "serviceId" : "STRING",
+    "statusCodes_data" : {
+      "500" : "INT",
+      "429" : "INT",
+      "200" : "INT",
+      "v_404" : "INT"
+    },
+    "metrics" : {
+      "item_count" : 1563,
+      "errorRate_data" : "DECIMAL",
+      "v_requestCount" : "INT",
+      "p50LatencyMs_data" : "INT",
+      "throughputRps" : "DECIMAL",
+      "p95LatencyMs" : "INT",
+      "errorCount" : "INT",
+      "p99LatencyMs" : "INT"
+    },
+    "period" : "STRING",
+    "topErrors_data" : [ {
+      "retry_attempts" : 485,
+      "code_data" : "STRING"
+    } ],
+    "sloCompliance" : {
+      "latencyTarget" : "INT",
+      "withinSlo" : "BOOLEAN",
+      "v_availabilityTarget" : null,
+      "is_active" : true,
+      "v_availabilityActual" : "DECIMAL"
+    }
   }
-}, {
-  "simplified" : "BOOLEAN",
-  "avatarUrls_data" : {
-    "32x32" : "URL",
-    "requires_update" : true,
-    "24x24" : "URL",
-    "16x16" : "URL",
-    "48x48" : "URL"
-  },
-  "v_style" : "STRING",
-  "key" : "STRING",
-  "projectCategory" : {
-    "name" : "STRING",
-    "id" : "STRING",
-    "v_self" : "URL",
-    "item_count" : 2894,
-    "description_data" : null
-  },
-  "self" : "URL",
-  "insight" : {
-    "totalIssueCount" : "INT"
-  },
-  "fullName" : "STRING",
-  "id" : "STRING"
-} ]
+}

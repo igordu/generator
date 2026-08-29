@@ -1,47 +1,21 @@
-[ {
-  "v_simplified" : "BOOLEAN",
-  "key_data" : "STRING",
-  "avatarUrls" : {
-    "page_index" : 3269,
-    "32x32" : "URL",
-    "24x24" : "URL",
-    "16x16" : "URL",
-    "v_48x48" : "URL"
-  },
+{
+  "createdBy" : "STRING",
+  "ruleId" : "STRING",
+  "enabled" : "BOOLEAN",
+  "conditions" : [ {
+    "field" : "STRING",
+    "v_operator" : "STRING"
+  } ],
+  "actions" : [ {
+    "v_config" : {
+      "responseCode_data" : "INT",
+      "requestsPerMinute_data" : "INT"
+    },
+    "type" : "STRING"
+  } ],
   "name" : "STRING",
-  "style" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "conversion_rate" : 114.02
-  },
-  "id" : "STRING",
-  "projectCategory" : {
-    "name" : "STRING",
-    "description" : "STRING",
-    "id" : "STRING"
-  },
-  "self" : "URL"
-}, {
-  "userName" : "STRING",
-  "v_simplified" : "BOOLEAN",
-  "style" : "STRING",
-  "id" : "STRING",
-  "projectCategory" : {
-    "name" : "STRING",
-    "self" : "NULL",
-    "description" : "STRING"
-  },
-  "v_avatarUrls" : {
-    "48x48" : "URL",
-    "16x16" : "URL",
-    "24x24" : "URL",
-    "32x32" : "URL"
-  },
-  "key" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "response_time_sec" : 209.78,
-  "self" : "URL"
-} ]
+  "priority" : "INT",
+  "description" : "STRING",
+  "updatedAt" : "DATETIME",
+  "createdAt" : "DATETIME"
+}

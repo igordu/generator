@@ -1,16 +1,30 @@
 {
-  "v_country" : "STRING",
-  "metadata" : "OBJECT",
-  "object" : "STRING",
-  "v_account_type" : "STRING",
-  "clientName" : "PII_PERSON_NAME",
-  "v_currency" : "STRING",
-  "customer" : "STRING",
-  "routing_number" : "STRING",
-  "fingerprint" : "STRING",
-  "primaryKey" : "STRING",
-  "is_deleted" : false,
-  "v_account_holder_type" : "STRING",
-  "bank_name" : "STRING",
-  "v_last4" : "STRING"
+  "fareClass" : "STRING",
+  "totalFare_data" : {
+    "amount" : "DECIMAL"
+  },
+  "passenger" : {
+    "frequentFlyerNumber" : "STRING",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "v_nationality" : "PII_LOCATION_COUNTRY",
+    "telephone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "priority_level" : 621,
+    "firstName" : "PII_PERSON_FIRST_NAME"
+  },
+  "itinerary_data" : [ {
+    "destination" : "",
+    "flightNumber" : "STRING",
+    "segment" : "INT",
+    "status" : "STRING",
+    "v_arrivalAt" : "DATETIME",
+    "cabin" : "STRING",
+    "v_seat" : "STRING",
+    "is_deleted" : false
+  } ],
+  "v_ticketNumber" : "STRING",
+  "status" : "STRING",
+  "bookingRef" : "STRING"
 }

@@ -1,37 +1,23 @@
 {
-  "gender_data" : "STRING",
-  "uuid" : [ {
-    "type" : { },
-    "use" : "STRING",
-    "v_system" : "URL",
-    "value_data" : "PII_NATIONAL_ID"
-  } ],
-  "telecom_data" : [ {
-    "use" : "STRING",
-    "value" : "PII_PHONE_NUMBER",
-    "system" : "STRING"
-  }, {
-    "system" : "STRING",
-    "value" : "PII_EMAIL",
-    "is_active" : true
-  } ],
-  "priority_level" : 2896,
-  "meta" : {
-    "lastUpdated" : "DATETIME",
-    "versionId" : "INT"
-  },
-  "id" : "STRING",
-  "userName" : [ {
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "use" : "STRING",
-    "v_family" : "PII_PERSON_LAST_NAME",
-    "stock_quantity" : 4829
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "country" : "PII_LOCATION_COUNTRY",
-    "use" : "STRING",
-    "city" : "PII_LOCATION_CITY"
-  } ]
+  "v_Description" : "STRING",
+  "AccountName" : "PII_COMPANY_NAME",
+  "AccountId" : "STRING",
+  "Email" : "PII_EMAIL",
+  "MailingCity" : "PII_LOCATION_CITY",
+  "IsDeleted" : "BOOLEAN",
+  "Phone" : "PII_PHONE_NUMBER",
+  "FirstName" : "PII_PERSON_FIRST_NAME",
+  "MailingCountry" : "PII_LOCATION_COUNTRY",
+  "MailingState_data" : "STRING",
+  "OwnerId" : "STRING",
+  "v_MailingStreet" : "PII_ADDRESS_LINE",
+  "MobilePhone" : "PII_PHONE_NUMBER",
+  "Department" : "STRING",
+  "LastName" : "PII_PERSON_LAST_NAME",
+  "Id" : "STRING",
+  "Birthdate" : "PII_DATE_OF_BIRTH",
+  "MailingPostalCode" : "STRING",
+  "Name" : "PII_PERSON_NAME",
+  "Title" : "STRING",
+  "LastModifiedDate" : "DATETIME"
 }

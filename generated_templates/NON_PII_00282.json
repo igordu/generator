@@ -1,15 +1,17 @@
-[ {
-  "facets" : [ {
-    "v_key" : "STRING",
-    "displayName" : "STRING",
-    "v_count" : "INT"
-  }, {
-    "fullName" : "STRING",
-    "is_deleted" : false
-  }, {
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "count" : "INT"
-  } ],
-  "filter_data" : "STRING"
-} ]
+{
+  "v_quantity_on_hand" : "INT",
+  "last_received_at" : "DATETIME",
+  "sku" : "STRING",
+  "warehouse_id" : "STRING",
+  "quantity_available" : "INT",
+  "reorder_point" : "INT",
+  "location_code" : "STRING",
+  "last_counted_at" : "NULL",
+  "is_hazardous_data" : "BOOLEAN",
+  "batch_number" : "STRING",
+  "quantity_reserved" : "INT",
+  "expiry_date" : "NULL",
+  "tags" : [ "" ],
+  "unit_cost" : "INT",
+  "reorder_quantity" : "INT"
+}

@@ -1,41 +1,18 @@
-[ {
-  "facets" : [ {
-    "displayName" : "STRING",
-    "price" : 724.47,
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING"
-  } ],
-  "filter_data" : "STRING"
-}, {
-  "filter" : "STRING",
-  "is_active" : true,
-  "facets" : [ {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "v_key" : "STRING"
-  }, {
-    "count" : "INT",
-    "requires_update" : false,
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "key" : "STRING",
-    "count" : "INT"
-  } ]
-}, {
-  "cpu_usage_percent" : 638.07,
-  "filter" : "STRING",
-  "facets" : [ {
-    "count" : "INT",
-    "requires_update" : false,
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT"
-  } ]
-} ]
+{
+  "quantity_reserved_data" : "INT",
+  "sku" : "STRING",
+  "v_is_hazardous" : "BOOLEAN",
+  "last_received_at" : "DATETIME",
+  "quantity_on_hand_data" : "INT",
+  "reorder_point_data" : "INT",
+  "batch_number" : "STRING",
+  "unit_cost" : "INT",
+  "expiry_date" : "NULL",
+  "quantity_available_data" : "INT",
+  "last_counted_at_data" : "DATETIME",
+  "warehouse_id" : "NULL",
+  "conversion_rate" : 2.43,
+  "location_code" : "NULL",
+  "reorder_quantity" : "INT",
+  "name_val" : "STRING"
+}

@@ -1,0 +1,20 @@
+{
+  "producer" : "STRING",
+  "correlationId" : "STRING",
+  "metadata" : {
+    "v_schemaVersion" : "STRING"
+  },
+  "payload" : {
+    "ipAddress_data" : "PII_IP_ADDRESS",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "registrationSource" : "STRING",
+    "userId" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "occurredAt_data" : "DATETIME",
+  "version" : "STRING"
+}

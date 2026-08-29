@@ -1,26 +1,28 @@
 {
-  "transactions_data" : {
-    "discount_rate" : 677.09,
-    "v_booked" : [ {
-      "debtorAccount" : {
-        "iban_data" : "STRING"
-      },
-      "cpu_usage_percent" : 360.42,
-      "creditorName" : "PII_PERSON_NAME",
-      "bookingDate" : "DATE",
-      "uuid" : "STRING",
-      "v_creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "valueDate" : "DATE",
-      "debtorName" : "STRING",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "bankTransactionCode" : {
-        "family" : "STRING",
-        "response_time_sec" : 821.71,
-        "domain_data" : "STRING",
-        "subFamily" : "STRING"
-      }
-    } ]
+  "data" : {
+    "fetchResource" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "hs_object_id" : "STRING",
+      "v_lifecyclestage" : "STRING",
+      "website" : "URL",
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "jobtitle" : "STRING",
+      "company" : "PII_COMPANY_NAME",
+      "lastmodifieddate_data" : "DATETIME",
+      "city" : "PII_LOCATION_CITY",
+      "v_num_associated_deals" : "INT",
+      "v_state" : "STRING",
+      "hs_email_optout" : "BOOLEAN",
+      "v_department" : "STRING",
+      "hs_lead_status" : "STRING",
+      "createdate_data" : "DATETIME",
+      "address" : "PII_ADDRESS_LINE",
+      "associatedcompanyid" : "STRING",
+      "email" : "PII_EMAIL",
+      "telephone" : "PII_PHONE_NUMBER",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "id" : "STRING",
+      "phone" : "PII_PHONE_NUMBER"
+    }
   }
 }

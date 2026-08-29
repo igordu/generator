@@ -1,10 +1,29 @@
 {
-  "identifier" : "STRING",
-  "cpu_usage_percent" : 860.15,
-  "uuid" : "STRING",
-  "media" : {
-    "system_ping_ms" : 1410
-  },
-  "name" : "STRING",
-  "shopUrl" : "URL"
+  "incident" : {
+    "incident_number" : "INT",
+    "created_at" : "DATETIME",
+    "alert_counts" : {
+      "requires_update" : false,
+      "v_triggered" : "INT",
+      "v_all" : "INT"
+    },
+    "v_status" : "STRING",
+    "v_description" : "TEXT",
+    "urgency" : "STRING",
+    "service" : {
+      "summary" : "STRING",
+      "id" : "STRING"
+    },
+    "escalation_policy_data" : "",
+    "discount_rate" : 51.3,
+    "runbook_url" : "URL",
+    "resolved_at" : "DATETIME",
+    "v_notes" : [ {
+      "created_at" : "DATETIME",
+      "v_content" : "TEXT",
+      "id" : "STRING"
+    } ],
+    "title" : "STRING",
+    "id" : ""
+  }
 }

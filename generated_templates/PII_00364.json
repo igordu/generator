@@ -1,4 +1,36 @@
 {
-  "item_count" : 1268,
-  "primary_email" : "PII_EMAIL"
+  "verificationId" : "STRING",
+  "createdAt" : "DATETIME",
+  "address" : {
+    "city_data" : "PII_LOCATION_CITY",
+    "v_street" : "PII_ADDRESS_LINE",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "checks" : [ {
+    "result" : "STRING",
+    "checkType" : "STRING"
+  } ],
+  "status" : "STRING",
+  "stock_quantity" : 1513,
+  "riskScore" : "INT",
+  "completedAt" : "DATETIME",
+  "workflowId" : "STRING",
+  "applicant" : {
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "system_ping_ms" : 344,
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "nationality" : "PII_LOCATION_COUNTRY"
+  },
+  "reviewedBy" : "PII_EMAIL",
+  "v_document" : {
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "v_expiryDate" : "DATE",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "number" : "PII_NATIONAL_ID",
+    "type" : "STRING",
+    "issuingCountry" : "PII_LOCATION_COUNTRY"
+  }
 }

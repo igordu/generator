@@ -1,37 +1,23 @@
 {
-  "page_number" : "NULL",
-  "v_page_count" : "INT",
-  "registrants" : [ {
-    "v_no_of_employees" : "STRING",
-    "join_url" : "URL",
-    "v_custom_questions" : [ {
-      "value" : "NULL",
-      "title_data" : "STRING",
-      "response_time_sec" : 738.84
-    }, {
-      "value" : "STRING",
-      "title" : "STRING"
-    } ],
-    "industry" : "STRING",
-    "auto_renew" : false,
-    "zip" : "STRING",
-    "create_time" : "DATETIME",
-    "org" : "PII_ORGANIZATION_NAME",
-    "address" : "PII_ADDRESS_LINE",
-    "purchasing_time_frame" : "STRING",
+  "uuid" : "STRING",
+  "cancel_at_period_end_data" : "BOOLEAN",
+  "plan" : {
+    "primaryKey" : null,
+    "product" : "STRING",
+    "amount" : "INT",
+    "v_currency" : "STRING",
+    "interval" : "STRING"
+  },
+  "trial_end" : "NULL",
+  "livemode" : "BOOLEAN",
+  "metadata" : {
+    "v_account_manager" : "PII_EMAIL",
     "uuid" : "STRING",
-    "city" : "PII_LOCATION_CITY",
-    "role_in_purchase_process" : "STRING",
-    "job_title" : "STRING",
-    "contactNumber" : "PII_PHONE_NUMBER",
-    "state_data" : "PII_LOCATION_STATE",
-    "status" : "STRING",
-    "comments" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY",
-    "email" : "PII_EMAIL",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "first_name" : "PII_PERSON_FIRST_NAME"
-  } ],
-  "total_records" : "INT",
-  "page_size" : "INT"
+    "item_count" : 1430
+  },
+  "v_object" : "STRING",
+  "customer" : "STRING",
+  "current_period_end" : "DATETIME_EPOCH",
+  "status_data" : "STRING",
+  "current_period_start" : "DATETIME_EPOCH"
 }

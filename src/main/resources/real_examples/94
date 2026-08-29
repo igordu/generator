@@ -1,0 +1,17 @@
+{
+  "snapshotId": "snap-20240410-prod-db-users",
+  "database": "users_db",
+  "cluster": "postgres-cluster-prod",
+  "status": "completed",
+  "type": "automated",
+  "startedAt": "2024-04-10T03:00:00Z",
+  "completedAt": "2024-04-10T03:12:44Z",
+  "sizeGb": 48.3,
+  "encryptionKeyId": "kms-key-prod-backups",
+  "retentionDays": 30,
+  "region": "eu-central-1",
+  "tags": {
+    "environment": "production",
+    "team": "platform"
+  }
+}

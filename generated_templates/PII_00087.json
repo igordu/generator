@@ -1,25 +1,30 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "content" : [ {
-        "unhelpfulCount" : "INT",
-        "rating" : "INT",
-        "articleModelId" : "STRING",
-        "articleSizeRatings" : {
-          "OVERALL" : "INT",
-          "SHOE_WIDTH" : "INT"
-        },
-        "customerCity_data" : "PII_LOCATION_CITY",
-        "language" : "STRING",
-        "primaryKey" : "STRING",
-        "articleId" : "STRING",
-        "recommend" : "BOOLEAN",
-        "created" : null,
-        "customerCountry" : "PII_LOCATION_COUNTRY",
-        "title" : "PII_COMPANY_NAME",
-        "description" : "STRING"
-      } ],
-      "requires_update" : false
+  "audit_trail" : {
+    "request_context" : {
+      "raw_data" : {
+        "ticket" : {
+          "subject" : "STRING",
+          "assignee_id" : "INT",
+          "v_description" : "PII_FREE_TEXT",
+          "created_at" : "DATETIME",
+          "priority" : "STRING",
+          "v_comments" : [ {
+            "id" : "INT",
+            "v_body" : "PII_FREE_TEXT",
+            "public" : "BOOLEAN",
+            "created_at" : "DATETIME",
+            "author_id" : "INT"
+          } ],
+          "status" : "STRING",
+          "uuid" : "INT",
+          "tags" : [ "STRING" ],
+          "requester" : {
+            "emailAddress" : "PII_EMAIL",
+            "name" : "PII_PERSON_NAME",
+            "is_active" : false
+          }
+        }
+      }
     }
   }
 }

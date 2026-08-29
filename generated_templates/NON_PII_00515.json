@@ -1,43 +1,34 @@
-[ {
-  "projectCategory" : {
-    "self" : "URL",
-    "description" : "STRING",
-    "name" : "STRING",
-    "temperature_c" : 107.69,
-    "id" : "STRING"
-  },
-  "simplified" : "BOOLEAN",
-  "avatarUrls" : {
-    "48x48" : "URL",
-    "32x32" : "URL",
-    "response_time_sec" : 123.88,
-    "16x16" : "URL"
-  },
-  "self" : "URL",
-  "id" : "STRING",
-  "name" : null,
-  "v_style" : "NULL",
-  "key" : "STRING"
-}, {
-  "projectCategory" : {
-    "v_description" : "STRING",
-    "identifier" : "STRING",
-    "self" : "URL"
-  },
-  "insight" : {
-    "lastIssueUpdateTime_data" : "DATETIME",
-    "page_index" : 2766,
-    "totalIssueCount_data" : "INT"
-  },
-  "name" : "STRING",
-  "v_simplified" : "BOOLEAN",
-  "self" : "URL",
-  "v_avatarUrls" : {
-    "v_16x16" : "URL",
-    "page_index" : 1800,
-    "24x24" : "URL",
-    "32x32" : "URL"
-  },
-  "style" : "STRING",
-  "v_key" : "STRING"
-} ]
+{
+  "system_state" : {
+    "request_context" : {
+      "body" : {
+        "uptimeSeconds_data" : "INT",
+        "role" : "STRING",
+        "status" : "STRING",
+        "version" : "STRING",
+        "uuid" : "STRING",
+        "metrics_data" : {
+          "identifier" : "DECIMAL",
+          "offlinePartitionsCount_data" : "INT",
+          "messagesInPerSec" : "INT",
+          "bytesOutPerSec" : "INT",
+          "bytesInPerSec" : "INT",
+          "activeControllerCount_data" : "INT",
+          "underReplicatedPartitions" : "INT"
+        },
+        "jvmMemory" : {
+          "discount_rate" : 93.44,
+          "gcPauseMs" : "INT",
+          "heapMaxMb" : "INT",
+          "heapUsedMb" : "INT"
+        },
+        "topics" : [ {
+          "priority_level" : 2814,
+          "replicationFactor" : "INT",
+          "name" : "NULL",
+          "partitions" : "INT"
+        } ]
+      }
+    }
+  }
+}

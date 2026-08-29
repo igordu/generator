@@ -1,0 +1,72 @@
+{
+  "Worker_ID": "WID-00812",
+  "Worker_Reference": {
+    "ID": "abc123-def456-ghi789",
+    "type": "WID"
+  },
+  "Personal_Data": {
+    "Name_Data": {
+      "Legal_Name_Data": {
+        "Name_Detail_Data": {
+          "First_Name": "Patricia",
+          "Last_Name": "Hernandez",
+          "Middle_Name": "Ann",
+          "Salutation_Reference": {
+            "WID": "Ms."
+          }
+        }
+      },
+      "Preferred_Name_Data": {
+        "Name_Detail_Data": {
+          "First_Name": "Patricia",
+          "Last_Name": "Hernandez"
+        }
+      }
+    },
+    "Contact_Data": {
+      "Address_Data": [
+        {
+          "Country_Reference": { "ISO_3166_1_Alpha_2_Code": "US" },
+          "Address_Line_Data": [{ "Type": "ADDRESS_LINE_1", "content": "4502 Birchwood Lane" }],
+          "Municipality": "Dallas",
+          "Country_Region_Reference": { "ISO_3166_2_Code": "TX" },
+          "Postal_Code": "75201",
+          "Usage_Data": { "Type_Data": [{ "Type_Reference": { "WID": "WORK" } }] }
+        }
+      ],
+      "Phone_Data": [
+        {
+          "Phone_Number": "214-555-0166",
+          "Phone_Device_Type_Reference": { "WID": "Mobile" },
+          "Usage_Data": { "Type_Data": [{ "Type_Reference": { "WID": "WORK" } }] }
+        }
+      ],
+      "Email_Address_Data": [
+        {
+          "Email_Address": "patricia.hernandez@company.com",
+          "Usage_Data": { "Type_Data": [{ "Type_Reference": { "WID": "WORK" } }] }
+        }
+      ]
+    },
+    "Identification_Data": {
+      "National_ID_Data": [
+        {
+          "National_ID": "SSN-587-22-8341",
+          "National_ID_Type_Reference": { "WID": "USA-SSN" },
+          "Country_Reference": { "ISO_3166_1_Alpha_2_Code": "US" }
+        }
+      ],
+      "Birth_Date": "1978-11-30"
+    }
+  },
+  "Employment_Data": {
+    "Worker_Job_Data": {
+      "Position_Data": {
+        "Position_ID": "P-00451",
+        "Job_Title": "Director of Human Resources",
+        "Business_Title": "HR Director",
+        "Start_Date": "2019-03-01"
+      }
+    }
+  }
+}

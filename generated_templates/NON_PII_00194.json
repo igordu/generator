@@ -1,17 +1,29 @@
 {
-  "shopUrl" : "URL",
-  "id" : "STRING",
-  "userName" : "STRING",
-  "media" : {
-    "images_data" : [ {
-      "thumbnailHdUrl" : "URL",
-      "v_smallUrl" : "URL",
-      "orderNumber_data" : "INT",
-      "type" : "STRING",
-      "largeHdUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "v_smallHdUrl" : "URL",
-      "largeUrl" : "URL"
-    } ]
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "exported_at" : "DATETIME",
+    "gdpr_erasure_applied" : "BOOLEAN",
+    "retention_policy" : "STRING",
+    "ticket" : {
+      "price" : 8081.58,
+      "requester" : {
+        "http_status" : 2385,
+        "phone" : "***-***-****",
+        "email" : "[MASKED]",
+        "name" : "REDACTED"
+      },
+      "v_satisfaction_rating" : {
+        "score" : "STRING",
+        "comment" : "TEXT"
+      },
+      "subject_data" : "STRING",
+      "v_description" : "TEXT",
+      "created_at" : "DATETIME",
+      "status" : "STRING"
+    },
+    "export_id" : "STRING",
+    "anonymized" : "BOOLEAN",
+    "temperature_c" : -9.97
   }
 }

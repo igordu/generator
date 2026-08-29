@@ -1,5 +1,21 @@
 {
-  "item_count" : 2756,
-  "clientToken" : "STRING",
-  "userName" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "movedToDlqAt" : "DATETIME",
+      "originalQueue" : "STRING",
+      "v_body" : {
+        "v_errorCode" : "STRING",
+        "errorMessage" : "STRING",
+        "discount_rate" : 89.62
+      },
+      "firstReceivedAt_data" : "DATETIME",
+      "lastReceivedAt" : "DATETIME",
+      "messageId" : "STRING",
+      "queueName" : "STRING",
+      "attributes" : {
+        "retryPolicy" : "STRING",
+        "contentType_data" : "STRING"
+      }
+    }
+  }
 }

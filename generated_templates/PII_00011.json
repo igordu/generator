@@ -1,28 +1,22 @@
 {
-  "telemetry_data" : {
-    "payload_wrapper" : {
-      "debug_payload" : {
-        "content" : [ {
-          "helpfulCount" : "INT",
-          "uuid" : "STRING",
-          "articleModelId" : "STRING",
-          "articleSizeRatings" : {
-            "OVERALL" : "INT",
-            "SHOE_WIDTH" : "INT",
-            "temperature_c" : 205.41
-          },
-          "recommend" : "BOOLEAN",
-          "language" : "STRING",
-          "auto_renew" : true,
-          "created" : "DATETIME",
-          "unhelpfulCount" : "INT",
-          "v_customerCity" : "PII_LOCATION_CITY",
-          "description" : "STRING",
-          "title" : "PII_COMPANY_NAME",
-          "rating" : "NULL",
-          "customerCountry" : "PII_LOCATION_COUNTRY"
-        } ]
-      }
-    }
-  }
+  "content_data" : [ {
+    "articleSizeRatings" : {
+      "uuid" : "INT",
+      "is_active" : false,
+      "OVERALL" : "INT"
+    },
+    "rating" : "INT",
+    "description" : "STRING",
+    "helpfulCount" : "INT",
+    "articleModelId" : "STRING",
+    "cpu_usage_percent" : 49.93,
+    "recommend_data" : "BOOLEAN",
+    "unhelpfulCount_data" : "",
+    "articleId" : "STRING",
+    "language" : "STRING",
+    "title" : "STRING",
+    "reviewId" : "STRING",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_customerCity" : "PII_LOCATION_CITY"
+  } ]
 }

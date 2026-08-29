@@ -1,0 +1,34 @@
+{
+  "personalizations": [
+    {
+      "to": [
+        {
+          "email": "PII_EMAIL",
+          "name": "PII_PERSON_NAME"
+        }
+      ],
+      "subject": "STRING"
+    }
+  ],
+  "from": {
+    "email": "PII_EMAIL",
+    "name": "PII_PERSON_NAME"
+  },
+  "reply_to": {
+    "email": "PII_EMAIL"
+  },
+  "content": [
+    {
+      "type": "STRING",
+      "value": "PII_FREE_TEXT"
+    }
+  ],
+  "categories": ["STRING"],
+  "send_at": "DATETIME_EPOCH",
+  "batch_id": "STRING",
+  "mail_settings": {
+    "sandbox_mode": {
+      "enable": "BOOLEAN"
+    }
+  }
+}

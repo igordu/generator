@@ -1,42 +1,23 @@
 {
-  "v_resourceType" : "STRING",
-  "telecom_data" : [ {
-    "price" : 831.84,
-    "value" : "PII_EMAIL",
-    "system" : "STRING"
-  }, {
-    "value" : "PII_PHONE_NUMBER",
-    "use" : "STRING",
-    "priority_level" : 3037,
-    "system" : "STRING"
-  } ],
-  "identifier" : [ {
-    "value_data" : "PII_NATIONAL_ID",
-    "v_system" : "URL",
-    "type" : {
-      "text" : "STRING"
-    },
-    "use_data" : "STRING"
-  } ],
-  "meta" : {
-    "lastUpdated" : "DATETIME",
-    "cache_hit" : true,
-    "versionId" : "INT"
-  },
-  "price" : 713.48,
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "gender" : "STRING",
-  "clientName" : [ {
-    "v_use" : "STRING",
-    "family" : "PII_PERSON_LAST_NAME",
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "page_index" : 457
-  } ],
-  "id" : "STRING",
-  "address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "country" : "PII_LOCATION_COUNTRY",
-    "v_city" : "PII_LOCATION_CITY",
-    "use" : "STRING"
-  } ]
+  "MailingPostalCode" : "STRING",
+  "Name" : "PII_PERSON_NAME",
+  "LastName" : "PII_PERSON_LAST_NAME",
+  "Phone" : "PII_PHONE_NUMBER",
+  "OwnerId" : "STRING",
+  "Title" : "STRING",
+  "Birthdate" : "PII_DATE_OF_BIRTH",
+  "Description" : "STRING",
+  "userName" : "PII_COMPANY_NAME",
+  "MailingState" : "STRING",
+  "MobilePhone" : "PII_PHONE_NUMBER",
+  "FirstName" : "PII_PERSON_FIRST_NAME",
+  "Department" : "STRING",
+  "IsDeleted" : "BOOLEAN",
+  "CreatedDate" : "DATETIME",
+  "Email" : "PII_EMAIL",
+  "primaryKey" : "STRING",
+  "MailingCity_data" : "PII_LOCATION_CITY",
+  "v_MailingStreet" : "PII_ADDRESS_LINE",
+  "MailingCountry" : "PII_LOCATION_COUNTRY",
+  "Id" : "STRING"
 }

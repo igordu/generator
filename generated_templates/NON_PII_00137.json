@@ -1,20 +1,34 @@
 {
-  "media" : {
-    "v_images" : [ {
-      "largeHdUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "smallUrl_data" : "URL",
-      "type" : "STRING",
-      "v_largeUrl" : "URL",
-      "mediumUrl" : "URL",
-      "system_ping_ms" : 2851,
-      "smallHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "mediumHdUrl_data" : "URL"
-    } ]
+  "sku" : "STRING",
+  "v_status" : "STRING",
+  "images" : [ {
+    "url" : "URL",
+    "isPrimary" : "BOOLEAN"
+  } ],
+  "userName" : "STRING",
+  "category" : "STRING",
+  "pricing" : {
+    "currency" : "STRING",
+    "basePrice" : "DECIMAL",
+    "taxClass_data" : "STRING"
   },
-  "clientName" : "STRING",
-  "id" : "STRING",
-  "shopUrl" : "URL",
-  "modelId" : "STRING"
+  "inventory" : {
+    "availableStock" : "INT",
+    "v_reservedStock" : "INT",
+    "v_backorderAllowed" : "BOOLEAN",
+    "v_totalStock" : "INT"
+  },
+  "brand" : "STRING",
+  "stock_quantity" : 289,
+  "uuid" : "STRING",
+  "v_updatedAt" : "DATETIME",
+  "attributes" : {
+    "color" : "STRING",
+    "foldable" : "BOOLEAN",
+    "batteryLifeHours" : "INT",
+    "weight_g" : "INT",
+    "auto_renew" : false,
+    "connectivity" : "STRING",
+    "noiseCancel" : "BOOLEAN"
+  }
 }

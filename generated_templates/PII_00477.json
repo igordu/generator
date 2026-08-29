@@ -1,43 +1,25 @@
 {
   "data" : {
     "fetchResource" : {
-      "resourceType" : "STRING",
-      "meta_data" : {
-        "versionId" : "",
-        "lastUpdated" : "DATETIME",
-        "stock_quantity" : 899
-      },
-      "telecom_data" : [ {
-        "value" : "PII_PHONE_NUMBER",
-        "system" : "STRING"
-      }, {
-        "value" : "PII_EMAIL",
-        "v_system" : "STRING"
-      } ],
-      "address" : [ {
-        "country_data" : "PII_LOCATION_COUNTRY",
-        "use" : "STRING",
-        "line" : [ "PII_ADDRESS_LINE" ],
-        "system_ping_ms" : 3434,
-        "v_city" : "PII_LOCATION_CITY"
-      } ],
-      "recordId" : "NULL",
-      "gender" : null,
-      "name" : [ {
-        "use" : "STRING",
-        "family" : "PII_PERSON_LAST_NAME",
-        "given" : [ "PII_PERSON_FIRST_NAME" ]
-      } ],
-      "v_birthDate" : "PII_DATE_OF_BIRTH",
-      "identifier" : [ {
-        "use" : "STRING",
-        "type" : {
-          "discount_rate" : 216.56,
-          "text" : "STRING"
+      "data_data" : {
+        "name" : "PII_PERSON_NAME",
+        "profile_image_url" : "URL",
+        "public_metrics_data" : {
+          "followers_count_data" : "INT",
+          "tweet_count" : "INT",
+          "following_count" : "INT",
+          "stock_quantity" : 2467
         },
-        "v_system" : "URL",
-        "value" : "PII_NATIONAL_ID"
-      } ]
+        "name_val" : "PII_USERNAME",
+        "id" : "",
+        "pinned_tweet_id" : "STRING",
+        "location" : "PII_LOCATION_CITY",
+        "created_at" : "DATETIME",
+        "url" : "URL",
+        "verified" : "BOOLEAN",
+        "protected" : "BOOLEAN",
+        "description" : "STRING"
+      }
     }
   }
 }

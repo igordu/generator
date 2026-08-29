@@ -1,0 +1,19 @@
+{
+  "artifactDigest" : "STRING",
+  "status" : "STRING",
+  "pipelineId" : "STRING",
+  "branch" : "STRING",
+  "environment" : "STRING",
+  "is_active" : false,
+  "repository" : "STRING",
+  "v_stages" : [ {
+    "priority_level" : 4212,
+    "coverage_data" : "DECIMAL",
+    "name" : "STRING",
+    "v_status" : "STRING",
+    "durationSeconds" : "INT"
+  } ],
+  "triggeredBy" : "PII_EMAIL",
+  "commit" : "STRING",
+  "startedAt" : "DATETIME"
+}

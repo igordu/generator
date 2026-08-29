@@ -1,30 +1,19 @@
 {
-  "v_page_size" : "INT",
-  "total_records" : "INT",
-  "registrants" : [ {
-    "temperature_c" : 77.44,
-    "email" : "PII_EMAIL",
-    "phone" : "PII_PHONE_NUMBER",
-    "job_title" : "STRING",
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "comments_data" : "STRING",
-    "industry" : "STRING",
-    "city" : "PII_LOCATION_CITY",
-    "join_url" : "URL",
-    "purchasing_time_frame_data" : "STRING",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "zip" : "STRING",
-    "id" : "STRING",
-    "status" : null,
-    "country" : "PII_LOCATION_COUNTRY",
-    "create_time_data" : "DATETIME",
-    "no_of_employees" : "STRING",
-    "state" : "PII_LOCATION_STATE",
-    "role_in_purchase_process_data" : "STRING",
-    "address" : "PII_ADDRESS_LINE",
-    "org" : "PII_ORGANIZATION_NAME"
-  } ],
-  "cache_hit" : false,
-  "page_count_data" : "INT",
-  "v_page_number" : "INT"
+  "data" : {
+    "fetchResource" : {
+      "resourceType" : "STRING",
+      "end" : "DATETIME",
+      "start" : "DATETIME",
+      "v_status" : "STRING",
+      "comment" : "STRING",
+      "participant_data" : [ {
+        "actor_data" : {
+          "reference" : "NULL",
+          "v_display" : "PII_PERSON_NAME"
+        },
+        "status" : "STRING"
+      } ],
+      "id" : "STRING"
+    }
+  }
 }

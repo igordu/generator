@@ -1,10 +1,13 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "v_deliveredAt" : "NULL",
+  "uuid" : "STRING",
+  "retryCount" : "INT",
+  "status_data" : "STRING",
+  "recipient_data" : {
+    "deviceToken" : "STRING",
+    "appVersion" : "STRING",
+    "userId" : null
   },
-  "results" : {
-    "clientToken" : "STRING",
-    "system_ping_ms" : 3034
-  }
+  "sentAt" : "DATETIME",
+  "type" : "STRING"
 }

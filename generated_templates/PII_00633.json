@@ -1,38 +1,51 @@
 {
-  "Id" : "STRING",
-  "Status" : "STRING",
-  "Employees" : [ {
-    "EmployeeID" : "STRING",
-    "ExternalLink" : {
-      "Url_data" : "URL",
-      "stock_quantity" : 2213
+  "key" : "STRING",
+  "v_fields" : {
+    "priority_data" : {
+      "id" : "STRING",
+      "name" : "STRING"
     },
-    "UpdatedDateUTC" : "DATETIME",
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING"
-  }, {
-    "EmployeeID" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "Status_data" : "STRING",
-    "v_ExternalLink" : {
-      "priority_level" : 1623,
-      "Description" : "STRING",
-      "Url_data" : "URL"
+    "summary_data" : "STRING",
+    "duedate" : "DATE",
+    "comment" : {
+      "total" : "INT",
+      "comments" : [ {
+        "created" : "DATETIME",
+        "updated_data" : "DATETIME",
+        "author" : {
+          "accountId" : "STRING",
+          "contactEmail" : "PII_EMAIL",
+          "requires_update" : false,
+          "userName" : "PII_PERSON_NAME"
+        },
+        "primaryKey" : "STRING",
+        "body_data" : "STRING",
+        "temperature_c" : 24.19
+      } ]
     },
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Url" : "NULL",
-      "v_Description" : "STRING",
-      "system_ping_ms" : 2797
+    "is_deleted" : true,
+    "reporter" : {
+      "timeZone" : "STRING",
+      "active" : "BOOLEAN",
+      "emailAddress" : "PII_EMAIL",
+      "userName" : "PII_PERSON_NAME",
+      "stock_quantity" : 3929,
+      "accountId" : "STRING"
     },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "identifier" : null,
-    "Status" : "STRING"
-  } ],
-  "v_DateTimeUTC" : "DATETIME"
+    "status" : {
+      "name" : "STRING",
+      "uuid" : null,
+      "retry_attempts" : 1749
+    },
+    "updated" : "",
+    "assignee" : {
+      "active" : "BOOLEAN",
+      "timeZone" : "STRING",
+      "displayName" : "PII_PERSON_NAME",
+      "emailAddress" : "PII_EMAIL",
+      "discount_rate" : 87.81
+    },
+    "created" : "DATETIME"
+  },
+  "id" : "STRING"
 }

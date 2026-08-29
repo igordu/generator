@@ -1,31 +1,48 @@
 {
-  "conversion_rate" : 50.44,
-  "transactions" : {
-    "booked_data" : [ {
-      "bookingDate" : "DATE",
-      "uuid" : "STRING",
-      "amount" : {
-        "amount" : "DECIMAL",
-        "currency_data" : "STRING"
+  "cart_data" : "STRING",
+  "payer" : {
+    "status" : "STRING",
+    "response_time_sec" : 29.93,
+    "payment_method" : "STRING",
+    "payer_info" : {
+      "birth_date" : "PII_DATE_OF_BIRTH",
+      "billing_address" : {
+        "line1" : "PII_ADDRESS_LINE",
+        "city" : "PII_LOCATION_CITY",
+        "postal_code" : "STRING",
+        "state" : "STRING",
+        "priority_level" : 3070,
+        "country_code" : "PII_LOCATION_COUNTRY"
       },
-      "userName" : "PII_PERSON_NAME",
-      "auto_renew" : false,
-      "bankTransactionCode" : {
-        "domain" : "STRING",
-        "subFamily" : "STRING",
-        "cpu_usage_percent" : 770.96,
-        "family" : "STRING"
+      "country_code" : "STRING",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "shipping_address" : {
+        "recipient_name" : "PII_PERSON_NAME",
+        "city" : "PII_LOCATION_CITY",
+        "line2" : "STRING",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "state_data" : null,
+        "postal_code" : "STRING",
+        "mobile" : "PII_PHONE_NUMBER",
+        "v_line1" : "PII_ADDRESS_LINE"
       },
-      "v_debtorAccount" : {
-        "cache_hit" : true,
-        "iban" : "STRING"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "creditorAccount" : {
-        "v_iban" : "PII_IBAN",
-        "page_index" : 738
-      },
-      "debtorName" : "STRING"
-    } ]
-  }
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "phone" : "PII_PHONE_NUMBER",
+      "email" : "PII_EMAIL",
+      "payer_id" : "STRING"
+    }
+  },
+  "update_time" : "DATETIME",
+  "transactions_data" : [ {
+    "amount" : {
+      "currency" : "STRING",
+      "total" : "DECIMAL"
+    },
+    "description" : "STRING",
+    "v_invoice_number" : "NULL"
+  } ],
+  "id" : "STRING",
+  "intent" : "STRING",
+  "state" : "STRING",
+  "create_time" : "DATETIME"
 }

@@ -1,38 +1,43 @@
 {
-  "Status" : "STRING",
-  "Id" : "STRING",
-  "DateTimeUTC" : "DATETIME",
-  "ProviderName" : "STRING",
-  "Employees_data" : [ {
-    "primaryKey" : "STRING",
-    "UpdatedDateUTC_data" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "retry_attempts" : 1105
+  "key" : "STRING",
+  "fields" : {
+    "assignee" : {
+      "timeZone" : "STRING",
+      "emailAddress" : "PII_EMAIL",
+      "primaryKey" : "STRING",
+      "name_val" : "PII_PERSON_NAME"
     },
-    "system_ping_ms" : 2190,
-    "Status" : "STRING"
-  }, {
-    "v_ExternalLink" : {
-      "Url" : "URL",
-      "Description_data" : "STRING"
+    "status" : {
+      "name" : "STRING",
+      "uuid" : "STRING"
     },
-    "EmployeeID" : "STRING",
-    "Status" : "STRING",
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink_data" : {
-      "v_Url" : "URL",
-      "Description" : "STRING"
-    }
-  } ]
+    "priority" : {
+      "id" : "STRING",
+      "name" : "STRING"
+    },
+    "created" : "DATETIME",
+    "comment_data" : {
+      "total" : "INT",
+      "comments" : [ {
+        "author_data" : {
+          "emailAddress" : "PII_EMAIL",
+          "accountId" : "STRING",
+          "fullName" : "PII_PERSON_NAME"
+        },
+        "created" : "DATETIME",
+        "id" : "STRING"
+      } ]
+    },
+    "v_reporter" : {
+      "emailAddress" : "PII_EMAIL",
+      "timeZone" : "STRING",
+      "userName" : "PII_PERSON_NAME",
+      "cache_hit" : true,
+      "active" : "BOOLEAN"
+    },
+    "updated" : "DATETIME",
+    "duedate" : "DATE",
+    "summary_data" : "STRING"
+  },
+  "id" : "STRING"
 }

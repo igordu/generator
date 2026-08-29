@@ -1,13 +1,21 @@
 {
-  "starRatingDistribution" : {
-    "4_data" : "INT",
-    "v_2" : "INT",
-    "5" : "INT",
-    "1" : "INT"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "v_numberOfUserReviews" : null,
-  "averageStarRating_data" : "INT",
-  "articleModelId" : "STRING",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "numberOfUserRecommendations" : "INT"
+  "results" : {
+    "v_numberOfUserPositiveRecommendations" : "INT",
+    "numberOfUserReviews" : "INT",
+    "numberOfUserRecommendations" : "INT",
+    "has_discount" : true,
+    "averageStarRating_data" : "INT",
+    "articleModelId" : "STRING",
+    "starRatingDistribution" : {
+      "2" : "INT",
+      "5" : "INT",
+      "4" : "INT",
+      "1" : "INT",
+      "3_data" : "INT"
+    }
+  }
 }

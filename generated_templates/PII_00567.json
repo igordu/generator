@@ -1,38 +1,48 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "v_transactions" : {
-      "booked" : [ {
-        "valueDate" : "DATE",
-        "creditorName" : "PII_PERSON_NAME",
-        "debtorAccount" : {
-          "is_deleted" : false,
-          "iban_data" : "STRING"
-        },
-        "bookingDate" : "DATE",
-        "v_creditorAccount" : {
-          "item_count" : 4526,
-          "iban" : "PII_IBAN"
-        },
-        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-        "amount" : {
-          "amount" : "DECIMAL",
-          "currency" : "STRING"
-        },
-        "bankTransactionCode" : {
-          "v_domain" : "STRING",
-          "family" : "STRING",
-          "v_subFamily" : "STRING",
-          "system_ping_ms" : 158
-        },
-        "debtorName" : "NULL",
-        "transactionId" : "STRING"
-      } ],
-      "is_active" : false
+  "update_time_data" : "DATETIME",
+  "create_time" : "DATETIME",
+  "state" : "STRING",
+  "id" : "STRING",
+  "cart" : "STRING",
+  "intent" : "STRING",
+  "transactions" : [ {
+    "description" : "STRING",
+    "amount" : {
+      "total" : "DECIMAL",
+      "currency" : "STRING"
     },
-    "conversion_rate" : 969.01
+    "invoice_number" : "STRING"
+  } ],
+  "payer_data" : {
+    "payment_method" : "STRING",
+    "payer_info_data" : {
+      "birth_date" : "PII_DATE_OF_BIRTH",
+      "userName" : "PII_PERSON_LAST_NAME",
+      "email" : "PII_EMAIL",
+      "fullName" : "PII_PERSON_FIRST_NAME",
+      "v_shipping_address" : {
+        "line1_data" : "PII_ADDRESS_LINE",
+        "line2_data" : "STRING",
+        "recipient_name" : "PII_PERSON_NAME",
+        "phone" : "PII_PHONE_NUMBER",
+        "postal_code" : "STRING",
+        "state" : "STRING",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "city" : "PII_LOCATION_CITY"
+      },
+      "contactNumber" : "PII_PHONE_NUMBER",
+      "billing_address_data" : {
+        "system_ping_ms" : 4834,
+        "city" : "PII_LOCATION_CITY",
+        "state" : "STRING",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "line1" : "PII_ADDRESS_LINE",
+        "v_postal_code" : "STRING"
+      },
+      "payer_id" : "STRING",
+      "country_code_data" : "STRING"
+    },
+    "status_data" : "STRING",
+    "response_time_sec" : 7.45
   }
 }

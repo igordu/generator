@@ -1,15 +1,28 @@
-{
-  "articleModelId" : "STRING",
-  "numberOfUserRecommendations" : "INT",
-  "averageStarRating" : "NULL",
-  "starRatingDistribution" : {
-    "2" : "INT",
-    "3" : "INT",
-    "4" : "INT",
-    "5" : "INT",
-    "1" : "INT",
-    "has_discount" : false
-  },
-  "has_discount" : false,
-  "v_numberOfUserPositiveRecommendations" : "INT"
-}
+[ {
+  "filter" : "STRING",
+  "facets_data" : [ {
+    "key_data" : "STRING",
+    "count" : "INT",
+    "userName" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "price" : 360.88,
+    "key" : "STRING",
+    "count_data" : "INT"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  } ]
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "retry_attempts" : 709,
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "count" : "INT",
+    "v_key" : "STRING"
+  } ]
+} ]

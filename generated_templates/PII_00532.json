@@ -1,27 +1,22 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "debtorName" : "STRING",
-      "bankTransactionCode" : {
-        "family" : "STRING",
-        "subFamily" : "STRING",
-        "domain" : "STRING"
-      },
-      "transactionId" : "STRING",
-      "amount" : {
-        "currency" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "requires_update" : true,
-      "bookingDate" : "DATE",
-      "v_valueDate" : "",
-      "creditorAccount" : {
-        "requires_update" : true,
-        "iban" : "PII_IBAN"
-      },
-      "creditorName" : "PII_PERSON_NAME"
-    } ],
-    "requires_update" : false
-  }
+  "lifecyclestage" : "STRING",
+  "website" : "URL",
+  "state" : "STRING",
+  "mobile" : "PII_PHONE_NUMBER",
+  "hs_lead_status" : "NULL",
+  "phone" : "PII_PHONE_NUMBER",
+  "userName" : "PII_PERSON_FIRST_NAME",
+  "recordId" : "STRING",
+  "lastmodifieddate" : "DATETIME",
+  "city" : "PII_LOCATION_CITY",
+  "country" : "PII_LOCATION_COUNTRY",
+  "address" : "PII_ADDRESS_LINE",
+  "associatedcompanyid" : "STRING",
+  "email" : "PII_EMAIL",
+  "jobtitle" : "STRING",
+  "name_val" : "PII_PERSON_LAST_NAME",
+  "zip_data" : "STRING",
+  "num_associated_deals" : "INT",
+  "company" : "PII_COMPANY_NAME",
+  "createdate" : "DATETIME"
 }

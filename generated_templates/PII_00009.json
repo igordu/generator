@@ -1,22 +1,22 @@
 {
-  "content" : [ {
-    "articleModelId" : "STRING",
-    "title" : "PII_COMPANY_NAME",
+  "content_data" : [ {
     "identifier" : "STRING",
-    "has_discount" : true,
-    "recommend" : "BOOLEAN",
-    "reviewId" : "STRING",
-    "helpfulCount" : "INT",
-    "language" : "STRING",
-    "customerCountry_data" : "PII_LOCATION_COUNTRY",
-    "unhelpfulCount" : "INT",
-    "articleSizeRatings" : {
-      "recordId" : "INT",
-      "cache_hit" : true,
-      "OVERALL" : "INT"
+    "recordId" : "STRING",
+    "created" : "DATETIME",
+    "rating" : "INT",
+    "title" : "STRING",
+    "v_helpfulCount" : "INT",
+    "v_articleSizeRatings" : {
+      "OVERALL" : "INT",
+      "has_discount" : false,
+      "SHOE_WIDTH" : "INT"
     },
+    "language" : "STRING",
     "customerCity" : "PII_LOCATION_CITY",
-    "rating" : "INT"
-  } ],
-  "response_time_sec" : 713.63
+    "recommend" : "BOOLEAN",
+    "description" : "STRING",
+    "articleModelId" : "NULL",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "unhelpfulCount" : "NULL"
+  } ]
 }

@@ -1,19 +1,57 @@
 {
-  "v_content" : [ {
-    "articleId" : "STRING",
-    "articleModelId" : "STRING",
-    "reviewId" : "STRING",
-    "unhelpfulCount" : "INT",
-    "recommend_data" : "BOOLEAN",
-    "helpfulCount" : "INT",
-    "title" : "PII_COMPANY_NAME",
-    "customerCity" : "PII_LOCATION_CITY",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "language" : "STRING",
-    "created_data" : "DATETIME",
-    "articleSizeRatings" : {
-      "recordId" : "INT"
-    },
-    "rating" : "INT"
-  } ]
+  "data" : {
+    "fetchResource" : {
+      "username" : "PII_USERNAME",
+      "identifier" : {
+        "clientName" : "PII_PERSON_NAME",
+        "primaryPhone" : {
+          "contactNumber" : "STRING",
+          "requires_update" : true,
+          "number" : "PII_PHONE_NUMBER",
+          "v_countryCode" : "STRING"
+        },
+        "registrationAddress" : {
+          "county" : "STRING",
+          "country" : "STRING",
+          "addressLine1" : "STRING",
+          "stateOrProvince" : "STRING",
+          "postalCode" : "STRING",
+          "city" : "STRING",
+          "addressLine2" : "STRING"
+        },
+        "firstName" : "PII_PERSON_NAME",
+        "conversion_rate" : 8.24,
+        "primary_email" : "PII_EMAIL",
+        "mobile" : {
+          "phoneType" : "STRING",
+          "number_data" : "PII_PHONE_NUMBER",
+          "v_countryCode" : "STRING"
+        }
+      },
+      "status" : "STRING",
+      "primaryKey" : "STRING",
+      "businessAccount" : {
+        "cell" : {
+          "mobile" : "STRING",
+          "countryCode" : "STRING",
+          "auto_renew" : true,
+          "number" : "PII_PHONE_NUMBER"
+        },
+        "primaryPhone" : {
+          "countryCode" : "STRING",
+          "mobile" : "NULL",
+          "number" : "PII_PHONE_NUMBER"
+        },
+        "name" : "PII_ORGANIZATION_NAME",
+        "contactEmail" : "PII_EMAIL",
+        "primaryContact" : {
+          "firstName" : "PII_PERSON_NAME",
+          "lastName" : "PII_PERSON_NAME",
+          "requires_update" : true
+        },
+        "requires_update" : true,
+        "website" : "URL"
+      }
+    }
+  }
 }

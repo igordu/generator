@@ -1,40 +1,49 @@
 {
-  "meta" : {
-    "system_ping_ms" : 3353,
-    "lastUpdated" : "DATETIME",
-    "identifier" : "INT"
-  },
-  "address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "page_index" : 2507,
-    "country" : "PII_LOCATION_COUNTRY",
-    "city" : "PII_LOCATION_CITY"
-  } ],
-  "telecom" : [ {
-    "use" : "STRING",
-    "v_value" : "PII_PHONE_NUMBER",
-    "system" : "STRING"
-  }, {
-    "value" : "PII_EMAIL",
-    "system" : "STRING"
-  } ],
-  "gender" : "STRING",
-  "name" : [ {
-    "family" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING",
-    "priority_level" : 2084,
-    "given" : [ "PII_PERSON_FIRST_NAME" ]
-  } ],
-  "recordId" : [ {
-    "has_discount" : false,
-    "value" : "PII_NATIONAL_ID",
-    "system" : "URL",
-    "use" : "STRING",
-    "v_type" : {
-      "text" : "STRING"
+  "contactEmail" : "PII_EMAIL",
+  "firstName" : {
+    "requires_update" : false,
+    "localized" : {
+      "en_US" : "PII_PERSON_FIRST_NAME",
+      "requires_update" : true
+    },
+    "preferredLocale" : {
+      "language" : "STRING",
+      "country" : "STRING",
+      "http_status" : 330
     }
+  },
+  "birthDate" : {
+    "day_data" : "INT",
+    "v_month" : "INT",
+    "response_time_sec" : 1.45
+  },
+  "fullName" : "PII_USERNAME",
+  "location_data" : {
+    "temperature_c" : 29.5,
+    "country" : {
+      "system_ping_ms" : 984,
+      "code" : "PII_LOCATION_COUNTRY"
+    }
+  },
+  "lastName" : {
+    "v_preferredLocale" : {
+      "country" : "STRING",
+      "language" : "STRING"
+    },
+    "localized" : {
+      "temperature_c" : 10.65,
+      "en_US" : "PII_PERSON_LAST_NAME"
+    }
+  },
+  "headline" : {
+    "v_localized" : {
+      "en_US_data" : "STRING"
+    }
+  },
+  "cell" : [ {
+    "number" : "PII_PHONE_NUMBER",
+    "type" : "STRING"
   } ],
-  "primaryKey" : "STRING",
-  "resourceType" : "STRING",
-  "v_birthDate" : "PII_DATE_OF_BIRTH"
+  "id" : "STRING",
+  "item_count" : 3893
 }

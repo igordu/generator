@@ -1,17 +1,30 @@
-{
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "articleModelId" : "NULL",
-    "numberOfUserPositiveRecommendations" : "NULL",
-    "numberOfUserRecommendations" : "INT",
-    "numberOfUserReviews" : "INT",
-    "averageStarRating" : "INT",
-    "starRatingDistribution_data" : {
-      "5" : null,
-      "2_data" : "INT",
-      "3" : "INT",
-      "1" : "INT"
-    }
-  }
-}
+[ {
+  "filter" : "STRING"
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "STRING",
+    "count" : null,
+    "key" : "STRING"
+  }, {
+    "price" : 502.64,
+    "key" : "STRING",
+    "count" : "INT",
+    "displayName" : "NULL"
+  } ]
+}, {
+  "facets" : [ {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "http_status" : 2057,
+    "displayName" : "STRING",
+    "count" : "INT"
+  }, {
+    "key_data" : "STRING",
+    "count" : "INT",
+    "displayName" : "STRING"
+  } ],
+  "priority_level" : 2628
+} ]

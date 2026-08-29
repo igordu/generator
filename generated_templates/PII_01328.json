@@ -1,13 +1,22 @@
 {
-  "tree_data" : {
-    "url" : "URL",
-    "http_status" : 804,
-    "v_sha" : "STRING"
+  "lastActivityAt" : "DATETIME",
+  "mfaMethod" : "STRING",
+  "retry_attempts" : 3799,
+  "riskScore" : "DECIMAL",
+  "v_scopes" : [ "STRING" ],
+  "ipAddress" : "PII_IP_ADDRESS",
+  "userAgent" : "STRING",
+  "deviceId" : "STRING",
+  "issuedTokens" : {
+    "idToken" : "STRING",
+    "http_status" : 4277,
+    "refreshToken" : "STRING",
+    "accessToken" : "STRING"
   },
-  "http_status" : 3656,
-  "user_info" : {
-    "userName" : "PII_COMPANY_NAME",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-  }
+  "v_expiresAt" : "DATETIME",
+  "contactEmail" : "PII_EMAIL",
+  "createdAt" : null,
+  "mfaVerified" : "BOOLEAN",
+  "revoked" : "BOOLEAN",
+  "sessionId" : "STRING"
 }

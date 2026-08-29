@@ -1,38 +1,25 @@
 {
-  "is_active" : false,
-  "Status" : "STRING",
-  "DateTimeUTC" : "DATETIME",
-  "ProviderName" : "STRING",
-  "Employees" : [ {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink_data" : {
-      "Url" : "URL",
-      "Description" : "STRING"
+  "ok" : "BOOLEAN",
+  "user" : {
+    "name_val" : "PII_PERSON_NAME",
+    "id" : "STRING",
+    "is_admin" : "BOOLEAN",
+    "profile" : {
+      "userName" : "PII_PERSON_LAST_NAME",
+      "display_name" : "PII_USERNAME",
+      "real_name" : "PII_PERSON_NAME",
+      "phone" : "PII_PHONE_NUMBER",
+      "team" : "STRING",
+      "title_data" : "STRING",
+      "contactEmail" : "PII_EMAIL"
     },
-    "UpdatedDateUTC" : "DATETIME",
-    "temperature_c" : 778.81
-  }, {
-    "userName" : "PII_PERSON_LAST_NAME",
-    "price" : 192.09,
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "v_Url" : "NULL"
-    },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : null
-  }, {
-    "price" : 228.99,
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "v_Description" : "STRING"
-    },
-    "Status" : "STRING",
-    "uuid" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  } ],
-  "Id" : "STRING"
+    "tz_offset" : "INT",
+    "is_owner" : "BOOLEAN",
+    "updated" : "NULL",
+    "v_is_bot" : "BOOLEAN",
+    "deleted_data" : "BOOLEAN",
+    "name" : "PII_USERNAME",
+    "mail" : "BOOLEAN",
+    "uuid" : "STRING"
+  }
 }

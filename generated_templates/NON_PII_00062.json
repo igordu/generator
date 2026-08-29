@@ -1,12 +1,97 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "flowName" : "STRING",
+  "auto_renew" : false,
+  "v_kmsArn" : "",
+  "clientToken" : "STRING",
+  "tasks" : [ {
+    "destinationField" : "STRING",
+    "taskProperties" : {
+      "system_ping_ms" : 1382,
+      "property1_data" : "STRING",
+      "property2_data" : "STRING"
+    },
+    "is_deleted" : false,
+    "sourceFields" : "ARRAY"
+  } ],
+  "triggerConfig" : {
+    "triggerProperties" : {
+      "v_Scheduled" : {
+        "scheduleOffset" : "INT",
+        "scheduleStartTime" : null,
+        "firstExecutionFrom" : "DATETIME",
+        "scheduleEndTime_data" : "DATETIME",
+        "v_flowErrorDeactivationThreshold" : "INT",
+        "v_scheduleExpression" : "STRING",
+        "dataPullMode" : "STRING",
+        "timezone" : "STRING"
+      }
+    }
   },
-  "results" : {
-    "numberOfUserRecommendations" : "INT",
-    "averageStarRating_data" : "INT",
-    "articleModelId" : "STRING",
-    "numberOfUserPositiveRecommendations" : "INT"
+  "v_destinationFlowConfigList" : [ {
+    "apiVersion" : "STRING",
+    "destinationConnectorProperties" : {
+      "Salesforce" : {
+        "errorHandlingConfig" : {
+          "bucketPrefix" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "bucketName" : "STRING",
+          "price" : 4465.1
+        },
+        "writeOperationType" : "STRING",
+        "dataTransferApi_data" : "STRING",
+        "idFieldNames" : "ARRAY"
+      },
+      "identifier" : {
+        "errorHandlingConfig" : {
+          "bucketPrefix" : "STRING",
+          "requires_update" : false,
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "fullName" : "STRING"
+        },
+        "object" : "STRING"
+      },
+      "Snowflake_data" : {
+        "bucketPrefix" : "STRING",
+        "v_object" : "STRING",
+        "v_errorHandlingConfig" : {
+          "bucketName" : "STRING",
+          "bucketPrefix" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN",
+          "conversion_rate" : 6.29
+        },
+        "intermediateBucketName" : "STRING"
+      },
+      "LookoutMetrics_data" : {
+        "is_active" : false
+      },
+      "Redshift" : {
+        "v_bucketPrefix" : "STRING",
+        "object" : null,
+        "v_errorHandlingConfig" : {
+          "bucketPrefix" : "NULL",
+          "bucketName" : "STRING",
+          "failOnFirstDestinationError" : "BOOLEAN"
+        }
+      }
+    },
+    "connectorType_data" : "STRING"
+  } ],
+  "v_tags" : {
+    "property2_data" : "STRING",
+    "discount_rate" : 36.7,
+    "property1" : "STRING"
+  },
+  "metadataCatalogConfig" : {
+    "glueDataCatalog" : {
+      "is_deleted" : false,
+      "v_tablePrefix" : "STRING",
+      "databaseName" : "STRING",
+      "roleArn_data" : "STRING"
+    }
+  },
+  "sourceFlowConfig" : {
+    "connectorType" : "STRING",
+    "connectorProfileName" : "NULL",
+    "apiVersion" : "STRING"
   }
 }

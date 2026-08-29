@@ -1,0 +1,15 @@
+{
+  "permissions_data" : [ "NULL" ],
+  "userName" : "STRING",
+  "v_updatedAt" : "DATETIME",
+  "inheritedFrom_data" : [ "STRING" ],
+  "createdBy" : "PII_EMAIL",
+  "description" : "STRING",
+  "createdAt" : "DATETIME",
+  "v_assignedTo" : [ {
+    "v_assignedAt" : "DATETIME",
+    "name" : "PII_PERSON_NAME",
+    "has_discount" : false,
+    "email" : "PII_EMAIL"
+  } ]
+}

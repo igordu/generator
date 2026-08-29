@@ -1,14 +1,19 @@
 {
-  "auto_renew" : true,
-  "v_numberOfUserReviews" : "INT",
-  "starRatingDistribution" : {
-    "2" : "INT",
-    "is_active" : false,
-    "1" : "INT",
-    "5" : "INT",
-    "v_3" : "INT"
-  },
+  "id" : "STRING",
+  "shopUrl_data" : "URL",
   "identifier" : "STRING",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "averageStarRating" : "INT"
+  "name" : "STRING",
+  "media" : {
+    "images_data" : [ {
+      "smallHdUrl" : "URL",
+      "smallUrl_data" : "URL",
+      "largeHdUrl" : "NULL",
+      "type" : "STRING",
+      "mediumHdUrl" : "URL",
+      "v_largeUrl" : "URL",
+      "v_mediumUrl" : "NULL",
+      "orderNumber" : "INT",
+      "thumbnailHdUrl" : "NULL"
+    } ]
+  }
 }

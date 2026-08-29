@@ -1,0 +1,32 @@
+{
+  "featureFlagKey": "new_checkout_flow",
+  "projectKey": "ecommerce-platform",
+  "environment": "production",
+  "enabled": true,
+  "rolloutPercentage": 50,
+  "targeting": {
+    "rules": [
+      {
+        "id": "rule-beta-users",
+        "description": "Enable for beta users",
+        "clauses": [
+          {
+            "attribute": "group",
+            "op": "in",
+            "values": ["beta", "internal"]
+          }
+        ],
+        "variation": "on"
+      }
+    ],
+    "fallthrough": { "variation": "off" }
+  },
+  "variations": [
+    { "id": "on", "value": true },
+    { "id": "off", "value": false }
+  ],
+  "createdAt": "2024-03-01T00:00:00Z",
+  "updatedAt": "2024-04-05T12:00:00Z",
+  "createdBy": "eng-lead@company.com",
+  "tags": ["checkout", "ux", "experiment"]
+}

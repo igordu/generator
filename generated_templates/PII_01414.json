@@ -1,0 +1,34 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "failedLoginAttempts" : "INT",
+      "twoFactorEnabled" : "BOOLEAN",
+      "passwordLastChangedAt" : "NULL",
+      "twoFactorMethod" : "STRING",
+      "activeSessions" : "INT",
+      "is_active" : false,
+      "createdAt" : "DATETIME",
+      "lockedUntil_data" : "",
+      "userId" : "NULL",
+      "trustedDevices_data" : [ {
+        "macAddress_data" : "PII_MAC_ADDRESS",
+        "userName" : "STRING",
+        "v_addedAt" : "DATETIME",
+        "v_lastUsedAt" : "DATETIME",
+        "primaryKey" : "STRING",
+        "price" : 853.88
+      } ],
+      "securityEvents" : [ {
+        "timestamp" : "DATETIME",
+        "ipAddress" : "PII_IP_ADDRESS",
+        "cpu_usage_percent" : 61.52
+      } ],
+      "oauthConnections" : [ {
+        "stock_quantity" : 1679,
+        "emailAddress" : "PII_EMAIL",
+        "externalId" : "STRING",
+        "provider" : "STRING"
+      } ]
+    }
+  }
+}

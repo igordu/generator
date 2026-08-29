@@ -1,32 +1,45 @@
 {
-  "transactions_data" : {
-    "v_booked" : [ {
-      "valueDate" : "NULL",
-      "userName" : "STRING",
-      "creditorName" : "PII_PERSON_NAME",
-      "bookingDate_data" : "DATE",
-      "amount_data" : {
-        "currency" : null,
-        "amount" : "DECIMAL"
+  "create_time" : "DATETIME",
+  "transactions" : [ {
+    "amount" : {
+      "total" : "DECIMAL"
+    },
+    "v_description" : "STRING",
+    "v_invoice_number" : "STRING"
+  } ],
+  "id" : "STRING",
+  "payer" : {
+    "payer_info" : {
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "email" : "PII_EMAIL",
+      "shipping_address_data" : {
+        "line1" : "PII_ADDRESS_LINE",
+        "country_code_data" : "PII_LOCATION_COUNTRY",
+        "recipient_name" : "PII_PERSON_NAME",
+        "city" : "PII_LOCATION_CITY",
+        "phone" : "PII_PHONE_NUMBER",
+        "line2_data" : "STRING",
+        "state" : "STRING",
+        "retry_attempts" : 4150,
+        "postal_code" : "STRING"
       },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "transactionId" : "STRING",
-      "v_bankTransactionCode" : {
-        "subFamily_data" : "STRING",
-        "http_status" : 3836,
-        "family_data" : "STRING",
-        "domain_data" : "STRING"
+      "billing_address" : {
+        "postal_code" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "country_code" : "PII_LOCATION_COUNTRY",
+        "v_state" : "STRING",
+        "line1" : "PII_ADDRESS_LINE"
       },
-      "cpu_usage_percent" : 560.1,
-      "debtorAccount" : {
-        "auto_renew" : false,
-        "iban" : "STRING"
-      },
-      "v_creditorAccount" : {
-        "iban" : "PII_IBAN",
-        "price" : 202.93
-      }
-    } ]
+      "payer_id" : "STRING",
+      "conversion_rate" : 4.39,
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "birth_date" : "PII_DATE_OF_BIRTH",
+      "telephone" : "PII_PHONE_NUMBER"
+    },
+    "payment_method" : "STRING",
+    "status" : "STRING"
   },
-  "discount_rate" : 668.2
+  "cart" : "STRING",
+  "state" : "STRING",
+  "intent" : "NULL"
 }

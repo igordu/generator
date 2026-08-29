@@ -1,0 +1,18 @@
+{
+  "name" : "STRING",
+  "v_updatedAt" : "DATETIME",
+  "teamId" : "",
+  "description" : null,
+  "ownedServices" : [ "STRING" ],
+  "createdAt_data" : "DATETIME",
+  "cache_hit" : false,
+  "members" : [ {
+    "v_joinedAt" : "DATETIME",
+    "v_role" : "NULL",
+    "recordId" : "STRING",
+    "emailAddress" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME"
+  } ],
+  "oncallScheduleId" : "NULL",
+  "slackChannel_data" : "STRING"
+}

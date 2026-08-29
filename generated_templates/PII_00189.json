@@ -1,65 +1,40 @@
 {
-  "status" : "STRING",
-  "response_time_sec" : 609.86,
-  "userName" : "PII_USERNAME",
-  "userId" : "STRING",
-  "accountType_data" : "",
-  "individualAccount" : {
-    "mobile" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode_data" : "STRING",
-      "phoneType" : "STRING",
-      "conversion_rate" : 333.3
+  "recordId" : "STRING",
+  "gender" : "STRING",
+  "v_address" : [ {
+    "city" : "PII_LOCATION_CITY",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "use" : "STRING"
+  } ],
+  "name" : [ {
+    "v_use" : "STRING",
+    "family" : "PII_PERSON_LAST_NAME",
+    "given" : [ "PII_PERSON_FIRST_NAME" ]
+  } ],
+  "identifier" : [ {
+    "v_type" : {
+      "text" : "STRING"
     },
-    "registrationAddress" : {
-      "city" : "STRING",
-      "county" : "STRING",
-      "addressLine2_data" : "STRING",
-      "v_country" : "STRING",
-      "addressLine1" : "NULL",
-      "v_postalCode" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "lastName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "telephone" : "STRING",
-      "countryCode" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "firstName" : "PII_PERSON_NAME"
+    "discount_rate" : 75.84,
+    "system" : "URL",
+    "use" : "STRING",
+    "value" : "PII_NATIONAL_ID"
+  } ],
+  "telecom" : [ {
+    "system" : "STRING",
+    "auto_renew" : true,
+    "use" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  }, {
+    "system" : "STRING",
+    "value" : "PII_EMAIL",
+    "is_active" : false
+  } ],
+  "meta" : {
+    "versionId" : "INT",
+    "lastUpdated" : "DATETIME"
   },
-  "businessAccount_data" : {
-    "email" : "PII_EMAIL",
-    "name" : "PII_ORGANIZATION_NAME",
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "has_discount" : false
-    },
-    "v_doingBusinessAs" : "STRING",
-    "address_data" : {
-      "stateOrProvince_data" : "STRING",
-      "v_postalCode" : "STRING",
-      "addressLine2" : "STRING",
-      "country" : "STRING",
-      "priority_level" : 2003,
-      "city_data" : "NULL",
-      "addressLine1" : "STRING",
-      "county" : "STRING"
-    },
-    "primaryContact" : {
-      "cache_hit" : false,
-      "firstName" : "PII_PERSON_NAME",
-      "userName" : "PII_PERSON_NAME"
-    },
-    "system_ping_ms" : 4023,
-    "cell" : {
-      "number_data" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "item_count" : 2656,
-      "v_countryCode" : "STRING"
-    },
-    "website" : "URL"
-  }
+  "v_birthDate" : "PII_DATE_OF_BIRTH",
+  "stock_quantity" : 4083
 }

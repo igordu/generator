@@ -1,41 +1,31 @@
 {
-  "received_events_url" : "URL",
-  "v_url" : "URL",
-  "total_private_repos" : "INT",
-  "hireable" : "BOOLEAN",
-  "repos_url" : "URL",
-  "followers_url" : "URL",
-  "fullName" : "PII_PERSON_NAME",
-  "location" : "PII_LOCATION_CITY",
-  "name_val" : "STRING",
-  "is_active" : true,
-  "subscriptions_url" : "URL",
-  "private_gists_data" : "INT",
-  "avatar_url_data" : "",
-  "following" : "INT",
-  "v_events_url" : "URL",
-  "site_admin_data" : "BOOLEAN",
-  "gravatar_id" : "STRING",
-  "public_repos" : "INT",
-  "updated_at" : "DATETIME",
-  "organizations_url" : "URL",
-  "v_login" : "STRING",
-  "disk_usage" : "INT",
-  "owned_private_repos" : "INT",
-  "node_id" : "STRING",
-  "v_company" : "PII_ORGANIZATION_NAME",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "public_gists" : "INT",
-  "html_url" : "URL",
-  "two_factor_authentication" : "BOOLEAN",
-  "email" : "PII_EMAIL",
-  "id" : "INT",
-  "starred_url" : "URL",
-  "plan" : {
-    "name" : "STRING",
-    "is_active" : true,
-    "private_repos" : "INT",
-    "v_collaborators" : "INT"
-  },
-  "blog" : "URL"
+  "tags" : [ "STRING" ],
+  "enabled" : "BOOLEAN",
+  "v_rolloutPercentage" : "NULL",
+  "environment" : "",
+  "projectKey" : "STRING",
+  "variations" : [ {
+    "id" : "STRING",
+    "value" : "BOOLEAN"
+  } ],
+  "createdBy" : "PII_EMAIL",
+  "featureFlagKey" : "STRING",
+  "createdAt" : "DATETIME",
+  "updatedAt" : "DATETIME",
+  "targeting" : {
+    "rules" : [ {
+      "v_description" : "STRING",
+      "id" : "STRING",
+      "is_deleted" : false,
+      "clauses" : [ {
+        "attribute" : "STRING"
+      } ],
+      "variation_data" : "STRING"
+    } ],
+    "stock_quantity" : 1511,
+    "fallthrough" : {
+      "variation" : "STRING",
+      "page_index" : 985
+    }
+  }
 }

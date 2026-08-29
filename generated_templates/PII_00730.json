@@ -1,35 +1,23 @@
 {
-  "total_records" : "",
-  "page_number" : "NULL",
-  "page_count" : "INT",
-  "v_page_size" : "INT",
-  "registrants" : [ {
-    "address" : "PII_ADDRESS_LINE",
-    "v_custom_questions" : [ {
-      "value" : "",
-      "title" : "STRING"
-    }, {
-      "title" : "STRING",
-      "value" : "STRING",
-      "system_ping_ms" : 1531
-    } ],
-    "role_in_purchase_process_data" : "STRING",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "country" : "PII_LOCATION_COUNTRY",
-    "status" : "STRING",
-    "industry" : "STRING",
-    "v_org" : "PII_ORGANIZATION_NAME",
-    "fullName" : "PII_PERSON_LAST_NAME",
-    "email" : "PII_EMAIL",
-    "join_url" : "URL",
-    "purchasing_time_frame" : "STRING",
-    "comments_data" : "STRING",
+  "current_period_end" : "DATETIME_EPOCH",
+  "livemode" : "BOOLEAN",
+  "v_object" : "STRING",
+  "v_current_period_start" : "DATETIME_EPOCH",
+  "id" : "STRING",
+  "customer" : "STRING",
+  "cancel_at_period_end" : "BOOLEAN",
+  "metadata" : {
+    "order_id" : "STRING",
+    "v_account_manager" : "PII_EMAIL",
+    "is_active" : true
+  },
+  "status" : "STRING",
+  "trial_end" : "NULL",
+  "plan" : {
+    "requires_update" : true,
+    "object" : "STRING",
     "id" : "STRING",
-    "v_zip" : "NULL",
-    "v_create_time" : "DATETIME",
-    "cell" : "PII_PHONE_NUMBER",
-    "state_data" : "PII_LOCATION_STATE",
-    "city" : "PII_LOCATION_CITY"
-  } ],
-  "response_time_sec" : 342.04
+    "amount" : "NULL",
+    "interval" : "STRING"
+  }
 }

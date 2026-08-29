@@ -1,0 +1,22 @@
+{
+  "namespace" : "STRING",
+  "userName" : "NULL",
+  "creationTimestamp_data" : "DATETIME",
+  "cpu_usage_percent" : 17.96,
+  "resourceVersion" : "STRING",
+  "data" : {
+    "discount_rate" : 65.21,
+    "DATABASE_NAME" : "STRING",
+    "DATABASE_PORT_data" : "STRING",
+    "REQUEST_TIMEOUT_MS_data" : "STRING",
+    "SMTP_PORT_data" : "STRING",
+    "LOG_LEVEL" : "STRING",
+    "SMTP_HOST" : "STRING",
+    "v_MAX_CONNECTIONS" : "STRING",
+    "REDIS_PORT" : "STRING",
+    "FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+    "DATABASE_HOST" : "STRING",
+    "REDIS_HOST" : "STRING",
+    "SUPPORT_EMAIL" : "PII_EMAIL"
+  }
+}

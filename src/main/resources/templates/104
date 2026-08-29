@@ -1,0 +1,32 @@
+{
+  "type": "STRING",
+  "id": "STRING",
+  "created_at": "DATETIME_EPOCH",
+  "source": {
+    "type": "STRING",
+    "delivered_as": "STRING",
+    "subject": "STRING",
+    "body": "PII_FREE_TEXT",
+    "author": {
+      "type": "STRING",
+      "id": "STRING",
+      "name": "PII_PERSON_NAME",
+      "email": "PII_EMAIL"
+    }
+  },
+  "conversation_parts": [
+    {
+      "part_type": "STRING",
+      "body": "PII_FREE_TEXT",
+      "created_at": "DATETIME_EPOCH",
+      "author": {
+        "type": "STRING",
+        "name": "PII_PERSON_NAME"
+      }
+    }
+  ],
+  "state": "STRING",
+  "open": "BOOLEAN",
+  "read": "BOOLEAN",
+  "priority": "STRING"
+}

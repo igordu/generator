@@ -1,196 +1,23 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "clientToken" : "STRING",
-    "flowName" : "STRING",
-    "kmsArn" : "STRING",
-    "v_sourceFlowConfig" : {
-      "sourceConnectorProperties" : {
-        "v_ServiceNow" : {
-          "requires_update" : true,
-          "object" : "STRING"
-        },
-        "Singular" : {
-          "object" : "STRING",
-          "system_ping_ms" : 266
-        },
-        "requires_update" : true,
-        "Veeva_data" : {
-          "documentType_data" : "STRING",
-          "includeAllVersions" : "BOOLEAN",
-          "temperature_c" : 12.82,
-          "object" : "STRING",
-          "includeRenditions_data" : "BOOLEAN",
-          "v_includeSourceFiles" : "BOOLEAN"
-        },
-        "Slack" : {
-          "object_data" : "STRING",
-          "is_deleted" : false
-        },
-        "SAPOData" : {
-          "objectPath" : "STRING"
-        },
-        "CustomConnector" : {
-          "entityName" : "STRING",
-          "priority_level" : 34,
-          "v_customProperties" : {
-            "temperature_c" : 400.13,
-            "property1" : "STRING"
-          }
-        },
-        "Salesforce_data" : {
-          "object" : "STRING",
-          "includeDeletedRecords" : "BOOLEAN",
-          "v_enableDynamicFieldUpdate" : "BOOLEAN",
-          "dataTransferApi" : "STRING"
-        },
-        "Dynatrace" : {
-          "object" : "STRING"
-        },
-        "Pardot" : {
-          "requires_update" : true,
-          "object_data" : "STRING"
-        },
-        "Trendmicro" : {
-          "auto_renew" : true,
-          "object_data" : "STRING"
-        },
-        "Zendesk" : {
-          "object" : "STRING"
-        },
-        "Datadog" : {
-          "object_data" : "STRING"
-        },
-        "S3" : {
-          "bucketPrefix" : "STRING",
-          "v_s3InputFormatConfig" : {
-            "s3InputFileType" : "NULL",
-            "item_count" : 1515
-          },
-          "bucketName" : "STRING"
-        },
-        "GoogleAnalytics" : {
-          "object" : "STRING"
-        },
-        "InforNexus" : {
-          "object_data" : "STRING"
-        }
-      },
-      "fullName" : "STRING",
-      "apiVersion" : "STRING",
-      "connectorType" : "STRING"
+  "has_discount" : false,
+  "data" : [ {
+    "status_data" : "STRING",
+    "has_discount" : false,
+    "result_files_data" : [ "STRING" ],
+    "v_hyperparameters" : {
+      "temperature_c" : -17.87,
+      "n_epochs" : "INT",
+      "v_batch_size" : "INT"
     },
-    "tasks" : [ {
-      "destinationField" : "STRING",
-      "v_sourceFields" : "ARRAY",
-      "taskProperties" : {
-        "property2" : "STRING",
-        "property1_data" : "STRING"
-      },
-      "v_connectorOperator" : {
-        "v_Singular" : "STRING",
-        "Veeva_data" : "STRING",
-        "SAPOData" : "STRING",
-        "Salesforce_data" : "STRING",
-        "Pardot" : "STRING",
-        "Amplitude" : "STRING",
-        "Trendmicro" : "STRING",
-        "Datadog" : "STRING",
-        "Slack" : "STRING",
-        "ServiceNow" : "STRING",
-        "S3" : "STRING",
-        "GoogleAnalytics" : "",
-        "InforNexus" : "STRING",
-        "CustomConnector_data" : "STRING",
-        "Dynatrace" : "STRING"
-      }
-    } ],
-    "description_data" : "STRING",
-    "triggerConfig" : {
-      "triggerType" : "STRING",
-      "triggerProperties" : {
-        "Scheduled" : {
-          "scheduleOffset" : "INT",
-          "scheduleEndTime" : "DATETIME",
-          "dataPullMode" : "",
-          "flowErrorDeactivationThreshold" : "INT",
-          "v_timezone" : "STRING",
-          "firstExecutionFrom" : "DATETIME",
-          "scheduleExpression" : "STRING",
-          "scheduleStartTime_data" : "DATETIME"
-        },
-        "cpu_usage_percent" : 637.4
-      }
-    },
-    "tags" : {
-      "property1" : "NULL",
-      "property2" : "STRING"
-    },
-    "destinationFlowConfigList" : [ {
-      "destinationConnectorProperties" : {
-        "LookoutMetrics" : { },
-        "Redshift" : {
-          "is_deleted" : false,
-          "v_object" : "STRING",
-          "clientName" : "STRING",
-          "errorHandlingConfig" : {
-            "failOnFirstDestinationError" : "BOOLEAN",
-            "response_time_sec" : 34.73,
-            "bucketName" : "STRING",
-            "bucketPrefix_data" : "STRING"
-          },
-          "v_bucketPrefix" : "STRING"
-        },
-        "Snowflake" : {
-          "object" : "STRING",
-          "discount_rate" : 44.81,
-          "bucketPrefix_data" : "STRING",
-          "errorHandlingConfig" : {
-            "bucketPrefix" : "STRING",
-            "failOnFirstDestinationError" : "BOOLEAN",
-            "fullName" : "STRING"
-          }
-        },
-        "EventBridge" : {
-          "cpu_usage_percent" : 968.2,
-          "object" : "STRING"
-        },
-        "S3" : {
-          "bucketName" : "STRING",
-          "bucketPrefix" : "STRING",
-          "s3OutputFormatConfig" : {
-            "v_prefixConfig" : {
-              "prefixFormat" : "STRING",
-              "pathPrefixHierarchy" : "ARRAY",
-              "v_prefixType" : "STRING"
-            },
-            "v_aggregationConfig" : {
-              "targetFileSize" : "NULL",
-              "aggregationType_data" : "STRING",
-              "http_status" : 3004
-            },
-            "fileType" : "STRING",
-            "conversion_rate" : 689.23
-          }
-        },
-        "v_Salesforce" : {
-          "dataTransferApi" : "STRING",
-          "errorHandlingConfig" : {
-            "bucketPrefix" : "STRING",
-            "bucketName" : "STRING",
-            "failOnFirstDestinationError" : "BOOLEAN",
-            "cache_hit" : true
-          },
-          "v_writeOperationType" : "STRING",
-          "discount_rate" : 466.37,
-          "object_data" : "STRING",
-          "idFieldNames" : "ARRAY"
-        }
-      },
-      "connectorType" : "STRING",
-      "connectorProfileName" : "STRING",
-      "apiVersion" : "STRING"
-    } ]
-  }
+    "created_at" : "DATETIME_EPOCH",
+    "training_file" : "STRING",
+    "error" : "NULL",
+    "organization_id" : "STRING",
+    "finished_at" : "DATETIME_EPOCH",
+    "fine_tuned_model" : "STRING",
+    "object" : "STRING",
+    "id" : "STRING"
+  } ],
+  "has_more" : "BOOLEAN",
+  "object" : "STRING"
 }

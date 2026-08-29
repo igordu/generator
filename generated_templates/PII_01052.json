@@ -1,21 +1,34 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "account_holder_name" : "PII_PERSON_NAME",
-      "last4" : "STRING",
-      "fingerprint" : "STRING",
-      "account_holder_type" : "STRING",
-      "v_account_type" : "NULL",
-      "id" : "STRING",
-      "currency" : "STRING",
-      "v_metadata" : "OBJECT",
-      "response_time_sec" : 558.93,
-      "bank_name" : "STRING",
-      "country_data" : "STRING",
-      "routing_number_data" : "STRING",
-      "object" : "STRING",
-      "customer" : "STRING",
-      "status" : "STRING"
-    }
+  "itinerary" : [ {
+    "flightNumber" : "STRING",
+    "origin" : "STRING",
+    "departureAt" : "DATETIME",
+    "cabin" : "STRING",
+    "v_destination" : "STRING",
+    "segment" : "INT",
+    "arrivalAt" : "DATETIME",
+    "status_data" : "STRING"
+  } ],
+  "status_data" : "STRING",
+  "http_status" : 4998,
+  "ticketNumber" : "STRING",
+  "passenger" : {
+    "passportExpiry" : "DATE",
+    "frequentFlyerNumber" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "title_data" : "STRING",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "lastName" : "PII_PERSON_LAST_NAME"
+  },
+  "issuedAt" : "DATETIME",
+  "fareClass" : "STRING",
+  "totalFare" : {
+    "has_discount" : false,
+    "amount" : "DECIMAL",
+    "currency" : "STRING"
   }
 }

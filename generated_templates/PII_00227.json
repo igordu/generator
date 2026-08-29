@@ -1,64 +1,39 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "prev" : "STRING",
-      "limit" : "INT",
-      "offset_data" : "INT",
-      "v_total" : "INT",
-      "v_href" : "STRING",
-      "transactions" : [ {
-        "v_bookingEntry" : "STRING",
-        "transactionDate" : "DATETIME",
-        "transactionType" : "STRING",
-        "buyer" : {
-          "price" : 155.27,
-          "username" : "PII_USERNAME"
-        },
-        "payoutId" : "STRING",
-        "v_orderLineItems" : [ {
-          "primaryKey" : "STRING",
-          "feeBasisAmount" : {
-            "convertedFromCurrency" : "STRING",
-            "convertedFromValue" : "NULL",
-            "currency_data" : "STRING",
-            "value" : "STRING"
-          }
-        } ],
-        "eBayCollectedTaxAmount" : {
-          "convertedFromValue" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "exchangeRate" : "STRING",
-          "value" : "STRING",
-          "currency" : "STRING"
-        },
-        "transactionMemo" : "STRING",
-        "references" : [ {
-          "referenceType" : "STRING",
-          "primaryKey" : "STRING"
-        } ],
-        "totalFeeAmount" : {
-          "currency" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "exchangeRate" : "NULL",
-          "convertedFromValue" : "NULL",
-          "value_data" : "STRING"
-        },
-        "totalFeeBasisAmount_data" : {
-          "convertedFromValue" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "value_data" : "STRING",
-          "temperature_c" : 913.17,
-          "exchangeRate" : "STRING"
-        },
-        "paymentsEntity" : "STRING",
-        "transactionStatus" : "STRING",
-        "transactionId" : "STRING",
-        "feeJurisdiction" : {
-          "regionType" : "STRING",
-          "regionName" : "NULL"
-        },
-        "primaryKey" : "STRING"
-      } ]
-    }
-  }
+  "ProviderName" : "STRING",
+  "uuid" : "STRING",
+  "v_Employees" : [ {
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "has_discount" : false,
+    "EmployeeID" : "STRING",
+    "v_ExternalLink" : {
+      "stock_quantity" : 3485,
+      "Description" : "STRING",
+      "Url" : "URL"
+    },
+    "Status_data" : "STRING",
+    "userName" : "PII_PERSON_LAST_NAME"
+  }, {
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "ExternalLink" : {
+      "Description" : "STRING",
+      "v_Url" : "NULL",
+      "system_ping_ms" : 3040
+    },
+    "EmployeeID" : "STRING",
+    "UpdatedDateUTC" : "DATETIME",
+    "userName" : "PII_PERSON_LAST_NAME"
+  }, {
+    "UpdatedDateUTC" : "DATETIME",
+    "Status" : "STRING",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "ExternalLink_data" : {
+      "price" : 2521.34,
+      "Url" : "URL",
+      "Description" : "STRING"
+    },
+    "EmployeeID" : "STRING"
+  } ],
+  "DateTimeUTC" : "DATETIME",
+  "Status" : "STRING"
 }

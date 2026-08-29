@@ -1,20 +1,22 @@
 {
-  "media" : {
-    "images" : [ {
-      "smallHdUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "type" : "STRING",
-      "orderNumber" : "INT",
-      "v_largeHdUrl" : "URL",
-      "largeUrl_data" : "URL",
-      "mediumUrl" : "URL",
-      "smallUrl" : "URL",
-      "mediumHdUrl" : "URL"
-    } ]
+  "v_retention_policy" : "STRING",
+  "export_id" : "STRING",
+  "exported_at" : "DATETIME",
+  "ticket" : {
+    "subject" : "STRING",
+    "status" : "STRING",
+    "system_ping_ms" : 426,
+    "id" : "INT",
+    "created_at_data" : "DATETIME",
+    "requester" : {
+      "mail" : "[MASKED]",
+      "name_val" : "REDACTED"
+    },
+    "satisfaction_rating" : {
+      "score" : "STRING",
+      "comment" : "TEXT"
+    }
   },
-  "stock_quantity" : 2712,
-  "shopUrl_data" : "URL",
-  "id" : "STRING",
-  "modelId" : "STRING",
-  "name" : "STRING"
+  "gdpr_erasure_applied_data" : "BOOLEAN",
+  "anonymized" : "BOOLEAN"
 }

@@ -1,21 +1,63 @@
 {
-  "content" : [ {
-    "recommend_data" : "BOOLEAN",
-    "articleModelId" : "STRING",
-    "v_articleSizeRatings" : {
-      "uuid" : "INT"
+  "username" : "PII_USERNAME",
+  "uuid" : "STRING",
+  "conversion_rate" : 3.21,
+  "accountType" : "STRING",
+  "status" : "STRING",
+  "recordId" : {
+    "lastName" : "PII_PERSON_NAME",
+    "clientName" : "PII_PERSON_NAME",
+    "registrationAddress" : {
+      "county" : "STRING",
+      "stateOrProvince" : "STRING",
+      "addressLine2" : "STRING",
+      "postalCode_data" : "STRING",
+      "country" : "STRING",
+      "city" : "STRING",
+      "addressLine1_data" : "STRING"
     },
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "created" : "DATETIME",
-    "v_customerCity" : "PII_LOCATION_CITY",
-    "title" : "PII_COMPANY_NAME",
-    "helpfulCount" : "INT",
-    "price" : 906.45,
-    "description" : "STRING",
-    "identifier" : "STRING",
-    "articleId" : "STRING",
-    "unhelpfulCount" : "INT",
-    "v_language" : "STRING",
-    "rating" : "NULL"
-  } ]
+    "cell" : {
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode_data" : "STRING"
+    },
+    "secondaryPhone" : {
+      "cell" : "STRING",
+      "http_status" : 3026,
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "email" : "PII_EMAIL"
+  },
+  "v_businessAccount" : {
+    "website_data" : "URL",
+    "primaryContact" : {
+      "userName" : "PII_PERSON_NAME",
+      "firstName" : "PII_PERSON_NAME",
+      "retry_attempts" : 1038
+    },
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "priority_level" : 62
+    },
+    "address" : {
+      "postalCode" : "STRING",
+      "city" : "STRING",
+      "requires_update" : true,
+      "county_data" : "STRING",
+      "country" : "STRING",
+      "addressLine2" : "STRING",
+      "stateOrProvince" : "STRING",
+      "addressLine1" : "STRING"
+    },
+    "email" : "PII_EMAIL",
+    "doingBusinessAs" : "STRING",
+    "secondaryPhone" : {
+      "phoneType" : "STRING",
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "name" : "PII_ORGANIZATION_NAME"
+  }
 }

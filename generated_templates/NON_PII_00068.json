@@ -1,13 +1,145 @@
 {
-  "numberOfUserRecommendations" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "starRatingDistribution" : {
-    "v_5" : "INT",
-    "1" : "INT",
-    "v_3" : "INT",
-    "4" : "INT",
-    "2" : "INT"
+  "flowName" : "STRING",
+  "destinationFlowConfigList" : [ {
+    "connectorType" : "STRING",
+    "apiVersion_data" : "STRING",
+    "price" : 222.71
+  } ],
+  "triggerConfig" : {
+    "triggerProperties" : {
+      "Scheduled" : {
+        "timezone" : "STRING",
+        "scheduleEndTime_data" : "DATETIME",
+        "firstExecutionFrom" : "DATETIME",
+        "flowErrorDeactivationThreshold" : "INT",
+        "scheduleExpression_data" : "STRING",
+        "scheduleStartTime" : "DATETIME",
+        "v_scheduleOffset" : "INT",
+        "v_dataPullMode" : "STRING"
+      }
+    },
+    "triggerType" : "STRING",
+    "is_deleted" : false
   },
-  "articleModelId" : "STRING",
-  "v_averageStarRating" : "INT"
+  "tasks" : [ {
+    "sourceFields" : "ARRAY",
+    "destinationField" : "NULL",
+    "taskType" : "STRING",
+    "v_connectorOperator" : {
+      "InforNexus_data" : "STRING",
+      "ServiceNow" : "STRING",
+      "Pardot" : "STRING",
+      "Zendesk" : "STRING",
+      "Datadog_data" : "STRING",
+      "Singular" : "STRING",
+      "Dynatrace" : "STRING",
+      "Trendmicro" : "STRING",
+      "CustomConnector" : "STRING",
+      "Marketo" : "STRING",
+      "Slack" : "STRING",
+      "Veeva" : "STRING",
+      "SAPOData_data" : "STRING",
+      "S3_data" : "STRING",
+      "v_Salesforce" : "STRING"
+    },
+    "taskProperties_data" : {
+      "property2" : "STRING",
+      "v_property1" : "STRING"
+    }
+  } ],
+  "tags" : {
+    "property1" : "STRING",
+    "property2" : "STRING",
+    "cpu_usage_percent" : 67.06
+  },
+  "description" : "STRING",
+  "metadataCatalogConfig" : {
+    "glueDataCatalog" : {
+      "databaseName" : "STRING",
+      "roleArn" : "",
+      "tablePrefix_data" : "STRING"
+    }
+  },
+  "sourceFlowConfig" : {
+    "apiVersion" : "STRING",
+    "incrementalPullConfig_data" : {
+      "cpu_usage_percent" : 83.31,
+      "datetimeTypeFieldName" : "STRING"
+    },
+    "sourceConnectorProperties" : {
+      "InforNexus" : {
+        "object" : "STRING"
+      },
+      "Pardot" : {
+        "object" : "STRING"
+      },
+      "Slack" : {
+        "object_data" : "STRING",
+        "retry_attempts" : 2942
+      },
+      "S3" : {
+        "bucketName" : "STRING",
+        "s3InputFormatConfig" : {
+          "s3InputFileType" : "",
+          "cache_hit" : true
+        },
+        "item_count" : 996,
+        "bucketPrefix" : "NULL"
+      },
+      "Veeva" : {
+        "includeAllVersions" : "BOOLEAN",
+        "v_object" : "STRING",
+        "includeRenditions_data" : "BOOLEAN",
+        "includeSourceFiles_data" : "NULL",
+        "documentType" : "STRING"
+      },
+      "ServiceNow" : {
+        "v_object" : "STRING",
+        "stock_quantity" : 2037
+      },
+      "Salesforce" : {
+        "dataTransferApi" : "STRING",
+        "includeDeletedRecords" : "BOOLEAN",
+        "enableDynamicFieldUpdate" : "BOOLEAN"
+      },
+      "v_Trendmicro" : {
+        "object" : "STRING"
+      },
+      "Dynatrace" : {
+        "object" : "STRING"
+      },
+      "Amplitude" : {
+        "object" : "STRING"
+      },
+      "v_Marketo" : {
+        "is_active" : false,
+        "object" : "STRING"
+      },
+      "CustomConnector" : {
+        "customProperties" : {
+          "property1" : "STRING",
+          "property2" : "STRING",
+          "priority_level" : 528
+        },
+        "entityName" : "STRING"
+      },
+      "v_Zendesk" : {
+        "object" : "STRING",
+        "cpu_usage_percent" : 10.69
+      },
+      "SAPOData" : {
+        "objectPath" : "STRING"
+      },
+      "v_Singular" : {
+        "has_discount" : false,
+        "object" : "STRING"
+      },
+      "GoogleAnalytics" : {
+        "object" : "STRING"
+      }
+    },
+    "connectorType" : "STRING",
+    "connectorProfileName" : "NULL"
+  },
+  "v_kmsArn" : "STRING"
 }

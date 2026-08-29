@@ -1,0 +1,17 @@
+{
+  "id": "STRING",
+  "type": "STRING",
+  "role": "STRING",
+  "content": [
+    {
+      "type": "STRING",
+      "text": "STRING"
+    }
+  ],
+  "model": "STRING",
+  "stop_reason": "STRING",
+  "usage": {
+    "input_tokens": "INT",
+    "output_tokens": "INT"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "v_createdBy" : {
+    "email" : "PII_EMAIL",
+    "userId" : "STRING",
+    "is_active" : true
+  },
+  "type" : "STRING",
+  "status" : "STRING",
+  "name" : "STRING",
+  "integrationId" : "STRING",
+  "updatedAt" : "DATETIME",
+  "config" : {
+    "channel" : "STRING",
+    "mentionOnError" : "STRING",
+    "webhookUrl" : "URL",
+    "page_index" : 2005
+  },
+  "recordId" : "STRING",
+  "createdAt" : "DATETIME",
+  "cpu_usage_percent" : 35.17,
+  "v_stats" : {
+    "successRate" : "NULL",
+    "price" : 3080.1,
+    "v_totalDeliveries" : "INT"
+  }
+}

@@ -1,83 +1,31 @@
 {
-  "limit_data" : "INT",
-  "offset" : "INT",
-  "transactions" : [ {
-    "transactionType" : "STRING",
-    "amount" : {
-      "has_discount" : true,
-      "value_data" : "",
-      "currency" : "STRING",
-      "v_convertedFromCurrency" : "NULL",
-      "convertedFromValue" : null
+  "uuid" : "STRING",
+  "v_Status" : "STRING",
+  "ProviderName" : "STRING",
+  "Employees_data" : [ {
+    "UpdatedDateUTC_data" : "DATETIME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "uuid" : "STRING",
+    "Status" : "NULL",
+    "FirstName" : "PII_PERSON_FIRST_NAME"
+  }, {
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "v_ExternalLink" : {
+      "v_Url" : "URL",
+      "Description" : "STRING"
     },
-    "transactionDate_data" : "NULL",
-    "totalFeeBasisAmount_data" : {
-      "requires_update" : true,
-      "convertedFromCurrency" : "STRING",
-      "exchangeRate" : "STRING",
-      "currency_data" : "STRING",
-      "v_value" : "STRING",
-      "convertedFromValue" : "STRING"
-    },
-    "buyer_data" : {
-      "username" : "PII_USERNAME",
-      "item_count" : 2109
-    },
-    "transactionId" : "STRING",
-    "salesRecordReference" : "STRING",
-    "totalFeeAmount" : {
-      "convertedFromValue" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "v_value" : "STRING",
-      "v_currency" : "STRING",
-      "v_exchangeRate" : "STRING"
-    },
-    "transactionStatus" : "STRING",
-    "references_data" : [ {
-      "referenceType" : "STRING",
-      "uuid" : "STRING",
-      "response_time_sec" : 660.42
-    } ],
-    "feeJurisdiction" : {
-      "has_discount" : false,
-      "userName" : "STRING"
-    },
-    "requires_update" : true,
-    "feeType" : "STRING",
-    "orderLineItems" : [ {
-      "feeBasisAmount" : {
-        "v_convertedFromValue" : "STRING",
-        "v_value" : "STRING",
-        "exchangeRate" : "STRING",
-        "convertedFromCurrency" : "STRING"
-      },
-      "marketplaceFees_data" : [ {
-        "feeMemo" : "STRING",
-        "item_count" : 3498,
-        "feeJurisdiction" : {
-          "regionType_data" : "STRING"
-        },
-        "amount" : {
-          "convertedFromValue" : "STRING",
-          "value" : "STRING",
-          "exchangeRate" : "STRING",
-          "currency" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "discount_rate" : 710.88
-        }
-      } ],
-      "uuid" : "STRING"
-    } ],
-    "transactionMemo_data" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "value" : "STRING",
-      "currency" : "STRING",
-      "convertedFromValue" : "",
-      "exchangeRate" : "STRING"
-    },
-    "orderId" : "STRING",
-    "payoutId" : "STRING"
-  } ],
-  "v_href" : "STRING",
-  "next" : "STRING"
+    "EmployeeID" : "STRING"
+  }, {
+    "conversion_rate" : 7.19,
+    "UpdatedDateUTC" : "DATETIME",
+    "Status" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "ExternalLink" : {
+      "Url" : "URL",
+      "Description_data" : "STRING",
+      "conversion_rate" : 0.81
+    }
+  } ]
 }

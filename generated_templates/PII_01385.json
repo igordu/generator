@@ -1,14 +1,27 @@
 {
-  "user_info_data" : {
-    "name_val" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "auto_renew" : true
+  "viewCount_data" : "INT",
+  "v_status" : "STRING",
+  "v_updatedAt" : "NULL",
+  "version_data" : "INT",
+  "author" : {
+    "email" : "PII_EMAIL",
+    "temperature_c" : 26.61,
+    "accountId" : "STRING",
+    "clientName" : "PII_PERSON_NAME"
   },
-  "active_data" : "BOOLEAN",
-  "tree" : {
-    "url_data" : "URL",
-    "sha_data" : "STRING"
+  "ancestors" : [ {
+    "v_title" : "STRING",
+    "primaryKey" : "STRING"
+  } ],
+  "priority_level" : 4213,
+  "v_likes" : "INT",
+  "title" : "STRING",
+  "identifier" : "STRING",
+  "lastModifiedBy_data" : {
+    "accountId" : "STRING",
+    "displayName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
   },
-  "cache_hit" : true
+  "labels" : [ "STRING" ],
+  "spaceKey" : "STRING"
 }

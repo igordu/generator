@@ -1,42 +1,50 @@
 {
-  "system_state" : {
-    "payload_wrapper" : {
-      "body" : {
-        "Employees" : [ {
-          "Status_data" : "STRING",
+  "data" : {
+    "fetchResource" : {
+      "key" : "STRING",
+      "v_fields" : {
+        "summary" : "STRING",
+        "v_status" : {
+          "requires_update" : false,
+          "fullName" : "NULL"
+        },
+        "reporter" : {
+          "timeZone" : "STRING",
+          "displayName" : "PII_PERSON_NAME",
           "identifier" : "STRING",
-          "is_deleted" : false,
-          "FirstName" : "PII_PERSON_FIRST_NAME",
-          "ExternalLink" : {
-            "Url" : "URL"
-          },
-          "UpdatedDateUTC_data" : "DATETIME",
-          "LastName" : "PII_PERSON_LAST_NAME"
-        }, {
-          "EmployeeID" : "STRING",
-          "Status" : "STRING",
-          "LastName" : "PII_PERSON_LAST_NAME",
-          "ExternalLink_data" : {
-            "Url" : "URL",
-            "Description" : "STRING"
-          },
-          "FirstName" : "PII_PERSON_FIRST_NAME",
-          "UpdatedDateUTC" : "DATETIME"
-        }, {
-          "LastName" : "PII_PERSON_LAST_NAME",
-          "FirstName" : "PII_PERSON_FIRST_NAME",
-          "EmployeeID" : "STRING",
-          "ExternalLink" : {
-            "Url" : "URL",
-            "v_Description" : "STRING"
-          },
-          "UpdatedDateUTC" : "DATETIME",
-          "Status" : "STRING"
-        } ],
-        "primaryKey" : "",
-        "Status" : "STRING",
-        "DateTimeUTC_data" : "DATETIME",
-        "http_status" : 381
+          "active_data" : "BOOLEAN",
+          "mail" : "PII_EMAIL"
+        },
+        "discount_rate" : 61.93,
+        "comment" : {
+          "v_total" : "INT",
+          "comments" : [ {
+            "v_author" : {
+              "emailAddress" : "PII_EMAIL",
+              "auto_renew" : true,
+              "recordId" : "STRING",
+              "displayName" : "PII_PERSON_NAME"
+            },
+            "body" : "STRING",
+            "id" : "STRING",
+            "updated" : "DATETIME"
+          } ]
+        },
+        "priority" : {
+          "id" : "STRING",
+          "name" : "STRING",
+          "discount_rate" : 87.72
+        },
+        "assignee" : {
+          "primaryKey" : "STRING",
+          "item_count" : 2453,
+          "emailAddress" : "PII_EMAIL",
+          "active" : "BOOLEAN",
+          "clientName" : "PII_PERSON_NAME",
+          "v_timeZone" : "STRING"
+        },
+        "updated" : "DATETIME",
+        "duedate_data" : ""
       }
     }
   }

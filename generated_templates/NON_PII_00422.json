@@ -1,8 +1,23 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "clientToken" : "STRING",
-      "userName" : "STRING"
-    }
+  "status" : "STRING",
+  "v_recipient" : {
+    "deviceToken" : "STRING",
+    "userId" : "STRING",
+    "platform" : "STRING"
+  },
+  "retryCount" : "INT",
+  "type" : "STRING",
+  "campaign_data" : "NULL",
+  "sentAt" : "DATETIME",
+  "deliveredAt" : null,
+  "notificationId" : "STRING",
+  "priority_level" : 2450,
+  "notification" : {
+    "title_data" : "STRING",
+    "data" : {
+      "primaryKey" : "STRING",
+      "cache_hit" : false
+    },
+    "body_data" : "STRING"
   }
 }

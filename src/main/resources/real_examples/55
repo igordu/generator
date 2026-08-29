@@ -1,0 +1,23 @@
+{
+  "service": "payment-gateway",
+  "instance": "payment-gateway-7d9f8b-xk2p9",
+  "version": "4.2.0",
+  "timestamp": "2024-04-10T13:45:22.134Z",
+  "level": "ERROR",
+  "trace_id": "4bf92f3577b34da6a3ce929d0e0e4736",
+  "span_id": "00f067aa0ba902b7",
+  "message": "Payment processing failed for transaction TXN-20240410-00019283",
+  "error": {
+    "type": "TimeoutException",
+    "message": "Upstream bank API did not respond within 5000ms",
+    "stack_trace": "com.example.payments.BankClient.charge(BankClient.java:142)..."
+  },
+  "http": {
+    "method": "POST",
+    "url": "/v1/charges",
+    "status_code": 504,
+    "latency_ms": 5001
+  },
+  "retry_attempt": 2,
+  "max_retries": 3
+}

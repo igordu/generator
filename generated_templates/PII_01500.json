@@ -1,0 +1,16 @@
+{
+  "userName" : "STRING",
+  "permissions" : [ "STRING" ],
+  "updatedAt" : "DATETIME",
+  "createdAt" : "DATETIME",
+  "assignedTo" : [ {
+    "discount_rate" : 94.96,
+    "userName" : "PII_PERSON_NAME",
+    "assignedAt" : "DATETIME",
+    "email" : "PII_EMAIL",
+    "userId" : "NULL"
+  } ],
+  "inheritedFrom" : [ "STRING" ],
+  "system_ping_ms" : 3264,
+  "createdBy" : "PII_EMAIL"
+}

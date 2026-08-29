@@ -1,51 +1,33 @@
-[ {
-  "insight" : {
-    "lastIssueUpdateTime_data" : "DATETIME",
-    "totalIssueCount" : "INT",
-    "cpu_usage_percent" : 477.22
+{
+  "statusCodes" : {
+    "500" : "INT",
+    "404" : "INT",
+    "200" : "INT"
   },
-  "key" : "STRING",
-  "name" : "STRING",
-  "projectCategory" : {
-    "description" : "STRING",
-    "identifier" : "STRING",
-    "response_time_sec" : 342.85,
-    "self_data" : "URL"
+  "topErrors" : [ {
+    "cpu_usage_percent" : 93.11,
+    "count" : "INT",
+    "code_data" : "STRING"
+  } ],
+  "v_sloCompliance" : {
+    "availabilityTarget" : "NULL",
+    "withinSlo_data" : "BOOLEAN",
+    "latencyTarget" : "INT",
+    "latencyActualP99" : "INT",
+    "availabilityActual" : "DECIMAL"
   },
-  "avatarUrls_data" : {
-    "v_48x48" : "URL",
-    "v_16x16" : "URL",
-    "32x32" : "URL",
-    "24x24" : "URL",
-    "cpu_usage_percent" : 809.11
+  "endpoint" : "STRING",
+  "metrics" : {
+    "throughputRps" : "DECIMAL",
+    "requestCount" : "INT",
+    "errorRate" : "DECIMAL",
+    "v_p999LatencyMs" : "INT",
+    "temperature_c" : 33.68,
+    "p50LatencyMs" : "INT",
+    "p95LatencyMs" : "INT",
+    "v_errorCount" : "INT",
+    "p99LatencyMs" : "INT"
   },
-  "simplified_data" : "BOOLEAN",
-  "is_active" : false,
-  "id" : "STRING",
-  "style_data" : "STRING"
-}, {
-  "projectCategory" : {
-    "name_val" : "STRING",
-    "self" : "URL",
-    "description_data" : "STRING",
-    "stock_quantity" : 4888,
-    "id" : "STRING"
-  },
-  "avatarUrls" : {
-    "48x48" : "URL",
-    "system_ping_ms" : 1435,
-    "v_32x32" : "URL",
-    "v_24x24" : "URL",
-    "16x16" : "NULL"
-  },
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "v_key" : "STRING",
-  "simplified" : "BOOLEAN",
-  "clientName" : "STRING",
-  "style" : "STRING",
-  "id" : null,
-  "v_self" : "URL"
-} ]
+  "v_period" : "STRING",
+  "conversion_rate" : 8.89
+}

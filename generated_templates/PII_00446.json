@@ -1,42 +1,37 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "birthDate" : "PII_DATE_OF_BIRTH",
-      "recordId" : [ {
-        "value" : "PII_NATIONAL_ID",
-        "type" : {
-          "text" : "STRING"
-        },
-        "system" : "URL"
-      } ],
-      "id" : "STRING",
-      "v_gender" : "STRING",
-      "discount_rate" : 784.9,
-      "v_address" : [ {
-        "line" : [ "PII_ADDRESS_LINE" ],
-        "city" : "PII_LOCATION_CITY",
-        "use" : "STRING",
-        "country_data" : "PII_LOCATION_COUNTRY"
-      } ],
-      "resourceType" : "STRING",
-      "telecom_data" : [ {
-        "system" : "STRING",
-        "value" : "PII_PHONE_NUMBER",
-        "v_use" : "STRING"
-      }, {
-        "system" : "",
-        "value" : "PII_EMAIL"
-      } ],
-      "name" : [ {
-        "v_given" : [ "PII_PERSON_FIRST_NAME" ],
-        "family" : "PII_PERSON_LAST_NAME",
-        "temperature_c" : 741.22
-      } ],
-      "meta" : {
-        "lastUpdated_data" : "DATETIME",
-        "cpu_usage_percent" : 418.16,
-        "primaryKey" : "INT"
-      }
-    }
-  }
+  "orgUnitPath" : "STRING",
+  "emailAddress" : [ {
+    "primary_data" : "BOOLEAN",
+    "system_ping_ms" : 2225,
+    "address_data" : "PII_EMAIL"
+  } ],
+  "v_isDelegatedAdmin" : "BOOLEAN",
+  "archived" : null,
+  "recoveryPhone" : "PII_PHONE_NUMBER",
+  "primaryEmail" : "PII_EMAIL",
+  "primaryKey" : "STRING",
+  "phones" : [ {
+    "type_data" : "STRING",
+    "v_value" : "PII_PHONE_NUMBER"
+  } ],
+  "lastLoginTime_data" : "DATETIME",
+  "fullName" : {
+    "fullName" : "PII_PERSON_NAME",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "familyName" : "PII_PERSON_LAST_NAME",
+    "auto_renew" : false
+  },
+  "v_addresses" : [ {
+    "country" : "PII_LOCATION_COUNTRY",
+    "locality" : "PII_LOCATION_CITY",
+    "type" : "STRING",
+    "region" : "STRING",
+    "postalCode" : "STRING",
+    "is_deleted" : true,
+    "streetAddress" : "PII_ADDRESS_LINE"
+  } ],
+  "creationTime" : "DATETIME",
+  "recoveryEmail" : "PII_EMAIL",
+  "changePasswordAtNextLogin" : "BOOLEAN",
+  "id" : "STRING"
 }

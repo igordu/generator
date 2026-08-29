@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "primaryKey" : "STRING",
+    "assignedTo" : [ {
+      "is_active" : true,
+      "assignedAt" : "DATETIME",
+      "uuid" : "STRING",
+      "email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME"
+    } ],
+    "createdBy_data" : "PII_EMAIL",
+    "conversion_rate" : 1.99,
+    "inheritedFrom" : [ "STRING" ],
+    "updatedAt" : "DATETIME",
+    "createdAt" : "DATETIME",
+    "name" : "STRING"
+  }
+}

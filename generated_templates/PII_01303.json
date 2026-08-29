@@ -1,9 +1,33 @@
 {
-  "active" : "BOOLEAN",
-  "user_info" : {
-    "response_time_sec" : 546.61,
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME"
+  "data" : {
+    "fetchResource" : {
+      "transferId" : "",
+      "completedAt" : "DATETIME",
+      "endToEndId" : "STRING",
+      "v_amount" : {
+        "conversion_rate" : 3.17,
+        "value" : "DECIMAL",
+        "currency_data" : "STRING"
+      },
+      "recipient_data" : {
+        "v_bic" : "STRING",
+        "iban" : "PII_IBAN",
+        "accountId" : "STRING",
+        "bankName" : "PII_COMPANY_NAME",
+        "name" : "PII_PERSON_NAME"
+      },
+      "chargesBearer" : "STRING",
+      "sender" : {
+        "bic" : "STRING",
+        "iban_data" : "PII_IBAN",
+        "discount_rate" : 82.51,
+        "accountId" : "STRING",
+        "bankName" : "PII_COMPANY_NAME",
+        "name" : "PII_PERSON_NAME"
+      },
+      "reference" : "NULL",
+      "v_status" : "STRING",
+      "initiatedAt" : "DATETIME"
+    }
   }
 }

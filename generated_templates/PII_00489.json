@@ -1,48 +1,34 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "id" : "STRING",
+  "passwordChanged" : "DATETIME",
+  "created" : "DATETIME",
+  "lastUpdated" : "DATETIME",
+  "activated" : "DATETIME",
+  "v_profile" : {
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "login" : "PII_EMAIL",
+    "emailAddress" : "PII_EMAIL",
+    "organization" : "PII_COMPANY_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "title" : "STRING",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "http_status" : 3259,
+    "zipCode" : "STRING",
+    "v_countryCode" : "PII_LOCATION_COUNTRY",
+    "displayName" : "PII_PERSON_NAME",
+    "department_data" : "STRING",
+    "state" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "email" : "PII_EMAIL"
   },
-  "results" : {
-    "id" : "STRING",
-    "userName" : [ {
-      "family" : "PII_PERSON_LAST_NAME",
-      "given" : [ "PII_PERSON_FIRST_NAME" ],
-      "use_data" : "STRING",
-      "priority_level" : 2674
-    } ],
-    "gender" : "STRING",
-    "telecom" : [ {
-      "system" : "STRING",
-      "value" : "PII_EMAIL"
-    }, {
-      "value" : "PII_PHONE_NUMBER",
-      "cache_hit" : false,
-      "use" : null
-    } ],
-    "address" : [ {
-      "has_discount" : false,
-      "city" : "PII_LOCATION_CITY",
-      "v_line" : [ "PII_ADDRESS_LINE" ],
-      "use" : "STRING",
-      "country" : "PII_LOCATION_COUNTRY"
-    } ],
-    "identifier" : [ {
-      "type" : {
-        "text" : "STRING",
-        "has_discount" : false
-      },
-      "value" : "PII_NATIONAL_ID",
-      "response_time_sec" : 486.37,
-      "system" : null,
-      "use" : "STRING"
-    } ],
-    "resourceType" : "STRING",
-    "meta_data" : {
-      "conversion_rate" : 735.04,
-      "lastUpdated" : "DATETIME",
-      "versionId" : "INT"
+  "status" : "STRING",
+  "credentials" : {
+    "provider" : {
+      "type" : "STRING"
     },
-    "birthDate" : "PII_DATE_OF_BIRTH"
-  }
+    "password_data" : "OBJECT"
+  },
+  "lastLogin" : "DATETIME",
+  "conversion_rate" : 6.63
 }

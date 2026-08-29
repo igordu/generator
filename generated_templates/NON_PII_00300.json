@@ -1,41 +1,14 @@
-[ {
-  "facets" : [ {
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "key" : "STRING",
-    "v_count" : "INT",
-    "displayName" : "NULL"
+{
+  "has_discount" : true,
+  "model" : "STRING",
+  "stop_reason" : "STRING",
+  "role" : "STRING",
+  "content" : [ {
+    "text" : "STRING"
   } ],
-  "v_filter" : "STRING"
-}, {
-  "filter_data" : "STRING",
-  "facets" : [ {
-    "count_data" : "INT",
-    "key" : "STRING",
-    "clientName" : "STRING"
-  }, {
-    "count" : "INT"
-  }, {
-    "userName" : "STRING",
-    "cache_hit" : false,
-    "key" : "STRING",
-    "count" : "INT"
-  } ]
-}, {
-  "facets" : [ {
-    "count_data" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "count" : "INT",
-    "price" : 776.04,
-    "key_data" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "v_count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  } ],
-  "v_filter" : "STRING"
-} ]
+  "v_usage" : {
+    "output_tokens" : "INT",
+    "has_discount" : false,
+    "input_tokens_data" : "INT"
+  }
+}

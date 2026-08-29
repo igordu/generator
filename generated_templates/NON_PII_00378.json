@@ -1,91 +1,19 @@
 {
-  "clientToken" : "STRING",
-  "kmsArn" : "STRING",
-  "metadataCatalogConfig" : {
-    "requires_update" : true,
-    "glueDataCatalog" : {
-      "http_status" : 3535,
-      "roleArn_data" : "STRING",
-      "tablePrefix" : "STRING"
-    }
-  },
-  "flowName" : "STRING",
-  "destinationFlowConfigList" : [ {
-    "apiVersion" : "STRING",
-    "connectorType" : "STRING",
-    "connectorProfileName" : "STRING"
-  } ],
-  "description" : "STRING",
-  "v_sourceFlowConfig" : {
-    "system_ping_ms" : 4897,
-    "incrementalPullConfig" : {
-      "datetimeTypeFieldName" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "primaryKey" : "STRING",
+    "serviceId" : "STRING",
+    "status" : "STRING",
+    "node_data" : {
+      "datacenter" : "STRING",
+      "primaryKey" : "STRING",
+      "item_count" : 3712
     },
-    "apiVersion" : "STRING",
-    "connectorProfileName" : "STRING",
-    "connectorType_data" : "STRING",
-    "sourceConnectorProperties_data" : {
-      "Slack" : {
-        "object" : "STRING"
-      },
-      "Dynatrace" : {
-        "retry_attempts" : 1287
-      },
-      "SAPOData" : {
-        "objectPath" : "STRING"
-      },
-      "S3_data" : {
-        "s3InputFormatConfig" : {
-          "conversion_rate" : 640.33
-        },
-        "fullName" : ""
-      },
-      "Trendmicro_data" : {
-        "v_object" : "STRING"
-      },
-      "CustomConnector" : {
-        "customProperties" : {
-          "property1" : "STRING",
-          "property2" : null
-        }
-      },
-      "Marketo" : {
-        "object" : "STRING"
-      },
-      "Veeva" : {
-        "object" : "STRING",
-        "discount_rate" : 351.75,
-        "includeSourceFiles_data" : "BOOLEAN",
-        "documentType" : "NULL",
-        "includeAllVersions" : "BOOLEAN"
-      },
-      "Datadog" : {
-        "v_object" : "STRING"
-      },
-      "Zendesk" : {
-        "v_object" : "STRING",
-        "system_ping_ms" : 2636
-      },
-      "Salesforce" : {
-        "includeDeletedRecords" : "NULL",
-        "dataTransferApi" : "STRING",
-        "cache_hit" : false,
-        "enableDynamicFieldUpdate" : "BOOLEAN",
-        "object" : "STRING"
-      },
-      "GoogleAnalytics" : {
-        "v_object" : "STRING"
-      },
-      "Amplitude" : {
-        "v_object" : "STRING"
-      },
-      "ServiceNow" : {
-        "object" : "STRING"
-      }
-    }
-  },
-  "tags" : {
-    "property1_data" : "STRING",
-    "property2" : "STRING"
+    "consecutiveFailures" : "INT",
+    "interval" : "STRING",
+    "timestamp_data" : "DATETIME",
+    "output" : "STRING",
+    "consecutiveSuccesses" : "NULL"
   }
 }

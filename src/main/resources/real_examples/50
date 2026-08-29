@@ -1,0 +1,45 @@
+{
+  "employeeId": "EMP-10042",
+  "status": "active",
+  "hireDate": "2019-07-01",
+  "terminationDate": null,
+  "personalInfo": {
+    "firstName": "Carlos",
+    "lastName": "Ramirez",
+    "middleName": "Eduardo",
+    "dateOfBirth": "1988-03-22",
+    "gender": "male",
+    "nationality": "US",
+    "ssn": "234-56-7890",
+    "email": "carlos.ramirez@company.com",
+    "personalEmail": "carlos.r@gmail.com",
+    "phone": "512-555-0182",
+    "mobilePhone": "512-555-0183"
+  },
+  "address": {
+    "street": "987 Maplewood Ave",
+    "city": "Austin",
+    "state": "TX",
+    "postalCode": "78745",
+    "country": "US"
+  },
+  "jobInfo": {
+    "department": "Software Engineering",
+    "title": "Principal Engineer",
+    "costCenter": "CC-ENG-001",
+    "managerId": "EMP-10003",
+    "employmentType": "full_time"
+  },
+  "payroll": {
+    "bankName": "Chase Bank",
+    "accountNumber": "000123456789",
+    "routingNumber": "021000021",
+    "payFrequency": "bi_weekly",
+    "salary": 165000
+  },
+  "emergencyContact": {
+    "name": "Maria Ramirez",
+    "relationship": "spouse",
+    "phone": "512-555-0199"
+  }
+}

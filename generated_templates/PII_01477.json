@@ -1,0 +1,18 @@
+{
+  "creationTimestamp_data" : "DATETIME",
+  "data" : {
+    "REQUEST_TIMEOUT_MS" : "STRING",
+    "REDIS_HOST" : "STRING",
+    "SMTP_PORT" : "STRING",
+    "fullName" : "STRING",
+    "LOG_LEVEL" : "NULL",
+    "DATABASE_PORT" : "STRING",
+    "SMTP_HOST_data" : "STRING",
+    "DATABASE_HOST" : "STRING",
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "REDIS_PORT" : "STRING",
+    "v_MAX_CONNECTIONS" : "STRING",
+    "v_FEATURE_FLAG_NEW_CHECKOUT" : "STRING"
+  },
+  "namespace" : "STRING"
+}

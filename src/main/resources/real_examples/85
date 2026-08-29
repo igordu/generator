@@ -1,0 +1,26 @@
+{
+  "spaceKey": "ENG",
+  "pageId": "12345678",
+  "title": "System Architecture Overview",
+  "version": 8,
+  "status": "current",
+  "createdAt": "2023-06-01T09:00:00Z",
+  "updatedAt": "2024-04-08T15:30:00Z",
+  "author": {
+    "accountId": "5b10a2844c20165700ede21g",
+    "displayName": "Chris Walker",
+    "email": "c.walker@company.com"
+  },
+  "lastModifiedBy": {
+    "accountId": "5b10a2844c20165700ede22h",
+    "displayName": "Jordan Lee",
+    "email": "j.lee@company.com"
+  },
+  "ancestors": [
+    { "id": "11111111", "title": "Engineering" },
+    { "id": "22222222", "title": "Platform Team" }
+  ],
+  "labels": ["architecture", "platform", "internal"],
+  "viewCount": 1482,
+  "likes": 23
+}

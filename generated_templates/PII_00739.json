@@ -1,35 +1,50 @@
 {
-  "page_count" : "INT",
-  "priority_level" : 2380,
-  "page_size" : "INT",
-  "page_number" : "INT",
-  "total_records" : "INT",
-  "registrants" : [ {
-    "join_url" : "URL",
-    "job_title" : "STRING",
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "state" : "PII_LOCATION_STATE",
-    "country" : "PII_LOCATION_COUNTRY",
-    "purchasing_time_frame_data" : "STRING",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "id" : null,
-    "v_address" : "PII_ADDRESS_LINE",
-    "city" : "PII_LOCATION_CITY",
-    "email" : "PII_EMAIL",
-    "create_time" : "DATETIME",
-    "comments_data" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "org" : "PII_ORGANIZATION_NAME",
-    "status" : "STRING",
-    "zip" : "STRING",
-    "role_in_purchase_process" : "STRING",
-    "custom_questions" : [ {
-      "value" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "telecom_data" : [ {
+      "use" : "STRING",
+      "v_value" : "PII_EMAIL",
+      "system_data" : "STRING",
+      "has_discount" : false
     }, {
-      "value_data" : "STRING",
-      "item_count" : 688,
-      "title" : "STRING"
+      "cache_hit" : false,
+      "use_data" : "STRING",
+      "system" : "STRING",
+      "value" : "PII_PHONE_NUMBER"
     } ],
-    "industry" : "STRING"
-  } ]
+    "name" : [ {
+      "v_given" : [ "PII_PERSON_FIRST_NAME" ],
+      "prefix_data" : [ "STRING" ],
+      "family" : "PII_PERSON_LAST_NAME",
+      "use" : "STRING"
+    } ],
+    "uuid" : [ {
+      "value" : "PII_NATIONAL_ID",
+      "temperature_c" : -15.69,
+      "system_data" : "URL"
+    } ],
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "gender" : "STRING",
+    "qualification" : [ {
+      "price" : 5021.19
+    } ],
+    "v_active" : "BOOLEAN",
+    "meta" : {
+      "v_lastUpdated" : "DATETIME",
+      "stock_quantity" : 406,
+      "versionId" : "INT"
+    },
+    "price" : 454.29,
+    "v_resourceType" : "STRING",
+    "address" : [ {
+      "state" : "STRING",
+      "retry_attempts" : 2193,
+      "city_data" : "PII_LOCATION_CITY",
+      "postalCode_data" : "STRING",
+      "use_data" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "line_data" : [ "PII_ADDRESS_LINE" ]
+    } ]
+  }
 }

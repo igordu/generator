@@ -1,4 +1,26 @@
 {
-  "userName" : "STRING",
-  "clientToken" : "STRING"
+  "status" : "STRING",
+  "completedAt" : "DATETIME",
+  "findings" : [ {
+    "severity" : "STRING",
+    "response_time_sec" : 23.01,
+    "cwe" : "STRING",
+    "parameter" : "STRING",
+    "cvss" : "DECIMAL",
+    "remediation" : "STRING",
+    "description" : "STRING",
+    "type" : "STRING",
+    "endpoint_data" : "STRING"
+  } ],
+  "v_scanType" : "STRING",
+  "target" : "URL",
+  "page_index" : 4292,
+  "scanId" : "STRING",
+  "startedAt" : "DATETIME",
+  "summary" : {
+    "info" : "INT",
+    "low" : "INT",
+    "v_critical" : "INT",
+    "medium" : "INT"
+  }
 }

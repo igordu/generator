@@ -1,30 +1,41 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "recordId" : "STRING",
-      "creditorAccount" : {
-        "price" : 36.71,
-        "v_iban" : "PII_IBAN"
-      },
-      "amount" : {
-        "currency" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "name_val" : "PII_PERSON_NAME",
-      "valueDate" : "DATE",
-      "bankTransactionCode" : {
-        "v_subFamily" : "STRING",
-        "family" : "STRING"
-      },
-      "v_bookingDate" : "DATE",
-      "v_debtorAccount" : {
-        "iban" : "STRING",
-        "item_count" : 2104
-      },
-      "stock_quantity" : 2873,
-      "debtorName" : "STRING"
-    } ]
-  },
-  "item_count" : 3224
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "total_spent" : "DECIMAL",
+    "primaryKey" : "INT",
+    "v_default_address" : {
+      "v_address1" : "PII_ADDRESS_LINE",
+      "country" : "PII_LOCATION_COUNTRY",
+      "id" : "INT",
+      "v_province_code" : "STRING",
+      "city" : "PII_LOCATION_CITY",
+      "address2" : "STRING",
+      "clientName" : "PII_PERSON_NAME",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "primaryKey" : "INT",
+      "province" : "STRING",
+      "zip_data" : "STRING",
+      "default" : "BOOLEAN",
+      "v_country_code" : "STRING",
+      "company" : "PII_COMPANY_NAME",
+      "cell" : "PII_PHONE_NUMBER",
+      "has_discount" : true
+    },
+    "currency" : "STRING",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "price" : 7809.22,
+    "created_at" : "DATETIME",
+    "state" : "STRING",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "orders_count_data" : "INT",
+    "updated_at" : "DATETIME",
+    "verified_email" : "BOOLEAN",
+    "tags" : "STRING",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "emailAddress" : "PII_EMAIL",
+    "id" : "INT",
+    "v_note" : "STRING"
+  }
 }

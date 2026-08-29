@@ -1,26 +1,28 @@
-[ {
-  "id" : "STRING",
-  "projectCategory" : {
-    "id" : "STRING",
-    "description_data" : "STRING",
-    "fullName" : "STRING",
-    "discount_rate" : 600.24,
-    "self" : "URL"
+{
+  "clusterId" : "STRING",
+  "topics" : [ {
+    "replicationFactor" : "INT",
+    "partitions" : "INT",
+    "name" : "STRING"
+  } ],
+  "nodeId" : "NULL",
+  "uptimeSeconds" : "INT",
+  "v_metrics" : {
+    "bytesOutPerSec_data" : "INT",
+    "v_underReplicatedPartitions" : "INT",
+    "requestHandlerAvgIdlePercent" : "DECIMAL",
+    "activeControllerCount_data" : "INT",
+    "offlinePartitionsCount" : "INT",
+    "bytesInPerSec" : "INT"
   },
-  "name" : "STRING",
-  "http_status" : 4447,
-  "style" : "NULL",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME",
-    "cpu_usage_percent" : 473.4
+  "role" : "STRING",
+  "temperature_c" : 37.39,
+  "version" : "STRING",
+  "jvmMemory" : {
+    "heapUsedMb_data" : "INT",
+    "is_deleted" : false,
+    "heapMaxMb_data" : "INT",
+    "v_gcPauseMs" : "INT"
   },
-  "avatarUrls_data" : {
-    "32x32" : "URL",
-    "16x16" : "URL",
-    "v_24x24" : "",
-    "48x48" : "URL"
-  },
-  "key" : "STRING",
-  "simplified" : "BOOLEAN"
-} ]
+  "status_data" : "STRING"
+}

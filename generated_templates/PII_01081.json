@@ -1,22 +1,31 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "events_data" : [ {
+    "status" : "STRING",
+    "price" : 8310.63,
+    "timestamp_data" : "DATETIME",
+    "location" : "PII_LOCATION_CITY"
+  } ],
+  "trackingNumber" : "STRING",
+  "sender" : {
+    "emailAddress" : "PII_EMAIL",
+    "name" : "PII_COMPANY_NAME",
+    "address" : "PII_ADDRESS_LINE"
   },
-  "results" : {
-    "account_type" : "STRING",
-    "conversion_rate" : 469.95,
-    "status" : null,
-    "userName" : "NULL",
-    "routing_number" : "STRING",
-    "fingerprint_data" : "STRING",
-    "object" : "STRING",
-    "id" : "STRING",
-    "metadata" : "OBJECT",
-    "account_holder_type" : "",
-    "customer" : "STRING",
-    "last4" : "STRING",
-    "country_data" : "STRING",
-    "fullName" : "PII_PERSON_NAME"
-  }
+  "recipient" : {
+    "deliveryInstructions" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "mail" : "PII_EMAIL",
+    "is_active" : true,
+    "name" : "PII_PERSON_NAME",
+    "address" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "street_data" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING",
+      "city" : "PII_LOCATION_CITY"
+    }
+  },
+  "carrier" : "STRING",
+  "estimatedDelivery_data" : "DATE",
+  "status" : "STRING",
+  "deliveryId" : "STRING"
 }

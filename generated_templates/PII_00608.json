@@ -1,39 +1,25 @@
 {
-  "response_time_sec" : 931.64,
-  "Employees" : [ {
-    "Status" : "STRING",
-    "EmployeeID" : "STRING",
-    "ExternalLink_data" : {
-      "Url_data" : "URL",
-      "Description" : "STRING"
+  "ok" : "BOOLEAN",
+  "user" : {
+    "tz" : "STRING",
+    "tz_offset" : "INT",
+    "tz_label" : "STRING",
+    "team_id" : "STRING",
+    "deleted_data" : "BOOLEAN",
+    "fullName" : "PII_USERNAME",
+    "is_admin" : "BOOLEAN",
+    "updated" : "DATETIME_EPOCH",
+    "profile" : {
+      "email" : "PII_EMAIL",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "fullName" : "PII_USERNAME",
+      "userName" : "PII_PERSON_NAME",
+      "team_data" : "STRING",
+      "phone" : "PII_PHONE_NUMBER",
+      "title" : "STRING"
     },
-    "has_discount" : true,
-    "v_UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "name_val" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "UpdatedDateUTC_data" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING",
-    "temperature_c" : 213.2,
-    "Status" : "STRING",
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink_data" : {
-      "Description" : "STRING"
-    }
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "EmployeeID" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "fullName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Url" : "NULL",
-      "v_Description" : "STRING"
-    }
-  } ],
-  "DateTimeUTC" : "DATETIME",
-  "Id" : "STRING",
-  "Status" : "STRING",
-  "ProviderName" : "STRING"
+    "is_email_confirmed" : "BOOLEAN",
+    "real_name" : "PII_PERSON_NAME",
+    "is_bot" : "BOOLEAN"
+  }
 }

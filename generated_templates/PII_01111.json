@@ -1,41 +1,30 @@
 {
-  "subscriptions_url" : "NULL",
-  "following_url" : "URL",
-  "updated_at_data" : "DATETIME",
-  "node_id" : "STRING",
-  "type" : "STRING",
-  "events_url" : "URL",
-  "hireable" : "BOOLEAN",
-  "organizations_url" : "URL",
-  "public_repos" : "INT",
-  "email" : "PII_EMAIL",
-  "private_gists" : "INT",
-  "plan" : {
-    "space" : "INT",
-    "name" : "STRING",
-    "private_repos" : "INT",
-    "collaborators" : "INT"
+  "priority" : "STRING",
+  "status" : "STRING",
+  "customer" : {
+    "email" : "PII_EMAIL",
+    "mobile" : "PII_PHONE_NUMBER",
+    "accountId" : "STRING",
+    "id" : "STRING",
+    "has_discount" : false,
+    "name" : "PII_PERSON_NAME"
   },
-  "blog" : "URL",
-  "name_val" : "STRING",
-  "avatar_url" : "URL",
-  "followers" : "INT",
-  "followers_url" : "URL",
-  "disk_usage_data" : "",
-  "site_admin" : "BOOLEAN",
-  "html_url" : "URL",
-  "id" : "INT",
-  "name" : "PII_PERSON_NAME",
-  "created_at" : "DATETIME",
-  "v_company" : "PII_ORGANIZATION_NAME",
-  "gravatar_id" : "STRING",
-  "owned_private_repos" : "INT",
-  "url" : "URL",
-  "received_events_url" : "URL",
-  "v_location" : "PII_LOCATION_CITY",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "v_login" : "STRING",
-  "total_private_repos" : "INT",
-  "two_factor_authentication" : "NULL",
-  "repos_url_data" : "URL"
+  "messages_data" : [ {
+    "body" : "NULL",
+    "authorName" : "PII_PERSON_NAME",
+    "v_createdAt" : "DATETIME",
+    "authorType" : "STRING",
+    "id" : "STRING"
+  } ],
+  "subject" : "STRING",
+  "v_category" : "STRING",
+  "assignedAgent" : {
+    "email" : "PII_EMAIL",
+    "id" : "STRING",
+    "team" : "STRING",
+    "name_val" : "PII_PERSON_NAME"
+  },
+  "createdAt" : "DATETIME",
+  "tags" : [ "STRING" ],
+  "id" : "STRING"
 }

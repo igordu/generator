@@ -1,0 +1,21 @@
+{
+  "configMapName" : "STRING",
+  "resourceVersion" : "STRING",
+  "response_time_sec" : 7.88,
+  "data" : {
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "MAX_CONNECTIONS_data" : "STRING",
+    "DATABASE_HOST" : "STRING",
+    "SMTP_HOST" : "NULL",
+    "REQUEST_TIMEOUT_MS" : "STRING",
+    "DATABASE_PORT" : "STRING",
+    "FEATURE_FLAG_NEW_CHECKOUT_data" : "NULL",
+    "SMTP_PORT" : "STRING",
+    "DATABASE_NAME" : "STRING",
+    "REDIS_PORT" : "STRING",
+    "REDIS_HOST" : "STRING",
+    "LOG_LEVEL" : "STRING"
+  },
+  "namespace" : "",
+  "v_creationTimestamp" : "DATETIME"
+}

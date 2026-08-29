@@ -1,41 +1,31 @@
 {
-  "v_repos_url" : "URL",
-  "name_val" : "STRING",
-  "has_discount" : false,
-  "received_events_url" : "URL",
-  "email" : "PII_EMAIL",
-  "events_url" : "URL",
-  "v_following_url" : "URL",
-  "blog_data" : "URL",
-  "public_gists" : "INT",
-  "gists_url" : "URL",
-  "type" : "STRING",
-  "created_at" : "DATETIME",
-  "owned_private_repos" : "INT",
-  "site_admin_data" : "BOOLEAN",
-  "v_starred_url" : "URL",
-  "gravatar_id" : "STRING",
-  "login" : "STRING",
-  "hireable" : "BOOLEAN",
-  "followers" : "INT",
-  "v_updated_at" : "DATETIME",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "total_private_repos_data" : "INT",
-  "collaborators_data" : "INT",
-  "followers_url" : "URL",
-  "company" : "PII_ORGANIZATION_NAME",
-  "subscriptions_url" : "URL",
-  "location_data" : "PII_LOCATION_CITY",
-  "organizations_url" : "URL",
-  "node_id" : "STRING",
-  "private_gists" : "INT",
-  "v_url" : "URL",
-  "disk_usage" : "INT",
-  "following" : "INT",
-  "html_url_data" : "URL",
-  "two_factor_authentication" : "BOOLEAN",
-  "plan" : {
-    "name" : "STRING",
-    "collaborators_data" : "INT"
-  }
+  "createdAt" : "DATETIME",
+  "createdBy" : "PII_EMAIL",
+  "enabled" : "BOOLEAN",
+  "updatedAt" : "DATETIME",
+  "targeting" : {
+    "fallthrough" : {
+      "variation" : "STRING",
+      "retry_attempts" : 3173
+    },
+    "rules_data" : [ {
+      "id" : "STRING",
+      "clauses" : [ {
+        "values" : [ "STRING" ],
+        "op_data" : "STRING"
+      } ],
+      "v_description" : "STRING",
+      "variation" : "STRING"
+    } ],
+    "discount_rate" : 61.09
+  },
+  "variations" : [ {
+    "id" : "STRING",
+    "cpu_usage_percent" : 74.04,
+    "value" : "BOOLEAN"
+  } ],
+  "projectKey_data" : "STRING",
+  "tags_data" : [ "STRING" ],
+  "environment" : "STRING",
+  "v_featureFlagKey" : "STRING"
 }

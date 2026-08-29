@@ -1,0 +1,27 @@
+{
+  "deploymentId": "deploy-20240410-prod-0491",
+  "service": "checkout-service",
+  "version": "v5.3.1",
+  "environment": "production",
+  "status": "success",
+  "initiatedBy": {
+    "type": "ci_pipeline",
+    "pipelineId": "pipe-20240410-0821",
+    "triggeredBy": "merge_request",
+    "actor": "devops@company.com"
+  },
+  "startedAt": "2024-04-10T10:00:00Z",
+  "completedAt": "2024-04-10T10:04:32Z",
+  "strategy": "blue_green",
+  "healthCheck": {
+    "url": "https://checkout.internal/health",
+    "status": "passing",
+    "responseTimeMs": 18
+  },
+  "rollback": {
+    "available": true,
+    "previousVersion": "v5.3.0"
+  },
+  "artifactDigest": "sha256:abc123def456",
+  "registry": "registry.company.com"
+}

@@ -2,23 +2,10 @@
   "status" : "success",
   "code" : 200,
   "data" : {
-    "userName" : "STRING",
-    "media" : {
-      "cpu_usage_percent" : 503.51,
-      "images" : [ {
-        "smallHdUrl_data" : "URL",
-        "largeHdUrl" : "URL",
-        "v_smallUrl" : "URL",
-        "thumbnailHdUrl" : "URL",
-        "type" : "STRING",
-        "orderNumber" : "INT",
-        "largeUrl_data" : "URL",
-        "mediumHdUrl" : "NULL",
-        "v_mediumUrl" : "URL"
-      } ]
-    },
-    "id" : "STRING",
-    "shopUrl" : "URL",
-    "modelId" : "STRING"
+    "retention_policy" : "STRING",
+    "anonymized" : "BOOLEAN",
+    "price" : 6781.5,
+    "export_id" : "STRING",
+    "gdpr_erasure_applied" : "BOOLEAN"
   }
 }

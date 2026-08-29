@@ -1,19 +1,28 @@
 [ {
-  "filter" : "STRING",
-  "auto_renew" : true
+  "assetTypeId" : "STRING",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "lockPrivateUseAccount_data" : "BOOLEAN",
+  "fixedAssetAccountId" : "STRING",
+  "locks" : "INT",
+  "assetTypeName" : "STRING",
+  "recordId" : "STRING",
+  "taxDepreciationSettings" : "ARRAY"
 }, {
-  "filter_data" : "STRING"
-}, {
-  "filter_data" : "STRING",
-  "facets" : [ {
-    "count" : "INT",
-    "auto_renew" : true,
-    "name_val" : "STRING",
-    "key_data" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "requires_update" : true,
-    "key" : "STRING",
-    "count" : "INT"
-  } ]
+  "locks" : "INT",
+  "taxDepreciationSettings" : "ARRAY",
+  "auto_renew" : true,
+  "identifier" : "STRING",
+  "fixedAssetAccountId" : "STRING",
+  "assetTypeId" : "STRING",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "bookDepreciationSetting_data" : {
+    "depreciationRate" : "DECIMAL",
+    "depreciationCalculationMethod" : "STRING",
+    "depreciableObjectType" : "STRING",
+    "averagingMethod" : "",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "primaryKey" : "STRING",
+    "depreciationMethod" : "STRING"
+  },
+  "assetTypeName" : "STRING"
 } ]

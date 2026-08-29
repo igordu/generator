@@ -1,43 +1,39 @@
 {
-  "price" : 448.0,
-  "prev" : "STRING",
-  "href" : "STRING",
-  "next" : "STRING",
-  "transactions" : [ {
-    "v_feeJurisdiction" : {
-      "regionType" : "NULL",
-      "fullName" : "STRING"
-    },
-    "bookingEntry" : "STRING",
-    "payoutId" : "STRING",
-    "paymentsEntity" : "STRING",
-    "transactionStatus_data" : "STRING",
-    "v_feeType" : "STRING",
-    "amount" : {
-      "value" : "STRING",
-      "currency_data" : "STRING",
-      "exchangeRate_data" : "STRING",
-      "convertedFromValue" : "STRING",
-      "convertedFromCurrency_data" : "STRING"
-    },
-    "totalFeeBasisAmount" : {
-      "temperature_c" : 543.79,
-      "currency" : "STRING",
-      "exchangeRate_data" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "value" : "STRING"
-    },
-    "transactionType_data" : "STRING",
-    "recordId" : "STRING",
-    "transactionMemo" : "STRING",
-    "transactionId" : "STRING",
-    "buyer" : {
-      "cpu_usage_percent" : 470.82,
-      "username" : "PII_USERNAME"
-    },
-    "salesRecordReference_data" : "STRING",
-    "item_count" : 1814
-  } ],
-  "limit" : "INT"
+  "server_logs" : {
+    "request_context" : {
+      "debug_payload" : {
+        "conversion_rate" : 2.57,
+        "v_page_count" : "INT",
+        "v_page_number" : "INT",
+        "registrants" : [ {
+          "zip" : "STRING",
+          "name_val" : "PII_PERSON_LAST_NAME",
+          "mobile" : "PII_PHONE_NUMBER",
+          "mail" : "PII_EMAIL",
+          "v_custom_questions" : [ {
+            "v_title" : "STRING",
+            "value_data" : "STRING"
+          }, {
+            "discount_rate" : 83.07,
+            "value" : "STRING"
+          } ],
+          "org" : "PII_ORGANIZATION_NAME",
+          "city" : "PII_LOCATION_CITY",
+          "country" : "PII_LOCATION_COUNTRY",
+          "address" : "PII_ADDRESS_LINE",
+          "response_time_sec" : 25.96,
+          "v_no_of_employees" : "STRING",
+          "job_title" : "STRING",
+          "v_role_in_purchase_process" : "STRING",
+          "state" : "PII_LOCATION_STATE",
+          "purchasing_time_frame" : "STRING",
+          "industry" : "STRING",
+          "status" : "STRING",
+          "create_time" : "DATETIME",
+          "comments" : "STRING"
+        } ],
+        "v_total_records" : "INT"
+      }
+    }
+  }
 }

@@ -1,33 +1,50 @@
 {
-  "DateTimeUTC" : "DATETIME",
-  "v_Employees" : [ {
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "requires_update" : true,
-      "Url" : "URL"
-    }
-  }, {
-    "UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
+  "metadata_data" : {
+    "annotations" : {
+      "contact" : "PII_EMAIL",
+      "owner_data" : "STRING"
     },
-    "Status_data" : "STRING",
-    "userName" : "PII_PERSON_LAST_NAME",
-    "name_val" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "v_ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
-    }
-  } ],
-  "Status" : "STRING",
-  "Id" : "STRING",
-  "ProviderName" : "STRING"
+    "resourceVersion" : "STRING",
+    "name" : "STRING",
+    "labels" : {
+      "version" : "STRING",
+      "app" : "STRING",
+      "environment" : "STRING",
+      "retry_attempts" : 3857
+    },
+    "creationTimestamp" : "DATETIME",
+    "http_status" : 4860,
+    "name_val" : "STRING"
+  },
+  "kind" : "STRING",
+  "v_spec" : {
+    "nodeName" : "STRING",
+    "discount_rate" : 34.68,
+    "containers" : [ {
+      "image" : "NULL",
+      "v_ports" : [ {
+        "containerPort" : "INT",
+        "protocol" : "STRING"
+      } ],
+      "env_data" : [ {
+        "value" : "PII_EMAIL",
+        "name" : "STRING"
+      } ],
+      "resources" : {
+        "v_requests" : {
+          "memory" : "STRING",
+          "cpu" : "STRING"
+        },
+        "limits_data" : {
+          "price" : 6443.01,
+          "cpu_data" : "STRING",
+          "memory" : "STRING"
+        },
+        "priority_level" : 1378
+      },
+      "name" : "STRING",
+      "cache_hit" : true
+    } ],
+    "serviceAccountName" : "STRING"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "has_discount" : false,
+  "recordId" : "STRING",
+  "ownedServices" : [ "STRING" ],
+  "updatedAt" : null,
+  "v_createdAt" : "DATETIME",
+  "name" : "STRING",
+  "oncallScheduleId" : "STRING",
+  "members" : [ {
+    "retry_attempts" : 3144,
+    "joinedAt" : "DATETIME",
+    "userId" : "STRING",
+    "name_val" : "PII_PERSON_NAME",
+    "role" : "STRING",
+    "contactEmail" : "PII_EMAIL"
+  } ],
+  "description" : "STRING",
+  "slackChannel" : "NULL"
+}

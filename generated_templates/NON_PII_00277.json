@@ -1,34 +1,17 @@
-[ {
-  "filter" : "STRING",
-  "http_status" : 4500
-}, {
-  "retry_attempts" : 616,
-  "facets" : [ {
-    "count" : "INT",
-    "key_data" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "temperature_c" : 381.16
-  }, {
-    "count" : "INT",
-    "key" : "STRING",
-    "fullName" : "STRING",
-    "retry_attempts" : 3782
-  } ]
-}, {
-  "facets" : [ {
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key_data" : "STRING",
-    "count_data" : "INT"
-  } ],
-  "filter_data" : "STRING"
-} ]
+{
+  "reorder_point_data" : "INT",
+  "expiry_date" : "NULL",
+  "v_reorder_quantity" : "INT",
+  "v_location_code" : "STRING",
+  "quantity_available" : "INT",
+  "tags" : [ "STRING" ],
+  "quantity_reserved" : "",
+  "sku_data" : "STRING",
+  "quantity_on_hand" : "INT",
+  "warehouse_id" : "STRING",
+  "last_received_at" : "DATETIME",
+  "currency" : "STRING",
+  "unit_cost" : "INT",
+  "last_counted_at" : "DATETIME",
+  "product_name" : "STRING"
+}

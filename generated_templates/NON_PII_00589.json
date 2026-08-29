@@ -1,24 +1,29 @@
-[ {
-  "key" : "STRING",
-  "avatarUrls_data" : {
-    "24x24" : "",
-    "48x48" : "URL",
-    "16x16_data" : "URL",
-    "32x32" : null
-  },
-  "style" : "STRING",
-  "simplified" : "BOOLEAN",
-  "projectCategory" : {
-    "description_data" : "STRING",
-    "name" : "STRING",
-    "self" : "",
-    "id" : "STRING"
-  },
-  "insight" : {
-    "totalIssueCount_data" : "INT",
-    "http_status" : 1748,
-    "lastIssueUpdateTime" : ""
-  },
-  "name" : "STRING",
-  "id" : "STRING"
-} ]
+{
+  "telemetry_data" : {
+    "event_data" : {
+      "body" : {
+        "v_updatedAt" : "DATETIME",
+        "v_createdAt" : "DATETIME",
+        "name" : "STRING",
+        "v_description" : "STRING",
+        "priority" : "INT",
+        "actions_data" : [ {
+          "config" : {
+            "v_keyBy" : "STRING",
+            "responseMessage" : "STRING",
+            "has_discount" : false,
+            "requestsPerMinute_data" : "INT",
+            "v_responseCode" : "INT"
+          },
+          "type" : "STRING"
+        } ],
+        "enabled" : "BOOLEAN",
+        "conditions" : [ {
+          "operator" : "STRING"
+        } ],
+        "createdBy" : "STRING",
+        "ruleId" : "STRING"
+      }
+    }
+  }
+}

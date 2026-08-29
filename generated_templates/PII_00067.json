@@ -1,20 +1,5 @@
 {
-  "temperature_c" : 546.27,
-  "content" : [ {
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "unhelpfulCount" : "INT",
-    "description" : "STRING",
-    "identifier" : "STRING",
-    "created" : "DATETIME",
-    "helpfulCount" : "INT",
-    "recommend_data" : null,
-    "articleId" : "STRING",
-    "v_articleSizeRatings" : {
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "INT"
-    },
-    "v_title" : "PII_COMPANY_NAME",
-    "language_data" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY"
-  } ]
+  "is_active" : false,
+  "emailAddress" : "PII_EMAIL",
+  "emailAddressStatus" : [ "STRING" ]
 }

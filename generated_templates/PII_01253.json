@@ -1,39 +1,31 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : [ {
-    "parents" : [ {
-      "v_url" : "URL"
-    } ],
-    "url_data" : "URL",
-    "sha" : "STRING",
-    "comments_url" : "URL",
-    "commit" : {
-      "comment_count" : "INT",
-      "committer" : {
-        "clientName" : "PII_PERSON_NAME",
-        "date" : "DATETIME",
-        "email" : "PII_EMAIL"
-      },
-      "url" : "URL",
-      "author" : {
-        "userName" : "PII_PERSON_NAME",
-        "email" : "PII_EMAIL",
-        "date" : "DATETIME"
-      },
-      "message" : "PII_COMPANY_NAME",
-      "verification" : {
-        "payload" : "STRING",
-        "is_active" : true,
-        "verified" : "BOOLEAN",
-        "v_signature" : "STRING",
-        "verified_at" : "DATETIME",
-        "v_reason" : "STRING"
-      }
+  "v_date" : "DATE",
+  "encounterId" : "STRING",
+  "patient_data" : {
+    "taxCode_data" : "PII_NATIONAL_ID",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "address_data" : {
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "city_data" : "PII_LOCATION_CITY"
     },
-    "primaryKey" : "STRING",
-    "html_url" : "URL"
-  } ]
+    "gender" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "prescriptions" : [ {
+    "dose" : "STRING",
+    "durationDays" : "INT",
+    "name_val" : "STRING"
+  } ],
+  "encounterType" : "NULL",
+  "diagnosis_data" : [ {
+    "system" : "STRING",
+    "description" : "STRING",
+    "type" : "STRING",
+    "code_data" : "STRING"
+  } ],
+  "patientId" : "STRING"
 }

@@ -1,39 +1,39 @@
 {
-  "name" : [ {
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "use" : "STRING",
-    "family_data" : "PII_PERSON_LAST_NAME"
-  } ],
-  "address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "city" : "PII_LOCATION_CITY",
-    "country_data" : "PII_LOCATION_COUNTRY",
-    "v_use" : "STRING"
-  } ],
-  "gender" : "STRING",
-  "telecom" : [ {
-    "system" : "STRING",
-    "cache_hit" : true,
-    "use" : "STRING",
-    "value" : "PII_PHONE_NUMBER"
-  }, {
-    "item_count" : 874,
-    "v_system" : "STRING",
-    "v_value" : "PII_EMAIL"
-  } ],
-  "meta" : {
-    "uuid" : "",
-    "lastUpdated" : "DATETIME"
+  "id" : "STRING",
+  "uuid" : "STRING",
+  "name" : {
+    "givenName" : "PII_PERSON_FIRST_NAME",
+    "familyName" : "PII_PERSON_LAST_NAME",
+    "fullName" : "PII_PERSON_NAME",
+    "priority_level" : 2600
   },
-  "resourceType" : "STRING",
-  "identifier" : [ {
-    "has_discount" : false,
-    "v_value" : "PII_NATIONAL_ID",
-    "type" : {
-      "text" : "STRING"
-    },
-    "system" : "URL",
-    "use" : "STRING"
+  "creationTime_data" : "DATETIME",
+  "recoveryEmail" : "PII_EMAIL",
+  "addresses" : [ {
+    "locality" : "PII_LOCATION_CITY",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "type" : "STRING",
+    "region" : "STRING",
+    "priority_level" : 4539,
+    "streetAddress" : "PII_ADDRESS_LINE"
   } ],
-  "birthDate" : "PII_DATE_OF_BIRTH"
+  "isAdmin" : "BOOLEAN",
+  "isDelegatedAdmin_data" : "BOOLEAN",
+  "emails" : [ {
+    "address" : "PII_EMAIL",
+    "primary" : "BOOLEAN"
+  } ],
+  "v_suspended" : "BOOLEAN",
+  "recoveryPhone" : "PII_PHONE_NUMBER",
+  "changePasswordAtNextLogin" : "BOOLEAN",
+  "v_isMailboxSetup" : "BOOLEAN",
+  "phones" : [ {
+    "v_value" : "PII_PHONE_NUMBER",
+    "type" : "STRING"
+  } ],
+  "archived" : "BOOLEAN",
+  "primaryEmail" : "PII_EMAIL",
+  "lastLoginTime_data" : "DATETIME",
+  "agreedToTerms" : "BOOLEAN",
+  "orgUnitPath_data" : "STRING"
 }

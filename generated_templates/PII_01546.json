@@ -1,0 +1,28 @@
+{
+  "status" : "STRING",
+  "name" : "",
+  "http_status" : 2890,
+  "modelId" : "NULL",
+  "featureImportance" : {
+    "monthly_spend_trend" : "DECIMAL",
+    "days_since_last_login_data" : "DECIMAL",
+    "product_usage_score" : "DECIMAL",
+    "support_ticket_count" : "DECIMAL",
+    "page_index" : 545
+  },
+  "deployedAt" : "DATETIME",
+  "metrics" : {
+    "auc" : "DECIMAL",
+    "v_precision" : "DECIMAL",
+    "recall" : "DECIMAL",
+    "accuracy" : "DECIMAL"
+  },
+  "endpoint" : "URL",
+  "inferenceStats" : {
+    "p99LatencyMs" : "INT",
+    "requestsToday" : "INT",
+    "v_avgLatencyMs" : "INT"
+  },
+  "trainingDataPeriod" : "STRING",
+  "trainedBy" : "PII_EMAIL"
+}

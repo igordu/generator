@@ -1,27 +1,25 @@
-[ {
-  "comments_url_data" : "URL",
-  "parents" : [ {
-    "sha" : "STRING",
-    "url" : "URL"
-  } ],
-  "recordId" : "STRING",
-  "html_url" : "URL",
-  "v_commit" : {
-    "v_message" : "PII_COMPANY_NAME",
-    "author" : {
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL"
-    },
-    "v_url" : "URL",
-    "v_comment_count" : "INT",
-    "tree" : {
-      "sha" : "STRING",
-      "url" : "URL"
-    },
-    "committer" : {
-      "date" : "DATETIME",
-      "emailAddress" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    }
-  }
-} ]
+{
+  "paymentTerms" : "STRING",
+  "status" : "STRING",
+  "total" : "",
+  "customer" : {
+    "v_vatNumber" : "STRING",
+    "email" : "PII_EMAIL",
+    "address" : "PII_ADDRESS_LINE",
+    "company" : "PII_COMPANY_NAME",
+    "name_val" : "PII_PERSON_NAME"
+  },
+  "currency" : "STRING",
+  "vendor" : {
+    "cpu_usage_percent" : 30.0,
+    "name" : "PII_COMPANY_NAME",
+    "iban_data" : "PII_IBAN",
+    "vatNumber" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "email" : "PII_EMAIL"
+  },
+  "issuedAt" : "DATETIME",
+  "invoiceId" : "STRING",
+  "subtotal" : "DECIMAL",
+  "vatAmount" : "DECIMAL"
+}

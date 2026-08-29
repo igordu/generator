@@ -1,10 +1,11 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "clientToken_data" : "STRING",
-    "flowName" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "v_completedAt" : "DATETIME",
+      "v_scanType" : "",
+      "v_target" : "URL",
+      "startedAt" : "DATETIME",
+      "scanId" : "STRING"
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "ruleId": "STRING",
+  "name": "STRING",
+  "description": "STRING",
+  "enabled": "BOOLEAN",
+  "priority": "INT",
+  "conditions": [
+    {
+      "field": "STRING",
+      "operator": "STRING"
+    }
+  ],
+  "actions": [
+    {
+      "type": "STRING",
+      "config": {
+        "requestsPerMinute": "INT",
+        "keyBy": "STRING",
+        "responseCode": "INT",
+        "responseMessage": "STRING"
+      }
+    }
+  ],
+  "createdAt": "DATETIME",
+  "updatedAt": "DATETIME",
+  "createdBy": "STRING"
+}

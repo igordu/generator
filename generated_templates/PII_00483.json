@@ -1,31 +1,35 @@
 {
-  "meta" : {
-    "v_lastUpdated" : "DATETIME",
-    "is_active" : false
+  "id" : "STRING",
+  "lastUpdated" : "DATETIME",
+  "v_created" : "DATETIME",
+  "retry_attempts" : 2445,
+  "activated" : "DATETIME",
+  "status_data" : "STRING",
+  "profile" : {
+    "emailAddress" : "PII_EMAIL",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "title" : "NULL",
+    "countryCode" : "PII_LOCATION_COUNTRY",
+    "login_data" : "PII_EMAIL",
+    "organization" : "PII_COMPANY_NAME",
+    "city_data" : "PII_LOCATION_CITY",
+    "has_discount" : true,
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "state" : "STRING",
+    "contactEmail" : "PII_EMAIL",
+    "userName" : "PII_PERSON_NAME",
+    "v_zipCode" : "STRING",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "employeeNumber" : "STRING"
   },
-  "gender_data" : "STRING",
-  "identifier" : "STRING",
-  "auto_renew" : true,
-  "fullName" : [ {
-    "use" : "STRING",
-    "v_family" : "PII_PERSON_LAST_NAME",
-    "given" : [ "PII_PERSON_FIRST_NAME" ]
-  } ],
-  "resourceType" : null,
-  "birthDate_data" : "PII_DATE_OF_BIRTH",
-  "telecom" : [ {
-    "value" : "PII_PHONE_NUMBER",
-    "use" : "STRING",
-    "system" : "STRING"
-  }, {
-    "v_system" : "STRING",
-    "value" : "PII_EMAIL"
-  } ],
-  "address_data" : [ {
-    "is_active" : false,
-    "country" : "PII_LOCATION_COUNTRY",
-    "line_data" : [ "PII_ADDRESS_LINE" ],
-    "use_data" : "NULL",
-    "city" : "PII_LOCATION_CITY"
-  } ]
+  "passwordChanged" : "DATETIME",
+  "credentials" : {
+    "http_status" : 993,
+    "provider" : {
+      "type" : "STRING",
+      "requires_update" : true
+    },
+    "password" : "OBJECT"
+  }
 }

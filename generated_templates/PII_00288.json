@@ -1,76 +1,31 @@
 {
-  "offset" : "INT",
-  "v_total" : "INT",
-  "v_transactions" : [ {
-    "totalFeeAmount" : {
-      "currency" : "STRING",
-      "v_convertedFromValue" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING"
+  "has_more_data" : "BOOLEAN",
+  "url" : "URL",
+  "object" : "STRING",
+  "data" : [ {
+    "address" : "NULL",
+    "preferred_locales" : "ARRAY",
+    "invoice_settings" : {
+      "rendering_options_data" : "NULL",
+      "footer" : "STRING",
+      "default_payment_method" : "STRING",
+      "auto_renew" : true,
+      "custom_fields" : "NULL"
     },
-    "orderLineItems" : [ {
-      "marketplaceFees" : [ {
-        "feeMemo" : "STRING",
-        "v_feeJurisdiction" : {
-          "regionName" : "STRING"
-        },
-        "amount" : {
-          "v_convertedFromValue" : "STRING",
-          "v_exchangeRate" : "STRING",
-          "currency" : "STRING",
-          "value" : "STRING"
-        },
-        "cache_hit" : true,
-        "feeType" : "STRING"
-      } ],
-      "uuid" : "STRING"
-    } ],
-    "v_transactionDate" : "DATETIME",
-    "transactionType" : "STRING",
-    "paymentsEntity" : "STRING",
-    "identifier" : "STRING",
-    "salesRecordReference" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "convertedFromValue" : "STRING",
-      "exchangeRate" : "",
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING",
-      "currency" : "STRING"
-    },
-    "uuid" : "STRING",
-    "transactionStatus" : "STRING",
-    "amount" : {
-      "v_convertedFromCurrency" : "STRING",
-      "has_discount" : true,
-      "convertedFromValue" : "STRING",
-      "exchangeRate" : "STRING",
-      "currency" : "STRING"
-    },
-    "v_buyer" : {
-      "item_count" : 3301,
-      "username" : "PII_USERNAME"
-    },
-    "feeType" : "STRING",
-    "totalFeeBasisAmount" : {
-      "v_exchangeRate" : "STRING",
-      "currency" : "STRING",
-      "value" : "STRING"
-    },
-    "feeJurisdiction_data" : {
-      "regionType" : "STRING",
-      "regionName" : "STRING",
-      "price" : 343.12
-    },
-    "v_references" : [ {
-      "is_active" : false,
-      "referenceType" : "STRING",
-      "referenceId" : "STRING"
-    } ],
-    "primaryKey" : "STRING"
-  } ],
-  "next" : "STRING",
-  "limit" : "INT",
-  "has_discount" : false,
-  "href" : "STRING",
-  "prev" : "STRING"
+    "currency" : "STRING",
+    "email" : "PII_EMAIL",
+    "invoice_prefix_data" : "STRING",
+    "livemode" : "BOOLEAN",
+    "metadata" : "OBJECT",
+    "description_data" : "",
+    "v_delinquent" : "BOOLEAN",
+    "test_clock" : "NULL",
+    "clientName" : "PII_PERSON_NAME",
+    "shipping" : "NULL",
+    "v_next_invoice_sequence" : "INT",
+    "balance" : "INT",
+    "v_tax_exempt" : "STRING",
+    "id" : "STRING",
+    "contactNumber" : "PII_PHONE_NUMBER"
+  } ]
 }

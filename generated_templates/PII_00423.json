@@ -1,40 +1,43 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "telecom" : [ {
-        "is_deleted" : false,
-        "system" : "STRING",
-        "value_data" : "PII_PHONE_NUMBER"
-      }, {
-        "system_data" : "",
-        "value" : "PII_EMAIL",
-        "http_status" : 3715
-      } ],
-      "resourceType" : "STRING",
-      "clientName" : [ {
-        "family" : "PII_PERSON_LAST_NAME",
-        "given" : [ "PII_PERSON_FIRST_NAME" ],
-        "v_use" : "STRING"
-      } ],
-      "v_gender" : "STRING",
-      "address" : [ {
-        "line_data" : [ "PII_ADDRESS_LINE" ],
-        "use" : "STRING",
-        "country" : "PII_LOCATION_COUNTRY",
-        "city" : "PII_LOCATION_CITY"
-      } ],
-      "recordId" : [ {
-        "type" : {
-          "text" : "STRING"
-        },
-        "value" : "PII_NATIONAL_ID",
-        "system" : "URL",
-        "use_data" : "STRING"
-      } ],
-      "meta" : {
-        "versionId" : "INT"
-      },
-      "birthDate" : "PII_DATE_OF_BIRTH"
+  "id" : "STRING",
+  "birthDate_data" : {
+    "day_data" : "",
+    "month" : "INT"
+  },
+  "primary_email" : "PII_EMAIL",
+  "clientName" : {
+    "localized" : {
+      "en_US_data" : "PII_PERSON_LAST_NAME"
     }
-  }
+  },
+  "is_deleted" : false,
+  "headline" : {
+    "response_time_sec" : 18.18,
+    "localized" : {
+      "en_US" : "STRING",
+      "conversion_rate" : 7.27
+    }
+  },
+  "firstName" : {
+    "discount_rate" : 39.92,
+    "localized" : {
+      "en_US" : "PII_PERSON_FIRST_NAME",
+      "discount_rate" : 18.15
+    },
+    "preferredLocale" : {
+      "country" : "STRING",
+      "language" : "STRING"
+    }
+  },
+  "location_data" : {
+    "country" : {
+      "code" : "PII_LOCATION_COUNTRY",
+      "cache_hit" : false
+    }
+  },
+  "phoneNumbers" : [ {
+    "type" : "STRING",
+    "number_data" : "PII_PHONE_NUMBER"
+  } ],
+  "vanityName" : "PII_USERNAME"
 }

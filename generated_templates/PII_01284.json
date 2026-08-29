@@ -1,72 +1,23 @@
-[ {
-  "comments_url" : "URL",
-  "author" : {
-    "subscriptions_url" : null,
-    "events_url" : "URL",
-    "gists_url" : "URL",
-    "organizations_url" : "URL",
-    "v_login" : "STRING",
-    "v_url" : "URL",
-    "avatar_url_data" : "URL",
-    "id" : "INT",
-    "node_id" : "STRING",
-    "v_html_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "following_url" : "URL",
-    "v_type" : "STRING"
+{
+  "type" : "STRING",
+  "expiresAt" : "DATETIME",
+  "completedAt" : "DATETIME",
+  "status" : "STRING",
+  "legalBasis" : "STRING",
+  "downloadUrl_data" : "URL",
+  "v_handledBy" : {
+    "discount_rate" : 33.31,
+    "primary_email" : "PII_EMAIL"
   },
-  "committer" : {
-    "temperature_c" : 365.89,
-    "subscriptions_url" : "URL",
-    "node_id" : "STRING",
-    "identifier" : "INT",
-    "login_data" : "STRING",
-    "events_url" : "URL",
-    "v_url" : "URL",
-    "site_admin_data" : "BOOLEAN",
-    "gravatar_id" : "STRING",
-    "html_url" : "URL",
-    "followers_url_data" : "URL",
-    "type" : "STRING",
-    "avatar_url" : "URL",
-    "following_url" : "URL",
-    "received_events_url" : "NULL",
-    "organizations_url" : "URL",
-    "gists_url" : "URL",
-    "repos_url" : "URL",
-    "v_starred_url" : "URL"
+  "dataSubject" : {
+    "is_active" : false,
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "country" : "PII_LOCATION_COUNTRY"
   },
-  "node_id" : "STRING",
-  "parents" : [ {
-    "url" : "URL",
-    "sha" : "STRING",
-    "requires_update" : false
-  } ],
-  "commit" : {
-    "comment_count" : "INT",
-    "message" : "PII_COMPANY_NAME",
-    "committer" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "cpu_usage_percent" : 129.71,
-      "email" : "PII_EMAIL"
-    },
-    "author_data" : {
-      "name" : "PII_PERSON_NAME",
-      "primary_email" : "PII_EMAIL",
-      "item_count" : 3538,
-      "v_date" : "DATETIME"
-    },
-    "v_verification" : {
-      "verified_at" : "DATETIME",
-      "reason" : "STRING",
-      "payload" : "STRING",
-      "verified" : "BOOLEAN"
-    },
-    "url" : "NULL",
-    "response_time_sec" : 53.29
-  },
-  "url" : "URL",
-  "requires_update" : true,
-  "sha" : "STRING"
-} ]
+  "deliveredVia" : "STRING",
+  "requestedBy" : "PII_EMAIL",
+  "reportId" : "STRING"
+}

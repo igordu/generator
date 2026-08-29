@@ -1,30 +1,4 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "has_discount" : false,
-    "content" : [ {
-      "customerCountry" : "PII_LOCATION_COUNTRY",
-      "articleModelId" : "STRING",
-      "v_articleSizeRatings" : {
-        "discount_rate" : 497.08,
-        "uuid" : "INT",
-        "OVERALL" : "INT"
-      },
-      "temperature_c" : 30.62,
-      "title_data" : "PII_COMPANY_NAME",
-      "unhelpfulCount" : "INT",
-      "customerCity" : "PII_LOCATION_CITY",
-      "description" : "STRING",
-      "reviewId" : "STRING",
-      "recommend_data" : "BOOLEAN",
-      "rating" : "INT",
-      "articleId" : "NULL",
-      "v_helpfulCount" : "INT",
-      "v_created" : "NULL",
-      "language" : "STRING"
-    } ]
-  }
+  "emailAddress" : "PII_EMAIL",
+  "response_time_sec" : 0.33
 }

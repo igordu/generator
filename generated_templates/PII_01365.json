@@ -1,12 +1,30 @@
 {
-  "user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "clientName" : "PII_COMPANY_NAME",
-    "family-name-male" : "PII_LAST_NAME_MALE"
+  "primaryKey" : "STRING",
+  "pullRequest" : {
+    "title" : "STRING",
+    "updatedAt" : "NULL",
+    "reviewers" : [ {
+      "v_state" : "STRING",
+      "name_val" : "PII_PERSON_NAME",
+      "auto_renew" : true,
+      "email" : "PII_EMAIL",
+      "login" : "PII_USERNAME"
+    } ],
+    "author_data" : {
+      "login" : "PII_USERNAME",
+      "name" : "PII_PERSON_NAME",
+      "stock_quantity" : 3045,
+      "contactEmail" : "PII_EMAIL"
+    },
+    "state" : "NULL",
+    "deletions" : "INT",
+    "v_additions" : "INT",
+    "baseBranch_data" : "STRING",
+    "changedFiles_data" : "INT"
   },
-  "active" : "BOOLEAN",
-  "tree_data" : {
-    "sha" : "STRING",
-    "url" : "URL"
-  }
+  "name" : "STRING",
+  "fullName" : "STRING",
+  "temperature_c" : 31.62,
+  "defaultBranch_data" : "STRING",
+  "language" : "STRING"
 }

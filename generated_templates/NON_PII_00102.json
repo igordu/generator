@@ -1,19 +1,47 @@
-{
-  "shopUrl" : "URL",
-  "media" : {
-    "images" : [ {
-      "smallUrl" : "URL",
-      "price" : 535.28,
-      "v_mediumHdUrl" : "URL",
-      "type" : "STRING",
-      "v_largeUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "v_smallHdUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "mediumUrl" : "URL"
-    } ]
+[ {
+  "cpu_usage_percent" : 39.97,
+  "name" : "NULL",
+  "v_projectCategory" : {
+    "name" : "STRING",
+    "v_self" : "URL",
+    "description" : "STRING"
   },
-  "uuid" : "STRING",
-  "id" : "STRING"
-}
+  "style" : "STRING",
+  "simplified" : "BOOLEAN",
+  "v_avatarUrls" : {
+    "16x16" : "URL",
+    "32x32" : "URL",
+    "48x48" : "URL",
+    "v_24x24" : "URL"
+  },
+  "self" : "URL",
+  "insight_data" : {
+    "v_totalIssueCount" : "INT",
+    "lastIssueUpdateTime_data" : "DATETIME"
+  },
+  "primaryKey" : "STRING",
+  "key" : "STRING"
+}, {
+  "self" : "URL",
+  "projectCategory" : {
+    "v_self" : "URL",
+    "is_deleted" : true,
+    "name" : "STRING",
+    "v_description" : "STRING"
+  },
+  "avatarUrls" : {
+    "32x32" : "URL",
+    "48x48" : "URL",
+    "16x16" : "URL",
+    "auto_renew" : true,
+    "24x24" : "URL"
+  },
+  "key" : "STRING",
+  "style" : "NULL",
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "v_totalIssueCount" : "INT"
+  },
+  "fullName" : "STRING",
+  "simplified" : "BOOLEAN"
+} ]

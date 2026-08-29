@@ -1,48 +1,26 @@
-[ {
-  "html_url" : "URL",
-  "is_active" : true,
-  "parents" : [ {
-    "sha" : null,
-    "url" : "URL"
-  } ],
-  "comments_url" : "URL",
-  "v_committer" : {
-    "gravatar_id" : "STRING",
-    "followers_url" : "URL",
-    "avatar_url" : "URL",
-    "repos_url" : "URL",
-    "events_url_data" : "URL",
-    "v_html_url" : "URL",
-    "received_events_url" : "URL",
-    "recordId" : "INT",
-    "organizations_url" : "URL",
-    "v_type" : "STRING",
-    "starred_url" : "URL",
-    "login" : "STRING",
-    "site_admin" : "BOOLEAN",
-    "subscriptions_url" : "URL",
-    "node_id" : "STRING",
-    "v_following_url" : "URL"
+{
+  "status" : "STRING",
+  "v_requestedAt" : "DATETIME",
+  "legalBasis" : "STRING",
+  "downloadUrl" : "URL",
+  "requestedBy" : "PII_EMAIL",
+  "completedAt" : "DATETIME",
+  "deliveredVia" : "STRING",
+  "handledBy" : {
+    "discount_rate" : 22.87,
+    "primary_email" : "PII_EMAIL",
+    "uuid" : "STRING"
   },
-  "node_id" : "STRING",
-  "commit_data" : {
-    "tree" : {
-      "has_discount" : true,
-      "url" : "URL"
-    },
-    "committer" : {
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME",
-      "has_discount" : true,
-      "date_data" : "DATETIME"
-    },
-    "v_url" : "URL",
-    "author" : {
-      "email" : "PII_EMAIL",
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "response_time_sec" : 874.52,
-    "message_data" : "PII_COMPANY_NAME"
-  }
-} ]
+  "reportId" : "STRING",
+  "dataCategories_data" : [ "" ],
+  "v_dataSubject" : {
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "id" : "STRING",
+    "email" : "PII_EMAIL",
+    "country" : "PII_LOCATION_COUNTRY",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME"
+  },
+  "type_data" : "STRING",
+  "expiresAt_data" : "DATETIME"
+}

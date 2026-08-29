@@ -1,0 +1,43 @@
+{
+  "id": "STRING",
+  "firstName": {
+    "localized": {
+      "en_US": "PII_PERSON_FIRST_NAME"
+    },
+    "preferredLocale": {
+      "country": "STRING",
+      "language": "STRING"
+    }
+  },
+  "lastName": {
+    "localized": {
+      "en_US": "PII_PERSON_LAST_NAME"
+    },
+    "preferredLocale": {
+      "country": "STRING",
+      "language": "STRING"
+    }
+  },
+  "headline": {
+    "localized": {
+      "en_US": "STRING"
+    }
+  },
+  "vanityName": "PII_USERNAME",
+  "emailAddress": "PII_EMAIL",
+  "phoneNumbers": [
+    {
+      "number": "PII_PHONE_NUMBER",
+      "type": "STRING"
+    }
+  ],
+  "birthDate": {
+    "month": "INT",
+    "day": "INT"
+  },
+  "location": {
+    "country": {
+      "code": "PII_LOCATION_COUNTRY"
+    }
+  }
+}

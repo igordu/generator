@@ -1,36 +1,49 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "price" : 1163.73,
+  "create_time" : "DATETIME",
+  "payer_data" : {
+    "status" : "STRING",
+    "payer_info" : {
+      "mobile" : "PII_PHONE_NUMBER",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "birth_date" : "PII_DATE_OF_BIRTH",
+      "billing_address" : {
+        "line1_data" : "PII_ADDRESS_LINE",
+        "state" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "postal_code" : "STRING",
+        "country_code_data" : "PII_LOCATION_COUNTRY"
+      },
+      "is_active" : false,
+      "first_name" : "PII_PERSON_FIRST_NAME",
+      "shipping_address" : {
+        "postal_code" : "STRING",
+        "line2" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "v_state" : "STRING",
+        "phone" : "PII_PHONE_NUMBER",
+        "clientName" : "PII_PERSON_NAME",
+        "v_country_code" : "PII_LOCATION_COUNTRY",
+        "is_deleted" : true,
+        "v_line1" : "PII_ADDRESS_LINE"
+      },
+      "country_code" : "STRING",
+      "identifier" : "STRING",
+      "email" : "PII_EMAIL"
+    },
+    "payment_method" : "STRING"
   },
-  "results" : {
-    "cache_hit" : false,
-    "transactions" : {
-      "booked" : [ {
-        "debtorName" : "STRING",
-        "amount_data" : {
-          "currency" : "STRING",
-          "retry_attempts" : 1397
-        },
-        "valueDate" : "DATE",
-        "cache_hit" : false,
-        "debtorAccount" : {
-          "v_iban" : "STRING"
-        },
-        "creditorAccount" : {
-          "v_iban" : "PII_IBAN",
-          "has_discount" : false
-        },
-        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-        "bankTransactionCode" : {
-          "family" : "STRING",
-          "v_domain" : "NULL",
-          "retry_attempts" : 353
-        },
-        "transactionId" : "STRING",
-        "creditorName" : "PII_PERSON_NAME",
-        "bookingDate" : "DATE"
-      } ]
-    }
-  }
+  "intent_data" : "STRING",
+  "id" : "STRING",
+  "transactions" : [ {
+    "description" : "STRING",
+    "amount" : {
+      "auto_renew" : true,
+      "total" : "DECIMAL",
+      "currency" : "STRING"
+    },
+    "invoice_number" : "STRING"
+  } ],
+  "cart" : "STRING",
+  "v_state" : "STRING"
 }

@@ -1,13 +1,35 @@
 {
-  "active" : "BOOLEAN",
-  "tree" : {
-    "discount_rate" : 472.79,
-    "sha" : "STRING"
+  "industry_data" : "STRING",
+  "billingAddress_data" : {
+    "street" : "PII_ADDRESS_LINE",
+    "postalCode_data" : "STRING",
+    "cache_hit" : false,
+    "country" : "PII_LOCATION_COUNTRY",
+    "city_data" : "PII_LOCATION_CITY"
   },
-  "requires_update" : true,
-  "user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "name_val" : "PII_LAST_NAME_MALE"
-  }
+  "employees_data" : "INT",
+  "contracts_data" : [ {
+    "startDate" : "DATE",
+    "product" : "STRING",
+    "status" : "STRING",
+    "conversion_rate" : 0.44,
+    "contractId" : "STRING",
+    "endDate" : "DATE",
+    "currency" : "STRING"
+  } ],
+  "fullName" : "PII_COMPANY_NAME",
+  "csm" : {
+    "response_time_sec" : 15.59,
+    "id" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "annualRevenue_data" : "INT",
+  "website" : "URL",
+  "primaryContact_data" : {
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "price" : 413.06
 }

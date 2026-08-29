@@ -1,59 +1,41 @@
 {
-  "status" : "STRING",
-  "individualAccount" : {
-    "firstName" : "PII_PERSON_NAME",
-    "name_val" : "PII_PERSON_NAME",
-    "registrationAddress" : {
-      "addressLine1" : "STRING",
-      "page_index" : 1370,
-      "county" : "STRING",
-      "postalCode_data" : "STRING",
-      "country" : "STRING",
-      "v_city" : "STRING",
-      "stateOrProvince" : "STRING"
+  "id" : "STRING",
+  "identifier" : [ {
+    "system" : "URL",
+    "use" : "STRING",
+    "cache_hit" : true,
+    "type" : {
+      "has_discount" : true
     },
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "http_status" : 3814,
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "primary_email" : "PII_EMAIL",
-    "secondaryPhone" : {
-      "stock_quantity" : 300,
-      "phoneType" : "STRING",
-      "countryCode" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    }
+    "value_data" : "PII_NATIONAL_ID"
+  } ],
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "address" : [ {
+    "v_use" : "STRING",
+    "http_status" : 837,
+    "city" : "PII_LOCATION_CITY",
+    "line_data" : [ "PII_ADDRESS_LINE" ],
+    "country_data" : "PII_LOCATION_COUNTRY"
+  } ],
+  "telecom" : [ {
+    "use_data" : "",
+    "v_value" : "PII_PHONE_NUMBER",
+    "system" : "STRING"
+  }, {
+    "system" : "STRING",
+    "value" : "PII_EMAIL"
+  } ],
+  "resourceType" : "STRING",
+  "gender" : "STRING",
+  "name" : [ {
+    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING",
+    "v_family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "v_meta" : {
+    "lastUpdated" : "DATETIME",
+    "item_count" : 4662,
+    "recordId" : "INT"
   },
-  "accountType" : "STRING",
-  "username" : "PII_USERNAME",
-  "businessAccount_data" : {
-    "email" : "PII_EMAIL",
-    "v_doingBusinessAs" : "STRING",
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "website" : "URL",
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "countryCode" : "STRING"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "address" : {
-      "county" : "STRING",
-      "country_data" : "STRING",
-      "http_status" : 1189,
-      "v_addressLine1" : "STRING",
-      "city" : "STRING",
-      "addressLine2" : "STRING"
-    }
-  },
-  "userId" : "STRING"
+  "cache_hit" : true
 }

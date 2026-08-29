@@ -1,29 +1,33 @@
 {
-  "v_has_more" : null,
-  "v_object" : "STRING",
-  "url_data" : "URL",
-  "data" : [ {
-    "next_invoice_sequence_data" : "INT",
-    "shipping_data" : "NULL",
+  "v_currency" : "STRING",
+  "policyNumber" : "NULL",
+  "v_claimType" : "STRING",
+  "adjuster_data" : {
     "name" : "PII_PERSON_NAME",
-    "object" : "STRING",
-    "v_balance" : "INT",
-    "created" : "DATETIME_EPOCH",
-    "invoice_settings" : {
-      "v_rendering_options" : null,
-      "v_footer" : "STRING",
-      "default_payment_method_data" : "STRING"
-    },
-    "metadata" : "OBJECT",
-    "invoice_prefix_data" : "STRING",
-    "id" : "STRING",
-    "address" : "NULL",
-    "v_livemode" : "BOOLEAN",
-    "default_source" : "STRING",
-    "preferred_locales" : "ARRAY",
-    "currency_data" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
     "email" : "PII_EMAIL",
-    "tax_exempt" : "STRING"
-  } ]
+    "recordId" : "STRING"
+  },
+  "description" : "STRING",
+  "status" : "STRING",
+  "stock_quantity" : 2013,
+  "policyHolder" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "stock_quantity" : 2369,
+    "address_data" : {
+      "zip" : "STRING",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "state" : "STRING",
+      "cpu_usage_percent" : 31.6,
+      "street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY"
+    },
+    "email" : "PII_EMAIL",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "contactNumber" : "PII_PHONE_NUMBER"
+  },
+  "estimatedLoss_data" : "DECIMAL",
+  "claimId" : "STRING",
+  "identifier" : "DATE",
+  "reportedDate" : "DATE"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "evt_1NirD82eZvKYlo2CIvltLWGd",
+  "object": "event",
+  "api_version": "2023-10-16",
+  "created": 1693396269,
+  "data": {
+    "object": {
+      "id": "pi_3NirD82eZvKYlo2C1PCtfHSE",
+      "object": "payment_intent",
+      "amount": 2000,
+      "currency": "usd",
+      "customer": "cus_9s6XI9OFIdpjIg",
+      "description": "Subscription payment",
+      "receipt_email": "customer@example.com",
+      "shipping": {
+        "address": {
+          "city": "San Jose",
+          "country": "US",
+          "line1": "510 Townsend St",
+          "postal_code": "94103",
+          "state": "CA"
+        },
+        "name": "Jenny Rosen",
+        "phone": "5558675310"
+      },
+      "status": "succeeded"
+    }
+  },
+  "livemode": false,
+  "type": "payment_intent.succeeded"
+}

@@ -1,32 +1,31 @@
 {
-  "object" : "STRING",
-  "data" : [ {
-    "v_created" : "DATETIME_EPOCH",
-    "shipping" : "NULL",
-    "recordId" : "STRING",
-    "tax_exempt" : "STRING",
-    "v_preferred_locales" : null,
-    "delinquent" : "BOOLEAN",
-    "invoice_prefix" : "STRING",
-    "currency" : "STRING",
-    "default_source_data" : "NULL",
-    "name_val" : "PII_PERSON_NAME",
-    "address" : "NULL",
-    "next_invoice_sequence" : "INT",
-    "invoice_settings" : {
-      "rendering_options" : "NULL",
-      "default_payment_method" : "STRING",
-      "v_custom_fields" : "NULL",
-      "cpu_usage_percent" : 21.21,
-      "footer" : "STRING"
-    },
-    "test_clock" : "NULL",
-    "object" : "STRING",
-    "metadata" : "OBJECT",
-    "v_balance" : "INT",
-    "emailAddress" : "PII_EMAIL",
-    "phone" : "PII_PHONE_NUMBER"
-  } ],
-  "v_url" : "URL",
-  "has_more" : "BOOLEAN"
+  "v_direction" : "STRING",
+  "channel" : "STRING",
+  "timestamp" : "DATETIME",
+  "sender_data" : {
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "id" : "STRING",
+    "type" : "STRING"
+  },
+  "cache_hit" : true,
+  "uuid" : "STRING",
+  "intent" : "STRING",
+  "metadata" : {
+    "userAgent" : "STRING",
+    "discount_rate" : 84.51,
+    "sessionId" : "STRING"
+  },
+  "v_recipient" : {
+    "userName" : "STRING",
+    "type" : "STRING",
+    "id" : "STRING"
+  },
+  "content_data" : {
+    "text" : "STRING",
+    "type" : "STRING",
+    "price" : 7242.16
+  },
+  "conversationId" : "STRING",
+  "sentiment" : "STRING"
 }

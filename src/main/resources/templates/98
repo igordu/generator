@@ -1,0 +1,30 @@
+{
+  "modelId": "STRING",
+  "name": "STRING",
+  "version": "STRING",
+  "status": "STRING",
+  "framework": "STRING",
+  "deployedAt": "DATETIME",
+  "endpoint": "URL",
+  "metrics": {
+    "accuracy": "DECIMAL",
+    "f1Score": "DECIMAL",
+    "auc": "DECIMAL",
+    "precision": "DECIMAL",
+    "recall": "DECIMAL"
+  },
+  "inferenceStats": {
+    "requestsToday": "INT",
+    "avgLatencyMs": "INT",
+    "p99LatencyMs": "INT",
+    "errorRate": "DECIMAL"
+  },
+  "featureImportance": {
+    "days_since_last_login": "DECIMAL",
+    "monthly_spend_trend": "DECIMAL",
+    "support_ticket_count": "DECIMAL",
+    "product_usage_score": "DECIMAL"
+  },
+  "trainedBy": "PII_EMAIL",
+  "trainingDataPeriod": "STRING"
+}

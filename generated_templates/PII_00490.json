@@ -1,42 +1,35 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "meta" : {
-        "lastUpdated" : "DATETIME",
-        "versionId" : "INT"
-      },
-      "telecom" : [ {
-        "system" : "STRING",
-        "value_data" : "PII_PHONE_NUMBER",
-        "use" : "STRING"
-      }, {
-        "value" : "PII_EMAIL",
-        "system_data" : "STRING"
-      } ],
-      "id" : "STRING",
-      "resourceType" : "STRING",
-      "v_address" : [ {
-        "use" : "STRING",
-        "line" : [ "PII_ADDRESS_LINE" ],
-        "city" : "PII_LOCATION_CITY",
-        "country" : "PII_LOCATION_COUNTRY"
-      } ],
-      "name" : [ {
-        "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-        "family" : "PII_PERSON_LAST_NAME",
-        "item_count" : 4599,
-        "use" : "STRING"
-      } ],
-      "v_birthDate" : "PII_DATE_OF_BIRTH",
-      "identifier" : [ {
-        "system_data" : "URL",
-        "use_data" : "STRING",
-        "conversion_rate" : 202.08,
-        "type" : {
-          "text" : "STRING"
-        },
-        "value" : "PII_NATIONAL_ID"
-      } ]
-    }
-  }
+  "lastUpdated" : "DATETIME",
+  "status" : "STRING",
+  "credentials_data" : {
+    "provider" : {
+      "type" : "STRING",
+      "clientName" : "STRING"
+    },
+    "stock_quantity" : 4054
+  },
+  "v_passwordChanged" : "DATETIME",
+  "lastLogin" : "DATETIME",
+  "created" : "DATETIME",
+  "profile_data" : {
+    "title_data" : "STRING",
+    "organization" : "PII_COMPANY_NAME",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "displayName" : "PII_PERSON_NAME",
+    "v_zipCode" : "STRING",
+    "employeeNumber" : "NULL",
+    "v_login" : "PII_EMAIL",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "secondEmail" : "PII_EMAIL",
+    "countryCode" : "PII_LOCATION_COUNTRY",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "department" : "STRING",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "state" : "STRING",
+    "city_data" : "PII_LOCATION_CITY",
+    "email" : "PII_EMAIL",
+    "conversion_rate" : 9.61
+  },
+  "activated" : "DATETIME",
+  "id" : "STRING"
 }

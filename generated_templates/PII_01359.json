@@ -1,14 +1,33 @@
 {
-  "user_info" : {
-    "clientName" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "auto_renew" : true
+  "cpu_usage_percent" : 4.76,
+  "language" : "STRING",
+  "pullRequest" : {
+    "deletions" : "INT",
+    "title" : "STRING",
+    "state" : "STRING",
+    "author" : {
+      "email" : "PII_EMAIL",
+      "v_login" : "PII_USERNAME",
+      "name" : "PII_PERSON_NAME"
+    },
+    "reviewers" : [ {
+      "v_login" : "PII_USERNAME",
+      "primary_email" : "PII_EMAIL",
+      "state" : "STRING",
+      "name" : "PII_PERSON_NAME"
+    } ],
+    "id" : "INT",
+    "updatedAt_data" : "",
+    "changedFiles" : null,
+    "createdAt" : "DATETIME",
+    "auto_renew" : false,
+    "headBranch" : "STRING",
+    "baseBranch" : "STRING",
+    "additions_data" : "INT"
   },
-  "tree" : {
-    "sha" : "STRING",
-    "v_url" : "URL",
-    "system_ping_ms" : 865
-  },
-  "active" : "BOOLEAN"
+  "fullName" : "STRING",
+  "repositoryId" : "STRING",
+  "clientName" : "STRING",
+  "defaultBranch_data" : "STRING",
+  "v_private" : "BOOLEAN"
 }

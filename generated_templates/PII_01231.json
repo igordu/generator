@@ -1,57 +1,32 @@
-[ {
-  "author" : {
-    "followers_url" : "URL",
-    "node_id" : "STRING",
-    "gravatar_id" : "STRING",
-    "html_url" : "URL",
-    "id" : "INT",
-    "organizations_url" : "URL",
-    "type" : "STRING",
-    "url" : "URL",
-    "following_url" : "URL",
-    "v_events_url" : "URL",
-    "v_gists_url" : null,
-    "is_deleted" : true,
-    "repos_url" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "starred_url" : "URL",
-    "subscriptions_url" : "URL",
-    "login_data" : "STRING"
-  },
-  "parents_data" : [ {
-    "url" : "URL",
-    "item_count" : 4843
+{
+  "paymentTerms" : "STRING",
+  "dueDate_data" : "DATE",
+  "subtotal" : "DECIMAL",
+  "lineItems" : [ {
+    "unitPrice" : "DECIMAL",
+    "description_data" : "STRING",
+    "v_quantity" : "INT",
+    "system_ping_ms" : 4936,
+    "total_data" : "DECIMAL"
   } ],
-  "commit" : {
-    "tree" : {
-      "url" : "URL",
-      "sha" : "STRING"
-    },
-    "author" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "has_discount" : true
-    },
-    "comment_count_data" : null,
-    "url" : "URL",
-    "committer_data" : {
-      "email" : "PII_EMAIL",
-      "v_date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "v_message" : "PII_COMPANY_NAME",
-    "verification" : {
-      "v_verified" : "BOOLEAN",
-      "payload_data" : "STRING",
-      "reason_data" : "STRING",
-      "v_verified_at" : "DATETIME",
-      "signature" : "STRING"
-    }
+  "issuedAt_data" : "DATETIME",
+  "currency" : "STRING",
+  "vatAmount" : "DECIMAL",
+  "customer" : {
+    "name" : "PII_PERSON_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "vatNumber" : "STRING",
+    "email" : "PII_EMAIL",
+    "company" : "PII_COMPANY_NAME"
   },
-  "recordId" : "STRING",
-  "html_url" : "URL",
-  "url" : "NULL",
-  "comments_url" : "URL",
-  "sha" : "STRING"
-} ]
+  "invoiceId" : "STRING",
+  "status" : "STRING",
+  "v_vendor" : {
+    "address" : "PII_ADDRESS_LINE",
+    "cache_hit" : false,
+    "name" : "PII_COMPANY_NAME",
+    "vatNumber" : "STRING",
+    "email" : "PII_EMAIL",
+    "iban" : "PII_IBAN"
+  }
+}

@@ -1,79 +1,37 @@
-[ {
-  "temperature_c" : 673.35,
-  "html_url" : "URL",
-  "commit" : {
-    "author_data" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "primary_email" : "PII_EMAIL"
-    },
-    "tree_data" : {
-      "sha" : "STRING",
-      "has_discount" : true,
-      "url" : "URL"
-    },
-    "comment_count_data" : "INT",
-    "committer" : {
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL"
-    },
-    "verification" : {
-      "signature" : "STRING",
-      "reason" : "STRING",
-      "verified" : "BOOLEAN",
-      "payload" : "STRING",
-      "verified_at" : "DATETIME",
-      "http_status" : 3360
-    },
-    "conversion_rate" : 712.64,
-    "url" : "URL",
-    "v_message" : "PII_COMPANY_NAME"
-  },
-  "author" : {
-    "avatar_url" : "URL",
-    "gravatar_id" : "STRING",
-    "auto_renew" : false,
-    "login" : "STRING",
-    "type" : "STRING",
-    "followers_url" : "NULL",
-    "received_events_url" : "URL",
-    "url_data" : "URL",
-    "events_url" : "URL",
-    "following_url" : "URL",
-    "starred_url" : "URL",
-    "repos_url" : null,
-    "v_subscriptions_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "node_id" : "STRING",
-    "gists_url" : "URL",
-    "id" : "INT"
-  },
-  "committer" : {
-    "avatar_url_data" : "URL",
-    "events_url" : "URL",
-    "gravatar_id" : "STRING",
-    "html_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "received_events_url" : "URL",
-    "repos_url" : "URL",
-    "id" : "INT",
-    "followers_url_data" : "URL",
-    "node_id" : "STRING",
-    "following_url" : "NULL",
-    "type" : "STRING",
-    "login_data" : "STRING",
-    "gists_url" : "URL",
-    "subscriptions_url" : "URL",
-    "organizations_url_data" : "URL",
-    "starred_url" : "URL"
-  },
-  "comments_url" : "URL",
-  "v_parents" : [ {
-    "sha" : "STRING",
-    "url" : "URL",
-    "cache_hit" : true
+{
+  "patientId" : "STRING",
+  "v_prescriptions" : [ {
+    "is_active" : true,
+    "frequency" : "STRING",
+    "drugName" : "STRING",
+    "durationDays" : "INT",
+    "v_dose" : "STRING"
   } ],
-  "url" : "URL",
-  "v_sha" : "STRING",
-  "primaryKey" : "STRING"
-} ]
+  "diagnosis" : [ {
+    "v_type" : "STRING",
+    "system" : "STRING",
+    "description" : "STRING",
+    "code" : "STRING"
+  } ],
+  "encounterType" : "STRING",
+  "conversion_rate" : 0.57,
+  "patient_data" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "taxCode" : "PII_NATIONAL_ID",
+    "address" : {
+      "v_city" : "PII_LOCATION_CITY",
+      "postalCode" : "STRING",
+      "street" : "PII_ADDRESS_LINE",
+      "country" : "PII_LOCATION_COUNTRY"
+    },
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "primary_email" : "PII_EMAIL"
+  },
+  "referral" : {
+    "specialist" : "STRING",
+    "urgency" : "STRING"
+  },
+  "encounterId" : "STRING"
+}

@@ -4,27 +4,37 @@
     "total_pages" : 5
   },
   "results" : {
-    "v_url" : "NULL",
-    "v_data" : [ {
-      "shipping" : "NULL",
-      "delinquent" : "BOOLEAN",
-      "next_invoice_sequence_data" : "INT",
-      "name" : "PII_PERSON_NAME",
-      "balance" : "INT",
-      "object" : "STRING",
-      "preferred_locales_data" : "ARRAY",
-      "v_invoice_prefix" : "STRING",
-      "test_clock" : "NULL",
-      "tax_exempt" : "STRING",
-      "created" : "DATETIME_EPOCH",
-      "telephone" : "PII_PHONE_NUMBER",
-      "livemode" : "NULL",
-      "response_time_sec" : 12.51,
-      "description" : "STRING",
-      "metadata" : "OBJECT",
-      "currency" : "STRING",
-      "mail" : "PII_EMAIL",
-      "id" : "STRING"
-    } ]
+    "card" : {
+      "issuingCountry" : "PII_LOCATION_COUNTRY",
+      "userName" : "PII_PERSON_NAME",
+      "v_expiryMonth" : "STRING",
+      "v_issuingBank" : "PII_COMPANY_NAME",
+      "pan" : "PII_CREDIT_CARD",
+      "expiryYear" : "STRING"
+    },
+    "timestamp" : "DATETIME",
+    "billing" : {
+      "v_city" : "PII_LOCATION_CITY",
+      "v_address" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY"
+    },
+    "recordId" : "STRING",
+    "type" : "NULL",
+    "fraudScore" : "INT",
+    "amount" : {
+      "v_currency" : "STRING",
+      "http_status" : 786,
+      "value" : "INT"
+    },
+    "merchant" : {
+      "categoryCode" : "STRING",
+      "uuid" : "STRING",
+      "name" : "PII_COMPANY_NAME",
+      "country" : "PII_LOCATION_COUNTRY",
+      "temperature_c" : 11.32
+    },
+    "page_index" : 1019,
+    "v_status" : "NULL"
   }
 }

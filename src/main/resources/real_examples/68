@@ -1,0 +1,19 @@
+{
+  "apiKeyId": "key_prod_xK9mL2nP",
+  "name": "mobile-app-v3",
+  "prefix": "sk_prod_xK9m",
+  "created": "2024-01-01T00:00:00Z",
+  "lastUsed": "2024-04-10T14:55:00Z",
+  "expiresAt": "2025-01-01T00:00:00Z",
+  "scopes": ["read:users", "write:orders", "read:products"],
+  "rateLimit": {
+    "requestsPerMinute": 1000,
+    "requestsPerDay": 100000
+  },
+  "status": "active",
+  "ipWhitelist": ["203.0.113.42", "198.51.100.0/24"],
+  "createdBy": {
+    "userId": "usr-admin-001",
+    "email": "admin@company.com"
+  }
+}

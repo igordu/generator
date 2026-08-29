@@ -1,0 +1,18 @@
+{
+  "status_data" : "STRING",
+  "v_createdBy" : {
+    "uuid" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "v_updatedAt" : "DATETIME",
+  "identifier" : "STRING",
+  "stats" : {
+    "successRate" : "DECIMAL",
+    "totalDeliveries_data" : "INT"
+  },
+  "createdAt" : "DATETIME",
+  "lastTriggeredAt_data" : "DATETIME",
+  "type" : "STRING",
+  "fullName" : "STRING",
+  "v_triggers" : [ "" ]
+}

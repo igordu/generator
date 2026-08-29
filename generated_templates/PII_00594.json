@@ -1,25 +1,24 @@
 {
-  "transactions" : {
-    "v_booked" : [ {
-      "is_active" : false,
-      "creditorName" : "PII_PERSON_NAME",
-      "transactionId" : "STRING",
-      "amount" : {
-        "v_amount" : "DECIMAL",
-        "currency" : "STRING"
-      },
-      "valueDate" : "DATE",
-      "bookingDate" : "DATE",
-      "creditorAccount" : {
-        "v_iban" : "PII_IBAN"
-      },
-      "bankTransactionCode" : {
-        "subFamily_data" : "STRING",
-        "v_domain" : "STRING",
-        "family" : "STRING"
-      },
-      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "debtorName" : "STRING"
-    } ]
-  }
+  "city" : "PII_LOCATION_CITY",
+  "userName" : "PII_COMPANY_NAME",
+  "country" : "PII_LOCATION_COUNTRY",
+  "accountEnabled" : "BOOLEAN",
+  "state_data" : "STRING",
+  "v_streetAddress" : "PII_ADDRESS_LINE",
+  "officeLocation_data" : "STRING",
+  "has_discount" : true,
+  "v_employeeType" : "NULL",
+  "surname" : "PII_PERSON_LAST_NAME",
+  "mobile" : "PII_PHONE_NUMBER",
+  "postalCode" : "STRING",
+  "mail" : "PII_EMAIL",
+  "preferredLanguage" : "STRING",
+  "businessPhones" : [ "PII_PHONE_NUMBER" ],
+  "onPremisesSamAccountName" : "PII_USERNAME",
+  "v_createdDateTime" : "DATETIME",
+  "userPrincipalName" : "PII_EMAIL",
+  "givenName" : "PII_PERSON_FIRST_NAME",
+  "department" : "NULL",
+  "employeeId" : "STRING",
+  "id" : "STRING"
 }

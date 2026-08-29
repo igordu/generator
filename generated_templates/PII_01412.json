@@ -1,0 +1,31 @@
+{
+  "twoFactorEnabled" : "BOOLEAN",
+  "twoFactorMethod" : "STRING",
+  "passwordLastChangedAt" : "DATETIME",
+  "oauthConnections" : [ {
+    "identifier" : "STRING",
+    "email" : "PII_EMAIL",
+    "connectedAt" : "DATETIME",
+    "externalId" : "STRING"
+  } ],
+  "activeSessions_data" : "INT",
+  "trustedDevices" : [ {
+    "deviceId" : "STRING",
+    "addedAt" : "NULL",
+    "lastUsedAt" : "DATETIME",
+    "name" : "STRING",
+    "macAddress_data" : "PII_MAC_ADDRESS",
+    "discount_rate" : 22.13,
+    "platform" : "STRING"
+  } ],
+  "failedLoginAttempts_data" : "INT",
+  "userId" : "STRING",
+  "lockedUntil_data" : "NULL",
+  "securityEvents" : [ {
+    "price" : 9783.95,
+    "ipAddress" : "PII_IP_ADDRESS",
+    "timestamp" : "DATETIME",
+    "type" : "STRING"
+  } ],
+  "createdAt_data" : "DATETIME"
+}

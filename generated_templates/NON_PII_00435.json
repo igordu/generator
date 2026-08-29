@@ -1,4 +1,25 @@
 {
-  "clientToken" : null,
-  "flowName" : ""
+  "conversion_rate" : 1.79,
+  "v_signature" : "STRING",
+  "response" : {
+    "statusCode" : "INT",
+    "requires_update" : false,
+    "body" : "STRING",
+    "latencyMs" : "INT"
+  },
+  "webhookId" : "STRING",
+  "endpoint" : {
+    "id" : "STRING",
+    "status" : "STRING"
+  },
+  "payload" : {
+    "currency" : "STRING",
+    "completedAt" : "DATETIME",
+    "customerId" : "STRING",
+    "totalAmount" : "DECIMAL",
+    "orderId" : "STRING"
+  },
+  "event_data" : "STRING",
+  "deliveredAt" : "NULL",
+  "v_attempts" : "INT"
 }

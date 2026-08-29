@@ -1,21 +1,71 @@
 {
-  "has_discount" : true,
-  "content_data" : [ {
-    "helpfulCount" : "INT",
-    "articleSizeRatings" : {
-      "is_active" : false,
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "INT"
+  "limit" : "INT",
+  "transactions" : [ {
+    "feeType" : "STRING",
+    "payoutId" : "STRING",
+    "salesRecordReference" : "STRING",
+    "eBayCollectedTaxAmount" : {
+      "response_time_sec" : 4.11,
+      "convertedFromCurrency_data" : "STRING",
+      "convertedFromValue" : "STRING",
+      "currency" : "STRING",
+      "exchangeRate" : "STRING"
     },
-    "primaryKey" : "STRING",
-    "reviewId" : "STRING",
-    "v_unhelpfulCount" : "INT",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "description" : "STRING",
-    "v_recommend" : "BOOLEAN",
-    "title" : "PII_COMPANY_NAME",
-    "customerCity" : "PII_LOCATION_CITY",
-    "language_data" : "STRING",
-    "created" : "DATETIME"
-  } ]
+    "transactionStatus" : "STRING",
+    "amount" : {
+      "currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "convertedFromValue_data" : "STRING",
+      "v_value" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "transactionType" : "STRING",
+    "bookingEntry" : "STRING",
+    "orderLineItems" : [ {
+      "cpu_usage_percent" : 51.95,
+      "lineItemId" : "STRING",
+      "marketplaceFees" : [ {
+        "feeMemo" : "STRING",
+        "feeType" : "STRING",
+        "feeJurisdiction" : {
+          "cpu_usage_percent" : 31.24,
+          "regionName" : "STRING",
+          "regionType_data" : "STRING"
+        },
+        "amount" : {
+          "convertedFromCurrency" : "STRING",
+          "value" : "STRING",
+          "convertedFromValue" : null,
+          "currency" : "STRING",
+          "exchangeRate_data" : "STRING"
+        }
+      } ],
+      "feeBasisAmount" : {
+        "exchangeRate" : "STRING",
+        "currency" : "STRING",
+        "value" : "STRING",
+        "convertedFromValue_data" : "NULL",
+        "v_convertedFromCurrency" : "STRING",
+        "discount_rate" : 90.27
+      }
+    } ],
+    "orderId" : "STRING",
+    "transactionId" : "STRING",
+    "v_transactionMemo" : "STRING",
+    "references_data" : [ {
+      "conversion_rate" : 4.52,
+      "referenceType" : "STRING",
+      "identifier" : "STRING"
+    } ],
+    "paymentsEntity" : "STRING",
+    "requires_update" : true,
+    "buyer" : {
+      "userName" : "PII_USERNAME",
+      "has_discount" : true
+    }
+  } ],
+  "v_next" : "STRING",
+  "offset" : "INT",
+  "href" : "STRING",
+  "is_active" : true
 }

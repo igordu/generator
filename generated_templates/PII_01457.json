@@ -1,0 +1,24 @@
+{
+  "v_eventType" : "STRING",
+  "v_producer" : "STRING",
+  "correlationId" : "STRING",
+  "price" : 1213.24,
+  "occurredAt_data" : "DATETIME",
+  "v_metadata" : {
+    "partition_data" : "INT",
+    "schemaVersion" : "STRING",
+    "is_active" : true
+  },
+  "version" : "STRING",
+  "v_payload" : {
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "phone" : "PII_PHONE_NUMBER",
+    "userId" : "STRING",
+    "contactEmail" : "PII_EMAIL",
+    "registrationSource" : "STRING",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "createdAt" : "DATETIME",
+  "name" : "STRING",
+  "v_permissions" : [ "STRING" ],
+  "priority_level" : 940,
+  "roleId" : "STRING",
+  "createdBy" : "PII_EMAIL",
+  "inheritedFrom" : [ "STRING" ],
+  "assignedTo" : [ {
+    "assignedAt_data" : "DATETIME",
+    "userId" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "system_ping_ms" : 4323
+  } ],
+  "description" : "STRING"
+}

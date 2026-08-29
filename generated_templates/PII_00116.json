@@ -1,62 +1,26 @@
 {
-  "retry_attempts" : 928,
-  "identifier" : "STRING",
-  "username" : "PII_USERNAME",
-  "individualAccount" : {
-    "mail" : "PII_EMAIL",
-    "firstName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "v_number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "countryCode" : "NULL"
-    },
-    "registrationAddress_data" : {
-      "country" : "STRING",
-      "v_city" : "STRING",
-      "addressLine1_data" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine2" : "STRING",
-      "county" : "STRING",
-      "retry_attempts" : 600,
-      "postalCode" : "STRING"
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "contactNumber" : {
-      "v_number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "countryCode" : "STRING"
-    }
+  "send_at" : "DATETIME_EPOCH",
+  "mail_settings" : {
+    "sandbox_mode" : { },
+    "cpu_usage_percent" : 49.9
   },
-  "accountType" : "STRING",
-  "businessAccount" : {
-    "doingBusinessAs" : "STRING",
-    "name" : "PII_ORGANIZATION_NAME",
+  "v_content" : [ {
+    "type" : "STRING",
+    "value" : "PII_FREE_TEXT"
+  } ],
+  "personalizations_data" : [ {
+    "v_to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "primary_email" : "PII_EMAIL"
+    } ],
+    "v_subject" : "STRING"
+  } ],
+  "categories" : [ "STRING" ],
+  "from_data" : {
     "email" : "PII_EMAIL",
-    "cell" : {
-      "http_status" : 2944,
-      "number" : "PII_PHONE_NUMBER",
-      "cell" : "STRING",
-      "v_countryCode" : "STRING"
-    },
-    "primaryContact" : {
-      "priority_level" : 2049,
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "contactNumber" : {
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "is_deleted" : false
-    },
-    "address" : {
-      "stateOrProvince" : "STRING",
-      "county" : "STRING",
-      "city" : "STRING",
-      "country" : "STRING",
-      "v_addressLine2" : "STRING"
-    },
-    "website" : "URL",
-    "stock_quantity" : 3705
+    "name" : "PII_PERSON_NAME"
   },
-  "status_data" : "STRING"
+  "reply_to" : {
+    "email" : "PII_EMAIL"
+  }
 }

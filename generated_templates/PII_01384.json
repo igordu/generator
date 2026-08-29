@@ -1,18 +1,20 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "tree" : {
-      "url" : "URL",
-      "sha" : null
-    },
-    "priority_level" : 2407,
-    "user_info" : {
-      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-      "arline__name" : "PII_COMPANY_NAME",
-      "family-name-male" : "PII_LAST_NAME_MALE",
-      "system_ping_ms" : 1889
-    },
-    "active_data" : "BOOLEAN"
+  "version_data" : "INT",
+  "v_likes" : "INT",
+  "createdAt" : "DATETIME",
+  "lastModifiedBy" : {
+    "recordId" : "STRING",
+    "primary_email" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME"
+  },
+  "pageId" : "STRING",
+  "title" : "STRING",
+  "status_data" : "STRING",
+  "viewCount" : null,
+  "v_author" : {
+    "fullName" : "PII_PERSON_NAME",
+    "requires_update" : false,
+    "identifier" : "STRING",
+    "email" : "PII_EMAIL"
   }
 }

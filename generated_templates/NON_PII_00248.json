@@ -1,27 +1,37 @@
-{
-  "telemetry_data" : {
-    "payload_wrapper" : {
-      "extracted_info" : [ {
-        "filter" : "STRING",
-        "stock_quantity" : 4240
-      }, {
-        "filter" : "STRING",
-        "facets" : [ {
-          "count_data" : "INT",
-          "displayName" : "STRING",
-          "key_data" : "STRING",
-          "price" : 461.1
-        }, {
-          "displayName" : "NULL",
-          "count" : "INT",
-          "key" : "STRING"
-        }, {
-          "displayName" : "STRING",
-          "count" : "INT",
-          "key" : "STRING"
-        } ],
-        "conversion_rate" : 634.31
-      } ]
-    }
-  }
-}
+[ {
+  "bookDepreciationSetting" : {
+    "depreciableObjectType_data" : "STRING",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "depreciationCalculationMethod" : null,
+    "primaryKey" : "STRING",
+    "depreciationRate" : "DECIMAL",
+    "averagingMethod" : "STRING"
+  },
+  "primaryKey" : "STRING",
+  "assetTypeName" : "STRING",
+  "is_active" : true,
+  "lockPrivateUseAccount" : null,
+  "locks" : "INT",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "taxDepreciationSettings_data" : "ARRAY",
+  "fixedAssetAccountId" : "STRING"
+}, {
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "identifier" : "STRING",
+  "priority_level" : 959,
+  "locks_data" : "INT",
+  "primaryKey" : "STRING",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "userName" : "STRING",
+  "taxDepreciationSettings_data" : "",
+  "v_bookDepreciationSetting" : {
+    "depreciationMethod" : "STRING",
+    "averagingMethod" : "STRING",
+    "depreciableObjectType" : "STRING",
+    "depreciationRate" : "DECIMAL",
+    "depreciationCalculationMethod" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "bookEffectiveDateOfChangeId" : "STRING"
+  },
+  "depreciationExpenseAccountId" : "STRING"
+} ]

@@ -1,74 +1,28 @@
 {
-  "system_state" : {
-    "request_context" : {
-      "body" : [ {
-        "sha" : "STRING",
-        "v_html_url" : "URL",
-        "identifier" : "STRING",
-        "author" : {
-          "received_events_url" : "URL",
-          "following_url" : "URL",
-          "subscriptions_url_data" : "URL",
-          "repos_url_data" : "URL",
-          "starred_url_data" : "URL",
-          "gists_url" : "URL",
-          "login" : "STRING",
-          "events_url" : "URL",
-          "temperature_c" : 774.83,
-          "url" : "URL",
-          "type" : "STRING",
-          "followers_url" : "URL",
-          "gravatar_id" : "STRING",
-          "site_admin" : "BOOLEAN",
-          "node_id" : "STRING"
-        },
-        "v_comments_url" : "URL",
-        "url" : "URL",
-        "commit" : {
-          "v_tree" : {
-            "url" : "URL",
-            "is_active" : false,
-            "sha" : "STRING"
-          },
-          "message" : "PII_COMPANY_NAME",
-          "has_discount" : false,
-          "author" : {
-            "name" : "PII_PERSON_NAME",
-            "date" : "DATETIME",
-            "contactEmail" : "PII_EMAIL"
-          },
-          "committer" : {
-            "date" : "NULL",
-            "email" : "PII_EMAIL",
-            "fullName" : "PII_PERSON_NAME"
-          },
-          "url" : "URL",
-          "comment_count_data" : "INT"
-        },
-        "committer_data" : {
-          "login" : "STRING",
-          "gravatar_id" : "STRING",
-          "organizations_url" : "URL",
-          "starred_url_data" : "URL",
-          "type_data" : "NULL",
-          "received_events_url" : "URL",
-          "followers_url" : "URL",
-          "url" : "URL",
-          "item_count" : 3518,
-          "html_url_data" : "URL",
-          "site_admin" : "BOOLEAN",
-          "node_id" : "STRING",
-          "avatar_url" : "URL",
-          "events_url" : null,
-          "gists_url_data" : "URL",
-          "subscriptions_url_data" : "URL",
-          "v_following_url" : "URL"
-        },
-        "parents" : [ {
-          "sha" : "STRING",
-          "priority_level" : 1933
-        } ]
-      } ]
-    }
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "status_data" : "STRING",
+    "subscription" : {
+      "v_mrr" : "DECIMAL",
+      "seats_data" : "INT",
+      "v_seatsUsed" : "INT",
+      "currency" : "STRING"
+    },
+    "ssoEnabled_data" : "BOOLEAN",
+    "usage" : {
+      "storageGb" : "DECIMAL",
+      "cpu_usage_percent" : 84.12,
+      "activeUsers30d_data" : "INT"
+    },
+    "billingEmail" : "PII_EMAIL",
+    "v_primaryContact" : {
+      "email" : "PII_EMAIL",
+      "phone" : "PII_PHONE_NUMBER",
+      "name" : "PII_PERSON_NAME"
+    },
+    "tenantId" : "STRING",
+    "createdAt" : "DATETIME",
+    "plan" : "STRING"
   }
 }

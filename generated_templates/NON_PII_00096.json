@@ -1,5 +1,8 @@
 {
-  "articleModelId" : "STRING",
-  "numberOfUserRecommendations" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT"
+  "data" : {
+    "fetchResource" : {
+      "clientToken" : "STRING",
+      "flowName" : "STRING"
+    }
+  }
 }

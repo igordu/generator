@@ -1,30 +1,35 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "amount" : {
-        "currency" : "STRING",
-        "system_ping_ms" : 1101
-      },
-      "v_creditorAccount" : {
-        "iban" : "PII_IBAN",
-        "discount_rate" : 769.38
-      },
-      "debtorName" : "STRING",
-      "creditorName" : "PII_PERSON_NAME",
-      "bankTransactionCode" : {
-        "domain" : "STRING",
-        "subFamily" : "NULL",
-        "family" : "STRING"
-      },
-      "transactionId" : "STRING",
-      "valueDate" : "DATE",
-      "debtorAccount" : {
-        "iban" : "STRING",
-        "auto_renew" : true
-      },
-      "system_ping_ms" : 433,
-      "bookingDate_data" : "DATE",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
-    } ]
-  }
+  "created_at" : "DATETIME",
+  "phone" : "PII_PHONE_NUMBER",
+  "tags_data" : "STRING",
+  "contactEmail" : "BOOLEAN",
+  "primaryKey" : "INT",
+  "last_name" : "PII_PERSON_LAST_NAME",
+  "v_currency" : "STRING",
+  "default_address" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "zip" : "STRING",
+    "company_data" : "PII_COMPANY_NAME",
+    "name" : "PII_PERSON_NAME",
+    "province_code" : "STRING",
+    "province" : "NULL",
+    "v_address1" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "address2" : "STRING",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "default" : "BOOLEAN",
+    "country_code" : "STRING",
+    "customer_id" : "INT"
+  },
+  "total_spent" : "DECIMAL",
+  "v_state" : "STRING",
+  "v_accepts_marketing" : "BOOLEAN",
+  "updated_at" : "DATETIME",
+  "orders_count_data" : "INT",
+  "note" : "STRING",
+  "identifier" : "INT",
+  "email" : "PII_EMAIL",
+  "first_name" : "PII_PERSON_FIRST_NAME"
 }

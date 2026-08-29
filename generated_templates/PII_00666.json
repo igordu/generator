@@ -1,34 +1,67 @@
 {
-  "discount_rate" : 503.03,
-  "userName" : "STRING",
-  "Id" : "STRING",
-  "Status_data" : "NULL",
-  "Employees" : [ {
-    "EmployeeID" : "STRING",
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
-    },
-    "UpdatedDateUTC_data" : "DATETIME"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "identifier" : "STRING",
-    "v_ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
+  "response_time_sec" : 27.77,
+  "Worker_ID" : "STRING",
+  "Employment_Data" : {
+    "Worker_Job_Data" : {
+      "Position_Data" : {
+        "Position_ID" : "STRING",
+        "Start_Date_data" : "DATE",
+        "Business_Title" : "STRING"
+      }
     }
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING",
-      "price" : 526.09
+  },
+  "Personal_Data" : {
+    "Contact_Data" : {
+      "Email_Address_Data" : [ {
+        "auto_renew" : true,
+        "contactEmail" : "PII_EMAIL"
+      } ],
+      "Address_Data" : [ {
+        "Municipality_data" : "PII_LOCATION_CITY",
+        "Country_Reference" : {
+          "v_ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY",
+          "response_time_sec" : 28.72
+        },
+        "Postal_Code" : "STRING",
+        "temperature_c" : 4.48,
+        "Address_Line_Data" : [ {
+          "Type" : "STRING",
+          "content" : "PII_ADDRESS_LINE"
+        } ]
+      } ],
+      "Phone_Data" : [ {
+        "auto_renew" : false,
+        "Phone_Number" : "PII_PHONE_NUMBER",
+        "Phone_Device_Type_Reference" : {
+          "is_deleted" : true,
+          "WID" : "STRING"
+        }
+      } ]
     },
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "recordId" : "STRING"
-  } ]
+    "primaryKey" : {
+      "v_Birth_Date" : "PII_DATE_OF_BIRTH",
+      "National_ID_Data" : [ {
+        "National_ID_Type_Reference" : {
+          "cache_hit" : false,
+          "WID" : "STRING"
+        },
+        "National_ID" : "PII_NATIONAL_ID",
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        }
+      } ],
+      "system_ping_ms" : 4239
+    },
+    "Name_Data" : {
+      "cache_hit" : false,
+      "clientName" : {
+        "http_status" : 3544,
+        "clientName" : {
+          "Middle_Name" : "PII_PERSON_FIRST_NAME",
+          "Last_Name" : "PII_PERSON_LAST_NAME",
+          "name_val" : "PII_PERSON_FIRST_NAME"
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "orgId": "ORG-00128",
+  "reportId": "RPT-2024-Q1-FIN",
+  "reportType": "quarterly_financials",
+  "generatedAt": "2024-04-05T00:00:00Z",
+  "period": {
+    "start": "2024-01-01",
+    "end": "2024-03-31"
+  },
+  "summary": {
+    "totalRevenue": 4823910.00,
+    "totalExpenses": 3201440.50,
+    "netProfit": 1622469.50,
+    "currency": "USD"
+  },
+  "topCustomers": [
+    {
+      "customerId": "C-0091",
+      "companyName": "Nexus Solutions Inc.",
+      "revenue": 412300.00
+    },
+    {
+      "customerId": "C-0044",
+      "companyName": "Vertex Global LLC",
+      "revenue": 388750.00
+    }
+  ],
+  "costCenters": [
+    { "id": "CC-ENG", "name": "Engineering", "spend": 1240000.00 },
+    { "id": "CC-MKT", "name": "Marketing", "spend": 620000.00 },
+    { "id": "CC-OPS", "name": "Operations", "spend": 910000.00 }
+  ]
+}

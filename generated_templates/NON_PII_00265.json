@@ -1,43 +1,19 @@
-[ {
-  "facets" : [ {
-    "v_key" : "STRING",
-    "requires_update" : true,
-    "displayName" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "http_status" : 4883,
-    "key_data" : "STRING"
-  }, {
-    "count" : "INT",
-    "cache_hit" : true,
-    "v_key" : "STRING",
-    "displayName" : "NULL"
-  } ],
-  "v_filter" : "STRING",
-  "auto_renew" : true
-}, {
-  "filter" : "STRING",
-  "conversion_rate" : 513.23,
-  "facets" : [ {
-    "v_key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  } ]
-}, {
-  "facets" : [ {
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "key" : ""
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "v_key" : "NULL"
-  } ],
-  "filter" : "STRING",
-  "page_index" : 1320
-} ]
+{
+  "v_quantity_available" : "INT",
+  "sku" : "STRING",
+  "currency" : "STRING",
+  "warehouse_id" : "STRING",
+  "tags" : [ "STRING" ],
+  "location_code" : "STRING",
+  "clientName" : "STRING",
+  "last_counted_at_data" : "DATETIME",
+  "v_reorder_quantity" : "INT",
+  "cpu_usage_percent" : 16.16,
+  "quantity_on_hand" : "INT",
+  "v_is_hazardous" : "BOOLEAN",
+  "last_received_at" : "DATETIME",
+  "reorder_point" : "INT",
+  "expiry_date" : "NULL",
+  "batch_number" : "STRING",
+  "v_quantity_reserved" : "INT"
+}

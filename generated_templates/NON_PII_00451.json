@@ -1,5 +1,15 @@
 {
-  "clientName" : "STRING",
-  "clientToken_data" : "STRING",
-  "cpu_usage_percent" : 198.52
+  "ttl" : "INT",
+  "region" : "STRING",
+  "v_cacheKey" : "STRING",
+  "value" : {
+    "expiresAt" : "DATETIME",
+    "userId" : "STRING",
+    "roles_data" : [ "STRING" ],
+    "response_time_sec" : 13.65
+  },
+  "hits_data" : "NULL",
+  "lastAccessedAt" : "DATETIME",
+  "namespace" : "STRING",
+  "createdAt" : "DATETIME"
 }

@@ -1,11 +1,81 @@
-{
-  "telemetry_data" : {
-    "event_data" : {
-      "debug_payload" : {
-        "emailAddress" : "PII_EMAIL",
-        "page_index" : 4214,
-        "emailAddressStatus" : [ "STRING" ]
-      }
-    }
+[ {
+  "v_comments_url" : "URL",
+  "author" : {
+    "gists_url" : "URL",
+    "v_login" : "STRING",
+    "html_url" : "URL",
+    "following_url" : "URL",
+    "gravatar_id" : "STRING",
+    "node_id" : "STRING",
+    "starred_url" : "URL",
+    "organizations_url" : "URL",
+    "subscriptions_url" : "NULL",
+    "avatar_url" : "URL",
+    "site_admin_data" : "BOOLEAN",
+    "price" : 693.66,
+    "id" : "INT",
+    "type" : "STRING",
+    "repos_url" : "NULL",
+    "v_url" : "URL",
+    "received_events_url" : "URL",
+    "v_followers_url" : "URL"
+  },
+  "node_id" : "STRING",
+  "parents_data" : [ {
+    "response_time_sec" : 25.23,
+    "v_sha" : "STRING",
+    "url" : "URL"
+  } ],
+  "v_html_url" : "URL",
+  "url" : "URL",
+  "commit_data" : {
+    "message" : "STRING",
+    "author" : {
+      "date" : "DATETIME",
+      "cache_hit" : false,
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    },
+    "url_data" : "URL",
+    "committer_data" : {
+      "name" : "PII_PERSON_NAME",
+      "date" : "DATETIME",
+      "email" : "PII_EMAIL",
+      "http_status" : 117
+    },
+    "verification" : {
+      "verified" : "BOOLEAN",
+      "reason_data" : "STRING",
+      "verified_at" : "DATETIME",
+      "is_active" : false,
+      "payload" : "STRING",
+      "v_signature" : "STRING"
+    },
+    "tree" : {
+      "url" : null,
+      "sha" : "STRING"
+    },
+    "comment_count_data" : "NULL"
+  },
+  "sha" : "",
+  "committer_data" : {
+    "avatar_url" : "URL",
+    "events_url" : "URL",
+    "subscriptions_url" : "URL",
+    "site_admin" : "BOOLEAN",
+    "followers_url" : "URL",
+    "gists_url" : "URL",
+    "starred_url" : "URL",
+    "type" : "STRING",
+    "gravatar_id" : "STRING",
+    "url" : "URL",
+    "id" : "INT",
+    "received_events_url" : "URL",
+    "following_url" : "URL",
+    "repos_url_data" : "URL",
+    "node_id" : "STRING",
+    "login" : "STRING",
+    "v_html_url" : "URL",
+    "v_organizations_url" : "URL"
   }
-}
+} ]

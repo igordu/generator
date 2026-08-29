@@ -1,5 +1,25 @@
 {
-  "emailAddressStatus" : [ "STRING" ],
-  "retry_attempts" : 4631,
-  "emailAddress" : "PII_EMAIL"
+  "messaging_service_sid" : "STRING",
+  "from" : "PII_PHONE_NUMBER",
+  "price" : "NULL",
+  "num_segments" : "STRING",
+  "api_version" : "STRING",
+  "body_data" : "STRING",
+  "direction" : "STRING",
+  "to_data" : "PII_PHONE_NUMBER",
+  "error_code" : "NULL",
+  "account_sid" : "STRING",
+  "status" : "STRING",
+  "price_unit" : "NULL",
+  "subresource_uris" : {
+    "page_index" : 2210,
+    "v_media" : "URL"
+  },
+  "uri" : "URL",
+  "has_discount" : true,
+  "sid" : "STRING",
+  "date_created" : "DATETIME",
+  "date_updated" : "DATETIME",
+  "date_sent_data" : "DATETIME",
+  "v_error_message" : "NULL"
 }

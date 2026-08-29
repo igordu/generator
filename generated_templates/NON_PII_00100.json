@@ -1,20 +1,4 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "starRatingDistribution" : {
-      "1" : "INT",
-      "5_data" : "INT",
-      "3" : "INT",
-      "temperature_c" : 268.26,
-      "v_4" : "INT"
-    },
-    "price" : 56.93,
-    "articleModelId" : null,
-    "numberOfUserPositiveRecommendations_data" : "INT",
-    "averageStarRating" : "INT",
-    "numberOfUserRecommendations" : "INT"
-  }
+  "name_val" : "STRING",
+  "clientToken" : "STRING"
 }

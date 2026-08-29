@@ -1,4 +1,10 @@
 {
-  "clientToken" : "",
-  "flowName" : "STRING"
+  "attributes" : { },
+  "movedToDlqAt" : "DATETIME",
+  "userName" : "STRING",
+  "recordId" : "STRING",
+  "receiveCount" : "INT",
+  "originalQueue" : "STRING",
+  "firstReceivedAt" : "DATETIME",
+  "lastReceivedAt" : "DATETIME"
 }

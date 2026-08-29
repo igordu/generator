@@ -1,5 +1,16 @@
 {
-  "contactEmail" : "PII_EMAIL",
-  "emailAddressStatus" : [ "STRING" ],
-  "requires_update" : false
+  "metadata" : "OBJECT",
+  "response_time_sec" : 12.64,
+  "status" : "STRING",
+  "currency" : "STRING",
+  "last4" : "STRING",
+  "country" : "STRING",
+  "v_object" : "",
+  "routing_number" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "bank_name" : "STRING",
+  "account_holder_type" : "STRING",
+  "account_type" : "STRING",
+  "v_customer" : "STRING",
+  "id" : "STRING"
 }

@@ -1,26 +1,31 @@
 {
-  "priority_level" : 3667,
-  "v_url" : "URL",
-  "object" : "STRING",
-  "data" : [ {
+  "messageId" : "STRING",
+  "metadata" : {
+    "sessionId" : "STRING",
+    "system_ping_ms" : 917,
+    "language" : "STRING",
+    "v_userAgent" : "STRING"
+  },
+  "channel" : "STRING",
+  "sentiment" : "STRING",
+  "direction" : "STRING",
+  "intent" : "STRING",
+  "content" : {
+    "type" : "STRING",
+    "v_text" : "STRING"
+  },
+  "recipient" : {
+    "name" : "STRING",
     "id" : "STRING",
-    "v_livemode" : "BOOLEAN",
-    "default_source" : "STRING",
-    "created" : "DATETIME_EPOCH",
-    "description_data" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "currency" : "STRING",
-    "delinquent" : "BOOLEAN",
-    "emailAddress" : "PII_EMAIL",
-    "v_test_clock" : "NULL",
-    "tax_exempt" : "STRING",
-    "metadata" : "OBJECT",
-    "shipping" : "NULL",
-    "balance" : "INT",
+    "type_data" : "STRING"
+  },
+  "has_discount" : false,
+  "conversationId" : "STRING",
+  "v_sender" : {
     "name" : "PII_PERSON_NAME",
-    "next_invoice_sequence" : "INT",
-    "preferred_locales" : "ARRAY",
-    "object" : "STRING"
-  } ],
-  "has_more_data" : "BOOLEAN"
+    "type" : "STRING",
+    "recordId" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "timestamp" : "DATETIME"
 }

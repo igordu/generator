@@ -1,13 +1,15 @@
-[ {
-  "facets" : [ {
-    "v_count" : "INT",
-    "key" : "STRING",
-    "requires_update" : false
-  }, {
-    "name_val" : "NULL",
-    "v_key" : "STRING",
-    "count" : "INT"
+{
+  "usage" : {
+    "v_input_tokens" : "INT",
+    "output_tokens" : "INT"
+  },
+  "v_content" : [ {
+    "type" : "STRING",
+    "stock_quantity" : 4712,
+    "text" : "STRING"
   } ],
-  "filter" : "STRING",
-  "auto_renew" : true
-} ]
+  "role" : "STRING",
+  "v_stop_reason" : "STRING",
+  "model" : "STRING",
+  "identifier" : "STRING"
+}

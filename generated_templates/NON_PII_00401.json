@@ -1,9 +1,11 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "userName" : "STRING",
-    "clientToken" : "STRING",
-    "price" : 650.65
-  }
+  "rollbackAvailable" : "BOOLEAN",
+  "appliedAt" : "DATETIME",
+  "status" : "STRING",
+  "clientName" : "",
+  "version" : "STRING",
+  "appliedBy_data" : "NULL",
+  "executionTimeMs" : "INT",
+  "statementsExecuted" : "INT",
+  "migrationId" : "STRING"
 }

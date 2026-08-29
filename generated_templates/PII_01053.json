@@ -1,15 +1,36 @@
 {
-  "last4" : "STRING",
-  "object" : "STRING",
-  "account_holder_type" : "STRING",
-  "currency_data" : "STRING",
-  "userName" : "PII_PERSON_NAME",
-  "bank_name" : "STRING",
-  "fingerprint" : "STRING",
+  "passenger" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "requires_update" : true,
+    "mail" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "frequentFlyerNumber" : "STRING",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "title" : "STRING",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "passportExpiry" : "DATE",
+    "passportNumber" : "PII_NATIONAL_ID"
+  },
+  "fareClass" : "STRING",
   "status" : "STRING",
-  "account_type" : "STRING",
-  "routing_number" : "STRING",
-  "v_country" : "STRING",
-  "v_customer" : "STRING",
-  "page_index" : 4116
+  "v_issuedAt" : "DATETIME",
+  "totalFare" : {
+    "currency_data" : "STRING",
+    "retry_attempts" : 1374
+  },
+  "ticketNumber" : "STRING",
+  "bookingRef" : "STRING",
+  "itinerary" : [ {
+    "cabin" : "STRING",
+    "arrivalAt" : "DATETIME",
+    "flightNumber" : "STRING",
+    "seat" : "STRING",
+    "segment" : "INT",
+    "destination" : "STRING",
+    "departureAt" : "DATETIME",
+    "price" : 4515.41,
+    "origin" : "",
+    "status" : "STRING"
+  } ]
 }

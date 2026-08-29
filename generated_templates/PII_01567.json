@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "oncallScheduleId" : "STRING",
+    "slackChannel" : "STRING",
+    "updatedAt" : "DATETIME",
+    "members" : [ {
+      "fullName" : "PII_PERSON_NAME",
+      "joinedAt_data" : "DATETIME",
+      "role" : "STRING",
+      "userId" : "STRING",
+      "email" : "PII_EMAIL"
+    } ],
+    "is_active" : false,
+    "ownedServices" : [ "STRING" ],
+    "description" : "STRING",
+    "teamId" : "STRING",
+    "name" : "STRING"
+  }
+}

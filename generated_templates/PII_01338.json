@@ -1,17 +1,21 @@
 {
-  "audit_trail" : {
-    "event_data" : {
-      "debug_payload" : {
-        "active" : "BOOLEAN",
-        "user_info_data" : {
-          "clientName" : "PII_COMPANY_NAME",
-          "name_val" : "PII_LAST_NAME_MALE"
-        },
-        "tree" : {
-          "sha_data" : "STRING",
-          "url" : "URL"
-        }
-      }
-    }
-  }
+  "riskScore" : "DECIMAL",
+  "email" : "PII_EMAIL",
+  "v_revoked" : "BOOLEAN",
+  "userId" : "STRING",
+  "expiresAt" : "DATETIME",
+  "uuid" : "STRING",
+  "v_createdAt" : "DATETIME",
+  "has_discount" : true,
+  "scopes_data" : [ "STRING" ],
+  "v_userAgent" : "STRING",
+  "v_lastActivityAt" : "DATETIME",
+  "mfaMethod_data" : "STRING",
+  "issuedTokens" : {
+    "price" : 1366.2,
+    "accessToken" : "NULL",
+    "idToken" : "STRING",
+    "v_refreshToken" : "STRING"
+  },
+  "v_ipAddress" : "PII_IP_ADDRESS"
 }

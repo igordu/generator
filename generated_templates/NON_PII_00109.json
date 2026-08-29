@@ -1,18 +1,21 @@
-{
-  "cache_hit" : true,
-  "modelId" : "STRING",
-  "id" : "STRING",
-  "v_media" : {
-    "images" : [ {
-      "mediumUrl_data" : "URL",
-      "largeUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "type" : "STRING",
-      "largeHdUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "smallUrl" : "URL",
-      "orderNumber" : "INT"
-    } ]
+[ {
+  "is_active" : true,
+  "simplified" : "BOOLEAN",
+  "self" : "URL",
+  "clientName" : "STRING",
+  "projectCategory" : {
+    "recordId" : "STRING",
+    "requires_update" : false,
+    "self" : "URL",
+    "name" : "STRING",
+    "description" : "STRING"
   },
-  "shopUrl" : "URL"
-}
+  "style" : "STRING",
+  "id" : "STRING",
+  "key" : "STRING",
+  "v_avatarUrls" : {
+    "16x16" : "URL",
+    "24x24" : "URL",
+    "v_48x48" : "URL"
+  }
+} ]

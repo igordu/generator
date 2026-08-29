@@ -1,74 +1,30 @@
 {
-  "prev" : "STRING",
-  "limit_data" : "INT",
-  "transactions" : [ {
-    "totalFeeAmount" : {
-      "price" : 904.93,
-      "value_data" : "STRING",
-      "exchangeRate" : "STRING",
-      "currency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "convertedFromCurrency" : "STRING"
-    },
-    "transactionMemo" : "STRING",
-    "v_amount" : {
-      "exchangeRate" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "value" : "STRING",
-      "v_currency" : "NULL",
-      "item_count" : 2670
-    },
-    "v_bookingEntry" : "STRING",
-    "v_feeJurisdiction" : {
-      "system_ping_ms" : 1317,
-      "regionName" : "STRING",
-      "regionType_data" : "STRING"
-    },
-    "orderId" : "STRING",
-    "transactionDate" : "NULL",
-    "eBayCollectedTaxAmount_data" : {
-      "temperature_c" : 910.74,
-      "currency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING",
-      "exchangeRate" : "STRING"
-    },
-    "transactionId" : "NULL",
-    "transactionType" : "STRING",
-    "transactionStatus" : "STRING",
-    "feeType" : "STRING",
-    "totalFeeBasisAmount" : {
-      "exchangeRate_data" : "STRING",
-      "convertedFromCurrency_data" : "STRING",
-      "v_currency" : "STRING",
-      "v_convertedFromValue" : "STRING",
-      "page_index" : 298
-    },
-    "recordId" : "STRING",
-    "orderLineItems" : [ {
-      "lineItemId" : "STRING",
-      "marketplaceFees" : [ {
-        "feeType" : "STRING",
-        "feeJurisdiction" : { },
-        "feeMemo_data" : "STRING",
-        "amount" : {
-          "exchangeRate" : "STRING",
-          "convertedFromValue" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "currency_data" : "STRING",
-          "value" : "STRING"
-        }
-      } ]
-    } ],
-    "v_paymentsEntity" : "STRING",
-    "salesRecordReference" : "STRING",
-    "buyer" : {
-      "name_val" : "PII_USERNAME"
-    }
-  } ],
-  "v_total" : "INT",
-  "next_data" : "STRING",
-  "offset" : "INT"
+  "transactions_data" : {
+    "discount_rate" : 76.96,
+    "booked" : [ {
+      "debtorName" : "STRING",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
+      "bookingDate" : "DATE",
+      "bankTransactionCode_data" : {
+        "requires_update" : false,
+        "v_subFamily" : "STRING",
+        "family" : "STRING",
+        "domain" : "STRING"
+      },
+      "creditorName" : "PII_PERSON_NAME",
+      "debtorAccount" : {
+        "iban" : "STRING"
+      },
+      "v_amount" : {
+        "currency" : "STRING",
+        "retry_attempts" : 2177,
+        "v_amount" : "DECIMAL"
+      },
+      "transactionId" : "STRING",
+      "valueDate" : "DATE",
+      "creditorAccount" : {
+        "iban" : "PII_IBAN"
+      }
+    } ]
+  }
 }

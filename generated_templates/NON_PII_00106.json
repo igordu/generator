@@ -1,19 +1,36 @@
-{
-  "modelId" : "STRING",
-  "name" : "STRING",
-  "media" : {
-    "v_images" : [ {
-      "orderNumber" : "INT",
-      "mediumUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "v_largeUrl" : "URL",
-      "v_largeHdUrl" : "URL",
-      "smallUrl_data" : "URL",
-      "type" : "STRING"
-    } ]
+[ {
+  "insight" : {
+    "response_time_sec" : 0.8,
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
   },
-  "shopUrl_data" : "URL",
-  "is_deleted" : false,
-  "id" : "STRING"
-}
+  "name" : "STRING",
+  "id" : null,
+  "auto_renew" : true,
+  "key" : "STRING",
+  "v_self" : "URL",
+  "style" : "STRING",
+  "avatarUrls" : {
+    "v_16x16" : "URL",
+    "24x24" : "URL",
+    "v_32x32" : "",
+    "v_48x48" : "URL"
+  }
+}, {
+  "uuid" : "STRING",
+  "simplified" : "BOOLEAN",
+  "projectCategory" : {
+    "identifier" : "STRING",
+    "description" : "STRING",
+    "fullName" : "STRING",
+    "is_active" : false,
+    "self" : "URL"
+  },
+  "v_self" : "URL",
+  "insight" : {
+    "totalIssueCount_data" : "INT",
+    "lastIssueUpdateTime" : "DATETIME",
+    "conversion_rate" : 7.16
+  },
+  "name" : "STRING"
+} ]

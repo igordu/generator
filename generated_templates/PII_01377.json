@@ -1,13 +1,31 @@
 {
-  "temperature_c" : 120.15,
-  "tree" : {
-    "sha" : "STRING",
-    "url" : "URL"
+  "repositoryId" : "STRING",
+  "language" : "NULL",
+  "name_val" : "STRING",
+  "defaultBranch" : "STRING",
+  "pullRequest" : {
+    "v_changedFiles" : "INT",
+    "headBranch" : "STRING",
+    "id" : "INT",
+    "title_data" : "STRING",
+    "reviewers" : [ {
+      "login_data" : "PII_USERNAME",
+      "state" : "STRING",
+      "discount_rate" : 78.3,
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "author" : {
+      "name" : "PII_PERSON_NAME",
+      "login" : "PII_USERNAME",
+      "primary_email" : "PII_EMAIL"
+    },
+    "baseBranch" : "STRING",
+    "v_updatedAt" : "",
+    "state" : "STRING",
+    "additions" : "INT",
+    "createdAt_data" : "DATETIME"
   },
-  "user_info" : {
-    "fullName" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  },
-  "v_active" : "BOOLEAN"
+  "fullName" : "STRING",
+  "private" : "BOOLEAN"
 }

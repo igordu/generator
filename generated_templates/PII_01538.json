@@ -1,0 +1,17 @@
+{
+  "fullName" : "STRING",
+  "triggers" : [ "STRING" ],
+  "lastTriggeredAt" : "DATETIME",
+  "uuid" : "STRING",
+  "status_data" : "STRING",
+  "createdAt" : "NULL",
+  "createdBy" : {
+    "emailAddress" : "PII_EMAIL",
+    "identifier" : "STRING"
+  },
+  "config_data" : {
+    "mentionOnError" : "STRING",
+    "v_channel" : "STRING"
+  },
+  "updatedAt" : "DATETIME"
+}

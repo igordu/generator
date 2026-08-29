@@ -1,0 +1,24 @@
+{
+  "consentId": "STRING",
+  "dataSubject": {
+    "id": "STRING",
+    "email": "PII_EMAIL",
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "country": "PII_LOCATION_COUNTRY"
+  },
+  "collectedAt": "DATETIME",
+  "version": "STRING",
+  "purposes": [
+    {
+      "id": "STRING",
+      "name": "STRING",
+      "granted": "BOOLEAN",
+      "grantedAt": "DATETIME"
+    }
+  ],
+  "legalBasis": "STRING",
+  "retentionDays": "INT",
+  "withdrawnAt": "NULL"
+}

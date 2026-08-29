@@ -1,19 +1,23 @@
 {
-  "uuid" : null,
-  "shopUrl" : "NULL",
-  "media" : {
-    "images" : [ {
-      "orderNumber_data" : "INT",
-      "largeHdUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "type" : "STRING",
-      "smallUrl" : "URL",
-      "response_time_sec" : 90.25,
-      "mediumHdUrl" : "URL"
+  "item_count" : 3862,
+  "identifier" : {
+    "notes" : [ {
+      "primaryKey" : "STRING",
+      "content" : "TEXT",
+      "created_at" : "DATETIME"
     } ],
-    "item_count" : 584
-  },
-  "name" : "STRING",
-  "modelId" : "STRING"
+    "resolved_at" : "DATETIME",
+    "runbook_url" : "URL",
+    "identifier" : "STRING",
+    "title_data" : "STRING",
+    "created_at_data" : "DATETIME",
+    "service_data" : {
+      "summary" : "STRING",
+      "recordId" : "STRING"
+    },
+    "status" : "STRING",
+    "incident_number" : "NULL",
+    "urgency" : "STRING",
+    "escalation_policy" : "STRING"
+  }
 }

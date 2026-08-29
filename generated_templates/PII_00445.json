@@ -1,40 +1,36 @@
 {
-  "auto_renew" : false,
-  "identifier" : [ {
-    "system" : "URL",
-    "value" : "PII_NATIONAL_ID",
-    "use" : "NULL",
-    "v_type" : {
-      "retry_attempts" : 1477
-    },
-    "retry_attempts" : 1167
-  } ],
-  "meta" : {
-    "item_count" : 4418,
-    "versionId" : "INT",
-    "lastUpdated_data" : "DATETIME"
+  "primaryEmail" : "PII_EMAIL",
+  "recoveryPhone" : "PII_PHONE_NUMBER",
+  "name" : {
+    "familyName" : "PII_PERSON_LAST_NAME",
+    "givenName" : "PII_PERSON_FIRST_NAME",
+    "fullName" : "PII_PERSON_NAME"
   },
-  "address" : [ {
-    "city" : "PII_LOCATION_CITY",
-    "use" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY",
-    "v_line" : [ "PII_ADDRESS_LINE" ]
-  } ],
-  "v_telecom" : [ {
-    "v_value" : "PII_EMAIL",
-    "system_data" : "STRING"
-  }, {
+  "suspended" : "BOOLEAN",
+  "recoveryEmail" : "PII_EMAIL",
+  "lastLoginTime" : "DATETIME",
+  "archived" : "BOOLEAN",
+  "isMailboxSetup_data" : "BOOLEAN",
+  "agreedToTerms" : "BOOLEAN",
+  "phones" : [ {
     "value" : "PII_PHONE_NUMBER",
-    "use_data" : "STRING",
-    "has_discount" : true,
-    "system" : "STRING"
+    "type" : "STRING",
+    "retry_attempts" : 3651
   } ],
-  "gender" : "STRING",
-  "name_val" : [ {
-    "use" : "STRING",
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "family" : "PII_PERSON_LAST_NAME",
-    "temperature_c" : 98.18
+  "changePasswordAtNextLogin" : "BOOLEAN",
+  "addresses" : [ {
+    "region" : "STRING",
+    "postalCode" : "",
+    "locality" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_type" : "STRING",
+    "streetAddress" : "PII_ADDRESS_LINE"
   } ],
-  "birthDate" : "PII_DATE_OF_BIRTH"
+  "creationTime" : "DATETIME",
+  "recordId" : null,
+  "emails" : [ {
+    "address" : "PII_EMAIL",
+    "priority_level" : 15
+  } ],
+  "primaryKey" : "NULL"
 }

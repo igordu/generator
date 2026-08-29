@@ -1,9 +1,74 @@
 {
   "data" : {
-    "fetchResource" : {
-      "emailAddress" : [ "STRING" ],
-      "mail" : "PII_EMAIL",
-      "response_time_sec" : 341.66
-    }
+    "fetchResource" : [ {
+      "html_url" : "URL",
+      "committer" : {
+        "organizations_url" : "URL",
+        "subscriptions_url" : "URL",
+        "type" : "STRING",
+        "v_url" : "URL",
+        "id" : "NULL",
+        "received_events_url" : "URL",
+        "avatar_url_data" : "URL",
+        "login" : "STRING",
+        "identifier" : "STRING",
+        "followers_url_data" : "URL",
+        "starred_url" : "URL",
+        "repos_url" : "URL",
+        "gravatar_id" : "STRING",
+        "site_admin" : "BOOLEAN",
+        "html_url" : "URL",
+        "gists_url" : "URL"
+      },
+      "comments_url_data" : "URL",
+      "commit" : {
+        "author" : {
+          "email" : "PII_EMAIL",
+          "date_data" : "DATETIME",
+          "name" : "PII_PERSON_NAME"
+        },
+        "v_verification" : {
+          "v_verified_at" : "DATETIME",
+          "verified" : "BOOLEAN",
+          "reason" : "STRING",
+          "payload" : "STRING"
+        },
+        "comment_count" : null,
+        "url_data" : "URL",
+        "v_message" : "NULL",
+        "committer" : {
+          "primary_email" : "PII_EMAIL",
+          "http_status" : 2705,
+          "name_val" : "PII_PERSON_NAME",
+          "date" : "NULL"
+        },
+        "stock_quantity" : 913
+      },
+      "author" : {
+        "v_repos_url" : "URL",
+        "received_events_url" : "URL",
+        "organizations_url_data" : "URL",
+        "identifier" : "INT",
+        "following_url" : "URL",
+        "avatar_url" : "URL",
+        "node_id" : "STRING",
+        "html_url" : "URL",
+        "site_admin" : "BOOLEAN",
+        "followers_url" : "URL",
+        "gists_url" : "URL",
+        "events_url" : "URL",
+        "url" : "URL",
+        "login" : "STRING",
+        "gravatar_id" : "STRING"
+      },
+      "parents" : [ {
+        "url_data" : "URL",
+        "sha" : "STRING"
+      } ],
+      "sha" : "STRING",
+      "url" : "URL",
+      "temperature_c" : 16.36,
+      "identifier" : "STRING"
+    } ]
   }
 }

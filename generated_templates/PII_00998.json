@@ -1,17 +1,43 @@
 {
-  "currency" : "STRING",
-  "object" : "STRING",
-  "account_holder_type" : "NULL",
-  "id" : "STRING",
-  "status" : "STRING",
-  "metadata" : "",
-  "v_account_type" : "STRING",
-  "price" : 765.83,
-  "customer" : "STRING",
-  "routing_number" : "STRING",
-  "country" : "STRING",
-  "fingerprint" : "STRING",
-  "v_last4" : "STRING",
-  "bank_name" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "studentId" : "STRING",
+    "academicRecord" : {
+      "gpa" : "DECIMAL",
+      "advisor" : {
+        "email" : "PII_EMAIL",
+        "name" : "PII_PERSON_NAME"
+      }
+    },
+    "program" : "STRING",
+    "enrollmentStatus" : "STRING",
+    "personalInfo" : {
+      "gender" : "STRING",
+      "nationality" : "PII_LOCATION_COUNTRY",
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "mail" : "PII_EMAIL",
+      "cell" : "PII_PHONE_NUMBER",
+      "contactEmail" : "PII_EMAIL",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "v_passportNumber" : "PII_NATIONAL_ID",
+      "userName" : "PII_PERSON_FIRST_NAME"
+    },
+    "financialAid" : {
+      "amount" : "DECIMAL",
+      "auto_renew" : false,
+      "disbursedAt" : "DATE",
+      "currency" : "STRING",
+      "scholarshipId" : "STRING"
+    },
+    "address_data" : {
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "v_street" : "PII_ADDRESS_LINE",
+      "v_postcode" : "STRING",
+      "v_city" : "PII_LOCATION_CITY"
+    },
+    "academicYear" : "STRING"
+  }
 }

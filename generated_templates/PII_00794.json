@@ -1,35 +1,26 @@
 {
-  "registrants" : [ {
-    "temperature_c" : 810.52,
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "v_comments" : "STRING",
-    "city" : "PII_LOCATION_CITY",
-    "job_title" : null,
-    "v_join_url" : "URL",
-    "status" : "STRING",
-    "address" : "PII_ADDRESS_LINE",
-    "cell" : "PII_PHONE_NUMBER",
-    "role_in_purchase_process" : "STRING",
-    "custom_questions_data" : [ {
-      "conversion_rate" : 739.72,
-      "title" : "STRING",
-      "value_data" : "STRING"
-    }, {
-      "cpu_usage_percent" : 788.76,
-      "title" : "STRING",
-      "v_value" : "STRING"
-    } ],
-    "org" : "PII_ORGANIZATION_NAME",
-    "email" : "PII_EMAIL",
-    "purchasing_time_frame" : "STRING",
-    "id" : "STRING",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "no_of_employees" : "STRING",
-    "create_time" : "DATETIME",
-    "state" : "PII_LOCATION_STATE",
-    "country" : "PII_LOCATION_COUNTRY"
-  } ],
-  "v_page_count" : "",
-  "v_total_records" : "INT",
-  "page_number" : "INT"
+  "data" : {
+    "fetchResource" : {
+      "total_amount" : "INT",
+      "shipping_address" : {
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "province_code" : "STRING",
+        "last_name" : "PII_PERSON_LAST_NAME",
+        "zip_data" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "address_1" : "PII_ADDRESS_LINE",
+        "country_code" : "PII_LOCATION_COUNTRY"
+      },
+      "customer" : {
+        "name" : "PII_PERSON_NAME",
+        "email" : "PII_EMAIL",
+        "phone" : "PII_PHONE_NUMBER",
+        "primaryKey" : "STRING"
+      },
+      "id" : "NULL",
+      "payment_status" : "STRING",
+      "currency" : "STRING",
+      "status_data" : "STRING"
+    }
+  }
 }

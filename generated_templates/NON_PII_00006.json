@@ -1,8 +1,13 @@
 {
-  "articleModelId" : "STRING",
-  "numberOfUserPositiveRecommendations" : null,
-  "averageStarRating_data" : "INT",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "identifier" : "STRING",
+  "numberOfUserReviews" : "INT",
   "numberOfUserRecommendations" : "INT",
-  "price" : 688.99,
-  "numberOfUserReviews_data" : "INT"
+  "starRatingDistribution" : {
+    "2" : "INT",
+    "v_5" : "INT",
+    "3" : "INT",
+    "v_1" : "INT",
+    "4" : "INT"
+  }
 }

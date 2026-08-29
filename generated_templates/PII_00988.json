@@ -1,31 +1,43 @@
 {
-  "has_more" : "BOOLEAN",
-  "url" : "URL",
-  "object" : "STRING",
-  "data" : [ {
-    "shipping_data" : "NULL",
-    "phone" : "PII_PHONE_NUMBER",
-    "priority_level" : 3677,
-    "v_default_source" : "STRING",
-    "tax_exempt_data" : null,
-    "name" : "PII_PERSON_NAME",
-    "preferred_locales" : "ARRAY",
-    "next_invoice_sequence" : "INT",
-    "invoice_settings" : {
-      "default_payment_method" : "STRING",
-      "v_rendering_options" : "NULL",
-      "custom_fields_data" : "NULL",
-      "auto_renew" : false
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "v_enrollmentStatus" : "STRING",
+    "personalInfo" : {
+      "personalEmail" : "PII_EMAIL",
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "email" : "PII_EMAIL",
+      "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "discount_rate" : 16.78,
+      "v_nationality" : "PII_LOCATION_COUNTRY",
+      "phone" : "PII_PHONE_NUMBER",
+      "userName" : "PII_PERSON_FIRST_NAME",
+      "passportNumber" : "PII_NATIONAL_ID"
     },
-    "balance" : "INT",
-    "livemode" : "BOOLEAN",
-    "invoice_prefix" : "STRING",
-    "currency" : "STRING",
-    "test_clock" : "NULL",
-    "metadata" : "OBJECT",
-    "email" : "PII_EMAIL",
-    "address" : "NULL",
-    "id" : "STRING",
-    "v_delinquent" : "BOOLEAN"
-  } ]
+    "studentId" : "STRING",
+    "program" : "STRING",
+    "requires_update" : true,
+    "v_address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "city_data" : "PII_LOCATION_CITY"
+    },
+    "academicRecord" : {
+      "item_count" : 4847,
+      "advisor" : {
+        "email" : "PII_EMAIL",
+        "userName" : "PII_PERSON_NAME"
+      },
+      "creditsCompleted_data" : "INT"
+    },
+    "financialAid" : {
+      "disbursedAt" : "DATE",
+      "scholarshipId" : "STRING",
+      "currency" : "STRING",
+      "amount" : "DECIMAL",
+      "has_discount" : false
+    }
+  }
 }

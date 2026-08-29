@@ -1,3 +1,15 @@
 {
-  "emailAddress" : "PII_EMAIL"
+  "routing_number" : "STRING",
+  "status" : "STRING",
+  "currency" : "STRING",
+  "account_holder_type" : "STRING",
+  "fingerprint" : "STRING",
+  "customer" : "STRING",
+  "system_ping_ms" : 563,
+  "account_holder_name" : "PII_PERSON_NAME",
+  "id" : "STRING",
+  "account_type" : "STRING",
+  "last4" : "STRING",
+  "clientName" : "STRING",
+  "metadata" : "OBJECT"
 }

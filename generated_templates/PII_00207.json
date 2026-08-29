@@ -1,83 +1,25 @@
 {
-  "href" : "STRING",
-  "retry_attempts" : 2701,
-  "limit" : "INT",
-  "offset" : "INT",
-  "next" : null,
-  "transactions" : [ {
-    "feeJurisdiction" : {
-      "v_regionType" : "STRING",
-      "regionName" : "STRING"
-    },
-    "buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "uuid" : "STRING",
-    "v_eBayCollectedTaxAmount" : {
-      "v_exchangeRate" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING",
-      "v_convertedFromValue" : "STRING"
-    },
-    "transactionType" : "STRING",
-    "totalFeeAmount" : {
-      "value_data" : "STRING",
-      "convertedFromValue" : "STRING",
-      "v_exchangeRate" : "STRING",
-      "currency" : "STRING"
-    },
-    "bookingEntry_data" : "STRING",
-    "transactionStatus" : "STRING",
-    "orderLineItems_data" : [ {
-      "feeBasisAmount_data" : {
-        "retry_attempts" : 1485,
-        "convertedFromValue" : "STRING",
-        "convertedFromCurrency" : "STRING",
+  "transactions_data" : {
+    "booked" : [ {
+      "amount" : {
+        "system_ping_ms" : 3010,
         "currency" : "STRING",
-        "v_exchangeRate" : "STRING"
+        "amount" : "DECIMAL"
       },
-      "price" : 811.5,
-      "v_marketplaceFees" : [ {
-        "feeType" : "STRING",
-        "is_deleted" : true,
-        "feeJurisdiction_data" : {
-          "regionName" : "STRING",
-          "regionType" : "STRING",
-          "system_ping_ms" : 1826
-        },
-        "feeMemo" : "STRING",
-        "amount" : {
-          "value" : "STRING",
-          "currency_data" : null,
-          "convertedFromCurrency" : "STRING",
-          "exchangeRate" : "STRING",
-          "convertedFromValue" : "STRING"
-        }
-      } ],
-      "lineItemId" : "STRING"
-    } ],
-    "totalFeeBasisAmount_data" : {
-      "retry_attempts" : 3923,
-      "v_convertedFromValue" : "STRING",
-      "value_data" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "v_exchangeRate" : "STRING"
-    },
-    "salesRecordReference" : "STRING",
-    "paymentsEntity" : "STRING",
-    "transactionId" : "STRING",
-    "v_amount" : {
-      "exchangeRate_data" : "STRING",
-      "value" : "STRING",
-      "convertedFromValue" : "STRING",
-      "currency" : "STRING"
-    },
-    "transactionMemo" : "STRING",
-    "references" : [ {
-      "referenceType" : "STRING"
-    } ],
-    "transactionDate" : "DATETIME"
-  } ],
-  "total" : "INT",
-  "prev_data" : "STRING"
+      "creditorAccount_data" : {
+        "iban_data" : "PII_IBAN"
+      },
+      "is_deleted" : true,
+      "identifier" : "STRING",
+      "creditorName" : "PII_PERSON_NAME",
+      "valueDate" : "NULL",
+      "bankTransactionCode" : {
+        "subFamily" : "STRING",
+        "family" : "STRING"
+      },
+      "fullName" : "STRING",
+      "bookingDate" : "DATE",
+      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
+    } ]
+  }
 }

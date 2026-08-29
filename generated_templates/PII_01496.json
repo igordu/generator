@@ -1,0 +1,19 @@
+{
+  "artifactDigest" : "STRING",
+  "v_commit" : "STRING",
+  "pipelineId" : "STRING",
+  "environment" : "STRING",
+  "status" : "STRING",
+  "startedAt" : "DATETIME",
+  "repository" : "STRING",
+  "finishedAt" : "DATETIME",
+  "triggeredBy" : "PII_EMAIL",
+  "stages" : [ {
+    "price" : 634.91,
+    "v_status" : "STRING",
+    "v_coverage" : "DECIMAL",
+    "durationSeconds" : "INT",
+    "name" : "NULL"
+  } ],
+  "v_branch" : ""
+}

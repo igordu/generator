@@ -1,39 +1,44 @@
 {
-  "name" : [ {
-    "v_use" : "STRING",
-    "v_family" : "PII_PERSON_LAST_NAME",
-    "temperature_c" : 902.76,
-    "v_given" : [ "PII_PERSON_FIRST_NAME" ]
-  } ],
-  "gender" : "STRING",
-  "uuid" : null,
-  "resourceType" : "STRING",
-  "primaryKey" : [ {
-    "value" : "PII_NATIONAL_ID",
-    "use" : "NULL",
-    "system" : "URL",
-    "auto_renew" : true,
-    "type_data" : {
-      "text" : "STRING"
-    }
-  } ],
-  "telecom" : [ {
-    "value" : "PII_PHONE_NUMBER",
-    "system" : "STRING",
-    "page_index" : 4737,
-    "use" : "STRING"
-  }, {
-    "value" : "PII_EMAIL",
-    "page_index" : 2678,
-    "v_system" : "NULL"
-  } ],
-  "meta" : {
-    "versionId" : "INT"
+  "v_birthDate" : {
+    "retry_attempts" : 1044,
+    "day" : "INT",
+    "month" : "INT"
   },
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "address" : [ {
-    "city" : "PII_LOCATION_CITY",
-    "line_data" : [ "PII_ADDRESS_LINE" ],
-    "v_country" : "PII_LOCATION_COUNTRY"
+  "system_ping_ms" : 3104,
+  "lastName" : {
+    "preferredLocale_data" : {
+      "v_language" : "STRING",
+      "country" : "STRING",
+      "retry_attempts" : 1360
+    },
+    "localized" : {
+      "en_US" : "PII_PERSON_LAST_NAME"
+    }
+  },
+  "firstName" : {
+    "localized_data" : {
+      "is_active" : false,
+      "en_US" : "PII_PERSON_FIRST_NAME"
+    },
+    "preferredLocale" : {
+      "v_country" : "STRING",
+      "language" : "STRING"
+    },
+    "page_index" : 2322
+  },
+  "id" : "STRING",
+  "vanityName" : "PII_USERNAME",
+  "emailAddress" : "PII_EMAIL",
+  "location" : {
+    "conversion_rate" : 9.26,
+    "country_data" : {
+      "has_discount" : true,
+      "v_code" : "PII_LOCATION_COUNTRY"
+    }
+  },
+  "cell" : [ {
+    "v_number" : "PII_PHONE_NUMBER",
+    "price" : 4808.99,
+    "type" : "STRING"
   } ]
 }

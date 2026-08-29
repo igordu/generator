@@ -1,0 +1,17 @@
+{
+  "slackChannel" : "STRING",
+  "createdAt" : "DATETIME",
+  "name" : "STRING",
+  "teamId" : "STRING",
+  "v_members" : [ {
+    "v_joinedAt" : "DATETIME",
+    "userId" : "STRING",
+    "v_role" : "STRING",
+    "name_val" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "cpu_usage_percent" : 92.55
+  } ],
+  "ownedServices" : [ "NULL" ],
+  "description" : "STRING",
+  "uuid" : null
+}

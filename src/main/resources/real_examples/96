@@ -1,0 +1,31 @@
+{
+  "roleId": "role-product-manager",
+  "name": "Product Manager",
+  "description": "Access to product analytics, roadmap, and customer feedback tools",
+  "permissions": [
+    "analytics:read",
+    "roadmap:read",
+    "roadmap:write",
+    "feedback:read",
+    "users:read",
+    "billing:read"
+  ],
+  "inheritedFrom": ["role-viewer"],
+  "assignedTo": [
+    {
+      "userId": "usr-00182",
+      "email": "pm@company.com",
+      "name": "Jordan Lee",
+      "assignedAt": "2023-09-01T00:00:00Z"
+    },
+    {
+      "userId": "usr-00291",
+      "email": "product@company.com",
+      "name": "Taylor Kim",
+      "assignedAt": "2024-01-15T00:00:00Z"
+    }
+  ],
+  "createdAt": "2023-01-01T00:00:00Z",
+  "updatedAt": "2024-03-01T00:00:00Z",
+  "createdBy": "admin@company.com"
+}

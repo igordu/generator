@@ -1,36 +1,28 @@
 {
-  "Id" : "STRING",
-  "Employees" : [ {
-    "ExternalLink_data" : {
-      "Description" : "STRING",
-      "Url" : "URL"
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING",
-    "Status" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  }, {
-    "v_ExternalLink" : {
-      "v_Url" : "URL",
-      "Description_data" : "STRING"
-    },
-    "UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "recordId" : "NULL",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "v_UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
-    }
-  } ],
-  "Status" : null,
-  "DateTimeUTC_data" : "DATETIME",
-  "ProviderName" : "STRING"
+  "streetAddress" : "PII_ADDRESS_LINE",
+  "businessPhones" : [ "PII_PHONE_NUMBER" ],
+  "state_data" : "STRING",
+  "v_jobTitle" : "STRING",
+  "onPremisesSamAccountName" : "PII_USERNAME",
+  "v_country" : "PII_LOCATION_COUNTRY",
+  "temperature_c" : 22.21,
+  "clientName" : "PII_PERSON_NAME",
+  "department" : "STRING",
+  "userPrincipalName" : "PII_EMAIL",
+  "createdDateTime" : "DATETIME",
+  "recordId" : "STRING",
+  "employeeId" : "STRING",
+  "accountEnabled" : "BOOLEAN",
+  "employeeType" : "STRING",
+  "companyName" : "PII_COMPANY_NAME",
+  "officeLocation" : "STRING",
+  "mobilePhone" : "PII_PHONE_NUMBER",
+  "usageLocation" : "STRING",
+  "v_postalCode" : null,
+  "userType_data" : "STRING",
+  "city" : "PII_LOCATION_CITY",
+  "givenName" : "PII_PERSON_FIRST_NAME",
+  "preferredLanguage" : "STRING",
+  "mail" : "PII_EMAIL",
+  "userName" : "PII_PERSON_LAST_NAME"
 }

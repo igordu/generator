@@ -1,0 +1,19 @@
+{
+  "namespace" : "STRING",
+  "v_creationTimestamp" : "DATETIME",
+  "configMapName" : "STRING",
+  "data" : {
+    "mail" : "PII_EMAIL",
+    "SMTP_PORT_data" : "STRING",
+    "v_MAX_CONNECTIONS" : "STRING",
+    "DATABASE_NAME" : "STRING",
+    "DATABASE_PORT" : "STRING",
+    "v_LOG_LEVEL" : "STRING",
+    "FEATURE_FLAG_NEW_CHECKOUT" : "NULL",
+    "REDIS_HOST" : "STRING",
+    "REQUEST_TIMEOUT_MS_data" : "STRING",
+    "SMTP_HOST" : "STRING",
+    "v_REDIS_PORT" : "STRING",
+    "DATABASE_HOST" : "STRING"
+  }
+}

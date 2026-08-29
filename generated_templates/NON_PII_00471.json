@@ -1,5 +1,18 @@
 {
-  "flowName" : "",
-  "retry_attempts" : 3967,
-  "clientToken" : "STRING"
+  "firstReceivedAt" : "DATETIME",
+  "lastReceivedAt" : "DATETIME",
+  "attributes" : {
+    "stock_quantity" : 1991,
+    "retryPolicy" : "STRING"
+  },
+  "messageId" : "STRING",
+  "receiveCount" : "INT",
+  "movedToDlqAt" : "DATETIME",
+  "queueName" : "STRING",
+  "originalQueue" : "STRING",
+  "body" : {
+    "orderId" : "STRING",
+    "errorMessage" : "STRING",
+    "errorCode" : "STRING"
+  }
 }

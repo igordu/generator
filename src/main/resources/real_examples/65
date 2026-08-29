@@ -1,0 +1,15 @@
+{
+  "serviceId": "svc-api-gateway-prod",
+  "checkId": "health-check-http-200",
+  "status": "passing",
+  "output": "HTTP GET https://api.example.com/health returned 200 in 23ms",
+  "timestamp": "2024-04-10T15:00:00Z",
+  "interval": "30s",
+  "consecutiveSuccesses": 480,
+  "consecutiveFailures": 0,
+  "node": {
+    "id": "node-us-east-1a-001",
+    "address": "10.0.1.10",
+    "datacenter": "us-east-1a"
+  }
+}

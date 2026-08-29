@@ -1,77 +1,22 @@
-[ {
-  "parents" : [ {
-    "url_data" : null,
-    "v_sha" : "STRING",
-    "requires_update" : true
-  } ],
-  "url_data" : "URL",
-  "node_id" : "STRING",
-  "v_committer" : {
-    "site_admin_data" : "BOOLEAN",
-    "page_index" : 2784,
-    "v_following_url" : "URL",
-    "events_url_data" : "URL",
-    "gravatar_id" : "STRING",
-    "v_url" : "URL",
+{
+  "registry" : "STRING",
+  "uuid" : "STRING",
+  "startedAt" : "DATETIME",
+  "completedAt" : "DATETIME",
+  "version_data" : "STRING",
+  "v_rollback" : {
+    "item_count" : 3168,
+    "v_previousVersion" : "STRING",
+    "available" : "BOOLEAN"
+  },
+  "v_environment" : "STRING",
+  "initiatedBy" : {
+    "actor" : "PII_EMAIL",
     "type" : "STRING",
-    "subscriptions_url" : "URL",
-    "login" : "STRING",
-    "received_events_url" : "URL",
-    "html_url" : "URL",
-    "id" : "INT",
-    "v_organizations_url" : "URL",
-    "node_id" : "STRING",
-    "followers_url" : "URL",
-    "v_starred_url" : "URL",
-    "repos_url" : "URL",
-    "avatar_url_data" : "URL"
+    "triggeredBy" : "STRING",
+    "pipelineId" : "STRING"
   },
-  "html_url" : "URL",
-  "sha" : "STRING",
-  "comments_url_data" : "",
-  "author_data" : {
-    "followers_url" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "repos_url" : "URL",
-    "node_id" : "STRING",
-    "gravatar_id" : "STRING",
-    "events_url_data" : "URL",
-    "type_data" : "STRING",
-    "subscriptions_url" : "URL",
-    "html_url" : "URL",
-    "avatar_url" : "URL",
-    "following_url" : "URL",
-    "login" : "STRING",
-    "id" : "INT",
-    "url" : "URL",
-    "organizations_url" : "URL",
-    "starred_url_data" : "URL",
-    "v_received_events_url" : "URL"
-  },
-  "commit" : {
-    "verification" : {
-      "verified_at" : "DATETIME",
-      "payload" : "STRING",
-      "reason" : "STRING",
-      "signature_data" : "STRING",
-      "priority_level" : 4729,
-      "verified" : "BOOLEAN"
-    },
-    "committer" : {
-      "fullName" : "PII_PERSON_NAME",
-      "date" : "DATETIME",
-      "is_active" : false,
-      "emailAddress" : "PII_EMAIL"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "comment_count" : "INT",
-    "url_data" : "URL",
-    "cache_hit" : true,
-    "author" : {
-      "name" : "PII_PERSON_NAME",
-      "date_data" : "DATETIME",
-      "price" : 950.64,
-      "email" : "PII_EMAIL"
-    }
-  }
-} ]
+  "artifactDigest" : "STRING",
+  "service" : "STRING",
+  "status_data" : "STRING"
+}

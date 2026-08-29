@@ -1,22 +1,31 @@
 {
   "content" : [ {
-    "v_helpfulCount" : "INT",
-    "rating" : "NULL",
-    "reviewId" : "STRING",
-    "articleSizeRatings" : {
-      "identifier" : "INT",
-      "is_deleted" : true,
-      "OVERALL" : "INT"
-    },
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "articleId" : "STRING",
-    "created" : "DATETIME",
-    "v_customerCity" : "PII_LOCATION_CITY",
-    "language" : "STRING",
-    "articleModelId" : "STRING",
-    "recommend_data" : "BOOLEAN",
-    "v_description" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "unhelpfulCount" : ""
-  } ]
+    "value" : "PII_FREE_TEXT",
+    "http_status" : 2763,
+    "type" : "STRING"
+  } ],
+  "send_at" : "DATETIME_EPOCH",
+  "categories_data" : [ "STRING" ],
+  "reply_to" : {
+    "mail" : "PII_EMAIL"
+  },
+  "personalizations_data" : [ {
+    "subject" : "STRING",
+    "to" : [ {
+      "name_val" : "PII_PERSON_NAME",
+      "item_count" : 4723,
+      "email" : "PII_EMAIL"
+    } ]
+  } ],
+  "batch_id" : "STRING",
+  "mail_settings" : {
+    "sandbox_mode" : {
+      "enable" : "BOOLEAN"
+    }
+  },
+  "page_index" : 2228,
+  "from" : {
+    "email" : "PII_EMAIL",
+    "clientName" : "PII_PERSON_NAME"
+  }
 }

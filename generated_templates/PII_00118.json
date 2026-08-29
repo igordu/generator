@@ -1,57 +1,32 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "userId" : "STRING",
-      "businessAccount_data" : {
-        "page_index" : 3497,
-        "mobile" : {
-          "number" : "PII_PHONE_NUMBER",
-          "phoneType" : "STRING",
-          "countryCode" : "STRING"
-        },
-        "telephone" : {
-          "phoneType" : "STRING",
-          "response_time_sec" : 188.47,
-          "number" : "PII_PHONE_NUMBER",
-          "countryCode" : "STRING"
-        },
-        "email" : "PII_EMAIL",
-        "doingBusinessAs" : "STRING",
-        "primaryContact" : {
-          "lastName" : "PII_PERSON_NAME",
-          "firstName" : "PII_PERSON_NAME"
-        },
-        "name_val" : "PII_ORGANIZATION_NAME",
-        "website_data" : "URL"
-      },
-      "userName" : "PII_USERNAME",
-      "uuid" : {
-        "primaryPhone" : {
-          "number" : "PII_PHONE_NUMBER",
-          "auto_renew" : false,
-          "countryCode" : "STRING",
-          "phoneType" : "STRING"
-        },
-        "secondaryPhone" : {
-          "number" : "PII_PHONE_NUMBER",
-          "telephone" : "STRING",
-          "stock_quantity" : 3961
-        },
-        "email" : "PII_EMAIL",
-        "firstName" : "PII_PERSON_NAME",
-        "registrationAddress" : {
-          "stateOrProvince" : "STRING",
-          "country" : null,
-          "city" : "STRING",
-          "system_ping_ms" : 2685,
-          "v_addressLine1" : "STRING",
-          "county_data" : "STRING"
-        },
-        "name_val" : "PII_PERSON_NAME"
-      },
-      "status_data" : "STRING",
-      "identifier" : "STRING",
-      "accountType" : "STRING"
+  "batch_id" : "STRING",
+  "v_from" : {
+    "has_discount" : true,
+    "fullName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "mail_settings_data" : {
+    "sandbox_mode" : {
+      "enable" : "BOOLEAN"
     }
-  }
+  },
+  "v_reply_to" : {
+    "email" : "PII_EMAIL",
+    "priority_level" : 4525
+  },
+  "v_personalizations" : [ {
+    "to" : [ {
+      "page_index" : 190,
+      "email" : "PII_EMAIL",
+      "fullName" : "PII_PERSON_NAME"
+    } ],
+    "subject" : "STRING"
+  } ],
+  "send_at" : "DATETIME_EPOCH",
+  "categories" : [ "STRING" ],
+  "content" : [ {
+    "value_data" : "PII_FREE_TEXT",
+    "type_data" : "STRING"
+  } ],
+  "http_status" : 689
 }

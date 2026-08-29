@@ -1,16 +1,50 @@
-{
-  "shopUrl" : "URL",
-  "name" : "NULL",
-  "uuid" : "STRING",
+[ {
+  "simplified_data" : "BOOLEAN",
+  "fullName" : "STRING",
+  "style" : "STRING",
+  "insight" : {
+    "system_ping_ms" : 22,
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount_data" : "INT"
+  },
+  "self_data" : "URL",
+  "v_avatarUrls" : {
+    "16x16" : "URL",
+    "24x24_data" : "URL",
+    "is_deleted" : true,
+    "32x32" : "URL",
+    "48x48" : "URL"
+  },
   "id" : "STRING",
-  "v_media" : {
-    "images" : [ {
-      "largeUrl" : "URL",
-      "type" : "STRING",
-      "orderNumber" : "INT",
-      "largeHdUrl" : "URL",
-      "mediumUrl" : "URL",
-      "mediumHdUrl" : "URL"
-    } ]
+  "v_projectCategory" : {
+    "v_description" : "STRING",
+    "is_deleted" : false,
+    "id" : "",
+    "name" : "STRING"
   }
-}
+}, {
+  "name" : "STRING",
+  "self_data" : "URL",
+  "style" : "STRING",
+  "v_simplified" : "BOOLEAN",
+  "projectCategory_data" : {
+    "description" : "STRING",
+    "userName" : "STRING",
+    "has_discount" : false,
+    "self_data" : "URL",
+    "recordId" : "STRING"
+  },
+  "auto_renew" : false,
+  "id" : "STRING",
+  "key" : "STRING",
+  "avatarUrls" : {
+    "conversion_rate" : 5.56,
+    "24x24" : "URL",
+    "48x48" : "URL",
+    "32x32" : "URL"
+  },
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  }
+} ]

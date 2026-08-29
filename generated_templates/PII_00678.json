@@ -1,36 +1,71 @@
 {
-  "requires_update" : true,
-  "Employees" : [ {
-    "ExternalLink" : {
-      "system_ping_ms" : 4113,
-      "v_Description" : "STRING",
-      "Url" : null
+  "v_Personal_Data" : {
+    "fullName" : {
+      "Legal_Name_Data" : {
+        "Name_Detail_Data" : {
+          "is_deleted" : false,
+          "First_Name" : "PII_PERSON_FIRST_NAME",
+          "Middle_Name" : "PII_PERSON_FIRST_NAME",
+          "Last_Name" : "PII_PERSON_LAST_NAME"
+        }
+      },
+      "item_count" : 3874
     },
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "conversion_rate" : 522.92,
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING"
-  }, {
-    "ExternalLink_data" : {
-      "Url" : "URL",
-      "Description_data" : "STRING",
-      "is_deleted" : false
+    "priority_level" : 4345,
+    "Contact_Data_data" : {
+      "Phone_Data" : [ {
+        "auto_renew" : false,
+        "Phone_Number" : "PII_PHONE_NUMBER",
+        "Phone_Device_Type_Reference" : {
+          "WID" : "STRING",
+          "is_deleted" : true
+        }
+      } ],
+      "mail" : [ {
+        "mail" : "PII_EMAIL"
+      } ],
+      "v_Address_Data" : [ {
+        "Municipality" : "PII_LOCATION_CITY",
+        "v_Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        },
+        "v_Address_Line_Data" : [ {
+          "Type" : "STRING",
+          "content" : "PII_ADDRESS_LINE",
+          "has_discount" : true
+        } ],
+        "Postal_Code" : "STRING",
+        "Usage_Data" : {
+          "Type_Data" : [ { } ],
+          "temperature_c" : 34.41
+        }
+      } ]
     },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "Status" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "fullName" : "PII_PERSON_LAST_NAME",
-    "v_UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "requires_update" : false,
-    "v_Status" : "STRING",
-    "EmployeeID" : "STRING"
-  } ],
-  "userName" : "STRING",
-  "DateTimeUTC" : "DATETIME"
+    "Identification_Data" : {
+      "Birth_Date" : "PII_DATE_OF_BIRTH",
+      "primaryKey" : [ {
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        },
+        "auto_renew" : false,
+        "National_ID_Type_Reference" : {
+          "WID" : "STRING",
+          "cache_hit" : true
+        },
+        "National_ID" : "PII_NATIONAL_ID"
+      } ]
+    }
+  },
+  "Worker_ID" : "STRING",
+  "Employment_Data" : {
+    "Worker_Job_Data" : {
+      "Position_Data" : {
+        "Job_Title_data" : "STRING",
+        "Start_Date_data" : "DATE",
+        "Position_ID" : "STRING"
+      },
+      "http_status" : 2473
+    }
+  },
+  "stock_quantity" : 2412
 }

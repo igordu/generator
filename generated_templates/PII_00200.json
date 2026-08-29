@@ -1,65 +1,28 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "registrationMarketplaceId" : "STRING",
-    "businessAccount" : {
-      "secondaryPhone" : {
-        "item_count" : 1485,
-        "countryCode" : "STRING",
-        "number_data" : "PII_PHONE_NUMBER",
-        "phoneType" : "STRING"
+  "transactions" : {
+    "auto_renew" : false,
+    "booked_data" : [ {
+      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME",
+      "bankTransactionCode" : {
+        "family" : "STRING",
+        "domain" : "STRING",
+        "subFamily" : "STRING"
       },
-      "cell" : {
-        "number" : "PII_PHONE_NUMBER",
-        "countryCode" : "STRING"
+      "creditorName" : "PII_PERSON_NAME",
+      "bookingDate_data" : "",
+      "creditorAccount" : {
+        "requires_update" : true,
+        "iban" : "PII_IBAN"
       },
-      "emailAddress" : "PII_EMAIL",
-      "doingBusinessAs" : "STRING",
-      "fullName" : "PII_ORGANIZATION_NAME",
-      "v_website" : "URL",
-      "primaryContact_data" : {
-        "clientName" : "PII_PERSON_NAME",
-        "discount_rate" : 360.49,
-        "firstName" : "PII_PERSON_NAME"
+      "debtorAccount" : {
+        "iban" : "STRING"
       },
-      "v_address" : {
-        "postalCode" : "STRING",
-        "addressLine1" : "STRING",
-        "v_county" : "STRING",
-        "country" : "STRING",
-        "addressLine2" : "STRING",
-        "v_city" : "STRING",
-        "stateOrProvince_data" : "STRING"
+      "transactionId" : "STRING",
+      "valueDate" : "DATE",
+      "amount" : {
+        "currency" : "",
+        "v_amount" : "DECIMAL"
       }
-    },
-    "userId" : "STRING",
-    "accountType" : "STRING",
-    "status" : "STRING",
-    "individualAccount" : {
-      "primaryPhone" : {
-        "price" : 306.47,
-        "phoneType" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      },
-      "registrationAddress" : {
-        "city" : "STRING",
-        "v_postalCode" : "STRING",
-        "stateOrProvince" : "STRING",
-        "country" : "STRING",
-        "temperature_c" : 407.13,
-        "addressLine1_data" : "STRING",
-        "addressLine2" : "STRING"
-      },
-      "secondaryPhone" : {
-        "v_number" : "PII_PHONE_NUMBER",
-        "v_countryCode" : "STRING",
-        "contactNumber" : "STRING"
-      },
-      "name_val" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "username" : "PII_USERNAME"
+    } ]
   }
 }

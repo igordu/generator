@@ -1,0 +1,34 @@
+{
+  "scopes" : [ "STRING" ],
+  "grantType" : "NULL",
+  "idToken" : {
+    "email" : "PII_EMAIL",
+    "phone_number" : "PII_PHONE_NUMBER",
+    "has_discount" : true,
+    "userName" : "PII_PERSON_NAME",
+    "v_birthdate" : "PII_DATE_OF_BIRTH",
+    "address" : {
+      "postal_code" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street_address" : "PII_ADDRESS_LINE",
+      "locality" : "PII_LOCATION_CITY",
+      "region" : "STRING"
+    },
+    "v_sub" : "STRING"
+  },
+  "primaryKey" : "STRING",
+  "v_issuedAt" : "DATETIME",
+  "grantId" : "NULL",
+  "refreshToken_data" : {
+    "jti" : "STRING",
+    "requires_update" : true,
+    "v_expiresAt" : "DATETIME",
+    "rotated" : "BOOLEAN"
+  },
+  "accessToken" : {
+    "expiresAt_data" : null,
+    "type" : "STRING"
+  },
+  "email" : "PII_EMAIL",
+  "userId" : "STRING"
+}

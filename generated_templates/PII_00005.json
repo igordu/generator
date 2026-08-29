@@ -1,23 +1,22 @@
 {
+  "item_count" : 1675,
   "content" : [ {
-    "reviewId" : "STRING",
-    "created" : "DATETIME",
     "unhelpfulCount" : "INT",
-    "articleId" : "STRING",
-    "rating_data" : "INT",
-    "recommend_data" : "BOOLEAN",
-    "articleModelId" : "STRING",
-    "page_index" : 4133,
+    "uuid" : "STRING",
+    "description_data" : "STRING",
+    "reviewId" : "STRING",
+    "rating" : "INT",
+    "language" : "STRING",
     "customerCity" : "PII_LOCATION_CITY",
+    "v_helpfulCount" : "INT",
+    "v_recommend" : "BOOLEAN",
     "articleSizeRatings" : {
-      "recordId" : "INT",
-      "OVERALL" : "INT"
+      "OVERALL" : "INT",
+      "item_count" : 332,
+      "identifier" : "INT"
     },
-    "language_data" : "STRING",
-    "helpfulCount" : "INT",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_description" : "STRING",
-    "title" : "PII_COMPANY_NAME"
-  } ],
-  "discount_rate" : 109.06
+    "created" : "",
+    "customerCountry_data" : "PII_LOCATION_COUNTRY",
+    "title" : "STRING"
+  } ]
 }

@@ -1,15 +1,37 @@
 {
-  "audit_trail" : {
-    "payload_wrapper" : {
-      "extracted_info" : {
-        "page_index" : 1573,
-        "active" : "BOOLEAN",
-        "user_info_data" : {
-          "userName" : "PII_COMPANY_NAME",
-          "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-          "family-name-male" : "PII_LAST_NAME_MALE"
-        }
-      }
-    }
+  "accountId" : "NULL",
+  "csm" : {
+    "recordId" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "temperature_c" : 16.87
+  },
+  "name" : "PII_COMPANY_NAME",
+  "discount_rate" : 13.98,
+  "website_data" : null,
+  "type" : "STRING",
+  "v_annualRevenue" : "INT",
+  "industry_data" : "STRING",
+  "primaryContact" : {
+    "title" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "fullName" : "PII_PERSON_NAME",
+    "primary_email" : "PII_EMAIL"
+  },
+  "contracts" : [ {
+    "startDate" : "DATE",
+    "response_time_sec" : 17.03,
+    "value" : "DECIMAL",
+    "product" : "STRING",
+    "endDate_data" : "DATE",
+    "currency" : "STRING",
+    "status_data" : "STRING",
+    "contractId" : "STRING"
+  } ],
+  "billingAddress_data" : {
+    "city" : "PII_LOCATION_CITY",
+    "v_postalCode" : "STRING",
+    "street" : "PII_ADDRESS_LINE",
+    "country" : "PII_LOCATION_COUNTRY"
   }
 }

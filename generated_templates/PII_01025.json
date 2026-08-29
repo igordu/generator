@@ -1,21 +1,31 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "checkOut_data" : "DATE",
+  "room" : {
+    "price" : 7925.56,
+    "type" : "STRING",
+    "roomNumber" : "STRING",
+    "bedType" : "STRING",
+    "v_floor" : "INT"
   },
-  "results" : {
-    "last4" : "STRING",
-    "status_data" : "STRING",
-    "id" : "NULL",
-    "customer" : "STRING",
-    "conversion_rate" : 346.84,
-    "name_val" : "PII_PERSON_NAME",
-    "routing_number" : "STRING",
-    "fingerprint_data" : "STRING",
-    "currency" : "STRING",
-    "metadata" : "OBJECT",
-    "account_holder_type" : "STRING",
-    "v_object" : "STRING",
-    "bank_name" : "STRING"
+  "loyaltyNumber_data" : "STRING",
+  "checkIn" : "DATE",
+  "specialRequests" : "STRING",
+  "createdAt" : "DATETIME",
+  "recordId" : "STRING",
+  "hotel" : {
+    "name" : "PII_COMPANY_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "status" : "STRING",
+  "v_guest" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "conversion_rate" : 1.47,
+    "telephone" : "PII_PHONE_NUMBER",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "v_nationality" : "PII_LOCATION_COUNTRY",
+    "primary_email" : "PII_EMAIL",
+    "passportNumber" : "PII_NATIONAL_ID"
   }
 }

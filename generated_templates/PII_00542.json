@@ -1,24 +1,41 @@
 {
-  "cache_hit" : false,
-  "transactions" : {
-    "booked_data" : [ {
-      "userName" : "PII_PERSON_NAME",
-      "recordId" : "STRING",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "valueDate" : "DATE",
-      "debtorAccount" : {
-        "iban" : "STRING"
-      },
-      "v_creditorAccount" : {
-        "iban_data" : "PII_IBAN",
-        "requires_update" : true
-      },
-      "debtorName" : "STRING",
-      "amount" : {
-        "currency" : "STRING"
-      },
-      "bookingDate" : "DATE"
-    } ],
-    "cache_hit" : false
+  "server_logs" : {
+    "request_context" : {
+      "extracted_info" : {
+        "last_name" : "PII_PERSON_LAST_NAME",
+        "state_data" : "STRING",
+        "clientName" : "PII_PERSON_FIRST_NAME",
+        "uuid" : "INT",
+        "v_tags" : "STRING",
+        "default_address" : {
+          "name_val" : "PII_PERSON_LAST_NAME",
+          "country" : "PII_LOCATION_COUNTRY",
+          "address2" : "STRING",
+          "cell" : "PII_PHONE_NUMBER",
+          "zip" : "STRING",
+          "v_province" : "STRING",
+          "country_code" : "STRING",
+          "city" : "PII_LOCATION_CITY",
+          "province_code" : "STRING",
+          "default" : "BOOLEAN",
+          "customer_id" : "NULL",
+          "name" : "PII_PERSON_NAME",
+          "auto_renew" : false,
+          "id" : "INT",
+          "first_name" : "PII_PERSON_FIRST_NAME",
+          "address1_data" : "PII_ADDRESS_LINE",
+          "v_company" : "PII_COMPANY_NAME"
+        },
+        "contactEmail" : "PII_EMAIL",
+        "created_at" : "DATETIME",
+        "accepts_marketing" : "BOOLEAN",
+        "note" : "STRING",
+        "phone" : "PII_PHONE_NUMBER",
+        "v_updated_at" : "DATETIME",
+        "currency" : "STRING",
+        "total_spent" : "DECIMAL",
+        "identifier" : "INT"
+      }
+    }
   }
 }

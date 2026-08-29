@@ -1,16 +1,22 @@
 {
   "name" : "STRING",
-  "modelId" : "STRING",
-  "id" : "STRING",
-  "media" : {
-    "images" : [ {
-      "mediumUrl" : "URL",
-      "largeUrl" : "URL",
-      "v_largeHdUrl" : "URL",
-      "thumbnailHdUrl_data" : "URL",
-      "mediumHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "v_type" : "STRING"
-    } ]
-  }
+  "target_commitish" : "STRING",
+  "tag_name" : "STRING",
+  "prerelease" : "BOOLEAN",
+  "conversion_rate" : 5.3,
+  "published_at" : "DATETIME",
+  "v_created_at" : "DATETIME",
+  "assets" : [ {
+    "name" : "STRING",
+    "browser_download_url" : "URL",
+    "http_status" : 3872,
+    "size_data" : null,
+    "content_type" : "STRING",
+    "download_count_data" : "INT"
+  } ],
+  "changelog" : [ {
+    "message" : "TEXT",
+    "files_changed" : null,
+    "page_index" : 3310
+  } ]
 }

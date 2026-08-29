@@ -1,82 +1,23 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "parents" : [ {
-      "sha" : "STRING",
-      "v_url" : ""
-    } ],
-    "html_url" : "URL",
-    "author" : {
-      "type" : "STRING",
-      "v_avatar_url" : "URL",
-      "subscriptions_url" : "URL",
-      "html_url" : "URL",
-      "id" : "INT",
-      "organizations_url" : "URL",
-      "node_id" : "STRING",
-      "url" : "URL",
-      "site_admin" : "BOOLEAN",
-      "v_followers_url" : "URL",
-      "repos_url_data" : "URL",
-      "received_events_url" : "URL",
-      "gists_url" : "URL",
-      "gravatar_id" : "STRING",
-      "following_url" : "URL",
-      "retry_attempts" : 2699
-    },
-    "url" : "URL",
-    "node_id" : "STRING",
-    "comments_url" : "URL",
-    "commit" : {
-      "priority_level" : 1846,
-      "tree" : {
-        "url" : "URL",
-        "sha" : "STRING",
-        "page_index" : 4135
-      },
-      "committer" : {
-        "email" : "PII_EMAIL",
-        "name" : "PII_PERSON_NAME",
-        "date" : "DATETIME"
-      },
-      "v_url" : "URL",
-      "author_data" : {
-        "date" : "DATETIME",
-        "name" : "PII_PERSON_NAME",
-        "primary_email" : "PII_EMAIL"
-      },
-      "v_message" : "PII_COMPANY_NAME",
-      "comment_count" : "INT",
-      "verification" : {
-        "verified_at" : "DATETIME",
-        "is_active" : false,
-        "payload" : "STRING",
-        "signature_data" : "STRING",
-        "verified" : "BOOLEAN"
-      }
-    },
-    "v_committer" : {
-      "v_html_url" : "URL",
-      "starred_url" : "URL",
-      "subscriptions_url" : "URL",
-      "v_site_admin" : "BOOLEAN",
-      "v_gists_url" : "URL",
-      "url" : "URL",
-      "id" : "INT",
-      "avatar_url" : "NULL",
-      "v_events_url" : "URL",
-      "uuid" : "STRING",
-      "followers_url_data" : "URL",
-      "v_received_events_url" : "URL",
-      "recordId" : "STRING",
-      "following_url" : "URL",
-      "repos_url" : "URL",
-      "type_data" : "STRING",
-      "page_index" : 4594,
-      "organizations_url" : "URL",
-      "login" : "STRING"
-    },
-    "sha" : "STRING"
-  } ]
+  "retentionDays" : "INT",
+  "consentId" : "STRING",
+  "dataSubject" : {
+    "email" : "PII_EMAIL",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "id" : "STRING",
+    "name_val" : "PII_PERSON_LAST_NAME"
+  },
+  "purposes" : [ {
+    "granted" : "BOOLEAN",
+    "system_ping_ms" : 1686,
+    "id" : "STRING",
+    "grantedAt" : "DATETIME",
+    "name" : "STRING"
+  } ],
+  "v_collectedAt" : "DATETIME",
+  "withdrawnAt" : "NULL",
+  "legalBasis" : "STRING",
+  "auto_renew" : false
 }

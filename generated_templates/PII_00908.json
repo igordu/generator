@@ -1,31 +1,31 @@
 {
-  "data" : [ {
-    "v_invoice_prefix" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "created" : "DATETIME_EPOCH",
-    "v_balance" : "INT",
-    "retry_attempts" : 4805,
-    "v_object" : "STRING",
-    "mobile" : "PII_PHONE_NUMBER",
-    "tax_exempt" : "STRING",
-    "default_source" : "STRING",
-    "metadata" : "OBJECT",
-    "address" : "NULL",
-    "preferred_locales" : null,
-    "identifier" : "STRING",
-    "description" : "STRING",
-    "shipping" : "NULL",
-    "invoice_settings" : {
-      "rendering_options" : "NULL",
-      "custom_fields_data" : "NULL",
-      "default_payment_method" : "STRING"
+  "policyHolder" : {
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "telephone" : "PII_PHONE_NUMBER",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "address" : {
+      "city" : "PII_LOCATION_CITY",
+      "state" : "STRING",
+      "street_data" : "PII_ADDRESS_LINE",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "zip" : "STRING"
     },
-    "v_delinquent" : "BOOLEAN",
-    "mail" : "PII_EMAIL",
-    "next_invoice_sequence" : "INT",
-    "currency_data" : "STRING",
-    "livemode" : "BOOLEAN"
-  } ],
-  "v_has_more" : "BOOLEAN",
-  "url" : "URL"
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "priority_level" : 2429,
+  "claimType" : "STRING",
+  "adjuster" : {
+    "primaryKey" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "reportedDate_data" : "DATE",
+  "description" : "STRING",
+  "claimId" : "STRING",
+  "incidentDate" : "DATE",
+  "v_currency" : "STRING",
+  "policyNumber_data" : "STRING",
+  "status_data" : "STRING",
+  "estimatedLoss_data" : "DECIMAL"
 }

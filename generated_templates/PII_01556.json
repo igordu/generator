@@ -1,0 +1,31 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "inferenceStats_data" : {
+      "p99LatencyMs" : "INT",
+      "avgLatencyMs" : "INT",
+      "requestsToday" : "INT"
+    },
+    "v_framework" : "STRING",
+    "trainedBy" : "PII_EMAIL",
+    "featureImportance" : {
+      "v_days_since_last_login" : "DECIMAL",
+      "price" : 5639.32,
+      "product_usage_score" : "DECIMAL",
+      "monthly_spend_trend" : "DECIMAL",
+      "support_ticket_count" : "DECIMAL"
+    },
+    "metrics" : {
+      "v_f1Score" : "DECIMAL",
+      "accuracy" : "DECIMAL",
+      "auc_data" : "DECIMAL",
+      "recall" : "DECIMAL",
+      "precision_data" : "DECIMAL"
+    },
+    "clientName" : "STRING",
+    "trainingDataPeriod" : "STRING",
+    "deployedAt" : "DATETIME",
+    "endpoint" : "URL"
+  }
+}

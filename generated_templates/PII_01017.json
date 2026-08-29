@@ -1,14 +1,38 @@
 {
-  "clientName" : "STRING",
-  "last4" : "STRING",
-  "account_holder_type" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "metadata" : "OBJECT",
-  "country_data" : "STRING",
-  "currency" : "STRING",
   "status_data" : "STRING",
-  "routing_number" : "STRING",
-  "account_type" : "STRING",
-  "fingerprint" : "STRING",
-  "identifier" : "STRING"
+  "updatedAt_data" : "DATETIME",
+  "source_data" : "NULL",
+  "position" : {
+    "jobId" : "STRING",
+    "auto_renew" : true,
+    "department" : null,
+    "title" : "STRING",
+    "v_location" : "PII_LOCATION_CITY"
+  },
+  "candidate" : {
+    "temperature_c" : 21.42,
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "linkedIn" : "URL",
+    "address" : {
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "postalCode_data" : "STRING",
+      "street" : "PII_ADDRESS_LINE",
+      "city_data" : "PII_LOCATION_CITY"
+    },
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "resumeUrl" : "URL",
+    "email" : "PII_EMAIL",
+    "cell" : "PII_PHONE_NUMBER",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH"
+  },
+  "v_interviews" : [ {
+    "interviewer" : {
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    },
+    "type" : "NULL",
+    "round" : "INT"
+  } ],
+  "candidateId" : "STRING",
+  "is_active" : false
 }

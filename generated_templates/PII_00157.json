@@ -1,29 +1,32 @@
 {
-  "primaryKey" : "STRING",
-  "v_status" : "STRING",
-  "userName" : "PII_USERNAME",
-  "v_businessAccount" : {
-    "v_primaryContact" : {
-      "name_val" : "PII_PERSON_NAME",
-      "clientName" : "PII_PERSON_NAME"
+  "read" : "BOOLEAN",
+  "open" : "BOOLEAN",
+  "priority" : "STRING",
+  "conversation_parts" : [ {
+    "author" : {
+      "userName" : "PII_PERSON_NAME",
+      "type" : null
     },
-    "doingBusinessAs" : "STRING",
-    "address" : {
-      "county" : "STRING",
-      "city" : "STRING",
-      "country_data" : "STRING",
-      "addressLine1_data" : "STRING",
-      "v_postalCode" : "NULL",
-      "stateOrProvince_data" : "STRING"
+    "body" : "PII_FREE_TEXT",
+    "part_type" : "STRING",
+    "retry_attempts" : 1241,
+    "created_at" : "DATETIME_EPOCH"
+  } ],
+  "created_at_data" : "DATETIME_EPOCH",
+  "v_type" : "STRING",
+  "discount_rate" : 77.68,
+  "source" : {
+    "body_data" : "PII_FREE_TEXT",
+    "author" : {
+      "contactEmail" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "id" : "STRING",
+      "type" : "STRING"
     },
-    "cell" : {
-      "retry_attempts" : 727,
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "email" : "PII_EMAIL",
-    "website" : "URL"
+    "delivered_as" : "STRING",
+    "system_ping_ms" : 1305,
+    "subject_data" : "STRING"
   },
-  "accountType" : "STRING"
+  "id" : "STRING",
+  "state" : "STRING"
 }

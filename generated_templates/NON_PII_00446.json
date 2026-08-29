@@ -1,4 +1,11 @@
 {
-  "name_val" : "STRING",
-  "clientToken" : "STRING"
+  "namespace" : "STRING",
+  "hits" : "INT",
+  "ttl" : "INT",
+  "value" : {
+    "primaryKey" : "STRING",
+    "expiresAt" : "DATETIME"
+  },
+  "cacheKey" : "STRING",
+  "createdAt" : "DATETIME"
 }

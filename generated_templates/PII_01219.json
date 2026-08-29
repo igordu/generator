@@ -1,79 +1,34 @@
-[ {
-  "author" : {
-    "following_url" : "URL",
-    "starred_url" : "URL",
-    "gravatar_id" : "STRING",
-    "node_id" : "STRING",
-    "site_admin" : "BOOLEAN",
-    "gists_url" : "URL",
-    "html_url" : "URL",
-    "repos_url" : "URL",
-    "received_events_url_data" : "URL",
-    "login" : "STRING",
-    "url" : "URL",
-    "organizations_url" : "URL",
-    "subscriptions_url_data" : "URL",
-    "followers_url" : "URL",
-    "events_url" : "URL",
-    "avatar_url" : "URL",
-    "type" : "STRING"
+{
+  "total" : "DECIMAL",
+  "paymentTerms" : "STRING",
+  "invoiceId" : null,
+  "issuedAt" : "DATETIME",
+  "vendor" : {
+    "address" : "PII_ADDRESS_LINE",
+    "name" : "PII_COMPANY_NAME",
+    "stock_quantity" : 655,
+    "iban" : "PII_IBAN",
+    "email" : "PII_EMAIL",
+    "vatNumber_data" : "STRING"
   },
-  "url_data" : "URL",
-  "v_committer" : {
-    "received_events_url_data" : "URL",
-    "html_url" : "URL",
-    "avatar_url_data" : "URL",
-    "identifier" : "INT",
-    "site_admin" : "BOOLEAN",
-    "url" : "URL",
-    "v_starred_url" : "URL",
-    "repos_url" : "NULL",
-    "organizations_url" : null,
-    "followers_url" : "URL",
-    "gravatar_id" : "STRING",
-    "v_type" : "STRING",
-    "following_url" : "URL",
-    "gists_url" : "URL",
-    "v_login" : "STRING",
-    "subscriptions_url_data" : "URL",
-    "events_url" : "URL",
-    "node_id" : "STRING"
-  },
-  "uuid" : "STRING",
-  "comments_url_data" : "URL",
-  "commit" : {
-    "message" : "PII_COMPANY_NAME",
-    "author" : {
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME",
-      "date" : "DATETIME"
-    },
-    "tree_data" : {
-      "url_data" : "URL",
-      "sha" : "STRING"
-    },
-    "v_verification" : {
-      "verified_at" : "DATETIME",
-      "reason_data" : "STRING",
-      "verified" : "BOOLEAN",
-      "payload" : "STRING",
-      "signature" : "STRING"
-    },
-    "url" : "URL",
-    "committer" : {
-      "name" : "PII_PERSON_NAME",
-      "response_time_sec" : 453.76,
-      "date_data" : "DATETIME",
-      "contactEmail" : "PII_EMAIL"
-    },
-    "comment_count" : "INT",
-    "cache_hit" : true
-  },
-  "html_url" : "URL",
-  "sha" : "STRING",
-  "parents_data" : [ {
-    "sha" : "STRING",
-    "url" : "URL"
+  "lineItems" : [ {
+    "total" : "DECIMAL",
+    "auto_renew" : false,
+    "unitPrice" : "DECIMAL",
+    "v_description" : "STRING",
+    "quantity" : "INT",
+    "v_vatRate" : "DECIMAL"
   } ],
-  "cpu_usage_percent" : 791.45
-} ]
+  "cpu_usage_percent" : 3.38,
+  "customer" : {
+    "vatNumber" : "",
+    "item_count" : 729,
+    "email" : "PII_EMAIL",
+    "address_data" : "PII_ADDRESS_LINE",
+    "name" : "PII_PERSON_NAME",
+    "company" : "PII_COMPANY_NAME"
+  },
+  "dueDate" : "DATE",
+  "status" : "STRING",
+  "currency" : "STRING"
+}

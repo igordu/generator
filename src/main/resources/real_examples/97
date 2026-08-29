@@ -1,0 +1,24 @@
+{
+  "integrationId": "int-slack-notifications",
+  "name": "Slack Notifications",
+  "type": "outbound_webhook",
+  "status": "active",
+  "provider": "slack",
+  "createdAt": "2023-06-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "config": {
+    "webhookUrl": "https://hooks.slack.com/services/T012AB3C4/B012AB3C4/xyzabcdefghijklmnopqrst",
+    "channel": "#alerts-production",
+    "mentionOnError": "@oncall"
+  },
+  "triggers": ["deployment.failed", "alert.critical", "health_check.failed"],
+  "createdBy": {
+    "userId": "usr-admin-001",
+    "email": "devops@company.com"
+  },
+  "lastTriggeredAt": "2024-04-10T15:30:00Z",
+  "stats": {
+    "totalDeliveries": 482,
+    "successRate": 0.998
+  }
+}

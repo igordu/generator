@@ -1,0 +1,20 @@
+{
+  "data" : {
+    "v_FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+    "DATABASE_PORT" : "STRING",
+    "priority_level" : 176,
+    "REDIS_PORT" : "STRING",
+    "LOG_LEVEL" : "STRING",
+    "SMTP_HOST" : "STRING",
+    "DATABASE_HOST" : "STRING",
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "REDIS_HOST" : "STRING",
+    "SMTP_PORT" : "STRING",
+    "MAX_CONNECTIONS" : "STRING"
+  },
+  "creationTimestamp" : "DATETIME",
+  "namespace" : "STRING",
+  "v_resourceVersion" : "STRING",
+  "configMapName" : "STRING",
+  "temperature_c" : -3.63
+}

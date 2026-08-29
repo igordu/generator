@@ -1,0 +1,18 @@
+{
+  "queueName": "order-processing-dlq",
+  "messageId": "msg-20240410-00019283",
+  "receiveCount": 3,
+  "firstReceivedAt": "2024-04-10T13:45:22Z",
+  "lastReceivedAt": "2024-04-10T13:55:22Z",
+  "movedToDlqAt": "2024-04-10T13:55:23Z",
+  "originalQueue": "order-processing",
+  "attributes": {
+    "contentType": "application/json",
+    "retryPolicy": "exponential_backoff"
+  },
+  "body": {
+    "orderId": "ORD-2024-00821",
+    "errorCode": "PAYMENT_TIMEOUT",
+    "errorMessage": "Upstream payment provider did not respond within 5000ms"
+  }
+}

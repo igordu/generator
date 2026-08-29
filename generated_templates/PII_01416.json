@@ -1,0 +1,34 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "twoFactorEnabled" : "",
+      "createdAt" : "DATETIME",
+      "failedLoginAttempts" : "INT",
+      "lockedUntil" : "NULL",
+      "v_passwordLastChangedAt" : "DATETIME",
+      "activeSessions" : "INT",
+      "item_count" : 3615,
+      "trustedDevices" : [ {
+        "uuid" : "STRING",
+        "addedAt" : "DATETIME",
+        "macAddress" : "PII_MAC_ADDRESS",
+        "userName" : "STRING",
+        "v_lastUsedAt" : "DATETIME",
+        "page_index" : 4495,
+        "v_platform" : "STRING"
+      } ],
+      "securityEvents" : [ {
+        "v_type" : "STRING",
+        "timestamp" : "NULL",
+        "cpu_usage_percent" : 69.55,
+        "v_ipAddress" : "PII_IP_ADDRESS"
+      } ],
+      "v_oauthConnections" : [ {
+        "externalId" : "STRING",
+        "email" : "PII_EMAIL",
+        "connectedAt_data" : "DATETIME",
+        "provider" : "NULL"
+      } ]
+    }
+  }
+}

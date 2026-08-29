@@ -1,12 +1,27 @@
 {
-  "tree_data" : {
-    "url" : "URL",
-    "sha" : "STRING"
+  "temperature_c" : -6.28,
+  "chargesBearer" : "STRING",
+  "primaryKey" : "STRING",
+  "sender_data" : {
+    "bic" : "STRING",
+    "iban" : "PII_IBAN",
+    "name" : "PII_PERSON_NAME",
+    "accountId" : "STRING",
+    "bankName" : "PII_COMPANY_NAME"
   },
-  "user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "cpu_usage_percent" : 872.24,
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  }
+  "amount" : {
+    "is_deleted" : true,
+    "value" : "DECIMAL",
+    "currency" : "STRING"
+  },
+  "completedAt" : "DATETIME",
+  "initiatedAt" : "DATETIME",
+  "recipient_data" : {
+    "accountId" : "NULL",
+    "bankName" : "PII_COMPANY_NAME",
+    "name" : "PII_PERSON_NAME",
+    "bic" : "STRING",
+    "iban" : "PII_IBAN"
+  },
+  "reference" : "STRING"
 }

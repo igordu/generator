@@ -1,5 +1,16 @@
 {
-  "clientToken" : "STRING",
-  "fullName" : "STRING",
-  "price" : 743.0
+  "retryCount_data" : "INT",
+  "type" : "STRING",
+  "primaryKey" : "STRING",
+  "status" : "STRING",
+  "deliveredAt" : "DATETIME",
+  "campaign" : "NULL",
+  "response_time_sec" : 0.79,
+  "recipient" : {
+    "platform" : "STRING",
+    "v_deviceToken" : "STRING",
+    "userId" : "STRING",
+    "appVersion" : "STRING"
+  },
+  "sentAt" : "DATETIME"
 }

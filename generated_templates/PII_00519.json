@@ -1,30 +1,37 @@
 {
-  "transactions" : {
-    "cache_hit" : true,
-    "booked_data" : [ {
-      "amount" : {
-        "discount_rate" : 60.44,
-        "currency" : "STRING"
-      },
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "cache_hit" : true,
-      "bookingDate" : "DATE",
-      "debtorAccount" : {
-        "iban" : "STRING"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "transactionId" : "STRING",
-      "name_val" : "STRING",
-      "creditorName" : "PII_PERSON_NAME",
-      "bankTransactionCode" : {
-        "family" : "STRING",
-        "subFamily" : "STRING",
-        "v_domain" : "STRING"
-      },
-      "v_valueDate" : "DATE"
-    } ]
-  },
-  "retry_attempts" : 2787
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "categories" : [ "STRING" ],
+    "personalizations" : [ {
+      "cc" : [ {
+        "name" : "PII_PERSON_NAME",
+        "mail" : "PII_EMAIL"
+      } ],
+      "auto_renew" : false,
+      "to" : [ {
+        "clientName" : "PII_PERSON_NAME",
+        "email" : "PII_EMAIL"
+      } ],
+      "v_subject" : "NULL"
+    } ],
+    "status" : "STRING",
+    "from_data" : {
+      "name" : "PII_COMPANY_NAME",
+      "email" : "PII_EMAIL"
+    },
+    "template_id" : "STRING",
+    "v_reply_to" : {
+      "fullName" : "STRING",
+      "contactEmail" : "PII_EMAIL"
+    },
+    "subject_data" : "STRING",
+    "send_at" : "DATETIME_EPOCH",
+    "tracking_settings" : {
+      "click_tracking" : {
+        "v_enable" : "BOOLEAN",
+        "retry_attempts" : 768
+      }
+    }
+  }
 }

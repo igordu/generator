@@ -1,61 +1,24 @@
 {
-  "accountType" : "STRING",
-  "status" : "STRING",
-  "clientName" : "PII_USERNAME",
-  "uuid" : {
-    "registrationAddress" : {
-      "addressLine2" : "STRING",
-      "county" : "STRING",
-      "addressLine1_data" : "STRING",
-      "v_postalCode" : "STRING",
-      "city" : "STRING",
-      "v_country" : "STRING",
-      "stateOrProvince" : "STRING"
-    },
-    "secondaryPhone" : {
-      "is_active" : false,
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER",
-      "countryCode_data" : ""
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "primary_email" : "PII_EMAIL",
-    "lastName" : "PII_PERSON_NAME"
+  "LastModifiedDate_data" : "DATETIME",
+  "Title_data" : "STRING",
+  "Body" : "PII_FREE_TEXT",
+  "activity_log" : [ {
+    "action" : "STRING",
+    "note" : "PII_FREE_TEXT"
+  } ],
+  "attributes" : {
+    "response_time_sec" : 16.38,
+    "url" : "URL",
+    "type" : "STRING"
   },
-  "temperature_c" : 376.45,
-  "registrationMarketplaceId" : "STRING",
-  "businessAccount_data" : {
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "address" : {
-      "county" : "STRING",
-      "addressLine2_data" : "STRING",
-      "country" : "STRING",
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "STRING",
-      "v_postalCode" : "STRING"
-    },
-    "doingBusinessAs_data" : "STRING",
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "price" : 265.92,
-      "phoneType" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "telephone" : {
-      "auto_renew" : false,
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "contactNumber" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "userName" : "PII_ORGANIZATION_NAME",
-    "website" : "URL"
+  "OwnerId" : "STRING",
+  "v_IsPrivate" : "BOOLEAN",
+  "Id" : "STRING",
+  "ParentId" : "STRING",
+  "system_ping_ms" : 4504,
+  "Owner_data" : {
+    "Name" : "PII_PERSON_NAME",
+    "has_discount" : false,
+    "Department_data" : "STRING"
   }
 }

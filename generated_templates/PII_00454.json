@@ -1,39 +1,37 @@
 {
-  "meta" : {
-    "recordId" : "INT",
-    "lastUpdated_data" : "DATETIME"
+  "fullName" : {
+    "name_val" : "PII_PERSON_NAME",
+    "familyName" : "PII_PERSON_LAST_NAME",
+    "givenName" : "PII_PERSON_FIRST_NAME"
   },
-  "address" : [ {
+  "emails" : [ {
+    "stock_quantity" : 533,
+    "address" : "PII_EMAIL",
+    "v_primary" : "BOOLEAN"
+  } ],
+  "isAdmin" : "BOOLEAN",
+  "creationTime_data" : "DATETIME",
+  "isDelegatedAdmin" : "BOOLEAN",
+  "suspended_data" : "BOOLEAN",
+  "archived" : "BOOLEAN",
+  "v_agreedToTerms" : "BOOLEAN",
+  "isMailboxSetup" : "BOOLEAN",
+  "phones" : [ {
+    "type" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  } ],
+  "customerId" : "STRING",
+  "orgUnitPath" : "STRING",
+  "primaryEmail" : "PII_EMAIL",
+  "addresses" : [ {
+    "type" : "STRING",
     "country" : "PII_LOCATION_COUNTRY",
-    "city" : "PII_LOCATION_CITY",
-    "use" : "STRING",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "stock_quantity" : 3782
+    "region_data" : "STRING",
+    "postalCode" : "STRING",
+    "conversion_rate" : 3.48,
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "locality_data" : "PII_LOCATION_CITY"
   } ],
-  "page_index" : 3318,
-  "gender" : "STRING",
-  "userName" : [ {
-    "family" : "PII_PERSON_LAST_NAME",
-    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-    "system_ping_ms" : 2934
-  } ],
-  "birthDate" : "PII_DATE_OF_BIRTH",
-  "identifier" : [ {
-    "v_use" : "STRING",
-    "type" : {
-      "text_data" : "STRING"
-    },
-    "value" : "PII_NATIONAL_ID",
-    "cpu_usage_percent" : 641.47
-  } ],
-  "v_telecom" : [ {
-    "value" : "PII_PHONE_NUMBER",
-    "http_status" : 1014,
-    "use" : "NULL"
-  }, {
-    "response_time_sec" : 996.88,
-    "value" : "PII_EMAIL",
-    "system_data" : "STRING"
-  } ],
-  "v_resourceType" : "STRING"
+  "primary_email" : "PII_EMAIL",
+  "cell" : "PII_PHONE_NUMBER"
 }

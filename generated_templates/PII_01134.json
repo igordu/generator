@@ -1,48 +1,31 @@
 {
-  "followers" : "INT",
-  "v_following" : "INT",
-  "events_url" : "URL",
-  "avatar_url" : "URL",
-  "gists_url" : "URL",
-  "recordId" : "INT",
-  "url_data" : "URL",
-  "company" : "PII_ORGANIZATION_NAME",
-  "hireable_data" : "BOOLEAN",
-  "two_factor_authentication_data" : "BOOLEAN",
-  "email" : "PII_EMAIL",
-  "following_url_data" : "URL",
-  "total_private_repos" : "INT",
-  "received_events_url" : "URL",
-  "login" : "STRING",
-  "requires_update" : false,
-  "organizations_url" : "URL",
-  "created_at" : "DATETIME",
-  "node_id" : "STRING",
-  "v_followers_url" : "URL",
-  "plan" : {
-    "is_deleted" : true,
-    "private_repos_data" : "INT",
-    "space" : "INT",
-    "collaborators" : "INT",
-    "name" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "identifier" : "STRING",
-  "location" : "PII_LOCATION_CITY",
-  "clientName" : "STRING",
-  "updated_at" : "DATETIME",
-  "name_val" : "PII_PERSON_NAME",
-  "starred_url_data" : "URL",
-  "site_admin_data" : null,
-  "v_repos_url" : "URL",
-  "public_repos" : "INT",
-  "v_private_gists" : "INT",
-  "owned_private_repos" : "INT",
-  "blog" : "URL",
-  "v_bio" : "PII_ORGANIZATION_NAME",
-  "subscriptions_url" : "URL",
-  "disk_usage" : "INT",
-  "html_url" : "URL",
-  "collaborators" : "INT",
-  "public_gists" : "",
-  "type" : "STRING"
+  "results" : {
+    "context" : {
+      "manager" : {
+        "email" : "PII_EMAIL",
+        "name" : "PII_PERSON_NAME",
+        "id" : "STRING"
+      },
+      "employeeEmail" : "PII_EMAIL",
+      "startDate" : "DATE",
+      "v_department" : "STRING",
+      "employeeId" : "STRING",
+      "employeeName" : "PII_PERSON_NAME"
+    },
+    "trigger_data" : "STRING",
+    "name" : "STRING",
+    "startedAt" : "DATETIME",
+    "id" : "STRING",
+    "initiatedBy" : {
+      "userId" : "STRING",
+      "is_deleted" : false,
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    },
+    "status" : "STRING"
+  }
 }

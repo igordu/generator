@@ -1,0 +1,15 @@
+{
+  "serviceId": "STRING",
+  "checkId": "STRING",
+  "status": "STRING",
+  "output": "STRING",
+  "timestamp": "DATETIME",
+  "interval": "STRING",
+  "consecutiveSuccesses": "INT",
+  "consecutiveFailures": "INT",
+  "node": {
+    "id": "STRING",
+    "address": "STRING",
+    "datacenter": "STRING"
+  }
+}

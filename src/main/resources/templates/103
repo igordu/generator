@@ -1,0 +1,16 @@
+{
+  "sid": "STRING",
+  "date_created": "DATETIME",
+  "date_sent": "DATETIME",
+  "account_sid": "STRING",
+  "from": "PII_PHONE_NUMBER",
+  "to": "PII_PHONE_NUMBER",
+  "body": "PII_FREE_TEXT",
+  "status": "STRING",
+  "num_segments": "INT",
+  "direction": "STRING",
+  "price": "DECIMAL",
+  "price_unit": "STRING",
+  "error_code": "NULL",
+  "uri": "URL"
+}

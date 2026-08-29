@@ -1,60 +1,21 @@
 {
-  "userName" : "PII_USERNAME",
-  "accountType" : "STRING",
-  "registrationMarketplaceId" : "STRING",
-  "individualAccount" : {
-    "name_val" : "PII_PERSON_NAME",
-    "email" : "PII_EMAIL",
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "NULL"
-    },
-    "mobile" : {
-      "number_data" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "telephone" : "STRING"
-    },
-    "registrationAddress" : {
-      "county" : "STRING",
-      "addressLine2" : "STRING",
-      "item_count" : 3643,
-      "country" : "STRING",
-      "postalCode" : "STRING",
-      "addressLine1" : "STRING",
-      "v_stateOrProvince" : "STRING",
-      "city_data" : "STRING"
-    },
-    "is_active" : false,
-    "firstName" : "PII_PERSON_NAME"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "businessAccount" : {
-    "website" : "URL",
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "telephone" : {
-      "countryCode" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER"
-    },
-    "v_primaryContact" : {
-      "clientName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "doingBusinessAs_data" : "STRING",
-    "contactEmail" : "PII_EMAIL",
-    "address" : {
-      "country" : "STRING",
-      "postalCode" : null,
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "STRING",
-      "county" : "STRING",
-      "v_addressLine2" : "STRING"
-    },
-    "price" : 833.37
-  },
-  "status" : "STRING",
-  "requires_update" : false
+  "results" : {
+    "price_unit" : "STRING",
+    "from_data" : "PII_PHONE_NUMBER",
+    "sid" : "STRING",
+    "uri" : "URL",
+    "date_sent" : "NULL",
+    "v_status" : "STRING",
+    "date_created" : "DATETIME",
+    "to_data" : "PII_PHONE_NUMBER",
+    "identifier" : "STRING",
+    "num_segments_data" : "INT",
+    "price" : "DECIMAL",
+    "error_code" : "NULL",
+    "v_body" : "PII_FREE_TEXT"
+  }
 }

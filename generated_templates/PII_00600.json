@@ -1,30 +1,32 @@
 {
-  "Employees" : [ {
-    "ExternalLink_data" : {
-      "Description" : "STRING",
-      "is_active" : true,
-      "v_Url" : "URL"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "user" : {
+      "id" : "STRING",
+      "is_owner" : "BOOLEAN",
+      "is_bot" : "BOOLEAN",
+      "is_email_confirmed" : "BOOLEAN",
+      "name_val" : "PII_USERNAME",
+      "tz" : "STRING",
+      "profile" : {
+        "team" : "STRING",
+        "email" : "PII_EMAIL",
+        "title" : "STRING",
+        "display_name" : "PII_USERNAME",
+        "is_active" : false,
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "real_name" : "PII_PERSON_NAME",
+        "name_val" : "PII_PERSON_LAST_NAME",
+        "phone" : "PII_PHONE_NUMBER"
+      },
+      "tz_offset_data" : "INT",
+      "deleted" : "BOOLEAN",
+      "updated" : "DATETIME_EPOCH",
+      "real_name" : "PII_PERSON_NAME",
+      "recordId" : "STRING",
+      "is_admin" : "NULL"
     },
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "userName" : "PII_PERSON_LAST_NAME",
-    "Status" : null,
-    "UpdatedDateUTC_data" : "DATETIME",
-    "EmployeeID" : "STRING"
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING",
-    "v_ExternalLink" : {
-      "Url" : "URL",
-      "Description_data" : "STRING"
-    },
-    "UpdatedDateUTC_data" : "DATETIME"
-  } ],
-  "clientName" : "STRING",
-  "DateTimeUTC" : "DATETIME",
-  "primaryKey" : "STRING"
+    "ok" : "BOOLEAN"
+  }
 }

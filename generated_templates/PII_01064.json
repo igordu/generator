@@ -1,23 +1,28 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "loanApplicationId" : "STRING",
+  "applicant" : {
+    "employmentStatus" : "NULL",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "email" : "PII_EMAIL",
+    "v_monthlyIncome" : "DECIMAL",
+    "employer" : "PII_COMPANY_NAME",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "address" : {
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "state" : "STRING"
+    },
+    "nationalId" : "PII_NATIONAL_ID"
   },
-  "results" : {
-    "account_holder_name" : "PII_PERSON_NAME",
-    "object" : "STRING",
-    "id" : "STRING",
-    "currency" : "STRING",
-    "fingerprint_data" : "STRING",
-    "status" : "STRING",
-    "country" : "STRING",
-    "customer" : "STRING",
-    "bank_name" : "STRING",
-    "priority_level" : 2811,
-    "last4" : "STRING",
-    "metadata" : "OBJECT",
-    "routing_number" : "STRING",
-    "v_account_holder_type" : null,
-    "account_type" : "STRING"
-  }
+  "bankAccount" : {
+    "branchCode" : "STRING",
+    "bankName" : "PII_COMPANY_NAME",
+    "iban_data" : "PII_IBAN",
+    "cache_hit" : false
+  },
+  "status" : "STRING",
+  "creditScore_data" : "INT"
 }

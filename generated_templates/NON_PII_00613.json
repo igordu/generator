@@ -1,34 +1,17 @@
-[ {
-  "locks" : "INT",
-  "v_taxDepreciationSettings" : "ARRAY",
-  "depreciationExpenseAccountId" : "STRING",
-  "lockPrivateUseAccount" : "BOOLEAN",
-  "accumulatedDepreciationAccountId" : "",
-  "assetTypeName" : "STRING",
-  "bookDepreciationSetting" : {
-    "depreciableObjectType" : "STRING",
-    "averagingMethod_data" : "NULL",
-    "depreciationRate" : "DECIMAL",
-    "bookEffectiveDateOfChangeId" : "STRING",
-    "depreciableObjectId" : "STRING",
-    "depreciationCalculationMethod" : "NULL"
+{
+  "sizeGb" : "DECIMAL",
+  "encryptionKeyId" : "STRING",
+  "region" : "STRING",
+  "snapshotId" : "STRING",
+  "startedAt" : null,
+  "database" : "STRING",
+  "tags" : {
+    "v_environment" : "STRING",
+    "price" : 2318.66
   },
-  "assetTypeId" : "STRING"
-}, {
-  "fixedAssetAccountId" : "STRING",
-  "assetTypeId" : "STRING",
-  "v_lockPrivateUseAccount" : "BOOLEAN",
-  "taxDepreciationSettings_data" : "ARRAY",
-  "uuid" : "STRING",
-  "assetTypeName" : "STRING",
-  "bookDepreciationSetting" : {
-    "depreciableObjectType" : "STRING",
-    "depreciationMethod" : "STRING",
-    "depreciationRate" : "DECIMAL",
-    "auto_renew" : false,
-    "bookEffectiveDateOfChangeId" : "STRING",
-    "averagingMethod" : "STRING",
-    "v_depreciationCalculationMethod" : "STRING"
-  },
-  "accumulatedDepreciationAccountId" : "STRING"
-} ]
+  "completedAt" : "DATETIME",
+  "cluster" : "STRING",
+  "status" : "STRING",
+  "cpu_usage_percent" : 26.29,
+  "retentionDays" : "INT"
+}

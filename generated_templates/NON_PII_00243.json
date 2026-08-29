@@ -1,39 +1,39 @@
-{
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+[ {
+  "depreciationExpenseAccountId" : "STRING",
+  "uuid" : "STRING",
+  "accumulatedDepreciationAccountId" : null,
+  "userName" : "",
+  "bookDepreciationSetting_data" : {
+    "depreciationMethod" : "STRING",
+    "v_depreciationCalculationMethod" : "STRING",
+    "v_depreciableObjectType" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "bookEffectiveDateOfChangeId" : "NULL",
+    "depreciationRate_data" : "DECIMAL",
+    "averagingMethod" : "STRING"
   },
-  "results" : [ {
-    "http_status" : 3911,
-    "filter" : "STRING"
-  }, {
-    "price" : 131.99,
-    "facets" : [ {
-      "auto_renew" : false,
-      "count" : "INT",
-      "key_data" : "STRING",
-      "displayName" : ""
-    }, {
-      "fullName" : "STRING",
-      "key" : "STRING",
-      "v_count" : "INT"
-    }, {
-      "count" : "INT",
-      "key" : "STRING",
-      "displayName" : "STRING"
-    } ],
-    "filter" : "STRING"
-  }, {
-    "filter" : "STRING",
-    "v_facets" : [ {
-      "cpu_usage_percent" : 98.72,
-      "count" : "INT",
-      "displayName" : "STRING",
-      "key" : "STRING"
-    }, {
-      "key" : "STRING",
-      "displayName" : "STRING"
-    } ],
-    "discount_rate" : 190.5
-  } ]
-}
+  "primaryKey" : "STRING",
+  "taxDepreciationSettings" : "ARRAY",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "locks_data" : "INT",
+  "system_ping_ms" : 3882
+}, {
+  "accumulatedDepreciationAccountId" : "STRING",
+  "recordId" : "STRING",
+  "taxDepreciationSettings" : "ARRAY",
+  "bookDepreciationSetting" : {
+    "http_status" : 2224,
+    "averagingMethod_data" : "STRING",
+    "bookEffectiveDateOfChangeId" : "STRING",
+    "depreciationRate" : "DECIMAL",
+    "depreciableObjectId" : "STRING",
+    "v_depreciationCalculationMethod" : "STRING",
+    "depreciableObjectType" : "STRING",
+    "depreciationMethod" : "STRING"
+  },
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "uuid" : "NULL",
+  "fixedAssetAccountId" : "STRING",
+  "assetTypeName" : "STRING",
+  "response_time_sec" : 28.55
+} ]

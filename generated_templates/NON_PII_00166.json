@@ -1,21 +1,24 @@
 {
-  "shopUrl" : "URL",
+  "created_at" : "DATETIME",
+  "target_commitish_data" : "STRING",
+  "id" : "INT",
+  "v_prerelease" : "BOOLEAN",
+  "tag_name" : "STRING",
+  "draft" : "BOOLEAN",
+  "assets_data" : [ {
+    "primaryKey" : "INT",
+    "fullName" : "STRING",
+    "response_time_sec" : 0.59,
+    "content_type_data" : "STRING",
+    "browser_download_url" : "URL",
+    "v_size" : "INT",
+    "download_count_data" : "INT"
+  } ],
+  "page_index" : 4933,
   "name" : "STRING",
-  "id" : null,
-  "identifier" : "STRING",
-  "media" : {
-    "images_data" : [ {
-      "orderNumber" : "INT",
-      "v_largeUrl" : "URL",
-      "thumbnailHdUrl" : "NULL",
-      "largeHdUrl" : "URL",
-      "system_ping_ms" : 3556,
-      "mediumHdUrl" : "URL",
-      "smallHdUrl_data" : "URL",
-      "type" : "STRING",
-      "smallUrl" : "URL",
-      "mediumUrl" : "URL"
-    } ],
-    "is_deleted" : false
-  }
+  "changelog_data" : [ {
+    "commit_sha" : "STRING",
+    "v_files_changed" : "INT",
+    "message_data" : "TEXT"
+  } ]
 }

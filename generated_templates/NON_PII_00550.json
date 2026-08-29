@@ -1,47 +1,30 @@
-[ {
-  "id" : "STRING",
-  "avatarUrls" : {
-    "48x48" : "URL",
-    "16x16" : "URL",
-    "v_24x24" : "URL",
-    "32x32" : "URL"
+{
+  "destination" : {
+    "type_data" : "STRING",
+    "project" : "STRING",
+    "dataset_data" : "STRING",
+    "table" : "STRING"
   },
-  "v_self" : "URL",
-  "projectCategory" : {
-    "fullName" : "STRING",
-    "self" : "URL",
-    "description" : "STRING",
-    "id" : "STRING"
+  "triggeredBy" : "STRING",
+  "v_status" : "STRING",
+  "completedAt" : "DATETIME",
+  "nextRunAt" : "DATETIME",
+  "v_stats" : {
+    "recordsSkipped" : "INT",
+    "bytesTransferred" : "INT",
+    "recordsWritten" : "INT",
+    "recordsRead_data" : "INT"
   },
-  "key" : "STRING",
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "simplified" : "BOOLEAN",
+  "type" : "STRING",
+  "startedAt" : "DATETIME",
   "name" : "STRING",
-  "requires_update" : true,
-  "style" : "STRING"
-}, {
-  "key" : "STRING",
-  "self" : "URL",
-  "style" : "STRING",
-  "v_simplified" : "BOOLEAN",
-  "conversion_rate" : 870.77,
-  "insight" : {
-    "lastIssueUpdateTime" : "NULL",
-    "totalIssueCount" : "INT"
+  "scheduledAt_data" : "DATETIME",
+  "source" : {
+    "v_type" : "STRING",
+    "host" : "STRING",
+    "table" : "STRING",
+    "database" : "NULL"
   },
-  "name_val" : "STRING",
-  "v_avatarUrls" : {
-    "32x32" : "URL",
-    "48x48" : "",
-    "24x24" : "URL",
-    "16x16" : "URL"
-  },
-  "v_projectCategory" : {
-    "id" : "STRING",
-    "description" : "STRING",
-    "self" : "URL"
-  }
-} ]
+  "taskId" : "STRING",
+  "durationSeconds" : "INT"
+}

@@ -1,30 +1,39 @@
 {
-  "transactions" : {
-    "booked_data" : [ {
-      "bookingDate_data" : "DATE",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "debtorAccount_data" : {
-        "iban" : "STRING",
-        "system_ping_ms" : 4240
-      },
-      "creditorName" : "PII_PERSON_NAME",
-      "retry_attempts" : 2800,
-      "v_valueDate" : "DATE",
-      "bankTransactionCode" : {
-        "page_index" : 745,
-        "family" : "NULL",
-        "domain" : "STRING",
-        "subFamily_data" : "STRING"
-      },
-      "amount" : {
-        "is_deleted" : false,
-        "currency_data" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "debtorName" : "STRING"
+  "status" : "STRING",
+  "personalizations" : [ {
+    "subject" : "STRING",
+    "stock_quantity" : 3886,
+    "cc" : [ {
+      "fullName" : "PII_PERSON_NAME",
+      "emailAddress" : "PII_EMAIL"
+    } ],
+    "to" : [ {
+      "userName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
     } ]
-  }
+  } ],
+  "ip_pool_name" : "STRING",
+  "send_at" : "DATETIME_EPOCH",
+  "from_data" : {
+    "name" : "PII_COMPANY_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "categories_data" : [ null ],
+  "identifier" : "STRING",
+  "tracking_settings" : {
+    "cache_hit" : true,
+    "click_tracking" : {
+      "enable" : "BOOLEAN",
+      "cache_hit" : true
+    },
+    "open_tracking" : {
+      "is_active" : false,
+      "enable" : "BOOLEAN"
+    }
+  },
+  "reply_to" : {
+    "email" : "PII_EMAIL",
+    "name" : "STRING"
+  },
+  "v_subject" : null
 }

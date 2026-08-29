@@ -1,0 +1,39 @@
+{
+  "candidateId": "CAND-2024-04821",
+  "status": "interview_scheduled",
+  "appliedAt": "2024-03-01T10:00:00Z",
+  "updatedAt": "2024-04-05T14:30:00Z",
+  "position": {
+    "jobId": "JOB-2024-0182",
+    "title": "Senior Backend Engineer",
+    "department": "Engineering",
+    "location": "Amsterdam, NL"
+  },
+  "candidate": {
+    "firstName": "Pieter",
+    "lastName": "van der Berg",
+    "email": "pieter.vdberg@email.nl",
+    "phone": "+31 6 12345678",
+    "linkedIn": "https://linkedin.com/in/pieter-vdberg",
+    "dateOfBirth": "1990-02-20",
+    "address": {
+      "street": "Prinsengracht 263",
+      "city": "Amsterdam",
+      "postalCode": "1016 GV",
+      "country": "NL"
+    },
+    "resumeUrl": "https://storage.example.com/resumes/pieter-vdberg-cv.pdf"
+  },
+  "interviews": [
+    {
+      "round": 1,
+      "type": "technical",
+      "scheduledAt": "2024-04-15T10:00:00Z",
+      "interviewer": {
+        "name": "Lars Eriksson",
+        "email": "l.eriksson@company.com"
+      }
+    }
+  ],
+  "source": "linkedin"
+}

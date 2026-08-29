@@ -1,5 +1,21 @@
 {
-  "flowName" : "STRING",
-  "response_time_sec" : 291.32,
-  "clientToken" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "createdAt_data" : "DATETIME",
+    "namespace" : "STRING",
+    "region_data" : "STRING",
+    "stock_quantity" : 2895,
+    "lastAccessedAt" : "DATETIME",
+    "cacheKey" : "STRING",
+    "value_data" : {
+      "expiresAt" : "DATETIME",
+      "userId" : "NULL",
+      "roles" : [ "STRING" ]
+    },
+    "v_ttl" : "INT",
+    "v_hits" : "INT"
+  }
 }

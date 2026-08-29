@@ -1,5 +1,26 @@
 {
-  "clientToken_data" : "STRING",
-  "cache_hit" : false,
-  "flowName" : "STRING"
+  "scanType" : "STRING",
+  "is_deleted" : false,
+  "completedAt" : "DATETIME",
+  "summary_data" : {
+    "info" : "INT",
+    "conversion_rate" : 2.89,
+    "v_low" : "INT",
+    "v_critical" : "INT"
+  },
+  "startedAt" : null,
+  "uuid" : "STRING",
+  "v_findings" : [ {
+    "severity" : "STRING",
+    "v_cwe" : "STRING",
+    "parameter" : "STRING",
+    "endpoint" : "STRING",
+    "description" : "STRING",
+    "remediation" : "STRING",
+    "type" : "STRING",
+    "id" : "STRING",
+    "cvss" : "DECIMAL"
+  } ],
+  "status" : "STRING",
+  "target" : ""
 }

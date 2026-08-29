@@ -1,76 +1,36 @@
-[ {
-  "stock_quantity" : 455,
-  "parents" : [ {
-    "discount_rate" : 928.2,
-    "v_url" : "URL"
+{
+  "invoiceId" : "STRING",
+  "paymentTerms" : "STRING",
+  "v_vendor" : {
+    "address_data" : "PII_ADDRESS_LINE",
+    "vatNumber" : null,
+    "iban_data" : "PII_IBAN",
+    "priority_level" : 748,
+    "mail" : "PII_EMAIL",
+    "name" : "PII_COMPANY_NAME"
+  },
+  "v_dueDate" : "DATE",
+  "lineItems" : [ {
+    "quantity" : "INT",
+    "v_unitPrice" : "DECIMAL",
+    "v_vatRate" : "DECIMAL",
+    "discount_rate" : 28.51,
+    "v_total" : "DECIMAL",
+    "description" : "STRING"
   } ],
-  "author" : {
-    "url" : "URL",
-    "id" : "INT",
-    "organizations_url" : "URL",
-    "identifier" : "STRING",
-    "login" : "STRING",
-    "priority_level" : 2577,
-    "subscriptions_url_data" : "URL",
-    "v_following_url" : "URL",
-    "html_url" : "URL",
-    "repos_url" : "URL",
-    "gravatar_id" : "STRING",
-    "events_url" : null,
-    "gists_url" : "URL",
-    "followers_url" : "NULL",
-    "avatar_url" : "URL",
-    "received_events_url" : "URL",
-    "site_admin" : "BOOLEAN"
+  "customer" : {
+    "vatNumber" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "company" : "PII_COMPANY_NAME",
+    "email" : "PII_EMAIL",
+    "is_deleted" : true,
+    "name_val" : "PII_PERSON_NAME"
   },
-  "commit" : {
-    "v_comment_count" : "INT",
-    "message" : "PII_COMPANY_NAME",
-    "author" : {
-      "name" : "PII_PERSON_NAME",
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL"
-    },
-    "committer" : {
-      "primary_email" : "PII_EMAIL",
-      "date" : "DATETIME",
-      "name_val" : "PII_PERSON_NAME"
-    },
-    "tree" : {
-      "item_count" : 1829,
-      "url" : "URL",
-      "v_sha" : "STRING"
-    },
-    "verification" : {
-      "signature" : "",
-      "reason" : "STRING",
-      "verified_at" : "DATETIME",
-      "payload" : "STRING",
-      "verified_data" : "BOOLEAN"
-    }
-  },
-  "committer_data" : {
-    "following_url_data" : "URL",
-    "url" : "NULL",
-    "avatar_url_data" : "URL",
-    "identifier" : "STRING",
-    "followers_url_data" : "URL",
-    "id" : "INT",
-    "site_admin" : "BOOLEAN",
-    "html_url" : "URL",
-    "starred_url" : "URL",
-    "gists_url" : "URL",
-    "subscriptions_url" : "URL",
-    "repos_url" : "URL",
-    "events_url" : "URL",
-    "v_received_events_url" : "URL",
-    "organizations_url" : null,
-    "login_data" : "STRING",
-    "type" : "STRING",
-    "recordId" : "STRING"
-  },
-  "v_sha" : "STRING",
-  "recordId" : "STRING",
-  "url" : "URL",
-  "comments_url" : "URL"
-} ]
+  "vatAmount" : "DECIMAL",
+  "v_total" : "DECIMAL",
+  "discount_rate" : 18.56,
+  "subtotal" : "DECIMAL",
+  "v_currency" : "STRING",
+  "status" : "STRING",
+  "issuedAt" : "DATETIME"
+}

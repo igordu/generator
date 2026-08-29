@@ -1,116 +1,27 @@
 {
-  "flowName" : "STRING",
-  "tags" : {
-    "property1" : "STRING",
-    "v_property2" : "STRING"
+  "resolvedAt" : "NULL",
+  "v_triggeredAt" : "DATETIME",
+  "annotations" : {
+    "summary" : "STRING",
+    "v_description" : "STRING",
+    "cpu_usage_percent" : 13.66
   },
-  "v_sourceFlowConfig" : {
-    "v_connectorType" : "STRING",
-    "userName" : "STRING",
-    "incrementalPullConfig" : { },
-    "sourceConnectorProperties_data" : {
-      "Pardot" : {
-        "requires_update" : false,
-        "object" : "STRING"
-      },
-      "Slack" : {
-        "object" : "STRING"
-      },
-      "GoogleAnalytics" : {
-        "object" : "STRING"
-      },
-      "Datadog" : {
-        "v_object" : "STRING",
-        "is_deleted" : false
-      },
-      "InforNexus_data" : {
-        "object" : "STRING"
-      },
-      "Veeva" : {
-        "v_includeRenditions" : "BOOLEAN",
-        "documentType" : "STRING",
-        "v_object" : "STRING",
-        "includeSourceFiles" : "BOOLEAN",
-        "item_count" : 3710
-      },
-      "v_CustomConnector" : {
-        "entityName" : "STRING",
-        "page_index" : 1304
-      },
-      "v_ServiceNow" : {
-        "object" : "STRING"
-      },
-      "Zendesk" : { },
-      "S3" : {
-        "v_s3InputFormatConfig" : {
-          "s3InputFileType" : "STRING"
-        },
-        "bucketPrefix" : "STRING",
-        "temperature_c" : 643.19,
-        "bucketName" : "STRING"
-      },
-      "Dynatrace" : {
-        "system_ping_ms" : 3515,
-        "object" : "STRING"
-      },
-      "Salesforce" : {
-        "dataTransferApi" : "STRING",
-        "object" : "STRING",
-        "stock_quantity" : 2197,
-        "v_enableDynamicFieldUpdate" : "BOOLEAN"
-      },
-      "Trendmicro" : {
-        "v_object" : "STRING"
-      },
-      "Singular" : {
-        "object" : "STRING",
-        "http_status" : 21
-      },
-      "v_SAPOData" : {
-        "objectPath" : "STRING",
-        "has_discount" : false
-      },
-      "Marketo" : {
-        "object" : "STRING"
-      },
-      "Amplitude" : {
-        "object" : "STRING"
-      }
-    },
-    "apiVersion_data" : "STRING",
-    "cpu_usage_percent" : 401.75
+  "severity_data" : "STRING",
+  "rule" : "STRING",
+  "labels" : {
+    "environment" : "STRING",
+    "team" : "STRING",
+    "requires_update" : false,
+    "region" : "STRING",
+    "service" : "STRING"
   },
-  "clientToken_data" : "STRING",
-  "metadataCatalogConfig_data" : {
-    "is_active" : true,
-    "glueDataCatalog" : {
-      "v_roleArn" : "STRING",
-      "name_val" : "STRING",
-      "discount_rate" : 393.04
-    }
+  "metric" : {
+    "value" : "DECIMAL",
+    "window" : "STRING",
+    "name" : "STRING",
+    "threshold" : "DECIMAL"
   },
-  "description" : "STRING",
-  "v_triggerConfig" : {
-    "triggerType" : "STRING",
-    "triggerProperties" : {
-      "Scheduled" : {
-        "v_timezone" : null,
-        "v_scheduleOffset" : "INT",
-        "flowErrorDeactivationThreshold" : "INT",
-        "discount_rate" : 120.49,
-        "scheduleExpression" : "STRING",
-        "dataPullMode" : "STRING",
-        "scheduleEndTime_data" : "DATETIME",
-        "firstExecutionFrom" : "DATETIME",
-        "scheduleStartTime" : "DATETIME"
-      }
-    },
-    "system_ping_ms" : 3867
-  },
-  "destinationFlowConfigList_data" : [ {
-    "v_apiVersion" : "NULL",
-    "connectorType" : "STRING",
-    "connectorProfileName" : "STRING"
-  } ],
-  "kmsArn" : "STRING"
+  "primaryKey" : "NULL",
+  "notified_channels" : [ "STRING" ],
+  "status_data" : "STRING"
 }

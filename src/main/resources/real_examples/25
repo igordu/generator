@@ -1,0 +1,51 @@
+{
+  "kind": "admin#directory#user",
+  "id": "118051310819094153327",
+  "etag": "\"HZSFMr6J5KhNtiyfmso4PFHvHqs/abc123\"",
+  "primaryEmail": "alice.johnson@example.com",
+  "name": {
+    "givenName": "Alice",
+    "familyName": "Johnson",
+    "fullName": "Alice Johnson"
+  },
+  "isAdmin": false,
+  "isDelegatedAdmin": false,
+  "lastLoginTime": "2024-05-01T10:15:00.000Z",
+  "creationTime": "2021-09-12T08:00:00.000Z",
+  "agreedToTerms": true,
+  "suspended": false,
+  "archived": false,
+  "changePasswordAtNextLogin": false,
+  "ipWhitelisted": false,
+  "emails": [
+    {
+      "address": "alice.johnson@example.com",
+      "primary": true
+    },
+    {
+      "address": "ajohnson@example.com",
+      "type": "work"
+    }
+  ],
+  "phones": [
+    {
+      "value": "+14155552671",
+      "type": "mobile"
+    }
+  ],
+  "recoveryEmail": "alice.personal@gmail.com",
+  "recoveryPhone": "+14155550139",
+  "orgUnitPath": "/Engineering",
+  "isMailboxSetup": true,
+  "customerId": "C04abc123",
+  "addresses": [
+    {
+      "type": "work",
+      "streetAddress": "1600 Amphitheatre Pkwy",
+      "locality": "Mountain View",
+      "region": "CA",
+      "postalCode": "94043",
+      "country": "US"
+    }
+  ]
+}

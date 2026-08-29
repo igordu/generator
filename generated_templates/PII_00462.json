@@ -1,47 +1,20 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "uuid" : [ {
-      "system" : "URL",
-      "v_type" : {
-        "text_data" : "STRING"
-      },
-      "value" : "PII_NATIONAL_ID",
-      "use" : "STRING"
-    } ],
-    "name" : [ {
-      "given" : [ "PII_PERSON_FIRST_NAME" ],
-      "use" : "STRING",
-      "family" : "PII_PERSON_LAST_NAME",
-      "item_count" : 4724
-    } ],
-    "telecom" : [ {
-      "v_value" : "PII_EMAIL",
-      "system" : ""
-    }, {
-      "v_system" : "STRING",
-      "http_status" : 1951,
-      "use" : "STRING",
-      "value" : "PII_PHONE_NUMBER"
-    } ],
-    "resourceType" : "STRING",
-    "gender" : "STRING",
-    "address" : [ {
-      "line" : [ "PII_ADDRESS_LINE" ],
-      "city" : "PII_LOCATION_CITY",
-      "country" : "PII_LOCATION_COUNTRY",
-      "use_data" : "STRING",
-      "auto_renew" : false
-    } ],
-    "conversion_rate" : 524.77,
-    "birthDate" : "PII_DATE_OF_BIRTH",
-    "meta_data" : {
-      "lastUpdated_data" : "DATETIME",
-      "cache_hit" : true,
-      "primaryKey" : "INT"
-    }
+  "auto_renew" : true,
+  "data" : {
+    "v_url" : "URL",
+    "verified" : "BOOLEAN",
+    "id" : "STRING",
+    "pinned_tweet_id" : "STRING",
+    "location" : "PII_LOCATION_CITY",
+    "created_at" : "DATETIME",
+    "name" : "PII_PERSON_NAME",
+    "public_metrics" : {
+      "following_count_data" : "INT",
+      "tweet_count" : "INT",
+      "v_followers_count" : "INT"
+    },
+    "description" : "STRING",
+    "username" : "PII_USERNAME",
+    "profile_image_url" : "URL"
   }
 }

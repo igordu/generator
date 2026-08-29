@@ -1,0 +1,17 @@
+{
+  "name" : "STRING",
+  "description_data" : "STRING",
+  "updatedAt" : "DATETIME",
+  "ownedServices" : [ "STRING" ],
+  "createdAt" : "DATETIME",
+  "oncallScheduleId" : "STRING",
+  "slackChannel" : "STRING",
+  "members_data" : [ {
+    "userId" : "STRING",
+    "temperature_c" : 16.54,
+    "name" : "PII_PERSON_NAME",
+    "joinedAt_data" : "DATETIME",
+    "v_role" : "STRING",
+    "email" : "PII_EMAIL"
+  } ]
+}

@@ -1,24 +1,28 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "primaryKey" : "STRING",
-      "media" : {
-        "images" : [ {
-          "smallHdUrl" : "URL",
-          "smallUrl" : "URL",
-          "largeUrl_data" : "URL",
-          "discount_rate" : 735.85,
-          "mediumHdUrl" : null,
-          "thumbnailHdUrl" : "URL",
-          "type_data" : "STRING",
-          "orderNumber" : "INT",
-          "largeHdUrl" : "URL",
-          "mediumUrl_data" : "URL"
-        } ],
-        "stock_quantity" : 941
-      },
-      "name" : "STRING",
-      "shopUrl_data" : "URL"
+  "conversion_rate" : 7.28,
+  "incident" : {
+    "v_urgency" : "STRING",
+    "v_created_at" : "DATETIME",
+    "notes" : [ {
+      "id" : "STRING",
+      "temperature_c" : 21.62
+    } ],
+    "alert_counts" : {
+      "resolved" : "INT",
+      "all" : "INT",
+      "triggered" : "INT"
+    },
+    "description" : "TEXT",
+    "v_status" : "STRING",
+    "cpu_usage_percent" : 51.95,
+    "escalation_policy" : "STRING",
+    "runbook_url" : "URL",
+    "resolved_at" : "DATETIME",
+    "id" : "STRING",
+    "title" : "STRING",
+    "v_service" : {
+      "summary" : "STRING",
+      "primaryKey" : "STRING"
     }
   }
 }

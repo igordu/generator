@@ -1,41 +1,51 @@
 {
-  "clientName" : "STRING",
-  "v_Employees" : [ {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink_data" : {
-      "Description" : "STRING",
-      "item_count" : 4289,
-      "Url" : "URL"
+  "status" : {
+    "hostIP" : "STRING",
+    "phase_data" : "STRING",
+    "startTime" : "DATETIME",
+    "podIP" : "STRING"
+  },
+  "v_spec" : {
+    "serviceAccountName" : "STRING",
+    "containers" : [ {
+      "env" : [ {
+        "value" : "PII_EMAIL",
+        "auto_renew" : false,
+        "name" : "STRING"
+      } ],
+      "resources" : {
+        "requests" : {
+          "memory" : "STRING",
+          "cpu" : "STRING"
+        },
+        "limits_data" : {
+          "cpu" : "STRING",
+          "retry_attempts" : 3794,
+          "memory" : "STRING"
+        }
+      },
+      "userName" : "STRING",
+      "image" : "STRING",
+      "ports" : [ {
+        "protocol" : "STRING",
+        "containerPort" : "INT"
+      } ]
+    } ]
+  },
+  "metadata" : {
+    "name" : "STRING",
+    "namespace" : "STRING",
+    "labels_data" : {
+      "v_environment" : "STRING",
+      "version" : "STRING",
+      "stock_quantity" : 569
     },
-    "EmployeeID" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "response_time_sec" : 522.36,
-    "v_Status" : "STRING"
-  }, {
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "is_active" : true,
-    "EmployeeID" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink_data" : {
-      "Url" : "URL",
-      "stock_quantity" : 1592,
-      "Description" : "STRING"
-    }
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "EmployeeID" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "conversion_rate" : 269.06,
-      "Description" : "STRING"
-    }
-  } ],
-  "Status" : "STRING",
-  "DateTimeUTC" : "DATETIME"
+    "annotations" : {
+      "owner_data" : null,
+      "v_contact" : "PII_EMAIL"
+    },
+    "uid" : "STRING"
+  },
+  "kind" : "STRING",
+  "apiVersion" : "STRING"
 }

@@ -1,47 +1,25 @@
-[ {
-  "clientName" : "STRING",
-  "key" : "STRING",
-  "v_self" : "URL",
-  "style" : "STRING",
-  "id" : "NULL",
-  "discount_rate" : 403.34,
-  "simplified" : "BOOLEAN",
-  "insight_data" : {
-    "totalIssueCount" : "INT",
-    "cache_hit" : false,
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "avatarUrls_data" : {
-    "16x16" : "URL",
-    "48x48" : "URL",
-    "v_32x32" : "URL",
-    "v_24x24" : "URL"
-  },
-  "projectCategory_data" : {
-    "name" : "STRING",
+{
+  "response_time_sec" : 18.53,
+  "scanType" : "STRING",
+  "findings" : [ {
+    "cwe" : "STRING",
+    "id" : "",
+    "endpoint_data" : "STRING",
     "description" : "STRING",
-    "id" : "STRING",
-    "self" : "URL",
-    "is_active" : true
-  }
-}, {
-  "style" : "STRING",
-  "name_val" : "STRING",
-  "self" : "URL",
-  "simplified_data" : "BOOLEAN",
-  "id" : "STRING",
-  "projectCategory" : {
-    "userName" : "STRING",
-    "self" : "URL",
-    "id" : "STRING",
-    "description" : "STRING",
-    "system_ping_ms" : 3115
+    "type" : "STRING",
+    "parameter" : "STRING",
+    "cvss" : "DECIMAL",
+    "retry_attempts" : 1724,
+    "remediation" : "STRING"
+  } ],
+  "startedAt" : "DATETIME",
+  "target" : "",
+  "summary_data" : {
+    "medium" : "INT",
+    "low" : "INT",
+    "info" : "INT",
+    "critical" : "INT"
   },
-  "v_avatarUrls" : {
-    "16x16" : "URL",
-    "24x24" : "URL",
-    "48x48" : "NULL",
-    "is_deleted" : false
-  },
-  "key" : "STRING"
-} ]
+  "scanId" : "STRING",
+  "status" : "STRING"
+}

@@ -1,0 +1,39 @@
+{
+  "reservationId": "STRING",
+  "status": "STRING",
+  "createdAt": "DATETIME",
+  "checkIn": "DATE",
+  "checkOut": "DATE",
+  "guest": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "nationality": "PII_LOCATION_COUNTRY",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "passportNumber": "PII_NATIONAL_ID"
+  },
+  "room": {
+    "roomNumber": "STRING",
+    "type": "STRING",
+    "floor": "INT",
+    "bedType": "STRING",
+    "smoking": "BOOLEAN"
+  },
+  "hotel": {
+    "id": "STRING",
+    "name": "PII_COMPANY_NAME",
+    "address": "PII_ADDRESS_LINE",
+    "phone": "PII_PHONE_NUMBER"
+  },
+  "pricing": {
+    "ratePerNight": "DECIMAL",
+    "nights": "INT",
+    "totalBeforeTax": "DECIMAL",
+    "tax": "DECIMAL",
+    "total": "DECIMAL",
+    "currency": "STRING"
+  },
+  "loyaltyNumber": "STRING",
+  "specialRequests": "STRING"
+}

@@ -4,8 +4,22 @@
     "total_pages" : 5
   },
   "results" : {
-    "cpu_usage_percent" : 16.84,
-    "flowName" : "STRING",
-    "clientToken" : "STRING"
+    "v_startedAt" : "DATETIME",
+    "target" : "URL",
+    "status" : "STRING",
+    "scanId" : "STRING",
+    "scanType" : "STRING",
+    "discount_rate" : 1.91,
+    "v_completedAt" : "DATETIME",
+    "findings" : [ {
+      "cwe" : "STRING",
+      "description" : "NULL",
+      "parameter_data" : "STRING",
+      "endpoint" : "STRING",
+      "uuid" : "STRING",
+      "severity" : "STRING",
+      "type" : "STRING",
+      "cvss" : "DECIMAL"
+    } ]
   }
 }

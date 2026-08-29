@@ -1,0 +1,39 @@
+{
+  "id": "sub_ticket_00821",
+  "status": "open",
+  "priority": "high",
+  "category": "billing",
+  "subject": "Overcharged on last invoice",
+  "createdAt": "2024-04-09T11:00:00Z",
+  "updatedAt": "2024-04-10T08:45:00Z",
+  "customer": {
+    "id": "cust_00491",
+    "name": "Hana Novakova",
+    "email": "hana.novakova@firma.cz",
+    "phone": "+420 775 123 456",
+    "accountId": "ACC-00991"
+  },
+  "assignedAgent": {
+    "id": "agent_0021",
+    "name": "David Park",
+    "email": "d.park@support.example.com",
+    "team": "Billing Support"
+  },
+  "messages": [
+    {
+      "id": "msg_001",
+      "authorType": "customer",
+      "authorName": "Hana Novakova",
+      "body": "Hello, I was charged €299 instead of €199. Please correct this.",
+      "createdAt": "2024-04-09T11:00:00Z"
+    },
+    {
+      "id": "msg_002",
+      "authorType": "agent",
+      "authorName": "David Park",
+      "body": "Hi Hana, I can see the issue. I will process a refund of €100 to your card ending in 4242.",
+      "createdAt": "2024-04-10T08:45:00Z"
+    }
+  ],
+  "tags": ["refund", "billing-error"]
+}

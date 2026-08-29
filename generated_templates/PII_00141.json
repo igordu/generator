@@ -1,54 +1,33 @@
 {
-  "businessAccount_data" : {
-    "name" : "PII_ORGANIZATION_NAME",
-    "v_website" : "URL",
-    "secondaryPhone" : {
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "v_countryCode" : "STRING"
-    },
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "v_countryCode" : "STRING",
-      "is_active" : false,
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "contactEmail" : "PII_EMAIL",
-    "doingBusinessAs" : "STRING",
-    "auto_renew" : false
-  },
-  "primaryKey" : "STRING",
-  "userId" : "STRING",
-  "status_data" : "STRING",
-  "accountType" : "STRING",
-  "individualAccount" : {
-    "email" : "PII_EMAIL",
-    "registrationAddress" : {
-      "county" : "STRING",
-      "addressLine1" : "STRING",
-      "postalCode" : "STRING",
-      "v_stateOrProvince" : "NULL",
-      "http_status" : 3860,
-      "city" : "STRING",
-      "country" : "STRING",
-      "addressLine2" : "STRING"
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "countryCode_data" : "STRING",
-      "temperature_c" : 367.11,
-      "phoneType" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "telephone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "mobile" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "priority" : "STRING",
+      "type" : "STRING",
+      "conversation_parts" : [ {
+        "body" : "PII_FREE_TEXT",
+        "author_data" : {
+          "name" : "PII_PERSON_NAME",
+          "type" : "STRING",
+          "requires_update" : false
+        },
+        "part_type" : "STRING"
+      } ],
+      "auto_renew" : true,
+      "source" : {
+        "response_time_sec" : 4.21,
+        "subject" : "STRING",
+        "type" : "STRING",
+        "body" : "PII_FREE_TEXT",
+        "author" : {
+          "name" : "PII_PERSON_NAME",
+          "contactEmail" : "PII_EMAIL",
+          "page_index" : 1314,
+          "type" : "NULL"
+        }
+      },
+      "v_created_at" : "DATETIME_EPOCH",
+      "read" : "BOOLEAN",
+      "id" : "STRING"
     }
-  },
-  "username" : "PII_USERNAME"
+  }
 }

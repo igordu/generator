@@ -1,30 +1,30 @@
 {
-  "transactions" : {
-    "booked" : [ {
-      "debtorAccount" : {
-        "iban" : ""
-      },
-      "bookingDate" : "DATE",
-      "v_remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "valueDate" : "DATE",
-      "transactionId" : "STRING",
-      "amount" : {
-        "v_amount" : "DECIMAL",
-        "cpu_usage_percent" : 878.64,
-        "currency" : "STRING"
-      },
-      "creditorAccount" : {
-        "iban_data" : "PII_IBAN",
-        "http_status" : 4596
-      },
-      "creditorName" : "PII_PERSON_NAME",
-      "clientName" : "STRING",
-      "bankTransactionCode" : {
-        "domain_data" : "STRING",
-        "conversion_rate" : 393.27,
-        "subFamily_data" : "STRING",
-        "v_family" : "STRING"
-      }
+  "from_data" : {
+    "email" : "PII_EMAIL",
+    "clientName" : "PII_COMPANY_NAME"
+  },
+  "categories" : [ "STRING" ],
+  "reply_to" : {
+    "name" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "id" : "INT",
+  "personalizations" : [ {
+    "v_subject" : "STRING",
+    "to" : [ {
+      "email" : "PII_EMAIL",
+      "name_val" : "PII_PERSON_NAME",
+      "discount_rate" : 92.33
+    } ],
+    "discount_rate" : 17.81,
+    "cc" : [ {
+      "stock_quantity" : 3846,
+      "fullName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
     } ]
-  }
+  } ],
+  "send_at" : "DATETIME_EPOCH",
+  "subject" : "STRING",
+  "status" : "STRING",
+  "template_id" : "STRING"
 }

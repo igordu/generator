@@ -1,0 +1,36 @@
+{
+  "audit_trail" : {
+    "transaction_trace" : {
+      "body" : {
+        "modelId" : "STRING",
+        "v_endpoint" : "URL",
+        "inferenceStats" : {
+          "errorRate" : "DECIMAL",
+          "avgLatencyMs_data" : "INT",
+          "p99LatencyMs" : "INT",
+          "cpu_usage_percent" : 89.58,
+          "v_requestsToday" : "INT"
+        },
+        "trainingDataPeriod" : "STRING",
+        "v_status" : "STRING",
+        "trainedBy" : "PII_EMAIL",
+        "name" : "STRING",
+        "metrics_data" : {
+          "precision" : "DECIMAL",
+          "v_auc" : null,
+          "recall" : "DECIMAL",
+          "f1Score" : "DECIMAL",
+          "accuracy" : "DECIMAL"
+        },
+        "deployedAt" : "DATETIME",
+        "featureImportance" : {
+          "monthly_spend_trend" : "DECIMAL",
+          "support_ticket_count" : "DECIMAL",
+          "v_days_since_last_login" : "DECIMAL",
+          "product_usage_score" : "DECIMAL"
+        },
+        "framework" : "STRING"
+      }
+    }
+  }
+}

@@ -1,28 +1,24 @@
 {
-  "telecom" : [ {
-    "system" : "STRING",
-    "value_data" : "PII_PHONE_NUMBER"
-  }, {
-    "system" : "STRING",
-    "value" : "PII_EMAIL",
-    "auto_renew" : false
-  } ],
-  "birthDate_data" : "PII_DATE_OF_BIRTH",
-  "identifier" : "STRING",
-  "meta" : {
-    "versionId" : "INT"
-  },
-  "userName" : [ {
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "v_family" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING"
-  } ],
-  "resourceType" : "STRING",
-  "address" : [ {
-    "city" : "PII_LOCATION_CITY",
-    "use" : "STRING",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "country" : "PII_LOCATION_COUNTRY"
-  } ],
-  "gender" : "STRING"
+  "Description" : "STRING",
+  "Name" : "PII_PERSON_NAME",
+  "Id" : "STRING",
+  "emailAddress" : "PII_EMAIL",
+  "Title_data" : "STRING",
+  "LastModifiedDate" : "DATETIME",
+  "MobilePhone" : "PII_PHONE_NUMBER",
+  "IsDeleted" : "BOOLEAN",
+  "AccountName" : "PII_COMPANY_NAME",
+  "CreatedDate" : "DATETIME",
+  "v_MailingCity" : "PII_LOCATION_CITY",
+  "LastName" : "PII_PERSON_LAST_NAME",
+  "MailingState" : "STRING",
+  "Department" : "STRING",
+  "Birthdate" : "PII_DATE_OF_BIRTH",
+  "OwnerId" : "STRING",
+  "MailingCountry" : "PII_LOCATION_COUNTRY",
+  "AccountId" : "STRING",
+  "MailingStreet" : "PII_ADDRESS_LINE",
+  "FirstName" : "PII_PERSON_FIRST_NAME",
+  "MailingPostalCode" : "STRING",
+  "Phone" : "PII_PHONE_NUMBER"
 }

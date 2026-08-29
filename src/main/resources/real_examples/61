@@ -1,0 +1,35 @@
+{
+  "loanApplicationId": "LOAN-2024-0091234",
+  "applicant": {
+    "firstName": "Ngozi",
+    "lastName": "Adeyemi",
+    "dateOfBirth": "1986-04-03",
+    "email": "ngozi.adeyemi@email.ng",
+    "phone": "+234 803 555 0192",
+    "nationalId": "NG-22891234",
+    "address": {
+      "street": "14 Victoria Island Boulevard",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "NG"
+    },
+    "employmentStatus": "employed",
+    "employer": "First Bank of Nigeria",
+    "monthlyIncome": 850000.00
+  },
+  "loanDetails": {
+    "type": "personal",
+    "requestedAmount": 5000000.00,
+    "currency": "NGN",
+    "termMonths": 36,
+    "purpose": "home_improvement",
+    "requestedAt": "2024-04-08T10:00:00Z"
+  },
+  "creditScore": 742,
+  "status": "under_review",
+  "bankAccount": {
+    "iban": "NG12 ABCD 1234 5678 9012 34",
+    "bankName": "First Bank of Nigeria",
+    "branchCode": "001"
+  }
+}

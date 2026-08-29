@@ -1,0 +1,18 @@
+{
+  "members_data" : [ {
+    "name" : "PII_PERSON_NAME",
+    "joinedAt" : "DATETIME",
+    "userId" : "STRING",
+    "email" : "PII_EMAIL",
+    "role" : "NULL"
+  } ],
+  "v_description" : "STRING",
+  "oncallScheduleId" : "STRING",
+  "system_ping_ms" : 3491,
+  "slackChannel" : "NULL",
+  "updatedAt" : "DATETIME",
+  "recordId" : "STRING",
+  "v_ownedServices" : [ "STRING" ],
+  "name" : "STRING",
+  "v_createdAt" : "DATETIME"
+}

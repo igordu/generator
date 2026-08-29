@@ -1,13 +1,18 @@
 {
-  "starRatingDistribution" : {
-    "5" : "INT",
-    "2" : "INT",
-    "1" : "INT",
-    "4" : "INT"
-  },
-  "numberOfUserReviews" : "INT",
-  "uuid" : "STRING",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "averageStarRating" : "INT",
-  "retry_attempts" : 134
+  "shopUrl" : "URL",
+  "modelId" : "STRING",
+  "id" : null,
+  "media" : {
+    "images_data" : [ {
+      "stock_quantity" : 835,
+      "v_largeUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "orderNumber_data" : "INT",
+      "mediumUrl" : "",
+      "largeHdUrl" : "URL",
+      "type" : "STRING",
+      "smallUrl" : "URL",
+      "thumbnailHdUrl" : "URL"
+    } ]
+  }
 }

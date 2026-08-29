@@ -1,40 +1,28 @@
-[ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "count" : "NULL",
-    "temperature_c" : 901.35,
-    "displayName" : null,
-    "key_data" : "STRING"
-  }, {
-    "count_data" : "INT",
-    "clientName" : "STRING",
-    "key" : "STRING"
-  } ]
-}, {
-  "facets" : [ {
-    "response_time_sec" : 381.93,
-    "key" : null,
-    "displayName" : "STRING"
-  }, {
-    "has_discount" : true,
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "displayName" : "",
-    "response_time_sec" : 998.48,
-    "v_key" : "STRING"
+{
+  "event_type" : "STRING",
+  "target_service" : "STRING",
+  "region" : "STRING",
+  "hostname" : "STRING",
+  "message_data" : "TEXT",
+  "primaryKey" : "STRING",
+  "details" : [ {
+    "step" : "STRING",
+    "v_outcome" : "STRING"
   } ],
-  "filter" : "STRING"
-}, {
-  "conversion_rate" : 60.33,
-  "filter_data" : "STRING",
-  "v_facets" : [ {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key_data" : "STRING"
-  }, {
-    "fullName" : "STRING",
-    "v_count" : "INT",
-    "key_data" : null
-  } ]
-} ]
+  "v_kubernetes" : {
+    "clientName" : "STRING",
+    "pod_name" : "STRING",
+    "recordId" : "STRING"
+  },
+  "timestamp" : "",
+  "v_source_service" : "NULL",
+  "v_severity" : "STRING",
+  "recordId" : "STRING",
+  "uuid" : "STRING",
+  "http" : {
+    "method" : "STRING",
+    "latency_ms_data" : "INT",
+    "is_deleted" : false,
+    "status_code" : "NULL"
+  }
+}

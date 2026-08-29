@@ -1,13 +1,19 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "numberOfUserRecommendations" : null,
-  "primaryKey" : null,
-  "averageStarRating" : "INT",
-  "numberOfUserReviews" : "INT",
-  "starRatingDistribution" : {
-    "temperature_c" : 55.37,
-    "2" : "INT",
-    "4" : "INT",
-    "5" : "INT"
+  "id" : "STRING",
+  "modelId" : "STRING",
+  "name" : "STRING",
+  "shopUrl" : "URL",
+  "v_media" : {
+    "images" : [ {
+      "largeUrl" : "URL",
+      "v_orderNumber" : "INT",
+      "v_type" : "STRING",
+      "mediumUrl" : "URL",
+      "smallHdUrl" : "URL",
+      "v_thumbnailHdUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "largeHdUrl" : "URL",
+      "v_smallUrl" : "URL"
+    } ]
   }
 }

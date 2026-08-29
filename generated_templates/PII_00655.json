@@ -1,42 +1,54 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "apiVersion" : "STRING",
+  "v_metadata" : {
+    "resourceVersion" : "STRING",
+    "annotations" : {
+      "owner" : "STRING",
+      "auto_renew" : false,
+      "contact" : "PII_EMAIL"
+    },
+    "fullName" : "STRING",
+    "name" : "STRING",
+    "identifier" : "STRING",
+    "labels" : {
+      "environment" : "STRING",
+      "version" : "STRING",
+      "app" : "STRING"
+    },
+    "creationTimestamp" : "DATETIME"
   },
-  "results" : {
-    "DateTimeUTC" : "",
-    "uuid" : "STRING",
-    "stock_quantity" : 1835,
-    "ProviderName" : "STRING",
-    "Employees" : [ {
-      "UpdatedDateUTC_data" : "DATETIME",
-      "FirstName" : "PII_PERSON_FIRST_NAME",
-      "clientName" : "PII_PERSON_LAST_NAME",
-      "EmployeeID" : "STRING",
-      "Status_data" : "STRING",
-      "ExternalLink" : {
-        "Description" : "STRING",
-        "Url_data" : "URL"
-      }
-    }, {
-      "fullName" : "PII_PERSON_LAST_NAME",
-      "UpdatedDateUTC" : "DATETIME",
-      "userName" : "PII_PERSON_FIRST_NAME",
-      "Status" : "STRING",
-      "EmployeeID" : "STRING"
-    }, {
-      "v_ExternalLink" : {
-        "Description" : "STRING",
-        "item_count" : 2209,
-        "Url" : "URL"
+  "status" : {
+    "startTime" : "DATETIME",
+    "hostIP" : "STRING"
+  },
+  "spec" : {
+    "page_index" : 4264,
+    "clientName" : "STRING",
+    "serviceAccountName" : "STRING",
+    "containers" : [ {
+      "image_data" : "STRING",
+      "cache_hit" : true,
+      "resources" : {
+        "requests" : {
+          "memory" : "STRING",
+          "cpu" : "STRING"
+        },
+        "limits" : {
+          "memory_data" : "STRING",
+          "discount_rate" : 13.85,
+          "cpu" : "STRING"
+        }
       },
-      "LastName" : "PII_PERSON_LAST_NAME",
-      "Status" : "STRING",
-      "FirstName" : "PII_PERSON_FIRST_NAME",
-      "price" : 86.69,
-      "UpdatedDateUTC" : "DATETIME",
-      "recordId" : "STRING"
-    } ],
-    "Status" : "STRING"
-  }
+      "ports" : [ {
+        "containerPort" : "INT",
+        "protocol" : "STRING"
+      } ],
+      "env_data" : [ {
+        "name" : "STRING",
+        "value_data" : "PII_EMAIL"
+      } ],
+      "name" : "STRING"
+    } ]
+  },
+  "kind" : "STRING"
 }

@@ -1,0 +1,16 @@
+{
+  "description" : "STRING",
+  "v_assignedTo" : [ {
+    "userId" : "STRING",
+    "name_val" : "PII_PERSON_NAME",
+    "assignedAt" : "DATETIME",
+    "primary_email" : "PII_EMAIL"
+  } ],
+  "createdAt" : "",
+  "fullName" : "STRING",
+  "roleId" : "STRING",
+  "v_permissions" : [ "STRING" ],
+  "page_index" : 4909,
+  "updatedAt_data" : "DATETIME",
+  "createdBy_data" : "PII_EMAIL"
+}

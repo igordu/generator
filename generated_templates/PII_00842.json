@@ -1,89 +1,44 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "response_time_sec" : 691.32,
-      "schedule_meeting" : {
-        "pmi_password_data" : "PII_PASSWORD",
-        "audio_type" : "STRING",
-        "pstn_password_protected" : "BOOLEAN",
-        "v_join_before_host" : "BOOLEAN",
-        "embed_password_in_join_link" : "BOOLEAN",
-        "recordId" : "BOOLEAN",
-        "meeting_password_requirement" : {
-          "have_special_character" : "BOOLEAN",
-          "v_have_letter" : "BOOLEAN",
-          "v_only_allow_numeric" : "BOOLEAN",
-          "http_status" : 4610,
-          "v_have_number" : "BOOLEAN",
-          "v_length" : "INT"
-        },
-        "force_pmi_jbh_password" : "BOOLEAN",
-        "not_store_meeting_topic" : "BOOLEAN",
-        "use_pmi_for_instant_meetings" : "BOOLEAN",
-        "require_password_for_pmi_meetings" : "STRING",
-        "participants_video" : "BOOLEAN"
-      },
-      "email_notification" : {
-        "schedule_for_reminder" : "BOOLEAN",
-        "alternative_host_reminder" : "BOOLEAN",
-        "v_jbh_reminder" : "BOOLEAN",
-        "cancel_meeting_reminder" : "BOOLEAN"
-      },
-      "recording_data" : {
-        "local_recording" : "BOOLEAN",
-        "show_timestamp_data" : "BOOLEAN",
-        "recording_password_requirement" : {
-          "only_allow_numeric_data" : "BOOLEAN",
-          "length_data" : "INT",
-          "have_letter" : "BOOLEAN",
-          "have_special_character_data" : "BOOLEAN",
-          "have_number" : "BOOLEAN"
-        },
-        "record_gallery_view" : "BOOLEAN",
-        "auto_recording" : "STRING",
-        "v_cloud_recording" : null,
-        "record_audio_file" : "BOOLEAN",
-        "auto_delete_cmr" : "BOOLEAN"
-      },
-      "tsp" : {
-        "show_international_numbers_link" : "BOOLEAN",
-        "call_out" : "BOOLEAN",
-        "call_out_countries" : "ARRAY"
-      },
-      "telephony" : {
-        "audio_conference_info" : "NULL"
-      },
-      "v_in_meeting" : {
-        "polling" : "BOOLEAN",
-        "private_chat" : "BOOLEAN",
-        "far_end_camera_control" : "BOOLEAN",
-        "data_center_regions" : "NULL",
-        "remote_control" : "BOOLEAN",
-        "v_allow_live_streaming" : "BOOLEAN",
-        "record_play_voice" : "BOOLEAN",
-        "annotation" : "BOOLEAN",
-        "chat" : "BOOLEAN",
-        "remote_support_data" : "BOOLEAN",
-        "auto_saving_chat" : "BOOLEAN",
-        "non_verbal_feedback" : "BOOLEAN",
-        "custom_data_center_regions" : "BOOLEAN",
-        "v_e2e_encryption" : "BOOLEAN",
-        "entry_exit_chime" : "STRING",
-        "attendee_on_hold" : null,
-        "waiting_room" : "BOOLEAN",
-        "show_meeting_control_toolbar" : "BOOLEAN",
-        "group_hd" : "BOOLEAN",
-        "feedback" : "BOOLEAN",
-        "breakout_room_data" : "BOOLEAN"
-      },
-      "v_feature" : {
-        "v_cn_meeting" : "BOOLEAN",
-        "telephone" : "BOOLEAN",
-        "v_in_meeting" : "BOOLEAN",
-        "discount_rate" : 756.48,
-        "webinar" : "BOOLEAN",
-        "meeting_capacity" : "INT"
-      }
+  "accounts" : [ {
+    "type" : "STRING",
+    "name_val" : "STRING",
+    "mask_data" : "STRING",
+    "balances_data" : {
+      "iso_currency_code" : "STRING",
+      "cache_hit" : false,
+      "current" : "DECIMAL",
+      "v_limit" : "NULL",
+      "available_data" : "DECIMAL"
     }
+  } ],
+  "owners" : [ {
+    "telephone" : [ {
+      "data" : "PII_PHONE_NUMBER",
+      "primary" : "BOOLEAN",
+      "type" : "STRING",
+      "cache_hit" : false
+    } ],
+    "requires_update" : true,
+    "addresses" : [ {
+      "v_data" : {
+        "is_deleted" : false,
+        "region" : "PII_LOCATION_STATE",
+        "postal_code" : "STRING",
+        "city" : "PII_LOCATION_CITY",
+        "country" : "PII_LOCATION_COUNTRY",
+        "street_data" : "PII_ADDRESS_LINE"
+      }
+    } ],
+    "emails" : [ {
+      "data" : "PII_EMAIL",
+      "type" : "STRING",
+      "stock_quantity" : 3509
+    } ],
+    "names" : [ "PII_PERSON_NAME" ]
+  } ],
+  "request_id" : "STRING",
+  "item" : {
+    "institution_name" : "PII_COMPANY_NAME",
+    "recordId" : "STRING"
   }
 }

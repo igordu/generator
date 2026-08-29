@@ -1,68 +1,24 @@
 {
-  "system_state" : {
-    "request_context" : {
-      "body" : {
-        "userId" : "STRING",
-        "username" : "PII_USERNAME",
-        "accountType" : "STRING",
-        "individualAccount" : {
-          "primaryPhone" : {
-            "http_status" : 2062,
-            "phoneType" : "STRING",
-            "countryCode" : "STRING",
-            "number_data" : "PII_PHONE_NUMBER"
-          },
-          "clientName" : "PII_PERSON_NAME",
-          "email" : "PII_EMAIL",
-          "cell" : {
-            "countryCode" : "STRING",
-            "v_number" : "PII_PHONE_NUMBER",
-            "mobile" : "STRING"
-          },
-          "priority_level" : 783,
-          "registrationAddress_data" : {
-            "postalCode" : "STRING",
-            "city" : "NULL",
-            "addressLine2" : "STRING",
-            "temperature_c" : 5.12,
-            "country" : "STRING",
-            "addressLine1" : "STRING",
-            "stateOrProvince" : null,
-            "v_county" : "STRING"
-          },
-          "fullName" : "PII_PERSON_NAME"
-        },
-        "recordId" : "STRING",
-        "status" : "STRING",
-        "discount_rate" : 381.45,
-        "businessAccount" : {
-          "primaryPhone" : {
-            "countryCode_data" : "STRING",
-            "number" : "PII_PHONE_NUMBER"
-          },
-          "secondaryPhone" : {
-            "phoneType" : "STRING",
-            "v_countryCode" : "STRING",
-            "v_number" : "PII_PHONE_NUMBER"
-          },
-          "address_data" : {
-            "county" : "STRING",
-            "city" : "STRING",
-            "stateOrProvince" : "STRING",
-            "addressLine2" : "STRING",
-            "addressLine1_data" : "STRING",
-            "requires_update" : true,
-            "postalCode" : "STRING"
-          },
-          "email" : "PII_EMAIL",
-          "name" : "PII_ORGANIZATION_NAME",
-          "v_website" : "URL",
-          "primaryContact" : {
-            "firstName" : "PII_PERSON_NAME",
-            "lastName" : "PII_PERSON_NAME"
-          }
-        }
-      }
-    }
+  "LastModifiedDate" : "DATETIME",
+  "ParentId" : "STRING",
+  "activity_log" : [ {
+    "action" : "STRING",
+    "timestamp" : "DATETIME",
+    "is_deleted" : true,
+    "note" : "PII_FREE_TEXT"
+  } ],
+  "CreatedDate" : "DATETIME",
+  "IsPrivate_data" : "BOOLEAN",
+  "Owner" : {
+    "Department_data" : "STRING",
+    "http_status" : 4690,
+    "Name" : "PII_PERSON_NAME"
+  },
+  "Id" : "STRING",
+  "Body" : "PII_FREE_TEXT",
+  "response_time_sec" : 29.21,
+  "attributes" : {
+    "type_data" : "STRING",
+    "priority_level" : 3813
   }
 }

@@ -1,0 +1,23 @@
+{
+  "export_id": "STRING",
+  "anonymized": "BOOLEAN",
+  "ticket": {
+    "id": "INT",
+    "subject": "STRING",
+    "description": "TEXT",
+    "requester": {
+      "name": "REDACTED",
+      "email": "[MASKED]",
+      "phone": "***-***-****"
+    },
+    "status": "STRING",
+    "created_at": "DATETIME",
+    "satisfaction_rating": {
+      "score": "STRING",
+      "comment": "TEXT"
+    }
+  },
+  "retention_policy": "STRING",
+  "gdpr_erasure_applied": "BOOLEAN",
+  "exported_at": "DATETIME"
+}

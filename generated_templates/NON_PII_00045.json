@@ -1,14 +1,39 @@
-{
-  "starRatingDistribution" : {
-    "3_data" : "INT",
-    "1" : "INT",
-    "5" : "INT",
-    "4" : "INT",
-    "v_2" : "INT"
-  },
-  "numberOfUserRecommendations_data" : "INT",
-  "numberOfUserReviews" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "averageStarRating" : "INT",
-  "identifier" : "STRING"
-}
+[ {
+  "filter_data" : "STRING",
+  "v_facets" : [ {
+    "displayName" : "NULL",
+    "key" : "STRING",
+    "count" : "INT"
+  }, {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "v_count" : "INT"
+  } ],
+  "conversion_rate" : 0.29
+}, {
+  "filter" : "NULL",
+  "facets" : [ {
+    "key" : "STRING",
+    "userName" : "STRING",
+    "count" : "INT"
+  }, {
+    "key" : "STRING",
+    "fullName" : "STRING",
+    "v_count" : "INT"
+  }, {
+    "key" : "STRING",
+    "stock_quantity" : 843,
+    "displayName" : "STRING"
+  } ]
+}, {
+  "facets" : [ {
+    "v_count" : "INT",
+    "stock_quantity" : 2657,
+    "displayName" : "STRING"
+  }, {
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "count" : "INT"
+  } ],
+  "is_deleted" : true
+} ]

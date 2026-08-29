@@ -1,0 +1,24 @@
+{
+  "v_producer" : "STRING",
+  "correlationId" : "STRING",
+  "version_data" : null,
+  "metadata" : {
+    "conversion_rate" : 2.27,
+    "offset" : "INT",
+    "partition" : "NULL"
+  },
+  "v_eventType" : "STRING",
+  "occurredAt_data" : "DATETIME",
+  "payload_data" : {
+    "registrationSource" : "",
+    "country" : "PII_LOCATION_COUNTRY",
+    "telephone" : "PII_PHONE_NUMBER",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "email" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "userId" : "STRING"
+  },
+  "eventId" : "STRING"
+}

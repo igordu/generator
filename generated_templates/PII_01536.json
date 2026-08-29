@@ -1,0 +1,24 @@
+{
+  "provider" : "STRING",
+  "name_val" : "STRING",
+  "createdAt" : "DATETIME",
+  "type" : "STRING",
+  "lastTriggeredAt" : "DATETIME",
+  "createdBy" : {
+    "stock_quantity" : 2885,
+    "userId" : "STRING",
+    "mail" : "PII_EMAIL"
+  },
+  "triggers" : [ "STRING" ],
+  "updatedAt" : "DATETIME",
+  "config" : {
+    "mentionOnError" : "STRING",
+    "webhookUrl" : "URL",
+    "channel" : "STRING"
+  },
+  "integrationId" : "",
+  "stats_data" : {
+    "successRate" : "DECIMAL",
+    "totalDeliveries" : "INT"
+  }
+}

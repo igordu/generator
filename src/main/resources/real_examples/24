@@ -1,0 +1,46 @@
+{
+  "id": "urn:li:person:ABC123xyz",
+  "firstName": {
+    "localized": {
+      "en_US": "John"
+    },
+    "preferredLocale": {
+      "country": "US",
+      "language": "en"
+    }
+  },
+  "lastName": {
+    "localized": {
+      "en_US": "Smith"
+    },
+    "preferredLocale": {
+      "country": "US",
+      "language": "en"
+    }
+  },
+  "profilePicture": {
+    "displayImage": "urn:li:digitalmediaAsset:C4D03AQEwOaM7pZ9ZrQ"
+  },
+  "headline": {
+    "localized": {
+      "en_US": "Senior Software Engineer at TechCorp"
+    }
+  },
+  "vanityName": "john-smith-eng",
+  "emailAddress": "john.smith@example.com",
+  "phoneNumbers": [
+    {
+      "number": "+1-415-555-0182",
+      "type": "MOBILE"
+    }
+  ],
+  "birthDate": {
+    "month": 8,
+    "day": 14
+  },
+  "location": {
+    "country": {
+      "code": "us"
+    }
+  }
+}

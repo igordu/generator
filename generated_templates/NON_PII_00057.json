@@ -1,12 +1,40 @@
-{
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "v_averageStarRating" : "INT",
-    "v_numberOfUserPositiveRecommendations" : "INT",
-    "numberOfUserRecommendations" : "INT",
-    "numberOfUserReviews" : "INT",
-    "cache_hit" : true,
-    "articleModelId" : "STRING"
-  }
-}
+[ {
+  "price" : 8090.35,
+  "v_facets" : [ {
+    "key_data" : "STRING",
+    "displayName" : "STRING",
+    "count" : "INT"
+  }, {
+    "v_key" : "STRING",
+    "displayName" : "STRING",
+    "http_status" : 4651
+  }, {
+    "count" : "INT",
+    "key_data" : "STRING",
+    "stock_quantity" : 1447
+  } ],
+  "filter" : "STRING"
+}, {
+  "http_status" : 4853,
+  "filter_data" : "STRING",
+  "facets" : [ {
+    "key_data" : "STRING",
+    "displayName" : "STRING",
+    "count" : null
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "has_discount" : true,
+    "displayName" : "STRING"
+  } ]
+}, {
+  "facets" : [ {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "key_data" : "STRING"
+  }, {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "conversion_rate" : 2.26
+  } ]
+} ]

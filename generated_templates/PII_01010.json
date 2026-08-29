@@ -1,16 +1,38 @@
 {
-  "fingerprint" : "",
-  "metadata" : "OBJECT",
-  "customer" : "",
-  "object_data" : "STRING",
-  "account_holder_type" : "STRING",
-  "id" : "STRING",
-  "name_val" : "STRING",
-  "country_data" : "STRING",
-  "status" : "NULL",
-  "last4_data" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "currency" : "STRING",
-  "routing_number" : "STRING",
-  "v_account_type" : "STRING"
+  "candidate" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "primary_email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "resumeUrl_data" : "URL",
+    "v_linkedIn" : "URL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "address" : {
+      "city_data" : "PII_LOCATION_CITY",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING",
+      "is_active" : true
+    },
+    "mobile" : "PII_PHONE_NUMBER",
+    "cpu_usage_percent" : 14.75
+  },
+  "is_deleted" : true,
+  "identifier" : "STRING",
+  "interviews" : [ {
+    "scheduledAt_data" : "DATETIME",
+    "type" : "STRING",
+    "interviewer" : {
+      "name" : "PII_PERSON_NAME",
+      "contactEmail" : "PII_EMAIL"
+    }
+  } ],
+  "updatedAt" : "DATETIME",
+  "position" : {
+    "jobId" : "STRING",
+    "title" : "STRING",
+    "location" : "PII_LOCATION_CITY"
+  },
+  "v_appliedAt" : "DATETIME",
+  "status" : "STRING",
+  "source" : ""
 }

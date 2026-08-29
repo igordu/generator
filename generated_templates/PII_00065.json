@@ -1,19 +1,5 @@
 {
-  "v_content" : [ {
-    "rating" : "INT",
-    "primaryKey" : "STRING",
-    "customerCity" : "PII_LOCATION_CITY",
-    "title" : "PII_COMPANY_NAME",
-    "created" : "DATETIME",
-    "v_description" : "STRING",
-    "unhelpfulCount_data" : "INT",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "language_data" : "STRING",
-    "articleSizeRatings" : {
-      "OVERALL" : "INT",
-      "conversion_rate" : 292.57,
-      "primaryKey" : "INT"
-    }
-  } ],
-  "conversion_rate" : 957.78
+  "mail" : [ "STRING" ],
+  "is_active" : true,
+  "emailAddress" : "PII_EMAIL"
 }

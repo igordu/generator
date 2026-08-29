@@ -1,66 +1,13 @@
 {
-  "registrationMarketplaceId" : "STRING",
-  "accountType" : "STRING",
-  "individualAccount" : {
-    "userName" : "PII_PERSON_NAME",
-    "telephone" : {
-      "is_deleted" : false,
-      "countryCode" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER",
-      "telephone" : "STRING"
-    },
-    "registrationAddress" : {
-      "county_data" : "STRING",
-      "v_addressLine2" : "STRING",
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "STRING",
-      "city_data" : "STRING",
-      "country_data" : "STRING",
-      "postalCode_data" : "STRING"
-    },
-    "emailAddress" : "PII_EMAIL",
-    "lastName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "discount_rate" : 170.57,
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode_data" : "STRING"
-    }
-  },
-  "businessAccount" : {
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME",
-      "temperature_c" : 717.24
-    },
-    "doingBusinessAs" : "STRING",
-    "cell" : {
-      "v_countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER"
-    },
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "retry_attempts" : 3514
-    },
-    "address" : {
-      "http_status" : 221,
-      "addressLine1" : "STRING",
-      "country" : "STRING",
-      "stateOrProvince_data" : "STRING",
-      "county" : "STRING",
-      "postalCode" : "STRING",
-      "v_addressLine2" : "STRING"
-    },
-    "website_data" : "URL",
-    "name" : "PII_ORGANIZATION_NAME",
-    "email" : "PII_EMAIL",
-    "discount_rate" : 796.69
-  },
-  "cache_hit" : false,
-  "username" : "PII_USERNAME",
-  "userId" : "STRING",
-  "status_data" : "STRING"
+  "error_code_data" : "NULL",
+  "date_created" : "DATETIME",
+  "identifier" : "STRING",
+  "direction" : "STRING",
+  "v_date_sent" : "DATETIME",
+  "body" : "PII_FREE_TEXT",
+  "price" : "DECIMAL",
+  "from" : "PII_PHONE_NUMBER",
+  "status" : "STRING",
+  "uri" : "URL",
+  "to" : "PII_PHONE_NUMBER"
 }

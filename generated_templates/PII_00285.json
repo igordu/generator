@@ -1,62 +1,30 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "v_transactions" : [ {
-      "transactionType" : "STRING",
-      "v_amount" : {
-        "convertedFromCurrency" : "STRING",
-        "v_value" : "STRING",
-        "v_currency" : "STRING"
-      },
-      "references" : [ {
-        "referenceType" : "STRING",
-        "referenceId" : "STRING",
-        "is_deleted" : true
-      } ],
-      "bookingEntry_data" : "STRING",
-      "buyer" : {
-        "username" : "PII_USERNAME"
-      },
-      "feeType" : "STRING",
-      "salesRecordReference_data" : "STRING",
-      "transactionStatus" : "STRING",
-      "paymentsEntity" : "STRING",
-      "payoutId" : "STRING",
-      "primaryKey" : "STRING",
-      "feeJurisdiction" : {
-        "clientName" : "STRING",
-        "regionType" : "",
-        "page_index" : 810
-      },
-      "transactionMemo" : "STRING",
-      "transactionDate" : "DATETIME",
-      "eBayCollectedTaxAmount" : {
-        "value" : "STRING",
-        "convertedFromCurrency" : "STRING",
-        "currency" : "",
-        "convertedFromValue" : "STRING"
-      },
-      "totalFeeBasisAmount" : {
-        "convertedFromValue" : "STRING",
-        "v_value" : "STRING",
-        "exchangeRate_data" : "STRING",
-        "convertedFromCurrency" : "STRING"
-      },
-      "totalFeeAmount" : {
-        "convertedFromCurrency" : "STRING",
-        "convertedFromValue" : "STRING",
-        "exchangeRate" : "STRING",
-        "currency" : "STRING"
-      },
-      "transactionId" : "STRING"
-    } ],
-    "href" : "STRING",
-    "total" : "INT",
-    "v_prev" : "STRING",
-    "limit_data" : "INT",
-    "next" : "STRING"
-  }
+  "has_more" : "BOOLEAN",
+  "object_data" : "STRING",
+  "conversion_rate" : 7.6,
+  "data" : [ {
+    "currency_data" : "STRING",
+    "id" : "STRING",
+    "v_default_source" : "STRING",
+    "v_test_clock" : "NULL",
+    "v_description" : "STRING",
+    "livemode" : "BOOLEAN",
+    "delinquent" : "BOOLEAN",
+    "name" : "PII_PERSON_NAME",
+    "v_balance" : "INT",
+    "invoice_prefix" : "STRING",
+    "next_invoice_sequence" : "INT",
+    "invoice_settings" : {
+      "footer" : "STRING",
+      "rendering_options" : "NULL",
+      "custom_fields" : "NULL",
+      "default_payment_method" : "STRING"
+    },
+    "shipping_data" : "NULL",
+    "metadata" : "OBJECT",
+    "email" : "PII_EMAIL",
+    "preferred_locales" : "ARRAY",
+    "phone" : "PII_PHONE_NUMBER",
+    "created" : null
+  } ]
 }

@@ -1,13 +1,33 @@
 {
-  "tree" : {
-    "url" : "URL",
-    "sha" : "STRING"
-  },
-  "v_user_info" : {
-    "fullName" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "name_val" : "PII_LAST_NAME_MALE",
-    "discount_rate" : 921.51
-  },
-  "active" : "BOOLEAN"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "completedAt_data" : "DATETIME",
+    "sender_data" : {
+      "v_bic" : "STRING",
+      "accountId" : "STRING",
+      "iban" : "PII_IBAN",
+      "bankName" : "PII_COMPANY_NAME",
+      "name" : "PII_PERSON_NAME"
+    },
+    "recipient" : {
+      "bic" : "STRING",
+      "fullName" : "PII_COMPANY_NAME",
+      "temperature_c" : 19.95,
+      "iban_data" : "PII_IBAN",
+      "name" : "PII_PERSON_NAME",
+      "identifier" : "STRING"
+    },
+    "endToEndId" : "STRING",
+    "chargesBearer" : "STRING",
+    "transferId" : "STRING",
+    "is_active" : false,
+    "amount" : {
+      "cpu_usage_percent" : 50.48,
+      "v_value" : "DECIMAL",
+      "currency" : "STRING"
+    },
+    "initiatedAt" : "DATETIME",
+    "reference" : "STRING"
+  }
 }

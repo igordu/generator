@@ -1,77 +1,39 @@
-[ {
-  "html_url_data" : "URL",
-  "node_id" : "STRING",
-  "parents" : [ {
-    "sha_data" : "STRING",
-    "url" : "URL",
-    "is_deleted" : true
+{
+  "encounterId" : "STRING",
+  "prescriptions" : [ {
+    "dose" : "STRING",
+    "v_frequency" : "STRING",
+    "http_status" : 1286,
+    "drugName" : "NULL"
   } ],
-  "author" : {
-    "events_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "followers_url" : "URL",
-    "html_url" : "URL",
-    "organizations_url" : "URL",
-    "received_events_url" : "URL",
-    "gists_url_data" : "URL",
-    "response_time_sec" : 760.61,
-    "gravatar_id" : "STRING",
-    "login" : "STRING",
-    "uuid" : "INT",
-    "url" : null,
-    "avatar_url" : "URL",
-    "node_id" : "STRING",
-    "repos_url" : "URL"
-  },
-  "v_committer" : {
-    "events_url" : "URL",
-    "v_html_url" : "URL",
-    "primaryKey" : "INT",
-    "url" : "URL",
-    "followers_url" : null,
-    "starred_url_data" : "URL",
-    "site_admin" : "BOOLEAN",
-    "following_url" : "URL",
-    "gravatar_id" : "STRING",
-    "login" : "STRING",
-    "node_id" : "NULL",
-    "received_events_url_data" : "URL",
+  "diagnosis_data" : [ {
+    "system" : "STRING",
+    "stock_quantity" : 4629,
     "type" : "STRING",
-    "organizations_url" : "URL",
-    "gists_url" : "URL",
-    "repos_url" : "URL"
+    "v_code" : "STRING",
+    "description" : "STRING"
+  } ],
+  "date" : "DATE",
+  "encounterType" : "STRING",
+  "uuid" : null,
+  "v_referral" : {
+    "urgency" : "STRING",
+    "cpu_usage_percent" : 67.84,
+    "specialist_data" : "STRING"
   },
-  "v_comments_url" : "URL",
-  "url" : "URL",
-  "v_sha" : "STRING",
-  "commit" : {
-    "tree" : {
-      "sha" : "STRING",
-      "url" : "URL"
+  "patient_data" : {
+    "v_address" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "v_street" : "PII_ADDRESS_LINE",
+      "city_data" : "PII_LOCATION_CITY"
     },
-    "verification" : {
-      "v_verified_at" : "DATETIME",
-      "reason" : "STRING",
-      "cache_hit" : true,
-      "payload" : "STRING",
-      "signature" : "STRING",
-      "verified" : "BOOLEAN"
-    },
-    "url" : "URL",
-    "response_time_sec" : 915.33,
-    "committer_data" : {
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "date" : "DATETIME"
-    },
-    "author_data" : {
-      "emailAddress" : "PII_EMAIL",
-      "cpu_usage_percent" : 977.48,
-      "name" : "PII_PERSON_NAME",
-      "date" : "DATETIME"
-    },
-    "comment_count" : "INT",
-    "v_message" : "PII_COMPANY_NAME"
-  },
-  "retry_attempts" : 2834
-} ]
+    "phone" : "PII_PHONE_NUMBER",
+    "v_gender" : "STRING",
+    "http_status" : 559,
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "name_val" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "taxCode" : "PII_NATIONAL_ID"
+  }
+}

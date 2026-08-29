@@ -1,20 +1,23 @@
 {
-  "modelId" : "STRING",
-  "id" : "STRING",
-  "media_data" : {
-    "item_count" : 559,
-    "images_data" : [ {
-      "largeHdUrl" : "URL",
-      "is_active" : false,
-      "v_smallUrl" : "URL",
-      "type" : "STRING",
-      "smallHdUrl_data" : "URL",
-      "orderNumber_data" : "INT",
-      "thumbnailHdUrl" : "URL",
-      "v_largeUrl" : "URL",
-      "mediumUrl" : "URL"
-    } ]
+  "gdpr_erasure_applied" : "BOOLEAN",
+  "ticket_data" : {
+    "requires_update" : true,
+    "v_requester" : {
+      "email" : "[MASKED]",
+      "clientName" : "REDACTED",
+      "has_discount" : false,
+      "phone" : "***-***-****"
+    },
+    "created_at" : "DATETIME",
+    "satisfaction_rating" : {
+      "comment" : "TEXT",
+      "score" : "NULL"
+    },
+    "status" : "STRING",
+    "v_description" : "TEXT",
+    "subject" : "STRING",
+    "id" : "INT"
   },
-  "shopUrl" : "URL",
-  "name_val" : "STRING"
+  "export_id" : "STRING",
+  "conversion_rate" : 1.05
 }

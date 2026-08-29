@@ -1,0 +1,40 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "grantType" : "STRING",
+    "email" : "PII_EMAIL",
+    "issuedAt_data" : "DATETIME",
+    "accessToken" : {
+      "has_discount" : true,
+      "type" : "STRING",
+      "jti" : "STRING"
+    },
+    "grantId" : "STRING",
+    "v_refreshToken" : {
+      "jti" : "STRING",
+      "rotated_data" : "BOOLEAN",
+      "expiresAt" : "DATETIME",
+      "discount_rate" : 94.58
+    },
+    "v_scopes" : [ "STRING" ],
+    "idToken" : {
+      "sub_data" : null,
+      "address" : {
+        "street_address_data" : "PII_ADDRESS_LINE",
+        "country_data" : "PII_LOCATION_COUNTRY",
+        "v_region" : "STRING",
+        "is_active" : true,
+        "locality" : "PII_LOCATION_CITY",
+        "v_postal_code" : "STRING"
+      },
+      "cache_hit" : false,
+      "phone_number" : "PII_PHONE_NUMBER",
+      "emailAddress" : "PII_EMAIL",
+      "birthdate" : "PII_DATE_OF_BIRTH",
+      "name" : "PII_PERSON_NAME"
+    },
+    "clientId" : "NULL",
+    "userId" : "STRING"
+  }
+}

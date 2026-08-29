@@ -1,36 +1,38 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "registrants" : [ {
-        "zip" : "STRING",
-        "first_name" : "PII_PERSON_FIRST_NAME",
-        "industry" : "STRING",
-        "role_in_purchase_process_data" : "STRING",
-        "v_purchasing_time_frame" : "STRING",
-        "email" : "PII_EMAIL",
-        "v_comments" : "STRING",
-        "v_job_title" : "STRING",
-        "country" : "PII_LOCATION_COUNTRY",
-        "city_data" : "PII_LOCATION_CITY",
-        "phone" : "PII_PHONE_NUMBER",
-        "discount_rate" : 798.7,
-        "org_data" : "PII_ORGANIZATION_NAME",
-        "custom_questions" : [ {
-          "title_data" : "STRING"
-        }, {
-          "requires_update" : false,
-          "value" : "STRING",
-          "title" : "STRING"
-        } ],
-        "address_data" : "PII_ADDRESS_LINE",
-        "join_url" : "URL",
-        "state" : "PII_LOCATION_STATE",
-        "last_name" : "PII_PERSON_LAST_NAME",
-        "status" : "STRING",
-        "v_create_time" : "DATETIME"
-      } ],
-      "page_count" : "INT",
-      "page_number" : "INT"
-    }
-  }
+  "resourceType_data" : "STRING",
+  "telecom" : [ {
+    "system" : "STRING",
+    "use" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  }, {
+    "system" : "",
+    "value" : "PII_EMAIL"
+  } ],
+  "meta" : {
+    "v_lastUpdated" : "DATETIME",
+    "uuid" : "NULL"
+  },
+  "primaryKey" : [ {
+    "system" : "URL",
+    "value_data" : "PII_NATIONAL_ID",
+    "is_deleted" : true
+  } ],
+  "id" : "STRING",
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "active" : "BOOLEAN",
+  "address" : [ {
+    "v_city" : "PII_LOCATION_CITY",
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "use" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "state" : "STRING",
+    "postalCode" : "STRING"
+  } ],
+  "fullName" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "use" : "STRING",
+    "v_prefix" : [ "STRING" ],
+    "v_family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "gender" : "STRING"
 }

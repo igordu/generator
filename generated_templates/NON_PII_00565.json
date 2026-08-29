@@ -1,48 +1,39 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "v_style" : null,
-    "insight_data" : {
-      "lastIssueUpdateTime" : "DATETIME",
-      "v_totalIssueCount" : "INT"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "topErrors_data" : [ {
+      "count" : "INT",
+      "code" : "STRING"
+    } ],
+    "period_data" : "STRING",
+    "identifier" : "STRING",
+    "endpoint" : "STRING",
+    "statusCodes" : {
+      "v_200" : "INT",
+      "404" : "NULL",
+      "conversion_rate" : 6.13,
+      "500" : "INT"
     },
-    "simplified" : "BOOLEAN",
-    "http_status" : 2267,
-    "v_key" : "STRING",
-    "self" : "URL",
-    "name" : "STRING",
-    "uuid" : "STRING",
-    "v_avatarUrls" : {
-      "32x32" : "URL",
-      "v_16x16" : "URL",
-      "48x48" : "URL",
-      "24x24" : "URL"
+    "metrics" : {
+      "p50LatencyMs_data" : "INT",
+      "p999LatencyMs" : "INT",
+      "v_errorRate" : "DECIMAL",
+      "p95LatencyMs" : "NULL",
+      "p99LatencyMs_data" : "INT",
+      "v_errorCount" : "INT",
+      "throughputRps" : "DECIMAL",
+      "requestCount" : "INT",
+      "is_active" : false
+    },
+    "sloCompliance_data" : {
+      "withinSlo" : "BOOLEAN",
+      "availabilityTarget" : "DECIMAL",
+      "latencyTarget_data" : "INT",
+      "v_availabilityActual" : "DECIMAL",
+      "latencyActualP99_data" : "INT"
     }
-  }, {
-    "recordId" : "STRING",
-    "style" : "NULL",
-    "projectCategory_data" : {
-      "clientName" : "STRING",
-      "self" : "URL",
-      "description_data" : "STRING",
-      "id" : null
-    },
-    "name_val" : "STRING",
-    "self" : "URL",
-    "simplified" : "BOOLEAN",
-    "avatarUrls" : {
-      "24x24" : "URL",
-      "32x32" : "URL",
-      "48x48" : "URL",
-      "16x16" : "",
-      "discount_rate" : 795.49
-    },
-    "insight" : {
-      "totalIssueCount" : "INT",
-      "discount_rate" : 395.21,
-      "lastIssueUpdateTime" : "DATETIME"
-    },
-    "key" : ""
-  } ]
+  }
 }

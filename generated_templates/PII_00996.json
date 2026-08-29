@@ -1,25 +1,40 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "server_logs" : {
-      "request_context" : {
-        "body" : {
-          "currency_data" : "STRING",
-          "account_type_data" : "STRING",
-          "customer" : "STRING",
-          "id" : "STRING",
-          "account_holder_type" : "STRING",
-          "bank_name" : "STRING",
-          "account_holder_name" : "PII_PERSON_NAME",
-          "last4" : "STRING",
-          "v_routing_number" : "STRING",
-          "fingerprint" : "STRING",
-          "status" : "STRING",
-          "country" : "STRING",
-          "metadata" : "NULL"
-        }
-      }
-    }
-  }
+  "studentId" : "NULL",
+  "personalInfo" : {
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "v_nationality" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "email" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "personalEmail" : "PII_EMAIL",
+    "price" : 376.06,
+    "gender" : "STRING"
+  },
+  "program" : "STRING",
+  "financialAid" : {
+    "cpu_usage_percent" : 96.26,
+    "scholarshipId" : "NULL",
+    "amount" : "DECIMAL",
+    "currency" : "STRING",
+    "disbursedAt" : "DATE"
+  },
+  "v_address" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "street_data" : "PII_ADDRESS_LINE",
+    "postcode" : "STRING",
+    "city_data" : "PII_LOCATION_CITY"
+  },
+  "academicRecord" : {
+    "advisor" : {
+      "primary_email" : "PII_EMAIL",
+      "cpu_usage_percent" : 64.21,
+      "name_val" : "PII_PERSON_NAME"
+    },
+    "creditsCompleted" : "INT",
+    "gpa" : "DECIMAL"
+  },
+  "academicYear" : "STRING",
+  "enrollmentStatus" : "STRING"
 }

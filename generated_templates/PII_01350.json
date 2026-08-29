@@ -1,14 +1,37 @@
 {
-  "price" : 79.78,
-  "active" : "BOOLEAN",
-  "tree" : {
-    "url" : "URL",
-    "sha" : null,
-    "discount_rate" : 668.15
+  "csm" : {
+    "id" : "STRING",
+    "discount_rate" : 66.66,
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
   },
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  }
+  "employees" : "INT",
+  "fullName" : "PII_COMPANY_NAME",
+  "contracts" : [ {
+    "cpu_usage_percent" : 13.27,
+    "currency" : "STRING",
+    "startDate_data" : "DATE",
+    "value" : "DECIMAL",
+    "endDate" : "DATE",
+    "status_data" : "STRING"
+  } ],
+  "primaryContact" : {
+    "email" : "PII_EMAIL",
+    "v_title" : "STRING",
+    "telephone" : "PII_PHONE_NUMBER",
+    "fullName" : "PII_PERSON_NAME"
+  },
+  "industry" : null,
+  "v_website" : "URL",
+  "v_billingAddress" : {
+    "city" : "PII_LOCATION_CITY",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "street_data" : "PII_ADDRESS_LINE",
+    "discount_rate" : 51.99,
+    "postalCode_data" : ""
+  },
+  "v_type" : "STRING",
+  "auto_renew" : true,
+  "annualRevenue" : null,
+  "accountId" : "STRING"
 }

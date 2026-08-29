@@ -1,36 +1,32 @@
 {
-  "system_state" : {
-    "payload_wrapper" : {
-      "extracted_info" : {
-        "data" : [ {
-          "currency" : "STRING",
-          "preferred_locales" : "ARRAY",
-          "v_next_invoice_sequence" : "INT",
-          "email" : "PII_EMAIL",
-          "default_source" : "STRING",
-          "invoice_prefix_data" : "STRING",
-          "tax_exempt" : "STRING",
-          "identifier" : "STRING",
-          "description" : "STRING",
-          "v_shipping" : "NULL",
-          "object_data" : "STRING",
-          "invoice_settings" : {
-            "custom_fields" : "NULL",
-            "rendering_options" : "NULL",
-            "default_payment_method" : "STRING",
-            "footer_data" : "STRING"
-          },
-          "phone" : "PII_PHONE_NUMBER",
-          "livemode_data" : "BOOLEAN",
-          "delinquent" : null,
-          "metadata" : "OBJECT",
-          "test_clock" : "NULL",
-          "name" : "PII_PERSON_NAME",
-          "created" : "DATETIME_EPOCH"
-        } ],
-        "url" : "URL",
-        "object" : "STRING"
-      }
-    }
-  }
+  "v_intent" : null,
+  "sender" : {
+    "v_type" : "STRING",
+    "name_val" : "PII_PERSON_NAME",
+    "is_deleted" : true,
+    "id" : "STRING",
+    "contactEmail" : "PII_EMAIL"
+  },
+  "recipient" : {
+    "primaryKey" : "STRING",
+    "cpu_usage_percent" : 79.5,
+    "name" : "NULL",
+    "type" : "STRING"
+  },
+  "conversationId" : "STRING",
+  "messageId" : "STRING",
+  "sentiment" : "STRING",
+  "channel" : "STRING",
+  "direction" : "STRING",
+  "metadata" : {
+    "cache_hit" : true,
+    "userAgent" : "STRING",
+    "sessionId" : "STRING",
+    "v_language" : "STRING"
+  },
+  "content" : {
+    "text" : "STRING",
+    "type" : "STRING"
+  },
+  "v_timestamp" : "DATETIME"
 }

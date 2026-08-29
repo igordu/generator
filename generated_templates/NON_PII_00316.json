@@ -1,63 +1,23 @@
 {
-  "v_description" : "STRING",
-  "v_metadataCatalogConfig" : {
-    "glueDataCatalog" : {
-      "roleArn_data" : "STRING",
-      "auto_renew" : false,
-      "databaseName" : "",
-      "tablePrefix" : "STRING"
+  "data" : [ {
+    "created_at" : "DATETIME_EPOCH",
+    "model_data" : "STRING",
+    "v_result_files" : [ "STRING" ],
+    "trained_tokens" : "INT",
+    "status" : "STRING",
+    "validation_file" : "NULL",
+    "discount_rate" : 35.23,
+    "primaryKey" : "STRING",
+    "hyperparameters" : {
+      "n_epochs" : "INT",
+      "learning_rate_multiplier" : "DECIMAL",
+      "item_count" : 1875
     },
-    "is_deleted" : false
-  },
-  "triggerConfig_data" : {
-    "triggerType" : "STRING",
-    "triggerProperties" : {
-      "is_active" : true,
-      "Scheduled" : {
-        "scheduleOffset" : "INT",
-        "scheduleExpression" : "STRING",
-        "scheduleEndTime" : "DATETIME",
-        "dataPullMode" : "STRING",
-        "timezone" : "STRING",
-        "flowErrorDeactivationThreshold" : "INT",
-        "scheduleStartTime" : "DATETIME",
-        "v_firstExecutionFrom" : "DATETIME"
-      }
-    },
-    "conversion_rate" : 328.95
-  },
-  "v_kmsArn" : "STRING",
-  "item_count" : 2277,
-  "tags" : {
-    "property1" : "STRING",
-    "price" : 962.7
-  },
-  "tasks" : [ {
-    "taskType" : "STRING",
-    "v_taskProperties" : {
-      "property1" : "STRING",
-      "requires_update" : false
-    },
-    "sourceFields" : "ARRAY",
-    "destinationField" : "STRING",
-    "v_connectorOperator" : {
-      "InforNexus" : "STRING",
-      "v_Zendesk" : "STRING",
-      "CustomConnector" : "STRING",
-      "Amplitude" : "STRING",
-      "Dynatrace_data" : "STRING",
-      "Trendmicro_data" : "STRING",
-      "Marketo" : "NULL",
-      "ServiceNow" : "STRING",
-      "v_S3" : "STRING",
-      "Salesforce_data" : null,
-      "GoogleAnalytics" : "STRING",
-      "Veeva" : "STRING",
-      "Pardot" : "STRING",
-      "v_Singular" : "NULL",
-      "v_Slack" : "STRING"
-    }
+    "organization_id" : "STRING",
+    "object" : "STRING",
+    "error" : "NULL",
+    "training_file" : "STRING"
   } ],
-  "clientToken" : "STRING",
-  "name_val" : "STRING"
+  "object_data" : "STRING",
+  "has_more" : null
 }

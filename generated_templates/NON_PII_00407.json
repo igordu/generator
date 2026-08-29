@@ -1,17 +1,21 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "campaign" : "NULL",
+  "notification" : {
+    "body" : "STRING",
+    "data" : {
+      "orderId" : "STRING",
+      "deepLink" : "URL"
+    },
+    "v_title" : "STRING",
+    "auto_renew" : true
   },
-  "results" : {
-    "system_state" : {
-      "event_data" : {
-        "debug_payload" : {
-          "clientToken" : "STRING",
-          "has_discount" : false,
-          "flowName" : "STRING"
-        }
-      }
-    }
+  "retryCount" : "NULL",
+  "type" : "STRING",
+  "deliveredAt" : "DATETIME",
+  "v_status" : "STRING",
+  "recipient" : {
+    "platform" : "STRING",
+    "userId" : "STRING",
+    "cache_hit" : true
   }
 }

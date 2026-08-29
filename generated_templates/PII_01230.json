@@ -1,72 +1,30 @@
-[ {
-  "node_id" : "STRING",
-  "discount_rate" : 897.6,
-  "comments_url" : "URL",
-  "url" : "URL",
-  "parents" : [ {
-    "sha_data" : "STRING",
-    "url" : "",
-    "requires_update" : true
+{
+  "status" : "STRING",
+  "identifier" : "STRING",
+  "lineItems" : [ {
+    "vatRate" : "DECIMAL",
+    "unitPrice" : "DECIMAL",
+    "quantity_data" : "",
+    "description" : "STRING"
   } ],
-  "committer" : {
-    "site_admin" : "BOOLEAN",
-    "avatar_url" : "URL",
-    "html_url" : "URL",
-    "received_events_url" : "URL",
-    "followers_url" : "URL",
-    "gravatar_id" : "STRING",
-    "v_following_url" : "URL",
-    "v_organizations_url" : "URL",
-    "subscriptions_url_data" : null,
-    "starred_url" : "URL",
-    "login" : "STRING",
-    "node_id" : "STRING",
-    "repos_url" : "URL",
-    "v_type" : "STRING"
+  "paymentTerms" : "STRING",
+  "subtotal" : "DECIMAL",
+  "vendor" : {
+    "v_vatNumber" : "STRING",
+    "name" : "PII_COMPANY_NAME",
+    "iban" : "PII_IBAN",
+    "emailAddress" : "PII_EMAIL",
+    "address" : "PII_ADDRESS_LINE"
   },
-  "sha_data" : "STRING",
-  "html_url_data" : "URL",
-  "author" : {
-    "html_url" : "URL",
-    "gists_url_data" : "URL",
-    "type" : "STRING",
-    "identifier" : "STRING",
-    "organizations_url" : "URL",
-    "login" : "NULL",
-    "events_url" : "URL",
-    "site_admin_data" : "BOOLEAN",
-    "starred_url" : "URL",
-    "subscriptions_url" : "URL",
-    "v_url" : "URL",
-    "received_events_url" : "URL",
-    "followers_url" : "URL",
-    "id" : "INT",
-    "gravatar_id" : "STRING",
-    "avatar_url" : "URL",
-    "following_url" : "URL",
-    "page_index" : 1969
+  "v_customer" : {
+    "price" : 5212.99,
+    "userName" : "PII_PERSON_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "email" : "PII_EMAIL",
+    "company" : "PII_COMPANY_NAME",
+    "vatNumber" : "STRING"
   },
-  "v_commit" : {
-    "verification_data" : {
-      "v_reason" : "STRING",
-      "signature" : "STRING"
-    },
-    "v_url" : "URL",
-    "author_data" : {
-      "emailAddress" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME",
-      "date" : "DATETIME"
-    },
-    "committer" : {
-      "mail" : "PII_EMAIL",
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "v_message" : "PII_COMPANY_NAME",
-    "tree" : {
-      "cache_hit" : false,
-      "url" : "URL",
-      "v_sha" : "STRING"
-    }
-  }
-} ]
+  "currency_data" : "STRING",
+  "total_data" : "DECIMAL",
+  "vatAmount_data" : "DECIMAL"
+}

@@ -1,0 +1,39 @@
+{
+  "reservationId": "RES-2024-00821",
+  "status": "confirmed",
+  "createdAt": "2024-04-01T09:00:00Z",
+  "checkIn": "2024-05-10",
+  "checkOut": "2024-05-14",
+  "guest": {
+    "firstName": "Yuki",
+    "lastName": "Tanaka",
+    "email": "yuki.tanaka@example.jp",
+    "phone": "+81 90-1234-5678",
+    "nationality": "JP",
+    "dateOfBirth": "1985-07-22",
+    "passportNumber": "TK1234567"
+  },
+  "room": {
+    "roomNumber": "412",
+    "type": "deluxe_double",
+    "floor": 4,
+    "bedType": "king",
+    "smoking": false
+  },
+  "hotel": {
+    "id": "HTL-PARIS-001",
+    "name": "Grand Hôtel de Paris",
+    "address": "12 Rue de Rivoli, 75001 Paris, France",
+    "phone": "+33 1 42 60 38 09"
+  },
+  "pricing": {
+    "ratePerNight": 185.00,
+    "nights": 4,
+    "totalBeforeTax": 740.00,
+    "tax": 111.00,
+    "total": 851.00,
+    "currency": "EUR"
+  },
+  "loyaltyNumber": "GHL-00482193",
+  "specialRequests": "High floor preferred, extra towels."
+}

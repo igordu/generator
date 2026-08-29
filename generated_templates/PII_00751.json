@@ -1,33 +1,48 @@
 {
-  "registrants" : [ {
-    "address" : "PII_ADDRESS_LINE",
-    "org" : "PII_ORGANIZATION_NAME",
-    "phone" : "PII_PHONE_NUMBER",
-    "id" : "STRING",
-    "status" : "STRING",
-    "no_of_employees" : null,
-    "job_title" : "STRING",
-    "state" : "PII_LOCATION_STATE",
-    "custom_questions" : [ {
-      "title" : "STRING"
-    }, {
-      "value" : "STRING",
-      "title_data" : "STRING",
-      "temperature_c" : 130.76
-    } ],
-    "comments" : "",
-    "stock_quantity" : 3305,
-    "industry" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY",
-    "primary_email" : "PII_EMAIL",
-    "create_time" : "DATETIME",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "city" : "PII_LOCATION_CITY",
-    "v_role_in_purchase_process" : "STRING",
-    "purchasing_time_frame" : "STRING",
-    "last_name" : "PII_PERSON_LAST_NAME"
+  "birthDate" : "PII_DATE_OF_BIRTH",
+  "is_active" : true,
+  "telecom" : [ {
+    "value_data" : "PII_EMAIL",
+    "cpu_usage_percent" : 46.88,
+    "system" : "STRING",
+    "use" : "STRING"
+  }, {
+    "requires_update" : true,
+    "value" : "PII_PHONE_NUMBER",
+    "system_data" : "STRING",
+    "use_data" : "STRING"
   } ],
-  "total_records" : "INT",
-  "page_size" : "NULL",
-  "page_number" : "INT"
+  "identifier" : [ {
+    "system" : "URL",
+    "value" : "PII_NATIONAL_ID"
+  } ],
+  "id" : "STRING",
+  "fullName" : [ {
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "prefix" : [ "STRING" ],
+    "use_data" : "STRING",
+    "cache_hit" : false,
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "address" : [ {
+    "response_time_sec" : 8.75,
+    "state" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "line" : [ "PII_ADDRESS_LINE" ]
+  } ],
+  "meta" : {
+    "lastUpdated" : "DATETIME",
+    "versionId" : "INT"
+  },
+  "active" : "BOOLEAN",
+  "qualification" : [ {
+    "code" : {
+      "coding" : [ {
+        "code" : "STRING"
+      } ]
+    },
+    "cache_hit" : false
+  } ],
+  "resourceType" : "STRING"
 }

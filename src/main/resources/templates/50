@@ -1,0 +1,44 @@
+{
+  "employeeId": "STRING",
+  "status": "STRING",
+  "hireDate": "DATE",
+  "terminationDate": "NULL",
+  "personalInfo": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "middleName": "PII_PERSON_FIRST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "gender": "STRING",
+    "nationality": "PII_LOCATION_COUNTRY",
+    "ssn": "PII_NATIONAL_ID",
+    "email": "PII_EMAIL",
+    "personalEmail": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "mobilePhone": "PII_PHONE_NUMBER"
+  },
+  "address": {
+    "street": "PII_ADDRESS_LINE",
+    "city": "PII_LOCATION_CITY",
+    "state": "STRING",
+    "postalCode": "STRING",
+    "country": "PII_LOCATION_COUNTRY"
+  },
+  "jobInfo": {
+    "department": "STRING",
+    "title": "STRING",
+    "costCenter": "STRING",
+    "managerId": "STRING",
+    "employmentType": "STRING"
+  },
+  "payroll": {
+    "bankName": "PII_COMPANY_NAME",
+    "accountNumber": "PII_IBAN",
+    "payFrequency": "STRING",
+    "salary": "INT"
+  },
+  "emergencyContact": {
+    "name": "PII_PERSON_NAME",
+    "relationship": "STRING",
+    "phone": "PII_PHONE_NUMBER"
+  }
+}

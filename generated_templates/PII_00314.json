@@ -1,5 +1,14 @@
 {
-  "emailAddress" : "PII_EMAIL",
-  "item_count" : 3093,
-  "primary_email" : [ "STRING" ]
+  "v_last4" : "STRING",
+  "metadata" : "OBJECT",
+  "routing_number" : "STRING",
+  "v_currency" : "STRING",
+  "customer_data" : null,
+  "country" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "http_status" : 4942,
+  "uuid" : "STRING",
+  "account_type_data" : "STRING",
+  "status" : "STRING",
+  "v_fingerprint" : "STRING"
 }

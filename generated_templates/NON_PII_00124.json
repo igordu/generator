@@ -1,18 +1,37 @@
 {
-  "shopUrl" : "URL",
-  "modelId" : "STRING",
-  "id" : "STRING",
-  "is_deleted" : true,
-  "media_data" : {
-    "images" : [ {
-      "mediumUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "type" : "STRING",
-      "v_orderNumber" : "INT",
-      "largeUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "v_thumbnailHdUrl" : "URL",
-      "mediumHdUrl" : "URL"
-    } ]
-  }
+  "v_images" : [ {
+    "requires_update" : true,
+    "url" : "URL",
+    "v_isPrimary" : "BOOLEAN"
+  } ],
+  "inventory" : {
+    "is_active" : true,
+    "availableStock" : "INT",
+    "totalStock" : "INT",
+    "lowStockThreshold" : "INT",
+    "backorderAllowed_data" : "BOOLEAN",
+    "reservedStock" : "INT"
+  },
+  "brand_data" : "STRING",
+  "createdAt" : "DATETIME",
+  "recordId" : "STRING",
+  "updatedAt" : "DATETIME",
+  "sku" : "STRING",
+  "category" : "STRING",
+  "requires_update" : true,
+  "pricing" : {
+    "item_count" : 4298,
+    "salePrice" : "DECIMAL",
+    "basePrice" : "DECIMAL",
+    "currency_data" : "STRING"
+  },
+  "name" : "STRING",
+  "attributes" : {
+    "color" : "STRING",
+    "page_index" : 85,
+    "connectivity" : "STRING",
+    "weight_g" : "INT",
+    "batteryLifeHours" : "INT"
+  },
+  "v_status" : "STRING"
 }

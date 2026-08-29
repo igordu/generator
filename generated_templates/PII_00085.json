@@ -1,21 +1,26 @@
 {
-  "content" : [ {
-    "v_articleSizeRatings" : {
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "INT"
+  "ticket" : {
+    "requester" : {
+      "email" : "PII_EMAIL",
+      "system_ping_ms" : 4619,
+      "name" : "PII_PERSON_NAME"
     },
-    "v_title" : "PII_COMPANY_NAME",
-    "recommend" : "BOOLEAN",
-    "helpfulCount" : "INT",
-    "reviewId" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "description" : "STRING",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "articleModelId" : "STRING",
-    "rating_data" : "INT",
-    "v_created" : "DATETIME",
-    "primaryKey" : "STRING",
-    "unhelpfulCount_data" : "INT",
-    "language" : "STRING"
-  } ]
+    "v_subject" : "STRING",
+    "description" : "PII_FREE_TEXT",
+    "id" : "INT",
+    "priority" : "STRING",
+    "identifier" : "INT",
+    "cache_hit" : false,
+    "tags_data" : [ "STRING" ],
+    "v_comments" : [ {
+      "id" : "INT",
+      "v_public" : "BOOLEAN",
+      "author_id" : "INT",
+      "body" : "PII_FREE_TEXT",
+      "v_created_at" : "DATETIME"
+    } ],
+    "updated_at" : "DATETIME",
+    "status" : "",
+    "created_at" : "DATETIME"
+  }
 }

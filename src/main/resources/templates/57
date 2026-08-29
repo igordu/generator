@@ -1,0 +1,37 @@
+{
+  "studentId": "STRING",
+  "enrollmentStatus": "STRING",
+  "program": "STRING",
+  "academicYear": "STRING",
+  "personalInfo": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "gender": "STRING",
+    "email": "PII_EMAIL",
+    "personalEmail": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "nationality": "PII_LOCATION_COUNTRY",
+    "passportNumber": "PII_NATIONAL_ID"
+  },
+  "address": {
+    "street": "PII_ADDRESS_LINE",
+    "city": "PII_LOCATION_CITY",
+    "postcode": "STRING",
+    "country": "PII_LOCATION_COUNTRY"
+  },
+  "academicRecord": {
+    "gpa": "DECIMAL",
+    "creditsCompleted": "INT",
+    "advisor": {
+      "name": "PII_PERSON_NAME",
+      "email": "PII_EMAIL"
+    }
+  },
+  "financialAid": {
+    "scholarshipId": "STRING",
+    "amount": "DECIMAL",
+    "currency": "STRING",
+    "disbursedAt": "DATE"
+  }
+}

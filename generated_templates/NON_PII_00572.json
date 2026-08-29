@@ -1,35 +1,31 @@
-[ {
-  "insight" : {
-    "discount_rate" : 482.05,
-    "lastIssueUpdateTime" : "DATETIME"
+{
+  "sloCompliance" : {
+    "discount_rate" : 6.79,
+    "availabilityTarget" : "DECIMAL",
+    "withinSlo" : "BOOLEAN",
+    "latencyActualP99" : "INT",
+    "latencyTarget" : "INT"
   },
-  "v_self" : "URL",
-  "style" : "STRING",
-  "id" : "STRING",
-  "name" : "STRING",
-  "key" : "STRING",
-  "simplified" : "BOOLEAN"
-}, {
-  "v_style" : "STRING",
-  "v_insight" : {
-    "lastIssueUpdateTime" : ""
+  "statusCodes" : {
+    "is_active" : true,
+    "429" : "INT",
+    "500" : "INT",
+    "200" : null
   },
-  "fullName" : "STRING",
-  "id" : "STRING",
-  "has_discount" : true,
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "48x48" : "URL",
-    "24x24" : null,
-    "16x16_data" : "URL",
-    "system_ping_ms" : 3898
+  "v_topErrors" : [ {
+    "code" : "STRING",
+    "count" : "INT"
+  } ],
+  "v_period" : "STRING",
+  "endpoint" : "STRING",
+  "metrics" : {
+    "throughputRps_data" : "DECIMAL",
+    "errorRate" : "DECIMAL",
+    "discount_rate" : 26.26,
+    "p99LatencyMs_data" : "INT",
+    "p50LatencyMs" : "INT",
+    "requestCount_data" : "INT",
+    "p95LatencyMs_data" : "INT"
   },
-  "projectCategory" : {
-    "self" : "URL",
-    "description" : "STRING",
-    "id" : "STRING",
-    "name_val" : "STRING"
-  },
-  "simplified" : "BOOLEAN",
-  "self" : "URL"
-} ]
+  "identifier" : ""
+}

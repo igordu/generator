@@ -1,28 +1,63 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "registrationMarketplaceId" : "STRING",
+  "status" : "STRING",
+  "v_accountType" : "STRING",
+  "individualAccount" : {
+    "cell" : {
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "has_discount" : false
+    },
+    "email" : "PII_EMAIL",
+    "registrationAddress" : {
+      "postalCode_data" : "STRING",
+      "addressLine1" : "STRING",
+      "country" : "STRING",
+      "county" : "STRING",
+      "v_city" : "STRING",
+      "stateOrProvince" : "STRING",
+      "addressLine2" : "STRING"
+    },
+    "primaryPhone" : {
+      "countryCode_data" : "STRING",
+      "phoneType" : "STRING",
+      "item_count" : 3412,
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "clientName" : "PII_PERSON_NAME",
+    "lastName" : "PII_PERSON_NAME"
   },
-  "results" : {
-    "v_content" : [ {
-      "created" : "NULL",
-      "v_title" : "PII_COMPANY_NAME",
-      "helpfulCount" : "INT",
-      "description" : "STRING",
-      "customerCountry" : "PII_LOCATION_COUNTRY",
-      "recordId" : "STRING",
-      "articleModelId" : "STRING",
-      "language_data" : "STRING",
-      "recommend" : "BOOLEAN",
-      "v_rating" : "INT",
-      "reviewId" : "STRING",
-      "articleSizeRatings" : {
-        "SHOE_WIDTH" : "INT",
-        "auto_renew" : true,
-        "OVERALL" : "INT"
-      },
-      "customerCity" : "PII_LOCATION_CITY",
-      "unhelpfulCount" : "INT"
-    } ]
-  }
+  "businessAccount" : {
+    "doingBusinessAs" : "STRING",
+    "contactEmail" : "PII_EMAIL",
+    "website_data" : "URL",
+    "mobile" : {
+      "v_number" : "PII_PHONE_NUMBER",
+      "cache_hit" : true,
+      "phoneType" : "STRING",
+      "countryCode_data" : "STRING"
+    },
+    "address_data" : {
+      "addressLine2" : "STRING",
+      "stateOrProvince_data" : "STRING",
+      "country_data" : "STRING",
+      "postalCode" : "STRING",
+      "county" : "STRING",
+      "addressLine1_data" : "STRING",
+      "city" : "STRING"
+    },
+    "page_index" : 1335,
+    "clientName" : "PII_ORGANIZATION_NAME",
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "v_primaryContact" : {
+      "lastName" : "PII_PERSON_NAME",
+      "firstName" : "PII_PERSON_NAME"
+    }
+  },
+  "userId" : "STRING",
+  "fullName" : "PII_USERNAME"
 }

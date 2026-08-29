@@ -1,65 +1,44 @@
 {
-  "userName" : "PII_USERNAME",
-  "registrationMarketplaceId" : "STRING",
-  "businessAccount" : {
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "is_deleted" : false
-    },
-    "temperature_c" : 760.45,
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "response_time_sec" : 790.67,
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING"
-    },
-    "userName" : "PII_ORGANIZATION_NAME",
-    "address_data" : {
-      "http_status" : 2839,
-      "addressLine1" : "STRING",
-      "city" : "STRING",
-      "postalCode" : "STRING",
-      "country_data" : "STRING",
-      "addressLine2" : "STRING",
-      "county" : "STRING",
-      "stateOrProvince_data" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "website" : "URL",
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "stock_quantity" : 4992,
+    "name" : [ {
+      "requires_update" : true,
+      "given_data" : [ "PII_PERSON_FIRST_NAME" ],
+      "family_data" : "PII_PERSON_LAST_NAME",
+      "v_use" : "STRING"
+    } ],
+    "resourceType" : "STRING",
+    "address" : [ {
+      "city_data" : "PII_LOCATION_CITY",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "line" : [ "PII_ADDRESS_LINE" ],
+      "use" : "STRING"
+    } ],
+    "identifier" : [ {
+      "use" : "STRING",
+      "value" : "PII_NATIONAL_ID",
+      "system" : "URL",
+      "type" : {
+        "text_data" : "STRING",
+        "temperature_c" : 29.27
+      }
+    } ],
+    "birthDate" : "PII_DATE_OF_BIRTH",
+    "telecom" : [ {
+      "value" : "PII_EMAIL",
+      "system" : "STRING"
+    }, {
+      "use" : "STRING",
+      "value_data" : "PII_PHONE_NUMBER",
+      "system" : "NULL"
+    } ],
+    "meta" : {
+      "versionId" : "INT",
+      "lastUpdated" : "DATETIME"
     }
-  },
-  "userId" : "STRING",
-  "individualAccount" : {
-    "registrationAddress" : {
-      "city_data" : "STRING",
-      "addressLine2" : "STRING",
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "STRING",
-      "county" : "STRING",
-      "temperature_c" : 189.0,
-      "country_data" : "STRING",
-      "postalCode" : "STRING"
-    },
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "mobile" : "STRING",
-      "stock_quantity" : 4572
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "email" : "PII_EMAIL",
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "cell" : "STRING",
-      "response_time_sec" : 183.99
-    },
-    "firstName" : "PII_PERSON_NAME"
-  },
-  "accountType" : "NULL",
-  "page_index" : 4962,
-  "status_data" : "STRING"
+  }
 }

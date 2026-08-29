@@ -1,9 +1,34 @@
 {
-  "user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "auto_renew" : false,
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
+  "accountId" : "STRING",
+  "billingAddress" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "street" : "PII_ADDRESS_LINE",
+    "v_city" : "PII_LOCATION_CITY",
+    "system_ping_ms" : 4412,
+    "postalCode_data" : "STRING"
   },
-  "active" : "BOOLEAN"
+  "type" : "STRING",
+  "industry" : "STRING",
+  "employees" : "INT",
+  "v_contracts" : [ {
+    "value" : "DECIMAL",
+    "endDate_data" : "DATE",
+    "currency" : "STRING",
+    "startDate" : "DATE",
+    "v_product" : "STRING"
+  } ],
+  "primaryContact" : {
+    "name" : "PII_PERSON_NAME",
+    "is_active" : false,
+    "email" : "PII_EMAIL",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "title" : "NULL"
+  },
+  "annualRevenue" : null,
+  "csm" : {
+    "email" : "PII_EMAIL",
+    "id" : "STRING",
+    "fullName" : "PII_PERSON_NAME"
+  },
+  "name_val" : "PII_COMPANY_NAME"
 }

@@ -1,22 +1,64 @@
 {
-  "content" : [ {
-    "reviewId" : "STRING",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_articleSizeRatings" : {
-      "v_OVERALL" : "INT",
-      "SHOE_WIDTH" : "INT"
+  "businessAccount" : {
+    "cell" : {
+      "countryCode" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER"
     },
-    "unhelpfulCount" : "INT",
-    "v_language" : "",
-    "helpfulCount" : "INT",
-    "rating" : "INT",
-    "customerCity" : "PII_LOCATION_CITY",
-    "title" : "PII_COMPANY_NAME",
-    "articleId" : "STRING",
-    "created" : "DATETIME",
-    "recommend" : "BOOLEAN",
-    "articleModelId" : "",
-    "description" : "STRING"
-  } ],
-  "stock_quantity" : 760
+    "website" : "URL",
+    "email" : "PII_EMAIL",
+    "doingBusinessAs" : "STRING",
+    "address" : {
+      "v_addressLine2" : "STRING",
+      "discount_rate" : 48.56,
+      "postalCode" : "STRING",
+      "addressLine1_data" : "STRING",
+      "stateOrProvince_data" : "STRING",
+      "county" : "STRING",
+      "city" : "STRING",
+      "country" : "STRING"
+    },
+    "clientName" : "PII_ORGANIZATION_NAME",
+    "v_primaryContact" : {
+      "lastName" : "PII_PERSON_NAME",
+      "system_ping_ms" : 1559,
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "secondaryPhone" : {
+      "number_data" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "system_ping_ms" : 3387
+  },
+  "identifier" : "STRING",
+  "uuid" : "STRING",
+  "status" : "STRING",
+  "v_accountType" : "STRING",
+  "username" : "PII_USERNAME",
+  "individualAccount" : {
+    "http_status" : 3876,
+    "clientName" : "PII_PERSON_NAME",
+    "telephone" : {
+      "phoneType" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "v_countryCode" : "STRING"
+    },
+    "lastName" : "PII_PERSON_NAME",
+    "primaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "auto_renew" : false,
+      "phoneType" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "email" : "PII_EMAIL",
+    "registrationAddress" : {
+      "country" : "STRING",
+      "stateOrProvince" : "STRING",
+      "postalCode" : "STRING",
+      "v_addressLine2" : "STRING",
+      "county" : "STRING",
+      "addressLine1" : "STRING",
+      "city" : "NULL"
+    }
+  }
 }

@@ -1,45 +1,40 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "resourceType" : "STRING",
-    "gender" : "STRING",
-    "fullName" : [ {
-      "use" : "STRING",
-      "given" : [ "PII_PERSON_FIRST_NAME" ],
-      "family" : "PII_PERSON_LAST_NAME"
-    } ],
-    "meta_data" : {
-      "v_lastUpdated" : "DATETIME",
-      "identifier" : "INT",
-      "item_count" : 4116
-    },
-    "id" : "STRING",
-    "identifier" : [ {
-      "response_time_sec" : 61.93,
-      "v_system" : "URL",
-      "type" : {
-        "text" : "STRING"
-      },
-      "use_data" : null,
-      "value" : "PII_NATIONAL_ID"
-    } ],
-    "telecom" : [ {
-      "system" : "STRING",
-      "value" : "PII_PHONE_NUMBER",
-      "use" : "STRING"
-    }, {
-      "value_data" : "PII_EMAIL",
-      "retry_attempts" : 2860,
-      "system" : "STRING"
-    } ],
-    "address_data" : [ {
-      "line" : [ "PII_ADDRESS_LINE" ],
-      "country" : "PII_LOCATION_COUNTRY",
-      "city" : "PII_LOCATION_CITY",
-      "use" : "STRING",
-      "has_discount" : true
-    } ],
-    "birthDate" : "PII_DATE_OF_BIRTH"
-  }
+  "suspended" : "BOOLEAN",
+  "orgUnitPath" : "STRING",
+  "recordId" : "STRING",
+  "isDelegatedAdmin" : "BOOLEAN",
+  "userName" : {
+    "givenName" : "PII_PERSON_FIRST_NAME",
+    "fullName" : "PII_PERSON_NAME",
+    "requires_update" : true,
+    "familyName" : "PII_PERSON_LAST_NAME"
+  },
+  "mobile" : "PII_PHONE_NUMBER",
+  "requires_update" : true,
+  "addresses" : [ {
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "type" : "STRING",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "postalCode" : "STRING",
+    "locality" : "PII_LOCATION_CITY",
+    "region" : "STRING"
+  } ],
+  "phones" : [ {
+    "value" : "PII_PHONE_NUMBER",
+    "type" : "STRING",
+    "stock_quantity" : 1841
+  } ],
+  "v_lastLoginTime" : "DATETIME",
+  "emailAddress" : "PII_EMAIL",
+  "archived" : "BOOLEAN",
+  "isAdmin" : "BOOLEAN",
+  "isMailboxSetup" : "BOOLEAN",
+  "mail" : [ {
+    "address" : "PII_EMAIL",
+    "v_primary" : "BOOLEAN"
+  } ],
+  "customerId" : "STRING",
+  "recoveryEmail" : "PII_EMAIL",
+  "v_changePasswordAtNextLogin" : "BOOLEAN",
+  "creationTime" : "DATETIME"
 }

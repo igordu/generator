@@ -1,43 +1,35 @@
 [ {
-  "v_facets" : [ {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "count" : "INT",
-    "v_key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : null
-  } ],
-  "v_filter" : "STRING"
+  "locks_data" : "INT",
+  "bookDepreciationSetting" : {
+    "cpu_usage_percent" : 43.2,
+    "averagingMethod_data" : "STRING",
+    "depreciableObjectType_data" : "STRING",
+    "depreciationCalculationMethod" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "depreciationMethod" : "STRING",
+    "v_depreciationRate" : "DECIMAL",
+    "uuid" : "STRING"
+  },
+  "requires_update" : true,
+  "primaryKey" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "uuid" : "STRING",
+  "userName" : "STRING",
+  "depreciationExpenseAccountId" : "STRING"
 }, {
-  "page_index" : 3218,
-  "facets" : [ {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key_data" : "STRING",
-    "response_time_sec" : 434.99
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT"
-  } ]
-}, {
-  "facets_data" : [ {
-    "retry_attempts" : 2234,
-    "count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "key" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key_data" : "STRING"
-  } ],
-  "v_filter" : "STRING",
-  "price" : 895.0
+  "v_bookDepreciationSetting" : {
+    "depreciationMethod_data" : "STRING",
+    "primaryKey" : "STRING",
+    "depreciableObjectId" : "STRING",
+    "averagingMethod_data" : "STRING",
+    "v_depreciationRate" : "DECIMAL",
+    "depreciationCalculationMethod" : "STRING"
+  },
+  "locks" : "INT",
+  "recordId" : "STRING",
+  "accumulatedDepreciationAccountId" : "STRING",
+  "lockPrivateUseAccount" : "BOOLEAN",
+  "assetTypeId" : "STRING",
+  "v_taxDepreciationSettings" : "ARRAY",
+  "depreciationExpenseAccountId" : "STRING"
 } ]

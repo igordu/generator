@@ -1,23 +1,22 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "content" : [ {
-        "language" : null,
-        "created" : "DATETIME",
-        "articleSizeRatings" : {
-          "SHOE_WIDTH" : "INT",
-          "OVERALL" : "NULL"
-        },
-        "recommend_data" : "BOOLEAN",
-        "customerCountry" : "PII_LOCATION_COUNTRY",
-        "title" : "PII_COMPANY_NAME",
-        "helpfulCount" : "INT",
-        "unhelpfulCount" : "INT",
-        "description" : "STRING",
-        "articleModelId" : "STRING",
-        "rating" : "NULL",
-        "customerCity" : "PII_LOCATION_CITY"
-      } ]
-    }
-  }
+  "http_status" : 463,
+  "content_data" : [ {
+    "helpfulCount" : "INT",
+    "language" : "STRING",
+    "articleId" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "articleSizeRatings_data" : {
+      "recordId" : "INT",
+      "item_count" : 604,
+      "OVERALL" : "INT"
+    },
+    "rating" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "recommend" : "BOOLEAN",
+    "created" : "DATETIME",
+    "description_data" : "STRING",
+    "articleModelId" : "STRING",
+    "primaryKey" : "STRING",
+    "price" : 9100.78
+  } ]
 }

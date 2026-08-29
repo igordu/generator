@@ -1,32 +1,24 @@
 {
-  "object" : "STRING",
-  "requires_update" : false,
-  "data" : [ {
-    "address" : "NULL",
-    "delinquent" : "NULL",
-    "tax_exempt" : "STRING",
-    "email" : "PII_EMAIL",
-    "currency" : "NULL",
-    "v_balance" : "INT",
-    "clientName" : "PII_PERSON_NAME",
-    "invoice_settings" : {
-      "footer" : "STRING",
-      "rendering_options" : "",
-      "custom_fields_data" : "NULL",
-      "system_ping_ms" : 2260,
-      "default_payment_method" : "STRING"
-    },
-    "livemode" : "BOOLEAN",
-    "metadata" : "OBJECT",
-    "test_clock" : "NULL",
-    "preferred_locales" : "ARRAY",
-    "default_source_data" : "STRING",
-    "contactNumber" : "PII_PHONE_NUMBER",
+  "resource" : {
+    "type" : "STRING",
     "id" : "STRING",
-    "v_description" : "",
-    "next_invoice_sequence_data" : "INT",
-    "invoice_prefix" : "STRING",
-    "created" : "DATETIME_EPOCH"
-  } ],
-  "url" : "URL"
+    "name" : ""
+  },
+  "service" : "STRING",
+  "event_type" : "STRING",
+  "v_mfa_used" : "BOOLEAN",
+  "datacenter" : "STRING",
+  "v_actor" : {
+    "contactEmail" : "PII_EMAIL",
+    "user_agent" : "STRING",
+    "has_discount" : false,
+    "ip_address" : "PII_IP_ADDRESS",
+    "username" : "PII_USERNAME"
+  },
+  "primaryKey" : "STRING",
+  "timestamp" : "DATETIME",
+  "audit_id" : "STRING",
+  "v_version" : "NULL",
+  "v_outcome" : "STRING",
+  "severity" : "STRING"
 }

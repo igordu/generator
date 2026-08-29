@@ -1,0 +1,39 @@
+{
+  "candidateId": "STRING",
+  "status": "STRING",
+  "appliedAt": "DATETIME",
+  "updatedAt": "DATETIME",
+  "position": {
+    "jobId": "STRING",
+    "title": "STRING",
+    "department": "STRING",
+    "location": "PII_LOCATION_CITY"
+  },
+  "candidate": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "linkedIn": "URL",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "address": {
+      "street": "PII_ADDRESS_LINE",
+      "city": "PII_LOCATION_CITY",
+      "postalCode": "STRING",
+      "country": "PII_LOCATION_COUNTRY"
+    },
+    "resumeUrl": "URL"
+  },
+  "interviews": [
+    {
+      "round": "INT",
+      "type": "STRING",
+      "scheduledAt": "DATETIME",
+      "interviewer": {
+        "name": "PII_PERSON_NAME",
+        "email": "PII_EMAIL"
+      }
+    }
+  ],
+  "source": "STRING"
+}

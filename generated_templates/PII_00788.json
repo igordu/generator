@@ -1,34 +1,32 @@
 {
-  "v_page_size" : "INT",
-  "registrants" : [ {
-    "email" : "PII_EMAIL",
-    "custom_questions" : [ {
-      "title_data" : "STRING",
-      "has_discount" : false,
-      "v_value" : "STRING"
-    }, {
-      "title" : "STRING"
-    } ],
-    "city" : "PII_LOCATION_CITY",
-    "industry" : "STRING",
-    "zip" : "STRING",
-    "userName" : "PII_PERSON_LAST_NAME",
-    "v_country" : "PII_LOCATION_COUNTRY",
-    "role_in_purchase_process" : "STRING",
-    "job_title" : "STRING",
-    "address" : "PII_ADDRESS_LINE",
-    "has_discount" : true,
-    "state" : "PII_LOCATION_STATE",
-    "purchasing_time_frame" : "STRING",
+  "updated_at" : "DATETIME",
+  "v_payment_status" : "STRING",
+  "id" : "STRING",
+  "v_customer" : {
     "phone" : "PII_PHONE_NUMBER",
-    "v_no_of_employees" : "",
-    "status_data" : "STRING",
-    "org" : "PII_ORGANIZATION_NAME",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "join_url" : null,
-    "id" : "STRING"
+    "email" : "PII_EMAIL",
+    "id" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "system_ping_ms" : 467
+  },
+  "currency" : "STRING",
+  "line_items" : [ {
+    "v_unit_price" : "INT",
+    "v_quantity" : "INT",
+    "total" : "INT"
   } ],
-  "conversion_rate" : 591.01,
-  "total_records" : "INT",
-  "page_count" : "INT"
+  "status" : "STRING",
+  "auto_renew" : true,
+  "shipping_address" : {
+    "address_1" : "PII_ADDRESS_LINE",
+    "city_data" : "PII_LOCATION_CITY",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "province_code" : "STRING",
+    "zip" : "STRING",
+    "v_country_code" : "PII_LOCATION_COUNTRY",
+    "cache_hit" : true
+  },
+  "created_at_data" : "DATETIME",
+  "total_amount" : "INT"
 }

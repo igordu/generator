@@ -1,49 +1,53 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "system_state" : {
-        "event_data" : {
-          "extracted_info" : {
-            "Status" : "STRING",
-            "Employees" : [ {
-              "Status" : "STRING",
-              "UpdatedDateUTC" : "NULL",
-              "FirstName" : "PII_PERSON_FIRST_NAME",
-              "EmployeeID" : "STRING",
-              "ExternalLink" : {
-                "Url" : "URL",
-                "Description" : "STRING"
-              },
-              "cache_hit" : true,
-              "LastName" : "PII_PERSON_LAST_NAME"
-            }, {
-              "ExternalLink" : {
-                "item_count" : 1096,
-                "v_Description" : "STRING",
-                "Url_data" : "URL"
-              },
-              "LastName" : "PII_PERSON_LAST_NAME",
-              "Status" : "STRING",
-              "EmployeeID" : "STRING",
-              "FirstName" : "PII_PERSON_FIRST_NAME"
-            }, {
-              "FirstName" : "PII_PERSON_FIRST_NAME",
-              "ExternalLink_data" : {
-                "Description" : "NULL",
-                "cpu_usage_percent" : 33.73
-              },
-              "Status" : "STRING",
-              "UpdatedDateUTC_data" : "DATETIME",
-              "LastName" : "PII_PERSON_LAST_NAME",
-              "EmployeeID" : "STRING"
-            } ],
-            "DateTimeUTC" : "DATETIME",
-            "cpu_usage_percent" : 202.78,
-            "Id" : "STRING",
-            "userName" : "STRING"
-          }
+  "v_status" : {
+    "startTime" : "DATETIME",
+    "cpu_usage_percent" : 9.68,
+    "hostIP" : "STRING",
+    "phase" : "STRING"
+  },
+  "kind" : "STRING",
+  "metadata" : {
+    "uid" : "STRING",
+    "namespace" : "STRING",
+    "labels" : {
+      "v_app" : "STRING",
+      "environment" : "STRING",
+      "version" : "STRING"
+    },
+    "resourceVersion" : "STRING",
+    "name" : "STRING",
+    "annotations" : {
+      "contact" : "PII_EMAIL",
+      "owner" : "STRING"
+    },
+    "v_creationTimestamp" : "DATETIME"
+  },
+  "apiVersion_data" : "STRING",
+  "spec" : {
+    "v_containers" : [ {
+      "v_resources" : {
+        "requests" : {
+          "memory" : "STRING",
+          "cpu" : "STRING"
+        },
+        "limits" : {
+          "memory" : "STRING",
+          "v_cpu" : "STRING"
         }
-      }
-    }
+      },
+      "env" : [ {
+        "value" : "PII_EMAIL",
+        "name" : "STRING",
+        "stock_quantity" : 3587
+      } ],
+      "clientName" : null,
+      "ports" : [ {
+        "containerPort_data" : "INT",
+        "cache_hit" : true,
+        "protocol" : "STRING"
+      } ],
+      "image" : "STRING"
+    } ],
+    "nodeName" : "STRING"
   }
 }

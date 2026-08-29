@@ -1,15 +1,28 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "v_recipient" : {
+    "name" : "PII_PERSON_NAME",
+    "bic" : "STRING",
+    "accountId" : "STRING",
+    "iban" : "PII_IBAN",
+    "bankName" : "PII_COMPANY_NAME"
   },
-  "results" : {
-    "http_status" : 1440,
-    "active" : "BOOLEAN",
-    "user_info_data" : {
-      "arline__name" : "PII_COMPANY_NAME",
-      "name_val" : "PII_FIRST_NAME_FEMALE",
-      "family-name-male" : "PII_LAST_NAME_MALE"
-    }
+  "sender" : {
+    "name" : "PII_PERSON_NAME",
+    "cpu_usage_percent" : 34.38,
+    "iban" : "PII_IBAN",
+    "bic" : "STRING",
+    "clientName" : "PII_COMPANY_NAME",
+    "accountId" : "STRING"
+  },
+  "endToEndId" : "STRING",
+  "http_status" : 1196,
+  "reference_data" : "STRING",
+  "chargesBearer" : "STRING",
+  "initiatedAt" : "DATETIME",
+  "identifier" : "STRING",
+  "completedAt" : "DATETIME",
+  "v_amount" : {
+    "value" : "DECIMAL",
+    "currency" : "STRING"
   }
 }

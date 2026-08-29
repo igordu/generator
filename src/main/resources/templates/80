@@ -1,0 +1,27 @@
+{
+  "transferId": "STRING",
+  "status": "STRING",
+  "initiatedAt": "DATETIME",
+  "completedAt": "DATETIME",
+  "sender": {
+    "accountId": "STRING",
+    "iban": "PII_IBAN",
+    "name": "PII_PERSON_NAME",
+    "bankName": "PII_COMPANY_NAME",
+    "bic": "STRING"
+  },
+  "recipient": {
+    "accountId": "STRING",
+    "iban": "PII_IBAN",
+    "name": "PII_PERSON_NAME",
+    "bankName": "PII_COMPANY_NAME",
+    "bic": "STRING"
+  },
+  "amount": {
+    "value": "DECIMAL",
+    "currency": "STRING"
+  },
+  "reference": "STRING",
+  "chargesBearer": "STRING",
+  "endToEndId": "STRING"
+}

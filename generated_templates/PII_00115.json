@@ -1,63 +1,30 @@
 {
-  "accountType" : "STRING",
-  "businessAccount" : {
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "website" : "URL",
-    "v_doingBusinessAs" : "STRING",
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "countryCode" : "STRING"
-    },
+  "batch_id" : "STRING",
+  "personalizations" : [ {
+    "to" : [ {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    } ],
+    "subject" : "STRING",
+    "system_ping_ms" : 1480
+  } ],
+  "mail_settings" : {
+    "sandbox_mode" : { }
+  },
+  "reply_to" : {
+    "response_time_sec" : 19.29,
+    "email" : "PII_EMAIL"
+  },
+  "from" : {
     "email" : "PII_EMAIL",
-    "secondaryPhone" : {
-      "countryCode_data" : "STRING",
-      "phoneType" : "STRING",
-      "discount_rate" : 987.12,
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "address" : {
-      "postalCode" : "STRING",
-      "http_status" : 333,
-      "county_data" : "STRING",
-      "city" : null,
-      "addressLine2" : "STRING",
-      "country" : "STRING",
-      "addressLine1" : "STRING",
-      "stateOrProvince" : "STRING"
-    }
+    "name" : "PII_PERSON_NAME"
   },
-  "username" : "PII_USERNAME",
-  "userId" : "STRING",
-  "individualAccount" : {
-    "clientName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "v_countryCode" : "STRING",
-      "http_status" : 4597,
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "v_registrationAddress" : {
-      "postalCode" : "STRING",
-      "is_active" : false,
-      "stateOrProvince" : "STRING",
-      "city_data" : "STRING",
-      "addressLine1" : "STRING",
-      "county" : "STRING",
-      "addressLine2" : "STRING",
-      "country_data" : "STRING"
-    },
-    "primary_email" : "PII_EMAIL",
-    "lastName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "conversion_rate" : 250.23,
-      "contactNumber" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING"
-    }
-  },
-  "status" : "STRING"
+  "content" : [ {
+    "type" : "STRING",
+    "requires_update" : false,
+    "value" : "PII_FREE_TEXT"
+  } ],
+  "categories" : [ "NULL" ],
+  "requires_update" : false,
+  "send_at" : "DATETIME_EPOCH"
 }

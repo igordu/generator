@@ -1,30 +1,27 @@
 {
-  "has_discount" : true,
-  "transactions" : {
-    "temperature_c" : 292.41,
-    "booked" : [ {
-      "name_val" : "STRING",
-      "bookingDate" : "DATE",
-      "debtorAccount" : {
-        "iban_data" : "STRING"
-      },
-      "fullName" : "PII_PERSON_NAME",
-      "creditorAccount" : {
-        "stock_quantity" : 1973,
-        "iban" : "PII_IBAN"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "amount_data" : {
-        "currency_data" : "STRING",
-        "amount_data" : "DECIMAL"
-      },
-      "valueDate_data" : "DATE",
-      "bankTransactionCode" : {
-        "v_domain" : "STRING",
-        "stock_quantity" : 1186,
-        "family" : "STRING",
-        "v_subFamily" : "STRING"
-      }
-    } ]
-  }
+  "email" : "PII_EMAIL",
+  "notes_last_contacted" : "DATETIME",
+  "hs_lead_status" : "STRING",
+  "v_lifecyclestage" : "STRING",
+  "website" : "URL",
+  "zip" : "STRING",
+  "state" : "STRING",
+  "phone" : "PII_PHONE_NUMBER",
+  "v_jobtitle" : "NULL",
+  "num_associated_deals" : "INT",
+  "lastmodifieddate" : "DATETIME",
+  "address" : "PII_ADDRESS_LINE",
+  "clientName" : "PII_PERSON_LAST_NAME",
+  "createdate" : "DATETIME",
+  "primaryKey" : "STRING",
+  "id" : "STRING",
+  "primary_email" : "NULL",
+  "firstName" : "PII_PERSON_FIRST_NAME",
+  "conversion_rate" : 8.85,
+  "mobile" : "PII_PHONE_NUMBER",
+  "company" : "PII_COMPANY_NAME",
+  "country" : "PII_LOCATION_COUNTRY",
+  "hs_object_id" : "STRING",
+  "department" : "STRING",
+  "city" : "PII_LOCATION_CITY"
 }

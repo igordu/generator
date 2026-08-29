@@ -1,13 +1,32 @@
 {
-  "tree" : {
-    "response_time_sec" : 865.82,
-    "url" : "URL",
-    "sha" : "STRING"
+  "pullRequest" : {
+    "id" : "INT",
+    "reviewers" : [ {
+      "email" : "PII_EMAIL",
+      "state_data" : "STRING",
+      "clientName" : "PII_PERSON_NAME",
+      "login" : "PII_USERNAME",
+      "auto_renew" : false
+    } ],
+    "state_data" : "STRING",
+    "title" : "STRING",
+    "additions" : "INT",
+    "discount_rate" : 39.59,
+    "author" : {
+      "login_data" : "PII_USERNAME",
+      "contactEmail" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
+    },
+    "baseBranch" : "STRING",
+    "updatedAt" : "DATETIME",
+    "headBranch" : "STRING",
+    "v_deletions" : "INT",
+    "changedFiles" : ""
   },
-  "active" : "BOOLEAN",
-  "user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-  }
+  "defaultBranch" : "STRING",
+  "fullName" : "STRING",
+  "private" : "BOOLEAN",
+  "primaryKey" : "STRING",
+  "name" : "STRING",
+  "language" : "STRING"
 }

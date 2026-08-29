@@ -1,19 +1,17 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "active" : "BOOLEAN",
-    "tree" : {
-      "url" : "URL",
-      "system_ping_ms" : 3219,
-      "sha" : "STRING"
-    },
-    "user_info" : {
-      "name_val" : "PII_LAST_NAME_MALE",
-      "arline__name" : "PII_COMPANY_NAME"
-    },
-    "price" : 726.47
+  "data" : {
+    "fetchResource" : {
+      "lastActivityAt" : "DATETIME",
+      "scopes" : [ "STRING" ],
+      "riskScore" : "DECIMAL",
+      "ipAddress" : "PII_IP_ADDRESS",
+      "v_mfaMethod" : "STRING",
+      "v_mfaVerified" : "BOOLEAN",
+      "sessionId" : "STRING",
+      "userAgent" : "STRING",
+      "createdAt" : "DATETIME",
+      "mail" : "PII_EMAIL",
+      "v_expiresAt" : "DATETIME"
+    }
   }
 }

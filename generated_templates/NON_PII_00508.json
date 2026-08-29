@@ -1,22 +1,20 @@
-[ {
-  "id" : "STRING",
-  "projectCategory" : {
-    "clientName" : "STRING",
-    "description" : "STRING",
-    "self_data" : "NULL"
-  },
-  "name" : "STRING",
-  "style" : "STRING",
-  "avatarUrls_data" : {
-    "24x24" : "URL",
-    "16x16" : "",
-    "32x32" : "NULL"
-  },
-  "self_data" : "URL",
-  "insight_data" : {
-    "has_discount" : true,
-    "totalIssueCount_data" : "INT"
-  },
-  "simplified" : "BOOLEAN",
-  "key" : "STRING"
-} ]
+{
+  "nodeId" : "STRING",
+  "clusterId" : "STRING",
+  "version" : "STRING",
+  "topics" : [ {
+    "v_replicationFactor" : "INT",
+    "name" : "STRING",
+    "partitions" : "INT"
+  } ],
+  "v_role" : "STRING",
+  "status" : "STRING",
+  "uptimeSeconds" : "INT",
+  "system_ping_ms" : 3274,
+  "jvmMemory" : {
+    "heapMaxMb" : "INT",
+    "stock_quantity" : 3547,
+    "gcPauseMs" : "INT",
+    "heapUsedMb" : "INT"
+  }
+}

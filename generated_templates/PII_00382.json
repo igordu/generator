@@ -1,11 +1,21 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "to_data" : "PII_PHONE_NUMBER",
+  "v_subresource_uris" : {
+    "media" : "URL"
   },
-  "results" : {
-    "discount_rate" : 701.12,
-    "emailAddressStatus" : [ "STRING" ],
-    "primary_email" : "PII_EMAIL"
-  }
+  "date_updated" : "DATETIME",
+  "num_segments" : "STRING",
+  "error_message" : "NULL",
+  "status" : "STRING",
+  "from_data" : "PII_PHONE_NUMBER",
+  "v_date_created" : "DATETIME",
+  "sid" : "STRING",
+  "account_sid" : "STRING",
+  "price_unit" : "NULL",
+  "date_sent" : "DATETIME",
+  "v_direction" : "STRING",
+  "v_uri" : "URL",
+  "num_media" : "STRING",
+  "v_body" : "STRING",
+  "api_version" : "STRING"
 }

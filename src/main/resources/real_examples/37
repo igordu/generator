@@ -1,0 +1,18 @@
+{
+  "sid": "IS1234567890abcdef1234567890abcdef",
+  "account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "service_sid": "VAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "identity": "user_8821",
+  "date_created": "2024-01-10T14:30:00Z",
+  "date_updated": "2024-04-05T09:00:00Z",
+  "factors": [
+    {
+      "sid": "YFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "friendly_name": "John's iPhone",
+      "factor_type": "totp",
+      "status": "verified",
+      "date_created": "2024-01-10T14:32:00Z"
+    }
+  ],
+  "url": "https://verify.twilio.com/v2/Services/VAxx/Entities/user_8821"
+}

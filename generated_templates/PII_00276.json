@@ -1,58 +1,89 @@
 {
-  "limit" : "INT",
-  "v_transactions" : [ {
-    "v_eBayCollectedTaxAmount" : {
-      "v_exchangeRate" : "STRING",
-      "convertedFromValue" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "currency" : "STRING"
+  "schedule_meeting" : {
+    "use_pmi_for_scheduled_meetings" : "BOOLEAN",
+    "identifier" : "BOOLEAN",
+    "v_force_pmi_jbh_password" : "BOOLEAN",
+    "audio_type" : "STRING",
+    "require_password_for_pmi_meetings" : "STRING",
+    "embed_password_in_join_link_data" : "BOOLEAN",
+    "meeting_password_requirement" : {
+      "only_allow_numeric" : "BOOLEAN",
+      "v_have_letter" : "BOOLEAN",
+      "v_length" : "INT",
+      "v_have_special_character" : "BOOLEAN",
+      "have_number" : "BOOLEAN"
     },
-    "v_transactionDate" : "DATETIME",
-    "feeType" : "",
-    "salesRecordReference" : "STRING",
-    "totalFeeBasisAmount_data" : {
-      "exchangeRate" : "STRING",
-      "currency" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "v_value" : "STRING"
+    "pmi_password_data" : "PII_PASSWORD",
+    "require_password_for_scheduling_new_meetings_data" : "BOOLEAN",
+    "v_not_store_meeting_topic" : "BOOLEAN",
+    "use_pmi_for_instant_meetings" : "BOOLEAN",
+    "host_video" : "BOOLEAN",
+    "v_join_before_host" : "BOOLEAN",
+    "v_pstn_password_protected" : "BOOLEAN"
+  },
+  "email_notification" : {
+    "jbh_reminder" : "BOOLEAN",
+    "cancel_meeting_reminder" : "BOOLEAN",
+    "v_alternative_host_reminder" : "BOOLEAN",
+    "system_ping_ms" : 3751
+  },
+  "in_meeting_data" : {
+    "remote_support" : "BOOLEAN",
+    "group_hd" : "BOOLEAN",
+    "v_allow_live_streaming" : "BOOLEAN",
+    "far_end_camera_control" : "NULL",
+    "waiting_room" : "BOOLEAN",
+    "priority_level" : 1456,
+    "auto_saving_chat" : "BOOLEAN",
+    "show_meeting_control_toolbar" : "BOOLEAN",
+    "annotation_data" : "BOOLEAN",
+    "data_center_regions" : "ARRAY",
+    "co_host" : "BOOLEAN",
+    "feedback_data" : "BOOLEAN",
+    "breakout_room" : "BOOLEAN",
+    "private_chat" : "BOOLEAN",
+    "e2e_encryption" : null,
+    "v_non_verbal_feedback" : "BOOLEAN",
+    "attendee_on_hold_data" : "BOOLEAN",
+    "chat" : "BOOLEAN",
+    "virtual_background" : "BOOLEAN",
+    "custom_data_center_regions_data" : "BOOLEAN",
+    "v_record_play_voice" : "BOOLEAN"
+  },
+  "v_feature" : {
+    "v_cn_meeting" : "BOOLEAN",
+    "zoom_phone" : "BOOLEAN",
+    "in_meeting" : "BOOLEAN",
+    "large_meeting_data" : "BOOLEAN"
+  },
+  "recording" : {
+    "record_speaker_view" : "BOOLEAN",
+    "recording_password_requirement" : {
+      "have_special_character" : "BOOLEAN",
+      "only_allow_numeric" : "BOOLEAN",
+      "have_number" : "BOOLEAN",
+      "length" : "INT",
+      "v_have_letter" : "BOOLEAN"
     },
-    "orderId" : "STRING",
-    "transactionId" : "STRING",
-    "amount" : {
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING",
-      "exchangeRate" : "STRING",
-      "currency" : "STRING"
-    },
-    "transactionMemo_data" : "STRING",
-    "payoutId" : "STRING",
-    "buyer" : {
-      "fullName" : "PII_USERNAME"
-    },
-    "totalFeeAmount" : {
-      "convertedFromValue" : "STRING",
-      "value" : "STRING",
-      "exchangeRate" : "STRING",
-      "convertedFromCurrency" : "STRING"
-    },
-    "transactionStatus" : "STRING",
-    "transactionType" : "STRING",
-    "response_time_sec" : 255.29,
-    "references_data" : [ {
-      "referenceId" : "STRING",
-      "referenceType" : "STRING"
-    } ],
-    "v_feeJurisdiction" : {
-      "regionName" : "STRING",
-      "item_count" : 3405,
-      "v_regionType" : "STRING"
-    },
-    "v_paymentsEntity" : "STRING",
-    "v_bookingEntry" : "STRING"
-  } ],
-  "href" : "",
-  "total_data" : "INT",
-  "offset" : "INT",
-  "is_active" : false
+    "show_timestamp" : "BOOLEAN",
+    "cloud_recording_data" : "BOOLEAN",
+    "local_recording" : "BOOLEAN",
+    "auto_delete_cmr" : "BOOLEAN",
+    "record_gallery_view" : "BOOLEAN",
+    "save_chat_text" : "BOOLEAN",
+    "record_audio_file" : "BOOLEAN",
+    "recording_audio_transcript" : "BOOLEAN",
+    "auto_recording" : "STRING"
+  },
+  "telephony_data" : {
+    "audio_conference_info" : "STRING",
+    "show_international_numbers_link_data" : "BOOLEAN",
+    "third_party_audio" : "BOOLEAN"
+  },
+  "tsp" : {
+    "show_international_numbers_link" : null,
+    "v_call_out" : "BOOLEAN",
+    "call_out_countries" : "ARRAY",
+    "temperature_c" : 16.19
+  }
 }

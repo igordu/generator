@@ -1,0 +1,31 @@
+{
+  "twoFactorEnabled" : "BOOLEAN",
+  "createdAt" : "DATETIME",
+  "passwordLastChangedAt" : "DATETIME",
+  "lockedUntil" : "NULL",
+  "twoFactorMethod" : "STRING",
+  "failedLoginAttempts" : "INT",
+  "activeSessions" : "INT",
+  "auto_renew" : false,
+  "trustedDevices" : [ {
+    "platform" : "STRING",
+    "name" : "STRING",
+    "lastUsedAt" : "DATETIME",
+    "macAddress" : "PII_MAC_ADDRESS",
+    "primaryKey" : "STRING",
+    "addedAt" : "DATETIME"
+  } ],
+  "oauthConnections" : [ {
+    "response_time_sec" : 26.79,
+    "email" : "PII_EMAIL",
+    "uuid" : "",
+    "primaryKey" : "STRING",
+    "connectedAt" : "DATETIME"
+  } ],
+  "securityEvents" : [ {
+    "ipAddress" : "PII_IP_ADDRESS",
+    "type" : "STRING",
+    "http_status" : 1103,
+    "timestamp" : "DATETIME"
+  } ]
+}

@@ -1,46 +1,26 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "public_gists" : "",
-      "v_blog" : "URL",
-      "v_url" : "URL",
-      "repos_url" : "URL",
-      "owned_private_repos" : "INT",
-      "plan" : {
-        "collaborators" : "INT",
-        "name" : "STRING",
-        "private_repos" : "NULL"
-      },
-      "received_events_url" : "URL",
-      "login" : "STRING",
-      "disk_usage" : "INT",
-      "type" : "STRING",
-      "two_factor_authentication" : "BOOLEAN",
-      "private_gists_data" : "INT",
-      "avatar_url" : "URL",
-      "id" : "INT",
-      "total_private_repos" : "INT",
-      "node_id" : "STRING",
-      "site_admin_data" : "BOOLEAN",
-      "hireable_data" : "BOOLEAN",
-      "v_following_url" : "URL",
-      "v_updated_at" : "DATETIME",
-      "v_bio" : "PII_ORGANIZATION_NAME",
-      "email" : "PII_EMAIL",
-      "company" : "PII_ORGANIZATION_NAME",
-      "gists_url" : "URL",
-      "events_url" : "URL",
-      "v_public_repos" : "NULL",
-      "v_html_url" : "URL",
-      "collaborators" : "INT",
-      "v_organizations_url" : "URL",
-      "gravatar_id" : null,
-      "starred_url" : "URL",
-      "created_at_data" : "DATETIME",
-      "location" : "PII_LOCATION_CITY",
-      "followers" : "INT",
-      "name_val" : "PII_PERSON_NAME",
-      "twitter_username" : "STRING"
+  "v_updatedAt" : "DATETIME",
+  "createdBy" : "PII_EMAIL",
+  "environment_data" : "STRING",
+  "createdAt_data" : "DATETIME",
+  "tags" : [ "STRING" ],
+  "rolloutPercentage" : "NULL",
+  "targeting" : {
+    "rules" : [ {
+      "id" : "STRING",
+      "variation_data" : "STRING",
+      "auto_renew" : true,
+      "description" : "STRING"
+    } ],
+    "fallthrough_data" : {
+      "v_variation" : "STRING"
     }
-  }
+  },
+  "enabled" : "BOOLEAN",
+  "variations_data" : [ {
+    "id" : "STRING",
+    "value_data" : "BOOLEAN"
+  } ],
+  "projectKey_data" : "STRING",
+  "featureFlagKey" : "STRING"
 }

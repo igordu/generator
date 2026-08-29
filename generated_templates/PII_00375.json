@@ -1,5 +1,40 @@
 {
-  "price" : 851.45,
-  "emailAddressStatus" : [ "STRING" ],
-  "emailAddress" : "PII_EMAIL"
+  "createdAt" : null,
+  "verificationId" : "STRING",
+  "completedAt" : "DATETIME",
+  "riskScore" : "NULL",
+  "checks" : [ {
+    "reason" : "STRING",
+    "checkType" : "STRING"
+  } ],
+  "address" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "postalCode" : "STRING",
+    "street_data" : "PII_ADDRESS_LINE",
+    "item_count" : 284,
+    "city" : "PII_LOCATION_CITY"
+  },
+  "status" : "STRING",
+  "reviewedBy" : "PII_EMAIL",
+  "document_data" : {
+    "type" : "STRING",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "v_expiryDate" : "DATE",
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "number" : "PII_NATIONAL_ID",
+    "price" : 3573.29,
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME"
+  },
+  "is_deleted" : false,
+  "applicant" : {
+    "userName" : "PII_PERSON_LAST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "contactEmail" : "PII_EMAIL",
+    "is_deleted" : true,
+    "phone" : "PII_PHONE_NUMBER",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "workflowId" : "STRING"
 }

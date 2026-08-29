@@ -1,13 +1,25 @@
 {
-  "active" : "BOOLEAN",
-  "v_user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "response_time_sec" : 38.77,
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "fullName" : "PII_COMPANY_NAME"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "tree" : {
-    "url" : "URL",
-    "sha_data" : "STRING"
+  "results" : {
+    "scopes" : [ "STRING" ],
+    "userAgent" : "STRING",
+    "lastActivityAt" : "DATETIME",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "issuedTokens_data" : {
+      "idToken" : "STRING",
+      "v_refreshToken" : "STRING"
+    },
+    "system_ping_ms" : 3761,
+    "revoked" : "BOOLEAN",
+    "mfaVerified" : "BOOLEAN",
+    "primaryKey" : "STRING",
+    "riskScore" : "DECIMAL",
+    "createdAt" : "DATETIME",
+    "recordId" : "NULL",
+    "identifier" : "STRING",
+    "email" : "PII_EMAIL"
   }
 }

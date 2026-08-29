@@ -1,0 +1,31 @@
+{
+  "id": "STRING",
+  "object": "STRING",
+  "api_version": "STRING",
+  "created": "DATETIME_EPOCH",
+  "data": {
+    "object": {
+      "id": "STRING",
+      "object": "STRING",
+      "amount": "INT",
+      "currency": "STRING",
+      "customer": "STRING",
+      "description": "STRING",
+      "receipt_email": "PII_EMAIL",
+      "shipping": {
+        "address": {
+          "city": "PII_LOCATION_CITY",
+          "country": "PII_LOCATION_COUNTRY",
+          "line1": "PII_ADDRESS_LINE",
+          "postal_code": "STRING",
+          "state": "STRING"
+        },
+        "name": "PII_PERSON_NAME",
+        "phone": "PII_PHONE_NUMBER"
+      },
+      "status": "STRING"
+    }
+  },
+  "livemode": "BOOLEAN",
+  "type": "STRING"
+}

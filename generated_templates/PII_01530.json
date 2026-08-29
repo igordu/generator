@@ -1,0 +1,26 @@
+{
+  "v_config" : {
+    "webhookUrl" : "URL",
+    "page_index" : 275,
+    "mentionOnError" : "STRING",
+    "channel" : null
+  },
+  "lastTriggeredAt_data" : "DATETIME",
+  "createdAt_data" : "DATETIME",
+  "createdBy" : {
+    "userId" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "name" : "STRING",
+  "status" : "STRING",
+  "integrationId" : "STRING",
+  "triggers" : [ "STRING" ],
+  "updatedAt" : "DATETIME",
+  "v_type" : "STRING",
+  "provider" : "STRING",
+  "stats" : {
+    "totalDeliveries" : "INT",
+    "v_successRate" : "DECIMAL",
+    "is_active" : true
+  }
+}

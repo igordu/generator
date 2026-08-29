@@ -1,5 +1,20 @@
 {
-  "clientToken" : "STRING",
-  "flowName" : "STRING",
-  "page_index" : 4123
+  "conversion_rate" : 4.76,
+  "v_attributes" : {
+    "retryPolicy" : "STRING",
+    "contentType" : "STRING"
+  },
+  "messageId" : "STRING",
+  "movedToDlqAt" : "DATETIME",
+  "queueName" : "STRING",
+  "v_firstReceivedAt" : "DATETIME",
+  "lastReceivedAt_data" : "DATETIME",
+  "v_originalQueue" : "STRING",
+  "body" : {
+    "orderId" : "STRING",
+    "retry_attempts" : 359,
+    "errorCode" : "STRING",
+    "errorMessage" : "STRING"
+  },
+  "receiveCount" : "INT"
 }

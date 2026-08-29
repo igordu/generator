@@ -1,25 +1,32 @@
 {
-  "transactions" : {
-    "conversion_rate" : 478.17,
-    "booked" : [ {
-      "valueDate" : "DATE",
-      "amount" : {
-        "currency" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "debtorName" : "STRING",
-      "v_debtorAccount" : {
-        "iban" : "STRING",
-        "conversion_rate" : 998.84
-      },
-      "creditorName" : "PII_PERSON_NAME",
-      "creditorAccount_data" : {
-        "iban" : "PII_IBAN",
-        "is_deleted" : false
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "transactionId" : "STRING",
-      "v_bookingDate" : "DATE"
-    } ]
-  }
+  "primary_email" : "PII_EMAIL",
+  "first_name" : "PII_PERSON_FIRST_NAME",
+  "orders_count" : "INT",
+  "phone" : "PII_PHONE_NUMBER",
+  "id" : "INT",
+  "default_address" : {
+    "default" : "BOOLEAN",
+    "address1" : "PII_ADDRESS_LINE",
+    "zip" : "STRING",
+    "v_country_code" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "city" : "PII_LOCATION_CITY",
+    "province_data" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "company" : "PII_COMPANY_NAME",
+    "customer_id" : "INT",
+    "province_code" : "STRING",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "v_address2" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "created_at" : "DATETIME",
+  "total_spent" : "",
+  "primaryKey" : "INT",
+  "note" : "STRING",
+  "last_name" : "PII_PERSON_LAST_NAME",
+  "verified_email" : "BOOLEAN",
+  "state" : "STRING",
+  "http_status" : 2136
 }

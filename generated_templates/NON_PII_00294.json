@@ -1,18 +1,11 @@
-[ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "key" : "STRING",
-    "name_val" : "STRING",
-    "count" : "INT",
-    "discount_rate" : 790.0
-  }, {
-    "key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  } ]
-}, {
-  "filter" : "STRING"
-}, {
-  "response_time_sec" : 251.9,
-  "filter" : "STRING"
-} ]
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "id" : "STRING",
+    "stop_reason" : "STRING",
+    "v_type" : "STRING",
+    "role" : "STRING",
+    "model_data" : "STRING"
+  }
+}

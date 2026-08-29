@@ -1,75 +1,27 @@
-[ {
-  "v_committer" : {
-    "gravatar_id" : "STRING",
-    "v_site_admin" : "BOOLEAN",
-    "login_data" : "STRING",
-    "events_url" : "URL",
-    "primaryKey" : "STRING",
-    "starred_url" : "URL",
-    "received_events_url" : "URL",
-    "repos_url_data" : "",
-    "url" : "URL",
-    "uuid" : "INT",
-    "gists_url" : "NULL",
-    "followers_url" : "URL",
-    "subscriptions_url" : "URL",
-    "type" : "STRING",
-    "v_following_url" : "URL"
+{
+  "status" : "STRING",
+  "billingEmail" : "PII_EMAIL",
+  "createdAt" : "DATETIME",
+  "primaryContact" : {
+    "name" : "PII_PERSON_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL"
   },
-  "cpu_usage_percent" : 33.44,
-  "commit" : {
-    "author" : {
-      "email" : "PII_EMAIL",
-      "clientName" : "PII_PERSON_NAME",
-      "discount_rate" : 232.3,
-      "date_data" : "DATETIME"
-    },
-    "tree" : {
-      "sha" : "STRING",
-      "url" : "URL",
-      "is_deleted" : true
-    },
-    "committer_data" : {
-      "name" : "PII_PERSON_NAME",
-      "primary_email" : "PII_EMAIL",
-      "page_index" : 2900,
-      "date" : "DATETIME"
-    },
-    "url" : "URL",
-    "message" : "PII_COMPANY_NAME",
-    "v_verification" : {
-      "page_index" : 854,
-      "verified_at_data" : "DATETIME",
-      "reason" : "STRING",
-      "payload" : "STRING",
-      "verified_data" : "BOOLEAN",
-      "signature" : "STRING"
-    }
+  "v_subscription" : {
+    "seats_data" : "INT",
+    "price" : 9210.45,
+    "mrr" : "DECIMAL",
+    "renewalDate" : "DATE",
+    "seatsUsed" : "INT",
+    "currency" : "STRING"
   },
-  "author" : {
-    "url" : "URL",
-    "subscriptions_url" : "URL",
-    "html_url" : "URL",
-    "repos_url" : "URL",
-    "v_organizations_url" : "URL",
-    "retry_attempts" : 2418,
-    "avatar_url" : "URL",
-    "followers_url" : "NULL",
-    "received_events_url" : "URL",
-    "node_id" : "STRING",
-    "events_url" : "URL",
-    "following_url_data" : "URL",
-    "site_admin" : null,
-    "login" : "STRING",
-    "gravatar_id" : "STRING",
-    "starred_url" : "URL",
-    "id" : "INT"
+  "tenantId" : "STRING",
+  "usage" : {
+    "activeUsers30d" : "INT",
+    "v_storageGb" : "DECIMAL",
+    "apiCallsThisMonth_data" : "INT",
+    "system_ping_ms" : 3962
   },
-  "parents" : [ {
-    "url" : "URL",
-    "sha" : "STRING",
-    "cpu_usage_percent" : 585.35
-  } ],
-  "comments_url" : "URL",
-  "recordId" : "STRING"
-} ]
+  "plan" : "STRING",
+  "ssoEnabled" : "BOOLEAN"
+}

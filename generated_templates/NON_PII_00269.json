@@ -1,28 +1,17 @@
-[ {
-  "cpu_usage_percent" : 163.21,
-  "filter" : "STRING",
-  "facets" : [ {
-    "count_data" : "INT",
-    "key" : "STRING",
-    "name_val" : ""
-  }, {
-    "count" : "INT",
-    "key" : "STRING"
-  }, {
-    "key" : "STRING",
-    "v_count" : "INT",
-    "displayName" : "STRING"
-  } ]
-}, {
-  "filter" : "STRING",
-  "facets" : [ {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT",
-    "system_ping_ms" : 804
-  }, {
-    "key" : "",
-    "displayName" : "STRING",
-    "count_data" : "INT"
-  } ]
-} ]
+{
+  "quantity_reserved" : "INT",
+  "sku" : "STRING",
+  "v_last_received_at" : "DATETIME",
+  "unit_cost_data" : "INT",
+  "identifier" : "STRING",
+  "v_currency" : "STRING",
+  "batch_number" : "STRING",
+  "expiry_date" : "NULL",
+  "has_discount" : true,
+  "quantity_available" : "INT",
+  "last_counted_at" : null,
+  "reorder_quantity" : "INT",
+  "v_location_code" : "STRING",
+  "clientName" : "STRING",
+  "v_quantity_on_hand" : "INT"
+}

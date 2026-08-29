@@ -1,0 +1,29 @@
+{
+  "messageId": "m-20240410-xk9f",
+  "conversationId": "conv-00128-support",
+  "channel": "live_chat",
+  "timestamp": "2024-04-10T14:02:10Z",
+  "direction": "inbound",
+  "sender": {
+    "type": "customer",
+    "id": "cust_88312",
+    "name": "Fatima Al-Hassan",
+    "email": "fatima.hassan@example.com"
+  },
+  "recipient": {
+    "type": "agent",
+    "id": "agent_0042",
+    "name": "Support Team"
+  },
+  "content": {
+    "type": "text",
+    "text": "Hi, I need to update my billing address. My current address is 14 Rue de la Paix, Paris 75002."
+  },
+  "metadata": {
+    "sessionId": "sess_abc987",
+    "userAgent": "Mozilla/5.0",
+    "language": "en"
+  },
+  "sentiment": "neutral",
+  "intent": "update_billing_address"
+}

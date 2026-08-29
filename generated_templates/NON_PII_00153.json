@@ -1,20 +1,29 @@
 {
-  "id" : "STRING",
-  "shopUrl" : "URL",
-  "discount_rate" : 639.46,
-  "name" : "STRING",
-  "media" : {
-    "images" : [ {
-      "type" : "STRING",
-      "smallUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "largeUrl" : "URL",
-      "v_thumbnailHdUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "mediumUrl_data" : "URL",
-      "smallHdUrl" : "URL"
-    } ]
-  },
-  "modelId" : "STRING"
+  "incident" : {
+    "description_data" : "TEXT",
+    "recordId" : "INT",
+    "id" : "STRING",
+    "status" : "STRING",
+    "urgency" : "STRING",
+    "notes" : [ {
+      "created_at" : "",
+      "id" : "STRING",
+      "v_content" : "TEXT"
+    } ],
+    "v_resolved_at" : null,
+    "alert_counts_data" : {
+      "all" : "INT",
+      "conversion_rate" : 6.56,
+      "resolved" : "NULL",
+      "v_triggered" : "INT"
+    },
+    "service_data" : {
+      "id" : "STRING",
+      "summary" : "STRING"
+    },
+    "runbook_url" : "URL",
+    "title_data" : "STRING",
+    "has_discount" : true,
+    "created_at" : "DATETIME"
+  }
 }

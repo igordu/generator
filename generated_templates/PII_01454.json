@@ -1,0 +1,23 @@
+{
+  "identifier" : "STRING",
+  "payload" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "country" : "PII_LOCATION_COUNTRY",
+    "registrationSource" : "STRING",
+    "name_val" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "has_discount" : true,
+    "ipAddress" : "PII_IP_ADDRESS",
+    "userId" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "eventType" : "STRING",
+  "metadata" : {
+    "schemaVersion_data" : "STRING",
+    "offset" : "INT"
+  },
+  "occurredAt" : "DATETIME",
+  "correlationId" : "STRING",
+  "producer" : "STRING"
+}

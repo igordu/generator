@@ -1,12 +1,33 @@
 {
-  "tree" : {
-    "sha" : "STRING"
-  },
-  "v_user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "temperature_c" : 180.44,
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-  },
-  "active" : "BOOLEAN"
+  "system_ping_ms" : 1434,
+  "name" : "STRING",
+  "defaultBranch" : "STRING",
+  "language" : "STRING",
+  "private" : "BOOLEAN",
+  "fullName" : "STRING",
+  "pullRequest" : {
+    "baseBranch_data" : "STRING",
+    "headBranch" : "STRING",
+    "title" : "STRING",
+    "changedFiles_data" : "INT",
+    "identifier" : "INT",
+    "deletions" : "",
+    "author" : {
+      "cache_hit" : false,
+      "emailAddress" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME",
+      "login" : "PII_USERNAME"
+    },
+    "v_additions" : "INT",
+    "state" : "STRING",
+    "reviewers" : [ {
+      "login" : "PII_USERNAME",
+      "email" : "PII_EMAIL",
+      "v_state" : "STRING",
+      "item_count" : 2767,
+      "fullName" : "PII_PERSON_NAME"
+    } ],
+    "updatedAt_data" : "DATETIME",
+    "v_createdAt" : "DATETIME"
+  }
 }

@@ -1,4 +1,14 @@
 {
-  "v_clientToken" : "STRING",
-  "userName" : "STRING"
+  "value" : {
+    "v_expiresAt" : "DATETIME",
+    "v_roles" : [ "STRING" ],
+    "cache_hit" : true,
+    "userId" : "STRING"
+  },
+  "createdAt" : "DATETIME",
+  "hits_data" : "INT",
+  "cache_hit" : false,
+  "v_lastAccessedAt" : "DATETIME",
+  "namespace" : "STRING",
+  "ttl" : "INT"
 }

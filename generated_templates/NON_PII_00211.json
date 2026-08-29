@@ -1,34 +1,23 @@
 {
-  "data" : {
-    "fetchResource" : [ {
-      "v_facets" : [ {
-        "count" : "INT",
-        "displayName" : "STRING",
-        "key" : null
-      }, {
-        "v_count" : "INT",
-        "key" : "STRING",
-        "displayName" : "STRING"
-      }, {
-        "v_count" : "INT",
-        "key" : "STRING",
-        "displayName" : "STRING"
-      } ],
-      "filter" : "STRING"
-    }, {
-      "facets" : [ {
-        "key" : "STRING",
-        "count" : "INT",
-        "displayName" : "STRING",
-        "page_index" : 2103
-      }, {
-        "item_count" : 1061,
-        "v_count" : "INT",
-        "displayName" : "STRING",
-        "key" : "STRING"
-      } ],
-      "filter" : "STRING",
-      "retry_attempts" : 4515
-    } ]
-  }
+  "event_type" : null,
+  "http" : {
+    "status_code" : null,
+    "http_status" : 4103,
+    "path_data" : "URL",
+    "method" : "STRING",
+    "latency_ms" : "INT"
+  },
+  "retry_attempts" : 3400,
+  "details" : [ {
+    "log_line" : "TEXT",
+    "outcome_data" : "STRING",
+    "step" : null,
+    "cpu_usage_percent" : 49.84
+  } ],
+  "uuid" : "STRING",
+  "region" : "STRING",
+  "hostname" : "NULL",
+  "message" : "TEXT",
+  "event_id" : "STRING",
+  "trace_id" : "STRING"
 }

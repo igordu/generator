@@ -1,42 +1,35 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "Status" : "STRING",
-      "clientName" : "STRING",
-      "Employees" : [ {
-        "FirstName" : "PII_PERSON_FIRST_NAME",
-        "fullName" : "PII_PERSON_LAST_NAME",
-        "Status" : "NULL",
-        "v_UpdatedDateUTC" : "DATETIME",
-        "ExternalLink" : {
-          "Url_data" : "URL",
-          "Description" : "STRING"
-        },
-        "primaryKey" : "STRING"
-      }, {
-        "v_ExternalLink" : {
-          "auto_renew" : false,
-          "Description" : "STRING",
-          "Url" : "URL"
-        },
-        "identifier" : null,
-        "LastName" : "PII_PERSON_LAST_NAME",
-        "v_UpdatedDateUTC" : "DATETIME",
-        "FirstName" : "PII_PERSON_FIRST_NAME",
-        "Status" : "STRING"
-      }, {
-        "fullName" : "PII_PERSON_LAST_NAME",
-        "UpdatedDateUTC" : "DATETIME",
-        "identifier" : "",
-        "Status" : "STRING",
-        "ExternalLink" : {
-          "Url" : "URL",
-          "Description_data" : "STRING"
-        },
-        "discount_rate" : 44.14,
-        "FirstName" : "PII_PERSON_FIRST_NAME"
-      } ],
-      "DateTimeUTC_data" : "DATETIME"
-    }
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "ok" : "BOOLEAN",
+    "v_user" : {
+      "is_admin" : "BOOLEAN",
+      "tz_offset" : "INT",
+      "is_bot" : "BOOLEAN",
+      "v_tz_label" : "STRING",
+      "cpu_usage_percent" : 9.74,
+      "real_name" : "PII_PERSON_NAME",
+      "id" : "STRING",
+      "v_profile" : {
+        "clientName" : "PII_PERSON_NAME",
+        "phone" : "PII_PHONE_NUMBER",
+        "title" : "STRING",
+        "name_val" : "PII_USERNAME",
+        "email" : "PII_EMAIL",
+        "team" : "STRING",
+        "first_name" : "PII_PERSON_FIRST_NAME",
+        "fullName" : "PII_PERSON_LAST_NAME"
+      },
+      "tz" : "STRING",
+      "v_is_owner" : "NULL",
+      "mail" : "BOOLEAN",
+      "fullName" : "PII_USERNAME",
+      "deleted" : "BOOLEAN",
+      "team_id" : "STRING"
+    },
+    "response_time_sec" : 21.69
   }
 }

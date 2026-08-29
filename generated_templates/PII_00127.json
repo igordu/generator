@@ -1,61 +1,16 @@
 {
-  "name_val" : "PII_USERNAME",
-  "individualAccount" : {
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "phoneType" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "registrationAddress" : {
-      "county" : "STRING",
-      "v_city" : "STRING",
-      "country" : "STRING",
-      "addressLine2" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine1" : "STRING"
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "firstName" : "PII_PERSON_NAME",
-    "cache_hit" : false,
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    }
-  },
-  "businessAccount" : {
-    "mail" : "PII_EMAIL",
-    "primaryPhone" : {
-      "countryCode" : "NULL",
-      "requires_update" : true,
-      "number" : "PII_PHONE_NUMBER",
-      "telephone" : "STRING"
-    },
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "http_status" : 2850,
-      "countryCode_data" : "STRING",
-      "contactNumber" : "STRING"
-    },
-    "address" : {
-      "city" : "STRING",
-      "country" : "STRING",
-      "county" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine2_data" : "STRING",
-      "postalCode_data" : "STRING",
-      "has_discount" : false,
-      "addressLine1" : "STRING"
-    },
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "fullName" : "PII_ORGANIZATION_NAME",
-    "doingBusinessAs" : "STRING"
-  },
+  "to" : "PII_PHONE_NUMBER",
+  "body" : "PII_FREE_TEXT",
+  "from" : "PII_PHONE_NUMBER",
   "status" : "STRING",
-  "accountType" : "STRING",
-  "primaryKey" : "STRING"
+  "price_unit" : "STRING",
+  "v_price" : "DECIMAL",
+  "sid" : "STRING",
+  "date_created" : "DATETIME",
+  "account_sid" : "NULL",
+  "uri" : "URL",
+  "date_sent" : "DATETIME",
+  "num_segments" : "INT",
+  "error_code" : "NULL",
+  "direction_data" : "STRING"
 }

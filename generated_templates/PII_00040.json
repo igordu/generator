@@ -1,18 +1,62 @@
 {
-  "content" : [ {
-    "helpfulCount_data" : "INT",
-    "customerCountry_data" : "PII_LOCATION_COUNTRY",
-    "identifier" : "STRING",
-    "reviewId" : "STRING",
-    "customerCity" : "PII_LOCATION_CITY",
-    "language" : "STRING",
-    "articleSizeRatings" : {
-      "OVERALL" : "INT"
+  "individualAccount" : {
+    "email" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_NAME",
+    "telephone" : {
+      "phoneType" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "stock_quantity" : 1423
     },
-    "rating" : "INT",
-    "v_title" : "PII_COMPANY_NAME",
-    "articleId" : "STRING",
-    "created" : "DATETIME",
-    "recommend" : "BOOLEAN"
-  } ]
+    "name_val" : "PII_PERSON_NAME",
+    "secondaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "is_deleted" : true
+    },
+    "is_active" : false,
+    "registrationAddress" : {
+      "city" : "STRING",
+      "addressLine1" : "STRING",
+      "country" : "STRING",
+      "postalCode" : "STRING",
+      "addressLine2" : "STRING",
+      "stateOrProvince" : "STRING"
+    }
+  },
+  "businessAccount" : {
+    "cell" : {
+      "cell" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING"
+    },
+    "doingBusinessAs" : "STRING",
+    "v_primaryContact" : {
+      "lastName" : "PII_PERSON_NAME",
+      "requires_update" : false,
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "website" : null,
+    "mail" : "PII_EMAIL",
+    "mobile" : {
+      "mobile" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode_data" : "STRING"
+    },
+    "address" : {
+      "addressLine1" : "STRING",
+      "stateOrProvince" : "STRING",
+      "v_addressLine2" : "",
+      "county" : "STRING",
+      "country_data" : "STRING",
+      "postalCode" : "STRING",
+      "v_city" : "STRING"
+    },
+    "retry_attempts" : 3791,
+    "name" : "PII_ORGANIZATION_NAME"
+  },
+  "accountType" : "STRING",
+  "username" : "PII_USERNAME",
+  "registrationMarketplaceId" : "STRING",
+  "status" : "STRING",
+  "identifier" : "STRING"
 }

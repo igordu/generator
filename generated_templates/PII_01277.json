@@ -1,77 +1,26 @@
-[ {
-  "v_sha" : "STRING",
-  "author" : {
-    "v_starred_url" : "URL",
-    "url" : "URL",
-    "followers_url" : "URL",
-    "organizations_url" : "URL",
-    "node_id" : "STRING",
-    "v_avatar_url" : "URL",
-    "type_data" : "STRING",
-    "subscriptions_url" : "URL",
-    "login" : "STRING",
-    "id" : "INT",
-    "following_url_data" : "URL",
-    "events_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "received_events_url" : "URL",
-    "gravatar_id" : "STRING"
-  },
-  "conversion_rate" : 974.57,
-  "commit" : {
-    "message" : "PII_COMPANY_NAME",
-    "v_comment_count" : "INT",
-    "committer" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "conversion_rate" : 247.93
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "billingEmail" : "PII_EMAIL",
+    "usage" : {
+      "storageGb" : "DECIMAL",
+      "activeUsers30d" : "INT",
+      "apiCallsThisMonth" : "INT",
+      "discount_rate" : 85.11
     },
-    "url" : "URL",
-    "author" : {
-      "emailAddress" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME",
-      "date" : "DATETIME",
-      "response_time_sec" : 644.6
+    "createdAt" : "DATETIME",
+    "dataResidency" : "NULL",
+    "uuid" : "STRING",
+    "ssoEnabled" : "BOOLEAN",
+    "v_primaryContact" : {
+      "cell" : "PII_PHONE_NUMBER",
+      "page_index" : 3444,
+      "contactEmail" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME"
     },
-    "v_verification" : {
-      "signature_data" : "STRING",
-      "verified_data" : "BOOLEAN",
-      "payload" : "",
-      "v_reason" : "STRING",
-      "v_verified_at" : "DATETIME"
-    },
-    "tree" : {
-      "url" : "URL",
-      "priority_level" : 728
-    },
-    "response_time_sec" : 616.29
-  },
-  "url" : "URL",
-  "html_url" : "URL",
-  "node_id" : "STRING",
-  "parents" : [ {
-    "url" : "URL",
-    "sha" : "STRING",
-    "auto_renew" : false
-  } ],
-  "comments_url_data" : "URL",
-  "committer" : {
-    "repos_url" : "URL",
-    "avatar_url" : "NULL",
-    "site_admin" : "BOOLEAN",
-    "organizations_url" : "URL",
-    "v_starred_url" : "URL",
-    "events_url" : "URL",
-    "url" : "URL",
-    "html_url" : "URL",
-    "v_received_events_url" : "URL",
-    "following_url" : "URL",
-    "followers_url" : "URL",
-    "node_id" : "STRING",
-    "v_login" : "STRING",
-    "identifier" : "STRING",
-    "id" : "INT",
-    "gists_url_data" : "URL"
+    "status" : "STRING",
+    "plan" : "STRING",
+    "stock_quantity" : 3810
   }
-} ]
+}

@@ -1,73 +1,28 @@
-[ {
-  "recordId" : "STRING",
-  "commit" : {
-    "tree" : {
-      "url" : "URL",
-      "v_sha" : "STRING"
-    },
-    "comment_count" : "",
-    "cpu_usage_percent" : 446.78,
-    "committer" : {
-      "fullName" : "PII_PERSON_NAME",
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL"
-    },
-    "author" : {
-      "name" : "PII_PERSON_NAME",
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "verification" : {
-      "signature" : "STRING",
-      "reason" : "STRING",
-      "v_verified_at" : "DATETIME",
-      "verified" : "BOOLEAN"
-    }
+{
+  "createdAt" : "DATETIME",
+  "tenantId" : "STRING",
+  "stock_quantity" : 719,
+  "dataResidency" : "STRING",
+  "ssoEnabled" : "BOOLEAN",
+  "usage" : {
+    "v_activeUsers30d" : "",
+    "priority_level" : 1522,
+    "apiCallsThisMonth" : "INT",
+    "storageGb_data" : "DECIMAL"
   },
-  "sha" : "STRING",
-  "url" : "URL",
-  "parents" : [ {
-    "sha" : "STRING",
-    "url" : "URL"
-  } ],
-  "html_url_data" : "URL",
-  "v_author" : {
-    "followers_url" : "URL",
-    "id" : "INT",
-    "gravatar_id" : "STRING",
-    "organizations_url" : "URL",
-    "login" : "STRING",
-    "events_url" : "URL",
-    "repos_url" : "URL",
-    "html_url" : "URL",
-    "v_following_url" : "NULL",
-    "type" : "STRING",
-    "avatar_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "gists_url_data" : "URL",
-    "node_id" : "STRING",
-    "received_events_url" : "URL"
+  "subscription" : {
+    "seats" : "INT",
+    "seatsUsed" : "INT",
+    "mrr" : "NULL",
+    "currency" : "STRING",
+    "renewalDate" : "DATE"
   },
-  "comments_url" : "URL",
-  "committer" : {
-    "node_id" : "STRING",
-    "type" : "STRING",
-    "following_url" : "URL",
-    "repos_url" : "URL",
-    "followers_url" : "URL",
-    "v_gists_url" : "URL",
-    "id" : "INT",
-    "site_admin" : "BOOLEAN",
-    "starred_url" : "URL",
-    "avatar_url" : "URL",
-    "html_url" : "URL",
-    "url" : "URL",
-    "v_login" : "STRING",
-    "events_url" : "URL",
-    "gravatar_id" : "STRING",
-    "subscriptions_url_data" : "URL",
-    "received_events_url" : "URL",
-    "retry_attempts" : 2144
-  }
-} ]
+  "primaryContact" : {
+    "contactEmail" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "status" : "STRING",
+  "plan" : null,
+  "emailAddress" : "PII_EMAIL"
+}

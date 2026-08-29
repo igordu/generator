@@ -1,16 +1,41 @@
 {
+  "candidateId" : "STRING",
+  "interviews" : [ {
+    "type" : "STRING",
+    "round" : "INT",
+    "scheduledAt" : "DATETIME",
+    "is_active" : false,
+    "interviewer" : {
+      "email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME",
+      "requires_update" : true
+    }
+  } ],
+  "position" : {
+    "discount_rate" : 73.1,
+    "v_location" : "PII_LOCATION_CITY",
+    "title_data" : "STRING",
+    "department" : "NULL",
+    "jobId" : "STRING"
+  },
+  "requires_update" : true,
   "status" : "STRING",
-  "routing_number" : "STRING",
-  "metadata" : "OBJECT",
-  "account_type_data" : "STRING",
-  "fullName" : "PII_PERSON_NAME",
-  "last4" : "STRING",
-  "object" : "STRING",
-  "v_country" : "STRING",
-  "conversion_rate" : 646.48,
-  "account_holder_type" : "STRING",
-  "currency" : "STRING",
-  "fingerprint" : "STRING",
-  "id" : "STRING",
-  "clientName" : "STRING"
+  "appliedAt" : "DATETIME",
+  "updatedAt" : "DATETIME",
+  "candidate" : {
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "resumeUrl" : "URL",
+    "v_linkedIn" : "URL",
+    "email" : "PII_EMAIL",
+    "address" : {
+      "has_discount" : false,
+      "city" : "PII_LOCATION_CITY",
+      "v_postalCode" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE"
+    },
+    "phone" : "PII_PHONE_NUMBER",
+    "fullName" : "PII_PERSON_FIRST_NAME"
+  }
 }

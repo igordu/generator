@@ -1,7 +1,23 @@
 {
-  "modelId" : "STRING",
-  "price" : 724.44,
-  "v_shopUrl" : "URL",
-  "name" : "STRING",
-  "id" : "STRING"
+  "ticket" : {
+    "requester" : {
+      "is_deleted" : false,
+      "clientName" : "REDACTED",
+      "telephone" : "***-***-****"
+    },
+    "description" : "TEXT",
+    "satisfaction_rating" : {
+      "score" : "STRING",
+      "v_comment" : "TEXT"
+    },
+    "v_created_at" : "DATETIME",
+    "is_deleted" : false,
+    "v_status" : "STRING",
+    "subject" : "STRING"
+  },
+  "conversion_rate" : 4.78,
+  "retention_policy" : "STRING",
+  "export_id" : "STRING",
+  "anonymized" : "BOOLEAN",
+  "gdpr_erasure_applied" : "BOOLEAN"
 }

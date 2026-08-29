@@ -1,17 +1,44 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "system_state" : {
-      "payload_wrapper" : {
-        "extracted_info" : {
-          "emailAddressStatus" : [ "STRING" ],
-          "item_count" : 3446,
-          "emailAddress" : "PII_EMAIL"
-        }
-      }
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "status" : "STRING",
+    "v_applicant" : {
+      "nationality_data" : "PII_LOCATION_COUNTRY",
+      "email" : "PII_EMAIL",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "phone" : "PII_PHONE_NUMBER",
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "clientName" : "PII_PERSON_FIRST_NAME",
+      "auto_renew" : true
+    },
+    "riskScore" : "INT",
+    "createdAt" : "DATETIME",
+    "auto_renew" : true,
+    "verificationId" : "STRING",
+    "completedAt_data" : "DATETIME",
+    "workflowId" : "STRING",
+    "v_checks" : [ {
+      "checkType" : "STRING",
+      "is_deleted" : false,
+      "reason" : "STRING",
+      "result" : "STRING"
+    } ],
+    "reviewedBy" : "PII_EMAIL",
+    "document_data" : {
+      "issuingCountry" : "PII_LOCATION_COUNTRY",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "number_data" : "PII_NATIONAL_ID",
+      "expiryDate" : "DATE",
+      "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "type" : "STRING"
+    },
+    "address_data" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "city" : "PII_LOCATION_CITY",
+      "v_street" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING"
     }
   }
 }

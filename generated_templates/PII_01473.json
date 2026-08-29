@@ -1,0 +1,21 @@
+{
+  "namespace" : "STRING",
+  "resourceVersion_data" : "STRING",
+  "data" : {
+    "REDIS_PORT_data" : "",
+    "DATABASE_PORT" : "STRING",
+    "REDIS_HOST_data" : "STRING",
+    "SMTP_HOST_data" : "STRING",
+    "v_REQUEST_TIMEOUT_MS" : "STRING",
+    "FEATURE_FLAG_NEW_CHECKOUT_data" : "STRING",
+    "cache_hit" : true,
+    "SMTP_PORT" : "STRING",
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "MAX_CONNECTIONS" : "STRING",
+    "clientName" : "STRING",
+    "v_LOG_LEVEL" : "NULL"
+  },
+  "creationTimestamp" : "DATETIME",
+  "system_ping_ms" : 1167,
+  "configMapName" : "STRING"
+}

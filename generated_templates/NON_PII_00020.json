@@ -1,12 +1,15 @@
 {
-  "numberOfUserRecommendations" : "INT",
-  "numberOfUserReviews" : "INT",
-  "cpu_usage_percent" : 478.25,
-  "starRatingDistribution" : {
-    "5_data" : "INT",
-    "1_data" : "INT",
-    "2_data" : "INT"
-  },
   "numberOfUserPositiveRecommendations" : "INT",
+  "temperature_c" : 37.54,
+  "numberOfUserReviews" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "starRatingDistribution" : {
+    "2" : "INT",
+    "3" : "INT",
+    "is_deleted" : false,
+    "5_data" : "INT",
+    "4" : "INT",
+    "v_1" : "INT"
+  },
   "articleModelId" : "STRING"
 }

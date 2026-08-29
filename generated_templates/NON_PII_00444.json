@@ -1,5 +1,13 @@
 {
-  "flowName" : "STRING",
-  "cache_hit" : true,
-  "clientToken" : "STRING"
+  "requires_update" : true,
+  "value" : {
+    "roles" : [ "STRING" ],
+    "expiresAt" : "DATETIME"
+  },
+  "region" : "STRING",
+  "cacheKey_data" : "STRING",
+  "lastAccessedAt" : "DATETIME",
+  "ttl" : "INT",
+  "v_hits" : "INT",
+  "name_val" : null
 }

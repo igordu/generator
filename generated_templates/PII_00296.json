@@ -1,79 +1,37 @@
 {
-  "limit" : "INT",
-  "transactions" : [ {
-    "feeType_data" : "STRING",
-    "transactionType_data" : "STRING",
-    "salesRecordReference_data" : "STRING",
-    "feeJurisdiction" : {
-      "regionName" : "STRING",
-      "v_regionType" : "STRING",
-      "system_ping_ms" : 3323
-    },
-    "bookingEntry" : "STRING",
-    "transactionId" : "STRING",
-    "v_amount" : {
-      "v_exchangeRate" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "v_convertedFromValue" : "",
-      "v_currency" : "STRING",
-      "value" : "STRING"
-    },
-    "recordId" : "STRING",
-    "v_orderLineItems" : [ {
-      "marketplaceFees" : [ {
-        "feeType" : "STRING",
-        "has_discount" : false,
-        "feeJurisdiction" : {
-          "regionName" : "STRING",
-          "regionType" : "STRING"
-        },
-        "amount" : {
-          "convertedFromCurrency_data" : "STRING",
-          "convertedFromValue" : "STRING",
-          "exchangeRate" : "NULL",
-          "currency" : "STRING",
-          "value" : "STRING"
-        }
-      } ],
-      "lineItemId" : "STRING",
-      "feeBasisAmount" : {
-        "currency" : "STRING",
-        "convertedFromValue" : "STRING",
-        "convertedFromCurrency_data" : "STRING",
-        "value" : "STRING"
-      }
-    } ],
-    "v_transactionDate" : "DATETIME",
-    "references" : [ {
-      "referenceType" : "STRING",
-      "has_discount" : false,
-      "identifier" : "STRING"
-    } ],
-    "eBayCollectedTaxAmount" : {
-      "exchangeRate" : "STRING",
-      "value_data" : "STRING",
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "has_more" : "BOOLEAN",
+    "url" : "URL",
+    "object" : "STRING",
+    "v_data" : [ {
+      "livemode" : "BOOLEAN",
+      "address" : "NULL",
       "currency" : "STRING",
-      "convertedFromCurrency_data" : "STRING",
-      "convertedFromValue" : "STRING"
-    },
-    "buyer_data" : {
-      "username" : "PII_USERNAME"
-    },
-    "transactionMemo" : "STRING",
-    "totalFeeBasisAmount" : {
-      "currency" : "STRING",
-      "v_value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "exchangeRate" : "STRING",
-      "convertedFromValue" : "STRING",
-      "page_index" : 2554
-    },
-    "paymentsEntity" : "STRING",
-    "payoutId" : "STRING"
-  } ],
-  "total" : "INT",
-  "prev" : "STRING",
-  "offset" : "INT",
-  "next" : "STRING",
-  "href" : "STRING"
+      "preferred_locales" : "ARRAY",
+      "name" : "PII_PERSON_NAME",
+      "emailAddress" : "PII_EMAIL",
+      "default_source" : "STRING",
+      "created_data" : "DATETIME_EPOCH",
+      "delinquent" : "BOOLEAN",
+      "phone" : "PII_PHONE_NUMBER",
+      "invoice_prefix" : "STRING",
+      "metadata" : "OBJECT",
+      "invoice_settings" : {
+        "custom_fields" : "NULL",
+        "rendering_options_data" : "NULL",
+        "footer_data" : "STRING",
+        "temperature_c" : -10.6
+      },
+      "test_clock" : "NULL",
+      "shipping" : "NULL",
+      "id" : "STRING",
+      "description" : "STRING",
+      "tax_exempt" : "STRING",
+      "object" : "STRING"
+    } ]
+  }
 }

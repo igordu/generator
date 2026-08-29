@@ -1,0 +1,34 @@
+{
+  "email" : "PII_EMAIL",
+  "recordId" : "STRING",
+  "v_scopes" : [ "STRING" ],
+  "idToken" : {
+    "address" : {
+      "region" : "STRING",
+      "street_address_data" : "PII_ADDRESS_LINE",
+      "country" : "PII_LOCATION_COUNTRY",
+      "locality" : "PII_LOCATION_CITY",
+      "postal_code" : "STRING"
+    },
+    "email" : "PII_EMAIL",
+    "system_ping_ms" : 679,
+    "name" : "PII_PERSON_NAME",
+    "sub" : "NULL",
+    "phone_number" : "PII_PHONE_NUMBER",
+    "birthdate" : "PII_DATE_OF_BIRTH"
+  },
+  "has_discount" : false,
+  "refreshToken" : {
+    "expiresAt" : "DATETIME",
+    "stock_quantity" : 1611,
+    "jti" : "STRING",
+    "rotated_data" : "BOOLEAN"
+  },
+  "uuid" : "STRING",
+  "issuedAt_data" : "DATETIME",
+  "v_accessToken" : {
+    "expiresAt" : "DATETIME",
+    "jti" : "STRING",
+    "type_data" : "STRING"
+  }
+}

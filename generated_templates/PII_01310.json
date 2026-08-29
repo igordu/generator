@@ -1,12 +1,28 @@
 {
-  "page_index" : 1429,
-  "v_tree" : {
-    "sha_data" : "STRING",
-    "v_url" : "URL"
+  "v_recipient" : {
+    "bic" : "STRING",
+    "uuid" : "STRING",
+    "bankName" : "PII_COMPANY_NAME",
+    "requires_update" : true,
+    "iban" : "PII_IBAN",
+    "name_val" : "PII_PERSON_NAME"
   },
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  }
+  "initiatedAt" : "NULL",
+  "amount" : {
+    "value" : "DECIMAL",
+    "currency" : "STRING",
+    "price" : 2889.14
+  },
+  "v_status" : "STRING",
+  "chargesBearer" : "STRING",
+  "sender" : {
+    "iban_data" : "PII_IBAN",
+    "accountId" : "NULL",
+    "retry_attempts" : 2126,
+    "fullName" : "PII_COMPANY_NAME",
+    "bic" : "STRING",
+    "name" : "PII_PERSON_NAME"
+  },
+  "transferId" : "STRING",
+  "reference" : "STRING"
 }

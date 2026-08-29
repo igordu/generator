@@ -1,37 +1,32 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "default_address" : {
+    "telephone" : "PII_PHONE_NUMBER",
+    "name" : "PII_PERSON_NAME",
+    "country_code" : "STRING",
+    "address1" : "PII_ADDRESS_LINE",
+    "v_zip" : "STRING",
+    "v_default" : "BOOLEAN",
+    "last_name" : "PII_PERSON_LAST_NAME",
+    "province_code" : "STRING",
+    "customer_id" : "INT",
+    "city" : "PII_LOCATION_CITY",
+    "company" : "PII_COMPANY_NAME",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "id" : "INT",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "address2" : "STRING"
   },
-  "results" : {
-    "transactions_data" : {
-      "booked" : [ {
-        "debtorAccount" : {
-          "iban" : "STRING"
-        },
-        "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-        "bankTransactionCode" : {
-          "subFamily" : "STRING",
-          "domain" : "STRING",
-          "v_family" : "STRING"
-        },
-        "uuid" : "STRING",
-        "bookingDate" : "DATE",
-        "amount_data" : {
-          "amount" : "DECIMAL",
-          "currency" : "STRING",
-          "http_status" : 292
-        },
-        "v_creditorAccount" : {
-          "iban" : "PII_IBAN"
-        },
-        "has_discount" : true,
-        "creditorName" : "PII_PERSON_NAME",
-        "debtorName" : "STRING",
-        "valueDate_data" : "DATE"
-      } ],
-      "page_index" : 4834
-    },
-    "retry_attempts" : 1466
-  }
+  "created_at" : "DATETIME",
+  "last_order_id" : "INT",
+  "note" : "STRING",
+  "accepts_marketing" : "BOOLEAN",
+  "id" : "INT",
+  "email" : "PII_EMAIL",
+  "tags" : "STRING",
+  "state_data" : "STRING",
+  "first_name" : "PII_PERSON_FIRST_NAME",
+  "updated_at" : "DATETIME",
+  "last_name" : "PII_PERSON_LAST_NAME",
+  "verified_email" : "BOOLEAN",
+  "phone" : "PII_PHONE_NUMBER"
 }

@@ -1,5 +1,31 @@
 {
-  "discount_rate" : 793.65,
-  "flowName" : "STRING",
-  "clientToken_data" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "status" : "STRING",
+    "completedAt" : "DATETIME",
+    "startedAt" : "DATETIME",
+    "v_target" : "URL",
+    "scanType" : "STRING",
+    "findings" : [ {
+      "cwe" : "STRING",
+      "type" : "STRING",
+      "remediation" : "STRING",
+      "severity" : "STRING",
+      "cvss" : "DECIMAL",
+      "id" : "STRING",
+      "description" : "STRING",
+      "parameter" : "STRING",
+      "auto_renew" : true
+    } ],
+    "summary" : {
+      "high" : "INT",
+      "medium_data" : "INT",
+      "v_critical" : "INT",
+      "info_data" : "INT",
+      "response_time_sec" : 27.84
+    }
+  }
 }

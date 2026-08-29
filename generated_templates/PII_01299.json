@@ -1,13 +1,26 @@
 {
-  "active_data" : "BOOLEAN",
-  "tree" : {
-    "sha" : "STRING",
-    "url" : "URL"
+  "completedAt" : "DATETIME",
+  "recipient" : {
+    "bankName" : "PII_COMPANY_NAME",
+    "bic" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "iban" : "PII_IBAN"
   },
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "auto_renew" : false
-  }
+  "initiatedAt" : "DATETIME",
+  "amount" : {
+    "v_currency" : null,
+    "value" : "DECIMAL"
+  },
+  "primaryKey" : "STRING",
+  "sender_data" : {
+    "accountId" : "STRING",
+    "bic" : "STRING",
+    "bankName" : "PII_COMPANY_NAME",
+    "iban" : "PII_IBAN",
+    "userName" : "PII_PERSON_NAME"
+  },
+  "reference" : "NULL",
+  "chargesBearer" : "STRING",
+  "status_data" : "STRING",
+  "endToEndId" : "STRING"
 }

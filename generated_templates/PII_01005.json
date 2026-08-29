@@ -1,22 +1,40 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "interviews" : [ {
+    "v_type" : "STRING",
+    "round_data" : "INT",
+    "scheduledAt" : "DATETIME",
+    "interviewer_data" : {
+      "primary_email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME"
+    }
+  } ],
+  "candidate" : {
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "address" : {
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "priority_level" : 1062,
+      "city_data" : "PII_LOCATION_CITY",
+      "v_street" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING"
+    },
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "resumeUrl" : "URL",
+    "linkedIn" : "URL",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "is_deleted" : true
   },
-  "results" : {
-    "cache_hit" : true,
-    "country" : "STRING",
-    "currency" : "",
-    "id" : "STRING",
-    "status" : "STRING",
-    "object" : "STRING",
-    "last4" : "STRING",
-    "routing_number" : "STRING",
-    "account_holder_type" : "STRING",
-    "v_metadata" : "OBJECT",
-    "bank_name" : "STRING",
-    "v_account_type" : "STRING",
-    "userName" : "PII_PERSON_NAME",
-    "customer" : "STRING"
-  }
+  "position" : {
+    "jobId" : "STRING",
+    "page_index" : 3477,
+    "department_data" : "STRING",
+    "title" : "STRING",
+    "location" : "PII_LOCATION_CITY"
+  },
+  "appliedAt_data" : "DATETIME",
+  "source" : "NULL",
+  "updatedAt_data" : "DATETIME",
+  "status" : "STRING",
+  "candidateId" : "STRING"
 }

@@ -1,23 +1,21 @@
 {
-  "price" : 940.55,
   "content" : [ {
-    "reviewId" : "STRING",
-    "recommend_data" : "BOOLEAN",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "helpfulCount" : "INT",
-    "v_unhelpfulCount" : "INT",
-    "articleSizeRatings_data" : {
-      "SHOE_WIDTH" : "",
-      "OVERALL" : "INT"
+    "articleSizeRatings" : {
+      "price" : 3176.99,
+      "OVERALL_data" : "INT"
     },
+    "cpu_usage_percent" : 22.69,
+    "primaryKey" : "STRING",
     "created" : "DATETIME",
-    "v_title" : "PII_COMPANY_NAME",
-    "v_rating" : "INT",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "description" : "STRING",
-    "articleModelId" : "STRING",
+    "description_data" : "STRING",
+    "v_customerCountry" : "PII_LOCATION_COUNTRY",
+    "helpfulCount" : "INT",
     "articleId" : "STRING",
-    "is_active" : false,
-    "language" : "STRING"
-  } ]
+    "rating" : "INT",
+    "language" : "NULL",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "articleModelId" : "STRING",
+    "title" : null
+  } ],
+  "auto_renew" : false
 }

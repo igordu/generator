@@ -1,17 +1,24 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "v_active" : "BOOLEAN",
-      "tree" : {
-        "url" : "URL",
-        "sha" : "STRING"
-      },
-      "user_info" : {
-        "fullName" : "PII_COMPANY_NAME",
-        "family-name-male" : "PII_LAST_NAME_MALE",
-        "discount_rate" : 21.4,
-        "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-      }
-    }
+  "title" : "STRING",
+  "version" : "INT",
+  "viewCount_data" : "INT",
+  "spaceKey" : "STRING",
+  "createdAt" : "DATETIME",
+  "labels" : [ "STRING" ],
+  "status" : "STRING",
+  "ancestors" : [ {
+    "title" : "STRING",
+    "id" : "STRING"
+  } ],
+  "likes_data" : "INT",
+  "author" : {
+    "email" : "PII_EMAIL",
+    "userName" : "PII_PERSON_NAME"
+  },
+  "auto_renew" : true,
+  "v_lastModifiedBy" : {
+    "primaryKey" : "STRING",
+    "fullName" : "PII_PERSON_NAME",
+    "contactEmail" : "PII_EMAIL"
   }
 }

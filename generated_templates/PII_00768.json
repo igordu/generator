@@ -1,35 +1,17 @@
 {
-  "page_count" : "INT",
-  "registrants" : [ {
-    "purchasing_time_frame_data" : null,
-    "custom_questions" : [ {
-      "value" : "STRING",
-      "title" : "STRING"
-    }, {
-      "title" : "STRING",
-      "value" : "NULL"
-    } ],
-    "job_title_data" : "STRING",
-    "id" : "STRING",
-    "email" : "PII_EMAIL",
-    "v_create_time" : "DATETIME",
-    "clientName" : "PII_PERSON_FIRST_NAME",
-    "v_state" : "PII_LOCATION_STATE",
-    "zip" : "",
-    "role_in_purchase_process" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "city" : "PII_LOCATION_CITY",
-    "industry" : "STRING",
-    "v_comments" : "STRING",
-    "system_ping_ms" : 2210,
-    "country" : "PII_LOCATION_COUNTRY",
-    "join_url" : "URL",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "org" : "PII_ORGANIZATION_NAME",
-    "address_data" : "PII_ADDRESS_LINE",
-    "no_of_employees" : "STRING"
+  "resourceType" : "STRING",
+  "participant" : [ {
+    "status" : "STRING",
+    "cpu_usage_percent" : 57.88,
+    "actor" : {
+      "retry_attempts" : 88,
+      "reference" : "STRING",
+      "display" : "PII_PERSON_NAME"
+    }
   } ],
-  "page_number" : "INT",
-  "page_size" : "INT",
-  "v_total_records" : "INT"
+  "id" : "STRING",
+  "start" : "DATETIME",
+  "v_comment" : "STRING",
+  "retry_attempts" : 4917,
+  "end" : "DATETIME"
 }

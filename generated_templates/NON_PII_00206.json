@@ -1,42 +1,25 @@
-[ {
-  "filter" : "STRING",
-  "stock_quantity" : 3173,
-  "facets_data" : [ {
-    "v_count" : "INT",
-    "v_key" : "STRING",
-    "clientName" : "STRING",
-    "has_discount" : true
-  } ]
-}, {
-  "facets" : [ {
-    "displayName" : "STRING",
-    "stock_quantity" : 3761,
-    "count" : "INT"
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key" : "STRING"
-  }, {
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "count" : "INT"
-  } ],
-  "filter" : "STRING"
-}, {
-  "filter" : "STRING",
-  "conversion_rate" : 386.79,
-  "facets" : [ {
-    "retry_attempts" : 2023,
-    "count" : "INT",
-    "clientName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "count" : "INT",
-    "key_data" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key_data" : "STRING"
-  } ]
-} ]
+{
+  "v_event_type" : "STRING",
+  "region" : "STRING",
+  "timestamp" : "DATETIME",
+  "message" : "TEXT",
+  "severity" : "STRING",
+  "uuid" : "STRING",
+  "source_service" : "STRING",
+  "v_target_service" : "STRING",
+  "http" : {
+    "response_time_sec" : 3.64,
+    "latency_ms_data" : "INT",
+    "path" : "URL",
+    "status_code" : "INT",
+    "method" : "STRING"
+  },
+  "kubernetes" : {
+    "userName" : "STRING",
+    "node" : "STRING",
+    "retry_attempts" : 1563,
+    "container_id" : "STRING",
+    "name_val" : "STRING"
+  },
+  "hostname" : "STRING"
+}

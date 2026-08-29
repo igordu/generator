@@ -1,0 +1,26 @@
+{
+  "stats" : {
+    "retry_attempts" : 607,
+    "successRate" : "DECIMAL",
+    "totalDeliveries" : "INT"
+  },
+  "config" : {
+    "webhookUrl" : "URL",
+    "http_status" : 1689,
+    "channel" : "STRING",
+    "v_mentionOnError" : "STRING"
+  },
+  "name" : "STRING",
+  "provider" : "STRING",
+  "v_status" : "STRING",
+  "createdBy" : {
+    "email" : "PII_EMAIL",
+    "userId" : "STRING",
+    "stock_quantity" : 2063
+  },
+  "type" : "STRING",
+  "lastTriggeredAt_data" : "DATETIME",
+  "updatedAt" : "DATETIME",
+  "createdAt_data" : "DATETIME",
+  "integrationId" : "STRING"
+}

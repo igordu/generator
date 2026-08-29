@@ -1,0 +1,34 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "trainedBy_data" : "PII_EMAIL",
+      "inferenceStats" : {
+        "avgLatencyMs" : "",
+        "errorRate" : "DECIMAL",
+        "v_requestsToday" : "INT",
+        "p99LatencyMs" : "INT"
+      },
+      "endpoint" : "URL",
+      "status" : "STRING",
+      "trainingDataPeriod" : "STRING",
+      "version" : "STRING",
+      "framework" : "STRING",
+      "name" : "STRING",
+      "featureImportance_data" : {
+        "cpu_usage_percent" : 21.26,
+        "support_ticket_count" : "DECIMAL",
+        "days_since_last_login" : "DECIMAL",
+        "monthly_spend_trend" : "DECIMAL"
+      },
+      "modelId" : "STRING",
+      "v_deployedAt" : "NULL",
+      "metrics_data" : {
+        "auc" : "DECIMAL",
+        "precision" : "DECIMAL",
+        "retry_attempts" : 3353,
+        "accuracy" : "DECIMAL",
+        "v_recall" : "NULL"
+      }
+    }
+  }
+}

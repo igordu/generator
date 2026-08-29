@@ -1,0 +1,18 @@
+{
+  "queueName": "STRING",
+  "messageId": "STRING",
+  "receiveCount": "INT",
+  "firstReceivedAt": "DATETIME",
+  "lastReceivedAt": "DATETIME",
+  "movedToDlqAt": "DATETIME",
+  "originalQueue": "STRING",
+  "attributes": {
+    "contentType": "STRING",
+    "retryPolicy": "STRING"
+  },
+  "body": {
+    "orderId": "STRING",
+    "errorCode": "STRING",
+    "errorMessage": "STRING"
+  }
+}

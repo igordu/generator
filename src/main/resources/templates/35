@@ -1,0 +1,58 @@
+{
+  "apiVersion": "STRING",
+  "kind": "STRING",
+  "metadata": {
+    "name": "STRING",
+    "namespace": "STRING",
+    "uid": "STRING",
+    "resourceVersion": "STRING",
+    "creationTimestamp": "DATETIME",
+    "labels": {
+      "app": "STRING",
+      "version": "STRING",
+      "environment": "STRING"
+    },
+    "annotations": {
+      "contact": "PII_EMAIL",
+      "owner": "STRING"
+    }
+  },
+  "spec": {
+    "containers": [
+      {
+        "name": "STRING",
+        "image": "STRING",
+        "ports": [
+          {
+            "containerPort": "INT",
+            "protocol": "STRING"
+          }
+        ],
+        "env": [
+          {
+            "name": "STRING",
+            "value": "PII_EMAIL"
+          }
+        ],
+        "resources": {
+          "requests": {
+            "cpu": "STRING",
+            "memory": "STRING"
+          },
+          "limits": {
+            "cpu": "STRING",
+            "memory": "STRING"
+          }
+        }
+      }
+    ],
+    "nodeName": "STRING",
+    "serviceAccountName": "STRING"
+  },
+  "status": {
+    "phase": "STRING",
+    "podIP": "STRING",
+    "hostIP": "STRING",
+    "startTime": "DATETIME"
+  }
+}

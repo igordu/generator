@@ -1,15 +1,7 @@
 {
   "averageStarRating" : "INT",
-  "numberOfUserRecommendations_data" : "INT",
   "numberOfUserPositiveRecommendations" : "INT",
-  "uuid" : "STRING",
-  "starRatingDistribution" : {
-    "3" : "INT",
-    "4" : "INT",
-    "conversion_rate" : 666.33,
-    "5" : "INT",
-    "v_1" : "INT",
-    "2" : "INT"
-  },
-  "numberOfUserReviews_data" : "INT"
+  "articleModelId" : "STRING",
+  "numberOfUserRecommendations" : "",
+  "v_numberOfUserReviews" : "INT"
 }

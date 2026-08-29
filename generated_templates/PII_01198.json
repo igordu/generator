@@ -1,73 +1,26 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "identifier" : "STRING",
-    "url" : "URL",
-    "v_parents" : [ {
-      "url" : "URL",
-      "sha" : "STRING",
-      "system_ping_ms" : 1769
-    } ],
-    "html_url" : "URL",
-    "committer" : {
-      "organizations_url" : "URL",
-      "html_url" : "URL",
-      "url" : "URL",
-      "page_index" : 2933,
-      "followers_url" : "URL",
-      "subscriptions_url" : "URL",
-      "received_events_url" : "URL",
-      "gists_url" : "URL",
-      "repos_url" : "URL",
-      "id" : "INT",
-      "node_id" : "STRING",
-      "avatar_url" : "URL",
-      "type" : "STRING",
-      "gravatar_id" : "STRING",
-      "events_url" : "URL",
-      "login" : "STRING",
-      "following_url" : "URL"
-    },
-    "commit" : {
-      "url_data" : "URL",
-      "tree" : {
-        "url_data" : "URL",
-        "sha_data" : "STRING"
-      },
-      "comment_count" : "INT",
-      "author_data" : {
-        "name" : "PII_PERSON_NAME",
-        "date" : "DATETIME",
-        "email" : "PII_EMAIL"
-      },
-      "v_message" : "PII_COMPANY_NAME",
-      "v_committer" : {
-        "temperature_c" : 653.43,
-        "contactEmail" : "PII_EMAIL",
-        "clientName" : "PII_PERSON_NAME",
-        "date" : "DATETIME"
-      }
-    },
-    "comments_url" : "URL",
-    "priority_level" : 1077,
-    "author" : {
-      "subscriptions_url" : "URL",
-      "v_html_url" : "URL",
-      "requires_update" : true,
-      "id" : "INT",
-      "repos_url" : "URL",
-      "url" : "URL",
-      "avatar_url" : "URL",
-      "followers_url" : "URL",
-      "gists_url" : "URL",
-      "login_data" : "STRING",
-      "node_id" : "STRING",
-      "starred_url" : "URL",
-      "events_url_data" : "URL",
-      "received_events_url_data" : null,
-      "following_url_data" : null,
-      "site_admin" : "BOOLEAN"
-    }
-  } ]
+  "strategy" : "STRING",
+  "v_healthCheck" : {
+    "status" : "STRING",
+    "responseTimeMs" : "INT"
+  },
+  "status" : "STRING",
+  "registry_data" : "STRING",
+  "rollback" : {
+    "previousVersion" : "STRING",
+    "discount_rate" : 69.07
+  },
+  "environment" : "STRING",
+  "initiatedBy" : {
+    "triggeredBy" : "STRING",
+    "v_type" : "STRING",
+    "v_actor" : "PII_EMAIL",
+    "pipelineId" : "STRING"
+  },
+  "service" : "STRING",
+  "deploymentId" : "STRING",
+  "completedAt" : "DATETIME",
+  "artifactDigest" : "STRING",
+  "version" : "STRING",
+  "startedAt" : "DATETIME"
 }

@@ -1,4 +1,15 @@
 {
-  "flowName" : "STRING",
-  "retry_attempts" : 4393
+  "messageId" : "STRING",
+  "fullName" : "STRING",
+  "receiveCount" : "INT",
+  "v_lastReceivedAt" : null,
+  "v_movedToDlqAt" : "DATETIME",
+  "originalQueue" : "STRING",
+  "firstReceivedAt" : "DATETIME",
+  "v_attributes" : {
+    "retryPolicy" : "STRING",
+    "v_contentType" : "STRING",
+    "http_status" : 3336
+  },
+  "page_index" : 4210
 }

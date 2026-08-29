@@ -1,0 +1,28 @@
+{
+  "createdAt" : "DATETIME",
+  "oauthConnections_data" : [ {
+    "connectedAt" : "DATETIME",
+    "email" : "PII_EMAIL",
+    "provider" : "STRING",
+    "is_deleted" : false,
+    "externalId" : "STRING"
+  } ],
+  "trustedDevices_data" : [ {
+    "lastUsedAt" : "DATETIME",
+    "price" : 5159.09,
+    "platform" : "STRING",
+    "v_macAddress" : "PII_MAC_ADDRESS",
+    "deviceId" : "STRING"
+  } ],
+  "userId" : "STRING",
+  "activeSessions" : "INT",
+  "twoFactorMethod" : "STRING",
+  "lockedUntil" : "NULL",
+  "v_failedLoginAttempts" : "INT",
+  "twoFactorEnabled_data" : "NULL",
+  "passwordLastChangedAt" : "DATETIME",
+  "securityEvents" : [ {
+    "ipAddress_data" : "PII_IP_ADDRESS",
+    "timestamp_data" : "DATETIME"
+  } ]
+}

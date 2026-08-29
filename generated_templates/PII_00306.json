@@ -1,4 +1,15 @@
 {
-  "contactEmail" : "PII_EMAIL",
-  "emailAddressStatus" : [ "STRING" ]
+  "id" : "STRING",
+  "account_holder_type_data" : "STRING",
+  "object" : "STRING",
+  "last4" : "STRING",
+  "metadata" : "OBJECT",
+  "fingerprint" : "STRING",
+  "routing_number" : "STRING",
+  "status" : "STRING",
+  "retry_attempts" : 3155,
+  "account_holder_name" : "PII_PERSON_NAME",
+  "currency" : "STRING",
+  "account_type" : "STRING",
+  "country" : "STRING"
 }

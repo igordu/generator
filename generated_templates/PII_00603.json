@@ -1,38 +1,27 @@
 {
-  "ProviderName" : "STRING",
-  "Employees" : [ {
-    "requires_update" : false,
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL",
-      "system_ping_ms" : 671
+  "ok" : "BOOLEAN",
+  "user_data" : {
+    "updated" : "DATETIME_EPOCH",
+    "profile_data" : {
+      "phone" : "PII_PHONE_NUMBER",
+      "real_name" : "PII_PERSON_NAME",
+      "display_name" : "PII_USERNAME",
+      "has_discount" : true,
+      "team" : "STRING",
+      "last_name" : "PII_PERSON_LAST_NAME",
+      "title" : "STRING",
+      "primary_email" : "PII_EMAIL",
+      "first_name" : "PII_PERSON_FIRST_NAME"
     },
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "v_Url" : "URL",
-      "http_status" : 2997
-    },
-    "v_UpdatedDateUTC" : "DATETIME",
-    "recordId" : "STRING"
-  }, {
-    "EmployeeID" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "Status_data" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "v_ExternalLink" : {
-      "Url" : "URL"
-    }
-  } ],
-  "v_DateTimeUTC" : "DATETIME",
-  "Status" : "STRING",
-  "identifier" : ""
+    "is_bot" : "BOOLEAN",
+    "tz_offset_data" : "INT",
+    "is_owner" : "BOOLEAN",
+    "name" : "PII_USERNAME",
+    "v_tz_label" : "STRING",
+    "is_email_confirmed" : "BOOLEAN",
+    "is_admin" : "BOOLEAN",
+    "v_tz" : "STRING",
+    "team_id" : "STRING",
+    "real_name" : "PII_PERSON_NAME"
+  }
 }

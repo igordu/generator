@@ -1,9 +1,15 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "clientToken" : "STRING",
-      "clientName" : "STRING",
-      "retry_attempts" : 1236
-    }
-  }
+  "discount_rate" : 82.65,
+  "executionTimeMs" : "INT",
+  "v_status" : "STRING",
+  "v_checksum" : "STRING",
+  "database" : "STRING",
+  "migrationId" : "STRING",
+  "appliedAt_data" : "DATETIME",
+  "appliedBy" : "STRING",
+  "v_rollbackAvailable" : "BOOLEAN",
+  "schema" : "STRING",
+  "name" : "STRING",
+  "version" : "STRING",
+  "statementsExecuted" : "INT"
 }

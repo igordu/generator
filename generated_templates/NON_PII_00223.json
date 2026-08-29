@@ -1,28 +1,20 @@
-[ { }, {
-  "v_filter" : "STRING",
-  "facets_data" : [ {
-    "count" : "",
-    "temperature_c" : 115.03,
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING"
-  } ],
-  "system_ping_ms" : 3283
-}, {
-  "filter" : "STRING",
-  "facets" : [ {
-    "key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "userName" : "STRING",
-    "is_deleted" : true
-  } ]
-} ]
+{
+  "endpoint" : "URL",
+  "auth" : {
+    "client_secret" : "[MASKED]",
+    "token_expires" : null,
+    "password" : "********",
+    "username" : "svc_backup_01",
+    "api_key" : "[REDACTED]"
+  },
+  "environment" : null,
+  "v_last_run" : "DATETIME",
+  "log_line_data" : "TEXT",
+  "connection" : {
+    "retry_attempts" : 609,
+    "pool_size" : "INT",
+    "retries" : "INT",
+    "timeout_ms" : "INT"
+  },
+  "service" : "STRING"
+}

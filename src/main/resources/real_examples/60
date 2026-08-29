@@ -1,0 +1,36 @@
+{
+  "bookingRef": "AB1234",
+  "status": "ticketed",
+  "issuedAt": "2024-04-02T07:30:00Z",
+  "passenger": {
+    "title": "Mr",
+    "firstName": "Ibrahim",
+    "lastName": "Al-Mansouri",
+    "dateOfBirth": "1982-05-14",
+    "passportNumber": "AE-A12345678",
+    "passportExpiry": "2030-01-01",
+    "nationality": "AE",
+    "email": "ibrahim.mansouri@email.ae",
+    "phone": "+971 50 123 4567",
+    "frequentFlyerNumber": "EK-8821004"
+  },
+  "itinerary": [
+    {
+      "segment": 1,
+      "flightNumber": "EK021",
+      "origin": "DXB",
+      "destination": "LHR",
+      "departureAt": "2024-05-20T02:15:00+04:00",
+      "arrivalAt": "2024-05-20T06:30:00+01:00",
+      "cabin": "business",
+      "seat": "6A",
+      "status": "confirmed"
+    }
+  ],
+  "ticketNumber": "176-2345678901",
+  "fareClass": "J",
+  "totalFare": {
+    "amount": 4850.00,
+    "currency": "AED"
+  }
+}

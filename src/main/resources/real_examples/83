@@ -1,0 +1,27 @@
+{
+  "nodeId": "node-kafka-broker-02",
+  "clusterId": "kafka-cluster-prod-eu",
+  "role": "broker",
+  "status": "healthy",
+  "metrics": {
+    "messagesInPerSec": 48231,
+    "bytesInPerSec": 12480192,
+    "bytesOutPerSec": 9840128,
+    "underReplicatedPartitions": 0,
+    "activeControllerCount": 1,
+    "offlinePartitionsCount": 0,
+    "requestHandlerAvgIdlePercent": 0.82
+  },
+  "topics": [
+    { "name": "user-events", "partitions": 12, "replicationFactor": 3 },
+    { "name": "order-events", "partitions": 6, "replicationFactor": 3 },
+    { "name": "payment-events", "partitions": 6, "replicationFactor": 3 }
+  ],
+  "jvmMemory": {
+    "heapUsedMb": 4096,
+    "heapMaxMb": 8192,
+    "gcPauseMs": 12
+  },
+  "version": "3.6.1",
+  "uptimeSeconds": 1209600
+}

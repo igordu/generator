@@ -1,0 +1,27 @@
+{
+  "inferenceStats" : {
+    "requestsToday_data" : "INT",
+    "v_errorRate" : "DECIMAL",
+    "v_p99LatencyMs" : "INT"
+  },
+  "status" : "STRING",
+  "recordId" : "STRING",
+  "metrics" : {
+    "auc" : "DECIMAL",
+    "accuracy" : "DECIMAL",
+    "precision" : "DECIMAL",
+    "f1Score" : "DECIMAL"
+  },
+  "deployedAt" : "DATETIME",
+  "endpoint" : "URL",
+  "featureImportance" : {
+    "support_ticket_count" : "DECIMAL",
+    "monthly_spend_trend_data" : "DECIMAL",
+    "product_usage_score_data" : "DECIMAL",
+    "days_since_last_login" : "DECIMAL"
+  },
+  "name" : null,
+  "version" : "STRING",
+  "framework" : "STRING",
+  "trainedBy" : "PII_EMAIL"
+}

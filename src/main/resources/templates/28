@@ -1,0 +1,42 @@
+{
+  "id": "INT",
+  "status": "STRING",
+  "personalizations": [
+    {
+      "to": [
+        {
+          "email": "PII_EMAIL",
+          "name": "PII_PERSON_NAME"
+        }
+      ],
+      "cc": [
+        {
+          "email": "PII_EMAIL",
+          "name": "PII_PERSON_NAME"
+        }
+      ],
+      "subject": "STRING"
+    }
+  ],
+  "from": {
+    "email": "PII_EMAIL",
+    "name": "PII_COMPANY_NAME"
+  },
+  "reply_to": {
+    "email": "PII_EMAIL",
+    "name": "STRING"
+  },
+  "subject": "STRING",
+  "send_at": "DATETIME_EPOCH",
+  "tracking_settings": {
+    "click_tracking": {
+      "enable": "BOOLEAN"
+    },
+    "open_tracking": {
+      "enable": "BOOLEAN"
+    }
+  },
+  "categories": ["STRING"],
+  "ip_pool_name": "STRING",
+  "template_id": "STRING"
+}

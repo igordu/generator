@@ -1,66 +1,35 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "recordId" : "STRING",
-    "individualAccount" : {
-      "firstName" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "telephone" : {
-        "phoneType" : "STRING",
-        "number" : "PII_PHONE_NUMBER",
-        "countryCode" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "resourceType" : "STRING",
+      "cache_hit" : true,
+      "gender" : "STRING",
+      "v_address" : [ {
+        "line" : [ "PII_ADDRESS_LINE" ],
+        "country" : "PII_LOCATION_COUNTRY",
+        "use" : "STRING",
+        "city" : "PII_LOCATION_CITY"
+      } ],
+      "birthDate" : "PII_DATE_OF_BIRTH",
+      "meta_data" : {
+        "lastUpdated_data" : "DATETIME",
+        "versionId" : "INT"
       },
-      "lastName" : "PII_PERSON_NAME",
-      "registrationAddress" : {
-        "addressLine1" : "STRING",
-        "stock_quantity" : 1558,
-        "v_country" : "STRING",
-        "county" : "STRING",
-        "stateOrProvince" : "STRING",
-        "city" : "STRING"
-      },
-      "secondaryPhone" : {
-        "phoneType" : "STRING",
-        "number_data" : "PII_PHONE_NUMBER",
-        "v_countryCode" : ""
-      }
-    },
-    "accountType" : "STRING",
-    "status" : "STRING",
-    "username" : "PII_USERNAME",
-    "businessAccount" : {
-      "emailAddress" : "PII_EMAIL",
-      "website" : "URL",
-      "primaryContact" : {
-        "conversion_rate" : 571.61,
-        "firstName" : "PII_PERSON_NAME",
-        "name_val" : "PII_PERSON_NAME"
-      },
-      "name" : "PII_ORGANIZATION_NAME",
-      "mobile" : {
-        "number_data" : "PII_PHONE_NUMBER",
-        "phoneType" : "STRING"
-      },
-      "v_doingBusinessAs" : "STRING",
-      "address" : {
-        "v_addressLine2" : "",
-        "county" : "STRING",
-        "auto_renew" : true,
-        "postalCode" : "STRING",
-        "v_city" : "NULL",
-        "addressLine1" : "STRING",
-        "country_data" : "STRING",
-        "stateOrProvince" : null
-      },
-      "page_index" : 1513,
-      "telephone" : {
-        "countryCode" : "STRING",
-        "phoneType" : "STRING",
-        "number" : "PII_PHONE_NUMBER"
-      }
+      "uuid" : "STRING",
+      "name" : [ {
+        "given" : [ "PII_PERSON_FIRST_NAME" ],
+        "family" : "PII_PERSON_LAST_NAME",
+        "use" : "STRING"
+      } ],
+      "telecom" : [ {
+        "system" : "STRING",
+        "v_value" : "PII_PHONE_NUMBER",
+        "v_use" : "STRING"
+      }, {
+        "system_ping_ms" : 557,
+        "value" : "PII_EMAIL",
+        "system_data" : ""
+      } ]
     }
   }
 }

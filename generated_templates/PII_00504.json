@@ -1,30 +1,42 @@
 {
-  "has_discount" : false,
-  "transactions" : {
-    "auto_renew" : false,
-    "booked_data" : [ {
-      "creditorName" : "PII_PERSON_NAME",
-      "amount" : {
-        "amount" : "DECIMAL",
-        "v_currency" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "v_from" : {
+      "name" : "PII_COMPANY_NAME",
+      "email" : "PII_EMAIL",
+      "item_count" : 4435
+    },
+    "id" : "INT",
+    "reply_to" : {
+      "email" : "PII_EMAIL",
+      "name" : "STRING"
+    },
+    "send_at" : "DATETIME_EPOCH",
+    "personalizations" : [ {
+      "to_data" : [ {
+        "name" : "PII_PERSON_NAME",
+        "emailAddress" : "PII_EMAIL"
+      } ],
+      "cc_data" : [ {
+        "email" : "PII_EMAIL",
+        "userName" : "PII_PERSON_NAME"
+      } ],
+      "v_subject" : "STRING"
+    } ],
+    "tracking_settings" : {
+      "open_tracking" : {
+        "discount_rate" : 62.54,
+        "enable" : "BOOLEAN"
       },
-      "valueDate" : "DATE",
-      "fullName" : "STRING",
-      "bankTransactionCode" : {
-        "auto_renew" : true,
-        "subFamily" : "STRING",
-        "domain_data" : "STRING",
-        "family" : "STRING"
-      },
-      "v_bookingDate" : "DATE",
-      "creditorAccount" : {
-        "iban_data" : "PII_IBAN"
-      },
-      "debtorAccount" : {
-        "iban" : "STRING"
-      },
-      "transactionId" : "STRING",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME"
-    } ]
+      "click_tracking" : {
+        "enable_data" : "BOOLEAN"
+      }
+    },
+    "status" : "STRING",
+    "identifier" : "STRING",
+    "clientName" : "STRING",
+    "categories" : [ "STRING" ],
+    "subject" : "NULL"
   }
 }

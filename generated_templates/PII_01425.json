@@ -1,0 +1,43 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "refreshToken_data" : {
+      "jti" : "STRING",
+      "expiresAt_data" : "DATETIME",
+      "http_status" : 2331,
+      "rotated" : "BOOLEAN"
+    },
+    "clientId" : "STRING",
+    "page_index" : 1318,
+    "mail" : "PII_EMAIL",
+    "userId" : "STRING",
+    "idToken" : {
+      "http_status" : 3889,
+      "name_val" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "v_sub" : "STRING",
+      "phone_number" : "PII_PHONE_NUMBER",
+      "address" : {
+        "region_data" : "STRING",
+        "street_address" : "PII_ADDRESS_LINE",
+        "v_country" : "PII_LOCATION_COUNTRY",
+        "postal_code_data" : "STRING",
+        "requires_update" : false,
+        "locality" : "PII_LOCATION_CITY"
+      },
+      "birthdate" : "PII_DATE_OF_BIRTH"
+    },
+    "issuedAt" : "DATETIME",
+    "scopes" : [ "STRING" ],
+    "grantType" : "STRING",
+    "grantId" : "STRING",
+    "accessToken" : {
+      "expiresAt" : "DATETIME",
+      "jti" : "STRING",
+      "v_type" : "STRING"
+    }
+  }
+}

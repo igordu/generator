@@ -1,43 +1,24 @@
-[ {
-  "response_time_sec" : 463.26,
-  "v_filter" : "STRING",
-  "facets" : [ {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT",
-    "has_discount" : false
-  }, {
-    "count_data" : "INT",
-    "key" : null,
-    "displayName" : "STRING"
-  } ]
-}, {
-  "facets" : [ {
-    "cpu_usage_percent" : 246.71,
-    "count_data" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT"
-  }, {
-    "key" : "STRING",
-    "fullName" : "STRING",
-    "count" : "INT"
+{
+  "event_type" : "STRING",
+  "http_data" : {
+    "path" : "URL",
+    "status_code" : "INT",
+    "priority_level" : 4337,
+    "latency_ms" : "INT",
+    "method_data" : "STRING"
+  },
+  "span_id" : "STRING",
+  "uuid" : "STRING",
+  "target_service" : "STRING",
+  "v_severity" : "STRING",
+  "price" : 2290.46,
+  "identifier" : "STRING",
+  "region" : "STRING",
+  "details" : [ {
+    "outcome" : "STRING",
+    "step" : "STRING",
+    "v_log_line" : "TEXT"
   } ],
-  "filter" : "STRING"
-}, {
-  "v_facets" : [ {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "key" : "STRING"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "v_key" : "STRING",
-    "count_data" : "INT"
-  } ],
-  "filter" : "STRING"
-} ]
+  "v_message" : "TEXT",
+  "hostname" : "STRING"
+}

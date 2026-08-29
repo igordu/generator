@@ -1,15 +1,43 @@
 {
-  "metadata" : "OBJECT",
-  "last4" : "STRING",
-  "object" : "STRING",
-  "v_account_holder_type" : "STRING",
-  "country" : "STRING",
-  "v_account_type" : "STRING",
-  "currency" : "",
-  "status_data" : "STRING",
-  "fingerprint" : "NULL",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "routing_number" : "STRING",
-  "customer" : "STRING",
-  "bank_name" : "STRING"
+  "estimatedDelivery" : "DATE",
+  "status" : "STRING",
+  "carrier" : "STRING",
+  "trackingNumber" : "STRING",
+  "parcels" : [ {
+    "weight_data" : {
+      "unit_data" : "STRING",
+      "value" : "DECIMAL"
+    },
+    "dimensions" : {
+      "unit_data" : "STRING",
+      "height" : "INT",
+      "length" : "INT"
+    },
+    "parcelId" : "STRING"
+  } ],
+  "sender" : {
+    "userName" : "PII_COMPANY_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "contactEmail" : "PII_EMAIL"
+  },
+  "has_discount" : false,
+  "recipient" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "address" : {
+      "city" : "PII_LOCATION_CITY",
+      "conversion_rate" : 5.61,
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE"
+    },
+    "deliveryInstructions" : "STRING",
+    "email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME",
+    "discount_rate" : 63.04
+  },
+  "deliveryId" : "STRING",
+  "events" : [ {
+    "v_status" : "",
+    "location" : "PII_LOCATION_CITY",
+    "v_timestamp" : "DATETIME"
+  } ]
 }

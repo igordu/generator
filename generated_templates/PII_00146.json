@@ -1,65 +1,33 @@
 {
-  "userId" : "STRING",
-  "individualAccount" : {
-    "registrationAddress_data" : {
-      "stateOrProvince" : "STRING",
-      "county" : "STRING",
-      "city" : "STRING",
-      "addressLine1" : "STRING",
-      "addressLine2" : "STRING",
-      "country" : "STRING",
-      "price" : 475.02,
-      "postalCode" : "STRING"
-    },
-    "auto_renew" : false,
-    "lastName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "is_deleted" : true,
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "primaryPhone" : {
-      "number_data" : "PII_PHONE_NUMBER",
-      "priority_level" : 3296,
-      "mobile" : "STRING",
-      "countryCode_data" : "STRING"
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "contactEmail" : "PII_EMAIL"
-  },
-  "businessAccount" : {
-    "mobile" : {
-      "has_discount" : false,
-      "number_data" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "v_countryCode" : ""
-    },
-    "email" : "PII_EMAIL",
-    "name" : "PII_ORGANIZATION_NAME",
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
+  "open" : "BOOLEAN",
+  "conversation_parts_data" : [ {
+    "body" : "PII_FREE_TEXT",
+    "discount_rate" : 81.65,
+    "v_author" : {
+      "type" : "STRING",
+      "http_status" : 1422,
       "fullName" : "PII_PERSON_NAME"
     },
-    "address" : {
-      "addressLine1" : "STRING",
-      "postalCode" : "STRING",
-      "country" : "STRING",
-      "addressLine2" : "STRING",
-      "stateOrProvince_data" : "STRING",
-      "city" : "STRING",
-      "system_ping_ms" : 1919
-    },
-    "stock_quantity" : 4807,
-    "v_doingBusinessAs" : "STRING",
-    "website" : "URL",
-    "primaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "mobile" : "STRING"
+    "part_type" : "STRING",
+    "created_at" : "DATETIME_EPOCH"
+  } ],
+  "type" : "STRING",
+  "priority" : "STRING",
+  "state" : "STRING",
+  "temperature_c" : -11.06,
+  "id" : "STRING",
+  "read" : "BOOLEAN",
+  "source_data" : {
+    "delivered_as" : "STRING",
+    "body" : "PII_FREE_TEXT",
+    "type" : "STRING",
+    "auto_renew" : true,
+    "subject" : "STRING",
+    "author" : {
+      "email" : "PII_EMAIL",
+      "fullName" : "PII_PERSON_NAME",
+      "type" : null
     }
   },
-  "registrationMarketplaceId" : "STRING",
-  "system_ping_ms" : 1406,
-  "username" : "PII_USERNAME",
-  "status" : "STRING"
+  "created_at" : null
 }

@@ -1,23 +1,4 @@
 {
-  "content" : [ {
-    "requires_update" : false,
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "rating" : "INT",
-    "v_description" : "STRING",
-    "customerCity" : "PII_LOCATION_CITY",
-    "language" : "STRING",
-    "reviewId" : "STRING",
-    "created" : "DATETIME",
-    "articleModelId" : "STRING",
-    "articleSizeRatings" : {
-      "OVERALL" : "INT",
-      "requires_update" : false,
-      "identifier" : "INT"
-    },
-    "identifier" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "unhelpfulCount" : "INT",
-    "helpfulCount_data" : "INT",
-    "recommend" : "BOOLEAN"
-  } ]
+  "emailAddress" : "PII_EMAIL",
+  "emailAddressStatus" : [ "STRING" ]
 }

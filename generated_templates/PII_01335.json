@@ -1,15 +1,22 @@
 {
-  "requires_update" : false,
-  "tree" : {
-    "cpu_usage_percent" : 768.26,
-    "sha" : "STRING",
-    "url" : "URL"
+  "scopes_data" : [ "STRING" ],
+  "userAgent" : "STRING",
+  "uuid" : "STRING",
+  "identifier" : "STRING",
+  "contactEmail" : "PII_EMAIL",
+  "v_lastActivityAt" : "DATETIME",
+  "mfaMethod" : "STRING",
+  "sessionId" : "STRING",
+  "riskScore" : "DECIMAL",
+  "createdAt" : "DATETIME",
+  "mfaVerified" : "BOOLEAN",
+  "v_revoked" : "BOOLEAN",
+  "cpu_usage_percent" : 78.4,
+  "issuedTokens" : {
+    "idToken" : "STRING",
+    "refreshToken" : "STRING",
+    "accessToken" : "STRING"
   },
-  "active" : "BOOLEAN",
-  "user_info" : {
-    "arline__name" : "PII_COMPANY_NAME",
-    "cpu_usage_percent" : 425.12,
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  }
+  "ipAddress" : "PII_IP_ADDRESS",
+  "expiresAt" : "DATETIME"
 }

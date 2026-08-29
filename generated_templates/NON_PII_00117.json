@@ -1,8 +1,42 @@
-{
-  "clientName" : "STRING",
-  "media" : {
-    "auto_renew" : true
+[ {
+  "key_data" : "STRING",
+  "simplified" : "BOOLEAN",
+  "avatarUrls" : {
+    "32x32" : "URL",
+    "v_24x24" : "URL",
+    "v_48x48" : "URL"
   },
-  "shopUrl" : "URL",
-  "uuid" : "STRING"
-}
+  "self" : "URL",
+  "id" : "STRING",
+  "name_val" : null,
+  "style" : "STRING",
+  "priority_level" : 1969,
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "v_projectCategory" : {
+    "v_self" : "URL",
+    "description" : "NULL",
+    "name" : "STRING",
+    "requires_update" : true,
+    "id" : "STRING"
+  }
+}, {
+  "name" : "STRING",
+  "self" : "",
+  "key_data" : "STRING",
+  "v_style" : "STRING",
+  "projectCategory_data" : {
+    "self" : "NULL",
+    "id" : "STRING",
+    "name" : "STRING",
+    "description" : "STRING"
+  },
+  "simplified" : "BOOLEAN",
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "recordId" : "STRING"
+} ]

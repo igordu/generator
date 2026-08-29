@@ -1,13 +1,20 @@
 {
-  "user_info_data" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "arline__name" : "PII_COMPANY_NAME",
-    "price" : 186.64
+  "sessionId" : "STRING",
+  "primary_email" : "PII_EMAIL",
+  "userAgent" : "STRING",
+  "ipAddress" : "PII_IP_ADDRESS",
+  "expiresAt" : "DATETIME",
+  "v_scopes" : [ "STRING" ],
+  "v_createdAt" : "DATETIME",
+  "revoked" : "BOOLEAN",
+  "v_riskScore" : "DECIMAL",
+  "mfaMethod_data" : "STRING",
+  "issuedTokens" : {
+    "v_accessToken" : "STRING",
+    "v_refreshToken" : "STRING",
+    "idToken" : "STRING"
   },
-  "tree" : {
-    "url_data" : "URL",
-    "sha" : "STRING"
-  },
-  "active" : "BOOLEAN"
+  "mfaVerified" : "BOOLEAN",
+  "recordId" : "STRING",
+  "userId" : "STRING"
 }

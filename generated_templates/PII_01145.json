@@ -1,55 +1,30 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "system_state" : {
-        "transaction_trace" : {
-          "debug_payload" : {
-            "location" : "PII_LOCATION_CITY",
-            "name" : "PII_PERSON_NAME",
-            "owned_private_repos" : "INT",
-            "hireable" : "BOOLEAN",
-            "created_at" : "DATETIME",
-            "total_private_repos" : "INT",
-            "organizations_url" : "URL",
-            "private_gists_data" : "NULL",
-            "url" : "URL",
-            "company" : "PII_ORGANIZATION_NAME",
-            "updated_at" : "DATETIME",
-            "followers_url" : "URL",
-            "following" : null,
-            "disk_usage" : "INT",
-            "collaborators_data" : "INT",
-            "avatar_url" : "URL",
-            "recordId" : "INT",
-            "events_url_data" : "URL",
-            "starred_url" : "URL",
-            "public_repos" : "INT",
-            "gravatar_id" : "STRING",
-            "plan" : {
-              "private_repos" : "INT",
-              "is_deleted" : false,
-              "collaborators" : "INT",
-              "space" : "INT",
-              "userName" : "STRING"
-            },
-            "gists_url" : "URL",
-            "two_factor_authentication" : "",
-            "html_url" : "URL",
-            "v_login" : "STRING",
-            "twitter_username" : "STRING",
-            "site_admin" : "BOOLEAN",
-            "node_id" : "STRING",
-            "received_events_url" : "URL",
-            "blog" : "URL",
-            "type" : "STRING",
-            "public_gists" : "INT",
-            "emailAddress" : "PII_EMAIL",
-            "bio" : "PII_ORGANIZATION_NAME",
-            "subscriptions_url" : "URL",
-            "cpu_usage_percent" : 392.33
-          }
-        }
-      }
+  "rolloutPercentage" : "INT",
+  "price" : 972.13,
+  "v_updatedAt" : "DATETIME",
+  "enabled" : "",
+  "environment" : "STRING",
+  "variations" : [ {
+    "id" : "STRING",
+    "value" : "BOOLEAN"
+  } ],
+  "tags" : [ "STRING" ],
+  "featureFlagKey" : "STRING",
+  "v_targeting" : {
+    "v_rules" : [ {
+      "variation" : "STRING",
+      "id" : "STRING",
+      "description" : "STRING",
+      "clauses" : [ {
+        "values_data" : [ "STRING" ],
+        "has_discount" : true,
+        "attribute" : "STRING"
+      } ]
+    } ],
+    "fallthrough_data" : {
+      "variation" : "STRING"
     }
-  }
+  },
+  "v_createdAt" : "NULL",
+  "v_createdBy" : "PII_EMAIL"
 }

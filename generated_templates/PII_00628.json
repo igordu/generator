@@ -1,39 +1,49 @@
 {
-  "Employees" : [ {
-    "v_UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : "STRING",
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "v_Url" : "URL"
+  "id" : "STRING",
+  "key" : "STRING",
+  "stock_quantity" : 3216,
+  "fields" : {
+    "priority_data" : {
+      "name_val" : "STRING",
+      "id" : "STRING",
+      "price" : 3476.23
     },
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "v_Description" : "STRING"
+    "summary" : "STRING",
+    "reporter" : {
+      "v_timeZone" : "STRING",
+      "primary_email" : "PII_EMAIL",
+      "displayName" : "PII_PERSON_NAME",
+      "active" : "NULL",
+      "accountId" : "STRING"
     },
-    "UpdatedDateUTC_data" : "DATETIME",
-    "recordId" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status" : "STRING"
-  }, {
-    "fullName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "v_ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
+    "updated" : "DATETIME",
+    "status" : {
+      "id" : "STRING"
     },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "response_time_sec" : 746.29,
-    "Status" : "STRING",
-    "EmployeeID" : "STRING"
-  } ],
-  "DateTimeUTC" : "DATETIME",
-  "name_val" : "STRING",
-  "Id" : "STRING",
-  "price" : 494.2,
-  "Status" : "NULL"
+    "comment_data" : {
+      "comments_data" : [ {
+        "id" : "STRING",
+        "v_updated" : "DATETIME",
+        "author" : {
+          "contactEmail" : "PII_EMAIL",
+          "displayName" : "PII_PERSON_NAME",
+          "http_status" : 519
+        },
+        "body" : "STRING",
+        "has_discount" : false
+      } ],
+      "total" : "INT",
+      "http_status" : 3050
+    },
+    "v_duedate" : "DATE",
+    "stock_quantity" : 2578,
+    "assignee_data" : {
+      "emailAddress" : "PII_EMAIL",
+      "cache_hit" : false,
+      "displayName" : "PII_PERSON_NAME",
+      "timeZone" : "STRING",
+      "accountId" : "STRING"
+    },
+    "created" : "DATETIME"
+  }
 }

@@ -1,26 +1,22 @@
 {
-  "system_state" : {
-    "event_data" : {
-      "extracted_info" : {
-        "content" : [ {
-          "language_data" : "STRING",
-          "articleModelId" : "STRING",
-          "description" : "STRING",
-          "helpfulCount" : "INT",
-          "rating_data" : "INT",
-          "primaryKey" : "STRING",
-          "customerCity_data" : "PII_LOCATION_CITY",
-          "unhelpfulCount_data" : "INT",
-          "reviewId" : "STRING",
-          "customerCountry" : "PII_LOCATION_COUNTRY",
-          "articleSizeRatings_data" : {
-            "SHOE_WIDTH" : "INT",
-            "OVERALL" : "INT"
-          },
-          "v_title" : "PII_COMPANY_NAME",
-          "created" : "DATETIME"
-        } ]
-      }
-    }
-  }
+  "content" : [ {
+    "v_language" : "STRING",
+    "articleModelId" : "STRING",
+    "recommend" : "",
+    "customerCity" : "PII_LOCATION_CITY",
+    "unhelpfulCount" : "INT",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "created" : "DATETIME",
+    "primaryKey" : "STRING",
+    "reviewId" : "NULL",
+    "articleSizeRatings" : {
+      "auto_renew" : false,
+      "OVERALL" : "INT",
+      "recordId" : "INT"
+    },
+    "title" : "STRING",
+    "rating" : "INT",
+    "v_helpfulCount" : "INT"
+  } ],
+  "cpu_usage_percent" : 70.75
 }

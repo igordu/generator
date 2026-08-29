@@ -1,0 +1,18 @@
+{
+  "roleId": "STRING",
+  "name": "STRING",
+  "description": "STRING",
+  "permissions": ["STRING"],
+  "inheritedFrom": ["STRING"],
+  "assignedTo": [
+    {
+      "userId": "STRING",
+      "email": "PII_EMAIL",
+      "name": "PII_PERSON_NAME",
+      "assignedAt": "DATETIME"
+    }
+  ],
+  "createdAt": "DATETIME",
+  "updatedAt": "DATETIME",
+  "createdBy": "PII_EMAIL"
+}

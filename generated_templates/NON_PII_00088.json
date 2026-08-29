@@ -1,8 +1,3 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "priority_level" : 3357,
-  "averageStarRating" : "INT",
-  "numberOfUserReviews" : "INT",
-  "numberOfUserRecommendations_data" : "INT",
-  "identifier" : "STRING"
+  "flowName" : "STRING"
 }

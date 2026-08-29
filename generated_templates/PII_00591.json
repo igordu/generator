@@ -1,28 +1,22 @@
 {
-  "transactions_data" : {
-    "booked_data" : [ {
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "creditorAccount" : {
-        "stock_quantity" : 836,
-        "iban" : "PII_IBAN"
-      },
-      "valueDate_data" : "DATE",
-      "bankTransactionCode" : {
-        "family" : "STRING",
-        "v_domain" : "STRING",
-        "subFamily" : "STRING"
-      },
-      "debtorName" : "STRING",
-      "creditorName" : "PII_PERSON_NAME",
-      "debtorAccount" : {
-        "iban" : "STRING"
-      },
-      "amount" : {
-        "amount" : "DECIMAL",
-        "currency" : "STRING"
-      },
-      "transactionId" : "STRING",
-      "v_bookingDate" : "DATE"
-    } ]
-  }
+  "businessPhones" : [ "PII_PHONE_NUMBER" ],
+  "jobTitle_data" : "STRING",
+  "fullName" : "PII_EMAIL",
+  "mail" : "PII_EMAIL",
+  "userName" : "PII_USERNAME",
+  "v_country" : "PII_LOCATION_COUNTRY",
+  "createdDateTime" : "DATETIME",
+  "v_userType" : "STRING",
+  "department_data" : "STRING",
+  "streetAddress" : "PII_ADDRESS_LINE",
+  "surname" : "PII_PERSON_LAST_NAME",
+  "accountEnabled" : "BOOLEAN",
+  "officeLocation" : "STRING",
+  "displayName" : "PII_PERSON_NAME",
+  "city" : "PII_LOCATION_CITY",
+  "uuid" : "STRING",
+  "postalCode" : "STRING",
+  "mobilePhone" : "PII_PHONE_NUMBER",
+  "preferredLanguage" : "STRING",
+  "id" : "STRING"
 }

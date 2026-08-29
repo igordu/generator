@@ -1,32 +1,33 @@
 {
-  "object" : "STRING",
-  "url" : "URL",
-  "v_has_more" : "",
-  "item_count" : 4493,
-  "data" : [ {
-    "tax_exempt" : "STRING",
-    "invoice_prefix" : "STRING",
-    "object" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "email" : "PII_EMAIL",
-    "livemode_data" : "NULL",
-    "id" : "STRING",
-    "cache_hit" : true,
-    "invoice_settings" : {
-      "default_payment_method" : "STRING",
-      "footer" : "STRING",
-      "rendering_options" : "NULL"
-    },
-    "balance" : "INT",
-    "test_clock" : null,
-    "v_default_source" : "STRING",
-    "metadata" : "OBJECT",
-    "v_preferred_locales" : "ARRAY",
-    "address" : "NULL",
-    "shipping" : "NULL",
-    "currency" : "STRING",
-    "mobile" : "PII_PHONE_NUMBER",
-    "created" : "DATETIME_EPOCH",
-    "description" : "STRING"
-  } ]
+  "data" : {
+    "fetchResource" : {
+      "recordId" : "STRING",
+      "timestamp" : "DATETIME",
+      "direction" : "STRING",
+      "intent" : "STRING",
+      "messageId" : "STRING",
+      "sender" : {
+        "id" : "STRING",
+        "email" : "PII_EMAIL",
+        "name" : "PII_PERSON_NAME",
+        "type" : "STRING"
+      },
+      "content_data" : {
+        "v_text" : "STRING",
+        "v_type" : "NULL"
+      },
+      "metadata_data" : {
+        "userAgent_data" : "STRING",
+        "recordId" : "STRING",
+        "language" : "STRING"
+      },
+      "recipient" : {
+        "id" : "STRING",
+        "v_type" : "STRING",
+        "name" : "STRING"
+      },
+      "sentiment_data" : "STRING",
+      "channel" : "STRING"
+    }
+  }
 }

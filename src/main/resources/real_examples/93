@@ -1,0 +1,20 @@
+{
+  "configMapName": "app-config",
+  "namespace": "production",
+  "data": {
+    "DATABASE_HOST": "postgres.internal.company.com",
+    "DATABASE_PORT": "5432",
+    "DATABASE_NAME": "users_db",
+    "REDIS_HOST": "redis.internal.company.com",
+    "REDIS_PORT": "6379",
+    "LOG_LEVEL": "INFO",
+    "MAX_CONNECTIONS": "100",
+    "REQUEST_TIMEOUT_MS": "5000",
+    "FEATURE_FLAG_NEW_CHECKOUT": "true",
+    "SMTP_HOST": "smtp.sendgrid.net",
+    "SMTP_PORT": "587",
+    "SUPPORT_EMAIL": "support@company.com"
+  },
+  "creationTimestamp": "2024-01-01T00:00:00Z",
+  "resourceVersion": "9182034"
+}

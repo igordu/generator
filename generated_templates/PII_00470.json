@@ -4,45 +4,25 @@
     "total_pages" : 5
   },
   "results" : {
-    "gender" : "STRING",
-    "recordId" : [ {
-      "system" : "URL",
-      "use" : "STRING",
-      "retry_attempts" : 3927,
-      "v_type" : {
-        "discount_rate" : 891.86,
-        "text" : "STRING"
+    "data_data" : {
+      "protected" : "BOOLEAN",
+      "description_data" : "STRING",
+      "public_metrics" : {
+        "following_count" : "INT",
+        "listed_count" : "INT",
+        "tweet_count" : "INT",
+        "followers_count" : ""
       },
-      "value" : "PII_NATIONAL_ID"
-    } ],
-    "resourceType" : "STRING",
-    "id" : "STRING",
-    "name" : [ {
-      "use" : "STRING",
-      "item_count" : 3425,
-      "given" : [ "PII_PERSON_FIRST_NAME" ],
-      "family" : "PII_PERSON_LAST_NAME"
-    } ],
-    "birthDate" : "PII_DATE_OF_BIRTH",
-    "telecom" : [ {
-      "system" : "STRING",
-      "http_status" : 250,
-      "v_value" : "PII_EMAIL"
-    }, {
-      "use" : "STRING",
-      "value" : "PII_PHONE_NUMBER",
-      "price" : 473.2,
-      "system" : "STRING"
-    } ],
-    "meta" : {
-      "versionId" : "INT",
-      "lastUpdated" : "DATETIME"
+      "url" : "NULL",
+      "location_data" : "PII_LOCATION_CITY",
+      "name" : "PII_PERSON_NAME",
+      "primaryKey" : "STRING",
+      "pinned_tweet_id" : "STRING",
+      "created_at" : "DATETIME",
+      "userName" : "PII_USERNAME",
+      "verified_data" : "BOOLEAN",
+      "profile_image_url" : "URL"
     },
-    "address" : [ {
-      "city" : "PII_LOCATION_CITY",
-      "line" : [ "PII_ADDRESS_LINE" ],
-      "v_country" : "PII_LOCATION_COUNTRY",
-      "v_use" : "STRING"
-    } ]
+    "stock_quantity" : 1845
   }
 }

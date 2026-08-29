@@ -1,78 +1,24 @@
-[ {
-  "url" : "URL",
-  "v_sha" : "STRING",
-  "parents" : [ {
-    "cpu_usage_percent" : 46.39,
-    "v_url" : "NULL",
-    "v_sha" : ""
-  } ],
-  "comments_url_data" : "URL",
-  "committer" : {
-    "login_data" : "STRING",
-    "followers_url" : "URL",
-    "following_url" : "URL",
-    "html_url" : "URL",
-    "gists_url_data" : "URL",
-    "v_site_admin" : "BOOLEAN",
-    "type" : "STRING",
-    "id" : "INT",
-    "gravatar_id" : "STRING",
-    "v_repos_url" : "NULL",
-    "v_events_url" : "URL",
-    "subscriptions_url" : "URL",
-    "organizations_url_data" : "URL",
-    "node_id" : "STRING",
-    "avatar_url_data" : "URL",
-    "received_events_url" : "URL",
-    "v_url" : "URL",
-    "stock_quantity" : 194
+{
+  "createdAt_data" : "DATETIME",
+  "primaryKey" : "NULL",
+  "v_subscription" : {
+    "renewalDate" : "DATE",
+    "priority_level" : 112,
+    "mrr" : "DECIMAL",
+    "currency" : "STRING",
+    "v_seats" : "INT"
   },
-  "v_commit" : {
-    "comment_count_data" : "NULL",
-    "author" : {
-      "name" : "PII_PERSON_NAME",
-      "date_data" : "DATETIME",
-      "email" : "PII_EMAIL"
-    },
-    "tree" : {
-      "sha" : "STRING",
-      "url" : "URL"
-    },
-    "verification_data" : {
-      "conversion_rate" : 800.33,
-      "verified_at" : "DATETIME",
-      "signature_data" : "STRING",
-      "reason_data" : "STRING",
-      "verified" : "BOOLEAN"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "committer" : {
-      "stock_quantity" : 4450,
-      "name" : "PII_PERSON_NAME",
-      "date" : null,
-      "contactEmail" : "PII_EMAIL"
-    }
+  "usage" : {
+    "is_deleted" : true,
+    "activeUsers30d" : "INT",
+    "apiCallsThisMonth_data" : "INT"
   },
-  "stock_quantity" : 430,
-  "author_data" : {
-    "site_admin_data" : "BOOLEAN",
-    "html_url" : "URL",
-    "url" : "URL",
-    "v_gists_url" : "URL",
-    "recordId" : "STRING",
-    "subscriptions_url" : "URL",
-    "v_avatar_url" : "URL",
-    "v_type" : "STRING",
-    "repos_url" : "URL",
-    "received_events_url" : "NULL",
-    "following_url" : "URL",
-    "events_url" : "URL",
-    "primaryKey" : "STRING",
-    "starred_url_data" : "",
-    "organizations_url_data" : "URL",
-    "v_followers_url" : "URL",
-    "login" : "STRING"
+  "primaryContact" : {
+    "contactEmail" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME",
+    "phone" : "PII_PHONE_NUMBER"
   },
-  "v_html_url" : "URL",
-  "primaryKey" : "STRING"
-} ]
+  "mail" : "PII_EMAIL",
+  "v_ssoEnabled" : "BOOLEAN",
+  "status" : "STRING"
+}

@@ -1,17 +1,21 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "discount_rate" : 949.15,
-    "facets" : [ {
-      "displayName" : "STRING",
-      "count" : "INT",
-      "key" : "STRING"
-    }, {
-      "key" : "STRING",
-      "displayName" : "STRING",
-      "count" : "INT"
-    } ],
-    "filter" : "STRING"
-  } ]
+  "service" : "STRING",
+  "connection" : {
+    "is_active" : true,
+    "timeout_ms" : "INT",
+    "retries" : "INT",
+    "pool_size" : "INT"
+  },
+  "v_environment" : "STRING",
+  "auth" : {
+    "client_secret" : "[MASKED]",
+    "token_expires_data" : "DATETIME",
+    "password" : "********",
+    "api_key" : "[REDACTED]",
+    "username" : "svc_backup_01"
+  },
+  "last_run_data" : "DATETIME",
+  "log_line" : "TEXT",
+  "v_endpoint" : "URL",
+  "last_status" : "STRING"
 }

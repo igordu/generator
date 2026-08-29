@@ -1,22 +1,67 @@
 {
-  "response_time_sec" : 968.08,
-  "content_data" : [ {
-    "articleId" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "created" : "DATETIME",
-    "recordId" : "STRING",
-    "v_description" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "language" : "STRING",
-    "articleSizeRatings" : {
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "INT"
-    },
-    "helpfulCount" : "INT",
-    "identifier" : "STRING",
-    "v_recommend" : "BOOLEAN",
-    "unhelpfulCount" : "INT",
-    "rating" : "INT"
-  } ]
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "transactions" : [ {
+      "orderId" : "STRING",
+      "paymentsEntity" : "STRING",
+      "totalFeeAmount" : {
+        "exchangeRate" : "STRING",
+        "value_data" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "item_count" : 2522,
+        "convertedFromValue_data" : "STRING"
+      },
+      "bookingEntry" : "STRING",
+      "payoutId" : "STRING",
+      "references" : [ {
+        "has_discount" : true,
+        "recordId" : "NULL",
+        "v_referenceType" : "STRING"
+      } ],
+      "transactionDate" : "DATETIME",
+      "feeJurisdiction" : {
+        "v_regionType" : "STRING",
+        "regionName" : null
+      },
+      "orderLineItems" : [ {
+        "recordId" : "STRING",
+        "feeBasisAmount" : {
+          "exchangeRate_data" : "STRING",
+          "v_value" : "STRING",
+          "convertedFromValue" : "STRING",
+          "currency" : "STRING",
+          "convertedFromCurrency" : "STRING"
+        }
+      } ],
+      "feeType" : "STRING",
+      "eBayCollectedTaxAmount" : {
+        "currency_data" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate_data" : "STRING",
+        "convertedFromValue_data" : "STRING"
+      },
+      "v_salesRecordReference" : "STRING",
+      "v_buyer" : {
+        "username" : "PII_USERNAME"
+      },
+      "price" : 7023.63,
+      "transactionType" : "STRING",
+      "transactionMemo_data" : "STRING",
+      "transactionStatus" : "STRING",
+      "totalFeeBasisAmount" : {
+        "convertedFromValue" : "STRING",
+        "stock_quantity" : 294,
+        "exchangeRate" : "STRING",
+        "convertedFromCurrency" : "STRING"
+      },
+      "uuid" : "STRING"
+    } ],
+    "next" : "STRING",
+    "offset" : "INT",
+    "price" : 847.12,
+    "href" : "STRING",
+    "prev" : null,
+    "limit" : "INT"
+  }
 }

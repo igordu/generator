@@ -1,17 +1,20 @@
-[ {
-  "facets" : [ {
-    "v_count" : "INT",
-    "key" : "STRING",
-    "name_val" : "STRING"
-  } ],
-  "filter" : "STRING"
-}, {
-  "facets" : [ {
-    "displayName" : "STRING",
-    "key_data" : "STRING"
-  } ],
-  "filter" : "STRING",
-  "priority_level" : 3719
-}, {
-  "filter" : "STRING"
-} ]
+{
+  "environment" : "STRING",
+  "last_status" : "STRING",
+  "connection_data" : {
+    "retries" : "INT",
+    "pool_size" : "INT",
+    "timeout_ms" : "INT"
+  },
+  "endpoint_data" : "URL",
+  "service" : "STRING",
+  "auth" : {
+    "v_password" : "********",
+    "is_active" : true,
+    "api_key" : "[REDACTED]",
+    "v_token_expires" : "DATETIME",
+    "client_secret" : "[MASKED]",
+    "username" : "svc_backup_01"
+  },
+  "log_line" : "TEXT"
+}

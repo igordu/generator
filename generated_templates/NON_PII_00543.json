@@ -1,51 +1,32 @@
-[ {
-  "simplified" : "BOOLEAN",
-  "recordId" : "STRING",
-  "v_avatarUrls" : {
-    "price" : 384.29,
-    "v_32x32" : "URL",
-    "24x24" : "",
-    "48x48" : "URL",
-    "16x16" : "URL"
+{
+  "uuid" : "STRING",
+  "source" : {
+    "database" : "STRING",
+    "table" : "STRING",
+    "host" : "STRING",
+    "v_type" : "STRING"
   },
-  "style_data" : "STRING",
+  "status" : "STRING",
+  "startedAt" : "DATETIME",
+  "scheduledAt" : "DATETIME",
+  "type" : "STRING",
   "name" : "STRING",
-  "stock_quantity" : 4217,
-  "insight" : {
-    "stock_quantity" : 2984,
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount_data" : "INT"
+  "destination" : {
+    "project_data" : "STRING",
+    "dataset" : "STRING",
+    "table" : "STRING",
+    "type" : "STRING"
   },
-  "v_key" : "STRING",
-  "projectCategory" : {
-    "self" : "URL",
-    "id" : "STRING",
-    "description" : "STRING",
-    "name" : "STRING"
+  "stats" : {
+    "http_status" : 2178,
+    "recordsRead" : "INT",
+    "v_recordsWritten" : "INT",
+    "bytesTransferred" : "INT",
+    "recordsSkipped" : "INT"
   },
-  "self_data" : "URL"
-}, {
-  "simplified" : "BOOLEAN",
-  "self" : "URL",
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "item_count" : 2319,
-    "16x16_data" : "URL",
-    "24x24" : "URL",
-    "48x48" : "URL"
-  },
-  "id" : "STRING",
-  "style" : "STRING",
-  "name" : "STRING",
-  "v_insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "projectCategory" : {
-    "description" : "STRING",
-    "uuid" : "STRING",
-    "fullName" : "STRING",
-    "v_self" : "URL",
-    "stock_quantity" : 4584
-  }
-} ]
+  "completedAt" : "DATETIME",
+  "nextRunAt" : "DATETIME",
+  "page_index" : 238,
+  "durationSeconds_data" : "INT",
+  "triggeredBy" : "STRING"
+}

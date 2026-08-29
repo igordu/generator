@@ -1,16 +1,19 @@
 {
-  "numberOfUserRecommendations_data" : "INT",
-  "averageStarRating" : "INT",
-  "starRatingDistribution" : {
-    "1_data" : "INT",
-    "5" : "INT",
-    "2" : "INT",
-    "3_data" : "NULL",
-    "is_active" : false,
-    "4" : "INT"
+  "media_data" : {
+    "v_images" : [ {
+      "orderNumber" : "INT",
+      "v_largeHdUrl" : "URL",
+      "thumbnailHdUrl" : "URL",
+      "mediumHdUrl" : "URL",
+      "largeUrl" : "URL",
+      "v_mediumUrl" : "URL",
+      "type" : "STRING",
+      "smallUrl" : "URL",
+      "smallHdUrl" : "URL"
+    } ]
   },
-  "cpu_usage_percent" : 349.15,
-  "v_numberOfUserPositiveRecommendations" : "INT",
-  "numberOfUserReviews" : "INT",
-  "primaryKey" : "STRING"
+  "name" : "STRING",
+  "shopUrl" : "",
+  "modelId" : "STRING",
+  "page_index" : 1695
 }

@@ -1,0 +1,15 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "startedAt" : "",
+    "status" : "STRING",
+    "environment_data" : "STRING",
+    "v_triggeredBy" : "PII_EMAIL",
+    "commit" : "STRING",
+    "primaryKey" : "STRING",
+    "artifactDigest" : "STRING",
+    "v_repository" : null,
+    "finishedAt" : "DATETIME"
+  }
+}

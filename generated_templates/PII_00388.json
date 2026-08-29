@@ -4,8 +4,28 @@
     "total_pages" : 5
   },
   "results" : {
-    "emailAddress" : "PII_EMAIL",
-    "retry_attempts" : 3731,
-    "emailAddressStatus" : [ "STRING" ]
+    "v_status" : "STRING",
+    "messaging_service_sid" : "STRING",
+    "recordId" : "STRING",
+    "error_code" : "NULL",
+    "price_unit" : "NULL",
+    "from" : "PII_PHONE_NUMBER",
+    "v_to" : "PII_PHONE_NUMBER",
+    "direction" : "STRING",
+    "num_media" : "STRING",
+    "v_date_updated" : "DATETIME",
+    "api_version" : "STRING",
+    "subresource_uris_data" : {
+      "retry_attempts" : 3009,
+      "media" : "URL"
+    },
+    "v_date_sent" : "DATETIME",
+    "sid" : "STRING",
+    "date_created" : "DATETIME",
+    "error_message_data" : "NULL",
+    "num_segments" : "STRING",
+    "v_price" : "NULL",
+    "is_active" : true,
+    "uri" : "URL"
   }
 }

@@ -1,11 +1,17 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "retryCount" : "INT",
+  "cache_hit" : false,
+  "campaign" : null,
+  "type" : "STRING",
+  "sentAt" : "DATETIME",
+  "status" : "STRING",
+  "v_notification" : {
+    "data" : {
+      "orderId" : "STRING",
+      "discount_rate" : 65.52
+    },
+    "body" : "STRING",
+    "title" : "STRING"
   },
-  "results" : {
-    "flowName" : "STRING",
-    "page_index" : 3171,
-    "clientToken" : "STRING"
-  }
+  "v_deliveredAt" : "DATETIME"
 }

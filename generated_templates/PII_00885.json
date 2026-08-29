@@ -1,86 +1,49 @@
 {
-  "in_meeting" : {
-    "custom_data_center_regions" : "BOOLEAN",
-    "show_meeting_control_toolbar" : "BOOLEAN",
-    "closed_caption" : "BOOLEAN",
-    "annotation" : "BOOLEAN",
-    "far_end_camera_control_data" : "BOOLEAN",
-    "v_group_hd" : "",
-    "non_verbal_feedback" : "BOOLEAN",
-    "record_play_voice" : "BOOLEAN",
-    "allow_live_streaming" : "BOOLEAN",
-    "virtual_background" : "BOOLEAN",
-    "co_host" : "BOOLEAN",
-    "data_center_regions" : "ARRAY",
-    "waiting_room" : "BOOLEAN",
-    "auto_saving_chat" : "BOOLEAN",
-    "v_polling" : "BOOLEAN",
-    "entry_exit_chime" : "STRING",
-    "breakout_room_data" : "BOOLEAN",
-    "v_feedback" : "BOOLEAN",
-    "remote_support" : "BOOLEAN",
-    "chat" : "NULL",
-    "e2e_encryption_data" : "BOOLEAN",
-    "v_remote_control" : "BOOLEAN",
-    "private_chat" : "BOOLEAN",
-    "attendee_on_hold" : null
-  },
-  "schedule_meeting" : {
-    "require_password_for_scheduling_new_meetings" : "BOOLEAN",
-    "requires_update" : false,
-    "v_force_pmi_jbh_password" : "BOOLEAN",
-    "use_pmi_for_instant_meetings" : "BOOLEAN",
-    "uuid" : "BOOLEAN",
-    "pmi_password_data" : "PII_PASSWORD",
-    "audio_type_data" : "STRING",
-    "embed_password_in_join_link" : "BOOLEAN",
-    "pstn_password_protected" : "BOOLEAN",
-    "meeting_password_requirement" : {
-      "page_index" : 1761,
-      "length" : "INT",
-      "only_allow_numeric" : "BOOLEAN",
-      "have_letter" : "BOOLEAN",
-      "have_special_character" : "BOOLEAN",
-      "have_number" : "BOOLEAN"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "status_data" : "STRING",
+    "employeeId" : "STRING",
+    "personalInfo" : {
+      "email" : "PII_EMAIL",
+      "personalEmail" : "PII_EMAIL",
+      "v_nationality" : "PII_LOCATION_COUNTRY",
+      "gender_data" : "STRING",
+      "phone" : "PII_PHONE_NUMBER",
+      "telephone" : "PII_PHONE_NUMBER",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "v_ssn" : "PII_NATIONAL_ID",
+      "fullName" : "PII_PERSON_FIRST_NAME",
+      "userName" : "PII_PERSON_LAST_NAME",
+      "clientName" : "PII_PERSON_FIRST_NAME"
     },
-    "host_video" : "BOOLEAN",
-    "use_pmi_for_scheduled_meetings" : "BOOLEAN",
-    "require_password_for_pmi_meetings" : "STRING"
-  },
-  "tsp_data" : {
-    "is_active" : false,
-    "call_out" : "BOOLEAN",
-    "show_international_numbers_link" : "BOOLEAN",
-    "call_out_countries" : "ARRAY"
-  },
-  "email_notification" : {
-    "v_alternative_host_reminder" : "BOOLEAN",
-    "jbh_reminder" : "BOOLEAN",
-    "cancel_meeting_reminder" : "BOOLEAN",
-    "schedule_for_reminder" : "BOOLEAN"
-  },
-  "v_telephony" : {
-    "third_party_audio_data" : "BOOLEAN",
-    "price" : 286.03,
-    "audio_conference_info" : "STRING",
-    "show_international_numbers_link" : "BOOLEAN"
-  },
-  "recording" : {
-    "cpu_usage_percent" : 849.81,
-    "v_recording_audio_transcript" : "BOOLEAN",
-    "v_record_speaker_view" : "BOOLEAN",
-    "v_local_recording" : "BOOLEAN",
-    "v_cloud_recording" : "BOOLEAN",
-    "record_audio_file" : "BOOLEAN",
-    "v_record_gallery_view" : "BOOLEAN",
-    "auto_recording" : "STRING",
-    "show_timestamp_data" : "BOOLEAN"
-  },
-  "feature_data" : {
-    "webinar" : "BOOLEAN",
-    "cell" : "BOOLEAN",
-    "temperature_c" : 938.62,
-    "large_meeting" : "BOOLEAN",
-    "meeting_capacity" : "INT"
+    "v_hireDate" : "DATE",
+    "payroll_data" : {
+      "accountNumber_data" : "PII_IBAN",
+      "payFrequency_data" : "STRING",
+      "name_val" : "PII_COMPANY_NAME",
+      "salary_data" : "INT"
+    },
+    "jobInfo" : {
+      "department" : "STRING",
+      "managerId" : "STRING",
+      "costCenter" : "STRING",
+      "title" : "STRING"
+    },
+    "emergencyContact" : {
+      "is_deleted" : true,
+      "name" : "PII_PERSON_NAME",
+      "phone" : "PII_PHONE_NUMBER",
+      "relationship" : "STRING"
+    },
+    "terminationDate_data" : "NULL",
+    "address" : {
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING",
+      "auto_renew" : true,
+      "state_data" : "STRING"
+    }
   }
 }

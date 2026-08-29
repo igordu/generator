@@ -1,40 +1,47 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "has_more" : "BOOLEAN",
-    "auto_renew" : true,
-    "url_data" : "URL",
-    "object" : "STRING",
-    "data" : [ {
-      "delinquent" : "BOOLEAN",
-      "cell" : "PII_PHONE_NUMBER",
-      "preferred_locales" : "ARRAY",
-      "default_source_data" : "STRING",
-      "object" : "STRING",
-      "invoice_prefix" : "STRING",
-      "v_next_invoice_sequence" : "INT",
-      "metadata" : "OBJECT",
-      "name" : "PII_PERSON_NAME",
-      "invoice_settings" : {
-        "rendering_options" : "NULL",
-        "custom_fields" : "NULL",
-        "footer" : "STRING",
-        "default_payment_method" : "STRING",
-        "priority_level" : 472
-      },
-      "currency" : "STRING",
-      "id" : "STRING",
-      "system_ping_ms" : 1615,
-      "tax_exempt" : "STRING",
-      "livemode" : "BOOLEAN",
-      "shipping" : "NULL",
-      "balance_data" : "NULL",
-      "email" : "PII_EMAIL",
-      "address" : "NULL",
-      "description" : "STRING",
-      "test_clock" : "NULL",
-      "v_created" : "DATETIME_EPOCH"
-    } ]
+  "status" : "STRING",
+  "employeeId" : "STRING",
+  "emergencyContact_data" : {
+    "relationship" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "userName" : "PII_PERSON_NAME",
+    "priority_level" : 3473
+  },
+  "conversion_rate" : 5.98,
+  "jobInfo" : {
+    "title" : "STRING",
+    "department" : "STRING",
+    "managerId" : "STRING",
+    "has_discount" : true,
+    "costCenter" : "STRING",
+    "employmentType" : "STRING"
+  },
+  "hireDate" : "DATE",
+  "address_data" : {
+    "street_data" : "PII_ADDRESS_LINE",
+    "state_data" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "postalCode" : "STRING"
+  },
+  "personalInfo" : {
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "middleName" : "PII_PERSON_FIRST_NAME",
+    "gender" : "",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "phone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "v_ssn" : "PII_NATIONAL_ID",
+    "is_active" : false,
+    "personalEmail" : "PII_EMAIL"
+  },
+  "payroll_data" : {
+    "conversion_rate" : 9.51,
+    "bankName" : "PII_COMPANY_NAME",
+    "accountNumber" : "PII_IBAN",
+    "payFrequency" : ""
   }
 }

@@ -1,5 +1,32 @@
 {
-  "clientToken" : "STRING",
-  "flowName" : "STRING",
-  "discount_rate" : 818.86
+  "data" : {
+    "fetchResource" : {
+      "summary_data" : {
+        "low" : "INT",
+        "system_ping_ms" : 259,
+        "high_data" : "INT",
+        "info" : "INT",
+        "v_critical" : "INT",
+        "medium" : "INT"
+      },
+      "scanType_data" : "STRING",
+      "stock_quantity" : 282,
+      "completedAt" : "DATETIME",
+      "target" : "URL",
+      "status_data" : "STRING",
+      "startedAt" : "DATETIME",
+      "scanId" : "STRING",
+      "findings" : [ {
+        "parameter" : "STRING",
+        "page_index" : 4700,
+        "cvss" : "DECIMAL",
+        "description" : "STRING",
+        "identifier" : "STRING",
+        "endpoint" : "STRING",
+        "type" : "STRING",
+        "v_remediation" : "STRING",
+        "v_cwe" : "STRING"
+      } ]
+    }
+  }
 }

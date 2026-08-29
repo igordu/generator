@@ -1,4 +1,25 @@
 {
-  "userName" : "STRING",
-  "v_clientToken" : null
+  "startedAt" : "DATETIME",
+  "completedAt_data" : "DATETIME",
+  "scanType" : "STRING",
+  "status" : "STRING",
+  "v_summary" : {
+    "info" : "INT",
+    "critical_data" : "INT",
+    "high" : "INT",
+    "medium" : "INT",
+    "low" : "INT"
+  },
+  "findings" : [ {
+    "cwe" : "STRING",
+    "v_parameter" : "STRING",
+    "description" : "STRING",
+    "cvss" : "DECIMAL",
+    "type_data" : "STRING",
+    "endpoint" : "NULL",
+    "severity" : "STRING",
+    "id" : "STRING",
+    "v_remediation" : "STRING"
+  } ],
+  "target" : "URL"
 }

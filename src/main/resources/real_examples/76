@@ -1,0 +1,41 @@
+{
+  "patientId": "PAT-2024-00182",
+  "encounterId": "ENC-2024-00821",
+  "encounterType": "outpatient",
+  "date": "2024-04-10",
+  "patient": {
+    "firstName": "Valentina",
+    "lastName": "Greco",
+    "dateOfBirth": "1962-08-30",
+    "gender": "female",
+    "taxCode": "GRCVNT62M70",
+    "email": "valentina.greco@email.it",
+    "phone": "+39 02 1234 5678",
+    "address": {
+      "street": "Via Roma 42",
+      "city": "Milan",
+      "postalCode": "20121",
+      "country": "IT"
+    }
+  },
+  "diagnosis": [
+    {
+      "code": "I10",
+      "system": "ICD-10",
+      "description": "Essential hypertension",
+      "type": "primary"
+    }
+  ],
+  "prescriptions": [
+    {
+      "drugName": "Amlodipine",
+      "dose": "5mg",
+      "frequency": "once_daily",
+      "durationDays": 90
+    }
+  ],
+  "referral": {
+    "specialist": "Cardiology",
+    "urgency": "routine"
+  }
+}

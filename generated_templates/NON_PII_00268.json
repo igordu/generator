@@ -1,49 +1,21 @@
-[ {
-  "facets" : [ {
-    "count" : "INT",
-    "fullName" : "STRING",
-    "key" : "STRING",
-    "cache_hit" : false
-  }, {
-    "cpu_usage_percent" : 256.54,
-    "key" : "STRING",
-    "count" : "INT"
-  } ],
-  "requires_update" : true,
-  "filter" : "NULL"
-}, {
-  "facets" : [ {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count" : "INT"
-  }, {
-    "key" : "STRING",
-    "response_time_sec" : 255.05,
-    "displayName" : "STRING",
-    "count" : "INT"
-  }, {
-    "count" : "INT",
-    "cpu_usage_percent" : 486.55,
-    "displayName" : "STRING",
-    "key" : "STRING"
-  } ],
-  "filter" : "STRING",
-  "requires_update" : false
-}, {
-  "facets_data" : [ {
-    "count" : "INT",
-    "response_time_sec" : 564.3,
-    "key" : null,
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "stock_quantity" : 966,
-    "displayName" : null,
-    "key" : "STRING"
-  }, {
-    "fullName" : "STRING",
-    "count" : "INT",
-    "key" : "STRING"
-  } ],
-  "v_filter" : "STRING"
-} ]
+{
+  "data" : {
+    "fetchResource" : {
+      "reorder_quantity" : "INT",
+      "quantity_reserved" : "INT",
+      "batch_number" : "NULL",
+      "v_last_counted_at" : "DATETIME",
+      "currency" : "STRING",
+      "reorder_point" : "INT",
+      "last_received_at" : "DATETIME",
+      "location_code" : "STRING",
+      "v_is_hazardous" : "BOOLEAN",
+      "unit_cost_data" : "INT",
+      "tags" : [ "STRING" ],
+      "quantity_on_hand" : "INT",
+      "warehouse_id" : "STRING",
+      "quantity_available_data" : "INT",
+      "sku" : "STRING"
+    }
+  }
+}

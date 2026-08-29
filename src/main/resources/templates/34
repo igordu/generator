@@ -1,0 +1,48 @@
+{
+  "id": "STRING",
+  "key": "STRING",
+  "fields": {
+    "summary": "STRING",
+    "status": {
+      "name": "STRING",
+      "id": "STRING"
+    },
+    "priority": {
+      "name": "STRING",
+      "id": "STRING"
+    },
+    "assignee": {
+      "accountId": "STRING",
+      "emailAddress": "PII_EMAIL",
+      "displayName": "PII_PERSON_NAME",
+      "active": "BOOLEAN",
+      "timeZone": "STRING"
+    },
+    "reporter": {
+      "accountId": "STRING",
+      "emailAddress": "PII_EMAIL",
+      "displayName": "PII_PERSON_NAME",
+      "active": "BOOLEAN",
+      "timeZone": "STRING"
+    },
+    "comment": {
+      "total": "INT",
+      "comments": [
+        {
+          "id": "STRING",
+          "author": {
+            "accountId": "STRING",
+            "emailAddress": "PII_EMAIL",
+            "displayName": "PII_PERSON_NAME"
+          },
+          "body": "STRING",
+          "created": "DATETIME",
+          "updated": "DATETIME"
+        }
+      ]
+    },
+    "created": "DATETIME",
+    "updated": "DATETIME",
+    "duedate": "DATE"
+  }
+}

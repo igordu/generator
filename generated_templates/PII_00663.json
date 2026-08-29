@@ -1,35 +1,62 @@
 {
-  "DateTimeUTC" : "DATETIME",
-  "price" : 262.05,
-  "clientName" : "STRING",
-  "Employees" : [ {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "Status_data" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url_data" : "URL"
+  "page_index" : 4587,
+  "Worker_ID" : "STRING",
+  "Employment_Data" : {
+    "response_time_sec" : 9.66
+  },
+  "Personal_Data" : {
+    "Identification_Data" : {
+      "Birth_Date" : "PII_DATE_OF_BIRTH",
+      "National_ID_Data" : [ {
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        },
+        "primaryKey" : "PII_NATIONAL_ID",
+        "National_ID_Type_Reference" : { }
+      } ]
     },
-    "EmployeeID" : "STRING",
-    "userName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "Status_data" : "STRING",
-    "primaryKey" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "v_Status" : "STRING",
-    "priority_level" : 3798,
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
+    "clientName" : {
+      "Legal_Name_Data" : {
+        "Name_Detail_Data" : {
+          "First_Name" : "PII_PERSON_FIRST_NAME",
+          "Last_Name" : "PII_PERSON_LAST_NAME",
+          "Middle_Name" : "PII_PERSON_FIRST_NAME"
+        }
+      },
+      "conversion_rate" : 3.57
     },
-    "UpdatedDateUTC" : "DATETIME",
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "uuid" : "STRING"
-  } ],
-  "Id" : "STRING",
-  "v_Status" : null
+    "Contact_Data" : {
+      "Address_Data_data" : [ {
+        "Address_Line_Data" : [ {
+          "temperature_c" : 15.09,
+          "content" : "PII_ADDRESS_LINE"
+        } ],
+        "Municipality" : "PII_LOCATION_CITY",
+        "Usage_Data" : {
+          "Type_Data" : [ {
+            "Type_Reference" : {
+              "WID" : "STRING",
+              "response_time_sec" : 9.71
+            }
+          } ]
+        },
+        "conversion_rate" : 2.03,
+        "Postal_Code" : "STRING",
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        }
+      } ],
+      "http_status" : 882,
+      "Phone_Data" : [ {
+        "contactNumber" : {
+          "WID" : "STRING",
+          "response_time_sec" : 28.86
+        },
+        "Phone_Number" : "PII_PHONE_NUMBER"
+      } ],
+      "Email_Address_Data" : [ {
+        "emailAddress" : "PII_EMAIL"
+      } ]
+    }
+  }
 }

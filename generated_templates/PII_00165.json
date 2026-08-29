@@ -1,51 +1,24 @@
 {
-  "status" : "STRING",
-  "username" : "PII_USERNAME",
-  "businessAccount" : {
-    "is_deleted" : true,
-    "v_address" : {
-      "has_discount" : false,
-      "addressLine2" : "STRING",
-      "county" : "STRING",
-      "country" : "STRING",
-      "postalCode_data" : "STRING",
-      "addressLine1_data" : "STRING",
-      "stateOrProvince" : "STRING"
-    },
-    "secondaryPhone" : {
-      "phoneType" : "STRING",
-      "v_countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "doingBusinessAs_data" : "STRING",
-    "contactEmail" : "PII_EMAIL",
-    "name" : "PII_ORGANIZATION_NAME",
-    "website_data" : "URL",
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "firstName" : "PII_PERSON_NAME"
-    },
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "system_ping_ms" : 1025,
-      "number_data" : "PII_PHONE_NUMBER"
-    }
+  "response_time_sec" : 22.32,
+  "attributes_data" : {
+    "type" : "STRING",
+    "v_url" : "URL"
   },
-  "userId" : "STRING",
-  "accountType" : "STRING",
-  "individualAccount" : {
-    "contactNumber" : {
-      "countryCode" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "contactEmail" : "PII_EMAIL",
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER",
-      "response_time_sec" : 58.96,
-      "countryCode_data" : "STRING"
-    },
-    "fullName" : "PII_PERSON_NAME"
-  }
+  "OwnerId" : "NULL",
+  "IsPrivate" : "BOOLEAN",
+  "Title" : "STRING",
+  "primaryKey" : "STRING",
+  "Id" : "STRING",
+  "v_Body" : "PII_FREE_TEXT",
+  "activity_log_data" : [ {
+    "auto_renew" : false,
+    "note_data" : "PII_FREE_TEXT",
+    "timestamp" : "DATETIME",
+    "action" : ""
+  } ],
+  "v_Owner" : {
+    "name_val" : "PII_PERSON_NAME",
+    "Department" : "STRING"
+  },
+  "CreatedDate" : "DATETIME"
 }

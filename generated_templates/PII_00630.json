@@ -1,35 +1,47 @@
 {
-  "Employees" : [ {
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "Status_data" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "discount_rate" : 188.75,
-    "EmployeeID" : "STRING"
-  }, {
-    "Status" : "NULL",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url_data" : "URL"
+  "id" : "STRING",
+  "fields_data" : {
+    "comment" : {
+      "total" : "INT",
+      "response_time_sec" : 23.01,
+      "comments" : [ {
+        "created" : "DATETIME",
+        "has_discount" : false,
+        "author" : {
+          "accountId" : "STRING",
+          "contactEmail" : "PII_EMAIL",
+          "displayName" : "PII_PERSON_NAME"
+        },
+        "id" : "STRING",
+        "updated" : "DATETIME",
+        "body" : "STRING"
+      } ]
     },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "EmployeeID" : "STRING"
-  }, {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "v_UpdatedDateUTC" : "DATETIME",
-    "requires_update" : true,
-    "EmployeeID" : "STRING",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "system_ping_ms" : 3359,
-      "Url_data" : "URL",
-      "Description" : "STRING"
+    "v_updated" : "DATETIME",
+    "duedate" : "DATE",
+    "summary" : "STRING",
+    "reporter_data" : {
+      "emailAddress" : "PII_EMAIL",
+      "http_status" : 1513,
+      "name_val" : "PII_PERSON_NAME",
+      "active" : "BOOLEAN",
+      "accountId" : "STRING",
+      "timeZone" : "STRING"
+    },
+    "http_status" : 3638,
+    "priority" : {
+      "id" : "STRING",
+      "name" : "STRING",
+      "temperature_c" : 6.56
+    },
+    "v_assignee" : {
+      "v_timeZone" : "STRING",
+      "emailAddress" : "PII_EMAIL",
+      "is_active" : true,
+      "displayName" : "PII_PERSON_NAME",
+      "active" : "BOOLEAN"
     }
-  } ],
-  "DateTimeUTC" : "DATETIME",
-  "Status" : "STRING",
-  "discount_rate" : 505.88,
-  "ProviderName" : "NULL",
-  "Id" : "STRING"
+  },
+  "is_active" : true,
+  "key" : "STRING"
 }

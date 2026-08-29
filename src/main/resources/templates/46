@@ -1,0 +1,54 @@
+{
+  "request_id": "STRING",
+  "accounts": [
+    {
+      "account_id": "STRING",
+      "name": "STRING",
+      "official_name": "STRING",
+      "type": "STRING",
+      "subtype": "STRING",
+      "mask": "STRING",
+      "balances": {
+        "available": "DECIMAL",
+        "current": "DECIMAL",
+        "limit": "NULL",
+        "iso_currency_code": "STRING"
+      }
+    }
+  ],
+  "item": {
+    "institution_id": "STRING",
+    "institution_name": "PII_COMPANY_NAME"
+  },
+  "owners": [
+    {
+      "names": ["PII_PERSON_NAME"],
+      "phone_numbers": [
+        {
+          "data": "PII_PHONE_NUMBER",
+          "primary": "BOOLEAN",
+          "type": "STRING"
+        }
+      ],
+      "emails": [
+        {
+          "data": "PII_EMAIL",
+          "primary": "BOOLEAN",
+          "type": "STRING"
+        }
+      ],
+      "addresses": [
+        {
+          "data": {
+            "street": "PII_ADDRESS_LINE",
+            "city": "PII_LOCATION_CITY",
+            "region": "PII_LOCATION_STATE",
+            "postal_code": "STRING",
+            "country": "PII_LOCATION_COUNTRY"
+          },
+          "primary": "BOOLEAN"
+        }
+      ]
+    }
+  ]
+}

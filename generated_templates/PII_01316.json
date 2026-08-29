@@ -1,14 +1,29 @@
 {
-  "user_info" : {
-    "response_time_sec" : 188.17,
-    "arline__name" : "PII_COMPANY_NAME",
-    "name_val" : "PII_FIRST_NAME_FEMALE",
-    "clientName" : "PII_LAST_NAME_MALE"
+  "v_reference" : "STRING",
+  "transferId" : "STRING",
+  "initiatedAt" : "DATETIME",
+  "status_data" : "STRING",
+  "endToEndId" : "STRING",
+  "chargesBearer" : "STRING",
+  "amount" : {
+    "value" : "DECIMAL",
+    "currency_data" : "STRING"
   },
-  "active_data" : "BOOLEAN",
-  "tree_data" : {
-    "cache_hit" : true,
-    "v_url" : "NULL",
-    "sha" : "STRING"
+  "v_sender" : {
+    "accountId" : "STRING",
+    "is_deleted" : true,
+    "iban" : "PII_IBAN",
+    "name" : "PII_PERSON_NAME",
+    "v_bic" : "STRING",
+    "name_val" : "PII_COMPANY_NAME"
+  },
+  "completedAt" : "DATETIME",
+  "recipient_data" : {
+    "name" : "PII_PERSON_NAME",
+    "stock_quantity" : 4649,
+    "iban" : "PII_IBAN",
+    "bic" : "STRING",
+    "recordId" : "STRING",
+    "name_val" : "PII_COMPANY_NAME"
   }
 }

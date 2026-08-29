@@ -1,43 +1,47 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "uuid" : "NULL",
-    "item_count" : 1745,
-    "fullName" : null,
-    "v_Employees" : [ {
-      "v_ExternalLink" : {
-        "cpu_usage_percent" : 938.37,
-        "Description" : "STRING",
-        "Url" : "URL"
-      },
-      "FirstName" : "PII_PERSON_FIRST_NAME",
-      "v_UpdatedDateUTC" : "DATETIME",
-      "uuid" : "STRING",
-      "Status" : "STRING",
-      "LastName" : "PII_PERSON_LAST_NAME"
-    }, {
-      "Status" : "STRING",
-      "ExternalLink" : {
-        "conversion_rate" : 686.37,
-        "v_Url" : "URL",
-        "Description_data" : "STRING"
-      },
-      "fullName" : "PII_PERSON_FIRST_NAME",
-      "auto_renew" : true,
-      "LastName" : "PII_PERSON_LAST_NAME",
-      "UpdatedDateUTC" : "DATETIME"
-    }, {
-      "EmployeeID" : "STRING",
-      "Status" : "STRING",
-      "LastName" : "PII_PERSON_LAST_NAME",
-      "UpdatedDateUTC" : "DATETIME",
-      "fullName" : "PII_PERSON_FIRST_NAME",
-      "ExternalLink_data" : {
-        "page_index" : 1017,
-        "Url_data" : "URL",
-        "v_Description" : "STRING"
-      }
-    } ]
-  }
+  "fields" : {
+    "v_created" : "DATETIME",
+    "duedate_data" : "NULL",
+    "reporter_data" : {
+      "timeZone" : "STRING",
+      "displayName" : "PII_PERSON_NAME",
+      "emailAddress" : "PII_EMAIL",
+      "active_data" : "BOOLEAN",
+      "is_deleted" : true
+    },
+    "status" : {
+      "priority_level" : 1170,
+      "id" : "STRING",
+      "name" : "STRING"
+    },
+    "comment" : {
+      "v_comments" : [ {
+        "updated" : "DATETIME",
+        "price" : 5261.88,
+        "created" : "DATETIME",
+        "v_author" : {
+          "recordId" : "STRING",
+          "name_val" : "PII_PERSON_NAME",
+          "emailAddress" : "PII_EMAIL",
+          "is_active" : true
+        },
+        "body" : "STRING"
+      } ],
+      "total" : "INT"
+    },
+    "updated" : "DATETIME",
+    "summary" : "STRING",
+    "priority" : {
+      "clientName" : "STRING",
+      "id" : "STRING"
+    },
+    "v_assignee" : {
+      "recordId" : "STRING",
+      "displayName" : "PII_PERSON_NAME",
+      "emailAddress" : "PII_EMAIL",
+      "timeZone" : "STRING"
+    }
+  },
+  "key" : "STRING",
+  "primaryKey" : "STRING"
 }

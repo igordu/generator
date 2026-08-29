@@ -1,73 +1,27 @@
-[ {
-  "author" : {
-    "recordId" : "STRING",
-    "received_events_url" : null,
-    "events_url_data" : "URL",
-    "v_login" : "STRING",
-    "system_ping_ms" : 4215,
-    "v_following_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "v_followers_url" : "URL",
-    "type" : "STRING",
-    "organizations_url_data" : "",
-    "html_url_data" : "URL",
-    "gists_url" : "URL",
-    "url_data" : "URL",
-    "repos_url" : "URL",
-    "subscriptions_url" : "URL",
-    "uuid" : "INT",
-    "avatar_url" : "URL",
-    "v_starred_url" : "URL"
+{
+  "status" : "STRING",
+  "usage" : {
+    "apiCallsThisMonth" : "INT",
+    "storageGb" : "DECIMAL",
+    "system_ping_ms" : 3462
   },
-  "commit" : {
-    "v_verification" : {
-      "signature_data" : "STRING",
-      "response_time_sec" : 863.16,
-      "v_payload" : "STRING",
-      "reason" : "STRING",
-      "verified_at" : "DATETIME",
-      "verified_data" : "BOOLEAN"
-    },
-    "tree" : {
-      "is_deleted" : false,
-      "v_sha" : "STRING"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "comment_count" : "INT",
-    "committer_data" : {
-      "response_time_sec" : 941.47,
-      "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME"
-    },
-    "url" : "URL",
-    "v_author" : {
-      "email" : "PII_EMAIL",
-      "date_data" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    }
+  "dataResidency" : "STRING",
+  "primaryContact" : {
+    "price" : 9387.81,
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER",
+    "name" : "PII_PERSON_NAME"
   },
-  "html_url" : "URL",
-  "comments_url" : "URL",
-  "node_id" : "STRING",
-  "sha_data" : "NULL",
-  "url" : "URL",
-  "committer" : {
-    "following_url" : "URL",
-    "node_id" : "STRING",
-    "site_admin" : "BOOLEAN",
-    "organizations_url" : "URL",
-    "identifier" : "INT",
-    "type" : "STRING",
-    "events_url" : null,
-    "received_events_url" : "URL",
-    "stock_quantity" : 4747,
-    "starred_url" : "NULL",
-    "gravatar_id" : "STRING",
-    "subscriptions_url" : "URL",
-    "url" : "URL",
-    "followers_url" : "",
-    "v_html_url" : "URL",
-    "login_data" : "STRING"
+  "createdAt" : "DATETIME",
+  "ssoEnabled" : "BOOLEAN",
+  "subscription" : {
+    "mrr" : "DECIMAL",
+    "seatsUsed" : "INT",
+    "renewalDate_data" : "DATE",
+    "seats_data" : "INT",
+    "v_currency" : "STRING"
   },
-  "cache_hit" : true
-} ]
+  "plan" : "STRING",
+  "identifier" : "STRING",
+  "billingEmail" : "PII_EMAIL"
+}

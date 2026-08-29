@@ -1,13 +1,41 @@
 {
-  "user_info_data" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "fullName" : "PII_COMPANY_NAME",
-    "is_active" : false,
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-  },
-  "v_active" : "BOOLEAN",
-  "tree" : {
-    "url" : "URL",
-    "v_sha" : null
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "system_ping_ms" : 2381,
+    "csm" : {
+      "is_deleted" : false,
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    },
+    "accountId" : "STRING",
+    "v_website" : "URL",
+    "employees" : "INT",
+    "billingAddress" : {
+      "city" : "PII_LOCATION_CITY",
+      "postalCode" : "STRING",
+      "street" : "PII_ADDRESS_LINE",
+      "v_country" : "PII_LOCATION_COUNTRY"
+    },
+    "industry" : null,
+    "name" : "PII_COMPANY_NAME",
+    "contracts" : [ {
+      "value" : "DECIMAL",
+      "v_currency" : "STRING",
+      "endDate" : "DATE",
+      "primaryKey" : "STRING",
+      "product_data" : "STRING",
+      "status" : "",
+      "startDate" : "DATE"
+    } ],
+    "annualRevenue" : null,
+    "type" : "STRING",
+    "v_primaryContact" : {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "phone" : "PII_PHONE_NUMBER",
+      "auto_renew" : true,
+      "title" : "STRING"
+    }
   }
 }

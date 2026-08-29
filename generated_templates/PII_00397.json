@@ -1,42 +1,21 @@
 {
-  "telemetry_data" : {
-    "payload_wrapper" : {
-      "extracted_info" : {
-        "recordId" : "STRING",
-        "resourceType_data" : "STRING",
-        "name" : [ {
-          "family" : "PII_PERSON_LAST_NAME",
-          "has_discount" : false,
-          "given" : [ "PII_PERSON_FIRST_NAME" ]
-        } ],
-        "telecom" : [ {
-          "use" : "STRING",
-          "system" : "STRING",
-          "value_data" : "PII_PHONE_NUMBER",
-          "retry_attempts" : 1924
-        }, {
-          "system" : "STRING",
-          "value" : "PII_EMAIL"
-        } ],
-        "address_data" : [ {
-          "country" : "PII_LOCATION_COUNTRY",
-          "v_use" : "STRING",
-          "city" : "PII_LOCATION_CITY",
-          "line" : [ "PII_ADDRESS_LINE" ]
-        } ],
-        "meta" : {
-          "lastUpdated" : "DATETIME",
-          "uuid" : "INT"
-        },
-        "identifier" : [ {
-          "type" : { },
-          "use" : "STRING",
-          "conversion_rate" : 549.02,
-          "value" : "PII_NATIONAL_ID"
-        } ],
-        "conversion_rate" : 472.76,
-        "birthDate_data" : "PII_DATE_OF_BIRTH"
-      }
-    }
+  "from" : "PII_PHONE_NUMBER",
+  "v_price_unit" : "",
+  "recordId" : "STRING",
+  "direction" : "STRING",
+  "uri" : "URL",
+  "v_error_message" : "NULL",
+  "to" : "PII_PHONE_NUMBER",
+  "error_code_data" : "NULL",
+  "v_body" : "STRING",
+  "v_price" : "NULL",
+  "num_segments" : "NULL",
+  "primaryKey" : "STRING",
+  "api_version_data" : "STRING",
+  "account_sid" : "STRING",
+  "date_sent" : "DATETIME",
+  "date_updated" : "DATETIME",
+  "subresource_uris_data" : {
+    "media" : "URL"
   }
 }

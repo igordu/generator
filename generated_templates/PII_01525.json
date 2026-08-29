@@ -1,0 +1,15 @@
+{
+  "v_updatedAt" : "DATETIME",
+  "name" : "STRING",
+  "createdBy_data" : {
+    "email" : "PII_EMAIL",
+    "identifier" : "STRING"
+  },
+  "type" : "STRING",
+  "config_data" : { },
+  "createdAt" : "DATETIME",
+  "provider" : "STRING",
+  "status" : "STRING",
+  "triggers" : [ "STRING" ],
+  "integrationId" : "STRING"
+}

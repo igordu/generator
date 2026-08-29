@@ -1,34 +1,44 @@
 {
-  "object" : "STRING",
-  "has_more" : "",
-  "url" : "URL",
-  "data" : [ {
-    "test_clock" : "NULL",
-    "v_balance" : "INT",
-    "tax_exempt" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "invoice_settings" : {
-      "custom_fields" : "NULL",
-      "footer" : "STRING",
-      "default_payment_method" : "STRING",
-      "v_rendering_options" : "NULL"
-    },
-    "created_data" : null,
-    "default_source" : "STRING",
-    "object" : "STRING",
-    "delinquent" : "BOOLEAN",
-    "preferred_locales" : "ARRAY",
-    "page_index" : 3385,
-    "name" : "PII_PERSON_NAME",
-    "description_data" : "STRING",
-    "email" : "PII_EMAIL",
-    "v_shipping" : "NULL",
-    "id" : "NULL",
-    "invoice_prefix" : "STRING",
-    "address" : "NULL",
-    "livemode_data" : "BOOLEAN",
-    "metadata" : "OBJECT",
-    "next_invoice_sequence" : "INT"
-  } ],
-  "cpu_usage_percent" : 566.28
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "server_logs" : {
+      "event_data" : {
+        "debug_payload" : {
+          "adjuster" : {
+            "name" : "PII_PERSON_NAME",
+            "email" : "PII_EMAIL",
+            "id" : "STRING"
+          },
+          "status_data" : "STRING",
+          "policyNumber_data" : "NULL",
+          "is_deleted" : true,
+          "claimType_data" : "STRING",
+          "policyHolder" : {
+            "lastName" : "PII_PERSON_LAST_NAME",
+            "primary_email" : "PII_EMAIL",
+            "v_address" : {
+              "discount_rate" : 50.34,
+              "street" : "PII_ADDRESS_LINE",
+              "country" : "PII_LOCATION_COUNTRY",
+              "zip" : "STRING",
+              "state" : "STRING",
+              "city" : "PII_LOCATION_CITY"
+            },
+            "name_val" : "PII_PERSON_FIRST_NAME",
+            "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+            "phone" : "PII_PHONE_NUMBER"
+          },
+          "claimId" : "",
+          "reportedDate" : "DATE",
+          "incidentDate" : "DATE",
+          "description" : "STRING",
+          "currency" : "STRING",
+          "estimatedLoss" : "DECIMAL"
+        }
+      }
+    }
+  }
 }

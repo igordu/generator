@@ -1,77 +1,39 @@
-[ {
-  "is_active" : true,
-  "recordId" : "STRING",
-  "html_url" : "URL",
-  "commit" : {
-    "is_deleted" : true,
-    "author" : {
-      "email" : "PII_EMAIL",
-      "date_data" : "DATETIME",
-      "name" : "PII_PERSON_NAME"
-    },
-    "committer" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL"
-    },
-    "tree" : {
-      "sha" : "STRING",
-      "url" : "URL",
-      "http_status" : 4836
-    },
-    "message" : "PII_COMPANY_NAME",
-    "url" : "URL",
-    "comment_count" : "INT",
-    "verification_data" : {
-      "v_signature" : "STRING",
-      "cache_hit" : false,
-      "payload" : "STRING",
-      "verified_at_data" : "NULL",
-      "v_reason" : "STRING",
-      "verified" : "BOOLEAN"
-    }
-  },
-  "committer" : {
-    "login" : "STRING",
-    "gravatar_id" : "STRING",
-    "gists_url_data" : "URL",
-    "primaryKey" : "INT",
-    "received_events_url" : "NULL",
-    "site_admin" : "BOOLEAN",
-    "starred_url" : "URL",
-    "repos_url" : "URL",
-    "url" : "URL",
-    "html_url_data" : "URL",
-    "node_id" : "NULL",
-    "v_events_url" : "URL",
-    "type_data" : "STRING",
-    "followers_url_data" : "URL",
-    "organizations_url" : "URL",
-    "following_url_data" : "URL",
-    "avatar_url" : "URL"
-  },
-  "sha" : "STRING",
-  "author" : {
-    "received_events_url" : "URL",
-    "events_url" : "URL",
-    "v_gists_url" : "URL",
-    "organizations_url" : "URL",
-    "identifier" : "STRING",
-    "html_url" : "URL",
-    "system_ping_ms" : 3132,
-    "id" : "INT",
-    "type_data" : "NULL",
-    "url" : "URL",
-    "login" : "STRING",
-    "v_subscriptions_url" : "URL",
-    "starred_url" : "URL",
-    "repos_url" : "URL",
-    "v_avatar_url" : "URL"
-  },
-  "comments_url_data" : "URL",
-  "parents" : [ {
-    "sha" : "STRING",
-    "url" : "URL"
+{
+  "diagnosis" : [ {
+    "code" : "STRING",
+    "description" : "STRING",
+    "system" : "STRING",
+    "v_type" : "STRING",
+    "item_count" : 1156
   } ],
-  "url" : "URL"
-} ]
+  "patientId" : "STRING",
+  "encounterType" : "STRING",
+  "encounterId" : "STRING",
+  "referral_data" : {
+    "urgency" : "STRING",
+    "specialist" : ""
+  },
+  "date" : "DATE",
+  "prescriptions" : [ {
+    "durationDays" : "INT",
+    "drugName" : "STRING",
+    "frequency" : "STRING",
+    "has_discount" : false,
+    "dose" : null
+  } ],
+  "v_patient" : {
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "gender_data" : "STRING",
+    "address" : {
+      "postalCode" : "",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY"
+    },
+    "mail" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "telephone" : "PII_PHONE_NUMBER",
+    "taxCode" : "PII_NATIONAL_ID"
+  }
+}

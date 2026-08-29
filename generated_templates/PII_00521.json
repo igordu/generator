@@ -1,29 +1,24 @@
 {
-  "priority_level" : 1478,
-  "transactions_data" : {
-    "v_booked" : [ {
-      "v_amount" : {
-        "amount" : "DECIMAL",
-        "v_currency" : "STRING"
-      },
-      "transactionId" : "STRING",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "valueDate" : "DATE",
-      "creditorName" : "PII_PERSON_NAME",
-      "bookingDate_data" : "DATE",
-      "debtorName" : "STRING",
-      "v_debtorAccount" : {
-        "iban_data" : "STRING"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "v_bankTransactionCode" : {
-        "stock_quantity" : 4016,
-        "domain" : "STRING",
-        "subFamily" : "STRING",
-        "family" : "STRING"
-      }
-    } ]
-  }
+  "zip" : "STRING",
+  "company_data" : "PII_COMPANY_NAME",
+  "contactEmail" : "BOOLEAN",
+  "userName" : "PII_PERSON_LAST_NAME",
+  "country" : "PII_LOCATION_COUNTRY",
+  "mobilephone" : "PII_PHONE_NUMBER",
+  "city_data" : "PII_LOCATION_CITY",
+  "hs_lead_status" : "STRING",
+  "recordId" : "STRING",
+  "lastmodifieddate" : "DATETIME",
+  "hs_object_id" : "STRING",
+  "contactNumber" : "PII_PHONE_NUMBER",
+  "firstName" : "PII_PERSON_FIRST_NAME",
+  "website" : "URL",
+  "associatedcompanyid" : "STRING",
+  "v_lifecyclestage" : "STRING",
+  "address" : "PII_ADDRESS_LINE",
+  "createdate" : "",
+  "email" : "PII_EMAIL",
+  "notes_last_contacted" : "DATETIME",
+  "num_associated_deals" : "INT",
+  "state" : "STRING"
 }

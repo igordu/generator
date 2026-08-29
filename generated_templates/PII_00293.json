@@ -1,77 +1,32 @@
 {
-  "offset" : "INT",
-  "v_total" : "INT",
-  "href" : "STRING",
-  "transactions" : [ {
-    "v_transactionType" : "STRING",
-    "feeType" : "STRING",
-    "payoutId" : "STRING",
-    "references" : [ {
-      "referenceType" : "STRING",
-      "referenceId" : "STRING"
-    } ],
-    "transactionMemo" : "STRING",
-    "transactionStatus" : "STRING",
-    "v_totalFeeAmount" : {
-      "exchangeRate" : "STRING",
-      "value_data" : "STRING",
-      "convertedFromCurrency_data" : "STRING",
-      "currency" : "STRING",
-      "convertedFromValue_data" : "STRING"
+  "url" : "URL",
+  "data" : [ {
+    "test_clock" : "NULL",
+    "email" : "PII_EMAIL",
+    "v_livemode" : "BOOLEAN",
+    "invoice_prefix" : "STRING",
+    "created" : "DATETIME_EPOCH",
+    "currency" : "NULL",
+    "delinquent_data" : "BOOLEAN",
+    "item_count" : 3336,
+    "default_source" : "STRING",
+    "tax_exempt" : "STRING",
+    "shipping" : "",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "fullName" : "PII_PERSON_NAME",
+    "object" : "STRING",
+    "id" : "STRING",
+    "invoice_settings" : {
+      "v_default_payment_method" : "NULL",
+      "footer" : "STRING",
+      "custom_fields" : "NULL",
+      "rendering_options" : "NULL"
     },
-    "buyer" : {
-      "userName" : "PII_USERNAME"
-    },
-    "totalFeeBasisAmount" : {
-      "value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue" : "STRING",
-      "requires_update" : false,
-      "exchangeRate" : "STRING"
-    },
-    "amount" : {
-      "v_value" : "STRING",
-      "convertedFromValue_data" : "STRING",
-      "discount_rate" : 868.96,
-      "convertedFromCurrency_data" : "STRING",
-      "currency" : "STRING",
-      "exchangeRate" : "STRING"
-    },
-    "feeJurisdiction" : {
-      "http_status" : 1899,
-      "regionType" : "STRING",
-      "regionName" : "STRING"
-    },
-    "transactionId" : "STRING",
-    "salesRecordReference" : "STRING",
-    "orderId" : "STRING",
-    "bookingEntry" : "STRING",
-    "paymentsEntity_data" : "STRING",
-    "orderLineItems_data" : [ {
-      "v_feeBasisAmount" : {
-        "value" : "STRING",
-        "convertedFromCurrency" : "STRING",
-        "exchangeRate_data" : "STRING",
-        "convertedFromValue_data" : "STRING"
-      },
-      "marketplaceFees" : [ {
-        "feeMemo" : "STRING",
-        "feeType" : "STRING",
-        "http_status" : 2717,
-        "amount" : {
-          "exchangeRate" : "STRING",
-          "v_currency" : "",
-          "convertedFromCurrency" : "STRING",
-          "has_discount" : true,
-          "convertedFromValue" : "STRING",
-          "value" : "STRING"
-        }
-      } ],
-      "primaryKey" : "STRING"
-    } ],
-    "v_transactionDate" : "DATETIME"
+    "description" : "NULL",
+    "balance" : "",
+    "next_invoice_sequence" : "INT",
+    "preferred_locales" : "ARRAY"
   } ],
-  "prev" : "STRING",
-  "next" : "STRING",
-  "limit_data" : "INT"
+  "object" : "STRING",
+  "has_more" : "BOOLEAN"
 }

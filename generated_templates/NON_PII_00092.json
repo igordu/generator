@@ -1,20 +1,4 @@
 {
-  "system_state" : {
-    "payload_wrapper" : {
-      "body" : {
-        "numberOfUserPositiveRecommendations" : "INT",
-        "is_deleted" : false,
-        "v_starRatingDistribution" : {
-          "2" : "INT",
-          "5" : "INT",
-          "v_1" : "INT",
-          "3" : null,
-          "4" : "INT"
-        },
-        "numberOfUserReviews" : "INT",
-        "v_numberOfUserRecommendations" : "INT",
-        "averageStarRating" : "INT"
-      }
-    }
-  }
+  "clientToken" : "STRING",
+  "flowName" : "STRING"
 }

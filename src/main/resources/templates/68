@@ -1,0 +1,19 @@
+{
+  "apiKeyId": "STRING",
+  "name": "STRING",
+  "prefix": "STRING",
+  "created": "DATETIME",
+  "lastUsed": "DATETIME",
+  "expiresAt": "DATETIME",
+  "scopes": ["STRING"],
+  "rateLimit": {
+    "requestsPerMinute": "INT",
+    "requestsPerDay": "INT"
+  },
+  "status": "STRING",
+  "ipWhitelist": ["STRING"],
+  "createdBy": {
+    "userId": "STRING",
+    "email": "PII_EMAIL"
+  }
+}

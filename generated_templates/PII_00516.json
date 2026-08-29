@@ -1,29 +1,35 @@
 {
-  "conversion_rate" : 118.82,
-  "transactions" : {
-    "booked" : [ {
-      "debtorAccount_data" : {
-        "page_index" : 4004,
-        "iban" : "STRING"
-      },
-      "response_time_sec" : 838.54,
-      "valueDate" : "DATE",
-      "bankTransactionCode" : {
-        "family" : "STRING",
-        "v_subFamily" : "STRING",
-        "domain_data" : "STRING"
-      },
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "debtorName" : "STRING",
-      "amount" : {
-        "currency" : "STRING",
-        "amount" : "DECIMAL"
-      },
-      "creditorAccount_data" : {
-        "iban" : "PII_IBAN"
-      },
-      "transactionId" : "",
-      "creditorName" : "PII_PERSON_NAME"
-    } ]
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "reply_to" : {
+      "name" : "STRING",
+      "email" : "PII_EMAIL"
+    },
+    "categories" : [ "" ],
+    "subject_data" : "STRING",
+    "template_id" : "STRING",
+    "from" : {
+      "email" : "PII_EMAIL",
+      "fullName" : "PII_COMPANY_NAME"
+    },
+    "identifier" : "INT",
+    "ip_pool_name" : "STRING",
+    "status" : "STRING",
+    "v_personalizations" : [ {
+      "to" : [ {
+        "response_time_sec" : 6.57,
+        "emailAddress" : "PII_EMAIL",
+        "clientName" : "PII_PERSON_NAME"
+      } ],
+      "subject" : "STRING",
+      "has_discount" : true,
+      "cc_data" : [ {
+        "response_time_sec" : 13.82,
+        "name" : "PII_PERSON_NAME",
+        "email" : "PII_EMAIL"
+      } ]
+    } ],
+    "send_at" : "DATETIME_EPOCH"
   }
 }

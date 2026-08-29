@@ -1,5 +1,19 @@
 {
-  "flowName" : "STRING",
-  "discount_rate" : 406.16,
-  "clientToken" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "hits_data" : "INT",
+      "v_value" : {
+        "expiresAt_data" : "DATETIME",
+        "auto_renew" : true,
+        "roles" : [ "STRING" ],
+        "primaryKey" : "STRING"
+      },
+      "namespace" : "STRING",
+      "v_region" : "STRING",
+      "cacheKey_data" : "STRING",
+      "ttl" : "INT",
+      "lastAccessedAt" : "DATETIME",
+      "createdAt" : "DATETIME"
+    }
+  }
 }

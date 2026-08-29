@@ -1,0 +1,27 @@
+{
+  "tenantId": "tenant-eu-0042",
+  "plan": "enterprise",
+  "status": "active",
+  "createdAt": "2022-01-01T00:00:00Z",
+  "billingEmail": "billing@tenant-eu-0042.com",
+  "primaryContact": {
+    "name": "Anna Weber",
+    "email": "a.weber@tenant-eu-0042.com",
+    "phone": "+49 89 555 0182"
+  },
+  "subscription": {
+    "seats": 250,
+    "seatsUsed": 187,
+    "renewalDate": "2025-01-01",
+    "mrr": 12500.00,
+    "currency": "EUR"
+  },
+  "usage": {
+    "apiCallsThisMonth": 4821930,
+    "storageGb": 128.4,
+    "activeUsers30d": 142
+  },
+  "ssoEnabled": true,
+  "samlIdpEntityId": "https://idp.tenant-eu-0042.com/metadata",
+  "dataResidency": "eu-west-1"
+}

@@ -1,17 +1,5 @@
 {
-  "v_content" : [ {
-    "helpfulCount_data" : "INT",
-    "title" : "PII_COMPANY_NAME",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "recommend" : "BOOLEAN",
-    "language" : "STRING",
-    "articleModelId" : "STRING",
-    "primaryKey" : "STRING",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "articleId" : "STRING",
-    "description_data" : "NULL",
-    "created" : "DATETIME",
-    "v_rating" : "INT"
-  } ],
-  "response_time_sec" : 264.26
+  "emailAddressStatus" : [ "STRING" ],
+  "discount_rate" : 10.92,
+  "emailAddress" : "PII_EMAIL"
 }

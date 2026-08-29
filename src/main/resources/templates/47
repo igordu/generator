@@ -1,0 +1,42 @@
+{
+  "orgId": "STRING",
+  "reportId": "STRING",
+  "reportType": "STRING",
+  "generatedAt": "DATETIME",
+  "period": {
+    "start": "DATE",
+    "end": "DATE"
+  },
+  "preparedBy": {
+    "name": "PII_PERSON_NAME",
+    "email": "PII_EMAIL",
+    "title": "STRING"
+  },
+  "approvedBy": {
+    "name": "PII_PERSON_NAME",
+    "email": "PII_EMAIL",
+    "signedAt": "DATETIME"
+  },
+  "summary": {
+    "totalRevenue": "DECIMAL",
+    "totalExpenses": "DECIMAL",
+    "netProfit": "DECIMAL",
+    "currency": "STRING"
+  },
+  "topCustomers": [
+    {
+      "customerId": "STRING",
+      "companyName": "PII_COMPANY_NAME",
+      "contactEmail": "PII_EMAIL",
+      "revenue": "DECIMAL"
+    }
+  ],
+  "costCenters": [
+    {
+      "id": "STRING",
+      "name": "STRING",
+      "ownerEmail": "PII_EMAIL",
+      "spend": "DECIMAL"
+    }
+  ]
+}

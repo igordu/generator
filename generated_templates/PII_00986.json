@@ -1,25 +1,40 @@
 {
-  "object" : "NULL",
-  "data_data" : [ {
-    "id" : "STRING",
-    "preferred_locales" : "ARRAY",
-    "cell" : "PII_PHONE_NUMBER",
-    "primary_email" : "PII_EMAIL",
-    "name" : "PII_PERSON_NAME",
-    "description" : "STRING",
-    "balance" : "INT",
-    "tax_exempt" : "STRING",
-    "livemode_data" : "BOOLEAN",
-    "object" : "STRING",
-    "address" : "NULL",
-    "test_clock" : "NULL",
-    "invoice_prefix" : "STRING",
-    "v_next_invoice_sequence" : "NULL",
-    "metadata" : "OBJECT",
-    "shipping" : "",
+  "studentId" : "STRING",
+  "academicRecord" : {
+    "gpa_data" : "DECIMAL",
+    "advisor" : {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    },
+    "creditsCompleted" : "INT"
+  },
+  "personalInfo" : {
+    "v_nationality" : "PII_LOCATION_COUNTRY",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "mobile" : "PII_PHONE_NUMBER",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "v_gender" : "STRING",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "price" : 1552.5,
+    "email" : "PII_EMAIL",
+    "personalEmail" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "program" : "STRING",
+  "v_address" : {
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "response_time_sec" : 20.16,
+    "v_city" : "PII_LOCATION_CITY",
+    "street" : "PII_ADDRESS_LINE",
+    "postcode" : "STRING"
+  },
+  "financialAid" : {
+    "disbursedAt" : "DATE",
     "currency" : "STRING",
-    "delinquent" : null
-  } ],
-  "url" : "URL",
-  "has_more" : "BOOLEAN"
+    "amount" : "DECIMAL",
+    "scholarshipId" : "STRING"
+  },
+  "enrollmentStatus" : "STRING",
+  "academicYear" : "STRING",
+  "item_count" : 1556
 }

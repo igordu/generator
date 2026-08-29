@@ -1,17 +1,35 @@
 {
-  "id" : "STRING",
-  "v_fingerprint" : "STRING",
-  "last4_data" : "STRING",
-  "v_country" : "STRING",
-  "bank_name" : "STRING",
-  "account_type" : "STRING",
-  "metadata_data" : "OBJECT",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "object_data" : "STRING",
-  "currency" : "STRING",
-  "routing_number" : "STRING",
-  "discount_rate" : 855.85,
-  "account_holder_type" : "STRING",
-  "status" : "STRING",
-  "customer" : "STRING"
+  "ticketNumber" : "STRING",
+  "v_status" : "STRING",
+  "issuedAt" : "DATETIME",
+  "itinerary" : [ {
+    "segment_data" : "INT",
+    "arrivalAt" : null,
+    "flightNumber" : "STRING",
+    "seat" : "STRING",
+    "cabin" : "STRING",
+    "departureAt" : "DATETIME",
+    "status" : "STRING",
+    "retry_attempts" : 1364,
+    "destination_data" : "STRING",
+    "origin_data" : "STRING"
+  } ],
+  "fareClass_data" : "STRING",
+  "totalFare" : {
+    "v_amount" : "DECIMAL",
+    "v_currency" : "STRING",
+    "cache_hit" : true
+  },
+  "passenger" : {
+    "passportExpiry" : "DATE",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "contactEmail" : "PII_EMAIL",
+    "v_passportNumber" : "PII_NATIONAL_ID",
+    "frequentFlyerNumber" : "STRING",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "bookingRef_data" : "STRING"
 }

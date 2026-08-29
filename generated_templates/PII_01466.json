@@ -1,0 +1,21 @@
+{
+  "configMapName" : "STRING",
+  "data" : {
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "MAX_CONNECTIONS" : "STRING",
+    "v_FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+    "is_deleted" : true,
+    "SMTP_PORT" : "STRING",
+    "DATABASE_NAME" : null,
+    "REDIS_PORT" : "STRING",
+    "DATABASE_HOST" : "STRING",
+    "LOG_LEVEL" : "STRING",
+    "SMTP_HOST" : "STRING",
+    "REDIS_HOST" : "STRING",
+    "v_REQUEST_TIMEOUT_MS" : "STRING"
+  },
+  "temperature_c" : 10.38,
+  "resourceVersion" : "STRING",
+  "namespace" : "",
+  "creationTimestamp" : "DATETIME"
+}

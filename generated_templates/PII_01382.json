@@ -1,13 +1,26 @@
 {
-  "tree" : {
-    "url" : "URL",
-    "sha" : "STRING"
+  "primaryKey" : "STRING",
+  "likes" : "INT",
+  "author" : {
+    "mail" : "PII_EMAIL",
+    "uuid" : "STRING",
+    "fullName" : "PII_PERSON_NAME"
   },
-  "price" : 40.16,
-  "user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "arline__name" : "PII_COMPANY_NAME"
+  "status" : "STRING",
+  "createdAt_data" : "DATETIME",
+  "v_version" : "INT",
+  "viewCount" : "INT",
+  "updatedAt_data" : "DATETIME",
+  "labels" : [ "NULL" ],
+  "conversion_rate" : 0.6,
+  "title" : "STRING",
+  "spaceKey" : "STRING",
+  "lastModifiedBy" : {
+    "userName" : "PII_PERSON_NAME",
+    "accountId" : "STRING",
+    "email" : "PII_EMAIL"
   },
-  "active" : "BOOLEAN"
+  "ancestors" : [ {
+    "id" : "STRING"
+  } ]
 }

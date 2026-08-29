@@ -1,30 +1,34 @@
 {
-  "object" : "STRING",
-  "has_more" : "BOOLEAN",
-  "data" : [ {
-    "cell" : "PII_PHONE_NUMBER",
-    "balance" : "INT",
-    "email" : "PII_EMAIL",
-    "object" : "STRING",
-    "next_invoice_sequence" : null,
-    "fullName" : "PII_PERSON_NAME",
+  "card" : {
+    "userName" : "PII_PERSON_NAME",
+    "scheme" : "STRING",
+    "page_index" : 1895,
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "pan" : "PII_CREDIT_CARD",
+    "v_expiryYear" : "STRING",
+    "issuingBank" : "PII_COMPANY_NAME",
+    "expiryMonth" : "STRING"
+  },
+  "uuid" : "STRING",
+  "timestamp" : "DATETIME",
+  "fraudScore" : "INT",
+  "billing" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "postalCode_data" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY"
+  },
+  "type" : "STRING",
+  "merchant_data" : {
     "id" : "STRING",
-    "default_source" : "STRING",
-    "address" : "NULL",
-    "delinquent" : "BOOLEAN",
-    "preferred_locales" : "ARRAY",
-    "shipping" : "NULL",
-    "currency" : "STRING",
-    "metadata" : "OBJECT",
-    "conversion_rate" : 150.33,
-    "test_clock" : "NULL",
-    "created" : "DATETIME_EPOCH",
-    "v_tax_exempt" : "STRING",
-    "invoice_settings" : {
-      "default_payment_method" : "STRING",
-      "price" : 751.86,
-      "custom_fields" : "NULL",
-      "v_rendering_options" : "NULL"
-    }
-  } ]
+    "country" : "PII_LOCATION_COUNTRY",
+    "name" : "PII_COMPANY_NAME",
+    "system_ping_ms" : 1250
+  },
+  "amount" : {
+    "temperature_c" : 8.38,
+    "v_value" : "INT",
+    "currency" : "STRING"
+  },
+  "status_data" : "NULL"
 }

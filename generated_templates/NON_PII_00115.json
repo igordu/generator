@@ -1,5 +1,51 @@
-{
+[ {
+  "avatarUrls" : {
+    "24x24" : "URL",
+    "16x16" : "URL",
+    "32x32" : "URL",
+    "48x48" : "NULL"
+  },
+  "projectCategory" : {
+    "v_self" : "URL",
+    "id" : "STRING",
+    "description" : "STRING",
+    "is_active" : false,
+    "userName" : "STRING"
+  },
+  "style_data" : "STRING",
+  "self" : "URL",
   "id" : "STRING",
-  "v_shopUrl" : "URL",
-  "name" : "STRING"
-}
+  "v_insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "totalIssueCount" : "INT"
+  },
+  "simplified" : "BOOLEAN",
+  "name" : "STRING",
+  "key" : "STRING"
+}, {
+  "insight" : {
+    "totalIssueCount_data" : "INT",
+    "requires_update" : true,
+    "v_lastIssueUpdateTime" : "DATETIME"
+  },
+  "projectCategory" : {
+    "description" : "STRING",
+    "self" : "URL",
+    "name" : "STRING",
+    "price" : 3656.04,
+    "identifier" : "STRING"
+  },
+  "style" : "NULL",
+  "id" : "STRING",
+  "v_key" : "STRING",
+  "avatarUrls_data" : {
+    "48x48" : "URL",
+    "16x16" : "URL",
+    "32x32" : "NULL",
+    "24x24" : ""
+  },
+  "name_val" : "STRING",
+  "self" : null,
+  "temperature_c" : 39.42,
+  "v_simplified" : "NULL"
+} ]

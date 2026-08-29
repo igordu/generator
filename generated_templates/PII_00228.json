@@ -1,70 +1,39 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "v_offset" : "INT",
-      "href" : "STRING",
-      "limit_data" : "INT",
-      "total" : "INT",
-      "v_transactions" : [ {
-        "uuid" : "STRING",
-        "amount" : {
-          "convertedFromCurrency_data" : "NULL",
-          "v_exchangeRate" : "STRING",
-          "currency" : "STRING",
-          "value_data" : "STRING",
-          "is_deleted" : true,
-          "convertedFromValue_data" : "STRING"
-        },
-        "v_transactionDate" : "DATETIME",
-        "feeJurisdiction" : {
-          "v_regionType" : "STRING",
-          "has_discount" : true
-        },
-        "v_bookingEntry" : "STRING",
-        "eBayCollectedTaxAmount_data" : {
-          "convertedFromValue_data" : "STRING",
-          "currency_data" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "value" : "STRING",
-          "exchangeRate" : "STRING"
-        },
-        "recordId" : "STRING",
-        "feeType" : "NULL",
-        "totalFeeAmount" : {
-          "convertedFromValue_data" : "STRING",
-          "exchangeRate" : "STRING",
-          "currency_data" : "STRING",
-          "convertedFromCurrency" : "STRING",
-          "value" : "STRING"
-        },
-        "is_deleted" : false,
-        "v_transactionStatus" : "STRING",
-        "orderLineItems" : [ {
-          "lineItemId" : "STRING",
-          "feeBasisAmount" : {
-            "convertedFromCurrency" : "STRING",
-            "convertedFromValue" : "STRING",
-            "currency" : "STRING",
-            "value" : "STRING",
-            "has_discount" : false,
-            "exchangeRate" : "STRING"
-          }
-        } ],
-        "totalFeeBasisAmount_data" : {
-          "convertedFromCurrency" : "STRING",
-          "currency" : "STRING",
-          "convertedFromValue" : "STRING",
-          "value" : "STRING"
-        },
-        "paymentsEntity" : "STRING",
-        "v_salesRecordReference" : "STRING",
-        "buyer" : {
-          "price" : 679.68,
-          "username" : "PII_USERNAME"
-        },
-        "transactionType" : "STRING",
-        "payoutId" : "STRING"
-      } ]
+  "Status" : "STRING",
+  "DateTimeUTC" : "DATETIME",
+  "Employees_data" : [ {
+    "requires_update" : false,
+    "Status" : "STRING",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "UpdatedDateUTC" : "DATETIME",
+    "ExternalLink_data" : {
+      "Description" : "STRING",
+      "is_active" : true
     }
-  }
+  }, {
+    "Status" : "STRING",
+    "EmployeeID" : "STRING",
+    "ExternalLink" : {
+      "Description" : "STRING"
+    },
+    "UpdatedDateUTC_data" : "",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "FirstName" : "PII_PERSON_FIRST_NAME",
+    "is_deleted" : false
+  }, {
+    "recordId" : "STRING",
+    "temperature_c" : 15.81,
+    "Status" : "STRING",
+    "UpdatedDateUTC_data" : "DATETIME",
+    "v_ExternalLink" : {
+      "v_Description" : "NULL",
+      "item_count" : 4582,
+      "Url" : ""
+    },
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "LastName" : "PII_PERSON_LAST_NAME"
+  } ],
+  "uuid" : "STRING",
+  "fullName" : "STRING"
 }

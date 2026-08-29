@@ -1,80 +1,41 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : [ {
-    "commit" : {
-      "comment_count" : "INT",
-      "tree" : {
-        "has_discount" : false,
-        "sha" : "STRING",
-        "url" : "URL"
-      },
-      "committer" : {
-        "userName" : "PII_PERSON_NAME",
-        "contactEmail" : "PII_EMAIL",
-        "date" : "DATETIME"
-      },
-      "verification" : {
-        "verified" : "BOOLEAN",
-        "reason" : "STRING",
-        "payload" : "STRING",
-        "verified_at" : "DATETIME",
-        "signature" : "STRING"
-      },
-      "author" : {
-        "contactEmail" : "PII_EMAIL",
-        "date" : "DATETIME",
-        "stock_quantity" : 1329,
-        "clientName" : "PII_PERSON_NAME"
-      },
-      "message" : "PII_COMPANY_NAME",
-      "url" : "URL"
-    },
-    "url" : "URL",
-    "author_data" : {
-      "html_url" : "URL",
-      "node_id" : "STRING",
-      "starred_url" : "URL",
-      "type" : "STRING",
-      "uuid" : "INT",
-      "gists_url" : "URL",
-      "events_url" : "URL",
-      "url_data" : "URL",
-      "repos_url" : "URL",
-      "organizations_url" : "URL",
-      "v_followers_url" : "URL",
-      "site_admin" : "BOOLEAN",
-      "v_received_events_url" : "",
-      "login" : "STRING",
-      "subscriptions_url" : "URL",
-      "following_url" : "URL"
-    },
-    "parents" : [ {
-      "sha" : null,
-      "url" : "URL"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "diagnosis" : [ {
+      "description_data" : null,
+      "response_time_sec" : 8.11,
+      "type" : "STRING"
     } ],
-    "html_url" : "URL",
-    "sha" : "STRING",
-    "comments_url" : "URL",
-    "committer" : {
-      "subscriptions_url" : "URL",
-      "events_url" : "URL",
-      "avatar_url" : "URL",
-      "identifier" : "STRING",
-      "following_url" : "URL",
-      "node_id" : "STRING",
-      "id" : "INT",
-      "html_url" : "URL",
-      "repos_url" : "NULL",
-      "login" : "STRING",
-      "received_events_url" : "URL",
-      "followers_url" : "URL",
-      "type" : "STRING",
-      "price" : 159.63,
-      "starred_url" : "URL",
-      "gists_url" : "URL"
+    "prescriptions" : [ {
+      "v_durationDays" : "INT",
+      "fullName" : "STRING",
+      "frequency_data" : "STRING",
+      "dose" : "STRING"
+    } ],
+    "patient_data" : {
+      "taxCode" : "PII_NATIONAL_ID",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "address_data" : {
+        "city" : "PII_LOCATION_CITY",
+        "v_postalCode" : null,
+        "street" : "PII_ADDRESS_LINE",
+        "country" : "PII_LOCATION_COUNTRY"
+      },
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "email" : "PII_EMAIL",
+      "gender_data" : "STRING",
+      "cell" : "PII_PHONE_NUMBER",
+      "lastName" : "PII_PERSON_LAST_NAME"
+    },
+    "conversion_rate" : 5.96,
+    "date" : "DATE",
+    "recordId" : "STRING",
+    "encounterType_data" : "STRING",
+    "referral" : {
+      "response_time_sec" : 26.99,
+      "specialist" : "STRING",
+      "urgency" : "STRING"
     }
-  } ]
+  }
 }

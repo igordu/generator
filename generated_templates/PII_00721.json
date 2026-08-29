@@ -1,42 +1,23 @@
 {
-  "telemetry_data" : {
-    "payload_wrapper" : {
-      "extracted_info" : {
-        "registrants" : [ {
-          "recordId" : "STRING",
-          "comments" : "STRING",
-          "clientName" : "PII_PERSON_LAST_NAME",
-          "purchasing_time_frame" : "STRING",
-          "v_org" : "PII_ORGANIZATION_NAME",
-          "v_job_title" : "STRING",
-          "city" : "PII_LOCATION_CITY",
-          "join_url_data" : null,
-          "fullName" : "PII_PERSON_FIRST_NAME",
-          "email" : "PII_EMAIL",
-          "role_in_purchase_process" : "",
-          "v_state" : "PII_LOCATION_STATE",
-          "country" : "PII_LOCATION_COUNTRY",
-          "industry" : "STRING",
-          "custom_questions_data" : [ {
-            "is_deleted" : true,
-            "v_title" : "STRING",
-            "v_value" : "STRING"
-          }, {
-            "value" : "STRING",
-            "title" : "STRING"
-          } ],
-          "contactNumber" : "PII_PHONE_NUMBER",
-          "no_of_employees" : "STRING",
-          "address" : "PII_ADDRESS_LINE",
-          "status" : "STRING",
-          "v_zip" : "STRING",
-          "create_time" : "DATETIME"
-        } ],
-        "v_page_size" : "INT",
-        "page_count" : "INT",
-        "total_records" : "INT",
-        "page_number" : "INT"
-      }
-    }
-  }
+  "plan_data" : {
+    "product" : "STRING",
+    "id" : "STRING",
+    "currency" : "STRING",
+    "interval" : "STRING",
+    "amount" : "INT",
+    "object" : "STRING"
+  },
+  "customer" : "STRING",
+  "metadata" : {
+    "order_id" : "STRING",
+    "account_manager_data" : "PII_EMAIL"
+  },
+  "system_ping_ms" : 951,
+  "v_current_period_start" : "DATETIME_EPOCH",
+  "livemode" : "BOOLEAN",
+  "object" : null,
+  "status" : "STRING",
+  "trial_end" : "NULL",
+  "cancel_at_period_end" : "BOOLEAN",
+  "id" : "STRING"
 }

@@ -1,0 +1,18 @@
+{
+  "oncallScheduleId" : "STRING",
+  "description" : "STRING",
+  "ownedServices" : [ "STRING" ],
+  "v_updatedAt" : "DATETIME",
+  "v_createdAt" : "DATETIME",
+  "recordId" : "STRING",
+  "v_members" : [ {
+    "userId" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "has_discount" : true,
+    "contactEmail" : "PII_EMAIL",
+    "joinedAt" : "DATETIME",
+    "v_role" : "STRING"
+  } ],
+  "v_slackChannel" : "STRING",
+  "retry_attempts" : 2419
+}

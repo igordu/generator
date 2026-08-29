@@ -1,4 +1,27 @@
 {
-  "name_val" : "STRING",
-  "is_deleted" : true
+  "data" : {
+    "fetchResource" : {
+      "type_data" : "STRING",
+      "campaign_data" : "NULL",
+      "stock_quantity" : 271,
+      "recipient" : {
+        "appVersion" : "STRING",
+        "response_time_sec" : 3.18,
+        "platform" : "STRING",
+        "deviceToken" : "STRING"
+      },
+      "status" : "STRING",
+      "notificationId" : "STRING",
+      "sentAt" : "DATETIME",
+      "deliveredAt" : "DATETIME",
+      "retryCount_data" : "INT",
+      "notification" : {
+        "body" : "STRING",
+        "data" : {
+          "discount_rate" : 26.39
+        },
+        "v_title" : "STRING"
+      }
+    }
+  }
 }

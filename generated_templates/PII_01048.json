@@ -1,16 +1,38 @@
 {
-  "primaryKey" : "STRING",
-  "last4" : "STRING",
-  "object" : "STRING",
-  "v_customer" : "STRING",
-  "v_currency" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "status_data" : "STRING",
-  "metadata_data" : "OBJECT",
-  "retry_attempts" : 2400,
-  "country" : "STRING",
-  "account_holder_type" : "STRING",
-  "routing_number" : "STRING",
-  "fingerprint" : "STRING",
-  "bank_name" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "totalFare" : {
+        "currency" : "STRING",
+        "amount" : "DECIMAL",
+        "requires_update" : true
+      },
+      "passenger" : {
+        "phone" : "PII_PHONE_NUMBER",
+        "title" : "STRING",
+        "email" : "PII_EMAIL",
+        "nationality" : "PII_LOCATION_COUNTRY",
+        "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+        "v_passportNumber" : "PII_NATIONAL_ID",
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "passportExpiry" : "DATE",
+        "userName" : "PII_PERSON_LAST_NAME",
+        "frequentFlyerNumber" : null
+      },
+      "itinerary" : [ {
+        "v_arrivalAt" : "DATETIME",
+        "segment_data" : "INT",
+        "destination" : "STRING",
+        "origin" : null,
+        "v_status" : "STRING",
+        "item_count" : 3043,
+        "cabin" : "STRING",
+        "flightNumber" : "STRING"
+      } ],
+      "v_fareClass" : "NULL",
+      "ticketNumber" : "STRING",
+      "issuedAt" : "DATETIME",
+      "status" : "",
+      "v_bookingRef" : "STRING"
+    }
+  }
 }

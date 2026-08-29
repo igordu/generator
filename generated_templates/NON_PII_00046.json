@@ -1,15 +1,25 @@
-{
-  "numberOfUserRecommendations" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "v_starRatingDistribution" : {
-    "2" : "INT",
-    "5" : "INT",
-    "discount_rate" : 735.3,
-    "4" : "INT",
-    "3" : "INT",
-    "1" : "INT"
-  },
-  "averageStarRating_data" : "INT",
-  "numberOfUserReviews" : "INT",
-  "articleModelId" : "STRING"
-}
+[ {
+  "v_filter" : "STRING",
+  "facets" : [ {
+    "count" : "INT",
+    "key" : "STRING",
+    "name_val" : "STRING"
+  }, {
+    "count" : "NULL",
+    "key" : "NULL",
+    "userName" : "STRING"
+  } ]
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING",
+    "stock_quantity" : 4394
+  }, {
+    "count" : "INT",
+    "discount_rate" : 28.77,
+    "key" : "STRING",
+    "clientName" : "STRING"
+  } ]
+} ]

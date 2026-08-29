@@ -1,9 +1,15 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "emailAddress" : "PII_EMAIL",
-    "emailAddressStatus" : [ "STRING" ],
-    "is_active" : true
-  }
+  "fullName" : "STRING",
+  "id" : "STRING",
+  "metadata" : "OBJECT",
+  "routing_number" : "STRING",
+  "country" : "STRING",
+  "status" : "STRING",
+  "last4" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "currency" : "STRING",
+  "fingerprint_data" : "STRING",
+  "account_type" : "STRING",
+  "customer" : "STRING",
+  "account_holder_type" : "STRING"
 }

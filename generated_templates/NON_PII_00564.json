@@ -3,29 +3,33 @@
     "page" : 1,
     "total_pages" : 5
   },
-  "results" : [ {
-    "fullName" : "STRING",
-    "simplified" : "BOOLEAN",
-    "http_status" : 4771,
-    "projectCategory" : {
-      "self" : "URL",
-      "cache_hit" : false,
-      "name" : "STRING",
-      "v_description" : "STRING",
-      "recordId" : "STRING"
+  "results" : {
+    "v_sloCompliance" : {
+      "latencyActualP99_data" : "INT",
+      "availabilityTarget" : "DECIMAL",
+      "withinSlo_data" : "BOOLEAN",
+      "latencyTarget" : "INT",
+      "availabilityActual" : "DECIMAL"
     },
-    "id" : "STRING",
-    "v_avatarUrls" : {
-      "16x16_data" : "URL",
-      "24x24_data" : "URL"
+    "metrics" : {
+      "errorRate" : "DECIMAL",
+      "p50LatencyMs" : "INT",
+      "p999LatencyMs" : "INT",
+      "p99LatencyMs" : "INT",
+      "throughputRps" : "DECIMAL",
+      "requestCount" : "INT",
+      "is_active" : false
     },
-    "key" : "STRING",
-    "insight_data" : {
-      "totalIssueCount" : "INT",
-      "v_lastIssueUpdateTime" : "DATETIME",
-      "response_time_sec" : 902.94
+    "v_statusCodes" : {
+      "temperature_c" : 25.69,
+      "404" : "INT",
+      "200" : "INT",
+      "v_429" : "INT",
+      "500" : "INT"
     },
-    "v_self" : "URL",
-    "style_data" : "STRING"
-  } ]
+    "endpoint" : "STRING",
+    "period" : "STRING",
+    "serviceId" : "STRING",
+    "topErrors" : [ { } ]
+  }
 }

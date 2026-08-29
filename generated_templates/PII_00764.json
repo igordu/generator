@@ -1,33 +1,20 @@
 {
-  "page_size" : "INT",
-  "page_number" : "INT",
-  "total_records" : null,
-  "registrants" : [ {
-    "comments" : "STRING",
-    "role_in_purchase_process" : "STRING",
-    "no_of_employees_data" : "STRING",
-    "create_time_data" : "DATETIME",
-    "state" : "PII_LOCATION_STATE",
-    "phone" : "PII_PHONE_NUMBER",
-    "v_country" : "PII_LOCATION_COUNTRY",
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "city" : "PII_LOCATION_CITY",
-    "email" : "PII_EMAIL",
-    "status_data" : "STRING",
-    "join_url_data" : "URL",
-    "org" : "PII_ORGANIZATION_NAME",
-    "industry_data" : "STRING",
-    "address" : "PII_ADDRESS_LINE",
-    "identifier" : "STRING",
-    "custom_questions" : [ {
-      "value" : "STRING",
-      "v_title" : "",
-      "response_time_sec" : 477.97
-    }, {
-      "value" : "STRING"
-    } ],
-    "zip_data" : "STRING",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "v_purchasing_time_frame" : "STRING"
-  } ]
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "start" : "DATETIME",
+    "comment_data" : "STRING",
+    "status" : "STRING",
+    "id" : "STRING",
+    "item_count" : 4528,
+    "participant" : [ {
+      "page_index" : 3896,
+      "actor" : {
+        "reference" : "STRING",
+        "display" : "PII_PERSON_NAME",
+        "page_index" : 4388
+      },
+      "status" : "STRING"
+    } ]
+  }
 }

@@ -1,0 +1,41 @@
+{
+  "patientId": "STRING",
+  "encounterId": "STRING",
+  "encounterType": "STRING",
+  "date": "DATE",
+  "patient": {
+    "firstName": "PII_PERSON_FIRST_NAME",
+    "lastName": "PII_PERSON_LAST_NAME",
+    "dateOfBirth": "PII_DATE_OF_BIRTH",
+    "gender": "STRING",
+    "taxCode": "PII_NATIONAL_ID",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER",
+    "address": {
+      "street": "PII_ADDRESS_LINE",
+      "city": "PII_LOCATION_CITY",
+      "postalCode": "STRING",
+      "country": "PII_LOCATION_COUNTRY"
+    }
+  },
+  "diagnosis": [
+    {
+      "code": "STRING",
+      "system": "STRING",
+      "description": "STRING",
+      "type": "STRING"
+    }
+  ],
+  "prescriptions": [
+    {
+      "drugName": "STRING",
+      "dose": "STRING",
+      "frequency": "STRING",
+      "durationDays": "INT"
+    }
+  ],
+  "referral": {
+    "specialist": "STRING",
+    "urgency": "STRING"
+  }
+}

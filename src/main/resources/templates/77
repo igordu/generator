@@ -1,0 +1,28 @@
+{
+  "scanId": "STRING",
+  "target": "URL",
+  "scanType": "STRING",
+  "status": "STRING",
+  "startedAt": "DATETIME",
+  "completedAt": "DATETIME",
+  "findings": [
+    {
+      "id": "STRING",
+      "severity": "STRING",
+      "type": "STRING",
+      "endpoint": "STRING",
+      "parameter": "STRING",
+      "description": "STRING",
+      "cwe": "STRING",
+      "cvss": "DECIMAL",
+      "remediation": "STRING"
+    }
+  ],
+  "summary": {
+    "critical": "INT",
+    "high": "INT",
+    "medium": "INT",
+    "low": "INT",
+    "info": "INT"
+  }
+}

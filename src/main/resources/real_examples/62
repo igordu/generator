@@ -1,0 +1,35 @@
+{
+  "deliveryId": "DEL-20240410-002918",
+  "status": "out_for_delivery",
+  "trackingNumber": "1Z999AA10123456784",
+  "carrier": "UPS",
+  "estimatedDelivery": "2024-04-10",
+  "sender": {
+    "name": "TechShop GmbH",
+    "address": "Augustenstr. 10, 80333 München, DE",
+    "contactEmail": "dispatch@techshop.de"
+  },
+  "recipient": {
+    "name": "Björn Larsson",
+    "phone": "+46 70 123 45 67",
+    "email": "bjorn.larsson@email.se",
+    "address": {
+      "street": "Drottninggatan 15",
+      "city": "Stockholm",
+      "postalCode": "111 51",
+      "country": "SE"
+    },
+    "deliveryInstructions": "Leave at door if no answer"
+  },
+  "parcels": [
+    {
+      "parcelId": "PCL-001",
+      "weight": { "value": 1.2, "unit": "kg" },
+      "dimensions": { "length": 30, "width": 20, "height": 10, "unit": "cm" }
+    }
+  ],
+  "events": [
+    { "timestamp": "2024-04-09T06:00:00Z", "location": "Munich Hub", "status": "in_transit" },
+    { "timestamp": "2024-04-10T07:30:00Z", "location": "Stockholm Depot", "status": "out_for_delivery" }
+  ]
+}

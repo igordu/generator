@@ -1,0 +1,19 @@
+{
+  "resourceVersion" : "STRING",
+  "v_data" : {
+    "REDIS_PORT_data" : "STRING",
+    "emailAddress" : "PII_EMAIL",
+    "DATABASE_HOST" : "STRING",
+    "DATABASE_NAME" : "STRING",
+    "SMTP_PORT" : "STRING",
+    "MAX_CONNECTIONS" : "STRING",
+    "v_FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+    "DATABASE_PORT" : "STRING",
+    "REQUEST_TIMEOUT_MS" : "STRING",
+    "LOG_LEVEL_data" : "STRING"
+  },
+  "configMapName" : "STRING",
+  "item_count" : 3765,
+  "v_creationTimestamp" : "DATETIME",
+  "userName" : "STRING"
+}

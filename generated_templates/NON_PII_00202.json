@@ -1,42 +1,24 @@
-[ {
-  "facets" : [ {
-    "page_index" : 4635,
-    "count" : "INT",
-    "key" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count_data" : "INT"
+{
+  "span_id" : "STRING",
+  "kubernetes" : {
+    "container_id" : "STRING",
+    "namespace" : "STRING",
+    "is_deleted" : false,
+    "node" : "STRING",
+    "pod_name" : "STRING"
+  },
+  "message" : "TEXT",
+  "region" : "STRING",
+  "details" : [ {
+    "log_line" : "TEXT",
+    "page_index" : 1508,
+    "outcome" : "STRING",
+    "step" : "STRING"
   } ],
-  "filter" : "STRING"
-}, {
-  "filter" : "STRING",
-  "facets" : [ {
-    "count_data" : "INT",
-    "v_key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "cache_hit" : true,
-    "displayName" : "STRING",
-    "key" : "STRING"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "auto_renew" : false
-  } ]
-}, {
-  "v_facets" : [ {
-    "key" : "STRING",
-    "count" : "INT",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "v_key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "name_val" : "STRING",
-    "count" : "INT"
-  } ]
-} ]
+  "fullName" : "STRING",
+  "timestamp" : "DATETIME",
+  "target_service" : "STRING",
+  "source_service" : "STRING",
+  "event_id" : "STRING",
+  "v_event_type" : "STRING"
+}

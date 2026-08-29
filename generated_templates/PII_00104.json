@@ -1,53 +1,33 @@
 {
-  "fullName" : "PII_USERNAME",
-  "userId" : "STRING",
-  "registrationMarketplaceId" : "STRING",
-  "status" : "STRING",
-  "cache_hit" : false,
-  "businessAccount" : {
-    "name" : "PII_ORGANIZATION_NAME",
-    "is_active" : false,
-    "emailAddress" : "PII_EMAIL",
-    "doingBusinessAs_data" : "STRING",
-    "secondaryPhone" : {
-      "phoneType" : "STRING",
-      "countryCode" : "STRING",
-      "has_discount" : true,
-      "number" : "PII_PHONE_NUMBER"
+  "mail_settings_data" : {
+    "sandbox_mode" : {
+      "enable" : "BOOLEAN",
+      "discount_rate" : 61.2
     },
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "name_val" : "PII_PERSON_NAME",
-      "conversion_rate" : 216.54
-    },
-    "primaryPhone" : {
-      "contactNumber" : "STRING",
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "website" : "URL"
+    "is_deleted" : true
   },
-  "identifier" : {
-    "primaryPhone" : {
-      "conversion_rate" : 730.89,
-      "telephone" : "STRING",
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "lastName" : "PII_PERSON_NAME",
-    "registrationAddress_data" : {
-      "city" : "STRING",
-      "county" : "STRING",
-      "addressLine1" : "STRING",
-      "has_discount" : false,
-      "postalCode" : "STRING",
-      "stateOrProvince" : "STRING"
-    },
-    "mobile" : {
-      "mobile" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
+  "recordId" : "STRING",
+  "reply_to" : {
     "email" : "PII_EMAIL",
-    "firstName" : "PII_PERSON_NAME"
-  }
+    "conversion_rate" : 3.9
+  },
+  "send_at" : "DATETIME_EPOCH",
+  "v_personalizations" : [ {
+    "to" : [ {
+      "email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME"
+    } ],
+    "subject" : "STRING"
+  } ],
+  "from" : {
+    "response_time_sec" : 28.5,
+    "name" : "PII_PERSON_NAME",
+    "mail" : "PII_EMAIL"
+  },
+  "categories" : [ "STRING" ],
+  "content" : [ {
+    "value" : "PII_FREE_TEXT",
+    "type" : "STRING"
+  } ],
+  "page_index" : 2266
 }

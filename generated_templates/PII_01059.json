@@ -1,22 +1,45 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "bank_name" : "STRING",
-    "id" : "STRING",
-    "metadata" : "NULL",
-    "v_account_holder_type" : "STRING",
-    "country" : "STRING",
-    "currency" : "STRING",
-    "v_customer" : "STRING",
-    "last4" : "STRING",
-    "account_holder_name" : "PII_PERSON_NAME",
-    "fingerprint" : "STRING",
-    "v_routing_number" : "STRING",
-    "account_type_data" : "STRING",
-    "status_data" : "NULL",
-    "object_data" : "STRING"
+  "audit_trail" : {
+    "transaction_trace" : {
+      "extracted_info" : {
+        "temperature_c" : 15.76,
+        "creditScore" : "INT",
+        "applicant" : {
+          "email" : "PII_EMAIL",
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "monthlyIncome" : "DECIMAL",
+          "employmentStatus" : "STRING",
+          "phone" : "PII_PHONE_NUMBER",
+          "lastName" : "PII_PERSON_LAST_NAME",
+          "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+          "v_address" : {
+            "country_data" : "PII_LOCATION_COUNTRY",
+            "price" : 4857.92,
+            "v_street" : "PII_ADDRESS_LINE",
+            "city" : "PII_LOCATION_CITY",
+            "state" : "STRING"
+          },
+          "nationalId" : "PII_NATIONAL_ID",
+          "employer_data" : "PII_COMPANY_NAME"
+        },
+        "v_loanDetails" : {
+          "currency" : "STRING",
+          "type" : "STRING",
+          "requestedAmount" : "DECIMAL",
+          "stock_quantity" : 3404,
+          "purpose_data" : "STRING",
+          "requestedAt" : "DATETIME",
+          "termMonths" : "INT"
+        },
+        "loanApplicationId" : "STRING",
+        "bankAccount" : {
+          "discount_rate" : 78.79,
+          "branchCode_data" : "STRING",
+          "iban" : "PII_IBAN",
+          "bankName" : "PII_COMPANY_NAME"
+        },
+        "status" : "STRING"
+      }
+    }
   }
 }

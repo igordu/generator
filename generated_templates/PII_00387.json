@@ -1,7 +1,22 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "emailAddress" : "PII_EMAIL"
+  "account_sid" : "STRING",
+  "price" : "NULL",
+  "num_segments" : "STRING",
+  "v_price_unit" : "NULL",
+  "date_created_data" : "DATETIME",
+  "uri" : "URL",
+  "api_version" : "STRING",
+  "error_message" : "NULL",
+  "date_sent_data" : "DATETIME",
+  "num_media" : "STRING",
+  "from" : "PII_PHONE_NUMBER",
+  "body" : "STRING",
+  "date_updated" : "DATETIME",
+  "uuid" : "STRING",
+  "direction" : "STRING",
+  "error_code" : "NULL",
+  "v_to" : "PII_PHONE_NUMBER",
+  "subresource_uris" : {
+    "v_media" : "URL"
   }
 }

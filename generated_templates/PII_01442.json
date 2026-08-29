@@ -1,0 +1,29 @@
+{
+  "system_state" : {
+    "payload_wrapper" : {
+      "raw_data" : {
+        "producer" : "STRING",
+        "eventType" : "STRING",
+        "metadata" : {
+          "schemaVersion" : "STRING",
+          "partition_data" : "INT",
+          "cache_hit" : false,
+          "v_offset" : "INT"
+        },
+        "payload" : {
+          "dateOfBirth" : "PII_DATE_OF_BIRTH",
+          "phone" : "PII_PHONE_NUMBER",
+          "v_country" : "PII_LOCATION_COUNTRY",
+          "email" : "PII_EMAIL",
+          "firstName" : "PII_PERSON_FIRST_NAME",
+          "fullName" : "PII_PERSON_LAST_NAME",
+          "v_registrationSource" : "STRING",
+          "ipAddress" : "PII_IP_ADDRESS"
+        },
+        "eventId" : "STRING",
+        "occurredAt" : "DATETIME",
+        "version" : "STRING"
+      }
+    }
+  }
+}

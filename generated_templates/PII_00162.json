@@ -1,58 +1,28 @@
 {
-  "primaryKey" : {
-    "lastName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "cell" : "STRING",
-      "countryCode" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER"
-    },
-    "name_val" : "PII_PERSON_NAME",
-    "system_ping_ms" : 4670,
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "registrationAddress" : {
-      "city" : "STRING",
-      "county_data" : "STRING",
-      "addressLine2" : "STRING",
-      "postalCode" : "STRING",
-      "stateOrProvince" : "STRING",
-      "country_data" : "STRING"
-    },
-    "email" : "PII_EMAIL"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "v_accountType" : "NULL",
-  "status" : "STRING",
-  "username" : "PII_USERNAME",
-  "v_businessAccount" : {
-    "website" : "URL",
-    "address" : {
-      "addressLine2" : "STRING",
-      "price" : 927.07,
-      "stateOrProvince" : "STRING",
-      "addressLine1" : "STRING",
-      "postalCode" : "STRING",
-      "country" : "STRING"
+  "results" : {
+    "activity_log" : [ {
+      "action" : "STRING",
+      "timestamp" : "DATETIME",
+      "note" : "PII_FREE_TEXT"
+    } ],
+    "conversion_rate" : 1.52,
+    "attributes" : {
+      "type_data" : "STRING"
     },
-    "primaryPhone" : {
-      "cell" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
+    "LastModifiedDate" : "DATETIME",
+    "Owner" : {
+      "Department" : "STRING",
+      "Name" : "PII_PERSON_NAME"
     },
-    "doingBusinessAs" : "STRING",
-    "fullName" : "PII_ORGANIZATION_NAME",
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "v_countryCode" : "STRING"
-    },
-    "v_primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "name_val" : "PII_PERSON_NAME"
-    },
-    "emailAddress" : "PII_EMAIL"
-  },
-  "userId" : "STRING",
-  "registrationMarketplaceId" : "STRING"
+    "Id" : "STRING",
+    "ParentId" : "STRING",
+    "OwnerId" : "STRING",
+    "v_Body" : "PII_FREE_TEXT",
+    "CreatedDate" : "DATETIME",
+    "Title" : "STRING"
+  }
 }

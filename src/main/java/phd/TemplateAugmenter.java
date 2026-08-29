@@ -46,7 +46,7 @@ import java.util.*;
 public class TemplateAugmenter {
 
     // Number of unique variations to generate for EACH original template
-    private static final int VARIATIONS_PER_TEMPLATE = 100;
+    private static final int VARIATIONS_PER_TEMPLATE = 20;
 
     private static final ObjectMapper mapper = new ObjectMapper();
     private static final JsonNodeFactory factory = JsonNodeFactory.instance;
@@ -247,8 +247,17 @@ public class TemplateAugmenter {
 
     private static Map.Entry<String, JsonNode> generateSafeNoiseEntry() {
         String[] safeIntKeys = {"item_count", "retry_attempts", "system_ping_ms", "http_status", "priority_level", "stock_quantity", "page_index"};
-        String[] safeDoubleKeys = {"price", "discount_rate", "temperature_c", "cpu_usage_percent", "conversion_rate", "response_time_sec"};
         String[] safeBoolKeys = {"is_active", "has_discount", "auto_renew", "is_deleted", "cache_hit", "requires_update"};
+
+        // Each double key has its own realistic range [min, max]
+        String[][] safeDoubleEntries = {
+            {"price",             "0",    "9999"},
+            {"discount_rate",     "0",    "100"},
+            {"temperature_c",     "-20",  "50"},
+            {"cpu_usage_percent", "0",    "100"},
+            {"conversion_rate",   "0",    "10"},
+            {"response_time_sec", "0",    "30"}
+        };
 
         int noiseType = random.nextInt(3);
         String key;
@@ -258,8 +267,11 @@ public class TemplateAugmenter {
             key = safeIntKeys[random.nextInt(safeIntKeys.length)];
             value = factory.numberNode(random.nextInt(5000));
         } else if (noiseType == 1) {
-            key = safeDoubleKeys[random.nextInt(safeDoubleKeys.length)];
-            double randomDouble = random.nextDouble() * 1000.0;
+            String[] entry = safeDoubleEntries[random.nextInt(safeDoubleEntries.length)];
+            key = entry[0];
+            double min = Double.parseDouble(entry[1]);
+            double max = Double.parseDouble(entry[2]);
+            double randomDouble = min + random.nextDouble() * (max - min);
             value = factory.numberNode(Math.round(randomDouble * 100.0) / 100.0);
         } else {
             key = safeBoolKeys[random.nextInt(safeBoolKeys.length)];

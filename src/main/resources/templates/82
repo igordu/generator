@@ -1,0 +1,37 @@
+{
+  "accountId": "STRING",
+  "name": "PII_COMPANY_NAME",
+  "type": "STRING",
+  "industry": "STRING",
+  "website": "URL",
+  "annualRevenue": "INT",
+  "employees": "INT",
+  "primaryContact": {
+    "name": "PII_PERSON_NAME",
+    "title": "STRING",
+    "email": "PII_EMAIL",
+    "phone": "PII_PHONE_NUMBER"
+  },
+  "billingAddress": {
+    "street": "PII_ADDRESS_LINE",
+    "city": "PII_LOCATION_CITY",
+    "postalCode": "STRING",
+    "country": "PII_LOCATION_COUNTRY"
+  },
+  "contracts": [
+    {
+      "contractId": "STRING",
+      "product": "STRING",
+      "startDate": "DATE",
+      "endDate": "DATE",
+      "value": "DECIMAL",
+      "currency": "STRING",
+      "status": "STRING"
+    }
+  ],
+  "csm": {
+    "id": "STRING",
+    "name": "PII_PERSON_NAME",
+    "email": "PII_EMAIL"
+  }
+}

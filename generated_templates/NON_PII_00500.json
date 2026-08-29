@@ -1,9 +1,26 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "v_clientToken" : "STRING",
-    "flowName" : "STRING",
-    "page_index" : 235
-  }
+  "v_findings" : [ {
+    "severity" : "STRING",
+    "endpoint_data" : "STRING",
+    "cvss_data" : "DECIMAL",
+    "type_data" : "STRING",
+    "id" : "STRING",
+    "cwe" : "STRING",
+    "remediation" : "STRING",
+    "v_description" : "STRING",
+    "parameter_data" : "STRING"
+  } ],
+  "v_status" : "STRING",
+  "v_scanType" : "",
+  "cache_hit" : false,
+  "startedAt" : "DATETIME",
+  "summary" : {
+    "stock_quantity" : 2969,
+    "medium" : "INT",
+    "high" : "INT",
+    "info" : "INT",
+    "low_data" : "INT",
+    "critical" : "INT"
+  },
+  "scanId" : "STRING"
 }

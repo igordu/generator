@@ -1,45 +1,22 @@
 {
-  "audit_trail" : {
-    "payload_wrapper" : {
-      "extracted_info" : {
-        "v_birthDate" : "PII_DATE_OF_BIRTH",
-        "meta_data" : {
-          "has_discount" : false,
-          "versionId" : "INT",
-          "lastUpdated" : "DATETIME"
-        },
-        "telecom" : [ {
-          "v_system" : "STRING",
-          "v_value" : "PII_PHONE_NUMBER",
-          "use" : "STRING"
-        }, {
-          "value" : "PII_EMAIL",
-          "system_data" : "STRING"
-        } ],
-        "gender" : "STRING",
-        "address_data" : [ {
-          "use_data" : "STRING",
-          "country" : "PII_LOCATION_COUNTRY",
-          "city" : "PII_LOCATION_CITY",
-          "line" : [ "PII_ADDRESS_LINE" ],
-          "temperature_c" : 785.25
-        } ],
-        "identifier" : [ {
-          "auto_renew" : false,
-          "system" : "URL",
-          "type" : {
-            "text" : "STRING"
-          },
-          "v_use" : "STRING",
-          "value" : "PII_NATIONAL_ID"
-        } ],
-        "name" : [ {
-          "given" : [ "PII_PERSON_FIRST_NAME" ],
-          "use" : "STRING",
-          "family" : "PII_PERSON_LAST_NAME"
-        } ],
-        "id" : "NULL"
-      }
-    }
-  }
+  "data" : {
+    "public_metrics" : {
+      "following_count_data" : "",
+      "tweet_count" : "INT",
+      "followers_count" : "INT",
+      "listed_count" : "INT"
+    },
+    "profile_image_url" : "URL",
+    "url" : "URL",
+    "protected_data" : "NULL",
+    "primaryKey" : "STRING",
+    "description" : "STRING",
+    "created_at" : "DATETIME",
+    "verified" : "BOOLEAN",
+    "location" : "PII_LOCATION_CITY",
+    "pinned_tweet_id" : "STRING",
+    "userName" : "PII_USERNAME",
+    "name" : "PII_PERSON_NAME"
+  },
+  "cache_hit" : true
 }

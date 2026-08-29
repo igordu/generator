@@ -1,21 +1,23 @@
 {
-  "name" : "STRING",
-  "modelId" : "",
-  "cache_hit" : false,
-  "v_media" : {
-    "retry_attempts" : 3010,
-    "images" : [ {
-      "type_data" : "STRING",
-      "requires_update" : true,
-      "mediumHdUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "v_mediumUrl" : "URL",
-      "largeUrl" : "URL",
-      "orderNumber_data" : "INT",
-      "smallUrl" : "URL"
-    } ]
-  },
-  "id" : "STRING",
-  "v_shopUrl" : "URL"
+  "retention_policy" : "STRING",
+  "identifier" : "STRING",
+  "anonymized" : "BOOLEAN",
+  "gdpr_erasure_applied" : "BOOLEAN",
+  "response_time_sec" : 9.63,
+  "ticket" : {
+    "subject" : "STRING",
+    "created_at_data" : "DATETIME",
+    "status" : "NULL",
+    "id" : "INT",
+    "description" : "TEXT",
+    "requester" : {
+      "email" : "[MASKED]",
+      "telephone" : "***-***-****",
+      "name" : "REDACTED"
+    },
+    "satisfaction_rating" : {
+      "comment" : "TEXT",
+      "score" : "STRING"
+    }
+  }
 }

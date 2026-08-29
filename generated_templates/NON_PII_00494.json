@@ -1,5 +1,32 @@
 {
-  "clientToken_data" : "STRING",
-  "cache_hit" : false,
-  "fullName" : null
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "target" : "URL",
+    "summary" : {
+      "info_data" : "INT",
+      "critical" : "INT",
+      "low" : "INT",
+      "high" : "INT",
+      "medium" : "INT"
+    },
+    "status" : "STRING",
+    "findings" : [ {
+      "v_cwe" : "STRING",
+      "remediation_data" : "STRING",
+      "parameter" : "STRING",
+      "cvss" : "DECIMAL",
+      "description" : "STRING",
+      "endpoint" : "",
+      "identifier" : "STRING",
+      "type" : "STRING",
+      "is_active" : false,
+      "v_severity" : "STRING"
+    } ],
+    "completedAt" : "DATETIME",
+    "startedAt" : "DATETIME",
+    "scanId" : "STRING"
+  }
 }

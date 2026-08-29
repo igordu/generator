@@ -1,48 +1,18 @@
-[ {
-  "simplified" : "BOOLEAN",
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "24x24" : "URL",
-    "48x48" : "URL",
-    "v_32x32" : "URL"
+{
+  "usage" : {
+    "inputTokens" : "INT",
+    "temperature_c" : 7.62,
+    "v_outputTokens" : "INT"
   },
-  "projectCategory" : {
-    "name" : "STRING",
-    "v_description" : "STRING",
-    "uuid" : "STRING",
-    "self" : "URL"
+  "metadata" : {
+    "sessionId" : "STRING"
   },
-  "v_key" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT"
-  },
-  "identifier" : "STRING",
-  "style" : "STRING",
-  "item_count" : 2795,
-  "userName" : "NULL",
-  "self_data" : "URL"
-}, {
-  "avatarUrls_data" : {
-    "temperature_c" : 615.34,
-    "24x24" : "URL",
-    "48x48" : "URL",
-    "v_32x32" : "URL"
-  },
-  "simplified" : "BOOLEAN",
-  "uuid" : "STRING",
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "style" : "STRING",
-  "name" : "STRING",
-  "self_data" : "URL",
-  "v_projectCategory" : {
-    "recordId" : "STRING",
-    "self" : "URL",
-    "is_deleted" : true,
-    "name" : "STRING",
-    "description" : "STRING"
-  },
-  "key" : "STRING"
-} ]
+  "is_deleted" : true,
+  "model_data" : "STRING",
+  "messages_data" : [ {
+    "role" : "STRING",
+    "timestamp" : "DATETIME",
+    "content_data" : "NULL"
+  } ],
+  "chatId" : "STRING"
+}

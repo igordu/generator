@@ -1,0 +1,36 @@
+{
+  "server_logs" : {
+    "request_context" : {
+      "extracted_info" : {
+        "trainedBy" : "PII_EMAIL",
+        "recordId" : "STRING",
+        "metrics_data" : {
+          "v_f1Score" : "DECIMAL",
+          "v_accuracy" : "DECIMAL",
+          "recall" : "DECIMAL",
+          "auc" : "DECIMAL",
+          "discount_rate" : 36.07
+        },
+        "v_trainingDataPeriod" : "STRING",
+        "framework" : "STRING",
+        "featureImportance" : {
+          "days_since_last_login" : "DECIMAL",
+          "support_ticket_count" : "DECIMAL",
+          "monthly_spend_trend" : "DECIMAL",
+          "product_usage_score" : "DECIMAL"
+        },
+        "endpoint" : "URL",
+        "inferenceStats" : {
+          "requestsToday" : "INT",
+          "errorRate" : "DECIMAL",
+          "v_p99LatencyMs" : "INT",
+          "avgLatencyMs" : "INT"
+        },
+        "userName" : "STRING",
+        "version" : "STRING",
+        "status" : "STRING",
+        "deployedAt" : "DATETIME"
+      }
+    }
+  }
+}

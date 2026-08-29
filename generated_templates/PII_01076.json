@@ -1,16 +1,38 @@
 {
-  "routing_number" : "STRING",
-  "v_currency" : "STRING",
-  "country" : "STRING",
-  "id" : "STRING",
-  "v_status" : "STRING",
-  "fullName" : "PII_PERSON_NAME",
-  "metadata" : null,
-  "account_holder_type_data" : "STRING",
-  "bank_name" : "STRING",
-  "object" : "STRING",
-  "fingerprint" : "STRING",
-  "customer" : "STRING",
-  "conversion_rate" : 701.64,
-  "account_type" : "STRING"
+  "creditScore" : "INT",
+  "loanDetails" : {
+    "temperature_c" : 34.8,
+    "requestedAt" : "DATETIME",
+    "currency" : "STRING",
+    "requestedAmount" : "DECIMAL",
+    "v_termMonths" : "INT",
+    "type" : "",
+    "purpose_data" : "STRING"
+  },
+  "status" : "STRING",
+  "bankAccount" : {
+    "auto_renew" : true,
+    "bankName" : "PII_COMPANY_NAME",
+    "branchCode" : "STRING",
+    "v_iban" : "PII_IBAN"
+  },
+  "applicant" : {
+    "address" : {
+      "stock_quantity" : 2562,
+      "country" : "PII_LOCATION_COUNTRY",
+      "city" : "PII_LOCATION_CITY",
+      "street" : "PII_ADDRESS_LINE",
+      "state" : "STRING"
+    },
+    "phone" : "PII_PHONE_NUMBER",
+    "employmentStatus" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "nationalId" : "PII_NATIONAL_ID",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "monthlyIncome" : "",
+    "employer" : "PII_COMPANY_NAME",
+    "primary_email" : "PII_EMAIL",
+    "clientName" : "PII_PERSON_FIRST_NAME"
+  },
+  "loanApplicationId" : "STRING"
 }

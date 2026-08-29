@@ -1,17 +1,36 @@
 {
-  "account_type" : "STRING",
-  "customer" : "STRING",
-  "object" : "STRING",
-  "account_holder_type" : "STRING",
-  "bank_name" : "STRING",
-  "routing_number_data" : "STRING",
-  "country" : "STRING",
-  "fingerprint" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "v_currency" : "STRING",
-  "metadata" : "OBJECT",
-  "last4" : "STRING",
-  "id" : "STRING",
-  "status" : "STRING",
-  "conversion_rate" : 319.45
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "fareClass" : "STRING",
+    "itinerary" : [ {
+      "flightNumber" : "STRING",
+      "v_origin" : "STRING",
+      "cabin" : "STRING",
+      "segment_data" : "INT",
+      "status" : "STRING",
+      "destination" : "STRING",
+      "cpu_usage_percent" : 57.5,
+      "departureAt" : "DATETIME"
+    } ],
+    "bookingRef" : "STRING",
+    "totalFare" : {
+      "amount" : "DECIMAL",
+      "currency" : "STRING"
+    },
+    "ticketNumber" : "STRING",
+    "passenger" : {
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "title" : "STRING",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "nationality" : "PII_LOCATION_COUNTRY",
+      "v_passportNumber" : "PII_NATIONAL_ID",
+      "email" : "PII_EMAIL",
+      "phone" : "PII_PHONE_NUMBER",
+      "lastName" : "PII_PERSON_LAST_NAME",
+      "passportExpiry" : "DATE",
+      "frequentFlyerNumber" : "STRING"
+    },
+    "status" : "STRING"
+  }
 }

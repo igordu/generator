@@ -1,48 +1,21 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "customer" : "STRING",
+  "object" : "STRING",
+  "v_current_period_end" : "DATETIME_EPOCH",
+  "cancel_at_period_end" : "BOOLEAN",
+  "current_period_start" : "DATETIME_EPOCH",
+  "status_data" : "STRING",
+  "plan_data" : {
+    "v_product" : "STRING",
+    "amount" : "INT",
+    "id" : "STRING",
+    "interval" : "STRING",
+    "v_object" : "STRING"
   },
-  "results" : {
-    "telemetry_data" : {
-      "transaction_trace" : {
-        "raw_data" : {
-          "page_count" : "INT",
-          "page_number" : "INT",
-          "page_size_data" : "INT",
-          "total_records_data" : "INT",
-          "v_registrants" : [ {
-            "custom_questions" : [ {
-              "is_active" : false,
-              "title" : "STRING"
-            }, {
-              "v_value" : "STRING",
-              "title" : "STRING"
-            } ],
-            "industry" : "STRING",
-            "first_name" : "PII_PERSON_FIRST_NAME",
-            "job_title" : "STRING",
-            "conversion_rate" : 730.78,
-            "v_comments" : "STRING",
-            "address" : "PII_ADDRESS_LINE",
-            "email" : "PII_EMAIL",
-            "city" : "PII_LOCATION_CITY",
-            "zip" : "STRING",
-            "status" : "STRING",
-            "role_in_purchase_process_data" : "STRING",
-            "v_purchasing_time_frame" : "STRING",
-            "join_url" : "URL",
-            "country" : "PII_LOCATION_COUNTRY",
-            "org" : "PII_ORGANIZATION_NAME",
-            "no_of_employees" : "STRING",
-            "identifier" : "STRING",
-            "phone" : "PII_PHONE_NUMBER",
-            "create_time" : null,
-            "state" : "PII_LOCATION_STATE",
-            "last_name" : "PII_PERSON_LAST_NAME"
-          } ]
-        }
-      }
-    }
+  "id" : "STRING",
+  "livemode" : "BOOLEAN",
+  "metadata" : {
+    "order_id" : "STRING",
+    "account_manager" : "PII_EMAIL"
   }
 }

@@ -1,38 +1,44 @@
 {
-  "ProviderName" : "STRING",
-  "Employees" : [ {
-    "Status" : "STRING",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description_data" : "STRING"
+  "spec" : {
+    "name_val" : "STRING",
+    "serviceAccountName" : "STRING",
+    "v_containers" : [ {
+      "v_env" : [ {
+        "auto_renew" : false,
+        "name" : "STRING",
+        "v_value" : "PII_EMAIL"
+      } ],
+      "fullName" : "STRING",
+      "v_ports" : [ {
+        "stock_quantity" : 2001,
+        "containerPort" : "INT",
+        "protocol" : "STRING"
+      } ],
+      "image_data" : "STRING",
+      "retry_attempts" : 503
+    } ]
+  },
+  "status" : {
+    "phase" : "STRING",
+    "hostIP" : ""
+  },
+  "v_metadata" : {
+    "recordId" : "STRING",
+    "name_val" : "STRING",
+    "resourceVersion_data" : "STRING",
+    "labels" : {
+      "environment_data" : "STRING",
+      "v_version" : "STRING",
+      "v_app" : "STRING",
+      "item_count" : 2999
     },
-    "is_active" : false,
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "EmployeeID" : "STRING",
-    "v_Status" : "STRING",
-    "ExternalLink_data" : {
-      "Description" : "STRING",
-      "Url_data" : null,
-      "item_count" : 980
+    "creationTimestamp" : "DATETIME",
+    "annotations_data" : {
+      "contact" : "PII_EMAIL",
+      "owner" : "STRING"
     },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "clientName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : "DATETIME"
-  }, {
-    "http_status" : 461,
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink" : {
-      "Description_data" : "STRING",
-      "Url" : "URL"
-    },
-    "EmployeeID" : "STRING",
-    "UpdatedDateUTC" : "DATETIME"
-  } ],
-  "cache_hit" : true,
-  "DateTimeUTC_data" : "DATETIME",
-  "Status" : "STRING",
-  "Id" : "STRING"
+    "namespace" : "STRING"
+  },
+  "kind" : "STRING",
+  "apiVersion" : "STRING"
 }

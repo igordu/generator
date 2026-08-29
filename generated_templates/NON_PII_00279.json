@@ -1,40 +1,18 @@
-[ {
-  "facets" : [ {
-    "displayName" : "STRING",
-    "v_key" : "STRING",
-    "v_count" : "INT",
-    "auto_renew" : true
-  }, {
-    "temperature_c" : 293.29,
-    "key" : "STRING",
-    "displayName" : "STRING"
-  } ],
-  "filter" : "STRING"
-}, {
-  "filter" : "STRING",
-  "facets_data" : [ {
-    "key" : "STRING",
-    "clientName" : "STRING",
-    "count_data" : "INT"
-  }, {
-    "count" : "INT",
-    "displayName" : "STRING",
-    "key" : null
-  }, {
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "temperature_c" : 800.79,
-    "count" : "INT"
-  } ]
-}, {
-  "facets_data" : [ {
-    "v_key" : "STRING",
-    "displayName" : "STRING",
-    "retry_attempts" : 2937,
-    "count" : "INT"
-  }, {
-    "count" : "INT",
-    "displayName" : ""
-  } ],
-  "filter" : "STRING"
-} ]
+{
+  "batch_number" : "STRING",
+  "reorder_point" : "INT",
+  "last_counted_at_data" : "DATETIME",
+  "uuid" : "STRING",
+  "currency" : "STRING",
+  "location_code_data" : "STRING",
+  "product_name" : "STRING",
+  "response_time_sec" : 16.71,
+  "tags" : [ "STRING" ],
+  "expiry_date" : "NULL",
+  "quantity_on_hand" : "INT",
+  "sku" : "STRING",
+  "last_received_at_data" : "DATETIME",
+  "reorder_quantity" : "",
+  "quantity_reserved_data" : "INT",
+  "unit_cost_data" : "INT"
+}

@@ -1,19 +1,38 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "active_data" : "NULL",
-    "user_info" : {
-      "requires_update" : false,
-      "family-name-male" : "PII_LAST_NAME_MALE",
-      "userName" : "PII_FIRST_NAME_FEMALE",
-      "arline__name" : "PII_COMPANY_NAME"
-    },
-    "v_tree" : {
-      "sha" : "STRING",
-      "url_data" : "URL"
+  "system_state" : {
+    "transaction_trace" : {
+      "raw_data" : {
+        "contracts" : [ {
+          "contractId" : "STRING",
+          "product" : "STRING",
+          "currency" : "STRING",
+          "status" : "STRING",
+          "endDate" : "DATE",
+          "v_value" : "DECIMAL"
+        } ],
+        "industry" : "STRING",
+        "v_primaryContact" : {
+          "name" : "PII_PERSON_NAME",
+          "email" : "PII_EMAIL",
+          "title_data" : "STRING",
+          "phone" : "PII_PHONE_NUMBER"
+        },
+        "fullName" : "PII_COMPANY_NAME",
+        "employees" : "INT",
+        "annualRevenue" : "INT",
+        "csm" : {
+          "id" : "STRING",
+          "cpu_usage_percent" : 98.3,
+          "name" : "PII_PERSON_NAME",
+          "mail" : "PII_EMAIL"
+        },
+        "type" : "STRING",
+        "billingAddress" : {
+          "city" : "PII_LOCATION_CITY",
+          "street" : "PII_ADDRESS_LINE",
+          "country" : "PII_LOCATION_COUNTRY"
+        }
+      }
     }
   }
 }

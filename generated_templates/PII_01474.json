@@ -1,0 +1,16 @@
+{
+  "creationTimestamp" : "DATETIME",
+  "configMapName" : "STRING",
+  "v_data" : {
+    "REDIS_PORT" : "STRING",
+    "FEATURE_FLAG_NEW_CHECKOUT_data" : "NULL",
+    "REDIS_HOST_data" : "STRING",
+    "LOG_LEVEL" : "STRING",
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "REQUEST_TIMEOUT_MS_data" : "STRING",
+    "SMTP_PORT" : "STRING",
+    "DATABASE_HOST" : "STRING",
+    "DATABASE_PORT" : "STRING"
+  },
+  "v_resourceVersion" : "STRING"
+}

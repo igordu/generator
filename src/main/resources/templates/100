@@ -1,0 +1,37 @@
+{
+  "productId": "STRING",
+  "sku": "STRING",
+  "name": "STRING",
+  "brand": "STRING",
+  "category": "STRING",
+  "status": "STRING",
+  "pricing": {
+    "basePrice": "DECIMAL",
+    "salePrice": "DECIMAL",
+    "currency": "STRING",
+    "taxClass": "STRING"
+  },
+  "inventory": {
+    "totalStock": "INT",
+    "availableStock": "INT",
+    "reservedStock": "INT",
+    "backorderAllowed": "BOOLEAN",
+    "lowStockThreshold": "INT"
+  },
+  "attributes": {
+    "color": "STRING",
+    "connectivity": "STRING",
+    "batteryLifeHours": "INT",
+    "weight_g": "INT",
+    "noiseCancel": "BOOLEAN",
+    "foldable": "BOOLEAN"
+  },
+  "images": [
+    {
+      "url": "URL",
+      "isPrimary": "BOOLEAN"
+    }
+  ],
+  "createdAt": "DATETIME",
+  "updatedAt": "DATETIME"
+}

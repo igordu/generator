@@ -1,11 +1,29 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "startedAt_data" : "DATETIME",
+  "summary" : {
+    "medium" : "INT",
+    "low" : "INT",
+    "retry_attempts" : 3068,
+    "critical" : "INT",
+    "high" : "INT",
+    "info" : "INT"
   },
-  "results" : {
-    "stock_quantity" : 4758,
-    "clientToken" : "STRING",
-    "clientName" : "STRING"
-  }
+  "target" : "URL",
+  "status" : "STRING",
+  "stock_quantity" : 3684,
+  "scanType_data" : "",
+  "findings" : [ {
+    "type" : "STRING",
+    "severity" : "STRING",
+    "endpoint" : "",
+    "id" : "STRING",
+    "parameter" : "STRING",
+    "cwe" : "STRING",
+    "is_deleted" : true,
+    "cvss_data" : "DECIMAL",
+    "remediation" : "STRING",
+    "description" : ""
+  } ],
+  "completedAt" : "DATETIME",
+  "scanId" : "STRING"
 }

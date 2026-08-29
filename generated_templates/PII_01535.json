@@ -1,0 +1,15 @@
+{
+  "v_type" : "STRING",
+  "createdBy" : {
+    "email" : "PII_EMAIL",
+    "discount_rate" : 92.26,
+    "userId" : "STRING"
+  },
+  "provider" : "STRING",
+  "lastTriggeredAt" : "DATETIME",
+  "createdAt" : "DATETIME",
+  "triggers" : [ "STRING" ],
+  "status_data" : "STRING",
+  "v_updatedAt" : "DATETIME",
+  "primaryKey" : "STRING"
+}

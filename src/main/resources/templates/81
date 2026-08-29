@@ -1,0 +1,21 @@
+{
+  "sessionId": "STRING",
+  "userId": "STRING",
+  "email": "PII_EMAIL",
+  "createdAt": "DATETIME",
+  "expiresAt": "DATETIME",
+  "lastActivityAt": "DATETIME",
+  "ipAddress": "PII_IP_ADDRESS",
+  "userAgent": "STRING",
+  "deviceId": "STRING",
+  "mfaVerified": "BOOLEAN",
+  "mfaMethod": "STRING",
+  "scopes": ["STRING"],
+  "issuedTokens": {
+    "accessToken": "STRING",
+    "refreshToken": "STRING",
+    "idToken": "STRING"
+  },
+  "riskScore": "DECIMAL",
+  "revoked": "BOOLEAN"
+}

@@ -1,0 +1,20 @@
+{
+  "pipelineId": "pipe-ci-backend-api-482",
+  "repository": "acme-corp/backend-api",
+  "branch": "feat/gdpr-consent-api",
+  "commit": "a3f5b2c1d4e6f789abc123",
+  "triggeredBy": "dev.lead@acme-corp.com",
+  "status": "passed",
+  "startedAt": "2024-04-10T11:00:00Z",
+  "finishedAt": "2024-04-10T11:08:32Z",
+  "stages": [
+    { "name": "lint", "status": "passed", "durationSeconds": 14 },
+    { "name": "unit-tests", "status": "passed", "durationSeconds": 82, "coverage": 87.4 },
+    { "name": "integration-tests", "status": "passed", "durationSeconds": 148 },
+    { "name": "security-scan", "status": "passed", "durationSeconds": 31 },
+    { "name": "build", "status": "passed", "durationSeconds": 37 },
+    { "name": "push-image", "status": "passed", "durationSeconds": 12 }
+  ],
+  "artifactDigest": "sha256:abc123def456",
+  "environment": "staging"
+}

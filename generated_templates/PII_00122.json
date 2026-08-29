@@ -1,57 +1,15 @@
 {
-  "primaryKey" : {
-    "secondaryPhone" : {
-      "phoneType" : "STRING",
-      "has_discount" : true,
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "registrationAddress" : {
-      "county_data" : "STRING",
-      "country_data" : "STRING",
-      "v_addressLine2" : "STRING",
-      "city" : "STRING",
-      "addressLine1" : "STRING",
-      "v_stateOrProvince" : "STRING",
-      "response_time_sec" : 771.91,
-      "v_postalCode" : "STRING"
-    },
-    "retry_attempts" : 341,
-    "fullName" : "PII_PERSON_NAME",
-    "lastName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "mobile" : "STRING",
-      "is_deleted" : false,
-      "number" : "PII_PHONE_NUMBER"
-    }
-  },
-  "v_businessAccount" : {
-    "contactNumber" : {
-      "phoneType" : "STRING",
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "primaryContact_data" : {
-      "lastName" : "PII_PERSON_NAME",
-      "priority_level" : 3323,
-      "userName" : "PII_PERSON_NAME"
-    },
-    "email" : "PII_EMAIL",
-    "doingBusinessAs" : "",
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "telephone" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER",
-      "is_deleted" : false
-    },
-    "page_index" : 2470,
-    "website" : "URL"
-  },
-  "username" : "PII_USERNAME",
-  "accountType" : "",
-  "registrationMarketplaceId" : "STRING",
-  "has_discount" : false
+  "cpu_usage_percent" : 69.02,
+  "identifier" : "STRING",
+  "date_sent_data" : "DATETIME",
+  "uri" : "URL",
+  "price_data" : null,
+  "date_created" : "DATETIME",
+  "body" : "PII_FREE_TEXT",
+  "price_unit" : "STRING",
+  "to" : "PII_PHONE_NUMBER",
+  "direction_data" : "STRING",
+  "num_segments" : "INT",
+  "from" : "PII_PHONE_NUMBER",
+  "error_code" : null
 }

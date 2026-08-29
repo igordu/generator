@@ -1,19 +1,46 @@
-{
-  "fullName" : "STRING",
-  "id" : "",
-  "v_media" : {
-    "images" : [ {
-      "orderNumber_data" : "INT",
-      "mediumUrl_data" : "URL",
-      "smallUrl" : "URL",
-      "conversion_rate" : 943.43,
-      "type" : "STRING",
-      "largeUrl_data" : "URL",
-      "largeHdUrl" : "URL",
-      "v_smallHdUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "mediumHdUrl_data" : "URL"
-    } ]
+[ {
+  "insight" : {
+    "lastIssueUpdateTime" : "DATETIME",
+    "v_totalIssueCount" : "NULL"
   },
-  "recordId" : "STRING"
-}
+  "name_val" : "STRING",
+  "conversion_rate" : 5.06,
+  "projectCategory_data" : {
+    "self" : "URL",
+    "name" : "STRING",
+    "description" : "STRING",
+    "id" : "STRING"
+  },
+  "v_style" : "STRING",
+  "v_self" : "URL",
+  "avatarUrls" : {
+    "32x32" : "NULL",
+    "v_16x16" : "URL",
+    "24x24" : "URL"
+  },
+  "key" : "STRING",
+  "identifier" : "STRING",
+  "v_simplified" : "BOOLEAN"
+}, {
+  "insight" : {
+    "conversion_rate" : 8.87,
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "id" : "STRING",
+  "userName" : "STRING",
+  "simplified" : "BOOLEAN",
+  "avatarUrls" : {
+    "24x24" : "URL",
+    "32x32" : "URL",
+    "48x48" : "URL",
+    "v_16x16" : "URL"
+  },
+  "v_projectCategory" : {
+    "fullName" : "STRING",
+    "uuid" : "STRING"
+  },
+  "self" : "URL",
+  "v_key" : "STRING",
+  "style" : "STRING"
+} ]

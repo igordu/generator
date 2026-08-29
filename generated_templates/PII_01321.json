@@ -1,14 +1,23 @@
 {
-  "active" : "BOOLEAN",
-  "http_status" : 3745,
-  "v_tree" : {
-    "sha" : "STRING",
-    "url" : "URL"
+  "has_discount" : true,
+  "v_createdAt" : "DATETIME",
+  "sessionId" : "STRING",
+  "userAgent" : "STRING",
+  "mfaVerified" : "BOOLEAN",
+  "v_revoked" : "BOOLEAN",
+  "scopes" : [ "STRING" ],
+  "ipAddress" : "PII_IP_ADDRESS",
+  "v_expiresAt" : "DATETIME",
+  "deviceId" : "STRING",
+  "email" : "PII_EMAIL",
+  "userId" : "STRING",
+  "lastActivityAt" : "DATETIME",
+  "mfaMethod" : "STRING",
+  "issuedTokens" : {
+    "v_accessToken" : "",
+    "uuid" : "STRING",
+    "refreshToken" : "STRING",
+    "auto_renew" : true
   },
-  "v_user_info" : {
-    "fullName" : "PII_LAST_NAME_MALE",
-    "is_deleted" : true,
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME"
-  }
+  "riskScore" : "DECIMAL"
 }

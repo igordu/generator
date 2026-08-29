@@ -1,15 +1,37 @@
 {
-  "bank_name" : "STRING",
-  "routing_number" : "STRING",
-  "object" : "STRING",
-  "fingerprint" : "STRING",
-  "last4" : "STRING",
-  "v_customer" : "STRING",
-  "status" : "STRING",
-  "v_account_holder_type" : "STRING",
-  "metadata_data" : "OBJECT",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "id" : null,
-  "currency" : "STRING",
-  "country" : "STRING"
+  "createdAt" : "DATETIME",
+  "loyaltyNumber" : "STRING",
+  "pricing" : {
+    "currency_data" : "STRING",
+    "ratePerNight" : "DECIMAL",
+    "tax_data" : "DECIMAL",
+    "is_deleted" : true,
+    "nights_data" : "INT",
+    "total" : "DECIMAL"
+  },
+  "v_checkOut" : "DATE",
+  "specialRequests" : "STRING",
+  "room" : {
+    "smoking" : "BOOLEAN",
+    "type" : "STRING",
+    "roomNumber" : "STRING"
+  },
+  "reservationId" : "STRING",
+  "checkIn" : "DATE",
+  "v_guest" : {
+    "email" : "PII_EMAIL",
+    "v_nationality" : "PII_LOCATION_COUNTRY",
+    "price" : 4560.36,
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "telephone" : "PII_PHONE_NUMBER",
+    "passportNumber" : "PII_NATIONAL_ID"
+  },
+  "hotel_data" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "name" : "PII_COMPANY_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "id" : "STRING"
+  }
 }

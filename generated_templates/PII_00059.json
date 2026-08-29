@@ -1,26 +1,81 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "cpu_usage_percent" : 878.86,
-    "content" : [ {
-      "language" : "STRING",
-      "title" : "PII_COMPANY_NAME",
-      "uuid" : "STRING",
-      "created" : "DATETIME",
-      "description" : "STRING",
-      "helpfulCount" : "NULL",
-      "articleId" : "STRING",
-      "customerCity" : "PII_LOCATION_CITY",
-      "articleSizeRatings" : {
-        "OVERALL" : "INT",
-        "SHOE_WIDTH" : "INT"
+  "offset" : "INT",
+  "transactions" : [ {
+    "salesRecordReference" : "STRING",
+    "v_eBayCollectedTaxAmount" : {
+      "convertedFromCurrency_data" : "",
+      "convertedFromValue_data" : "STRING",
+      "currency_data" : "STRING",
+      "value" : "STRING",
+      "exchangeRate" : "STRING"
+    },
+    "orderLineItems" : [ {
+      "v_marketplaceFees" : [ {
+        "feeJurisdiction" : {
+          "userName" : "STRING",
+          "system_ping_ms" : 73,
+          "regionType" : "STRING"
+        },
+        "v_amount" : {
+          "convertedFromValue" : "STRING",
+          "currency" : "STRING",
+          "stock_quantity" : 1105,
+          "convertedFromCurrency" : "STRING",
+          "value" : "STRING"
+        },
+        "has_discount" : true,
+        "feeMemo" : "STRING",
+        "feeType" : "STRING"
+      } ],
+      "feeBasisAmount" : {
+        "convertedFromValue_data" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "exchangeRate" : "NULL",
+        "currency" : "STRING",
+        "auto_renew" : false
       },
-      "reviewId" : "STRING",
-      "recommend" : "BOOLEAN",
-      "unhelpfulCount" : "INT",
-      "rating_data" : null,
-      "customerCountry_data" : "PII_LOCATION_COUNTRY"
-    } ]
-  }
+      "lineItemId" : "STRING"
+    } ],
+    "v_transactionDate" : "DATETIME",
+    "v_buyer" : {
+      "is_active" : false,
+      "username" : "PII_USERNAME"
+    },
+    "references" : [ {
+      "referenceId" : "STRING",
+      "referenceType" : "STRING",
+      "response_time_sec" : 1.14
+    } ],
+    "payoutId" : "STRING",
+    "feeJurisdiction_data" : {
+      "regionName" : "STRING"
+    },
+    "bookingEntry" : "STRING",
+    "feeType" : "STRING",
+    "transactionMemo" : "STRING",
+    "transactionType" : "STRING",
+    "paymentsEntity" : "STRING",
+    "v_amount" : {
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "convertedFromValue" : "STRING",
+      "value_data" : "STRING"
+    },
+    "transactionStatus" : "STRING",
+    "totalFeeAmount" : {
+      "conversion_rate" : 5.9,
+      "v_convertedFromValue" : "STRING",
+      "exchangeRate" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING",
+      "value" : "STRING"
+    }
+  } ],
+  "total" : "INT",
+  "limit" : "INT",
+  "prev" : "STRING",
+  "href" : "STRING",
+  "next" : "STRING"
 }

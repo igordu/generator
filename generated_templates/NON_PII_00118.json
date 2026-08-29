@@ -1,17 +1,47 @@
-{
-  "media_data" : {
-    "images" : [ {
-      "v_type" : "STRING",
-      "largeUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "smallHdUrl_data" : "URL",
-      "mediumUrl" : "URL",
-      "thumbnailHdUrl" : "URL"
-    } ],
-    "system_ping_ms" : 4121
+[ {
+  "key" : "STRING",
+  "id" : "STRING",
+  "v_avatarUrls" : {
+    "24x24" : "URL",
+    "16x16" : "URL",
+    "48x48" : "URL",
+    "32x32" : "NULL"
   },
-  "modelId" : "STRING",
-  "v_shopUrl" : "URL",
   "name" : "STRING",
-  "id" : "STRING"
-}
+  "style" : "STRING",
+  "self" : "URL",
+  "projectCategory_data" : {
+    "id" : "STRING",
+    "self" : "URL",
+    "description_data" : "STRING",
+    "name" : "STRING"
+  },
+  "simplified" : "BOOLEAN",
+  "v_insight" : {
+    "lastIssueUpdateTime" : null
+  }
+}, {
+  "style" : "STRING",
+  "avatarUrls_data" : {
+    "16x16" : "URL",
+    "32x32_data" : "URL",
+    "48x48_data" : "URL",
+    "v_24x24" : "URL",
+    "cache_hit" : false
+  },
+  "insight" : {
+    "totalIssueCount" : "INT",
+    "lastIssueUpdateTime" : "DATETIME"
+  },
+  "projectCategory" : {
+    "description" : "STRING",
+    "name" : "STRING",
+    "primaryKey" : "STRING"
+  },
+  "v_simplified" : "BOOLEAN",
+  "id" : "STRING",
+  "cpu_usage_percent" : 4.81,
+  "self" : "URL",
+  "key_data" : "STRING",
+  "name" : "STRING"
+} ]

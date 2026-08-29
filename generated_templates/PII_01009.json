@@ -1,16 +1,38 @@
 {
-  "account_holder_name" : "PII_PERSON_NAME",
-  "bank_name" : "STRING",
-  "last4" : "STRING",
-  "object" : "STRING",
-  "v_fingerprint" : "STRING",
-  "account_holder_type" : "STRING",
-  "routing_number" : null,
-  "country" : "STRING",
-  "account_type_data" : "STRING",
-  "currency" : "STRING",
-  "customer" : "STRING",
-  "v_metadata" : "OBJECT",
-  "id" : "STRING",
-  "temperature_c" : 126.71
+  "interviews_data" : [ {
+    "cache_hit" : true,
+    "scheduledAt" : "DATETIME",
+    "type" : "STRING",
+    "interviewer" : {
+      "email" : "PII_EMAIL",
+      "clientName" : "PII_PERSON_NAME",
+      "auto_renew" : false
+    }
+  } ],
+  "updatedAt" : "DATETIME",
+  "v_source" : "STRING",
+  "v_position" : {
+    "uuid" : "STRING",
+    "location" : "PII_LOCATION_CITY",
+    "title_data" : "STRING"
+  },
+  "candidateId" : "STRING",
+  "is_active" : true,
+  "appliedAt_data" : null,
+  "status" : "STRING",
+  "uuid" : {
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "email" : "PII_EMAIL",
+    "address" : {
+      "v_street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "requires_update" : true,
+      "postalCode_data" : "STRING"
+    },
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "resumeUrl" : "URL",
+    "phone" : "PII_PHONE_NUMBER",
+    "linkedIn" : "URL"
+  }
 }

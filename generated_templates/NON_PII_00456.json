@@ -1,4 +1,13 @@
 {
-  "flowName" : null,
-  "v_clientToken" : "STRING"
+  "cacheKey" : "STRING",
+  "v_hits" : "INT",
+  "lastAccessedAt" : "DATETIME",
+  "region" : "STRING",
+  "fullName" : "STRING",
+  "v_ttl" : "INT",
+  "createdAt" : "DATETIME",
+  "value_data" : {
+    "userId" : "STRING",
+    "expiresAt" : "DATETIME"
+  }
 }

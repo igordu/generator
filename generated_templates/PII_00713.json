@@ -1,42 +1,32 @@
 {
-  "audit_trail" : {
-    "event_data" : {
-      "debug_payload" : {
-        "v_registrants" : [ {
-          "create_time" : "DATETIME",
-          "v_status" : "STRING",
-          "custom_questions_data" : [ {
-            "value" : "STRING",
-            "title" : "STRING"
-          }, {
-            "v_value" : "STRING",
-            "item_count" : 4119,
-            "title" : "STRING"
-          } ],
-          "org" : "PII_ORGANIZATION_NAME",
-          "last_name" : "PII_PERSON_LAST_NAME",
-          "address" : "PII_ADDRESS_LINE",
-          "comments" : "STRING",
-          "first_name" : "PII_PERSON_FIRST_NAME",
-          "purchasing_time_frame" : "STRING",
-          "industry_data" : "STRING",
-          "city" : "PII_LOCATION_CITY",
-          "v_join_url" : "NULL",
-          "job_title" : "STRING",
-          "id" : "STRING",
-          "v_country" : "PII_LOCATION_COUNTRY",
-          "zip" : "STRING",
-          "email" : "PII_EMAIL",
-          "phone" : "PII_PHONE_NUMBER",
-          "state" : "PII_LOCATION_STATE",
-          "retry_attempts" : 4273
-        } ],
-        "page_size" : "INT",
-        "page_number" : "INT",
-        "has_discount" : false,
-        "page_count_data" : "INT",
-        "v_total_records" : "INT"
-      }
+  "api_version_data" : "STRING",
+  "data" : {
+    "cpu_usage_percent" : 82.29,
+    "object" : {
+      "description" : "STRING",
+      "id" : "STRING",
+      "status" : "STRING",
+      "currency_data" : "NULL",
+      "shipping" : {
+        "name" : "PII_PERSON_NAME",
+        "phone" : "PII_PHONE_NUMBER",
+        "v_address" : {
+          "line1" : "PII_ADDRESS_LINE",
+          "postal_code" : "STRING",
+          "country" : "PII_LOCATION_COUNTRY",
+          "state" : "STRING",
+          "city" : "PII_LOCATION_CITY"
+        }
+      },
+      "amount" : "INT",
+      "object" : "STRING",
+      "receipt_email" : "PII_EMAIL",
+      "retry_attempts" : 3545
     }
-  }
+  },
+  "id" : "STRING",
+  "object" : "STRING",
+  "type" : "STRING",
+  "created" : "DATETIME_EPOCH",
+  "livemode" : "BOOLEAN"
 }

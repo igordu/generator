@@ -1,9 +1,24 @@
 {
-  "fullName" : "STRING",
-  "media" : {
-    "page_index" : 4092
+  "anonymized" : "BOOLEAN",
+  "export_id" : "STRING",
+  "gdpr_erasure_applied_data" : "BOOLEAN",
+  "ticket_data" : {
+    "id" : "INT",
+    "requester_data" : {
+      "userName" : "REDACTED",
+      "contactNumber" : "***-***-****",
+      "email" : "[MASKED]",
+      "is_deleted" : false
+    },
+    "status" : "STRING",
+    "v_description" : "TEXT",
+    "v_subject" : "STRING",
+    "satisfaction_rating" : {
+      "score" : "STRING",
+      "comment_data" : "TEXT"
+    },
+    "created_at" : "DATETIME"
   },
-  "shopUrl" : "URL",
-  "conversion_rate" : 195.47,
-  "modelId" : "STRING"
+  "page_index" : 222,
+  "retention_policy" : "STRING"
 }

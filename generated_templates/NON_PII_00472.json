@@ -1,17 +1,14 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "firstReceivedAt" : "DATETIME",
+  "queueName" : "STRING",
+  "originalQueue_data" : "STRING",
+  "lastReceivedAt" : "DATETIME",
+  "body_data" : {
+    "errorCode" : "STRING"
   },
-  "results" : {
-    "audit_trail" : {
-      "transaction_trace" : {
-        "body" : {
-          "temperature_c" : 61.75,
-          "clientToken" : "STRING",
-          "flowName" : "STRING"
-        }
-      }
-    }
-  }
+  "attributes" : {
+    "retryPolicy" : "STRING",
+    "contentType" : "STRING"
+  },
+  "movedToDlqAt" : "DATETIME"
 }

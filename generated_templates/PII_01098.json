@@ -1,35 +1,36 @@
 {
-  "primaryKey" : "INT",
-  "v_following" : "INT",
-  "total_private_repos" : "INT",
-  "public_gists_data" : "INT",
-  "updated_at" : "DATETIME",
-  "starred_url" : "URL",
-  "company" : "PII_ORGANIZATION_NAME",
-  "site_admin" : "BOOLEAN",
-  "name" : "PII_PERSON_NAME",
-  "repos_url_data" : "URL",
-  "two_factor_authentication_data" : "BOOLEAN",
-  "type" : "STRING",
-  "gists_url" : "URL",
-  "email" : "PII_EMAIL",
-  "v_followers_url" : "URL",
-  "disk_usage" : "INT",
-  "url" : "URL",
-  "avatar_url" : "URL",
-  "login" : "STRING",
-  "created_at" : "",
-  "node_id" : "STRING",
-  "gravatar_id" : "STRING",
-  "name_val" : "STRING",
-  "organizations_url" : "URL",
-  "events_url" : "URL",
-  "v_collaborators" : "INT",
-  "html_url" : "URL",
-  "blog_data" : "URL",
-  "followers" : "INT",
-  "location_data" : "PII_LOCATION_CITY",
-  "bio_data" : "PII_ORGANIZATION_NAME",
-  "received_events_url" : "URL",
-  "public_repos" : "INT"
+  "trackingNumber" : "STRING",
+  "estimatedDelivery_data" : "",
+  "recipient" : {
+    "v_address" : {
+      "city" : "PII_LOCATION_CITY",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE",
+      "v_postalCode" : "NULL"
+    },
+    "primary_email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER",
+    "name" : "PII_PERSON_NAME"
+  },
+  "carrier" : "STRING",
+  "v_status" : null,
+  "events_data" : [ {
+    "timestamp" : "DATETIME",
+    "status_data" : "STRING",
+    "location" : "PII_LOCATION_CITY"
+  } ],
+  "v_sender" : {
+    "discount_rate" : 1.88,
+    "address" : "PII_ADDRESS_LINE",
+    "name" : "PII_COMPANY_NAME",
+    "contactEmail" : "PII_EMAIL"
+  },
+  "v_parcels" : [ {
+    "parcelId" : "",
+    "weight_data" : {
+      "value" : "DECIMAL",
+      "unit" : "STRING"
+    },
+    "cache_hit" : false
+  } ]
 }

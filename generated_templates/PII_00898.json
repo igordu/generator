@@ -1,32 +1,43 @@
 {
-  "object" : "STRING",
-  "v_url" : "URL",
-  "data_data" : [ {
-    "id" : "STRING",
-    "preferred_locales_data" : "ARRAY",
-    "v_next_invoice_sequence" : "INT",
-    "v_address" : "NULL",
-    "created" : "DATETIME_EPOCH",
-    "tax_exempt" : "STRING",
-    "metadata" : "OBJECT",
-    "livemode" : "BOOLEAN",
-    "invoice_prefix_data" : "STRING",
-    "shipping" : "NULL",
-    "cpu_usage_percent" : 867.27,
-    "object_data" : "STRING",
-    "contactEmail" : "PII_EMAIL",
-    "delinquent" : "BOOLEAN",
-    "name" : "PII_PERSON_NAME",
-    "balance" : "INT",
-    "phone" : "PII_PHONE_NUMBER",
-    "currency" : "STRING",
-    "v_description" : "STRING",
-    "default_source" : "STRING",
-    "invoice_settings" : {
-      "footer_data" : "STRING",
-      "default_payment_method_data" : "STRING",
-      "custom_fields" : "NULL",
-      "rendering_options" : "NULL"
-    }
-  } ]
+  "address" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY",
+    "postalCode" : "STRING",
+    "street" : "PII_ADDRESS_LINE",
+    "state" : null
+  },
+  "status" : "STRING",
+  "v_emergencyContact" : {
+    "fullName" : "PII_PERSON_NAME",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "employeeId" : "STRING",
+  "hireDate" : "DATE",
+  "terminationDate" : "NULL",
+  "payroll_data" : {
+    "bankName" : "PII_COMPANY_NAME",
+    "accountNumber" : "PII_IBAN",
+    "payFrequency" : "STRING"
+  },
+  "v_jobInfo" : {
+    "v_costCenter" : "STRING",
+    "title" : "STRING",
+    "http_status" : 3491,
+    "department" : "STRING",
+    "managerId" : "STRING"
+  },
+  "personalInfo" : {
+    "http_status" : 2760,
+    "middleName" : "PII_PERSON_FIRST_NAME",
+    "telephone" : "PII_PHONE_NUMBER",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "gender" : "STRING",
+    "personalEmail" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "ssn_data" : "PII_NATIONAL_ID",
+    "email" : "PII_EMAIL"
+  }
 }

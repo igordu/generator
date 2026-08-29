@@ -1,21 +1,63 @@
 {
-  "cpu_usage_percent" : 444.71,
-  "content" : [ {
-    "created" : "DATETIME",
-    "helpfulCount" : "INT",
-    "articleSizeRatings_data" : {
-      "primaryKey" : "INT",
-      "OVERALL" : "INT"
+  "identifier" : {
+    "secondaryPhone" : {
+      "v_countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
     },
-    "language" : "",
-    "unhelpfulCount" : "INT",
-    "title_data" : "PII_COMPANY_NAME",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "recordId" : "STRING",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "primaryKey" : "STRING",
-    "rating" : "NULL",
-    "recommend_data" : "BOOLEAN",
-    "reviewId" : "STRING"
-  } ]
+    "priority_level" : 1134,
+    "firstName" : "PII_PERSON_NAME",
+    "lastName" : "PII_PERSON_NAME",
+    "emailAddress" : "PII_EMAIL",
+    "primaryPhone" : {
+      "v_number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING",
+      "countryCode_data" : "STRING"
+    },
+    "registrationAddress" : {
+      "addressLine1" : "STRING",
+      "city" : "STRING",
+      "country" : "STRING",
+      "http_status" : 2601,
+      "postalCode" : null,
+      "addressLine2" : "STRING",
+      "stateOrProvince" : "NULL",
+      "county" : "STRING"
+    }
+  },
+  "businessAccount" : {
+    "doingBusinessAs_data" : "",
+    "fullName" : "PII_ORGANIZATION_NAME",
+    "v_address" : {
+      "city" : "STRING",
+      "system_ping_ms" : 479,
+      "country" : "STRING",
+      "addressLine2" : "STRING",
+      "addressLine1" : "STRING",
+      "v_postalCode" : "STRING",
+      "stateOrProvince" : "STRING"
+    },
+    "mobile" : {
+      "contactNumber" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "v_countryCode" : "STRING"
+    },
+    "website_data" : "URL",
+    "primaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "phoneType" : ""
+    },
+    "primary_email" : "PII_EMAIL",
+    "primaryContact" : {
+      "lastName" : "PII_PERSON_NAME",
+      "firstName" : "PII_PERSON_NAME"
+    }
+  },
+  "userId" : "STRING",
+  "status_data" : "STRING",
+  "stock_quantity" : 4715,
+  "accountType" : "STRING",
+  "registrationMarketplaceId" : "STRING",
+  "username" : "PII_USERNAME"
 }

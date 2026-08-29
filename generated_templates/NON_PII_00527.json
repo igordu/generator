@@ -1,49 +1,20 @@
-[ {
-  "v_avatarUrls" : {
-    "response_time_sec" : 1.88,
-    "32x32" : "URL",
-    "v_16x16" : "URL",
-    "48x48_data" : "URL",
-    "24x24" : "URL"
+{
+  "createdAt" : "DATETIME",
+  "chatId" : "STRING",
+  "model" : "STRING",
+  "conversion_rate" : 1.94,
+  "v_messages" : [ {
+    "v_content" : "STRING",
+    "timestamp" : "DATETIME"
+  } ],
+  "metadata" : {
+    "sessionId" : "STRING",
+    "agentId" : "STRING",
+    "response_time_sec" : 0.08
   },
-  "self" : "URL",
-  "simplified" : "BOOLEAN",
-  "style" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime_data" : "DATETIME",
-    "conversion_rate" : 986.21
-  },
-  "v_projectCategory" : {
-    "description_data" : "STRING",
-    "id" : "",
-    "self" : "URL"
-  },
-  "identifier" : "STRING",
-  "key" : "STRING",
-  "fullName" : ""
-}, {
-  "projectCategory" : {
-    "temperature_c" : 143.31,
-    "name" : "STRING",
-    "id" : "NULL",
-    "description" : "NULL"
-  },
-  "identifier" : "STRING",
-  "name" : "STRING",
-  "avatarUrls" : {
-    "24x24" : "URL",
-    "auto_renew" : false,
-    "v_48x48" : "URL",
-    "16x16" : "URL"
-  },
-  "style" : "STRING",
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "v_totalIssueCount" : "INT",
-    "has_discount" : true
-  },
-  "key" : null,
-  "simplified" : "BOOLEAN",
-  "self" : "URL"
-} ]
+  "usage" : {
+    "inputTokens_data" : "INT",
+    "outputTokens" : "INT",
+    "has_discount" : false
+  }
+}

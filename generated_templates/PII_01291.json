@@ -1,76 +1,25 @@
-[ {
-  "sha" : "STRING",
-  "v_author" : {
-    "type" : "STRING",
-    "gists_url_data" : "URL",
-    "repos_url_data" : null,
-    "organizations_url" : "URL",
-    "gravatar_id" : "STRING",
-    "subscriptions_url_data" : "URL",
-    "node_id" : "STRING",
-    "id" : "INT",
-    "v_login" : "STRING",
-    "received_events_url" : "URL",
-    "starred_url" : "URL",
-    "following_url" : "URL",
-    "url" : "URL",
-    "html_url" : "URL",
-    "events_url" : "URL"
+{
+  "handledBy_data" : {
+    "email" : "PII_EMAIL",
+    "response_time_sec" : 17.82,
+    "agentId" : "STRING"
   },
-  "url" : "URL",
-  "parents" : [ {
-    "sha" : "STRING"
-  } ],
-  "v_comments_url" : "URL",
-  "v_commit" : {
-    "v_comment_count" : "INT",
-    "committer" : {
-      "date" : "DATETIME",
-      "email" : "PII_EMAIL",
-      "http_status" : 4864,
-      "name" : "PII_PERSON_NAME"
-    },
-    "author" : {
-      "date" : "DATETIME",
-      "name" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "auto_renew" : true
-    },
-    "discount_rate" : 110.81,
-    "verification" : {
-      "reason" : "STRING",
-      "verified_at" : "DATETIME",
-      "verified" : "BOOLEAN",
-      "payload" : "STRING"
-    },
-    "tree" : {
-      "url_data" : "URL",
-      "cpu_usage_percent" : 807.53,
-      "sha" : "STRING"
-    },
-    "v_url" : "URL",
-    "v_message" : "PII_COMPANY_NAME"
+  "requestedBy" : "PII_EMAIL",
+  "v_status" : "NULL",
+  "type" : "",
+  "v_requestedAt" : "DATETIME",
+  "v_downloadUrl" : "URL",
+  "dataCategories" : [ "STRING" ],
+  "completedAt" : "DATETIME",
+  "dataSubject_data" : {
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "country" : "PII_LOCATION_COUNTRY",
+    "emailAddress" : "PII_EMAIL",
+    "discount_rate" : 39.82,
+    "identifier" : "STRING",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME"
   },
-  "committer" : {
-    "starred_url" : null,
-    "v_followers_url" : "URL",
-    "v_url" : "URL",
-    "node_id" : "",
-    "v_repos_url" : "URL",
-    "v_avatar_url" : "URL",
-    "received_events_url" : "URL",
-    "subscriptions_url" : "URL",
-    "following_url" : "URL",
-    "html_url" : "URL",
-    "gists_url" : "URL",
-    "events_url_data" : "URL",
-    "id" : "INT",
-    "primaryKey" : "STRING",
-    "temperature_c" : 941.57,
-    "organizations_url" : "URL",
-    "type" : "STRING",
-    "login" : "STRING"
-  },
-  "node_id" : "STRING",
-  "html_url_data" : "URL"
-} ]
+  "reportId" : "STRING",
+  "deliveredVia" : "STRING"
+}

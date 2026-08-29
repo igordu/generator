@@ -1,77 +1,38 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "diagnosis" : [ {
+    "v_type" : "STRING",
+    "description" : "STRING",
+    "priority_level" : 1020,
+    "system" : "STRING"
+  } ],
+  "encounterId" : "STRING",
+  "primaryKey" : "STRING",
+  "referral_data" : {
+    "urgency" : "STRING"
   },
-  "results" : [ {
-    "commit" : {
-      "comment_count_data" : "INT",
-      "committer" : {
-        "email" : "PII_EMAIL",
-        "date" : "DATETIME",
-        "name" : "PII_PERSON_NAME"
-      },
-      "message_data" : "PII_COMPANY_NAME",
-      "author" : {
-        "name" : "PII_PERSON_NAME",
-        "date" : "DATETIME",
-        "email" : "PII_EMAIL"
-      },
-      "url_data" : "URL",
-      "tree" : {
-        "url" : "URL",
-        "is_deleted" : false
-      },
-      "verification" : {
-        "payload" : "STRING",
-        "verified_at" : "DATETIME",
-        "reason" : "STRING",
-        "verified" : "BOOLEAN",
-        "signature" : "STRING"
-      }
+  "date" : "DATE",
+  "conversion_rate" : 3.03,
+  "encounterType" : "STRING",
+  "patient" : {
+    "gender" : "STRING",
+    "email" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "address_data" : {
+      "city" : "PII_LOCATION_CITY",
+      "street" : "PII_ADDRESS_LINE",
+      "response_time_sec" : 1.41,
+      "country" : "PII_LOCATION_COUNTRY",
+      "postalCode" : "STRING"
     },
-    "v_sha" : "STRING",
-    "node_id" : "NULL",
-    "committer" : {
-      "url" : "URL",
-      "v_events_url" : "NULL",
-      "node_id" : "STRING",
-      "v_login" : "NULL",
-      "primaryKey" : "INT",
-      "following_url" : "URL",
-      "avatar_url" : "URL",
-      "gravatar_id" : "STRING",
-      "received_events_url" : "URL",
-      "html_url" : "URL",
-      "starred_url_data" : "URL",
-      "gists_url" : "URL",
-      "v_followers_url" : "URL",
-      "site_admin_data" : "BOOLEAN",
-      "v_subscriptions_url" : "URL",
-      "repos_url_data" : "URL",
-      "organizations_url" : "URL"
-    },
-    "html_url_data" : "URL",
-    "parents_data" : [ {
-      "url" : "URL"
-    } ],
-    "v_author" : {
-      "v_url" : null,
-      "repos_url" : "URL",
-      "gists_url_data" : "URL",
-      "received_events_url_data" : "URL",
-      "gravatar_id" : "NULL",
-      "v_html_url" : "URL",
-      "primaryKey" : "INT",
-      "v_followers_url" : "",
-      "site_admin" : "BOOLEAN",
-      "organizations_url_data" : "URL",
-      "v_type" : "STRING",
-      "v_subscriptions_url" : "URL",
-      "node_id" : "STRING",
-      "starred_url_data" : "URL",
-      "avatar_url" : "URL",
-      "v_following_url" : "URL"
-    }
+    "phone" : "PII_PHONE_NUMBER",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "taxCode" : "PII_NATIONAL_ID"
+  },
+  "prescriptions" : [ {
+    "durationDays" : "INT",
+    "drugName" : "STRING",
+    "dose" : "STRING",
+    "frequency_data" : null
   } ]
 }

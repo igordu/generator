@@ -1,11 +1,14 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "region" : "STRING",
+  "hits" : "INT",
+  "lastAccessedAt" : "DATETIME",
+  "namespace" : "STRING",
+  "value" : {
+    "userId" : "STRING",
+    "auto_renew" : false,
+    "roles_data" : [ "STRING" ]
   },
-  "results" : {
-    "flowName" : "STRING",
-    "clientToken" : "",
-    "item_count" : 4475
-  }
+  "createdAt" : "DATETIME",
+  "cacheKey" : "STRING",
+  "ttl" : "INT"
 }

@@ -1,33 +1,17 @@
 {
-  "page_number" : "INT",
-  "total_records" : "INT",
-  "registrants" : [ {
-    "join_url" : "URL",
-    "address_data" : "PII_ADDRESS_LINE",
-    "state" : "PII_LOCATION_STATE",
-    "last_name" : "PII_PERSON_LAST_NAME",
-    "org" : "PII_ORGANIZATION_NAME",
-    "industry" : "STRING",
-    "role_in_purchase_process" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "status_data" : "STRING",
-    "primary_email" : "PII_EMAIL",
-    "job_title" : "STRING",
-    "city" : "PII_LOCATION_CITY",
-    "no_of_employees_data" : "STRING",
-    "create_time" : "DATETIME",
-    "zip" : "STRING",
-    "userName" : "PII_PERSON_FIRST_NAME",
-    "custom_questions" : [ {
-      "title" : "STRING",
-      "temperature_c" : 902.85,
-      "v_value" : "STRING"
-    }, {
-      "value" : "STRING",
-      "title" : "STRING"
-    } ],
-    "country" : "PII_LOCATION_COUNTRY",
-    "comments" : ""
+  "start" : "DATETIME",
+  "participant" : [ {
+    "has_discount" : false,
+    "actor" : {
+      "display" : "PII_PERSON_NAME",
+      "reference" : "STRING",
+      "is_deleted" : false
+    },
+    "status" : "STRING"
   } ],
-  "is_active" : true
+  "comment" : "STRING",
+  "resourceType" : "STRING",
+  "id" : "STRING",
+  "cache_hit" : false,
+  "status" : "STRING"
 }

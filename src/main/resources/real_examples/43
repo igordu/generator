@@ -1,0 +1,19 @@
+{
+  "warehouse_id": "WH-EU-FRANKFURT-01",
+  "location_code": "RACK-B12-SHELF-3",
+  "sku": "WHP-BLK-PRO-001",
+  "product_name": "Wireless Headphones Pro Black",
+  "quantity_on_hand": 342,
+  "quantity_reserved": 27,
+  "quantity_available": 315,
+  "reorder_point": 50,
+  "reorder_quantity": 200,
+  "last_received_at": "2024-03-28T06:00:00Z",
+  "last_counted_at": "2024-04-01T22:00:00Z",
+  "unit_cost": 4500,
+  "currency": "EUR",
+  "batch_number": "BATCH-2024-0312",
+  "expiry_date": null,
+  "is_hazardous": false,
+  "tags": ["electronics", "audio", "premium"]
+}

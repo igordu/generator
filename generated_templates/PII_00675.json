@@ -1,44 +1,73 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "DateTimeUTC" : "DATETIME",
-    "Employees_data" : [ {
-      "has_discount" : false,
-      "v_Status" : "STRING",
-      "UpdatedDateUTC_data" : "DATETIME",
-      "LastName" : "PII_PERSON_LAST_NAME",
-      "userName" : "PII_PERSON_FIRST_NAME",
-      "uuid" : "STRING",
-      "ExternalLink" : {
-        "system_ping_ms" : 1820,
-        "Description" : "STRING",
-        "Url_data" : "URL"
+  "Employment_Data_data" : {
+    "priority_level" : 4162,
+    "Worker_Job_Data" : {
+      "Position_Data" : {
+        "temperature_c" : 22.72,
+        "Position_ID" : "STRING",
+        "Business_Title" : "STRING",
+        "Job_Title" : "STRING"
+      },
+      "http_status" : 762
+    }
+  },
+  "Worker_ID" : "STRING",
+  "Personal_Data" : {
+    "response_time_sec" : 26.44,
+    "Contact_Data" : {
+      "Phone_Data" : [ {
+        "Phone_Device_Type_Reference" : {
+          "WID" : "STRING",
+          "page_index" : 1220
+        },
+        "requires_update" : true,
+        "Phone_Number" : "PII_PHONE_NUMBER"
+      } ],
+      "Address_Data" : [ {
+        "Municipality" : "PII_LOCATION_CITY",
+        "Postal_Code" : "STRING",
+        "Country_Reference" : {
+          "ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        },
+        "Address_Line_Data" : [ {
+          "Type" : "STRING",
+          "content" : "PII_ADDRESS_LINE"
+        } ],
+        "Usage_Data" : {
+          "Type_Data_data" : [ {
+            "Type_Reference" : {
+              "WID" : "STRING",
+              "temperature_c" : -4.22
+            },
+            "retry_attempts" : 699
+          } ],
+          "requires_update" : false
+        }
+      } ],
+      "price" : 4197.79,
+      "Email_Address_Data" : [ {
+        "Email_Address" : "PII_EMAIL"
+      } ]
+    },
+    "Identification_Data" : {
+      "recordId" : [ {
+        "National_ID" : "PII_NATIONAL_ID",
+        "recordId" : { },
+        "Country_Reference" : {
+          "v_ISO_3166_1_Alpha_2_Code" : "PII_LOCATION_COUNTRY"
+        }
+      } ],
+      "Birth_Date" : "PII_DATE_OF_BIRTH"
+    },
+    "clientName" : {
+      "Legal_Name_Data" : {
+        "Name_Detail_Data" : {
+          "fullName" : "PII_PERSON_FIRST_NAME",
+          "http_status" : 1441,
+          "Middle_Name" : "PII_PERSON_FIRST_NAME",
+          "Last_Name" : "PII_PERSON_LAST_NAME"
+        }
       }
-    }, {
-      "ExternalLink" : {
-        "auto_renew" : false,
-        "v_Description" : "STRING",
-        "Url" : "URL"
-      },
-      "UpdatedDateUTC" : "DATETIME",
-      "EmployeeID" : "STRING",
-      "v_Status" : "STRING",
-      "name_val" : "PII_PERSON_LAST_NAME",
-      "clientName" : "PII_PERSON_FIRST_NAME"
-    }, {
-      "LastName" : "PII_PERSON_LAST_NAME",
-      "v_UpdatedDateUTC" : "DATETIME",
-      "response_time_sec" : 149.38,
-      "ExternalLink" : {
-        "Description" : "STRING"
-      },
-      "EmployeeID" : "STRING",
-      "Status" : "STRING",
-      "clientName" : "PII_PERSON_FIRST_NAME"
-    } ],
-    "Id" : "STRING",
-    "Status" : "STRING",
-    "ProviderName" : "STRING"
+    }
   }
 }

@@ -1,70 +1,29 @@
-[ {
-  "committer" : {
-    "html_url" : "URL",
-    "uuid" : "STRING",
-    "v_starred_url" : "URL",
-    "repos_url" : "URL",
-    "followers_url" : "URL",
-    "type" : "STRING",
-    "login" : "STRING",
-    "received_events_url" : "URL",
-    "gists_url" : "URL",
-    "id" : "INT",
-    "avatar_url" : "URL",
-    "subscriptions_url" : "URL",
-    "v_following_url" : "URL",
-    "url" : "URL",
-    "primaryKey" : "STRING",
-    "site_admin" : "BOOLEAN"
-  },
-  "sha" : "STRING",
-  "commit" : {
-    "author" : {
-      "date" : "DATETIME",
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "downloadUrl" : "URL",
+    "requestedAt" : "DATETIME",
+    "status" : "STRING",
+    "completedAt_data" : "DATETIME",
+    "dataSubject" : {
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "userName" : "PII_PERSON_LAST_NAME",
+      "has_discount" : true,
+      "id" : "STRING",
       "email" : "PII_EMAIL",
-      "clientName" : "PII_PERSON_NAME"
+      "fullName" : "PII_PERSON_FIRST_NAME",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH"
     },
-    "comment_count" : "INT",
-    "tree" : {
-      "v_sha" : "STRING",
-      "url" : "URL",
-      "cpu_usage_percent" : 578.28
-    },
-    "v_message" : "PII_COMPANY_NAME",
-    "url" : "URL",
-    "committer" : {
+    "legalBasis" : "STRING",
+    "discount_rate" : 91.1,
+    "handledBy" : {
+      "agentId" : "STRING",
       "email" : "PII_EMAIL",
-      "name" : "PII_PERSON_NAME",
-      "date" : "DATETIME"
-    }
-  },
-  "parents" : [ {
-    "retry_attempts" : 16,
-    "url" : "URL",
-    "sha" : "STRING"
-  } ],
-  "cache_hit" : false,
-  "node_id" : "STRING",
-  "html_url" : "URL",
-  "author" : {
-    "received_events_url" : "URL",
-    "avatar_url_data" : "URL",
-    "organizations_url" : "URL",
-    "repos_url" : "URL",
-    "page_index" : 1247,
-    "gravatar_id" : "STRING",
-    "following_url_data" : "URL",
-    "url" : "NULL",
-    "v_login" : "STRING",
-    "subscriptions_url_data" : "URL",
-    "v_html_url" : "URL",
-    "followers_url" : "URL",
-    "v_gists_url" : "URL",
-    "type" : "STRING",
-    "site_admin" : "BOOLEAN",
-    "id" : "INT",
-    "node_id" : "STRING",
-    "starred_url" : "URL"
-  },
-  "url" : "URL"
-} ]
+      "is_active" : false
+    },
+    "requestedBy_data" : "PII_EMAIL",
+    "dataCategories" : [ "STRING" ],
+    "deliveredVia" : "STRING"
+  }
+}

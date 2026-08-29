@@ -1,0 +1,28 @@
+{
+  "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+  "name": "ml-inference-pipeline",
+  "description": "Production ML inference pipeline for recommendation engine",
+  "status": "active",
+  "created_at": "2024-01-15T10:00:00Z",
+  "updated_at": "2024-04-01T08:30:00Z",
+  "owner": {
+    "id": "usr-abc123",
+    "email": "mlops@company.com",
+    "team": "ML Platform"
+  },
+  "schedule": "0 */6 * * *",
+  "last_run": {
+    "id": "run-20240410-001",
+    "status": "success",
+    "started_at": "2024-04-10T06:00:00Z",
+    "finished_at": "2024-04-10T06:14:23Z",
+    "records_processed": 1482930
+  },
+  "config": {
+    "source": "s3://data-lake/features/",
+    "destination": "s3://model-outputs/predictions/",
+    "model_version": "v2.4.1",
+    "batch_size": 512,
+    "timeout_seconds": 1800
+  }
+}

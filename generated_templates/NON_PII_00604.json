@@ -1,3 +1,13 @@
 {
-  "emailAddress" : [ "STRING" ]
+  "completedAt" : "DATETIME",
+  "retentionDays" : "INT",
+  "encryptionKeyId" : "NULL",
+  "region" : "STRING",
+  "startedAt" : "DATETIME",
+  "status" : "STRING",
+  "type" : "STRING",
+  "database" : "NULL",
+  "cluster" : "STRING",
+  "snapshotId" : "STRING",
+  "sizeGb" : "DECIMAL"
 }

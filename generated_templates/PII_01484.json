@@ -1,0 +1,10 @@
+{
+  "v_status" : "STRING",
+  "artifactDigest" : "STRING",
+  "v_triggeredBy" : "PII_EMAIL",
+  "environment" : null,
+  "startedAt" : "DATETIME",
+  "commit" : "STRING",
+  "finishedAt" : "DATETIME",
+  "repository" : "NULL"
+}

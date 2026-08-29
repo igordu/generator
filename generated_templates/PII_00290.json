@@ -1,78 +1,31 @@
 {
-  "prev" : "STRING",
-  "v_next" : "STRING",
-  "v_total" : "INT",
-  "v_href" : "STRING",
-  "offset" : "INT",
-  "transactions" : [ {
-    "bookingEntry" : "STRING",
-    "paymentsEntity" : "STRING",
-    "feeType" : "STRING",
-    "v_orderLineItems" : [ {
-      "is_active" : false,
-      "marketplaceFees_data" : [ {
-        "feeMemo" : "STRING",
-        "v_amount" : {
-          "conversion_rate" : 813.75,
-          "convertedFromValue" : "STRING",
-          "exchangeRate" : "STRING",
-          "convertedFromCurrency" : "STRING"
-        },
-        "v_feeType" : "NULL",
-        "feeJurisdiction" : {
-          "regionName" : "STRING"
-        },
-        "cpu_usage_percent" : 703.6
-      } ],
-      "identifier" : "STRING",
-      "feeBasisAmount_data" : {
-        "convertedFromCurrency" : "STRING",
-        "exchangeRate" : "STRING",
-        "currency_data" : "STRING",
-        "convertedFromValue" : "STRING",
-        "v_value" : "STRING"
-      }
-    } ],
-    "totalFeeAmount" : {
-      "convertedFromCurrency" : "STRING",
-      "currency" : "STRING",
-      "convertedFromValue_data" : "STRING",
-      "exchangeRate" : "STRING",
-      "value" : "STRING"
+  "data" : [ {
+    "test_clock" : "NULL",
+    "phone" : "PII_PHONE_NUMBER",
+    "metadata" : "OBJECT",
+    "v_description" : "STRING",
+    "object" : "STRING",
+    "userName" : "PII_PERSON_NAME",
+    "mail" : "PII_EMAIL",
+    "id" : "STRING",
+    "tax_exempt_data" : "NULL",
+    "balance" : "INT",
+    "v_livemode" : "BOOLEAN",
+    "v_preferred_locales" : "ARRAY",
+    "v_created" : "DATETIME_EPOCH",
+    "shipping" : "NULL",
+    "invoice_settings" : {
+      "default_payment_method" : "STRING",
+      "conversion_rate" : 3.14,
+      "footer" : "STRING",
+      "rendering_options" : "NULL",
+      "custom_fields" : null
     },
-    "amount" : {
-      "convertedFromCurrency" : "STRING",
-      "exchangeRate" : "STRING",
-      "value" : "STRING",
-      "convertedFromValue" : "STRING",
-      "v_currency" : "STRING",
-      "auto_renew" : true
-    },
-    "feeJurisdiction_data" : {
-      "regionType" : "STRING",
-      "clientName" : "STRING"
-    },
-    "v_buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "orderId" : "",
-    "salesRecordReference" : "STRING",
-    "payoutId" : "STRING",
-    "references_data" : [ {
-      "referenceType" : "STRING",
-      "has_discount" : false,
-      "primaryKey" : "STRING"
-    } ],
-    "transactionType_data" : "STRING",
-    "transactionId" : "STRING",
-    "temperature_c" : 341.14,
-    "v_transactionDate" : "DATETIME",
-    "totalFeeBasisAmount_data" : {
-      "value_data" : "NULL",
-      "v_currency" : "STRING",
-      "v_convertedFromCurrency" : "STRING",
-      "convertedFromValue" : "STRING"
-    }
+    "v_invoice_prefix" : "STRING",
+    "currency" : "STRING",
+    "default_source" : "STRING"
   } ],
-  "price" : 949.72
+  "has_more" : "BOOLEAN",
+  "v_url" : "NULL",
+  "object" : "STRING"
 }

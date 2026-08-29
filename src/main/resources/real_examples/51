@@ -1,0 +1,30 @@
+{
+  "claimId": "CLM-2024-08821",
+  "policyNumber": "POL-HOME-00394821",
+  "policyHolder": {
+    "firstName": "Sandra",
+    "lastName": "Okafor",
+    "dateOfBirth": "1979-11-08",
+    "email": "sandra.okafor@email.com",
+    "phone": "+1-617-555-0144",
+    "address": {
+      "street": "22 Beacon Hill Rd",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02108",
+      "country": "US"
+    }
+  },
+  "claimType": "property_damage",
+  "incidentDate": "2024-03-15",
+  "reportedDate": "2024-03-16",
+  "description": "Water damage to kitchen and living room due to burst pipe.",
+  "estimatedLoss": 18500.00,
+  "currency": "USD",
+  "status": "under_review",
+  "adjuster": {
+    "id": "ADJ-0091",
+    "name": "Tom Bradley",
+    "email": "t.bradley@insurance.example.com"
+  }
+}

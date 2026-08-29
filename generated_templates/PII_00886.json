@@ -1,80 +1,44 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "employeeId" : "STRING",
+  "jobInfo" : {
+    "employmentType_data" : "STRING",
+    "title" : "STRING",
+    "priority_level" : 2799
   },
-  "results" : {
-    "email_notification" : {
-      "schedule_for_reminder" : "BOOLEAN",
-      "cancel_meeting_reminder" : "BOOLEAN"
-    },
-    "telephony" : {
-      "page_index" : 1817,
-      "third_party_audio_data" : "BOOLEAN",
-      "audio_conference_info_data" : "NULL",
-      "show_international_numbers_link" : "BOOLEAN"
-    },
-    "in_meeting" : {
-      "chat" : "BOOLEAN",
-      "virtual_background_data" : "BOOLEAN",
-      "custom_data_center_regions_data" : "BOOLEAN",
-      "allow_live_streaming" : "BOOLEAN",
-      "v_annotation" : "BOOLEAN",
-      "v_show_meeting_control_toolbar" : "BOOLEAN",
-      "non_verbal_feedback" : "BOOLEAN",
-      "auto_saving_chat_data" : "BOOLEAN",
-      "private_chat" : "BOOLEAN",
-      "v_waiting_room" : "BOOLEAN",
-      "attendee_on_hold" : "BOOLEAN",
-      "co_host_data" : "BOOLEAN",
-      "far_end_camera_control" : "BOOLEAN",
-      "remote_support" : "BOOLEAN",
-      "entry_exit_chime" : "STRING",
-      "data_center_regions" : "ARRAY",
-      "remote_control" : "BOOLEAN",
-      "feedback" : "BOOLEAN",
-      "polling_data" : "BOOLEAN",
-      "breakout_room" : "BOOLEAN",
-      "v_e2e_encryption" : "BOOLEAN",
-      "retry_attempts" : 832,
-      "record_play_voice_data" : "BOOLEAN",
-      "group_hd_data" : "BOOLEAN",
-      "closed_caption" : "BOOLEAN"
-    },
-    "tsp" : {
-      "call_out_countries" : "ARRAY",
-      "call_out_data" : "BOOLEAN",
-      "show_international_numbers_link" : "BOOLEAN"
-    },
-    "schedule_meeting" : {
-      "pmi_password" : "PII_PASSWORD",
-      "embed_password_in_join_link" : "BOOLEAN",
-      "join_before_host" : "BOOLEAN",
-      "use_pmi_for_scheduled_meetings" : "NULL",
-      "host_video" : "BOOLEAN",
-      "force_pmi_jbh_password" : "BOOLEAN",
-      "v_require_password_for_pmi_meetings" : "STRING",
-      "meeting_password_requirement_data" : {
-        "item_count" : 3866,
-        "v_length" : "INT",
-        "only_allow_numeric_data" : "BOOLEAN",
-        "have_number" : "BOOLEAN",
-        "have_special_character_data" : "BOOLEAN",
-        "have_letter" : "BOOLEAN"
-      },
-      "v_require_password_for_scheduling_new_meetings" : "BOOLEAN",
-      "participants_video" : "BOOLEAN",
-      "pstn_password_protected" : "BOOLEAN",
-      "not_store_meeting_topic" : "BOOLEAN",
-      "use_pmi_for_instant_meetings" : "BOOLEAN"
-    },
-    "feature" : {
-      "webinar" : "BOOLEAN",
-      "cn_meeting" : "BOOLEAN",
-      "in_meeting" : "BOOLEAN",
-      "discount_rate" : 652.74,
-      "cell" : "BOOLEAN"
-    },
-    "auto_renew" : false
+  "status_data" : "STRING",
+  "address" : {
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "v_postalCode" : "STRING",
+    "street" : "PII_ADDRESS_LINE",
+    "v_city" : "PII_LOCATION_CITY",
+    "state" : "STRING"
+  },
+  "v_personalInfo" : {
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "contactEmail" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "gender" : "STRING",
+    "middleName" : "PII_PERSON_FIRST_NAME",
+    "personalEmail" : "PII_EMAIL",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "ssn_data" : "PII_NATIONAL_ID",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "v_hireDate" : "DATE",
+  "is_deleted" : false,
+  "v_terminationDate" : "NULL",
+  "emergencyContact" : {
+    "relationship" : "STRING",
+    "cell" : "PII_PHONE_NUMBER",
+    "fullName" : "PII_PERSON_NAME"
+  },
+  "payroll" : {
+    "salary" : "INT",
+    "payFrequency" : "STRING",
+    "price" : 285.34,
+    "userName" : "PII_COMPANY_NAME",
+    "accountNumber" : "PII_IBAN"
   }
 }

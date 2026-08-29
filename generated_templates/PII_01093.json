@@ -1,15 +1,40 @@
 {
-  "last4" : "STRING",
-  "v_routing_number" : "STRING",
-  "account_holder_type" : "STRING",
-  "id" : "STRING",
-  "v_fingerprint" : null,
-  "userName" : "STRING",
-  "has_discount" : false,
-  "account_holder_name" : "PII_PERSON_NAME",
-  "metadata" : "OBJECT",
-  "object" : "STRING",
-  "customer" : "STRING",
-  "account_type" : "STRING",
-  "v_country" : "STRING"
+  "deliveryId" : "STRING",
+  "discount_rate" : 19.96,
+  "events" : [ {
+    "timestamp_data" : "DATETIME",
+    "v_status" : "NULL",
+    "has_discount" : false,
+    "location" : "PII_LOCATION_CITY"
+  } ],
+  "v_parcels" : [ {
+    "conversion_rate" : 7.21,
+    "parcelId" : "STRING",
+    "weight" : {
+      "v_value" : "DECIMAL",
+      "unit" : ""
+    }
+  } ],
+  "status" : "STRING",
+  "sender" : {
+    "name" : "PII_COMPANY_NAME",
+    "contactEmail" : "PII_EMAIL",
+    "v_address" : "PII_ADDRESS_LINE"
+  },
+  "recipient_data" : {
+    "deliveryInstructions" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "cache_hit" : false,
+    "address" : {
+      "v_postalCode" : "STRING",
+      "city" : "PII_LOCATION_CITY",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "street" : "PII_ADDRESS_LINE"
+    }
+  },
+  "trackingNumber" : "NULL",
+  "carrier_data" : "STRING",
+  "estimatedDelivery" : "DATE"
 }

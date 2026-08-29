@@ -1,34 +1,47 @@
 {
-  "object" : "STRING",
-  "data" : [ {
-    "v_tax_exempt" : "STRING",
-    "has_discount" : false,
-    "v_delinquent" : "BOOLEAN",
-    "invoice_prefix" : "STRING",
-    "metadata" : "OBJECT",
-    "address_data" : "NULL",
-    "test_clock" : "NULL",
-    "default_source" : "STRING",
-    "description" : null,
-    "object" : "STRING",
-    "v_shipping" : "NULL",
-    "next_invoice_sequence" : "INT",
+  "employeeId" : "STRING",
+  "terminationDate" : "NULL",
+  "emergencyContact" : {
+    "discount_rate" : 28.62,
+    "relationship" : "STRING",
     "phone" : "PII_PHONE_NUMBER",
-    "invoice_settings" : {
-      "custom_fields_data" : "NULL",
-      "default_payment_method" : "STRING",
-      "rendering_options_data" : "NULL",
-      "footer" : "STRING",
-      "is_deleted" : true
-    },
-    "created" : "DATETIME_EPOCH",
-    "livemode" : "BOOLEAN",
-    "v_currency" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "balance" : null,
-    "id" : null,
-    "email" : "PII_EMAIL"
-  } ],
-  "url" : "URL",
-  "has_more" : "BOOLEAN"
+    "name" : "PII_PERSON_NAME"
+  },
+  "v_jobInfo" : {
+    "department" : "STRING",
+    "v_title" : "",
+    "managerId" : "STRING",
+    "employmentType" : "STRING",
+    "item_count" : 3474,
+    "costCenter_data" : "STRING"
+  },
+  "status" : "STRING",
+  "v_personalInfo" : {
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "personalEmail" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "v_gender" : "STRING",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "primary_email" : "PII_EMAIL",
+    "ssn" : "PII_NATIONAL_ID"
+  },
+  "hireDate_data" : "DATE",
+  "address" : {
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "v_state" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "postalCode" : "STRING",
+    "street" : "PII_ADDRESS_LINE",
+    "auto_renew" : true
+  },
+  "payroll" : {
+    "bankName" : "PII_COMPANY_NAME",
+    "accountNumber_data" : "PII_IBAN",
+    "payFrequency_data" : null,
+    "salary" : "INT"
+  }
 }

@@ -1,17 +1,30 @@
-[ {
-  "simplified_data" : "BOOLEAN",
-  "clientName" : "STRING",
-  "avatarUrls" : {
-    "16x16" : "URL",
-    "48x48_data" : "URL",
-    "32x32" : "",
-    "v_24x24" : "URL"
+{
+  "source" : {
+    "table" : "STRING",
+    "host" : "STRING",
+    "type" : "STRING",
+    "requires_update" : true,
+    "database" : "STRING"
   },
-  "v_key" : "STRING",
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
+  "triggeredBy" : "STRING",
+  "startedAt" : "DATETIME",
+  "durationSeconds" : "INT",
+  "status" : "STRING",
+  "name_val" : "STRING",
+  "stats" : {
+    "v_recordsSkipped" : "INT",
+    "recordsWritten_data" : "INT",
+    "bytesTransferred" : "NULL",
+    "recordsRead" : "INT",
+    "temperature_c" : 16.67
   },
-  "style" : "STRING",
-  "self" : "URL"
-} ]
+  "nextRunAt" : "DATETIME",
+  "taskId" : "STRING",
+  "destination" : {
+    "dataset" : "STRING",
+    "cpu_usage_percent" : 66.62,
+    "table" : "STRING",
+    "project" : "STRING",
+    "type" : null
+  }
+}

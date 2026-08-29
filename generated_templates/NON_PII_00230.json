@@ -1,34 +1,22 @@
-[ {
-  "system_ping_ms" : 2289,
-  "filter_data" : "STRING"
-}, {
-  "filter" : "STRING",
-  "facets" : [ {
-    "is_active" : false,
-    "v_count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "count" : "INT",
-    "key" : "STRING"
-  }, {
-    "displayName" : "STRING",
-    "key_data" : "STRING",
-    "count" : "INT"
-  } ]
-}, {
-  "facets_data" : [ {
-    "v_key" : "STRING",
-    "price" : 922.99,
-    "displayName" : null,
-    "v_count" : "INT"
-  }, {
-    "displayName" : "STRING",
-    "count" : "INT",
-    "requires_update" : false
-  }, {
-    "key_data" : "STRING",
-    "displayName" : "STRING"
-  } ],
-  "v_filter" : "STRING"
-} ]
+{
+  "last_run_data" : "DATETIME",
+  "log_line" : "TEXT",
+  "service_data" : "STRING",
+  "endpoint" : "URL",
+  "v_environment" : "STRING",
+  "last_status" : "STRING",
+  "v_connection" : {
+    "pool_size" : "INT",
+    "retries" : "INT",
+    "requires_update" : false,
+    "timeout_ms" : null
+  },
+  "auth" : {
+    "price" : 8421.49,
+    "client_secret" : "[MASKED]",
+    "password" : "********",
+    "token_expires_data" : null,
+    "api_key" : "[REDACTED]",
+    "fullName" : ""
+  }
+}

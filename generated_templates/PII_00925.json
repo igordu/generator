@@ -1,33 +1,33 @@
 {
-  "cache_hit" : true,
-  "url" : "URL",
-  "has_more" : "BOOLEAN",
-  "data" : [ {
-    "preferred_locales" : "ARRAY",
-    "delinquent" : "BOOLEAN",
-    "v_address" : null,
-    "id" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "invoice_settings" : {
-      "custom_fields" : "NULL",
-      "default_payment_method_data" : "STRING",
-      "response_time_sec" : 413.79,
-      "v_footer" : "STRING",
-      "rendering_options" : "NULL"
-    },
-    "created" : "DATETIME_EPOCH",
-    "description" : null,
-    "default_source" : "STRING",
-    "balance" : "INT",
-    "metadata" : "OBJECT",
-    "test_clock" : "NULL",
-    "fullName" : "PII_PERSON_NAME",
-    "email" : "PII_EMAIL",
-    "currency" : "STRING",
-    "v_tax_exempt" : "STRING",
-    "invoice_prefix" : "STRING",
-    "livemode_data" : "NULL",
-    "next_invoice_sequence_data" : "INT",
-    "shipping" : "NULL"
-  } ]
+  "v_fraudScore" : "INT",
+  "card" : {
+    "issuingBank" : "PII_COMPANY_NAME",
+    "scheme" : "STRING",
+    "cardholderName" : "PII_PERSON_NAME",
+    "has_discount" : false,
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "pan" : "PII_CREDIT_CARD",
+    "expiryMonth_data" : "STRING",
+    "expiryYear" : "STRING"
+  },
+  "amount" : {
+    "v_value" : "",
+    "currency" : "STRING"
+  },
+  "timestamp_data" : "DATETIME",
+  "type" : "STRING",
+  "v_merchant" : {
+    "name" : "PII_COMPANY_NAME",
+    "recordId" : "STRING",
+    "categoryCode" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "status" : "STRING",
+  "v_billing" : {
+    "postalCode" : "STRING",
+    "address" : "PII_ADDRESS_LINE",
+    "country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY"
+  },
+  "transactionId" : "STRING"
 }

@@ -1,0 +1,21 @@
+{
+  "auto_renew" : false,
+  "creationTimestamp" : "DATETIME",
+  "resourceVersion" : "STRING",
+  "data" : {
+    "MAX_CONNECTIONS_data" : "STRING",
+    "auto_renew" : false,
+    "LOG_LEVEL_data" : "STRING",
+    "DATABASE_PORT" : "STRING",
+    "userName" : "STRING",
+    "REDIS_HOST" : "STRING",
+    "FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+    "REDIS_PORT_data" : "STRING",
+    "v_REQUEST_TIMEOUT_MS" : "STRING",
+    "SMTP_PORT" : "STRING",
+    "DATABASE_HOST_data" : "STRING",
+    "SUPPORT_EMAIL" : "PII_EMAIL"
+  },
+  "configMapName" : "STRING",
+  "clientName" : "STRING"
+}

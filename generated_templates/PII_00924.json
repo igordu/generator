@@ -1,35 +1,34 @@
 {
-  "has_more" : "BOOLEAN",
-  "v_url" : "URL",
-  "data" : [ {
-    "v_balance" : "INT",
+  "fraudScore" : "INT",
+  "billing" : {
+    "v_address" : "PII_ADDRESS_LINE",
+    "postalCode_data" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "city" : "PII_LOCATION_CITY"
+  },
+  "status" : "STRING",
+  "timestamp" : "DATETIME",
+  "merchant" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "categoryCode_data" : "STRING",
+    "name" : "PII_COMPANY_NAME",
+    "temperature_c" : -2.8,
+    "id" : "STRING"
+  },
+  "transactionId" : "STRING",
+  "amount" : {
     "currency" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "test_clock" : "NULL",
-    "preferred_locales_data" : "ARRAY",
-    "shipping" : "NULL",
-    "invoice_prefix" : "STRING",
-    "id" : "STRING",
-    "description" : "STRING",
-    "delinquent_data" : "BOOLEAN",
-    "livemode" : "BOOLEAN",
-    "next_invoice_sequence" : "INT",
-    "default_source_data" : "",
-    "metadata" : "OBJECT",
-    "telephone" : "PII_PHONE_NUMBER",
-    "created" : "DATETIME_EPOCH",
-    "object" : "STRING",
-    "v_invoice_settings" : {
-      "rendering_options" : "NULL",
-      "discount_rate" : 410.98,
-      "default_payment_method" : "STRING",
-      "footer" : "STRING",
-      "custom_fields_data" : "NULL"
-    },
-    "email" : "PII_EMAIL",
-    "address" : "NULL",
-    "v_tax_exempt" : "STRING"
-  } ],
-  "has_discount" : true,
-  "object" : ""
+    "v_value" : "INT"
+  },
+  "card_data" : {
+    "expiryYear" : "STRING",
+    "pan" : "PII_CREDIT_CARD",
+    "cardholderName" : "PII_PERSON_NAME",
+    "expiryMonth" : "STRING",
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "issuingBank" : "PII_COMPANY_NAME",
+    "scheme" : "STRING"
+  },
+  "type" : "STRING",
+  "cache_hit" : true
 }

@@ -1,45 +1,27 @@
 {
-  "server_logs" : {
-    "transaction_trace" : {
-      "extracted_info" : {
-        "resourceType" : "STRING",
-        "address_data" : [ {
-          "use" : "STRING",
-          "city" : "PII_LOCATION_CITY",
-          "country" : "PII_LOCATION_COUNTRY",
-          "line_data" : [ "PII_ADDRESS_LINE" ]
-        } ],
-        "telecom" : [ {
-          "value" : "PII_PHONE_NUMBER",
-          "use" : "STRING",
-          "system" : "STRING"
-        }, {
-          "system" : "STRING",
-          "system_ping_ms" : 1681,
-          "value_data" : "PII_EMAIL"
-        } ],
-        "name" : [ {
-          "family" : "PII_PERSON_LAST_NAME",
-          "use" : "STRING",
-          "given" : [ "PII_PERSON_FIRST_NAME" ],
-          "cache_hit" : true
-        } ],
-        "meta" : {
-          "recordId" : null
-        },
-        "identifier" : [ {
-          "v_type" : {
-            "text" : "STRING",
-            "retry_attempts" : 3821
-          },
-          "use" : "STRING",
-          "value" : "PII_NATIONAL_ID",
-          "system" : "URL"
-        } ],
-        "birthDate" : "PII_DATE_OF_BIRTH",
-        "id" : "STRING",
-        "gender" : "STRING"
-      }
-    }
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "IsDeleted" : "BOOLEAN",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "Phone" : "PII_PHONE_NUMBER",
+    "name_val" : "PII_PERSON_NAME",
+    "Birthdate" : "PII_DATE_OF_BIRTH",
+    "AccountName" : "PII_COMPANY_NAME",
+    "Description" : "STRING",
+    "MailingCity" : "PII_LOCATION_CITY",
+    "LastName" : "PII_PERSON_LAST_NAME",
+    "Id" : "STRING",
+    "CreatedDate" : "DATETIME",
+    "MailingState_data" : "STRING",
+    "LastModifiedDate" : "DATETIME",
+    "Department_data" : "STRING",
+    "discount_rate" : 89.17,
+    "Title" : "STRING",
+    "MobilePhone" : "PII_PHONE_NUMBER",
+    "v_MailingStreet" : "PII_ADDRESS_LINE",
+    "AccountId" : "STRING",
+    "MailingCountry" : "PII_LOCATION_COUNTRY",
+    "Email" : "PII_EMAIL"
   }
 }

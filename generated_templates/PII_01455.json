@@ -1,0 +1,23 @@
+{
+  "v_producer" : "STRING",
+  "version_data" : "STRING",
+  "eventId" : "STRING",
+  "metadata" : {
+    "offset" : "INT",
+    "has_discount" : false
+  },
+  "payload" : {
+    "country" : "PII_LOCATION_COUNTRY",
+    "registrationSource" : "STRING",
+    "emailAddress" : "PII_EMAIL",
+    "userId" : "STRING",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "ipAddress" : "PII_IP_ADDRESS",
+    "phone" : "PII_PHONE_NUMBER"
+  },
+  "occurredAt" : "NULL",
+  "eventType_data" : "STRING",
+  "correlationId" : "STRING"
+}

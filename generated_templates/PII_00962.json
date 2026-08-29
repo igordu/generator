@@ -1,34 +1,18 @@
 {
-  "url" : "URL",
-  "has_more" : "NULL",
-  "object" : "STRING",
-  "v_data" : [ {
-    "invoice_prefix" : "STRING",
-    "shipping" : "NULL",
-    "balance" : "INT",
-    "v_address" : "NULL",
-    "id" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "next_invoice_sequence" : "INT",
-    "currency_data" : "STRING",
-    "delinquent" : "BOOLEAN",
-    "contactEmail" : "PII_EMAIL",
-    "object" : "STRING",
-    "test_clock" : "NULL",
-    "created" : "DATETIME_EPOCH",
-    "default_source" : "STRING",
-    "metadata" : "OBJECT",
-    "description" : "STRING",
-    "v_preferred_locales" : "ARRAY",
-    "name" : "PII_PERSON_NAME",
-    "v_tax_exempt" : "",
-    "invoice_settings" : {
-      "custom_fields" : "NULL",
-      "footer_data" : "STRING",
-      "system_ping_ms" : 469,
-      "v_default_payment_method" : "STRING",
-      "rendering_options" : "NULL"
-    },
-    "livemode" : "BOOLEAN"
-  } ]
+  "actor" : {
+    "http_status" : 356,
+    "v_ip_address" : "PII_IP_ADDRESS",
+    "clientName" : "PII_USERNAME",
+    "user_agent" : "STRING",
+    "user_id" : "STRING",
+    "email" : "PII_EMAIL"
+  },
+  "v_timestamp" : "DATETIME",
+  "mfa_used" : "BOOLEAN",
+  "severity" : null,
+  "audit_id" : "STRING",
+  "event_type" : "STRING",
+  "outcome" : "STRING",
+  "session_id" : "STRING",
+  "stock_quantity" : 4378
 }

@@ -1,14 +1,15 @@
 {
   "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserReviews" : "INT",
+  "has_discount" : false,
+  "articleModelId" : "STRING",
   "numberOfUserRecommendations" : "INT",
-  "discount_rate" : 686.93,
-  "articleModelId" : "NULL",
-  "numberOfUserReviews_data" : "INT",
   "starRatingDistribution" : {
-    "cache_hit" : true,
-    "5" : "INT",
-    "1_data" : "INT",
+    "discount_rate" : 43.81,
     "3" : "INT",
-    "4_data" : "INT"
+    "v_4" : "INT",
+    "1_data" : "INT",
+    "5" : "INT",
+    "2" : null
   }
 }

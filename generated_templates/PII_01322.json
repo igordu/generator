@@ -1,13 +1,20 @@
 {
-  "tree" : {
-    "url" : "URL"
-  },
-  "active" : "BOOLEAN",
-  "cpu_usage_percent" : 906.44,
-  "v_user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "userName" : "PII_FIRST_NAME_FEMALE",
-    "item_count" : 3772,
-    "arline__name" : "PII_COMPANY_NAME"
+  "ipAddress" : "PII_IP_ADDRESS",
+  "email" : "PII_EMAIL",
+  "createdAt" : "DATETIME",
+  "scopes" : [ "STRING" ],
+  "userAgent_data" : "STRING",
+  "deviceId" : "STRING",
+  "v_mfaMethod" : "STRING",
+  "revoked" : "BOOLEAN",
+  "riskScore" : "DECIMAL",
+  "v_expiresAt" : "DATETIME",
+  "recordId" : "STRING",
+  "v_lastActivityAt" : "DATETIME",
+  "userId" : "",
+  "issuedTokens" : {
+    "idToken" : "STRING",
+    "accessToken" : "STRING",
+    "refreshToken" : "STRING"
   }
 }

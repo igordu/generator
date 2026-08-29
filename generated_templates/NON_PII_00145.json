@@ -1,21 +1,27 @@
 {
-  "shopUrl" : "URL",
-  "identifier" : "STRING",
-  "name" : "STRING",
-  "modelId" : "STRING",
-  "response_time_sec" : 675.75,
-  "media" : {
-    "item_count" : 1765,
-    "images" : [ {
-      "smallUrl" : "URL",
-      "smallHdUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "mediumHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "page_index" : 155,
-      "largeUrl" : "URL",
-      "mediumUrl_data" : "URL",
-      "v_type" : "STRING"
+  "primaryKey" : {
+    "status" : "STRING",
+    "escalation_policy" : "STRING",
+    "title" : "STRING",
+    "service" : {
+      "summary" : "STRING",
+      "identifier" : "STRING"
+    },
+    "created_at" : "DATETIME",
+    "urgency" : "STRING",
+    "resolved_at" : "DATETIME",
+    "alert_counts" : {
+      "triggered" : "INT",
+      "all_data" : "INT",
+      "resolved_data" : "INT"
+    },
+    "price" : 1778.18,
+    "incident_number" : "INT",
+    "runbook_url" : "URL",
+    "v_notes" : [ {
+      "content" : "TEXT",
+      "created_at" : "DATETIME",
+      "id" : "STRING"
     } ]
   }
 }

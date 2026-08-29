@@ -1,14 +1,30 @@
-{
-  "v_numberOfUserRecommendations" : "INT",
-  "numberOfUserReviews" : "INT",
-  "v_numberOfUserPositiveRecommendations" : "INT",
-  "articleModelId" : "STRING",
-  "averageStarRating" : "INT",
-  "v_starRatingDistribution" : {
-    "4" : "INT",
-    "1" : "INT",
-    "5" : "INT",
-    "2" : "INT",
-    "v_3" : "INT"
-  }
-}
+[ {
+  "item_count" : 2780,
+  "filter" : "STRING",
+  "facets_data" : [ {
+    "count" : "INT",
+    "discount_rate" : 4.61,
+    "v_key" : "STRING"
+  }, {
+    "system_ping_ms" : 755,
+    "key" : "STRING",
+    "displayName" : "STRING",
+    "count_data" : "INT"
+  } ]
+}, {
+  "filter" : "STRING",
+  "facets" : [ {
+    "count" : "INT",
+    "displayName" : "STRING",
+    "cpu_usage_percent" : 75.46,
+    "key" : "STRING"
+  }, {
+    "fullName" : "STRING",
+    "count" : "INT",
+    "requires_update" : true
+  }, {
+    "displayName" : "STRING",
+    "key" : "",
+    "count" : "INT"
+  } ]
+} ]

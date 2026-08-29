@@ -1,26 +1,24 @@
-[ {
-  "filter" : "STRING",
-  "v_facets" : [ {
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "count" : "INT"
-  }, {
-    "count_data" : "INT",
-    "key_data" : "STRING",
-    "name_val" : "STRING",
-    "is_active" : true
-  } ]
-}, {
-  "stock_quantity" : 3277,
-  "v_facets" : [ {
-    "key" : "STRING",
-    "has_discount" : true,
-    "displayName" : "STRING"
-  }, {
-    "price" : 400.29,
-    "count" : "INT",
-    "key" : "STRING",
-    "name_val" : "STRING"
+{
+  "http" : {
+    "latency_ms" : "INT",
+    "method" : "STRING",
+    "status_code_data" : "",
+    "discount_rate" : 64.68,
+    "path" : "URL"
+  },
+  "is_deleted" : false,
+  "event_type_data" : "STRING",
+  "source_service" : null,
+  "severity" : "STRING",
+  "region" : "STRING",
+  "trace_id" : "STRING",
+  "primaryKey" : "",
+  "timestamp_data" : "DATETIME",
+  "target_service" : "STRING",
+  "details" : [ {
+    "log_line" : "TEXT",
+    "v_step" : "STRING"
   } ],
-  "filter_data" : "STRING"
-} ]
+  "recordId" : "STRING",
+  "message_data" : "TEXT"
+}

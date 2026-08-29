@@ -1,71 +1,37 @@
-[ {
-  "committer" : {
-    "type_data" : "STRING",
-    "cache_hit" : true,
-    "avatar_url" : "URL",
-    "repos_url" : "URL",
-    "following_url" : "URL",
-    "subscriptions_url" : "URL",
-    "organizations_url" : "URL",
-    "gravatar_id" : "STRING",
-    "login" : "STRING",
-    "v_followers_url" : "URL",
-    "node_id" : "STRING",
-    "id" : "INT",
-    "html_url" : "URL",
-    "v_starred_url" : "URL",
-    "gists_url_data" : "URL"
-  },
-  "sha" : "STRING",
-  "recordId" : "STRING",
-  "comments_url_data" : "URL",
-  "v_url" : "URL",
-  "author" : {
-    "repos_url" : "URL",
-    "v_subscriptions_url" : "URL",
-    "avatar_url" : "URL",
-    "id" : "INT",
-    "organizations_url_data" : "URL",
-    "received_events_url_data" : "URL",
-    "events_url" : "URL",
-    "html_url" : "URL",
-    "gists_url" : "URL",
-    "following_url" : "URL",
-    "site_admin" : "BOOLEAN",
-    "followers_url" : "URL",
-    "gravatar_id" : "STRING",
-    "node_id" : "STRING",
-    "login_data" : "STRING"
-  },
-  "v_parents" : [ {
-    "url" : "URL"
+{
+  "prescriptions" : [ {
+    "frequency" : "STRING",
+    "dose" : "",
+    "retry_attempts" : 4186,
+    "drugName" : "NULL",
+    "durationDays" : "INT"
   } ],
-  "html_url" : "URL",
-  "commit" : {
-    "comment_count" : "INT",
-    "tree" : {
-      "url" : "URL",
-      "sha" : "NULL"
+  "v_diagnosis" : [ {
+    "code" : "STRING",
+    "system" : "STRING",
+    "v_description" : "",
+    "type" : "STRING"
+  } ],
+  "primaryKey" : "STRING",
+  "v_encounterType" : "STRING",
+  "date" : "DATE",
+  "patient" : {
+    "taxCode_data" : "PII_NATIONAL_ID",
+    "has_discount" : true,
+    "mail" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "address" : {
+      "postalCode" : "",
+      "street" : "PII_ADDRESS_LINE",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "city" : "PII_LOCATION_CITY"
     },
-    "message" : "PII_COMPANY_NAME",
-    "v_committer" : {
-      "date" : "",
-      "email" : "PII_EMAIL",
-      "auto_renew" : true,
-      "name" : "PII_PERSON_NAME"
-    },
-    "url" : "URL",
-    "auto_renew" : true,
-    "author" : {
-      "fullName" : "PII_PERSON_NAME",
-      "email" : "PII_EMAIL",
-      "date" : "DATETIME"
-    },
-    "verification" : {
-      "verified_at" : "DATETIME",
-      "reason" : "STRING",
-      "payload" : "STRING",
-      "verified" : "BOOLEAN"
-    }
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "referral_data" : {
+    "urgency" : "STRING",
+    "specialist" : "STRING"
   }
-} ]
+}

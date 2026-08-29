@@ -1,0 +1,16 @@
+{
+  "createdAt_data" : "DATETIME",
+  "discount_rate" : 45.69,
+  "description" : "STRING",
+  "inheritedFrom" : [ "STRING" ],
+  "assignedTo" : [ {
+    "fullName" : "PII_PERSON_NAME",
+    "userId" : "STRING",
+    "emailAddress" : "PII_EMAIL",
+    "discount_rate" : 72.01,
+    "assignedAt" : "DATETIME"
+  } ],
+  "roleId" : "",
+  "clientName" : "",
+  "createdBy" : "PII_EMAIL"
+}

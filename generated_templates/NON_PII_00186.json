@@ -1,7 +1,21 @@
 {
-  "id" : "STRING",
-  "modelId" : "STRING",
-  "shopUrl" : "URL",
-  "media" : { },
-  "name" : "STRING"
+  "anonymized" : "BOOLEAN",
+  "retention_policy" : "STRING",
+  "gdpr_erasure_applied" : "BOOLEAN",
+  "export_id" : "STRING",
+  "ticket" : {
+    "requester" : {
+      "email" : "[MASKED]",
+      "phone" : "***-***-****",
+      "name" : "REDACTED"
+    },
+    "id" : "INT",
+    "v_description" : "TEXT",
+    "created_at" : "DATETIME",
+    "v_satisfaction_rating" : {
+      "score" : "STRING",
+      "comment" : "TEXT"
+    }
+  },
+  "exported_at" : "DATETIME"
 }

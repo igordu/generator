@@ -1,0 +1,24 @@
+{
+  "integrationId": "STRING",
+  "name": "STRING",
+  "type": "STRING",
+  "status": "STRING",
+  "provider": "STRING",
+  "createdAt": "DATETIME",
+  "updatedAt": "DATETIME",
+  "config": {
+    "webhookUrl": "URL",
+    "channel": "STRING",
+    "mentionOnError": "STRING"
+  },
+  "triggers": ["STRING"],
+  "createdBy": {
+    "userId": "STRING",
+    "email": "PII_EMAIL"
+  },
+  "lastTriggeredAt": "DATETIME",
+  "stats": {
+    "totalDeliveries": "INT",
+    "successRate": "DECIMAL"
+  }
+}

@@ -1,5 +1,25 @@
 {
-  "v_clientToken" : "STRING",
-  "flowName" : "STRING",
-  "is_deleted" : false
+  "data" : {
+    "fetchResource" : {
+      "signature" : "STRING",
+      "response" : {
+        "v_latencyMs" : "INT"
+      },
+      "requires_update" : true,
+      "primaryKey" : "STRING",
+      "endpoint" : {
+        "url" : "",
+        "status" : "STRING"
+      },
+      "v_attempts" : "INT",
+      "event" : "STRING",
+      "payload" : {
+        "completedAt" : null,
+        "orderId" : "STRING",
+        "currency" : "STRING",
+        "v_totalAmount" : "DECIMAL"
+      },
+      "deliveredAt" : "DATETIME"
+    }
+  }
 }

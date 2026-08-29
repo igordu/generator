@@ -1,33 +1,31 @@
 {
-  "data" : [ {
-    "shipping" : "NULL",
-    "metadata" : "NULL",
-    "livemode" : "BOOLEAN",
-    "invoice_prefix" : "STRING",
-    "v_balance" : "INT",
-    "userName" : "PII_PERSON_NAME",
-    "address" : "NULL",
-    "id" : "STRING",
-    "description" : "STRING",
-    "v_tax_exempt" : "STRING",
-    "invoice_settings_data" : {
-      "default_payment_method" : "STRING",
-      "custom_fields_data" : "NULL",
-      "rendering_options" : "NULL",
-      "footer" : "STRING"
-    },
-    "delinquent_data" : "BOOLEAN",
+  "cpu_usage_percent" : 50.74,
+  "type" : "STRING",
+  "billing" : {
+    "address_data" : "PII_ADDRESS_LINE",
+    "city" : "PII_LOCATION_CITY",
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_postalCode" : "STRING"
+  },
+  "transactionId" : "STRING",
+  "card_data" : {
+    "scheme" : "STRING",
+    "expiryMonth_data" : "STRING",
+    "v_pan" : "PII_CREDIT_CARD",
+    "price" : 9869.99,
+    "v_issuingBank" : "PII_COMPANY_NAME",
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "expiryYear" : "STRING",
+    "cardholderName" : "PII_PERSON_NAME"
+  },
+  "amount" : {
     "currency" : "STRING",
-    "created" : "DATETIME_EPOCH",
-    "object" : "STRING",
-    "preferred_locales" : "ARRAY",
-    "next_invoice_sequence" : "INT",
-    "email" : "PII_EMAIL",
-    "v_default_source" : "STRING",
-    "phone" : "PII_PHONE_NUMBER"
-  } ],
-  "url" : "URL",
-  "has_more_data" : "BOOLEAN",
-  "retry_attempts" : 2475,
-  "object_data" : "STRING"
+    "value" : "INT"
+  },
+  "timestamp" : "DATETIME",
+  "merchant" : {
+    "categoryCode" : "STRING",
+    "name_val" : "PII_COMPANY_NAME",
+    "country" : "PII_LOCATION_COUNTRY"
+  }
 }

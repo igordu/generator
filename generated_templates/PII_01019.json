@@ -1,19 +1,39 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "customer" : "STRING",
-      "account_type" : "STRING",
-      "country" : "",
-      "account_holder_type" : "STRING",
-      "last4" : "STRING",
-      "status" : "STRING",
-      "fingerprint" : "STRING",
-      "routing_number" : "STRING",
-      "v_metadata" : "OBJECT",
-      "id" : "STRING",
-      "object" : "STRING",
-      "bank_name" : "STRING",
-      "account_holder_name" : "PII_PERSON_NAME"
-    }
-  }
+  "guest" : {
+    "passportNumber" : "PII_NATIONAL_ID",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "email" : "PII_EMAIL",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH"
+  },
+  "specialRequests" : "STRING",
+  "pricing" : {
+    "total" : "DECIMAL",
+    "totalBeforeTax" : "DECIMAL",
+    "v_currency" : "STRING",
+    "nights" : "INT",
+    "tax_data" : "DECIMAL",
+    "ratePerNight" : "DECIMAL"
+  },
+  "loyaltyNumber_data" : "STRING",
+  "checkIn" : "DATE",
+  "room" : {
+    "roomNumber_data" : "STRING",
+    "smoking" : "BOOLEAN",
+    "type" : "STRING",
+    "bedType_data" : "STRING",
+    "floor" : "INT",
+    "item_count" : 2485
+  },
+  "hotel" : {
+    "address" : "PII_ADDRESS_LINE",
+    "phone" : "PII_PHONE_NUMBER",
+    "uuid" : "STRING",
+    "name_val" : "PII_COMPANY_NAME"
+  },
+  "checkOut_data" : "DATE",
+  "createdAt" : "DATETIME",
+  "v_status" : "STRING"
 }

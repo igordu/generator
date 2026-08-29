@@ -1,5 +1,23 @@
 {
-  "flowName" : "STRING",
-  "clientToken" : "STRING",
-  "system_ping_ms" : 1691
+  "endpoint" : {
+    "status" : "STRING",
+    "auto_renew" : true,
+    "id" : "STRING",
+    "url" : "URL"
+  },
+  "deliveredAt_data" : "DATETIME",
+  "v_signature" : "STRING",
+  "recordId" : "STRING",
+  "v_payload" : {
+    "customerId" : "STRING",
+    "orderId" : "STRING",
+    "totalAmount" : "DECIMAL",
+    "currency" : "STRING",
+    "completedAt" : "DATETIME"
+  },
+  "event" : "STRING",
+  "response" : {
+    "latencyMs" : "INT",
+    "body" : "STRING"
+  }
 }

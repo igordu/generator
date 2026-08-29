@@ -1,10 +1,16 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "cacheKey" : "STRING",
+  "createdAt_data" : "DATETIME",
+  "cache_hit" : true,
+  "region" : "STRING",
+  "ttl_data" : "INT",
+  "namespace" : null,
+  "lastAccessedAt" : "DATETIME",
+  "value" : {
+    "userId" : "STRING",
+    "expiresAt" : null,
+    "roles" : [ "STRING" ],
+    "system_ping_ms" : 2774
   },
-  "results" : {
-    "v_clientToken" : "STRING",
-    "flowName" : "STRING"
-  }
+  "hits" : "INT"
 }

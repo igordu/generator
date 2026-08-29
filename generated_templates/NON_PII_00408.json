@@ -2,8 +2,27 @@
   "status" : "success",
   "code" : 200,
   "data" : {
-    "clientToken" : "STRING",
-    "retry_attempts" : 4764,
-    "flowName" : "STRING"
+    "notificationId" : "STRING",
+    "campaign" : "NULL",
+    "recipient_data" : {
+      "platform_data" : "STRING",
+      "deviceToken" : "STRING",
+      "appVersion" : "STRING",
+      "userId" : "STRING"
+    },
+    "type" : "STRING",
+    "sentAt" : "DATETIME",
+    "v_deliveredAt" : "DATETIME",
+    "status" : "STRING",
+    "retryCount" : "INT",
+    "notification_data" : {
+      "body" : "STRING",
+      "data" : {
+        "orderId" : "STRING",
+        "v_deepLink" : "URL"
+      },
+      "title" : "STRING",
+      "retry_attempts" : 1426
+    }
   }
 }

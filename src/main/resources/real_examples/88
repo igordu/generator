@@ -1,0 +1,34 @@
+{
+  "userId": "usr-00821",
+  "createdAt": "2022-03-15T12:00:00Z",
+  "twoFactorEnabled": true,
+  "twoFactorMethod": "totp",
+  "passwordLastChangedAt": "2024-01-01T00:00:00Z",
+  "failedLoginAttempts": 0,
+  "lockedUntil": null,
+  "trustedDevices": [
+    {
+      "deviceId": "dev-mac-00182",
+      "name": "MacBook Pro 16\"",
+      "platform": "macOS 14.4",
+      "addedAt": "2024-01-05T10:00:00Z",
+      "lastUsedAt": "2024-04-10T08:00:00Z"
+    }
+  ],
+  "oauthConnections": [
+    {
+      "provider": "google",
+      "externalId": "118051310819094153327",
+      "email": "user@gmail.com",
+      "connectedAt": "2022-03-15T12:05:00Z"
+    }
+  ],
+  "activeSessions": 1,
+  "securityEvents": [
+    {
+      "type": "password_changed",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "ipAddress": "203.0.113.42"
+    }
+  ]
+}

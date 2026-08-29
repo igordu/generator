@@ -1,12 +1,40 @@
-{
-  "articleModelId" : "STRING",
-  "v_averageStarRating" : "",
-  "v_starRatingDistribution" : {
-    "1" : "INT",
-    "is_active" : false,
-    "v_2" : "INT",
-    "5" : "INT",
-    "3" : "INT"
-  },
-  "v_numberOfUserRecommendations" : "INT"
-}
+[ {
+  "facets" : [ {
+    "key" : "STRING",
+    "system_ping_ms" : 4808,
+    "count" : "INT"
+  }, {
+    "displayName" : "STRING",
+    "count" : "INT",
+    "key" : "STRING"
+  } ],
+  "auto_renew" : true
+}, {
+  "facets" : [ {
+    "name_val" : "STRING",
+    "count_data" : "INT",
+    "stock_quantity" : 4807,
+    "key" : "STRING"
+  }, {
+    "count" : "INT",
+    "key" : "STRING",
+    "displayName" : "STRING"
+  } ]
+}, {
+  "facets" : [ {
+    "key" : "STRING",
+    "is_active" : true,
+    "v_count" : "INT",
+    "displayName" : null
+  }, {
+    "temperature_c" : 32.25,
+    "displayName" : "STRING",
+    "key" : "STRING"
+  }, {
+    "displayName" : "STRING",
+    "key" : "STRING",
+    "v_count" : null
+  } ],
+  "filter" : "STRING",
+  "discount_rate" : 14.69
+} ]

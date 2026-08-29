@@ -1,31 +1,33 @@
 {
-  "object_data" : "STRING",
-  "data" : [ {
-    "tax_exempt" : "STRING",
-    "uuid" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "object" : "STRING",
-    "created" : "DATETIME_EPOCH",
-    "delinquent" : "BOOLEAN",
-    "page_index" : 1287,
-    "invoice_settings" : {
-      "rendering_options" : "",
-      "custom_fields" : "",
-      "footer" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "v_sender" : {
+      "clientName" : "PII_PERSON_NAME",
+      "id" : "STRING",
+      "type" : "STRING",
+      "email" : "PII_EMAIL",
+      "has_discount" : true
     },
-    "currency" : "STRING",
-    "phone" : "PII_PHONE_NUMBER",
-    "address" : "NULL",
-    "email" : "PII_EMAIL",
-    "livemode" : "BOOLEAN",
-    "metadata" : "OBJECT",
-    "preferred_locales" : "ARRAY",
-    "description" : "STRING",
-    "v_default_source" : "STRING",
-    "shipping" : "NULL",
-    "balance_data" : "INT",
-    "test_clock" : "NULL",
-    "next_invoice_sequence" : "INT"
-  } ],
-  "url" : "URL"
+    "recipient" : {
+      "name_val" : "STRING",
+      "type" : "STRING",
+      "id" : "STRING"
+    },
+    "v_channel" : "STRING",
+    "content" : {
+      "conversion_rate" : 2.4
+    },
+    "metadata" : {
+      "userAgent" : "STRING",
+      "language" : "STRING"
+    },
+    "timestamp" : "DATETIME",
+    "messageId" : "STRING",
+    "primaryKey" : "STRING",
+    "v_direction" : "STRING",
+    "v_intent" : "NULL"
+  }
 }

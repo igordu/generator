@@ -1,65 +1,28 @@
 {
-  "uuid" : {
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode_data" : "STRING",
-      "cache_hit" : false,
-      "phoneType" : "STRING"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "Title" : "STRING",
+    "CreatedDate" : "DATETIME",
+    "activity_log" : [ {
+      "timestamp" : "DATETIME",
+      "action" : "STRING",
+      "priority_level" : 333,
+      "note_data" : "PII_FREE_TEXT"
+    } ],
+    "Id" : "STRING",
+    "ParentId" : "STRING",
+    "identifier" : "STRING",
+    "Owner" : {
+      "is_deleted" : false,
+      "Name" : "PII_PERSON_NAME",
+      "Department_data" : "NULL"
     },
-    "email" : "PII_EMAIL",
-    "lastName" : "PII_PERSON_NAME",
-    "is_deleted" : true,
-    "registrationAddress" : {
-      "city" : "STRING",
-      "county_data" : "STRING",
-      "addressLine1" : "STRING",
-      "country" : null,
-      "v_stateOrProvince" : "STRING"
+    "attributes" : {
+      "type" : "STRING",
+      "url_data" : "URL"
     },
-    "firstName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "countryCode" : "NULL",
-      "number_data" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "item_count" : 3710
-    }
-  },
-  "businessAccount" : {
-    "primaryContact" : {
-      "firstName" : "PII_PERSON_NAME",
-      "price" : 6.21,
-      "fullName" : "PII_PERSON_NAME"
-    },
-    "address" : {
-      "addressLine2" : "STRING",
-      "stateOrProvince" : "",
-      "city" : "STRING",
-      "country" : "STRING",
-      "county" : "STRING",
-      "addressLine1" : "STRING",
-      "postalCode" : "STRING"
-    },
-    "website" : "URL",
-    "telephone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "is_active" : true,
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING"
-    },
-    "http_status" : 2296,
-    "email" : "PII_EMAIL",
-    "doingBusinessAs_data" : "STRING"
-  },
-  "name_val" : "PII_USERNAME",
-  "accountType_data" : "STRING",
-  "stock_quantity" : 1433,
-  "status" : "",
-  "userId" : "STRING",
-  "primaryKey" : "STRING"
+    "LastModifiedDate" : "DATETIME",
+    "Body" : "PII_FREE_TEXT"
+  }
 }

@@ -1,27 +1,37 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "content" : [ {
-      "articleSizeRatings" : {
-        "OVERALL" : "INT",
-        "SHOE_WIDTH" : "INT"
-      },
-      "unhelpfulCount" : "INT",
-      "identifier" : "STRING",
-      "description" : "STRING",
-      "rating" : "INT",
-      "recommend" : "BOOLEAN",
-      "helpfulCount" : "INT",
-      "customerCity_data" : "PII_LOCATION_CITY",
-      "cache_hit" : true,
-      "uuid" : "STRING",
-      "language" : "NULL",
-      "customerCountry" : "PII_LOCATION_COUNTRY",
-      "created" : "DATETIME",
-      "title" : "PII_COMPANY_NAME"
-    } ]
+  "accountType" : "STRING",
+  "userId" : "NULL",
+  "identifier" : "STRING",
+  "fullName" : "PII_USERNAME",
+  "status" : "STRING",
+  "v_businessAccount" : {
+    "mail" : "PII_EMAIL",
+    "v_doingBusinessAs" : "STRING",
+    "primaryPhone" : {
+      "phoneType" : null,
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "secondaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "telephone" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "item_count" : 4564,
+    "website" : "URL",
+    "name" : "PII_ORGANIZATION_NAME",
+    "primaryContact_data" : {
+      "name_val" : "PII_PERSON_NAME",
+      "conversion_rate" : 9.2,
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "v_address" : {
+      "county" : "STRING",
+      "stateOrProvince" : "NULL",
+      "city" : "STRING",
+      "addressLine1_data" : "STRING",
+      "addressLine2" : null,
+      "country" : "STRING",
+      "postalCode" : "STRING"
+    }
   }
 }

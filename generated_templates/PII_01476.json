@@ -1,0 +1,20 @@
+{
+  "data" : {
+    "SUPPORT_EMAIL" : "PII_EMAIL",
+    "REQUEST_TIMEOUT_MS" : "STRING",
+    "MAX_CONNECTIONS" : "STRING",
+    "DATABASE_NAME" : "STRING",
+    "v_FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+    "DATABASE_HOST" : "STRING",
+    "SMTP_PORT" : "STRING",
+    "REDIS_PORT" : "STRING",
+    "SMTP_HOST_data" : "STRING",
+    "v_LOG_LEVEL" : "STRING",
+    "DATABASE_PORT" : "STRING"
+  },
+  "creationTimestamp" : "DATETIME",
+  "resourceVersion" : "STRING",
+  "fullName" : "STRING",
+  "userName" : "STRING",
+  "item_count" : 3869
+}

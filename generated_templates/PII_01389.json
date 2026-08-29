@@ -1,10 +1,27 @@
 {
-  "user_info" : {
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "cache_hit" : true,
-    "fullName" : "PII_COMPANY_NAME",
-    "family-name-male" : "PII_LAST_NAME_MALE"
+  "createdAt" : "DATETIME",
+  "version_data" : "INT",
+  "author" : {
+    "emailAddress" : "PII_EMAIL",
+    "userName" : "PII_PERSON_NAME",
+    "accountId" : "STRING"
   },
-  "requires_update" : true,
-  "active" : "BOOLEAN"
+  "recordId" : "STRING",
+  "ancestors_data" : [ {
+    "title" : "STRING",
+    "identifier" : "STRING",
+    "page_index" : 642
+  } ],
+  "spaceKey" : "STRING",
+  "lastModifiedBy" : {
+    "displayName" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "uuid" : "STRING",
+    "item_count" : 4248
+  },
+  "updatedAt" : "DATETIME",
+  "priority_level" : 2925,
+  "v_title" : "STRING",
+  "status" : "STRING",
+  "viewCount" : "INT"
 }

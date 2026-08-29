@@ -1,28 +1,39 @@
 {
-  "data" : [ {
+  "primaryKey" : "STRING",
+  "academicYear" : "STRING",
+  "personalInfo_data" : {
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "passportNumber" : "PII_NATIONAL_ID",
     "email" : "PII_EMAIL",
-    "v_created" : "DATETIME_EPOCH",
-    "delinquent" : "BOOLEAN",
-    "address" : "NULL",
-    "tax_exempt" : "STRING",
-    "identifier" : "STRING",
-    "v_description" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "default_source" : "STRING",
-    "currency_data" : "STRING",
-    "preferred_locales" : "ARRAY",
-    "balance" : "INT",
-    "next_invoice_sequence" : "INT",
-    "invoice_settings_data" : {
-      "custom_fields" : "NULL",
-      "footer_data" : "STRING",
-      "rendering_options_data" : "NULL",
-      "default_payment_method" : "STRING"
-    },
-    "livemode" : "BOOLEAN",
     "phone" : "PII_PHONE_NUMBER",
-    "test_clock" : "NULL"
-  } ],
-  "url" : "URL",
-  "object" : "STRING"
+    "personalEmail" : "PII_EMAIL",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "stock_quantity" : 3608
+  },
+  "financialAid" : {
+    "amount" : "DECIMAL",
+    "scholarshipId" : "STRING",
+    "price" : 5644.88,
+    "currency" : "STRING"
+  },
+  "program" : "STRING",
+  "auto_renew" : false,
+  "v_address" : {
+    "postcode" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "street" : "PII_ADDRESS_LINE",
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "response_time_sec" : 26.51
+  },
+  "academicRecord_data" : {
+    "advisor" : {
+      "name_val" : "PII_PERSON_NAME",
+      "mail" : "PII_EMAIL"
+    },
+    "gpa_data" : "DECIMAL",
+    "v_creditsCompleted" : "INT"
+  },
+  "v_enrollmentStatus" : "STRING"
 }

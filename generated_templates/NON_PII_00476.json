@@ -1,11 +1,14 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "queueName" : "STRING",
+  "receiveCount" : "INT",
+  "body" : {
+    "discount_rate" : 78.75,
+    "v_errorCode" : "STRING",
+    "orderId" : "STRING",
+    "v_errorMessage" : "STRING"
   },
-  "results" : {
-    "clientToken" : "STRING",
-    "response_time_sec" : 141.57,
-    "flowName" : "STRING"
-  }
+  "lastReceivedAt" : "DATETIME",
+  "uuid" : "STRING",
+  "firstReceivedAt" : "DATETIME",
+  "is_deleted" : false
 }

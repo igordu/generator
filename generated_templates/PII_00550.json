@@ -1,30 +1,35 @@
 {
-  "transactions" : {
-    "response_time_sec" : 281.16,
-    "booked" : [ {
-      "debtorAccount" : {
-        "iban" : "STRING",
-        "item_count" : 1832
-      },
-      "name_val" : "PII_PERSON_NAME",
-      "identifier" : "STRING",
-      "v_amount" : {
-        "amount" : "DECIMAL",
-        "stock_quantity" : 3257,
-        "currency" : "STRING"
-      },
-      "debtorName" : "STRING",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "valueDate_data" : "DATE",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "bankTransactionCode" : {
-        "subFamily_data" : "NULL",
-        "family" : "STRING",
-        "conversion_rate" : 913.45,
-        "domain" : "STRING"
-      }
-    } ]
-  }
+  "price" : 6634.22,
+  "primary_email" : "BOOLEAN",
+  "phone" : "PII_PHONE_NUMBER",
+  "accepts_marketing_data" : "BOOLEAN",
+  "fullName" : "PII_PERSON_FIRST_NAME",
+  "created_at" : "DATETIME",
+  "uuid" : "INT",
+  "state" : "STRING",
+  "total_spent" : "DECIMAL",
+  "email" : "PII_EMAIL",
+  "tags" : "STRING",
+  "last_name" : "PII_PERSON_LAST_NAME",
+  "updated_at" : "DATETIME",
+  "orders_count_data" : "NULL",
+  "id" : "INT",
+  "v_default_address" : {
+    "phone" : "PII_PHONE_NUMBER",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "default" : "BOOLEAN",
+    "uuid" : "INT",
+    "company" : "PII_COMPANY_NAME",
+    "is_deleted" : true,
+    "v_zip" : "STRING",
+    "province" : "STRING",
+    "province_code_data" : "STRING",
+    "city" : "PII_LOCATION_CITY",
+    "country_code" : "STRING",
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "name_val" : "PII_PERSON_NAME",
+    "address1" : "PII_ADDRESS_LINE",
+    "last_name" : "PII_PERSON_LAST_NAME"
+  },
+  "note" : "STRING"
 }

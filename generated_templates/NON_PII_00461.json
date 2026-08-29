@@ -1,5 +1,15 @@
 {
-  "stock_quantity" : 3510,
-  "clientToken_data" : "STRING",
-  "flowName" : "STRING"
+  "namespace" : "STRING",
+  "value" : {
+    "identifier" : "STRING",
+    "roles" : [ "STRING" ],
+    "expiresAt" : "DATETIME",
+    "requires_update" : false
+  },
+  "cacheKey" : "STRING",
+  "hits" : "INT",
+  "v_lastAccessedAt" : "NULL",
+  "ttl" : "INT",
+  "createdAt" : "DATETIME",
+  "region" : "STRING"
 }

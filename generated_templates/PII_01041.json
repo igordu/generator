@@ -1,14 +1,29 @@
 {
-  "currency" : "STRING",
-  "metadata" : null,
-  "id" : "STRING",
-  "account_type" : "STRING",
-  "routing_number" : "STRING",
-  "customer_data" : "STRING",
-  "clientName" : "STRING",
-  "v_object" : "STRING",
-  "country" : "STRING",
-  "status" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "last4" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "status" : "STRING",
+    "v_fareClass" : "STRING",
+    "totalFare" : {
+      "amount_data" : "DECIMAL",
+      "currency" : "STRING"
+    },
+    "ticketNumber" : "STRING",
+    "passenger" : {
+      "v_title" : "STRING",
+      "phone" : "PII_PHONE_NUMBER",
+      "passportNumber" : "PII_NATIONAL_ID",
+      "passportExpiry" : "DATE",
+      "mail" : "PII_EMAIL",
+      "nationality_data" : "PII_LOCATION_COUNTRY",
+      "frequentFlyerNumber" : "STRING",
+      "dateOfBirth" : "PII_DATE_OF_BIRTH",
+      "firstName" : "PII_PERSON_FIRST_NAME",
+      "lastName" : "PII_PERSON_LAST_NAME"
+    },
+    "issuedAt" : "DATETIME",
+    "bookingRef" : "STRING"
+  }
 }

@@ -1,23 +1,25 @@
 {
-  "content_data" : [ {
-    "v_articleSizeRatings" : {
-      "identifier" : "INT",
-      "OVERALL" : "INT",
-      "stock_quantity" : 3595
+  "discount_rate" : 54.37,
+  "ticket" : {
+    "v_priority" : "STRING",
+    "updated_at" : "DATETIME",
+    "assignee_id" : "INT",
+    "comments" : [ {
+      "v_public" : null,
+      "cache_hit" : true,
+      "author_id" : "INT",
+      "v_body" : "PII_FREE_TEXT",
+      "id" : "INT"
+    } ],
+    "v_requester" : {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
     },
-    "v_title" : "PII_COMPANY_NAME",
-    "v_recommend" : "BOOLEAN",
-    "helpfulCount" : "INT",
-    "articleId" : "STRING",
-    "v_unhelpfulCount" : "NULL",
-    "rating" : "INT",
-    "reviewId" : "STRING",
-    "articleModelId" : "STRING",
-    "language" : "STRING",
-    "requires_update" : false,
-    "created_data" : "DATETIME",
-    "customerCountry_data" : "PII_LOCATION_COUNTRY",
-    "description_data" : "STRING",
-    "v_customerCity" : "PII_LOCATION_CITY"
-  } ]
+    "status" : "STRING",
+    "tags_data" : [ "STRING" ],
+    "recordId" : "INT",
+    "price" : 7562.43,
+    "subject" : "STRING",
+    "v_description" : "PII_FREE_TEXT"
+  }
 }

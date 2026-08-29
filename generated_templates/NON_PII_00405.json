@@ -1,8 +1,22 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "clientToken" : "STRING",
-      "flowName" : "STRING"
+  "recordId" : "STRING",
+  "campaign" : "NULL",
+  "conversion_rate" : 7.12,
+  "v_type" : "STRING",
+  "recipient_data" : {
+    "platform" : "STRING",
+    "userId" : "STRING",
+    "appVersion" : "STRING",
+    "deviceToken" : "STRING"
+  },
+  "v_notification" : {
+    "title" : "STRING",
+    "body" : "STRING",
+    "data_data" : {
+      "cache_hit" : true,
+      "orderId" : "STRING",
+      "deepLink" : "URL"
     }
-  }
+  },
+  "retryCount" : "INT"
 }

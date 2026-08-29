@@ -1,18 +1,30 @@
 {
-  "modelId" : "STRING",
-  "media" : {
-    "images_data" : [ {
-      "mediumHdUrl" : "URL",
-      "largeHdUrl_data" : "URL",
-      "mediumUrl" : "URL",
-      "v_largeUrl" : "URL",
-      "type" : "STRING",
-      "v_smallHdUrl" : "URL",
-      "smallUrl" : "URL",
-      "v_orderNumber" : "INT"
-    } ]
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "primaryKey" : "STRING",
-  "name" : "STRING",
-  "shopUrl" : "URL"
+  "results" : {
+    "assets" : [ {
+      "size" : "INT",
+      "content_type" : "STRING",
+      "browser_download_url" : "URL",
+      "id" : "INT",
+      "download_count" : "INT"
+    } ],
+    "published_at" : "DATETIME",
+    "name" : "STRING",
+    "body" : "TEXT",
+    "prerelease" : "BOOLEAN",
+    "v_created_at" : "DATETIME",
+    "draft" : "BOOLEAN",
+    "changelog" : [ {
+      "files_changed_data" : "INT",
+      "message" : "TEXT",
+      "commit_sha" : null,
+      "cpu_usage_percent" : 92.92
+    } ],
+    "conversion_rate" : 0.3,
+    "tag_name" : "STRING",
+    "target_commitish" : "STRING"
+  }
 }

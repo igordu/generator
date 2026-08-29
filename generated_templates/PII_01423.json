@@ -1,0 +1,32 @@
+{
+  "identifier" : {
+    "birthdate" : "PII_DATE_OF_BIRTH",
+    "phone_number" : "PII_PHONE_NUMBER",
+    "requires_update" : true,
+    "sub" : "STRING",
+    "v_address" : {
+      "cache_hit" : true,
+      "street_address" : "PII_ADDRESS_LINE",
+      "postal_code_data" : "STRING",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "locality" : "PII_LOCATION_CITY"
+    },
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL"
+  },
+  "issuedAt" : "DATETIME",
+  "v_accessToken" : {
+    "expiresAt_data" : "DATETIME"
+  },
+  "grantId" : "STRING",
+  "uuid" : "STRING",
+  "v_grantType" : "STRING",
+  "email" : "PII_EMAIL",
+  "clientId" : "STRING",
+  "refreshToken_data" : {
+    "cpu_usage_percent" : 61.03,
+    "jti" : "STRING",
+    "rotated" : "BOOLEAN"
+  },
+  "v_scopes" : [ "STRING" ]
+}

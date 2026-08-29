@@ -1,58 +1,38 @@
-[ {
-  "html_url" : "",
-  "comments_url" : "NULL",
-  "v_commit" : {
-    "url" : "URL",
-    "author" : {
-      "name" : "PII_PERSON_NAME",
-      "is_deleted" : false,
-      "primary_email" : "PII_EMAIL"
-    },
-    "v_comment_count" : "INT",
-    "tree" : {
-      "stock_quantity" : 1049,
-      "url" : "URL"
-    },
-    "committer" : {
-      "name" : "PII_PERSON_NAME",
-      "temperature_c" : 865.94,
-      "emailAddress" : "PII_EMAIL",
-      "date" : "DATETIME"
-    },
-    "verification" : {
-      "verified" : "BOOLEAN",
-      "payload" : "STRING",
-      "signature" : "STRING",
-      "verified_at" : "DATETIME",
-      "reason" : "STRING"
-    },
-    "message" : "PII_COMPANY_NAME",
-    "is_deleted" : true
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "node_id" : "STRING",
-  "sha_data" : "STRING",
-  "parents" : [ {
-    "sha_data" : "STRING",
-    "url_data" : "URL"
-  } ],
-  "author" : {
-    "identifier" : "INT",
-    "v_avatar_url" : "URL",
-    "gists_url" : "URL",
-    "login" : "STRING",
-    "starred_url" : "URL",
-    "following_url_data" : "URL",
-    "followers_url" : "URL",
-    "subscriptions_url_data" : "URL",
-    "events_url" : "URL",
-    "organizations_url" : "URL",
-    "v_url" : "URL",
-    "html_url_data" : "URL",
-    "conversion_rate" : 260.4,
-    "v_type" : "STRING",
-    "received_events_url" : "URL",
-    "repos_url_data" : "URL",
-    "site_admin_data" : "BOOLEAN"
-  },
-  "url" : "URL"
-} ]
+  "results" : {
+    "invoiceId" : "STRING",
+    "dueDate" : null,
+    "paymentTerms" : "STRING",
+    "subtotal_data" : "DECIMAL",
+    "total" : "DECIMAL",
+    "vendor" : {
+      "email" : "PII_EMAIL",
+      "iban" : "PII_IBAN",
+      "address" : "PII_ADDRESS_LINE",
+      "name" : "PII_COMPANY_NAME"
+    },
+    "lineItems" : [ {
+      "v_total" : "DECIMAL",
+      "unitPrice" : "DECIMAL",
+      "description" : "STRING",
+      "vatRate" : "DECIMAL",
+      "quantity_data" : "INT"
+    } ],
+    "issuedAt_data" : null,
+    "currency" : "STRING",
+    "customer" : {
+      "vatNumber" : "STRING",
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "price" : 1857.08,
+      "address" : "PII_ADDRESS_LINE",
+      "company" : "PII_COMPANY_NAME"
+    },
+    "vatAmount" : "DECIMAL",
+    "status" : "STRING"
+  }
+}

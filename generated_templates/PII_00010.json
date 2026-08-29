@@ -1,19 +1,21 @@
 {
-  "v_content" : [ {
-    "v_customerCity" : "PII_LOCATION_CITY",
-    "language" : "STRING",
-    "helpfulCount" : "INT",
-    "title" : "PII_COMPANY_NAME",
-    "articleId" : null,
-    "rating" : "INT",
+  "content_data" : [ {
+    "articleModelId" : "STRING",
     "created" : "DATETIME",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "helpfulCount_data" : "INT",
+    "v_language" : "STRING",
     "articleSizeRatings" : {
       "OVERALL" : "INT",
       "SHOE_WIDTH" : "INT"
     },
     "unhelpfulCount" : "INT",
-    "articleModelId" : "STRING",
-    "reviewId" : "STRING"
+    "articleId" : "STRING",
+    "v_description" : "STRING",
+    "primaryKey" : "STRING",
+    "title" : "STRING",
+    "customerCity" : "PII_LOCATION_CITY",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "v_rating" : "INT",
+    "recommend_data" : "BOOLEAN"
   } ]
 }

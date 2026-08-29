@@ -1,21 +1,27 @@
 {
-  "auto_renew" : true,
-  "content" : [ {
-    "title" : "PII_COMPANY_NAME",
-    "created" : "DATETIME",
-    "articleSizeRatings" : {
-      "uuid" : "",
-      "OVERALL" : "INT"
+  "temperature_c" : 8.81,
+  "ticket" : {
+    "tags" : [ "STRING" ],
+    "priority" : "STRING",
+    "status" : "STRING",
+    "description" : "PII_FREE_TEXT",
+    "requester" : {
+      "cpu_usage_percent" : 81.49,
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
     },
-    "v_rating" : "",
-    "helpfulCount" : "INT",
-    "uuid" : "STRING",
-    "customerCity" : "PII_LOCATION_CITY",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "unhelpfulCount" : "INT",
-    "reviewId" : "STRING",
-    "description" : null,
-    "articleModelId" : "STRING",
-    "language" : "STRING"
-  } ]
+    "comments_data" : [ {
+      "author_id" : "INT",
+      "v_public" : "",
+      "v_created_at" : "DATETIME",
+      "cpu_usage_percent" : 52.22,
+      "body" : "PII_FREE_TEXT",
+      "id" : "INT"
+    } ],
+    "subject" : "STRING",
+    "id" : "INT",
+    "primaryKey" : "INT",
+    "created_at" : "DATETIME",
+    "updated_at" : "DATETIME"
+  }
 }

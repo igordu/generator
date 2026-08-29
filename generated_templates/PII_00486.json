@@ -1,43 +1,27 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "gender" : "STRING",
-      "primaryKey" : [ {
-        "system" : "URL",
-        "type_data" : {
-          "text" : "STRING",
-          "temperature_c" : 879.69
-        },
-        "value" : "PII_NATIONAL_ID",
-        "priority_level" : 623,
-        "use" : "STRING"
-      } ],
-      "telecom" : [ {
-        "system_ping_ms" : 1291,
-        "value" : "PII_PHONE_NUMBER",
-        "use" : "STRING",
-        "v_system" : "STRING"
-      }, {
-        "v_system" : "STRING",
-        "response_time_sec" : 945.57,
-        "value" : "PII_EMAIL"
-      } ],
-      "resourceType" : "STRING",
-      "name" : [ {
-        "stock_quantity" : 2676,
-        "use_data" : "NULL",
-        "given" : [ "PII_PERSON_FIRST_NAME" ],
-        "v_family" : "PII_PERSON_LAST_NAME"
-      } ],
-      "id" : "STRING",
-      "is_deleted" : false,
-      "v_address" : [ {
-        "city" : "PII_LOCATION_CITY",
-        "country" : "PII_LOCATION_COUNTRY",
-        "use" : "STRING",
-        "line" : [ "PII_ADDRESS_LINE" ]
-      } ],
-      "birthDate" : "PII_DATE_OF_BIRTH"
-    }
-  }
+  "status" : "STRING",
+  "profile" : {
+    "title" : "STRING",
+    "mail" : "PII_EMAIL",
+    "login" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME",
+    "organization" : "PII_COMPANY_NAME",
+    "state" : "STRING",
+    "streetAddress" : "PII_ADDRESS_LINE",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "v_department" : "STRING",
+    "response_time_sec" : 1.72,
+    "city_data" : "PII_LOCATION_CITY",
+    "v_zipCode" : "STRING",
+    "secondEmail" : "PII_EMAIL",
+    "contactNumber" : "PII_PHONE_NUMBER",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "v_countryCode" : "PII_LOCATION_COUNTRY"
+  },
+  "uuid" : "STRING",
+  "activated" : "DATETIME",
+  "passwordChanged" : "DATETIME",
+  "lastLogin" : "DATETIME",
+  "v_created" : "DATETIME",
+  "lastUpdated" : "DATETIME"
 }

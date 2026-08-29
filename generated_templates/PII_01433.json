@@ -1,0 +1,31 @@
+{
+  "refreshToken" : {
+    "rotated" : "BOOLEAN",
+    "expiresAt" : "DATETIME",
+    "jti" : "NULL",
+    "priority_level" : 1209
+  },
+  "scopes" : [ "STRING" ],
+  "grantId" : "STRING",
+  "emailAddress" : "PII_EMAIL",
+  "uuid" : "STRING",
+  "v_grantType" : "NULL",
+  "idToken" : {
+    "address" : {
+      "v_locality" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "street_address" : "PII_ADDRESS_LINE",
+      "postal_code" : "STRING",
+      "region" : "STRING",
+      "priority_level" : 1040
+    },
+    "email" : "PII_EMAIL",
+    "item_count" : 2697,
+    "birthdate_data" : "PII_DATE_OF_BIRTH",
+    "v_sub" : "STRING",
+    "mobile" : "PII_PHONE_NUMBER",
+    "name" : "PII_PERSON_NAME"
+  },
+  "v_issuedAt" : "DATETIME",
+  "clientId" : "STRING"
+}

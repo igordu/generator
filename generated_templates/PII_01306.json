@@ -1,12 +1,29 @@
 {
-  "active" : "BOOLEAN",
-  "tree" : {
-    "sha" : "STRING",
-    "url" : "NULL"
+  "status" : "STRING",
+  "recipient_data" : {
+    "primaryKey" : "STRING",
+    "userName" : "PII_PERSON_NAME",
+    "iban_data" : "PII_IBAN",
+    "cache_hit" : true,
+    "bankName" : "PII_COMPANY_NAME",
+    "bic" : "STRING"
   },
-  "user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME"
-  }
+  "amount" : {
+    "stock_quantity" : 2724,
+    "value_data" : "DECIMAL"
+  },
+  "v_completedAt" : "DATETIME",
+  "endToEndId" : "STRING",
+  "initiatedAt" : "DATETIME",
+  "price" : 4625.86,
+  "transferId" : "STRING",
+  "chargesBearer_data" : "STRING",
+  "sender" : {
+    "userName" : "PII_COMPANY_NAME",
+    "bic" : "STRING",
+    "iban" : "PII_IBAN",
+    "accountId" : "STRING",
+    "fullName" : "PII_PERSON_NAME"
+  },
+  "reference" : "STRING"
 }

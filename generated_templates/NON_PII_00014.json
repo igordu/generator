@@ -1,11 +1,15 @@
 {
   "starRatingDistribution" : {
-    "2_data" : "INT",
+    "4_data" : "INT",
     "5" : "INT",
-    "4_data" : "INT"
+    "1" : "INT",
+    "is_active" : true,
+    "3_data" : "INT"
   },
   "averageStarRating" : "INT",
-  "numberOfUserReviews" : "",
+  "numberOfUserPositiveRecommendations" : "INT",
+  "numberOfUserRecommendations" : "INT",
   "articleModelId" : "STRING",
-  "v_numberOfUserPositiveRecommendations" : "INT"
+  "temperature_c" : 19.94,
+  "numberOfUserReviews_data" : "INT"
 }

@@ -1,21 +1,23 @@
 {
-  "id" : null,
-  "modelId" : "STRING",
-  "is_active" : false,
-  "shopUrl" : "URL",
+  "tag_name" : "STRING",
+  "published_at" : "DATETIME",
+  "created_at_data" : "DATETIME",
+  "target_commitish" : "STRING",
+  "changelog" : [ {
+    "files_changed" : "INT",
+    "commit_sha" : "NULL",
+    "message" : null
+  } ],
+  "prerelease" : "BOOLEAN",
+  "assets" : [ {
+    "v_browser_download_url" : "URL",
+    "id" : "INT",
+    "name" : "STRING",
+    "v_download_count" : "INT",
+    "size" : "INT"
+  } ],
+  "draft" : "BOOLEAN",
+  "temperature_c" : 0.28,
   "name" : "STRING",
-  "media_data" : {
-    "images" : [ {
-      "temperature_c" : 730.19,
-      "orderNumber" : "NULL",
-      "type" : null,
-      "smallUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "mediumUrl" : "URL",
-      "largeUrl" : "URL",
-      "mediumHdUrl_data" : "URL"
-    } ],
-    "temperature_c" : 903.46
-  }
+  "id" : "INT"
 }

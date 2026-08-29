@@ -1,44 +1,27 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "following_data" : "INT",
-      "collaborators" : "INT",
-      "clientName" : "STRING",
-      "v_organizations_url" : "URL",
-      "received_events_url" : "URL",
-      "location_data" : "PII_LOCATION_CITY",
-      "type" : "STRING",
-      "followers_url" : "URL",
-      "followers" : "INT",
-      "id" : "INT",
-      "login" : "STRING",
-      "hireable_data" : "BOOLEAN",
-      "site_admin_data" : null,
-      "mail" : "PII_EMAIL",
-      "price" : 437.59,
-      "repos_url" : "URL",
-      "events_url_data" : "URL",
-      "gravatar_id" : "STRING",
-      "company" : "PII_ORGANIZATION_NAME",
-      "v_disk_usage" : "INT",
-      "url" : "URL",
-      "public_repos" : "INT",
-      "following_url" : "",
-      "bio" : "PII_ORGANIZATION_NAME",
-      "owned_private_repos" : "INT",
-      "name" : "PII_PERSON_NAME",
-      "total_private_repos_data" : "NULL",
-      "updated_at" : "DATETIME",
-      "subscriptions_url" : "URL",
-      "two_factor_authentication" : "BOOLEAN",
-      "plan" : {
-        "name" : "STRING",
-        "collaborators_data" : "NULL",
-        "private_repos" : "INT",
-        "space" : ""
-      },
-      "avatar_url" : "URL",
-      "gists_url" : "URL"
-    }
+  "initiatedBy" : {
+    "triggeredBy" : "STRING",
+    "type_data" : "STRING",
+    "v_actor" : "PII_EMAIL"
+  },
+  "environment" : "STRING",
+  "rollback" : {
+    "cpu_usage_percent" : 23.69,
+    "available_data" : "BOOLEAN",
+    "previousVersion" : "STRING"
+  },
+  "service" : "STRING",
+  "deploymentId" : "STRING",
+  "registry" : "STRING",
+  "startedAt" : "DATETIME",
+  "strategy_data" : "STRING",
+  "artifactDigest" : "STRING",
+  "cpu_usage_percent" : 1.24,
+  "completedAt" : null,
+  "healthCheck" : {
+    "has_discount" : false,
+    "v_url" : "URL",
+    "responseTimeMs_data" : "INT",
+    "status" : "STRING"
   }
 }

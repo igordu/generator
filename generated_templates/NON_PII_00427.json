@@ -1,4 +1,26 @@
 {
-  "flowName" : "STRING",
-  "priority_level" : 1830
+  "endpoint" : {
+    "status" : "STRING",
+    "conversion_rate" : 7.5,
+    "url" : "URL",
+    "id" : "STRING"
+  },
+  "payload" : {
+    "currency" : "STRING",
+    "orderId" : "STRING",
+    "customerId" : "STRING",
+    "completedAt" : "DATETIME",
+    "is_active" : true,
+    "totalAmount" : "DECIMAL"
+  },
+  "webhookId" : "STRING",
+  "requires_update" : true,
+  "response" : {
+    "body" : "STRING",
+    "statusCode" : "INT",
+    "latencyMs" : "INT"
+  },
+  "event" : "STRING",
+  "deliveredAt" : "DATETIME",
+  "signature_data" : "STRING"
 }

@@ -1,44 +1,41 @@
 {
-  "audit_trail" : {
-    "payload_wrapper" : {
-      "raw_data" : {
-        "v_address" : [ {
-          "use" : "STRING",
-          "country_data" : "PII_LOCATION_COUNTRY",
-          "city" : "PII_LOCATION_CITY",
-          "line" : [ "PII_ADDRESS_LINE" ],
-          "price" : 951.72
-        } ],
-        "meta" : {
-          "lastUpdated_data" : "DATETIME",
-          "versionId" : "INT"
-        },
-        "recordId" : [ {
-          "value" : "PII_NATIONAL_ID",
-          "type_data" : {
-            "text_data" : "STRING"
-          },
-          "system_data" : "URL"
-        } ],
-        "identifier" : "STRING",
-        "name" : [ {
-          "cache_hit" : true,
-          "family_data" : "PII_PERSON_LAST_NAME",
-          "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-          "use" : "STRING"
-        } ],
-        "telecom" : [ {
-          "cpu_usage_percent" : 154.57,
-          "value_data" : "PII_EMAIL"
-        }, {
-          "has_discount" : false,
-          "use" : "STRING",
-          "value" : "PII_PHONE_NUMBER",
-          "system" : "STRING"
-        } ],
-        "birthDate" : "PII_DATE_OF_BIRTH",
-        "resourceType" : "STRING"
-      }
+  "emailAddress" : "PII_EMAIL",
+  "location" : {
+    "v_country" : {
+      "code" : "PII_LOCATION_COUNTRY"
+    },
+    "page_index" : 976
+  },
+  "firstName" : {
+    "localized_data" : {
+      "en_US" : "PII_PERSON_FIRST_NAME"
+    },
+    "preferredLocale_data" : {
+      "v_country" : ""
     }
-  }
+  },
+  "lastName" : {
+    "localized" : {
+      "en_US" : "PII_PERSON_LAST_NAME",
+      "auto_renew" : false
+    },
+    "v_preferredLocale" : {
+      "language" : "STRING"
+    }
+  },
+  "headline" : {
+    "v_localized" : {
+      "en_US" : "STRING",
+      "item_count" : 3045
+    }
+  },
+  "vanityName" : "PII_USERNAME",
+  "id" : "STRING",
+  "birthDate_data" : {
+    "day" : "INT"
+  },
+  "phoneNumbers" : [ {
+    "number" : "PII_PHONE_NUMBER",
+    "type" : "STRING"
+  } ]
 }

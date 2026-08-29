@@ -1,39 +1,18 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "jvmMemory" : {
+    "gcPauseMs" : "INT",
+    "heapUsedMb" : "INT",
+    "heapMaxMb" : "INT"
   },
-  "results" : [ {
-    "avatarUrls_data" : {
-      "16x16" : "URL",
-      "24x24" : "URL",
-      "48x48" : "URL"
-    },
-    "id" : "STRING",
-    "key" : "STRING",
-    "self" : "URL",
-    "simplified" : "BOOLEAN",
-    "style" : "STRING",
-    "insight_data" : {
-      "totalIssueCount_data" : null,
-      "lastIssueUpdateTime" : "DATETIME"
-    }
-  }, {
-    "is_active" : false,
-    "name" : "STRING",
-    "simplified" : "BOOLEAN",
-    "key" : "STRING",
-    "insight" : {
-      "lastIssueUpdateTime" : "DATETIME",
-      "totalIssueCount_data" : "INT",
-      "is_deleted" : true
-    },
-    "id" : "STRING",
-    "v_projectCategory" : {
-      "uuid" : "STRING",
-      "name" : "STRING",
-      "v_description" : "STRING"
-    },
-    "style" : "STRING"
+  "version" : "STRING",
+  "temperature_c" : 24.0,
+  "nodeId" : "STRING",
+  "uptimeSeconds" : "INT",
+  "role" : "STRING",
+  "topics" : [ {
+    "replicationFactor" : "INT",
+    "partitions" : "INT",
+    "stock_quantity" : 1734,
+    "userName" : "STRING"
   } ]
 }

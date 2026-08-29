@@ -1,16 +1,4 @@
 {
-  "averageStarRating" : "INT",
-  "numberOfUserReviews" : "",
-  "numberOfUserRecommendations" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "articleModelId" : "STRING",
-  "system_ping_ms" : 932,
-  "starRatingDistribution" : {
-    "retry_attempts" : 1273,
-    "2_data" : "INT",
-    "v_5" : "INT",
-    "3" : "INT",
-    "1" : "INT",
-    "4" : "INT"
-  }
+  "v_clientToken" : "STRING",
+  "flowName" : "STRING"
 }

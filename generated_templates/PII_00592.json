@@ -1,29 +1,32 @@
 {
-  "v_transactions" : {
-    "booked_data" : [ {
-      "valueDate" : "DATE",
-      "bankTransactionCode" : {
-        "subFamily" : "STRING",
-        "family_data" : "STRING",
-        "domain_data" : "STRING"
-      },
-      "creditorName" : "PII_PERSON_NAME",
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "transactionId" : "STRING",
-      "amount" : {
-        "amount" : "DECIMAL",
-        "currency" : "STRING"
-      },
-      "bookingDate_data" : "DATE",
-      "creditorAccount" : {
-        "requires_update" : false,
-        "v_iban" : "PII_IBAN"
-      },
-      "debtorName" : "STRING",
-      "v_debtorAccount" : {
-        "discount_rate" : 239.48,
-        "iban" : "STRING"
-      }
-    } ]
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "v_city" : "PII_LOCATION_CITY",
+    "businessPhones" : [ "PII_PHONE_NUMBER" ],
+    "country" : "PII_LOCATION_COUNTRY",
+    "name_val" : "PII_PERSON_NAME",
+    "postalCode" : "STRING",
+    "userType" : "STRING",
+    "employeeType" : "STRING",
+    "department_data" : "STRING",
+    "mail" : "PII_EMAIL",
+    "createdDateTime" : "NULL",
+    "state" : "STRING",
+    "jobTitle" : "STRING",
+    "usageLocation" : "STRING",
+    "recordId" : "STRING",
+    "preferredLanguage" : "STRING",
+    "mobilePhone" : "PII_PHONE_NUMBER",
+    "streetAddress_data" : "PII_ADDRESS_LINE",
+    "onPremisesSamAccountName" : "PII_USERNAME",
+    "surname" : "PII_PERSON_LAST_NAME",
+    "accountEnabled" : "BOOLEAN",
+    "primaryKey" : "STRING",
+    "givenName" : "PII_PERSON_FIRST_NAME",
+    "userPrincipalName" : "PII_EMAIL",
+    "officeLocation" : "STRING"
   }
 }

@@ -1,46 +1,26 @@
-[ {
-  "self_data" : null,
-  "projectCategory" : {
-    "id" : "STRING",
-    "discount_rate" : 900.76,
-    "userName" : "STRING",
-    "description" : "STRING",
-    "v_self" : "URL"
+{
+  "topics" : [ {
+    "name" : "STRING",
+    "cache_hit" : true,
+    "replicationFactor" : "INT",
+    "partitions" : "INT"
+  } ],
+  "jvmMemory" : {
+    "heapMaxMb" : "INT",
+    "v_gcPauseMs" : "",
+    "v_heapUsedMb" : "INT"
   },
-  "uuid" : "STRING",
-  "insight" : {
-    "v_totalIssueCount" : "INT",
-    "v_lastIssueUpdateTime" : "DATETIME"
+  "version_data" : "STRING",
+  "role" : "STRING",
+  "uptimeSeconds_data" : "INT",
+  "nodeId" : "STRING",
+  "v_metrics" : {
+    "offlinePartitionsCount_data" : "INT",
+    "underReplicatedPartitions" : "NULL",
+    "bytesOutPerSec" : "INT",
+    "activeControllerCount" : "INT",
+    "requestHandlerAvgIdlePercent" : "DECIMAL",
+    "v_messagesInPerSec" : "INT"
   },
-  "is_deleted" : true,
-  "style" : "STRING",
-  "simplified" : "BOOLEAN",
-  "key_data" : "STRING"
-}, {
-  "v_simplified" : "",
-  "projectCategory" : {
-    "http_status" : 3610,
-    "v_description" : "NULL",
-    "primaryKey" : "STRING",
-    "self" : "URL",
-    "clientName" : null
-  },
-  "v_key" : "STRING",
-  "self" : "URL",
-  "price" : 680.75,
-  "insight" : {
-    "is_deleted" : false,
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "identifier" : "STRING",
-  "avatarUrls" : {
-    "48x48_data" : "URL",
-    "16x16" : "URL",
-    "priority_level" : 2561,
-    "32x32_data" : "URL",
-    "v_24x24" : "URL"
-  },
-  "style" : "STRING",
-  "name" : "STRING"
-} ]
+  "clusterId" : "STRING"
+}

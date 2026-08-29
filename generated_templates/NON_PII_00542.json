@@ -1,48 +1,19 @@
-[ {
-  "has_discount" : false,
-  "id" : "STRING",
-  "insight" : {
-    "totalIssueCount_data" : "INT",
-    "has_discount" : false,
-    "lastIssueUpdateTime" : "DATETIME"
+{
+  "usage" : {
+    "outputTokens_data" : "INT",
+    "inputTokens" : "INT"
   },
-  "projectCategory" : {
-    "primaryKey" : "STRING",
-    "v_self" : "URL",
-    "name" : "STRING",
-    "v_description" : "STRING"
+  "metadata" : {
+    "sessionId" : "STRING",
+    "uuid" : "STRING"
   },
-  "simplified" : "BOOLEAN",
-  "style" : "STRING",
-  "key_data" : null,
-  "avatarUrls" : {
-    "48x48" : "URL",
-    "temperature_c" : 642.07,
-    "24x24" : "URL",
-    "16x16_data" : "URL",
-    "v_32x32" : "URL"
-  }
-}, {
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "48x48_data" : "URL",
-    "24x24" : "URL",
-    "v_16x16" : "URL"
-  },
-  "id" : "STRING",
-  "style_data" : "STRING",
-  "v_projectCategory" : {
-    "description" : "STRING",
-    "id" : "STRING",
-    "self_data" : "URL"
-  },
-  "v_key" : "STRING",
-  "v_insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime_data" : "DATETIME"
-  },
-  "simplified" : "BOOLEAN",
-  "name" : "STRING",
-  "discount_rate" : 117.2,
-  "self" : "URL"
-} ]
+  "chatId" : "STRING",
+  "model" : "STRING",
+  "messages_data" : [ {
+    "content" : "STRING",
+    "timestamp_data" : "DATETIME",
+    "role" : "STRING"
+  } ],
+  "createdAt_data" : "DATETIME",
+  "http_status" : 1423
+}

@@ -1,0 +1,20 @@
+{
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "updatedAt" : "DATETIME",
+    "permissions_data" : [ "STRING" ],
+    "v_inheritedFrom" : [ "STRING" ],
+    "assignedTo_data" : [ {
+      "email" : "PII_EMAIL",
+      "assignedAt" : "DATETIME",
+      "userId" : null,
+      "name" : "PII_PERSON_NAME"
+    } ],
+    "fullName" : "STRING",
+    "is_deleted" : true,
+    "createdBy" : "PII_EMAIL",
+    "roleId" : "STRING",
+    "createdAt" : "DATETIME"
+  }
+}

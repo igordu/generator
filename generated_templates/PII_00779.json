@@ -1,36 +1,44 @@
 {
-  "page_size" : "INT",
-  "page_count_data" : "INT",
-  "total_records_data" : "INT",
-  "registrants" : [ {
-    "phone" : "PII_PHONE_NUMBER",
-    "country" : "PII_LOCATION_COUNTRY",
-    "name_val" : "PII_PERSON_LAST_NAME",
-    "state" : "PII_LOCATION_STATE",
-    "status_data" : "STRING",
-    "v_custom_questions" : [ {
-      "title" : "STRING",
-      "value" : "STRING"
-    }, {
-      "title" : "STRING",
-      "page_index" : 1346,
-      "value" : "STRING"
-    } ],
-    "purchasing_time_frame_data" : "STRING",
-    "city" : "PII_LOCATION_CITY",
-    "zip" : "STRING",
-    "email" : "PII_EMAIL",
-    "join_url" : "URL",
-    "industry_data" : "STRING",
-    "no_of_employees_data" : "STRING",
-    "create_time" : "DATETIME",
-    "has_discount" : false,
-    "address" : "PII_ADDRESS_LINE",
-    "role_in_purchase_process" : "STRING",
-    "comments" : "STRING",
-    "org_data" : "PII_ORGANIZATION_NAME",
-    "job_title" : "STRING",
-    "first_name" : "PII_PERSON_FIRST_NAME"
-  } ],
-  "page_number" : "INT"
+  "data" : {
+    "fetchResource" : {
+      "server_logs" : {
+        "event_data" : {
+          "body" : {
+            "v_customer" : {
+              "name" : "PII_PERSON_NAME",
+              "phone" : "PII_PHONE_NUMBER",
+              "primaryKey" : "STRING",
+              "is_active" : false,
+              "email" : "PII_EMAIL"
+            },
+            "total_amount_data" : "INT",
+            "v_shipping_address" : {
+              "last_name" : "PII_PERSON_LAST_NAME",
+              "v_country_code" : "PII_LOCATION_COUNTRY",
+              "city" : "PII_LOCATION_CITY",
+              "first_name" : "PII_PERSON_FIRST_NAME",
+              "province_code" : "STRING",
+              "cache_hit" : true,
+              "zip" : "STRING",
+              "address_1" : "PII_ADDRESS_LINE"
+            },
+            "id" : "STRING",
+            "currency" : "STRING",
+            "payment_status" : "STRING",
+            "page_index" : 4489,
+            "updated_at" : "DATETIME",
+            "line_items" : [ {
+              "unit_price_data" : "INT",
+              "title" : "STRING",
+              "primaryKey" : "STRING",
+              "v_quantity" : null,
+              "total" : "INT"
+            } ],
+            "status_data" : "STRING",
+            "created_at" : "DATETIME"
+          }
+        }
+      }
+    }
+  }
 }

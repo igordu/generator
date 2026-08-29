@@ -1,26 +1,32 @@
-[ {
-  "is_active" : true,
-  "v_avatarUrls" : {
-    "v_32x32" : "URL",
-    "16x16_data" : null,
-    "24x24" : "URL",
-    "is_deleted" : false,
-    "48x48" : "URL"
+{
+  "nextRunAt" : "DATETIME",
+  "v_source" : {
+    "host_data" : "STRING",
+    "table" : "STRING",
+    "type" : "STRING",
+    "database" : "STRING"
   },
-  "style" : "STRING",
-  "v_key" : "STRING",
-  "self" : "URL",
-  "v_insight" : {
-    "totalIssueCount" : "INT",
-    "cpu_usage_percent" : 863.58
+  "triggeredBy" : "STRING",
+  "destination" : {
+    "project" : "STRING",
+    "table" : "STRING",
+    "has_discount" : false,
+    "dataset" : "STRING",
+    "type" : "STRING"
   },
+  "startedAt" : null,
+  "status" : "STRING",
   "name" : "STRING",
-  "id" : "STRING",
-  "projectCategory" : {
-    "description" : "STRING",
-    "name" : "STRING",
-    "uuid" : "STRING",
-    "item_count" : 1796,
-    "self" : "URL"
-  }
-} ]
+  "completedAt" : "DATETIME",
+  "type_data" : "STRING",
+  "durationSeconds" : "INT",
+  "scheduledAt" : "DATETIME",
+  "stats" : {
+    "bytesTransferred" : "INT",
+    "recordsSkipped" : "INT",
+    "recordsRead" : "INT",
+    "recordsWritten" : "INT",
+    "temperature_c" : -2.14
+  },
+  "taskId" : "STRING"
+}

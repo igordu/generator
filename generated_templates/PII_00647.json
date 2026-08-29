@@ -1,38 +1,47 @@
 {
-  "Employees" : [ {
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "ExternalLink_data" : {
-      "Url" : "URL",
-      "v_Description" : "STRING"
-    },
-    "recordId" : "STRING",
-    "v_Status" : "STRING",
-    "UpdatedDateUTC" : "DATETIME",
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "v_Status" : "STRING",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "stock_quantity" : 2960,
-      "Url" : "URL"
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : null,
-    "EmployeeID" : "STRING"
-  }, {
-    "Status" : "STRING",
-    "ExternalLink_data" : {
-      "discount_rate" : 177.07,
-      "Url" : "URL"
-    },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "recordId" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  } ],
-  "DateTimeUTC_data" : "DATETIME",
-  "primaryKey" : "STRING",
-  "v_Status" : "STRING",
-  "price" : 922.7,
-  "clientName" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "metadata" : {
+        "v_annotations" : {
+          "contact" : "PII_EMAIL",
+          "owner" : "STRING"
+        },
+        "creationTimestamp" : "DATETIME",
+        "labels" : {
+          "version_data" : "STRING",
+          "environment" : "STRING",
+          "app" : "STRING",
+          "priority_level" : 3128
+        },
+        "namespace" : "STRING",
+        "resourceVersion" : "STRING",
+        "has_discount" : true,
+        "name" : "STRING"
+      },
+      "spec" : {
+        "serviceAccountName" : "STRING",
+        "containers" : [ {
+          "image" : "NULL",
+          "env" : [ {
+            "value" : "PII_EMAIL",
+            "http_status" : 1258
+          } ],
+          "resources" : {
+            "limits" : {
+              "memory_data" : "STRING",
+              "response_time_sec" : 10.92
+            }
+          },
+          "userName" : "STRING",
+          "ports" : [ {
+            "http_status" : 1298,
+            "protocol_data" : "",
+            "containerPort" : "INT"
+          } ]
+        } ],
+        "clientName" : "STRING"
+      },
+      "apiVersion_data" : "STRING"
+    }
+  }
 }

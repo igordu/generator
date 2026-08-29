@@ -1,39 +1,33 @@
 {
-  "clientName" : "PII_PERSON_NAME",
-  "v_gists_url" : "URL",
-  "total_private_repos_data" : "INT",
-  "site_admin" : "BOOLEAN",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "node_id" : "STRING",
-  "starred_url_data" : "URL",
-  "events_url" : "URL",
-  "created_at" : "DATETIME",
-  "blog" : "URL",
-  "following_url" : "URL",
-  "gravatar_id" : "STRING",
-  "v_private_gists" : "INT",
-  "two_factor_authentication" : "BOOLEAN",
-  "public_repos" : "INT",
-  "public_gists" : "INT",
-  "v_html_url" : "URL",
-  "url_data" : "URL",
-  "collaborators" : "INT",
-  "fullName" : "STRING",
-  "login" : "STRING",
-  "email" : "PII_EMAIL",
-  "id" : "INT",
-  "updated_at" : "DATETIME",
-  "subscriptions_url" : "URL",
-  "plan" : {
-    "collaborators" : "INT",
-    "space" : "INT",
+  "trigger" : "STRING",
+  "name" : "STRING",
+  "v_steps" : [ {
+    "status_data" : "STRING",
+    "completedAt" : "DATETIME",
     "name" : "STRING",
-    "private_repos" : "INT"
+    "id" : "STRING"
+  } ],
+  "v_startedAt" : "DATETIME",
+  "status" : "STRING",
+  "id" : "STRING",
+  "cpu_usage_percent" : 41.25,
+  "initiatedBy" : {
+    "userId" : "STRING",
+    "userName" : "PII_PERSON_NAME",
+    "stock_quantity" : 4315,
+    "email" : "PII_EMAIL"
   },
-  "company" : "PII_ORGANIZATION_NAME",
-  "received_events_url" : "URL",
-  "location" : "PII_LOCATION_CITY",
-  "organizations_url" : "URL",
-  "followers_data" : "INT",
-  "hireable" : "BOOLEAN"
+  "context" : {
+    "employeeName" : "PII_PERSON_NAME",
+    "manager" : {
+      "mail" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "id" : "STRING"
+    },
+    "department" : "STRING",
+    "startDate" : "DATE",
+    "stock_quantity" : 2405,
+    "contactEmail" : "PII_EMAIL",
+    "employeeId" : "STRING"
+  }
 }

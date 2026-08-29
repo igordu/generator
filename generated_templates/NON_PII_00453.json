@@ -1,3 +1,14 @@
 {
-  "fullName" : "STRING"
+  "clientName" : "STRING",
+  "lastAccessedAt" : "DATETIME",
+  "region" : "STRING",
+  "cacheKey" : "STRING",
+  "hits" : "INT",
+  "value" : {
+    "roles" : [ "STRING" ],
+    "expiresAt_data" : "DATETIME",
+    "userId" : "NULL"
+  },
+  "createdAt" : "DATETIME",
+  "ttl" : "INT"
 }

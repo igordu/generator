@@ -1,48 +1,39 @@
-[ {
-  "simplified" : "BOOLEAN",
-  "insight" : {
-    "retry_attempts" : 1936,
-    "lastIssueUpdateTime_data" : "DATETIME"
-  },
-  "key_data" : "STRING",
-  "identifier" : "STRING",
-  "projectCategory" : {
-    "self" : "URL",
-    "id" : "STRING",
-    "description_data" : "STRING",
-    "name" : ""
-  },
-  "self" : "URL",
-  "price" : 296.45,
-  "name" : "STRING",
-  "v_avatarUrls" : {
-    "16x16" : "URL",
-    "48x48" : "NULL",
-    "is_active" : false,
-    "32x32_data" : "URL",
-    "24x24" : "URL"
+{
+  "audit_trail" : {
+    "transaction_trace" : {
+      "raw_data" : {
+        "serviceId" : "STRING",
+        "topErrors" : [ {
+          "count" : "INT",
+          "code" : "STRING"
+        } ],
+        "period" : "STRING",
+        "v_endpoint" : "STRING",
+        "statusCodes_data" : {
+          "500" : "NULL",
+          "429_data" : "INT",
+          "200" : "INT"
+        },
+        "v_metrics" : {
+          "errorRate_data" : "DECIMAL",
+          "errorCount" : "INT",
+          "p95LatencyMs" : "INT",
+          "item_count" : 934,
+          "p99LatencyMs_data" : "INT",
+          "p999LatencyMs" : "INT",
+          "throughputRps" : "",
+          "v_requestCount" : "INT",
+          "p50LatencyMs_data" : "INT"
+        },
+        "sloCompliance" : {
+          "withinSlo" : "BOOLEAN",
+          "availabilityActual" : "DECIMAL",
+          "response_time_sec" : 6.68,
+          "latencyTarget" : "INT",
+          "latencyActualP99" : "INT",
+          "v_availabilityTarget" : "DECIMAL"
+        }
+      }
+    }
   }
-}, {
-  "primaryKey" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "key_data" : "STRING",
-  "style" : "STRING",
-  "v_self" : "URL",
-  "auto_renew" : false,
-  "avatarUrls" : {
-    "24x24" : "URL",
-    "cpu_usage_percent" : 447.29,
-    "32x32_data" : "URL",
-    "16x16" : "URL",
-    "48x48_data" : "NULL"
-  },
-  "simplified" : "BOOLEAN",
-  "projectCategory" : {
-    "description" : "STRING",
-    "recordId" : "STRING",
-    "self" : "URL"
-  }
-} ]
+}

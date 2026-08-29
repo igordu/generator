@@ -1,4 +1,21 @@
 {
-  "flowName" : "STRING",
-  "v_clientToken" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "status" : "STRING",
+      "notificationId" : "STRING",
+      "v_recipient" : {
+        "platform_data" : "STRING",
+        "userId" : "STRING",
+        "appVersion" : "STRING",
+        "temperature_c" : 14.01,
+        "deviceToken" : null
+      },
+      "retryCount" : null,
+      "has_discount" : true,
+      "deliveredAt" : "DATETIME",
+      "type" : "STRING",
+      "campaign" : "NULL",
+      "sentAt" : "DATETIME"
+    }
+  }
 }

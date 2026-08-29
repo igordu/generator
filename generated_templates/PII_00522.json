@@ -1,28 +1,25 @@
 {
-  "transactions" : {
-    "booked_data" : [ {
-      "amount" : {
-        "cache_hit" : true,
-        "amount" : "DECIMAL"
-      },
-      "transactionId" : "STRING",
-      "creditorAccount" : {
-        "iban" : "PII_IBAN"
-      },
-      "valueDate_data" : "DATE",
-      "creditorName" : "PII_PERSON_NAME",
-      "bankTransactionCode" : {
-        "domain" : "STRING",
-        "family" : "STRING",
-        "subFamily" : "STRING",
-        "response_time_sec" : 604.69
-      },
-      "debtorAccount" : {
-        "iban_data" : "STRING"
-      },
-      "temperature_c" : 383.97,
-      "remittanceInformationUnstructured" : "PII_ORGANIZATION_NAME",
-      "v_bookingDate" : "DATE"
-    } ]
-  }
+  "hs_email_optout" : "BOOLEAN",
+  "website" : "URL",
+  "v_country" : "PII_LOCATION_COUNTRY",
+  "num_associated_deals_data" : "INT",
+  "lastName" : "PII_PERSON_LAST_NAME",
+  "createdate" : "DATETIME",
+  "jobtitle" : "STRING",
+  "firstName" : "PII_PERSON_FIRST_NAME",
+  "zip" : "STRING",
+  "phone" : "PII_PHONE_NUMBER",
+  "hs_lead_status" : "STRING",
+  "state" : "STRING",
+  "lifecyclestage" : "STRING",
+  "uuid" : "STRING",
+  "email" : "PII_EMAIL",
+  "associatedcompanyid" : "STRING",
+  "notes_last_contacted" : "DATETIME",
+  "company" : "PII_COMPANY_NAME",
+  "v_address" : "PII_ADDRESS_LINE",
+  "mobilephone" : "PII_PHONE_NUMBER",
+  "lastmodifieddate" : "DATETIME",
+  "hs_object_id" : "STRING",
+  "city" : "PII_LOCATION_CITY"
 }

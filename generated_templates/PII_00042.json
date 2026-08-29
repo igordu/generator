@@ -1,21 +1,73 @@
 {
-  "content" : [ {
-    "rating" : "INT",
-    "unhelpfulCount_data" : "INT",
-    "reviewId" : "STRING",
-    "created" : "DATETIME",
-    "temperature_c" : 524.76,
-    "language" : "NULL",
-    "title" : "PII_COMPANY_NAME",
-    "articleModelId" : "STRING",
-    "recommend" : "BOOLEAN",
-    "articleSizeRatings" : {
-      "identifier" : ""
+  "transactions" : [ {
+    "totalFeeBasisAmount_data" : {
+      "value_data" : "STRING",
+      "convertedFromCurrency" : "NULL",
+      "currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "cpu_usage_percent" : 95.18,
+      "v_convertedFromValue" : ""
     },
-    "customerCountry_data" : "PII_LOCATION_COUNTRY",
-    "helpfulCount" : "",
-    "customerCity" : "PII_LOCATION_CITY",
-    "articleId" : "STRING"
+    "transactionDate" : "DATETIME",
+    "transactionType" : "STRING",
+    "v_transactionStatus" : "STRING",
+    "buyer" : {
+      "userName" : "PII_USERNAME"
+    },
+    "feeJurisdiction" : {
+      "v_regionType" : "STRING",
+      "regionName" : "STRING"
+    },
+    "payoutId" : "STRING",
+    "transactionMemo" : "STRING",
+    "orderLineItems" : [ {
+      "marketplaceFees_data" : [ {
+        "v_feeMemo" : "STRING",
+        "feeType" : "STRING",
+        "amount_data" : {
+          "currency" : "STRING",
+          "convertedFromCurrency_data" : "STRING",
+          "value" : "STRING",
+          "exchangeRate" : "STRING",
+          "cache_hit" : false
+        },
+        "feeJurisdiction" : {
+          "is_deleted" : false,
+          "regionType_data" : "STRING"
+        }
+      } ],
+      "price" : 6595.41,
+      "feeBasisAmount" : {
+        "currency" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "convertedFromValue" : "STRING",
+        "exchangeRate" : "STRING"
+      }
+    } ],
+    "paymentsEntity" : "STRING",
+    "orderId" : "STRING",
+    "transactionId" : "STRING",
+    "references" : [ {
+      "referenceType_data" : null,
+      "uuid" : "STRING",
+      "auto_renew" : false
+    } ],
+    "bookingEntry_data" : "STRING",
+    "totalFeeAmount" : {
+      "stock_quantity" : 2034,
+      "v_currency" : "STRING",
+      "exchangeRate" : "STRING",
+      "v_convertedFromValue" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING"
+    },
+    "salesRecordReference" : "STRING",
+    "feeType" : "STRING"
   } ],
-  "is_active" : true
+  "next" : "STRING",
+  "offset" : "INT",
+  "prev" : "STRING",
+  "v_total" : "INT",
+  "v_limit" : "INT"
 }

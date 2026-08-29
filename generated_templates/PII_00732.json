@@ -1,31 +1,23 @@
 {
-  "v_page_number" : "INT",
-  "is_active" : true,
-  "page_count" : "INT",
-  "registrants" : [ {
-    "email" : "PII_EMAIL",
+  "object" : "STRING",
+  "system_ping_ms" : 3071,
+  "v_plan" : {
+    "product" : "STRING",
     "id" : "STRING",
-    "is_active" : true,
-    "state_data" : "PII_LOCATION_STATE",
-    "no_of_employees" : "STRING",
-    "v_industry" : null,
-    "purchasing_time_frame" : "STRING",
-    "role_in_purchase_process" : "STRING",
-    "userName" : "PII_PERSON_LAST_NAME",
-    "org" : "PII_ORGANIZATION_NAME",
-    "phone" : "PII_PHONE_NUMBER",
-    "job_title" : "STRING",
-    "country" : "PII_LOCATION_COUNTRY",
-    "v_join_url" : "URL",
-    "first_name" : "PII_PERSON_FIRST_NAME",
-    "create_time_data" : "DATETIME",
-    "custom_questions" : [ {
-      "value_data" : "STRING"
-    } ],
-    "city" : "PII_LOCATION_CITY",
-    "zip" : "STRING",
-    "v_address" : "PII_ADDRESS_LINE",
-    "v_status" : "STRING"
-  } ],
-  "v_total_records" : "INT"
+    "object" : "STRING",
+    "interval" : "STRING",
+    "amount" : "INT"
+  },
+  "current_period_start" : "DATETIME_EPOCH",
+  "current_period_end" : "DATETIME_EPOCH",
+  "customer" : "STRING",
+  "trial_end" : "NULL",
+  "livemode" : "BOOLEAN",
+  "identifier" : "STRING",
+  "metadata" : {
+    "identifier" : "STRING",
+    "account_manager_data" : "PII_EMAIL",
+    "item_count" : 4761
+  },
+  "cancel_at_period_end" : "BOOLEAN"
 }

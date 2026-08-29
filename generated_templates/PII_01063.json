@@ -1,14 +1,32 @@
 {
-  "v_metadata" : "OBJECT",
-  "currency" : "STRING",
-  "fingerprint" : "STRING",
-  "bank_name" : "STRING",
-  "account_type_data" : "STRING",
-  "account_holder_name" : "PII_PERSON_NAME",
-  "last4" : "STRING",
-  "country_data" : "STRING",
-  "routing_number" : "STRING",
-  "object" : "STRING",
-  "id" : "STRING",
-  "customer" : "STRING"
+  "http_status" : 4105,
+  "loanDetails" : {
+    "requestedAt" : "DATETIME",
+    "termMonths" : "INT",
+    "requestedAmount" : "DECIMAL",
+    "currency" : "STRING",
+    "purpose" : "STRING"
+  },
+  "applicant" : {
+    "employmentStatus_data" : "STRING",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "primary_email" : "PII_EMAIL",
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "v_city" : "PII_LOCATION_CITY",
+      "cache_hit" : false
+    },
+    "phone" : "PII_PHONE_NUMBER",
+    "nationalId" : "PII_NATIONAL_ID",
+    "employer" : "PII_COMPANY_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "firstName" : "PII_PERSON_FIRST_NAME"
+  },
+  "bankAccount" : {
+    "branchCode" : "STRING",
+    "iban" : "PII_IBAN",
+    "bankName" : "PII_COMPANY_NAME",
+    "stock_quantity" : 2318
+  }
 }

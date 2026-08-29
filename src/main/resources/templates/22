@@ -1,0 +1,24 @@
+{
+  "account_sid": "STRING",
+  "api_version": "STRING",
+  "body": "STRING",
+  "date_created": "DATETIME",
+  "date_sent": "DATETIME",
+  "date_updated": "DATETIME",
+  "direction": "STRING",
+  "error_code": "NULL",
+  "error_message": "NULL",
+  "from": "PII_PHONE_NUMBER",
+  "messaging_service_sid": "STRING",
+  "num_media": "STRING",
+  "num_segments": "STRING",
+  "price": "NULL",
+  "price_unit": "NULL",
+  "sid": "STRING",
+  "status": "STRING",
+  "subresource_uris": {
+    "media": "URL"
+  },
+  "to": "PII_PHONE_NUMBER",
+  "uri": "URL"
+}

@@ -1,37 +1,47 @@
 {
-  "requires_update" : false,
-  "address_data" : [ {
-    "v_country" : "PII_LOCATION_COUNTRY",
-    "v_city" : "PII_LOCATION_CITY",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "use_data" : "STRING",
-    "is_deleted" : true
-  } ],
-  "resourceType" : "STRING",
-  "meta" : {
-    "primaryKey" : "INT",
-    "discount_rate" : 399.5,
-    "lastUpdated" : "DATETIME"
+  "lastName" : {
+    "preferredLocale" : {
+      "language" : "STRING",
+      "discount_rate" : 74.58,
+      "country" : "STRING"
+    },
+    "localized" : {
+      "en_US" : "PII_PERSON_LAST_NAME"
+    }
   },
-  "telecom" : [ {
-    "v_value" : "PII_EMAIL",
-    "system" : "STRING"
-  }, {
-    "v_system" : "STRING",
-    "value" : "PII_PHONE_NUMBER",
-    "priority_level" : 387
+  "emailAddress" : "PII_EMAIL",
+  "headline" : {
+    "localized" : {
+      "en_US" : "STRING",
+      "response_time_sec" : 15.72
+    }
+  },
+  "firstName" : {
+    "http_status" : 400,
+    "preferredLocale_data" : {
+      "country" : "STRING",
+      "language" : "STRING"
+    },
+    "localized" : {
+      "http_status" : 1883,
+      "en_US" : "PII_PERSON_FIRST_NAME"
+    }
+  },
+  "mobile" : [ {
+    "type" : "STRING",
+    "number_data" : "PII_PHONE_NUMBER"
   } ],
-  "name" : [ {
-    "stock_quantity" : 1086,
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "v_family" : "PII_PERSON_LAST_NAME",
-    "use" : "STRING"
-  } ],
-  "id" : "STRING",
-  "gender" : "STRING",
-  "identifier" : [ {
-    "use_data" : "STRING",
-    "value" : "PII_NATIONAL_ID"
-  } ],
-  "birthDate_data" : "PII_DATE_OF_BIRTH"
+  "v_birthDate" : {
+    "month" : "INT"
+  },
+  "cpu_usage_percent" : 21.81,
+  "v_location" : {
+    "country" : {
+      "discount_rate" : 94.62,
+      "code" : "PII_LOCATION_COUNTRY"
+    },
+    "system_ping_ms" : 3810
+  },
+  "vanityName" : "PII_USERNAME",
+  "id" : "STRING"
 }

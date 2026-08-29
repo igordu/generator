@@ -1,14 +1,18 @@
 {
-  "numberOfUserRecommendations" : "INT",
-  "numberOfUserPositiveRecommendations" : "INT",
-  "averageStarRating" : "INT",
-  "articleModelId" : "STRING",
-  "starRatingDistribution_data" : {
-    "2_data" : "INT",
-    "5" : "INT",
-    "response_time_sec" : 595.98,
-    "1" : "",
-    "4" : "INT",
-    "3" : "INT"
-  }
+  "modelId" : "STRING",
+  "name" : "STRING",
+  "shopUrl" : "URL",
+  "media" : {
+    "images" : [ {
+      "type" : "STRING",
+      "v_largeUrl" : "URL",
+      "v_mediumUrl" : "URL",
+      "smallUrl" : "URL",
+      "v_orderNumber" : "INT",
+      "smallHdUrl" : "URL",
+      "v_largeHdUrl" : "URL",
+      "mediumHdUrl" : "URL"
+    } ]
+  },
+  "id" : "STRING"
 }

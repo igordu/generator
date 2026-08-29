@@ -1,39 +1,23 @@
 {
-  "system_state" : {
-    "transaction_trace" : {
-      "debug_payload" : {
-        "cpu_usage_percent" : 107.36,
-        "page_size_data" : "INT",
-        "registrants_data" : [ {
-          "role_in_purchase_process" : "STRING",
-          "create_time" : "DATETIME",
-          "email" : "PII_EMAIL",
-          "join_url" : "URL",
-          "v_industry" : "STRING",
-          "id" : "STRING",
-          "custom_questions" : [ {
-            "value" : "STRING",
-            "title" : "STRING"
-          }, {
-            "value" : "STRING"
-          } ],
-          "purchasing_time_frame" : "STRING",
-          "phone" : "PII_PHONE_NUMBER",
-          "first_name" : "PII_PERSON_FIRST_NAME",
-          "no_of_employees" : "STRING",
-          "city" : "PII_LOCATION_CITY",
-          "address" : "PII_ADDRESS_LINE",
-          "country_data" : "PII_LOCATION_COUNTRY",
-          "last_name" : "PII_PERSON_LAST_NAME",
-          "comments_data" : "STRING",
-          "v_org" : "PII_ORGANIZATION_NAME",
-          "state" : "PII_LOCATION_STATE",
-          "status" : "STRING"
-        } ],
-        "page_number" : "INT",
-        "total_records" : "INT",
-        "page_count" : "INT"
-      }
-    }
-  }
+  "conversion_rate" : 5.94,
+  "v_current_period_end" : "DATETIME_EPOCH",
+  "cancel_at_period_end" : "BOOLEAN",
+  "customer" : "STRING",
+  "current_period_start_data" : "DATETIME_EPOCH",
+  "status" : "STRING",
+  "plan_data" : {
+    "uuid" : "STRING",
+    "currency" : "NULL",
+    "interval" : "STRING",
+    "auto_renew" : true,
+    "v_amount" : "INT"
+  },
+  "trial_end_data" : "NULL",
+  "metadata" : {
+    "account_manager" : "PII_EMAIL",
+    "order_id" : "STRING"
+  },
+  "object" : "STRING",
+  "livemode" : "BOOLEAN",
+  "id" : "STRING"
 }

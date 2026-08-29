@@ -1,80 +1,35 @@
 {
-  "next" : "STRING",
-  "v_href" : "STRING",
-  "transactions" : [ {
-    "feeType_data" : null,
-    "orderId" : "STRING",
-    "transactionType" : "STRING",
-    "references" : [ {
-      "referenceType" : "STRING",
-      "recordId" : "STRING"
+  "page_size" : "INT",
+  "page_number" : "INT",
+  "registrants" : [ {
+    "status" : "STRING",
+    "create_time" : "DATETIME",
+    "cell" : "PII_PHONE_NUMBER",
+    "org" : "PII_ORGANIZATION_NAME",
+    "first_name" : "PII_PERSON_FIRST_NAME",
+    "custom_questions_data" : [ {
+      "stock_quantity" : 127,
+      "v_title" : "STRING",
+      "value" : "STRING"
+    }, {
+      "stock_quantity" : 181,
+      "title" : "STRING",
+      "value" : "STRING"
     } ],
-    "buyer" : {
-      "clientName" : "PII_USERNAME"
-    },
-    "totalFeeBasisAmount" : {
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue_data" : "STRING",
-      "page_index" : 3772,
-      "value" : "STRING",
-      "v_currency" : "STRING"
-    },
-    "feeJurisdiction" : {
-      "regionType" : "STRING",
-      "clientName" : "STRING"
-    },
-    "transactionMemo" : "STRING",
-    "v_transactionDate" : "DATETIME",
-    "bookingEntry" : "STRING",
-    "orderLineItems" : [ {
-      "lineItemId" : "STRING",
-      "feeBasisAmount" : {
-        "value" : null,
-        "convertedFromValue" : "STRING",
-        "v_convertedFromCurrency" : "STRING",
-        "currency" : "STRING",
-        "exchangeRate" : "STRING",
-        "system_ping_ms" : 1623
-      },
-      "marketplaceFees" : [ {
-        "feeJurisdiction" : {
-          "regionType" : "STRING",
-          "regionName" : "STRING"
-        },
-        "feeType" : "STRING",
-        "amount_data" : {
-          "exchangeRate_data" : "STRING",
-          "convertedFromValue_data" : "NULL",
-          "v_value" : "STRING",
-          "convertedFromCurrency" : "STRING"
-        },
-        "v_feeMemo" : "STRING",
-        "price" : 708.54
-      } ]
-    } ],
-    "amount" : {
-      "exchangeRate" : "STRING",
-      "convertedFromValue_data" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "value" : "STRING",
-      "currency" : "STRING"
-    },
-    "payoutId" : "STRING",
-    "uuid" : "STRING",
-    "paymentsEntity_data" : "STRING",
-    "salesRecordReference" : "STRING",
-    "transactionStatus" : null,
-    "eBayCollectedTaxAmount" : {
-      "v_value" : "STRING",
-      "convertedFromCurrency" : "STRING",
-      "v_convertedFromValue" : "STRING",
-      "exchangeRate" : "STRING",
-      "v_currency" : "STRING",
-      "cache_hit" : true
-    }
+    "purchasing_time_frame_data" : "STRING",
+    "v_zip" : "NULL",
+    "job_title" : "STRING",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "city" : "PII_LOCATION_CITY",
+    "state" : "PII_LOCATION_STATE",
+    "address" : "PII_ADDRESS_LINE",
+    "join_url" : "URL",
+    "no_of_employees" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "industry" : "",
+    "comments" : "STRING",
+    "contactEmail" : "PII_EMAIL"
   } ],
-  "prev" : "NULL",
-  "total" : "INT",
-  "limit" : "INT",
-  "offset" : "INT"
+  "total_records" : "INT",
+  "page_count" : "INT"
 }

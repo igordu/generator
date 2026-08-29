@@ -1,20 +1,63 @@
 {
-  "content" : [ {
-    "description" : "STRING",
-    "rating" : "INT",
-    "title_data" : "PII_COMPANY_NAME",
-    "articleId" : "STRING",
-    "identifier" : "STRING",
-    "articleSizeRatings" : {
-      "recordId" : "INT",
-      "OVERALL" : "INT",
-      "cache_hit" : true
+  "accountType_data" : "STRING",
+  "username" : "PII_USERNAME",
+  "businessAccount_data" : {
+    "v_primaryContact" : {
+      "name_val" : "PII_PERSON_NAME",
+      "discount_rate" : 9.17,
+      "firstName" : "PII_PERSON_NAME"
     },
-    "v_recommend" : "BOOLEAN",
-    "helpfulCount" : "INT",
-    "v_customerCountry" : "PII_LOCATION_COUNTRY",
-    "customerCity" : "PII_LOCATION_CITY",
-    "unhelpfulCount" : "INT",
-    "v_created" : "DATETIME"
-  } ]
+    "secondaryPhone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING",
+      "phoneType" : "STRING"
+    },
+    "doingBusinessAs" : "STRING",
+    "primaryPhone" : {
+      "phoneType" : "STRING",
+      "number_data" : "PII_PHONE_NUMBER",
+      "countryCode" : "STRING"
+    },
+    "address_data" : {
+      "addressLine1" : "STRING",
+      "postalCode_data" : "STRING",
+      "v_city" : "STRING",
+      "county" : "NULL",
+      "system_ping_ms" : 2492,
+      "stateOrProvince_data" : "STRING",
+      "country_data" : "STRING",
+      "v_addressLine2" : "STRING"
+    },
+    "name" : "PII_ORGANIZATION_NAME",
+    "v_website" : "URL",
+    "email" : "PII_EMAIL"
+  },
+  "registrationMarketplaceId" : "STRING",
+  "primaryKey" : {
+    "discount_rate" : 49.03,
+    "primaryPhone" : {
+      "countryCode" : "STRING",
+      "phoneType" : "STRING",
+      "cpu_usage_percent" : 1.82,
+      "number" : "PII_PHONE_NUMBER"
+    },
+    "secondaryPhone" : {
+      "priority_level" : 3813,
+      "number" : "PII_PHONE_NUMBER",
+      "cell" : "STRING"
+    },
+    "email" : "PII_EMAIL",
+    "fullName" : "PII_PERSON_NAME",
+    "lastName" : "PII_PERSON_NAME",
+    "registrationAddress" : {
+      "postalCode" : "STRING",
+      "city" : "STRING",
+      "conversion_rate" : 6.31,
+      "stateOrProvince" : "STRING",
+      "v_county" : "STRING",
+      "addressLine1" : "STRING"
+    }
+  },
+  "status" : "STRING",
+  "userId" : "STRING"
 }

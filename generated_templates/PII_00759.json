@@ -1,31 +1,17 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "page_size" : "INT",
-    "v_total_records" : "INT",
-    "page_count" : "INT",
-    "registrants_data" : [ {
-      "state" : "PII_LOCATION_STATE",
-      "zip_data" : "NULL",
-      "comments" : "STRING",
-      "last_name" : "PII_PERSON_LAST_NAME",
-      "city" : "PII_LOCATION_CITY",
-      "id" : "STRING",
-      "industry" : "STRING",
-      "purchasing_time_frame" : "STRING",
-      "is_deleted" : false,
-      "role_in_purchase_process" : "STRING",
-      "country" : "PII_LOCATION_COUNTRY",
-      "status" : "STRING",
-      "org_data" : "PII_ORGANIZATION_NAME",
-      "join_url" : "URL",
-      "telephone" : "PII_PHONE_NUMBER",
-      "create_time_data" : "DATETIME",
-      "email" : "PII_EMAIL",
-      "address" : "PII_ADDRESS_LINE",
-      "fullName" : "PII_PERSON_FIRST_NAME"
-    } ],
-    "v_page_number" : "INT"
-  }
+  "id" : null,
+  "end" : "DATETIME",
+  "start" : "DATETIME",
+  "status_data" : "STRING",
+  "comment" : "STRING",
+  "participant" : [ {
+    "actor" : {
+      "has_discount" : false,
+      "reference" : "STRING",
+      "display" : "PII_PERSON_NAME"
+    },
+    "status" : "STRING",
+    "response_time_sec" : 11.12
+  } ],
+  "resourceType" : "STRING"
 }

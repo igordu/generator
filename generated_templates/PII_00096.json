@@ -1,24 +1,22 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "content" : [ {
-      "helpfulCount" : "INT",
-      "reviewId" : "STRING",
-      "description" : "STRING",
-      "title_data" : "PII_COMPANY_NAME",
-      "rating_data" : "INT",
-      "created" : "DATETIME",
-      "articleModelId" : "STRING",
-      "language_data" : "STRING",
-      "customerCity" : "PII_LOCATION_CITY",
-      "articleSizeRatings" : {
-        "SHOE_WIDTH" : "INT",
-        "OVERALL" : "INT"
-      },
-      "recommend" : "BOOLEAN",
-      "articleId" : "STRING",
-      "customerCountry" : "PII_LOCATION_COUNTRY"
-    } ]
+  "ticket" : {
+    "priority" : "STRING",
+    "primaryKey" : "INT",
+    "comments" : [ {
+      "body" : "PII_FREE_TEXT",
+      "cpu_usage_percent" : 86.62,
+      "v_public" : "BOOLEAN",
+      "author_id" : "INT"
+    } ],
+    "created_at" : "DATETIME",
+    "id" : "INT",
+    "status" : "STRING",
+    "requester" : {
+      "fullName" : "PII_PERSON_NAME",
+      "primary_email" : "PII_EMAIL"
+    },
+    "description" : "PII_FREE_TEXT",
+    "updated_at" : "DATETIME",
+    "v_tags" : [ "STRING" ]
   }
 }

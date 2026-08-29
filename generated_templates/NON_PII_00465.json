@@ -1,5 +1,21 @@
 {
-  "http_status" : 3912,
-  "name_val" : "STRING",
-  "clientToken" : "NULL"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "v_body" : {
+      "uuid" : "STRING"
+    },
+    "attributes" : {
+      "contentType" : "STRING"
+    },
+    "queueName" : "STRING",
+    "movedToDlqAt" : "DATETIME",
+    "receiveCount" : "INT",
+    "conversion_rate" : 3.47,
+    "messageId" : "STRING",
+    "firstReceivedAt" : "DATETIME",
+    "lastReceivedAt" : "DATETIME"
+  }
 }

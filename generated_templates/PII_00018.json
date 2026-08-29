@@ -1,19 +1,22 @@
 {
-  "has_discount" : true,
   "content" : [ {
-    "articleId" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "reviewId" : "STRING",
-    "description" : "STRING",
-    "helpfulCount" : "INT",
-    "unhelpfulCount_data" : "INT",
-    "customerCity" : "PII_LOCATION_CITY",
-    "articleSizeRatings" : {
-      "SHOE_WIDTH" : "INT",
-      "OVERALL" : "INT"
-    },
+    "language" : "STRING",
     "recommend" : "BOOLEAN",
-    "rating" : "INT",
-    "customerCountry" : "PII_LOCATION_COUNTRY"
+    "v_rating" : "INT",
+    "articleSizeRatings" : {
+      "OVERALL" : "INT",
+      "SHOE_WIDTH" : "INT",
+      "has_discount" : false
+    },
+    "recordId" : "STRING",
+    "created" : "DATETIME",
+    "customerCountry" : "PII_LOCATION_COUNTRY",
+    "description" : "NULL",
+    "unhelpfulCount_data" : "INT",
+    "v_customerCity" : "PII_LOCATION_CITY",
+    "response_time_sec" : 17.94,
+    "reviewId" : "STRING",
+    "v_title" : "STRING",
+    "helpfulCount_data" : "INT"
   } ]
 }

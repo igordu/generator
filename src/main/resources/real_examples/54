@@ -1,0 +1,24 @@
+{
+  "audit_id": "AUD-20240410-00019",
+  "service": "auth-service",
+  "version": "3.1.4",
+  "event_type": "user.login",
+  "severity": "INFO",
+  "timestamp": "2024-04-10T08:12:44Z",
+  "actor": {
+    "user_id": "usr-00821",
+    "username": "p.nguyen",
+    "email": "p.nguyen@company.com",
+    "ip_address": "192.168.1.105",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+  },
+  "resource": {
+    "type": "application",
+    "id": "app-finance-portal",
+    "name": "Finance Portal"
+  },
+  "outcome": "success",
+  "mfa_used": true,
+  "session_id": "sess_20240410_xk9pq",
+  "datacenter": "eu-west-1"
+}

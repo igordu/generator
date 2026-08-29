@@ -1,20 +1,24 @@
 {
-  "media" : {
-    "system_ping_ms" : 488,
-    "images" : [ {
-      "is_active" : false,
-      "mediumHdUrl_data" : "URL",
-      "orderNumber" : "INT",
-      "thumbnailHdUrl" : "URL",
-      "largeUrl" : "URL",
-      "largeHdUrl" : "URL",
-      "v_smallUrl" : "URL",
-      "mediumUrl" : "URL",
-      "v_smallHdUrl" : "URL",
-      "type" : "STRING"
-    } ]
-  },
-  "userName" : "STRING",
-  "uuid" : "STRING",
-  "recordId" : "NULL"
+  "incident" : {
+    "uuid" : "INT",
+    "title" : "STRING",
+    "runbook_url" : "URL",
+    "urgency" : "STRING",
+    "resolved_at" : "DATETIME",
+    "description_data" : "TEXT",
+    "is_deleted" : false,
+    "notes_data" : [ {
+      "primaryKey" : "STRING",
+      "content" : "TEXT",
+      "created_at" : "DATETIME"
+    } ],
+    "v_escalation_policy" : "STRING",
+    "status" : "STRING",
+    "v_service" : {
+      "v_summary" : "STRING",
+      "id" : "STRING"
+    },
+    "created_at_data" : "DATETIME",
+    "id" : "STRING"
+  }
 }

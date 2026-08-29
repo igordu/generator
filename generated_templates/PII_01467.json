@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "resourceVersion" : "STRING",
+    "data" : {
+      "REDIS_PORT_data" : "STRING",
+      "DATABASE_HOST" : "STRING",
+      "DATABASE_PORT" : "STRING",
+      "LOG_LEVEL_data" : "STRING",
+      "SUPPORT_EMAIL" : "PII_EMAIL",
+      "fullName" : "STRING",
+      "v_REDIS_HOST" : "STRING",
+      "MAX_CONNECTIONS" : "STRING",
+      "v_FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+      "REQUEST_TIMEOUT_MS" : "STRING",
+      "SMTP_PORT_data" : "STRING"
+    },
+    "creationTimestamp" : "DATETIME",
+    "namespace" : "STRING"
+  }
+}

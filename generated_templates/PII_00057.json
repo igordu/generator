@@ -1,24 +1,84 @@
 {
-  "content" : [ {
-    "reviewId" : "STRING",
-    "v_rating" : "INT",
-    "price" : 438.3,
-    "unhelpfulCount" : "INT",
-    "description" : "STRING",
-    "articleSizeRatings_data" : {
-      "OVERALL_data" : "INT",
-      "SHOE_WIDTH" : "INT",
-      "item_count" : 146
-    },
-    "language_data" : "STRING",
-    "created" : "DATETIME",
-    "articleId" : "STRING",
-    "v_customerCity" : "PII_LOCATION_CITY",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_helpfulCount" : "INT",
-    "v_title" : "PII_COMPANY_NAME",
-    "recommend" : "BOOLEAN",
-    "articleModelId" : "STRING"
-  } ],
-  "price" : 372.63
+  "audit_trail" : {
+    "transaction_trace" : {
+      "extracted_info" : {
+        "v_limit" : "INT",
+        "v_next" : "STRING",
+        "transactions" : [ {
+          "v_transactionType" : "STRING",
+          "v_orderLineItems" : [ {
+            "feeBasisAmount" : {
+              "convertedFromValue" : "STRING",
+              "currency" : "STRING",
+              "page_index" : 4958,
+              "value" : "STRING",
+              "exchangeRate_data" : "NULL",
+              "convertedFromCurrency" : "STRING"
+            },
+            "marketplaceFees" : [ {
+              "amount" : {
+                "exchangeRate_data" : "STRING",
+                "convertedFromCurrency" : "STRING",
+                "value" : "STRING",
+                "convertedFromValue" : "STRING"
+              },
+              "v_feeType" : "STRING",
+              "v_feeMemo" : "STRING",
+              "feeJurisdiction" : {
+                "regionType_data" : "STRING",
+                "regionName" : "STRING"
+              }
+            } ],
+            "identifier" : "STRING",
+            "discount_rate" : 59.83
+          } ],
+          "eBayCollectedTaxAmount" : {
+            "convertedFromValue" : "STRING",
+            "convertedFromCurrency" : "STRING",
+            "exchangeRate_data" : "STRING",
+            "currency_data" : "STRING"
+          },
+          "primaryKey" : "STRING",
+          "v_amount" : {
+            "currency" : "STRING",
+            "convertedFromCurrency" : "STRING",
+            "exchangeRate_data" : "STRING",
+            "convertedFromValue_data" : "STRING",
+            "value_data" : "STRING"
+          },
+          "v_transactionDate" : "DATETIME",
+          "references" : [ {
+            "referenceType" : "STRING",
+            "referenceId" : "STRING"
+          } ],
+          "uuid" : "STRING",
+          "feeType_data" : "STRING",
+          "payoutId" : "STRING",
+          "has_discount" : true,
+          "transactionMemo" : "STRING",
+          "totalFeeAmount" : {
+            "currency" : "STRING",
+            "exchangeRate_data" : "STRING",
+            "convertedFromValue" : "STRING",
+            "value_data" : "STRING",
+            "v_convertedFromCurrency" : "STRING"
+          },
+          "transactionStatus" : "STRING",
+          "buyer" : {
+            "username" : "PII_USERNAME"
+          },
+          "feeJurisdiction" : {
+            "userName" : "STRING",
+            "regionType" : "STRING"
+          },
+          "paymentsEntity_data" : "STRING",
+          "salesRecordReference" : "STRING"
+        } ],
+        "offset" : "INT",
+        "prev_data" : "STRING",
+        "total" : "INT",
+        "href" : "NULL"
+      }
+    }
+  }
 }

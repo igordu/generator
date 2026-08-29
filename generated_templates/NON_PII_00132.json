@@ -1,20 +1,29 @@
 {
-  "name" : "STRING",
-  "modelId" : "STRING",
-  "media_data" : {
-    "images_data" : [ {
-      "v_smallHdUrl" : "URL",
-      "v_largeHdUrl" : "URL",
-      "type" : "STRING",
-      "is_deleted" : false,
-      "mediumHdUrl_data" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "orderNumber" : "INT",
-      "mediumUrl" : "URL",
-      "largeUrl_data" : "URL"
-    } ]
+  "category" : "STRING",
+  "status" : "STRING",
+  "createdAt" : "DATETIME",
+  "images" : [ {
+    "auto_renew" : true,
+    "url" : "NULL",
+    "isPrimary_data" : "BOOLEAN"
+  } ],
+  "clientName" : "STRING",
+  "updatedAt" : "DATETIME",
+  "pricing" : {
+    "taxClass" : "STRING",
+    "currency" : "STRING",
+    "basePrice" : "DECIMAL",
+    "salePrice" : "DECIMAL"
   },
-  "id" : "STRING",
-  "shopUrl" : "URL",
-  "temperature_c" : 129.75
+  "productId" : "STRING",
+  "v_sku" : "STRING",
+  "brand_data" : "STRING",
+  "v_inventory" : {
+    "reservedStock" : "INT",
+    "v_lowStockThreshold" : "INT",
+    "availableStock" : "INT",
+    "priority_level" : 1927,
+    "backorderAllowed_data" : "BOOLEAN",
+    "totalStock_data" : "INT"
+  }
 }

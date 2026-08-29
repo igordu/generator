@@ -1,53 +1,31 @@
 {
-  "identifier" : "STRING",
-  "userId" : "STRING",
-  "businessAccount" : {
-    "website_data" : "URL",
-    "name" : "PII_ORGANIZATION_NAME",
-    "contactNumber" : {
-      "countryCode" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER",
-      "contactNumber" : "STRING",
-      "response_time_sec" : 863.07
+  "has_discount" : true,
+  "conversation_parts" : [ {
+    "body_data" : "PII_FREE_TEXT",
+    "v_created_at" : "NULL",
+    "part_type" : "STRING",
+    "author" : {
+      "userName" : "PII_PERSON_NAME"
+    }
+  } ],
+  "v_source" : {
+    "system_ping_ms" : 862,
+    "v_subject" : "STRING",
+    "body" : "PII_FREE_TEXT",
+    "v_author" : {
+      "name" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL",
+      "type" : "STRING",
+      "page_index" : 214,
+      "primaryKey" : "NULL"
     },
-    "primaryContact" : {
-      "lastName" : "PII_PERSON_NAME",
-      "fullName" : "PII_PERSON_NAME"
-    },
-    "primary_email" : "PII_EMAIL",
-    "primaryPhone" : {
-      "is_deleted" : true,
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : ""
-    },
-    "doingBusinessAs_data" : "STRING"
+    "v_delivered_as" : "STRING"
   },
-  "individualAccount" : {
-    "primaryPhone" : {
-      "phoneType" : "STRING",
-      "item_count" : 4003,
-      "v_countryCode" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER"
-    },
-    "email" : "PII_EMAIL",
-    "registrationAddress" : {
-      "city" : "NULL",
-      "country" : "STRING",
-      "page_index" : 3319,
-      "addressLine2" : "STRING",
-      "postalCode" : "STRING",
-      "addressLine1" : "STRING",
-      "stateOrProvince_data" : "STRING"
-    },
-    "firstName" : "PII_PERSON_NAME",
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "number_data" : "PII_PHONE_NUMBER",
-      "conversion_rate" : 147.66,
-      "telephone" : "STRING"
-    },
-    "lastName" : "PII_PERSON_NAME"
-  },
-  "accountType" : "STRING",
-  "username" : "PII_USERNAME"
+  "created_at" : "DATETIME_EPOCH",
+  "type" : "STRING",
+  "v_read" : "BOOLEAN",
+  "v_open" : "BOOLEAN",
+  "id" : "STRING",
+  "priority" : "STRING",
+  "state" : "STRING"
 }

@@ -1,14 +1,24 @@
 {
-  "item_count" : 2232,
-  "tree" : {
-    "url" : "URL",
-    "sha" : "STRING"
+  "requestedAt_data" : "DATETIME",
+  "legalBasis" : "STRING",
+  "dataCategories_data" : [ "STRING" ],
+  "deliveredVia" : "STRING",
+  "v_status" : "STRING",
+  "v_requestedBy" : "PII_EMAIL",
+  "v_dataSubject" : {
+    "country_data" : "PII_LOCATION_COUNTRY",
+    "contactEmail" : "PII_EMAIL",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "identifier" : "STRING"
   },
-  "active_data" : "BOOLEAN",
-  "user_info" : {
-    "has_discount" : true,
-    "arline__name" : "PII_COMPANY_NAME",
-    "name_val" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE"
-  }
+  "handledBy_data" : {
+    "email" : "PII_EMAIL"
+  },
+  "v_downloadUrl" : "URL",
+  "completedAt" : "DATETIME",
+  "type" : "NULL",
+  "v_expiresAt" : "DATETIME",
+  "reportId" : "STRING"
 }

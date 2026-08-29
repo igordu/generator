@@ -1,0 +1,32 @@
+{
+  "featureImportance" : {
+    "days_since_last_login" : null,
+    "v_product_usage_score" : "DECIMAL",
+    "monthly_spend_trend" : "DECIMAL",
+    "stock_quantity" : 1186,
+    "support_ticket_count" : "DECIMAL"
+  },
+  "trainedBy_data" : "PII_EMAIL",
+  "deployedAt" : "DATETIME",
+  "v_endpoint" : "URL",
+  "inferenceStats_data" : {
+    "requestsToday" : "INT",
+    "cache_hit" : true,
+    "p99LatencyMs" : "INT",
+    "errorRate" : "DECIMAL",
+    "v_avgLatencyMs" : "INT"
+  },
+  "modelId" : "STRING",
+  "clientName" : null,
+  "trainingDataPeriod" : "STRING",
+  "cache_hit" : true,
+  "status" : "STRING",
+  "framework" : "NULL",
+  "metrics" : {
+    "recall_data" : "DECIMAL",
+    "precision" : "DECIMAL",
+    "f1Score" : "",
+    "auc_data" : "DECIMAL",
+    "accuracy" : "DECIMAL"
+  }
+}

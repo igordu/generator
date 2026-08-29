@@ -1,23 +1,24 @@
 {
-  "audit_trail" : {
-    "request_context" : {
-      "raw_data" : {
-        "modelId" : "STRING",
-        "shopUrl" : "URL",
-        "id" : "STRING",
-        "media" : {
-          "images_data" : [ {
-            "smallHdUrl_data" : "URL",
-            "thumbnailHdUrl" : "URL",
-            "largeUrl" : "URL",
-            "v_mediumUrl" : "URL",
-            "mediumHdUrl" : "URL",
-            "v_type" : "STRING"
-          } ],
-          "is_deleted" : true
-        },
-        "name" : "STRING"
-      }
-    }
-  }
+  "clientName" : "STRING",
+  "assets" : [ {
+    "uuid" : "INT",
+    "download_count" : "INT",
+    "v_size" : "INT",
+    "v_browser_download_url" : "URL",
+    "content_type" : "STRING",
+    "auto_renew" : false,
+    "name" : ""
+  } ],
+  "prerelease" : "BOOLEAN",
+  "primaryKey" : "INT",
+  "name" : "STRING",
+  "v_published_at" : "DATETIME",
+  "target_commitish" : "STRING",
+  "changelog" : [ {
+    "files_changed" : "INT",
+    "commit_sha" : "STRING"
+  } ],
+  "created_at" : null,
+  "body" : "TEXT",
+  "draft" : "BOOLEAN"
 }

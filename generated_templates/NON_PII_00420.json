@@ -1,4 +1,21 @@
 {
-  "temperature_c" : 635.97,
-  "clientToken" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "status" : "STRING",
+      "retryCount" : "INT",
+      "sentAt" : "NULL",
+      "notificationId" : "STRING",
+      "type" : "STRING",
+      "campaign" : "NULL",
+      "notification" : {
+        "body" : "STRING",
+        "data_data" : {
+          "v_deepLink" : "URL",
+          "orderId" : "STRING"
+        },
+        "title" : "STRING"
+      },
+      "v_deliveredAt" : "DATETIME"
+    }
+  }
 }

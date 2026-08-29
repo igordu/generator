@@ -1,23 +1,41 @@
 {
-  "server_logs" : {
-    "event_data" : {
-      "extracted_info" : {
-        "metadata" : "OBJECT",
-        "v_currency" : "STRING",
-        "object" : "STRING",
-        "last4" : "NULL",
-        "fingerprint" : "STRING",
-        "id" : "STRING",
-        "customer" : "STRING",
-        "cpu_usage_percent" : 215.56,
-        "routing_number" : "STRING",
-        "status" : "STRING",
-        "account_holder_name" : "PII_PERSON_NAME",
-        "account_holder_type_data" : "STRING",
-        "account_type" : "STRING",
-        "v_country" : "STRING",
-        "bank_name" : "STRING"
-      }
+  "data" : {
+    "fetchResource" : {
+      "updatedAt" : "DATETIME",
+      "primaryKey" : {
+        "resumeUrl" : "NULL",
+        "linkedIn" : "URL",
+        "email" : "PII_EMAIL",
+        "contactNumber" : "PII_PHONE_NUMBER",
+        "clientName" : "PII_PERSON_LAST_NAME",
+        "address" : {
+          "postalCode" : "STRING",
+          "street_data" : "PII_ADDRESS_LINE",
+          "country_data" : "PII_LOCATION_COUNTRY",
+          "city" : "PII_LOCATION_CITY"
+        },
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "dateOfBirth" : "PII_DATE_OF_BIRTH"
+      },
+      "source" : "STRING",
+      "v_interviews" : [ {
+        "type" : "STRING",
+        "scheduledAt" : "DATETIME",
+        "round" : "INT",
+        "interviewer_data" : {
+          "has_discount" : true,
+          "name" : "PII_PERSON_NAME",
+          "email" : "PII_EMAIL"
+        }
+      } ],
+      "status" : "STRING",
+      "position" : {
+        "v_title" : "STRING",
+        "jobId" : "",
+        "department" : "STRING",
+        "location" : "PII_LOCATION_CITY"
+      },
+      "candidateId" : "STRING"
     }
   }
 }

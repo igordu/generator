@@ -1,29 +1,32 @@
 {
-  "object_data" : "STRING",
-  "v_data" : [ {
-    "tax_exempt" : "",
-    "contactNumber" : "PII_PHONE_NUMBER",
-    "currency" : "STRING",
-    "balance_data" : "INT",
-    "invoice_settings" : {
-      "footer" : "STRING",
-      "page_index" : 265,
-      "default_payment_method" : "STRING",
-      "rendering_options" : "NULL",
-      "custom_fields_data" : "NULL"
+  "claimType" : "STRING",
+  "v_description" : "STRING",
+  "incidentDate" : "DATE",
+  "status_data" : "STRING",
+  "estimatedLoss" : "DECIMAL",
+  "price" : 7932.66,
+  "currency" : "STRING",
+  "claimId" : "STRING",
+  "v_policyHolder" : {
+    "conversion_rate" : 3.92,
+    "address" : {
+      "street" : "PII_ADDRESS_LINE",
+      "v_state" : "STRING",
+      "city" : "PII_LOCATION_CITY",
+      "country" : "PII_LOCATION_COUNTRY",
+      "zip" : "STRING"
     },
     "email" : "PII_EMAIL",
-    "v_address" : "NULL",
-    "invoice_prefix" : "STRING",
-    "created" : "DATETIME_EPOCH",
-    "uuid" : "STRING",
-    "shipping_data" : "NULL",
-    "delinquent" : "NULL",
-    "object" : "STRING",
-    "clientName" : "PII_PERSON_NAME",
-    "livemode" : "BOOLEAN",
-    "v_preferred_locales" : "ARRAY",
-    "test_clock_data" : "NULL"
-  } ],
-  "has_more" : "BOOLEAN"
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "cell" : "PII_PHONE_NUMBER",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "userName" : "PII_PERSON_FIRST_NAME"
+  },
+  "adjuster" : {
+    "email" : "PII_EMAIL",
+    "primaryKey" : "STRING",
+    "name" : "PII_PERSON_NAME"
+  },
+  "policyNumber" : "STRING",
+  "reportedDate" : "DATE"
 }

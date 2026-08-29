@@ -1,35 +1,18 @@
-[ {
-  "filter" : "STRING",
-  "requires_update" : true,
-  "facets" : [ {
-    "displayName" : "STRING",
-    "count" : "",
-    "key" : "STRING"
-  }, {
-    "v_count" : "INT",
-    "v_key" : "STRING",
-    "displayName" : ""
-  } ]
-}, {
-  "facets" : [ {
-    "key_data" : "STRING",
-    "userName" : "STRING",
-    "item_count" : 2871,
-    "v_count" : "INT"
-  }, {
-    "conversion_rate" : 598.08,
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "v_count" : "INT"
-  }, {
-    "v_key" : "STRING"
-  } ]
-}, {
-  "facets" : [ {
-    "userName" : "STRING",
-    "count" : "INT",
-    "cpu_usage_percent" : 53.83,
-    "key_data" : "STRING"
-  } ],
-  "filter" : "STRING"
-} ]
+{
+  "product_name" : "STRING",
+  "is_hazardous" : "BOOLEAN",
+  "location_code" : "NULL",
+  "discount_rate" : 54.55,
+  "quantity_reserved" : "INT",
+  "last_received_at" : "DATETIME",
+  "quantity_available" : "INT",
+  "sku" : "STRING",
+  "reorder_point_data" : "INT",
+  "v_unit_cost" : "INT",
+  "quantity_on_hand" : "INT",
+  "batch_number" : "STRING",
+  "last_counted_at_data" : "DATETIME",
+  "reorder_quantity_data" : "INT",
+  "tags" : [ "" ],
+  "currency_data" : "STRING"
+}

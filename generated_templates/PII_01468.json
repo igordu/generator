@@ -1,0 +1,26 @@
+{
+  "data" : {
+    "fetchResource" : {
+      "requires_update" : true,
+      "data" : {
+        "v_DATABASE_PORT" : "STRING",
+        "SMTP_PORT" : "STRING",
+        "REQUEST_TIMEOUT_MS" : "STRING",
+        "REDIS_HOST_data" : "STRING",
+        "LOG_LEVEL" : "STRING",
+        "is_deleted" : false,
+        "v_REDIS_PORT" : "STRING",
+        "SUPPORT_EMAIL" : "PII_EMAIL",
+        "DATABASE_NAME" : "STRING",
+        "MAX_CONNECTIONS" : "STRING",
+        "FEATURE_FLAG_NEW_CHECKOUT" : "STRING",
+        "DATABASE_HOST" : "STRING",
+        "SMTP_HOST" : "STRING"
+      },
+      "resourceVersion" : "STRING",
+      "configMapName" : "STRING",
+      "creationTimestamp" : "DATETIME",
+      "namespace" : "STRING"
+    }
+  }
+}

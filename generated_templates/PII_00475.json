@@ -1,39 +1,22 @@
 {
-  "resourceType_data" : "STRING",
-  "gender" : "STRING",
-  "meta" : {
-    "price" : 674.56,
-    "versionId" : "INT"
-  },
-  "address" : [ {
-    "city" : "PII_LOCATION_CITY",
-    "use_data" : "STRING",
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "country" : "PII_LOCATION_COUNTRY"
-  } ],
-  "id" : "STRING",
-  "identifier" : [ {
-    "system" : "URL",
-    "use" : "STRING",
-    "type" : {
-      "text" : "STRING"
+  "cpu_usage_percent" : 67.81,
+  "data_data" : {
+    "pinned_tweet_id" : "STRING",
+    "description" : "STRING",
+    "identifier" : "STRING",
+    "v_public_metrics" : {
+      "temperature_c" : -15.23,
+      "listed_count_data" : "INT",
+      "followers_count" : "INT",
+      "tweet_count" : "INT",
+      "following_count" : "INT"
     },
-    "value" : "PII_NATIONAL_ID"
-  } ],
-  "auto_renew" : false,
-  "clientName" : [ {
-    "use_data" : "STRING",
-    "given" : [ "PII_PERSON_FIRST_NAME" ],
-    "family_data" : "PII_PERSON_LAST_NAME"
-  } ],
-  "telecom" : [ {
-    "system" : "STRING",
-    "value_data" : "PII_EMAIL",
-    "response_time_sec" : 633.77
-  }, {
-    "system_data" : "",
-    "v_value" : "PII_PHONE_NUMBER",
-    "use" : "STRING"
-  } ],
-  "birthDate_data" : "PII_DATE_OF_BIRTH"
+    "location_data" : "PII_LOCATION_CITY",
+    "profile_image_url" : "URL",
+    "v_verified" : "BOOLEAN",
+    "username" : "PII_USERNAME",
+    "name" : "PII_PERSON_NAME",
+    "protected_data" : "BOOLEAN",
+    "url" : "URL"
+  }
 }

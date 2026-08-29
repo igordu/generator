@@ -1,95 +1,83 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "total" : "INT",
-    "v_next" : "STRING",
-    "page_index" : 2724,
-    "limit" : "INT",
-    "href" : "STRING",
-    "offset" : "INT",
-    "v_prev" : "STRING",
-    "transactions" : [ {
-      "payoutId" : "STRING",
-      "transactionId" : "STRING",
-      "references" : [ {
-        "response_time_sec" : 607.57,
-        "referenceType" : "STRING",
-        "referenceId" : "STRING"
-      } ],
-      "price" : 558.93,
-      "feeType" : "STRING",
-      "eBayCollectedTaxAmount" : {
-        "exchangeRate" : "STRING",
-        "convertedFromValue" : "STRING",
-        "value" : "STRING",
-        "v_convertedFromCurrency" : "STRING",
-        "currency" : "STRING"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "schedule_meeting" : {
+      "use_pmi_for_scheduled_meetings" : null,
+      "pstn_password_protected_data" : "BOOLEAN",
+      "pmi_password" : "PII_PASSWORD",
+      "embed_password_in_join_link" : "BOOLEAN",
+      "meeting_password_requirement" : {
+        "have_number" : "BOOLEAN",
+        "retry_attempts" : 168,
+        "only_allow_numeric_data" : "BOOLEAN",
+        "have_special_character_data" : "",
+        "length_data" : "INT",
+        "v_have_letter" : "BOOLEAN"
       },
-      "paymentsEntity" : "STRING",
-      "orderLineItems" : [ {
-        "feeBasisAmount_data" : {
-          "value" : "STRING",
-          "convertedFromValue" : "STRING",
-          "currency" : "STRING",
-          "convertedFromCurrency" : "STRING"
-        },
-        "marketplaceFees" : [ {
-          "feeJurisdiction" : {
-            "regionName" : "STRING",
-            "priority_level" : 884,
-            "regionType" : "STRING"
-          },
-          "feeMemo_data" : "STRING",
-          "amount" : {
-            "exchangeRate_data" : "STRING",
-            "has_discount" : true,
-            "v_convertedFromCurrency" : "STRING",
-            "value_data" : "STRING",
-            "v_convertedFromValue" : "STRING",
-            "currency" : "STRING"
-          },
-          "feeType" : "STRING"
-        } ],
-        "primaryKey" : ""
-      } ],
-      "transactionType" : "STRING",
-      "salesRecordReference" : "STRING",
-      "totalFeeBasisAmount" : {
-        "page_index" : 4394,
-        "v_currency" : "NULL",
-        "value" : "STRING",
-        "v_convertedFromCurrency" : "STRING",
-        "convertedFromValue" : "STRING",
-        "exchangeRate" : "STRING"
-      },
-      "buyer" : {
-        "fullName" : "PII_USERNAME",
-        "requires_update" : false
-      },
-      "v_feeJurisdiction" : {
-        "userName" : "STRING",
-        "priority_level" : 2912
-      },
-      "totalFeeAmount_data" : {
-        "currency" : "STRING",
-        "convertedFromCurrency" : "STRING",
-        "exchangeRate" : "STRING",
-        "convertedFromValue" : "STRING",
-        "value" : "STRING"
-      },
-      "v_bookingEntry" : "STRING",
-      "transactionDate" : "DATETIME",
-      "transactionMemo_data" : "STRING",
-      "amount" : {
-        "exchangeRate" : "STRING",
-        "convertedFromValue_data" : "STRING",
-        "value" : "STRING",
-        "currency" : "STRING",
-        "requires_update" : false,
-        "convertedFromCurrency" : "NULL"
-      },
-      "v_transactionStatus" : "STRING"
-    } ]
+      "require_password_for_pmi_meetings" : "STRING",
+      "not_store_meeting_topic" : "BOOLEAN",
+      "audio_type" : "STRING",
+      "join_before_host" : "BOOLEAN",
+      "page_index" : 590,
+      "host_video" : "BOOLEAN",
+      "use_pmi_for_instant_meetings_data" : "BOOLEAN",
+      "require_password_for_scheduling_new_meetings" : "BOOLEAN"
+    },
+    "v_recording" : {
+      "record_speaker_view" : "BOOLEAN",
+      "save_chat_text_data" : "BOOLEAN",
+      "v_local_recording" : "BOOLEAN",
+      "auto_recording_data" : "STRING",
+      "auto_delete_cmr_data" : "BOOLEAN",
+      "stock_quantity" : 2678,
+      "show_timestamp" : "NULL",
+      "cloud_recording" : "BOOLEAN"
+    },
+    "tsp" : {
+      "show_international_numbers_link" : "BOOLEAN",
+      "call_out_countries" : "ARRAY"
+    },
+    "feature" : {
+      "in_meeting" : "BOOLEAN",
+      "meeting_capacity" : null,
+      "large_meeting" : "BOOLEAN",
+      "contactNumber" : "BOOLEAN",
+      "cn_meeting" : "BOOLEAN"
+    },
+    "in_meeting" : {
+      "attendee_on_hold" : "BOOLEAN",
+      "show_meeting_control_toolbar" : "BOOLEAN",
+      "custom_data_center_regions_data" : "BOOLEAN",
+      "v_virtual_background" : "BOOLEAN",
+      "auto_saving_chat" : "BOOLEAN",
+      "remote_support" : "BOOLEAN",
+      "entry_exit_chime" : "STRING",
+      "far_end_camera_control" : "BOOLEAN",
+      "closed_caption" : "BOOLEAN",
+      "annotation" : "BOOLEAN",
+      "breakout_room" : "BOOLEAN",
+      "waiting_room_data" : "BOOLEAN",
+      "allow_live_streaming_data" : "BOOLEAN",
+      "non_verbal_feedback" : "BOOLEAN",
+      "feedback" : "BOOLEAN",
+      "record_play_voice" : "BOOLEAN",
+      "chat" : "BOOLEAN",
+      "group_hd" : "BOOLEAN",
+      "e2e_encryption_data" : null,
+      "polling" : "BOOLEAN",
+      "v_co_host" : "BOOLEAN",
+      "v_data_center_regions" : "ARRAY"
+    },
+    "has_discount" : true,
+    "email_notification" : {
+      "alternative_host_reminder" : "BOOLEAN",
+      "schedule_for_reminder" : "BOOLEAN",
+      "requires_update" : true,
+      "jbh_reminder" : "BOOLEAN",
+      "cancel_meeting_reminder_data" : "BOOLEAN"
+    }
   }
 }

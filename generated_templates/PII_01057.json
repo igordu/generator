@@ -1,17 +1,32 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "status" : "STRING",
-    "bank_name" : "STRING",
-    "metadata" : "OBJECT",
-    "account_holder_type" : "STRING",
-    "v_account_type" : "NULL",
-    "last4" : "STRING",
-    "account_holder_name" : "PII_PERSON_NAME",
-    "customer" : "STRING",
-    "price" : 721.06,
+  "totalFare" : {
     "currency" : "STRING",
-    "country" : "STRING"
-  }
+    "amount" : "",
+    "temperature_c" : 18.97
+  },
+  "passenger_data" : {
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "passportNumber" : "PII_NATIONAL_ID",
+    "passportExpiry" : "DATE",
+    "email" : "PII_EMAIL",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "title" : "STRING",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "telephone" : "PII_PHONE_NUMBER",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "system_ping_ms" : 3325,
+  "bookingRef" : "STRING",
+  "status" : "STRING",
+  "fareClass" : "STRING",
+  "issuedAt" : "DATETIME",
+  "itinerary" : [ {
+    "v_departureAt" : "DATETIME",
+    "cabin" : null,
+    "arrivalAt" : "DATETIME",
+    "origin" : "STRING",
+    "system_ping_ms" : 159,
+    "destination" : "STRING"
+  } ],
+  "ticketNumber" : "STRING"
 }

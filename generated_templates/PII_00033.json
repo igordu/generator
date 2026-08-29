@@ -1,22 +1,67 @@
 {
-  "v_content" : [ {
-    "description" : "STRING",
-    "title" : "PII_COMPANY_NAME",
-    "v_recommend" : "BOOLEAN",
-    "price" : 968.05,
-    "reviewId" : "STRING",
-    "language" : "STRING",
-    "helpfulCount_data" : "INT",
-    "customerCity_data" : "PII_LOCATION_CITY",
-    "articleSizeRatings" : {
-      "temperature_c" : 591.54,
-      "OVERALL" : "INT"
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "userName" : "PII_USERNAME",
+    "primaryKey" : "STRING",
+    "requires_update" : true,
+    "businessAccount_data" : {
+      "telephone" : {
+        "contactNumber" : "STRING",
+        "v_countryCode" : "STRING",
+        "stock_quantity" : 2299,
+        "number" : "PII_PHONE_NUMBER"
+      },
+      "website" : "URL",
+      "fullName" : "PII_ORGANIZATION_NAME",
+      "primaryContact" : {
+        "system_ping_ms" : 1230,
+        "firstName" : "PII_PERSON_NAME",
+        "lastName" : "PII_PERSON_NAME"
+      },
+      "emailAddress" : "PII_EMAIL",
+      "address" : {
+        "addressLine1" : "STRING",
+        "v_addressLine2" : "STRING",
+        "postalCode" : "NULL",
+        "stateOrProvince" : "STRING",
+        "county_data" : "STRING",
+        "city_data" : "STRING",
+        "is_deleted" : false,
+        "country_data" : "STRING"
+      },
+      "doingBusinessAs" : "STRING",
+      "primaryPhone" : {
+        "number_data" : "PII_PHONE_NUMBER",
+        "countryCode" : "STRING",
+        "is_active" : false,
+        "phoneType" : "STRING"
+      }
     },
-    "created" : "DATETIME",
-    "rating" : "INT",
-    "articleModelId" : "STRING",
-    "uuid" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_unhelpfulCount" : "INT"
-  } ]
+    "accountType" : "STRING",
+    "individualAccount" : {
+      "primaryPhone" : {
+        "number" : "PII_PHONE_NUMBER",
+        "telephone" : "STRING",
+        "v_countryCode" : "STRING"
+      },
+      "secondaryPhone" : {
+        "phoneType" : "NULL",
+        "number" : "PII_PHONE_NUMBER",
+        "countryCode_data" : "STRING"
+      },
+      "registrationAddress" : {
+        "addressLine1" : "STRING",
+        "addressLine2_data" : "STRING",
+        "county" : "STRING",
+        "http_status" : 2453,
+        "city" : "STRING",
+        "postalCode" : "STRING",
+        "stateOrProvince" : "STRING"
+      },
+      "lastName" : "PII_PERSON_NAME",
+      "firstName" : "PII_PERSON_NAME",
+      "email" : "PII_EMAIL"
+    }
+  }
 }

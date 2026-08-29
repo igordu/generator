@@ -1,9 +1,39 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "emailAddressStatus" : [ null ],
-      "requires_update" : true,
-      "emailAddress" : "PII_EMAIL"
-    }
-  }
+  "starred_url" : "URL",
+  "v_owned_private_repos" : "INT",
+  "type" : "STRING",
+  "site_admin" : "BOOLEAN",
+  "updated_at" : "DATETIME",
+  "node_id" : "STRING",
+  "followers_data" : "INT",
+  "events_url" : "URL",
+  "total_private_repos" : "INT",
+  "v_login" : "STRING",
+  "disk_usage" : "INT",
+  "html_url" : "URL",
+  "followers_url" : "URL",
+  "v_location" : "PII_LOCATION_CITY",
+  "url_data" : "NULL",
+  "blog" : "URL",
+  "gravatar_id" : "STRING",
+  "subscriptions_url" : "URL",
+  "following" : "INT",
+  "hireable" : "BOOLEAN",
+  "bio" : "PII_ORGANIZATION_NAME",
+  "created_at" : "DATETIME",
+  "userName" : "STRING",
+  "following_url" : "URL",
+  "contactEmail" : "PII_EMAIL",
+  "repos_url_data" : "NULL",
+  "gists_url" : "URL",
+  "company" : "PII_ORGANIZATION_NAME",
+  "avatar_url" : "URL",
+  "name_val" : "PII_PERSON_NAME",
+  "id" : "INT",
+  "organizations_url" : "URL",
+  "public_repos" : "INT",
+  "private_gists" : "INT",
+  "collaborators" : "INT",
+  "public_gists" : "INT",
+  "two_factor_authentication" : "BOOLEAN"
 }

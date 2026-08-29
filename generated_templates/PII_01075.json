@@ -1,23 +1,37 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "creditScore" : "INT",
+  "applicant" : {
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "monthlyIncome" : "DECIMAL",
+    "userName" : "PII_PERSON_LAST_NAME",
+    "recordId" : "PII_NATIONAL_ID",
+    "address" : {
+      "city" : "PII_LOCATION_CITY",
+      "state" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "requires_update" : true,
+      "street_data" : "PII_ADDRESS_LINE"
+    },
+    "employer" : "PII_COMPANY_NAME",
+    "requires_update" : true,
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "employmentStatus" : "STRING",
+    "phone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL"
   },
-  "results" : {
-    "has_discount" : true,
-    "routing_number" : "STRING",
-    "v_account_type" : "NULL",
-    "id" : "STRING",
-    "status" : "STRING",
-    "bank_name" : "STRING",
-    "metadata" : "OBJECT",
-    "account_holder_name" : "PII_PERSON_NAME",
-    "customer" : "NULL",
-    "object_data" : "STRING",
-    "account_holder_type" : "STRING",
-    "fingerprint" : "STRING",
-    "country" : "STRING",
-    "currency" : "STRING",
-    "last4" : "STRING"
+  "loanDetails_data" : {
+    "v_requestedAmount" : "DECIMAL",
+    "type" : "STRING",
+    "termMonths" : "INT",
+    "purpose_data" : "STRING",
+    "price" : 9464.03,
+    "requestedAt_data" : "NULL"
+  },
+  "v_status" : "STRING",
+  "loanApplicationId" : "STRING",
+  "bankAccount" : {
+    "userName" : "PII_COMPANY_NAME",
+    "iban" : "PII_IBAN",
+    "is_active" : false
   }
 }

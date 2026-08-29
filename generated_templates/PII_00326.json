@@ -1,10 +1,36 @@
 {
-  "server_logs" : {
-    "event_data" : {
-      "raw_data" : {
-        "contactEmail" : "PII_EMAIL",
-        "emailAddressStatus" : [ "STRING" ]
-      }
-    }
-  }
+  "name" : "PII_PERSON_NAME",
+  "following_url" : "URL",
+  "v_site_admin" : "BOOLEAN",
+  "html_url_data" : "URL",
+  "v_collaborators" : "INT",
+  "blog_data" : "URL",
+  "owned_private_repos_data" : "INT",
+  "gravatar_id" : "STRING",
+  "twitter_username" : "NULL",
+  "public_gists" : "INT",
+  "location" : "PII_LOCATION_CITY",
+  "url" : "URL",
+  "company" : "PII_ORGANIZATION_NAME",
+  "disk_usage" : "INT",
+  "repos_url" : "URL",
+  "private_gists" : "INT",
+  "type" : "STRING",
+  "bio" : "PII_ORGANIZATION_NAME",
+  "v_login" : "STRING",
+  "following" : "INT",
+  "v_starred_url" : "URL",
+  "events_url" : "URL",
+  "subscriptions_url" : "URL",
+  "followers" : "INT",
+  "organizations_url" : "URL",
+  "email" : "PII_EMAIL",
+  "received_events_url" : "URL",
+  "avatar_url" : "URL",
+  "identifier" : "INT",
+  "hireable" : "BOOLEAN",
+  "node_id" : "STRING",
+  "gists_url" : null,
+  "followers_url" : "URL",
+  "v_total_private_repos" : "INT"
 }

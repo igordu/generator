@@ -1,10 +1,15 @@
 {
-  "audit_trail" : {
-    "transaction_trace" : {
-      "body" : {
-        "emailAddressStatus" : [ "STRING" ],
-        "emailAddress" : "PII_EMAIL"
-      }
-    }
-  }
+  "metadata" : "OBJECT",
+  "name_val" : "STRING",
+  "v_customer" : "STRING",
+  "object" : "STRING",
+  "country" : "STRING",
+  "status" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "fingerprint_data" : "STRING",
+  "last4_data" : "STRING",
+  "routing_number" : "STRING",
+  "currency" : "STRING",
+  "account_holder_type" : "STRING",
+  "id" : "STRING"
 }

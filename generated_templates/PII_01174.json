@@ -1,41 +1,18 @@
 {
-  "v_disk_usage" : "INT",
-  "company" : "PII_ORGANIZATION_NAME",
-  "id" : "INT",
-  "following_url" : "URL",
-  "site_admin" : "BOOLEAN",
-  "location" : "PII_LOCATION_CITY",
-  "received_events_url" : "URL",
-  "public_repos" : "INT",
-  "v_bio" : "PII_ORGANIZATION_NAME",
-  "html_url" : "NULL",
-  "type" : null,
-  "two_factor_authentication" : "BOOLEAN",
-  "email" : "PII_EMAIL",
-  "gravatar_id" : "STRING",
-  "login" : "STRING",
-  "organizations_url" : "URL",
-  "updated_at" : "DATETIME",
-  "repos_url" : "URL",
-  "collaborators" : "INT",
-  "v_created_at" : "DATETIME",
-  "v_avatar_url" : "URL",
-  "starred_url" : "URL",
-  "blog" : "URL",
-  "plan" : {
-    "space" : "",
-    "private_repos" : "INT",
-    "collaborators" : "NULL",
-    "name" : "STRING"
+  "lastUsed" : "DATETIME",
+  "rateLimit" : {
+    "requestsPerMinute" : "INT",
+    "stock_quantity" : 3890
   },
-  "events_url" : "URL",
-  "following" : "INT",
-  "followers_url" : "URL",
-  "owned_private_repos" : "INT",
-  "name" : "PII_PERSON_NAME",
-  "gists_url" : "URL",
-  "subscriptions_url" : "URL",
-  "hireable" : "BOOLEAN",
-  "node_id" : "STRING",
-  "followers" : "INT"
+  "prefix" : "STRING",
+  "apiKeyId" : "STRING",
+  "ipWhitelist" : [ null ],
+  "expiresAt" : "DATETIME",
+  "createdBy_data" : {
+    "retry_attempts" : 4545,
+    "email" : "PII_EMAIL",
+    "userId" : "STRING"
+  },
+  "scopes_data" : [ "STRING" ],
+  "name_val" : "STRING"
 }

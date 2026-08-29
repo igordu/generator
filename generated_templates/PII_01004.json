@@ -1,16 +1,37 @@
 {
-  "customer_data" : "STRING",
-  "account_holder_type" : "STRING",
-  "status" : "STRING",
-  "metadata" : "OBJECT",
-  "id" : "STRING",
-  "system_ping_ms" : 4079,
-  "bank_name" : "STRING",
-  "currency_data" : "STRING",
-  "routing_number" : "STRING",
-  "last4" : "STRING",
-  "fingerprint" : "STRING",
-  "v_object" : "STRING",
-  "userName" : "PII_PERSON_NAME",
-  "account_type_data" : "STRING"
+  "v_position" : {
+    "location" : "PII_LOCATION_CITY",
+    "jobId" : "STRING"
+  },
+  "source" : "STRING",
+  "candidateId" : "STRING",
+  "updatedAt" : "DATETIME",
+  "candidate" : {
+    "mobile" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "http_status" : 4276,
+    "linkedIn" : "",
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "v_address" : {
+      "stock_quantity" : 1602,
+      "postalCode" : "STRING",
+      "street_data" : "PII_ADDRESS_LINE",
+      "country" : "PII_LOCATION_COUNTRY",
+      "v_city" : "PII_LOCATION_CITY"
+    },
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "appliedAt" : "DATETIME",
+  "v_status" : "STRING",
+  "interviews" : [ {
+    "round" : "INT",
+    "scheduledAt" : "DATETIME",
+    "interviewer" : {
+      "email" : "PII_EMAIL",
+      "has_discount" : true,
+      "clientName" : "PII_PERSON_NAME"
+    },
+    "type" : "STRING"
+  } ]
 }

@@ -1,39 +1,56 @@
 {
-  "ProviderName" : "STRING",
-  "Employees_data" : [ {
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "UpdatedDateUTC" : null,
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL",
-      "auto_renew" : true
-    },
-    "recordId" : "STRING"
-  }, {
-    "name_val" : "PII_PERSON_FIRST_NAME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url_data" : "URL",
-      "response_time_sec" : 533.47
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "has_discount" : false,
-    "Status_data" : "STRING",
-    "v_UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING"
-  }, {
-    "EmployeeID" : "",
-    "Status_data" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "v_UpdatedDateUTC" : "DATETIME",
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL"
-    },
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  } ],
-  "Id" : "STRING",
-  "Status" : "STRING",
-  "DateTimeUTC_data" : "DATETIME"
+  "data" : {
+    "fetchResource" : {
+      "v_key" : "STRING",
+      "id" : "STRING",
+      "fields" : {
+        "assignee" : {
+          "emailAddress" : "PII_EMAIL",
+          "active" : "BOOLEAN",
+          "timeZone" : "STRING",
+          "name_val" : "PII_PERSON_NAME",
+          "is_deleted" : false,
+          "accountId" : "STRING"
+        },
+        "v_status" : {
+          "id" : "STRING",
+          "name_val" : "STRING"
+        },
+        "created_data" : "DATETIME",
+        "stock_quantity" : 70,
+        "priority" : {
+          "id" : "STRING",
+          "item_count" : 3160,
+          "name" : "STRING"
+        },
+        "v_comment" : {
+          "comments" : [ {
+            "created" : "DATETIME",
+            "v_updated" : "DATETIME",
+            "id" : "STRING",
+            "body" : "STRING",
+            "stock_quantity" : 2942,
+            "v_author" : {
+              "system_ping_ms" : 952,
+              "emailAddress" : "PII_EMAIL",
+              "displayName" : "PII_PERSON_NAME",
+              "accountId" : "STRING"
+            }
+          } ],
+          "response_time_sec" : 8.69,
+          "total_data" : "INT"
+        },
+        "reporter_data" : {
+          "timeZone_data" : "STRING",
+          "has_discount" : true,
+          "accountId" : "STRING",
+          "emailAddress" : "PII_EMAIL",
+          "clientName" : "PII_PERSON_NAME",
+          "active" : "NULL"
+        },
+        "updated" : "DATETIME",
+        "v_duedate" : "DATE"
+      }
+    }
+  }
 }

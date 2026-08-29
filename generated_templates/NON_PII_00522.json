@@ -1,56 +1,31 @@
 {
-  "audit_trail" : {
-    "request_context" : {
-      "debug_payload" : [ {
-        "v_avatarUrls" : {
-          "24x24" : "URL",
-          "32x32_data" : "URL",
-          "price" : 223.96,
-          "16x16" : "URL",
-          "48x48" : "URL"
-        },
-        "name" : "STRING",
-        "v_insight" : {
-          "totalIssueCount" : "INT",
-          "requires_update" : true
-        },
-        "is_deleted" : false,
-        "key" : "STRING",
-        "id" : "STRING",
-        "style" : "STRING",
-        "projectCategory" : {
-          "description" : "STRING",
-          "self" : "URL",
-          "name" : "STRING",
-          "identifier" : "NULL"
-        },
-        "simplified" : "BOOLEAN"
-      }, {
-        "v_self" : "URL",
-        "name" : "STRING",
-        "key" : "STRING",
-        "insight" : {
-          "lastIssueUpdateTime" : "DATETIME",
-          "totalIssueCount_data" : "INT"
-        },
-        "id" : null,
-        "projectCategory" : {
-          "v_self" : "URL",
-          "description" : "STRING",
-          "cache_hit" : false,
-          "clientName" : "STRING",
-          "id" : "STRING"
-        },
-        "avatarUrls" : {
-          "48x48" : "URL",
-          "32x32" : "URL",
-          "24x24" : "URL",
-          "16x16" : "URL",
-          "is_deleted" : true
-        },
-        "simplified_data" : "BOOLEAN",
-        "style" : "STRING"
-      } ]
-    }
+  "status" : "success",
+  "code" : 200,
+  "data" : {
+    "status" : "NULL",
+    "jvmMemory" : {
+      "gcPauseMs" : "INT",
+      "v_heapUsedMb" : "INT",
+      "retry_attempts" : 3824,
+      "heapMaxMb" : "INT"
+    },
+    "auto_renew" : true,
+    "metrics" : {
+      "bytesInPerSec_data" : "INT",
+      "underReplicatedPartitions_data" : "INT",
+      "activeControllerCount" : "INT",
+      "requestHandlerAvgIdlePercent" : "DECIMAL",
+      "bytesOutPerSec" : "INT",
+      "offlinePartitionsCount" : "INT",
+      "messagesInPerSec" : "INT"
+    },
+    "nodeId" : "STRING",
+    "uptimeSeconds" : "INT",
+    "topics_data" : [ {
+      "v_partitions" : null,
+      "replicationFactor_data" : "INT",
+      "name" : "STRING"
+    } ],
+    "recordId" : "STRING"
   }
 }

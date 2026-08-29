@@ -1,40 +1,50 @@
 {
-  "priority_level" : 1633,
-  "gender" : "STRING",
-  "name" : [ {
-    "family" : "PII_PERSON_LAST_NAME",
-    "given_data" : [ "PII_PERSON_FIRST_NAME" ],
-    "use" : "STRING"
-  } ],
-  "identifier" : [ {
-    "value" : "PII_NATIONAL_ID",
-    "type" : {
-      "text" : "STRING",
-      "priority_level" : 3783
-    },
-    "system" : "URL",
-    "use" : "STRING",
-    "requires_update" : false
-  } ],
-  "meta" : {
-    "lastUpdated_data" : "DATETIME",
-    "uuid" : "INT"
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "v_address" : [ {
-    "line" : [ "PII_ADDRESS_LINE" ],
-    "city" : "PII_LOCATION_CITY",
-    "country" : "PII_LOCATION_COUNTRY",
-    "use" : "STRING"
-  } ],
-  "id" : "STRING",
-  "telecom_data" : [ {
-    "system" : "STRING",
-    "value" : "PII_EMAIL",
-    "item_count" : 3992
-  }, {
-    "use_data" : "STRING",
-    "value" : "PII_PHONE_NUMBER",
-    "system" : "STRING"
-  } ],
-  "birthDate_data" : "PII_DATE_OF_BIRTH"
+  "results" : {
+    "system_state" : {
+      "transaction_trace" : {
+        "debug_payload" : {
+          "recoveryEmail" : "PII_EMAIL",
+          "isMailboxSetup" : "BOOLEAN",
+          "v_creationTime" : "DATETIME",
+          "id" : "NULL",
+          "lastLoginTime" : "DATETIME",
+          "primaryEmail" : "PII_EMAIL",
+          "system_ping_ms" : 1928,
+          "suspended" : "BOOLEAN",
+          "isDelegatedAdmin" : "BOOLEAN",
+          "name" : {
+            "fullName" : "PII_PERSON_NAME",
+            "givenName" : "PII_PERSON_FIRST_NAME",
+            "familyName" : "PII_PERSON_LAST_NAME"
+          },
+          "addresses" : [ {
+            "type_data" : "STRING",
+            "cpu_usage_percent" : 0.84,
+            "postalCode" : "",
+            "streetAddress" : "PII_ADDRESS_LINE",
+            "country" : "PII_LOCATION_COUNTRY",
+            "locality" : "PII_LOCATION_CITY",
+            "region" : "STRING"
+          } ],
+          "phones" : [ {
+            "type_data" : "STRING",
+            "value" : "PII_PHONE_NUMBER"
+          } ],
+          "cell" : "PII_PHONE_NUMBER",
+          "customerId" : "STRING",
+          "changePasswordAtNextLogin" : "NULL",
+          "archived_data" : "BOOLEAN",
+          "emails" : [ {
+            "address" : "PII_EMAIL",
+            "primary" : "BOOLEAN"
+          } ],
+          "v_isAdmin" : "BOOLEAN"
+        }
+      }
+    }
+  }
 }

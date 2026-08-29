@@ -1,18 +1,41 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "account_type" : "STRING",
-    "routing_number_data" : "STRING",
-    "status" : "STRING",
-    "bank_name" : "STRING",
-    "id" : "STRING",
-    "fingerprint" : "STRING",
-    "v_last4" : "STRING",
-    "object" : "STRING",
-    "name_val" : "PII_PERSON_NAME",
-    "priority_level" : 3198,
-    "country" : "STRING",
-    "metadata" : "OBJECT"
-  }
+  "updatedAt" : "DATETIME",
+  "candidate" : {
+    "v_linkedIn" : "URL",
+    "primary_email" : "PII_EMAIL",
+    "resumeUrl" : "URL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "is_active" : false,
+    "userName" : "PII_PERSON_FIRST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "v_address" : {
+      "country" : "PII_LOCATION_COUNTRY",
+      "v_postalCode" : "STRING",
+      "street" : "PII_ADDRESS_LINE",
+      "city" : "PII_LOCATION_CITY"
+    },
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH"
+  },
+  "interviews" : [ {
+    "interviewer" : {
+      "email" : "PII_EMAIL",
+      "name" : "PII_PERSON_NAME",
+      "http_status" : 4737
+    },
+    "round" : "INT",
+    "type" : "STRING",
+    "auto_renew" : false,
+    "v_scheduledAt" : "DATETIME"
+  } ],
+  "page_index" : 3863,
+  "candidateId" : "STRING",
+  "v_position" : {
+    "location" : "PII_LOCATION_CITY",
+    "title" : "STRING",
+    "requires_update" : false,
+    "jobId" : "STRING"
+  },
+  "status" : "STRING",
+  "v_appliedAt" : "DATETIME",
+  "source_data" : "STRING"
 }

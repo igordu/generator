@@ -1,50 +1,23 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : [ {
-    "simplified" : "BOOLEAN",
-    "key" : "STRING",
-    "self" : "URL",
-    "style" : "STRING",
-    "avatarUrls" : {
-      "v_16x16" : "URL",
-      "32x32_data" : "URL",
-      "48x48_data" : "URL",
-      "24x24" : "URL"
+  "enabled" : "BOOLEAN",
+  "ruleId" : "STRING",
+  "priority" : "INT",
+  "v_actions" : [ {
+    "config" : {
+      "responseMessage_data" : "STRING",
+      "keyBy" : "STRING",
+      "responseCode" : "INT"
     },
-    "name" : null,
-    "insight" : {
-      "lastIssueUpdateTime_data" : "DATETIME",
-      "cpu_usage_percent" : 707.81
-    },
-    "projectCategory" : {
-      "id" : "STRING",
-      "self" : "URL",
-      "name" : "STRING"
-    },
-    "id" : "STRING"
-  }, {
-    "name" : "NULL",
-    "simplified" : "BOOLEAN",
-    "style" : "STRING",
-    "key" : "STRING",
-    "v_avatarUrls" : {
-      "32x32" : "URL",
-      "page_index" : 3839,
-      "v_16x16" : "",
-      "24x24" : "URL"
-    },
-    "self" : "URL",
-    "item_count" : 778,
-    "id" : "STRING",
-    "insight" : {
-      "lastIssueUpdateTime_data" : "DATETIME",
-      "totalIssueCount" : "INT"
-    },
-    "projectCategory" : {
-      "name" : "STRING",
-      "description_data" : "STRING",
-      "v_self" : "URL"
-    }
-  } ]
+    "type" : "STRING"
+  } ],
+  "updatedAt" : "DATETIME",
+  "conditions" : [ {
+    "operator_data" : "STRING",
+    "auto_renew" : true,
+    "field" : "STRING"
+  } ],
+  "createdAt" : "DATETIME",
+  "name" : "STRING",
+  "v_createdBy" : "STRING",
+  "description" : "STRING"
 }

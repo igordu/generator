@@ -1,86 +1,20 @@
 {
-  "v_transactions" : [ {
-    "paymentsEntity" : "STRING",
-    "bookingEntry" : "STRING",
-    "orderId" : "STRING",
-    "amount" : {
-      "exchangeRate_data" : "NULL",
-      "v_value" : "STRING",
-      "auto_renew" : true,
-      "convertedFromCurrency" : "STRING",
+  "data" : {
+    "fetchResource" : {
+      "status" : "STRING",
+      "bank_name" : "STRING",
       "currency" : "STRING",
-      "v_convertedFromValue" : "STRING"
-    },
-    "references" : [ {
-      "is_active" : false,
-      "referenceId" : "STRING",
-      "referenceType" : "STRING"
-    } ],
-    "orderLineItems" : [ {
-      "identifier" : "STRING",
-      "feeBasisAmount" : {
-        "exchangeRate_data" : "STRING",
-        "value" : "STRING",
-        "v_convertedFromValue" : "STRING",
-        "convertedFromCurrency_data" : "STRING",
-        "currency" : "STRING"
-      },
-      "marketplaceFees" : [ {
-        "feeMemo_data" : "NULL",
-        "v_amount" : {
-          "v_value" : "STRING",
-          "has_discount" : false,
-          "convertedFromCurrency" : "STRING",
-          "currency" : "STRING",
-          "v_exchangeRate" : "STRING",
-          "convertedFromValue" : "STRING"
-        },
-        "feeType" : "STRING",
-        "http_status" : 532
-      } ]
-    } ],
-    "transactionType" : "STRING",
-    "totalFeeBasisAmount" : {
-      "convertedFromCurrency" : "STRING",
-      "page_index" : 472,
-      "convertedFromValue_data" : "STRING",
-      "v_exchangeRate" : "STRING",
-      "currency" : "STRING",
-      "v_value" : "STRING"
-    },
-    "totalFeeAmount_data" : {
-      "convertedFromCurrency" : "STRING",
-      "convertedFromValue_data" : "STRING",
-      "exchangeRate" : "STRING",
-      "currency" : "STRING",
-      "value" : "STRING"
-    },
-    "v_buyer" : {
-      "username" : "PII_USERNAME"
-    },
-    "transactionId" : "STRING",
-    "feeType" : "STRING",
-    "eBayCollectedTaxAmount" : {
-      "exchangeRate_data" : "NULL",
-      "convertedFromValue" : "STRING",
-      "v_currency" : "STRING",
-      "value" : "STRING",
-      "cpu_usage_percent" : 873.46,
-      "convertedFromCurrency" : "STRING"
-    },
-    "feeJurisdiction" : {
-      "regionType" : "STRING",
-      "requires_update" : true,
-      "regionName" : "STRING"
-    },
-    "v_transactionStatus" : "STRING",
-    "payoutId" : "STRING"
-  } ],
-  "offset" : "INT",
-  "next" : "STRING",
-  "total" : "INT",
-  "prev" : "STRING",
-  "v_limit" : "INT",
-  "has_discount" : false,
-  "href" : "STRING"
+      "country" : "STRING",
+      "last4_data" : "STRING",
+      "fingerprint" : "STRING",
+      "routing_number" : "STRING",
+      "metadata" : "NULL",
+      "account_type" : "STRING",
+      "account_holder_type" : "STRING",
+      "object" : "STRING",
+      "id" : "STRING",
+      "customer" : "STRING",
+      "account_holder_name" : "PII_PERSON_NAME"
+    }
+  }
 }

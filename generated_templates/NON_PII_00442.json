@@ -1,4 +1,28 @@
 {
-  "flowName" : "STRING",
-  "clientToken" : ""
+  "data" : {
+    "fetchResource" : {
+      "cpu_usage_percent" : 17.1,
+      "payload_data" : {
+        "orderId" : "STRING",
+        "customerId" : "STRING",
+        "completedAt" : "DATETIME",
+        "auto_renew" : true
+      },
+      "deliveredAt" : null,
+      "signature" : "STRING",
+      "v_endpoint" : {
+        "page_index" : 2658,
+        "status" : "STRING",
+        "v_url" : "URL",
+        "id" : "STRING"
+      },
+      "identifier" : "STRING",
+      "event" : "STRING",
+      "response" : {
+        "latencyMs" : "INT",
+        "body" : "STRING",
+        "cache_hit" : true
+      }
+    }
+  }
 }

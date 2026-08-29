@@ -1,51 +1,30 @@
 {
-  "status" : "STRING",
-  "registrationMarketplaceId" : "STRING",
-  "username" : "PII_USERNAME",
-  "userId" : "STRING",
-  "accountType_data" : "STRING",
-  "businessAccount" : {
-    "mail" : "PII_EMAIL",
-    "primaryContact" : {
-      "fullName" : "PII_PERSON_NAME",
-      "lastName" : "PII_PERSON_NAME"
-    },
-    "doingBusinessAs" : "STRING",
-    "website" : "URL",
-    "mobile" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "system_ping_ms" : 4457
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "secondaryPhone" : {
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : "STRING",
-      "is_deleted" : true
-    }
-  },
-  "individualAccount" : {
-    "firstName" : "PII_PERSON_NAME",
-    "primaryPhone" : {
-      "stock_quantity" : 684,
-      "v_countryCode" : "STRING",
-      "v_number" : "PII_PHONE_NUMBER",
-      "contactNumber" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "fullName" : "PII_PERSON_NAME",
-    "registrationAddress" : {
-      "v_county" : "STRING",
-      "v_country" : "STRING",
-      "addressLine2" : "STRING",
-      "postalCode" : "STRING",
-      "stateOrProvince" : "STRING",
-      "addressLine1_data" : "STRING"
-    },
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "STRING",
-      "number" : "PII_PHONE_NUMBER"
+  "audit_trail" : {
+    "event_data" : {
+      "debug_payload" : {
+        "activity_log_data" : [ {
+          "note" : "PII_FREE_TEXT",
+          "requires_update" : true,
+          "action" : "STRING",
+          "timestamp" : "DATETIME"
+        } ],
+        "Title" : "STRING",
+        "attributes" : {
+          "url" : "URL",
+          "v_type" : "STRING"
+        },
+        "LastModifiedDate" : "NULL",
+        "Id" : "STRING",
+        "v_Body" : "PII_FREE_TEXT",
+        "OwnerId" : "STRING",
+        "stock_quantity" : 2864,
+        "CreatedDate" : "DATETIME",
+        "ParentId" : "STRING",
+        "Owner" : {
+          "Department" : "STRING",
+          "Name" : "PII_PERSON_NAME"
+        }
+      }
     }
   }
 }

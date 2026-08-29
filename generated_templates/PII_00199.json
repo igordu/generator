@@ -1,56 +1,41 @@
 {
-  "stock_quantity" : 433,
-  "status" : null,
-  "registrationMarketplaceId" : "STRING",
-  "accountType" : "STRING",
-  "userId" : "STRING",
-  "individualAccount" : {
-    "firstName" : "PII_PERSON_NAME",
-    "name_val" : "PII_PERSON_NAME",
-    "email" : "PII_EMAIL",
-    "temperature_c" : 181.73,
-    "secondaryPhone" : {
-      "has_discount" : true,
-      "number" : "PII_PHONE_NUMBER",
-      "countryCode" : null,
-      "phoneType" : "STRING"
+  "identifier" : [ {
+    "v_type" : {
+      "v_text" : "STRING",
+      "cache_hit" : false
     },
-    "primaryPhone" : {
-      "countryCode" : "STRING",
-      "phoneType" : "NULL",
-      "number" : "PII_PHONE_NUMBER"
-    }
+    "value" : "PII_NATIONAL_ID",
+    "system" : "URL",
+    "use" : "STRING"
+  } ],
+  "address" : [ {
+    "temperature_c" : 19.09,
+    "line" : [ "PII_ADDRESS_LINE" ],
+    "use" : "STRING",
+    "country" : "PII_LOCATION_COUNTRY",
+    "v_city" : "PII_LOCATION_CITY"
+  } ],
+  "gender" : "STRING",
+  "telecom" : [ {
+    "system" : "STRING",
+    "value" : "PII_PHONE_NUMBER"
+  }, {
+    "system" : "",
+    "value" : "PII_EMAIL",
+    "price" : 4691.82
+  } ],
+  "resourceType" : "STRING",
+  "uuid" : "STRING",
+  "meta" : {
+    "price" : 7519.92,
+    "lastUpdated" : "DATETIME",
+    "identifier" : "INT"
   },
-  "name_val" : "PII_USERNAME",
-  "businessAccount" : {
-    "address_data" : {
-      "addressLine1" : "STRING",
-      "priority_level" : 3991,
-      "city_data" : "STRING",
-      "v_country" : "NULL",
-      "addressLine2" : "STRING",
-      "county" : "STRING",
-      "stateOrProvince" : "STRING",
-      "postalCode_data" : "STRING"
-    },
-    "email" : "PII_EMAIL",
-    "v_primaryContact" : {
-      "priority_level" : 1323,
-      "lastName" : "PII_PERSON_NAME",
-      "name_val" : "PII_PERSON_NAME"
-    },
-    "name" : "PII_ORGANIZATION_NAME",
-    "cell" : {
-      "number" : "PII_PHONE_NUMBER",
-      "phoneType" : "STRING",
-      "auto_renew" : false
-    },
-    "website_data" : "URL",
-    "v_doingBusinessAs" : "STRING",
-    "secondaryPhone" : {
-      "countryCode" : "STRING",
-      "number" : "PII_PHONE_NUMBER",
-      "cell" : "STRING"
-    }
-  }
+  "name" : [ {
+    "http_status" : 3364,
+    "use" : "NULL",
+    "given" : [ "PII_PERSON_FIRST_NAME" ],
+    "family" : "PII_PERSON_LAST_NAME"
+  } ],
+  "birthDate_data" : "PII_DATE_OF_BIRTH"
 }

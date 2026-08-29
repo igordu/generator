@@ -1,23 +1,82 @@
 {
-  "http_status" : 4700,
-  "v_content" : [ {
-    "reviewId" : "STRING",
-    "v_created" : "DATETIME",
-    "articleId" : "STRING",
-    "v_unhelpfulCount" : "NULL",
-    "customerCity" : "PII_LOCATION_CITY",
-    "stock_quantity" : 491,
-    "title" : "PII_COMPANY_NAME",
-    "articleSizeRatings" : {
-      "recordId" : "INT",
-      "OVERALL" : "INT"
-    },
-    "recommend" : "BOOLEAN",
-    "description_data" : "STRING",
-    "helpfulCount" : "NULL",
-    "rating" : "INT",
-    "primaryKey" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "v_language" : "NULL"
-  } ]
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "prev" : "STRING",
+    "is_active" : false,
+    "next_data" : "STRING",
+    "href" : "STRING",
+    "limit" : "INT",
+    "offset" : "INT",
+    "total_data" : "INT",
+    "transactions" : [ {
+      "eBayCollectedTaxAmount" : {
+        "item_count" : 1784,
+        "v_currency" : "NULL",
+        "exchangeRate_data" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency_data" : "STRING",
+        "convertedFromValue_data" : "STRING"
+      },
+      "buyer" : {
+        "username" : "PII_USERNAME"
+      },
+      "transactionStatus" : "STRING",
+      "v_transactionType" : "STRING",
+      "totalFeeBasisAmount" : {
+        "convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "v_convertedFromValue" : "STRING",
+        "auto_renew" : true,
+        "v_currency" : "STRING"
+      },
+      "feeJurisdiction" : {
+        "regionName" : "STRING",
+        "cpu_usage_percent" : 40.0,
+        "regionType" : "STRING"
+      },
+      "v_orderLineItems" : [ {
+        "marketplaceFees" : [ {
+          "feeType" : "STRING",
+          "feeMemo_data" : "STRING",
+          "feeJurisdiction" : {
+            "regionType_data" : "STRING",
+            "regionName" : "STRING",
+            "cpu_usage_percent" : 50.01
+          }
+        } ],
+        "feeBasisAmount" : {
+          "v_currency" : "STRING",
+          "exchangeRate" : "STRING",
+          "value" : "NULL",
+          "v_convertedFromValue" : "STRING"
+        },
+        "response_time_sec" : 17.54,
+        "lineItemId" : null
+      } ],
+      "references" : [ {
+        "primaryKey" : "STRING",
+        "referenceType" : "STRING"
+      } ],
+      "transactionMemo" : "STRING",
+      "totalFeeAmount" : {
+        "currency" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "value" : "STRING",
+        "exchangeRate" : "STRING"
+      },
+      "recordId" : "STRING",
+      "amount" : {
+        "convertedFromValue" : "STRING",
+        "v_exchangeRate" : "STRING",
+        "currency_data" : "STRING",
+        "value" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "http_status" : 2193
+      },
+      "v_bookingEntry" : "STRING"
+    } ]
+  }
 }

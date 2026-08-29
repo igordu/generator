@@ -1,4 +1,19 @@
 {
-  "v_clientToken" : "STRING",
-  "flowName" : "STRING"
+  "is_active" : false,
+  "response" : {
+    "retry_attempts" : 3600,
+    "statusCode" : "NULL",
+    "body" : "STRING"
+  },
+  "event" : "STRING",
+  "signature" : "STRING",
+  "deliveredAt" : "DATETIME",
+  "payload" : {
+    "currency" : null,
+    "customerId" : "STRING",
+    "completedAt" : "DATETIME",
+    "totalAmount" : "DECIMAL",
+    "primaryKey" : "STRING"
+  },
+  "attempts" : "INT"
 }

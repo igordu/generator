@@ -1,10 +1,22 @@
 {
-  "system_state" : {
-    "payload_wrapper" : {
-      "debug_payload" : {
-        "fullName" : "STRING",
-        "clientToken" : "STRING"
-      }
+  "v_recipient" : {
+    "userId" : "STRING",
+    "deviceToken" : "STRING",
+    "appVersion" : "STRING",
+    "v_platform" : "",
+    "priority_level" : 1930
+  },
+  "notificationId" : "STRING",
+  "retryCount" : "INT",
+  "campaign_data" : "NULL",
+  "price" : 6811.02,
+  "deliveredAt" : "DATETIME",
+  "type" : null,
+  "sentAt" : "DATETIME",
+  "notification" : {
+    "data" : {
+      "deepLink" : "URL",
+      "response_time_sec" : 3.54
     }
   }
 }

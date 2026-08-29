@@ -1,24 +1,23 @@
-[ {
-  "self" : "URL",
-  "key" : "STRING",
-  "avatarUrls" : {
-    "24x24" : "URL",
-    "v_48x48" : "URL",
-    "32x32" : "URL",
-    "16x16" : "URL"
-  },
-  "name" : "STRING",
-  "style" : "STRING",
-  "id" : "STRING",
-  "projectCategory" : {
-    "self" : "URL",
-    "description_data" : "",
-    "name" : "STRING",
-    "id" : "STRING"
-  },
-  "v_insight" : {
-    "totalIssueCount" : "INT",
-    "item_count" : 1617,
-    "lastIssueUpdateTime" : "DATETIME"
-  }
-} ]
+{
+  "name_val" : "STRING",
+  "actions" : [ {
+    "v_config" : {
+      "requestsPerMinute" : "NULL",
+      "responseCode" : "INT",
+      "v_responseMessage" : "STRING",
+      "v_keyBy" : "STRING"
+    },
+    "stock_quantity" : 1341
+  } ],
+  "v_conditions" : [ {
+    "field_data" : "STRING",
+    "operator" : "STRING"
+  } ],
+  "v_createdAt" : "DATETIME",
+  "v_createdBy" : "STRING",
+  "identifier" : "STRING",
+  "description" : "STRING",
+  "priority" : "INT",
+  "updatedAt" : "DATETIME",
+  "priority_level" : 1130
+}

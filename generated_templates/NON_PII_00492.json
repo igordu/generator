@@ -1,5 +1,25 @@
 {
-  "v_clientToken" : "STRING",
-  "flowName" : "STRING",
-  "discount_rate" : 619.53
+  "findings" : [ {
+    "v_description" : "STRING",
+    "parameter" : null,
+    "type" : "STRING",
+    "system_ping_ms" : 177,
+    "identifier" : "STRING",
+    "cwe_data" : "STRING",
+    "v_remediation" : "STRING",
+    "endpoint" : "STRING",
+    "cvss" : "DECIMAL"
+  } ],
+  "completedAt" : "DATETIME",
+  "summary" : {
+    "low" : "INT",
+    "v_high" : "INT",
+    "medium_data" : "INT",
+    "critical" : "INT"
+  },
+  "startedAt" : "DATETIME",
+  "recordId" : "STRING",
+  "status" : "STRING",
+  "target" : "URL",
+  "scanType" : "STRING"
 }

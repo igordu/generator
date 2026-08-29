@@ -1,0 +1,28 @@
+{
+  "spaceKey" : "STRING",
+  "lastModifiedBy_data" : {
+    "displayName" : "PII_PERSON_NAME",
+    "identifier" : "STRING",
+    "primary_email" : "PII_EMAIL"
+  },
+  "author" : {
+    "cpu_usage_percent" : 39.99,
+    "accountId" : "STRING",
+    "displayName" : "PII_PERSON_NAME",
+    "emailAddress" : "PII_EMAIL"
+  },
+  "ancestors" : [ {
+    "id" : "STRING",
+    "title" : "STRING"
+  } ],
+  "updatedAt" : "DATETIME",
+  "likes" : "INT",
+  "viewCount" : "INT",
+  "pageId" : "STRING",
+  "title" : null,
+  "v_labels" : [ "STRING" ],
+  "status_data" : "STRING",
+  "v_createdAt" : "DATETIME",
+  "version" : "INT",
+  "is_deleted" : false
+}

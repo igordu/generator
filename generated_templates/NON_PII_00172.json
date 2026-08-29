@@ -1,20 +1,19 @@
 {
-  "modelId" : "STRING",
-  "id" : "STRING",
-  "shopUrl_data" : "URL",
+  "v_created_at" : "DATETIME",
   "name" : "STRING",
-  "media_data" : {
-    "images" : [ {
-      "largeHdUrl" : "URL",
-      "priority_level" : 2396,
-      "mediumHdUrl_data" : "URL",
-      "mediumUrl" : "NULL",
-      "orderNumber_data" : "INT",
-      "smallHdUrl" : "URL",
-      "largeUrl" : "URL",
-      "smallUrl" : "URL",
-      "thumbnailHdUrl" : "URL",
-      "type" : "STRING"
-    } ]
-  }
+  "cpu_usage_percent" : 48.21,
+  "id" : "INT",
+  "published_at" : "DATETIME",
+  "assets" : [ {
+    "content_type" : "STRING",
+    "id" : "INT",
+    "name" : "STRING",
+    "browser_download_url" : "URL",
+    "download_count" : "NULL",
+    "v_size" : "INT"
+  } ],
+  "target_commitish" : null,
+  "prerelease_data" : "BOOLEAN",
+  "draft" : "BOOLEAN",
+  "body" : "TEXT"
 }

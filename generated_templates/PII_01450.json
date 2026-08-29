@@ -1,0 +1,25 @@
+{
+  "producer" : "STRING",
+  "priority_level" : 3063,
+  "payload" : {
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "registrationSource_data" : "STRING",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "uuid" : "STRING",
+    "v_ipAddress" : "PII_IP_ADDRESS",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "phone" : "PII_PHONE_NUMBER",
+    "emailAddress" : "PII_EMAIL",
+    "country" : "PII_LOCATION_COUNTRY"
+  },
+  "correlationId" : "STRING",
+  "occurredAt" : "DATETIME",
+  "v_metadata" : {
+    "schemaVersion" : null,
+    "offset" : "INT",
+    "partition" : "INT"
+  },
+  "identifier" : "STRING",
+  "version" : "STRING",
+  "eventType" : "STRING"
+}

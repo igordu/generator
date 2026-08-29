@@ -1,0 +1,28 @@
+{
+  "spaceKey": "STRING",
+  "pageId": "STRING",
+  "title": "STRING",
+  "version": "INT",
+  "status": "STRING",
+  "createdAt": "DATETIME",
+  "updatedAt": "DATETIME",
+  "author": {
+    "accountId": "STRING",
+    "displayName": "PII_PERSON_NAME",
+    "email": "PII_EMAIL"
+  },
+  "lastModifiedBy": {
+    "accountId": "STRING",
+    "displayName": "PII_PERSON_NAME",
+    "email": "PII_EMAIL"
+  },
+  "ancestors": [
+    {
+      "id": "STRING",
+      "title": "STRING"
+    }
+  ],
+  "labels": ["STRING"],
+  "viewCount": "INT",
+  "likes": "INT"
+}

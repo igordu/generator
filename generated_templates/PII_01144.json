@@ -1,46 +1,31 @@
 {
-  "public_repos_data" : "INT",
-  "total_private_repos" : "INT",
-  "avatar_url" : "URL",
-  "type" : "STRING",
-  "owned_private_repos" : "INT",
-  "following_data" : "INT",
-  "v_collaborators" : "INT",
-  "gists_url" : "URL",
-  "twitter_username" : "STRING",
-  "followers_url" : "URL",
-  "updated_at" : "DATETIME",
-  "disk_usage" : "INT",
-  "company" : "PII_ORGANIZATION_NAME",
-  "following_url" : "NULL",
-  "created_at" : "DATETIME",
-  "url" : "URL",
-  "cache_hit" : true,
-  "v_received_events_url" : "URL",
-  "repos_url" : "URL",
-  "blog_data" : "URL",
-  "bio" : "PII_ORGANIZATION_NAME",
-  "v_organizations_url" : "URL",
-  "followers" : "INT",
-  "site_admin_data" : "BOOLEAN",
-  "email" : "PII_EMAIL",
-  "public_gists" : "INT",
-  "events_url" : null,
-  "login" : "STRING",
-  "private_gists" : "INT",
-  "name" : "PII_PERSON_NAME",
-  "primaryKey" : "STRING",
-  "id" : "INT",
-  "v_hireable" : "BOOLEAN",
-  "gravatar_id" : "STRING",
-  "location" : "PII_LOCATION_CITY",
-  "two_factor_authentication" : "NULL",
-  "plan" : {
-    "space" : "INT",
-    "collaborators_data" : "INT",
-    "name" : "STRING",
-    "auto_renew" : true,
-    "private_repos" : "INT"
-  },
-  "html_url" : "URL"
+  "v_createdBy" : "PII_EMAIL",
+  "variations" : [ {
+    "uuid" : "STRING",
+    "value" : "BOOLEAN"
+  } ],
+  "enabled" : "BOOLEAN",
+  "v_environment" : "STRING",
+  "v_tags" : [ "STRING" ],
+  "createdAt" : "DATETIME",
+  "is_active" : true,
+  "projectKey" : "STRING",
+  "updatedAt" : "DATETIME",
+  "v_rolloutPercentage" : "INT",
+  "targeting" : {
+    "fallthrough" : {
+      "v_variation" : "STRING"
+    },
+    "rules_data" : [ {
+      "description" : "STRING",
+      "recordId" : "STRING",
+      "variation" : "STRING",
+      "clauses" : [ {
+        "values" : [ "STRING" ],
+        "op" : "STRING"
+      } ],
+      "conversion_rate" : 8.31
+    } ],
+    "discount_rate" : 62.48
+  }
 }

@@ -1,27 +1,54 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "userId" : "STRING",
+  "identifier" : {
+    "emailAddress" : "PII_EMAIL",
+    "primaryPhone" : {
+      "is_active" : true,
+      "v_number" : "PII_PHONE_NUMBER",
+      "phoneType" : "STRING"
+    },
+    "lastName" : "PII_PERSON_NAME",
+    "secondaryPhone" : {
+      "phoneType" : "STRING",
+      "item_count" : 3811,
+      "number_data" : "PII_PHONE_NUMBER"
+    },
+    "registrationAddress" : {
+      "response_time_sec" : 23.63,
+      "postalCode" : "NULL",
+      "city" : "STRING",
+      "v_country" : "STRING",
+      "addressLine2" : "STRING",
+      "stateOrProvince" : "STRING",
+      "v_county" : "STRING",
+      "addressLine1" : "STRING"
+    },
+    "firstName" : "PII_PERSON_NAME"
   },
-  "results" : {
-    "content" : [ {
-      "reviewId" : "STRING",
-      "language" : "STRING",
-      "uuid" : "STRING",
-      "identifier" : "STRING",
-      "recommend" : "BOOLEAN",
-      "v_rating" : "INT",
-      "unhelpfulCount" : "INT",
-      "customerCity" : "PII_LOCATION_CITY",
-      "priority_level" : 2874,
-      "title" : "PII_COMPANY_NAME",
-      "articleSizeRatings" : {
-        "SHOE_WIDTH" : "INT",
-        "OVERALL" : "INT"
-      },
-      "description" : "STRING",
-      "helpfulCount" : "INT",
-      "customerCountry" : "PII_LOCATION_COUNTRY"
-    } ]
-  }
+  "businessAccount_data" : {
+    "telephone" : {
+      "number" : "PII_PHONE_NUMBER",
+      "http_status" : 1052,
+      "telephone" : "STRING",
+      "countryCode" : "STRING"
+    },
+    "v_website" : "URL",
+    "mail" : "PII_EMAIL",
+    "primaryContact_data" : {
+      "lastName" : "PII_PERSON_NAME",
+      "has_discount" : true,
+      "firstName" : "PII_PERSON_NAME"
+    },
+    "doingBusinessAs_data" : "STRING",
+    "cell" : {
+      "countryCode" : "STRING",
+      "number" : "PII_PHONE_NUMBER",
+      "mobile" : "STRING"
+    },
+    "name" : "PII_ORGANIZATION_NAME"
+  },
+  "username" : "PII_USERNAME",
+  "uuid" : "STRING",
+  "accountType" : "STRING",
+  "status" : "STRING"
 }

@@ -1,33 +1,31 @@
 {
-  "url_data" : "URL",
-  "v_data" : [ {
-    "id" : "STRING",
-    "v_address" : null,
-    "next_invoice_sequence" : "INT",
-    "email" : "PII_EMAIL",
-    "name_val" : "PII_PERSON_NAME",
-    "shipping_data" : "NULL",
-    "tax_exempt_data" : "STRING",
-    "v_metadata" : null,
-    "priority_level" : 989,
-    "test_clock" : "NULL",
-    "description" : "STRING",
-    "invoice_prefix" : "STRING",
-    "preferred_locales" : "ARRAY",
-    "currency" : "STRING",
-    "v_created" : "DATETIME_EPOCH",
-    "v_invoice_settings" : {
-      "rendering_options" : "NULL",
-      "stock_quantity" : 2621,
-      "footer" : "STRING",
-      "custom_fields" : "NULL",
-      "default_payment_method" : "STRING"
+  "claimType" : "STRING",
+  "estimatedLoss" : null,
+  "policyHolder" : {
+    "address_data" : {
+      "state" : "STRING",
+      "country_data" : "PII_LOCATION_COUNTRY",
+      "city" : "PII_LOCATION_CITY",
+      "v_street" : "PII_ADDRESS_LINE",
+      "zip_data" : "STRING"
     },
+    "priority_level" : 4735,
+    "firstName" : "PII_PERSON_FIRST_NAME",
     "phone" : "PII_PHONE_NUMBER",
-    "v_object" : "STRING",
-    "balance_data" : "INT",
-    "delinquent" : "BOOLEAN"
-  } ],
-  "object" : "STRING",
-  "v_has_more" : "BOOLEAN"
+    "primary_email" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "claimId" : "STRING",
+  "currency_data" : "STRING",
+  "policyNumber" : "STRING",
+  "status" : "STRING",
+  "description" : "STRING",
+  "reportedDate_data" : "DATE",
+  "adjuster" : {
+    "discount_rate" : 95.33,
+    "recordId" : "NULL",
+    "fullName" : "PII_PERSON_NAME",
+    "mail" : "PII_EMAIL"
+  }
 }

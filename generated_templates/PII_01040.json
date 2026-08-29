@@ -1,16 +1,23 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "v_country" : "STRING",
-      "last4" : "STRING",
-      "name_val" : "PII_PERSON_NAME",
-      "v_currency" : "STRING",
-      "account_type" : "STRING",
-      "v_account_holder_type" : "STRING",
-      "routing_number" : "STRING",
-      "customer" : "STRING",
-      "fullName" : "STRING",
-      "metadata" : "OBJECT"
-    }
-  }
+  "bookingRef" : "STRING",
+  "v_issuedAt" : "DATETIME",
+  "totalFare" : {
+    "currency" : "STRING",
+    "amount" : "DECIMAL",
+    "cache_hit" : true
+  },
+  "status_data" : "STRING",
+  "v_passenger" : {
+    "passportNumber" : "PII_NATIONAL_ID",
+    "v_frequentFlyerNumber" : "STRING",
+    "title_data" : "STRING",
+    "nationality" : "PII_LOCATION_COUNTRY",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "dateOfBirth_data" : "PII_DATE_OF_BIRTH",
+    "clientName" : "PII_PERSON_LAST_NAME",
+    "phone" : "PII_PHONE_NUMBER",
+    "email" : "PII_EMAIL",
+    "passportExpiry" : ""
+  },
+  "v_ticketNumber" : "STRING"
 }

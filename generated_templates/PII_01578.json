@@ -1,0 +1,17 @@
+{
+  "description" : "STRING",
+  "name" : "STRING",
+  "members" : [ {
+    "email" : "PII_EMAIL",
+    "role" : "STRING",
+    "name" : "PII_PERSON_NAME",
+    "joinedAt" : "DATETIME",
+    "cache_hit" : false,
+    "userId" : "STRING"
+  } ],
+  "createdAt_data" : "DATETIME",
+  "teamId" : "STRING",
+  "has_discount" : false,
+  "updatedAt" : "DATETIME",
+  "ownedServices" : [ null ]
+}

@@ -1,31 +1,32 @@
 {
-  "has_more" : "BOOLEAN",
-  "data" : [ {
-    "v_currency" : "STRING",
-    "address" : "",
-    "description" : "STRING",
-    "balance" : "INT",
-    "primaryKey" : "STRING",
-    "v_livemode" : "BOOLEAN",
-    "delinquent" : "BOOLEAN",
-    "test_clock" : "NULL",
-    "default_source" : "STRING",
-    "created" : "DATETIME_EPOCH",
-    "clientName" : "PII_PERSON_NAME",
-    "phone" : "PII_PHONE_NUMBER",
-    "mail" : "PII_EMAIL",
-    "next_invoice_sequence_data" : "INT",
-    "invoice_prefix_data" : "STRING",
-    "v_tax_exempt" : "STRING",
-    "metadata" : "OBJECT",
-    "shipping" : "NULL",
-    "invoice_settings" : {
-      "custom_fields" : "NULL",
-      "default_payment_method" : "STRING",
-      "rendering_options" : "NULL",
-      "footer" : "STRING"
+  "policyHolder" : {
+    "fullName" : "PII_PERSON_FIRST_NAME",
+    "telephone" : "PII_PHONE_NUMBER",
+    "contactEmail" : "PII_EMAIL",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "v_address" : {
+      "city" : "PII_LOCATION_CITY",
+      "street_data" : "PII_ADDRESS_LINE",
+      "zip" : "STRING",
+      "state_data" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY",
+      "cpu_usage_percent" : 3.63
     }
-  } ],
-  "v_url" : "URL",
-  "requires_update" : true
+  },
+  "claimId" : "",
+  "adjuster" : {
+    "primary_email" : "PII_EMAIL",
+    "name" : "PII_PERSON_NAME",
+    "discount_rate" : 64.36
+  },
+  "currency" : "STRING",
+  "recordId" : "DATE",
+  "policyNumber" : "STRING",
+  "claimType" : "STRING",
+  "reportedDate" : "DATE",
+  "description_data" : "STRING",
+  "status" : "STRING",
+  "estimatedLoss" : "DECIMAL",
+  "price" : 7409.86
 }

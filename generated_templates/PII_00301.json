@@ -1,9 +1,19 @@
 {
-  "data" : {
-    "fetchResource" : {
-      "emailAddressStatus" : [ "STRING" ],
-      "temperature_c" : 8.79,
-      "mail" : "PII_EMAIL"
-    }
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "fingerprint" : "NULL",
+    "metadata" : "OBJECT",
+    "account_type" : "STRING",
+    "status" : "STRING",
+    "last4" : "STRING",
+    "routing_number" : "STRING",
+    "id" : "STRING",
+    "fullName" : "PII_PERSON_NAME",
+    "country_data" : "STRING",
+    "account_holder_type" : "STRING",
+    "object" : "STRING"
   }
 }

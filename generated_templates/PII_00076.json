@@ -1,21 +1,5 @@
 {
-  "conversion_rate" : 501.24,
-  "content" : [ {
-    "customerCity" : "PII_LOCATION_CITY",
-    "articleModelId" : "STRING",
-    "language" : "STRING",
-    "customerCountry" : "PII_LOCATION_COUNTRY",
-    "title_data" : "PII_COMPANY_NAME",
-    "primaryKey" : "STRING",
-    "identifier" : "STRING",
-    "rating" : "INT",
-    "articleSizeRatings_data" : {
-      "OVERALL" : "INT",
-      "SHOE_WIDTH" : "INT",
-      "auto_renew" : true
-    },
-    "created" : "DATETIME",
-    "unhelpfulCount" : "INT",
-    "v_recommend" : "BOOLEAN"
-  } ]
+  "emailAddressStatus" : [ "STRING" ],
+  "emailAddress" : "PII_EMAIL",
+  "is_active" : false
 }

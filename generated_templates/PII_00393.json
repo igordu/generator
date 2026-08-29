@@ -1,4 +1,22 @@
 {
-  "primary_email" : "PII_EMAIL",
-  "emailAddressStatus" : [ "NULL" ]
+  "num_segments" : "NULL",
+  "messaging_service_sid" : "STRING",
+  "error_message" : "NULL",
+  "date_updated" : "DATETIME",
+  "date_created" : "DATETIME",
+  "error_code" : "NULL",
+  "subresource_uris" : {
+    "is_active" : false
+  },
+  "to" : "PII_PHONE_NUMBER",
+  "direction" : "STRING",
+  "from" : "PII_PHONE_NUMBER",
+  "sid" : "STRING",
+  "api_version" : "STRING",
+  "date_sent_data" : "DATETIME",
+  "status_data" : "STRING",
+  "price" : "NULL",
+  "body" : "STRING",
+  "uri" : "URL",
+  "num_media" : "STRING"
 }

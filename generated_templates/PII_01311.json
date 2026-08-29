@@ -1,13 +1,26 @@
 {
-  "v_tree" : {
-    "temperature_c" : 874.87,
-    "sha" : "STRING",
-    "v_url" : "URL"
+  "transferId" : "STRING",
+  "sender" : {
+    "name" : "PII_PERSON_NAME",
+    "userName" : "PII_COMPANY_NAME",
+    "auto_renew" : false,
+    "iban" : "PII_IBAN"
   },
-  "active_data" : "BOOLEAN",
-  "user_info" : {
-    "fullName" : "PII_COMPANY_NAME",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "family-name-male" : "PII_LAST_NAME_MALE"
-  }
+  "reference" : "STRING",
+  "amount" : {
+    "value" : "DECIMAL",
+    "v_currency" : "STRING",
+    "page_index" : 245
+  },
+  "v_recipient" : {
+    "uuid" : "STRING",
+    "iban" : "PII_IBAN",
+    "name" : "PII_PERSON_NAME",
+    "bankName" : "PII_COMPANY_NAME"
+  },
+  "initiatedAt_data" : "DATETIME",
+  "status" : "STRING",
+  "chargesBearer" : "STRING",
+  "completedAt" : "DATETIME",
+  "priority_level" : 3920
 }

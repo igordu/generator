@@ -1,4 +1,38 @@
 {
-  "system_ping_ms" : 4692,
-  "emailAddress" : "PII_EMAIL"
+  "completedAt" : "DATETIME",
+  "applicant" : {
+    "email" : "PII_EMAIL",
+    "v_dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "phone" : "PII_PHONE_NUMBER",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "nationality" : "PII_LOCATION_COUNTRY"
+  },
+  "status" : "",
+  "reviewedBy" : "PII_EMAIL",
+  "document" : {
+    "expiryDate" : "DATE",
+    "number" : "PII_NATIONAL_ID",
+    "firstName" : "PII_PERSON_FIRST_NAME",
+    "lastName" : "PII_PERSON_LAST_NAME",
+    "issuingCountry" : "PII_LOCATION_COUNTRY",
+    "type" : "STRING",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH"
+  },
+  "verificationId" : "STRING",
+  "v_createdAt" : "DATETIME",
+  "checks" : [ {
+    "result" : "STRING",
+    "checkType" : "",
+    "reason" : "STRING",
+    "conversion_rate" : 3.87
+  } ],
+  "address_data" : {
+    "postalCode" : "STRING",
+    "temperature_c" : -9.05,
+    "v_country" : "PII_LOCATION_COUNTRY",
+    "city_data" : "PII_LOCATION_CITY",
+    "street" : "PII_ADDRESS_LINE"
+  },
+  "workflowId" : "STRING"
 }

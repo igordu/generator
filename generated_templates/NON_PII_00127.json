@@ -1,19 +1,37 @@
 {
-  "price" : 33.89,
-  "v_shopUrl" : "URL",
-  "media" : {
-    "images" : [ {
-      "largeHdUrl_data" : "URL",
-      "v_orderNumber" : "INT",
-      "mediumHdUrl" : "URL",
-      "type_data" : "STRING",
-      "smallHdUrl" : "URL",
-      "auto_renew" : false,
-      "smallUrl" : "URL",
-      "thumbnailHdUrl" : "URL"
-    } ],
-    "auto_renew" : true
+  "status" : "STRING",
+  "productId" : "STRING",
+  "category" : "STRING",
+  "attributes" : {
+    "weight_g_data" : "INT",
+    "v_batteryLifeHours" : "NULL",
+    "is_deleted" : false,
+    "foldable" : "BOOLEAN",
+    "connectivity" : "STRING",
+    "color" : "STRING",
+    "noiseCancel" : "BOOLEAN"
   },
-  "modelId" : "STRING",
-  "id" : "STRING"
+  "images_data" : [ {
+    "v_isPrimary" : "BOOLEAN",
+    "url" : "URL",
+    "priority_level" : 744
+  } ],
+  "inventory" : {
+    "backorderAllowed" : "BOOLEAN",
+    "reservedStock" : "INT",
+    "availableStock" : "INT",
+    "totalStock" : "INT",
+    "temperature_c" : 4.76
+  },
+  "brand" : "STRING",
+  "createdAt" : "DATETIME",
+  "sku" : "STRING",
+  "updatedAt" : "DATETIME",
+  "name" : "STRING",
+  "pricing" : {
+    "basePrice" : "DECIMAL",
+    "currency" : "STRING",
+    "salePrice" : "DECIMAL",
+    "taxClass_data" : "STRING"
+  }
 }

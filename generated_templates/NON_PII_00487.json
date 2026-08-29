@@ -1,5 +1,24 @@
 {
-  "clientToken" : "STRING",
-  "fullName" : "STRING",
-  "conversion_rate" : 312.2
+  "summary" : {
+    "v_low" : "INT",
+    "medium" : "INT",
+    "has_discount" : false,
+    "critical" : "INT"
+  },
+  "v_findings" : [ {
+    "description" : "STRING",
+    "cvss" : "DECIMAL",
+    "v_type" : "NULL",
+    "v_parameter" : "STRING",
+    "v_endpoint" : "STRING",
+    "cwe" : "STRING",
+    "id" : "STRING",
+    "remediation" : "STRING"
+  } ],
+  "scanId" : "STRING",
+  "conversion_rate" : 8.7,
+  "completedAt" : "DATETIME",
+  "scanType" : "STRING",
+  "v_status" : "STRING",
+  "target" : "URL"
 }

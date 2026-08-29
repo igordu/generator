@@ -1,27 +1,37 @@
 {
-  "transactions" : {
-    "http_status" : 4365,
-    "booked" : [ {
-      "v_creditorAccount" : {
-        "iban" : "PII_IBAN"
+  "data" : {
+    "fetchResource" : {
+      "v_profile" : {
+        "zipCode" : "STRING",
+        "emailAddress" : "PII_EMAIL",
+        "mobilePhone" : "PII_PHONE_NUMBER",
+        "title" : "STRING",
+        "secondEmail" : "PII_EMAIL",
+        "state" : "STRING",
+        "organization_data" : "PII_COMPANY_NAME",
+        "countryCode" : "PII_LOCATION_COUNTRY",
+        "streetAddress" : "PII_ADDRESS_LINE",
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "clientName" : "PII_PERSON_NAME",
+        "login" : "PII_EMAIL",
+        "city_data" : "PII_LOCATION_CITY",
+        "employeeNumber" : "STRING",
+        "lastName" : "PII_PERSON_LAST_NAME"
       },
-      "bookingDate_data" : "DATE",
-      "creditorName" : "PII_PERSON_NAME",
-      "amount" : {
-        "v_currency" : "STRING",
-        "temperature_c" : 644.1
+      "activated" : "DATETIME",
+      "credentials_data" : {
+        "primaryKey" : {
+          "type" : "STRING",
+          "name" : "STRING"
+        },
+        "temperature_c" : 40.86
       },
-      "uuid" : "STRING",
-      "v_bankTransactionCode" : {
-        "family" : "STRING",
-        "v_domain" : "STRING",
-        "subFamily" : "STRING",
-        "discount_rate" : 326.73
-      },
-      "valueDate" : "DATE",
-      "debtorName" : "STRING",
-      "remittanceInformationUnstructured_data" : "PII_ORGANIZATION_NAME"
-    } ]
-  },
-  "page_index" : 1461
+      "v_passwordChanged" : "DATETIME",
+      "id" : "STRING",
+      "v_lastUpdated" : "DATETIME",
+      "lastLogin" : "DATETIME",
+      "status" : "STRING",
+      "created_data" : "DATETIME"
+    }
+  }
 }

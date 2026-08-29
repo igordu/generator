@@ -1,23 +1,31 @@
-[ {
-  "avatarUrls_data" : {
-    "32x32" : "URL",
-    "24x24" : "URL"
+{
+  "stats" : {
+    "bytesTransferred" : "INT",
+    "recordsSkipped" : "INT",
+    "recordsRead" : "INT",
+    "recordsWritten" : "INT"
   },
-  "response_time_sec" : 861.91,
-  "v_projectCategory" : {
-    "id" : "STRING",
-    "description" : "STRING",
-    "userName" : "STRING",
-    "self" : ""
+  "completedAt" : "NULL",
+  "scheduledAt" : "DATETIME",
+  "type" : "STRING",
+  "startedAt" : "DATETIME",
+  "page_index" : 3137,
+  "status" : "STRING",
+  "nextRunAt" : "DATETIME",
+  "recordId" : "STRING",
+  "v_source" : {
+    "type" : "STRING",
+    "item_count" : 2918,
+    "table" : "",
+    "database_data" : "STRING",
+    "host" : "STRING"
   },
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
-  },
-  "self" : "URL",
   "name" : "STRING",
-  "id" : "STRING",
-  "v_simplified" : "BOOLEAN",
-  "key" : "STRING",
-  "style" : "STRING"
-} ]
+  "destination" : {
+    "dataset" : "STRING",
+    "project" : "STRING",
+    "type" : "STRING",
+    "has_discount" : true
+  },
+  "triggeredBy" : "STRING"
+}

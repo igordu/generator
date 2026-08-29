@@ -1,49 +1,30 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "events_url" : "URL",
-    "location" : "PII_LOCATION_CITY",
-    "type_data" : "STRING",
-    "uuid" : "INT",
-    "public_repos_data" : "INT",
-    "twitter_username" : "STRING",
-    "following_data" : "INT",
-    "followers" : "INT",
-    "total_private_repos" : "INT",
-    "disk_usage_data" : "INT",
-    "bio" : "PII_ORGANIZATION_NAME",
-    "node_id" : "STRING",
-    "site_admin" : "BOOLEAN",
-    "url" : "URL",
-    "public_gists" : "INT",
-    "created_at" : "DATETIME",
-    "hireable" : "BOOLEAN",
-    "organizations_url_data" : "URL",
-    "html_url" : "URL",
-    "v_plan" : {
-      "space" : "INT",
-      "private_repos" : "INT",
-      "name" : "STRING"
+  "v_targeting" : {
+    "rules" : [ {
+      "id" : "STRING",
+      "v_clauses" : [ {
+        "values" : [ "STRING" ],
+        "attribute" : "STRING",
+        "op" : "STRING",
+        "discount_rate" : 43.97
+      } ],
+      "description_data" : "STRING",
+      "variation" : "STRING"
+    } ],
+    "v_fallthrough" : {
+      "response_time_sec" : 14.01,
+      "variation_data" : "STRING"
     },
-    "email" : "PII_EMAIL",
-    "v_collaborators" : "INT",
-    "login" : "",
-    "gravatar_id" : "NULL",
-    "company" : "PII_ORGANIZATION_NAME",
-    "private_gists" : "INT",
-    "subscriptions_url" : "URL",
-    "blog" : "URL",
-    "repos_url" : "URL",
-    "two_factor_authentication" : "BOOLEAN",
-    "updated_at" : "DATETIME",
-    "v_starred_url" : "URL",
-    "received_events_url" : "URL",
-    "avatar_url_data" : "URL",
-    "name" : "PII_PERSON_NAME",
-    "following_url" : "URL",
-    "gists_url" : "URL"
-  }
+    "price" : 8605.43
+  },
+  "v_featureFlagKey" : "STRING",
+  "variations" : [ {
+    "id" : "STRING",
+    "value" : "BOOLEAN"
+  } ],
+  "tags" : [ "STRING" ],
+  "createdBy" : "PII_EMAIL",
+  "environment" : "STRING",
+  "projectKey" : "STRING",
+  "enabled" : "BOOLEAN"
 }

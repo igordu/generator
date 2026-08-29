@@ -1,14 +1,21 @@
 {
-  "active" : "BOOLEAN",
-  "price" : 766.82,
-  "tree" : {
-    "url_data" : "URL",
-    "response_time_sec" : 741.92,
-    "sha" : "STRING"
+  "conversion_rate" : 1.28,
+  "createdAt_data" : "DATETIME",
+  "userId" : null,
+  "v_userAgent" : "STRING",
+  "v_ipAddress" : "PII_IP_ADDRESS",
+  "mfaVerified" : "BOOLEAN",
+  "expiresAt" : "DATETIME",
+  "revoked" : "BOOLEAN",
+  "issuedTokens" : {
+    "idToken" : "STRING",
+    "refreshToken" : "STRING"
   },
-  "user_info" : {
-    "userName" : "PII_LAST_NAME_MALE",
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME"
-  }
+  "deviceId" : "STRING",
+  "lastActivityAt_data" : "NULL",
+  "email" : "PII_EMAIL",
+  "primaryKey" : "STRING",
+  "scopes" : [ "STRING" ],
+  "riskScore_data" : "DECIMAL",
+  "v_mfaMethod" : "STRING"
 }

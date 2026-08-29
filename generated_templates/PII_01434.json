@@ -1,0 +1,31 @@
+{
+  "refreshToken_data" : {
+    "rotated" : "BOOLEAN",
+    "jti" : "STRING",
+    "expiresAt" : "DATETIME"
+  },
+  "userId" : "STRING",
+  "scopes" : [ "STRING" ],
+  "issuedAt" : "DATETIME",
+  "grantType" : "STRING",
+  "email" : "PII_EMAIL",
+  "primaryKey" : "STRING",
+  "idToken" : {
+    "v_sub" : "STRING",
+    "phone_number" : "PII_PHONE_NUMBER",
+    "system_ping_ms" : 4231,
+    "email" : "PII_EMAIL",
+    "birthdate" : "PII_DATE_OF_BIRTH",
+    "clientName" : "PII_PERSON_NAME",
+    "address" : {
+      "street_address" : "PII_ADDRESS_LINE",
+      "locality" : "PII_LOCATION_CITY",
+      "region" : "STRING",
+      "country" : "PII_LOCATION_COUNTRY"
+    }
+  },
+  "accessToken" : {
+    "v_type" : "STRING",
+    "expiresAt_data" : "DATETIME"
+  }
+}

@@ -1,27 +1,30 @@
 {
-  "audit_trail" : {
-    "request_context" : {
-      "raw_data" : [ {
-        "requires_update" : false,
-        "v_projectCategory" : {
-          "self" : "URL",
-          "id" : "STRING",
-          "cpu_usage_percent" : 508.97,
-          "description" : "STRING",
-          "name" : "STRING"
-        },
-        "v_key" : "STRING",
-        "self" : "URL",
-        "avatarUrls" : {
-          "48x48" : "URL",
-          "24x24" : "URL",
-          "16x16" : "URL"
-        },
-        "style_data" : "",
-        "name" : "STRING",
-        "simplified" : "BOOLEAN",
-        "primaryKey" : "STRING"
-      } ]
-    }
+  "durationSeconds" : "INT",
+  "scheduledAt" : "DATETIME",
+  "taskId" : "STRING",
+  "startedAt_data" : "DATETIME",
+  "stats" : {
+    "bytesTransferred" : "INT",
+    "recordsWritten" : "INT",
+    "recordsSkipped_data" : "INT",
+    "v_recordsRead" : "INT"
+  },
+  "completedAt" : "DATETIME",
+  "name" : "STRING",
+  "source" : {
+    "table" : "STRING",
+    "database" : "STRING",
+    "host" : "STRING",
+    "conversion_rate" : 7.32,
+    "type_data" : "STRING"
+  },
+  "triggeredBy" : "STRING",
+  "is_active" : true,
+  "status" : "STRING",
+  "destination" : {
+    "dataset" : "STRING",
+    "type" : "STRING",
+    "table" : "STRING",
+    "project" : "STRING"
   }
 }

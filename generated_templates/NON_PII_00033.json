@@ -1,13 +1,10 @@
 {
-  "numberOfUserPositiveRecommendations" : "INT",
-  "is_deleted" : false,
-  "starRatingDistribution" : {
-    "v_2" : "INT",
-    "5" : "INT",
-    "3" : "INT",
-    "4" : "INT"
-  },
-  "averageStarRating" : "INT",
-  "numberOfUserRecommendations" : "INT",
-  "articleModelId" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "id" : "STRING",
+      "v_shopUrl" : "URL",
+      "modelId" : "STRING",
+      "name" : "STRING"
+    }
+  }
 }

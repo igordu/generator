@@ -1,141 +1,21 @@
 {
-  "stock_quantity" : 2847,
-  "description_data" : "STRING",
-  "flowName" : "STRING",
-  "destinationFlowConfigList" : [ {
-    "connectorType_data" : "STRING",
-    "is_active" : false,
-    "apiVersion" : "STRING"
-  } ],
-  "tags" : {
-    "property1" : "STRING",
-    "is_deleted" : false
-  },
-  "clientToken" : "STRING",
-  "triggerConfig" : {
-    "triggerType" : "STRING",
-    "triggerProperties" : {
-      "Scheduled" : {
-        "scheduleExpression" : "STRING",
-        "scheduleOffset" : "INT",
-        "firstExecutionFrom" : "NULL",
-        "v_timezone" : "STRING",
-        "scheduleEndTime" : "DATETIME",
-        "dataPullMode" : "STRING"
-      }
+  "object_data" : "STRING",
+  "has_more" : "BOOLEAN",
+  "data" : [ {
+    "v_model" : "STRING",
+    "error" : "NULL",
+    "finished_at" : "NULL",
+    "result_files" : [ "STRING" ],
+    "id" : "STRING",
+    "validation_file" : "NULL",
+    "created_at" : "DATETIME_EPOCH",
+    "hyperparameters" : {
+      "batch_size" : "INT",
+      "n_epochs" : "INT",
+      "learning_rate_multiplier" : null
     },
-    "priority_level" : 3613
-  },
-  "metadataCatalogConfig" : {
-    "glueDataCatalog_data" : {
-      "name_val" : "STRING",
-      "roleArn" : "STRING",
-      "tablePrefix_data" : "STRING"
-    }
-  },
-  "kmsArn" : "STRING",
-  "tasks" : [ {
-    "connectorOperator" : {
-      "v_GoogleAnalytics" : "STRING",
-      "Marketo" : "STRING",
-      "Slack" : "STRING",
-      "SAPOData" : "STRING",
-      "v_Amplitude" : "STRING",
-      "v_Salesforce" : "STRING",
-      "Zendesk" : "STRING",
-      "Pardot" : "",
-      "Datadog" : "STRING",
-      "Dynatrace_data" : "STRING",
-      "CustomConnector" : "STRING",
-      "InforNexus" : "STRING",
-      "S3" : "STRING",
-      "ServiceNow" : "STRING",
-      "v_Singular" : "STRING",
-      "Trendmicro" : "STRING",
-      "Veeva" : "STRING"
-    },
-    "taskType_data" : "STRING",
-    "taskProperties" : { },
-    "destinationField_data" : "STRING",
-    "sourceFields" : "ARRAY"
-  } ],
-  "sourceFlowConfig" : {
-    "incrementalPullConfig" : {
-      "datetimeTypeFieldName" : "STRING"
-    },
-    "requires_update" : true,
-    "apiVersion" : "STRING",
-    "connectorType" : "STRING",
-    "sourceConnectorProperties" : {
-      "retry_attempts" : 3017,
-      "InforNexus" : {
-        "object" : "STRING",
-        "priority_level" : 289
-      },
-      "GoogleAnalytics" : {
-        "requires_update" : true,
-        "object" : "STRING"
-      },
-      "Salesforce" : {
-        "dataTransferApi" : "STRING",
-        "enableDynamicFieldUpdate" : "BOOLEAN",
-        "v_includeDeletedRecords" : "BOOLEAN"
-      },
-      "v_Amplitude" : {
-        "requires_update" : true,
-        "object" : "STRING"
-      },
-      "CustomConnector_data" : {
-        "entityName" : "STRING",
-        "item_count" : 1992,
-        "customProperties" : {
-          "v_property2" : null
-        }
-      },
-      "S3" : {
-        "bucketName" : "STRING",
-        "bucketPrefix" : "STRING",
-        "v_s3InputFormatConfig" : {
-          "discount_rate" : 562.93
-        }
-      },
-      "v_ServiceNow" : {
-        "object" : "STRING"
-      },
-      "Trendmicro" : {
-        "conversion_rate" : 553.2,
-        "object_data" : "STRING"
-      },
-      "Slack" : { },
-      "v_SAPOData" : {
-        "objectPath_data" : "STRING"
-      },
-      "Singular" : {
-        "object" : "STRING"
-      },
-      "Marketo" : {
-        "price" : 829.87,
-        "v_object" : "STRING"
-      },
-      "Datadog" : {
-        "v_object" : "STRING"
-      },
-      "Zendesk" : {
-        "v_object" : "STRING"
-      },
-      "Pardot" : {
-        "object_data" : "STRING"
-      },
-      "Veeva" : {
-        "includeAllVersions" : "BOOLEAN",
-        "documentType" : "STRING",
-        "object" : "STRING",
-        "includeRenditions_data" : "BOOLEAN"
-      },
-      "Dynatrace" : {
-        "object" : "STRING"
-      }
-    },
-    "connectorProfileName" : "STRING"
-  }
+    "fine_tuned_model" : "STRING",
+    "training_file" : "STRING",
+    "response_time_sec" : 7.37
+  } ]
 }

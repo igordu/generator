@@ -1,45 +1,19 @@
-[ {
-  "insight" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
+{
+  "model" : "STRING",
+  "createdAt" : "DATETIME",
+  "auto_renew" : true,
+  "metadata_data" : {
+    "sessionId" : "NULL"
   },
-  "avatarUrls" : {
-    "48x48_data" : "URL",
-    "priority_level" : 2772,
-    "32x32" : "URL"
+  "usage" : {
+    "outputTokens" : "INT",
+    "inputTokens" : "INT",
+    "temperature_c" : -8.32
   },
-  "self" : "URL",
-  "projectCategory_data" : {
-    "v_description" : "STRING",
-    "self" : "URL",
-    "recordId" : null,
-    "name" : "STRING"
-  },
-  "primaryKey" : "STRING",
-  "style" : "STRING",
-  "name" : "STRING",
-  "key" : "STRING"
-}, {
-  "simplified_data" : "BOOLEAN",
-  "self" : "URL",
-  "style" : "STRING",
-  "v_insight" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : "DATETIME"
-  },
-  "projectCategory" : {
-    "self" : "URL",
-    "clientName" : "STRING",
-    "id" : null,
-    "description" : "STRING"
-  },
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "price" : 535.33,
-    "48x48" : "URL",
-    "16x16" : "URL",
-    "24x24_data" : ""
-  },
-  "v_key" : "STRING",
-  "id" : "NULL"
-} ]
+  "chatId" : "STRING",
+  "messages" : [ {
+    "role_data" : "STRING",
+    "content" : "STRING",
+    "timestamp" : "DATETIME"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "alertId": "STRING",
+  "rule": "STRING",
+  "severity": "STRING",
+  "triggeredAt": "DATETIME",
+  "resolvedAt": "NULL",
+  "status": "STRING",
+  "labels": {
+    "service": "STRING",
+    "environment": "STRING",
+    "region": "STRING",
+    "team": "STRING"
+  },
+  "annotations": {
+    "summary": "STRING",
+    "description": "STRING",
+    "runbook_url": "URL"
+  },
+  "metric": {
+    "name": "STRING",
+    "value": "DECIMAL",
+    "threshold": "DECIMAL",
+    "window": "STRING"
+  },
+  "notified_channels": ["STRING"]
+}

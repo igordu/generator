@@ -1,15 +1,15 @@
 {
-  "numberOfUserRecommendations_data" : "INT",
   "averageStarRating_data" : "INT",
-  "articleModelId" : "STRING",
-  "numberOfUserPositiveRecommendations_data" : "INT",
-  "system_ping_ms" : 1577,
-  "starRatingDistribution_data" : {
-    "4" : "INT",
-    "2" : "INT",
-    "5" : "INT",
+  "numberOfUserRecommendations" : "INT",
+  "v_starRatingDistribution" : {
     "3" : "INT",
+    "price" : 1796.64,
+    "5" : "INT",
     "1" : "INT",
-    "is_active" : true
-  }
+    "2" : "INT",
+    "4" : "INT"
+  },
+  "articleModelId" : "STRING",
+  "numberOfUserReviews" : "INT",
+  "v_numberOfUserPositiveRecommendations" : "INT"
 }

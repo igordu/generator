@@ -1,43 +1,62 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "DateTimeUTC_data" : "DATETIME",
-    "ProviderName" : "STRING",
-    "v_Employees" : [ {
-      "Status" : "STRING",
-      "ExternalLink" : {
-        "Description" : "STRING",
-        "Url" : "URL"
-      },
-      "FirstName" : "PII_PERSON_FIRST_NAME",
-      "LastName" : "PII_PERSON_LAST_NAME",
-      "identifier" : "STRING",
-      "UpdatedDateUTC" : "DATETIME"
-    }, {
-      "clientName" : "PII_PERSON_LAST_NAME",
-      "fullName" : "PII_PERSON_FIRST_NAME",
-      "v_Status" : "STRING",
-      "EmployeeID" : "STRING",
-      "ExternalLink" : {
-        "Url" : "URL",
-        "Description" : "STRING",
-        "discount_rate" : 617.16
-      },
-      "UpdatedDateUTC" : ""
-    }, {
-      "name_val" : "PII_PERSON_LAST_NAME",
-      "response_time_sec" : 39.61,
-      "EmployeeID" : "STRING",
-      "v_Status" : "STRING",
-      "UpdatedDateUTC" : "DATETIME",
-      "ExternalLink" : {
-        "cache_hit" : true,
-        "Description" : "STRING",
-        "v_Url" : "URL"
-      },
-      "FirstName" : "PII_PERSON_FIRST_NAME"
-    } ],
-    "Id" : "STRING"
+  "system_state" : {
+    "request_context" : {
+      "raw_data" : {
+        "v_kind" : "STRING",
+        "apiVersion" : "STRING",
+        "metadata_data" : {
+          "uid" : "STRING",
+          "labels" : {
+            "app" : "STRING",
+            "v_version" : "STRING",
+            "environment" : "STRING"
+          },
+          "clientName" : "STRING",
+          "resourceVersion" : "",
+          "annotations_data" : {
+            "v_owner" : "STRING",
+            "contact_data" : "PII_EMAIL",
+            "stock_quantity" : 2103
+          },
+          "has_discount" : false,
+          "creationTimestamp" : "DATETIME"
+        },
+        "priority_level" : 2614,
+        "status" : {
+          "cpu_usage_percent" : 43.94,
+          "hostIP" : "STRING",
+          "v_startTime" : "DATETIME",
+          "phase" : "STRING",
+          "podIP" : "STRING"
+        },
+        "spec" : {
+          "nodeName" : "STRING",
+          "serviceAccountName" : "STRING",
+          "containers" : [ {
+            "env_data" : [ {
+              "value_data" : "PII_EMAIL",
+              "name" : "STRING"
+            } ],
+            "ports" : [ {
+              "containerPort" : "INT",
+              "retry_attempts" : 1808,
+              "protocol" : null
+            } ],
+            "image_data" : "STRING",
+            "fullName" : "STRING",
+            "resources" : {
+              "limits" : {
+                "cpu" : null
+              },
+              "requests" : {
+                "memory" : "STRING",
+                "price" : 3452.78,
+                "cpu_data" : "STRING"
+              }
+            }
+          } ]
+        }
+      }
+    }
   }
 }

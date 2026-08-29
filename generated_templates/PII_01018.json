@@ -1,15 +1,45 @@
 {
-  "fingerprint" : "STRING",
-  "metadata" : "OBJECT",
-  "clientName" : "PII_PERSON_NAME",
-  "routing_number_data" : "STRING",
-  "country" : null,
-  "id" : "STRING",
-  "currency" : "STRING",
-  "bank_name" : "STRING",
-  "v_object" : "STRING",
-  "customer_data" : "STRING",
-  "status_data" : "STRING",
-  "account_holder_type" : "STRING",
-  "last4" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "interviews" : [ {
+        "requires_update" : false,
+        "type" : "STRING",
+        "round" : "INT",
+        "interviewer_data" : {
+          "fullName" : "PII_PERSON_NAME",
+          "primary_email" : "PII_EMAIL"
+        },
+        "scheduledAt" : "DATETIME"
+      } ],
+      "updatedAt_data" : "DATETIME",
+      "status" : "STRING",
+      "source" : "STRING",
+      "primaryKey" : "STRING",
+      "position_data" : {
+        "price" : 5918.89,
+        "title" : "STRING",
+        "uuid" : "STRING",
+        "location" : "PII_LOCATION_CITY"
+      },
+      "v_appliedAt" : "DATETIME",
+      "candidate" : {
+        "lastName" : "PII_PERSON_LAST_NAME",
+        "resumeUrl" : "URL",
+        "dateOfBirth" : "PII_DATE_OF_BIRTH",
+        "email" : "PII_EMAIL",
+        "linkedIn" : "URL",
+        "firstName" : "PII_PERSON_FIRST_NAME",
+        "address_data" : {
+          "priority_level" : 3780,
+          "city_data" : "PII_LOCATION_CITY",
+          "country" : "PII_LOCATION_COUNTRY",
+          "postalCode" : "STRING",
+          "v_street" : "PII_ADDRESS_LINE"
+        },
+        "phone" : "PII_PHONE_NUMBER",
+        "discount_rate" : 81.56
+      },
+      "page_index" : 610
+    }
+  }
 }

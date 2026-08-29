@@ -1,5 +1,31 @@
 {
-  "stock_quantity" : 823,
-  "emailAddress" : "PII_EMAIL",
-  "primary_email" : [ "STRING" ]
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "messaging_service_sid" : "STRING",
+    "num_media" : "STRING",
+    "sid" : "STRING",
+    "date_updated" : "DATETIME",
+    "uri" : "URL",
+    "error_message" : "NULL",
+    "date_sent_data" : "DATETIME",
+    "v_price_unit" : "NULL",
+    "to" : "PII_PHONE_NUMBER",
+    "from" : "PII_PHONE_NUMBER",
+    "price" : "NULL",
+    "status" : "STRING",
+    "date_created" : "DATETIME",
+    "error_code" : "NULL",
+    "api_version" : "NULL",
+    "v_num_segments" : "STRING",
+    "body" : "STRING",
+    "v_direction" : "STRING",
+    "system_ping_ms" : 123,
+    "account_sid" : "STRING",
+    "subresource_uris" : {
+      "media_data" : "URL"
+    }
+  }
 }

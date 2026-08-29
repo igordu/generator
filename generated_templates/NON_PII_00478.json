@@ -1,5 +1,19 @@
 {
-  "discount_rate" : 788.02,
-  "clientToken_data" : "STRING",
-  "flowName" : "STRING"
+  "body" : {
+    "orderId" : "STRING",
+    "errorCode" : "STRING"
+  },
+  "uuid" : "STRING",
+  "discount_rate" : 58.29,
+  "originalQueue" : "STRING",
+  "queueName" : "STRING",
+  "receiveCount" : "INT",
+  "attributes" : {
+    "temperature_c" : 5.4,
+    "retryPolicy" : "STRING",
+    "contentType" : "STRING"
+  },
+  "lastReceivedAt" : "DATETIME",
+  "firstReceivedAt" : "NULL",
+  "movedToDlqAt" : "DATETIME"
 }

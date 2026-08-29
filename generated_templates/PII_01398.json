@@ -1,0 +1,27 @@
+{
+  "likes" : "INT",
+  "lastModifiedBy" : {
+    "displayName" : "PII_PERSON_NAME",
+    "auto_renew" : true,
+    "email" : "PII_EMAIL"
+  },
+  "ancestors" : [ {
+    "title" : null,
+    "id" : "STRING"
+  } ],
+  "v_spaceKey" : "STRING",
+  "discount_rate" : 22.37,
+  "v_createdAt" : "DATETIME",
+  "labels_data" : [ "STRING" ],
+  "v_title" : "STRING",
+  "updatedAt" : "DATETIME",
+  "pageId" : "STRING",
+  "author_data" : {
+    "mail" : "PII_EMAIL",
+    "recordId" : "STRING",
+    "displayName" : "PII_PERSON_NAME",
+    "cache_hit" : true
+  },
+  "v_version" : "INT",
+  "viewCount" : "INT"
+}

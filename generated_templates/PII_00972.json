@@ -1,31 +1,24 @@
 {
-  "page_index" : 2422,
-  "has_more" : "BOOLEAN",
-  "object_data" : "STRING",
-  "data" : [ {
-    "phone" : "PII_PHONE_NUMBER",
-    "metadata" : "OBJECT",
-    "shipping" : "NULL",
-    "v_default_source" : "STRING",
-    "name" : "PII_PERSON_NAME",
-    "id" : "STRING",
-    "balance" : "INT",
-    "invoice_prefix" : "STRING",
-    "object" : "STRING",
-    "test_clock" : "NULL",
-    "description" : "STRING",
-    "delinquent" : "BOOLEAN",
-    "v_tax_exempt" : "STRING",
-    "contactEmail" : "PII_EMAIL",
-    "invoice_settings" : {
-      "footer" : "STRING",
-      "rendering_options_data" : "NULL",
-      "default_payment_method" : "STRING"
-    },
-    "created" : "DATETIME_EPOCH",
-    "currency_data" : "STRING",
-    "address" : "NULL",
-    "preferred_locales" : "ARRAY"
-  } ],
-  "v_url" : "URL"
+  "actor_data" : {
+    "username" : "PII_USERNAME",
+    "user_id" : "STRING",
+    "mail" : "PII_EMAIL",
+    "ip_address" : "PII_IP_ADDRESS",
+    "discount_rate" : 68.17,
+    "user_agent_data" : "STRING"
+  },
+  "service" : "STRING",
+  "audit_id" : "STRING",
+  "identifier" : "STRING",
+  "outcome_data" : "STRING",
+  "version" : "STRING",
+  "v_event_type" : "STRING",
+  "resource" : {
+    "uuid" : null,
+    "v_type" : "STRING",
+    "name" : "STRING"
+  },
+  "datacenter" : "STRING",
+  "severity" : "STRING",
+  "v_mfa_used" : "BOOLEAN"
 }

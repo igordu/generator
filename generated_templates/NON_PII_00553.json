@@ -1,36 +1,28 @@
-[ {
-  "id" : "STRING",
-  "insight_data" : {
-    "lastIssueUpdateTime" : "DATETIME",
-    "totalIssueCount" : "INT"
+{
+  "status" : "STRING",
+  "completedAt" : "DATETIME",
+  "v_durationSeconds" : "INT",
+  "type" : "STRING",
+  "startedAt" : "DATETIME",
+  "source_data" : {
+    "table" : "STRING",
+    "type_data" : "STRING",
+    "database" : "STRING",
+    "page_index" : 427
   },
-  "style_data" : "STRING",
-  "fullName" : "STRING",
-  "self" : "URL",
-  "v_key" : "STRING",
-  "projectCategory" : {
-    "id" : "",
-    "self_data" : "URL",
-    "description" : "STRING",
-    "name" : "STRING"
-  }
-}, {
-  "has_discount" : true,
-  "name" : "STRING",
-  "key" : "STRING",
-  "self_data" : "URL",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "v_lastIssueUpdateTime" : "DATETIME"
+  "destination_data" : {
+    "v_project" : "STRING",
+    "type" : "STRING",
+    "table" : "STRING",
+    "dataset" : "STRING"
   },
-  "style" : "STRING",
-  "projectCategory" : {
-    "description" : "STRING",
-    "discount_rate" : 444.52,
-    "clientName" : "STRING",
-    "v_self" : "URL",
-    "id" : "STRING"
+  "nextRunAt" : "DATETIME",
+  "taskId" : "STRING",
+  "system_ping_ms" : 4339,
+  "stats" : {
+    "recordsRead" : "INT",
+    "v_bytesTransferred" : "INT",
+    "recordsSkipped" : "INT"
   },
-  "simplified_data" : "BOOLEAN",
-  "id" : "STRING"
-} ]
+  "name_val" : "STRING"
+}

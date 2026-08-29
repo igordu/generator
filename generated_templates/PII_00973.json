@@ -1,26 +1,27 @@
 {
-  "system_ping_ms" : 1138,
-  "data" : [ {
-    "phone" : "PII_PHONE_NUMBER",
-    "invoice_prefix" : "STRING",
-    "currency" : "STRING",
-    "object" : "STRING",
-    "preferred_locales" : "ARRAY",
-    "uuid" : "STRING",
-    "tax_exempt" : "STRING",
-    "is_deleted" : false,
-    "email" : "PII_EMAIL",
-    "test_clock" : "NULL",
-    "shipping" : "NULL",
-    "balance" : "INT",
-    "default_source" : "STRING",
-    "delinquent" : "BOOLEAN",
-    "address" : null,
-    "metadata_data" : "OBJECT",
-    "livemode_data" : "BOOLEAN",
-    "name" : "PII_PERSON_NAME"
-  } ],
-  "v_url" : "URL",
-  "v_has_more" : "BOOLEAN",
-  "object_data" : "STRING"
+  "data" : {
+    "fetchResource" : {
+      "mfa_used" : "BOOLEAN",
+      "version" : "STRING",
+      "event_type" : "STRING",
+      "severity" : "STRING",
+      "actor_data" : {
+        "ip_address" : "PII_IP_ADDRESS",
+        "primaryKey" : "STRING",
+        "name_val" : "PII_USERNAME",
+        "email" : "PII_EMAIL",
+        "v_user_agent" : "STRING"
+      },
+      "timestamp_data" : "DATETIME",
+      "outcome" : "STRING",
+      "session_id" : "STRING",
+      "datacenter" : "STRING",
+      "resource_data" : {
+        "name" : "STRING",
+        "type_data" : "STRING",
+        "id" : "STRING"
+      },
+      "service" : "STRING"
+    }
+  }
 }

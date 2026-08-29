@@ -1,38 +1,34 @@
-[ {
-  "v_insight" : {
-    "lastIssueUpdateTime" : "DATETIME"
+{
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
   },
-  "style_data" : "STRING",
-  "projectCategory" : {
-    "self" : "URL",
-    "id" : "STRING"
-  },
-  "v_self" : "URL",
-  "id" : "STRING",
-  "name" : "STRING",
-  "key" : "STRING",
-  "simplified" : "NULL"
-}, {
-  "clientName" : "STRING",
-  "style" : "STRING",
-  "insight_data" : {
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime_data" : "DATETIME"
-  },
-  "key_data" : "STRING",
-  "id" : "STRING",
-  "v_avatarUrls" : {
-    "32x32" : "URL",
-    "16x16" : "NULL",
-    "24x24_data" : "URL",
-    "48x48" : "URL"
-  },
-  "simplified" : null,
-  "projectCategory" : {
-    "v_description" : "STRING",
-    "http_status" : 3317,
-    "name" : "STRING",
-    "self" : "URL"
-  },
-  "self_data" : "URL"
-} ]
+  "results" : {
+    "jvmMemory" : {
+      "heapUsedMb" : "INT",
+      "heapMaxMb" : "INT",
+      "gcPauseMs" : "INT"
+    },
+    "uptimeSeconds" : "NULL",
+    "nodeId" : "STRING",
+    "clusterId" : "STRING",
+    "version" : "STRING",
+    "topics" : [ {
+      "partitions" : "INT",
+      "v_replicationFactor" : null,
+      "name" : "STRING"
+    } ],
+    "metrics" : {
+      "bytesOutPerSec" : "INT",
+      "underReplicatedPartitions_data" : "INT",
+      "activeControllerCount" : "INT",
+      "bytesInPerSec_data" : "INT",
+      "offlinePartitionsCount" : "INT",
+      "messagesInPerSec" : "INT",
+      "identifier" : "DECIMAL"
+    },
+    "role" : "STRING",
+    "priority_level" : 2141,
+    "v_status" : "STRING"
+  }
+}

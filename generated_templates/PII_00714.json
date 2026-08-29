@@ -2,38 +2,36 @@
   "status" : "success",
   "code" : 200,
   "data" : {
-    "v_page_number" : "INT",
-    "total_records" : "INT",
-    "page_count" : "INT",
-    "registrants" : [ {
-      "id" : "STRING",
-      "join_url" : "URL",
-      "city" : "PII_LOCATION_CITY",
-      "zip" : "NULL",
-      "address" : "PII_ADDRESS_LINE",
-      "create_time" : "DATETIME",
-      "role_in_purchase_process_data" : "STRING",
-      "email" : "PII_EMAIL",
-      "job_title" : "STRING",
-      "no_of_employees" : "STRING",
-      "purchasing_time_frame" : "STRING",
-      "country" : "PII_LOCATION_COUNTRY",
-      "org" : "PII_ORGANIZATION_NAME",
-      "custom_questions" : [ {
-        "page_index" : 1270,
-        "v_value" : "STRING",
-        "title" : "STRING"
-      }, {
-        "title" : "STRING"
-      } ],
-      "first_name" : "PII_PERSON_FIRST_NAME",
-      "contactNumber" : "PII_PHONE_NUMBER",
-      "last_name" : "PII_PERSON_LAST_NAME",
-      "comments" : "STRING",
-      "v_industry" : "STRING",
-      "state" : "PII_LOCATION_STATE",
-      "status" : "STRING"
-    } ],
-    "page_size" : "INT"
+    "data" : {
+      "object" : {
+        "status" : "STRING",
+        "description" : "STRING",
+        "currency" : "STRING",
+        "customer" : "STRING",
+        "contactEmail" : "PII_EMAIL",
+        "object" : "STRING",
+        "shipping" : {
+          "name" : "PII_PERSON_NAME",
+          "page_index" : 3594,
+          "address" : {
+            "country" : "PII_LOCATION_COUNTRY",
+            "line1_data" : "PII_ADDRESS_LINE",
+            "state" : "STRING",
+            "stock_quantity" : 2070,
+            "postal_code" : "STRING",
+            "city" : "PII_LOCATION_CITY"
+          },
+          "phone" : "PII_PHONE_NUMBER"
+        },
+        "amount_data" : null,
+        "discount_rate" : 78.23
+      }
+    },
+    "created" : "DATETIME_EPOCH",
+    "conversion_rate" : 5.05,
+    "id" : "STRING",
+    "type" : "STRING",
+    "api_version" : "STRING",
+    "v_object" : null
   }
 }

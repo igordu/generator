@@ -1,40 +1,26 @@
 {
   "data" : {
     "fetchResource" : {
-      "primaryKey" : "STRING",
-      "resourceType_data" : "STRING",
-      "birthDate" : "PII_DATE_OF_BIRTH",
-      "v_gender" : "STRING",
-      "identifier" : [ {
-        "v_use" : "STRING",
-        "v_system" : "URL",
-        "value" : "PII_NATIONAL_ID"
-      } ],
-      "priority_level" : 3781,
-      "address" : [ {
-        "temperature_c" : 392.82,
-        "country" : "PII_LOCATION_COUNTRY",
-        "use" : "STRING",
-        "line" : [ "PII_ADDRESS_LINE" ],
-        "city" : "PII_LOCATION_CITY"
-      } ],
-      "meta" : {
-        "lastUpdated" : "DATETIME",
-        "versionId" : "INT"
+      "v_data" : {
+        "v_public_metrics" : {
+          "tweet_count" : "INT",
+          "followers_count" : "INT",
+          "system_ping_ms" : 1750,
+          "listed_count" : "INT"
+        },
+        "v_location" : "PII_LOCATION_CITY",
+        "pinned_tweet_id" : "STRING",
+        "protected" : "BOOLEAN",
+        "name" : "PII_PERSON_NAME",
+        "verified" : "BOOLEAN",
+        "description" : "STRING",
+        "primaryKey" : "STRING",
+        "profile_image_url" : "URL",
+        "userName" : "PII_USERNAME",
+        "url" : "URL",
+        "priority_level" : 1753
       },
-      "v_telecom" : [ {
-        "use" : "STRING",
-        "value" : "PII_PHONE_NUMBER",
-        "system_data" : "STRING"
-      }, {
-        "value_data" : "PII_EMAIL",
-        "system" : "STRING"
-      } ],
-      "name" : [ {
-        "given" : [ "PII_PERSON_FIRST_NAME" ],
-        "family" : "PII_PERSON_LAST_NAME",
-        "use_data" : "STRING"
-      } ]
+      "discount_rate" : 95.27
     }
   }
 }

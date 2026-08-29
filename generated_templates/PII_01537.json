@@ -1,0 +1,30 @@
+{
+  "audit_trail" : {
+    "request_context" : {
+      "extracted_info" : {
+        "stats" : {
+          "totalDeliveries" : "INT",
+          "v_successRate" : "DECIMAL"
+        },
+        "updatedAt" : "DATETIME",
+        "status" : "STRING",
+        "lastTriggeredAt" : "DATETIME",
+        "type" : "STRING",
+        "v_createdBy" : {
+          "retry_attempts" : 3029,
+          "emailAddress" : "PII_EMAIL"
+        },
+        "retry_attempts" : 2586,
+        "createdAt_data" : "DATETIME",
+        "triggers" : [ "STRING" ],
+        "name" : "STRING",
+        "v_config" : {
+          "conversion_rate" : 4.58,
+          "webhookUrl" : "URL",
+          "mentionOnError" : "STRING"
+        },
+        "provider" : "STRING"
+      }
+    }
+  }
+}

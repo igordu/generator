@@ -1,37 +1,34 @@
 {
-  "Id" : "STRING",
-  "ProviderName" : "STRING",
-  "v_Status" : "STRING",
-  "Employees" : [ {
-    "UpdatedDateUTC" : "DATETIME",
-    "EmployeeID" : "STRING",
-    "ExternalLink" : {
-      "Url" : "URL",
-      "Description" : "STRING"
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "Status_data" : "STRING",
-    "retry_attempts" : 4783,
-    "FirstName" : "PII_PERSON_FIRST_NAME"
-  }, {
-    "ExternalLink_data" : {
-      "Url" : "URL",
-      "Description" : "STRING"
-    },
-    "FirstName" : "PII_PERSON_FIRST_NAME",
-    "UpdatedDateUTC" : "DATETIME",
-    "item_count" : 386,
-    "EmployeeID" : "STRING",
-    "Status_data" : "STRING",
-    "LastName" : "PII_PERSON_LAST_NAME"
-  }, {
-    "ExternalLink" : {
-      "Description" : "STRING",
-      "Url" : "URL",
-      "has_discount" : false
-    },
-    "LastName" : "PII_PERSON_LAST_NAME",
-    "recordId" : "STRING",
-    "clientName" : "PII_PERSON_FIRST_NAME"
-  } ]
+  "server_logs" : {
+    "request_context" : {
+      "body" : {
+        "user" : {
+          "real_name" : "PII_PERSON_NAME",
+          "is_owner" : "BOOLEAN",
+          "id" : "STRING",
+          "team_id" : "STRING",
+          "tz_offset_data" : "INT",
+          "profile" : {
+            "first_name" : "PII_PERSON_FIRST_NAME",
+            "email" : "PII_EMAIL",
+            "last_name" : "PII_PERSON_LAST_NAME",
+            "real_name" : "PII_PERSON_NAME",
+            "display_name" : "PII_USERNAME",
+            "team" : "STRING",
+            "phone" : "PII_PHONE_NUMBER"
+          },
+          "is_email_confirmed" : "BOOLEAN",
+          "is_bot_data" : "BOOLEAN",
+          "is_admin" : "BOOLEAN",
+          "retry_attempts" : 206,
+          "updated" : "DATETIME_EPOCH",
+          "deleted" : "BOOLEAN",
+          "tz_label" : "STRING",
+          "tz" : "STRING",
+          "name_val" : "PII_USERNAME"
+        },
+        "ok_data" : "BOOLEAN"
+      }
+    }
+  }
 }

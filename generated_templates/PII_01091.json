@@ -1,20 +1,44 @@
 {
-  "status" : "success",
-  "code" : 200,
-  "data" : {
-    "v_country" : "STRING",
-    "customer_data" : "STRING",
-    "v_account_holder_type" : "STRING",
-    "bank_name" : "STRING",
-    "status" : "STRING",
-    "object" : "STRING",
-    "is_deleted" : true,
-    "account_type" : "STRING",
-    "account_holder_name" : "PII_PERSON_NAME",
-    "metadata" : "OBJECT",
-    "currency" : "STRING",
-    "id" : "STRING",
-    "v_fingerprint" : "STRING",
-    "routing_number" : "STRING"
-  }
+  "estimatedDelivery" : "DATE",
+  "status" : "STRING",
+  "events" : [ {
+    "status" : null,
+    "location_data" : "PII_LOCATION_CITY",
+    "timestamp_data" : "DATETIME"
+  } ],
+  "sender" : {
+    "name" : "PII_COMPANY_NAME",
+    "address" : "PII_ADDRESS_LINE",
+    "contactEmail" : "PII_EMAIL"
+  },
+  "deliveryId" : "STRING",
+  "trackingNumber" : "STRING",
+  "v_recipient" : {
+    "name" : "PII_PERSON_NAME",
+    "email" : "PII_EMAIL",
+    "phone" : "PII_PHONE_NUMBER",
+    "deliveryInstructions" : "STRING",
+    "address" : {
+      "v_city" : "PII_LOCATION_CITY",
+      "v_country" : "PII_LOCATION_COUNTRY",
+      "priority_level" : 3677,
+      "street" : "PII_ADDRESS_LINE",
+      "postalCode" : "STRING"
+    }
+  },
+  "carrier" : "STRING",
+  "v_parcels" : [ {
+    "identifier" : "STRING",
+    "weight" : {
+      "discount_rate" : 78.92,
+      "unit" : "STRING",
+      "v_value" : "DECIMAL"
+    },
+    "v_dimensions" : {
+      "length" : "INT",
+      "width" : "INT",
+      "unit_data" : "STRING",
+      "http_status" : 2601
+    }
+  } ]
 }

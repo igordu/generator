@@ -1,48 +1,22 @@
 {
-  "audit_trail" : {
-    "transaction_trace" : {
-      "debug_payload" : {
-        "identifier" : [ {
-          "value" : "PII_NATIONAL_ID",
-          "conversion_rate" : 757.48,
-          "type" : {
-            "text" : null
-          },
-          "use_data" : "STRING",
-          "system" : "URL"
-        } ],
-        "birthDate_data" : "PII_DATE_OF_BIRTH",
-        "resourceType" : "STRING",
-        "clientName" : [ {
-          "use" : "STRING",
-          "given" : [ "PII_PERSON_FIRST_NAME" ],
-          "discount_rate" : 829.02,
-          "v_family" : "PII_PERSON_LAST_NAME"
-        } ],
-        "recordId" : "STRING",
-        "is_active" : false,
-        "address" : [ {
-          "line_data" : [ "PII_ADDRESS_LINE" ],
-          "is_deleted" : true,
-          "v_country" : "PII_LOCATION_COUNTRY",
-          "use" : "STRING",
-          "city" : "PII_LOCATION_CITY"
-        } ],
-        "telecom" : [ {
-          "v_value" : "PII_PHONE_NUMBER",
-          "system" : "STRING",
-          "page_index" : 4329
-        }, {
-          "retry_attempts" : 3155,
-          "value" : "PII_EMAIL",
-          "system" : "STRING"
-        } ],
-        "meta" : {
-          "cpu_usage_percent" : 489.52,
-          "primaryKey" : "INT",
-          "lastUpdated" : "DATETIME"
-        }
-      }
-    }
+  "data" : {
+    "identifier" : "STRING",
+    "is_active" : true,
+    "url" : "URL",
+    "profile_image_url" : "URL",
+    "username" : "PII_USERNAME",
+    "location" : "PII_LOCATION_CITY",
+    "v_protected" : "BOOLEAN",
+    "description_data" : "STRING",
+    "v_created_at" : "DATETIME",
+    "public_metrics_data" : {
+      "v_following_count" : "INT",
+      "v_tweet_count" : "NULL",
+      "listed_count" : "INT",
+      "v_followers_count" : "INT"
+    },
+    "verified" : "BOOLEAN",
+    "name" : "PII_PERSON_NAME",
+    "id" : "STRING"
   }
 }

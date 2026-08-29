@@ -1,0 +1,20 @@
+{
+  "chatId": "STRING",
+  "model": "STRING",
+  "createdAt": "DATETIME",
+  "messages": [
+    {
+      "role": "STRING",
+      "content": "STRING",
+      "timestamp": "DATETIME"
+    }
+  ],
+  "usage": {
+    "inputTokens": "INT",
+    "outputTokens": "INT"
+  },
+  "metadata": {
+    "agentId": "STRING",
+    "sessionId": "STRING"
+  }
+}

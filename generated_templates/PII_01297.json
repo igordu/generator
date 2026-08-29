@@ -1,13 +1,28 @@
 {
-  "active" : "BOOLEAN",
-  "user_info" : {
-    "family-name-male" : "PII_LAST_NAME_MALE",
-    "system_ping_ms" : 1062,
-    "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-    "arline__name" : "PII_COMPANY_NAME"
+  "v_requestedBy" : "PII_EMAIL",
+  "status" : "STRING",
+  "dataSubject" : {
+    "identifier" : "STRING",
+    "fullName" : "PII_PERSON_LAST_NAME",
+    "dateOfBirth" : "PII_DATE_OF_BIRTH",
+    "clientName" : "PII_PERSON_FIRST_NAME",
+    "contactEmail" : "PII_EMAIL",
+    "country" : "PII_LOCATION_COUNTRY",
+    "is_active" : false
   },
-  "tree_data" : {
-    "v_sha" : "STRING",
-    "url" : "NULL"
-  }
+  "handledBy" : {
+    "agentId" : "STRING",
+    "email" : "PII_EMAIL",
+    "retry_attempts" : 3315
+  },
+  "legalBasis" : "STRING",
+  "requestedAt" : "DATETIME",
+  "deliveredVia" : "STRING",
+  "dataCategories_data" : [ "STRING" ],
+  "is_active" : false,
+  "v_type" : "STRING",
+  "reportId" : "STRING",
+  "downloadUrl" : "URL",
+  "v_expiresAt" : "DATETIME",
+  "completedAt" : "DATETIME"
 }

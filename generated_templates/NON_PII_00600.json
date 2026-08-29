@@ -1,40 +1,25 @@
-[ {
-  "id" : "STRING",
-  "userName" : "STRING",
-  "key" : "STRING",
-  "retry_attempts" : 1823,
-  "style" : "STRING",
-  "v_self" : "URL",
-  "insight_data" : {
-    "cache_hit" : true,
-    "totalIssueCount" : "INT",
-    "lastIssueUpdateTime" : ""
-  },
-  "avatarUrls" : {
-    "48x48" : null,
-    "24x24" : "URL",
-    "32x32" : "URL",
-    "16x16" : "URL"
-  },
-  "simplified_data" : "BOOLEAN"
-}, {
-  "style" : "STRING",
-  "insight" : {
-    "totalIssueCount" : "INT",
-    "item_count" : 3139
-  },
-  "projectCategory" : {
-    "description_data" : "STRING",
-    "id" : "STRING",
-    "self_data" : "URL",
-    "name" : "STRING"
-  },
-  "self" : "URL",
-  "id" : "STRING",
-  "avatarUrls" : {
-    "32x32" : "URL",
-    "16x16" : "URL",
-    "v_24x24" : "URL"
-  },
-  "simplified" : ""
-} ]
+{
+  "conditions" : [ {
+    "field_data" : "STRING",
+    "v_operator" : "STRING",
+    "item_count" : 2223
+  } ],
+  "ruleId" : "STRING",
+  "priority_level" : 2373,
+  "v_actions" : [ {
+    "type_data" : "STRING",
+    "v_config" : {
+      "keyBy" : "STRING",
+      "requestsPerMinute" : "INT",
+      "conversion_rate" : 5.62,
+      "v_responseMessage" : "STRING",
+      "responseCode" : "INT"
+    },
+    "discount_rate" : 29.93
+  } ],
+  "v_createdAt" : "DATETIME",
+  "description" : "STRING",
+  "v_priority" : "INT",
+  "v_createdBy" : "STRING",
+  "v_enabled" : "BOOLEAN"
+}

@@ -1,36 +1,21 @@
-[ {
-  "insight_data" : {
-    "lastIssueUpdateTime_data" : "DATETIME",
-    "totalIssueCount" : "INT"
+{
+  "metadata" : {
+    "agentId" : "STRING",
+    "sessionId" : "STRING"
   },
-  "name" : "STRING",
-  "avatarUrls_data" : {
-    "24x24" : "URL",
-    "response_time_sec" : 830.65,
-    "v_16x16" : "URL",
-    "48x48_data" : "URL"
+  "system_ping_ms" : 3903,
+  "createdAt_data" : "DATETIME",
+  "model" : "STRING",
+  "usage" : {
+    "discount_rate" : 51.03,
+    "v_inputTokens" : "NULL",
+    "outputTokens" : null
   },
-  "v_key" : "STRING",
-  "style" : "STRING",
-  "self" : "URL",
-  "uuid" : "STRING",
-  "simplified" : "BOOLEAN"
-}, {
-  "id" : "STRING",
-  "insight" : {
-    "v_totalIssueCount" : "INT",
-    "lastIssueUpdateTime_data" : null,
-    "cache_hit" : false
-  },
-  "key" : "STRING",
-  "projectCategory_data" : {
-    "name" : "STRING",
-    "description_data" : "STRING",
-    "identifier" : "STRING",
-    "self_data" : "URL"
-  },
-  "name" : "STRING",
-  "style_data" : "STRING",
-  "v_simplified" : "BOOLEAN",
-  "self" : "URL"
-} ]
+  "messages" : [ {
+    "role" : "STRING",
+    "content_data" : "STRING",
+    "timestamp" : "DATETIME",
+    "item_count" : 2061
+  } ],
+  "identifier" : "STRING"
+}

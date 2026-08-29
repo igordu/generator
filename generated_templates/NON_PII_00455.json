@@ -1,4 +1,15 @@
 {
-  "item_count" : 384,
-  "flowName" : "STRING"
+  "createdAt" : "DATETIME",
+  "cacheKey_data" : "STRING",
+  "cache_hit" : false,
+  "region" : "STRING",
+  "ttl_data" : "INT",
+  "v_hits" : "INT",
+  "lastAccessedAt" : "DATETIME",
+  "value" : {
+    "userId" : null,
+    "roles" : [ "STRING" ],
+    "expiresAt" : "DATETIME"
+  },
+  "userName" : "STRING"
 }

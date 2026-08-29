@@ -1,0 +1,34 @@
+{
+  "invoiceId": "INV-2024-00488",
+  "status": "sent",
+  "issuedAt": "2024-04-01T00:00:00Z",
+  "dueDate": "2024-04-30",
+  "vendor": {
+    "name": "CloudServices GmbH",
+    "vatNumber": "DE123456789",
+    "address": "Unter den Linden 10, 10117 Berlin, DE",
+    "email": "billing@cloudservices.de",
+    "iban": "DE89 3704 0044 0532 0130 00"
+  },
+  "customer": {
+    "name": "Lukas Schmitt",
+    "company": "Schmitt & Partner GmbH",
+    "vatNumber": "DE987654321",
+    "address": "Maximilianstraße 5, 80539 München, DE",
+    "email": "lukas.schmitt@schmitt-partner.de"
+  },
+  "lineItems": [
+    {
+      "description": "Cloud hosting - April 2024",
+      "quantity": 1,
+      "unitPrice": 499.00,
+      "vatRate": 19.0,
+      "total": 593.81
+    }
+  ],
+  "subtotal": 499.00,
+  "vatAmount": 94.81,
+  "total": 593.81,
+  "currency": "EUR",
+  "paymentTerms": "net30"
+}

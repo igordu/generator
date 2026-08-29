@@ -1,52 +1,26 @@
 {
-  "data" : {
-    "fetchResource" : [ {
-      "style" : "STRING",
-      "name" : "STRING",
-      "insight" : {
-        "system_ping_ms" : 2072,
-        "lastIssueUpdateTime" : "DATETIME",
-        "totalIssueCount" : "INT"
-      },
-      "self" : "URL",
-      "projectCategory" : {
-        "description" : "STRING",
-        "id" : "STRING",
-        "name" : "STRING"
-      },
-      "key" : "NULL",
-      "id" : "STRING",
-      "cpu_usage_percent" : 467.27,
-      "avatarUrls" : {
-        "v_16x16" : "URL",
-        "48x48" : "URL",
-        "24x24" : "URL",
-        "v_32x32" : "URL"
-      }
-    }, {
-      "self" : "URL",
-      "userName" : "STRING",
-      "id" : "STRING",
-      "avatarUrls" : {
-        "response_time_sec" : 108.14,
-        "32x32_data" : "URL",
-        "16x16" : "URL",
-        "24x24" : "URL",
-        "48x48_data" : "URL"
-      },
-      "simplified" : "BOOLEAN",
-      "insight" : {
-        "lastIssueUpdateTime_data" : "DATETIME"
-      },
-      "style" : "NULL",
-      "v_key" : "STRING",
-      "projectCategory" : {
-        "self" : "URL",
-        "id" : "STRING",
-        "page_index" : 4911,
-        "v_description" : "STRING",
-        "name" : "STRING"
-      }
-    } ]
+  "metadata" : {
+    "page" : 1,
+    "total_pages" : 5
+  },
+  "results" : {
+    "createdAt" : "DATETIME",
+    "page_index" : 1310,
+    "chatId" : "STRING",
+    "v_messages" : [ {
+      "content" : "STRING",
+      "v_timestamp" : "DATETIME",
+      "role" : "STRING"
+    } ],
+    "usage" : {
+      "outputTokens_data" : "INT",
+      "inputTokens" : "INT"
+    },
+    "model" : "STRING",
+    "v_metadata" : {
+      "sessionId" : "STRING",
+      "agentId" : "STRING",
+      "http_status" : 3128
+    }
   }
 }

@@ -1,41 +1,21 @@
-[ {
-  "filter" : "STRING",
-  "facets" : [ {
-    "cpu_usage_percent" : 850.38,
-    "count" : "INT",
-    "key" : "STRING",
-    "displayName" : "STRING"
-  }, {
-    "key" : "STRING",
-    "displayName" : "STRING",
-    "count" : "INT",
-    "cache_hit" : false
-  }, {
-    "key" : "STRING",
-    "count" : "INT"
-  } ],
-  "cpu_usage_percent" : 520.83
-}, {
-  "v_facets" : [ {
-    "key" : "STRING",
-    "count" : "INT",
-    "priority_level" : 226,
-    "displayName" : "STRING"
-  }, {
-    "fullName" : "STRING",
-    "count" : ""
-  }, {
-    "key" : "STRING",
-    "count" : "INT"
-  } ],
-  "v_filter" : "STRING"
-}, {
-  "has_discount" : true,
-  "facets" : [ {
-    "conversion_rate" : 500.79,
-    "displayName" : "STRING",
-    "key" : "STRING",
-    "count_data" : "INT"
-  } ],
-  "filter" : "STRING"
-} ]
+{
+  "v_service" : "STRING",
+  "last_status" : "STRING",
+  "last_run" : "DATETIME",
+  "v_endpoint" : "NULL",
+  "auth" : {
+    "client_secret" : "[MASKED]",
+    "api_key" : "[REDACTED]",
+    "temperature_c" : 2.73,
+    "username" : "svc_backup_01",
+    "v_password" : "********",
+    "token_expires" : "DATETIME"
+  },
+  "environment" : "STRING",
+  "log_line" : "TEXT",
+  "connection" : {
+    "v_retries" : "INT",
+    "pool_size" : "INT",
+    "timeout_ms" : "INT"
+  }
+}

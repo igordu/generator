@@ -1,20 +1,25 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
+  "version" : "INT",
+  "pageId" : "STRING",
+  "lastModifiedBy" : {
+    "email" : "PII_EMAIL",
+    "displayName" : "PII_PERSON_NAME",
+    "accountId" : "STRING"
   },
-  "results" : {
-    "user_info" : {
-      "givennamefemale" : "PII_FIRST_NAME_FEMALE",
-      "family-name-male" : "PII_LAST_NAME_MALE",
-      "arline__name" : "PII_COMPANY_NAME",
-      "conversion_rate" : 285.68
-    },
-    "active" : "BOOLEAN",
-    "tree_data" : {
-      "is_active" : true,
-      "url" : "URL",
-      "sha" : "STRING"
-    }
+  "v_labels" : [ "STRING" ],
+  "ancestors" : [ {
+    "uuid" : "STRING",
+    "system_ping_ms" : 462,
+    "title" : "STRING"
+  } ],
+  "spaceKey" : "STRING",
+  "status_data" : "STRING",
+  "createdAt" : "DATETIME",
+  "viewCount" : "INT",
+  "v_likes" : "INT",
+  "author" : {
+    "mail" : "PII_EMAIL",
+    "discount_rate" : 98.18,
+    "displayName" : "PII_PERSON_NAME"
   }
 }

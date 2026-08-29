@@ -1,5 +1,15 @@
 {
-  "emailAddressStatus" : [ "STRING" ],
-  "mail" : "PII_EMAIL",
-  "system_ping_ms" : 1153
+  "currency" : "STRING",
+  "account_type" : "STRING",
+  "v_metadata" : "OBJECT",
+  "routing_number" : "STRING",
+  "account_holder_name" : "PII_PERSON_NAME",
+  "customer_data" : "STRING",
+  "account_holder_type" : "STRING",
+  "last4" : "STRING",
+  "object" : "",
+  "id" : "STRING",
+  "status" : "STRING",
+  "country" : "STRING",
+  "name_val" : "STRING"
 }

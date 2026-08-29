@@ -1,8 +1,19 @@
 {
-  "status" : "success",
-  "code" : 200,
   "data" : {
-    "emailAddress" : "PII_EMAIL",
-    "emailAddressStatus" : [ "STRING" ]
+    "fetchResource" : {
+      "country" : "STRING",
+      "account_type" : "STRING",
+      "id" : "STRING",
+      "last4" : "STRING",
+      "userName" : "PII_PERSON_NAME",
+      "status" : "STRING",
+      "fingerprint_data" : "STRING",
+      "customer" : "STRING",
+      "metadata" : "OBJECT",
+      "routing_number" : "STRING",
+      "currency" : "STRING",
+      "object" : "STRING",
+      "account_holder_type" : "STRING"
+    }
   }
 }

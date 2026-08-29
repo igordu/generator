@@ -1,0 +1,33 @@
+{
+  "serviceId": "svc-user-profile",
+  "endpoint": "GET /v2/users/{userId}/profile",
+  "period": "2024-04-10T00:00:00Z/2024-04-10T23:59:59Z",
+  "metrics": {
+    "requestCount": 1482930,
+    "errorCount": 1204,
+    "errorRate": 0.00081,
+    "p50LatencyMs": 12,
+    "p95LatencyMs": 48,
+    "p99LatencyMs": 142,
+    "p999LatencyMs": 842,
+    "throughputRps": 17.16
+  },
+  "statusCodes": {
+    "200": 1481726,
+    "404": 892,
+    "429": 210,
+    "500": 102
+  },
+  "topErrors": [
+    { "code": "USER_NOT_FOUND", "count": 892 },
+    { "code": "RATE_LIMIT_EXCEEDED", "count": 210 },
+    { "code": "DATABASE_TIMEOUT", "count": 102 }
+  ],
+  "sloCompliance": {
+    "availabilityTarget": 99.9,
+    "availabilityActual": 99.93,
+    "latencyTarget": 100,
+    "latencyActualP99": 142,
+    "withinSlo": true
+  }
+}

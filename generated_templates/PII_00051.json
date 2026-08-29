@@ -1,22 +1,70 @@
 {
-  "metadata" : {
-    "page" : 1,
-    "total_pages" : 5
-  },
-  "results" : {
-    "content" : [ {
-      "customerCity" : "PII_LOCATION_CITY",
-      "primaryKey" : "STRING",
-      "articleId" : "STRING",
-      "rating_data" : "INT",
-      "title" : "PII_COMPANY_NAME",
-      "language" : "STRING",
-      "description_data" : "STRING",
-      "customerCountry_data" : "PII_LOCATION_COUNTRY",
-      "priority_level" : 3135,
-      "recommend" : "BOOLEAN",
-      "unhelpfulCount" : "INT",
-      "helpfulCount" : "INT"
-    } ]
-  }
+  "retry_attempts" : 4020,
+  "href" : "STRING",
+  "next" : "STRING",
+  "total" : "INT",
+  "v_prev" : "STRING",
+  "offset" : "NULL",
+  "limit" : "INT",
+  "transactions" : [ {
+    "paymentsEntity" : "STRING",
+    "transactionType" : "STRING",
+    "feeType" : "",
+    "recordId" : "STRING",
+    "auto_renew" : true,
+    "v_salesRecordReference" : "STRING",
+    "buyer" : {
+      "username" : "PII_USERNAME"
+    },
+    "amount" : {
+      "convertedFromValue_data" : "STRING",
+      "retry_attempts" : 3315,
+      "exchangeRate" : "STRING",
+      "v_currency" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING"
+    },
+    "transactionMemo" : "STRING",
+    "uuid" : "STRING",
+    "orderLineItems" : [ {
+      "feeBasisAmount" : {
+        "value" : "STRING",
+        "convertedFromValue" : "STRING",
+        "convertedFromCurrency" : "STRING",
+        "exchangeRate" : "NULL",
+        "v_currency" : "STRING"
+      },
+      "marketplaceFees" : [ {
+        "feeMemo" : "STRING",
+        "feeType" : "STRING",
+        "feeJurisdiction" : {
+          "regionType" : "STRING"
+        },
+        "is_deleted" : false
+      } ]
+    } ],
+    "totalFeeAmount_data" : {
+      "convertedFromCurrency" : "STRING",
+      "value" : "STRING",
+      "exchangeRate" : "NULL",
+      "v_convertedFromValue" : "STRING",
+      "currency" : "STRING"
+    },
+    "bookingEntry" : "STRING",
+    "totalFeeBasisAmount" : {
+      "exchangeRate" : "STRING",
+      "value" : "STRING",
+      "convertedFromCurrency" : "STRING",
+      "currency" : "STRING"
+    },
+    "transactionDate" : "DATETIME",
+    "references" : [ {
+      "v_referenceType" : "STRING",
+      "recordId" : "STRING"
+    } ],
+    "feeJurisdiction" : {
+      "regionName" : "STRING",
+      "regionType" : "STRING"
+    }
+  } ]
 }
