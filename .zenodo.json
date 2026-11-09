@@ -2,6 +2,7 @@
   "title": "Data generator",
   "upload_type": "software",
   "version": "1.0.0",
+  "license": "mit",
   "creators": [
     {
       "name": "Dujlovic, Igor",
