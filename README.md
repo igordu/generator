@@ -195,4 +195,4 @@ mvn exec:java -Dexec.mainClass=phd.DataGenerator
 
 ## License
 
-This project does not currently define a formal license and is intended for internal research use.
+This project, including the generated datasets, is licensed under the MIT License. See LICENSE for details.
