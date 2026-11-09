@@ -1,0 +1,12 @@
+{
+  "title": "Data generator",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Dujlovic, Igor",
+      "affiliation": "University of Banja Luka, Faculty of Electrical Engineering"
+    }
+  ],
+  "description": "Template corpus, synthetic data generation pipeline, training script and exact library versions used for training and model conversion in the paper \"A Framework for Near Real-Time Detection of Sensitive Data in Microservice Environments\"."
+}
